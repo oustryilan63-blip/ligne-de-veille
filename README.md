@@ -4,7 +4,12 @@ Site francophone consacré à l'actualité de la défense, de la sécurité et d
 
 ## Ouvrir le site
 
-Le site fonctionne sans installation : ouvrez `index.html` dans un navigateur. La page `jeux.html` contient le jeu de 45 engins.
+- [Site actuel](https://oustryilan63-blip.github.io/ligne-de-veille/)
+- [Jeu de 45 engins](https://oustryilan63-blip.github.io/ligne-de-veille/jeux.html)
+- [Maquette de l'accueil](https://oustryilan63-blip.github.io/ligne-de-veille/apercu-accueil.html)
+- [Maquette du jeu](https://oustryilan63-blip.github.io/ligne-de-veille/apercu-jeux.html)
+
+Le site fonctionne également sans installation : ouvrez `index.html` dans un navigateur. La page `jeux.html` contient le jeu de 45 engins.
 
 Deux maquettes permettent de comparer une nouvelle direction graphique « Atlas stratégique » avant de l'appliquer au site :
 

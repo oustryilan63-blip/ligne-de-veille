@@ -4,9 +4,9 @@ Prototype de revue française consacré à la défense, à la sécurité et à l
 
 La page d'accueil se concentre sur une sélection d'actualités sourcées et datées. Chaque sujet comporte un bref « Pourquoi c'est important » et renvoie à sa publication d'origine. Une archive regroupe les sujets par mois. Le bouton « Signaler une erreur » prépare un e-mail vers l'adresse choisie par le propriétaire du site. La sélection et les résumés sont produits automatiquement avec une aide de l'IA, sans validation humaine systématique avant publication ; les sources d'origine restent la référence.
 
-Cette copie locale ne nécessite aucune installation : ouvrez `index.html` dans un navigateur. Elle contient huit publications au 10 octobre 2026. La version publique avec le jeu est disponible à l'adresse https://illustrious-kelpie-138794.netlify.app/. L'ancienne version privée, sans le jeu, reste disponible à l'adresse https://ligne-de-veille.astuteghost128.chatgpt.site/.
+Cette copie locale ne nécessite aucune installation : ouvrez `index.html` dans un navigateur. Elle contient huit publications au 10 octobre 2026. La version publique à jour est disponible à l'adresse https://oustryilan63-blip.github.io/ligne-de-veille/. Une ancienne copie reste accessible sur Netlify à l'adresse https://illustrious-kelpie-138794.netlify.app/. L'ancienne version privée, sans le jeu, reste disponible à l'adresse https://ligne-de-veille.astuteghost128.chatgpt.site/.
 
-La nouvelle adresse publique est une copie statique : ses actualités ne se mettent pas à jour automatiquement. La veille quotidienne à 8 h continue sur l'ancienne version privée et, lorsque l'ordinateur et l'application sont ouverts, dans cette copie locale. Après une mise à jour locale, il faut redéployer les fichiers sur Netlify pour actualiser la version publique.
+La nouvelle adresse publique est une copie statique : ses actualités ne se mettent pas à jour automatiquement. La veille quotidienne à 8 h continue sur l'ancienne version privée et, lorsque l'ordinateur et l'application sont ouverts, dans cette copie locale. Après une mise à jour locale, il faut envoyer les fichiers modifiés dans le dépôt GitHub ; GitHub Pages publie alors cette nouvelle version.
 
 ## Jeux
 
@@ -16,7 +16,7 @@ Les rubriques « Actualités » et « Jeux » apparaissent en haut des deux page
 
 La carte utilise les données Natural Earth du domaine public et couvre 241 pays et territoires représentés dans le jeu de données à l'échelle 1:50 millions. Elle se déplace au glisser avec la souris ou le doigt. La molette, le pincement à deux doigts et les boutons permettent de zoomer ; « Vue monde » recentre la carte. Les photos proviennent de Wikimedia Commons ; leur auteur, leur page et leur licence sont indiqués sous chaque image dans le jeu. Les trente-huit photos ajoutées et leur relevé de crédits sont rassemblés dans `assets/jeu/ajouts`. Le jeu reste disponible hors ligne.
 
-Le jeu est disponible dans cette copie locale. Une ancienne version est toujours accessible à l'adresse publique Netlify. La mise en ligne des quarante-cinq engins attend la reprise des déploiements sur ce compte Netlify. L'actualité automatique de l'ancienne version privée continue indépendamment.
+Le jeu de quarante-cinq engins est disponible dans cette copie locale et sur GitHub Pages. Deux maquettes de la nouvelle direction graphique sont accessibles via `apercu-accueil.html` et `apercu-jeux.html` ; elles utilisent `atlas.css` et les polices libres IBM Plex rangées dans `assets/fonts/atlas`. Le site actuel reste séparé des maquettes. L'actualité automatique de l'ancienne version privée continue indépendamment.
 
 ## Mise à jour de la veille
 
