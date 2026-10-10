@@ -13,7 +13,7 @@ ru:[{name:'Borei-A · projet 955A',status:'Classe en service · génération mod
 };
 const zones=[{start:[440,205],buoys:[[460,260],[480,325],[500,390]]},{start:[115,230],buoys:[[135,300],[175,360],[230,410]]},{start:[790,320],buoys:[[820,355],[845,400],[880,440]]}];
 let costs=[65,140,215];const capacities=[90,170,250],names=['A','B','C'];
-const tips=['Un essai permet de vérifier une chaîne de fonctionnement. Ici, le projectile fictif et la zone sont entièrement fictives.','Une carte plane déforme les distances. Les unités de cette activité sont des règles de jeu, pas des kilomètres.','SNLE désigne un sous-marin nucléaire lanceur d’engins. Le terme anglais correspondant est SSBN.'];
+const tips=['Un essai permet de vérifier une chaîne de fonctionnement. Ici, le projectile et la zone sont entièrement fictifs.','Une carte plane déforme les distances. Les unités de cette activité sont des règles de jeu, pas des kilomètres.','SNLE désigne un sous-marin nucléaire lanceur d’engins. Le terme anglais correspondant est SSBN.'];
 let customStart=null,placing=false;
 const map=$('hz-map');let round=0,score=0,selected=null,busy=false,complete=false,frame=0,view={x:-60,y:-25,w:1320,h:550};
 function svg(tag,attrs={},text=''){const el=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>el.setAttribute(k,v));el.textContent=text;return el;}
@@ -24,7 +24,7 @@ function country(){const select=$('hz-class');select.replaceChildren();classes[$
 $('hz-country').addEventListener('change',country);$('hz-class').addEventListener('change',fact);country();
 function renderMap(){const zone={...zones[Number($('hz-zone').value)],start:getStart()},g=$('hz-exercise');g.replaceChildren();g.append(svg('ellipse',{cx:zone.start[0],cy:zone.start[1],rx:15,ry:6,fill:'#dae0bf',stroke:'none'}),svg('path',{d:`M${zone.start[0]-3} ${zone.start[1]-5}v-7h8v7`,fill:'#dae0bf',stroke:'none'}),svg('text',{x:zone.start[0]+22,y:zone.start[1]+4},'DÉPART'));
 zone.buoys.forEach((p,i)=>{const b=svg('g',{class:'buoy'+(selected===i?' selected':''),role:'button',tabindex:busy||complete?-1:0,'aria-label':`Bouée ${names[i]}, ${costs[i]} unités`,'aria-pressed':String(selected===i)});b.append(svg('circle',{cx:p[0],cy:p[1],r:12}),svg('text',{x:p[0],y:p[1]+4,'text-anchor':'middle'},names[i]));b.addEventListener('click',()=>choose(i));b.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose(i);}});g.append(b);});}
-function choose(i){if(busy||complete)return;selected=i;renderMap();document.querySelectorAll('#hz-buoys button').forEach((b,n)=>b.setAttribute('aria-pressed',String(n===i)));$('hz-feedback').textContent=`Bouée ${names[i]} sélectionnée · ${costs[i]} unités de jeu. Autonomie de le projectile fictif : ${capacities[Number($('hz-probe').value)]} unités.`;$('hz-launch').disabled=false;}
+function choose(i){if(busy||complete)return;selected=i;renderMap();document.querySelectorAll('#hz-buoys button').forEach((b,n)=>b.setAttribute('aria-pressed',String(n===i)));$('hz-feedback').textContent=`Bouée ${names[i]} sélectionnée · ${costs[i]} unités de jeu. Autonomie du projectile fictif : ${capacities[Number($('hz-probe').value)]} unités.`;$('hz-launch').disabled=false;}
 for(let i=0;i<3;i++){const b=document.createElement('button');b.textContent=`Bouée ${names[i]} · ${costs[i]} u`;b.setAttribute('aria-pressed','false');b.addEventListener('click',()=>choose(i));$('hz-buoys').append(b);}
 $('hz-probe').addEventListener('change',()=>{if(selected!==null)choose(selected);});
 function lock(value){for(const id of ['hz-country','hz-class','hz-zone','hz-probe','hz-place'])$(id).disabled=value;document.querySelectorAll('#hz-buoys button').forEach(b=>b.disabled=value);}
@@ -33,7 +33,7 @@ $('hz-zone').addEventListener('change',()=>{round=0;score=0;customStart=null;res
 $('hz-launch').addEventListener('click',()=>{
 if(busy||complete||selected===null)return;
 if(selected!==round){$('hz-feedback').textContent=`La mission demande la bouée ${names[round]}. Tu peux corriger ton choix.`;return;}
-const probe=Number($('hz-probe').value);if(capacities[probe]<costs[selected]){$('hz-feedback').textContent='Autonomie insuffisante. Choisis une autre projectile fictif ou rapproche le sous-marin de la bouée.';return;}
+const probe=Number($('hz-probe').value);if(capacities[probe]<costs[selected]){$('hz-feedback').textContent='Autonomie insuffisante. Choisis un autre projectile fictif ou rapproche le sous-marin de la bouée.';return;}
 stopPlacing();busy=true;lock(true);$('hz-launch').disabled=true;renderMap();const zone=zones[Number($('hz-zone').value)],start=getStart(),end=zone.buoys[selected],control=[(start[0]+end[0])/2-65,(start[1]+end[1])/2-55];
 const path=svg('path',{d:`M${start} Q${control} ${end}`,fill:'none',stroke:'#e6b074','stroke-width':2,'stroke-dasharray':'5 5','vector-effect':'non-scaling-stroke'}),dot=svg('circle',{cx:start[0],cy:start[1],r:5,fill:'#fff0c7',stroke:'#e6b074','stroke-width':3});$('hz-flight').append(path,dot);
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches,duration=reduced?50:4200,t0=performance.now();
