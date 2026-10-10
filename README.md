@@ -4,19 +4,12 @@ Site francophone consacré à l'actualité de la défense, de la sécurité et d
 
 ## Ouvrir le site
 
-- [Site actuel](https://oustryilan63-blip.github.io/ligne-de-veille/)
+- [Site](https://oustryilan63-blip.github.io/ligne-de-veille/)
 - [Jeu de 45 engins](https://oustryilan63-blip.github.io/ligne-de-veille/jeux.html)
-- [Maquette de l'accueil](https://oustryilan63-blip.github.io/ligne-de-veille/apercu-accueil.html)
-- [Maquette du jeu](https://oustryilan63-blip.github.io/ligne-de-veille/apercu-jeux.html)
 
 Le site fonctionne également sans installation : ouvrez `index.html` dans un navigateur. La page `jeux.html` contient le jeu de 45 engins.
 
-Deux maquettes permettent de comparer une nouvelle direction graphique « Atlas stratégique » avant de l'appliquer au site :
-
-- `apercu-accueil.html` : accueil ;
-- `apercu-jeux.html` : jeu.
-
-Les polices IBM Plex de la maquette sont conservées dans `assets/fonts/atlas` avec leur licence. Les crédits des photos du jeu sont affichés sous chaque photo et relevés dans `assets/jeu/ajouts/credits.json`.
+La direction graphique « Atlas stratégique » est appliquée à l'accueil et au jeu. Les polices IBM Plex sont conservées dans `assets/fonts/atlas` avec leur licence. Les crédits des photos du jeu sont affichés sous chaque photo et relevés dans `assets/jeu/ajouts/credits.json`.
 
 ## Actualités
 

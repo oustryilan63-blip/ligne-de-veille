@@ -1,4 +1,4 @@
-/* Maquette « Atlas stratégique » : chargée après les styles du site. */
+/* Direction graphique « Atlas stratégique » : chargée après les styles du site. */
 @font-face{font-family:'IBM Plex Sans';src:url('assets/fonts/atlas/plex-sans-regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
 @font-face{font-family:'IBM Plex Sans';src:url('assets/fonts/atlas/plex-sans-semibold.ttf') format('truetype');font-style:normal;font-weight:600;font-display:swap}
 @font-face{font-family:'IBM Plex Sans Condensed';src:url('assets/fonts/atlas/plex-condensed-semibold.ttf') format('truetype');font-style:normal;font-weight:600;font-display:swap}
@@ -10,9 +10,6 @@ html{scroll-behavior:smooth}
 body{background:var(--paper);font-family:var(--sans);letter-spacing:-.01em}
 button,input,select,textarea{font-family:var(--sans)}
 a:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
-.design-preview-banner{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:9px max(24px,calc((100vw - 1380px)/2));background:#c4d2bd;color:#172126;font:500 11px/1.4 var(--mono);letter-spacing:.01em}
-.design-preview-banner strong{font-weight:500}
-.design-preview-banner a{text-decoration:underline;text-underline-offset:3px}
 .utility-bar{background:#121c20;color:#c7d1cc;font:500 9px/1 var(--mono);letter-spacing:.06em}
 .site-header{height:77px;background:#fbfcf7;border-bottom:1px solid #bdc7bf}
 .brand-mark{border-color:#22312f;background:#22312f;color:#f4f6ef;transform:none;width:47px;height:47px;letter-spacing:-.08em;font-size:18px}
@@ -120,7 +117,6 @@ a:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-visible
   .news-card:first-child{margin:0}
 }
 @media(max-width:760px){
-  .design-preview-banner{padding:9px 20px;font-size:9px}
   .hero{height:auto;min-height:0}
   .hero-content{padding-top:82px;padding-bottom:95px}
   .hero h1{font-size:clamp(64px,13vw,94px)}
@@ -132,8 +128,6 @@ a:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-visible
   .challenge-copy h2{font-size:clamp(49px,10vw,70px)}
 }
 @media(max-width:520px){
-  .design-preview-banner{display:block}
-  .design-preview-banner a{display:inline-block;margin-top:3px}
   .hero h1{font-size:clamp(57px,13.8vw,74px)}
   .hero p{font-size:15px}
   .news-card:first-child{padding:27px}
