@@ -11,54 +11,86 @@ us:[{name:'Ohio · version SSBN',status:'Classe en service',system:'Trident II D
 ru:[{name:'Borei-A · projet 955A',status:'Classe en service · génération modernisée',system:'Bulava',description:'La version modernisée de la famille Borei, construite par le chantier Sevmash.',detail:'Le Borei-A prolonge la famille Borei. Sevmash indique que le bâtiment de tête Knyaz Vladimir a rejoint la flotte en 2020. Le chantier documente également un essai de Bulava réalisé par le Knyaz Oleg pendant ses essais. Les déclarations du constructeur sont citées comme telles.',sources:[['Sevmash · Knyaz Oleg et Borei-A (russe)','https://sevmash.ru/rus/news/3190-2022-01-28-11-48-17.html']]},
 {name:'Borei · projet 955',status:'Classe en service · première série',system:'Bulava',description:'La première série de la famille, qui précède les Borei-A.',detail:'La première série Borei comprend les bâtiments Yury Dolgoruky, Alexander Nevsky et Vladimir Monomakh, admis au service en 2013 et 2014 selon Sevmash. Le chantier a documenté en septembre 2014 un essai du système Bulava depuis le Vladimir Monomakh.',sources:[['Sevmash · première série (russe)','https://sevmash.ru/rus/news/3102-2021-05-28-09-27-40.html'],['Sevmash · essai de 2014 (russe)','https://sevmash.ru/rus/news/1769--l-r-lr-.html']]}]
 };
-const zones=[{start:[440,205],buoys:[[460,260],[480,325],[500,390]]},{start:[115,230],buoys:[[135,300],[175,360],[230,410]]},{start:[790,320],buoys:[[820,355],[845,400],[880,440]]}];
-let costs=[65,140,215];const capacities=[90,170,250],names=['A','B','C'];
-const tips=['Un essai permet de vérifier une chaîne de fonctionnement. Ici, le projectile et la zone sont entièrement fictifs.','Une carte plane déforme les distances. Les unités de cette activité sont des règles de jeu, pas des kilomètres.','SNLE désigne un sous-marin nucléaire lanceur d’engins. Le terme anglais correspondant est SSBN.'];
-let customStart=null,placing=false;
-const map=$('hz-map');let round=0,score=0,selected=null,busy=false,complete=false,frame=0,view={x:-60,y:-25,w:1320,h:550};
-function svg(tag,attrs={},text=''){const el=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>el.setAttribute(k,v));el.textContent=text;return el;}
-for(const c of window.LDV_MAP)$('hz-land').append(svg('path',{d:c.path}));
 function fact(){const photo=photos[photoKeys[$('hz-country').value][Number($('hz-class').value)]];$('hz-sub-photo').src=photo.src;$('hz-sub-photo').alt=photo.caption;const caption=$('hz-photo-credit');caption.replaceChildren();const label=document.createElement('span');label.textContent=photo.caption;const credit=document.createElement('a');credit.href=photo.page;credit.target='_blank';credit.rel='noopener noreferrer';credit.textContent=photo.artist+' · ';const license=document.createElement('a');license.href=photo.licenseUrl;license.target='_blank';license.rel='noopener noreferrer';license.textContent=photo.license;caption.append(label,credit,license);const c=classes[$('hz-country').value][Number($('hz-class').value)];$('hz-class-name').textContent=c.name;$('hz-class-status').textContent=c.status;$('hz-class-description').textContent=c.description;
 const panel=$('hz-fact-card');panel.replaceChildren();const left=document.createElement('div'),right=document.createElement('div'),title=document.createElement('h3'),p=document.createElement('p');title.textContent=c.name;p.textContent=c.detail;left.append(title,p);const dl=document.createElement('dl');for(const [label,value] of [['Statut',c.status],['Système réel associé · documentation',c.system]]){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value;dl.append(dt,dd);}right.append(dl);for(const [label,url] of c.sources){const a=document.createElement('a');a.href=url;a.textContent=label+' ↗';a.target='_blank';a.rel='noopener noreferrer';right.append(a);}panel.append(left,right);}
 function country(){const select=$('hz-class');select.replaceChildren();classes[$('hz-country').value].forEach((c,i)=>{const o=document.createElement('option');o.value=i;o.textContent=c.name;select.append(o);});fact();}
 $('hz-country').addEventListener('change',country);$('hz-class').addEventListener('change',fact);country();
-function renderMap(){const zone={...zones[Number($('hz-zone').value)],start:getStart()},g=$('hz-exercise');g.replaceChildren();g.append(svg('ellipse',{cx:zone.start[0],cy:zone.start[1],rx:15,ry:6,fill:'#dae0bf',stroke:'none'}),svg('path',{d:`M${zone.start[0]-3} ${zone.start[1]-5}v-7h8v7`,fill:'#dae0bf',stroke:'none'}),svg('text',{x:zone.start[0]+22,y:zone.start[1]+4},'DÉPART'));
-zone.buoys.forEach((p,i)=>{const b=svg('g',{class:'buoy'+(selected===i?' selected':''),role:'button',tabindex:busy||complete?-1:0,'aria-label':`Bouée ${names[i]}, ${costs[i]} unités`,'aria-pressed':String(selected===i)});b.append(svg('circle',{cx:p[0],cy:p[1],r:12}),svg('text',{x:p[0],y:p[1]+4,'text-anchor':'middle'},names[i]));b.addEventListener('click',()=>choose(i));b.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose(i);}});g.append(b);});}
-function choose(i){if(busy||complete)return;selected=i;renderMap();document.querySelectorAll('#hz-buoys button').forEach((b,n)=>b.setAttribute('aria-pressed',String(n===i)));$('hz-feedback').textContent=`Bouée ${names[i]} sélectionnée · ${costs[i]} unités de jeu. Autonomie du projectile fictif : ${capacities[Number($('hz-probe').value)]} unités.`;$('hz-launch').disabled=false;}
-for(let i=0;i<3;i++){const b=document.createElement('button');b.textContent=`Bouée ${names[i]} · ${costs[i]} u`;b.setAttribute('aria-pressed','false');b.addEventListener('click',()=>choose(i));$('hz-buoys').append(b);}
-$('hz-probe').addEventListener('change',()=>{if(selected!==null)choose(selected);});
-function lock(value){for(const id of ['hz-country','hz-class','hz-zone','hz-probe','hz-place'])$(id).disabled=value;document.querySelectorAll('#hz-buoys button').forEach(b=>b.disabled=value);}
-function resetMission(){stopPlacing();updateCosts();busy=false;complete=false;selected=null;$('hz-flight').replaceChildren();$('hz-progress').style.width='0%';$('hz-round').textContent=`MISSION ${String(round+1).padStart(2,'0')} / 03`;$('hz-objective').textContent=`Rejoins la bouée ${names[round]}`;$('hz-score').textContent=score;$('hz-feedback').textContent=`Choisis la bouée ${names[round]} et un projectile fictif capable de parcourir ${costs[round]} unités de jeu.`;$('hz-launch').hidden=false;$('hz-launch').disabled=true;$('hz-next').hidden=true;lock(false);document.querySelectorAll('#hz-buoys button').forEach(b=>b.setAttribute('aria-pressed','false'));renderMap();}
-$('hz-zone').addEventListener('change',()=>{round=0;score=0;customStart=null;resetMission();resetView();});
+const zones=[[440,205],[115,230],[790,320]],capacities=[90,170,250];
+const map=$('hz-map');
+let start=[...zones[0]],arrival=null,placing=null,busy=false,frame=0,completed=0;
+let view={x:-60,y:-25,w:1320,h:550};
+const polygons=window.LDV_MAP.flatMap(c=>c.path.split('M').slice(1).map(part=>part.replace(/[LZ]/g,' ').trim().split(/\s+/).map(s=>s.split(',').map(Number))));
+function inPolygon(p,poly){let inside=false;for(let i=0,j=poly.length-1;i<poly.length;j=i++){const a=poly[i],b=poly[j];if((a[1]>p.y)!==(b[1]>p.y)&&p.x<(b[0]-a[0])*(p.y-a[1])/(b[1]-a[1])+a[0])inside=!inside;}return inside;}
+function isOcean(p){return p.x>=0&&p.x<=1200&&p.y>=0&&p.y<=480&&!polygons.some(poly=>inPolygon(p,poly));}
+function distance(){return arrival?Math.ceil(Math.hypot(arrival[0]-start[0],arrival[1]-start[1])):0;}
+function svg(tag,attrs={},text=''){const el=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>el.setAttribute(k,v));el.textContent=text;return el;}
+for(const c of window.LDV_MAP)$('hz-land').append(svg('path',{d:c.path}));
+function markerScale(){return 1/(map.getScreenCTM()?.a||1);}
+function renderMap(){
+ const g=$('hz-exercise'),s=markerScale();g.replaceChildren();
+ const sub=svg('g',{class:'hz-sub-marker',transform:`translate(${start}) scale(${s})`,role:'img','aria-label':'Sous-marin, point de départ'});
+ sub.append(svg('path',{d:'M-49 4Q-37-1-27 2M-50 10Q-36 6-26 8M-45 15Q-34 12-27 12',fill:'none',stroke:'#9ababa','stroke-width':1.2,opacity:.55}));
+ sub.append(svg('path',{d:'M-33 2L-43-8L-37 7L-44 18L-31 12Z',fill:'#76969c',stroke:'#b5cbc6','stroke-width':.8}));
+ sub.append(svg('path',{d:'M-30 0C-16-4 20-4 33 0Q44 4 35 10C20 16-19 15-31 10Z',fill:'url(#hz-hull)',stroke:'#b0c4be','stroke-width':1}));
+ sub.append(svg('path',{d:'M-14-1L-12-14Q-5-17 0-12L4-1Z',fill:'#4c6c77',stroke:'#aac3c1','stroke-width':.8}));
+ sub.append(svg('path',{d:'M-8-14V-21H-5M-2-12V-18M-15-5H-23L-18-2H3L8-5Z',fill:'#8da9ab',stroke:'#c5d5cf','stroke-width':1}));
+ sub.append(svg('path',{d:'M5 0L15 8L26 8L17 0Z',fill:'#708c94',stroke:'#afc5c5','stroke-width':.6}));
+ sub.append(svg('path',{d:'M-28 4Q-6 1 28 3M-23 9Q1 12 28 8',stroke:'#a0b6b5','stroke-width':.6,opacity:.75,fill:'none'}));
+ for(let i=0;i<4;i++)sub.append(svg('path',{d:`M${6+i*5} -1v2`,stroke:'#b2c5c0','stroke-width':.7}));
+ g.append(sub,svg('text',{x:start[0],y:start[1]+30*s,'text-anchor':'middle','font-size':9*s},'SOUS-MARIN'));
+ if(arrival){const mark=svg('g',{class:'hz-arrival',transform:`translate(${arrival}) scale(${s})`,role:'img','aria-label':'Point d’arrivée en mer'});mark.append(svg('path',{d:'M-9 0H-3M3 0H9M0-9V-3M0 3V9M-5-5L5 5M-5 5L5-5',stroke:'#e4b081','stroke-width':1.5,fill:'none'}));g.append(mark,svg('text',{x:arrival[0],y:arrival[1]+24*s,'text-anchor':'middle','font-size':9*s},'ARRIVÉE'));}
+}
+function setFeedback(text){$('hz-feedback').textContent=text;}
+function updateRoute(){
+ const d=distance(),capacity=capacities[Number($('hz-probe').value)];
+ $('hz-distance').textContent=arrival?`${d} unités de carte fictives`:'— unités de carte';
+ $('hz-route-state').textContent=arrival?(d<=capacity?'Trajet prêt':'Autonomie fictive insuffisante'):'Arrivée à choisir';
+ $('hz-launch').disabled=busy||!arrival;
+ $('hz-objective').textContent=arrival?'Ton trajet d’essai.':'Prépare ton essai.';
+ renderMap();
+}
+function stopPlacing(){placing=null;map.classList.remove('placing');$('hz-place').setAttribute('aria-pressed','false');$('hz-destination').setAttribute('aria-pressed','false');$('hz-place').textContent='1 · Placer le sous-marin';$('hz-destination').textContent='2 · Choisir l’arrivée';}
+function setPlacing(mode){if(busy)return;if(placing===mode){stopPlacing();setFeedback('Placement annulé. Tu peux déplacer la carte ou lancer le trajet préparé.');return;}stopPlacing();placing=mode;map.classList.add('placing');const button=$(mode==='start'?'hz-place':'hz-destination');button.setAttribute('aria-pressed','true');button.textContent='Annuler le placement';setFeedback(mode==='start'?'Clique dans l’océan pour placer le sous-marin. Au clavier : zoome, déplace la carte puis valide le centre avec Entrée.':'Clique dans l’océan pour choisir l’arrivée. Au clavier : zoome, déplace la carte puis valide le centre avec Entrée.');map.focus({preventScroll:true});}
+function clearAnimation(){cancelAnimationFrame(frame);$('hz-flight').replaceChildren();$('hz-progress').style.width='0%';}
+function place(p){
+ if(!placing||busy)return;
+ if(!isOcean(p)){setFeedback('Choisis un point dans l’océan, hors des terres et des eaux intérieures.');return;}
+ const other=placing==='start'?arrival:start;
+ if(other&&Math.hypot(p.x-other[0],p.y-other[1])<12){setFeedback('Éloigne un peu les deux points pour que le trajet soit visible.');return;}
+ const mode=placing;if(mode==='start')start=[p.x,p.y];else arrival=[p.x,p.y];
+ stopPlacing();clearAnimation();updateRoute();setFeedback((mode==='start'?'Sous-marin repositionné. ':'Arrivée choisie en mer. ')+(arrival?`Trajet : ${distance()} unités de carte fictives.`:'Choisis maintenant le point d’arrivée.'));
+}
+function lock(value){for(const id of ['hz-country','hz-class','hz-zone','hz-probe','hz-place','hz-destination','hz-clear'])$(id).disabled=value;$('hz-launch').hidden=value;$('hz-stop').hidden=!value;}
+$('hz-place').addEventListener('click',()=>setPlacing('start'));
+$('hz-destination').addEventListener('click',()=>setPlacing('arrival'));
+$('hz-clear').addEventListener('click',()=>{if(busy)return;stopPlacing();arrival=null;clearAnimation();updateRoute();setFeedback('Trajet effacé. Choisis une nouvelle arrivée en mer.');});
+$('hz-zone').addEventListener('change',()=>{start=[...zones[Number($('hz-zone').value)]];arrival=null;stopPlacing();clearAnimation();resetView();updateRoute();setFeedback('Zone de départ changée. Place le sous-marin où tu veux, puis choisis l’arrivée.');});
+$('hz-probe').addEventListener('change',()=>{clearAnimation();updateRoute();setFeedback(arrival?`Trajet : ${distance()} unités. Autonomie fictive : ${capacities[Number($('hz-probe').value)]} unités.`:'Choisis une arrivée en mer pour préparer l’essai.');});
+$('hz-stop').addEventListener('click',()=>{clearAnimation();busy=false;lock(false);updateRoute();setFeedback('Essai interrompu. Tu peux modifier ton trajet et recommencer.');});
 $('hz-launch').addEventListener('click',()=>{
-if(busy||complete||selected===null)return;
-if(selected!==round){$('hz-feedback').textContent=`La mission demande la bouée ${names[round]}. Tu peux corriger ton choix.`;return;}
-const probe=Number($('hz-probe').value);if(capacities[probe]<costs[selected]){$('hz-feedback').textContent='Autonomie insuffisante. Choisis un autre projectile fictif ou rapproche le sous-marin de la bouée.';return;}
-stopPlacing();busy=true;lock(true);$('hz-launch').disabled=true;renderMap();const zone=zones[Number($('hz-zone').value)],start=getStart(),end=zone.buoys[selected],control=[(start[0]+end[0])/2-65,(start[1]+end[1])/2-55];
-const path=svg('path',{d:`M${start} Q${control} ${end}`,fill:'none',stroke:'#e6b074','stroke-width':2,'stroke-dasharray':'5 5','vector-effect':'non-scaling-stroke'}),dot=svg('circle',{cx:start[0],cy:start[1],r:5,fill:'#fff0c7',stroke:'#e6b074','stroke-width':3});$('hz-flight').append(path,dot);
-const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches,duration=reduced?50:4200,t0=performance.now();
-function animate(t){const n=Math.min(1,(t-t0)/duration),q=1-n;dot.setAttribute('cx',q*q*start[0]+2*q*n*control[0]+n*n*end[0]);dot.setAttribute('cy',q*q*start[1]+2*q*n*control[1]+n*n*end[1]);$('hz-progress').style.width=`${n*100}%`;if(n<1){$('hz-feedback').textContent=n<.25?'Projectile d’exercice lancé · début de l’essai…':n<.8?'Projectile d’exercice en transit · télémétrie reçue…':'Approche de la bouée…';frame=requestAnimationFrame(animate);}else{busy=false;complete=true;const gain=100+(probe===capacities.findIndex(c=>c>=costs[selected])?50:0);score+=gain;$('hz-score').textContent=score;$('hz-feedback').textContent=`Bouée rejointe ! +${gain} points. ${tips[round]}`;$('hz-launch').hidden=true;$('hz-next').hidden=false;$('hz-next').textContent=round===2?'Nouvelle expédition ↗':'Mission suivante ↗';$('hz-objective').textContent=round===2?`Expédition terminée · ${score} / 450`:'Essai réussi';$('hz-country').disabled=false;$('hz-class').disabled=false;$('hz-zone').disabled=false;renderMap();}}
-frame=requestAnimationFrame(animate);
+ if(busy||!arrival)return;
+ if(distance()>capacities[Number($('hz-probe').value)]){setFeedback('Autonomie fictive insuffisante. Rapproche les deux points ou choisis un autre projectile d’exercice.');return;}
+ stopPlacing();clearAnimation();busy=true;lock(true);$('hz-objective').textContent='Essai en cours…';
+ const a=[...start],b=[...arrival],mid=[(a[0]+b[0])/2,(a[1]+b[1])/2],control=[mid[0],mid[1]-Math.min(70,distance()*.3)];
+ const track=svg('path',{d:`M${a} Q${control} ${b}`,fill:'none',stroke:'#e6b074','stroke-width':2,'stroke-dasharray':'5 5','vector-effect':'non-scaling-stroke'});
+ const dot=svg('g',{'aria-hidden':'true'});dot.append(svg('path',{d:'M8 0L1-3H-7L-4 0L-7 3H1Z',fill:'#ffe8c0',stroke:'#be8050','stroke-width':.6}));$('hz-flight').append(track,dot);
+ const duration=matchMedia('(prefers-reduced-motion: reduce)').matches?50:4200,t0=performance.now();
+ function animate(t){const n=Math.min(1,(t-t0)/duration),q=1-n,x=q*q*a[0]+2*q*n*control[0]+n*n*b[0],y=q*q*a[1]+2*q*n*control[1]+n*n*b[1],dx=2*q*(control[0]-a[0])+2*n*(b[0]-control[0]),dy=2*q*(control[1]-a[1])+2*n*(b[1]-control[1]);dot.setAttribute('transform',`translate(${x},${y}) rotate(${Math.atan2(dy,dx)*180/Math.PI}) scale(${markerScale()})`);$('hz-progress').style.width=`${n*100}%`;
+ if(n<1){setFeedback(n<.25?'Départ du projectile fictif…':n<.8?'Animation du trajet en cours…':'Arrivée dans la zone d’essai…');frame=requestAnimationFrame(animate);}else{busy=false;completed++;lock(false);updateRoute();$('hz-count').textContent=completed;$('hz-objective').textContent='Essai terminé.';setFeedback('Arrivée en mer atteinte. Tu peux choisir un autre point ou déplacer le sous-marin pour un nouvel essai.');dot.remove();$('hz-flight').append(svg('circle',{cx:b[0],cy:b[1],r:12*markerScale(),fill:'none',stroke:'#acd4ce','stroke-width':1,'vector-effect':'non-scaling-stroke'}));}}
+ frame=requestAnimationFrame(animate);
 });
-$('hz-next').addEventListener('click',()=>{if(round===2){round=0;score=0;}else round++;resetMission();});
-function paint(){view.w=Math.max(330,Math.min(1320,view.w));view.h=view.w*550/1320;view.x=Math.max(-60,Math.min(1260-view.w,view.x));view.y=Math.max(-25,Math.min(525-view.h,view.y));map.setAttribute('viewBox',`${view.x} ${view.y} ${view.w} ${view.h}`);}
+function paint(){view.w=Math.max(330,Math.min(1320,view.w));view.h=view.w*550/1320;view.x=Math.max(-60,Math.min(1260-view.w,view.x));view.y=Math.max(-25,Math.min(525-view.h,view.y));map.setAttribute('viewBox',`${view.x} ${view.y} ${view.w} ${view.h}`);renderMap();}
 function resetView(){view={x:-60,y:-25,w:1320,h:550};paint();}
 function zoom(f,anchor){const old=view.w,next=Math.max(330,Math.min(1320,old*f)),ratio=next/old,p=anchor||{x:view.x+view.w/2,y:view.y+view.h/2};view.x=p.x-(p.x-view.x)*ratio;view.y=p.y-(p.y-view.y)*ratio;view.w=next;paint();}
 function point(e){const p=map.createSVGPoint();p.x=e.clientX;p.y=e.clientY;return p.matrixTransform(map.getScreenCTM().inverse());}
 $('hz-zoom-in').addEventListener('click',()=>zoom(.8));$('hz-zoom-out').addEventListener('click',()=>zoom(1.25));$('hz-reset-map').addEventListener('click',resetView);
 map.addEventListener('wheel',e=>{e.preventDefault();zoom(e.deltaY<0?.88:1.14,point(e));},{passive:false});
 const pointers=new Map();let drag=null,pinch=0,tap=null;
-function getStart(){return customStart||zones[Number($('hz-zone').value)].start;}
-function updateCosts(){const start=getStart();costs=zones[Number($('hz-zone').value)].buoys.map(p=>Math.ceil(Math.hypot(p[0]-start[0],p[1]-start[1])));document.querySelectorAll('#hz-buoys button').forEach((b,i)=>b.textContent='Bouée '+names[i]+' · '+costs[i]+' u');}
-const polygons=window.LDV_MAP.flatMap(c=>c.path.split('M').slice(1).map(part=>part.replace(/[LZ]/g,' ').trim().split(/\s+/).map(s=>s.split(',').map(Number))));
-function inPolygon(p,poly){let inside=false;for(let i=0,j=poly.length-1;i<poly.length;j=i++){const a=poly[i],b=poly[j];if((a[1]>p.y)!==(b[1]>p.y)&&p.x<(b[0]-a[0])*(p.y-a[1])/(b[1]-a[1])+a[0])inside=!inside;}return inside;}
-function stopPlacing(){placing=false;map.classList.remove('placing');$('hz-place').setAttribute('aria-pressed','false');$('hz-place').textContent='Placer mon sous-marin';}
-function place(p){if(!placing||busy||complete)return;if(p.x<0||p.x>1200||p.y<0||p.y>480||polygons.some(poly=>inPolygon(p,poly))){$('hz-feedback').textContent='Choisis un point dans l’océan, hors des terres et des eaux intérieures.';return;}customStart=[p.x,p.y];stopPlacing();updateCosts();renderMap();if(selected!==null)choose(selected);else $('hz-feedback').textContent='Sous-marin repositionné. Choisis la bouée '+names[round]+' · '+costs[round]+' unités de carte fictives.';}
-$('hz-place').addEventListener('click',()=>{if(busy||complete)return;if(placing){stopPlacing();return;}placing=true;map.classList.add('placing');$('hz-place').setAttribute('aria-pressed','true');$('hz-place').textContent='Annuler le placement';$('hz-feedback').textContent='Clique dans l’océan. Au clavier : déplace la carte avec les flèches, puis Entrée place le sous-marin au centre. Échap annule.';map.focus({preventScroll:true});});
-map.addEventListener('pointerdown',e=>{if(e.target.closest('.buoy'))return;tap={x:e.clientX,y:e.clientY};map.setPointerCapture(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});drag=point(e);if(pointers.size===2){tap=null;const [a,b]=[...pointers.values()];pinch=Math.hypot(a.x-b.x,a.y-b.y);}});
+map.addEventListener('pointerdown',e=>{tap={x:e.clientX,y:e.clientY};map.setPointerCapture(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});drag=point(e);if(pointers.size===2){tap=null;const [a,b]=[...pointers.values()];pinch=Math.hypot(a.x-b.x,a.y-b.y);}});
 map.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;if(tap&&Math.hypot(e.clientX-tap.x,e.clientY-tap.y)>6)tap=null;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size===2){const [a,b]=[...pointers.values()],d=Math.hypot(a.x-b.x,a.y-b.y);if(pinch&&d)zoom(pinch/d,point({clientX:(a.x+b.x)/2,clientY:(a.y+b.y)/2}));pinch=d;drag=null;}else if(drag){const p=point(e);view.x+=drag.x-p.x;view.y+=drag.y-p.y;paint();drag=point(e);}else drag=point(e);});
 for(const name of ['pointerup','pointercancel','lostpointercapture'])map.addEventListener(name,e=>{if(name==='pointerup'&&tap&&pointers.size===1)place(point(e));tap=null;pointers.delete(e.pointerId);drag=null;pinch=0;});
 map.addEventListener('keydown',e=>{if(e.target!==map)return;if(placing&&e.key==='Enter'){e.preventDefault();place({x:view.x+view.w/2,y:view.y+view.h/2});return;}if(e.key==='Escape'){stopPlacing();return;}if(['+','=','-','ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home'].includes(e.key))e.preventDefault();else return;if(e.key==='+'||e.key==='=')zoom(.8);else if(e.key==='-')zoom(1.25);else if(e.key==='Home')resetView();else{view.x+=e.key==='ArrowLeft'?-view.w*.08:e.key==='ArrowRight'?view.w*.08:0;view.y+=e.key==='ArrowUp'?-view.h*.08:e.key==='ArrowDown'?view.h*.08:0;paint();}});
 const menu=document.querySelector('.menu-toggle'),nav=$('main-nav');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Fermer le menu':'Ouvrir le menu');});
-window.addEventListener('pagehide',()=>cancelAnimationFrame(frame));resetMission();
+window.addEventListener('pagehide',()=>{if(busy){cancelAnimationFrame(frame);busy=false;lock(false);updateRoute();setFeedback('Essai interrompu après avoir quitté la page. Tu peux le relancer.');}});
+new ResizeObserver(()=>renderMap()).observe(map);updateRoute();
 })();
