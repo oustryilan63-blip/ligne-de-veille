@@ -25,6 +25,15 @@ function withinRange(a,b){return routeLength(a,b)<=rangeLimit()+1e-7;}
 function formatDistance(value){return Math.ceil(value).toLocaleString('fr-FR');}
 const map=$('hz-map');
 let start=[...initialStart],arrival=null,placing=null,busy=false,frame=0,completed=0;
+let exploring=true,measureStart=null,measureEnd=null;
+// Inverse of the projection used in work/game/build-map.mjs.
+function coordinates(p){return {lat:85-p[1]/3.2,lon:p[0]*360/1200-180};}
+function geographicDistance(a,b){
+ const p=coordinates(a),q=coordinates(b),rad=Math.PI/180;
+ const h=Math.sin((q.lat-p.lat)*rad/2)**2+Math.cos(p.lat*rad)*Math.cos(q.lat*rad)*Math.sin((q.lon-p.lon)*rad/2)**2;
+ return 6371.0088*2*Math.atan2(Math.sqrt(Math.min(1,Math.max(0,h))),Math.sqrt(Math.max(0,1-h)));
+}
+function measureText(){return measureStart&&measureEnd?'≈ '+Math.round(geographicDistance(measureStart,measureEnd)).toLocaleString('fr-FR')+' km':'— km';}
 let view={x:-60,y:-25,w:1320,h:550};
 const polygons=window.LDV_MAP.flatMap(c=>c.path.split('M').slice(1).map(part=>part.replace(/[LZ]/g,' ').trim().split(/\s+/).map(s=>s.split(',').map(Number))));
 function inPolygon(p,poly){let inside=false;for(let i=0,j=poly.length-1;i<poly.length;j=i++){const a=poly[i],b=poly[j];if((a[1]>p.y)!==(b[1]>p.y)&&p.x<(b[0]-a[0])*(p.y-a[1])/(b[1]-a[1])+a[0])inside=!inside;}return inside;}
@@ -35,6 +44,7 @@ for(const c of window.LDV_MAP)$('hz-land').append(svg('path',{d:c.path}));
 function markerScale(){return 1/(map.getScreenCTM()?.a||1);}
 function renderMap(){
  const g=$('hz-exercise'),s=markerScale();g.replaceChildren();
+ if(exploring){$('hz-range').replaceChildren();for(const [label,p] of [['A',measureStart],['B',measureEnd]]){if(!p)continue;const pin=svg('g',{transform:`translate(${p}) scale(${s})`,role:'img','aria-label':'Repère '+label});pin.append(svg('circle',{r:12,fill:'#f0e9d9',stroke:'#ac6545','stroke-width':2}),svg('text',{'text-anchor':'middle',y:4,style:'fill:#142025;font:bold 12px sans-serif'},label));g.append(pin);}return;}
  const range=$('hz-range');range.replaceChildren(svg('circle',{cx:start[0],cy:start[1],r:rangeLimit()/gameScale,class:'hz-range-circle'}));
  const sub=svg('g',{class:'hz-sub-marker',transform:`translate(${start}) scale(${s*.32})`,role:'img','aria-label':'Sous-marin, point de départ'});
  sub.append(svg('path',{d:'M-49 4Q-37-1-27 2M-50 10Q-36 6-26 8M-45 15Q-34 12-27 12',fill:'none',stroke:'#9ababa','stroke-width':1.2,opacity:.55}));
@@ -50,36 +60,51 @@ function renderMap(){
 }
 function setFeedback(text){$('hz-feedback').textContent=text;}
 function updateRoute(){
+ if(exploring){$('hz-distance').textContent=measureText();$('hz-route-state').textContent='Distance à la surface du globe';$('hz-objective').textContent=measureStart&&measureEnd?'De A à B.':'Explore les distances.';$('hz-launch').disabled=true;renderMap();return;}
  const d=distance()*gameScale;
- $('hz-distance').textContent=arrival?`${formatDistance(d)} / ${formatDistance(rangeLimit())} km fictifs`:'— / '+formatDistance(rangeLimit())+' km fictifs';
- $('hz-range-value').textContent=formatDistance(rangeLimit())+' km fictifs';
+ $('hz-distance').textContent=arrival?`${formatDistance(d)} / ${formatDistance(rangeLimit())} unités de jeu`:'— / '+formatDistance(rangeLimit())+' unités de jeu';
+ $('hz-range-value').textContent=formatDistance(rangeLimit())+' unités de jeu';
  $('hz-route-state').textContent=arrival?'Trajet prêt':'Arrivée à choisir';
  $('hz-launch').disabled=busy||!arrival||!withinRange(start,arrival);
  $('hz-objective').textContent=arrival?'Ton trajet d’essai.':'Prépare ton essai.';
  renderMap();
 }
-function stopPlacing(){placing=null;map.classList.remove('placing');$('hz-place').setAttribute('aria-pressed','false');$('hz-destination').setAttribute('aria-pressed','false');$('hz-place').textContent='1 · Placer le sous-marin';$('hz-destination').textContent='2 · Choisir l’arrivée';}
-function setPlacing(mode){if(busy)return;if(placing===mode){stopPlacing();setFeedback('Placement annulé. Tu peux déplacer la carte ou lancer le trajet préparé.');return;}stopPlacing();placing=mode;map.classList.add('placing');const button=$(mode==='start'?'hz-place':'hz-destination');button.setAttribute('aria-pressed','true');button.textContent='Annuler le placement';setFeedback(mode==='start'?'Clique dans l’océan pour placer le sous-marin. Au clavier : zoome, déplace la carte puis valide le centre avec Entrée.':'Clique dans l’océan pour choisir l’arrivée. Au clavier : zoome, déplace la carte puis valide le centre avec Entrée.');map.focus({preventScroll:true});}
+function stopPlacing(){placing=null;map.classList.remove('placing');$('hz-place').setAttribute('aria-pressed','false');$('hz-destination').setAttribute('aria-pressed','false');$('hz-place').textContent=exploring?'1 · Placer le repère A':'1 · Placer le sous-marin';$('hz-destination').textContent=exploring?'2 · Placer le repère B':'2 · Choisir l’arrivée';}
+function setPlacing(mode){if(busy)return;if(placing===mode){stopPlacing();setFeedback('Placement annulé. Tu peux déplacer la carte ou lancer le trajet préparé.');return;}stopPlacing();placing=mode;map.classList.add('placing');const button=$(mode==='start'?'hz-place':'hz-destination');button.setAttribute('aria-pressed','true');button.textContent='Annuler le placement';setFeedback(exploring?'Clique sur terre ou en mer pour poser le repère. Au clavier : zoome, déplace la carte puis valide le centre avec Entrée.':mode==='start'?'Clique dans l’océan pour placer le sous-marin. Au clavier : zoome, déplace la carte puis valide le centre avec Entrée.':'Clique dans l’océan pour choisir l’arrivée. Au clavier : zoome, déplace la carte puis valide le centre avec Entrée.');map.focus({preventScroll:true});}
 function clearAnimation(){cancelAnimationFrame(frame);$('hz-flight').replaceChildren();$('hz-progress').style.width='0%';}
+function changeMode(value){
+ if(busy)return;exploring=value;stopPlacing();clearAnimation();if(!value&&arrival&&!withinRange(start,arrival))arrival=null;
+ $('hz-mode-explore').setAttribute('aria-pressed',String(value));$('hz-mode-game').setAttribute('aria-pressed',String(!value));
+ document.querySelector('.hz-mission .hz-kicker').textContent=value?'EXPLORATION / GÉOGRAPHIE':'MODE LIBRE / OCÉAN';
+ document.querySelector('.hz-stamp').textContent=value?'CARTE MONDIALE · EXPLORATION':'MISSION D’ESSAI · 100 % FICTIVE';
+ for(const id of ['hz-game-limit','hz-score','hz-progress','hz-game-caption','hz-launch'])$(id).hidden=value;
+ $('hz-geography-note').hidden=!value;$('hz-clear').textContent=value?'Effacer les repères':'Effacer le trajet';
+ $('hz-place-help').textContent=value?'Place A et B sur terre ou en mer. Glisser déplace la carte.':'Choisis une action, puis clique dans l’océan. Glisser déplace toujours la carte.';
+ $('hz-map-label').textContent=value?'EXPLORATION / DISTANCE GÉOGRAPHIQUE':'CARTE D’EXERCICE / POSITIONS FICTIVES';
+ map.setAttribute('aria-label',value?'Carte de mesure. Place les repères A et B sur terre ou en mer.':'Carte d’essai libre. Place le sous-marin et choisis un point d’arrivée en mer.');
+ updateRoute();setFeedback(value?'Place deux repères pour mesurer leur distance géographique.':'Choisis une arrivée en mer dans le cercle de jeu.');
+}
+$('hz-mode-explore').addEventListener('click',()=>changeMode(true));$('hz-mode-game').addEventListener('click',()=>changeMode(false));
 function place(p){
  if(!placing||busy)return;
+ if(exploring){if(p.x<0||p.x>1200||p.y<0||p.y>480){setFeedback('Choisis un point dans la zone cartographiée.');return;}if(placing==='start')measureStart=[p.x,p.y];else measureEnd=[p.x,p.y];stopPlacing();updateRoute();setFeedback(measureStart&&measureEnd?'Distance géographique : '+measureText()+'. Tu peux déplacer les deux repères.':'Repère posé. Place l’autre repère pour afficher la distance.');return;}
  if(!isOcean(p)){setFeedback('Choisis un point dans l’océan, hors des terres et des eaux intérieures.');return;}
  const other=placing==='start'?arrival:start;
  if(other&&Math.hypot(p.x-other[0],p.y-other[1])<12){setFeedback('Éloigne un peu les deux points pour que le trajet soit visible.');return;}
- if(placing==='arrival'&&!withinRange(start,[p.x,p.y])){setFeedback(`Hors portée : ${formatDistance(routeLength(start,[p.x,p.y]))} km fictifs pour une limite de ${formatDistance(rangeLimit())}. Choisis une arrivée en mer dans le cercle.`+(arrival?' Ton arrivée précédente est conservée.':''));return;}
+ if(placing==='arrival'&&!withinRange(start,[p.x,p.y])){setFeedback(`Hors portée : ${formatDistance(routeLength(start,[p.x,p.y]))} unités de jeu pour une limite de ${formatDistance(rangeLimit())}. Choisis une arrivée en mer dans le cercle.`+(arrival?' Ton arrivée précédente est conservée.':''));return;}
  const mode=placing;if(mode==='start')start=[p.x,p.y];else arrival=[p.x,p.y];
  const removed=arrival&&!withinRange(start,arrival);if(removed)arrival=null;
- stopPlacing();clearAnimation();updateRoute();setFeedback((mode==='start'?'Sous-marin repositionné. ':'Arrivée choisie en mer. ')+(removed?'L’ancienne arrivée est désormais hors portée et a été retirée. Choisis une arrivée dans le cercle.':arrival?`Trajet : ${formatDistance(distance()*gameScale)} km fictifs.`:'Choisis maintenant le point d’arrivée dans le cercle.'));
+ stopPlacing();clearAnimation();updateRoute();setFeedback((mode==='start'?'Sous-marin repositionné. ':'Arrivée choisie en mer. ')+(removed?'L’ancienne arrivée est désormais hors portée et a été retirée. Choisis une arrivée dans le cercle.':arrival?`Trajet : ${formatDistance(distance()*gameScale)} unités de jeu.`:'Choisis maintenant le point d’arrivée dans le cercle.'));
 }
-function changeGameRange(){stopPlacing();clearAnimation();const removed=arrival&&!withinRange(start,arrival);if(removed)arrival=null;updateRoute();setFeedback(`Portée de jeu : ${formatDistance(rangeLimit())} km fictifs. `+(removed?'L’arrivée précédente est hors portée et a été retirée.':arrival?'Ton trajet reste dans la portée autorisée.':'Choisis une arrivée en mer dans le cercle.'));}
+function changeGameRange(){if(exploring){updateRoute();return;}stopPlacing();clearAnimation();const removed=arrival&&!withinRange(start,arrival);if(removed)arrival=null;updateRoute();setFeedback(`Portée de jeu : ${formatDistance(rangeLimit())} unités de jeu. `+(removed?'L’arrivée précédente est hors portée et a été retirée.':arrival?'Ton trajet reste dans la portée autorisée.':'Choisis une arrivée en mer dans le cercle.'));}
 $('hz-country').addEventListener('change',changeGameRange);$('hz-class').addEventListener('change',changeGameRange);
-function lock(value){for(const id of ['hz-country','hz-class','hz-place','hz-destination','hz-clear'])$(id).disabled=value;$('hz-launch').hidden=value;$('hz-stop').hidden=!value;}
+function lock(value){for(const id of ['hz-country','hz-class','hz-place','hz-destination','hz-clear','hz-mode-explore','hz-mode-game'])$(id).disabled=value;$('hz-launch').hidden=value;$('hz-stop').hidden=!value;}
 $('hz-place').addEventListener('click',()=>setPlacing('start'));
 $('hz-destination').addEventListener('click',()=>setPlacing('arrival'));
-$('hz-clear').addEventListener('click',()=>{if(busy)return;stopPlacing();arrival=null;clearAnimation();updateRoute();setFeedback('Trajet effacé. Choisis une nouvelle arrivée en mer.');});
+$('hz-clear').addEventListener('click',()=>{if(busy)return;stopPlacing();if(exploring){measureStart=null;measureEnd=null;updateRoute();setFeedback('Repères effacés. Place A et B sur la carte.');return;}arrival=null;clearAnimation();updateRoute();setFeedback('Trajet effacé. Choisis une nouvelle arrivée en mer.');});
 $('hz-stop').addEventListener('click',()=>{clearAnimation();busy=false;lock(false);updateRoute();setFeedback('Essai interrompu. Tu peux modifier ton trajet et recommencer.');});
 $('hz-launch').addEventListener('click',()=>{
- if(busy||!arrival)return;
+ if(exploring||busy||!arrival)return;
  if(!withinRange(start,arrival)){updateRoute();setFeedback('Hors portée. Choisis une arrivée dans le cercle avant de lancer l’essai.');return;}
  stopPlacing();clearAnimation();busy=true;lock(true);$('hz-objective').textContent='Essai en cours…';
  const a=[...start],b=[...arrival],mid=[(a[0]+b[0])/2,(a[1]+b[1])/2],control=[mid[0],mid[1]-Math.min(70,distance()*.3)];
@@ -103,5 +128,5 @@ for(const name of ['pointerup','pointercancel','lostpointercapture'])map.addEven
 map.addEventListener('keydown',e=>{if(e.target!==map)return;if(placing&&e.key==='Enter'){e.preventDefault();place({x:view.x+view.w/2,y:view.y+view.h/2});return;}if(e.key==='Escape'){stopPlacing();return;}if(['+','=','-','ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home'].includes(e.key))e.preventDefault();else return;if(e.key==='+'||e.key==='=')zoom(.8);else if(e.key==='-')zoom(1.25);else if(e.key==='Home')resetView();else{view.x+=e.key==='ArrowLeft'?-view.w*.08:e.key==='ArrowRight'?view.w*.08:0;view.y+=e.key==='ArrowUp'?-view.h*.08:e.key==='ArrowDown'?view.h*.08:0;paint();}});
 const menu=document.querySelector('.menu-toggle'),nav=$('main-nav');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Fermer le menu':'Ouvrir le menu');});
 window.addEventListener('pagehide',()=>{if(busy){cancelAnimationFrame(frame);busy=false;lock(false);updateRoute();setFeedback('Essai interrompu après avoir quitté la page. Tu peux le relancer.');}});
-new ResizeObserver(()=>renderMap()).observe(map);updateRoute();
+new ResizeObserver(()=>renderMap()).observe(map);changeMode(true);
 })();
