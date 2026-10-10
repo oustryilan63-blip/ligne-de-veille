@@ -42,11 +42,12 @@
   function section(title, desc){const s=el('section','history-detail-section');s.append(el('h3','',title));if(desc)s.append(el('p','',desc));return s}
   function renderDetail(index){
     const item=engins[index],fact=facts[index]||{};
-    catalogue.hidden=true;detail.hidden=false;detail.replaceChildren();document.title=item.name+' | Histoire | Ligne de Veille';
+    catalogue.hidden=true;detail.hidden=false;detail.replaceChildren();document.body.classList.add('history-profile');document.title=item.name+' | Histoire | Ligne de Veille';
     const back=el('a','history-back','← Revenir aux 45 engins');back.href='histoire.html';detail.append(back);
     const head=el('div','history-detail-head');const media=el('div');media.append(photo(item));
     const credit=el('p','history-photo-credit','Photo : '+(item.photoAuthor||'Wikimedia Commons')+' · '+(item.photoLicense||'Licence indiquée sur la source'));
-    if(item.photoFile){credit.append(' · ',link('Voir la photo',item.photoFile))}media.append(credit);
+    if(item.photoFile){credit.append(' · ',link('Voir la photo','https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(item.photoFile)))}
+    if(item.photoLicenseUrl){credit.append(' · ',link('Licence',item.photoLicenseUrl))}media.append(credit);
     const copy=el('div');copy.append(el('span','history-kicker',String(index+1).padStart(2,'0')+' / '+item.kind+' / '+item.country),el('h2','',item.name),el('p','history-subtitle','Origine : '+item.country));
     copy.append(el('p','',item.explanation),el('p','',fact.story||'L’histoire de cet engin est présentée dans la source liée ci-dessous.'));
     head.append(media,copy);detail.append(head);
@@ -63,7 +64,7 @@
     detail.append(mapSection);
     const isAir=/AVION|DRONE|HÉLICOPTÈRE/.test(item.kind);const stats=section('Les chiffres vérifiables',"Un total n'apparaît que si une source officielle ou le fabricant le publie pour ce modèle ou ce bâtiment. « Non documenté » signifie qu'aucun total mondial fiable n'a été retenu ; cela ne veut pas dire zéro.");
     const statGrid=el('div','history-stats');
-    const data=[['Production / livraisons',fact.production?.value||'Non documenté',fact.production?.note||'Aucun total confirmé retenu.',fact.production?.source],[(isAir?'Crashs':'Pertes')+' recensés','Non documenté','Aucun total global officiellement confirmé retenu.'],['Destructions confirmées','Non documenté','Aucun total global attribuable et confirmé retenu.']];
+    const data=[['Production / livraisons',fact.production?.value||'Non documenté',fact.production?.note||'Aucun total confirmé retenu.',fact.production?.source],[isAir?'Accidents aériens recensés':'Pertes recensées','Non documenté','Aucun total global officiellement confirmé retenu.'],['Destructions confirmées','Non documenté','Aucun total global attribuable et confirmé retenu.']];
     data.forEach(([label,value,note,source])=>{const box=el('div','history-stat');box.append(el('span','',label),el('strong','',value),el('small','',note));if(source)box.append(link('Source ↗',source));statGrid.append(box)});stats.append(statGrid);detail.append(stats);
     const sources=el('section','history-detail-section history-sources');sources.append(el('h3','','Sources de la fiche'));const list=el('ul');
     const refs=[['Fiche du constructeur ou de la force armée',item.source],['Pays utilisateurs',fact.operatorSource],['Anciens utilisateurs',fact.formerSource],['Chiffre de production',fact.production?.source],...(fact.extraSources||[]).map(url=>['Autre source officielle',url])];const seen=new Set();refs.forEach(([title,url])=>{if(url&&!seen.has(url)){seen.add(url);const li=el('li');li.append(link(title+' ↗',url));list.append(li)}});sources.append(list,el('p','','Situation vérifiée le 10 octobre 2026. La carte présente les pays documentés dans ces sources, sans prétendre couvrir chaque transfert ou retrait. Les bilans de guerre, pertes et accidents changent et sont souvent incomplets.'));detail.append(sources);
