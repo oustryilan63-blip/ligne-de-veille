@@ -40,6 +40,13 @@
     credit.replaceChildren('Photo : ', photo, ' · ', license);
     credit.hidden = false;
   }
+  function historyLink(item, parent) {
+    let link = parent.querySelector('.game-history-link');
+    if (!link) { link = document.createElement('a'); link.className = 'game-history-link'; parent.append(link); }
+    const index = catalog.indexOf(item);
+    link.hidden = index < 0;
+    if (index >= 0) { link.href = 'histoire.html?engin=' + index; link.textContent = 'Découvrir sa fiche Histoire →'; }
+  }
   function result(ok, name, explanation, sourceItem, nextLabel) {
     const panel = $('arcade-result');
     panel.classList.toggle('missed', !ok);
@@ -47,6 +54,15 @@
     text('arcade-result-title', name);
     text('arcade-result-copy', explanation);
     setSource(sourceItem);
+    historyLink(sourceItem, $('arcade-result-copy').parentElement);
+    if (game === 'vrai-faux') {
+      let figure = panel.querySelector('.result-photo');
+      if (!figure) { figure = document.createElement('figure'); figure.className = 'result-photo'; panel.prepend(figure); }
+      const img = document.createElement('img'); img.src = 'assets/jeu/' + sourceItem.photo; img.alt = sourceItem.name;
+      const credit = document.createElement('a'); credit.href = 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(sourceItem.photoFile);
+      credit.target = '_blank'; credit.rel = 'noopener noreferrer'; credit.textContent = sourceItem.photoAuthor + ' · ' + sourceItem.photoLicense;
+      figure.replaceChildren(img, credit);
+    }
     text('arcade-next', nextLabel);
     panel.hidden = false;
     panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -123,7 +139,7 @@
       text('zoom-level', `CADRAGE ${stage + 1} / ${scales.length} · ${5 - stage} POINTS POSSIBLES`);
       $('zoom-reveal').disabled = stage === scales.length - 1;
     });
-    $('arcade-next').addEventListener('click', () => { if (++index === deck.length) finish(`${score} point${score > 1 ? 's' : ''} sur 25. Les bons réflexes d’observation font la différence.`); else round(); });
+    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) finish(`${score} point${score > 1 ? 's' : ''} sur 25. Les bons réflexes d’observation font la différence.`); else round(); });
     $('arcade-restart').addEventListener('click', start);
     function start() { deck = shuffle(catalog).slice(0, 5); index = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); }
     start();
@@ -133,28 +149,40 @@
     const byYear = [...window.LDV_CHRONO].sort((a, b) => a.year - b.year);
     let groups;
     function chooseGroups() {
-      const selected = shuffle(byYear).slice(0, 8).sort((a, b) => a.year - b.year);
+      // Une seule date par année : les sources ne donnent pas toutes le jour exact.
+      const seen = new Set();
+      const selected = shuffle(byYear).filter(item => { if (seen.has(item.year)) return false; seen.add(item.year); return true; }).slice(0, 8).sort((a, b) => a.year - b.year);
       groups = [[selected[0], selected[2], selected[4], selected[6]], [selected[1], selected[3], selected[5], selected[7]]];
     }
-    let group, score, order;
+    let group, score, order, resolved;
     function renderList() {
       const list = $('chrono-list');
       list.replaceChildren(...order.map((item, index) => {
         const row = document.createElement('li'); row.className = 'chrono-row';
         const number = document.createElement('span'); number.className = 'chrono-number'; number.textContent = String(index + 1).padStart(2, '0');
         const name = document.createElement('strong'); name.textContent = item.name;
+        const alias = { 'F-15 Eagle':'F-15EX Eagle II', 'Rafale A':'Rafale', 'KC-390 Millennium':'C-390 Millennium' };
+        const ref = catalog.find(entry => entry.name === (alias[item.name] || item.name));
+        const caption = document.createElement('div'); caption.className = 'chrono-caption'; caption.append(name);
+        if (ref) {
+          const img = document.createElement('img'); img.className = 'chrono-thumb'; img.src = 'assets/jeu/' + ref.photo; img.alt = ref.name;
+          row.append(img);
+          const credit = document.createElement('a'); credit.className = 'chrono-credit'; credit.href = 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(ref.photoFile); credit.target = '_blank'; credit.rel = 'noopener noreferrer';
+          credit.textContent = (alias[item.name] ? 'Illustration : ' + ref.name + ' · ' : '') + ref.photoAuthor + ' · ' + ref.photoLicense;
+          caption.append(credit);
+        }
         const controls = document.createElement('span'); controls.className = 'chrono-controls';
         for (const [label, delta] of [['Monter', -1], ['Descendre', 1]]) {
           const button = document.createElement('button'); button.type = 'button'; button.textContent = delta < 0 ? '↑' : '↓';
           button.setAttribute('aria-label', `${label} ${item.name}`); button.disabled = index + delta < 0 || index + delta >= order.length;
-          button.addEventListener('click', () => { [order[index], order[index + delta]] = [order[index + delta], order[index]]; renderList(); });
+          button.addEventListener('click', () => { [order[index], order[index + delta]] = [order[index + delta], order[index]]; renderList(); const buttons = $('chrono-list').querySelectorAll('.chrono-controls')[index + delta].querySelectorAll('button'); const preferred = buttons[delta < 0 ? 0 : 1]; (preferred.disabled ? [...buttons].find(b => !b.disabled) : preferred)?.focus(); });
           controls.append(button);
         }
-        row.append(number, name, controls); return row;
+        row.prepend(number); row.append(caption, controls); return row;
       }));
     }
     function round() {
-      order = shuffle(groups[group]);
+      resolved = false; order = shuffle(groups[group]);
       if (order.every((item, index) => item === groups[group][index])) [order[0], order[1]] = [order[1], order[0]];
       text('arcade-progress', `SÉRIE ${group + 1} / 2`); text('arcade-score', `${score} / 8 BIEN PLACÉS`);
       text('arcade-question', 'Quel appareil a volé avant les autres ?');
@@ -163,6 +191,7 @@
       renderList();
     }
     $('chrono-check').addEventListener('click', () => {
+      if (resolved) return; resolved = true;
       const sorted = [...order].sort((a, b) => a.year - b.year);
       const correct = order.filter((item, index) => item === sorted[index]).length;
       score += correct; text('arcade-score', `${score} / 8 BIEN PLACÉS`);
@@ -180,7 +209,7 @@
       result(correct === 4, `${correct} / 4 bien placés`, 'Voici l’ordre vérifié des premiers vols. Ouvre chaque source pour retrouver sa date.', {}, group === 1 ? 'Voir mon score →' : 'Série suivante →');
       show('arcade-source', false);
     });
-    $('arcade-next').addEventListener('click', () => { if (++group === 2) finish(`${score} appareils bien placés sur 8. Les dates et les sources restent visibles dans chaque correction.`); else round(); });
+    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++group === 2) finish(`${score} appareils bien placés sur 8. Rejoue pour découvrir une autre sélection de premiers vols.`); else round(); });
     $('arcade-restart').addEventListener('click', () => { chooseGroups(); group = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); });
     chooseGroups(); group = 0; score = 0; round();
   }
@@ -211,7 +240,7 @@
       const ref = catalog.find(item => item.name === fact.ref);
       result(ok, fact.answer ? 'C’est vrai.' : 'C’est faux.', fact.reason, ref, index + 1 === deck.length ? 'Voir mon score →' : 'Affirmation suivante →');
     });
-    $('arcade-next').addEventListener('click', () => { if (++index === deck.length) finish(`${score} bonne${score > 1 ? 's' : ''} réponse${score > 1 ? 's' : ''} sur ${deck.length}. Chaque correction renvoie à une source.`); else round(); });
+    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) finish(`${score} bonne${score > 1 ? 's' : ''} réponse${score > 1 ? 's' : ''} sur ${deck.length}. Chaque correction renvoie à une source.`); else round(); });
     $('arcade-restart').addEventListener('click', start);
     function start() { deck = shuffle(window.LDV_FACTS).slice(0, 10); index = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); }
     start();
@@ -230,11 +259,22 @@
       for (let i = copy.length - 1; i > 0; i--) { const j = Math.floor(nextSeed() * (i + 1)); [copy[i], copy[j]] = [copy[j], copy[i]]; }
       return copy;
     };
-    const item = catalog[Math.floor(nextSeed() * catalog.length)];
-    const names = alternatives(item, seededShuffle);
+    let item = catalog[Math.floor(nextSeed() * catalog.length)];
+    let names = alternatives(item, seededShuffle);
     const storageKey = `ldv-defi-${key}`;
     let saved = null;
     try { saved = JSON.parse(localStorage.getItem(storageKey)); } catch (_) { /* Navigation privée : la partie reste jouable. */ }
+    // Conserver la photo et les réponses déjà jouées si le catalogue évolue.
+    const remembered = saved && catalog.find(entry => entry.name === saved.itemName);
+    if (remembered && Array.isArray(saved.names) && saved.names.length === 4 && new Set(saved.names).size === 4 && saved.names.includes(remembered.name) && saved.names.includes(saved.choice) && saved.names.every(name => catalog.some(entry => entry.name === name))) { item = remembered; names = saved.names; }
+    else if (saved && saved.itemName) saved = null;
+    let resolved = false;
+    const refreshDay = () => {
+      const today = Object.fromEntries(new Intl.DateTimeFormat('en-CA', { timeZone:'Europe/Paris', year:'numeric', month:'2-digit', day:'2-digit' }).formatToParts(new Date()).map(part=>[part.type,part.value]));
+      if (today.year + '-' + today.month + '-' + today.day !== key) location.reload();
+    };
+    setInterval(refreshDay, 60000);
+    window.addEventListener('focus', refreshDay);
     text('arcade-progress', label.toUpperCase());
     text('arcade-score', '1 QUESTION · 1 TENTATIVE');
     text('arcade-eyebrow', 'PHOTO DU JOUR');
@@ -244,8 +284,9 @@
     setCredit(item);
     function shareText(ok) { return `Ligne de Veille · Défi du ${key} : ${ok ? '1/1 ✓' : '0/1 ◯'} — Et toi ? ${location.href.split('?')[0]}`; }
     function reveal(chosen) {
+      if (resolved) return; resolved = true;
       const ok = chosen === item.name;
-      try { localStorage.setItem(storageKey, JSON.stringify({ choice: chosen, correct: ok })); } catch (_) { /* Stockage facultatif. */ }
+      try { localStorage.setItem(storageKey, JSON.stringify({ choice: chosen, correct: ok, itemName: item.name, names })); } catch (_) { /* Stockage facultatif. */ }
       $('arcade-choices').querySelectorAll('button').forEach(button => {
         button.disabled = true;
         button.classList.toggle('is-correct', button.firstChild.textContent === item.name);

@@ -94,6 +94,7 @@ function setCredit(item) {
 function showAnswer(correct, chosenButton) {
   const item = state.deck[state.index];
   state.resolved = true;
+  el('recognition-hint-button').disabled = true;
   if (correct) {
     state.found++;
     state.points += state.hintUsed || state.attemptsLeft < (state.answerMode === 'choices' ? 1 : 3) ? 1 : 2;
@@ -116,6 +117,9 @@ function showAnswer(correct, chosenButton) {
   el('recognition-name').textContent = item.name;
   el('recognition-explanation').textContent = item.explanation;
   el('recognition-source').href = item.source;
+  let history = el('recognition-answer').querySelector('.game-history-link');
+  if (!history) { history = document.createElement('a'); history.className = 'game-history-link'; el('recognition-explanation').parentElement.append(history); }
+  history.href = 'histoire.html?engin=' + ENGINES.indexOf(item); history.textContent = 'Découvrir sa fiche Histoire →';
   el('recognition-next').firstChild.textContent = state.index + 1 === state.deck.length ? 'Voir mon score ' : 'Question suivante ';
   panel.hidden = false;
   setCredit(item);
@@ -214,6 +218,7 @@ el('recognition-hint-button').addEventListener('click', () => {
   el('recognition-hint-button').disabled = true;
 });
 el('recognition-next').addEventListener('click', () => {
+  if (!state.resolved) return; state.resolved = false;
   if (state.index + 1 === state.deck.length) finishGame();
   else { state.index++; renderRound(); el('recognition-card').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
 });

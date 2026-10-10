@@ -125,6 +125,9 @@ function finishRound(won) {
   document.querySelector('#answer-explanation').textContent = item.explanation;
   const sourceLink = document.querySelector('#answer-source');
   sourceLink.href = item.source;
+  let history = answerPanel.querySelector('.game-history-link');
+  if (!history) { history = document.createElement('a'); history.className = 'game-history-link'; document.querySelector('#answer-explanation').parentElement.append(history); }
+  history.href = 'histoire.html?engin=' + QUESTIONS.indexOf(item); history.textContent = 'Découvrir sa fiche Histoire →';
   sourceLink.firstChild.textContent = 'Vérifier dans la source officielle ';
   document.querySelector('#next-question').firstChild.textContent = round === deck.length - 1 ? 'Voir mon résultat ' : 'Question suivante ';
   answerPanel.classList.toggle('missed', !won);
@@ -361,6 +364,7 @@ if (Array.isArray(mapData) && mapData.length) {
     setView();
   });
   document.querySelector('#next-question').addEventListener('click', () => {
+    if (!resolved) return; resolved = false;
     round += 1;
     if (round < deck.length) {
       startRound();
