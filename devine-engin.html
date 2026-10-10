@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142025">
+  <meta name="description" content="Reconnais 45 chars, avions, drones, hélicoptères et navires à partir de leur photo. Choisis parmi quatre noms ou écris ta réponse.">
+  <title>Quel est cet engin ? — Jeux | Ligne de Veille</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="jeux.css">
+  <link rel="stylesheet" href="atlas.css?v=4">
+  <link rel="stylesheet" href="devine-engin.css?v=1">
+  <script src="engins-data.js" defer></script>
+  <script src="devine-engin.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au jeu</a>
+  <div class="utility-bar"><span>VEILLE DOCUMENTÉE <i></i> DÉFENSE · SÉCURITÉ · GÉOPOLITIQUE</span><span>JEUX / 02</span></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="Ligne de Veille, accueil"><span class="brand-mark" aria-hidden="true"><b>L</b><em>/</em><b>V</b></span><span class="brand-name">LIGNE<br>DE VEILLE</span></a>
+    <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+      <a href="index.html#actualites">Actualités</a>
+      <a href="jeux.html" aria-current="page">Jeux</a>
+    </nav>
+    <div class="header-actions"><button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button></div>
+  </header>
+
+  <main id="main">
+    <section class="game-intro" aria-labelledby="recognition-title">
+      <div class="wrap">
+        <div class="eyebrow light"><span class="eyebrow-line"></span> RECONNAISSANCE VISUELLE</div>
+        <h1 id="recognition-title">Quel est <em>cet engin&nbsp;?</em></h1>
+        <p>Une photo, un nom à trouver. Choisis parmi quatre réponses ou écris le nom toi-même ; l’histoire de l’engin apparaît après chaque question.</p>
+        <div class="game-intro-foot"><span>45 ENGINS À RECONNAÎTRE</span><span>02 / JEUX</span></div>
+      </div>
+    </section>
+
+    <nav class="game-switch wrap" aria-label="Choisir un jeu">
+      <a href="jeux.html"><span>01 / CARTE</span><strong>Deviner le pays <span aria-hidden="true">↗</span></strong></a>
+      <a href="devine-engin.html" aria-current="page"><span>02 / PHOTO</span><strong>Deviner l’engin</strong></a>
+    </nav>
+
+    <section class="game-shell wrap" aria-label="Quiz de reconnaissance des engins">
+      <div class="game-options" id="recognition-options">
+        <div class="option-group" role="group" aria-label="Façon de répondre"><span class="option-label">RÉPONSE</span><button type="button" data-answer-mode="choices" aria-pressed="true">4 propositions</button><button type="button" data-answer-mode="text" aria-pressed="false">Écrire le nom</button></div>
+        <div class="option-group" role="group" aria-label="Durée de la partie"><span class="option-label">DURÉE</span><button type="button" data-round-mode="quick" aria-pressed="true">Partie rapide · 5</button><button type="button" data-round-mode="full" aria-pressed="false">Grand tour · tout</button></div>
+        <div class="option-group" role="group" aria-label="Catégorie des engins"><span class="option-label">CATÉGORIE</span><button type="button" data-category="all" aria-pressed="true">Tout</button><button type="button" data-category="terre" aria-pressed="false">Terre</button><button type="button" data-category="air" aria-pressed="false">Air</button><button type="button" data-category="mer" aria-pressed="false">Mer</button></div>
+        <p id="recognition-mode-description">5 questions au hasard · 4 propositions · une réponse par photo.</p>
+      </div>
+
+      <div class="game-status" aria-live="polite"><span id="recognition-round">Question 1 / 5</span><span id="recognition-attempts">1 tentative</span><span id="recognition-score">0 trouvé · 0 point</span></div>
+
+      <div class="recognition-card" id="recognition-card">
+        <figure class="recognition-photo"><img id="recognition-photo" src="" alt="Photographie de l’engin militaire à identifier" width="960" height="640"><figcaption id="recognition-credit" hidden></figcaption></figure>
+        <div class="recognition-copy"><span class="challenge-category" id="recognition-kind">PHOTO MYSTÈRE</span><h2 id="recognition-prompt">Observe la photo.</h2><p>Quel est le nom de cet engin ?</p><button class="hint-button" id="recognition-hint-button" type="button">Indice : pays de conception <span aria-hidden="true">↗</span></button><p class="hint-text" id="recognition-hint" hidden></p><p class="game-feedback" id="recognition-feedback" role="status" aria-live="polite">Choisis une réponse pour commencer.</p></div>
+      </div>
+
+      <div class="recognition-answering" id="recognition-answering">
+        <div class="recognition-choices" id="recognition-choices" role="group" aria-label="Quatre noms possibles"></div>
+        <form class="recognition-form" id="recognition-form" hidden><label for="recognition-input">Écris le nom de l’engin</label><div><input id="recognition-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Ex. Rafale, F-35, Leclerc…" required><button type="submit">Valider ↗</button></div><p>Les accents et les tirets ne comptent pas. Tu as trois essais.</p></form>
+      </div>
+
+      <div class="answer-panel" id="recognition-answer" hidden><div><span class="answer-label" id="recognition-result-label">Bonne réponse</span><h3 id="recognition-name"></h3><p id="recognition-explanation"></p><a id="recognition-source" href="#" target="_blank" rel="noopener noreferrer">Vérifier dans la source officielle <span aria-hidden="true">↗</span></a></div><button class="button button-accent" id="recognition-next" type="button">Question suivante <span aria-hidden="true">→</span></button></div>
+
+      <div class="game-end" id="recognition-end" hidden><span class="eyebrow"><span class="eyebrow-line"></span> PARTIE TERMINÉE</span><h2>Bien joué<span aria-hidden="true">.</span></h2><p id="recognition-final-score"></p><button class="button button-dark" id="recognition-restart" type="button">Rejouer <span aria-hidden="true">↗</span></button></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="wrap footer-main"><div><a class="brand footer-brand" href="index.html" aria-label="Ligne de Veille, accueil"><span class="brand-mark" aria-hidden="true"><b>L</b><em>/</em><b>V</b></span><span class="brand-name">LIGNE<br>DE VEILLE</span></a><p>Défense, sécurité, géopolitique.<br>Les faits en perspective.</p></div><div class="footer-links"><div><strong>EXPLORER</strong><a href="index.html#actualites">Les actualités</a><a href="index.html#archives">Les archives</a><a href="jeux.html">Deviner le pays</a><a href="devine-engin.html">Deviner l’engin</a></div><div><strong>À PROPOS</strong><span>Veille thématique automatisée</span><span>Édition pilote</span></div></div></div><div class="wrap footer-bottom"><span>© 2026 Ligne de Veille — Projet de démonstration</span><a href="#top">Retour en haut ↑</a></div></footer>
+</body>
+</html>

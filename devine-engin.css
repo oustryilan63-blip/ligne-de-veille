@@ -1,0 +1,30 @@
+.recognition-card{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(320px,.92fr);min-height:440px;background:#1d2d28;color:#f5f7ef;border:1px solid #1d2d28}
+.recognition-photo{position:relative;display:grid;place-items:center;margin:0;min-height:440px;background:#14231f;overflow:hidden}
+.recognition-photo img{display:block;width:100%;height:100%;max-height:510px;object-fit:contain}
+.recognition-photo figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 20px 12px;background:linear-gradient(transparent,#0a1715e8);color:#e2e9e1;font-size:10px;line-height:1.5}
+.recognition-photo figcaption a{text-decoration:underline;text-underline-offset:2px}
+.recognition-copy{display:flex;flex-direction:column;align-items:flex-start;padding:48px clamp(28px,4vw,70px)}
+.recognition-copy h2{font:700 clamp(52px,5.7vw,84px)/.94 var(--serif);letter-spacing:-.025em;text-transform:uppercase;margin:25px 0 17px}
+.recognition-copy>p:not(.game-feedback){color:#cedbd0;font-size:16px;line-height:1.55;margin:0}
+.recognition-copy .hint-text{margin-top:12px!important;color:#f2d0af!important;font-size:13px!important}
+.recognition-copy .game-feedback{margin-top:auto;padding-top:20px}
+.recognition-answering{margin-top:20px}
+.recognition-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.recognition-choices button{min-height:76px;display:flex;align-items:center;justify-content:space-between;text-align:left;gap:20px;padding:18px 22px;border:1px solid #b8c8b8;background:#f8faf4;color:#243831;cursor:pointer;font:600 17px/1.25 var(--sans);transition:background .2s,border-color .2s,transform .2s}
+.recognition-choices button:hover:not(:disabled),.recognition-choices button:focus-visible{background:#e3ebe1;border-color:#486a53;transform:translateY(-2px)}
+.recognition-choices button:disabled{cursor:default}
+.recognition-choices button.is-correct{background:#dcebdc;border-color:#557f5b;color:#234a2c}
+.recognition-choices button.is-wrong{background:#f0e4dc;border-color:#b9765e;color:#7e3d2f}
+.recognition-choices button .choice-index{font:500 11px/1 var(--mono);color:#b25a3e;flex:none}
+.recognition-form{background:#f8faf4;border:1px solid #b8c8b8;padding:26px}
+.recognition-form label{display:block;font:700 26px/1.1 var(--serif);text-transform:uppercase;margin-bottom:16px}
+.recognition-form>div{display:flex;gap:10px}
+.recognition-form input{min-width:0;flex:1;padding:15px 16px;border:1px solid #a9b9a9;background:#fff;color:#1c3028;font-size:16px}
+.recognition-form button{border:0;background:#263b32;color:#fff;padding:0 22px;font-weight:700;cursor:pointer}
+.recognition-form button:hover,.recognition-form button:focus-visible{background:#bd5538}
+.recognition-form p{margin:13px 0 0;color:#596d60;font-size:12px;line-height:1.5}
+.recognition-answering+.answer-panel{margin-top:20px}
+@media(max-width:900px){.recognition-card{grid-template-columns:1fr 1fr}.recognition-copy{padding:35px}.recognition-copy h2{font-size:60px}}
+@media(max-width:760px){.recognition-card{display:block}.recognition-photo{height:345px;min-height:0}.recognition-copy{min-height:310px}.recognition-copy h2{font-size:clamp(50px,10vw,70px)}.recognition-choices button{min-height:72px;font-size:15px}}
+@media(max-width:520px){.recognition-photo{height:270px}.recognition-copy{padding:28px;min-height:270px}.recognition-copy h2{font-size:55px}.recognition-choices{grid-template-columns:1fr;gap:9px}.recognition-choices button{min-height:62px}.recognition-form{padding:20px}.recognition-form>div{display:block}.recognition-form input{width:100%}.recognition-form button{width:100%;min-height:48px;margin-top:9px}}
+@media(prefers-reduced-motion:reduce){.recognition-choices button{transition:none}}

@@ -16,7 +16,7 @@ Les rubriques « Actualités » et « Jeux » apparaissent en haut des deux page
 
 La carte utilise les données Natural Earth du domaine public et couvre 241 pays et territoires représentés dans le jeu de données à l'échelle 1:50 millions. Elle se déplace au glisser avec la souris ou le doigt. La molette, le pincement à deux doigts et les boutons permettent de zoomer ; « Vue monde » recentre la carte. Les photos proviennent de Wikimedia Commons ; leur auteur, leur page et leur licence sont indiqués sous chaque image dans le jeu. Les trente-huit photos ajoutées et leur relevé de crédits sont rassemblés dans `assets/jeu/ajouts`. Le jeu reste disponible hors ligne.
 
-Le jeu de quarante-cinq engins est disponible dans cette copie locale et sur GitHub Pages. La direction graphique « Atlas stratégique » est appliquée à l'accueil et au jeu avec `atlas.css` et les polices libres IBM Plex rangées dans `assets/fonts/atlas`. L'actualité automatique de l'ancienne version privée continue indépendamment.
+Les deux jeux utilisent un catalogue commun de quarante-cinq engins dans `engins-data.js`. « D'où vient cet engin ? » se joue sur la carte dans `jeux.html`. « Quel est cet engin ? » montre une photo dans `devine-engin.html` : on peut choisir parmi quatre propositions ou écrire le nom, puis lire l'explication et la source. La direction graphique « Atlas stratégique » est appliquée à l'accueil et aux deux jeux avec `atlas.css` et les polices libres IBM Plex rangées dans `assets/fonts/atlas`. L'actualité automatique de l'ancienne version privée continue indépendamment.
 
 ## Mise à jour de la veille
 

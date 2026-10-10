@@ -24,6 +24,16 @@ a:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-visible
 .button{min-height:52px;font-weight:600;letter-spacing:0;border-radius:0}
 .button-accent{background:var(--accent)}
 .button-dark{background:#263630}
+.button-outline{background:transparent;border:1px solid #263630;color:#263630}
+.button-outline:hover,.button-outline:focus-visible{background:#263630;color:#fff}
+.game-teaser-actions{display:flex;flex-direction:column;align-items:stretch;gap:12px;min-width:205px}
+.game-teaser-actions .button{white-space:nowrap;justify-content:space-between;margin:0}
+.game-switch{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:#9bac9e;border:1px solid #9bac9e;margin-top:30px}
+.game-switch a{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 26px;background:#f7f8f2;color:#25382f;text-decoration:none;transition:background .2s ease,color .2s ease}
+.game-switch a:hover,.game-switch a:focus-visible{background:#e0e9dc}
+.game-switch a[aria-current="page"]{background:#263b32;color:#f8faf3}
+.game-switch a>span{font:500 10px/1.2 var(--mono);letter-spacing:.04em}
+.game-switch a strong{font:700 23px/1 var(--serif);text-transform:uppercase;letter-spacing:-.01em}
 
 .hero{height:min(690px,calc(100vh - 106px));min-height:565px;background:#182824}
 .hero-image{filter:grayscale(.48) saturate(.7) contrast(1.08);background-position:center 43%}
@@ -117,6 +127,8 @@ a:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-visible
   .news-card:first-child{margin:0}
 }
 @media(max-width:760px){
+  .game-switch a{padding:16px}
+  .game-switch a strong{font-size:19px}
   .hero{height:auto;min-height:0}
   .hero-content{padding-top:82px;padding-bottom:95px}
   .hero h1{font-size:clamp(64px,13vw,94px)}
@@ -128,6 +140,9 @@ a:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-visible
   .challenge-copy h2{font-size:clamp(49px,10vw,70px)}
 }
 @media(max-width:520px){
+  .game-switch{grid-template-columns:1fr}
+  .game-switch a strong{font-size:21px}
+  .game-teaser-actions{width:100%}
   .hero h1{font-size:clamp(57px,13.8vw,74px)}
   .hero p{font-size:15px}
   .news-card:first-child{padding:27px}
