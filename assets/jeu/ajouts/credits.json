@@ -1,0 +1,382 @@
+[
+  {
+    "key": "merkava",
+    "file": "Merkava Mk 4M 400 - Gdud 74 - pic01.jpg",
+    "path": "ajouts/merkava.jpg",
+    "artist": "IDF Spokesperson's Unit",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Merkava_Mk_4M_400_-_Gdud_74_-_pic01.jpg",
+    "bytes": 139878
+  },
+  {
+    "key": "ariete",
+    "file": "Ariete front view.JPG",
+    "path": "ajouts/ariete.jpg",
+    "artist": "kaminski",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ariete_front_view.JPG",
+    "bytes": 295901
+  },
+  {
+    "key": "rafale",
+    "file": "Dassault Rafale, ILA 2018, Schönefeld (1X7A5333).jpg",
+    "path": "ajouts/rafale.jpg",
+    "artist": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dassault_Rafale,_ILA_2018,_Sch%C3%B6nefeld_(1X7A5333).jpg",
+    "bytes": 104153
+  },
+  {
+    "key": "tejas",
+    "file": "HAL Tejas.jpg",
+    "path": "ajouts/tejas.jpg",
+    "artist": "Rahuldevnath",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:HAL_Tejas.jpg",
+    "bytes": 56105
+  },
+  {
+    "key": "tb2",
+    "file": "Bayraktar TB2 Ground.jpg",
+    "path": "ajouts/tb2.jpg",
+    "artist": "Bayhaluk",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bayraktar_TB2_Ground.jpg",
+    "bytes": 75235
+  },
+  {
+    "key": "apache",
+    "file": "AH-64 Apache, ILA 2024, Schoenefeld (ILA44641).jpg",
+    "path": "ajouts/apache.jpg",
+    "artist": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:AH-64_Apache,_ILA_2024,_Schoenefeld_(ILA44641).jpg",
+    "bytes": 130389
+  },
+  {
+    "key": "visby",
+    "file": "K31 HSwMS Visby (8643086211).jpg",
+    "path": "ajouts/visby.jpg",
+    "artist": "Mark Harkin",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:K31_HSwMS_Visby_(8643086211).jpg",
+    "bytes": 63935
+  },
+  {
+    "key": "type10",
+    "file": "10式戦車 (Type 10 Tank) - Japan Ground Self-Defense Force. (53824609147).jpg",
+    "path": "ajouts/type10.jpg",
+    "artist": "MIKI Yoshihito from Sapporo City,Hokkaido., JAPAN",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:10%E5%BC%8F%E6%88%A6%E8%BB%8A_(Type_10_Tank)_-_Japan_Ground_Self-Defense_Force._(53824609147).jpg",
+    "bytes": 157433
+  },
+  {
+    "key": "k9",
+    "file": "A Polish K9 howitzer fires an artillery round during a live fire demonstration.jpg",
+    "path": "ajouts/k9.jpg",
+    "artist": "Staff Sgt. Matthew Foster",
+    "license": "domaine public",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Polish_K9_howitzer_fires_an_artillery_round_during_a_live_fire_demonstration.jpg",
+    "bytes": 88608
+  },
+  {
+    "key": "f16",
+    "file": "F-16 Fighting Falcon.jpg",
+    "path": "ajouts/f16.jpg",
+    "artist": "Staff Sgt. Cherie A. Thurlby",
+    "license": "domaine public",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "page": "https://commons.wikimedia.org/wiki/File:F-16_Fighting_Falcon.jpg",
+    "bytes": 79253
+  },
+  {
+    "key": "su35",
+    "file": "Su-35 in flight. (3826731912).jpg",
+    "path": "ajouts/su35.jpg",
+    "artist": "Aleksandr Markin",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Su-35_in_flight._(3826731912).jpg",
+    "bytes": 76709
+  },
+  {
+    "key": "j10",
+    "file": "J-10 Fighter aircraft 20170902.jpg",
+    "path": "ajouts/j10.jpg",
+    "artist": "Tyg728",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:J-10_Fighter_aircraft_20170902.jpg",
+    "bytes": 85894
+  },
+  {
+    "key": "fa50",
+    "file": "FA-50 Fighting Eagle Test Flight.jpg",
+    "path": "ajouts/fa50.jpg",
+    "artist": "Republic of Korea Air Force, Korea Aerospace Industries",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:FA-50_Fighting_Eagle_Test_Flight.jpg",
+    "bytes": 87971
+  },
+  {
+    "key": "charles",
+    "file": "French aircraft carrier Charles de Gaulle (R91) underway in the Ionian Sea on 17 March 2022 (220317-N-DH793-1322).JPG",
+    "path": "ajouts/charles.jpg",
+    "artist": "U.S. Navy photo by Mass Communication Specialist 3rd Class Bela Chambers",
+    "license": "domaine public",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "page": "https://commons.wikimedia.org/wiki/File:French_aircraft_carrier_Charles_de_Gaulle_(R91)_underway_in_the_Ionian_Sea_on_17_March_2022_(220317-N-DH793-1322).JPG",
+    "bytes": 179899
+  },
+  {
+    "key": "queen",
+    "file": "Aerial view of HMS Queen Elizabeth (R08) off Scotland on 28 June 2017 (4516752).jpg",
+    "path": "ajouts/queen.jpg",
+    "artist": "Fleet Air Arm aircrew",
+    "license": "OGL v1.0",
+    "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_HMS_Queen_Elizabeth_(R08)_off_Scotland_on_28_June_2017_(4516752).jpg",
+    "bytes": 247978
+  },
+  {
+    "key": "type055",
+    "file": "PLANS Nanchang (DDG-101) 20210427.jpg",
+    "path": "ajouts/type055.jpg",
+    "artist": "日本防衛省・統合幕僚監部",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PLANS_Nanchang_(DDG-101)_20210427.jpg",
+    "bytes": 68551
+  },
+  {
+    "key": "alvaro",
+    "file": "Spanish frigate Alvaro De Bazan (F101) underway in the Atlantic Ocean on 8 October 2017 (171008-N-IC246-0301).JPG",
+    "path": "ajouts/alvaro.jpg",
+    "artist": "U.S. Navy photo by Mass Communication Specialist Seaman Apprentice Raymond Maddocks",
+    "license": "domaine public",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Spanish_frigate_Alvaro_De_Bazan_(F101)_underway_in_the_Atlantic_Ocean_on_8_October_2017_(171008-N-IC246-0301).JPG",
+    "bytes": 140941
+  },
+  {
+    "key": "abrams",
+    "file": "M1A2 Abrams Main Battle Tanks (7084260).jpg",
+    "path": "ajouts/abrams.jpg",
+    "artist": "Spc. Elizabeth MacPherson / U.S. Army",
+    "license": "domaine public",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "page": "https://commons.wikimedia.org/wiki/File:M1A2%20Abrams%20Main%20Battle%20Tanks%20%287084260%29.jpg",
+    "bytes": 168537
+  },
+  {
+    "key": "puma",
+    "file": "Puma.IFV.JPG",
+    "path": "ajouts/puma.jpg",
+    "artist": "Motorpferd",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puma.IFV.JPG",
+    "bytes": 156255
+  },
+  {
+    "key": "patria",
+    "file": "2025 Finnish Independence Day parade Patria AMV.jpg",
+    "path": "ajouts/patria.jpg",
+    "artist": "VynedJ",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2025%20Finnish%20Independence%20Day%20parade%20Patria%20AMV.jpg",
+    "bytes": 253266
+  },
+  {
+    "key": "challenger3",
+    "file": "Challenger 3.jpg",
+    "path": "ajouts/challenger3.jpg",
+    "artist": "Corporal Adam J. Wakefield / UK Ministry of Defence",
+    "license": "Open Government Licence v1.0",
+    "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/",
+    "page": "https://commons.wikimedia.org/wiki/File:Challenger%203.jpg",
+    "bytes": 182911
+  },
+  {
+    "key": "t90m",
+    "file": "T-90M.jpg",
+    "path": "ajouts/t90m.jpg",
+    "artist": "Ministère de la Défense de la Fédération de Russie",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:T-90M.jpg",
+    "bytes": 222539
+  },
+  {
+    "key": "f15ex",
+    "file": "F-15EX and F-15E air power soars at Kadena (9807266).jpg",
+    "path": "ajouts/f15ex.jpg",
+    "artist": "Senior Airman Amy Kelley / U.S. Air Force",
+    "license": "domaine public",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "page": "https://commons.wikimedia.org/wiki/File:F-15EX%20and%20F-15E%20air%20power%20soars%20at%20Kadena%20%289807266%29.jpg",
+    "bytes": 145208
+  },
+  {
+    "key": "mirage2000",
+    "file": "Mirage2000.jpg",
+    "path": "ajouts/mirage2000.jpg",
+    "artist": "Senior Airman Bethann Hunt / U.S. Air Force",
+    "license": "domaine public",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Mirage2000.jpg",
+    "bytes": 14269
+  },
+  {
+    "key": "a29",
+    "file": "Aeronave A-29 Super Tucano em voo sobre a Floresta Amazônica (cropped).jpg",
+    "path": "ajouts/a29.jpg",
+    "artist": "Johnson Barros",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aeronave%20A-29%20Super%20Tucano%20em%20voo%20sobre%20a%20Floresta%20Amaz%C3%B4nica%20%28cropped%29.jpg",
+    "bytes": 228585
+  },
+  {
+    "key": "f2",
+    "file": "Mitsubishi F-2 in flight 01.jpg",
+    "path": "ajouts/f2.jpg",
+    "artist": "Jerry Gunner",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi%20F-2%20in%20flight%2001.jpg",
+    "bytes": 33558
+  },
+  {
+    "key": "mig35",
+    "file": "1 MiG-35.jpg",
+    "path": "ajouts/mig35.jpg",
+    "artist": "Ministère de la Défense de la Fédération de Russie",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1%20MiG-35.jpg",
+    "bytes": 96207
+  },
+  {
+    "key": "j20",
+    "file": "J-20 fighter (cropped).jpg",
+    "path": "ajouts/j20.jpg",
+    "artist": "emperornie",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:J-20%20fighter%20%28cropped%29.jpg",
+    "bytes": 189475
+  },
+  {
+    "key": "ford",
+    "file": "USS Gerald R. Ford (CVN-78) underway in the Atlantic Ocean on 9 October 2022 (221009-N-TL968-1248).JPG",
+    "path": "ajouts/ford.jpg",
+    "artist": "Mass Communication Specialist 2nd Class Jackson Adkins / U.S. Navy",
+    "license": "domaine public",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "page": "https://commons.wikimedia.org/wiki/File:USS%20Gerald%20R.%20Ford%20%28CVN-78%29%20underway%20in%20the%20Atlantic%20Ocean%20on%209%20October%202022%20%28221009-N-TL968-1248%29.JPG",
+    "bytes": 143936
+  },
+  {
+    "key": "zumwalt",
+    "file": "USS Zumwalt (DDG 1000) underway for the first time 151207-N-ZZ999-001.jpg",
+    "path": "ajouts/zumwalt.jpg",
+    "artist": "National Museum of the U.S. Navy",
+    "license": "domaine public",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "page": "https://commons.wikimedia.org/wiki/File:USS%20Zumwalt%20%28DDG%201000%29%20underway%20for%20the%20first%20time%20151207-N-ZZ999-001.jpg",
+    "bytes": 230066
+  },
+  {
+    "key": "vikrant",
+    "file": "IAC1 Vikrant (R11) with INS Kolkata (D63) during sea trial (cropped).jpg",
+    "path": "ajouts/vikrant.jpg",
+    "artist": "Marine indienne",
+    "license": "GODL-India",
+    "licenseUrl": "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf",
+    "page": "https://commons.wikimedia.org/wiki/File:IAC1%20Vikrant%20%28R11%29%20with%20INS%20Kolkata%20%28D63%29%20during%20sea%20trial%20%28cropped%29.jpg",
+    "bytes": 132491
+  },
+  {
+    "key": "taigei",
+    "file": "SSE-6201 Taigei.jpg",
+    "path": "ajouts/taigei.jpg",
+    "artist": "Force maritime d’autodéfense du Japon",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SSE-6201%20Taigei.jpg",
+    "bytes": 160588
+  },
+  {
+    "key": "bergamini",
+    "file": "Carlo Bergamini (F-590) 1.jpg",
+    "path": "ajouts/bergamini.jpg",
+    "artist": "Antoloji",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carlo%20Bergamini%20%28F-590%29%201.jpg",
+    "bytes": 135974
+  },
+  {
+    "key": "cv90",
+    "file": "Swedish CV9040.JPG",
+    "path": "ajouts/cv90.jpg",
+    "artist": "Mr Bullitt~commonswiki",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Swedish%20CV9040.JPG",
+    "bytes": 294678,
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/"
+  },
+  {
+    "key": "c390",
+    "file": "EGLF - Embraer KC-390 - Força Aérea Brasileira - PT-ZNJ (42759650754).jpg",
+    "path": "ajouts/c390.jpg",
+    "artist": "Steve Lynes",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EGLF%20-%20Embraer%20KC-390%20-%20For%C3%A7a%20A%C3%A9rea%20Brasileira%20-%20PT-ZNJ%20%2842759650754%29.jpg",
+    "bytes": 106771,
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    "key": "pc21",
+    "file": "Pilatus pc-21 hb-hzc lands arp.jpg",
+    "path": "ajouts/pc21.jpg",
+    "artist": "Adrian Pingstone (Arpingstone)",
+    "license": "domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File:Pilatus%20pc-21%20hb-hzc%20lands%20arp.jpg",
+    "bytes": 73886,
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+  },
+  {
+    "key": "virginia",
+    "file": "US Navy 040730-N-1234E-002 PCU Virginia (SSN 774) returns to the General Dynamics Electric Boat shipyard.jpg",
+    "path": "ajouts/virginia.jpg",
+    "artist": "General Dynamics Electric Boat / U.S. Navy",
+    "license": "domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File:US%20Navy%20040730-N-1234E-002%20PCU%20Virginia%20%28SSN%20774%29%20returns%20to%20the%20General%20Dynamics%20Electric%20Boat%20shipyard.jpg",
+    "bytes": 208424,
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+  },
+  {
+    "key": "gotland",
+    "file": "Gotland NOCO2014 03.JPG",
+    "path": "ajouts/gotland.jpg",
+    "artist": "MKFI",
+    "license": "domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File:Gotland%20NOCO2014%2003.JPG",
+    "bytes": 142651,
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+  }
+]
