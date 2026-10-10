@@ -1,0 +1,78 @@
+window.LDV_NEWS = {
+  "updatedAt": "2026-10-10",
+  "correctionsEmail": "oustryilan64@gmail.com",
+  "items": [
+    {
+      "date": "2026-10-09",
+      "source": "Conseil de l'Union européenne",
+      "sourceType": "Source officielle",
+      "title": "L'UE adopte des mesures pour simplifier les projets de défense",
+      "summary": "Le Conseil annonce l'adoption finale de textes sur les achats, les investissements et la coopération industrielle de défense.",
+      "why": "Des procédures plus simples peuvent accélérer les projets communs et la montée en capacité des États européens.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/09/simplification-council-gives-final-green-light-to-new-laws-boosting-defence-industry-and-readiness/"
+    },
+    {
+      "date": "2026-10-09",
+      "source": "Zone Militaire — Laurent Lagneau",
+      "sourceType": "Presse spécialisée",
+      "title": "DANAE : trois drones de surface retenus pour poursuivre les essais",
+      "summary": "Selon Zone Militaire, l’Agence de l’innovation de défense a annoncé la sélection des solutions de SeaOwl, du groupement ORCAS et de SIREHNA pour la suite de DANAE. Cette phase doit développer et évaluer les prototypes jusqu’à fin 2027 avant le choix d’une solution pour protéger les bases et les navires.",
+      "why": "La sélection fait avancer la protection navale par des systèmes autonomes. Elle reste une étape d’expérimentation, avant une éventuelle production et mise en service.",
+      "url": "https://www.opex360.com/2026/10/09/la-direction-generale-de-larmement-selectionne-trois-drones-de-surface-pour-la-protection-des-bases-et-des-navires-de-la-marine/"
+    },
+    {
+      "date": "2026-10-09",
+      "source": "Zone Militaire — Laurent Lagneau",
+      "sourceType": "Presse spécialisée",
+      "title": "MGCS : Paris affirme poursuivre la coopération et préparer une capacité intermédiaire",
+      "summary": "Zone Militaire rapporte une clarification du ministère des Armées : le MGCS franco-allemand se poursuit, avec une mise en service décalée vers la fin des années 2040. La France prépare une capacité intermédiaire pour remplacer le Leclerc, tandis que la coopération se recentre sur la connectivité, le combat collaboratif et la robotisation.",
+      "why": "Le décalage oblige à préparer le renouvellement des chars avant l’arrivée du MGCS. Distinguer la poursuite de la coopération de son calendrier évite de confondre retard et abandon.",
+      "url": "https://www.opex360.com/2026/10/09/le-projet-franco-allemand-de-systeme-principal-de-combat-terrestre-se-poursuit-assure-le-ministere-des-armees/"
+    },
+    {
+      "date": "2026-10-09",
+      "source": "OTAN",
+      "sourceType": "Source officielle",
+      "title": "Moldavie : l’OTAN présente les résultats de son soutien aux capacités de défense",
+      "summary": "Lors de sa visite des 8 et 9 octobre en Moldavie, Radmila Shekerinska a échangé avec les autorités sur le partenariat avec l’OTAN. Selon l’Alliance, environ 50 millions d’euros ont été livrés dans le cadre de son soutien aux capacités de défense, notamment pour la protection individuelle, le stockage des munitions et la cybersécurité.",
+      "why": "Ce bilan montre le contenu concret du partenariat : équipements, sécurité des stocks et cyberdéfense. Ces domaines contribuent à renforcer la résilience des institutions moldaves.",
+      "url": "https://nato.int/en/news-and-events/articles/news/2026/10/09/natos-deputy-secretary-general-visits-moldova"
+    },
+    {
+      "date": "2026-10-08",
+      "source": "OpexNews",
+      "sourceType": "Presse spécialisée",
+      "title": "Budget des armées : les questions ouvertes pour 2027",
+      "summary": "Une analyse de la trajectoire budgétaire annoncée et des incertitudes politiques qui l'entourent.",
+      "why": "Le financement effectif conditionne les équipements et la préparation des forces dans la durée.",
+      "url": "https://opexnews.fr/budget-armees-defense-2027-presidentielle/"
+    },
+    {
+      "date": "2026-10-08",
+      "source": "OTAN",
+      "sourceType": "Source officielle",
+      "title": "Steadfast Noon : l’OTAN annonce un exercice de dissuasion à partir du 13 octobre",
+      "summary": "L’OTAN annonce que son exercice annuel Steadfast Noon commencera le 13 octobre 2026 en Italie, avec 17 nations. L’Alliance précise qu’aucune arme réelle ne sera utilisée et présente cette activité comme un entraînement planifié de longue date, sans lien avec les événements actuels.",
+      "why": "Cet entraînement porte sur la préparation et les procédures de dissuasion. Son caractère annoncé et l’absence d’armes réelles permettent de le distinguer d’une opération de combat.",
+      "url": "https://www.nato.int/en/news-and-events/articles/news/2026/10/08/nato-holds-annual-nuclear-exercise-steadfast-noon"
+    },
+    {
+      "date": "2026-10-07",
+      "source": "OTAN",
+      "sourceType": "Source officielle",
+      "title": "Le Comité militaire de l'OTAN s'est rendu à Kyiv",
+      "summary": "L'Alliance indique avoir échangé avec les responsables ukrainiens sur les priorités militaires et les enseignements du terrain.",
+      "why": "Ces échanges éclairent l'adaptation des capacités et des priorités de l'Alliance.",
+      "url": "https://www.nato.int/en/news-and-events/articles/news/2026/10/07/nato-military-committee-visited-kyiv"
+    },
+    {
+      "date": "2026-10-06",
+      "source": "Ministère des Armées",
+      "sourceType": "Source officielle",
+      "title": "Premier tir d'acceptation du M51.3 depuis Le Vigilant",
+      "summary": "La DGA présente les objectifs du tir réalisé depuis le sous-marin après sa période d'entretien et de réparations.",
+      "why": "Ce contrôle valide la remise en service d'une capacité centrale de la dissuasion française.",
+      "url": "https://www.defense.gouv.fr/dga/actualites/tir-dacceptation-dun-missile-m513-snle-vigilant"
+    }
+  ]
+};

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142025">
+  <meta name="description" content="Jeu de géographie de la défense : retrouvez sur une carte interactive le pays de conception de 45 chars, avions, navires et autres engins militaires.">
+  <title>Maquette — Jeux — D'où vient cet engin ? | Ligne de Veille</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="jeux.css">
+  <script src="map-data.js" defer></script>
+  <script src="jeux.js" defer></script>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="atlas.css">
+</head>
+<body>
+  <div class="design-preview-banner"><strong>MAQUETTE · ATLAS STRATÉGIQUE</strong><a href="index.html">Voir le site actuel</a></div>
+  <a class="skip-link" href="#main">Aller au jeu</a>
+  <div class="utility-bar"><span>VEILLE DOCUMENTÉE <i></i> DÉFENSE · SÉCURITÉ · GÉOPOLITIQUE</span><span>JEUX / 01</span></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="apercu-accueil.html" aria-label="Ligne de Veille, accueil"><span class="brand-mark" aria-hidden="true"><b>L</b><em>/</em><b>V</b></span><span class="brand-name">LIGNE<br>DE VEILLE</span></a>
+    <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+      <a href="apercu-accueil.html#actualites">Actualités</a>
+      <a href="apercu-jeux.html" aria-current="page">Jeux</a>
+    </nav>
+    <div class="header-actions"><button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button></div>
+  </header>
+
+  <main id="main">
+    <section class="game-intro" aria-labelledby="game-title">
+      <div class="wrap">
+        <div class="eyebrow light"><span class="eyebrow-line"></span> LE MONDE EN JEU</div>
+        <h1 id="game-title">D'où vient <em>cet engin&nbsp;?</em></h1>
+        <p>Chars, avions, drones, hélicoptères, navires et artillerie : retrouve leur <strong>pays de conception</strong> sur la carte. Tu as cinq tentatives par question.</p>
+        <div class="game-intro-foot"><span>45 ENGINS À DÉCOUVRIR</span><span>01 / JEUX</span></div>
+      </div>
+    </section>
+
+    <section class="game-shell wrap" aria-label="Quiz des engins militaires">
+      <div class="game-options" id="game-options">
+        <div class="option-group" role="group" aria-label="Durée de la partie"><span class="option-label">DURÉE</span><button type="button" data-mode="quick" aria-pressed="true">Partie rapide · 5</button><button type="button" data-mode="full" aria-pressed="false">Grand tour · tout</button></div>
+        <div class="option-group" role="group" aria-label="Catégorie des engins"><span class="option-label">CATÉGORIE</span><button type="button" data-category="all" aria-pressed="true">Tout</button><button type="button" data-category="terre" aria-pressed="false">Terre</button><button type="button" data-category="air" aria-pressed="false">Air</button><button type="button" data-category="mer" aria-pressed="false">Mer</button></div>
+        <p id="game-mode-description">5 questions tirées au hasard · 5 tentatives par engin.</p>
+      </div>
+      <div class="game-status" aria-live="polite">
+        <span id="round-count">Question 1 / 5</span>
+        <span id="attempt-count">5 tentatives restantes</span>
+        <span id="score-count">0 trouvé · 0 point</span>
+      </div>
+
+      <div class="challenge-hero" id="challenge-hero">
+        <figure class="challenge-photo">
+          <img id="item-photo" src="" alt="" width="960" height="640">
+          <figcaption id="photo-credit"></figcaption>
+        </figure>
+        <div class="challenge-copy">
+          <span class="challenge-category" id="item-category">CHAR DE COMBAT</span>
+          <h2 id="item-name">Chargement du jeu…</h2>
+          <p id="item-prompt">Observe l'engin, puis sélectionne son pays de conception.</p>
+          <button class="hint-button" id="hint-button" type="button">Afficher un indice <span aria-hidden="true">↗</span></button>
+          <p class="hint-text" id="hint-text" hidden></p>
+          <div class="attempt-dots" id="attempt-dots" aria-hidden="true"></div>
+          <p class="game-feedback" id="game-feedback" role="status" aria-live="polite">Survole un pays pour voir son nom, puis clique pour tenter ta chance.</p>
+        </div>
+      </div>
+
+      <div class="answer-panel" id="answer-panel" hidden>
+        <div><span class="answer-label" id="answer-label">Bonne réponse</span><h3 id="answer-country"></h3><p id="answer-explanation"></p><a id="answer-source" href="#" target="_blank" rel="noopener noreferrer">Vérifier dans la source officielle <span aria-hidden="true">↗</span></a></div>
+        <button class="button button-accent" id="next-question" type="button">Question suivante <span aria-hidden="true">→</span></button>
+      </div>
+
+      <section class="map-panel" aria-labelledby="map-heading">
+        <div class="map-heading-row"><div><span class="map-kicker">CHOISIS UN PAYS</span><h2 id="map-heading">La carte du monde.</h2></div><div class="map-actions" role="group" aria-label="Zoom de la carte"><button type="button" id="zoom-out" aria-label="Dézoomer la carte">−</button><span id="zoom-level" aria-live="polite">100 %</span><button type="button" id="zoom-in" aria-label="Zoomer la carte">+</button><button type="button" id="zoom-reset">Vue monde</button></div></div>
+        <div class="map-frame" id="map-frame"><svg id="world-map" viewBox="-60 -25 1320 550" role="img" aria-label="Carte du monde interactive : cliquez sur un pays pour répondre, glissez pour déplacer et utilisez la molette pour zoomer"></svg><div class="map-corner-label" aria-hidden="true">CARTE INTERACTIVE <span>·</span> GLISSE POUR EXPLORER</div><div class="map-tooltip" id="map-tooltip" hidden></div></div>
+        <div class="map-bottom"><p><strong>Déplace la carte</strong> en la faisant glisser. Zoome avec la molette, les boutons +/− ou deux doigts sur téléphone. Clique sur un pays pour répondre ; la liste reste disponible au clavier.</p><form id="country-form"><label for="country-choice">Ou choisis un pays dans la liste</label><div><select id="country-choice" required><option value="">Sélectionner un pays…</option></select><button type="submit">Valider ↗</button></div></form></div>
+      </section>
+
+      <div class="game-end" id="game-end" hidden><span class="eyebrow"><span class="eyebrow-line"></span> PARTIE TERMINÉE</span><h2>Bien joué<span aria-hidden="true">.</span></h2><p id="final-score"></p><button class="button button-dark" id="play-again" type="button">Rejouer <span aria-hidden="true">↗</span></button></div>
+      <p class="map-attribution">Fond de carte : <a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener noreferrer">Natural Earth</a> (domaine public). Les frontières sont représentées à titre indicatif.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="wrap footer-main"><div><a class="brand footer-brand" href="apercu-accueil.html" aria-label="Ligne de Veille, accueil"><span class="brand-mark" aria-hidden="true"><b>L</b><em>/</em><b>V</b></span><span class="brand-name">LIGNE<br>DE VEILLE</span></a><p>Défense, sécurité, géopolitique.<br>Les faits en perspective.</p></div><div class="footer-links"><div><strong>EXPLORER</strong><a href="apercu-accueil.html#actualites">Les actualités</a><a href="apercu-accueil.html#archives">Les archives</a><a href="apercu-jeux.html">Les jeux</a></div><div><strong>À PROPOS</strong><span>Veille thématique automatisée</span><span>Édition pilote</span></div></div></div><div class="wrap footer-bottom"><span>© 2026 Ligne de Veille — Projet de démonstration</span><a href="#top">Retour en haut ↑</a></div></footer>
+</body>
+</html>
