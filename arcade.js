@@ -235,7 +235,7 @@
     text('arcade-score', '1 QUESTION · 1 TENTATIVE');
     text('arcade-eyebrow', item.kind);
     text('arcade-question', 'Quel est cet engin ?');
-    text('arcade-detail', 'Le même défi pour tous, renouvelé chaque matin à minuit, heure de Paris.');
+    text('arcade-detail', 'Le même défi pour tous, renouvelé chaque jour à minuit, heure de Paris.');
     $('arcade-photo').src = `assets/jeu/${item.photo}`; $('arcade-photo').alt = 'Photographie de l’engin du défi du jour';
     setCredit(item);
     function shareText(ok) { return `Ligne de Veille · Défi du ${key} : ${ok ? '1/1 ✓' : '0/1 ◯'} — Et toi ? ${location.href.split('?')[0]}`; }
