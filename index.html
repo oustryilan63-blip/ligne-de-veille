@@ -8,6 +8,7 @@
   <title>Ligne de Veille — Défense, sécurité, géopolitique</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="atlas.css?v=4">
+  <link rel="stylesheet" href="histoire.css?v=1">
   <script src="actualites.js" defer></script>
   <script src="app.js" defer></script>
 </head>
@@ -19,6 +20,7 @@
     <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
       <a href="index.html#actualites" aria-current="page">Actualités</a>
       <a href="tous-les-jeux.html">Jeux</a>
+      <a href="histoire.html">Histoire</a>
     </nav>
     <div class="header-actions"><button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button></div>
   </header>
@@ -42,6 +44,8 @@
 
       <section class="game-teaser" aria-labelledby="game-teaser-title"><div class="wrap game-teaser-inner"><div><span class="eyebrow"><span class="eyebrow-line"></span> UNE PAUSE POUR APPRENDRE</span><h2 id="game-teaser-title">Et si on jouait<br><em>avec les engins&nbsp;?</em></h2><p>Six jeux pour explorer 45 chars, avions, drones, hélicoptères et navires : carte du monde, photos, chronologie, vrai ou faux et défi du jour.</p></div><div class="game-teaser-actions"><a class="button button-dark" href="tous-les-jeux.html">Découvrir les 6 jeux <span aria-hidden="true">↗</span></a></div></div></section>
 
+      <section class="history-teaser" aria-labelledby="history-teaser-title"><div class="wrap history-teaser-inner"><div><span class="eyebrow"><span class="eyebrow-line"></span> COMPRENDRE LES ENGINS</span><h2 id="history-teaser-title">Leur histoire.<br><em>Leur géographie.</em></h2><p>Retrouve les 45 engins des jeux : une photo, leur parcours, une carte des pays documentés et les chiffres confirmés disponibles.</p></div><a class="button button-dark" href="histoire.html">Explorer l’atlas <span aria-hidden="true">↗</span></a></div></section>
+
       <section class="method-section" id="methode" aria-labelledby="method-title"><div class="wrap method-layout"><div class="method-left"><div class="eyebrow light"><span class="eyebrow-line"></span> NOTRE MÉTHODE</div><h2 id="method-title">L'information<br>mérite du <em>contexte.</em></h2><p>Une veille automatisée qui distingue les faits rapportés par les sources et les éléments de contexte proposés au lecteur. Les publications d’origine restent la référence.</p><div class="method-compass" aria-hidden="true"><span>N</span><span class="compass-ring"></span><span class="compass-point"></span></div></div><div class="method-steps"><div><span>01 /</span><h3>Partir des faits</h3><p>Identifier ce qui est établi, la source de l'information et ce qui reste à confirmer.</p></div><div><span>02 /</span><h3>Restituer les enjeux</h3><p>Relier les décisions aux acteurs, à la géographie et aux contraintes de long terme.</p></div><div><span>03 /</span><h3>Garder la nuance</h3><p>Présenter les interprétations avec leurs limites, sans confondre hypothèse et certitude.</p></div></div></div></section>
       <section class="closing-section wrap"><span class="eyebrow"><span class="eyebrow-line"></span> POUR MIEUX COMPRENDRE</span><h2>Prendre du recul.<br><em>Garder le cap.</em></h2><a class="button button-dark" href="#actualites">Voir les actualités <span aria-hidden="true">↗</span></a></section>
     </div>
@@ -49,7 +53,7 @@
 
   <dialog class="report-dialog" id="report-dialog" aria-labelledby="report-title"><form id="report-form"><div class="report-head"><span class="eyebrow"><span class="eyebrow-line"></span> CONTRIBUER À LA FIABILITÉ</span><button type="button" id="report-close" aria-label="Fermer">×</button></div><h2 id="report-title">Signaler une erreur</h2><p>Décrivez ce qui doit être corrigé. Un e-mail prérempli s’ouvrira dans votre messagerie ; vous pourrez le relire avant de l’envoyer.</p><label for="report-item">Publication concernée</label><select id="report-item" required><option value="site">Le site en général</option></select><label for="report-message">Erreur constatée</label><textarea id="report-message" rows="5" required placeholder="Précisez l’information à corriger…"></textarea><label for="report-reference">Lien de vérification (facultatif)</label><input id="report-reference" type="url" placeholder="https://"><button class="button button-dark" type="submit">Préparer l’e-mail <span aria-hidden="true">↗</span></button><p class="report-recipient" id="report-recipient"></p></form></dialog>
 
-  <footer class="site-footer"><div class="wrap footer-main"><div><a class="brand footer-brand" href="./" aria-label="Ligne de Veille, accueil"><span class="brand-mark" aria-hidden="true"><b>L</b><em>/</em><b>V</b></span><span class="brand-name">LIGNE<br>DE VEILLE</span></a><p>Défense, sécurité, géopolitique.<br>Les faits en perspective.</p></div><div class="footer-links"><div><strong>EXPLORER</strong><a href="#actualites">Les actualités</a><a href="#archives">Les archives</a><a href="tous-les-jeux.html">Tous les jeux</a><a href="#methode">Notre méthode</a></div><div><strong>À PROPOS</strong><span>Veille thématique automatisée</span><span>Édition pilote</span></div></div></div><div class="wrap footer-bottom"><span>© 2026 Ligne de Veille — Projet de démonstration</span><a href="#top">Retour en haut ↑</a></div></footer>
+  <footer class="site-footer"><div class="wrap footer-main"><div><a class="brand footer-brand" href="./" aria-label="Ligne de Veille, accueil"><span class="brand-mark" aria-hidden="true"><b>L</b><em>/</em><b>V</b></span><span class="brand-name">LIGNE<br>DE VEILLE</span></a><p>Défense, sécurité, géopolitique.<br>Les faits en perspective.</p></div><div class="footer-links"><div><strong>EXPLORER</strong><a href="#actualites">Les actualités</a><a href="#archives">Les archives</a><a href="tous-les-jeux.html">Tous les jeux</a><a href="histoire.html">L’histoire des engins</a><a href="#methode">Notre méthode</a></div><div><strong>À PROPOS</strong><span>Veille thématique automatisée</span><span>Édition pilote</span></div></div></div><div class="wrap footer-bottom"><span>© 2026 Ligne de Veille — Projet de démonstration</span><a href="#top">Retour en haut ↑</a></div></footer>
 </body>
 </html>
 
