@@ -103,7 +103,7 @@ if (news && Array.isArray(news.items) && news.items.length) {
       const title = document.createElement('strong');
       title.textContent = item.title;
       const source = document.createElement('span');
-      source.textContent = item.source;
+      source.textContent = item.source + (item.language === 'en' ? ' · en anglais' : '');
       link.append(date, title, source);
       row.append(link);
       list.append(row);
