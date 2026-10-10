@@ -15,9 +15,9 @@ function fact(){const photo=photos[photoKeys[$('hz-country').value][Number($('hz
 const panel=$('hz-fact-card');panel.replaceChildren();const left=document.createElement('div'),right=document.createElement('div'),title=document.createElement('h3'),p=document.createElement('p');title.textContent=c.name;p.textContent=c.detail;left.append(title,p);const dl=document.createElement('dl');for(const [label,value] of [['Statut',c.status],['Système réel associé · documentation',c.system]]){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value;dl.append(dt,dd);}right.append(dl);for(const [label,url] of c.sources){const a=document.createElement('a');a.href=url;a.textContent=label+' ↗';a.target='_blank';a.rel='noopener noreferrer';right.append(a);}panel.append(left,right);}
 function country(){const select=$('hz-class');select.replaceChildren();classes[$('hz-country').value].forEach((c,i)=>{const o=document.createElement('option');o.value=i;o.textContent=c.name;select.append(o);});fact();}
 $('hz-country').addEventListener('change',country);$('hz-class').addEventListener('change',fact);country();
-const zones=[[440,205],[115,230],[790,320]],capacities=[90,170,250];
+const initialStart=[440,205];
 const map=$('hz-map');
-let start=[...zones[0]],arrival=null,placing=null,busy=false,frame=0,completed=0;
+let start=[...initialStart],arrival=null,placing=null,busy=false,frame=0,completed=0;
 let view={x:-60,y:-25,w:1320,h:550};
 const polygons=window.LDV_MAP.flatMap(c=>c.path.split('M').slice(1).map(part=>part.replace(/[LZ]/g,' ').trim().split(/\s+/).map(s=>s.split(',').map(Number))));
 function inPolygon(p,poly){let inside=false;for(let i=0,j=poly.length-1;i<poly.length;j=i++){const a=poly[i],b=poly[j];if((a[1]>p.y)!==(b[1]>p.y)&&p.x<(b[0]-a[0])*(p.y-a[1])/(b[1]-a[1])+a[0])inside=!inside;}return inside;}
@@ -28,7 +28,7 @@ for(const c of window.LDV_MAP)$('hz-land').append(svg('path',{d:c.path}));
 function markerScale(){return 1/(map.getScreenCTM()?.a||1);}
 function renderMap(){
  const g=$('hz-exercise'),s=markerScale();g.replaceChildren();
- const sub=svg('g',{class:'hz-sub-marker',transform:`translate(${start}) scale(${s})`,role:'img','aria-label':'Sous-marin, point de départ'});
+ const sub=svg('g',{class:'hz-sub-marker',transform:`translate(${start}) scale(${s*.32})`,role:'img','aria-label':'Sous-marin, point de départ'});
  sub.append(svg('path',{d:'M-49 4Q-37-1-27 2M-50 10Q-36 6-26 8M-45 15Q-34 12-27 12',fill:'none',stroke:'#9ababa','stroke-width':1.2,opacity:.55}));
  sub.append(svg('path',{d:'M-33 2L-43-8L-37 7L-44 18L-31 12Z',fill:'#76969c',stroke:'#b5cbc6','stroke-width':.8}));
  sub.append(svg('path',{d:'M-30 0C-16-4 20-4 33 0Q44 4 35 10C20 16-19 15-31 10Z',fill:'url(#hz-hull)',stroke:'#b0c4be','stroke-width':1}));
@@ -37,14 +37,14 @@ function renderMap(){
  sub.append(svg('path',{d:'M5 0L15 8L26 8L17 0Z',fill:'#708c94',stroke:'#afc5c5','stroke-width':.6}));
  sub.append(svg('path',{d:'M-28 4Q-6 1 28 3M-23 9Q1 12 28 8',stroke:'#a0b6b5','stroke-width':.6,opacity:.75,fill:'none'}));
  for(let i=0;i<4;i++)sub.append(svg('path',{d:`M${6+i*5} -1v2`,stroke:'#b2c5c0','stroke-width':.7}));
- g.append(sub,svg('text',{x:start[0],y:start[1]+30*s,'text-anchor':'middle','font-size':9*s},'SOUS-MARIN'));
+ g.append(sub,svg('text',{x:start[0],y:start[1]+16*s,'text-anchor':'middle','font-size':9*s},'SOUS-MARIN'));
  if(arrival){const mark=svg('g',{class:'hz-arrival',transform:`translate(${arrival}) scale(${s})`,role:'img','aria-label':'Point d’arrivée en mer'});mark.append(svg('path',{d:'M-9 0H-3M3 0H9M0-9V-3M0 3V9M-5-5L5 5M-5 5L5-5',stroke:'#e4b081','stroke-width':1.5,fill:'none'}));g.append(mark,svg('text',{x:arrival[0],y:arrival[1]+24*s,'text-anchor':'middle','font-size':9*s},'ARRIVÉE'));}
 }
 function setFeedback(text){$('hz-feedback').textContent=text;}
 function updateRoute(){
- const d=distance(),capacity=capacities[Number($('hz-probe').value)];
+ const d=distance();
  $('hz-distance').textContent=arrival?`${d} unités de carte fictives`:'— unités de carte';
- $('hz-route-state').textContent=arrival?(d<=capacity?'Trajet prêt':'Autonomie fictive insuffisante'):'Arrivée à choisir';
+ $('hz-route-state').textContent=arrival?'Trajet prêt':'Arrivée à choisir';
  $('hz-launch').disabled=busy||!arrival;
  $('hz-objective').textContent=arrival?'Ton trajet d’essai.':'Prépare ton essai.';
  renderMap();
@@ -60,16 +60,13 @@ function place(p){
  const mode=placing;if(mode==='start')start=[p.x,p.y];else arrival=[p.x,p.y];
  stopPlacing();clearAnimation();updateRoute();setFeedback((mode==='start'?'Sous-marin repositionné. ':'Arrivée choisie en mer. ')+(arrival?`Trajet : ${distance()} unités de carte fictives.`:'Choisis maintenant le point d’arrivée.'));
 }
-function lock(value){for(const id of ['hz-country','hz-class','hz-zone','hz-probe','hz-place','hz-destination','hz-clear'])$(id).disabled=value;$('hz-launch').hidden=value;$('hz-stop').hidden=!value;}
+function lock(value){for(const id of ['hz-country','hz-class','hz-place','hz-destination','hz-clear'])$(id).disabled=value;$('hz-launch').hidden=value;$('hz-stop').hidden=!value;}
 $('hz-place').addEventListener('click',()=>setPlacing('start'));
 $('hz-destination').addEventListener('click',()=>setPlacing('arrival'));
 $('hz-clear').addEventListener('click',()=>{if(busy)return;stopPlacing();arrival=null;clearAnimation();updateRoute();setFeedback('Trajet effacé. Choisis une nouvelle arrivée en mer.');});
-$('hz-zone').addEventListener('change',()=>{start=[...zones[Number($('hz-zone').value)]];arrival=null;stopPlacing();clearAnimation();resetView();updateRoute();setFeedback('Zone de départ changée. Place le sous-marin où tu veux, puis choisis l’arrivée.');});
-$('hz-probe').addEventListener('change',()=>{clearAnimation();updateRoute();setFeedback(arrival?`Trajet : ${distance()} unités. Autonomie fictive : ${capacities[Number($('hz-probe').value)]} unités.`:'Choisis une arrivée en mer pour préparer l’essai.');});
 $('hz-stop').addEventListener('click',()=>{clearAnimation();busy=false;lock(false);updateRoute();setFeedback('Essai interrompu. Tu peux modifier ton trajet et recommencer.');});
 $('hz-launch').addEventListener('click',()=>{
  if(busy||!arrival)return;
- if(distance()>capacities[Number($('hz-probe').value)]){setFeedback('Autonomie fictive insuffisante. Rapproche les deux points ou choisis un autre projectile d’exercice.');return;}
  stopPlacing();clearAnimation();busy=true;lock(true);$('hz-objective').textContent='Essai en cours…';
  const a=[...start],b=[...arrival],mid=[(a[0]+b[0])/2,(a[1]+b[1])/2],control=[mid[0],mid[1]-Math.min(70,distance()*.3)];
  const track=svg('path',{d:`M${a} Q${control} ${b}`,fill:'none',stroke:'#e6b074','stroke-width':2,'stroke-dasharray':'5 5','vector-effect':'non-scaling-stroke'});
