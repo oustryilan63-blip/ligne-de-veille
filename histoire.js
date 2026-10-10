@@ -2,6 +2,7 @@
   'use strict';
   const engins = window.LDV_ENGINS || [];
   const facts = window.LDV_HISTOIRE || [];
+  const figures = window.LDV_CHIFFRES || {};
   const countries = window.LDV_MAP || [];
   const nameFor = new Intl.DisplayNames(['fr'], {type:'region'});
   const catalogue = document.getElementById('history-catalogue');
@@ -41,7 +42,7 @@
   search.addEventListener('input',renderCatalogue);
   function section(title, desc){const s=el('section','history-detail-section');s.append(el('h3','',title));if(desc)s.append(el('p','',desc));return s}
   function renderDetail(index){
-    const item=engins[index],fact=facts[index]||{};
+    const item=engins[index],fact=facts[index]||{},figuresFor=figures[index]||{};
     catalogue.hidden=true;detail.hidden=false;detail.replaceChildren();document.body.classList.add('history-profile');document.title=item.name+' | Histoire | Ligne de Veille';
     const back=el('a','history-back','← Revenir aux 45 engins');back.href='histoire.html';detail.append(back);
     const head=el('div','history-detail-head');const media=el('div');media.append(photo(item));
@@ -62,12 +63,18 @@
     if(fact.operatorNote)mapSection.append(el('p','history-note',fact.operatorNote));
     if(fact.operatorSource)mapSection.append(el('p','history-note','Pays supplémentaires : consulter la source en bas de page.'));
     detail.append(mapSection);
-    const isAir=/AVION|DRONE|HÉLICOPTÈRE/.test(item.kind);const stats=section('Les chiffres vérifiables',"Un total n'apparaît que si une source officielle ou le fabricant le publie pour ce modèle ou ce bâtiment. « Non documenté » signifie qu'aucun total mondial fiable n'a été retenu ; cela ne veut pas dire zéro.");
+    const stats=section('Repères chiffrés',"Chaque chiffre précise son périmètre : engins construits, livrés ou en service ; pertes observées dans un conflit ; cibles attribuées. Les bilans de pertes ne sont pas des totaux mondiaux. Si les destructions de cibles ne peuvent pas être attribuées avec assez de confiance, la dernière carte indique le nombre de pays présents sur la carte.");
     const statGrid=el('div','history-stats');
-    const data=[['Production / livraisons',fact.production?.value||'Non documenté',fact.production?.note||'Aucun total confirmé retenu.',fact.production?.source],[isAir?'Accidents aériens recensés':'Pertes recensées','Non documenté','Aucun total global officiellement confirmé retenu.'],['Destructions confirmées','Non documenté','Aucun total global attribuable et confirmé retenu.']];
+    const production=figuresFor.production||fact.production;
+    const userCount=new Set([...current,...former]).size;
+    const data=[
+      [production?.label||'Exemplaires produits / livrés',production?.value||'Chiffre inconnu',production?.note||'Aucun volume de production suffisamment étayé trouvé pour ce modèle.',production?.source],
+      ['Engins détruits',figuresFor.losses?.value||'Bilan indisponible',figuresFor.losses?.note||'Aucun décompte fiable, avec un périmètre précis, retenu pour cette fiche. Cela ne signifie pas zéro perte.',figuresFor.losses?.source],
+      figuresFor.targets?['Cibles détruites attribuées',figuresFor.targets.value,figuresFor.targets.note,figuresFor.targets.source]:['Pays sur la carte',String(userCount),"Pays utilisateurs documentés dans notre sélection ; ce n'est pas un total mondial.",null]
+    ];
     data.forEach(([label,value,note,source])=>{const box=el('div','history-stat');box.append(el('span','',label),el('strong','',value),el('small','',note));if(source)box.append(link('Source ↗',source));statGrid.append(box)});stats.append(statGrid);detail.append(stats);
     const sources=el('section','history-detail-section history-sources');sources.append(el('h3','','Sources de la fiche'));const list=el('ul');
-    const refs=[['Fiche du constructeur ou de la force armée',item.source],['Pays utilisateurs',fact.operatorSource],['Anciens utilisateurs',fact.formerSource],['Chiffre de production',fact.production?.source],...(fact.extraSources||[]).map(url=>['Autre source officielle',url])];const seen=new Set();refs.forEach(([title,url])=>{if(url&&!seen.has(url)){seen.add(url);const li=el('li');li.append(link(title+' ↗',url));list.append(li)}});sources.append(list,el('p','','Situation vérifiée le 10 octobre 2026. La carte présente les pays documentés dans ces sources, sans prétendre couvrir chaque transfert ou retrait. Les bilans de guerre, pertes et accidents changent et sont souvent incomplets.'));detail.append(sources);
+    const refs=[['Fiche du constructeur ou de la force armée',item.source],['Pays utilisateurs',fact.operatorSource],['Anciens utilisateurs',fact.formerSource],['Production et livraisons',production?.source],['Engins détruits',figuresFor.losses?.source],['Cibles détruites',figuresFor.targets?.source],...(fact.extraSources||[]).map(url=>['Autre source',url])];const seen=new Set();refs.forEach(([title,url])=>{if(url&&!seen.has(url)){seen.add(url);const li=el('li');li.append(link(title+' ↗',url));list.append(li)}});sources.append(list,el('p','','Sources consultées le 10 octobre 2026. La carte présente les pays documentés dans ces sources, sans prétendre couvrir chaque transfert ou retrait. Les bilans de pertes sont des minimums documentés ou des estimations datées, précisés dans chaque carte.'));detail.append(sources);
     const next=el('nav','history-next');next.setAttribute('aria-label','Parcourir les fiches');const prev=el('a','','← '+engins[(index+engins.length-1)%engins.length].name);prev.href='histoire.html?engin='+(index+engins.length-1)%engins.length;const after=el('a','',engins[(index+1)%engins.length].name+' →');after.href='histoire.html?engin='+(index+1)%engins.length;next.append(prev,after);detail.append(next);
   }
   const params=new URLSearchParams(location.search);const index=Number(params.get('engin'));
