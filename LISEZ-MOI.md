@@ -4,9 +4,9 @@ Prototype de revue française consacré à la défense, à la sécurité et à l
 
 La page d'accueil se concentre sur une sélection d'actualités sourcées et datées. Chaque sujet comporte un bref « Pourquoi c'est important » et renvoie à sa publication d'origine. Une archive regroupe les sujets par mois. Le bouton « Signaler une erreur » prépare un e-mail vers l'adresse choisie par le propriétaire du site. La sélection et les résumés sont produits automatiquement avec une aide de l'IA, sans validation humaine systématique avant publication ; les sources d'origine restent la référence.
 
-Cette copie locale ne nécessite aucune installation : ouvrez `index.html` dans un navigateur. Elle contient huit publications au 10 octobre 2026. La version publique à jour est disponible à l'adresse https://oustryilan63-blip.github.io/ligne-de-veille/. Une ancienne copie reste accessible sur Netlify à l'adresse https://illustrious-kelpie-138794.netlify.app/. L'ancienne version privée, sans le jeu, reste disponible à l'adresse https://ligne-de-veille.astuteghost128.chatgpt.site/.
+Cette copie locale ne nécessite aucune installation : ouvrez `index.html` dans un navigateur. Elle contient huit publications au 10 octobre 2026. La version publique à jour est disponible à l'adresse https://oustryilan63-blip.github.io/ligne-de-veille/.
 
-La nouvelle adresse publique est une copie statique : ses actualités ne se mettent pas à jour automatiquement. La veille quotidienne à 8 h continue sur l'ancienne version privée et, lorsque l'ordinateur et l'application sont ouverts, dans cette copie locale. Après une mise à jour locale, il faut envoyer les fichiers modifiés dans le dépôt GitHub ; GitHub Pages publie alors cette nouvelle version.
+Cette adresse publique est une copie statique : ses actualités ne se mettent pas à jour automatiquement. La veille quotidienne à 8 h continue sur une ancienne version privée et, lorsque l'ordinateur et l'application sont ouverts, dans cette copie locale. Après une mise à jour locale, il faut envoyer les fichiers modifiés dans le dépôt GitHub ; GitHub Pages publie alors cette nouvelle version.
 
 ## Jeux
 
