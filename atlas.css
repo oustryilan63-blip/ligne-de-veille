@@ -121,8 +121,8 @@ a:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-visible
 }
 @media(max-width:760px){
   .design-preview-banner{padding:9px 20px;font-size:9px}
-  .hero{min-height:590px}
-  .hero-content{padding-top:100px}
+  .hero{height:auto;min-height:0}
+  .hero-content{padding-top:82px;padding-bottom:95px}
   .hero h1{font-size:clamp(64px,13vw,94px)}
   .intro-section{padding-top:77px;padding-bottom:80px}
   .intro-copy h2,.section-heading h2,.method-left h2,.closing-section h2{font-size:clamp(49px,10vw,70px)}
