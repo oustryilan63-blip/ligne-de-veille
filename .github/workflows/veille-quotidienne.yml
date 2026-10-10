@@ -1,0 +1,65 @@
+name: Veille de 8 h et publication du site
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+      timezone: Europe/Paris
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ligne-de-veille-publication
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - name: Collecter les titres et liens des sources
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: python3 scripts/update-news.py
+      - name: Valider et préparer les actualités
+        run: node scripts/build-news.mjs
+      - name: Vérifier le catalogue et ses photos
+        run: node scripts/check-catalog.mjs
+      - name: Conserver la veille dans le dépôt
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "Ligne de Veille"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add actualites.json actualites.js
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualise la veille quotidienne"
+            git push
+          fi
+      - name: Préparer les fichiers publics
+        run: |
+          mkdir _site
+          cp *.html *.css *.js actualites.json _site/
+          cp -R assets _site/assets
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publier sur GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
