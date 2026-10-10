@@ -44,7 +44,7 @@
   function renderDetail(index){
     const item=engins[index],fact=facts[index]||{},figuresFor=figures[index]||{};
     catalogue.hidden=true;detail.hidden=false;detail.replaceChildren();document.body.classList.add('history-profile');document.title=item.name+' | Histoire | Ligne de Veille';
-    const back=el('a','history-back','← Revenir aux 45 engins');back.href='histoire.html';detail.append(back);
+    const back=el('a','history-back','← Revenir aux '+engins.length+' engins');back.href='histoire.html';detail.append(back);
     const head=el('div','history-detail-head');const media=el('div');media.append(photo(item));
     const credit=el('p','history-photo-credit','Photo : '+(item.photoAuthor||'Wikimedia Commons')+' · '+(item.photoLicense||'Licence indiquée sur la source'));
     if(item.photoFile){credit.append(' · ',link('Voir la photo','https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(item.photoFile)))}

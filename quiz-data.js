@@ -25,3 +25,40 @@ window.LDV_FACTS = [
   { claim: 'Le Type 055 est un destroyer chinois.', answer: true, ref: 'Type 055', reason: 'La presse militaire officielle chinoise décrit le Type 055 comme un destroyer.' },
   { claim: 'L’A-29 Super Tucano est un avion d’attaque brésilien.', answer: true, ref: 'A-29 Super Tucano', reason: 'Embraer présente l’A-29 comme un appareil d’attaque et d’appui fabriqué au Brésil.' }
 ];
+
+// Les premières envolées ajoutées sont mélangées à chaque nouvelle partie.
+window.LDV_CHRONO.push(
+  { name: 'CH-47 Chinook', year: 1961, date: '21 septembre 1961', context: 'Premier vol du CH-47A à rotors en tandem.', source: 'https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing-Chronology.pdf' },
+  { name: 'C-17 Globemaster III', year: 1991, date: '15 septembre 1991', context: 'Premier vol du C-17 à Long Beach.', source: 'https://www.boeing.com/features/2026/09/35-years-ago-the-c-17-first-took-flight' },
+  { name: 'F-22 Raptor', year: 1997, date: '7 septembre 1997', context: 'Premier vol du F-22 Raptor.', source: 'https://www.lockheedmartin.com/en-us/news/features/history/f-22.html' },
+  { name: 'Su-57', year: 2010, date: '29 janvier 2010', context: 'Premier vol du prototype T-50, futur Su-57.', source: 'https://www.rostec.ru/media/news/su-57-15-let-v-nebe/' },
+  { name: 'Bayraktar Akıncı', year: 2019, date: '6 décembre 2019', context: 'Premier vol du drone turc Akıncı.', source: 'https://baykartech.com/en/press/turkish-akinci-combat-drone-sets-new-national-avia/' }
+);
+
+window.LDV_FACTS.push(
+  { claim: 'Le Challenger 2 est un char britannique.', answer: true, ref: 'Challenger 2', reason: 'L’armée britannique présente le Challenger 2 comme son char de combat.' },
+  { claim: 'Le M2 Bradley a été conçu en Allemagne.', answer: false, ref: 'M2 Bradley', reason: 'Le Bradley est un véhicule de combat d’infanterie américain.' },
+  { claim: 'Le Stryker est un blindé à huit roues.', answer: true, ref: 'Stryker', reason: 'General Dynamics le décrit comme un véhicule 8×8.' },
+  { claim: 'Le CAESAR est un sous-marin français.', answer: false, ref: 'CAESAR', reason: 'Le CAESAR est un canon automoteur français monté sur camion.' },
+  { claim: 'Le PzH 2000 est un obusier automoteur allemand.', answer: true, ref: 'PzH 2000', reason: 'KNDS présente le PzH 2000 comme un système d’artillerie allemand.' },
+  { claim: 'Le M142 HIMARS est un lance-roquettes à roues.', answer: true, ref: 'M142 HIMARS', reason: 'Lockheed Martin décrit son lanceur sur un châssis à roues.' },
+  { claim: 'L’Archer a été développé pour la marine suédoise.', answer: false, ref: 'Archer', reason: 'L’Archer est un système d’artillerie terrestre suédois.' },
+  { claim: 'Le Lynx KF41 est un véhicule de combat d’infanterie.', answer: true, ref: 'Lynx KF41', reason: 'Rheinmetall classe le Lynx KF41 parmi ses véhicules de combat d’infanterie.' },
+  { claim: 'Le VBTP-MR Guarani a été développé au Japon.', answer: false, ref: 'VBTP-MR Guarani', reason: 'Le Guarani a été développé au Brésil avec l’armée brésilienne.' },
+  { claim: 'Le F-22 Raptor est un chasseur américain.', answer: true, ref: 'F-22 Raptor', reason: 'Lockheed Martin présente le F-22 comme son chasseur de supériorité aérienne.' },
+  { claim: 'L’A-10 Thunderbolt II est un avion d’appui rapproché.', answer: true, ref: 'A-10 Thunderbolt II', reason: 'L’US Air Force l’a conçu spécialement pour l’appui des forces au sol.' },
+  { claim: 'Le F/A-18E/F Super Hornet est un sous-marin.', answer: false, ref: 'F/A-18E/F Super Hornet', reason: 'Le Super Hornet est un avion de combat embarqué.' },
+  { claim: 'Le Su-57 est un programme aéronautique russe.', answer: true, ref: 'Su-57', reason: 'Rostec retrace le programme russe T-50 devenu Su-57.' },
+  { claim: 'Le C-17 Globemaster III est un char de transport.', answer: false, ref: 'C-17 Globemaster III', reason: 'Le C-17 est un avion de transport militaire.' },
+  { claim: 'Le H225M Caracal est un hélicoptère polyvalent.', answer: true, ref: 'H225M Caracal', reason: 'Airbus le présente comme un hélicoptère militaire multirôle.' },
+  { claim: 'Le CH-47 Chinook possède deux rotors en tandem.', answer: true, ref: 'CH-47 Chinook', reason: 'Boeing indique cette architecture à deux rotors pour le transport lourd.' },
+  { claim: 'Le MQ-9 Reaper est un navire de surface.', answer: false, ref: 'MQ-9 Reaper', reason: 'Le MQ-9 est un drone américain de surveillance et d’attaque.' },
+  { claim: 'Le RQ-4 Global Hawk est un drone de reconnaissance.', answer: true, ref: 'RQ-4 Global Hawk', reason: 'Northrop Grumman décrit le RQ-4 comme un aéronef de reconnaissance sans pilote.' },
+  { claim: 'Le Bayraktar Akıncı est conçu en Turquie.', answer: true, ref: 'Bayraktar Akıncı', reason: 'Baykar présente l’Akıncı comme son drone de combat turc.' },
+  { claim: 'La classe Suffren regroupe des frégates.', answer: false, ref: 'Classe Suffren', reason: 'Le programme Suffren porte sur des sous-marins nucléaires d’attaque français.' },
+  { claim: 'Les Type 45 Daring sont des destroyers britanniques.', answer: true, ref: 'Type 45 Daring', reason: 'La Royal Navy recense six destroyers Type 45.' },
+  { claim: 'La classe Seawolf compte trois sous-marins.', answer: true, ref: 'Classe Seawolf', reason: 'La marine américaine indique trois unités pour cette classe.' },
+  { claim: 'L’Aquitaine est une frégate italienne.', answer: false, ref: 'FREMM Aquitaine', reason: 'L’Aquitaine est la première FREMM de la Marine nationale française.' },
+  { claim: 'La classe Kongō sert dans la marine japonaise.', answer: true, ref: 'Classe Kongō', reason: 'La force maritime japonaise présente ses quatre destroyers Kongō.' },
+  { claim: 'La classe Arleigh Burke est une famille de sous-marins.', answer: false, ref: 'Classe Arleigh Burke', reason: 'Il s’agit de destroyers de la marine américaine.' }
+);

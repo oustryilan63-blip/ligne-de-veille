@@ -131,7 +131,11 @@
 
   if (game === 'chrono') {
     const byYear = [...window.LDV_CHRONO].sort((a, b) => a.year - b.year);
-    const groups = [[byYear[0], byYear[2], byYear[4], byYear[6]], [byYear[1], byYear[3], byYear[5], byYear[7]]];
+    let groups;
+    function chooseGroups() {
+      const selected = shuffle(byYear).slice(0, 8).sort((a, b) => a.year - b.year);
+      groups = [[selected[0], selected[2], selected[4], selected[6]], [selected[1], selected[3], selected[5], selected[7]]];
+    }
     let group, score, order;
     function renderList() {
       const list = $('chrono-list');
@@ -177,8 +181,8 @@
       show('arcade-source', false);
     });
     $('arcade-next').addEventListener('click', () => { if (++group === 2) finish(`${score} appareils bien placés sur 8. Les dates et les sources restent visibles dans chaque correction.`); else round(); });
-    $('arcade-restart').addEventListener('click', () => { group = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); });
-    group = 0; score = 0; round();
+    $('arcade-restart').addEventListener('click', () => { chooseGroups(); group = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); });
+    chooseGroups(); group = 0; score = 0; round();
   }
 
   if (game === 'vrai-faux') {
