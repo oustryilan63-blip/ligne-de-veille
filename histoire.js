@@ -18,8 +18,9 @@
   const el = (tag, cls, value) => {const n=document.createElement(tag);if(cls)n.className=cls;if(value!==undefined)n.textContent=value;return n};
   const link = (label, href) => {const a=el('a','',label);a.href=href;a.target='_blank';a.rel='noopener noreferrer';return a};
   const photo = item => {const img=el('img');img.src='assets/jeu/'+item.photo;img.alt=item.alt || item.name;img.loading='lazy';return img};
-  const categories = ['Tous','Chars et blindés','Avions','Drones et hélicoptères','Navires et sous-marins','Artillerie'];
+  const categories = ['Tous','Chars et blindés','Avions','Drones et hélicoptères','Navires et sous-marins','Artillerie','Missiles'];
   const group = item => {
+    if (item.category === 'missiles') return 'Missiles';
     if (item.category === 'mer') return 'Navires et sous-marins';
     if (/CHAR|BLINDÉ|VÉHICULE/.test(item.kind)) return 'Chars et blindés';
     if (/ARTILLERIE/.test(item.kind)) return 'Artillerie';
@@ -54,14 +55,14 @@
     copy.append(el('p','',item.explanation));
     (fact.story||'L’histoire de cet engin est présentée dans la source liée ci-dessous.').split('\n\n').forEach(paragraph=>copy.append(el('p','',paragraph)));
     head.append(media,copy);detail.append(head);
-    const origin=item.code;const current=fact.originOnly?[]:[origin,...(fact.current||[])];const former=fact.former||[];
+    const origin=item.code,origins=item.originCodes||[origin];const current=fact.originOnly?[]:[origin,...(fact.current||[])];const former=fact.former||[];
     const mapSection=section('Où a-t-il été utilisé ?',"La carte situe le pays de conception et les pays utilisateurs documentés. Elle ne montre pas les pays ayant seulement passé commande ni les lieux de déploiement temporaire.");
     const mapWrap=el('div','history-map-wrap');const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','-60 -25 1320 550');svg.setAttribute('role','img');svg.setAttribute('aria-label','Carte des pays associés à '+item.name);svg.classList.add('history-map');
     const mapTitle=document.createElementNS('http://www.w3.org/2000/svg','title');mapTitle.textContent='Carte des pays associés à '+item.name;svg.append(mapTitle);
-    countries.forEach(c=>{const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('d',c.path);p.dataset.code=c.code;if(former.includes(c.code))p.classList.add('former');if(current.includes(c.code))p.classList.add('current');if(c.code===origin)p.classList.add('origin');const t=document.createElementNS('http://www.w3.org/2000/svg','title');let state=c.code===origin?' · conception':current.includes(c.code)?' · utilisateur actuel documenté':former.includes(c.code)?' · ancien utilisateur documenté':'';t.textContent=codeName(c.code)+state;p.append(t);svg.append(p)});
+    countries.forEach(c=>{const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('d',c.path);p.dataset.code=c.code;if(former.includes(c.code))p.classList.add('former');if(current.includes(c.code))p.classList.add('current');if(origins.includes(c.code))p.classList.add('origin');const t=document.createElementNS('http://www.w3.org/2000/svg','title');let state=origins.includes(c.code)?' · conception':current.includes(c.code)?' · utilisateur actuel documenté':former.includes(c.code)?' · ancien utilisateur documenté':'';t.textContent=codeName(c.code)+state;p.append(t);svg.append(p)});
     mapWrap.append(svg);mapSection.append(mapWrap);
     const legend=el('div','history-legend');[['origin','Pays de conception'],['current','Utilisateur actuel documenté'],['former','Ancien utilisateur documenté']].forEach(([cls,title])=>{const x=el('span');x.append(el('b',cls),document.createTextNode(title));legend.append(x)});mapSection.append(legend);
-    const ops=el('div','history-operators');[['Conception',origin?[origin]:[]],['Utilisateurs actuels',current],['Anciens utilisateurs',former]].forEach(([label,codes])=>{const box=el('div');box.append(el('strong','',label),el('span','',codes.length?[...new Set(codes)].map(codeName).join(' · '):'Aucun pays confirmé dans cette sélection'));ops.append(box)});mapSection.append(ops);
+    const ops=el('div','history-operators');[['Conception',origins],['Utilisateurs actuels',current],['Anciens utilisateurs',former]].forEach(([label,codes])=>{const box=el('div');box.append(el('strong','',label),el('span','',codes.length?[...new Set(codes)].map(codeName).join(' · '):'Aucun pays confirmé dans cette sélection'));ops.append(box)});mapSection.append(ops);
     if(fact.operatorNote)mapSection.append(el('p','history-note',fact.operatorNote));
     if(fact.operatorSource)mapSection.append(el('p','history-note','Pays supplémentaires : consulter la source en bas de page.'));
     detail.append(mapSection);
@@ -72,7 +73,7 @@
     const data=[
       [production?.label||'Exemplaires produits / livrés',production?.value||'Chiffre inconnu',production?.note||'Aucun volume de production suffisamment étayé trouvé pour ce modèle.',production?.source],
       ['Engins détruits',figuresFor.losses?.value||'Bilan indisponible',figuresFor.losses?.note||'Aucun décompte fiable, avec un périmètre précis, retenu pour cette fiche. Cela ne signifie pas zéro perte.',figuresFor.losses?.source],
-      figuresFor.targets?['Cibles détruites attribuées',figuresFor.targets.value,figuresFor.targets.note,figuresFor.targets.source]:['Pays sur la carte',String(userCount),"Pays utilisateurs documentés dans notre sélection ; ce n'est pas un total mondial.",null]
+      figuresFor.targets?['Cibles détruites attribuées',figuresFor.targets.value,figuresFor.targets.note,figuresFor.targets.source]:['Pays sur la carte',fact.originOnly?'Non recensés':String(userCount),"Pays utilisateurs documentés dans notre sélection ; ce n'est pas un total mondial.",null]
     ];
     data.forEach(([label,value,note,source])=>{const box=el('div','history-stat');box.append(el('span','',label),el('strong','',value),el('small','',note));if(source)box.append(link('Source ↗',source));statGrid.append(box)});stats.append(statGrid);detail.append(stats);
     const sources=el('section','history-detail-section history-sources');sources.append(el('h3','','Sources de la fiche'));const list=el('ul');

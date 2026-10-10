@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-10-10",
+  "updatedAt": "2026-10-11",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-10",
+      "publishedAt": "2026-10-10T15:34:36+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Xi Jinping : un costume très politique",
+      "url": "https://www.revueconflits.com/xi-jinping-un-costume-tres-politique/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-10",
+      "publishedAt": "2026-10-10T14:17:44+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Les anciens hélicoptères NH90 TTH belges ne seront finalement pas récupérés par l’Aviation légère de l’armée de Terre",
+      "url": "https://www.opex360.com/2026/10/10/les-anciens-helicopteres-nh90-tth-belges-ne-seront-finalement-pas-recuperes-par-laviation-legere-de-larmee-de-terre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-10",
+      "publishedAt": "2026-10-10T11:14:36+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’armée de l’Air & de l’Espace confirme l’arrivée du Rafale à Djibouti en 2027",
+      "url": "https://www.opex360.com/2026/10/10/larmee-de-lair-de-lespace-confirme-larrive-du-rafale-a-djibouti-en-2027/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-10",
+      "publishedAt": "2026-10-10T10:00:28+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Bruits et signaux",
+      "url": "https://www.revueconflits.com/bruits-et-signaux/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-10",
+      "publishedAt": "2026-10-10T08:30:01+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Faster front-line delivery with new Testing and Evaluation programme",
+      "url": "https://www.gov.uk/government/news/faster-front-line-delivery-with-new-testing-and-evaluation-programme",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T13:24:48+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "100 new UK jobs created as Kuwait buys British-made AI-enabled air defence systems",
+      "url": "https://www.gov.uk/government/news/100-new-uk-jobs-created-as-kuwait-buys-british-made-ai-enabled-air-defence-systems",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
     {
       "date": "2026-10-09",
       "source": "Conseil de l'Union européenne",
@@ -10,33 +82,6 @@
       "summary": "Le Conseil annonce l'adoption finale de textes sur les achats, les investissements et la coopération industrielle de défense.",
       "why": "Des procédures plus simples peuvent accélérer les projets communs et la montée en capacité des États européens.",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/09/simplification-council-gives-final-green-light-to-new-laws-boosting-defence-industry-and-readiness/"
-    },
-    {
-      "date": "2026-10-08",
-      "source": "OpexNews",
-      "sourceType": "Presse spécialisée",
-      "title": "Budget des armées : les questions ouvertes pour 2027",
-      "summary": "Une analyse de la trajectoire budgétaire annoncée et des incertitudes politiques qui l'entourent.",
-      "why": "Le financement effectif conditionne les équipements et la préparation des forces dans la durée.",
-      "url": "https://opexnews.fr/budget-armees-defense-2027-presidentielle/"
-    },
-    {
-      "date": "2026-10-07",
-      "source": "OTAN",
-      "sourceType": "Source officielle",
-      "title": "Le Comité militaire de l'OTAN s'est rendu à Kyiv",
-      "summary": "L'Alliance indique avoir échangé avec les responsables ukrainiens sur les priorités militaires et les enseignements du terrain.",
-      "why": "Ces échanges éclairent l'adaptation des capacités et des priorités de l'Alliance.",
-      "url": "https://www.nato.int/en/news-and-events/articles/news/2026/10/07/nato-military-committee-visited-kyiv"
-    },
-    {
-      "date": "2026-10-06",
-      "source": "Ministère des Armées",
-      "sourceType": "Source officielle",
-      "title": "Premier tir d'acceptation du M51.3 depuis Le Vigilant",
-      "summary": "La DGA présente les objectifs du tir réalisé depuis le sous-marin après sa période d'entretien et de réparations.",
-      "why": "Ce contrôle valide la remise en service d'une capacité centrale de la dissuasion française.",
-      "url": "https://www.defense.gouv.fr/dga/actualites/tir-dacceptation-dun-missile-m513-snle-vigilant"
     },
     {
       "date": "2026-10-09",
@@ -57,6 +102,24 @@
       "url": "https://www.opex360.com/2026/10/09/le-projet-franco-allemand-de-systeme-principal-de-combat-terrestre-se-poursuit-assure-le-ministere-des-armees/"
     },
     {
+      "date": "2026-10-09",
+      "source": "OTAN",
+      "sourceType": "Source officielle",
+      "title": "Moldavie : l’OTAN présente les résultats de son soutien aux capacités de défense",
+      "summary": "Lors de sa visite des 8 et 9 octobre en Moldavie, Radmila Shekerinska a échangé avec les autorités sur le partenariat avec l’OTAN. Selon l’Alliance, environ 50 millions d’euros ont été livrés dans le cadre de son soutien aux capacités de défense, notamment pour la protection individuelle, le stockage des munitions et la cybersécurité.",
+      "why": "Ce bilan montre le contenu concret du partenariat : équipements, sécurité des stocks et cyberdéfense. Ces domaines contribuent à renforcer la résilience des institutions moldaves.",
+      "url": "https://nato.int/en/news-and-events/articles/news/2026/10/09/natos-deputy-secretary-general-visits-moldova"
+    },
+    {
+      "date": "2026-10-08",
+      "source": "OpexNews",
+      "sourceType": "Presse spécialisée",
+      "title": "Budget des armées : les questions ouvertes pour 2027",
+      "summary": "Une analyse de la trajectoire budgétaire annoncée et des incertitudes politiques qui l'entourent.",
+      "why": "Le financement effectif conditionne les équipements et la préparation des forces dans la durée.",
+      "url": "https://opexnews.fr/budget-armees-defense-2027-presidentielle/"
+    },
+    {
       "date": "2026-10-08",
       "source": "OTAN",
       "sourceType": "Source officielle",
@@ -66,13 +129,85 @@
       "url": "https://www.nato.int/en/news-and-events/articles/news/2026/10/08/nato-holds-annual-nuclear-exercise-steadfast-noon"
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-06T22:00:00+00:00",
+      "source": "Sénat — Défense",
+      "sourceType": "Source officielle",
+      "title": "Accord France - Moldova (défense) - Texte n° 6",
+      "url": "https://www.senat.fr/leg/pjl26-006.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-07",
       "source": "OTAN",
       "sourceType": "Source officielle",
-      "title": "Moldavie : l’OTAN présente les résultats de son soutien aux capacités de défense",
-      "summary": "Lors de sa visite des 8 et 9 octobre en Moldavie, Radmila Shekerinska a échangé avec les autorités sur le partenariat avec l’OTAN. Selon l’Alliance, environ 50 millions d’euros ont été livrés dans le cadre de son soutien aux capacités de défense, notamment pour la protection individuelle, le stockage des munitions et la cybersécurité.",
-      "why": "Ce bilan montre le contenu concret du partenariat : équipements, sécurité des stocks et cyberdéfense. Ces domaines contribuent à renforcer la résilience des institutions moldaves.",
-      "url": "https://nato.int/en/news-and-events/articles/news/2026/10/09/natos-deputy-secretary-general-visits-moldova"
+      "title": "Le Comité militaire de l'OTAN s'est rendu à Kyiv",
+      "summary": "L'Alliance indique avoir échangé avec les responsables ukrainiens sur les priorités militaires et les enseignements du terrain.",
+      "why": "Ces échanges éclairent l'adaptation des capacités et des priorités de l'Alliance.",
+      "url": "https://www.nato.int/en/news-and-events/articles/news/2026/10/07/nato-military-committee-visited-kyiv"
+    },
+    {
+      "date": "2026-10-06",
+      "source": "Ministère des Armées",
+      "sourceType": "Source officielle",
+      "title": "Premier tir d'acceptation du M51.3 depuis Le Vigilant",
+      "summary": "La DGA présente les objectifs du tir réalisé depuis le sous-marin après sa période d'entretien et de réparations.",
+      "why": "Ce contrôle valide la remise en service d'une capacité centrale de la dissuasion française.",
+      "url": "https://www.defense.gouv.fr/dga/actualites/tir-dacceptation-dun-missile-m513-snle-vigilant"
+    },
+    {
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-04T22:00:00+00:00",
+      "source": "Sénat — Défense",
+      "sourceType": "Source officielle",
+      "title": "Sécuriser le ciel de l'Ukraine en construisant un bouclier européen - Texte n° 4",
+      "url": "https://www.senat.fr/leg/ppr26-004.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
     }
-  ]
+  ],
+  "checkedAt": "2026-10-10T23:36:21.121519+00:00",
+  "automation": {
+    "schedule": "08:00",
+    "timezone": "Europe/Paris",
+    "method": "RSS/Atom : titres, dates et liens vérifiés",
+    "sources": [
+      {
+        "source": "Sénat — Défense",
+        "ok": true,
+        "recentItems": 2,
+        "error": null
+      },
+      {
+        "source": "Ministère britannique de la Défense",
+        "ok": true,
+        "recentItems": 6,
+        "error": null
+      },
+      {
+        "source": "Zone Militaire — Opex360",
+        "ok": true,
+        "recentItems": 10,
+        "error": null
+      },
+      {
+        "source": "OpexNews",
+        "ok": true,
+        "recentItems": 1,
+        "error": null
+      },
+      {
+        "source": "Revue Conflits",
+        "ok": true,
+        "recentItems": 10,
+        "error": null
+      }
+    ],
+    "newItems": 8
+  }
 }

@@ -1,7 +1,79 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-10-10",
+  "updatedAt": "2026-10-11",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-10",
+      "publishedAt": "2026-10-10T15:34:36+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Xi Jinping : un costume très politique",
+      "url": "https://www.revueconflits.com/xi-jinping-un-costume-tres-politique/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-10",
+      "publishedAt": "2026-10-10T14:17:44+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Les anciens hélicoptères NH90 TTH belges ne seront finalement pas récupérés par l’Aviation légère de l’armée de Terre",
+      "url": "https://www.opex360.com/2026/10/10/les-anciens-helicopteres-nh90-tth-belges-ne-seront-finalement-pas-recuperes-par-laviation-legere-de-larmee-de-terre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-10",
+      "publishedAt": "2026-10-10T11:14:36+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’armée de l’Air & de l’Espace confirme l’arrivée du Rafale à Djibouti en 2027",
+      "url": "https://www.opex360.com/2026/10/10/larmee-de-lair-de-lespace-confirme-larrive-du-rafale-a-djibouti-en-2027/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-10",
+      "publishedAt": "2026-10-10T10:00:28+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Bruits et signaux",
+      "url": "https://www.revueconflits.com/bruits-et-signaux/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-10",
+      "publishedAt": "2026-10-10T08:30:01+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Faster front-line delivery with new Testing and Evaluation programme",
+      "url": "https://www.gov.uk/government/news/faster-front-line-delivery-with-new-testing-and-evaluation-programme",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T13:24:48+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "100 new UK jobs created as Kuwait buys British-made AI-enabled air defence systems",
+      "url": "https://www.gov.uk/government/news/100-new-uk-jobs-created-as-kuwait-buys-british-made-ai-enabled-air-defence-systems",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
     {
       "date": "2026-10-09",
       "source": "Conseil de l'Union européenne",
@@ -58,6 +130,18 @@ window.LDV_NEWS = {
     },
     {
       "date": "2026-10-07",
+      "publishedAt": "2026-10-06T22:00:00+00:00",
+      "source": "Sénat — Défense",
+      "sourceType": "Source officielle",
+      "title": "Accord France - Moldova (défense) - Texte n° 6",
+      "url": "https://www.senat.fr/leg/pjl26-006.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-07",
       "source": "OTAN",
       "sourceType": "Source officielle",
       "title": "Le Comité militaire de l'OTAN s'est rendu à Kyiv",
@@ -73,6 +157,57 @@ window.LDV_NEWS = {
       "summary": "La DGA présente les objectifs du tir réalisé depuis le sous-marin après sa période d'entretien et de réparations.",
       "why": "Ce contrôle valide la remise en service d'une capacité centrale de la dissuasion française.",
       "url": "https://www.defense.gouv.fr/dga/actualites/tir-dacceptation-dun-missile-m513-snle-vigilant"
+    },
+    {
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-04T22:00:00+00:00",
+      "source": "Sénat — Défense",
+      "sourceType": "Source officielle",
+      "title": "Sécuriser le ciel de l'Ukraine en construisant un bouclier européen - Texte n° 4",
+      "url": "https://www.senat.fr/leg/ppr26-004.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
     }
-  ]
+  ],
+  "checkedAt": "2026-10-10T23:36:21.121519+00:00",
+  "automation": {
+    "schedule": "08:00",
+    "timezone": "Europe/Paris",
+    "method": "RSS/Atom : titres, dates et liens vérifiés",
+    "sources": [
+      {
+        "source": "Sénat — Défense",
+        "ok": true,
+        "recentItems": 2,
+        "error": null
+      },
+      {
+        "source": "Ministère britannique de la Défense",
+        "ok": true,
+        "recentItems": 6,
+        "error": null
+      },
+      {
+        "source": "Zone Militaire — Opex360",
+        "ok": true,
+        "recentItems": 10,
+        "error": null
+      },
+      {
+        "source": "OpexNews",
+        "ok": true,
+        "recentItems": 1,
+        "error": null
+      },
+      {
+        "source": "Revue Conflits",
+        "ok": true,
+        "recentItems": 10,
+        "error": null
+      }
+    ],
+    "newItems": 8
+  }
 };

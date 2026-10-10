@@ -33,7 +33,10 @@ const dateLabel = value => dateFormatter.format(new Date(`${value}T12:00:00Z`));
 const parsedDate = value => new Date(`${value}T12:00:00Z`);
 
 if (news && Array.isArray(news.items) && news.items.length) {
-  updated.textContent = `Dernière sélection : ${dateLabel(news.updatedAt)}`;
+  const checked = news.checkedAt && !Number.isNaN(Date.parse(news.checkedAt)) ? new Date(news.checkedAt) : null;
+  const checkLabel = checked ? new Intl.DateTimeFormat('fr-FR',{dateStyle:'long',timeStyle:'short',timeZone:'Europe/Paris'}).format(checked) : dateLabel(news.updatedAt);
+  const sources = news.automation?.sources || [];
+  updated.textContent = `Dernier contrôle : ${checkLabel}${sources.length ? ' · '+sources.filter(s=>s.ok).length+'/'+sources.length+' flux consultés' : ''}`;
   for (const item of news.items.slice(0, 4)) {
     if (!/^https:\/\//.test(item.url)) continue;
 
@@ -51,7 +54,7 @@ if (news && Array.isArray(news.items) && news.items.length) {
     main.className = 'news-main';
     const source = document.createElement('span');
     source.className = 'news-source';
-    source.textContent = `${item.sourceType} · ${item.source}`;
+    source.textContent = `${item.sourceType} · ${item.source}${item.language === 'en' ? ' · en anglais' : ''}`;
     const title = document.createElement('strong');
     title.textContent = item.title;
     const summary = document.createElement('small');
@@ -63,7 +66,8 @@ if (news && Array.isArray(news.items) && news.items.length) {
     const whyText = document.createElement('span');
     whyText.textContent = item.why;
     why.append(whyLabel, whyText);
-    main.append(source, title, summary, why);
+    main.append(source, title, summary);
+    if (!item.autoCollected) main.append(why);
 
     const arrow = document.createElement('span');
     arrow.className = 'news-arrow';

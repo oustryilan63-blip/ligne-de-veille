@@ -104,8 +104,9 @@ function finishRound(won) {
   resolved = true;
   document.querySelector('#hint-button').disabled = true;
   const item = deck[round];
-  const correctPath = svg.querySelector(`[data-code="${item.code}"]`);
-  if (correctPath) correctPath.classList.add('correct');
+  for (const code of item.originCodes || [item.code]) {
+    svg.querySelector(`[data-code="${code}"]`)?.classList.add('correct');
+  }
   if (won) {
     found += 1;
     streak += 1;
@@ -142,7 +143,7 @@ function guess(code) {
   tried.add(code);
   attemptsLeft -= 1;
   choice.value = '';
-  if (code === deck[round].code) {
+  if ((deck[round].originCodes || [deck[round].code]).includes(code)) {
     finishRound(true);
     return;
   }

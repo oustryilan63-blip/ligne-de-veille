@@ -1,51 +1,426 @@
-/* Bilans datés et sourcés : chaque nombre garde son périmètre.
-   Une perte « détruite » exclut les matériels seulement endommagés ou capturés.
-   Les volumes livrés, mis à l'eau et en service ne sont jamais présentés comme
-   un total définitif de production. */
 window.LDV_CHIFFRES = {
-  0: {production:{value:'794 chars',note:'406 pour la France et 388 pour les Émirats arabes unis ; hors véhicules dérivés.',source:'https://www.lemonde.fr/economie/article/2023/07/05/le-char-leclerc-en-pleine-cure-de-rajeunissement_6180569_3234.html'}},
-  1: {production:{label:'Chars en circulation',value:'Environ 3 600',note:'Estimation du parc mondial de Leopard 2 en 2023 ; ce n’est pas un total exact construit.',source:'https://amp.dw.com/sr/za%C5%A1to-je-tenk-leopard-2-va%C5%BEan-ukrajini/a-64531969'},losses:{value:'22 détruits',note:'Leopard 2A4, 2A6 et Strv 122 ukrainiens documentés visuellement par Oryx (14 + 7 + 1) ; pas un total mondial.',source:'https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html'}},
-  2: {production:{label:'Chars livrés',value:'Au moins 180',note:'K2GF livrés à la Pologne en novembre 2025 ; la Corée du Sud et d’autres lots ne sont pas compris.',source:'https://defence24.pl/przemysl/zakonczenie-dostaw-czolgow-k2-z-pierwszej-umowy-wykonawczej'}},
-  3: {production:{value:'Près de 1 300',note:'Flotte mondiale de F-35 annoncée par Lockheed Martin début 2026 ; ordre de grandeur des exemplaires livrés.',source:'https://investors.lockheedmartin.com/news-releases/news-release-details/f-35-breaks-delivery-record-continues-combat-success-2025'}},
-  4: {production:{value:'Environ 280',note:'Gripen de toutes versions construits ; estimation de presse, pas total exact du constructeur.',source:'https://www.straitstimes.com/world/europe/sweden-and-ukraine-eye-export-deal-for-up-to-150-gripen-fighter-jets'}},
-  6: {production:{value:'12 sous-marins',note:'La 12e et dernière unité Sōryū a été admise au service en 2021.',source:'https://www.mod.go.jp/en/article/2021/03/edb7a684dc1b61b33d4462cf7d5fde9e7866eb40.html'}},
-  8: {production:{value:'200 chars',note:'Les 200 C1 Ariete de la commande italienne initiale ont été livrés entre 1995 et 2002.',source:'https://www.army-technology.com/projects/ariete/'}},
-  9: {production:{value:'Au moins 300',note:'Le cap du 300e Rafale produit a été franchi en octobre 2025 ; la production continue.',source:'https://www.dassault-aviation.com/fr/groupe/presse/press-kits/livraison-du-300e-rafale/'}},
-  10:{production:{label:'Tejas Mk 1 livrés',value:'40 avions',note:'Commande initiale de 40 Tejas Mk 1 achevée en septembre 2026 ; les Mk 1A et prototypes sont exclus.',source:'https://theprint.in/defence/hal-hands-over-final-two-tejas-mk1-trainers-16-years-after-iaf-order-all-eyes-on-mk1a-now/3046534/'}},
-  11:{production:{value:'Au moins 500',note:'500e Bayraktar TB2 sorti de la chaîne en 2023 ; ce n’est pas le total actuel.',source:'https://baykartech.com/tr/press/500-bayraktar-tb2-siha-uretim-hattindan-cikti/'},losses:{value:'26 détruits',note:'Drones ukrainiens documentés visuellement par Oryx depuis 2022, dont quatre au sol ; pas un total mondial.',source:'https://www.oryxspioenkop.com/2022/03/list-of-aircraft-losses-during-2022.html'},targets:{value:'884 cibles',note:'Équipements détruits et attribués au TB2 dans la liste Oryx couvrant plusieurs conflits ; minimum documenté, pas bilan mondial exhaustif.',source:'https://www.oryxspioenkop.com/2021/12/a-monument-of-victory-bayraktar-tb2.html'}},
-  12:{losses:{value:'1 perdu',note:'Un Apache abattu pendant la guerre du Golfe de 1991, puis détruit volontairement ; bilan de cette campagne uniquement, d’après le GAO.',source:'https://www.gao.gov/assets/nsiad-92-146.pdf'},targets:{value:'278 chars',note:'Revendication des unités Apache pendant la guerre du Golfe de 1991, rapportée par le GAO ; celui-ci n’a pas pu exclure les doubles comptes avec d’autres armes.',source:'https://www.gao.gov/assets/nsiad-92-146.pdf'}},
-  14:{production:{label:'Chars acquis',value:'Au moins 111',note:'111 Type 10 acquis par le Japon à la fin de l’exercice 2020, selon son ministère de la Défense ; d’autres achats ont suivi.',source:'https://www.mod.go.jp/atla/soubiseisaku/project/gaiyo_r030831.pdf'}},
-  15:{production:{label:'Obusiers en service',value:'Plus de 1 800',note:'K9 et variantes locales en service dans huit pays selon Hanwha en 2023 ; la flotte a évolué depuis.',source:'https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=375'}},
-  16:{production:{value:'Plus de 4 600',note:'F-16 construits dans toutes les versions, selon l’US Air Force.',source:'https://www.afmc.af.mil/News/Article-Display/Article/3823313/us-air-force-celebrates-50th-anniversary-of-f-16-flight/'}},
-  17:{production:{value:'Plus de 150',note:'Su-35 construits à Komsomolsk-sur-l’Amour d’après une estimation publiée par AeroTime en 2026.',source:'https://www.aerotime.aero/defense/sukhoi/su-35'},losses:{value:'12 détruits',note:'Su-35S russes documentés par Oryx dans la guerre en Ukraine ; le nombre mondial peut être supérieur.',source:'https://www.oryxspioenkop.com/2022/03/list-of-aircraft-losses-during-2022.html'}},
-  18:{production:{label:'J-10 en service',value:'Environ 550',note:'Estimation RUSI : plus de 300 J-10C et environ 250 J-10A/B dans l’armée de l’air chinoise en 2025 ; non un total produit.',source:'https://www.rusi.org/explore-our-research/publications/insights-papers/evolution-russian-and-chinese-air-power-threats?pubDate=20260209'}},
-  19:{production:{label:'FA-50 en service',value:'60 en Corée du Sud',note:'Flotte sud-coréenne relevée par FlightGlobal en 2025 ; les appareils exportés ne sont pas inclus.',source:'https://www.flightglobal.com/download?ac=106507&pubDate=20250722'},losses:{value:'1 détruit',note:'FA-50 philippin écrasé en mars 2025 ; événement documenté, pas total mondial.',source:'https://apnews.com/article/cd628671621c7cc8f4849e9fbea7f3c2'}},
-  22:{production:{value:'Au moins 10',note:'Dix Type 055 admis au service dans la marine chinoise au printemps 2026.',source:'https://eng.chinamil.com.cn/2025xb/C_251453/F_251462/16447450.html'}},
-  24:{production:{value:'Plus de 10 000',note:'Estimation de la famille M1 Abrams, toutes versions confondues.',source:'https://www.ifri.org/sites/default/files/2026-02/ifri_peria-peigne_main_battle_tank_2025.pdf'},losses:{value:'12 détruits',note:'M1A1 ukrainiens documentés visuellement par Oryx depuis 2022 ; autres pays et périodes exclus.',source:'https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html'}},
-  25:{production:{label:'Blindés en dotation',value:'350 Puma',note:'Nombre de Puma dans l’armée allemande, selon la Bundeswehr ; ce n’est pas un total de fabrication.',source:'https://www.bundeswehr.de/resource/blob/5031824/7b51f1e2b8e19099dacc615881a4/waffensysteme-und-grossgeraet-data.pdf'}},
-  26:{production:{label:'Blindés vendus',value:'Plus de 1 600',note:'Famille Patria AMV, d’après le constructeur ; ventes et production ne sont pas identiques.',source:'https://www.patriagroup.com/newsroom/patria-magazine/even-the-best-vehicle-requires-continual-development'}},
-  27:{production:{value:'8 prototypes',note:'Prototypes Challenger 3 produits pour les essais ; les 140 chars de série annoncés ne sont pas inclus.',source:'https://www.army.mod.uk/news/british-army-s-most-lethal-tank-prototype-rolls-off-production-line/'}},
-  28:{production:{value:'Au moins 300',note:'Estimation de chars T-90M construits ou modernisés jusqu’à fin 2024, publiée dans une revue du ministère albanais de la Défense.',source:'https://www.mod.gov.al/eng/images/revistaushtarake/pdf/Revista-Ushtarake-Anglisht-2025.pdf'},losses:{value:'106 détruits',note:'Chars T-90M russes documentés visuellement par Oryx en Ukraine ; les engins endommagés ou capturés sont exclus.',source:'https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html'}},
-  29:{production:{value:'Au moins 22 livrés',note:'Boeing signalait la livraison du F-15EX-22 en septembre 2026 ; 120 contrats ne signifient pas 120 avions produits.',source:'https://www.boeing.com/features/2026/09/boeing-secures-order-for-22-more-f-15ex-fighters'}},
-  31:{production:{value:'Plus de 260 livrés',note:'A-29 Super Tucano livrés dans le monde, selon Embraer.',source:'https://www.embraer.com/media-center/pt/?detail=13317&mediatype=NEWS'}},
-  32:{production:{value:'94 avions',note:'F-2A et F-2B acquis par le Japon jusqu’en 2011, d’après le ministère japonais de la Défense.',source:'https://www.mod.go.jp/rdb/tokai/pr/boueidayori/images/pdf/d-35.pdf'}},
-  33:{production:{label:'Production estimée',value:'Moins de 10',note:'Estimation de presse publiée en 2025 ; le nombre exact de MiG-35 produits n’est pas public.',source:'https://breakingdefense.com/2025/03/the-mig-35-has-been-on-life-support-now-moscow-wants-to-revive-it-for-the-ukraine-war/'}},
-  34:{production:{label:'J-20 en service',value:'Environ 300',note:'Estimation RUSI pour mi-2025 ; le nombre construit est probablement supérieur.',source:'https://www.rusi.org/explore-our-research/publications/insights-papers/evolution-russian-and-chinese-air-power-threats?pubDate=20260209'}},
-  38:{production:{label:'Sous-marins mis à l’eau',value:'Au moins 7',note:'Sept sous-marins Taigei mis à l’eau au 8 octobre 2026 ; seuls cinq étaient alors en service.',source:'https://www.navaltoday.com/2026/10/08/mhi-splashes-japans-seventh-taigei-class-submarine/'}},
-  42:{production:{label:'Avions en flotte',value:'Près de 250',note:'Flotte mondiale annoncée par Pilatus en 2024 ; approximation, pas total exact fabriqué.',source:'https://www.pilatus-aircraft.com/en/news/pc-21-fleet-achieves-500-000-flight-hours-in-safety'}},
-  43:{production:{value:'Au moins 25',note:'25 sous-marins Virginia admis au service de l’US Navy en mars 2026 ; les unités en construction sont exclues.',source:'https://www.usff.navy.mil/Press-Room/Press-Releases/Article/4446503/navy-to-commission-submarine-massachusetts-ssn-798/'}},
-  40:{losses:{value:'13 détruits',note:'CV9040C ukrainiens documentés visuellement par Oryx depuis 2022 ; pas un total mondial pour la famille CV90.',source:'https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html'}},
-  41:{production:{label:'Avions livrés',value:'Au moins 14',note:'C-390 livrés dans le monde début 2026 selon MILMAG ; plusieurs livraisons ont suivi et ce n’est pas le total actuel.',source:'https://milmag.pl/en/first-embraer-c-390-millennium-for-the-republic-of-korea/'}},
-  53: {production:{value:'Au moins 400 livrés',note:'Le ministère brésilien de la Défense indiquait la livraison du 400e Guarani en juillet 2019 ; minimum historique, pas total actuel.',source:'https://www.gov.br/defesa/pt-br/assuntos/industria-de-defesa/cartilha_projetosestrategicos_ing_final_site.pdf'}},
-  54: {production:{value:'195 appareils livrés',note:'186 avions de série et 9 avions de développement, selon Lockheed Martin.',source:'https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/documents/f22/F-22%20Fast%20Facts%20Feb.%202024.pdf'}},
-  55: {production:{value:'716 construits',note:'Total de la famille A-10 indiqué par le centre de gestion des programmes de l’US Air Force.',source:'https://www.aflcmc.af.mil/NEWS/Article/3024167/this-week-in-aflcmc-history-may-9-may-15-2022/'}},
-  58: {production:{label:'Avions livrés',value:'275 C-17A',note:'Livraisons Boeing entre 1993 et 2015 ; la production est terminée.',source:'https://www.boeing.com/content/theboeingcompany/us/en/features/2026/02/flight-deck-modernization-will-keep-c17-mission-ready.html'}},
-  65: {production:{value:'6 destroyers',note:'Les six Type 45 de la Royal Navy ; total de cette classe.',source:'https://www.royalnavy.mod.uk/equipment/ships/daring-class'}},
-  66: {production:{value:'3 sous-marins',note:'Total de la classe Seawolf indiqué par la marine américaine.',source:'https://www.csp.navy.mil/SUBPAC-Commands/Submarines/Attack-Submarines/'}},
-  67: {production:{value:'1 frégate',note:'Cette fiche porte sur l’Aquitaine, première FREMM française, et non sur toute la classe.',source:'https://www.naval-group.com/en/naval-group-delivers-fremm-da-frigate-alsace-first-multimissions-frigate-enhanced-air-defence'}},
-  68: {production:{value:'4 destroyers',note:'Les quatre bâtiments de la classe Kongō recensés par la force maritime japonaise.',source:'https://www.mod.go.jp/msdf/equipment/ships/ddg/kongou/'}},
-  70: {"production":{"value":"Plus de 1 200","note":"Bushmaster fabriqués à Bendigo au 17 mai 2023, selon Thales. Minimum historique ; commandes ultérieures exclues.","source":"https://www.thalesgroup.com/en/news-centre/press-releases/new-bushmaster-contract-supports-jobs-bendigo"}},
-  71: {"production":{"label":"Livraison de série documentée","value":"Au moins 1 appareil","note":"Premier KF-21 de série remis à l’armée de l’air sud-coréenne le 22 septembre 2026. Les six prototypes de vol sont exclus de ce chiffre.","source":"https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=59188&menuSeq=3069"},"losses":{"value":"0 pendant les essais","note":"Aucun accident dans les quelque 1 600 vols de développement annoncés par la DAPA en juillet 2026. Bilan limité à cette campagne, pas à toute la carrière future.","source":"https://dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=58922&menuSeq=3069"}},
-  72: {"production":{"label":"Appareils livrés","value":"178","note":"Total mondial de P-8 livré annoncé par Boeing en juillet 2026 ; il comprend la famille P-8A/P-8I.","source":"https://www.boeing.com/features/2026/07/boeing-spotlights-poseidon-demand-partnerships-farnborough"},"losses":{"value":"1 perte documentée","note":"Le P-8A sorti de piste à Kaneohe Bay en novembre 2023 a été démantelé en 2025. Ce chiffre décrit cet accident, pas un recensement exhaustif de la famille.","source":"https://www.dla.mil/About-DLA/News/News-Article-View/Article/4273943/pearl-harbor-team-provides-p-8-demil-support/"}},
-  74: {"production":{"value":"1 bâtiment","note":"Cette fiche porte sur l’USS America (LHA 6), admis au service le 11 octobre 2014, et non sur toute la classe America.","source":"https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169814/amphibious-assault-ships-lhdlhar/no/amphibious-assault-ships-lhdlhar/"}},
+  "0": {
+    "production": {
+      "value": "794 chars",
+      "note": "406 pour la France et 388 pour les Émirats arabes unis ; hors véhicules dérivés.",
+      "source": "https://www.lemonde.fr/economie/article/2023/07/05/le-char-leclerc-en-pleine-cure-de-rajeunissement_6180569_3234.html"
+    }
+  },
+  "1": {
+    "production": {
+      "label": "Chars en circulation",
+      "value": "Environ 3 600",
+      "note": "Estimation du parc mondial de Leopard 2 en 2023 ; ce n’est pas un total exact construit.",
+      "source": "https://amp.dw.com/sr/za%C5%A1to-je-tenk-leopard-2-va%C5%BEan-ukrajini/a-64531969"
+    },
+    "losses": {
+      "value": "22 détruits",
+      "note": "Leopard 2A4, 2A6 et Strv 122 ukrainiens documentés visuellement par Oryx (14 + 7 + 1) ; pas un total mondial.",
+      "source": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"
+    }
+  },
+  "2": {
+    "production": {
+      "label": "Chars livrés",
+      "value": "Au moins 180",
+      "note": "K2GF livrés à la Pologne en novembre 2025 ; la Corée du Sud et d’autres lots ne sont pas compris.",
+      "source": "https://defence24.pl/przemysl/zakonczenie-dostaw-czolgow-k2-z-pierwszej-umowy-wykonawczej"
+    }
+  },
+  "3": {
+    "production": {
+      "value": "Près de 1 300",
+      "note": "Flotte mondiale de F-35 annoncée par Lockheed Martin début 2026 ; ordre de grandeur des exemplaires livrés.",
+      "source": "https://investors.lockheedmartin.com/news-releases/news-release-details/f-35-breaks-delivery-record-continues-combat-success-2025"
+    }
+  },
+  "4": {
+    "production": {
+      "value": "Environ 280",
+      "note": "Gripen de toutes versions construits ; estimation de presse, pas total exact du constructeur.",
+      "source": "https://www.straitstimes.com/world/europe/sweden-and-ukraine-eye-export-deal-for-up-to-150-gripen-fighter-jets"
+    }
+  },
+  "6": {
+    "production": {
+      "value": "12 sous-marins",
+      "note": "La 12e et dernière unité Sōryū a été admise au service en 2021.",
+      "source": "https://www.mod.go.jp/en/article/2021/03/edb7a684dc1b61b33d4462cf7d5fde9e7866eb40.html"
+    }
+  },
+  "8": {
+    "production": {
+      "value": "200 chars",
+      "note": "Les 200 C1 Ariete de la commande italienne initiale ont été livrés entre 1995 et 2002.",
+      "source": "https://www.army-technology.com/projects/ariete/"
+    }
+  },
+  "9": {
+    "production": {
+      "value": "Au moins 300",
+      "note": "Le cap du 300e Rafale produit a été franchi en octobre 2025 ; la production continue.",
+      "source": "https://www.dassault-aviation.com/fr/groupe/presse/press-kits/livraison-du-300e-rafale/"
+    }
+  },
+  "10": {
+    "production": {
+      "label": "Tejas Mk 1 livrés",
+      "value": "40 avions",
+      "note": "Commande initiale de 40 Tejas Mk 1 achevée en septembre 2026 ; les Mk 1A et prototypes sont exclus.",
+      "source": "https://theprint.in/defence/hal-hands-over-final-two-tejas-mk1-trainers-16-years-after-iaf-order-all-eyes-on-mk1a-now/3046534/"
+    }
+  },
+  "11": {
+    "production": {
+      "value": "Au moins 500",
+      "note": "500e Bayraktar TB2 sorti de la chaîne en 2023 ; ce n’est pas le total actuel.",
+      "source": "https://baykartech.com/tr/press/500-bayraktar-tb2-siha-uretim-hattindan-cikti/"
+    },
+    "losses": {
+      "value": "26 détruits",
+      "note": "Drones ukrainiens documentés visuellement par Oryx depuis 2022, dont quatre au sol ; pas un total mondial.",
+      "source": "https://www.oryxspioenkop.com/2022/03/list-of-aircraft-losses-during-2022.html"
+    },
+    "targets": {
+      "value": "884 cibles",
+      "note": "Équipements détruits et attribués au TB2 dans la liste Oryx couvrant plusieurs conflits ; minimum documenté, pas bilan mondial exhaustif.",
+      "source": "https://www.oryxspioenkop.com/2021/12/a-monument-of-victory-bayraktar-tb2.html"
+    }
+  },
+  "12": {
+    "losses": {
+      "value": "1 perdu",
+      "note": "Un Apache abattu pendant la guerre du Golfe de 1991, puis détruit volontairement ; bilan de cette campagne uniquement, d’après le GAO.",
+      "source": "https://www.gao.gov/assets/nsiad-92-146.pdf"
+    },
+    "targets": {
+      "value": "278 chars",
+      "note": "Revendication des unités Apache pendant la guerre du Golfe de 1991, rapportée par le GAO ; celui-ci n’a pas pu exclure les doubles comptes avec d’autres armes.",
+      "source": "https://www.gao.gov/assets/nsiad-92-146.pdf"
+    }
+  },
+  "14": {
+    "production": {
+      "label": "Chars acquis",
+      "value": "Au moins 111",
+      "note": "111 Type 10 acquis par le Japon à la fin de l’exercice 2020, selon son ministère de la Défense ; d’autres achats ont suivi.",
+      "source": "https://www.mod.go.jp/atla/soubiseisaku/project/gaiyo_r030831.pdf"
+    }
+  },
+  "15": {
+    "production": {
+      "label": "Obusiers en service",
+      "value": "Plus de 1 800",
+      "note": "K9 et variantes locales en service dans huit pays selon Hanwha en 2023 ; la flotte a évolué depuis.",
+      "source": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=375"
+    }
+  },
+  "16": {
+    "production": {
+      "value": "Plus de 4 600",
+      "note": "F-16 construits dans toutes les versions, selon l’US Air Force.",
+      "source": "https://www.afmc.af.mil/News/Article-Display/Article/3823313/us-air-force-celebrates-50th-anniversary-of-f-16-flight/"
+    }
+  },
+  "17": {
+    "production": {
+      "value": "Plus de 150",
+      "note": "Su-35 construits à Komsomolsk-sur-l’Amour d’après une estimation publiée par AeroTime en 2026.",
+      "source": "https://www.aerotime.aero/defense/sukhoi/su-35"
+    },
+    "losses": {
+      "value": "12 détruits",
+      "note": "Su-35S russes documentés par Oryx dans la guerre en Ukraine ; le nombre mondial peut être supérieur.",
+      "source": "https://www.oryxspioenkop.com/2022/03/list-of-aircraft-losses-during-2022.html"
+    }
+  },
+  "18": {
+    "production": {
+      "label": "J-10 en service",
+      "value": "Environ 550",
+      "note": "Estimation RUSI : plus de 300 J-10C et environ 250 J-10A/B dans l’armée de l’air chinoise en 2025 ; non un total produit.",
+      "source": "https://www.rusi.org/explore-our-research/publications/insights-papers/evolution-russian-and-chinese-air-power-threats?pubDate=20260209"
+    }
+  },
+  "19": {
+    "production": {
+      "label": "FA-50 en service",
+      "value": "60 en Corée du Sud",
+      "note": "Flotte sud-coréenne relevée par FlightGlobal en 2025 ; les appareils exportés ne sont pas inclus.",
+      "source": "https://www.flightglobal.com/download?ac=106507&pubDate=20250722"
+    },
+    "losses": {
+      "value": "1 détruit",
+      "note": "FA-50 philippin écrasé en mars 2025 ; événement documenté, pas total mondial.",
+      "source": "https://apnews.com/article/cd628671621c7cc8f4849e9fbea7f3c2"
+    }
+  },
+  "22": {
+    "production": {
+      "value": "Au moins 10",
+      "note": "Dix Type 055 admis au service dans la marine chinoise au printemps 2026.",
+      "source": "https://eng.chinamil.com.cn/2025xb/C_251453/F_251462/16447450.html"
+    }
+  },
+  "24": {
+    "production": {
+      "value": "Plus de 10 000",
+      "note": "Estimation de la famille M1 Abrams, toutes versions confondues.",
+      "source": "https://www.ifri.org/sites/default/files/2026-02/ifri_peria-peigne_main_battle_tank_2025.pdf"
+    },
+    "losses": {
+      "value": "12 détruits",
+      "note": "M1A1 ukrainiens documentés visuellement par Oryx depuis 2022 ; autres pays et périodes exclus.",
+      "source": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"
+    }
+  },
+  "25": {
+    "production": {
+      "label": "Blindés en dotation",
+      "value": "350 Puma",
+      "note": "Nombre de Puma dans l’armée allemande, selon la Bundeswehr ; ce n’est pas un total de fabrication.",
+      "source": "https://www.bundeswehr.de/resource/blob/5031824/7b51f1e2b8e19099dacc615881a4/waffensysteme-und-grossgeraet-data.pdf"
+    }
+  },
+  "26": {
+    "production": {
+      "label": "Blindés vendus",
+      "value": "Plus de 1 600",
+      "note": "Famille Patria AMV, d’après le constructeur ; ventes et production ne sont pas identiques.",
+      "source": "https://www.patriagroup.com/newsroom/patria-magazine/even-the-best-vehicle-requires-continual-development"
+    }
+  },
+  "27": {
+    "production": {
+      "value": "8 prototypes",
+      "note": "Prototypes Challenger 3 produits pour les essais ; les 140 chars de série annoncés ne sont pas inclus.",
+      "source": "https://www.army.mod.uk/news/british-army-s-most-lethal-tank-prototype-rolls-off-production-line/"
+    }
+  },
+  "28": {
+    "production": {
+      "value": "Au moins 300",
+      "note": "Estimation de chars T-90M construits ou modernisés jusqu’à fin 2024, publiée dans une revue du ministère albanais de la Défense.",
+      "source": "https://www.mod.gov.al/eng/images/revistaushtarake/pdf/Revista-Ushtarake-Anglisht-2025.pdf"
+    },
+    "losses": {
+      "value": "106 détruits",
+      "note": "Chars T-90M russes documentés visuellement par Oryx en Ukraine ; les engins endommagés ou capturés sont exclus.",
+      "source": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html"
+    }
+  },
+  "29": {
+    "production": {
+      "value": "Au moins 22 livrés",
+      "note": "Boeing signalait la livraison du F-15EX-22 en septembre 2026 ; 120 contrats ne signifient pas 120 avions produits.",
+      "source": "https://www.boeing.com/features/2026/09/boeing-secures-order-for-22-more-f-15ex-fighters"
+    }
+  },
+  "31": {
+    "production": {
+      "value": "Plus de 260 livrés",
+      "note": "A-29 Super Tucano livrés dans le monde, selon Embraer.",
+      "source": "https://www.embraer.com/media-center/pt/?detail=13317&mediatype=NEWS"
+    }
+  },
+  "32": {
+    "production": {
+      "value": "94 avions",
+      "note": "F-2A et F-2B acquis par le Japon jusqu’en 2011, d’après le ministère japonais de la Défense.",
+      "source": "https://www.mod.go.jp/rdb/tokai/pr/boueidayori/images/pdf/d-35.pdf"
+    }
+  },
+  "33": {
+    "production": {
+      "label": "Production estimée",
+      "value": "Moins de 10",
+      "note": "Estimation de presse publiée en 2025 ; le nombre exact de MiG-35 produits n’est pas public.",
+      "source": "https://breakingdefense.com/2025/03/the-mig-35-has-been-on-life-support-now-moscow-wants-to-revive-it-for-the-ukraine-war/"
+    }
+  },
+  "34": {
+    "production": {
+      "label": "J-20 en service",
+      "value": "Environ 300",
+      "note": "Estimation RUSI pour mi-2025 ; le nombre construit est probablement supérieur.",
+      "source": "https://www.rusi.org/explore-our-research/publications/insights-papers/evolution-russian-and-chinese-air-power-threats?pubDate=20260209"
+    }
+  },
+  "38": {
+    "production": {
+      "label": "Sous-marins mis à l’eau",
+      "value": "Au moins 7",
+      "note": "Sept sous-marins Taigei mis à l’eau au 8 octobre 2026 ; seuls cinq étaient alors en service.",
+      "source": "https://www.navaltoday.com/2026/10/08/mhi-splashes-japans-seventh-taigei-class-submarine/"
+    }
+  },
+  "40": {
+    "losses": {
+      "value": "13 détruits",
+      "note": "CV9040C ukrainiens documentés visuellement par Oryx depuis 2022 ; pas un total mondial pour la famille CV90.",
+      "source": "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"
+    }
+  },
+  "41": {
+    "production": {
+      "label": "Avions livrés",
+      "value": "Au moins 14",
+      "note": "C-390 livrés dans le monde début 2026 selon MILMAG ; plusieurs livraisons ont suivi et ce n’est pas le total actuel.",
+      "source": "https://milmag.pl/en/first-embraer-c-390-millennium-for-the-republic-of-korea/"
+    }
+  },
+  "42": {
+    "production": {
+      "label": "Avions en flotte",
+      "value": "Près de 250",
+      "note": "Flotte mondiale annoncée par Pilatus en 2024 ; approximation, pas total exact fabriqué.",
+      "source": "https://www.pilatus-aircraft.com/en/news/pc-21-fleet-achieves-500-000-flight-hours-in-safety"
+    }
+  },
+  "43": {
+    "production": {
+      "value": "Au moins 25",
+      "note": "25 sous-marins Virginia admis au service de l’US Navy en mars 2026 ; les unités en construction sont exclues.",
+      "source": "https://www.usff.navy.mil/Press-Room/Press-Releases/Article/4446503/navy-to-commission-submarine-massachusetts-ssn-798/"
+    }
+  },
+  "53": {
+    "production": {
+      "value": "Au moins 400 livrés",
+      "note": "Le ministère brésilien de la Défense indiquait la livraison du 400e Guarani en juillet 2019 ; minimum historique, pas total actuel.",
+      "source": "https://www.gov.br/defesa/pt-br/assuntos/industria-de-defesa/cartilha_projetosestrategicos_ing_final_site.pdf"
+    }
+  },
+  "54": {
+    "production": {
+      "value": "195 appareils livrés",
+      "note": "186 avions de série et 9 avions de développement, selon Lockheed Martin.",
+      "source": "https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/documents/f22/F-22%20Fast%20Facts%20Feb.%202024.pdf"
+    }
+  },
+  "55": {
+    "production": {
+      "value": "716 construits",
+      "note": "Total de la famille A-10 indiqué par le centre de gestion des programmes de l’US Air Force.",
+      "source": "https://www.aflcmc.af.mil/NEWS/Article/3024167/this-week-in-aflcmc-history-may-9-may-15-2022/"
+    }
+  },
+  "58": {
+    "production": {
+      "label": "Avions livrés",
+      "value": "275 C-17A",
+      "note": "Livraisons Boeing entre 1993 et 2015 ; la production est terminée.",
+      "source": "https://www.boeing.com/content/theboeingcompany/us/en/features/2026/02/flight-deck-modernization-will-keep-c17-mission-ready.html"
+    }
+  },
+  "65": {
+    "production": {
+      "value": "6 destroyers",
+      "note": "Les six Type 45 de la Royal Navy ; total de cette classe.",
+      "source": "https://www.royalnavy.mod.uk/equipment/ships/daring-class"
+    }
+  },
+  "66": {
+    "production": {
+      "value": "3 sous-marins",
+      "note": "Total de la classe Seawolf indiqué par la marine américaine.",
+      "source": "https://www.csp.navy.mil/SUBPAC-Commands/Submarines/Attack-Submarines/"
+    }
+  },
+  "67": {
+    "production": {
+      "value": "1 frégate",
+      "note": "Cette fiche porte sur l’Aquitaine, première FREMM française, et non sur toute la classe.",
+      "source": "https://www.naval-group.com/en/naval-group-delivers-fremm-da-frigate-alsace-first-multimissions-frigate-enhanced-air-defence"
+    }
+  },
+  "68": {
+    "production": {
+      "value": "4 destroyers",
+      "note": "Les quatre bâtiments de la classe Kongō recensés par la force maritime japonaise.",
+      "source": "https://www.mod.go.jp/msdf/equipment/ships/ddg/kongou/"
+    }
+  },
+  "70": {
+    "production": {
+      "value": "Plus de 1 200",
+      "note": "Bushmaster fabriqués à Bendigo au 17 mai 2023, selon Thales. Minimum historique ; commandes ultérieures exclues.",
+      "source": "https://www.thalesgroup.com/en/news-centre/press-releases/new-bushmaster-contract-supports-jobs-bendigo"
+    }
+  },
+  "71": {
+    "production": {
+      "label": "Livraison de série documentée",
+      "value": "Au moins 1 appareil",
+      "note": "Premier KF-21 de série remis à l’armée de l’air sud-coréenne le 22 septembre 2026. Les six prototypes de vol sont exclus de ce chiffre.",
+      "source": "https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=59188&menuSeq=3069"
+    },
+    "losses": {
+      "value": "0 pendant les essais",
+      "note": "Aucun accident dans les quelque 1 600 vols de développement annoncés par la DAPA en juillet 2026. Bilan limité à cette campagne, pas à toute la carrière future.",
+      "source": "https://dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=58922&menuSeq=3069"
+    }
+  },
+  "72": {
+    "production": {
+      "label": "Appareils livrés",
+      "value": "178",
+      "note": "Total mondial de P-8 livré annoncé par Boeing en juillet 2026 ; il comprend la famille P-8A/P-8I.",
+      "source": "https://www.boeing.com/features/2026/07/boeing-spotlights-poseidon-demand-partnerships-farnborough"
+    },
+    "losses": {
+      "value": "1 perte documentée",
+      "note": "Le P-8A sorti de piste à Kaneohe Bay en novembre 2023 a été démantelé en 2025. Ce chiffre décrit cet accident, pas un recensement exhaustif de la famille.",
+      "source": "https://www.dla.mil/About-DLA/News/News-Article-View/Article/4273943/pearl-harbor-team-provides-p-8-demil-support/"
+    }
+  },
+  "74": {
+    "production": {
+      "value": "1 bâtiment",
+      "note": "Cette fiche porte sur l’USS America (LHA 6), admis au service le 11 octobre 2014, et non sur toute la classe America.",
+      "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169814/amphibious-assault-ships-lhdlhar/no/amphibious-assault-ships-lhdlhar/"
+    }
+  },
+  "80": {
+    "production": {
+      "value": "Au moins 50 000 missiles",
+      "note": "50 000e livraison annoncée pour 2021 par Lockheed Martin ; jalon daté, hors unités de visée CLU. Ce n’est pas un total actualisé en 2026.",
+      "source": "https://www.lockheedmartin.com/en-us/products/javelin.html"
+    }
+  },
+  "82": {
+    "production": {
+      "value": "Plus de 18 000 missiles",
+      "note": "Livraisons cumulées annoncées par Saab le 22 décembre 2023 pour la famille RBS 70 ; ne pas confondre avec les 1 600 systèmes annoncés séparément.",
+      "source": "https://www.saab.com/newsroom/press-releases/2023/saab-receives-order-from-nato-for-rbs-70-bolide-missiles"
+    }
+  },
+  "83": {
+    "production": {
+      "value": "5 000 livrés (famille Hawk, janvier 2023)",
+      "note": "Jalon annoncé le 20 janvier 2023 pour l’ensemble des variantes Hawk ; ce n’est ni le total du seul UH-60M ni un inventaire des appareils encore en service.",
+      "source": "https://news.lockheedmartin.com/2023-01-20-Sikorsky-Delivers-5%2C000th-Hawk%2C-Highlights-Versatility-and-Future-of-Iconic-Helicopter"
+    }
+  },
+  "86": {
+    "production": {
+      "value": "Plus de 400 livrés (décembre 2020)",
+      "note": "Jalon publié par l’US Navy le 8 décembre 2020, toutes variantes V-22 concernées ; ce n’est pas un total actualisé ni le nombre encore en service.",
+      "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2417719/v-22b-osprey-tilt-rotor-aircraft/"
+    }
+  },
+  "87": {
+    "production": {
+      "value": "189 livrés aux Marines (novembre 2022)",
+      "note": "Sous-total confirmé pour l’US Marine Corps le 2 novembre 2022. Il exclut les exportations et n’est pas présenté comme la production mondiale de l’AH-1Z.",
+      "source": "https://news.bellflight.com/en-US/219854-bell-completes-u-s-marine-corps-ah-1z-program-of-record/"
+    }
+  },
+  "89": {
+    "production": {
+      "value": "4 navires",
+      "note": "La Bundeswehr énumère les quatre bâtiments, entrés en service de 2019 à 2022. Fiche publiée le 22 mars 2023, consultée le 11 octobre 2026.",
+      "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/baden-wuerttemberg-klasse-f125-fregatten"
+    }
+  }
 };
