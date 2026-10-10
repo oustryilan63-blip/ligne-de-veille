@@ -97,8 +97,8 @@
       const item = deck[index]; stage = 0; resolved = false;
       text('arcade-progress', `PHOTO ${index + 1} / ${deck.length}`);
       text('arcade-score', `${score} POINTS`);
-      text('arcade-eyebrow', item.kind);
-      text('arcade-question', 'Reconnais-tu cet engin ?');
+      text('arcade-eyebrow', 'PHOTO MYSTÈRE');
+      text('arcade-question', 'Quel engin ?');
       text('arcade-detail', 'La photo est très zoomée. Révèle-la peu à peu si nécessaire.');
       const img = $('arcade-photo'); img.src = `assets/jeu/${item.photo}`; img.alt = 'Photo très agrandie d’un engin à identifier';
       img.style.transform = `scale(${scales[stage]})`;
@@ -233,7 +233,7 @@
     try { saved = JSON.parse(localStorage.getItem(storageKey)); } catch (_) { /* Navigation privée : la partie reste jouable. */ }
     text('arcade-progress', label.toUpperCase());
     text('arcade-score', '1 QUESTION · 1 TENTATIVE');
-    text('arcade-eyebrow', item.kind);
+    text('arcade-eyebrow', 'PHOTO DU JOUR');
     text('arcade-question', 'Quel est cet engin ?');
     text('arcade-detail', 'Le même défi pour tous, renouvelé chaque jour à minuit, heure de Paris.');
     $('arcade-photo').src = `assets/jeu/${item.photo}`; $('arcade-photo').alt = 'Photographie de l’engin du défi du jour';
