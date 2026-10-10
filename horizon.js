@@ -16,18 +16,26 @@ const panel=$('hz-fact-card');panel.replaceChildren();const left=document.create
 function country(){const select=$('hz-class');select.replaceChildren();classes[$('hz-country').value].forEach((c,i)=>{const o=document.createElement('option');o.value=i;o.textContent=c.name;select.append(o);});fact();}
 $('hz-country').addEventListener('change',country);$('hz-class').addEventListener('change',fact);country();
 const initialStart=[440,205];
+// Arbitrary game balance: no geographic conversion or real missile performance.
+const gameRanges={fr:[2400,3200],us:[2800,3600],ru:[3000,2200]};
+const gameScale=10;
+function rangeLimit(){return gameRanges[$('hz-country').value][Number($('hz-class').value)];}
+function routeLength(a,b){return Math.hypot(b[0]-a[0],b[1]-a[1])*gameScale;}
+function withinRange(a,b){return routeLength(a,b)<=rangeLimit()+1e-7;}
+function formatDistance(value){return Math.ceil(value).toLocaleString('fr-FR');}
 const map=$('hz-map');
 let start=[...initialStart],arrival=null,placing=null,busy=false,frame=0,completed=0;
 let view={x:-60,y:-25,w:1320,h:550};
 const polygons=window.LDV_MAP.flatMap(c=>c.path.split('M').slice(1).map(part=>part.replace(/[LZ]/g,' ').trim().split(/\s+/).map(s=>s.split(',').map(Number))));
 function inPolygon(p,poly){let inside=false;for(let i=0,j=poly.length-1;i<poly.length;j=i++){const a=poly[i],b=poly[j];if((a[1]>p.y)!==(b[1]>p.y)&&p.x<(b[0]-a[0])*(p.y-a[1])/(b[1]-a[1])+a[0])inside=!inside;}return inside;}
 function isOcean(p){return p.x>=0&&p.x<=1200&&p.y>=0&&p.y<=480&&!polygons.some(poly=>inPolygon(p,poly));}
-function distance(){return arrival?Math.ceil(Math.hypot(arrival[0]-start[0],arrival[1]-start[1])):0;}
+function distance(){return arrival?Math.hypot(arrival[0]-start[0],arrival[1]-start[1]):0;}
 function svg(tag,attrs={},text=''){const el=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>el.setAttribute(k,v));el.textContent=text;return el;}
 for(const c of window.LDV_MAP)$('hz-land').append(svg('path',{d:c.path}));
 function markerScale(){return 1/(map.getScreenCTM()?.a||1);}
 function renderMap(){
  const g=$('hz-exercise'),s=markerScale();g.replaceChildren();
+ const range=$('hz-range');range.replaceChildren(svg('circle',{cx:start[0],cy:start[1],r:rangeLimit()/gameScale,class:'hz-range-circle'}));
  const sub=svg('g',{class:'hz-sub-marker',transform:`translate(${start}) scale(${s*.32})`,role:'img','aria-label':'Sous-marin, point de départ'});
  sub.append(svg('path',{d:'M-49 4Q-37-1-27 2M-50 10Q-36 6-26 8M-45 15Q-34 12-27 12',fill:'none',stroke:'#9ababa','stroke-width':1.2,opacity:.55}));
  sub.append(svg('path',{d:'M-33 2L-43-8L-37 7L-44 18L-31 12Z',fill:'#76969c',stroke:'#b5cbc6','stroke-width':.8}));
@@ -42,10 +50,11 @@ function renderMap(){
 }
 function setFeedback(text){$('hz-feedback').textContent=text;}
 function updateRoute(){
- const d=distance();
- $('hz-distance').textContent=arrival?`${d} unités de carte fictives`:'— unités de carte';
+ const d=distance()*gameScale;
+ $('hz-distance').textContent=arrival?`${formatDistance(d)} / ${formatDistance(rangeLimit())} km fictifs`:'— / '+formatDistance(rangeLimit())+' km fictifs';
+ $('hz-range-value').textContent=formatDistance(rangeLimit())+' km fictifs';
  $('hz-route-state').textContent=arrival?'Trajet prêt':'Arrivée à choisir';
- $('hz-launch').disabled=busy||!arrival;
+ $('hz-launch').disabled=busy||!arrival||!withinRange(start,arrival);
  $('hz-objective').textContent=arrival?'Ton trajet d’essai.':'Prépare ton essai.';
  renderMap();
 }
@@ -57,9 +66,13 @@ function place(p){
  if(!isOcean(p)){setFeedback('Choisis un point dans l’océan, hors des terres et des eaux intérieures.');return;}
  const other=placing==='start'?arrival:start;
  if(other&&Math.hypot(p.x-other[0],p.y-other[1])<12){setFeedback('Éloigne un peu les deux points pour que le trajet soit visible.');return;}
+ if(placing==='arrival'&&!withinRange(start,[p.x,p.y])){setFeedback(`Hors portée : ${formatDistance(routeLength(start,[p.x,p.y]))} km fictifs pour une limite de ${formatDistance(rangeLimit())}. Choisis une arrivée en mer dans le cercle.`+(arrival?' Ton arrivée précédente est conservée.':''));return;}
  const mode=placing;if(mode==='start')start=[p.x,p.y];else arrival=[p.x,p.y];
- stopPlacing();clearAnimation();updateRoute();setFeedback((mode==='start'?'Sous-marin repositionné. ':'Arrivée choisie en mer. ')+(arrival?`Trajet : ${distance()} unités de carte fictives.`:'Choisis maintenant le point d’arrivée.'));
+ const removed=arrival&&!withinRange(start,arrival);if(removed)arrival=null;
+ stopPlacing();clearAnimation();updateRoute();setFeedback((mode==='start'?'Sous-marin repositionné. ':'Arrivée choisie en mer. ')+(removed?'L’ancienne arrivée est désormais hors portée et a été retirée. Choisis une arrivée dans le cercle.':arrival?`Trajet : ${formatDistance(distance()*gameScale)} km fictifs.`:'Choisis maintenant le point d’arrivée dans le cercle.'));
 }
+function changeGameRange(){stopPlacing();clearAnimation();const removed=arrival&&!withinRange(start,arrival);if(removed)arrival=null;updateRoute();setFeedback(`Portée de jeu : ${formatDistance(rangeLimit())} km fictifs. `+(removed?'L’arrivée précédente est hors portée et a été retirée.':arrival?'Ton trajet reste dans la portée autorisée.':'Choisis une arrivée en mer dans le cercle.'));}
+$('hz-country').addEventListener('change',changeGameRange);$('hz-class').addEventListener('change',changeGameRange);
 function lock(value){for(const id of ['hz-country','hz-class','hz-place','hz-destination','hz-clear'])$(id).disabled=value;$('hz-launch').hidden=value;$('hz-stop').hidden=!value;}
 $('hz-place').addEventListener('click',()=>setPlacing('start'));
 $('hz-destination').addEventListener('click',()=>setPlacing('arrival'));
@@ -67,6 +80,7 @@ $('hz-clear').addEventListener('click',()=>{if(busy)return;stopPlacing();arrival
 $('hz-stop').addEventListener('click',()=>{clearAnimation();busy=false;lock(false);updateRoute();setFeedback('Essai interrompu. Tu peux modifier ton trajet et recommencer.');});
 $('hz-launch').addEventListener('click',()=>{
  if(busy||!arrival)return;
+ if(!withinRange(start,arrival)){updateRoute();setFeedback('Hors portée. Choisis une arrivée dans le cercle avant de lancer l’essai.');return;}
  stopPlacing();clearAnimation();busy=true;lock(true);$('hz-objective').textContent='Essai en cours…';
  const a=[...start],b=[...arrival],mid=[(a[0]+b[0])/2,(a[1]+b[1])/2],control=[mid[0],mid[1]-Math.min(70,distance()*.3)];
  const track=svg('path',{d:`M${a} Q${control} ${b}`,fill:'none',stroke:'#e6b074','stroke-width':2,'stroke-dasharray':'5 5','vector-effect':'non-scaling-stroke'});

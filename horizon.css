@@ -9,3 +9,4 @@
 .hz-range-documentary p{font-size:12px;line-height:1.7}
 .hz-range-documentary .hz-range-label{font-weight:600;color:var(--accent);margin-top:5px}
 .hz-range-documentary .hz-range-footnote{font-size:10px;color:var(--muted);margin-top:16px}
+.hz-range-circle{fill:#a8d0bf18;stroke:#b9e0c8;stroke-width:1.7;stroke-dasharray:7 5;vector-effect:non-scaling-stroke;pointer-events:none}.hz-game-range{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;padding:15px 24px;background:#e6e9df;border-bottom:1px solid var(--line)}.hz-game-range>span{font:10px var(--mono);color:var(--muted)}.hz-game-range strong{display:inline-block;margin-left:9px;color:var(--ink);font:600 17px var(--sans)}.hz-game-range small{font-size:11px;color:var(--muted)}@media(max-width:760px){.hz-game-range{padding:14px 16px}}
