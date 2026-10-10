@@ -1,0 +1,7 @@
+[
+  {"id":"senat","name":"Sénat — Défense","type":"Source officielle","url":"https://www.senat.fr/themes/rss/therss29.rss","domains":["senat.fr"],"language":"fr"},
+  {"id":"mod-uk","name":"Ministère britannique de la Défense","type":"Source officielle","url":"https://www.gov.uk/government/organisations/ministry-of-defence.atom","domains":["gov.uk"],"language":"en","pathPrefix":"/government/news/"},
+  {"id":"opex360","name":"Zone Militaire — Opex360","type":"Presse spécialisée","url":"https://www.opex360.com/feed/","domains":["opex360.com"],"language":"fr"},
+  {"id":"opexnews","name":"OpexNews","type":"Presse spécialisée","url":"https://opexnews.fr/feed/","domains":["opexnews.fr"],"language":"fr"},
+  {"id":"conflits","name":"Revue Conflits","type":"Presse spécialisée","url":"https://www.revueconflits.com/feed/","domains":["revueconflits.com"],"language":"fr"}
+]
