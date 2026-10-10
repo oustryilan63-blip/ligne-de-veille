@@ -31,7 +31,7 @@ function normalizeName(value) {
 }
 
 function isCorrectName(guess, item) {
-  const accepted = [item.name, item.name.replace(/^(classe|hms|uss|ins|chengdu|mitsubishi|pilatus|hal)\s+/i, '')];
+  const accepted = [item.name, ...(item.aliases || []), item.name.replace(/^(classe|hms|uss|ins|chengdu|mitsubishi|pilatus|hal)\s+/i, '')];
   const model = item.name.match(/\b[A-Z]{1,4}[- ]?\d+[A-Z0-9-]*\b/);
   if (model) accepted.push(model[0]);
   if (item.name === 'JAS 39 Gripen') accepted.push('Gripen');

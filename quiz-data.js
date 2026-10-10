@@ -62,3 +62,16 @@ window.LDV_FACTS.push(
   { claim: 'La classe Kongō sert dans la marine japonaise.', answer: true, ref: 'Classe Kongō', reason: 'La force maritime japonaise présente ses quatre destroyers Kongō.' },
   { claim: 'La classe Arleigh Burke est une famille de sous-marins.', answer: false, ref: 'Classe Arleigh Burke', reason: 'Il s’agit de destroyers de la marine américaine.' }
 );
+
+// Série 3 : cinq engins et deux premiers vols documentés.
+window.LDV_FACTS.push(
+  {"claim":"Le Bushmaster est un véhicule de conception australienne.","answer":true,"ref":"Bushmaster","reason":"Thales le fabrique à Bendigo, en Australie, pour des missions de transport protégé."},
+  {"claim":"Le KF-21 Boramae est un avion de combat japonais.","answer":false,"ref":"KF-21 Boramae","reason":"KAI a conduit le programme KF-21 en Corée du Sud, avec une coopération indonésienne."},
+  {"claim":"Le P-8 Poseidon est un avion de patrouille maritime.","answer":true,"ref":"P-8 Poseidon","reason":"Boeing le destine notamment à la surveillance maritime et à la lutte anti-sous-marine."},
+  {"claim":"Le Pinaka est un sous-marin de la marine indienne.","answer":false,"ref":"Pinaka","reason":"Le Pinaka est un système terrestre de lance-roquettes multiples développé en Inde."},
+  {"claim":"L’USS America LHA 6 est un bâtiment d’assaut amphibie.","answer":true,"ref":"USS America","reason":"La marine américaine classe l’USS America parmi ses bâtiments d’assaut amphibie, avec un important groupe aérien embarqué."}
+);
+window.LDV_CHRONO.push(
+  {"name":"P-8 Poseidon","year":2009,"date":"25 avril 2009","context":"Premier vol du Boeing P-8A Poseidon, avion de patrouille maritime.","source":"https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing-Chronology.pdf"},
+  {"name":"KF-21 Boramae","year":2022,"date":"19 juillet 2022","context":"Premier vol du prototype du chasseur sud-coréen KF-21.","source":"https://www.koreaaero.com/EN/Business/KF21.aspx"}
+);
