@@ -1,0 +1,56 @@
+[
+  {
+    "key": "triomphant",
+    "src": "assets/horizon/triomphant.jpg",
+    "file": "SNLE de classe le Triomphant.jpg",
+    "artist": "Marine nationale",
+    "license": "Licence Ouverte",
+    "licenseUrl": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+    "page": "https://commons.wikimedia.org/wiki/File:SNLE_de_classe_le_Triomphant.jpg"
+  },
+  {
+    "key": "snle3g",
+    "src": "assets/horizon/snle3g.png",
+    "file": "SNLE-3G-210221105752293576.png",
+    "artist": "800tonnes Naval Art",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SNLE-3G-210221105752293576.png"
+  },
+  {
+    "key": "ohio",
+    "src": "assets/horizon/ohio.jpg",
+    "file": "Good Luck Ohio.JPEG",
+    "artist": "PH1 James Preston",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Good_Luck_Ohio.JPEG"
+  },
+  {
+    "key": "columbia",
+    "src": "assets/horizon/columbia.jpg",
+    "file": "Artist rendering of a Columbia-class ballistic missile submarine, 2019 (190306-N-N0101-125).jpg",
+    "artist": "U.S. Navy illustration/released",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Artist_rendering_of_a_Columbia-class_ballistic_missile_submarine,_2019_(190306-N-N0101-125).jpg"
+  },
+  {
+    "key": "borei",
+    "src": "assets/horizon/borei.jpg",
+    "file": "«Александр Невский» в Вилючинске.jpg",
+    "artist": "Ildus Gilyazutdinov",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C2%AB%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%C2%BB_%D0%B2_%D0%92%D0%B8%D0%BB%D1%8E%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B5.jpg"
+  },
+  {
+    "key": "borei-a",
+    "src": "assets/horizon/borei-a.jpg",
+    "file": "K-549 Knyaz Vladimir at sea trials (2019).jpg",
+    "artist": "HoteitH",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:K-549_Knyaz_Vladimir_at_sea_trials_(2019).jpg"
+  }
+]
