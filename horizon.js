@@ -15,37 +15,41 @@ function fact(){const photo=photos[photoKeys[$('hz-country').value][Number($('hz
 const panel=$('hz-fact-card');panel.replaceChildren();const left=document.createElement('div'),right=document.createElement('div'),title=document.createElement('h3'),p=document.createElement('p');title.textContent=c.name;p.textContent=c.detail;left.append(title,p);const dl=document.createElement('dl');for(const [label,value] of [['Statut',c.status],['Système réel associé · documentation',c.system]]){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value;dl.append(dt,dd);}right.append(dl);for(const [label,url] of c.sources){const a=document.createElement('a');a.href=url;a.textContent=label+' ↗';a.target='_blank';a.rel='noopener noreferrer';right.append(a);}panel.append(left,right);}
 function country(){const select=$('hz-class');select.replaceChildren();classes[$('hz-country').value].forEach((c,i)=>{const o=document.createElement('option');o.value=i;o.textContent=c.name;select.append(o);});fact();}
 $('hz-country').addEventListener('change',country);$('hz-class').addEventListener('change',fact);country();
-const initialStart=[440,205];
-// Arbitrary game balance: no geographic conversion or real missile performance.
-const gameRanges={fr:[2400,3200],us:[2800,3600],ru:[3000,2200]};
-const gameScale=10;
-function rangeLimit(){return gameRanges[$('hz-country').value][Number($('hz-class').value)];}
-function routeLength(a,b){return Math.hypot(b[0]-a[0],b[1]-a[1])*gameScale;}
-function withinRange(a,b){return routeLength(a,b)<=rangeLimit()+1e-7;}
-function formatDistance(value){return Math.ceil(value).toLocaleString('fr-FR');}
-const map=$('hz-map');
-let start=[...initialStart],arrival=null,placing=null,busy=false,frame=0,completed=0;
-let exploring=true,measureStart=null,measureEnd=null;
-// Inverse of the projection used in work/game/build-map.mjs.
+// Fictional exploration drones: these values are invented, not missile data.
+const drones={
+ littoral:{name:'Littoral',range:2000,speed:120},
+ alize:{name:'Alizé',range:4500,speed:180},
+ grandlarge:{name:'Grand Large',range:6500,speed:240}
+};
+const earthRadius=6371.0088,rad=Math.PI/180,map=$('hz-map');
+let start=[440,205],arrival=null,placing=null,busy=false,frame=0,completed=0;
+let view={x:-60,y:-25,w:1320,h:550},circleKey='',circlePath='';
+const drone=()=>drones[$('hz-drone').value];
+const formatDistance=n=>Math.round(n).toLocaleString('fr-FR');
 function coordinates(p){return {lat:85-p[1]/3.2,lon:p[0]*360/1200-180};}
-function geographicDistance(a,b){
- const p=coordinates(a),q=coordinates(b),rad=Math.PI/180;
- const h=Math.sin((q.lat-p.lat)*rad/2)**2+Math.cos(p.lat*rad)*Math.cos(q.lat*rad)*Math.sin((q.lon-p.lon)*rad/2)**2;
- return 6371.0088*2*Math.atan2(Math.sqrt(Math.min(1,Math.max(0,h))),Math.sqrt(Math.max(0,1-h)));
+function project(lat,lon){return [(((lon+180)%360+360)%360)*1200/360,(85-lat)*3.2];}
+function geographicDistance(a,b){const p=coordinates(a),q=coordinates(b);const h=Math.sin((q.lat-p.lat)*rad/2)**2+Math.cos(p.lat*rad)*Math.cos(q.lat*rad)*Math.sin((q.lon-p.lon)*rad/2)**2;return earthRadius*2*Math.atan2(Math.sqrt(Math.min(1,Math.max(0,h))),Math.sqrt(Math.max(0,1-h)));}
+function withinRange(a,b){return geographicDistance(a,b)<=drone().range+1e-7;}
+function destination(a,bearing,km){const p=coordinates(a),lat=p.lat*rad,lon=p.lon*rad,d=km/earthRadius,b=bearing*rad;const lat2=Math.asin(Math.max(-1,Math.min(1,Math.sin(lat)*Math.cos(d)+Math.cos(lat)*Math.sin(d)*Math.cos(b))));const lon2=lon+Math.atan2(Math.sin(b)*Math.sin(d)*Math.cos(lat),Math.cos(d)-Math.sin(lat)*Math.sin(lat2));return project(lat2/rad,lon2/rad);}
+function interpolate(a,b,t){
+ if(t<=0)return a;if(t>=1)return b;
+ const p=coordinates(a),q=coordinates(b),d=geographicDistance(a,b)/earthRadius;if(d<1e-10)return a;
+ const A=Math.sin((1-t)*d)/Math.sin(d),B=Math.sin(t*d)/Math.sin(d);
+ const x=A*Math.cos(p.lat*rad)*Math.cos(p.lon*rad)+B*Math.cos(q.lat*rad)*Math.cos(q.lon*rad),y=A*Math.cos(p.lat*rad)*Math.sin(p.lon*rad)+B*Math.cos(q.lat*rad)*Math.sin(q.lon*rad),z=A*Math.sin(p.lat*rad)+B*Math.sin(q.lat*rad);
+ return project(Math.atan2(z,Math.hypot(x,y))/rad,Math.atan2(y,x)/rad);
 }
-function measureText(){return measureStart&&measureEnd?'≈ '+Math.round(geographicDistance(measureStart,measureEnd)).toLocaleString('fr-FR')+' km':'— km';}
-let view={x:-60,y:-25,w:1320,h:550};
+function pathFromPoints(points){return points.map((p,i)=>`${!i||Math.abs(p[0]-points[i-1][0])>600?'M':'L'}${p[0].toFixed(2)},${p[1].toFixed(2)}`).join('');}
+function durationText(km){const minutes=Math.max(1,Math.round(km/drone().speed*60)),hours=Math.floor(minutes/60);return (hours?hours+' h ':'')+String(minutes%60).padStart(2,'0')+' min';}
 const polygons=window.LDV_MAP.flatMap(c=>c.path.split('M').slice(1).map(part=>part.replace(/[LZ]/g,' ').trim().split(/\s+/).map(s=>s.split(',').map(Number))));
 function inPolygon(p,poly){let inside=false;for(let i=0,j=poly.length-1;i<poly.length;j=i++){const a=poly[i],b=poly[j];if((a[1]>p.y)!==(b[1]>p.y)&&p.x<(b[0]-a[0])*(p.y-a[1])/(b[1]-a[1])+a[0])inside=!inside;}return inside;}
 function isOcean(p){return p.x>=0&&p.x<=1200&&p.y>=0&&p.y<=480&&!polygons.some(poly=>inPolygon(p,poly));}
-function distance(){return arrival?Math.hypot(arrival[0]-start[0],arrival[1]-start[1]):0;}
 function svg(tag,attrs={},text=''){const el=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>el.setAttribute(k,v));el.textContent=text;return el;}
 for(const c of window.LDV_MAP)$('hz-land').append(svg('path',{d:c.path}));
 function markerScale(){return 1/(map.getScreenCTM()?.a||1);}
 function renderMap(){
  const g=$('hz-exercise'),s=markerScale();g.replaceChildren();
- if(exploring){$('hz-range').replaceChildren();for(const [label,p] of [['A',measureStart],['B',measureEnd]]){if(!p)continue;const pin=svg('g',{transform:`translate(${p}) scale(${s})`,role:'img','aria-label':'Repère '+label});pin.append(svg('circle',{r:12,fill:'#f0e9d9',stroke:'#ac6545','stroke-width':2}),svg('text',{'text-anchor':'middle',y:4,style:'fill:#142025;font:bold 12px sans-serif'},label));g.append(pin);}return;}
- const range=$('hz-range');range.replaceChildren(svg('circle',{cx:start[0],cy:start[1],r:rangeLimit()/gameScale,class:'hz-range-circle'}));
+ const key=start.join(',')+':'+drone().range;if(key!==circleKey){circleKey=key;circlePath=pathFromPoints(Array.from({length:361},(_,i)=>destination(start,i,drone().range)));}
+ $('hz-range').replaceChildren(svg('path',{d:circlePath,class:'hz-range-circle'}));
  const sub=svg('g',{class:'hz-sub-marker',transform:`translate(${start}) scale(${s*.32})`,role:'img','aria-label':'Sous-marin, point de départ'});
  sub.append(svg('path',{d:'M-49 4Q-37-1-27 2M-50 10Q-36 6-26 8M-45 15Q-34 12-27 12',fill:'none',stroke:'#9ababa','stroke-width':1.2,opacity:.55}));
  sub.append(svg('path',{d:'M-33 2L-43-8L-37 7L-44 18L-31 12Z',fill:'#76969c',stroke:'#b5cbc6','stroke-width':.8}));
@@ -56,63 +60,50 @@ function renderMap(){
  sub.append(svg('path',{d:'M-28 4Q-6 1 28 3M-23 9Q1 12 28 8',stroke:'#a0b6b5','stroke-width':.6,opacity:.75,fill:'none'}));
  for(let i=0;i<4;i++)sub.append(svg('path',{d:`M${6+i*5} -1v2`,stroke:'#b2c5c0','stroke-width':.7}));
  g.append(sub,svg('text',{x:start[0],y:start[1]+16*s,'text-anchor':'middle','font-size':9*s},'SOUS-MARIN'));
- if(arrival){const mark=svg('g',{class:'hz-arrival',transform:`translate(${arrival}) scale(${s})`,role:'img','aria-label':'Point d’arrivée en mer'});mark.append(svg('path',{d:'M-9 0H-3M3 0H9M0-9V-3M0 3V9M-5-5L5 5M-5 5L5-5',stroke:'#e4b081','stroke-width':1.5,fill:'none'}));g.append(mark,svg('text',{x:arrival[0],y:arrival[1]+24*s,'text-anchor':'middle','font-size':9*s},'ARRIVÉE'));}
+
+ if(arrival){const pin=svg('g',{transform:`translate(${arrival}) scale(${s})`,role:'img','aria-label':'Destination du drone en mer',class:'hz-arrival'});pin.append(svg('circle',{r:6,fill:'#e4b081',stroke:'#fff4df','stroke-width':1.5}));g.append(pin,svg('text',{x:arrival[0],y:arrival[1]+22*s,'text-anchor':'middle','font-size':9*s},'DESTINATION'));}
 }
 function setFeedback(text){$('hz-feedback').textContent=text;}
 function updateRoute(){
- if(exploring){$('hz-distance').textContent=measureText();$('hz-route-state').textContent='Distance à la surface du globe';$('hz-objective').textContent=measureStart&&measureEnd?'De A à B.':'Explore les distances.';$('hz-launch').disabled=true;renderMap();return;}
- const d=distance()*gameScale;
- $('hz-distance').textContent=arrival?`${formatDistance(d)} / ${formatDistance(rangeLimit())} unités de jeu`:'— / '+formatDistance(rangeLimit())+' unités de jeu';
- $('hz-range-value').textContent=formatDistance(rangeLimit())+' unités de jeu';
- $('hz-route-state').textContent=arrival?'Trajet prêt':'Arrivée à choisir';
+ const d=arrival?geographicDistance(start,arrival):0;
+ $('hz-range-value').textContent=formatDistance(drone().range)+' km';
+ $('hz-speed').textContent=drone().speed+' km/h';
+ $('hz-distance').textContent=arrival?'≈ '+formatDistance(d)+' km':'— km';
+ $('hz-duration').textContent=arrival?'≈ '+durationText(d):'—';
+ $('hz-route-state').textContent=arrival?'Destination prête':'Destination à choisir';
  $('hz-launch').disabled=busy||!arrival||!withinRange(start,arrival);
- $('hz-objective').textContent=arrival?'Ton trajet d’essai.':'Prépare ton essai.';
+ $('hz-objective').textContent=arrival?'Ton expédition.':'Prépare ton expédition.';
  renderMap();
 }
-function stopPlacing(){placing=null;map.classList.remove('placing');$('hz-place').setAttribute('aria-pressed','false');$('hz-destination').setAttribute('aria-pressed','false');$('hz-place').textContent=exploring?'1 · Placer le repère A':'1 · Placer le sous-marin';$('hz-destination').textContent=exploring?'2 · Placer le repère B':'2 · Choisir l’arrivée';}
-function setPlacing(mode){if(busy)return;if(placing===mode){stopPlacing();setFeedback('Placement annulé. Tu peux déplacer la carte ou lancer le trajet préparé.');return;}stopPlacing();placing=mode;map.classList.add('placing');const button=$(mode==='start'?'hz-place':'hz-destination');button.setAttribute('aria-pressed','true');button.textContent='Annuler le placement';setFeedback(exploring?'Clique sur terre ou en mer pour poser le repère. Au clavier : zoome, déplace la carte puis valide le centre avec Entrée.':mode==='start'?'Clique dans l’océan pour placer le sous-marin. Au clavier : zoome, déplace la carte puis valide le centre avec Entrée.':'Clique dans l’océan pour choisir l’arrivée. Au clavier : zoome, déplace la carte puis valide le centre avec Entrée.');map.focus({preventScroll:true});}
+function stopPlacing(){placing=null;map.classList.remove('placing');$('hz-place').setAttribute('aria-pressed','false');$('hz-destination').setAttribute('aria-pressed','false');$('hz-place').textContent='1 · Placer le sous-marin';$('hz-destination').textContent='2 · Choisir la destination';}
+function setPlacing(mode){if(busy)return;if(placing===mode){stopPlacing();setFeedback('Placement annulé.');return;}stopPlacing();placing=mode;map.classList.add('placing');const button=$(mode==='start'?'hz-place':'hz-destination');button.setAttribute('aria-pressed','true');button.textContent='Annuler le placement';setFeedback(mode==='start'?'Clique dans l’océan pour placer le sous-marin.':'Choisis une destination en mer dans le cercle du drone.');map.focus({preventScroll:true});}
 function clearAnimation(){cancelAnimationFrame(frame);$('hz-flight').replaceChildren();$('hz-progress').style.width='0%';}
-function changeMode(value){
- if(busy)return;exploring=value;stopPlacing();clearAnimation();if(!value&&arrival&&!withinRange(start,arrival))arrival=null;
- $('hz-mode-explore').setAttribute('aria-pressed',String(value));$('hz-mode-game').setAttribute('aria-pressed',String(!value));
- document.querySelector('.hz-mission .hz-kicker').textContent=value?'EXPLORATION / GÉOGRAPHIE':'MODE LIBRE / OCÉAN';
- document.querySelector('.hz-stamp').textContent=value?'CARTE MONDIALE · EXPLORATION':'MISSION D’ESSAI · 100 % FICTIVE';
- for(const id of ['hz-game-limit','hz-score','hz-progress','hz-game-caption','hz-launch'])$(id).hidden=value;
- $('hz-geography-note').hidden=!value;$('hz-clear').textContent=value?'Effacer les repères':'Effacer le trajet';
- $('hz-place-help').textContent=value?'Place A et B sur terre ou en mer. Glisser déplace la carte.':'Choisis une action, puis clique dans l’océan. Glisser déplace toujours la carte.';
- $('hz-map-label').textContent=value?'EXPLORATION / DISTANCE GÉOGRAPHIQUE':'CARTE D’EXERCICE / POSITIONS FICTIVES';
- map.setAttribute('aria-label',value?'Carte de mesure. Place les repères A et B sur terre ou en mer.':'Carte d’essai libre. Place le sous-marin et choisis un point d’arrivée en mer.');
- updateRoute();setFeedback(value?'Place deux repères pour mesurer leur distance géographique.':'Choisis une arrivée en mer dans le cercle de jeu.');
-}
-$('hz-mode-explore').addEventListener('click',()=>changeMode(true));$('hz-mode-game').addEventListener('click',()=>changeMode(false));
 function place(p){
  if(!placing||busy)return;
- if(exploring){if(p.x<0||p.x>1200||p.y<0||p.y>480){setFeedback('Choisis un point dans la zone cartographiée.');return;}if(placing==='start')measureStart=[p.x,p.y];else measureEnd=[p.x,p.y];stopPlacing();updateRoute();setFeedback(measureStart&&measureEnd?'Distance géographique : '+measureText()+'. Tu peux déplacer les deux repères.':'Repère posé. Place l’autre repère pour afficher la distance.');return;}
  if(!isOcean(p)){setFeedback('Choisis un point dans l’océan, hors des terres et des eaux intérieures.');return;}
  const other=placing==='start'?arrival:start;
- if(other&&Math.hypot(p.x-other[0],p.y-other[1])<12){setFeedback('Éloigne un peu les deux points pour que le trajet soit visible.');return;}
- if(placing==='arrival'&&!withinRange(start,[p.x,p.y])){setFeedback(`Hors portée : ${formatDistance(routeLength(start,[p.x,p.y]))} unités de jeu pour une limite de ${formatDistance(rangeLimit())}. Choisis une arrivée en mer dans le cercle.`+(arrival?' Ton arrivée précédente est conservée.':''));return;}
+ if(other&&geographicDistance(other,[p.x,p.y])<10){setFeedback('Choisis deux points espacés d’au moins 10 km.');return;}
+ if(placing==='arrival'&&!withinRange(start,[p.x,p.y])){setFeedback(`Hors autonomie : ${Math.ceil(geographicDistance(start,[p.x,p.y])).toLocaleString('fr-FR')} km pour une limite de ${formatDistance(drone().range)} km.`+(arrival?' La destination précédente est conservée.':' Choisis un point plus proche.'));return;}
  const mode=placing;if(mode==='start')start=[p.x,p.y];else arrival=[p.x,p.y];
  const removed=arrival&&!withinRange(start,arrival);if(removed)arrival=null;
- stopPlacing();clearAnimation();updateRoute();setFeedback((mode==='start'?'Sous-marin repositionné. ':'Arrivée choisie en mer. ')+(removed?'L’ancienne arrivée est désormais hors portée et a été retirée. Choisis une arrivée dans le cercle.':arrival?`Trajet : ${formatDistance(distance()*gameScale)} unités de jeu.`:'Choisis maintenant le point d’arrivée dans le cercle.'));
+ stopPlacing();clearAnimation();updateRoute();setFeedback(removed?'Sous-marin déplacé. La destination devenue trop éloignée a été retirée.':arrival?'Destination prête. Lance le drone pour voir l’expédition.':'Sous-marin placé. Choisis une destination en mer dans le cercle.');
 }
-function changeGameRange(){if(exploring){updateRoute();return;}stopPlacing();clearAnimation();const removed=arrival&&!withinRange(start,arrival);if(removed)arrival=null;updateRoute();setFeedback(`Portée de jeu : ${formatDistance(rangeLimit())} unités de jeu. `+(removed?'L’arrivée précédente est hors portée et a été retirée.':arrival?'Ton trajet reste dans la portée autorisée.':'Choisis une arrivée en mer dans le cercle.'));}
-$('hz-country').addEventListener('change',changeGameRange);$('hz-class').addEventListener('change',changeGameRange);
-function lock(value){for(const id of ['hz-country','hz-class','hz-place','hz-destination','hz-clear','hz-mode-explore','hz-mode-game'])$(id).disabled=value;$('hz-launch').hidden=value;$('hz-stop').hidden=!value;}
+function changeDrone(){stopPlacing();clearAnimation();const removed=arrival&&!withinRange(start,arrival);if(removed)arrival=null;updateRoute();setFeedback(drone().name+' sélectionné. '+(removed?'La destination dépasse son autonomie et a été retirée.':'Autonomie et vitesse inventées pour cette expédition.'));}
+$('hz-drone').addEventListener('change',changeDrone);
+function lock(value){for(const id of ['hz-country','hz-class','hz-drone','hz-place','hz-destination','hz-clear'])$(id).disabled=value;$('hz-launch').hidden=value;$('hz-stop').hidden=!value;}
 $('hz-place').addEventListener('click',()=>setPlacing('start'));
 $('hz-destination').addEventListener('click',()=>setPlacing('arrival'));
-$('hz-clear').addEventListener('click',()=>{if(busy)return;stopPlacing();if(exploring){measureStart=null;measureEnd=null;updateRoute();setFeedback('Repères effacés. Place A et B sur la carte.');return;}arrival=null;clearAnimation();updateRoute();setFeedback('Trajet effacé. Choisis une nouvelle arrivée en mer.');});
-$('hz-stop').addEventListener('click',()=>{clearAnimation();busy=false;lock(false);updateRoute();setFeedback('Essai interrompu. Tu peux modifier ton trajet et recommencer.');});
+$('hz-clear').addEventListener('click',()=>{if(busy)return;stopPlacing();arrival=null;clearAnimation();updateRoute();setFeedback('Destination effacée. Prépare une nouvelle expédition.');});
+$('hz-stop').addEventListener('click',()=>{clearAnimation();busy=false;lock(false);updateRoute();setFeedback('Expédition interrompue. Tu peux modifier le trajet.');});
 $('hz-launch').addEventListener('click',()=>{
- if(exploring||busy||!arrival)return;
- if(!withinRange(start,arrival)){updateRoute();setFeedback('Hors portée. Choisis une arrivée dans le cercle avant de lancer l’essai.');return;}
- stopPlacing();clearAnimation();busy=true;lock(true);$('hz-objective').textContent='Essai en cours…';
- const a=[...start],b=[...arrival],mid=[(a[0]+b[0])/2,(a[1]+b[1])/2],control=[mid[0],mid[1]-Math.min(70,distance()*.3)];
- const track=svg('path',{d:`M${a} Q${control} ${b}`,fill:'none',stroke:'#e6b074','stroke-width':2,'stroke-dasharray':'5 5','vector-effect':'non-scaling-stroke'});
- const dot=svg('g',{'aria-hidden':'true'});dot.append(svg('path',{d:'M8 0L1-3H-7L-4 0L-7 3H1Z',fill:'#ffe8c0',stroke:'#be8050','stroke-width':.6}));$('hz-flight').append(track,dot);
- const duration=matchMedia('(prefers-reduced-motion: reduce)').matches?50:4200,t0=performance.now();
- function animate(t){const n=Math.min(1,(t-t0)/duration),q=1-n,x=q*q*a[0]+2*q*n*control[0]+n*n*b[0],y=q*q*a[1]+2*q*n*control[1]+n*n*b[1],dx=2*q*(control[0]-a[0])+2*n*(b[0]-control[0]),dy=2*q*(control[1]-a[1])+2*n*(b[1]-control[1]);dot.setAttribute('transform',`translate(${x},${y}) rotate(${Math.atan2(dy,dx)*180/Math.PI}) scale(${markerScale()})`);$('hz-progress').style.width=`${n*100}%`;
- if(n<1){setFeedback(n<.25?'Départ du projectile fictif…':n<.8?'Animation du trajet en cours…':'Arrivée dans la zone d’essai…');frame=requestAnimationFrame(animate);}else{busy=false;completed++;lock(false);updateRoute();$('hz-count').textContent=completed;$('hz-objective').textContent='Essai terminé.';setFeedback('Arrivée en mer atteinte. Tu peux choisir un autre point ou déplacer le sous-marin pour un nouvel essai.');dot.remove();$('hz-flight').append(svg('circle',{cx:b[0],cy:b[1],r:12*markerScale(),fill:'none',stroke:'#acd4ce','stroke-width':1,'vector-effect':'non-scaling-stroke'}));}}
+ if(busy||!arrival||!withinRange(start,arrival))return;
+ stopPlacing();clearAnimation();busy=true;lock(true);$('hz-objective').textContent='Exploration en cours…';
+ const a=[...start],b=[...arrival];
+ const track=svg('path',{d:pathFromPoints(Array.from({length:101},(_,i)=>interpolate(a,b,i/100))),fill:'none',stroke:'#e6b074','stroke-width':2,'stroke-dasharray':'5 5','vector-effect':'non-scaling-stroke'});
+ const dot=svg('g',{'aria-hidden':'true'});dot.append(svg('path',{d:'M0-8L3-2L12 2V4L3 2L2 7L5 9H-5L-2 7L-3 2L-12 4V2L-3-2Z',fill:'#ffe8c0',stroke:'#a16b45','stroke-width':.8}));$('hz-flight').append(track,dot);
+ const duration=matchMedia('(prefers-reduced-motion: reduce)').matches?50:5000,t0=performance.now();
+ function animate(t){const n=Math.min(1,(t-t0)/duration),p=interpolate(a,b,n),prev=interpolate(a,b,Math.max(0,n-.001)),next=interpolate(a,b,Math.min(1,n+.001));let dx=next[0]-prev[0];if(dx>600)dx-=1200;if(dx< -600)dx+=1200;const angle=Math.atan2(next[1]-prev[1],dx)*180/Math.PI+90;dot.setAttribute('transform',`translate(${p}) rotate(${angle}) scale(${markerScale()})`);$('hz-progress').style.width=`${n*100}%`;
+ if(n<1){setFeedback(n<.2?'Départ du drone d’exploration…':n<.85?'Survol en cours · animation accélérée.':'Approche de la destination…');frame=requestAnimationFrame(animate);}else{busy=false;completed++;lock(false);updateRoute();$('hz-count').textContent=completed;$('hz-objective').textContent='Expédition terminée.';setFeedback('Destination atteinte. Durée théorique : '+durationText(geographicDistance(a,b))+' à la vitesse fictive choisie.');dot.remove();}}
  frame=requestAnimationFrame(animate);
 });
 function paint(){view.w=Math.max(330,Math.min(1320,view.w));view.h=view.w*550/1320;view.x=Math.max(-60,Math.min(1260-view.w,view.x));view.y=Math.max(-25,Math.min(525-view.h,view.y));map.setAttribute('viewBox',`${view.x} ${view.y} ${view.w} ${view.h}`);renderMap();}
@@ -127,6 +118,6 @@ map.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;if(t
 for(const name of ['pointerup','pointercancel','lostpointercapture'])map.addEventListener(name,e=>{if(name==='pointerup'&&tap&&pointers.size===1)place(point(e));tap=null;pointers.delete(e.pointerId);drag=null;pinch=0;});
 map.addEventListener('keydown',e=>{if(e.target!==map)return;if(placing&&e.key==='Enter'){e.preventDefault();place({x:view.x+view.w/2,y:view.y+view.h/2});return;}if(e.key==='Escape'){stopPlacing();return;}if(['+','=','-','ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home'].includes(e.key))e.preventDefault();else return;if(e.key==='+'||e.key==='=')zoom(.8);else if(e.key==='-')zoom(1.25);else if(e.key==='Home')resetView();else{view.x+=e.key==='ArrowLeft'?-view.w*.08:e.key==='ArrowRight'?view.w*.08:0;view.y+=e.key==='ArrowUp'?-view.h*.08:e.key==='ArrowDown'?view.h*.08:0;paint();}});
 const menu=document.querySelector('.menu-toggle'),nav=$('main-nav');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Fermer le menu':'Ouvrir le menu');});
-window.addEventListener('pagehide',()=>{if(busy){cancelAnimationFrame(frame);busy=false;lock(false);updateRoute();setFeedback('Essai interrompu après avoir quitté la page. Tu peux le relancer.');}});
-new ResizeObserver(()=>renderMap()).observe(map);changeMode(true);
+window.addEventListener('pagehide',()=>{if(busy){cancelAnimationFrame(frame);busy=false;lock(false);updateRoute();setFeedback('Expédition interrompue après avoir quitté la page. Tu peux la relancer.');}});
+new ResizeObserver(()=>renderMap()).observe(map);updateRoute();
 })();
