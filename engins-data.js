@@ -421,7 +421,7 @@ window.LDV_ENGINS = [
     photoFile:"Bayraktar_Akıncı_of_the_Azerbaijani_Air_Force.jpg", photoAuthor:"Service de presse de la présidence de l’Azerbaïdjan", photoLicense:"CC BY-SA 4.0", photoLicenseUrl:"https://creativecommons.org/licenses/by-sa/4.0" },
   { name:"Classe Suffren", kind:"SOUS-MARIN", category:"mer", hint:"Ce pays se trouve en Europe occidentale.", country:"France", code:"FR",
     photo:"ajouts/serie-2/suffren.jpg", alt:"Photographie de Classe Suffren", explanation:"La classe Suffren est la nouvelle génération française de sous-marins nucléaires d'attaque du programme Barracuda.", source:"https://www.naval-group.com/en/naval-group-delivers-suffren-french-defence-procurement-agency-dga",
-    photoFile:"2024 MBST 308 D 001 013.jpg", photoAuthor:"Marine nationale", photoLicense:"Licence Ouverte", photoLicenseUrl:"https://www.etalab.gouv.fr/licence-ouverte-open-licence" },
+    photoFile:"2020 MTLN 182 A 001 043 Suffren.jpg", photoAuthor:"Marine nationale", photoLicense:"Licence Ouverte", photoLicenseUrl:"https://www.etalab.gouv.fr/licence-ouverte-open-licence" },
   { name:"Type 45 Daring", kind:"DESTROYER", category:"mer", hint:"Ce pays est un archipel d’Europe du Nord-Ouest.", country:"Royaume-Uni", code:"GB",
     photo:"ajouts/serie-2/type45.jpg", alt:"Photographie de Type 45 Daring", explanation:"Les Type 45 sont six destroyers britanniques spécialisés dans la défense aérienne de la flotte.", source:"https://www.royalnavy.mod.uk/equipment/ships/daring-class",
     photoFile:"HMS_Daring-1.jpg", photoAuthor:"Brian Burnell", photoLicense:"CC BY-SA 3.0", photoLicenseUrl:"https://creativecommons.org/licenses/by-sa/3.0" },
