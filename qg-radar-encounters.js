@@ -11,7 +11,7 @@ window.QG_ENCOUNTERS=(()=>{
    const cycle=(p*4)%1;c.strokeStyle='#e9ce83';c.lineWidth=3;c.beginPath();c.moveTo(255+cycle*260,225);c.lineTo(268+cycle*260,225);c.stroke();if(p>.45&&combat.success){circle(540,225,15+14*Math.sin(p*8)**2,'#e7a768');}label('qg-engagement-readout',combat.success?'Objectif atteint · retour vers la base':'Résistance adverse · repli vers la base');return;}
   if(!session)return;const target=D.target(session),px=target.x*720,py=target.y*440;
   if(session.status!=='finished'||!session.hit){c.strokeStyle='#dc967b';c.lineWidth=2;c.beginPath();c.moveTo(px-13,py-18);c.lineTo(px,py);c.stroke();c.save();c.translate(px,py);c.rotate(-.3);c.fillStyle='#ebd7be';c.beginPath();c.moveTo(0,8);c.lineTo(-5,-6);c.lineTo(0,-11);c.lineTo(5,-6);c.closePath();c.fill();c.restore();circle(px,py,D.radius(session)*720,'#e4ad88');}
-  if(session.flash){const f=session.flash;c.strokeStyle='#e8d391';c.lineWidth=2;c.beginPath();c.moveTo(415,320);c.lineTo(f.x*720,f.y*440);c.stroke();circle(f.x*720,f.y*440,f.hit?25:13,f.hit?'#edcc87':'#b8c7bd');}
+  if(session.flash){const f=session.flash,[bx,by]=window.QG_LAYOUT.project(...window.QG_LAYOUT.buildings.defense);c.strokeStyle='#e8d391';c.lineWidth=2;c.beginPath();c.moveTo(bx+15,by-16);c.lineTo(f.x*720,f.y*440);c.stroke();circle(f.x*720,f.y*440,f.hit?25:13,f.hit?'#edcc87':'#b8c7bd');}
   const ax=session.aim.x*720,ay=session.aim.y*440;circle(ax,ay,13,'#c2ddd0');c.strokeStyle='#c2ddd0';for(const [dx,dy] of [[-22,0],[22,0],[0,-22],[0,22]]){c.beginPath();c.moveTo(ax+dx,ay+dy);c.lineTo(ax+dx*.65,ay+dy*.65);c.stroke();}
   label('qg-engagement-readout',`${session.shots} tirs · ${Math.max(0,Math.ceil((22000-session.elapsed)/1000))} s · batterie niveau ${session.level}`);
  }
