@@ -19,7 +19,7 @@
   const el = (tag, cls, value) => {const n=document.createElement(tag);if(cls)n.className=cls;if(value!==undefined)n.textContent=value;return n};
   const link = (label, href) => {const a=el('a','',label);a.href=href;a.target='_blank';a.rel='noopener noreferrer';return a};
   const photo = item => {const img=el('img');const real=item.mediaLabel==='Illustration'?(window.RADAR_CATALOG_PHOTOS?.[item.name]||window.RADAR_PHOTOS?.photos(item).find(p=>p.real!==false)):null;img.src=real?.src||'assets/jeu/'+item.photo;img.alt=real?.alt||item.alt||item.name;img.loading='lazy';img.decoding='async';return img};
-  const categories = ['Tous','Vues 3D','Chars et blindés','Avions','Drones et hélicoptères','Navires et sous-marins','Artillerie','Missiles'];
+  const categories = ['Tous','Ajouts récents','Vues 3D','Chars et blindés','Avions','Drones et hélicoptères','Navires et sous-marins','Artillerie','Missiles'];
   const group = item => {
     if (item.category === 'missiles') return 'Missiles';
     if (item.category === 'mer') return 'Navires et sous-marins';
@@ -33,7 +33,7 @@
   categories.forEach(c => {const b=el('button','',c);b.type='button';b.setAttribute('aria-pressed',String(c===selected));b.addEventListener('click',()=>{selected=c;filters.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));renderCatalogue()});filters.append(b)});
   function renderCatalogue(){
     const query=strip(search.value.trim());
-    const found=engins.map((item,i)=>({item,i})).filter(({item})=>(selected==='Tous'||(selected==='Vues 3D'?window.RADAR_3D?.has(item):group(item)===selected))&&strip([item.name,item.kind,item.country].join(' ')).includes(query));
+    const found=engins.map((item,i)=>({item,i})).filter(({item})=>(selected==='Tous'||(selected==='Ajouts récents'?item.addedAt==='2026-10-11':selected==='Vues 3D'?window.RADAR_3D?.has(item):group(item)===selected))&&strip([item.name,item.kind,item.country].join(' ')).includes(query));
     grid.replaceChildren();
     found.forEach(({item,i})=>{
       const a=el('a','history-card');if(item.category==='missiles')a.classList.add('history-card-missile');a.href='histoire.html?engin='+i;a.setAttribute('aria-label','Lire la fiche : '+item.name);

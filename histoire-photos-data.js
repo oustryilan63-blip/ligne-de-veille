@@ -2765,5 +2765,849 @@ window.RADAR_HISTORY_PHOTOS = {
       "height": 720,
       "sourceCaption": "SM-3 launch-USS Decatur"
     }
+  ],
+  "T-72": [
+    {
+      "src": "assets/histoire/photos/100-1.webp",
+      "file": "A T-72 Main Battle Tank Prepares to Fire 15683.jpg",
+      "author": "Sgt. 1st Class Brent Hunt",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:A_T-72_Main_Battle_Tank_Prepares_to_Fire_15683.jpg",
+      "alt": "Photographie de T-72",
+      "caption": "T-72 — Autre vue de l’engin.",
+      "sourceCaption": "A Russian-made T-72 Main Battle Tank from the 2nd Mechanized Battalion, 2nd Tank Brigade, 9th Iraqi Army Division, prepares to fire Feb. 21 here during a tank gunnery. Iraqi soldiers went through two months of training to become qualified tankers prior to completing the gunnery. (U.S. Army photo/Staff Sgt. Brent Hunt)",
+      "real": true,
+      "width": 960,
+      "height": 625
+    },
+    {
+      "src": "assets/histoire/photos/100-2.webp",
+      "file": "Iraqi Soldiers Stand in Front of Their T-72 Main Battle Tank 15682.jpg",
+      "author": "Sgt. 1st Class Brent Hunt",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Iraqi_Soldiers_Stand_in_Front_of_Their_T-72_Main_Battle_Tank_15682.jpg",
+      "alt": "Photographie de T-72",
+      "caption": "T-72 — Détail ou autre exemplaire.",
+      "sourceCaption": "Iraqi soldiers from the 2nd Mechanized Battalion, 2nd Tank Brigade, 9th Iraqi Army Division pose in front of a T-72 Main Battle Tank after completing tank gunnery Feb. 16. The gunnery was the final phase of a two-month course that certified the soldiers on the Russian-made tank.",
+      "real": true,
+      "width": 960,
+      "height": 625
+    }
+  ],
+  "T-80": [
+    {
+      "src": "assets/histoire/photos/101-1.webp",
+      "file": "T-80 (1).JPEG",
+      "author": "Unknown author Unknown author",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:T-80_(1).JPEG",
+      "alt": "Photographie de T-80",
+      "caption": "T-80 — Autre vue de l’engin.",
+      "sourceCaption": "A left side view of a Soviet T-80 tank",
+      "real": true,
+      "width": 960,
+      "height": 620
+    },
+    {
+      "src": "assets/histoire/photos/101-2.webp",
+      "file": "T-80 during maneuvers.JPEG",
+      "author": "Unknown author Unknown author",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:T-80_during_maneuvers.JPEG",
+      "alt": "Photographie de T-80",
+      "caption": "T-80 — Détail ou autre exemplaire.",
+      "sourceCaption": "Soviet T-80 MBT during maneuvers.",
+      "real": true,
+      "width": 960,
+      "height": 566
+    }
+  ],
+  "BMP-3": [
+    {
+      "src": "assets/histoire/photos/102-1.webp",
+      "file": "BMP-3 0024 copy.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:BMP-3_0024_copy.jpg",
+      "alt": "Photographie de BMP-3",
+      "caption": "BMP-3 — Autre vue de l’engin.",
+      "sourceCaption": "BMP-3",
+      "real": true,
+      "width": 960,
+      "height": 608
+    },
+    {
+      "src": "assets/histoire/photos/102-2.webp",
+      "file": "BMP-3 (3).jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:BMP-3_(3).jpg",
+      "alt": "Photographie de BMP-3",
+      "caption": "BMP-3 — Détail ou autre exemplaire.",
+      "sourceCaption": "BMP-3",
+      "real": true,
+      "width": 960,
+      "height": 601
+    }
+  ],
+  "BTR-80": [
+    {
+      "src": "assets/histoire/photos/103-1.webp",
+      "file": "Btr-80 in Serbia.jpg",
+      "author": "SPC Glenn W. Suggs",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Btr-80_in_Serbia.jpg",
+      "alt": "Photographie de BTR-80",
+      "caption": "BTR-80 — Autre vue de l’engin.",
+      "sourceCaption": "Soldiers from A Company, 40th Engineers, 2nd Brigade, 1ST Armored Division, Baumholder, Germany, check out a Russian BTR 80, Commanded by LT Aleksei Terebov, Military Police Platoon Leader, 1ST Battalion, Airborne Brigade, 76th Airborne Division before a joint patrol with 3rd Platoon, B Troop, 3rd Squadron, 4th Cavalry Regiment, 2nd Brigade, 1ST Armored Division, from Baumholder, Germany during Operation Joint Endeavor. Subject Operation/Series: JOINT ENDEAVOR Base: Zvornic Country: Serbia (SER) Scene Camera Operator: SPC Glenn W. Suggs Release Status: Released to Public",
+      "real": true,
+      "width": 960,
+      "height": 637
+    },
+    {
+      "src": "assets/histoire/photos/103-2.webp",
+      "file": "BTR-80 of Bangladesh Army.png",
+      "author": "Microsoftguru",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:BTR-80_of_Bangladesh_Army.png",
+      "alt": "Photographie de BTR-80",
+      "caption": "BTR-80 — Détail ou autre exemplaire.",
+      "sourceCaption": "armoured personnel carrier (APC)",
+      "real": true,
+      "width": 330,
+      "height": 205
+    }
+  ],
+  "Warrior": [
+    {
+      "src": "assets/histoire/photos/104-1.webp",
+      "file": "Warrior Infantry Fighting Vehicle.jpg",
+      "author": "Unknown author Unknown author",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Warrior_Infantry_Fighting_Vehicle.jpg",
+      "alt": "Photographie de Warrior",
+      "caption": "Warrior — Autre vue de l’engin.",
+      "sourceCaption": "Warrior Infantry Fighting Vehicle",
+      "real": true,
+      "width": 330,
+      "height": 225
+    },
+    {
+      "src": "assets/histoire/photos/104-2.webp",
+      "file": "Warrior Infantry Fighting Vehicle on Exercise Urban Warrior MOD 45154878.jpg",
+      "author": "Corporal Mark Larner RY",
+      "license": "OGL v1.0",
+      "licenseUrl": "https://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+      "source": "https://commons.wikimedia.org/wiki/File:Warrior_Infantry_Fighting_Vehicle_on_Exercise_Urban_Warrior_MOD_45154878.jpg",
+      "alt": "Photographie de Warrior",
+      "caption": "Warrior — Détail ou autre exemplaire.",
+      "sourceCaption": "A Warrior Infantry Fighting Vehicle with 2nd Battalion The Royal Regiment of Wales, passes a French advertisement hoarding at the CENZUB facility in France during Exercise Urban Warrior. Exercise Urban Warrior 5 was designed to test armoured warfare in an urban environment. Object Name: MOGV-2012-107-Ex Urban Warrior-3199 Organization: ARMY Supplemental Categories: Equipment, Vehicles, Combat, Warrior Keywords: Exercise, Urban Warrior, Training, Cenzub, Organisation, Infantry (INF), Prince of Wales's Division (POW), 2nd Battalion The Royal Welsh (The Royal Regiment of Wales) (2 R, Equipment, Armoured Fighting Vehicles (AFV), Warrior Armoured Infantry Fighting Vehicle, Army, Vehicle, Armoured, Personnel Carrier, APC, Tracked, Tank, Warrior, FV510 Country: UK",
+      "real": true,
+      "width": 960,
+      "height": 642
+    }
+  ],
+  "AMX-10 RC": [
+    {
+      "src": "assets/histoire/photos/105-1.webp",
+      "file": "UA 37 bde AMX-10 RC 01.jpg",
+      "author": "АрміяInform",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:UA_37_bde_AMX-10_RC_01.jpg",
+      "alt": "Photographie de AMX-10 RC",
+      "caption": "AMX-10 RC — Autre vue de l’engin.",
+      "sourceCaption": "AMX-10 RC of Ukrainian 37th Marine Brigade",
+      "real": true,
+      "width": 960,
+      "height": 640
+    },
+    {
+      "src": "assets/histoire/photos/105-2.webp",
+      "file": "UA 155th bde AMX-10 RC 01.webp",
+      "author": "АрміяІнформ",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:UA_155th_bde_AMX-10_RC_01.webp",
+      "alt": "Photographie de AMX-10 RC",
+      "caption": "AMX-10 RC — Détail ou autre exemplaire.",
+      "sourceCaption": "AMX-10 RC with anti-drone mesh in Ukrainian 155th mechanized brigade near Pokrovsk",
+      "real": true,
+      "width": 960,
+      "height": 640
+    }
+  ],
+  "M109 Paladin": [
+    {
+      "src": "assets/histoire/photos/106-1.webp",
+      "file": "M109A6 Paladin blast in 2007.jpg",
+      "author": "Spc. Gregory Gieske",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:M109A6_Paladin_blast_in_2007.jpg",
+      "alt": "Photographie de M109 Paladin",
+      "caption": "M109 Paladin — Autre vue de l’engin.",
+      "sourceCaption": "The earth shakes as an M109A6 Paladin fires a gas propelled 155mm Howitzer round through the enormous canon, the biggest of Battle Kings arsenal as 1-9 Field Artillery, 2nd Heavy Brigade Combat Team, 3rd Infantry Division, conducts their gun calibration at Destiny Range in Mosul, Iraq, April 23",
+      "real": true,
+      "width": 960,
+      "height": 640
+    },
+    {
+      "src": "assets/histoire/photos/106-2.webp",
+      "file": "Battle of Mosul - U.S. Army M109A6 Paladin at Q-West.jpg",
+      "author": "U.S. Army photo by Spc. Christopher Brecht",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Battle_of_Mosul_-_U.S._Army_M109A6_Paladin_at_Q-West.jpg",
+      "alt": "Photographie de M109 Paladin",
+      "caption": "M109 Paladin — Détail ou autre exemplaire.",
+      "sourceCaption": "A U.S. Army M109A6 Paladin waits to be fired in support of day-one of the Iraqi security forces’ advance toward Mosul to retake the city from the Islamic State of Iraq and the Levant at Qayyarah West, Iraq, Oct. 17, 2016. U.S. Soldiers conducted numerous fire missions, denying ISIL safe haven during the ISF’s advance. The United States stands with a Coalition of more than 60 international partners to assist and support the Iraqi security forces to degrade and defeat ISIL. (U.S. Army photo by Spc. Christopher Brecht)",
+      "real": true,
+      "width": 960,
+      "height": 640
+    }
+  ],
+  "M777": [
+    {
+      "src": "assets/histoire/photos/107-1.webp",
+      "file": "M777 Howitzer - 1.jpg",
+      "author": "mark6mauno",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:M777_Howitzer_-_1.jpg",
+      "alt": "Photographie de M777",
+      "caption": "M777 — Autre vue de l’engin.",
+      "sourceCaption": "M777 Howitzer",
+      "real": true,
+      "width": 960,
+      "height": 480
+    },
+    {
+      "src": "assets/histoire/photos/107-2.webp",
+      "file": "M777 Howitzer Test Firing.jpg",
+      "author": "The United States Army",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:M777_Howitzer_Test_Firing.jpg",
+      "alt": "Photographie de M777",
+      "caption": "M777 — Détail ou autre exemplaire.",
+      "sourceCaption": "M777 Howitzer Test Firing By the United States Army",
+      "real": true,
+      "width": 960,
+      "height": 643
+    }
+  ],
+  "Gepard": [
+    {
+      "src": "assets/histoire/photos/108-1.webp",
+      "file": "Gepard 1a2 overview.jpg",
+      "author": "Hans-Hermann Bühling",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gepard_1a2_overview.jpg",
+      "alt": "Photographie de Gepard",
+      "caption": "Gepard — Autre vue de l’engin.",
+      "sourceCaption": "Anti-aircraft gun tank Gepard 1A2 combining radar , fire-control system and two 35mm guns in a new turret mounted on a Leopard chassis .",
+      "real": true,
+      "width": 960,
+      "height": 640
+    },
+    {
+      "src": "assets/histoire/photos/108-2.webp",
+      "file": "Romanian Gepard tank.jpg",
+      "author": "ovidiu_tudor",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Romanian_Gepard_tank.jpg",
+      "alt": "Photographie de Gepard",
+      "caption": "Gepard — Détail ou autre exemplaire.",
+      "sourceCaption": "A romanian Gepard AA-tank on the Romanian National Day parade on December 1st 2009, at the Triumph Arch in Bucharest.",
+      "real": true,
+      "width": 960,
+      "height": 637
+    }
+  ],
+  "VBCI": [
+    {
+      "src": "assets/histoire/photos/109-1.webp",
+      "file": "VCBI-openphotonet PICT6027.JPG",
+      "author": "Daniel Steger (Lausanne, Switzerland)",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:VCBI-openphotonet_PICT6027.JPG",
+      "alt": "Photographie de VBCI",
+      "caption": "VBCI — Autre vue de l’engin.",
+      "sourceCaption": "Véhicule blindé de combat d'infanterie (VBCI).",
+      "real": true,
+      "width": 960,
+      "height": 638
+    },
+    {
+      "src": "assets/histoire/photos/109-2.webp",
+      "file": "VBCI 2 (1).jpg",
+      "author": "Reise Reise",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:VBCI_2_(1).jpg",
+      "alt": "Photographie de VBCI",
+      "caption": "VBCI — Détail ou autre exemplaire.",
+      "sourceCaption": "VBCI, IDET/PYROS/ISET 2019, Brno",
+      "real": true,
+      "width": 950,
+      "height": 760
+    }
+  ],
+  "F-14 Tomcat": [
+    {
+      "src": "assets/histoire/photos/110-1.webp",
+      "file": "F-14A Tomcat over Iraq during Southern Watch.jpg",
+      "author": "Cdr. David Baranek, U.S. Navy photo 330-CFD-DN-SD-00-03487",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:F-14A_Tomcat_over_Iraq_during_Southern_Watch.jpg",
+      "alt": "Photographie de F-14 Tomcat",
+      "caption": "F-14 Tomcat — Autre vue de l’engin.",
+      "sourceCaption": "A U.S. Navy Grumman F-14A Tomcat of Fighter Squadron 211 (VF-211) \"Checkmates\" flies over Iraq during Operation \"Southern Watch\", 25 December 1997. VF-211 was asssigned to Carrier Air Wing 9 (CVW-9) aboard the aircraft carrier USS Nimitz (CVN-68) for her world cruise from 1 September 1997 to 1 March 1998.",
+      "real": true,
+      "width": 960,
+      "height": 686
+    },
+    {
+      "src": "assets/histoire/photos/110-2.webp",
+      "file": "The F-14 \"Tomcat\" on display at the Aerospace Museum of California.jpg",
+      "author": "LEHarrison",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:The_F-14_%22Tomcat%22_on_display_at_the_Aerospace_Museum_of_California.jpg",
+      "alt": "Photographie de F-14 Tomcat",
+      "caption": "F-14 Tomcat — Présentation publique ou exemplaire exposé.",
+      "sourceCaption": "The museum’s Tomcat was initially assigned to VF-124, the F-14 Pacific Fleet crew training squadron. After two years as a trainer, our ‘Tomcat’ went to the fleet for the remainder of its 14 years of operational service. Assignments included the famous VF-2 ‘Bounty Hunters’, while its final squadron was the ‘Black Lions’ of VF-213, part of Carrier Air Wing Eight (CVW-8), assigned to the USS Theodore Roosevelt (CVN-71). Its final combat sortie was February 7, 2006. Following launch from the USS Roosevelt at 1600, ‘Black Lion’ AJ-210 flew to Northern Iraq for overhead protection of U.S. and Iraq forces. After its mission, our ‘Tomcat’ ‘trapped’ aboard its carrier at 2233 hours, completing a 6.5-hour mission. Returning to the U.S. in March 2006, the F-14Ds were unloaded for the last time and retired. Our aircraft, BuNo 163897, was flown to McClellan shortly thereafter and joined the collection.",
+      "real": true,
+      "width": 960,
+      "height": 342
+    }
+  ],
+  "F-15E Strike Eagle": [
+    {
+      "src": "assets/histoire/photos/111-1.webp",
+      "file": "F-15E Strike Eagle over Afghanistan.jpg",
+      "author": "U.S. Air Force photo/Staff Sgt. Aaron Allmon",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:F-15E_Strike_Eagle_over_Afghanistan.jpg",
+      "alt": "Photographie de F-15E Strike Eagle",
+      "caption": "F-15E Strike Eagle — Autre vue de l’engin.",
+      "sourceCaption": "An F-15E Strike eagle conducts a mission over Afghanistan on Oct. 7. The F-15E Strike Eagle is a dual-role fighter designed to perform air-to-air and air-to-ground missions. An array of avionics and electronics systems gives the F-15E the capability to fight at low altitude, day or night, and in all weather. (U.S. Air Force photo/Staff Sgt. Aaron Allmon)",
+      "real": true,
+      "width": 960,
+      "height": 639
+    },
+    {
+      "src": "assets/histoire/photos/111-2.webp",
+      "file": "Green Flag West 11-08.jpg",
+      "author": "Senior Airman Brett Clashman",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Green_Flag_West_11-08.jpg",
+      "alt": "Photographie de F-15E Strike Eagle",
+      "caption": "F-15E Strike Eagle — Détail ou autre exemplaire.",
+      "sourceCaption": "A U.S. Air Force F-15 Strike Eagle with the 335th Fighter Squadron, Seymour Johnson Air Force Base, N.C., pulls alongside a KC-135 Stratotanker after refueling during during Green Flag-West 11-08, June 22. Conducted by the 549th Combat Training Squadron at Nellis Air Force Base, Nev., and the 12th Combat Training Squadron at Fort Irwin, Calif., Green Flag West provides a realistic close-air support training environment for airmen and soldiers preparing to deploy in support of combat operations.",
+      "real": true,
+      "width": 960,
+      "height": 639
+    }
+  ],
+  "F-117 Nighthawk": [
+    {
+      "src": "assets/histoire/photos/112-1.webp",
+      "file": "F-117 Nighthawk fighter during an end of runway check.jpg",
+      "author": "DoD photo by Master Sgt. Val Gempis, U.S. Air Force. (Released)",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:F-117_Nighthawk_fighter_during_an_end_of_runway_check.jpg",
+      "alt": "Photographie de F-117 Nighthawk",
+      "caption": "F-117 Nighthawk — Autre vue de l’engin.",
+      "sourceCaption": "Senior Airman Tony Kepo'o prepares to pull the landing gear wheel chock of an F-117 Nighthawk fighter during an end of runway check at Kunsan Air Base, Korea, on Aug. 15, 2004. Kepo'o is a crew chief from the 49th Maintenance Squadron at Holloman Air Force Base, N.M. About 300 airmen from Holloman are currently deployed here to Kunsan supporting Air Expeditionary Forces operations in the Pacific Region.",
+      "real": true,
+      "width": 960,
+      "height": 636
+    },
+    {
+      "src": "assets/histoire/photos/112-2.webp",
+      "file": "230510-F-XA488-1050 - F-117 Nighthawks arrive at JBER for Northern Edge 23-1.jpg",
+      "author": "Sheila deVera",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:230510-F-XA488-1050_-_F-117_Nighthawks_arrive_at_JBER_for_Northern_Edge_23-1.jpg",
+      "alt": "Photographie de F-117 Nighthawk",
+      "caption": "F-117 Nighthawk — Détail ou autre exemplaire.",
+      "sourceCaption": "A U.S. Air Force F-117 Nighthawk lands at Joint Base Elmendorf-Richardson, Alaska during Northern Edge 23-1, May 10, 2023. NE 23-1 provides an opportunity for joint, multinational and multi-domain operations designed to implement high-end, realistic war fighter training, develop and improve joint interoperability, and enhance the combat readiness of participating forces. (U.S. Air Force photo by Sheila deVera)",
+      "real": true,
+      "width": 960,
+      "height": 640
+    }
+  ],
+  "SR-71 Blackbird": [
+    {
+      "src": "assets/histoire/photos/113-1.webp",
+      "file": "SR-71 Blackbird Nosedown View.jpg",
+      "author": "Northern-Virginia-Photographer",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:SR-71_Blackbird_Nosedown_View.jpg",
+      "alt": "Photographie de SR-71 Blackbird",
+      "caption": "SR-71 Blackbird — Autre vue de l’engin.",
+      "sourceCaption": "Nose-down view of the Sr-71 Blackbird, as she sits in the Steven F. Udvar-Hazy Center",
+      "real": true,
+      "width": 960,
+      "height": 640
+    }
+  ],
+  "B-52 Stratofortress": [
+    {
+      "src": "assets/histoire/photos/114-1.webp",
+      "file": "Barksdale Global Power Museum September 2015 47 (Boeing B-52G Stratofortress).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Barksdale_Global_Power_Museum_September_2015_47_(Boeing_B-52G_Stratofortress).jpg",
+      "alt": "Photographie de B-52 Stratofortress",
+      "caption": "B-52 Stratofortress — Présentation publique ou exemplaire exposé.",
+      "sourceCaption": "A Boeing B-52G Stratofortress on display at the Barksdale Global Power Museum at Barksdale Air Force Base near Bossier City , Louisiana ( United States ).",
+      "real": true,
+      "width": 960,
+      "height": 640
+    },
+    {
+      "src": "assets/histoire/photos/114-2.webp",
+      "file": "Barksdale Global Power Museum September 2015 49 (Boeing B-52G Stratofortress).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Barksdale_Global_Power_Museum_September_2015_49_(Boeing_B-52G_Stratofortress).jpg",
+      "alt": "Photographie de B-52 Stratofortress",
+      "caption": "B-52 Stratofortress — Présentation publique ou exemplaire exposé.",
+      "sourceCaption": "A Boeing B-52G Stratofortress on display at the Barksdale Global Power Museum at Barksdale Air Force Base near Bossier City , Louisiana ( United States ).",
+      "real": true,
+      "width": 960,
+      "height": 640
+    }
+  ],
+  "C-130 Hercules": [
+    {
+      "src": "assets/histoire/photos/115-1.webp",
+      "file": "Lockheed C-130 Hercules Aircraft.jpg",
+      "author": "Md Shaifuzzaman Ayon",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lockheed_C-130_Hercules_Aircraft.jpg",
+      "alt": "Photographie de C-130 Hercules",
+      "caption": "C-130 Hercules — Autre vue de l’engin.",
+      "sourceCaption": "Lockheed C-130 Hercules Aircraft",
+      "real": true,
+      "width": 960,
+      "height": 598
+    },
+    {
+      "src": "assets/histoire/photos/115-2.webp",
+      "file": "Japanese C-130 Hercules lands on Baker Landing Zone in Tinian.jpg",
+      "author": "Airman 1st Class Kadielle Shaw",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Japanese_C-130_Hercules_lands_on_Baker_Landing_Zone_in_Tinian.jpg",
+      "alt": "Photographie de C-130 Hercules",
+      "caption": "C-130 Hercules — Détail ou autre exemplaire.",
+      "sourceCaption": "U.S. Air Force Maj. Michael Bakke from the 621st Mobility Support Operations Squadron, Joint Base McGuire-Dix-Lakehurst, N.J., prepares as a Japanese C-130 Hercules lands on Baker Landing Zone in Tinian, U.S. Commonwealth of the Northern Marianas, July 12, 2023. The 621st Mobility Support Operations Squadron members, Air Mobility Liaison Officers, Expeditionary Air Ground Liaison Element members, and Japanese loadmasters participated in exercise Mobility Guardian 23, supporting the coalition landing zone, drop zone operations, and support cargo preparation. U.S. Air Force photo by Airman 1st Class Kadielle Shaw)",
+      "real": true,
+      "width": 960,
+      "height": 540
+    }
+  ],
+  "A400M Atlas": [
+    {
+      "src": "assets/histoire/photos/116-1.webp",
+      "file": "Luftwaffe Airbus A400M 54-21 Royal International Air Tattoo 2025 01.jpg",
+      "author": "Julian Herzog ( Website )",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Luftwaffe_Airbus_A400M_54-21_Royal_International_Air_Tattoo_2025_01.jpg",
+      "alt": "Photographie de A400M Atlas",
+      "caption": "A400M Atlas — Autre vue de l’engin.",
+      "sourceCaption": "German Air Force (Luftwaffe) Airbus A400M (reg. 54+21, s/n 079) flying a display at the Royal International Air Tattoo 2025.",
+      "real": true,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "assets/histoire/photos/116-2.webp",
+      "file": "Luftwaffe Airbus A400M 54-21 Royal International Air Tattoo 2025 02.jpg",
+      "author": "Julian Herzog ( Website )",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Luftwaffe_Airbus_A400M_54-21_Royal_International_Air_Tattoo_2025_02.jpg",
+      "alt": "Photographie de A400M Atlas",
+      "caption": "A400M Atlas — Détail ou autre exemplaire.",
+      "sourceCaption": "German Air Force (Luftwaffe) Airbus A400M (reg. 54+21, s/n 079) flying a display at the Royal International Air Tattoo 2025.",
+      "real": true,
+      "width": 960,
+      "height": 720
+    }
+  ],
+  "MiG-29 Fulcrum": [
+    {
+      "src": "assets/histoire/photos/117-1.webp",
+      "file": "MiG-29 Fulcrum Bangladesh Air Force (264) VGHS.jpg",
+      "author": "Md Shaifuzzaman Ayon",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:MiG-29_Fulcrum_Bangladesh_Air_Force_(264)_VGHS.jpg",
+      "alt": "Photographie de MiG-29",
+      "caption": "MiG-29 — Autre vue de l’engin.",
+      "sourceCaption": "MiG-29 Fulcrum Bangladesh Air Force (264) VGHS.",
+      "real": true,
+      "width": 960,
+      "height": 541
+    }
+  ],
+  "Mi-24 Hind": [
+    {
+      "src": "assets/histoire/photos/118-1.webp",
+      "file": "Mil Mi-24 flares dispensers.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mil_Mi-24_flares_dispensers.jpg",
+      "alt": "Photographie de Mi-24 Hind",
+      "caption": "Mi-24 Hind — Autre vue de l’engin.",
+      "sourceCaption": "Polish Air Force Mil Mi-24, Reg.: 730, decoy flares dispensers mounted below tail",
+      "real": true,
+      "width": 960,
+      "height": 720
+    },
+    {
+      "src": "assets/histoire/photos/118-2.webp",
+      "file": "Czech Air Force Mil Mi-24 Hind 3362 - Radom Air Show - 20180825 0926 4675 DxO.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Czech_Air_Force_Mil_Mi-24_Hind_3362_-_Radom_Air_Show_-_20180825_0926_4675_DxO.jpg",
+      "alt": "Photographie de Mi-24 Hind",
+      "caption": "Mi-24 Hind — Détail ou autre exemplaire.",
+      "sourceCaption": "Mil Mi-24 Hind of Czech Air Force at Radom Air Show",
+      "real": true,
+      "width": 960,
+      "height": 636
+    }
+  ],
+  "Tigre EC665": [
+    {
+      "src": "assets/histoire/photos/119-1.webp",
+      "file": "Eurocopter Tiger at Air Legend 2025 (5).jpg",
+      "author": "Like tears in rain",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Eurocopter_Tiger_at_Air_Legend_2025_(5).jpg",
+      "alt": "Photographie de Tigre EC665",
+      "caption": "Tigre EC665 — Autre vue de l’engin.",
+      "sourceCaption": "Eurocopter Tiger at Air Legend 2025.",
+      "real": true,
+      "width": 960,
+      "height": 720
+    },
+    {
+      "src": "assets/histoire/photos/119-2.webp",
+      "file": "Eurocopter Tiger at Air Legend 2025 (19).jpg",
+      "author": "Like tears in rain",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Eurocopter_Tiger_at_Air_Legend_2025_(19).jpg",
+      "alt": "Photographie de Tigre EC665",
+      "caption": "Tigre EC665 — Détail ou autre exemplaire.",
+      "sourceCaption": "Eurocopter Tiger at Air Legend 2025.",
+      "real": true,
+      "width": 960,
+      "height": 540
+    }
+  ],
+  "Classe Los Angeles": [
+    {
+      "src": "assets/histoire/photos/120-1.webp",
+      "file": "US Navy 061207-N-6536T-045 The Fast attack submarine USS Los Angeles (SSN 688) pulls into the Port of Los Angeles for a namesake city visit.jpg",
+      "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Elizabeth Thompson",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_061207-N-6536T-045_The_Fast_attack_submarine_USS_Los_Angeles_(SSN_688)_pulls_into_the_Port_of_Los_Angeles_for_a_namesake_city_visit.jpg",
+      "alt": "Photographie de Classe Los Angeles",
+      "caption": "Classe Los Angeles — Autre vue de l’engin.",
+      "sourceCaption": "San Pedro , Calif. (Dec. 7, 2006) - The Fast attack submarine USS Los Angeles (SSN 688) pulls into the Port of Los Angeles for a namesake city visit. This is the first port call the Los Angeles has made to the city it was named after. U.S. Navy photo by Mass Communication Specialist 2nd Class Elizabeth Thompson (RELEASED) Los Angeles Lighthouse on the San Pedro Breakwater (far left).",
+      "real": true,
+      "width": 960,
+      "height": 643
+    },
+    {
+      "src": "assets/histoire/photos/120-2.webp",
+      "file": "US Navy 091020-N-1722W-210 he fast-attack submarine USS Los Angeles (SSN 688) transits near Apra Harbor, Guam after returning from an underway period. Los Angeles, the 4th naval ship to be named after the city of Los Angeles.jpg",
+      "author": "U.S. Navy photo by Mass Communication Specialist 3rd Class Trevor Welsh",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_091020-N-1722W-210_he_fast-attack_submarine_USS_Los_Angeles_(SSN_688)_transits_near_Apra_Harbor,_Guam_after_returning_from_an_underway_period._Los_Angeles,_the_4th_naval_ship_to_be_named_after_the_city_of_Los_Angeles.jpg",
+      "alt": "Photographie de Classe Los Angeles",
+      "caption": "Classe Los Angeles — Détail ou autre exemplaire.",
+      "sourceCaption": "APRA HARBOR, Guam (Oct. 20th, 2009) The fast-attack submarine USS Los Angeles (SSN 688) transits near Apra Harbor, Guam after returning from an underway period. Los Angeles, the 4th naval ship to be named after the city of Los Angeles and the lead ship of her class, is on her last deployment. Los Angeles has been operating at sea for 33 years and is scheduled for decommissioning later this year. (U.S. Navy photo by Mass Communication Specialist 3rd Class Trevor Welsh/Released)",
+      "real": true,
+      "width": 960,
+      "height": 686
+    }
+  ],
+  "Classe Akula (Projet 971)": [
+    {
+      "src": "assets/histoire/photos/121-1.webp",
+      "file": "Akula class submarine.JPG",
+      "author": "US Navy",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Akula_class_submarine.JPG",
+      "alt": "Photographie de Classe Akula",
+      "caption": "Classe Akula — Autre vue de l’engin.",
+      "sourceCaption": "K-322 Cachalot, Akula class submarine underway. A port quarter aerial view of the Russian Northern Fleet AKULA class nuclear-powered attack submarine underway on the surface.",
+      "real": true,
+      "width": 960,
+      "height": 635
+    },
+    {
+      "src": "assets/histoire/photos/121-2.webp",
+      "file": "Submarine Vepr by Ilya Kurganov crop.jpg",
+      "author": "ru:User:Курганов Илья Сергеевич , cropped by ru:User:Vlsergey",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Submarine_Vepr_by_Ilya_Kurganov_crop.jpg",
+      "alt": "Photographie de Classe Akula",
+      "caption": "Classe Akula — Détail ou autre exemplaire.",
+      "sourceCaption": "Crop of Image:Submarine Vepr by Ilya Kurganov.jpg",
+      "real": true,
+      "width": 330,
+      "height": 154
+    }
+  ],
+  "Type 212A": [
+    {
+      "src": "assets/histoire/photos/122-1.webp",
+      "file": "U Boot 212 HDW 1.jpg",
+      "author": "user:Stahlkocher",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:U_Boot_212_HDW_1.jpg",
+      "alt": "Photographie de Type 212A",
+      "caption": "Type 212A — Autre vue de l’engin.",
+      "sourceCaption": "Submarine Typ 212 in the docks at HDW/Kiel (Germany).",
+      "real": true,
+      "width": 960,
+      "height": 394
+    },
+    {
+      "src": "assets/histoire/photos/122-2.webp",
+      "file": "HSC-28, German Type 212A Attack Submarine (U-34) Conduct Casualty Evacuation Training (9755487).jpg",
+      "author": "U.S. Navy photo by Chief Petty Officer Chad Butler",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:HSC-28,_German_Type_212A_Attack_Submarine_(U-34)_Conduct_Casualty_Evacuation_Training_(9755487).jpg",
+      "alt": "Photographie de Type 212A",
+      "caption": "Type 212A — Détail ou autre exemplaire.",
+      "sourceCaption": "An MH-60S Seahawk helicopter, assigned to the “Ghostriders” of Helicopter Sea Combat (HSC) 28, hovers near the German Navy Type 212A diesel-electric attack submarine (U-34) during casualty evacuation training as part of as part of Baltic Operations (BALTOPS) 2026, in the Baltic Sea, June 16, 2026. BALTOPS 2026, the premiere maritime-focused exercise in the Baltic Sea region, provides a unique training opportunity to strengthen combined response capabilities critical to preserving freedom of navigation and security in the Baltic Sea. (U.S. Navy photo by Chief Mass Communication Specialist Chad M. Butler)",
+      "real": true,
+      "width": 960,
+      "height": 640
+    }
+  ],
+  "Classe Mistral": [
+    {
+      "src": "assets/histoire/photos/123-1.webp",
+      "file": "Le Tonnerre.JPG",
+      "author": "Béotien lambda",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Le_Tonnerre.JPG",
+      "alt": "Photographie de Classe Mistral",
+      "caption": "Classe Mistral — Autre vue de l’engin.",
+      "sourceCaption": "Le Tonnerre, bâtiment de projection et de commandement (BPC)",
+      "real": true,
+      "width": 960,
+      "height": 720
+    },
+    {
+      "src": "assets/histoire/photos/123-2.webp",
+      "file": "Tonnerre mg 6002b.jpg",
+      "author": "Rama",
+      "license": "CC BY-SA 2.0 fr",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Tonnerre_mg_6002b.jpg",
+      "alt": "Photographie de Classe Mistral",
+      "caption": "Classe Mistral — Détail ou autre exemplaire.",
+      "sourceCaption": "Command and Projection ship Tonnerre in Toulon harbour, preparing for the celebrations of the 8th of May 2009.",
+      "real": true,
+      "width": 960,
+      "height": 594
+    }
+  ],
+  "Classe Izumo": [
+    {
+      "src": "assets/histoire/photos/124-1.webp",
+      "file": "JS Izumo (DDH-183).jpg",
+      "author": "海上自衛隊",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:JS_Izumo_(DDH-183).jpg",
+      "alt": "Photographie de Classe Izumo",
+      "caption": "Classe Izumo — Autre vue de l’engin.",
+      "sourceCaption": "護衛艦 いずも",
+      "real": true,
+      "width": 960,
+      "height": 449
+    },
+    {
+      "src": "assets/histoire/photos/124-2.webp",
+      "file": "JS Noshiro（FFM-3）and JS Izumo（DDH-183）.jpg",
+      "author": "https://www.mod.go.jp/msdf/index.html 海上自衛隊",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:JS_Noshiro%EF%BC%88FFM-3%EF%BC%89and_JS_Izumo%EF%BC%88DDH-183%EF%BC%89.jpg",
+      "alt": "Photographie de Classe Izumo",
+      "caption": "Classe Izumo — Détail ou autre exemplaire.",
+      "sourceCaption": "護衛艦「のしろ」と「いずも」",
+      "real": true,
+      "width": 960,
+      "height": 686
+    }
+  ],
+  "SCALP-EG / Storm Shadow": [
+    {
+      "src": "assets/histoire/photos/125-1.webp",
+      "file": "Storm Shadow p1220865.jpg",
+      "author": "Copyright © 2007 David Monniaux",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Storm_Shadow_p1220865.jpg",
+      "alt": "Photographie de SCALP-EG / Storm Shadow",
+      "caption": "SCALP-EG / Storm Shadow — Autre vue de l’engin.",
+      "sourceCaption": "Storm Shadow missile",
+      "real": true,
+      "width": 960,
+      "height": 382
+    },
+    {
+      "src": "assets/histoire/photos/125-2.webp",
+      "file": "Storm Shadow SCALP Mockup ILA 2018.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Storm_Shadow_SCALP_Mockup_ILA_2018.jpg",
+      "alt": "Photographie de SCALP-EG / Storm Shadow",
+      "caption": "SCALP-EG / Storm Shadow — Présentation publique ou exemplaire exposé.",
+      "sourceCaption": "MBDA Storm Shadow Scalp Demonstrator in black on static display at ILA 2018",
+      "real": true,
+      "width": 960,
+      "height": 720
+    }
+  ],
+  "BrahMos": [
+    {
+      "src": "assets/histoire/photos/126-1.webp",
+      "file": "BrahMos missile at Engineering Technologies 2012 02.jpg",
+      "author": "Mike1979 Russia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:BrahMos_missile_at_Engineering_Technologies_2012_02.jpg",
+      "alt": "Photographie de BrahMos",
+      "caption": "BrahMos — Autre vue de l’engin.",
+      "sourceCaption": "This file was uploaded with Commonist .",
+      "real": true,
+      "width": 960,
+      "height": 640
+    }
+  ],
+  "ATACMS": [
+    {
+      "src": "assets/histoire/photos/127-1.webp",
+      "file": "MGM-140 ATACMS WSMR.jpg",
+      "author": "U.S. Army/White Sands Missile Range Museum",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:MGM-140_ATACMS_WSMR.jpg",
+      "alt": "Photographie de ATACMS",
+      "caption": "ATACMS — Autre vue de l’engin.",
+      "sourceCaption": "MGM-140 ATACMS",
+      "real": true,
+      "width": 330,
+      "height": 247
+    },
+    {
+      "src": "assets/histoire/photos/127-2.webp",
+      "file": "MGM-140 Atacms 01.jpg",
+      "author": "Army employee",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:MGM-140_Atacms_01.jpg",
+      "alt": "Photographie de ATACMS",
+      "caption": "ATACMS — Détail ou autre exemplaire.",
+      "sourceCaption": "ATACMS missile fired from launcher",
+      "real": true,
+      "width": 330,
+      "height": 412
+    }
+  ],
+  "Iskander-M": [
+    {
+      "src": "assets/histoire/photos/128-1.webp",
+      "file": "Vostok2014-Day2-Iskander-M-06.jpg",
+      "author": "Алексей Ерешко (Alexey Yereshko)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Vostok2014-Day2-Iskander-M-06.jpg",
+      "alt": "Photographie de Iskander-M",
+      "caption": "Iskander-M — Autre vue de l’engin.",
+      "sourceCaption": "СКШУ «Восток-2014». День второй: ракетный пуск ОТРК «Искандер-М» 107-й ракетной бригады по учебной цели.",
+      "real": true,
+      "width": 330,
+      "height": 220
+    }
+  ],
+  "Meteor": [
+    {
+      "src": "assets/histoire/photos/129-1.webp",
+      "file": "MBDA Meteor and AIM-120 AAMRAM missiles at ILA-2024.JPG",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:MBDA_Meteor_and_AIM-120_AAMRAM_missiles_at_ILA-2024.JPG",
+      "alt": "Photographie de Meteor",
+      "caption": "Meteor — Présentation publique ou exemplaire exposé.",
+      "sourceCaption": "Training variants of the Beyond-Visual-Range air-to-air missiles AIM-120 AAMRAM (CATM-120B) in the foreground and MBDA METEOR in the rear. Both missiles are from the Air Force Technical Training Center South in Kaufbeuren and were on display at the ILA Berlin Airshow 2024.",
+      "real": true,
+      "width": 960,
+      "height": 640
+    },
+    {
+      "src": "assets/histoire/photos/129-2.webp",
+      "file": "MBDA Meteor mounted on EF2000 at ILA-2022.JPG",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:MBDA_Meteor_mounted_on_EF2000_at_ILA-2022.JPG",
+      "alt": "Photographie de Meteor",
+      "caption": "Meteor — Présentation publique ou exemplaire exposé.",
+      "sourceCaption": "MBDA Meteor air-to-air missile trainer mounted on Eurofighter GAF 30+98 on display at ILA Berlin Airshow 2022",
+      "real": true,
+      "width": 960,
+      "height": 720
+    }
   ]
 };

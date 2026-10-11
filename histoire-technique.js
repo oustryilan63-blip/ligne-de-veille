@@ -4400,5 +4400,1483 @@ window.LDV_TECHNIQUE = {
         "url": "https://www.mda.mil/system/aegis_bmd.html"
       }
     ]
+  },
+  "100": {
+    "name": "T-72",
+    "checkedAt": "2026-10-11",
+    "variant": "T-72M1 présenté par le Tank Museum",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "3 personnes",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-72/"
+      },
+      {
+        "label": "Masse",
+        "value": "41,5 t",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-72/"
+      },
+      {
+        "label": "Vitesse sur route",
+        "value": "60 km/h",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-72/"
+      },
+      {
+        "label": "Canon principal",
+        "value": "125 mm lisse avec chargeur automatique",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-72/"
+      },
+      {
+        "label": "Armement secondaire",
+        "value": "Mitrailleuses de 12,7 mm et 7,62 mm",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-72/"
+      }
+    ],
+    "note": "Valeurs du T-72M1 ; elles ne décrivent pas les T-72B3M actuels. Les chiffres de protection sont omis car ils dépendent fortement de la version.",
+    "sources": [
+      {
+        "label": "Fiche de collection du Tank Museum",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/t-72/"
+      }
+    ]
+  },
+  "101": {
+    "name": "T-80",
+    "checkedAt": "2026-10-11",
+    "variant": "T-80BVM, description industrielle publiée en 2021",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "Turbine à gaz GTD-1250",
+        "source": "https://www.rostec.ru/media/news/t-80bvm-letayushchiy-tank-snova-v-stroyu/"
+      },
+      {
+        "label": "Puissance",
+        "value": "1 250 ch",
+        "source": "https://www.rostec.ru/media/news/t-80bvm-letayushchiy-tank-snova-v-stroyu/"
+      },
+      {
+        "label": "Masse annoncée",
+        "value": "46 t",
+        "source": "https://www.rostec.ru/media/news/t-80bvm-letayushchiy-tank-snova-v-stroyu/"
+      },
+      {
+        "label": "Vitesse annoncée",
+        "value": "Jusqu’à 80 km/h en ligne droite",
+        "source": "https://www.rostec.ru/media/news/t-80bvm-letayushchiy-tank-snova-v-stroyu/"
+      },
+      {
+        "label": "Visée",
+        "value": "Sosna-U multicanal, dont imagerie thermique",
+        "source": "https://www.rostec.ru/media/news/t-80bvm-letayushchiy-tank-snova-v-stroyu/"
+      },
+      {
+        "label": "Protection complémentaire",
+        "value": "Blindage réactif Relikt et écrans grillagés",
+        "source": "https://www.rostec.ru/media/news/t-80bvm-letayushchiy-tank-snova-v-stroyu/"
+      }
+    ],
+    "note": "Données annoncées par le constructeur en 2021 ; la masse et les équipements évoluent avec les kits. Une vitesse maximale annoncée ne représente pas une moyenne en terrain réel.",
+    "sources": [
+      {
+        "label": "Rostec — T-80BVM, 2021",
+        "url": "https://www.rostec.ru/media/news/t-80bvm-letayushchiy-tank-snova-v-stroyu/"
+      }
+    ]
+  },
+  "102": {
+    "name": "BMP-3",
+    "checkedAt": "2026-10-11",
+    "variant": "BMP-3 de base, fiche export Rosoboronexport",
+    "fields": [
+      {
+        "label": "Armement principal",
+        "value": "Canon-lanceur 2A70 de 100 mm",
+        "source": "https://roe.ru/pdfs/pdf_4442.pdf"
+      },
+      {
+        "label": "Canon automatique",
+        "value": "2A72 de 30 mm",
+        "source": "https://roe.ru/pdfs/pdf_4442.pdf"
+      },
+      {
+        "label": "Vitesse maximale sur route",
+        "value": "70 km/h",
+        "source": "https://roe.ru/pdfs/pdf_4442.pdf"
+      },
+      {
+        "label": "Vitesse à flot",
+        "value": "10 km/h",
+        "source": "https://roe.ru/pdfs/pdf_4442.pdf"
+      },
+      {
+        "label": "Autonomie sur route",
+        "value": "600 km",
+        "source": "https://roe.ru/pdfs/pdf_4442.pdf"
+      },
+      {
+        "label": "Munitions du canon de 30 mm",
+        "value": "500 coups",
+        "source": "https://roe.ru/pdfs/pdf_4442.pdf"
+      }
+    ],
+    "note": "Valeurs de catalogue export ; les versions dotées de surblindage et les BMP-3F marins peuvent différer. L’autonomie dépend des conditions de circulation.",
+    "sources": [
+      {
+        "label": "Rosoboronexport — BMP-3",
+        "url": "https://roe.ru/pdfs/pdf_4442.pdf"
+      }
+    ]
+  },
+  "103": {
+    "name": "BTR-80",
+    "checkedAt": "2026-10-11",
+    "variant": "BTR-80 de base, fiche export Rosoboronexport",
+    "fields": [
+      {
+        "label": "Configuration",
+        "value": "8 × 8, amphibie",
+        "source": "https://roe.ru/pdfs/pdf_4445.pdf"
+      },
+      {
+        "label": "Masse",
+        "value": "13,6 t",
+        "source": "https://roe.ru/pdfs/pdf_4445.pdf"
+      },
+      {
+        "label": "Armement",
+        "value": "KPVT de 14,5 mm et PKT de 7,62 mm",
+        "source": "https://roe.ru/pdfs/pdf_4445.pdf"
+      },
+      {
+        "label": "Puissance moteur",
+        "value": "260 ch",
+        "source": "https://roe.ru/pdfs/pdf_4445.pdf"
+      },
+      {
+        "label": "Vitesse sur route",
+        "value": "Au moins 80 km/h annoncés",
+        "source": "https://roe.ru/pdfs/pdf_4445.pdf"
+      },
+      {
+        "label": "Vitesse à flot",
+        "value": "Au moins 9 km/h annoncés",
+        "source": "https://roe.ru/pdfs/pdf_4445.pdf"
+      },
+      {
+        "label": "Autonomie sur route",
+        "value": "600 km",
+        "source": "https://roe.ru/pdfs/pdf_4445.pdf"
+      }
+    ],
+    "note": "Valeurs publiées pour le BTR-80 export de base ; elles ne décrivent pas le BTR-82A. La composition équipage/passagers varie entre sources, donc elle n’est pas chiffrée ici.",
+    "sources": [
+      {
+        "label": "Rosoboronexport — BTR-80",
+        "url": "https://roe.ru/pdfs/pdf_4445.pdf"
+      }
+    ]
+  },
+  "104": {
+    "name": "Warrior",
+    "checkedAt": "2026-10-11",
+    "variant": "Warrior FV510, véhicule de combat d’infanterie britannique",
+    "fields": [
+      {
+        "label": "Équipage et fantassins",
+        "value": "3 + 7",
+        "source": "https://www.army.mod.uk/learn-and-explore/equipment/combat-vehicles/warrior/"
+      },
+      {
+        "label": "Longueur",
+        "value": "6,34 m",
+        "source": "https://www.army.mod.uk/learn-and-explore/equipment/combat-vehicles/warrior/"
+      },
+      {
+        "label": "Largeur",
+        "value": "3 m",
+        "source": "https://www.army.mod.uk/learn-and-explore/equipment/combat-vehicles/warrior/"
+      },
+      {
+        "label": "Hauteur",
+        "value": "2,78 m",
+        "source": "https://www.army.mod.uk/learn-and-explore/equipment/combat-vehicles/warrior/"
+      },
+      {
+        "label": "Vitesse maximale",
+        "value": "75 km/h",
+        "source": "https://www.army.mod.uk/learn-and-explore/equipment/combat-vehicles/warrior/"
+      },
+      {
+        "label": "Armement principal",
+        "value": "Canon Rarden de 30 mm",
+        "source": "https://www.army.mod.uk/learn-and-explore/equipment/combat-vehicles/warrior/"
+      },
+      {
+        "label": "Armement secondaire",
+        "value": "Mitrailleuse à chaîne de 7,62 mm",
+        "source": "https://www.army.mod.uk/learn-and-explore/equipment/combat-vehicles/warrior/"
+      }
+    ],
+    "note": "Données de la British Army pour la version d’infanterie ; les autres variantes et leurs équipements diffèrent.",
+    "sources": [
+      {
+        "label": "British Army — fiche Warrior",
+        "url": "https://www.army.mod.uk/learn-and-explore/equipment/combat-vehicles/warrior/"
+      }
+    ]
+  },
+  "105": {
+    "name": "AMX-10 RC",
+    "checkedAt": "2026-10-11",
+    "variant": "AMX-10 RCR avec protection SEPAR",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "4 personnes",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/amx-10-rcr-separ"
+      },
+      {
+        "label": "Masse en ordre de combat",
+        "value": "20 t",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/amx-10-rcr-separ"
+      },
+      {
+        "label": "Armement principal",
+        "value": "Canon de 105 mm",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/amx-10-rcr-separ"
+      },
+      {
+        "label": "Emport d’obus de 105 mm",
+        "value": "38",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/amx-10-rcr-separ"
+      },
+      {
+        "label": "Puissance",
+        "value": "280 ch",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/amx-10-rcr-separ"
+      },
+      {
+        "label": "Autonomie annoncée",
+        "value": "800 km",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/amx-10-rcr-separ"
+      },
+      {
+        "label": "Vitesse préconisée sur route",
+        "value": "60 km/h",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/amx-10-rcr-separ"
+      }
+    ],
+    "note": "Données officielles du véhicule rénové et surprotégé SEPAR. Contrairement au véhicule de base, la surprotection empêche la capacité amphibie ; la vitesse indiquée est préconisée, pas nécessairement la vitesse mécanique maximale.",
+    "sources": [
+      {
+        "label": "Fiche du ministère des Armées",
+        "url": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/amx-10-rcr-separ"
+      }
+    ]
+  },
+  "106": {
+    "name": "M109 Paladin",
+    "checkedAt": "2026-10-11",
+    "variant": "M109A7 Paladin, fiche BAE Systems",
+    "fields": [
+      {
+        "label": "Masse au combat",
+        "value": "38 101 kg",
+        "source": "https://www.baesystems.com/dam/jcr:891d545e-5925-442e-a4b1-65172af2647d"
+      },
+      {
+        "label": "Équipage",
+        "value": "4 personnes",
+        "source": "https://www.baesystems.com/dam/jcr:891d545e-5925-442e-a4b1-65172af2647d"
+      },
+      {
+        "label": "Puissance moteur",
+        "value": "675 ch",
+        "source": "https://www.baesystems.com/dam/jcr:891d545e-5925-442e-a4b1-65172af2647d"
+      },
+      {
+        "label": "Vitesse maximale",
+        "value": "61 km/h",
+        "source": "https://www.baesystems.com/dam/jcr:891d545e-5925-442e-a4b1-65172af2647d"
+      },
+      {
+        "label": "Autonomie estimée",
+        "value": "300 km",
+        "source": "https://www.baesystems.com/dam/jcr:891d545e-5925-442e-a4b1-65172af2647d"
+      },
+      {
+        "label": "Longueur hors tout",
+        "value": "9,7 m",
+        "source": "https://www.baesystems.com/dam/jcr:891d545e-5925-442e-a4b1-65172af2647d"
+      },
+      {
+        "label": "Largeur",
+        "value": "3,9 m",
+        "source": "https://www.baesystems.com/dam/jcr:891d545e-5925-442e-a4b1-65172af2647d"
+      },
+      {
+        "label": "Hauteur",
+        "value": "3,3 m",
+        "source": "https://www.baesystems.com/dam/jcr:891d545e-5925-442e-a4b1-65172af2647d"
+      }
+    ],
+    "note": "Version M109A7 ; valeurs constructeur pour le véhicule. L’autonomie est explicitement une estimation et la portée des obus dépend de la munition, donc aucun rayon unique n’est inventé.",
+    "sources": [
+      {
+        "label": "BAE Systems — caractéristiques M109A7",
+        "url": "https://www.baesystems.com/dam/jcr:891d545e-5925-442e-a4b1-65172af2647d"
+      }
+    ]
+  },
+  "107": {
+    "name": "M777",
+    "checkedAt": "2026-10-11",
+    "variant": "M777 de 155 mm / 39 calibres, fiche constructeur",
+    "fields": [
+      {
+        "label": "Calibre",
+        "value": "155 mm",
+        "source": "https://www.baesystems.com/dam/jcr:460e123c-94b6-4bea-a619-eed32a8b87a7"
+      },
+      {
+        "label": "Longueur du tube",
+        "value": "39 calibres",
+        "source": "https://www.baesystems.com/dam/jcr:460e123c-94b6-4bea-a619-eed32a8b87a7"
+      },
+      {
+        "label": "Masse annoncée",
+        "value": "Moins de 10 000 lb, soit environ 4,54 t",
+        "source": "https://www.baesystems.com/dam/jcr:460e123c-94b6-4bea-a619-eed32a8b87a7"
+      },
+      {
+        "label": "Portée sans assistance",
+        "value": "24,7 km maximum annoncés",
+        "source": "https://www.baesystems.com/dam/jcr:460e123c-94b6-4bea-a619-eed32a8b87a7"
+      },
+      {
+        "label": "Portée avec munition assistée",
+        "value": "Plus de 30 km annoncés",
+        "source": "https://www.baesystems.com/dam/jcr:460e123c-94b6-4bea-a619-eed32a8b87a7"
+      },
+      {
+        "label": "Cadence soutenue",
+        "value": "2 coups/minute",
+        "source": "https://www.baesystems.com/dam/jcr:460e123c-94b6-4bea-a619-eed32a8b87a7"
+      },
+      {
+        "label": "Cadence intensive",
+        "value": "4 coups/minute pendant au plus 2 minutes",
+        "source": "https://www.baesystems.com/dam/jcr:460e123c-94b6-4bea-a619-eed32a8b87a7"
+      }
+    ],
+    "note": "La portée dépend de la munition ; « plus de 30 km » ne représente pas une portée unique de toutes les munitions. La masse est une limite constructeur convertie en tonnes, pas une pesée exacte du M777A2.",
+    "sources": [
+      {
+        "label": "BAE Systems — fiche publique M777",
+        "url": "https://www.baesystems.com/dam/jcr:460e123c-94b6-4bea-a619-eed32a8b87a7"
+      }
+    ]
+  },
+  "108": {
+    "name": "Gepard",
+    "checkedAt": "2026-10-11",
+    "variant": "Gepard 1A2, données Bundeswehr et Rheinmetall",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "3 personnes",
+        "source": "https://www.bundeswehr.de/de/meldungen/flugabwehrkanonenpanzer-gepard-5400072"
+      },
+      {
+        "label": "Armement",
+        "value": "2 canons automatiques de 35 mm",
+        "source": "https://www.bundeswehr.de/de/meldungen/flugabwehrkanonenpanzer-gepard-5400072"
+      },
+      {
+        "label": "Distance de combat contre des aéronefs",
+        "value": "Jusqu’à 5,5 km annoncés",
+        "source": "https://www.bundeswehr.de/de/meldungen/flugabwehrkanonenpanzer-gepard-5400072"
+      },
+      {
+        "label": "Distance de combat contre des cibles terrestres",
+        "value": "Jusqu’à 2 km annoncés",
+        "source": "https://www.bundeswehr.de/de/meldungen/flugabwehrkanonenpanzer-gepard-5400072"
+      },
+      {
+        "label": "Cadence totale théorique",
+        "value": "1 100 coups/minute, 550 par canon",
+        "source": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/Informationsmaterial/Dimensions/Rheinmetall-magazine-Dimensions-2023-02.pdf"
+      },
+      {
+        "label": "Capteurs",
+        "value": "Radar de recherche et radar de poursuite",
+        "source": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/Informationsmaterial/Dimensions/Rheinmetall-magazine-Dimensions-2023-02.pdf"
+      }
+    ],
+    "note": "Les distances de combat sont des valeurs publiques, pas des garanties d’interception. La cadence totale est cyclique et ne décrit pas une cadence maintenue sans interruption.",
+    "sources": [
+      {
+        "label": "Bundeswehr — Gepard",
+        "url": "https://www.bundeswehr.de/de/meldungen/flugabwehrkanonenpanzer-gepard-5400072"
+      },
+      {
+        "label": "Rheinmetall Dimensions — Gepard",
+        "url": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/Informationsmaterial/Dimensions/Rheinmetall-magazine-Dimensions-2023-02.pdf"
+      }
+    ]
+  },
+  "109": {
+    "name": "VBCI",
+    "checkedAt": "2026-10-11",
+    "variant": "VBCI VCI de 28 tonnes, fiche armée de Terre",
+    "fields": [
+      {
+        "label": "Configuration",
+        "value": "8 × 8",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-blindes-combat/vbci-vehicule-blinde-combat"
+      },
+      {
+        "label": "Masse du standard décrit",
+        "value": "28 t",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-blindes-combat/vbci-vehicule-blinde-combat"
+      },
+      {
+        "label": "Longueur",
+        "value": "7,8 m",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-blindes-combat/vbci-vehicule-blinde-combat"
+      },
+      {
+        "label": "Armement principal",
+        "value": "Canon de 25 mm",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-blindes-combat/vbci-vehicule-blinde-combat"
+      },
+      {
+        "label": "Puissance moteur",
+        "value": "550 ch",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-blindes-combat/vbci-vehicule-blinde-combat"
+      },
+      {
+        "label": "Vitesse maximale",
+        "value": "100 km/h",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-blindes-combat/vbci-vehicule-blinde-combat"
+      },
+      {
+        "label": "Autonomie approximative",
+        "value": "750 km",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-blindes-combat/vbci-vehicule-blinde-combat"
+      },
+      {
+        "label": "Capacité embarquée",
+        "value": "Jusqu’à 11 combattants équipés",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-blindes-combat/vbci-vehicule-blinde-combat"
+      }
+    ],
+    "note": "Le VBCI à protection accrue de 32 tonnes est une évolution distincte. La variante poste de commandement n’emploie pas la même tourelle que le VCI.",
+    "sources": [
+      {
+        "label": "Armée de Terre — fiche VBCI",
+        "url": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-blindes-combat/vbci-vehicule-blinde-combat"
+      },
+      {
+        "label": "DGA — versions et protection 32 tonnes",
+        "url": "https://www.defense.gouv.fr/dga/vehicule-blinde-combat-dinfanterie-vbci"
+      }
+    ]
+  },
+  "110": {
+    "name": "F-14 Tomcat",
+    "checkedAt": "2026-10-11",
+    "variant": "F-14D Tomcat — National Naval Aviation Museum",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "2 : pilote et officier d’interception radar",
+        "source": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html"
+      },
+      {
+        "label": "Motorisation",
+        "value": "2 General Electric F110-GE-400",
+        "source": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html"
+      },
+      {
+        "label": "Poussée unitaire",
+        "value": "27 800 lbf avec postcombustion (environ 124 kN)",
+        "source": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html"
+      },
+      {
+        "label": "Longueur",
+        "value": "62 ft 8 in, soit environ 19,1 m",
+        "source": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html"
+      },
+      {
+        "label": "Envergure déployée",
+        "value": "64 ft 1 in, soit environ 19,5 m",
+        "source": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html"
+      },
+      {
+        "label": "Vitesse maximale",
+        "value": "1 544 mph à 40 000 ft (environ 2 485 km/h)",
+        "source": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html"
+      },
+      {
+        "label": "Plafond",
+        "value": "55 000 ft (environ 16 760 m)",
+        "source": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html"
+      },
+      {
+        "label": "Canon",
+        "value": "1 canon de 20 mm",
+        "source": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html"
+      }
+    ],
+    "note": "Conversions métriques arrondies. Aucun rayon d’action unique n’est proposé : la source technique citée ne le précise pas.",
+    "sources": [
+      {
+        "label": "Fiche technique de référence",
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html"
+      }
+    ]
+  },
+  "111": {
+    "name": "F-15E Strike Eagle",
+    "checkedAt": "2026-10-11",
+    "variant": "F-15E américain — fiche USAF",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "2 : pilote et officier systèmes d’armes",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/"
+      },
+      {
+        "label": "Longueur",
+        "value": "19,44 m",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/"
+      },
+      {
+        "label": "Envergure",
+        "value": "13 m",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/"
+      },
+      {
+        "label": "Hauteur",
+        "value": "5,6 m",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/"
+      },
+      {
+        "label": "Masse maximale au décollage",
+        "value": "36 450 kg, valeur métrique publiée par l’USAF",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/"
+      },
+      {
+        "label": "Motorisation",
+        "value": "2 Pratt & Whitney F100-PW-220 ou F100-PW-229",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/"
+      },
+      {
+        "label": "Vitesse maximale",
+        "value": "Mach 2,5 et plus",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/"
+      },
+      {
+        "label": "Distance de convoyage",
+        "value": "3 840 km avec réservoirs conformes et 3 réservoirs externes",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/"
+      },
+      {
+        "label": "Canon",
+        "value": "20 mm; 500 coups",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/"
+      }
+    ],
+    "note": "La distance publiée est une distance de convoyage dans une configuration donnée; elle ne constitue pas un rayon d’action de combat. La fiche USAF de 2019 présente des équipements antérieurs aux modernisations EPAWSS.",
+    "sources": [
+      {
+        "label": "Fiche technique de référence",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/"
+      }
+    ]
+  },
+  "112": {
+    "name": "F-117 Nighthawk",
+    "checkedAt": "2026-10-11",
+    "variant": "F-117A Nighthawk — National Museum USAF",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "1 pilote",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/"
+      },
+      {
+        "label": "Motorisation",
+        "value": "2 General Electric F404-F1D2",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/"
+      },
+      {
+        "label": "Poussée unitaire",
+        "value": "10 600 lbf (environ 47 kN)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/"
+      },
+      {
+        "label": "Vitesse maximale de croisière",
+        "value": "684 mph (environ 1 100 km/h)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/"
+      },
+      {
+        "label": "Plafond",
+        "value": "45 000 ft (environ 13 720 m)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/"
+      },
+      {
+        "label": "Envergure",
+        "value": "43 ft 4 in (environ 13,21 m)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/"
+      },
+      {
+        "label": "Longueur",
+        "value": "65 ft 11 in (environ 20,09 m)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/"
+      },
+      {
+        "label": "Armement en soute",
+        "value": "Jusqu’à 5 000 lb (environ 2 268 kg)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/"
+      }
+    ],
+    "note": "Conversions métriques arrondies. La source cite un ravitaillement en vol, sans valeur de distance sans ravitaillement; aucun nombre de portée n’est inventé.",
+    "sources": [
+      {
+        "label": "Fiche technique de référence",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/"
+      }
+    ]
+  },
+  "113": {
+    "name": "SR-71 Blackbird",
+    "checkedAt": "2026-10-11",
+    "variant": "SR-71A — musée USAF et NASA",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "2 personnes",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/"
+      },
+      {
+        "label": "Armement",
+        "value": "Aucun",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/"
+      },
+      {
+        "label": "Motorisation",
+        "value": "2 Pratt & Whitney J58",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/"
+      },
+      {
+        "label": "Poussée unitaire",
+        "value": "32 500 lbf (environ 145 kN), avec postcombustion",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "Mach 3 et plus",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/"
+      },
+      {
+        "label": "Distance franchissable publiée",
+        "value": "Plus de 2 900 miles terrestres (environ 4 670 km)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/"
+      },
+      {
+        "label": "Plafond publié",
+        "value": "Plus de 85 000 ft (environ 25 900 m)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/"
+      },
+      {
+        "label": "Longueur",
+        "value": "107 ft 5 in (environ 32,74 m)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/"
+      }
+    ],
+    "note": "Conversions arrondies. La distance publiée n’est pas un rayon d’action; le profil et les ravitaillements modifient la mission.",
+    "sources": [
+      {
+        "label": "Fiche technique de référence",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/"
+      }
+    ]
+  },
+  "114": {
+    "name": "B-52 Stratofortress",
+    "checkedAt": "2026-10-11",
+    "variant": "B-52H équipé de TF33 — fiche USAF",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "5 personnes",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/"
+      },
+      {
+        "label": "Longueur",
+        "value": "48,5 m",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/"
+      },
+      {
+        "label": "Envergure",
+        "value": "56,4 m",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/"
+      },
+      {
+        "label": "Motorisation",
+        "value": "8 Pratt & Whitney TF33-P-3/103",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/"
+      },
+      {
+        "label": "Masse maximale au décollage",
+        "value": "219 600 kg, valeur métrique publiée par l’USAF",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/"
+      },
+      {
+        "label": "Charge utile",
+        "value": "31 500 kg, valeur métrique publiée par l’USAF",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/"
+      },
+      {
+        "label": "Vitesse",
+        "value": "Mach 0,84",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/"
+      },
+      {
+        "label": "Distance sans ravitaillement",
+        "value": "8 800 miles (environ 14 080 km dans la fiche USAF)",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/"
+      }
+    ],
+    "note": "Version TF33 de la fiche USAF, mise à jour en juin 2019. Les conversions métriques de masse et de distance sont celles publiées par la source; la distance dépend du profil de mission et de la charge.",
+    "sources": [
+      {
+        "label": "Fiche technique de référence",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/"
+      }
+    ]
+  },
+  "115": {
+    "name": "C-130 Hercules",
+    "checkedAt": "2026-10-11",
+    "variant": "C-130J standard, non allongé — fiche USAF",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "3 : deux pilotes et un loadmaster (responsable du chargement)",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/"
+      },
+      {
+        "label": "Masse maximale au décollage",
+        "value": "74 393 kg",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/"
+      },
+      {
+        "label": "Charge maximale autorisée",
+        "value": "19 090 kg",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/"
+      },
+      {
+        "label": "Charge normale maximale",
+        "value": "15 422 kg",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/"
+      },
+      {
+        "label": "Distance avec charge normale maximale",
+        "value": "1 800 milles nautiques (environ 3 334 km)",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/"
+      },
+      {
+        "label": "Configuration passagers",
+        "value": "Jusqu’à 90 soldats équipés",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/"
+      },
+      {
+        "label": "Configuration parachutistes",
+        "value": "Jusqu’à 64 parachutistes",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/"
+      },
+      {
+        "label": "Chargement palettisé",
+        "value": "6 palettes",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/"
+      }
+    ],
+    "note": "Le troisième membre d’équipage est le loadmaster, responsable du chargement; le C-130J n’a pas le mécanicien de bord des C-130E/H. Distances et capacités changent selon la charge et la variante J-30.",
+    "sources": [
+      {
+        "label": "Fiche technique de référence",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/"
+      }
+    ]
+  },
+  "116": {
+    "name": "A400M Atlas",
+    "checkedAt": "2026-10-11",
+    "variant": "A400M — brochure technique Airbus",
+    "fields": [
+      {
+        "label": "Longueur",
+        "value": "45,1 m",
+        "source": "https://image.contactad.airbus.com/lib/fe2d1171756404747c1678/m/1/7f52cf78-0b6e-49b2-8028-4cc0b85158bd.pdf"
+      },
+      {
+        "label": "Envergure",
+        "value": "42,4 m",
+        "source": "https://image.contactad.airbus.com/lib/fe2d1171756404747c1678/m/1/7f52cf78-0b6e-49b2-8028-4cc0b85158bd.pdf"
+      },
+      {
+        "label": "Hauteur",
+        "value": "14,7 m",
+        "source": "https://image.contactad.airbus.com/lib/fe2d1171756404747c1678/m/1/7f52cf78-0b6e-49b2-8028-4cc0b85158bd.pdf"
+      },
+      {
+        "label": "Charge utile maximale",
+        "value": "37 tonnes",
+        "source": "https://image.contactad.airbus.com/lib/fe2d1171756404747c1678/m/1/7f52cf78-0b6e-49b2-8028-4cc0b85158bd.pdf"
+      },
+      {
+        "label": "Distance à charge maximale",
+        "value": "3 300 km",
+        "source": "https://image.contactad.airbus.com/lib/fe2d1171756404747c1678/m/1/7f52cf78-0b6e-49b2-8028-4cc0b85158bd.pdf"
+      },
+      {
+        "label": "Distance avec 30 t",
+        "value": "4 450 km",
+        "source": "https://image.contactad.airbus.com/lib/fe2d1171756404747c1678/m/1/7f52cf78-0b6e-49b2-8028-4cc0b85158bd.pdf"
+      },
+      {
+        "label": "Motorisation",
+        "value": "4 Europrop International TP400",
+        "source": "https://image.contactad.airbus.com/lib/fe2d1171756404747c1678/m/1/7f52cf78-0b6e-49b2-8028-4cc0b85158bd.pdf"
+      },
+      {
+        "label": "Configuration parachutistes",
+        "value": "Jusqu’à 116",
+        "source": "https://image.contactad.airbus.com/lib/fe2d1171756404747c1678/m/1/7f52cf78-0b6e-49b2-8028-4cc0b85158bd.pdf"
+      }
+    ],
+    "note": "Données de la brochure Airbus : longueur 45,1 m, différente des 42,2 m affichés par la page RAF. L’extension de charge à 40 t évoquée par Airbus reste un développement; la valeur certifiée de cette fiche est 37 t.",
+    "sources": [
+      {
+        "label": "Fiche technique de référence",
+        "url": "https://image.contactad.airbus.com/lib/fe2d1171756404747c1678/m/1/7f52cf78-0b6e-49b2-8028-4cc0b85158bd.pdf"
+      }
+    ]
+  },
+  "117": {
+    "name": "MiG-29 Fulcrum",
+    "checkedAt": "2026-10-11",
+    "variant": "MiG-29A initial — National Museum USAF",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "2 turbofan RD-33",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/AFmuseum/mikoyan-gurevich-mig-29a/"
+      },
+      {
+        "label": "Poussée unitaire",
+        "value": "Environ 18 300 lbf avec postcombustion (81 kN)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/AFmuseum/mikoyan-gurevich-mig-29a/"
+      },
+      {
+        "label": "Vitesse maximale",
+        "value": "Environ Mach 2,3",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/AFmuseum/mikoyan-gurevich-mig-29a/"
+      },
+      {
+        "label": "Canon",
+        "value": "GSh-301 de 30 mm",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/AFmuseum/mikoyan-gurevich-mig-29a/"
+      },
+      {
+        "label": "Missiles air-air",
+        "value": "Jusqu’à 6 missiles dans la configuration décrite",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/AFmuseum/mikoyan-gurevich-mig-29a/"
+      },
+      {
+        "label": "Autres charges",
+        "value": "Bombes et roquettes de 57, 80 ou 240 mm",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/AFmuseum/mikoyan-gurevich-mig-29a/"
+      }
+    ],
+    "note": "Ces données concernent le MiG-29A historique. Aucun chiffre de distance n’est ajouté : la fiche du musée n’en publie pas, et les valeurs des variantes K/SMT ne sont pas transposées.",
+    "sources": [
+      {
+        "label": "Fiche technique de référence",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/AFmuseum/mikoyan-gurevich-mig-29a/"
+      }
+    ]
+  },
+  "118": {
+    "name": "Mi-24 Hind",
+    "checkedAt": "2026-10-11",
+    "variant": "Mi-24V — revue officielle A Report tchèque, 2013",
+    "fields": [
+      {
+        "label": "Longueur avec rotors",
+        "value": "21,35 m",
+        "source": "https://www.army.cz/assets/multimedia-a-knihovna/casopisy/a-report/ar4.pdf"
+      },
+      {
+        "label": "Hauteur avec rotors",
+        "value": "5,47 m",
+        "source": "https://www.army.cz/assets/multimedia-a-knihovna/casopisy/a-report/ar4.pdf"
+      },
+      {
+        "label": "Diamètre du rotor principal",
+        "value": "17,3 m",
+        "source": "https://www.army.cz/assets/multimedia-a-knihovna/casopisy/a-report/ar4.pdf"
+      },
+      {
+        "label": "Masse à vide",
+        "value": "8 620 kg",
+        "source": "https://www.army.cz/assets/multimedia-a-knihovna/casopisy/a-report/ar4.pdf"
+      },
+      {
+        "label": "Masse au décollage publiée",
+        "value": "11 800 kg",
+        "source": "https://www.army.cz/assets/multimedia-a-knihovna/casopisy/a-report/ar4.pdf"
+      },
+      {
+        "label": "Vitesse maximale",
+        "value": "335 km/h",
+        "source": "https://www.army.cz/assets/multimedia-a-knihovna/casopisy/a-report/ar4.pdf"
+      },
+      {
+        "label": "Distance franchissable publiée",
+        "value": "450 km",
+        "source": "https://www.army.cz/assets/multimedia-a-knihovna/casopisy/a-report/ar4.pdf"
+      },
+      {
+        "label": "Plafond",
+        "value": "4 800 m",
+        "source": "https://www.army.cz/assets/multimedia-a-knihovna/casopisy/a-report/ar4.pdf"
+      }
+    ],
+    "note": "Valeurs de la fiche tchèque pour le Mi-24V; elles ne décrivent pas tous les Hind ni le Mi-35M. Les conditions de charge du chiffre de distance ne sont pas détaillées.",
+    "sources": [
+      {
+        "label": "Fiche technique de référence",
+        "url": "https://www.army.cz/assets/multimedia-a-knihovna/casopisy/a-report/ar4.pdf"
+      }
+    ]
+  },
+  "119": {
+    "name": "Tigre EC665",
+    "checkedAt": "2026-10-11",
+    "variant": "Tigre français — fiche Armée de Terre",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "2 : pilote et chef de mission",
+        "source": "https://www.defense.gouv.fr/en/node/597"
+      },
+      {
+        "label": "Longueur",
+        "value": "15,83 m",
+        "source": "https://www.defense.gouv.fr/en/node/597"
+      },
+      {
+        "label": "Hauteur",
+        "value": "4,33 m",
+        "source": "https://www.defense.gouv.fr/en/node/597"
+      },
+      {
+        "label": "Masse à vide",
+        "value": "4,2 t",
+        "source": "https://www.defense.gouv.fr/en/node/597"
+      },
+      {
+        "label": "Masse maximale au décollage",
+        "value": "6,6 t",
+        "source": "https://www.defense.gouv.fr/en/node/597"
+      },
+      {
+        "label": "Vitesse de croisière",
+        "value": "140 kt (environ 259 km/h)",
+        "source": "https://www.defense.gouv.fr/en/node/597"
+      },
+      {
+        "label": "Distance franchissable",
+        "value": "340 milles nautiques (environ 630 km)",
+        "source": "https://www.defense.gouv.fr/en/node/597"
+      },
+      {
+        "label": "Distance avec réservoirs additionnels",
+        "value": "550 milles nautiques (environ 1 019 km)",
+        "source": "https://www.defense.gouv.fr/en/node/597"
+      },
+      {
+        "label": "Autonomie publiée",
+        "value": "Environ 3 h selon la configuration",
+        "source": "https://www.defense.gouv.fr/en/node/597"
+      }
+    ],
+    "note": "Distances métriques converties à 1 mille nautique = 1,852 km. La fiche française ne représente pas tous les standards étrangers. Portées des armes et distance de vol sont des mesures différentes.",
+    "sources": [
+      {
+        "label": "Fiche technique de référence",
+        "url": "https://www.defense.gouv.fr/en/node/597"
+      }
+    ]
+  },
+  "120": {
+    "name": "Classe Los Angeles",
+    "checkedAt": "2026-10-11",
+    "variant": "Classe Los Angeles — dimensions générales publiées par le CRS ; armement variable selon le lot",
+    "fields": [
+      {
+        "label": "Longueur",
+        "value": "Environ 109,7 m (360 pieds)",
+        "source": "https://www.csp.navy.mil/annapolis/about/"
+      },
+      {
+        "label": "Largeur",
+        "value": "Environ 10,1 m (33 pieds)",
+        "source": "https://www.csp.navy.mil/annapolis/about/"
+      },
+      {
+        "label": "Déplacement en plongée",
+        "value": "Environ 6 900 tons (unité employée par le rapport CRS)",
+        "source": "https://www.congress.gov/crs-product/RL32418"
+      },
+      {
+        "label": "Tubes lance-torpilles",
+        "value": "4 tubes de 21 pouces, soit environ 533 mm",
+        "source": "https://www.congress.gov/crs-product/RL32418"
+      },
+      {
+        "label": "Lancement vertical",
+        "value": "12 tubes Tomahawk sur les 31 derniers bâtiments",
+        "source": "https://www.congress.gov/crs-product/RL32418"
+      }
+    ],
+    "note": "La fiche porte sur une classe à plusieurs standards. Le CRS emploie « tons » pour le déplacement sans préciser ici long tons, short tons ou tonnes métriques : l’unité originale est conservée et aucune conversion en tonnes métriques n’est prétendue. Aucune vitesse ou profondeur classifiée n’est présentée comme une donnée certaine.",
+    "sources": [
+      {
+        "label": "CRS — Los Angeles class",
+        "url": "https://www.congress.gov/crs-product/RL32418"
+      },
+      {
+        "label": "US Navy — USS Annapolis, dimensions de la classe Los Angeles",
+        "url": "https://www.csp.navy.mil/annapolis/about/"
+      }
+    ]
+  },
+  "121": {
+    "name": "Classe Akula (Projet 971)",
+    "checkedAt": "2026-10-11",
+    "variant": "Projet 971 de première série — données publiques de l’étude NKS-138 (2006), pas celles du Vepr allongé",
+    "fields": [
+      {
+        "label": "Longueur",
+        "value": "Environ 110,3 m",
+        "source": "https://www.nks.org/scripts/getdocument.php?file=111010111120029"
+      },
+      {
+        "label": "Largeur",
+        "value": "Environ 13,6 m",
+        "source": "https://www.nks.org/scripts/getdocument.php?file=111010111120029"
+      },
+      {
+        "label": "Équipage de référence",
+        "value": "73 personnes",
+        "source": "https://www.nks.org/scripts/getdocument.php?file=111010111120029"
+      },
+      {
+        "label": "Propulsion",
+        "value": "Un réacteur nucléaire à eau pressurisée",
+        "source": "https://www.nks.org/scripts/getdocument.php?file=111010111120029"
+      },
+      {
+        "label": "Concepteur",
+        "value": "Bureau Malakhit",
+        "source": "https://www.nks.org/scripts/getdocument.php?file=111010111120029"
+      }
+    ],
+    "note": "Les variantes et modernisations diffèrent. Les dimensions de première série proviennent d’une étude publique de recherche nucléaire nordique datée de 2006 ; les chiffres de déplacement, de profondeur et les effectifs actuels ne sont pas repris lorsqu’ils divergent entre sources.",
+    "sources": [
+      {
+        "label": "NKS-138 — recherche nordique, annexe projet 971",
+        "url": "https://www.nks.org/scripts/getdocument.php?file=111010111120029"
+      },
+      {
+        "label": "Sevmash — projet 971",
+        "url": "https://sevmash.ru/rus/news/3730-2025-11-24-13-16-24.html"
+      }
+    ]
+  },
+  "122": {
+    "name": "Type 212A",
+    "checkedAt": "2026-10-11",
+    "variant": "Type 212A allemand — fiche officielle Bundeswehr",
+    "fields": [
+      {
+        "label": "Longueur",
+        "value": "56 m",
+        "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a"
+      },
+      {
+        "label": "Largeur",
+        "value": "7 m",
+        "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a"
+      },
+      {
+        "label": "Déplacement",
+        "value": "1 450 t en surface ; 1 830 t en plongée",
+        "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a"
+      },
+      {
+        "label": "Équipage",
+        "value": "28 personnes",
+        "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a"
+      },
+      {
+        "label": "Propulsion",
+        "value": "Hybride diesel-électrique et piles à combustible",
+        "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a"
+      },
+      {
+        "label": "Armement",
+        "value": "6 tubes pour torpilles lourdes DM2A4",
+        "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a"
+      }
+    ],
+    "note": "Données du Type 212A de la marine allemande ; les séries italiennes et les variantes ultérieures peuvent différer.",
+    "sources": [
+      {
+        "label": "Bundeswehr — caractéristiques",
+        "url": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a"
+      }
+    ]
+  },
+  "123": {
+    "name": "Classe Mistral",
+    "checkedAt": "2026-10-11",
+    "variant": "Mistral français — configuration publiée pour Jeanne d’Arc 2025",
+    "fields": [
+      {
+        "label": "Longueur / largeur",
+        "value": "199 m / 32 m",
+        "source": "https://www.defense.gouv.fr/sites/default/files/operations/2025_MPAR_PAO_DOSSIER_DE_PRESSE_JDA25_v7.pdf"
+      },
+      {
+        "label": "Déplacement",
+        "value": "21 500 t",
+        "source": "https://www.defense.gouv.fr/sites/default/files/operations/2025_MPAR_PAO_DOSSIER_DE_PRESSE_JDA25_v7.pdf"
+      },
+      {
+        "label": "Vitesse maximale",
+        "value": "19 nœuds",
+        "source": "https://www.defense.gouv.fr/sites/default/files/operations/2025_MPAR_PAO_DOSSIER_DE_PRESSE_JDA25_v7.pdf"
+      },
+      {
+        "label": "Autonomie de transit",
+        "value": "11 000 nautiques à 15 nœuds, soit environ 20 372 km",
+        "source": "https://www.defense.gouv.fr/sites/default/files/operations/2025_MPAR_PAO_DOSSIER_DE_PRESSE_JDA25_v7.pdf"
+      },
+      {
+        "label": "Équipage",
+        "value": "220 marins",
+        "source": "https://www.defense.gouv.fr/sites/default/files/operations/2025_MPAR_PAO_DOSSIER_DE_PRESSE_JDA25_v7.pdf"
+      },
+      {
+        "label": "Capacités d’emport publiées",
+        "value": "16 hélicoptères ; jusqu’à 450 soldats équipés",
+        "source": "https://www.defense.gouv.fr/sites/default/files/operations/2025_MPAR_PAO_DOSSIER_DE_PRESSE_JDA25_v7.pdf"
+      }
+    ],
+    "note": "Capacités de référence, variables selon les détachements et la mission. Conversion des nautiques selon 1 mille marin = 1,852 km.",
+    "sources": [
+      {
+        "label": "Ministère des Armées — Mistral, fiche JDA25",
+        "url": "https://www.defense.gouv.fr/sites/default/files/operations/2025_MPAR_PAO_DOSSIER_DE_PRESSE_JDA25_v7.pdf"
+      }
+    ]
+  },
+  "124": {
+    "name": "Classe Izumo",
+    "checkedAt": "2026-10-11",
+    "variant": "Classe Izumo — caractéristiques générales JMSDF ; capacités aériennes selon conversion",
+    "fields": [
+      {
+        "label": "Longueur",
+        "value": "248 m",
+        "source": "https://www.mod.go.jp/msdf/equipment/ships/ddh/izumo/index.html"
+      },
+      {
+        "label": "Largeur maximale",
+        "value": "38 m",
+        "source": "https://www.mod.go.jp/msdf/equipment/ships/ddh/izumo/index.html"
+      },
+      {
+        "label": "Déplacement standard",
+        "value": "19 950 t",
+        "source": "https://www.mod.go.jp/msdf/equipment/ships/ddh/izumo/index.html"
+      },
+      {
+        "label": "Vitesse",
+        "value": "30 nœuds",
+        "source": "https://www.mod.go.jp/msdf/equipment/ships/ddh/izumo/index.html"
+      },
+      {
+        "label": "Équipage",
+        "value": "Environ 470 personnes",
+        "source": "https://www.mod.go.jp/msdf/equipment/ships/ddh/izumo/index.html"
+      },
+      {
+        "label": "Propulsion",
+        "value": "4 turbines à gaz, 2 lignes d’arbres",
+        "source": "https://www.mod.go.jp/msdf/equipment/ships/ddh/izumo/index.html"
+      }
+    ],
+    "note": "Le déplacement est standard, pas à pleine charge. Les chiffres d’emport en F-35B ne sont pas déduits de la superficie du pont.",
+    "sources": [
+      {
+        "label": "JMSDF — données officielles",
+        "url": "https://www.mod.go.jp/msdf/equipment/ships/ddh/izumo/index.html"
+      }
+    ]
+  },
+  "125": {
+    "name": "SCALP-EG / Storm Shadow",
+    "checkedAt": "2026-10-11",
+    "variant": "SCALP-EG / Storm Shadow — fiche publique MBDA de 2019",
+    "fields": [
+      {
+        "label": "Portée publique",
+        "value": "Plus de 250 km selon MBDA ; maximum non publié dans cette fiche",
+        "source": "https://www.mbda-systems.com/wp-content/uploads/2019/02/2019-STORM-SHADOW-datasheet.pdf"
+      },
+      {
+        "label": "Masse",
+        "value": "1 300 kg",
+        "source": "https://www.mbda-systems.com/products/deep-strike/storm-shadow-scalp"
+      },
+      {
+        "label": "Longueur",
+        "value": "5,10 m",
+        "source": "https://www.mbda-systems.com/products/deep-strike/storm-shadow-scalp"
+      },
+      {
+        "label": "Propulsion",
+        "value": "Turboréacteur",
+        "source": "https://www.mbda-systems.com/wp-content/uploads/2019/02/2019-STORM-SHADOW-datasheet.pdf"
+      },
+      {
+        "label": "Navigation",
+        "value": "Inertielle, GPS et référence au terrain",
+        "source": "https://www.mbda-systems.com/products/deep-strike/storm-shadow-scalp"
+      },
+      {
+        "label": "Porteurs publiés",
+        "value": "Rafale, Mirage 2000, Tornado, Eurofighter Typhoon",
+        "source": "https://www.mbda-systems.com/products/deep-strike/storm-shadow-scalp"
+      }
+    ],
+    "note": "Le Sénat publiait en 2003 plus de 400 km dans des conditions précises de vol. Le seuil MBDA de plus de 250 km n’est donc pas présenté comme un plafond physique. Les portées des variantes export et du MdCN ne sont pas mélangées.",
+    "sources": [
+      {
+        "label": "MBDA — fiche technique 2019",
+        "url": "https://www.mbda-systems.com/wp-content/uploads/2019/02/2019-STORM-SHADOW-datasheet.pdf"
+      },
+      {
+        "label": "MBDA — caractéristiques et porteurs Storm Shadow / SCALP",
+        "url": "https://www.mbda-systems.com/products/deep-strike/storm-shadow-scalp"
+      },
+      {
+        "label": "Sénat — référence de portée SCALP en 2003",
+        "url": "https://www.senat.fr/rap/l02-117/l02-117_mono.html"
+      }
+    ]
+  },
+  "126": {
+    "name": "BrahMos",
+    "checkedAt": "2026-10-11",
+    "variant": "BrahMos classique — référence publique jusqu’à 290 km, pas une variante à portée étendue",
+    "fields": [
+      {
+        "label": "Portée de référence",
+        "value": "Jusqu’à 290 km",
+        "source": "https://www.brahmos.com/page/brahmos-missile?wpappninja_v=z0xbw2kjr"
+      },
+      {
+        "label": "Vitesse de croisière",
+        "value": "Environ Mach 2,8",
+        "source": "https://www.brahmos.com/page/brahmos-missile?wpappninja_v=z0xbw2kjr"
+      },
+      {
+        "label": "Propulsion",
+        "value": "Accélérateur solide puis statoréacteur à carburant liquide",
+        "source": "https://www.brahmos.com/page/brahmos-missile?wpappninja_v=z0xbw2kjr"
+      },
+      {
+        "label": "Charge conventionnelle publiée",
+        "value": "200 à 300 kg selon la version",
+        "source": "https://newsonair.gov.in/india-delivers-1st-batch-of-brahmos-supersonic-cruise-missiles-to-philippines/"
+      },
+      {
+        "label": "Famille de plateformes",
+        "value": "Versions terrestres, navales et aéroportées ; capacités différentes",
+        "source": "https://www.brahmos.com/"
+      }
+    ],
+    "note": "Le chiffre de 290 km est celui de la référence classique/export vérifiée. Les chiffres supérieurs publiés pour d’autres variantes ne sont pas appliqués à toutes les versions ; les promesses commerciales d’impossibilité d’interception ne sont pas reprises.",
+    "sources": [
+      {
+        "label": "BrahMos Aerospace — missile",
+        "url": "https://www.brahmos.com/page/brahmos-missile?wpappninja_v=z0xbw2kjr"
+      },
+      {
+        "label": "BrahMos Aerospace — famille et plateformes en service",
+        "url": "https://www.brahmos.com/"
+      },
+      {
+        "label": "Akashvani — système export",
+        "url": "https://newsonair.gov.in/india-delivers-1st-batch-of-brahmos-supersonic-cruise-missiles-to-philippines/"
+      }
+    ]
+  },
+  "127": {
+    "name": "ATACMS",
+    "checkedAt": "2026-10-11",
+    "variant": "ATACMS à charge unitaire — fiche actuelle Lockheed Martin, pas le M39 initial à sous-munitions",
+    "fields": [
+      {
+        "label": "Portée maximale publiée",
+        "value": "300 km",
+        "source": "https://lockheedmartin.com/en-us/products/army-tactical-missile-system.html"
+      },
+      {
+        "label": "Charge",
+        "value": "WDU18, classe 500 livres (environ 227 kg)",
+        "source": "https://lockheedmartin.com/en-us/products/army-tactical-missile-system.html"
+      },
+      {
+        "label": "Guidage",
+        "value": "Navigation inertielle assistée par GPS",
+        "source": "https://www.lockheedmartin.com/content/dam/lockheed-martin/mfc/documents/business-area-landing/mfc-Fast-Facts-ATACMS.pdf"
+      },
+      {
+        "label": "Conditionnement",
+        "value": "1 missile par pod",
+        "source": "https://www.lockheedmartin.com/content/dam/lockheed-martin/mfc/documents/business-area-landing/mfc-Fast-Facts-ATACMS.pdf"
+      },
+      {
+        "label": "Lanceurs",
+        "value": "M142 HIMARS et M270 MLRS",
+        "source": "https://lockheedmartin.com/en-us/products/army-tactical-missile-system.html"
+      }
+    ],
+    "note": "La portée de 300 km concerne les versions à longue portée de cette famille ; elle ne doit pas être attribuée au Block I initial. La classe de masse de charge est celle annoncée par le constructeur, pas une mesure propre à toutes les charges.",
+    "sources": [
+      {
+        "label": "Lockheed Martin — ATACMS",
+        "url": "https://lockheedmartin.com/en-us/products/army-tactical-missile-system.html"
+      },
+      {
+        "label": "Lockheed Martin — Fast Facts 2020",
+        "url": "https://www.lockheedmartin.com/content/dam/lockheed-martin/mfc/documents/business-area-landing/mfc-Fast-Facts-ATACMS.pdf"
+      }
+    ]
+  },
+  "128": {
+    "name": "Iskander-M",
+    "checkedAt": "2026-10-11",
+    "variant": "Missile balistique 9M723 Iskander-M — référence technique publiée par le GUR ukrainien",
+    "fields": [
+      {
+        "label": "Portée publique : sources divergentes",
+        "value": "390 km dans la base GUR ; 400–500 km selon CSIS (2024)",
+        "source": "https://war-sanctions.gur.gov.ua/ru/ballistics/iskander"
+      },
+      {
+        "label": "Longueur",
+        "value": "7,185 m selon la référence GUR",
+        "source": "https://war-sanctions.gur.gov.ua/ru/ballistics/iskander"
+      },
+      {
+        "label": "Diamètre",
+        "value": "920 mm",
+        "source": "https://war-sanctions.gur.gov.ua/ru/ballistics/iskander"
+      },
+      {
+        "label": "Masse au lancement",
+        "value": "3 800 kg",
+        "source": "https://war-sanctions.gur.gov.ua/ru/ballistics/iskander"
+      },
+      {
+        "label": "Charge de référence",
+        "value": "450 kg selon le GUR ; configurations variables",
+        "source": "https://war-sanctions.gur.gov.ua/ru/ballistics/iskander"
+      }
+    ],
+    "note": "War & Sanctions est une source officielle ukrainienne issue d’une partie au conflit. Les valeurs sont attribuées à cette référence ; le CSIS publie d’autres valeurs pour la famille. Aucune portée hypothétique supérieure ni temps de vol calculé n’est ajouté.",
+    "sources": [
+      {
+        "label": "GUR — caractéristiques publiques du 9M723",
+        "url": "https://war-sanctions.gur.gov.ua/ru/ballistics/iskander"
+      },
+      {
+        "label": "CSIS — analyse de la famille, 23 avril 2024",
+        "url": "https://missilethreat.csis.org/missile/ss-26-2/"
+      }
+    ]
+  },
+  "129": {
+    "name": "Meteor",
+    "checkedAt": "2026-10-11",
+    "variant": "Meteor — missile air-air standard, données publiques MBDA et Saab",
+    "fields": [
+      {
+        "label": "Portée publique",
+        "value": "Plus de 100 km selon Saab ; maximum exact non publié",
+        "source": "https://www.saab.com/products/meteor"
+      },
+      {
+        "label": "Masse",
+        "value": "190 kg",
+        "source": "https://www.mbda-systems.com/products/air-dominance/meteor"
+      },
+      {
+        "label": "Longueur",
+        "value": "3,7 m",
+        "source": "https://www.mbda-systems.com/products/air-dominance/meteor"
+      },
+      {
+        "label": "Diamètre",
+        "value": "178 mm",
+        "source": "https://www.mbda-systems.com/products/air-dominance/meteor"
+      },
+      {
+        "label": "Propulsion",
+        "value": "Statoréacteur à débit variable",
+        "source": "https://www.mbda-systems.com/mbda-receives-new-order-more-meteor-germany"
+      },
+      {
+        "label": "Guidage",
+        "value": "Autodirecteur radar actif et liaison de données bidirectionnelle",
+        "source": "https://www.saab.com/products/meteor"
+      }
+    ],
+    "note": "La portée publiée est un ordre de grandeur. Les chiffres spéculatifs de 200 ou 300 km ne sont pas présentés comme des spécifications officielles ; l’intégration F-35 ne signifie pas que la capacité est déjà opérationnelle partout.",
+    "sources": [
+      {
+        "label": "MBDA — Meteor",
+        "url": "https://www.mbda-systems.com/products/air-dominance/meteor"
+      },
+      {
+        "label": "Saab — portée publique",
+        "url": "https://www.saab.com/products/meteor"
+      },
+      {
+        "label": "MBDA — statoréacteur Meteor et commande allemande, janvier 2026",
+        "url": "https://www.mbda-systems.com/mbda-receives-new-order-more-meteor-germany"
+      }
+    ]
   }
 };

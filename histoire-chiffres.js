@@ -732,5 +732,300 @@ window.LDV_CHIFFRES = {
         ]
       }
     ]
+  },
+  "100": {
+    "production": {
+      "value": "≈ 25 000",
+      "note": "Ordre de grandeur de la famille cité par le Tank Museum ; périmètre et date de clôture non détaillés, ce n’est pas un inventaire actuel.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-72/"
+    }
+  },
+  "101": {
+    "production": {
+      "value": "> 5 000",
+      "note": "T-80 fabriqués à Omsk avant la mise en stockage d’une partie du parc dans les années 1990, selon Rostec. Périmètre : usine d’Omsk, pas le total de toutes les variantes mondiales.",
+      "source": "https://www.rostec.ru/media/news/t-80bvm-letayushchiy-tank-snova-v-stroyu/"
+    }
+  },
+  "102": {
+    "inventory": {
+      "label": "Livraisons aux Émirats",
+      "value": "≈ 600",
+      "note": "Cumul de livraisons aux Émirats arabes unis cité par Rostec en 2022 ; ni production mondiale ni parc actuel disponible.",
+      "source": "https://rostec.ru/media/news/bmp-3-koroleva-pekhoty/"
+    }
+  },
+  "105": {
+    "inventory": {
+      "label": "Parc français en 2022",
+      "value": "248",
+      "note": "AMX-10 RCR cités en service par la DGA au 14 juin 2022 ; chiffre antérieur aux cessions à l’Ukraine et au remplacement par Jaguar, ce n’est pas la production totale.",
+      "source": "https://www.defense.gouv.fr/dga/actualites/essais-compatibilite-electromagnetique-dga-techniques-aeronautiques-cas-lintegration-nouvelle-radio"
+    }
+  },
+  "107": {
+    "inventory": {
+      "label": "En service (bilan 2024)",
+      "value": "> 1 250",
+      "note": "Nombre d’obusiers en service dans plusieurs pays selon BAE au 4 janvier 2024 ; ce n’est ni la production totale ni un inventaire certifié d’octobre 2026.",
+      "source": "https://www.baesystems.com/en/article/us-army-signs-agreement-with-bae-systems-for-new-m777-structures"
+    }
+  },
+  "108": {
+    "production": {
+      "value": "> 550",
+      "note": "Véhicules de plusieurs versions fabriqués pour l’Allemagne, les Pays-Bas et la Belgique avant le début des années 1980, d’après Rheinmetall Dimensions. Borne historique, pas production récente.",
+      "source": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/Informationsmaterial/Dimensions/Rheinmetall-magazine-Dimensions-2023-02.pdf"
+    },
+    "inventory": {
+      "label": "Livrés par l’Allemagne",
+      "value": "55",
+      "note": "Gepard remis à l’Ukraine selon le bilan Rheinmetall du 6 janvier 2025 ; ce n’est pas l’inventaire opérationnel restant.",
+      "source": "https://www.rheinmetall.com/en/media/news-watch/news/2025/01/2025-01-06-35mm-gepardmunition-fuer-ukr"
+    }
+  },
+  "109": {
+    "production": {
+      "value": "630 livrés",
+      "note": "Cumul livré à la France en juin 2015, variantes de combat et de commandement réunies. Chiffre de livraison du programme, pas parc opérationnel actuel.",
+      "source": "https://www2.assemblee-nationale.fr/documents/notice/14/budget/plf2016/b3110-tIII-a11/",
+      "label": "Exemplaires livrés"
+    }
+  },
+  "110": {
+    "production": {
+      "value": "712",
+      "note": "Total des F-14 construits : 633 pour l’US Navy et 79 pour l’Iran, selon NAVAIR.",
+      "source": "https://www.navair.navy.mil/node/14061"
+    },
+    "targets": {
+      "value": "Au moins 2 MiG-23",
+      "note": "Épisode documenté du 4 janvier 1989 par le Smithsonian : deux F-14A détruisent deux MiG-23 libyens. Ce chiffre couvre cet épisode uniquement, pas le bilan mondial du Tomcat.",
+      "source": "https://www.si.edu/object/nasm_A20040156000"
+    }
+  },
+  "111": {
+    "production": {
+      "value": "236",
+      "note": "F-15E de l’USAF selon l’US Air Force Academy (2016). Ne comprend pas les variantes d’exportation ni les F-15EX.",
+      "source": "https://www.usafa.af.mil/News/Features/Display/Article/955345/the-contrails-aircraft-weapons-systems-f-15e-strike-eagle/"
+    }
+  },
+  "112": {
+    "production": {
+      "value": "59",
+      "note": "Total de F-117A construits entre 1981 et 1990 selon le musée USAF; périmètre indiqué par cette source, hors démonstrateurs Have Blue.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/"
+    },
+    "losses": {
+      "value": "1 perte de combat documentée",
+      "note": "F-117A 82-0806 abattu le 27 mars 1999. Ce chiffre décrit la perte de combat documentée; il ne totalise pas les accidents.",
+      "source": "https://www.dafhistory.af.mil/Portals/16/documents/Airmen-at-War/AFD-070912-043.pdf?ver=2016-08-22-131404-397"
+    }
+  },
+  "113": {
+    "production": {
+      "value": "32",
+      "note": "Total de SR-71 construits selon Airman, publication de l’USAF. Les A-12 et YF-12 ne sont pas compris.",
+      "source": "https://www.airmanmagazine.af.mil/Features/Display/Article/2594085/airframe-the-sr-71-blackbird/"
+    },
+    "losses": {
+      "value": "12 accidents",
+      "note": "Le Smithsonian rapporte 12 SR-71 perdus dans des accidents sans action ennemie. Sa page indique un total de production différent de l’USAF (33 au lieu de 32); cette divergence est signalée.",
+      "source": "https://airandspace.si.edu/stories/editorial/setting-records-sr-71-blackbird"
+    }
+  },
+  "114": {
+    "production": {
+      "value": "744",
+      "note": "Total toutes versions; 102 B-52H. La dernière livraison intervient en octobre 1962.",
+      "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/"
+    }
+  },
+  "115": {
+    "production": {
+      "value": "Plus de 2 700 livrés",
+      "note": "Bilan industriel de Lockheed Martin pour toute la famille C-130, pas seulement le C-130J. Il s’agit de livraisons cumulées, pas d’avions tous encore en service.",
+      "source": "https://www.lockheedmartin.com/en-us/who-we-are/business-areas/aeronautics/marietta-media-kit.html",
+      "label": "Exemplaires livrés"
+    }
+  },
+  "116": {
+    "production": {
+      "value": "130 livrés fin 2024",
+      "note": "Livraisons cumulées au 31 décembre 2024 selon le rapport annuel Airbus. La production et les livraisons se poursuivent; ce n’est pas le total actuel.",
+      "source": "https://www.airbus.com/sites/g/files/jlcbta136/files/2025-04/Airbus%20Annual%20Report%202024.pdf",
+      "label": "Exemplaires livrés"
+    },
+    "losses": {
+      "value": "Au moins 1 accident mortel documenté",
+      "note": "Accident d’un appareil avant livraison, à Séville le 9 mai 2015. Ce minimum documenté ne remplace pas un inventaire exhaustif des dommages.",
+      "source": "https://questions-statements.parliament.uk/written-questions/detail/2015-06-29/4554/"
+    }
+  },
+  "117": {
+    "losses": {
+      "value": "1 accident allemand documenté",
+      "note": "La Bundeswehr mentionne un MiG-29 accidenté le 25 juin 1996. Ce chiffre couvre cet épisode dans la flotte allemande; il n’est pas un total mondial.",
+      "source": "https://www.bundeswehr.de/de/organisation/luftwaffe/aktuelles/30-jahre-armee-der-einheit-uebernahme-der-mig-29-3248728"
+    }
+  },
+  "118": {
+    "production": {
+      "value": "Environ 3 500",
+      "note": "Estimation historique du musée militaire Parc Patriot pour les Mi-24 de toutes versions. Pas un chiffre de flotte active et pas un total cumulatif actualisé de tous les dérivés Mi-35.",
+      "source": "https://parkpatriot.ru/o-parke/tekhnika-parka/mi-24/"
+    }
+  },
+  "119": {
+    "production": {
+      "value": "184 livrés fin 2019",
+      "note": "Livraisons cumulées publiées dans le rapport Airbus 2019, toutes variantes du Tigre. Ce bilan daté n’est pas présenté comme le total actuel.",
+      "source": "https://www.airbus.com/sites/g/files/jlcbta136/files/2021-06/20200323_AirbusSE_2019RegistrationDocument.pdf",
+      "label": "Exemplaires livrés"
+    }
+  },
+  "120": {
+    "production": {
+      "value": "62",
+      "note": "Total historique de la classe ; ne correspond pas au nombre actuellement opérationnel.",
+      "source": "https://www.congress.gov/crs-product/RL32418"
+    },
+    "losses": {
+      "value": "Au moins 1 retrait après sinistre",
+      "note": "Cas de l’USS Miami, incendié au chantier en 2012 puis retiré en 2014. Ce n’est ni un naufrage ni une perte au combat ; les autres accidents et retraits ne sont pas additionnés à ce cas.",
+      "source": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-019/h-019-3.html"
+    }
+  },
+  "121": {
+    "production": {
+      "value": "15 achevés",
+      "note": "Recensement historique Deepstorm inspecté : huit bâtiments admis au service à Komsomolsk-sur-l’Amour et sept à Sevmash, distincts des cinq coques inachevées. Sevmash confirme directement ses sept unités. Ce total historique ne correspond pas au nombre actuellement actif.",
+      "source": "https://www.deepstorm.ru/DeepStorm.files/45-92/nts/971/list.htm",
+      "extraSources": [
+        "https://sevmash.ru/rus/news/3730-2025-11-24-13-16-24.html"
+      ]
+    }
+  },
+  "122": {
+    "production": {
+      "value": "10",
+      "note": "Six unités allemandes plus quatre Todaro italiens ; total de cette série, hors 212CD et U212 NFS.",
+      "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a",
+      "extraSources": [
+        "https://www.marina.difesa.it/noi-siamo-la-marina/pilastro-operativo/mezzi/sottomarini/Pagine/ClasseTodaro.aspx"
+      ]
+    }
+  },
+  "123": {
+    "production": {
+      "value": "5",
+      "note": "Trois PHA français et deux unités livrées à l’Égypte en 2016 ; somme des bâtiments de cette famille documentés par les deux sources.",
+      "source": "https://www.defense.gouv.fr/marine/forces-surface",
+      "extraSources": [
+        "https://www.naval-group.com/en/leading-expertise-across-oceans"
+      ]
+    }
+  },
+  "124": {
+    "production": {
+      "value": "2",
+      "note": "Izumo et Kaga, tous deux listés par la Force maritime d’autodéfense japonaise.",
+      "source": "https://www.mod.go.jp/msdf/equipment/ships/ddh/izumo/index.html"
+    }
+  },
+  "125": {
+    "inventory": {
+      "label": "Commande française initiale",
+      "value": "500",
+      "note": "Série commandée par la France en 1998. Ce n’est pas le total mondial produit ni le stock français actuel.",
+      "source": "https://publications.parliament.uk/pa/cm201719/cmselect/cmdfence/1071/107106.htm"
+    },
+    "combatRecords": [
+      {
+        "title": "Him Sinshar — emploi documenté en Syrie",
+        "status": "Installation frappée ; bilan attribué à une opération conjointe",
+        "date": "14 avril 2018",
+        "text": "Le ministère britannique de la Défense confirme le lancement de huit Storm Shadow par des Tornado contre le site de stockage de Him Sinshar. Son communiqué estime initialement l’attaque réussie. Ce cas prouve l’emploi du missile ; il ne fournit pas un nombre d’engins détruits et ne permet pas d’attribuer tous les dégâts à un seul type de missile dans une frappe de coalition.",
+        "sources": [
+          {
+            "label": "Ministère britannique de la Défense — communiqué de l’attaque",
+            "url": "https://www.gov.uk/government/news/raf-jets-strike-chemical-weapon-facility-in-syria"
+          }
+        ]
+      }
+    ]
+  },
+  "126": {
+    "inventory": {
+      "label": "Batteries côtières commandées par les Philippines",
+      "value": "3",
+      "note": "Périmètre du contrat export de janvier 2022 ; une batterie comporte plusieurs éléments et ce chiffre n’est pas un nombre total de missiles produits.",
+      "source": "https://newsonair.gov.in/india-delivers-1st-batch-of-brahmos-supersonic-cruise-missiles-to-philippines/"
+    },
+    "combatRecords": [
+      {
+        "title": "Alleppey — un navire-cible atteint à l’essai",
+        "status": "Essai hors combat",
+        "date": "1er novembre 2015",
+        "text": "BrahMos Aerospace rapporte qu’un missile tiré depuis l’INS Kochi atteint l’ancien navire Alleppey, utilisé comme cible, à une distance proche de la portée de référence de 290 km. Le communiqué indique un impact réussi, sans établir ici un naufrage. Ce résultat d’essai est séparé des destructions au combat.",
+        "sources": [
+          {
+            "label": "BrahMos Aerospace — bulletin n°34",
+            "url": "https://www.brahmos.com/public/uploads/files/bulletin/66b081e1caf8d.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Operation Sindoor — emploi revendiqué par l’Inde",
+        "status": "Emploi confirmé par une partie ; bilan par missile non établi",
+        "date": "Mai 2025",
+        "text": "Le ministère indien de la Défense affirme en juillet 2026 que le BrahMos a été utilisé pendant Operation Sindoor. Cette déclaration établit la position officielle indienne ; elle ne donne pas un total indépendant d’engins détruits attribuable à cette seule famille. Aucun chiffre de victoires n’en est déduit.",
+        "sources": [
+          {
+            "label": "Ministère indien de la Défense — déclaration du 18 juillet 2026",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2286045&lang=2&reg=48"
+          }
+        ]
+      }
+    ]
+  },
+  "127": {
+    "production": {
+      "value": "Plus de 3 700 (2015)",
+      "note": "Jalon constructeur daté du 7 janvier 2015, toutes versions. La fabrication et la rénovation ont continué : ce n’est pas un total arrêté à 2026.",
+      "source": "https://news.lockheedmartin.com/2015-01-07-U-S-Army-Awards-Lockheed-Martin-78-Million-Contract-For-ATACMS-Modernization?asPDF=1"
+    },
+    "targets": {
+      "value": "9 hélicoptères revendiqués",
+      "note": "Revendication ukrainienne pour les frappes du 17 octobre 2023, rapportée par l’IISS ; elle ne constitue ni un total mondial ni un bilan exact indépendamment vérifié. Des dégâts sont visibles mais leur comptage et leur attribution restent limités.",
+      "source": "https://www.iiss.org/online-analysis/missile-dialogue-initiative/2023/10/ukraine-targets-russian-airfields-with-us-supplied-atacms-missile/"
+    },
+    "combatRecords": [
+      {
+        "title": "Berdyansk et Louhansk — hélicoptères visés au sol",
+        "status": "Pertes revendiquées ; dégâts observés",
+        "date": "17 octobre 2023",
+        "text": "L’IISS rapporte que l’Ukraine revendique neuf hélicoptères détruits, ainsi qu’un lanceur antiaérien et d’autres équipements, lors des premiers emplois annoncés d’ATACMS. Les images montrent des dégâts sur les aérodromes mais ne donnent pas un inventaire parfaitement vérifié des destructions. Le chiffre de neuf conserve donc son statut de revendication, sans devenir un score confirmé ni inclure les appareils simplement endommagés.",
+        "sources": [
+          {
+            "label": "IISS — analyse du 20 octobre 2023",
+            "url": "https://www.iiss.org/online-analysis/missile-dialogue-initiative/2023/10/ukraine-targets-russian-airfields-with-us-supplied-atacms-missile/"
+          },
+          {
+            "label": "The War Zone — images et évaluations des dégâts",
+            "url": "https://www.twz.com/ukraine-situation-report-atacms-may-spur-russian-force-relocations-u-k-intel-says"
+          }
+        ]
+      }
+    ]
+  },
+  "129": {
+    "inventory": {
+      "label": "Cible du programme français",
+      "value": "160",
+      "note": "Cible d’acquisition française publiée dans le projet de budget 2023, contre 200 initialement. Ce n’est ni un total mondial produit ni un stock actuel après tirs et commandes complémentaires.",
+      "source": "https://www.budget.gouv.fr/documentation/file-download/18462"
+    }
   }
 };

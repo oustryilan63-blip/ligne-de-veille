@@ -2042,5 +2042,811 @@ window.LDV_HISTOIRE = [
         "url": "https://raytheon.mediaroom.com/2024-10-15-RTXs-Raytheon-SM-3-R-Block-IIA-achieves-full-rate-production-approval"
       }
     ]
+  },
+  {
+    "story": "Le T-72 illustre la recherche soviétique d’un char compact : son chargeur automatique remplace le quatrième membre d’équipage. Le canon lisse de 125 mm et la silhouette basse sont devenus des signes distinctifs de cette famille largement exportée.\n\nLe Tank Museum conserve un T-72M1 construit en Pologne et anciennement utilisé par l’armée est-allemande. Les versions contemporaines sont profondément modernisées : les livraisons russes de T-72B3M se poursuivaient en septembre 2026.",
+    "current": [
+      "RU"
+    ],
+    "former": [
+      "DE"
+    ],
+    "operatorSource": "https://rostec.ru/media/news/kontsern-uvz-ko-dnyu-tankista-otpravil-v-voyska-tanki-t-90m-i-t-72b3m/",
+    "formerSource": "https://tankmuseum.org/tank-nuts/tank-collection/t-72/",
+    "operatorNote": "Carte volontairement partielle : Russie confirmée en septembre 2026 ; Allemagne indiquée comme ancien utilisateur pour la RDA. Le total mondial des opérateurs n’est pas déduit de cette sélection.",
+    "storySources": [
+      {
+        "label": "Tank Museum — T-72M1 et diffusion de la famille",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/t-72/"
+      },
+      {
+        "label": "Rostec — livraisons de T-72B3M, septembre 2026",
+        "url": "https://rostec.ru/media/news/kontsern-uvz-ko-dnyu-tankista-otpravil-v-voyska-tanki-t-90m-i-t-72b3m/"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Adopté le 6 juillet 1976 en Union soviétique, le T-80 se distingue par sa propulsion à turbine à gaz. Cette architecture offre notamment un démarrage rapide par grand froid, mais consomme davantage de carburant qu’un diesel comparable.\n\nLe T-80BVM est une modernisation du T-80BV : moteur GTD-1250, viseur multicanal et protection réactive Relikt. Un contrat de rénovation approfondie a été signé en 2017. La famille comprend aussi le T-80UD à moteur diesel, qu’il ne faut pas confondre avec ces versions à turbine.",
+    "current": [
+      "RU"
+    ],
+    "former": [],
+    "operatorSource": "https://www.rostec.ru/media/news/t-80bvm-letayushchiy-tank-snova-v-stroyu/",
+    "operatorNote": "Sélection partielle des utilisateurs : Russie confirmée par les livraisons mentionnées par Rostec. Les autres exportations et la variante diesel T-80UD ne sont pas cartographiées ici.",
+    "storySources": [
+      {
+        "label": "Rostec — adoption du T-80 le 6 juillet 1976",
+        "url": "https://www.rostec.ru/media/news/gazoturbinnaya-legenda-50-let-tanku-t-80/"
+      },
+      {
+        "label": "Rostec — modernisation T-80BVM",
+        "url": "https://www.rostec.ru/media/news/t-80bvm-letayushchiy-tank-snova-v-stroyu/"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Adopté en 1987, le BMP-3 associe transport de fantassins et appui feu. Son bloc d’armement réunit un canon-lanceur de 100 mm, un canon automatique de 30 mm et une mitrailleuse. Sa propulsion dans l’eau repose sur des hydrojets.\n\nLes exportations ont soutenu Kurganmashzavod durant les années 1990. Rostec cite environ 600 exemplaires livrés aux Émirats arabes unis dans son bilan de 2022. Les livraisons russes de 2025 comprennent des blindages additionnels et des équipements réduisant la signature thermique.",
+    "current": [
+      "RU",
+      "AE"
+    ],
+    "former": [],
+    "operatorSource": "https://rostec.ru/media/news/bmp-3-koroleva-pekhoty/",
+    "operatorNote": "Carte partielle : Russie confirmée par les livraisons de 2025 ; Émirats arabes unis documentés dans l’historique industriel de 2022. Ce dernier chiffre ne constitue pas un inventaire opérationnel actuel.",
+    "storySources": [
+      {
+        "label": "Rostec — historique du BMP-3, 2022",
+        "url": "https://rostec.ru/media/news/bmp-3-koroleva-pekhoty/"
+      },
+      {
+        "label": "Rostec — livraisons de BMP-3, avril 2025",
+        "url": "https://rostec.ru/en/media/news/rostec-delivered-a-new-batch-of-the-bmp-3-to-the-army/"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le BTR-80 reprend l’expérience des BTR-60 et BTR-70. Son moteur arrière, ses huit roues motrices et ses portes latérales caractérisent un transport conçu pour déplacer et appuyer les fantassins, avec une capacité amphibie.\n\nLe modèle de base porte une mitrailleuse lourde de 14,5 mm et une arme coaxiale de 7,62 mm. De nombreux véhicules spécialisés utilisent son châssis. Le BTR-82A constitue une modernisation ultérieure ; son canon de 30 mm ne doit pas être attribué au BTR-80 de base.",
+    "current": [
+      "RU"
+    ],
+    "former": [],
+    "operatorSource": "https://www.seco.admin.ch/dam/seco/de/dokumente/Aussenwirtschaft/Wirtschaftsbeziehungen/Exportkontrollen/Sanktionen/Verordnungen/Russland%2C%20Ukraine/situation_in_der_ukraine_2022-07-29.pdf.download.pdf/Situation%20in%20der%20Ukraine_2022-07-29.pdf",
+    "operatorNote": "Carte partielle : l’utilisation russe est attestée par le document officiel suisse de juillet 2022. Cette source ne certifie pas un inventaire opérationnel en octobre 2026.",
+    "storySources": [
+      {
+        "label": "Rosoboronexport — BTR-80 de base",
+        "url": "https://roe.ru/pdfs/pdf_4445.pdf"
+      },
+      {
+        "label": "Rosgvardia — filiation BTR-80 / BTR-82A",
+        "url": "https://www.rosguard.gov.ru/page/index/bronetransporter-btr82a"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "La famille Warrior entre en service britannique en 1988. Elle permet à l’infanterie blindée d’accompagner les chars Challenger et de recevoir un appui direct. L’armée britannique cite ses engagements dans le Golfe, en Bosnie, au Kosovo et en Irak.\n\nOutre le transport de fantassins, la famille comprend des véhicules d’observation d’artillerie, de commandement et de dépannage. En 2021, le gouvernement britannique renonce à son programme de modernisation et annonce une transition vers Boxer. Cette annonce ne signifie pas un retrait immédiat de tous les Warrior.",
+    "current": [
+      "GB"
+    ],
+    "former": [],
+    "operatorSource": "https://www.army.mod.uk/learn-and-explore/equipment/combat-vehicles/warrior/",
+    "operatorNote": "Royaume-Uni : appareil présenté sur la page de matériel de l’armée britannique consultée le 11 octobre 2026. Le Desert Warrior exporté constitue une version distincte non cartographiée.",
+    "storySources": [
+      {
+        "label": "British Army — Warrior",
+        "url": "https://www.army.mod.uk/learn-and-explore/equipment/combat-vehicles/warrior/"
+      },
+      {
+        "label": "Gouvernement britannique — transition annoncée en 2021",
+        "url": "https://www.gov.uk/government/publications/defence-in-a-competitive-age/defence-in-a-competitive-age-accessible-version"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "L’AMX-10 RC associe un canon de 105 mm à une plateforme à roues destinée à la reconnaissance armée. Sa mobilité lui permet d’accompagner la cavalerie légère. La version rénovée reçoit des améliorations de protection et de communications.\n\nLa DGA documente en 2022 l’intégration de la radio Contact afin de relier le véhicule aux unités Scorpion. Le Jaguar remplace progressivement le parc français. En mars 2023, le ministère confirme l’arrivée d’AMX-10 RC en Ukraine, avec certains véhicules déjà engagés sur le front.",
+    "current": [
+      "FR",
+      "UA"
+    ],
+    "former": [],
+    "operatorSource": "https://www.defense.gouv.fr/actualites/soutien-lukraine-4-points-retenir-laudition-sebastien-lecornu",
+    "operatorNote": "Carte partielle : France d’après sa fiche de matériel ; Ukraine d’après la confirmation de livraison de mars 2023. Les exportations au Maroc et au Qatar ne sont pas incluses faute de vérification de leur statut actuel dans cette recherche.",
+    "storySources": [
+      {
+        "label": "Ministère des Armées — AMX-10 RCR SEPAR",
+        "url": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/amx-10-rcr-separ"
+      },
+      {
+        "label": "DGA — radio Contact, juin 2022",
+        "url": "https://www.defense.gouv.fr/dga/actualites/essais-compatibilite-electromagnetique-dga-techniques-aeronautiques-cas-lintegration-nouvelle-radio"
+      },
+      {
+        "label": "Ministère des Armées — arrivée en Ukraine, mars 2023",
+        "url": "https://www.defense.gouv.fr/actualites/soutien-lukraine-4-points-retenir-laudition-sebastien-lecornu"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le M109A7 conserve l’armement et la structure de cabine du M109A6 Paladin, tout en recevant un nouveau châssis. Des composants partagés avec le Bradley facilitent le soutien et renforcent la mobilité de l’artillerie des brigades blindées.\n\nL’amélioration porte aussi sur le réseau électrique embarqué et les systèmes d’entraînement du canon. Le contrat annoncé en décembre 2017 prépare la production à plein régime. L’école américaine de l’armement commence la formation sur ce véhicule en octobre 2020. Le transporteur de munitions M992A3 accompagne le système.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "operatorSource": "https://www.army.mil/article/243102/the_m109a7_self_propelled_howitzer_has_arrived_at_the_ordnance_school",
+    "operatorNote": "Fiche centrée sur le M109A7 américain ; les multiples utilisateurs mondiaux d’anciens M109 ne sont pas assimilés à des opérateurs du Paladin A7.",
+    "storySources": [
+      {
+        "label": "BAE Systems — programme M109A7, 2017",
+        "url": "https://www.baesystems.com/en/article/bae-systems-receives-u-s--army-contract-to-begin-m109a7-full-rate-production"
+      },
+      {
+        "label": "US Army — formation au M109A7, 2021",
+        "url": "https://www.army.mil/article/243102/the_m109a7_self_propelled_howitzer_has_arrived_at_the_ordnance_school"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le M777 est conçu pour fournir un appui d’artillerie de 155 mm tout en restant transportable par air. Le recours au titane et à l’aluminium réduit sa masse : BAE le présente comme un obusier de ce calibre pesant moins de 10 000 livres.\n\nSon développement et sa production s’inscrivent dans un programme anglo-américain. Les utilisateurs comprennent les États-Unis, le Canada, l’Australie et l’Inde, puis l’Ukraine après des dons. En janvier 2024, BAE annonce un contrat américain de structures majeures destiné à soutenir la remise en production, sans annoncer un total mondial de fabrication définitif.",
+    "current": [
+      "US",
+      "CA",
+      "AU",
+      "IN",
+      "UA"
+    ],
+    "former": [],
+    "operatorSource": "https://www.baesystems.com/en/article/us-army-signs-agreement-with-bae-systems-for-new-m777-structures",
+    "operatorNote": "Opérateurs documentés par BAE en 2024, complétés par la fiche export. Origine de conception anglo-américaine ; accepter GB et US si le jeu permet des origines multiples.",
+    "storySources": [
+      {
+        "label": "BAE Systems — rapport annuel 2005, origine du programme",
+        "url": "https://www.baesystems.com/investors/dam/jcr%3Adea92b65-d5d4-4dea-b502-d9cdd5951e05/BAE-Systems-Annual-Report-2005.2025-02-28-16-18-39.pdf"
+      },
+      {
+        "label": "BAE Systems — M777 et structures nouvelles, 2024",
+        "url": "https://www.baesystems.com/en/article/us-army-signs-agreement-with-bae-systems-for-new-m777-structures"
+      },
+      {
+        "label": "BAE Systems — fiche M777",
+        "url": "https://www.baesystems.com/dam/jcr:460e123c-94b6-4bea-a619-eed32a8b87a7"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le Gepard rassemble détection, poursuite et armement sur une même plateforme blindée. Un premier prototype est présenté en 1968 et la Bundeswehr l’utilise de 1976 à 2010 pour protéger les unités contre les aéronefs à basse altitude.\n\nLa présence de deux canons et de radars permet un fonctionnement autonome. Retirés du service allemand, des engins sont livrés à l’Ukraine à partir de 2022. Rheinmetall relance une chaîne de munitions afin d’assurer leur soutien. En janvier 2025, le constructeur cite 55 véhicules remis à l’Ukraine par l’Allemagne.",
+    "current": [
+      "UA"
+    ],
+    "former": [
+      "DE"
+    ],
+    "operatorSource": "https://www.rheinmetall.com/en/media/news-watch/news/2025/01/2025-01-06-35mm-gepardmunition-fuer-ukr",
+    "formerSource": "https://www.bundeswehr.de/de/meldungen/flugabwehrkanonenpanzer-gepard-5400072",
+    "operatorNote": "Carte partielle : Ukraine confirmée par le bilan Rheinmetall de janvier 2025 ; retrait allemand en 2010. Les autres utilisateurs export ne sont pas inclus sans vérification récente.",
+    "storySources": [
+      {
+        "label": "Bundeswehr — service et caractéristiques du Gepard",
+        "url": "https://www.bundeswehr.de/de/meldungen/flugabwehrkanonenpanzer-gepard-5400072"
+      },
+      {
+        "label": "Rheinmetall Dimensions — historique industriel, 2023",
+        "url": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/Informationsmaterial/Dimensions/Rheinmetall-magazine-Dimensions-2023-02.pdf"
+      },
+      {
+        "label": "Rheinmetall — soutien à l’Ukraine, janvier 2025",
+        "url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/01/2025-01-06-35mm-gepardmunition-fuer-ukr"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le VBCI est développé sous maîtrise d’œuvre de Nexter Systems et Renault Trucks Defense. Il doit transporter, protéger et appuyer les groupes d’infanterie des brigades blindées. Sa caisse en aluminium reçoit des plaques de protection complémentaires.\n\nLe programme distingue le véhicule de combat d’infanterie et le véhicule poste de commandement. Les 630 véhicules français sont livrés jusqu’en juin 2015. Une évolution à 32 tonnes renforce la protection contre les engins explosifs improvisés ; elle ne doit pas être confondue avec le véhicule standard de 28 tonnes décrit par l’armée de Terre.",
+    "current": [
+      "FR"
+    ],
+    "former": [],
+    "operatorSource": "https://www.defense.gouv.fr/dga/vehicule-blinde-combat-dinfanterie-vbci",
+    "operatorNote": "France confirmée par la DGA et l’armée de Terre. Les variantes export proposées ou commandées ne sont pas présentées comme des véhicules déjà en service.",
+    "storySources": [
+      {
+        "label": "DGA — programme VBCI",
+        "url": "https://www.defense.gouv.fr/dga/vehicule-blinde-combat-dinfanterie-vbci"
+      },
+      {
+        "label": "Armée de Terre — caractéristiques VBCI",
+        "url": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-blindes-combat/vbci-vehicule-blinde-combat"
+      },
+      {
+        "label": "Assemblée nationale — dernier véhicule livré en 2015",
+        "url": "https://www2.assemblee-nationale.fr/documents/notice/14/budget/plf2016/b3110-tIII-a11/"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le Tomcat naît après l’abandon du F-111B destiné à la marine américaine. Grumman conçoit un grand intercepteur biplace dont les ailes changent de flèche. Le pilote et l’officier d’interception radar se partagent la navigation, les capteurs et l’armement. Son premier vol a lieu le 21 décembre 1970.\n\nD’abord consacré à la protection des porte-avions, le F-14 reçoit aussi des équipements de reconnaissance et d’attaque de précision. Le dernier engagement de l’exemplaire F-14D du musée naval se termine le 8 février 2006. Les performances ci-dessous concernent le F-14D; les moteurs et équipements du F-14A iranien sont différents.",
+    "current": [],
+    "former": [
+      "US"
+    ],
+    "operatorSource": "https://www.navair.navy.mil/node/14061",
+    "formerSource": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html",
+    "operatorNote": "Carte volontairement partielle : emploi américain historique confirmé. 79 appareils ont été livrés à l’Iran; l’état opérationnel iranien actuel n’est pas confirmé par ces sources et n’est pas coloré comme actif.",
+    "storySources": [
+      {
+        "label": "National Naval Aviation Museum — F-14D",
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html"
+      },
+      {
+        "label": "NAVAIR — bilan du programme",
+        "url": "https://www.navair.navy.mil/node/14061"
+      },
+      {
+        "label": "Navy — premier vol",
+        "url": "https://www.history.navy.mil/browse-by-topic/communities/naval-aviation/1970-1979.html"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le F-15E adapte la cellule de l’Eagle à des missions air-sol de longue durée, tout en conservant des capacités de combat aérien. Ses deux membres d’équipage disposent de systèmes de navigation, de ciblage et de suivi du terrain. Les réservoirs conformes épousent les côtés du fuselage et augmentent l’emport de carburant.\n\nLe premier appareil de série vole le 11 décembre 1986, puis les livraisons commencent en 1988. Le Strike Eagle reste modernisé : l’USAF remet en janvier 2025 un premier F-15E doté du système de guerre électronique EPAWSS. La fiche représente la version E américaine; les F-15I, S, K, SG et EX constituent d’autres variantes.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "operatorSource": "https://www.eglin.af.mil/News/Article-Display/Article/4033163/usaf-delivers-first-epawss-modified-f-15e-strike-eagle/",
+    "operatorNote": "F-15E américain uniquement; les utilisateurs de dérivés F-15I/S/K/SG ne sont pas ajoutés à cette carte.",
+    "storySources": [
+      {
+        "label": "USAF — F-15E",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/"
+      },
+      {
+        "label": "USAF — premier vol",
+        "url": "https://www.af.mil/Portals/1/documents/cct/2016/CCT_Dec_8_2016.pdf?ver=2016-12-08-163143-640"
+      },
+      {
+        "label": "USAF — EPAWSS",
+        "url": "https://www.eglin.af.mil/News/Article-Display/Article/4033163/usaf-delivers-first-epawss-modified-f-15e-strike-eagle/"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le F-117A est développé pour approcher des cibles fortement défendues en réduisant sa signature radar. Ses surfaces anguleuses et son armement interne donnent à l’appareil une apparence très particulière. Il vole pour la première fois le 18 juin 1981 et atteint une capacité opérationnelle initiale en octobre 1983.\n\nIl est engagé au Panama en 1989 puis pendant la guerre du Golfe de 1991. La furtivité réduit la détection sans rendre un avion invulnérable : un F-117 est abattu le 27 mars 1999 en Yougoslavie. La flotte de combat est retirée en 2008, mais certains appareils conservés participent ensuite aux essais et à l’entraînement américains.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "operatorSource": "https://www.airandspaceforces.com/weapons-platforms/f-117/",
+    "operatorNote": "États-Unis : utilisation résiduelle pour essais/entraînement, et non flotte de combat. Retrait officiel de la flotte opérationnelle en avril 2008.",
+    "storySources": [
+      {
+        "label": "National Museum USAF — F-117A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/"
+      },
+      {
+        "label": "Air Force History — pertes 1999",
+        "url": "https://www.dafhistory.af.mil/Portals/16/documents/Airmen-at-War/AFD-070912-043.pdf?ver=2016-08-22-131404-397"
+      },
+      {
+        "label": "Air & Space Forces — utilisation résiduelle",
+        "url": "https://www.airandspaceforces.com/weapons-platforms/f-117/"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le SR-71 dérive des projets de reconnaissance A-12 de Lockheed. Il privilégie une vitesse supérieure à Mach 3 et une très haute altitude pour collecter du renseignement. La chaleur à ces vitesses impose des matériaux et une conception spécifiques, avec une large utilisation du titane. Deux membres d’équipage portent des combinaisons pressurisées.\n\nSon premier vol a lieu le 22 décembre 1964 et ses premières livraisons opérationnelles en janvier 1966. En 1976, il établit des records de vitesse et d’altitude. Après sa carrière militaire, la NASA utilise plusieurs Blackbird pour la recherche aéronautique; le dernier vol NASA a lieu le 9 octobre 1999.",
+    "current": [],
+    "former": [
+      "US"
+    ],
+    "operatorSource": "https://www.nasa.gov/wp-content/uploads/2021/09/495839main_fs-030_sr-71.pdf?pubDate=20250910",
+    "formerSource": "https://www.nasa.gov/wp-content/uploads/2021/09/495839main_fs-030_sr-71.pdf?pubDate=20250910",
+    "operatorNote": "États-Unis uniquement : ancienne utilisation par l’USAF et la NASA. Les bases situées à l’étranger ne constituaient pas des exportations.",
+    "storySources": [
+      {
+        "label": "National Museum USAF — SR-71",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/"
+      },
+      {
+        "label": "NASA — carrière et recherche",
+        "url": "https://www.nasa.gov/wp-content/uploads/2021/09/495839main_fs-030_sr-71.pdf?pubDate=20250910"
+      },
+      {
+        "label": "Airman USAF — production",
+        "url": "https://www.airmanmagazine.af.mil/Features/Display/Article/2594085/airframe-the-sr-71-blackbird/"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Conçu comme bombardier intercontinental, le B-52 effectue son premier vol le 15 avril 1952. Sa grande aile et ses huit réacteurs lui permettent d’emporter une charge importante sur de longues distances. La production se termine en octobre 1962 après 744 appareils, dont 102 de la version H.\n\nLe B-52 adapte ensuite son armement et ses capteurs aux missions conventionnelles, à la surveillance maritime et aux frappes à distance. Des modernisations successives prolongent la carrière de cellules anciennes. Les caractéristiques de cette fiche correspondent au B-52H équipé de TF33 décrit par l’USAF; elles ne préjugent pas des performances de la future remotorisation.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "operatorSource": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/",
+    "operatorNote": "L’USAF est l’utilisateur opérationnel du B-52H. Les chiffres de la fiche officielle d’inventaire datent de juin 2019 et ne sont pas présentés comme actuels.",
+    "storySources": [
+      {
+        "label": "USAF — B-52H",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/"
+      },
+      {
+        "label": "USAF — premier vol",
+        "url": "https://www.kirtland.af.mil/News/Features/Display/Article/390769/this-week-in-history-april-15-1952-b-52-first-flight/"
+      },
+      {
+        "label": "Boeing — B-52",
+        "url": "https://www.boeing.com/defense/fighters-and-bombers/b-52"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le Hercules est conçu pour transporter du matériel et des soldats depuis des pistes parfois courtes ou peu aménagées. Il vole pour la première fois le 23 août 1954. Sa rampe arrière et ses quatre turbopropulseurs deviennent des éléments faciles à reconnaître.\n\nLa famille se développe en transports, ravitailleurs, appareils de sauvetage et plateformes spécialisées. Elle intervient aussi pour les évacuations médicales et l’aide après des catastrophes. Le C-130J modernise la propulsion et l’avionique, tandis que le J-30 allonge le fuselage. Les caractéristiques ci-dessous concernent le J de longueur standard; les variantes AC-130 et KC-130 ne sont pas interchangeables.",
+    "current": [
+      "US",
+      "FR",
+      "DE",
+      "IT",
+      "AU"
+    ],
+    "former": [
+      "GB"
+    ],
+    "operatorSource": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/",
+    "formerSource": "https://www.raf.mod.uk/aircraft/current-aircraft/atlas-c1-a400m/",
+    "operatorNote": "Carte partielle de la famille, limitée aux États-Unis, France, Allemagne, Italie et Australie vérifiés auprès des forces ou du constructeur. Ancien emploi militaire britannique : Hercules retiré au profit de l’Atlas. Les livraisons historiques à plus de 70 pays ne sont pas assimilées à autant de flottes actuellement actives.",
+    "extraSources": [
+      {
+        "label": "Lockheed Martin — escadron franco-allemand",
+        "url": "https://www.lockheedmartin.com/en-de/index.html"
+      },
+      {
+        "label": "Aeronautica Militare — C-130J",
+        "url": "https://www.aeronautica.difesa.it/en/2024/06/27/c-130j-hercules-ii-2/"
+      },
+      {
+        "label": "Défense australienne — modernisation juin 2026",
+        "url": "https://www.defence.gov.au/news-events/news/2026-06-17/hercules-upgrade-milestone-marked"
+      },
+      {
+        "label": "RAF — remplacement du Hercules",
+        "url": "https://www.raf.mod.uk/aircraft/current-aircraft/atlas-c1-a400m/"
+      }
+    ],
+    "storySources": [
+      {
+        "label": "USAF — C-130",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/"
+      },
+      {
+        "label": "National Museum USAF — premier vol du Hercules",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197558/lockheed-ac-130a-hercules/"
+      },
+      {
+        "label": "Lockheed Martin — histoire",
+        "url": "https://www.lockheedmartin.com/en-us/products/c130/history.html"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "L’Atlas associe le transport de charges lourdes sur de longues distances et l’accès à des terrains plus sommaires. Issu d’une coopération européenne, il effectue son premier vol le 11 décembre 2009 à Séville. Sa soute permet de transporter du fret volumineux et ses quatre turbopropulseurs entraînent des hélices à huit pales.\n\nLes livraisons commencent en 2013, puis l’avion sert aux évacuations, au transport logistique et aux parachutages. Il peut recevoir des équipements de ravitaillement en vol. Le Kazakhstan reçoit son premier A400M en décembre 2024 et l’Indonésie en novembre 2025, devenant le dixième opérateur. Sa distance franchissable diminue lorsque la charge augmente.",
+    "current": [
+      "FR",
+      "DE",
+      "ES",
+      "GB",
+      "TR",
+      "BE",
+      "LU",
+      "MY",
+      "KZ",
+      "ID"
+    ],
+    "former": [],
+    "operatorSource": "https://www.airbus.com/en/newsroom/stories/2025-02-an-ally-in-a-crisis-how-the-airbus-a400m-aircraft-rewrote-the-rules",
+    "operatorNote": "Huit utilisateurs cités par Airbus, complétés par les livraisons officielles au Kazakhstan (2024) et à l’Indonésie (2025). La carte ne transforme pas les commandes futures en flottes actives.",
+    "extraSources": [
+      {
+        "label": "Airbus — Kazakhstan",
+        "url": "https://www.airbus.com/sites/g/files/jlcbta136/files/2024-12/en_pr_a400m_kazakhstan_delivery.pdf"
+      },
+      {
+        "label": "Airbus — Indonésie",
+        "url": "https://mediaassets.airbus.com/pm_38_767_767610-fgqdx9uv09.pdf"
+      }
+    ],
+    "storySources": [
+      {
+        "label": "RAF — Atlas C.1",
+        "url": "https://www.raf.mod.uk/aircraft/current-aircraft/atlas-c1-a400m/"
+      },
+      {
+        "label": "Parlement britannique — premier vol",
+        "url": "https://publications.parliament.uk/pa/cm200910/cmselect/cmdfence/99/9905.htm"
+      },
+      {
+        "label": "Airbus — Indonésie",
+        "url": "https://mediaassets.airbus.com/pm_38_767_767610-fgqdx9uv09.pdf"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le MiG-29 est développé dans les années 1970 pour renouveler la chasse tactique soviétique face à la génération F-15 et F-16. Son prototype vole le 6 octobre 1977. La production commence en 1982 et les premières unités reçoivent leurs appareils en 1983. Il combine radar, capteur infrarouge et viseur de casque.\n\nAprès la réunification, l’Allemagne reprend des MiG-29 de l’ancienne RDA et les utilise pour la défense aérienne et l’entraînement avec les alliés. Elle remet ensuite ses avions à la Pologne. La famille évolue aussi vers des versions embarquées comme le MiG-29K indien. La fiche technique concerne le MiG-29A initial, pas le K ni le MiG-35.",
+    "current": [
+      "IN"
+    ],
+    "former": [
+      "DE"
+    ],
+    "operatorSource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1927354&lang=13&reg=22",
+    "formerSource": "https://www.bundeswehr.de/de/organisation/luftwaffe/aktuelles/30-jahre-armee-der-einheit-uebernahme-der-mig-29-3248728",
+    "operatorNote": "Carte partielle de la famille : MiG-29K de la marine indienne confirmé en 2023; ancien utilisateur allemand confirmé jusqu’en 2004. Les capacités du MiG-29K diffèrent de la fiche MiG-29A. Aucun inventaire mondial actuel n’est prétendu.",
+    "storySources": [
+      {
+        "label": "National Museum USAF — MiG-29A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/AFmuseum/mikoyan-gurevich-mig-29a/"
+      },
+      {
+        "label": "Bundeswehr — carrière allemande",
+        "url": "https://www.bundeswehr.de/de/organisation/luftwaffe/aktuelles/30-jahre-armee-der-einheit-uebernahme-der-mig-29-3248728"
+      },
+      {
+        "label": "Gouvernement indien — MiG-29K embarqué",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1927354&lang=13&reg=22"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Mil conçoit le Mi-24 comme une combinaison d’hélicoptère de combat et de transport de soldats. Le prototype V-24 décolle sur attache le 15 septembre 1969, puis effectue un vol libre quatre jours plus tard. La fabrication de série commence en 1971. Les versions D et V se distinguent par leurs deux cockpits séparés en tandem.\n\nSa cabine arrière, ses ailes portant l’armement et son train escamotable lui donnent une silhouette caractéristique. L’appareil est exporté et modernisé dans de nombreux pays. Le Mi-35M est un dérivé plus récent avec un train fixe et d’autres changements; les performances ci-dessous restent celles d’un Mi-24V historique de référence tchèque.",
+    "current": [
+      "UA"
+    ],
+    "former": [
+      "CZ"
+    ],
+    "operatorSource": "https://hups.mil.gov.ua/assets/doc/science/stud-conf/XXI_Naukova_konferenciya_2025.pdf",
+    "formerSource": "https://acr.mo.gov.cz/informacni-servis/zpravodajstvi/armada-se-louci-s-legendarnim-_dablovym-kocarem_--posledni-ostre-strelby-z-mi-24-35-probehly-v-boleticich-244362/",
+    "operatorNote": "Carte partielle : emploi ukrainien documenté en 2025 et retrait tchèque annoncé en 2023. La famille compte de nombreux autres utilisateurs; cette carte ne se veut pas exhaustive.",
+    "storySources": [
+      {
+        "label": "Parc Patriot — histoire du Mi-24",
+        "url": "https://parkpatriot.ru/o-parke/tekhnika-parka/mi-24/"
+      },
+      {
+        "label": "Rostec — Rostvertol",
+        "url": "https://www.rostec.ru/media/news/rostvertol-ot-samoletov-k-vintokrylym-mashinam/"
+      },
+      {
+        "label": "Armée tchèque — fiche historique",
+        "url": "https://www.army.cz/assets/multimedia-a-knihovna/casopisy/a-report/ar4.pdf"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le Tigre est le résultat d’une coopération française et allemande pour un nouvel hélicoptère de combat. Son prototype vole le 27 avril 1991. Les deux membres d’équipage sont installés en tandem dans une cellule conçue pour la reconnaissance armée, l’escorte et l’appui des forces au sol.\n\nLes besoins nationaux donnent naissance à plusieurs standards, notamment le HAP et le HAD français, l’UHT allemand et l’ARH australien. L’appareil est engagé en Afghanistan, en Libye et au Mali. Les évolutions de capteurs, de communications et d’armement prolongent sa carrière; l’Australie annonce en septembre 2026 la fin des vols de ses ARH pendant sa transition vers l’Apache.",
+    "current": [
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "former": [
+      "AU"
+    ],
+    "operatorSource": "https://occar.int/our-work/programmes/tiger-a-new-generation-of-helicopters",
+    "formerSource": "https://www.defence.gov.au/news-events/releases/2026-09-23/australian-army-farewells-arh-tiger-helicopters",
+    "operatorNote": "France, Allemagne et Espagne : programme OCCAR en service. Australie : fin des opérations de vol annoncée le 23 septembre 2026 dans le cadre du remplacement par l’Apache; cette couleur indique la transition annoncée, pas une date précise de radiation de chaque cellule.",
+    "storySources": [
+      {
+        "label": "Airbus — naissance et coopération",
+        "url": "https://www.airbus.com/en/newsroom/news/2021-04-the-tiger-combat-helicopter-three-decades-of-flight-and-many-more-to-come"
+      },
+      {
+        "label": "Armée de Terre — Tigre",
+        "url": "https://www.defense.gouv.fr/en/node/597"
+      },
+      {
+        "label": "Airbus — Tiger",
+        "url": "https://www.airbus.com/en/products-services/helicopters/military-helicopters/tiger"
+      },
+      {
+        "label": "Défense australienne — fin des vols ARH",
+        "url": "https://www.defence.gov.au/news-events/releases/2026-09-23/australian-army-farewells-arh-tiger-helicopters"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Les Los Angeles sont des sous-marins nucléaires d’attaque américains, entrés en service de 1976 à 1996. Leurs missions comprennent la lutte contre les sous-marins et les navires de surface, ainsi que l’emploi de missiles de croisière.\n\nLa classe évolue par lots : les 31 derniers bâtiments reçoivent douze tubes verticaux pour Tomahawk ; les 23 derniers constituent le standard amélioré 688i. Les unités restantes servent aux côtés des Virginia et Seawolf.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "operatorSource": "https://www.congress.gov/crs-product/RL32418",
+    "operatorNote": "Classe exclusivement exploitée par les États-Unis. Les nombres d’unités actives évoluent avec les retraits ; les 62 bâtiments produits représentent le total historique.",
+    "storySources": [
+      {
+        "label": "Congressional Research Service — classes de sous-marins d’attaque",
+        "url": "https://www.congress.gov/crs-product/RL32418"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le projet 971 Shchuka-B appartient à la génération soviétique de sous-marins nucléaires d’attaque construite durant les dernières décennies de la guerre froide. Le bureau Malakhit en assure la conception ; les constructions sont réparties entre l’Extrême-Orient russe et Sevmash à Severodvinsk. La recherche de discrétion et le montage par ensembles modulaires caractérisent cette famille.\n\nLe Vepr est remis à la marine russe en novembre 1995 et reste un exemple identifié de la classe par la Royal Navy en 2022. L’Inde exploite aussi le Nerpa sous le nom INS Chakra à partir d’avril 2012, sous location, avant son retour rapporté en 2021. Il faut distinguer ce projet 971 du projet 941 Typhoon : ils ont des dimensions et des missions différentes.",
+    "current": [
+      "RU"
+    ],
+    "former": [
+      "IN"
+    ],
+    "operatorSource": "https://www.royalnavy.mod.uk/news/2022/july/22/220722-hms-portland-tracks-russian-submarines",
+    "formerSource": "https://en.wikipedia.org/wiki/Russian_submarine_Nerpa_(K-152)",
+    "operatorNote": "Russie ; Inde comme ancien utilisateur du Nerpa/Chakra loué de 2012 à 2021. L’Union soviétique est l’utilisateur d’origine, représenté ici par le pays successeur russe. Le statut de chaque bâtiment russe varie entre service, réserve et modernisation.",
+    "storySources": [
+      {
+        "label": "Sevmash — 30 ans du Vepr",
+        "url": "https://sevmash.ru/rus/news/3730-2025-11-24-13-16-24.html"
+      },
+      {
+        "label": "Ministère indien de la Défense — admission du Chakra, 4 avril 2012",
+        "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=82089"
+      },
+      {
+        "label": "Royal Navy — identification du Vepr, 22 juillet 2022",
+        "url": "https://www.royalnavy.mod.uk/news/2022/july/22/220722-hms-portland-tracks-russian-submarines"
+      },
+      {
+        "label": "Nerpa/Chakra — synthèse du retour en 2021",
+        "url": "https://en.wikipedia.org/wiki/Russian_submarine_Nerpa_(K-152)"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le Type 212A naît d’une coopération entre l’Allemagne et l’Italie, formalisée par un accord intergouvernemental le 22 avril 1996. Les marines recherchent un sous-marin compact, discret et adapté aux opérations sous-marines conventionnelles. En Italie, cette famille porte le nom de classe Todaro.\n\nSon système hybride associe diesel, moteur électrique et piles à combustible. Cette propulsion anaérobie réduit le besoin de remonter pour renouveler l’air destiné au diesel ; elle ne transforme pas le bâtiment en sous-marin nucléaire. Les unités allemandes entrent en service à partir d’octobre 2005, puis le Todaro italien est remis en mars 2006. Les programmes 212CD et U212 NFS sont des évolutions distinctes.",
+    "current": [
+      "DE",
+      "IT"
+    ],
+    "former": [],
+    "operatorSource": "https://www.marina.difesa.it/noi-siamo-la-marina/pilastro-operativo/mezzi/sottomarini/Pagine/ClasseTodaro.aspx",
+    "operatorNote": "Six Type 212A allemands et quatre Todaro italiens constituent la série de référence. Les futurs Type 212CD et les nouveaux U212 NFS ne sont pas ajoutés au total du Type 212A.",
+    "storySources": [
+      {
+        "label": "Marine italienne — programme U212A",
+        "url": "https://www.marina.difesa.it/noi-siamo-la-marina/pilastro-operativo/mezzi/sottomarini/Pagine/ClasseTodaro.aspx"
+      },
+      {
+        "label": "Bundeswehr — classe 212 A",
+        "url": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le Mistral est un bâtiment de projection qui combine plusieurs fonctions : embarquer des troupes et leurs véhicules, faire opérer des hélicoptères, accueillir un état-major et apporter un soutien médical. Un radier permet d’utiliser des engins de débarquement, tandis qu’un vaste pont continu est destiné aux aéronefs à voilure tournante.\n\nLa Marine nationale emploie trois porte-hélicoptères amphibies de cette famille. L’Égypte reçoit deux unités supplémentaires, Gamal Abdel Nasser et Anwar El Sadat, en juin et septembre 2016. Selon les déploiements, les mêmes bâtiments participent à des exercices, à des missions de présence ou à des opérations d’assistance ; leurs capacités se comprennent à l’échelle d’une force navale et des détachements embarqués.",
+    "current": [
+      "FR",
+      "EG"
+    ],
+    "former": [],
+    "operatorSource": "https://www.naval-group.com/en/leading-expertise-across-oceans",
+    "operatorNote": "Trois bâtiments français et deux égyptiens. Les deux unités égyptiennes avaient initialement été commandées pour la Russie mais n’y ont pas été admises au service : la Russie n’est pas un ancien opérateur.",
+    "storySources": [
+      {
+        "label": "Ministère des Armées — dossier Jeanne d’Arc 2025",
+        "url": "https://www.defense.gouv.fr/sites/default/files/operations/2025_MPAR_PAO_DOSSIER_DE_PRESSE_JDA25_v7.pdf"
+      },
+      {
+        "label": "Marine nationale — trois PHA",
+        "url": "https://www.defense.gouv.fr/marine/forces-surface"
+      },
+      {
+        "label": "Naval Group — livraisons à l’Égypte",
+        "url": "https://www.naval-group.com/en/leading-expertise-across-oceans"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "L’Izumo et le Kaga forment une classe japonaise à pont d’envol continu, conçue initialement pour l’activité des hélicoptères de la Force maritime d’autodéfense. Les deux bâtiments entrent en service en 2015 et 2017. Leur architecture favorise l’exploitation de plusieurs aéronefs et les missions de soutien d’une force navale.\n\nLe Japon engage ensuite leur adaptation à l’accueil du F-35B, avion à décollage court et atterrissage vertical. Le Kaga réalise des essais embarqués au large de San Diego à l’automne 2024 avec l’appui des forces américaines. Une étape d’essai ou d’intégration ne signifie pas que tous les bâtiments ont déjà la même capacité opérationnelle ; leur configuration évolue au fil des travaux.",
+    "current": [
+      "JP"
+    ],
+    "former": [],
+    "operatorSource": "https://www.mod.go.jp/msdf/equipment/ships/ddh/izumo/index.html",
+    "operatorNote": "Deux bâtiments japonais : Izumo et Kaga. Les aéronefs américains employés pendant les essais ne font pas des États-Unis un opérateur de cette classe.",
+    "storySources": [
+      {
+        "label": "JMSDF — classe Izumo",
+        "url": "https://www.mod.go.jp/msdf/equipment/ships/ddh/izumo/index.html"
+      },
+      {
+        "label": "JMSDF — essais F-35B du Kaga en 2024",
+        "url": "https://www.mod.go.jp/msdf/sf/english/news/2024/11/1120-1.html"
+      },
+      {
+        "label": "Navypedia — dates des deux bâtiments",
+        "url": "https://www.navypedia.org/ships/japan/jap_cv_izumo.htm"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le programme SCALP-EG/Storm Shadow illustre la coopération franco-britannique dans les missiles. La France retient une série initiale de 500 SCALP, tandis que la version britannique prend le nom Storm Shadow. Le missile est lancé depuis un avion et vole grâce à un turboréacteur ; il se distingue donc d’une bombe planante et d’un missile balistique.\n\nLe système combine navigation inertielle, satellites et référence au terrain, avec une reconnaissance infrarouge en phase terminale. MBDA documente son emploi en Irak, en Libye et en Syrie. Le Royaume-Uni confirme son transfert à l’Ukraine en mai 2023. La portée publique doit être associée à la version et aux conditions de référence : MBDA annonce plus de 250 km, sans publier un maximum unique pour toutes les configurations.",
+    "current": [
+      "FR",
+      "GB",
+      "IT",
+      "GR",
+      "EG",
+      "IN",
+      "QA",
+      "SA",
+      "UA"
+    ],
+    "former": [],
+    "operatorSource": "https://en.wikipedia.org/wiki/Storm_Shadow",
+    "operatorNote": "Carte de la famille SCALP-EG/Storm Shadow en service ; les commandes récentes seules ne sont pas assimilées à des livraisons. Black Shaheen des Émirats est une variante export distincte, exclue de cette carte. La Croatie est mentionnée pour une commande mais n’est pas ajoutée sans confirmation de livraison.",
+    "storySources": [
+      {
+        "label": "MBDA — fiche Storm Shadow/SCALP",
+        "url": "https://www.mbda-systems.com/products/deep-strike/storm-shadow-scalp"
+      },
+      {
+        "label": "Parlement britannique — coopération SCALP/Storm Shadow",
+        "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmdfence/1071/107106.htm"
+      },
+      {
+        "label": "Gouvernement britannique — transfert à l’Ukraine",
+        "url": "https://www.gov.uk/government/speeches/defence-secretary-oral-statement-on-war-in-ukraine--3"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "BrahMos Aerospace développe une famille de missiles de croisière supersoniques dans une coopération entre l’Inde et la Russie. Son nom rapproche le Brahmapoutre indien et la Moskova russe. Le premier lancement a lieu le 12 juin 2001, puis des versions équipent les armées de terre, de l’air et la marine indiennes.\n\nUn accélérateur à propergol solide précède la propulsion par statoréacteur. Le constructeur présente la version classique avec une portée jusqu’à 290 km et une vitesse de croisière proche de Mach 2,8 ; les versions à portée étendue ne doivent pas être confondues avec cette référence. Les Philippines deviennent le premier client export de la version côtière, avec une première livraison annoncée en avril 2024.",
+    "current": [
+      "IN",
+      "PH"
+    ],
+    "former": [],
+    "operatorSource": "https://newsonair.gov.in/india-delivers-1st-batch-of-brahmos-supersonic-cruise-missiles-to-philippines/",
+    "operatorNote": "Inde et Philippines, pour des versions différentes. La Russie est partenaire industriel et pays de conception ; elle n’est pas ajoutée comme opérateur du BrahMos sans preuve de mise en service.",
+    "storySources": [
+      {
+        "label": "BrahMos Aerospace — historique et famille",
+        "url": "https://www.brahmos.com/"
+      },
+      {
+        "label": "BrahMos Aerospace — missile classique",
+        "url": "https://www.brahmos.com/page/brahmos-missile?wpappninja_v=z0xbw2kjr"
+      },
+      {
+        "label": "Akashvani — première livraison aux Philippines",
+        "url": "https://newsonair.gov.in/india-delivers-1st-batch-of-brahmos-supersonic-cruise-missiles-to-philippines/"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "ATACMS, pour Army Tactical Missile System, apporte à l’armée américaine une capacité balistique conventionnelle tirée depuis un lanceur d’artillerie. La famille connaît son premier emploi opérationnel dans la guerre du Golfe en 1991. Les premiers modèles à sous-munitions et les versions ultérieures à charge unitaire ne possèdent pas exactement les mêmes caractéristiques.\n\nChaque missile occupe un pod de lancement, compatible avec le M270 et le HIMARS. La fiche actuelle du constructeur décrit une version à navigation inertielle assistée par GPS, charge unitaire et portée maximale de 300 km. Le PrSM est développé comme successeur, avec deux missiles par pod. ATACMS équipe également plusieurs armées alliées et est fourni à l’Ukraine à partir de 2023.",
+    "current": [
+      "US",
+      "KR",
+      "GR",
+      "TR",
+      "BH",
+      "AE",
+      "QA",
+      "RO",
+      "PL",
+      "UA",
+      "EE",
+      "AU"
+    ],
+    "former": [],
+    "operatorSource": "https://en.wikipedia.org/wiki/ATACMS",
+    "operatorNote": "Carte des utilisateurs documentés de la famille. Versions anciennes de 165 km et versions de 300 km coexistent. Les commandes de nouveaux clients non livrées ne sont pas prises comme preuve de service ; les stocks exacts ne sont pas déduits de contrats d’autorisation de vente.",
+    "storySources": [
+      {
+        "label": "Lockheed Martin — fiche ATACMS",
+        "url": "https://lockheedmartin.com/en-us/products/army-tactical-missile-system.html"
+      },
+      {
+        "label": "US Army — ATACMS et son successeur",
+        "url": "https://www.army.mil/article/278296/then_now_atacms_to_prsm_out_with_the_old_in_with_the_new"
+      },
+      {
+        "label": "IISS — premiers emplois ukrainiens",
+        "url": "https://www.iiss.org/online-analysis/missile-dialogue-initiative/2023/10/ukraine-targets-russian-airfields-with-us-supplied-atacms-missile/"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le système Iskander-M est développé par le bureau KBM en Russie et admis au service en 2006, selon Rostec. Son lanceur routier est associé à la famille de missiles tactiques 9M723. L’appellation Iskander est cependant souvent utilisée pour plusieurs systèmes apparentés, ce qui crée des confusions entre missile balistique, version export et missile de croisière.\n\nLe 9M723 n’est pas un ICBM : il appartient à la catégorie des missiles balistiques de courte portée. Les sources publiques donnent des valeurs différentes selon les versions et leurs analyses. Le CSIS retenait 400 à 500 km en 2024 ; la base ukrainienne War & Sanctions du GUR affiche désormais 390 km pour sa référence 9M723. Cette divergence est conservée explicitement, sans transformer l’un de ces chiffres en vérité commune à toute la famille.",
+    "current": [
+      "RU",
+      "BY"
+    ],
+    "former": [],
+    "operatorSource": "https://www.vedomosti.ru/politics/news/2023/08/30/992700-rossiya-peredala-iskander-m",
+    "operatorNote": "Russie et Biélorussie pour Iskander-M. Arménie et Algérie sont liées à la version export Iskander-E : elles sont exclues de cette fiche centrée sur M/9M723.",
+    "storySources": [
+      {
+        "label": "Rostec — concepteur et admission au service",
+        "url": "https://rostec.ru/media/news/pamyati-sozdatelya-iskandera/"
+      },
+      {
+        "label": "GUR ukrainien — référence 9M723",
+        "url": "https://war-sanctions.gur.gov.ua/ru/ballistics/iskander"
+      },
+      {
+        "label": "CSIS Missile Threat — famille Iskander",
+        "url": "https://missilethreat.csis.org/missile/ss-26-2/"
+      },
+      {
+        "label": "VoenTV Biélorussie — nouveaux Iskander-M, août 2023",
+        "url": "https://www.youtube.com/watch?v=jyugwR2dsP4"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Meteor résulte d’un programme conduit par MBDA avec le Royaume-Uni, la France, l’Allemagne, l’Italie, l’Espagne et la Suède. Conçu pour l’interception au-delà de la vue du pilote, il associe un autodirecteur radar actif à une liaison de données et à une propulsion par statoréacteur. La Suède est le premier pays à le mettre en service, en 2016 sur Gripen.\n\nLe missile est ensuite intégré à d’autres avions, notamment Eurofighter et Rafale. Les essais d’intégration au F-35 poursuivent l’élargissement de ses plateformes. Saab publie une portée supérieure à 100 km : c’est une indication générale, pas une distance garantie dans toute situation. La distance d’interception et l’énergie restante dépendent du contexte de vol et ne se résument pas à un maximum unique.",
+    "current": [
+      "GB",
+      "FR",
+      "DE",
+      "IT",
+      "ES",
+      "SE",
+      "BR",
+      "GR",
+      "IN",
+      "QA",
+      "HR",
+      "EG"
+    ],
+    "former": [],
+    "operatorSource": "https://en.wikipedia.org/wiki/Meteor_(missile)",
+    "operatorNote": "Utilisateurs documentés sur Gripen, Eurofighter ou Rafale. Les clients seulement en phase de commande ou d’intégration ne sont pas automatiquement considérés opérationnels ; Corée du Sud, Turquie, Émirats, Ukraine et Indonésie ne sont pas ajoutés ici sans confirmation suffisamment claire de capacité en service.",
+    "storySources": [
+      {
+        "label": "MBDA — programme et caractéristiques",
+        "url": "https://www.mbda-systems.com/products/air-dominance/meteor"
+      },
+      {
+        "label": "Saab — Meteor et première mise en service",
+        "url": "https://www.saab.com/products/meteor"
+      },
+      {
+        "label": "MBDA — essais F-35A de décembre 2025",
+        "url": "https://www.mbda-systems.com/meteor-missile-and-f-35a-one-step-closer-operational-capability"
+      },
+      {
+        "label": "MBDA — commande allemande et essai brésilien",
+        "url": "https://www.mbda-systems.com/mbda-receives-new-order-more-meteor-germany"
+      }
+    ],
+    "checkedAt": "11 octobre 2026"
   }
 ];

@@ -6,7 +6,7 @@ La navigation rassemble Actualités, Jeux et Histoire. La copie locale s’ouvre
 
 ## Catalogue et jeux
 
-Le catalogue commun contient 100 engins, dont dix-huit missiles. Les mêmes photos et crédits alimentent l’histoire, le jeu du pays de conception, la reconnaissance du nom, Zoom mystère et le défi du jour. Les jeux du pays et du nom ont une catégorie Missiles. Le vrai/faux comprend 67 affirmations sourcées ; Chrono défense utilise 19 dates de premier vol vérifiées. Les missiles ne sont pas ajoutés artificiellement aux questions de premier vol d’avions.
+Le catalogue commun contient 130 engins, dont dix-huit missiles. Les mêmes photos et crédits alimentent l’histoire, le jeu du pays de conception, la reconnaissance du nom, Zoom mystère et le défi du jour. Les jeux du pays et du nom ont une catégorie Missiles. Le vrai/faux comprend 97 affirmations sourcées ; Chrono défense utilise 29 dates de premier vol vérifiées. Les missiles ne sont pas ajoutés artificiellement aux questions de premier vol d’avions.
 
 Le septième jeu, « Alerte radar », propose dix manches sur une carte de France : identifier des pistes mobiles, laisser passer les amies et choisir un moyen fictif pour les hostiles. Les règles et effets sont inventés pour le jeu. Les scores et erreurs rejoignent le carnet local du navigateur.
 
@@ -14,7 +14,7 @@ Pour les programmes multinationaux documentés, chacun des pays partenaires indi
 
 ## Histoire
 
-Les 100 fiches partagent l’ordre d’engins-data.js ; histoire-data.js contient les récits et histoire-chiffres.js les statistiques sourcées. Les sources officielles, constructeurs et travaux spécialisés sont cités. Chaque chiffre indique son périmètre et sa date : production, livraison, flotte ou pertes documentées. Une information indisponible ne signifie pas zéro. La carte distingue conception, utilisateurs actuels documentés et anciens utilisateurs. Les commandes et lieux de déploiement ne sont pas assimilés à des utilisateurs. Certaines nouvelles fiches ne recensent que les pays de conception ; cela est signalé.
+Les 130 fiches partagent l’ordre d’engins-data.js ; histoire-data.js contient les récits et histoire-chiffres.js les statistiques sourcées. Les sources officielles, constructeurs et travaux spécialisés sont cités. Chaque chiffre indique son périmètre et sa date : production, livraison, flotte ou pertes documentées. Une information indisponible ne signifie pas zéro. La carte distingue conception, utilisateurs actuels documentés et anciens utilisateurs. Les commandes et lieux de déploiement ne sont pas assimilés à des utilisateurs. Certaines nouvelles fiches ne recensent que les pays de conception ; cela est signalé.
 
 Les photos Wikimedia Commons sont conservées avec leurs crédits et licences dans assets/jeu/ajouts et ses sous-dossiers serie-2, serie-3, serie-4 et serie-5. Les polices IBM Plex et leur licence sont dans assets/fonts/atlas. Le fond cartographique Natural Earth est dans le domaine public.
 
@@ -40,3 +40,9 @@ Dix nouvelles fiches, dont six ICBM, portent le catalogue à 100 engins et 18 mi
 Le huitième jeu est une gestion de base côtière, au tour par tour. Deux décisions par semaine pendant douze semaines : missions, réparations, formations, repos et améliorations de cinq bâtiments. Six engins de l’atlas disposent de sprites originaux dessinés dans `qg-radar-art.js`. Les valeurs et missions sont fictives. Vingt événements sont possibles ; douze sont tirés sans répétition par campagne.
 
 La campagne est sauvegardée dans ce navigateur sous `radar-qg-campaign-v1`, indépendamment des autres jeux. Une sauvegarde invalide est remplacée proprement. Les scores sont ajoutés une seule fois par campagne au carnet de joueur. Commandes de zoom, déplacement, pause des animations et préférence de mouvement réduit sont disponibles.
+
+## Série 6 — 30 nouveaux engins, 11 octobre 2026
+
+Le catalogue partagé compte 130 entrées. Cette série ajoute 10 engins terrestres, 10 appareils aériens, 5 familles navales et 5 missiles. Chaque ajout possède sa fiche Histoire, ses caractéristiques sourcées, une frise et une galerie de 2 ou 3 photographies réelles créditées. 29 nouvelles vues 3D sont proposées ; le modèle Type 212 trouvé était trop sommaire pour être retenu. Les variantes représentées sont indiquées. Le filtre « Ajouts récents » permet de retrouver cette série.
+
+Les quatre jeux photographiques (pays, nom, zoom, défi), le vrai/faux, Chrono, la révision et le comparateur utilisent les nouveaux contenus pertinents. Alerte radar et QG Radar conservent leurs scénarios fictifs équilibrés. 30 affirmations et 10 premiers vols documentés sont ajoutés. Les cartes d’utilisateurs précisent leur périmètre ; les commandes, livraisons, productions et inventaires restent distincts. Les destructions non établies ne reçoivent aucun total inventé.

@@ -547,3 +547,319 @@ window.LDV_CHRONO = [
     "source": "https://www.boeing.com/features/2023/06/22-fast-facts-on-the-bell-boeing-v-22-osprey"
   }
 ];
+
+// Série 6 : questions et premiers vols documentés.
+window.LDV_FACTS.push(...[
+  {
+    "ref": "T-72",
+    "claim": "Le T-72M1 possède quatre membres d’équipage.",
+    "answer": false,
+    "explanation": "Il en possède trois : un chargeur automatique remplace le chargeur humain.",
+    "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-72/",
+    "reason": "Il en possède trois : un chargeur automatique remplace le chargeur humain."
+  },
+  {
+    "ref": "T-80",
+    "claim": "Toutes les variantes de T-80 utilisent une turbine à gaz.",
+    "answer": false,
+    "explanation": "Le T-80UD emploie un diesel ; il existe donc des versions différentes au sein de la famille.",
+    "source": "https://man.fas.org/dod-101/sys/land/row/t80tank.htm",
+    "reason": "Le T-80UD emploie un diesel ; il existe donc des versions différentes au sein de la famille."
+  },
+  {
+    "ref": "BMP-3",
+    "claim": "Le BMP-3 combine un canon de 100 mm et un canon automatique de 30 mm.",
+    "answer": true,
+    "explanation": "Ces deux armements figurent dans sa fiche export.",
+    "source": "https://roe.ru/pdfs/pdf_4442.pdf",
+    "reason": "Ces deux armements figurent dans sa fiche export."
+  },
+  {
+    "ref": "BTR-80",
+    "claim": "Le BTR-80 de base possède un canon automatique de 30 mm.",
+    "answer": false,
+    "explanation": "Le modèle de base utilise une mitrailleuse de 14,5 mm ; le canon de 30 mm concerne notamment le BTR-82A.",
+    "source": "https://roe.ru/pdfs/pdf_4445.pdf",
+    "reason": "Le modèle de base utilise une mitrailleuse de 14,5 mm ; le canon de 30 mm concerne notamment le BTR-82A."
+  },
+  {
+    "ref": "Warrior",
+    "claim": "Le Warrior FV510 transporte sept fantassins en plus de son équipage.",
+    "answer": true,
+    "explanation": "La fiche britannique indique une capacité de 3 + 7.",
+    "source": "https://www.army.mod.uk/learn-and-explore/equipment/combat-vehicles/warrior/",
+    "reason": "La fiche britannique indique une capacité de 3 + 7."
+  },
+  {
+    "ref": "AMX-10 RC",
+    "claim": "Un AMX-10 RCR doté de surprotection SEPAR conserve sa capacité amphibie.",
+    "answer": false,
+    "explanation": "La fiche officielle précise que la capacité amphibie disparaît avec la surprotection.",
+    "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/amx-10-rcr-separ",
+    "reason": "La fiche officielle précise que la capacité amphibie disparaît avec la surprotection."
+  },
+  {
+    "ref": "M109 Paladin",
+    "claim": "Le M109A7 emploie un châssis entièrement identique à celui du M109A6.",
+    "answer": false,
+    "explanation": "Il reçoit un nouveau châssis, avec des composants partagés avec le Bradley.",
+    "source": "https://www.baesystems.com/en/article/bae-systems-receives-u-s--army-contract-to-begin-m109a7-full-rate-production",
+    "reason": "Il reçoit un nouveau châssis, avec des composants partagés avec le Bradley."
+  },
+  {
+    "ref": "M777",
+    "claim": "Le M777 est un obusier automoteur à chenilles.",
+    "answer": false,
+    "explanation": "C’est un obusier tracté ; sa légèreté permet notamment son transport aérien.",
+    "source": "https://www.baesystems.com/dam/jcr:460e123c-94b6-4bea-a619-eed32a8b87a7",
+    "reason": "C’est un obusier tracté ; sa légèreté permet notamment son transport aérien."
+  },
+  {
+    "ref": "Gepard",
+    "claim": "Le Gepard possède deux canons de 35 mm.",
+    "answer": true,
+    "explanation": "La Bundeswehr décrit deux canons automatiques de 35 mm.",
+    "source": "https://www.bundeswehr.de/de/meldungen/flugabwehrkanonenpanzer-gepard-5400072",
+    "reason": "La Bundeswehr décrit deux canons automatiques de 35 mm."
+  },
+  {
+    "ref": "VBCI",
+    "claim": "Le VBCI français standard de combat possède huit roues motrices.",
+    "answer": true,
+    "explanation": "La DGA décrit un véhicule blindé à huit roues motrices.",
+    "source": "https://www.defense.gouv.fr/dga/vehicule-blinde-combat-dinfanterie-vbci",
+    "reason": "La DGA décrit un véhicule blindé à huit roues motrices."
+  },
+  {
+    "ref": "F-14 Tomcat",
+    "claim": "Les ailes du F-14 Tomcat sont à géométrie variable.",
+    "answer": true,
+    "explanation": "La flèche des ailes varie; cette caractéristique distingue visuellement le Tomcat.",
+    "reason": "La flèche des ailes varie; cette caractéristique distingue visuellement le Tomcat.",
+    "source": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html"
+  },
+  {
+    "ref": "F-15E Strike Eagle",
+    "claim": "Le F-15E Strike Eagle est normalement piloté par un équipage de deux personnes.",
+    "answer": true,
+    "explanation": "Le second siège est occupé par l’officier systèmes d’armes.",
+    "reason": "Le second siège est occupé par l’officier systèmes d’armes.",
+    "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/"
+  },
+  {
+    "ref": "F-117 Nighthawk",
+    "claim": "La furtivité du F-117 signifie qu’il ne peut jamais être abattu.",
+    "answer": false,
+    "explanation": "Un F-117A a été abattu en Yougoslavie le 27 mars 1999; son pilote a été secouru.",
+    "reason": "Un F-117A a été abattu en Yougoslavie le 27 mars 1999; son pilote a été secouru.",
+    "source": "https://www.dafhistory.af.mil/Portals/16/documents/Airmen-at-War/AFD-070912-043.pdf?ver=2016-08-22-131404-397"
+  },
+  {
+    "ref": "SR-71 Blackbird",
+    "claim": "Le SR-71 Blackbird emporte un canon de 20 mm.",
+    "answer": false,
+    "explanation": "Le musée de l’USAF indique « aucun » à la rubrique armement; sa mission était la reconnaissance.",
+    "reason": "Le musée de l’USAF indique « aucun » à la rubrique armement; sa mission était la reconnaissance.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/"
+  },
+  {
+    "ref": "B-52 Stratofortress",
+    "claim": "Le B-52H présenté dans sa configuration TF33 possède huit réacteurs.",
+    "answer": true,
+    "explanation": "L’USAF liste huit turbofan TF33-P-3/103.",
+    "reason": "L’USAF liste huit turbofan TF33-P-3/103.",
+    "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/"
+  },
+  {
+    "ref": "C-130 Hercules",
+    "claim": "Le C-130 est conçu uniquement pour opérer depuis de grandes pistes parfaitement aménagées.",
+    "answer": false,
+    "explanation": "L’USAF décrit sa capacité à opérer depuis des pistes sommaires et en terre.",
+    "reason": "L’USAF décrit sa capacité à opérer depuis des pistes sommaires et en terre.",
+    "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1555054/c-130-hercules/"
+  },
+  {
+    "ref": "A400M Atlas",
+    "claim": "La distance franchissable de l’A400M est indépendante du poids de sa cargaison.",
+    "answer": false,
+    "explanation": "La brochure Airbus distingue notamment 3 300 km à charge maximale et 4 450 km avec 30 tonnes.",
+    "reason": "La brochure Airbus distingue notamment 3 300 km à charge maximale et 4 450 km avec 30 tonnes.",
+    "source": "https://image.contactad.airbus.com/lib/fe2d1171756404747c1678/m/1/7f52cf78-0b6e-49b2-8028-4cc0b85158bd.pdf"
+  },
+  {
+    "ref": "MiG-29 Fulcrum",
+    "claim": "La Luftwaffe allemande a utilisé des MiG-29 après la réunification.",
+    "answer": true,
+    "explanation": "La Bundeswehr a intégré des MiG-29 de l’ancienne RDA, puis les a transférés à la Pologne.",
+    "reason": "La Bundeswehr a intégré des MiG-29 de l’ancienne RDA, puis les a transférés à la Pologne.",
+    "source": "https://www.bundeswehr.de/de/organisation/luftwaffe/aktuelles/30-jahre-armee-der-einheit-uebernahme-der-mig-29-3248728"
+  },
+  {
+    "ref": "Mi-24 Hind",
+    "claim": "Le Mi-24 possède aussi une cabine permettant de transporter des soldats.",
+    "answer": true,
+    "explanation": "Le musée militaire décrit une cabine pour huit soldats en plus de la mission d’appui armé.",
+    "reason": "Le musée militaire décrit une cabine pour huit soldats en plus de la mission d’appui armé.",
+    "source": "https://parkpatriot.ru/o-parke/tekhnika-parka/mi-24/"
+  },
+  {
+    "ref": "Tigre EC665",
+    "claim": "Le Tigre EC665 a été développé uniquement aux États-Unis.",
+    "answer": false,
+    "explanation": "Le constructeur décrit une coopération entre la France et l’Allemagne.",
+    "reason": "Le constructeur décrit une coopération entre la France et l’Allemagne.",
+    "source": "https://www.airbus.com/en/newsroom/news/2021-04-the-tiger-combat-helicopter-three-decades-of-flight-and-many-more-to-come"
+  },
+  {
+    "ref": "Classe Los Angeles",
+    "claim": "Les 62 sous-marins de la classe Los Angeles possédaient tous douze tubes verticaux pour Tomahawk.",
+    "answer": false,
+    "explanation": "Le CRS indique que seuls les 31 derniers bâtiments ont reçu ces douze tubes verticaux.",
+    "source": "https://www.congress.gov/crs-product/RL32418",
+    "reason": "Le CRS indique que seuls les 31 derniers bâtiments ont reçu ces douze tubes verticaux."
+  },
+  {
+    "ref": "Classe Akula (Projet 971)",
+    "claim": "L’Inde a exploité un sous-marin du projet 971 sous le nom INS Chakra.",
+    "answer": true,
+    "explanation": "Le Nerpa, de la famille Akula/projet 971, est admis dans la marine indienne le 4 avril 2012 sous le nom Chakra.",
+    "source": "https://en.wikipedia.org/wiki/Russian_submarine_Nerpa_(K-152)",
+    "reason": "Le Nerpa, de la famille Akula/projet 971, est admis dans la marine indienne le 4 avril 2012 sous le nom Chakra."
+  },
+  {
+    "ref": "Type 212A",
+    "claim": "Le Type 212A doit sa propulsion anaérobie à un réacteur nucléaire.",
+    "answer": false,
+    "explanation": "Il utilise des piles à combustible en complément de sa propulsion diesel-électrique ; il n’a pas de réacteur nucléaire.",
+    "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a",
+    "reason": "Il utilise des piles à combustible en complément de sa propulsion diesel-électrique ; il n’a pas de réacteur nucléaire."
+  },
+  {
+    "ref": "Classe Mistral",
+    "claim": "La classe Mistral n’est utilisée que par la Marine française.",
+    "answer": false,
+    "explanation": "Deux bâtiments de cette classe ont été livrés à la marine égyptienne en 2016.",
+    "source": "https://www.naval-group.com/en/leading-expertise-across-oceans",
+    "reason": "Deux bâtiments de cette classe ont été livrés à la marine égyptienne en 2016."
+  },
+  {
+    "ref": "Classe Izumo",
+    "claim": "Le Kaga a effectué des essais d’exploitation du F-35B en 2024.",
+    "answer": true,
+    "explanation": "La JMSDF confirme ces essais embarqués, effectués avec l’appui américain au large de San Diego.",
+    "source": "https://www.mod.go.jp/msdf/sf/english/news/2024/11/1120-1.html",
+    "reason": "La JMSDF confirme ces essais embarqués, effectués avec l’appui américain au large de San Diego."
+  },
+  {
+    "ref": "SCALP-EG / Storm Shadow",
+    "claim": "Storm Shadow est le nom britannique d’une famille dont la version française s’appelle SCALP-EG.",
+    "answer": true,
+    "explanation": "Les deux désignations découlent d’un programme franco-britannique partagé.",
+    "source": "https://publications.parliament.uk/pa/cm201719/cmselect/cmdfence/1071/107106.htm",
+    "reason": "Les deux désignations découlent d’un programme franco-britannique partagé."
+  },
+  {
+    "ref": "BrahMos",
+    "claim": "Le BrahMos classique décrit par le constructeur utilise un statoréacteur après son accélérateur initial.",
+    "answer": true,
+    "explanation": "Le premier étage est un accélérateur solide ; le second emploie un statoréacteur à carburant liquide.",
+    "source": "https://www.brahmos.com/page/brahmos-missile?wpappninja_v=z0xbw2kjr",
+    "reason": "Le premier étage est un accélérateur solide ; le second emploie un statoréacteur à carburant liquide."
+  },
+  {
+    "ref": "ATACMS",
+    "claim": "Un pod ATACMS contient un seul missile.",
+    "answer": true,
+    "explanation": "La fiche du constructeur indique un missile par pod ; son successeur PrSM en emporte deux.",
+    "source": "https://www.lockheedmartin.com/content/dam/lockheed-martin/mfc/documents/business-area-landing/mfc-Fast-Facts-ATACMS.pdf",
+    "reason": "La fiche du constructeur indique un missile par pod ; son successeur PrSM en emporte deux."
+  },
+  {
+    "ref": "Iskander-M",
+    "claim": "L’Iskander-M est un missile balistique intercontinental.",
+    "answer": false,
+    "explanation": "Il s’agit d’un missile tactique de courte portée ; la référence publique est de quelques centaines de kilomètres, pas d’une portée intercontinentale.",
+    "source": "https://missilethreat.csis.org/missile/ss-26-2/",
+    "reason": "Il s’agit d’un missile tactique de courte portée ; la référence publique est de quelques centaines de kilomètres, pas d’une portée intercontinentale."
+  },
+  {
+    "ref": "Meteor",
+    "claim": "La Suède a été le premier pays à mettre le Meteor en service.",
+    "answer": true,
+    "explanation": "Saab situe cette première mise en service en 2016, sur Gripen.",
+    "source": "https://www.saab.com/products/meteor",
+    "reason": "Saab situe cette première mise en service en 2016, sur Gripen."
+  }
+]);
+window.LDV_CHRONO.push(...[
+  {
+    "name": "F-14 Tomcat",
+    "year": 1970,
+    "date": "21 décembre 1970",
+    "source": "https://www.history.navy.mil/browse-by-topic/communities/naval-aviation/1970-1979.html",
+    "context": "Premier vol de F-14 Tomcat."
+  },
+  {
+    "name": "F-15E Strike Eagle",
+    "year": 1986,
+    "date": "11 décembre 1986",
+    "source": "https://www.af.mil/Portals/1/documents/cct/2016/CCT_Dec_8_2016.pdf?ver=2016-12-08-163143-640",
+    "context": "Premier vol du F-15E de série, distinct du premier F-15A de 1972."
+  },
+  {
+    "name": "F-117 Nighthawk",
+    "year": 1981,
+    "date": "18 juin 1981",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/",
+    "context": "Premier vol de F-117 Nighthawk."
+  },
+  {
+    "name": "SR-71 Blackbird",
+    "year": 1964,
+    "date": "22 décembre 1964",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/",
+    "context": "Premier vol de SR-71 Blackbird."
+  },
+  {
+    "name": "B-52 Stratofortress",
+    "year": 1952,
+    "date": "15 avril 1952",
+    "source": "https://www.kirtland.af.mil/News/Features/Display/Article/390769/this-week-in-history-april-15-1952-b-52-first-flight/",
+    "context": "Premier vol de B-52 Stratofortress."
+  },
+  {
+    "name": "C-130 Hercules",
+    "year": 1954,
+    "date": "23 août 1954",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197558/lockheed-ac-130a-hercules/",
+    "context": "Premier vol de C-130 Hercules."
+  },
+  {
+    "name": "A400M Atlas",
+    "year": 2009,
+    "date": "11 décembre 2009",
+    "source": "https://publications.parliament.uk/pa/cm200910/cmselect/cmdfence/99/9905.htm",
+    "context": "Premier vol de A400M Atlas."
+  },
+  {
+    "name": "MiG-29 Fulcrum",
+    "year": 1977,
+    "date": "6 octobre 1977",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/AFmuseum/mikoyan-gurevich-mig-29a/",
+    "context": "Premier vol de MiG-29 Fulcrum."
+  },
+  {
+    "name": "Mi-24 Hind",
+    "year": 1969,
+    "date": "15 septembre 1969",
+    "source": "https://parkpatriot.ru/o-parke/tekhnika-parka/mi-24/",
+    "context": "Premier décollage du prototype V-24 sur attache; premier vol libre le 19 septembre 1969."
+  },
+  {
+    "name": "Tigre EC665",
+    "year": 1991,
+    "date": "27 avril 1991",
+    "source": "https://www.airbus.com/en/newsroom/news/2021-04-the-tiger-combat-helicopter-three-decades-of-flight-and-many-more-to-come",
+    "context": "Premier vol de Tigre EC665."
+  }
+]);

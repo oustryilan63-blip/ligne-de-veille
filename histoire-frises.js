@@ -1494,5 +1494,593 @@ window.LDV_TIMELINES = {
       "detail": "Raytheon annonce l’autorisation de production à pleine cadence du SM-3 Block IIA.",
       "source": "https://raytheon.mediaroom.com/2024-10-15-RTXs-Raytheon-SM-3-R-Block-IIA-achieves-full-rate-production-approval"
     }
+  ],
+  "100": [
+    {
+      "date": "Guerre froide",
+      "label": "Diffusion internationale",
+      "detail": "Fabrication et exportation de la famille dans plusieurs pays.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-72/"
+    },
+    {
+      "date": "Septembre 2026",
+      "label": "T-72B3M toujours livré",
+      "detail": "Rostec annonce de nouvelles livraisons à l’armée russe.",
+      "source": "https://rostec.ru/media/news/kontsern-uvz-ko-dnyu-tankista-otpravil-v-voyska-tanki-t-90m-i-t-72b3m/"
+    }
+  ],
+  "101": [
+    {
+      "date": "6 juillet 1976",
+      "label": "Adoption du T-80",
+      "detail": "Entrée dans l’armement soviétique selon l’historique industriel.",
+      "source": "https://www.rostec.ru/media/news/gazoturbinnaya-legenda-50-let-tanku-t-80/"
+    },
+    {
+      "date": "2017",
+      "label": "Contrat de modernisation",
+      "detail": "Contrat de rénovation de T-80BV au standard BVM.",
+      "source": "https://www.rostec.ru/media/news/t-80bvm-letayushchiy-tank-snova-v-stroyu/"
+    }
+  ],
+  "102": [
+    {
+      "date": "1987",
+      "label": "Adoption",
+      "detail": "Le BMP-3 est adopté dans l’armement soviétique.",
+      "source": "https://rostec.ru/media/news/bmp-3-koroleva-pekhoty/"
+    },
+    {
+      "date": "9 avril 2025",
+      "label": "Protection renforcée",
+      "detail": "Livraison annoncée d’engins dotés de protections supplémentaires.",
+      "source": "https://rostec.ru/en/media/news/rostec-delivered-a-new-batch-of-the-bmp-3-to-the-army/"
+    }
+  ],
+  "103": [
+    {
+      "date": "1984",
+      "label": "Modèle de base",
+      "detail": "La chronologie de Rosgvardia situe le BTR-80 de base en 1984.",
+      "source": "https://www.rosguard.gov.ru/page/index/bronetransporter-btr82a"
+    },
+    {
+      "date": "2009",
+      "label": "Descendant BTR-82A",
+      "detail": "Premier exemplaire de sa modernisation BTR-82A.",
+      "source": "https://www.rosguard.gov.ru/page/index/bronetransporter-btr82a"
+    }
+  ],
+  "104": [
+    {
+      "date": "1988",
+      "label": "Entrée en service britannique",
+      "detail": "Date donnée par la British Army pour la famille Warrior.",
+      "source": "https://www.army.mod.uk/learn-and-explore/equipment/combat-vehicles/warrior/"
+    },
+    {
+      "date": "2021",
+      "label": "Modernisation abandonnée",
+      "detail": "Le gouvernement annonce la transition vers Boxer.",
+      "source": "https://www.gov.uk/government/publications/defence-in-a-competitive-age/defence-in-a-competitive-age-accessible-version"
+    }
+  ],
+  "105": [
+    {
+      "date": "2020",
+      "label": "Remplacement progressif",
+      "detail": "Début du remplacement des AMX-10 RC par le Jaguar selon la fiche officielle.",
+      "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/amx-10-rcr-separ"
+    },
+    {
+      "date": "Juin 2022",
+      "label": "Radio Contact",
+      "detail": "La DGA teste la compatibilité électromagnétique de son intégration.",
+      "source": "https://www.defense.gouv.fr/dga/actualites/essais-compatibilite-electromagnetique-dga-techniques-aeronautiques-cas-lintegration-nouvelle-radio"
+    },
+    {
+      "date": "Mars 2023",
+      "label": "Arrivée en Ukraine",
+      "detail": "Confirmation ministérielle de la livraison et de premiers engagements.",
+      "source": "https://www.defense.gouv.fr/actualites/soutien-lukraine-4-points-retenir-laudition-sebastien-lecornu"
+    }
+  ],
+  "106": [
+    {
+      "date": "22 décembre 2017",
+      "label": "Contrat de production",
+      "detail": "Contrat incluant des options pour la production à plein régime.",
+      "source": "https://www.baesystems.com/en/article/bae-systems-receives-u-s--army-contract-to-begin-m109a7-full-rate-production"
+    },
+    {
+      "date": "5 octobre 2020",
+      "label": "Formation des mécaniciens",
+      "detail": "Début de la formation spécialisée à l’Ordnance School.",
+      "source": "https://www.army.mil/article/243102/the_m109a7_self_propelled_howitzer_has_arrived_at_the_ordnance_school"
+    }
+  ],
+  "107": [
+    {
+      "date": "2005",
+      "label": "Production et premières livraisons",
+      "detail": "Le rapport annuel indique la production à plein régime et des livraisons aux forces américaines et canadiennes.",
+      "source": "https://www.baesystems.com/investors/dam/jcr%3Adea92b65-d5d4-4dea-b502-d9cdd5951e05/BAE-Systems-Annual-Report-2005.2025-02-28-16-18-39.pdf"
+    },
+    {
+      "date": "9 novembre 2018",
+      "label": "Premiers M777A2 indiens",
+      "detail": "Cérémonie de réception officielle en Inde.",
+      "source": "https://www.baesystems.com/en-us/article/indian-army-inducts-its-first-m777-ultra-lightweight-howitzers"
+    },
+    {
+      "date": "4 janvier 2024",
+      "label": "Nouveau contrat de structures",
+      "detail": "Accord américain pour des structures majeures fabriquées dans les chaînes britanniques et américaines.",
+      "source": "https://www.baesystems.com/en/article/us-army-signs-agreement-with-bae-systems-for-new-m777-structures"
+    }
+  ],
+  "108": [
+    {
+      "date": "1968",
+      "label": "Premier prototype",
+      "detail": "Présentation du premier prototype selon l’historique industriel.",
+      "source": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/Informationsmaterial/Dimensions/Rheinmetall-magazine-Dimensions-2023-02.pdf"
+    },
+    {
+      "date": "1976",
+      "label": "Service allemand",
+      "detail": "Début de la période d’utilisation dans la Bundeswehr.",
+      "source": "https://www.bundeswehr.de/de/meldungen/flugabwehrkanonenpanzer-gepard-5400072"
+    },
+    {
+      "date": "2010",
+      "label": "Retrait allemand",
+      "detail": "Fin de son utilisation dans la Bundeswehr.",
+      "source": "https://www.bundeswehr.de/de/meldungen/flugabwehrkanonenpanzer-gepard-5400072"
+    },
+    {
+      "date": "2025",
+      "label": "Soutien à l’Ukraine",
+      "detail": "Nouveau contrat de munitions annoncé en janvier.",
+      "source": "https://www.rheinmetall.com/en/media/news-watch/news/2025/01/2025-01-06-35mm-gepardmunition-fuer-ukr"
+    }
+  ],
+  "109": [
+    {
+      "date": "Juin 2015",
+      "label": "Fin des livraisons du programme français",
+      "detail": "Livraison du dernier des 630 VBCI, selon le rapport parlementaire.",
+      "source": "https://www2.assemblee-nationale.fr/documents/notice/14/budget/plf2016/b3110-tIII-a11/"
+    },
+    {
+      "date": "Évolution 32 tonnes",
+      "label": "Protection accrue",
+      "detail": "La DGA documente une évolution renforçant la protection contre les engins explosifs improvisés ; date exacte non précisée.",
+      "source": "https://www.defense.gouv.fr/dga/vehicule-blinde-combat-dinfanterie-vbci"
+    }
+  ],
+  "110": [
+    {
+      "date": "21 décembre 1970",
+      "label": "Premier vol",
+      "detail": "Le prototype F-14A vole à Calverton, dans l’État de New York.",
+      "source": "https://www.history.navy.mil/browse-by-topic/communities/naval-aviation/1970-1979.html"
+    },
+    {
+      "date": "Juin 1972",
+      "label": "Premières livraisons",
+      "detail": "Les premiers F-14A sont remis à l’US Navy.",
+      "source": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14a-tomcat.html"
+    },
+    {
+      "date": "8 février 2006",
+      "label": "Dernière mission de combat",
+      "detail": "Le F-14D du musée naval termine la dernière mission de combat du Tomcat américain.",
+      "source": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html"
+    }
+  ],
+  "111": [
+    {
+      "date": "11 décembre 1986",
+      "label": "Premier vol du F-15E",
+      "detail": "Le F-15E de série effectue son premier vol à Saint-Louis.",
+      "source": "https://www.af.mil/Portals/1/documents/cct/2016/CCT_Dec_8_2016.pdf?ver=2016-12-08-163143-640"
+    },
+    {
+      "date": "Avril 1988",
+      "label": "Première livraison",
+      "detail": "Premier F-15E livré à la 405th Tactical Training Wing.",
+      "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/"
+    },
+    {
+      "date": "16 janvier 2025",
+      "label": "EPAWSS livré",
+      "detail": "L’USAF remet le premier F-15E équipé de ce nouveau système de guerre électronique.",
+      "source": "https://www.eglin.af.mil/News/Article-Display/Article/4033163/usaf-delivers-first-epawss-modified-f-15e-strike-eagle/"
+    }
+  ],
+  "112": [
+    {
+      "date": "18 juin 1981",
+      "label": "Premier vol",
+      "detail": "Le F-117A vole pour la première fois.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/"
+    },
+    {
+      "date": "Octobre 1983",
+      "label": "Capacité initiale",
+      "detail": "Le premier groupe F-117 devient opérationnel.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/"
+    },
+    {
+      "date": "27 mars 1999",
+      "label": "Perte en combat",
+      "detail": "Le F-117 Vega 31 est abattu; son pilote est secouru.",
+      "source": "https://www.dafhistory.af.mil/Portals/16/documents/Airmen-at-War/AFD-070912-043.pdf?ver=2016-08-22-131404-397"
+    },
+    {
+      "date": "22 avril 2008",
+      "label": "Retrait de la flotte de combat",
+      "detail": "La retraite officielle ne met pas fin à tous les vols d’essai.",
+      "source": "https://www.airandspaceforces.com/weapons-platforms/f-117/"
+    }
+  ],
+  "113": [
+    {
+      "date": "22 décembre 1964",
+      "label": "Premier vol",
+      "detail": "Le premier SR-71 prend l’air.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/"
+    },
+    {
+      "date": "Janvier 1966",
+      "label": "Première livraison opérationnelle",
+      "detail": "Le SR-71 rejoint l’unité de reconnaissance à Beale.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/"
+    },
+    {
+      "date": "28 juillet 1976",
+      "label": "Records mondiaux",
+      "detail": "Le Blackbird établit les records d’altitude et de vitesse de sa catégorie.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/"
+    },
+    {
+      "date": "9 octobre 1999",
+      "label": "Dernier vol NASA",
+      "detail": "Fin des vols du SR-71 utilisé pour la recherche.",
+      "source": "https://www.nasa.gov/wp-content/uploads/2021/09/495839main_fs-030_sr-71.pdf?pubDate=20250910"
+    }
+  ],
+  "114": [
+    {
+      "date": "15 avril 1952",
+      "label": "Premier vol",
+      "detail": "Le prototype du B-52 vole pour la première fois.",
+      "source": "https://www.kirtland.af.mil/News/Features/Display/Article/390769/this-week-in-history-april-15-1952-b-52-first-flight/"
+    },
+    {
+      "date": "1955",
+      "label": "Entrée en service du B-52B",
+      "detail": "La version B rejoint l’USAF.",
+      "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/"
+    },
+    {
+      "date": "Octobre 1962",
+      "label": "Fin des livraisons de série",
+      "detail": "Le dernier B-52H est livré.",
+      "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52h-stratofortress/"
+    }
+  ],
+  "115": [
+    {
+      "date": "23 août 1954",
+      "label": "Premier vol",
+      "detail": "Le prototype Hercules effectue son premier vol.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197558/lockheed-ac-130a-hercules/"
+    },
+    {
+      "date": "1956",
+      "label": "Entrée en service",
+      "detail": "Le C-130 entre en service militaire.",
+      "source": "https://www.airforcemedicine.af.mil/Platforms/Steady-and-ready-C-130-mainstay-of-medevac/"
+    },
+    {
+      "date": "Juin 2024",
+      "label": "2 700e Hercules",
+      "detail": "Lockheed Martin annonce la livraison du 2 700e appareil de la famille.",
+      "source": "https://www.lockheedmartin.com/ar-ae/news/lockheed-martin-delivers-2700th-hercules-tactical-airlifter.html"
+    }
+  ],
+  "116": [
+    {
+      "date": "11 décembre 2009",
+      "label": "Premier vol",
+      "detail": "Le premier A400M vole à Séville.",
+      "source": "https://publications.parliament.uk/pa/cm200910/cmselect/cmdfence/99/9905.htm"
+    },
+    {
+      "date": "2013",
+      "label": "Premières livraisons",
+      "detail": "Début des livraisons de série.",
+      "source": "https://www.airbus.com/sites/g/files/jlcbta136/files/2025-04/Airbus%20Annual%20Report%202024.pdf"
+    },
+    {
+      "date": "10 décembre 2024",
+      "label": "Kazakhstan",
+      "detail": "Airbus annonce la remise du premier appareil kazakh.",
+      "source": "https://www.airbus.com/sites/g/files/jlcbta136/files/2024-12/en_pr_a400m_kazakhstan_delivery.pdf"
+    },
+    {
+      "date": "3 novembre 2025",
+      "label": "Indonésie",
+      "detail": "L’Indonésie devient le dixième opérateur.",
+      "source": "https://mediaassets.airbus.com/pm_38_767_767610-fgqdx9uv09.pdf"
+    }
+  ],
+  "117": [
+    {
+      "date": "6 octobre 1977",
+      "label": "Premier vol",
+      "detail": "Le prototype MiG-29 vole pour la première fois.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/AFmuseum/mikoyan-gurevich-mig-29a/"
+    },
+    {
+      "date": "1983",
+      "label": "Premières livraisons aux unités",
+      "detail": "Début des livraisons à l’aviation tactique soviétique.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/AFmuseum/mikoyan-gurevich-mig-29a/"
+    },
+    {
+      "date": "4 août 2004",
+      "label": "Fin des transferts allemands",
+      "detail": "Les derniers MiG-29 allemands transférés rejoignent Bydgoszcz.",
+      "source": "https://www.bundeswehr.de/de/organisation/luftwaffe/aktuelles/30-jahre-armee-der-einheit-uebernahme-der-mig-29-3248728"
+    }
+  ],
+  "118": [
+    {
+      "date": "15 septembre 1969",
+      "label": "Premier vol sur attache",
+      "detail": "Le prototype V-24 décolle; le premier vol libre suit le 19 septembre.",
+      "source": "https://parkpatriot.ru/o-parke/tekhnika-parka/mi-24/"
+    },
+    {
+      "date": "1971",
+      "label": "Production de série",
+      "detail": "La série Mi-24 débute à Rostvertol.",
+      "source": "https://www.rostec.ru/media/news/rostvertol-ot-samoletov-k-vintokrylym-mashinam/"
+    },
+    {
+      "date": "6 juin 2023",
+      "label": "Adieux tchèques",
+      "detail": "L’armée tchèque annonce les derniers tirs opérationnels de ses Mi-24/35 avant remplacement.",
+      "source": "https://acr.mo.gov.cz/informacni-servis/zpravodajstvi/armada-se-louci-s-legendarnim-_dablovym-kocarem_--posledni-ostre-strelby-z-mi-24-35-probehly-v-boleticich-244362/"
+    }
+  ],
+  "119": [
+    {
+      "date": "27 avril 1991",
+      "label": "Premier vol",
+      "detail": "Le prototype Tigre vole pour la première fois.",
+      "source": "https://www.airbus.com/en/newsroom/news/2021-04-the-tiger-combat-helicopter-three-decades-of-flight-and-many-more-to-come"
+    },
+    {
+      "date": "2005",
+      "label": "Premières livraisons du programme OCCAR",
+      "detail": "Début des livraisons associées au programme de soutien OCCAR.",
+      "source": "https://occar.int/our-work/programmes/tiger-a-new-generation-of-helicopters"
+    },
+    {
+      "date": "23 septembre 2026",
+      "label": "Transition australienne",
+      "detail": "L’Australie annonce la fin prochaine des opérations de vol ARH et la transition vers l’Apache.",
+      "source": "https://www.defence.gov.au/news-events/releases/2026-09-23/australian-army-farewells-arh-tiger-helicopters"
+    }
+  ],
+  "120": [
+    {
+      "date": "1976",
+      "label": "Premier bâtiment en service",
+      "detail": "Début des admissions en service de la classe Los Angeles.",
+      "source": "https://www.congress.gov/crs-product/RL32418"
+    },
+    {
+      "date": "1996",
+      "label": "Fin des admissions de la série",
+      "detail": "La série complète atteint 62 sous-marins, construits en plusieurs lots.",
+      "source": "https://www.congress.gov/crs-product/RL32418"
+    },
+    {
+      "date": "28 mars 2014",
+      "label": "Retrait du Miami après un incendie",
+      "detail": "L’USS Miami est retiré après l’incendie volontaire survenu au chantier en mai 2012, sa réparation ayant été jugée trop coûteuse.",
+      "source": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-019/h-019-3.html"
+    }
+  ],
+  "121": [
+    {
+      "date": "25 novembre 1995",
+      "label": "Remise du Vepr",
+      "detail": "Sevmash remet le Vepr, sous-marin du projet 971, à la marine russe.",
+      "source": "https://sevmash.ru/rus/news/3730-2025-11-24-13-16-24.html"
+    },
+    {
+      "date": "4 avril 2012",
+      "label": "INS Chakra en Inde",
+      "detail": "Le ministre indien de la Défense admet officiellement le sous-marin nucléaire Chakra au service de la marine indienne.",
+      "source": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=82089"
+    },
+    {
+      "date": "Juillet 2022",
+      "label": "Vepr suivi en mer du Nord",
+      "detail": "La Royal Navy publie le suivi du Vepr lors de son transit depuis l’Arctique.",
+      "source": "https://www.royalnavy.mod.uk/news/2022/july/22/220722-hms-portland-tracks-russian-submarines"
+    }
+  ],
+  "122": [
+    {
+      "date": "22 avril 1996",
+      "label": "Accord germano-italien",
+      "detail": "Les deux ministères de la Défense signent l’accord U212A.",
+      "source": "https://www.marina.difesa.it/noi-siamo-la-marina/pilastro-operativo/mezzi/sottomarini/Pagine/ClasseTodaro.aspx"
+    },
+    {
+      "date": "19 octobre 2005",
+      "label": "U31 et U32 en service",
+      "detail": "Les deux premiers bâtiments allemands sont admis au service.",
+      "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/seesysteme-bundeswehr/u-boot-klasse-212-a"
+    },
+    {
+      "date": "29 mars 2006",
+      "label": "Livraison du Todaro",
+      "detail": "La première unité italienne est livrée à la Marina Militare.",
+      "source": "https://www.marina.difesa.it/noi-siamo-la-marina/pilastro-operativo/mezzi/sottomarini/Pagine/ClasseTodaro.aspx"
+    }
+  ],
+  "123": [
+    {
+      "date": "2007",
+      "label": "Mistral en service",
+      "detail": "Le dossier officiel Jeanne d’Arc 2025 retient 2007 comme année de mise en service du Mistral.",
+      "source": "https://www.defense.gouv.fr/sites/default/files/operations/2025_MPAR_PAO_DOSSIER_DE_PRESSE_JDA25_v7.pdf"
+    },
+    {
+      "date": "Juin et septembre 2016",
+      "label": "Deux bâtiments pour l’Égypte",
+      "detail": "Naval Group livre les Gamal Abdel Nasser et Anwar El Sadat.",
+      "source": "https://www.naval-group.com/en/leading-expertise-across-oceans"
+    },
+    {
+      "date": "Novembre 2024",
+      "label": "Retour de Méditerranée",
+      "detail": "Le Mistral revient à Toulon après un déploiement avec un groupement aéroterrestre embarqué.",
+      "source": "https://www.defense.gouv.fr/marine/actualites/retour-du-porte-helicopteres-amphibie-mistral-son-deploiement-mediterranee-orientale"
+    }
+  ],
+  "124": [
+    {
+      "date": "25 mars 2015",
+      "label": "Izumo en service",
+      "detail": "Admission en service du premier bâtiment de la classe.",
+      "source": "https://www.navypedia.org/ships/japan/jap_cv_izumo.htm"
+    },
+    {
+      "date": "22 mars 2017",
+      "label": "Kaga en service",
+      "detail": "Admission en service du second bâtiment.",
+      "source": "https://www.navypedia.org/ships/japan/jap_cv_izumo.htm"
+    },
+    {
+      "date": "Octobre–novembre 2024",
+      "label": "Essais F-35B",
+      "detail": "Le Kaga réalise des essais d’exploitation embarquée du F-35B avec le soutien américain.",
+      "source": "https://www.mod.go.jp/msdf/sf/english/news/2024/11/1120-1.html"
+    }
+  ],
+  "125": [
+    {
+      "date": "1998",
+      "label": "Série française initiale",
+      "detail": "Le programme franco-britannique permet une commande française de 500 missiles.",
+      "source": "https://publications.parliament.uk/pa/cm201719/cmselect/cmdfence/1071/107106.htm"
+    },
+    {
+      "date": "2003",
+      "label": "Premier emploi britannique",
+      "detail": "Storm Shadow est employé par le Royaume-Uni dans l’opération Telic en Irak.",
+      "source": "https://www.assemblee-nationale.fr/dyn/opendata/RINFANR5L15B1493.html"
+    },
+    {
+      "date": "11 mai 2023",
+      "label": "Transfert à l’Ukraine confirmé",
+      "detail": "Le ministre britannique de la Défense annonce la fourniture de Storm Shadow à l’Ukraine.",
+      "source": "https://www.gov.uk/government/speeches/defence-secretary-oral-statement-on-war-in-ukraine--3"
+    }
+  ],
+  "126": [
+    {
+      "date": "12 juin 2001",
+      "label": "Premier lancement",
+      "detail": "Premier lancement du BrahMos selon son constructeur.",
+      "source": "https://www.brahmos.com/"
+    },
+    {
+      "date": "28 janvier 2022",
+      "label": "Premier contrat export",
+      "detail": "Signature du contrat de systèmes côtiers avec les Philippines.",
+      "source": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1793209&lang=2&reg=48"
+    },
+    {
+      "date": "19 avril 2024",
+      "label": "Première livraison export",
+      "detail": "La première livraison de BrahMos aux Philippines est annoncée par la radio publique indienne le lendemain.",
+      "source": "https://newsonair.gov.in/india-delivers-1st-batch-of-brahmos-supersonic-cruise-missiles-to-philippines/"
+    }
+  ],
+  "127": [
+    {
+      "date": "1991",
+      "label": "Premier emploi au combat",
+      "detail": "ATACMS est employé pendant Operation Desert Storm.",
+      "source": "https://www.army.mil/article/278296/then_now_atacms_to_prsm_out_with_the_old_in_with_the_new"
+    },
+    {
+      "date": "7 janvier 2015",
+      "label": "Plus de 3 700 produits",
+      "detail": "Lockheed Martin annonce un jalon historique de production, avec plus de 560 missiles déjà tirés au combat à cette date.",
+      "source": "https://news.lockheedmartin.com/2015-01-07-U-S-Army-Awards-Lockheed-Martin-78-Million-Contract-For-ATACMS-Modernization?asPDF=1"
+    },
+    {
+      "date": "17 octobre 2023",
+      "label": "Premiers tirs ukrainiens annoncés",
+      "detail": "L’emploi d’ATACMS contre des aérodromes russes est annoncé par l’Ukraine et confirmé pour la fourniture par les États-Unis.",
+      "source": "https://www.iiss.org/online-analysis/missile-dialogue-initiative/2023/10/ukraine-targets-russian-airfields-with-us-supplied-atacms-missile/"
+    }
+  ],
+  "128": [
+    {
+      "date": "2006",
+      "label": "Admission au service",
+      "detail": "Rostec retient 2006 pour l’admission du système Iskander-M au service.",
+      "source": "https://rostec.ru/media/news/pamyati-sozdatelya-iskandera/"
+    },
+    {
+      "date": "2013",
+      "label": "Livraisons par ensembles de brigade",
+      "detail": "KBM annonce des livraisons d’ensembles Iskander-M dans le cadre du contrat russe.",
+      "source": "https://rostec.ru/upload/iblock/fa3/fa3df0e4f01427c22461259af75111fa.pdf"
+    },
+    {
+      "date": "30 août 2023",
+      "label": "Nouvel ensemble pour la Biélorussie",
+      "detail": "L’arrivée d’un nouvel ensemble Iskander-M pour l’armée biélorusse est annoncée ; les premières unités y étaient exploitées depuis février 2023.",
+      "source": "https://www.vedomosti.ru/politics/news/2023/08/30/992700-rossiya-peredala-iskander-m"
+    }
+  ],
+  "129": [
+    {
+      "date": "2016",
+      "label": "Première mise en service",
+      "detail": "La Suède devient le premier utilisateur opérationnel sur Gripen.",
+      "source": "https://www.saab.com/products/meteor"
+    },
+    {
+      "date": "10 décembre 2018",
+      "label": "Première alerte RAF avec Meteor",
+      "detail": "Des Eurofighter de la RAF décollent avec Meteor pour une mission de permanence opérationnelle.",
+      "source": "https://www.raf.mod.uk/news/articles/royal-air-force-typhoons-launch-with-new-missile/"
+    },
+    {
+      "date": "4 décembre 2025",
+      "label": "Intégration F-35A",
+      "detail": "MBDA et Lockheed Martin annoncent une étape d’essais au sol de l’intégration sur F-35A.",
+      "source": "https://www.mbda-systems.com/meteor-missile-and-f-35a-one-step-closer-operational-capability"
+    },
+    {
+      "date": "21 janvier 2026",
+      "label": "Nouvelle commande allemande",
+      "detail": "MBDA annonce une commande complémentaire pour l’Allemagne.",
+      "source": "https://www.mbda-systems.com/mbda-receives-new-order-more-meteor-germany"
+    }
   ]
 };
