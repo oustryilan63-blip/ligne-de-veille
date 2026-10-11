@@ -2,9 +2,18 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 const context={window:{}};
 vm.createContext(context);
-for(const file of ['engins-data.js','histoire-data.js','histoire-chiffres.js','quiz-data.js','map-data.js'])vm.runInContext(fs.readFileSync(file,'utf8'),context,{filename:file});
+for(const file of ['engins-data.js','histoire-data.js','histoire-chiffres.js','histoire-technique.js','quiz-data.js','map-data.js'])vm.runInContext(fs.readFileSync(file,'utf8'),context,{filename:file});
 const {LDV_ENGINS:engins,LDV_HISTOIRE:history,LDV_CHIFFRES:figures,LDV_FACTS:facts,LDV_CHRONO:chrono,LDV_MAP:map}=context.window;
 const fail=message=>{throw new Error(message)};
+const technical=context.window.LDV_TECHNIQUE;
+if(Object.keys(technical).length!==engins.length)fail('Couverture des fiches techniques incomplète');
+for(const [i,e] of engins.entries()){
+  const t=technical[i];
+  if(t?.name!==e.name||!t.variant||!/^\d{4}-\d{2}-\d{2}$/.test(t.checkedAt)||!t.note||t.fields?.length<3||!t.sources?.length)fail('Fiche technique incomplète : '+e.name);
+  const urls=new Set(t.sources.map(s=>s.url));
+  for(const s of t.sources)if(!s.label||!s.url?.startsWith('https://'))fail('Source technique invalide : '+e.name);
+  for(const f of t.fields)if(!f.label||!f.value||!urls.has(f.source))fail('Caractéristique sans référence : '+e.name);
+}
 if(engins.length<90||history.length!==engins.length)fail(`Catalogue ${engins.length}, fiches ${history.length}`);
 const names=new Set(),codes=new Set(map.map(x=>x.code));
 for(const [i,e] of engins.entries()){
