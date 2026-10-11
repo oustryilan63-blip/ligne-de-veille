@@ -185,14 +185,78 @@ def verified_asset_image(item,request,clean,clip):
         return image
     return None
 
+def nodes(root):
+    yield root
+    for child in root.children:yield from nodes(child)
+
+def absolute_image(raw,article_url):
+    value=urllib.parse.urljoin(article_url,raw or '')
+    p=urllib.parse.urlsplit(value)
+    if p.scheme=='http':value=urllib.parse.urlunsplit(('https',p.netloc,p.path,p.query,p.fragment))
+    return value
+
+def publisher_permission_image(item,request,clean,clip):
+    permission=POLICY.get('publisherPermission',{})
+    host=urllib.parse.urlsplit(item['url']).hostname
+    if host not in permission.get('articleHosts',[]):return None
+    article=page(request(item['url'],max_bytes=3_000_000))
+    primary=absolute_image(article.metas.get('og:image') or article.metas.get('twitter:image'),item['url'])
+    # A sharing logo or arbitrary inline photo must not become the article image.
+    if not secure(primary,permission['imageHosts']) or re.search(r'logo|avatar|placeholder|site-default|default[-_]image|social[-_]share',urllib.parse.urlsplit(primary).path,re.I):return None
+    if primary==item['url']:return None
+    matches=[n for n in article.images if wordpress_asset(absolute_image(n.attrs.get('src') or n.attrs.get('data-src'),item['url']))==wordpress_asset(primary)]
+    image_node=next((n for n in matches if base_asset(absolute_image(n.attrs.get('src') or n.attrs.get('data-src'),item['url']))==base_asset(primary)),None)
+    candidates=[]
+    if image_node:
+        for candidate in (image_node.attrs.get('srcset') or image_node.attrs.get('data-srcset') or '').split(','):
+            parts=candidate.strip().rsplit(' ',1)
+            if len(parts)!=2 or not re.fullmatch(r'\d+w',parts[1]):continue
+            src=absolute_image(parts[0],item['url']);width=int(parts[1][:-1])
+            # Keep the editor's exact framing, excluding square card thumbnails.
+            dimensions=re.search(r'-(\d+)x(\d+)\.[a-z]+$',urllib.parse.urlsplit(src).path,re.I)
+            try:ratio=int(image_node.attrs['width'])/int(image_node.attrs['height'])
+            except (KeyError,ValueError,ZeroDivisionError):ratio=None
+            if dimensions and ratio and abs(int(dimensions[1])/int(dimensions[2])-ratio)>0.04:continue
+            if 450<=width<=1100 and wordpress_asset(src)==wordpress_asset(primary) and secure(src,permission['imageHosts']):candidates.append((width,src))
+    src=min(candidates)[1] if candidates else primary
+    if urllib.parse.urlsplit(src).hostname=='s7g10.scene7.com':src=base_asset(src)+'?fmt=jpeg&wid=600&qlt=85'
+    if not jpeg_checked(src,request):return None
+    credit=clean(image_node.attrs.get('data-credit','')) if image_node else ''
+    if not credit:
+        for n in nodes(article.root):
+            text=n.text()
+            if n.tag not in ('p','figcaption','small','span','em') or len(text)>300:continue
+            found=re.match(r'^(?:Photo(?:graphie)?s?|Cr[ée]dits?)\s*(?::|©)\s*(.+)',text,re.I)
+            if found and found[1].strip():credit=clean(found[1]);break
+    if not credit:
+        for value in article.structured:
+            for obj in json_objects(value):
+                if obj.get('@type')!='ImageObject' or absolute_image(obj.get('contentUrl') or obj.get('url'),item['url'])!=primary:continue
+                owner=obj.get('creator') or obj.get('copyrightHolder')
+                candidate=obj.get('creditText') or (owner.get('name') if isinstance(owner,dict) else owner)
+                if isinstance(candidate,str):credit=clean(candidate);break
+    credit=clip(credit or 'Crédit non indiqué par l’éditeur',240)
+    alt=clean(image_node.attrs.get('alt') or image_node.attrs.get('title')) if image_node else ''
+    image=record(item,src,clip(alt or 'Image principale de l’article « '+item['title']+' ».',240),credit,permission['license'],permission['licenseUrl'],'publisher-permission',item['url'],'user-confirmed-publisher-permission')
+    image['assetUrl']=primary;image['permissionConfirmedAt']=permission['confirmedAt']
+    return image
+
 def find_article_image(item,request,clean,clip):
     host=urllib.parse.urlsplit(item['url']).hostname
     if not secure(item['url'],[host] if host else []):return None
-    if host in POLICY['providers']['gov-uk']['articleHosts']:return gov_image(item,request,clean,clip)
-    if host in POLICY['providers']['nato']['articleHosts']:return nato_image(item,request,clean,clip)
+    original_request=request
+    @lru_cache(maxsize=8)
+    def request(url,max_bytes=2_000_000):return original_request(url,max_bytes=max_bytes)
+    if host in POLICY['providers']['gov-uk']['articleHosts']:
+        image=gov_image(item,request,clean,clip)
+        if image:return image
+    if host in POLICY['providers']['nato']['articleHosts']:
+        image=nato_image(item,request,clean,clip)
+        if image:return image
     licensed=verified_asset_image(item,request,clean,clip)
     if licensed:return licensed
     if any(host in grant['articleHosts'] for grant in POLICY.get('explicitPermissions',{}).values()):
         permitted=specific_permission_image(item,request,clean,clip)
         if permitted:return permitted
-    return individual_image(item,request,clean,clip)
+    image=individual_image(item,request,clean,clip)
+    return image or publisher_permission_image(item,request,clean,clip)

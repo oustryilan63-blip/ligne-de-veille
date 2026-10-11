@@ -121,9 +121,12 @@ def enrich_images(items):
     hosts=set(POLICY['individualLicenseHosts'])|{h for p in POLICY['providers'].values() for h in p['articleHosts']}
     hosts.update(h for p in POLICY.get('explicitPermissions',{}).values() for h in p['articleHosts'])
     hosts.update(h for p in POLICY.get('verifiedLicensedAssets',{}).values() for h in p['articleHosts'])
-    eligible = sorted([i for i in items if urllib.parse.urlsplit(i['url']).hostname in hosts and (not i.get('image') or not i['image'].get('provider') or (i['image'].get('provider')=='specific-permission' and (not i['image'].get('assetUrl') or not i['image'].get('sha256'))))], key=lambda i:(i['date'],i.get('publishedAt','')), reverse=True)[:32]
+    hosts.update(POLICY.get('publisherPermission',{}).get('articleHosts',[]))
+    now=dt.datetime.now(dt.timezone.utc);retry_before=(now-dt.timedelta(hours=24)).isoformat()
+    eligible = sorted([i for i in items if urllib.parse.urlsplit(i['url']).hostname in hosts and (not i.get('image') or not i['image'].get('provider') or (i['image'].get('provider')=='specific-permission' and (not i['image'].get('assetUrl') or not i['image'].get('sha256')))) and i.get('imageCheckedAt','')<retry_before], key=lambda i:(not bool(i.get('imageCheckedAt')),i['date'],i.get('publishedAt','')), reverse=True)[:48]
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         for item, image in zip(eligible, pool.map(article_image, eligible)):
+            item['imageCheckedAt']=now.isoformat()
             if image: item['image'] = image
     for item in items:
         if 'conflits' in item['source'].casefold(): item.pop('sourceExcerpt', None)

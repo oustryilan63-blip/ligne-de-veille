@@ -4,6 +4,7 @@ from pathlib import Path
 from news_images import find_article_image,POLICY
 import importlib.util
 spec=importlib.util.spec_from_file_location('news',Path(__file__).with_name('update-news.py'));news=importlib.util.module_from_spec(spec);spec.loader.exec_module(news)
+publisher_permission=POLICY.pop('publisherPermission',None)
 photo='https://s7g10.scene7.com/is/image/ncia/test-photo'
 item={'url':'https://www.nato.int/en/news-and-events/articles/news/test'}
 def request_for(html):
@@ -31,4 +32,19 @@ assert find_article_image(i,cc_request(obj),news.clean,news.clip)['provider']=='
 assert find_article_image(i,cc_request({**obj,'@type':'Article'}),news.clean,news.clip) is None
 assert find_article_image(i,cc_request({**obj,'contentUrl':'https://www.opex360.com/unrelated.jpg'}),news.clean,news.clip) is None
 assert find_article_image(i,cc_request({**obj,'license':'https://creativecommons.org/licenses/by-nc/4.0/'}),news.clean,news.clip) is None
-print('Droits individuels, photo principale exacte, crédits tiers refusés, permissions bornées et licence ImageObject distincte de celle du texte : OK')
+POLICY['publisherPermission']=publisher_permission
+allowed={'url':'https://www.opex360.com/2026/10/11/example/','title':'Exemple'}
+main='https://www.opex360.com/wp-content/uploads/reactor.jpg'
+body=f'<meta property="og:image" content="{main}"><img src="{main}" width="600" height="400"><p>Photo : General Atomics</p>'
+def permitted_request(url,**kw):return b'\xff\xd8\xfftest' if url==main else body.encode()
+image=find_article_image(allowed,permitted_request,news.clean,news.clip)
+assert image['provider']=='publisher-permission' and image['credit']=='General Atomics'
+assert image['assetUrl']==main and image['permissionConfirmedAt']==publisher_permission['confirmedAt']
+for unwanted in ['https://www.opex360.com/logo.jpg','https://unrelated.example/photo.jpg']:
+    get=lambda url,**kw: f'<meta property="og:image" content="{unwanted}"><img src="{main}">'.encode()
+    assert find_article_image(allowed,get,news.clean,news.clip) is None
+no_main=lambda url,**kw:f'<img src="{main}"><footer>© Éditeur</footer>'.encode()
+assert find_article_image(allowed,no_main,news.clean,news.clip) is None,'Pas de remplacement par une image secondaire'
+unknown={'url':'https://unknown.example/article','title':'Source non configurée'}
+assert find_article_image(unknown,permitted_request,news.clean,news.clip) is None
+print('Licences individuelles, autorisations confirmées, crédits conservés, logos et images secondaires exclus : OK')

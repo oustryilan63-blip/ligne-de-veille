@@ -7,7 +7,10 @@ export function validateImage(item){
   if(image.kind!=='article'||image.sourceUrl!==item.url)throw new Error('La photo doit appartenir à la publication');
   for(const k of ['alt','credit','license'])if(typeof image[k]!=='string'||!image[k].trim()||image[k].length>240)throw new Error('Métadonnées de photo invalides');
   const provider=image.provider||'gov-uk',article=new URL(item.url);
-  if(provider==='verified-asset'){
+  if(provider==='publisher-permission'){
+    const grant=policy.publisherPermission;
+    if(!grant||!grant.articleHosts.includes(article.hostname)||!secure(image.src,grant.imageHosts)||!secure(image.assetUrl,grant.imageHosts)||image.license!==grant.license||image.licenseUrl!==grant.licenseUrl||image.rightsUrl!==item.url||image.evidence!=='user-confirmed-publisher-permission'||image.permissionConfirmedAt!==grant.confirmedAt||wpAsset(image.assetUrl)!==wpAsset(image.src)||/logo|avatar|placeholder|site-default|default[-_]image|social[-_]share/i.test(new URL(image.src).pathname))throw new Error('Autorisation de l’éditeur ou image principale invalide');
+  }else if(provider==='verified-asset'){
     const proof=policy.verifiedLicensedAssets?.[image.src];
     if(!proof||!proof.articleHosts.includes(article.hostname)||image.assetUrl!==image.src||image.sha256!==proof.sha256||image.credit!==proof.credit||image.license!==proof.license||image.licenseUrl!==proof.licenseUrl||image.rightsUrl!==proof.rightsUrl||image.evidence!=='verified-source-license')throw new Error('Licence ou identité du fichier non vérifiée');
   }else if(provider==='specific-permission'){

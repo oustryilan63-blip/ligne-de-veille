@@ -12,4 +12,10 @@ if(licensed){
   bad=structuredClone(licensed);bad.image.rightsUrl=bad.url;assert.throws(()=>validateImage(bad));
   bad=structuredClone(licensed);bad.image.assetUrl='https://example.com/unrelated.jpg';assert.throws(()=>validateImage(bad));
 }
+const authorized=news.items.find(i=>i.image?.provider==='publisher-permission');
+if(authorized){
+  bad=structuredClone(authorized);bad.image.assetUrl='https://www.opex360.com/wp-content/uploads/unrelated.jpg';assert.throws(()=>validateImage(bad));
+  bad=structuredClone(authorized);bad.image.src='https://unconfigured.example/photo.jpg';assert.throws(()=>validateImage(bad));
+  bad=structuredClone(authorized);bad.image.permissionConfirmedAt='';assert.throws(()=>validateImage(bad));
+}
 console.log('Schéma des photos et permissions : vrais fichiers acceptés, substitution et droits inventés rejetés.');
