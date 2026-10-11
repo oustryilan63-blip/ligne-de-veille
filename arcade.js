@@ -285,7 +285,7 @@
     text('arcade-detail', 'Le même défi pour tous, renouvelé chaque jour à minuit, heure de Paris.');
     $('arcade-photo').src = `assets/jeu/${item.photo}`; $('arcade-photo').alt = 'Photographie de l’engin du défi du jour';
     setCredit(item);
-    function shareText(ok) { return `Ligne de Veille · Défi du ${key} : ${ok ? '1/1 ✓' : '0/1 ◯'} — Et toi ? ${location.href.split('?')[0]}`; }
+    function shareText(ok) { return `Radar · Défi du ${key} : ${ok ? '1/1 ✓' : '0/1 ◯'} — Et toi ? ${location.href.split('?')[0]}`; }
     function reveal(chosen) {
       if (resolved) return; resolved = true;
       const ok = chosen === item.name;
@@ -307,7 +307,7 @@
     $('daily-share').addEventListener('click', async () => {
       const message = $('daily-share').dataset.share;
       try {
-        if (navigator.share) await navigator.share({ title: 'Ligne de Veille · Défi du jour', text: message });
+        if (navigator.share) await navigator.share({ title: 'Radar · Défi du jour', text: message });
         else { await navigator.clipboard.writeText(message); text('daily-share', 'Résultat copié ✓'); }
       } catch (error) {
         if (error.name !== 'AbortError') text('daily-share', 'Partage indisponible sur ce navigateur');

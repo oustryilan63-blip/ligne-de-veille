@@ -76,7 +76,7 @@
   }
   function renderDetail(index){
     const item=engins[index],fact=facts[index]||{},figuresFor=figures[index]||{};
-    catalogue.hidden=true;detail.hidden=false;detail.replaceChildren();document.body.classList.add('history-profile');document.title=item.name+' | Histoire | Ligne de Veille';
+    catalogue.hidden=true;detail.hidden=false;detail.replaceChildren();document.body.classList.add('history-profile');document.title=item.name+' | Histoire | Radar';
     const back=el('a','history-back','← Revenir aux '+engins.length+' engins');back.href='histoire.html';detail.append(back);
     const head=el('div','history-detail-head');const media=el('div',item.category==='missiles'?'history-missile-media':'');media.append(photo(item));
     const credit=el('p','history-photo-credit',(item.mediaLabel||'Photo')+' : '+(item.photoAuthor||'Wikimedia Commons')+' · '+(item.photoLicense||'Licence indiquée sur la source'));

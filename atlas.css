@@ -16,6 +16,12 @@ a:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-visible
 .brand-mark b,.brand-mark em{transform:none}
 .brand-mark em{color:#e18d70}
 .brand-name{font:700 17px/.88 var(--serif);letter-spacing:.025em}
+.radar-mark{position:relative;overflow:hidden;letter-spacing:0}
+.radar-mark b{position:relative;z-index:1;font:700 27px/1 var(--serif);margin-right:8px}
+.radar-mark i{position:absolute;right:-9px;top:-8px;width:37px;height:37px;border:1px solid #bd5538;border-radius:50%}
+.radar-mark i:before{content:"";position:absolute;inset:7px;border:1px solid #bd5538;border-radius:50%}
+.radar-mark i:after{content:"";position:absolute;left:13px;top:15px;width:17px;height:1px;background:#e18d70;transform:rotate(-45deg);transform-origin:left center}
+.brand-name{font-size:22px;line-height:1;letter-spacing:.08em}
 .main-nav a{font:600 12px/1 var(--sans);letter-spacing:0}
 .main-nav a:after{height:3px}
 .eyebrow,.section-index,.game-intro-foot,.hero-bottom,.news-date,.news-source,.archive-eyebrow,.map-kicker,.challenge-category,.option-label,.answer-label,.game-status{font-family:var(--mono)!important;font-weight:500!important;letter-spacing:.035em!important}

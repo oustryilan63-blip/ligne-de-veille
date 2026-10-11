@@ -132,7 +132,7 @@ if (news && Array.isArray(news.items) && news.items.length) {
     const message = document.querySelector('#report-message').value.trim();
     const reference = document.querySelector('#report-reference').value.trim();
     if (!message) return;
-    const subject = `Signalement d'erreur — Ligne de Veille — ${selected.textContent}`;
+    const subject = `Signalement d'erreur — Radar — ${selected.textContent}`;
     const body = `Publication : ${selected.textContent}\nLien : ${selected.value === 'site' ? location.href : selected.value}\n\nErreur constatée :\n${message}${reference ? `\n\nLien de vérification : ${reference}` : ''}`;
     location.href = `mailto:${news.correctionsEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     reportDialog.close();
