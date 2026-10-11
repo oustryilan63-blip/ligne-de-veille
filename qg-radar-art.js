@@ -1,7 +1,7 @@
-/* Sprites illustrés pour Radar ; terrain isométrique dessiné par code. */
+/* Illustrations Radar et animations décoratives, indépendantes des règles. */
 window.QG_ART=(()=>{
  const illustrations={};
- const ready=Promise.all(Object.entries(window.QG_SPRITES||{}).map(([id,src])=>new Promise(resolve=>{
+ const ready=Promise.all(Object.entries({...window.QG_SPRITES,...(window.QG_TERRAIN?{terrain:window.QG_TERRAIN}:{})}).map(([id,src])=>new Promise(resolve=>{
   if(typeof window.Image!=='function'){resolve();return;}
   const image=new window.Image();
   image.onload=()=>{if(image.naturalWidth&&image.naturalHeight)illustrations[id]=image;resolve();};
@@ -148,20 +148,55 @@ window.QG_ART=(()=>{
   for(let i=0;i<level;i++)r(-9+i*8,26,5,3,'#e9c382');c.restore();
  }
 
- function scene(c,state,time=0){
+ const locations={rafale:[428,144,.8],caracal:[246,158,.75],leclerc:[350,270,.75],caesar:[220,284,.75],fremm:[604,310,.95],suffren:[541,369,.85]};
+ function pose(id,progress,kind='mission'){
+  const p=Math.max(0,Math.min(1,Number.isFinite(progress)?progress:0)),returning=p>.82,fade=returning?Math.min(1,(p-.82)/.18):1;
+  if(kind==='repair')return {x:0,y:0,lift:0,angle:id==='rafale'?Math.PI*55/180:0,alpha:1,scale:1};
+  const q=Math.min(p/.82,1),ease=q*q*(3-2*q);
+  let x=0,y=0,lift=0,angle=0,scale=1;
+  if(id==='rafale'){const roll=Math.min(q/.4,1);x=65*roll*roll+155*Math.max(0,(q-.4)/.6);y=35*roll*roll;lift=115*Math.max(0,(q-.4)/.6);angle=(55-55*Math.max(0,(q-.4)/.6))*Math.PI/180;scale=1-.18*ease;}
+  else if(id==='caracal'){x=60*ease;y=-18*ease;lift=45*Math.min(q*2,1);scale=1-.12*ease;}
+  else if(id==='leclerc'){x=78*ease;y=-42*ease;}
+  else if(id==='caesar'){x=130*ease;y=-70*ease;}
+  else {x=70*ease;y=-38*ease;}
+  if(returning){x=0;y=0;lift=0;angle=id==='rafale'?55*Math.PI/180:0;scale=1;}
+  return {x,y,lift,angle,alpha:returning?fade:Math.min(1,(1-q)/.15),scale};
+ }
+ function activity(c,id,progress,kind='mission',preview=false,time=0){
+  const base=locations[id];if(!base)return;
+  const a=pose(id,progress,kind),p=Math.max(0,Math.min(1,progress)),air=id==='rafale'||id==='caracal',ship=id==='fremm'||id==='suffren';
+  const x=preview?160+a.x*.28:base[0]+a.x,y=preview?103+a.y*.18:base[1]+a.y,scale=preview?1.7:base[2];
+  c.save();c.globalAlpha=a.alpha;
+  if(kind==='mission'&&p<.82){
+   if(ship){c.save();c.globalAlpha=a.alpha*.55;c.strokeStyle='#aac5c2';c.lineWidth=1.2;for(let i=0;i<4;i++){c.beginPath();c.moveTo(x-16-i*7,y+5+i*3);c.quadraticCurveTo(x-30-i*7,y+11+i*3,x-48-i*7,y+12+i*3);c.stroke();}c.restore();}
+   else if(!air){c.save();c.globalAlpha=a.alpha*.3;c.fillStyle='#baad88';for(let i=0;i<3;i++){c.beginPath();c.ellipse(x-27-i*8,y+6,5+i*2,2+i,0,0,Math.PI*2);c.fill();}c.restore();}
+   if(air&&a.lift>0){c.save();c.globalAlpha=a.alpha*.22;c.fillStyle='#14282b';c.beginPath();c.ellipse(x,y+6,24,7,0,0,Math.PI*2);c.fill();c.restore();}
+  }
+  c.save();c.translate(x,y-a.lift*(preview?.65:1));if(a.angle)c.rotate(a.angle);sprite(c,id,0,0,scale*a.scale);c.restore();
+  if(id==='caracal'&&kind==='mission'&&p<.82){const cy=y-a.lift*(preview?.65:1)-25*scale;for(let i=0;i<3;i++){const v=time/75+i*Math.PI/3;c.save();c.globalAlpha=a.alpha*.25;c.translate(x,cy);c.scale(1,.45);c.rotate(v);poly(c,[[-31*scale,-1],[31*scale,-1],[31*scale,1],[-31*scale,1]],'#c9d2c5');c.restore();}}
+  if(kind==='repair'){const xx=x+32,yy=y-25;poly(c,[[xx-2,yy+5],[xx+10,yy-7],[xx+13,yy-4],[xx+1,yy+8]],'#efca82');poly(c,[[xx+8,yy-7],[xx+9,yy-14],[xx+13,yy-16],[xx+12,yy-10],[xx+17,yy-9],[xx+20,yy-13],[xx+20,yy-6],[xx+14,yy-3]],'#efca82');if(Math.floor(time/180)%2===0)for(let i=0;i<3;i++)rect(c,xx-8+i*7,yy-9-i*3,2,2,'#fbdda0');}
+  c.restore();
+ }
+
+ function scene(c,state,time=0,activities=[]){
   c.clearRect(0,0,720,440);rect(c,0,0,720,440,colors.sea);
-  for(let y=18;y<440;y+=21)for(let x=(y%3)*29;x<720;x+=77)rect(c,x+Math.round(Math.sin(time/2200+y)*3),y,20,1,colors.foam);
   const project=(x,y)=>[350+(x-y)*26,74+(x+y)*14];
+  if(illustrations.terrain){c.save();c.imageSmoothingEnabled=true;c.imageSmoothingQuality="high";c.drawImage(illustrations.terrain,0,0,720,440);c.restore();}
+  else {
+  for(let y=18;y<440;y+=21)for(let x=(y%3)*29;x<720;x+=77)rect(c,x+Math.round(Math.sin(time/2200+y)*3),y,20,1,colors.foam);
+
   for(let sum=0;sum<23;sum++)for(let x=0;x<13;x++){const y=sum-x;if(y<0||y>10||x+y<2||(x>10&&y>8))continue;const [px,py]=project(x,y);poly(c,[[px-26,py],[px,py+14],[px+26,py],[px,py-14]],(x===6||y===5)?colors.road:(x+y)%3===0?'#929d7e':colors.grass);if(x===12||y===10)poly(c,[[px-26,py],[px,py+14],[px+26,py],[px+26,py+7],[px,py+21],[px-26,py+7]],colors.edge);}
   // Runway, quay and gardens follow the same isometric grid.
   for(let x=1;x<=6;x++){const [px,py]=project(x,1);poly(c,[[px-24,py],[px,py+12],[px+24,py],[px,py-12]],'#405254');rect(c,px-5,py-1,10,2,'#e3ddbb');}
   for(let i=0;i<4;i++){const [x,y]=project(11,i+5);poly(c,[[x-13,y],[x+1,y+8],[x+57,y-21],[x+43,y-29]],'#b2ac8b');}
+  }
   for(const [x,y] of [[0,3],[1,7],[2,8],[3,9],[9,0],[10,1],[11,2],[7,9],[8,9]]){const [px,py]=project(x,y);if(!decoration(c,'tree',px,py,30,38)){rect(c,px,py-9,3,10,'#586553');poly(c,[[px-11,py-5],[px+1,py-27],[px+13,py-5]],'#496f5c');rect(c,px-6,py-12,9,4,'#628466');}}
   Object.entries(positions).sort((a,b)=>a[1][0]+a[1][1]-b[1][0]-b[1][1]).forEach(([id,p])=>{const [x,y]=project(...p);building(c,id,x,y,state.buildings[id],time);});
   const float=Math.sin(time/1600)*2;
-  sprite(c,'rafale',...project(4,1),.8);sprite(c,'caracal',...project(1,5),.75);sprite(c,'leclerc',...project(7,7),.75);sprite(c,'caesar',...project(5,10),.75);sprite(c,'fremm',604,310+float,.95);sprite(c,'suffren',541,369+float,.85);
+  for(const [id,[x,y,scale]] of Object.entries(locations)){const active=activities.find(a=>a.id===id);if(active){activity(c,id,active.progress,active.kind,false,time);continue;}c.save();c.translate(x,y+(['fremm','suffren'].includes(id)?float:0));if(id==='rafale')c.rotate(Math.PI*55/180);sprite(c,id,0,0,scale);c.restore();}
+  if(illustrations.terrain){for(let i=0;i<5;i++){const x=530+i*32,y=396+Math.sin(time/1700+i)*2;poly(c,[[x,y],[x+15,y-1],[x+20,y],[x+4,y+1]],'#577e86');}}
   // A small support vehicle travels along the central road.
   const progress=(time/1400)%9,[vx,vy]=project(6,progress);if(!decoration(c,'support',vx,vy+3,27,22)){rect(c,vx-6,vy-7,12,7,'#e0c891');rect(c,vx-5,vy-6,4,3,'#496975');rect(c,vx-6,vy,3,3,'#203d41');rect(c,vx+3,vy,3,3,'#203d41');}
  }
- return {sprite,building,scene,ready};
+ return {sprite,building,scene,ready,pose,activity};
 })();
