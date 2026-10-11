@@ -1,7 +1,7 @@
 const assert=require('node:assert/strict'),fs=require('fs'),path=require('path'),vm=require('vm');
 const root=path.resolve(__dirname,'..'),Q=require(path.join(root,'qg-radar-engine.js'));
 let checks=0;function check(label,fn){fn();checks++;console.log('OK '+label);}
-function play(s,a){const r=Q.action(s,a);assert.ok(r.ok,r.message);assert.ok(Q.restore(r.state));return r.state;}
+function play(s,a){if(a.type==='next'&&s.alert?.pending)s=Q.action(s,{type:'intercept',id:s.alert.id,hit:true}).state;const r=Q.action(s,a);assert.ok(r.ok,r.message);assert.ok(Q.restore(r.state));return r.state;}
 check('Sauvegarde et reprise fidèles, aucun événement appliqué deux fois',()=>{const s=Q.fresh(55);assert.deepEqual(Q.restore(JSON.stringify(s)),s);assert.equal(Q.deck,undefined);});
 check('Rejet des sauvegardes absentes, incomplètes, corrompues et hors limites',()=>{for(const x of [null,'{','{}','[]'])assert.equal(Q.restore(x),null);for(const patch of [{week:13},{cash:-1},{skill:7},{actions:3},{ended:true},{completed:25},{deck:Array(20).fill(0)},{units:{}},{buildings:{}},{log:['a'.repeat(400)]},{done:['forged']}])assert.equal(Q.restore({...Q.fresh(1),...patch}),null);});
 check('Dépense impossible sans mutation, et réparation plafonnée',()=>{let s=Q.fresh(1);s.cash=0;const before=JSON.stringify(s);for(const a of [{type:'repair',id:'rafale'},{type:'upgrade',id:'atelier'},{type:'train'},{type:'mission',id:'1-0',unit:'rafale'}])assert.equal(Q.action(s,a).ok,false);assert.equal(JSON.stringify(s),before);s.cash=150;s.units.rafale.condition=99;s=play(s,{type:'repair',id:'rafale'});assert.equal(s.units.rafale.condition,100);assert.equal(s.cash,132);assert.equal(Q.action(s,{type:'repair',id:'rafale'}).ok,false);});
