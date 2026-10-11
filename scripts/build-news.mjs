@@ -15,6 +15,12 @@ for (const item of source.items) {
     if (typeof item[field] !== 'string' || !item[field].trim() || item[field].length > max) throw new Error(`Champ ${field} invalide`);
   }
   const url = new URL(item.url);
+  if(item.source==='Conflits')delete item.sourceExcerpt;
+  if(item.image){
+    const image=item.image,src=new URL(image.src),license=new URL(image.licenseUrl);
+    if(image.kind!=='article'||src.protocol!=='https:'||src.hostname!=='assets.publishing.service.gov.uk'||!src.pathname.startsWith('/media/')||src.username||src.password||url.hostname!=='www.gov.uk'||image.sourceUrl!==item.url||image.license!=='OGL v3'||license.href!=='https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/')throw new Error('Image officielle ou licence invalide');
+    for(const k of ['alt','credit'])if(typeof image[k]!=='string'||!image[k].trim()||image[k].length>240)throw new Error('Crédit image invalide');
+  }
   if(item.sourceExcerpt&&(item.sourceExcerpt.kind!=='feed-excerpt'||typeof item.sourceExcerpt.text!=='string'||item.sourceExcerpt.text.length>281||item.sourceExcerpt.text.trim().split(/\s+/).length>20))throw new Error('Extrait éditeur invalide');
   if (url.protocol !== 'https:' || urls.has(url.href)) throw new Error('URL non sécurisée ou en double');
   urls.add(url.href);

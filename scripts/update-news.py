@@ -91,7 +91,7 @@ def parse_feed(data, source, now):
         except ValueError: continue
         if source.get('pathPrefix') and not urllib.parse.urlsplit(url).path.startswith(source['pathPrefix']): continue
         item = {'date':published.astimezone(PARIS).date().isoformat(),'publishedAt':published.isoformat(),'source':source['name'],'sourceType':source['type'],'title':title,'url':url,'language':source['language'],'autoCollected':True,'summary':'Publication repérée dans le flux de '+source['name']+'. Consultez le site d’origine pour lire le contenu complet.','why':'Document original accessible chez son éditeur ; titre et date transmis par son flux.'}
-        excerpt = source_excerpt(entry)
+        excerpt = source_excerpt(entry) if source['name'] != 'Conflits' else None
         if excerpt: item['sourceExcerpt'] = excerpt
         result.append(item)
     return sorted(result,key=lambda item:item['publishedAt'],reverse=True)
@@ -107,6 +107,37 @@ def verify_link(item):
             response.read(1024)
             return response.status == 200
     except Exception: return False
+
+def article_image(item):
+    """Only GOV.UK editorial lead images under OGL; never an OG site logo."""
+    p = urllib.parse.urlsplit(item['url'])
+    if p.hostname != 'www.gov.uk' or not p.path.startswith('/government/news/'): return None
+    try:
+        data = json.loads(request('https://www.gov.uk/api/content'+p.path))
+        details = data.get('details', {})
+        lead = next((i for i in details.get('images', []) if i.get('type') == 'lead' and i.get('content_type') == 'image/jpeg'), None)
+        if not lead: return None
+        rights = clean(str(details.get('body', ''))+' '+str(lead.get('caption', ''))).lower()
+        # Reject explicit third-party notices. A missing or ambiguous lead uses the local illustration.
+        neutral = rights.replace('crown copyright', '').replace('© crown', '')
+        if any(mark in neutral for mark in ('copyright', '©', 'getty', 'reuters', 'associated press', 'all rights reserved', 'shutterstock', 'adobe stock', 'photo: ap')): return None
+        src = lead.get('sources', {}).get('s300', '')
+        q = urllib.parse.urlsplit(src)
+        if q.scheme != 'https' or q.hostname != 'assets.publishing.service.gov.uk' or not q.path.startswith('/media/') or q.username or q.password: return None
+        # Small JPEG derivative only; an HTML error page cannot become a thumbnail.
+        if not request(src, max_bytes=300_000).startswith(b'\xff\xd8\xff'): return None
+        return {'src': src, 'kind': 'article', 'alt': clip(clean(lead.get('caption')) or 'Image fournie avec cette publication par le ministère britannique de la Défense.', 240), 'credit': 'Ministry of Defence / Crown copyright', 'license': 'OGL v3', 'licenseUrl': 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/', 'sourceUrl': item['url']}
+    except Exception as exc:
+        print('Image officielle non disponible : '+str(exc)[:100], file=sys.stderr)
+        return None
+
+def enrich_images(items):
+    eligible = [i for i in items if i['url'].startswith('https://www.gov.uk/government/news/') and not i.get('image')]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+        for item, image in zip(eligible, pool.map(article_image, eligible)):
+            if image: item['image'] = image
+    for item in items:
+        if item['source'] == 'Conflits': item.pop('sourceExcerpt', None)
 
 def main():
     now = dt.datetime.now(dt.timezone.utc)
@@ -139,6 +170,7 @@ def main():
         elif not valid: print('Lien non vérifié, publication ignorée : '+item['url'],file=sys.stderr)
     if candidates and not additions: raise RuntimeError('Aucun nouveau lien vérifiable : conservation de la dernière version.')
     stored['items'].extend(additions)
+    enrich_images(stored['items'])
     stored['items'].sort(key=lambda item:(item['date'],item.get('publishedAt','')),reverse=True)
     stored['updatedAt'] = now.astimezone(PARIS).date().isoformat()
     stored['checkedAt'] = now.isoformat()
