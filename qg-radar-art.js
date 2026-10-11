@@ -103,9 +103,10 @@ window.QG_ART=(()=>{
   c.save();c.translate(Math.round(x),Math.round(y));c.scale(scale,scale);
   const image=illustrations[id+'-'+level];
   if(image){
-   const factor=Math.min((preview?160:110)/image.naturalWidth,(preview?112:100)/image.naturalHeight),w=image.naturalWidth*factor,h=image.naturalHeight*factor;
+   const orientation=window.QG_LAYOUT.alignment?.[id]||{shear:0,vertical:1};
+   const factor=Math.min((preview?160:110)/image.naturalWidth,(preview?112:100)/(image.naturalHeight*orientation.vertical+image.naturalWidth*Math.abs(orientation.shear))),w=image.naturalWidth*factor,h=image.naturalHeight*factor;
    c.imageSmoothingEnabled=true;c.imageSmoothingQuality='high';
-   c.drawImage(image,-w/2,-h*.8,w,h);
+   c.save();c.transform(1,orientation.shear,0,orientation.vertical,0,0);c.drawImage(image,-w/2,-h*.8,w,h);c.restore();
    for(let i=0;i<level;i++)rect(c,-9+i*8,preview?26:16,5,3,'#e9c382');
    c.restore();return;
   }
@@ -193,7 +194,7 @@ window.QG_ART=(()=>{
   for(let i=0;i<4;i++){const [x,y]=project(11,i+5);poly(c,[[x-13,y],[x+1,y+8],[x+57,y-21],[x+43,y-29]],'#b2ac8b');}
   }
   const objects=[];
-  for(const [gx,gy] of [[0,3],[0.2,7.6],[1.1,8.8],[2.4,9.8],[8.5,-0.15],[11.9,1.5],[12,3],[8.9,9.9],[9.9,9.1]]){const [x,y]=project(gx,gy);objects.push({depth:y,draw(){if(!decoration(c,'tree',x,y,30,38)){rect(c,x,y-9,3,10,'#586553');poly(c,[[x-11,y-5],[x+1,y-27],[x+13,y-5]],'#496f5c');}}});}
+  for(const [gx,gy] of window.QG_LAYOUT.trees){const [x,y]=project(gx,gy);objects.push({depth:y,draw(){if(!decoration(c,'tree',x,y,30,38)){rect(c,x,y-9,3,10,'#586553');poly(c,[[x-11,y-5],[x+1,y-27],[x+13,y-5]],'#496f5c');}}});}
   for(const [id,p] of Object.entries(positions)){const [x,y]=project(...p);objects.push({depth:y+12,draw(){building(c,id,x,y,state.buildings[id],time);}});}
   for(const [id,[x,y,scale]] of Object.entries(locations)){if(!state.units[id]||state.units[id].owned===false)continue;const active=activities.find(a=>a.id===id),a=active?pose(id,active.progress,active.kind):null;objects.push({depth:a&&a.lift>10?1000:y+(a?.y||0),draw(){if(active){activity(c,id,active.progress,active.kind,false,time);return;}sprite(c,id,x,y+(['fremm','suffren'].includes(id)?Math.sin(time/1600)*2:0),scale);}});}
   objects.sort((a,b)=>a.depth-b.depth).forEach(o=>o.draw());
