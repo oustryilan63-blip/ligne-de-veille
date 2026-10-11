@@ -1,0 +1,12 @@
+{
+  "terre": {
+    "file": "terre.webp",
+    "title": "Blue Marble 2002",
+    "description": "Mosaïque d’observations satellitaires ; illustration générale, ne représente aucun événement d’actualité.",
+    "credit": "NASA’s Earth Observatory",
+    "source": "https://science.nasa.gov/resource/blue-marble-2002/",
+    "original": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/1/1-bluemarble_west-1.jpg?crop=faces%2Cfocalpoint&fit=clip&h=800&w=800",
+    "usage": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "transform": "Redimensionnement avec marges, conversion WebP ; aucune modification du contenu."
+  }
+}
