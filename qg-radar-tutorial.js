@@ -33,7 +33,7 @@
  function paintArt(){
   const step=steps[index],s=(tried.has(index)?after[index]?.state:null)||before[index];
   const canvas=$('qg-tutorial-art'),c=canvas.getContext('2d');c.clearRect(0,0,320,160);c.imageSmoothingEnabled=false;
-  if(E.buildings.some(b=>b.id===step.art))window.QG_ART.building(c,step.art,160,116,s.buildings[step.art],0,1.2);
+  if(E.buildings.some(b=>b.id===step.art))window.QG_ART.building(c,step.art,160,116,s.buildings[step.art],0,1.2,true);
   else window.QG_ART.sprite(c,step.art,160,100,1.65);
   canvas.setAttribute('aria-label',E.units.find(u=>u.id===step.art)?.name||E.buildings.find(b=>b.id===step.art)?.name||'Base Radar');
  }

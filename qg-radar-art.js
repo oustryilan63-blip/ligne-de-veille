@@ -99,11 +99,11 @@ window.QG_ART=(()=>{
   }
   c.restore();
  }
- function building(c,id,x,y,level,t=0,scale=1){
+ function building(c,id,x,y,level,t=0,scale=1,preview=false){
   c.save();c.translate(Math.round(x),Math.round(y));c.scale(scale,scale);
   const image=illustrations[id+'-'+level];
   if(image){
-   const factor=Math.min(110/image.naturalWidth,100/image.naturalHeight),w=image.naturalWidth*factor,h=image.naturalHeight*factor;
+   const factor=Math.min((preview?160:110)/image.naturalWidth,(preview?112:100)/image.naturalHeight),w=image.naturalWidth*factor,h=image.naturalHeight*factor;
    c.imageSmoothingEnabled=true;c.imageSmoothingQuality='high';
    c.drawImage(image,-w/2,-h*.8,w,h);
    for(let i=0;i<level;i++)rect(c,-9+i*8,26,5,3,'#e9c382');
