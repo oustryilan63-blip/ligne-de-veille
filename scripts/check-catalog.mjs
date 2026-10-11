@@ -2,10 +2,16 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 const context={window:{}};
 vm.createContext(context);
-for(const file of ['engins-data.js','histoire-data.js','histoire-chiffres.js','histoire-technique.js','quiz-data.js','map-data.js'])vm.runInContext(fs.readFileSync(file,'utf8'),context,{filename:file});
+for(const file of ['engins-data.js','histoire-data.js','histoire-chiffres.js','histoire-technique.js','histoire-frises.js','quiz-data.js','map-data.js'])vm.runInContext(fs.readFileSync(file,'utf8'),context,{filename:file});
 const {LDV_ENGINS:engins,LDV_HISTOIRE:history,LDV_CHIFFRES:figures,LDV_FACTS:facts,LDV_CHRONO:chrono,LDV_MAP:map}=context.window;
 const fail=message=>{throw new Error(message)};
 const technical=context.window.LDV_TECHNIQUE;
+const timelines=context.window.LDV_TIMELINES;
+if(Object.keys(timelines).length!==engins.length)fail('Couverture des frises incomplète');
+for(const [i,e] of engins.entries()){
+  if(!timelines[i]?.length)fail('Frise manquante : '+e.name);
+  for(const event of timelines[i])if(!event.date||!event.label||!event.detail||!event.source?.startsWith('https://'))fail('Jalon sans référence : '+e.name);
+}
 if(Object.keys(technical).length!==engins.length)fail('Couverture des fiches techniques incomplète');
 for(const [i,e] of engins.entries()){
   const t=technical[i];
