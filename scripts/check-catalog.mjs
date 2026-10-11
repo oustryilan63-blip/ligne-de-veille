@@ -5,7 +5,7 @@ vm.createContext(context);
 for(const file of ['engins-data.js','histoire-data.js','histoire-chiffres.js','quiz-data.js','map-data.js'])vm.runInContext(fs.readFileSync(file,'utf8'),context,{filename:file});
 const {LDV_ENGINS:engins,LDV_HISTOIRE:history,LDV_CHIFFRES:figures,LDV_FACTS:facts,LDV_CHRONO:chrono,LDV_MAP:map}=context.window;
 const fail=message=>{throw new Error(message)};
-if(engins.length!==90||history.length!==90)fail(`Catalogue ${engins.length}, fiches ${history.length}`);
+if(engins.length<90||history.length!==engins.length)fail(`Catalogue ${engins.length}, fiches ${history.length}`);
 const names=new Set(),codes=new Set(map.map(x=>x.code));
 for(const [i,e] of engins.entries()){
   if(names.has(e.name))fail('Nom doublon : '+e.name);names.add(e.name);
@@ -19,5 +19,9 @@ for(const [i,e] of engins.entries()){
 }
 for(const fact of facts)if(!names.has(fact.ref))fail('Question sans engin : '+fact.ref);
 for(const date of chrono)if(!date.source?.startsWith('https://'))fail('Date sans source : '+date.name);
-for(const key of Object.keys(figures))if(Number(key)>=engins.length)fail('Chiffre hors catalogue : '+key);
+for(const [key,figure] of Object.entries(figures)){
+  if(!Number.isInteger(Number(key))||Number(key)<0||Number(key)>=engins.length)fail('Chiffre hors catalogue : '+key);
+  for(const field of ['production','inventory','losses','targets'])if(figure[field]&&(!figure[field].value||!figure[field].note||!figure[field].source?.startsWith('https://')))fail('Chiffre incomplet : '+key+' '+field);
+  for(const record of figure.combatRecords||[])if(!record.title||!record.status||!record.date||!record.text||!record.sources?.length||record.sources.some(s=>!s.label||!s.url?.startsWith('https://')))fail('Événement incomplet : '+key);
+}
 console.log(`${engins.length} engins, ${history.length} fiches, ${facts.length} affirmations, ${chrono.length} dates, ${Object.keys(figures).length} fiches chiffrées : OK`);
