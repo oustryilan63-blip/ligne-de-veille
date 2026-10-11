@@ -2,7 +2,7 @@
  'use strict';
  const P=window.LDV_PROGRESS,E=window.LDV_ENGINS,F=window.LDV_FACTS,C=window.LDV_CHRONO,$=id=>document.getElementById(id);
  const filter=new URLSearchParams(location.search).get('jeu');
- const valid=x=>x.game==='vrai-faux'?F.some(f=>f.claim===x.id):x.game==='chrono'?Array.isArray(x.payload.names)&&x.payload.names.length===4&&x.payload.names.every(n=>C.some(c=>c.name===n)):E.some(e=>e.name===x.id);
+ const valid=x=>x.game==='radar'?['air','missile','naval'].includes(x.payload.kind)&&typeof x.payload.friend==='boolean':x.game==='vrai-faux'?F.some(f=>f.claim===x.id):x.game==='chrono'?Array.isArray(x.payload.names)&&x.payload.names.length===4&&x.payload.names.every(n=>C.some(c=>c.name===n)):E.some(e=>e.name===x.id);
  const deck=P.missed(P.games[filter]?filter:undefined).filter(valid);let index=0,corrected=0,resolved=false;
  const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n};
  const shuffle=a=>{const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b};
@@ -17,6 +17,13 @@
    const target=x.payload.names.map(n=>C.find(c=>c.name===n)).sort((a,b)=>a.year-b.year);let order=shuffle(target);if(order.every((v,i)=>v===target[i]))[order[0],order[1]]=[order[1],order[0]];
    $('revision-question').textContent='Replace ces premiers vols du plus ancien au plus récent.';
    function list(){const host=$('revision-order');host.replaceChildren(...order.map((c,i)=>{const li=el('li');li.append(el('strong','',c.name));for(const [delta,label] of [[-1,'Monter'],[1,'Descendre']]){const b=el('button','',delta<0?'↑':'↓');b.type='button';b.setAttribute('aria-label',label+' '+c.name);b.disabled=i+delta<0||i+delta>=order.length;b.addEventListener('click',()=>{[order[i],order[i+delta]]=[order[i+delta],order[i]];list();const buttons=$('revision-order').children[i+delta].querySelectorAll('button');(buttons[delta<0?0:1].disabled?[...buttons].find(b=>!b.disabled):buttons[delta<0?0:1])?.focus()});li.append(b)}return li}));}list();$('revision-check').hidden=false;$('revision-check').onclick=()=>reveal(order.every((c,i)=>c===target[i]),target.map(c=>`${c.date} : ${c.name}`).join(' · '),target.map(c=>({label:c.name+' — source',url:c.source})));return;
+  }
+  if(x.game==='radar'){
+   const kind=x.payload.kind,friend=x.payload.friend;
+   const names={air:'avion',missile:'missile',naval:'navire'},defenses={air:'Patrouille aérienne',missile:'Bouclier anti-missile',naval:'Patrouille maritime'};
+   $('revision-question').textContent=`Dans Alerte radar, une piste ${names[kind]} est identifiée comme ${friend?'amie':'hostile fictive'}. Que fais-tu ?`;
+   const answer=friend?'Je la laisse passer':defenses[kind];
+   choices(shuffle(['Je la laisse passer',...Object.values(defenses)]),answer,friend?'Une piste amie peut continuer sans tir.':'Dans ce jeu fictif, chaque type de piste correspond au moyen portant le même symbole. Les règles ne représentent aucune procédure réelle.',[]);return;
   }
   const fact=x.game==='vrai-faux'?F.find(f=>f.claim===x.id):null,item=E.find(e=>e.name===(fact?fact.ref:x.id));
   if(!fact){const img=$('revision-photo');img.src='assets/jeu/'+item.photo;img.alt='Engin à identifier';img.hidden=false;}

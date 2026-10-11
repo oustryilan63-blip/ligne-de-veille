@@ -8,6 +8,8 @@ La navigation rassemble Actualités, Jeux et Histoire. La copie locale s’ouvre
 
 Le catalogue commun contient 100 engins, dont dix-huit missiles. Les mêmes photos et crédits alimentent l’histoire, le jeu du pays de conception, la reconnaissance du nom, Zoom mystère et le défi du jour. Les jeux du pays et du nom ont une catégorie Missiles. Le vrai/faux comprend 67 affirmations sourcées ; Chrono défense utilise 19 dates de premier vol vérifiées. Les missiles ne sont pas ajoutés artificiellement aux questions de premier vol d’avions.
 
+Le septième jeu, « Alerte radar », propose dix manches sur une carte de France : identifier des pistes mobiles, laisser passer les amies et choisir un moyen fictif pour les hostiles. Les règles et effets sont inventés pour le jeu. Les scores et erreurs rejoignent le carnet local du navigateur.
+
 Pour les programmes multinationaux documentés, chacun des pays partenaires indiqués dans la fiche est accepté dans le jeu géographique. Les résultats et scores restent dans le navigateur. Le défi du jour change à minuit, heure de Paris.
 
 ## Histoire

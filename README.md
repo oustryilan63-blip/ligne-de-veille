@@ -1,11 +1,12 @@
 # Radar
 
-Site francophone consacré à l'actualité de la défense, de la sécurité et de la géopolitique, avec six jeux et un atlas de 100 engins militaires.
+Site francophone consacré à l'actualité de la défense, de la sécurité et de la géopolitique, avec sept jeux et un atlas de 100 engins militaires.
 
 ## Ouvrir le site
 
 - [Site](https://oustryilan63-blip.github.io/ligne-de-veille/)
 - [Tous les jeux](https://oustryilan63-blip.github.io/ligne-de-veille/tous-les-jeux.html)
+- [Alerte radar](https://oustryilan63-blip.github.io/ligne-de-veille/alerte-radar.html)
 - [Histoire des engins](https://oustryilan63-blip.github.io/ligne-de-veille/histoire.html)
 - [Deviner le pays de conception](https://oustryilan63-blip.github.io/ligne-de-veille/jeux.html)
 - [Reconnaître l'engin sur une photo](https://oustryilan63-blip.github.io/ligne-de-veille/devine-engin.html)
@@ -14,7 +15,7 @@ Site francophone consacré à l'actualité de la défense, de la sécurité et d
 - [Vrai ou faux ?](https://oustryilan63-blip.github.io/ligne-de-veille/vrai-ou-faux.html)
 - [Défi du jour](https://oustryilan63-blip.github.io/ligne-de-veille/defi-du-jour.html)
 
-Le site fonctionne également sans installation : ouvrez `index.html` dans un navigateur, puis la rubrique « Jeux ». Les six jeux utilisent le même catalogue de 100 engins. Le jeu chronologique s'appuie sur dix-neuf dates de premier vol vérifiées dans les archives des fabricants. Le vrai/faux contient soixante-sept affirmations sourcées, dont dix sont tirées au hasard par partie. Le défi du jour change à minuit, heure de Paris, et le résultat est conservé localement dans le navigateur : il n'y a pas de classement global.
+Le site fonctionne également sans installation : ouvrez `index.html` dans un navigateur, puis la rubrique « Jeux ». Les jeux de connaissance utilisent le catalogue de 100 engins. « Alerte radar » est une simulation d'arcade indépendante, avec des pistes et des moyens fictifs ; sa carte de France reprend les contours Natural Earth du site. Le jeu chronologique s'appuie sur dix-neuf dates de premier vol vérifiées dans les archives des fabricants. Le vrai/faux contient soixante-sept affirmations sourcées, dont dix sont tirées au hasard par partie. Le défi du jour change à minuit, heure de Paris, et le résultat est conservé localement dans le navigateur : il n'y a pas de classement global.
 
 La direction graphique « Atlas stratégique » est appliquée à l'accueil, aux jeux et à la rubrique Histoire. Les polices IBM Plex sont conservées dans `assets/fonts/atlas` avec leur licence. Les photos sont créditées et leurs détails figurent dans `assets/jeu/ajouts/credits.json` et `assets/jeu/ajouts/serie-2/credits.json` et les relevés `serie-3/credits.json` et `serie-4/credits.json` du même dossier. Les données des 100 engins sont partagées dans `engins-data.js` ; leurs textes et chiffres historiques sont dans `histoire-data.js`. La carte utilise `map-data.js`.
 
@@ -48,7 +49,7 @@ Les 100 fiches techniques et leurs récits ont été relus. Les variantes, conve
 
 ## Retrait de la rubrique Horizon — 11 octobre 2026
 
-La navigation ne comporte plus que Actualités, Jeux et Histoire. L’ancienne adresse horizon.html redirige vers le catalogue des six jeux ; elle ne charge plus l’activité ni ses scripts.
+La navigation ne comporte plus que Actualités, Jeux et Histoire. L’ancienne adresse horizon.html redirige vers le catalogue des sept jeux ; elle ne charge plus l’activité ni ses scripts.
 
 ## Parcours de découverte — 11 octobre 2026
 

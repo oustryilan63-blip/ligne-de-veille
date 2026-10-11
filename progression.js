@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const KEY='ldv-progression-v1';
-  const games={pays:['D’où vient cet engin ?','jeux.html'],recognition:['Quel est cet engin ?','devine-engin.html'],zoom:['Zoom mystère','zoom-mystere.html'],chrono:['Chrono défense','chrono-defense.html'],'vrai-faux':['Vrai ou faux ?','vrai-ou-faux.html'],quotidien:['Défi du jour','defi-du-jour.html']};
+  const games={pays:['D’où vient cet engin ?','jeux.html'],recognition:['Quel est cet engin ?','devine-engin.html'],zoom:['Zoom mystère','zoom-mystere.html'],chrono:['Chrono défense','chrono-defense.html'],'vrai-faux':['Vrai ou faux ?','vrai-ou-faux.html'],quotidien:['Défi du jour','defi-du-jour.html'],radar:['Alerte radar','alerte-radar.html']};
   const blank=()=>({version:1,games:{},missed:[],correct:0,reviewed:0,days:[]});
   let data=blank(),persistent=true;
   try {const saved=JSON.parse(localStorage.getItem(KEY));if(saved?.version===1&&saved.games&&typeof saved.games==='object'&&!Array.isArray(saved.games)&&Array.isArray(saved.missed)){data={...blank(),...saved};data.missed=data.missed.filter(x=>x&&games[x.game]&&typeof x.id==='string'&&typeof x.label==='string').map(x=>({...x,key:x.game+'|'+x.id,payload:x.payload&&typeof x.payload==='object'?x.payload:{}}));}}
@@ -36,7 +36,7 @@
       const status=el('span','progress-record',record?.best?`Meilleur score : ${record.best.score}/${record.best.max} · ${record.best.percent} %`:'Ton premier record reste à écrire.');
       const link=el('a','progress-link',n?`Réviser mes erreurs (${n}) →`:'Mon carnet de joueur →');link.href=n?'revision.html?jeu='+encodeURIComponent(game):'tous-les-jeux.html#progression';
       box.replaceChildren(status,link);
-      for(const end of document.querySelectorAll('#game-end, #recognition-end, #arcade-end')){
+      for(const end of document.querySelectorAll('#game-end, #recognition-end, #arcade-end, #radar-end')){
         let action=end.querySelector('.progress-finish');if(!action){action=el('p','progress-finish');end.append(action)}
         const reviewLink=el('a','progress-link',n?`Réviser mes erreurs (${n}) →`:'Voir mes scores et mes badges →');reviewLink.href=link.href;action.replaceChildren(reviewLink);
       }
@@ -44,9 +44,10 @@
     const host=document.getElementById('progression');if(!host)return;
     const s=stats();host.replaceChildren();
     host.append(el('span','eyebrow','TON CARNET DE JOUEUR'),el('h2','','Apprendre. Revenir. Progresser.'),el('p','progress-note',persistent?'Scores et erreurs enregistrés sur ce navigateur, sans compte. Ils ne se synchronisent pas entre appareils.':'Le stockage est indisponible : ta progression reste disponible pendant cette page seulement.'));
-    const summary=el('div','progress-summary');for(const [n,label] of [[s.played,'parties terminées'],[s.explored+'/6','jeux explorés'],[data.missed.length,'questions à réviser']]){const box=el('div');box.append(el('strong','',String(n)),el('span','',label));summary.append(box)}host.append(summary);
+    const gameCount=Object.keys(games).length;
+    const summary=el('div','progress-summary');for(const [n,label] of [[s.played,'parties terminées'],[s.explored+'/'+gameCount,'jeux explorés'],[data.missed.length,'questions à réviser']]){const box=el('div');box.append(el('strong','',String(n)),el('span','',label));summary.append(box)}host.append(summary);
     const badges=el('ul','progress-badges');
-    for(const [title,desc,won] of [['Premiers pas','Terminer une partie',s.played>0],['Explorateur','Terminer une partie dans chacun des 6 jeux',s.explored===6],['Sans faute','Atteindre le score maximal dans une partie',s.perfect],['Curieux','Trouver 25 bonnes réponses',data.correct>=25],['Persévérant','Corriger 5 erreurs en révision',data.reviewed>=5]]){const li=el('li',won?'earned':'');li.append(el('strong','',(won?'✓ ':'○ ')+title),el('span','',desc));badges.append(li)}host.append(badges);
+    for(const [title,desc,won] of [['Premiers pas','Terminer une partie',s.played>0],['Explorateur',`Terminer une partie dans chacun des ${gameCount} jeux`,s.explored===gameCount],['Sans faute','Atteindre le score maximal dans une partie',s.perfect],['Curieux','Trouver 25 bonnes réponses',data.correct>=25],['Persévérant','Corriger 5 erreurs en révision',data.reviewed>=5]]){const li=el('li',won?'earned':'');li.append(el('strong','',(won?'✓ ':'○ ')+title),el('span','',desc));badges.append(li)}host.append(badges);
     const records=el('div','progress-records');
     for(const [id,[name,url]] of Object.entries(games)){const r=data.games[id],card=el('article');card.append(el('h3','',name),el('strong','',r?.best?`${r.best.score}/${r.best.max} · ${r.best.percent} %`:'Pas encore de record'),el('p','',r?.best?`${r.played} partie${r.played>1?'s':''} · ${r.best.mode}`:'Termine une partie pour enregistrer ton score.'));const a=el('a','',r?'Rejouer →':'Découvrir →');a.href=url;card.append(a);records.append(card)}host.append(records,el('p','progress-note','Les records utilisent le pourcentage de points obtenus. Le mode est précisé ; les parties de révision ne modifient pas les records.'));
     const actions=el('div','progress-actions'),link=el('a','button button-dark',data.missed.length?`Réviser mes ${data.missed.length} erreur${data.missed.length>1?'s':''} →`:'Découvrir la révision →');link.href='revision.html';actions.append(link);
