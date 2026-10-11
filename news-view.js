@@ -16,7 +16,7 @@
       for(const {item,matches} of rows.slice(0,limit)){
         const entry=make('article','news-entry'),card=make('a','news-card');card.href=item.url;card.target='_blank';card.rel='noopener noreferrer';
         const date=make('span','news-date',dateLabel(item.date)),main=make('span','news-main'),source=make('span','news-source',item.sourceType+' · '+item.source+(item.language==='en'?' · en anglais':'')),title=make('strong','',item.title),summary=make('small');
-        if(item.sourceExcerpt){summary.append(make('span','news-summary-label','Extrait de l’éditeur'),document.createTextNode('« '+item.sourceExcerpt.text+' »'));}else summary.textContent=item.autoCollected?'Titre transmis par le flux de l’éditeur. Ouvre la publication pour lire l’article.':item.summary;
+        if(item.sourceExcerpt&&!/conflits/i.test(item.source)){summary.append(make('span','news-summary-label','Extrait de l’éditeur'),document.createTextNode('« '+item.sourceExcerpt.text+' »'));}else summary.textContent=item.autoCollected?'Titre transmis par le flux de l’éditeur. Ouvre la publication pour lire l’article.':item.summary;
         main.append(date,source,title,summary);
         if(!item.autoCollected&&item.why){const why=make('span','news-why');why.append(make('b','','À retenir'),make('span','',item.why));main.append(why)}
         const visual=tools.image(item,matches),media=make('span','news-media'),img=make('img','news-thumb'),badge=make('span','news-image-label',visual.kind==='article'?'Image de l’article':'Illustration');
