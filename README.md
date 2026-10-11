@@ -65,3 +65,8 @@ La campagne est sauvegardée dans ce navigateur sous `radar-qg-campaign-v1`, ind
 ## Chargement et modèles 3D — 11 octobre 2026
 
 Le catalogue Histoire ne charge que les données indispensables aux cartes et au filtre 3D. Les histoires, caractéristiques, galeries et carte géographique sont chargées uniquement pour une fiche. Les neuf modèles revus incluent les choix Rafale et F-16 ; leur variante et auteur restent affichés. Les lecteurs 3D se chargent après clic. La publication compacte les données JSON sans modifier les sources lisibles du dépôt.
+
+## Alerte radar — lisibilité, 11 octobre 2026
+
+Neuf noms de pays sont placés dans les contours projetés existants. Les sept trajets des navires ont été corrigés et vérifiés en mer. Après identification, avion, missile et navire ont une silhouette distincte, sur la carte, dans les contacts et dans les moyens disponibles. Les signes ✓ et ! complètent les couleurs ; la barre de temps, le compteur de pistes à traiter et le bandeau de pause clarifient la manche. scripts/check-radar-game.cjs vérifie les vingt pistes et une campagne complète ; scripts/check-radar-geography.mjs vérifie les noms et les trajets maritimes.
+
