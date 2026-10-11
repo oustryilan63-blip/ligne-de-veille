@@ -25,7 +25,7 @@ La direction graphique « Atlas stratégique » est appliquée à l'accueil, aux
 
 ## Actualités
 
-Une collecte GitHub Actions est programmée tous les jours à **8 h, heure de Paris**, y compris après le changement d’heure. Elle fonctionne ordinateur éteint. GitHub peut retarder le démarrage de quelques minutes. Les titres, dates et liens proviennent des flux du Sénat, du ministère britannique de la Défense, d’Opex360, d’OpexNews et de Conflits. Les publications anglophones sont signalées. Aucun résumé automatique d’article n’est inventé : le lecteur est invité à consulter l’original. Les archives sont conservées. Une collecte doit réussir sur au moins une source documentaire et une source spécialisée ; sinon la dernière version publiée reste en place.
+Une collecte GitHub Actions est programmée tous les jours à **8 h et 18 h, heure de Paris**, y compris après le changement d’heure. Elle fonctionne ordinateur éteint. GitHub peut retarder le démarrage de quelques minutes. Les titres, dates et liens proviennent des flux du Sénat, du ministère britannique de la Défense, d’Opex360, d’OpexNews et de Conflits. Les publications anglophones sont signalées. Aucun résumé automatique d’article n’est inventé : le lecteur est invité à consulter l’original. Les archives sont conservées. Une collecte doit réussir sur au moins une source documentaire et une source spécialisée ; sinon la dernière version publiée reste en place.
 
 La configuration se trouve dans `.github/workflows/veille-quotidienne.yml`, la collecte dans `scripts/update-news.py` et les flux dans `scripts/news-sources.json`. La date et l’heure du dernier contrôle apparaissent sur l’accueil.
 
@@ -61,3 +61,7 @@ Accueil raccourci, défi du jour et veille mis en avant. comparateur.html affich
 Le huitième jeu est une gestion de base côtière, au tour par tour. Deux décisions par semaine pendant douze semaines : missions, réparations, formations, repos et améliorations de cinq bâtiments. Six engins de l’atlas disposent de sprites originaux dessinés dans `qg-radar-art.js`. Les valeurs et missions sont fictives. Vingt événements sont possibles ; douze sont tirés sans répétition par campagne.
 
 La campagne est sauvegardée dans ce navigateur sous `radar-qg-campaign-v1`, indépendamment des autres jeux. Une sauvegarde invalide est remplacée proprement. Les scores sont ajoutés une seule fois par campagne au carnet de joueur. Commandes de zoom, déplacement, pause des animations et préférence de mouvement réduit sont disponibles.
+
+## Chargement et modèles 3D — 11 octobre 2026
+
+Le catalogue Histoire ne charge que les données indispensables aux cartes et au filtre 3D. Les histoires, caractéristiques, galeries et carte géographique sont chargées uniquement pour une fiche. Les neuf modèles revus incluent les choix Rafale et F-16 ; leur variante et auteur restent affichés. Les lecteurs 3D se chargent après clic. La publication compacte les données JSON sans modifier les sources lisibles du dépôt.

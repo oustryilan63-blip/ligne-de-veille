@@ -18,15 +18,15 @@ Les 100 fiches partagent l’ordre d’engins-data.js ; histoire-data.js contien
 
 Les photos Wikimedia Commons sont conservées avec leurs crédits et licences dans assets/jeu/ajouts et ses sous-dossiers serie-2, serie-3, serie-4 et serie-5. Les polices IBM Plex et leur licence sont dans assets/fonts/atlas. Le fond cartographique Natural Earth est dans le domaine public.
 
-## Veille automatique à 8 h
+## Veille automatique à 8 h et 18 h
 
-Le workflow GitHub Actions veille-quotidienne.yml est programmé chaque matin à 8 h, fuseau Europe/Paris. Il fonctionne même si l’ordinateur est éteint. GitHub peut mettre l’exécution en attente : la publication n’est pas garantie à la seconde exacte.
+Le workflow GitHub Actions veille-quotidienne.yml est programmé chaque jour à 8 h et 18 h, fuseau Europe/Paris. Il fonctionne même si l’ordinateur est éteint. GitHub peut mettre l’exécution en attente : la publication n’est pas garantie à la seconde exacte.
 
 La collecte consulte les flux du Sénat, du ministère britannique de la Défense, d’Opex360, d’OpexNews et de Conflits. Elle retient des titres récents datés, vérifie leurs liens et conserve l’historique. Les titres anglophones sont signalés. Les nouvelles cartes renvoient à la publication originale sans prétendre en proposer un résumé. Les anciens résumés éditoriaux restent dans les archives.
 
 Le script exige au moins une source officielle et une source spécialisée accessibles. En cas d’échec global, la dernière version publique reste disponible et GitHub Actions indique l’erreur. L’accueil indique le dernier contrôle et le nombre de flux consultés.
 
-actualites.json conserve les données ; scripts/update-news.py les collecte ; scripts/build-news.mjs valide et génère actualites.js. Le workflow enregistre puis publie les changements. On peut relancer la collecte depuis Actions → Veille de 8 h et publication du site → Run workflow. Une copie modifiée sur l’ordinateur doit être envoyée dans GitHub pour être publiée.
+actualites.json conserve les données ; scripts/update-news.py les collecte ; scripts/build-news.mjs valide et génère actualites.js. Le workflow enregistre puis publie les changements. On peut relancer la collecte depuis Actions → Radar · veille de 8 h et 18 h et publication du site → Run workflow. Une copie modifiée sur l’ordinateur doit être envoyée dans GitHub pour être publiée.
 
 Le bouton Signaler une erreur prépare un e-mail, sans l’envoyer automatiquement. L’image d’ouverture a été créée pour ce projet avec ImageGen.
 

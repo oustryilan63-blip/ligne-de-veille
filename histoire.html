@@ -10,16 +10,7 @@
   <link rel="stylesheet" href="atlas.css?v=5">
   <link rel="stylesheet" href="histoire.css?v=9">
   <script src="engins-data.js?v=13" defer></script>
-  <script src="histoire-data.js?v=13" defer></script>
-  <script src="histoire-chiffres.js?v=13" defer></script>
-  <script src="histoire-technique.js?v=2" defer></script>
-  <script src="map-data.js" defer></script>
-  <script src="histoire-frises.js?v=1" defer></script>
-  <script src="histoire-photos-data.js?v=1" defer></script>
-  <script src="histoire-photos.js?v=1" defer></script>
-  <script src="histoire-3d-data.js?v=1" defer></script>
-  <script src="histoire-3d.js?v=3" defer></script>
-  <script src="histoire.js?v=19" defer></script>
+  <script src="histoire-bootstrap.js?v=1" defer></script>
 <link rel="stylesheet" href="experience.css?v=1">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
@@ -30,6 +21,7 @@
   <main id="main">
     <section class="history-hero" aria-labelledby="history-title"><div class="wrap"><div class="eyebrow light"><span class="eyebrow-line"></span> L'ATLAS DES ENGINS</div><h1 id="history-title">Des machines.<br><em>Des histoires.</em></h1><p>De leur conception à leur utilisation : 100 fiches pour comprendre les engins des jeux, leurs pays et les chiffres réellement documentés.</p><div class="history-hero-foot"><span>100 FICHES / 01 ATLAS</span><span>ÉDITION 2026</span></div></div></section>
     <section class="history-main wrap" aria-label="Catalogue et fiches">
+      <p id="history-load-state" role="status" hidden></p>
       <div id="history-catalogue">
         <div class="history-section-head"><div><div class="eyebrow"><span class="eyebrow-line"></span> EXPLORER</div><h2>Choisir un <em>engin.</em></h2></div><p>Photos, histoire, pays associés et sources à consulter.</p></div>
         <p><a class="button button-dark" href="comparateur.html">Comparer deux engins →</a></p><div class="history-tools"><label for="history-search">Rechercher un engin</label><input id="history-search" type="search" placeholder="Ex. Rafale, char, Japon…" autocomplete="off"><div id="history-filters" class="history-filters" role="group" aria-label="Filtrer par catégorie"></div></div>
