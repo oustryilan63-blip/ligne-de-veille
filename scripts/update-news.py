@@ -59,6 +59,16 @@ def child_text(element, names):
             if local_name(child.tag) == name and child.text: return child.text.strip()
     return ''
 
+def source_excerpt(entry):
+    """Use a short, attributed feed excerpt; never fetch or republish article bodies."""
+    value = clean(child_text(entry, ('summary', 'description')))
+    words = value.split()
+    if len(words) < 8: return None
+    excerpt = ' '.join(words[:20])
+    if len(excerpt) > 280: excerpt = clip(excerpt, 280)
+    if len(words) > 20: excerpt += '…'
+    return {'text': excerpt, 'kind': 'feed-excerpt'}
+
 def parse_feed(data, source, now):
     if b'<!DOCTYPE' in data.upper() or b'<!ENTITY' in data.upper(): raise ValueError('XML avec déclaration externe refusé')
     tree = ET.fromstring(data)
@@ -80,7 +90,10 @@ def parse_feed(data, source, now):
         try: url = canonical(raw_url, source)
         except ValueError: continue
         if source.get('pathPrefix') and not urllib.parse.urlsplit(url).path.startswith(source['pathPrefix']): continue
-        result.append({'date':published.astimezone(PARIS).date().isoformat(),'publishedAt':published.isoformat(),'source':source['name'],'sourceType':source['type'],'title':title,'url':url,'language':source['language'],'autoCollected':True,'summary':'Publication repérée dans le flux de '+source['name']+'. Consultez le site d’origine pour lire le contenu complet.','why':'Document original accessible chez son éditeur ; titre et date transmis par son flux.'})
+        item = {'date':published.astimezone(PARIS).date().isoformat(),'publishedAt':published.isoformat(),'source':source['name'],'sourceType':source['type'],'title':title,'url':url,'language':source['language'],'autoCollected':True,'summary':'Publication repérée dans le flux de '+source['name']+'. Consultez le site d’origine pour lire le contenu complet.','why':'Document original accessible chez son éditeur ; titre et date transmis par son flux.'}
+        excerpt = source_excerpt(entry)
+        if excerpt: item['sourceExcerpt'] = excerpt
+        result.append(item)
     return sorted(result,key=lambda item:item['publishedAt'],reverse=True)
 
 def collect(source, now):
@@ -104,11 +117,16 @@ def main():
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         results = list(pool.map(lambda source:collect(source,now),sources))
     candidates = []
+    existing = {item['url'].rstrip('/'): item for item in stored['items']}
     for source, items, error in results:
         statuses.append({'source':source['name'],'ok':not error,'recentItems':len(items),'error':error})
         if error:
             print('Flux indisponible : '+source['name']+' — '+error, file=sys.stderr); continue
         types_ok.add(source['type'])
+        for item in items:
+            saved = existing.get(item['url'].rstrip('/'))
+            if saved and saved.get('autoCollected') and item.get('sourceExcerpt'):
+                saved['sourceExcerpt'] = item['sourceExcerpt']
         # At most two recent headlines per source; no article bodies are republished.
         candidates.extend([item for item in items if item['url'].rstrip('/') not in urls][:2])
     if not {'Source officielle','Presse spécialisée'}.issubset(types_ok):
@@ -124,7 +142,7 @@ def main():
     stored['items'].sort(key=lambda item:(item['date'],item.get('publishedAt','')),reverse=True)
     stored['updatedAt'] = now.astimezone(PARIS).date().isoformat()
     stored['checkedAt'] = now.isoformat()
-    stored['automation'] = {'schedule':'08:00 et 18:00','schedules':['08:00','18:00'],'timezone':'Europe/Paris','method':'RSS/Atom : titres, dates et liens vérifiés','sources':statuses,'newItems':len(additions)}
+    stored['automation'] = {'schedule':'08:00 et 18:00','schedules':['08:00','18:00'],'timezone':'Europe/Paris','method':'RSS/Atom : titres, dates, liens vérifiés et courts extraits attribués lorsqu’ils sont disponibles','sources':statuses,'newItems':len(additions)}
     output = ROOT/'actualites.json'
     temporary = output.with_suffix('.json.tmp'); temporary.write_text(json.dumps(stored,ensure_ascii=False,indent=2)+'\n',encoding='utf-8'); temporary.replace(output)
     summary = f"{len(additions)} nouveautés ; {sum(s['ok'] for s in statuses)}/{len(statuses)} flux consultés ; {len(stored['items'])} publications conservées."

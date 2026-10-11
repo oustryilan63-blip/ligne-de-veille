@@ -15,6 +15,7 @@ for (const item of source.items) {
     if (typeof item[field] !== 'string' || !item[field].trim() || item[field].length > max) throw new Error(`Champ ${field} invalide`);
   }
   const url = new URL(item.url);
+  if(item.sourceExcerpt&&(item.sourceExcerpt.kind!=='feed-excerpt'||typeof item.sourceExcerpt.text!=='string'||item.sourceExcerpt.text.length>281||item.sourceExcerpt.text.trim().split(/\s+/).length>20))throw new Error('Extrait éditeur invalide');
   if (url.protocol !== 'https:' || urls.has(url.href)) throw new Error('URL non sécurisée ou en double');
   urls.add(url.href);
 }
