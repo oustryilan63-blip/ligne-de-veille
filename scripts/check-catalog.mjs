@@ -24,6 +24,7 @@ for(const [i,e] of engins.entries()){
   if(!e.source?.startsWith('https://'))fail('Source invalide : '+e.name);
   if(!e.photoFile||!e.photoAuthor||!e.photoLicense)fail('Crédit manquant : '+e.name);
   if(!history[i]?.story)fail('Histoire manquante : '+e.name);
+  for(const source of history[i].storySources||[])if(!source.label||!source.url?.startsWith('https://'))fail('Source du récit invalide : '+e.name);
   for(const code of [...(history[i].current||[]),...(history[i].former||[])])if(!codes.has(code))fail('Pays utilisateur absent de la carte : '+e.name+' '+code);
 }
 for(const fact of facts)if(!names.has(fact.ref))fail('Question sans engin : '+fact.ref);
