@@ -51,6 +51,16 @@
       const row=el('div','history-card-title');row.append(el('strong','',item.name),el('span','','↗'));body.append(row,el('span','history-card-country',item.country));if(window.RADAR_3D?.has(item))body.append(el('span','history-3d-badge','Vue 3D disponible'));a.append(body);const shell=el('article','history-card-shell');shell.append(a,collection.button(item));grid.append(shell);
     });
     count.textContent=found.length+' / '+engins.length+' ENGINS';empty.hidden=found.length>0;
+    const criteria=[];
+    if(query)criteria.push('Recherche : « '+query+' »');
+    if(countrySelect.value)criteria.push(tools.countryName(countrySelect.value));
+    if(typeSelect.value)criteria.push(tools.types[typeSelect.value]);
+    if(selected!=='Tous')criteria.push(selected);
+    if(sortSelect.value==='alpha')criteria.push('Tri : A à Z');
+    if(sortSelect.value==='recent')criteria.push('Tri : derniers ajouts');
+    const foldState=document.getElementById('history-fold-state'),activeSummary=document.getElementById('history-filter-summary');
+    if(foldState)foldState.textContent=criteria.length?criteria.length+' critère'+(criteria.length>1?'s':'')+' actif'+(criteria.length>1?'s':''):'Aucun filtre actif';
+    if(activeSummary){activeSummary.textContent=criteria.join(' · ');activeSummary.hidden=criteria.length===0;}
     if(collectionOnly&&collection.names().length===0)empty.textContent='Ta collection est vide. Dans Histoire, utilise les étoiles pour choisir tes premiers engins.';
     else empty.textContent='Aucun engin ne correspond à cette recherche.';
     const total=collection.names().length;
