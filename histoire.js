@@ -38,7 +38,7 @@
     found.forEach(({item,i})=>{
       const a=el('a','history-card');if(item.category==='missiles')a.classList.add('history-card-missile');a.href='histoire.html?engin='+i;a.setAttribute('aria-label','Lire la fiche : '+item.name);
       a.append(photo(item));const body=el('div','history-card-copy');body.append(el('span','history-card-kicker',item.kind));
-      const row=el('div','history-card-title');row.append(el('strong','',item.name),el('span','','↗'));body.append(row,el('span','history-card-country',item.country));a.append(body);grid.append(a);
+      const row=el('div','history-card-title');row.append(el('strong','',item.name),el('span','','↗'));body.append(row,el('span','history-card-country',item.country));if(window.RADAR_3D?.has(item))body.append(el('span','history-3d-badge','Vue 3D disponible'));a.append(body);grid.append(a);
     });
     count.textContent=found.length+' / '+engins.length+' ENGINS';empty.hidden=found.length>0;
   }
@@ -86,8 +86,11 @@
     copy.append(el('p','',item.explanation));
     const compare=el('a','compare-link','Comparer cet engin →');compare.href='comparateur.html?a='+index;copy.append(compare);
     copy.append(technicalCard(index));
+    const modelView=window.RADAR_3D?.create(item);
+    if(modelView){const explore=el('a','button button-dark history-3d-shortcut','Explorer cet engin en 3D ↓');explore.href='#vue-3d';explore.addEventListener('click',()=>modelView.open());media.append(explore)}
     (fact.story||'L’histoire de cet engin est présentée dans la source liée ci-dessous.').split('\n\n').forEach(paragraph=>copy.append(el('p','',paragraph)));
     head.append(media,copy);detail.append(head);
+    if(modelView)detail.append(modelView.section);
     const events=window.LDV_TIMELINES?.[index]||[];
     if(events.length){const timeline=el('section','history-timeline');timeline.append(el('h3','','Les grandes étapes'),el('p','','Jalons documentés : les dates conservent la précision de leurs sources.'));const list=el('ol');for(const event of events){const li=el('li');li.append(el('time','',event.date),el('h4','',event.label),el('p','',event.detail),link('Vérifier ce jalon ↗',event.source));list.append(li)}timeline.append(list);detail.append(timeline)}
     const origin=item.code,origins=item.originCodes||[origin],former=fact.former||[];
