@@ -305,8 +305,10 @@
       show('arcade-next', false); show('daily-share', true);
       $('daily-share').dataset.share = shareText(ok);
     }
-    choiceButtons(names, name => reveal(name));
-    if (saved && names.includes(saved.choice)) reveal(saved.choice);
+    const legacySaved=saved&&!saved.itemName&&!saved.names&&typeof saved.choice==='string'&&typeof saved.correct==='boolean';
+    if(legacySaved){
+      resolved=true;$('arcade-photo').closest('figure').hidden=true;show('arcade-choices',false);text('arcade-question','Défi déjà joué');text('arcade-detail','Ton ancien résultat est conservé. La photo et les propositions d’origine n’avaient pas été enregistrées. Un nouveau défi arrive à minuit, heure de Paris.');text('arcade-score',saved.correct?'RÉSULTAT CONSERVÉ : 1 / 1':'RÉSULTAT CONSERVÉ : 0 / 1');text('arcade-result-label','Déjà joué');text('arcade-result-title','Résultat conservé');text('arcade-result-copy','Cette ancienne réponse reste dans ta sauvegarde. Elle n’est pas attribuée à une nouvelle photo et ne recompte pas ton score.');show('arcade-result',true);show('arcade-source',false);show('arcade-next',false);show('daily-share',true);$('daily-share').dataset.share=shareText(saved.correct);
+    }else{choiceButtons(names, name => reveal(name));if(saved&&names.includes(saved.choice))reveal(saved.choice);}
     $('daily-share').addEventListener('click', async () => {
       const message = $('daily-share').dataset.share;
       try {
