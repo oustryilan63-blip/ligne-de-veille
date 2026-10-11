@@ -49,3 +49,7 @@ Les 100 fiches techniques et leurs récits ont été relus. Les variantes, conve
 ## Retrait de la rubrique Horizon — 11 octobre 2026
 
 La navigation ne comporte plus que Actualités, Jeux et Histoire. L’ancienne adresse horizon.html redirige vers le catalogue des six jeux ; elle ne charge plus l’activité ni ses scripts.
+
+## Parcours de découverte — 11 octobre 2026
+
+Accueil raccourci, défi du jour et veille mis en avant. comparateur.html affiche deux variantes avec leurs caractéristiques sourcées ; aucun classement de performances. histoire-frises.js contient 216 jalons datés pour les 100 fiches. progression.js conserve scores normalisés, badges et questions ratées dans le navigateur (clé ldv-progression-v1), sans compte ni transmission. revision.html propose une révision ciblée qui ne modifie pas les records. Le défi du jour ne peut être recompté après rechargement. En cas de stockage refusé, le jeu reste disponible.

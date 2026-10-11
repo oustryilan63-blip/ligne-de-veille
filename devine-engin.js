@@ -94,6 +94,7 @@ function setCredit(item) {
 function showAnswer(correct, chosenButton) {
   const item = state.deck[state.index];
   state.resolved = true;
+  window.LDV_PROGRESS?.answer('recognition',item.name,correct,item.name);
   el('recognition-hint-button').disabled = true;
   if (correct) {
     state.found++;
@@ -183,6 +184,7 @@ function startGame() {
 }
 
 function finishGame() {
+  window.LDV_PROGRESS?.complete('recognition',state.points,state.deck.length*2,(state.answerMode==='choices'?'QCM':'Réponse libre')+' · '+state.deck.length+' questions · '+state.category);
   el('recognition-card').hidden = true;
   el('recognition-answering').hidden = true;
   el('recognition-answer').hidden = true;

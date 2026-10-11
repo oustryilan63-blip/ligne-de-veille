@@ -124,6 +124,7 @@
       choiceButtons(alternatives(item), (answer, button) => {
         if (resolved) return;
         resolved = true; const ok = answer === item.name;
+        window.LDV_PROGRESS?.answer('zoom',item.name,ok,item.name);
         if (ok) score += 5 - stage;
         img.style.transform = 'scale(1)'; img.alt = item.alt;
         $('zoom-reveal').disabled = true;
@@ -139,7 +140,7 @@
       text('zoom-level', `CADRAGE ${stage + 1} / ${scales.length} · ${5 - stage} POINTS POSSIBLES`);
       $('zoom-reveal').disabled = stage === scales.length - 1;
     });
-    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) finish(`${score} point${score > 1 ? 's' : ''} sur 25. Les bons réflexes d’observation font la différence.`); else round(); });
+    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) { window.LDV_PROGRESS?.complete('zoom',score,25,'5 photos'); finish(`${score} point${score > 1 ? 's' : ''} sur 25. Les bons réflexes d’observation font la différence.`); } else round(); });
     $('arcade-restart').addEventListener('click', start);
     function start() { deck = shuffle(catalog).slice(0, 5); index = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); }
     start();
@@ -194,6 +195,7 @@
       if (resolved) return; resolved = true;
       const sorted = [...order].sort((a, b) => a.year - b.year);
       const correct = order.filter((item, index) => item === sorted[index]).length;
+      window.LDV_PROGRESS?.answer('chrono',sorted.map(c=>c.name).join('|'),correct===4,'Premiers vols : '+sorted.map(c=>c.name).join(', '),{names:sorted.map(c=>c.name)});
       score += correct; text('arcade-score', `${score} / 8 BIEN PLACÉS`);
       $('chrono-check').hidden = true;
       $('chrono-list').querySelectorAll('button').forEach(button => button.disabled = true);
@@ -209,7 +211,7 @@
       result(correct === 4, `${correct} / 4 bien placés`, 'Voici l’ordre vérifié des premiers vols. Ouvre chaque source pour retrouver sa date.', {}, group === 1 ? 'Voir mon score →' : 'Série suivante →');
       show('arcade-source', false);
     });
-    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++group === 2) finish(`${score} appareils bien placés sur 8. Rejoue pour découvrir une autre sélection de premiers vols.`); else round(); });
+    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++group === 2) { window.LDV_PROGRESS?.complete('chrono',score,8,'2 séries de 4'); finish(`${score} appareils bien placés sur 8. Rejoue pour découvrir une autre sélection de premiers vols.`); } else round(); });
     $('arcade-restart').addEventListener('click', () => { chooseGroups(); group = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); });
     chooseGroups(); group = 0; score = 0; round();
   }
@@ -230,6 +232,7 @@
       const button = event.target.closest('button[data-answer]');
       if (!button || resolved) return;
       resolved = true; const fact = deck[index], answer = button.dataset.answer === 'true', ok = answer === fact.answer;
+      window.LDV_PROGRESS?.answer('vrai-faux',fact.claim,ok,fact.claim);
       if (ok) score++;
       $('vf-buttons').querySelectorAll('button').forEach(option => {
         option.disabled = true;
@@ -240,7 +243,7 @@
       const ref = catalog.find(item => item.name === fact.ref);
       result(ok, fact.answer ? 'C’est vrai.' : 'C’est faux.', fact.reason, ref, index + 1 === deck.length ? 'Voir mon score →' : 'Affirmation suivante →');
     });
-    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) finish(`${score} bonne${score > 1 ? 's' : ''} réponse${score > 1 ? 's' : ''} sur ${deck.length}. Chaque correction renvoie à une source.`); else round(); });
+    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) { window.LDV_PROGRESS?.complete('vrai-faux',score,deck.length,'10 affirmations'); finish(`${score} bonne${score > 1 ? 's' : ''} réponse${score > 1 ? 's' : ''} sur ${deck.length}. Chaque correction renvoie à une source.`); } else round(); });
     $('arcade-restart').addEventListener('click', start);
     function start() { deck = shuffle(window.LDV_FACTS).slice(0, 10); index = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); }
     start();
@@ -286,6 +289,7 @@
     function reveal(chosen) {
       if (resolved) return; resolved = true;
       const ok = chosen === item.name;
+      if(!saved){ window.LDV_PROGRESS?.answer('quotidien',item.name,ok,item.name); window.LDV_PROGRESS?.complete('quotidien',Number(ok),1,'Défi du '+key,key); }
       try { localStorage.setItem(storageKey, JSON.stringify({ choice: chosen, correct: ok, itemName: item.name, names })); } catch (_) { /* Stockage facultatif. */ }
       $('arcade-choices').querySelectorAll('button').forEach(button => {
         button.disabled = true;

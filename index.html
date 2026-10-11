@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="histoire.css?v=4">
   <script src="actualites.js" defer></script>
   <script src="app.js?v=10" defer></script>
-</head>
+<link rel="stylesheet" href="experience.css?v=1"></head>
 <body>
   <a class="skip-link" href="#main">Aller au contenu</a>
   <div class="utility-bar"><span>VEILLE DOCUMENTÉE <i></i> DÉFENSE · SÉCURITÉ · GÉOPOLITIQUE</span><span>ÉDITION PILOTE / 01</span></div>
@@ -27,14 +27,9 @@
 
   <main id="main">
     <div id="home-view">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-image" role="img" aria-label="Vue aérienne d'un passage maritime au lever du soleil"></div>
-        <div class="hero-grid" aria-hidden="true"></div>
-        <div class="hero-content wrap"><div class="eyebrow light"><span class="eyebrow-line"></span> LE MONDE SOUS UN AUTRE ANGLE</div><h1 id="hero-title">Comprendre les<br><em>rapports de force.</em></h1><p>Une revue pour prendre du recul sur la défense, la sécurité et les crises qui redessinent notre monde.</p><div class="hero-buttons"><a class="button button-accent" href="#actualites">Voir l'actualité <span aria-hidden="true">↗</span></a><a class="text-link light-link" href="#methode">Notre ligne éditoriale <span aria-hidden="true">→</span></a></div></div>
-        <div class="hero-bottom wrap"><span>SOURCES <span class="dot">•</span> CONTEXTE <span class="dot">•</span> NUANCE</span><span>01 / 04</span></div>
-      </section>
+      <section class="home-direct" aria-labelledby="hero-title"><div class="wrap"><div><span class="eyebrow">ACTUALITÉS · JEUX · HISTOIRE</span><h1 id="hero-title">Comprendre la défense.<br><em>À toi d’explorer.</em></h1><p>Les dernières publications, six jeux et un atlas de 100 engins. Des repères accessibles, avec leurs sources.</p><div class="home-actions"><a class="button button-accent" href="#actualites">Lire la veille ↓</a><a class="button button-light" href="histoire.html">Explorer l’atlas →</a></div></div><aside class="daily-home" aria-labelledby="daily-home-title"><span class="eyebrow">LE RENDEZ-VOUS QUOTIDIEN</span><h2 id="daily-home-title">Le défi du jour</h2><p>Une photo. Une réponse. Le même engin à deviner pour tous, renouvelé à minuit, heure de Paris.</p><a class="button button-light" href="defi-du-jour.html">Tenter le défi →</a><p><a href="tous-les-jeux.html#progression">Retrouver ma progression →</a></p></aside></div></section>
 
-      <section class="intro-section wrap" aria-labelledby="intro-title"><div class="section-index"><span>01 / NOTRE REGARD</span><span class="rule"></span></div><div class="intro-copy"><h2 id="intro-title">Voir plus loin<br>que <em>l'événement.</em></h2><div class="intro-side"><p class="lead">La défense ne se résume pas aux fronts. La sécurité ne se limite pas aux menaces.</p><p>Chaque enjeu se comprend par ses acteurs, ses territoires, ses technologies et ses conséquences. Ligne de Veille relie ces dimensions pour rendre les sujets complexes plus lisibles.</p><a class="arrow-link" href="#methode">Découvrir notre approche <span aria-hidden="true">↗</span></a></div></div></section>
+      
 
       <section class="news-section" id="actualites" aria-labelledby="news-title"><div class="wrap"><div class="section-heading news-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> LA VEILLE</div><h2 id="news-title">L'actualité <em>en perspective.</em></h2></div><div class="news-heading-side"><p>Veille quotidienne à 8 h, heure de Paris. Publications datées et accès direct aux sources.</p><span id="news-updated">Dernière sélection : —</span></div></div><div class="news-grid" id="news-grid" aria-live="polite"></div><p class="news-disclaimer">Les nouvelles publications sont repérées automatiquement dans les flux des éditeurs : titres, dates et liens vérifiés, sans validation humaine systématique. Les articles en anglais sont signalés. Consultez les sources pour lire leur contenu complet.</p><button class="report-open" type="button">Signaler une erreur <span aria-hidden="true">↗</span></button></div></section>
 
@@ -42,12 +37,12 @@
 
       <section class="archive-section" id="archives" aria-labelledby="archive-title"><div class="wrap"><details id="archive-details"><summary><span><span class="archive-eyebrow">LA MÉMOIRE DE LA VEILLE</span><span class="archive-title" id="archive-title" role="heading" aria-level="2">Archives des actualités</span></span><span class="archive-count" id="archive-count"></span><span class="archive-chevron" aria-hidden="true">↗</span></summary><div class="archive-list" id="archive-list"></div></details></div></section>
 
-      <section class="game-teaser" aria-labelledby="game-teaser-title"><div class="wrap game-teaser-inner"><div><span class="eyebrow"><span class="eyebrow-line"></span> UNE PAUSE POUR APPRENDRE</span><h2 id="game-teaser-title">Et si on jouait<br><em>avec les engins&nbsp;?</em></h2><p>Six jeux pour explorer 100 chars, avions, drones, hélicoptères, navires et missiles : carte du monde, photos, chronologie, vrai ou faux et défi du jour.</p></div><div class="game-teaser-actions"><a class="button button-dark" href="tous-les-jeux.html">Découvrir les 6 jeux <span aria-hidden="true">↗</span></a></div></div></section>
+      <section class="home-shortcuts wrap" aria-label="Explorer le site"><a href="tous-les-jeux.html"><span>APPRENDRE EN JOUANT</span><strong>Six façons de tester tes connaissances →</strong><span>Photos, carte, premiers vols et vrai ou faux. Retrouve tes records et révise tes erreurs.</span></a><a href="comparateur.html"><span>L’ATLAS EN REGARD</span><strong>Comparer deux engins →</strong><span>Photos, variantes et caractéristiques sourcées réunies dans un même tableau.</span></a></section>
 
       <section class="history-teaser" aria-labelledby="history-teaser-title"><div class="wrap history-teaser-inner"><div><span class="eyebrow"><span class="eyebrow-line"></span> COMPRENDRE LES ENGINS</span><h2 id="history-teaser-title">Leur histoire.<br><em>Leur géographie.</em></h2><p>Retrouve les 100 engins des jeux : une photo, leur parcours, une carte des pays documentés et les chiffres sourcés, avec estimations signalées.</p></div><a class="button button-dark" href="histoire.html">Explorer l’atlas <span aria-hidden="true">↗</span></a></div></section>
 
-      <section class="method-section" id="methode" aria-labelledby="method-title"><div class="wrap method-layout"><div class="method-left"><div class="eyebrow light"><span class="eyebrow-line"></span> NOTRE MÉTHODE</div><h2 id="method-title">L'information<br>mérite du <em>contexte.</em></h2><p>Une veille automatisée qui distingue les faits rapportés par les sources et les éléments de contexte proposés au lecteur. Les publications d’origine restent la référence.</p><div class="method-compass" aria-hidden="true"><span>N</span><span class="compass-ring"></span><span class="compass-point"></span></div></div><div class="method-steps"><div><span>01 /</span><h3>Partir des faits</h3><p>Identifier ce qui est établi, la source de l'information et ce qui reste à confirmer.</p></div><div><span>02 /</span><h3>Restituer les enjeux</h3><p>Relier les décisions aux acteurs, à la géographie et aux contraintes de long terme.</p></div><div><span>03 /</span><h3>Garder la nuance</h3><p>Présenter les interprétations avec leurs limites, sans confondre hypothèse et certitude.</p></div></div></div></section>
-      <section class="closing-section wrap"><span class="eyebrow"><span class="eyebrow-line"></span> POUR MIEUX COMPRENDRE</span><h2>Prendre du recul.<br><em>Garder le cap.</em></h2><a class="button button-dark" href="#actualites">Voir les actualités <span aria-hidden="true">↗</span></a></section>
+      <section class="wrap" id="methode" style="padding:28px 0 44px"><details><summary>Comment cette veille est-elle préparée ?</summary><p>Chaque matin à 8 h, heure de Paris, le site consulte des flux officiels et spécialisés. Les titres et liens conduisent aux publications originales. La collecte est automatique ; elle ne remplace pas une vérification humaine de chaque article.</p><p>Les fiches Histoire indiquent leurs sources, les variantes et les limites des chiffres. Les estimations sont signalées.</p></details></section>
+      
     </div>
   </main>
 

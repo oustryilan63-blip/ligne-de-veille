@@ -104,6 +104,7 @@ function finishRound(won) {
   resolved = true;
   document.querySelector('#hint-button').disabled = true;
   const item = deck[round];
+  window.LDV_PROGRESS?.answer('pays',item.name,won,item.name);
   for (const code of item.originCodes || [item.code]) {
     svg.querySelector(`[data-code="${code}"]`)?.classList.add('correct');
   }
@@ -375,6 +376,7 @@ if (Array.isArray(mapData) && mapData.length) {
       answerPanel.hidden = true;
       document.querySelector('.game-status').hidden = true;
       document.querySelector('#final-score').textContent = `Tu as trouvé ${found} engin${found > 1 ? 's' : ''} sur ${deck.length} et obtenu ${points} point${points > 1 ? 's' : ''}. Meilleure série : ${bestStreak}. Indices utilisés : ${hintsUsed}.`;
+      window.LDV_PROGRESS?.complete('pays',points,deck.length*5,(selectedMode==='quick'?'5 questions':'Catalogue')+' · '+selectedCategory);
       gameEnd.hidden = false;
       gameEnd.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }

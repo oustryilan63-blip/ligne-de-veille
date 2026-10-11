@@ -12,7 +12,9 @@
   <link rel="stylesheet" href="arcade.css?v=3">
   <script src="engins-data.js?v=13" defer></script>
   <script src="quiz-data.js?v=12" defer></script>
-  <script src="arcade.js?v=7" defer></script>
+  <script src="progression.js?v=1" defer></script>
+  <script src="arcade.js?v=8" defer></script>
+<link rel="stylesheet" href="experience.css?v=1">
 </head>
 <body data-game="vrai-faux">
   <a class="skip-link" href="#main">Aller au jeu</a>
@@ -20,6 +22,7 @@
   <header class="site-header" id="top"><a class="brand" href="index.html" aria-label="Ligne de Veille, accueil"><span class="brand-mark" aria-hidden="true"><b>L</b><em>/</em><b>V</b></span><span class="brand-name">LIGNE<br>DE VEILLE</span></a><nav class="main-nav" id="main-nav" aria-label="Navigation principale"><a href="index.html#actualites">Actualités</a><a href="tous-les-jeux.html" aria-current="page">Jeux</a><a href="histoire.html">Histoire</a></nav><div class="header-actions"><button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button></div></header>
   <main id="main">
     <section class="game-intro" aria-labelledby="arcade-title"><div class="wrap"><div class="eyebrow light"><span class="eyebrow-line"></span> VRAI OU FAUX</div><h1 id="arcade-title">Vrai <em>ou faux&nbsp;?</em></h1><p>Dix affirmations à démêler sur les engins militaires. Chaque réponse s’accompagne d’une explication et de sa source.</p><div class="game-intro-foot"><span>10 AFFIRMATIONS · SOURCES À L’APPUI</span><span>05 / 06</span></div></div></section>
+<div class="wrap"><div class="progress-strip" data-progress-strip="vrai-faux" aria-live="polite"></div></div>
     <div class="wrap"><a class="all-games-link" href="tous-les-jeux.html">← Tous les jeux</a></div>
     <section class="game-shell arcade-shell wrap" aria-label="VRAI OU FAUX"><div class="arcade-board"><div class="arcade-lead"><span id="arcade-progress"></span><span id="arcade-score"></span></div><div id="arcade-play"><div class="arcade-stage vf-stage"><div class="arcade-copy"><span class="challenge-category" id="arcade-eyebrow"></span><h2 id="arcade-question"></h2><p id="arcade-detail"></p></div></div><div class="vf-buttons" id="vf-buttons" role="group" aria-label="Choisir vrai ou faux"><button type="button" data-answer="true">Vrai</button><button type="button" data-answer="false">Faux</button></div></div><div class="answer-panel arcade-result" id="arcade-result" hidden><div><span class="answer-label" id="arcade-result-label"></span><h3 id="arcade-result-title"></h3><p id="arcade-result-copy"></p><a id="arcade-source" href="#" target="_blank" rel="noopener noreferrer">Voir la source documentaire ↗</a></div><button class="button button-accent" id="arcade-next" type="button">Suite →</button><button class="button button-accent" id="daily-share" type="button" hidden>Partager mon résultat ↗</button></div><div class="arcade-end" id="arcade-end" hidden><span class="eyebrow"><span class="eyebrow-line"></span> PARTIE TERMINÉE</span><h2>Bien joué<span aria-hidden="true">.</span></h2><p id="arcade-end-copy"></p><button class="button button-dark" id="arcade-restart" type="button">Rejouer ↗</button><a class="all-games-link" href="tous-les-jeux.html">Découvrir un autre jeu →</a></div></div></section>
   </main>
