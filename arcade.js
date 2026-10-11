@@ -222,7 +222,7 @@
       text('arcade-score', `${score} / ${deck.length} POINTS`);
       text('arcade-eyebrow', 'VÉRIFIER LES FAITS');
       text('arcade-question', fact.claim);
-      text('arcade-detail', 'La source officielle apparaît après ta réponse.');
+      text('arcade-detail', 'La source documentaire apparaît après ta réponse.');
       show('arcade-result', false);
       $('vf-buttons').querySelectorAll('button').forEach(button => { button.disabled = false; button.className = ''; });
     }
