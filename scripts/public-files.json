@@ -76,7 +76,8 @@
     "assets/hero.png",
     "assets/radar/france.svg",
     "assets/histoire/photos/082-2.webp",
-    "assets/histoire/photos/093-1.webp"
+    "assets/histoire/photos/093-1.webp",
+    "assets/actualites/"
   ],
   "excludedExtensions": [
     ".md"
