@@ -25,7 +25,7 @@
   window.RADAR_GAME_RULES = rules;
   const ns='http://www.w3.org/2000/svg';
   const state={phase:'intro',wave:0,score:0,integrity:3,ammo:{air:6,missile:6,naval:6},tracks:[],selected:null,elapsed:0,last:0,raf:0,log:[]};
-  const duration=()=>Math.max(11000,14000-state.wave*300);
+  const duration=()=>Math.max(22000,30000-state.wave*900);
   const selected=()=>state.tracks.find(t=>t.id===state.selected);
   const setText=(id,value)=>{$(id).textContent=value};
   function note(message){state.log.unshift(message);state.log.length=Math.min(state.log.length,4);setText('radar-announcement',message);$('radar-log').replaceChildren(...state.log.map(text=>{const li=document.createElement('li');li.textContent=text;return li}));}
