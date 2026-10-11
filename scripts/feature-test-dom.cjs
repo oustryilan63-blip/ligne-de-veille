@@ -22,6 +22,7 @@ function createDOM(html){const doc={nodes:{},activeElement:null,createElement:t=
   if(doc.nodes['recognition-next'])doc.nodes['recognition-next'].append(doc.createElement('span'));
   if(doc.nodes['answer-source'])doc.nodes['answer-source'].append(doc.createElement('span'));
   if(doc.nodes['next-question'])doc.nodes['next-question'].append(doc.createElement('span'));
+  if(doc.nodes['arcade-photo']){const figure=doc.createElement('figure');figure.className='arcade-figure';doc.nodes['arcade-photo'].remove();figure.append(doc.nodes['arcade-photo']);if(doc.nodes['arcade-credit']){doc.nodes['arcade-credit'].remove();figure.append(doc.nodes['arcade-credit'])}doc.body.append(figure);}
   return doc;
 }
 module.exports={Element,createDOM,flatten,matches};
