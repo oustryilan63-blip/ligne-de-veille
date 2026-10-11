@@ -2,7 +2,7 @@
 
 Site : https://oustryilan63-blip.github.io/ligne-de-veille/
 
-La navigation rassemble Actualités, Jeux, Horizon et Histoire. La copie locale s’ouvre avec index.html.
+La navigation rassemble Actualités, Jeux et Histoire. La copie locale s’ouvre avec index.html.
 
 ## Catalogue et jeux
 

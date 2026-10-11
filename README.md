@@ -44,4 +44,8 @@ Les données non confirmées ne sont pas complétées par déduction. Certaines 
 
 ## Relecture des fiches et portées — 11 octobre 2026
 
-Les 100 fiches techniques et leurs récits ont été relus. Les variantes, conversions et conditions de mesure sont précisées ; les récits sont enrichis de jalons sourcés. Les 18 fiches missiles comportent une ligne de portée : 16 repères publics chiffrés, dont certaines bornes inférieures ou estimations datées, et deux absences explicitement signalées (IRIS-T air-air, SM-3 Block IIA). La portée M51 concerne uniquement le M51.2. Les références et réserves sont affichées à côté des valeurs ; aucune portée n’est appliquée à Horizon. Astute : sixième livraison confirmée en septembre 2026, distincte de la disponibilité opérationnelle.
+Les 100 fiches techniques et leurs récits ont été relus. Les variantes, conversions et conditions de mesure sont précisées ; les récits sont enrichis de jalons sourcés. Les 18 fiches missiles comportent une ligne de portée : 16 repères publics chiffrés, dont certaines bornes inférieures ou estimations datées, et deux absences explicitement signalées (IRIS-T air-air, SM-3 Block IIA). La portée M51 concerne uniquement le M51.2. Les références et réserves sont affichées à côté des valeurs. Astute : sixième livraison confirmée en septembre 2026, distincte de la disponibilité opérationnelle.
+
+## Retrait de la rubrique Horizon — 11 octobre 2026
+
+La navigation ne comporte plus que Actualités, Jeux et Histoire. L’ancienne adresse horizon.html redirige vers le catalogue des six jeux ; elle ne charge plus l’activité ni ses scripts.
