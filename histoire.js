@@ -35,7 +35,7 @@
     const found=engins.map((item,i)=>({item,i})).filter(({item})=>(selected==='Tous'||group(item)===selected)&&strip([item.name,item.kind,item.country].join(' ')).includes(query));
     grid.replaceChildren();
     found.forEach(({item,i})=>{
-      const a=el('a','history-card');a.href='histoire.html?engin='+i;a.setAttribute('aria-label','Lire la fiche : '+item.name);
+      const a=el('a','history-card');if(item.category==='missiles')a.classList.add('history-card-missile');a.href='histoire.html?engin='+i;a.setAttribute('aria-label','Lire la fiche : '+item.name);
       a.append(photo(item));const body=el('div','history-card-copy');body.append(el('span','history-card-kicker',item.kind));
       const row=el('div','history-card-title');row.append(el('strong','',item.name),el('span','','↗'));body.append(row,el('span','history-card-country',item.country));a.append(body);grid.append(a);
     });
@@ -47,15 +47,16 @@
     const item=engins[index],fact=facts[index]||{},figuresFor=figures[index]||{};
     catalogue.hidden=true;detail.hidden=false;detail.replaceChildren();document.body.classList.add('history-profile');document.title=item.name+' | Histoire | Ligne de Veille';
     const back=el('a','history-back','← Revenir aux '+engins.length+' engins');back.href='histoire.html';detail.append(back);
-    const head=el('div','history-detail-head');const media=el('div');media.append(photo(item));
-    const credit=el('p','history-photo-credit','Photo : '+(item.photoAuthor||'Wikimedia Commons')+' · '+(item.photoLicense||'Licence indiquée sur la source'));
+    const head=el('div','history-detail-head');const media=el('div',item.category==='missiles'?'history-missile-media':'');media.append(photo(item));
+    const credit=el('p','history-photo-credit',(item.mediaLabel||'Photo')+' : '+(item.photoAuthor||'Wikimedia Commons')+' · '+(item.photoLicense||'Licence indiquée sur la source'));
     if(item.photoFile){credit.append(' · ',link('Voir la photo','https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(item.photoFile)))}
     if(item.photoLicenseUrl){credit.append(' · ',link('Licence',item.photoLicenseUrl))}media.append(credit);
     const copy=el('div');copy.append(el('span','history-kicker',String(index+1).padStart(2,'0')+' / '+item.kind+' / '+item.country),el('h2','',item.name),el('p','history-subtitle','Origine : '+item.country));
     copy.append(el('p','',item.explanation));
     (fact.story||'L’histoire de cet engin est présentée dans la source liée ci-dessous.').split('\n\n').forEach(paragraph=>copy.append(el('p','',paragraph)));
     head.append(media,copy);detail.append(head);
-    const origin=item.code,origins=item.originCodes||[origin];const current=fact.originOnly?[]:[origin,...(fact.current||[])];const former=fact.former||[];
+    const origin=item.code,origins=item.originCodes||[origin],former=fact.former||[];
+    const current=fact.originOnly?[]:[...new Set([...(former.includes(origin)?[]:[origin]),...(fact.current||[])])];
     const mapSection=section('Où a-t-il été utilisé ?',"La carte situe le pays de conception et les pays utilisateurs documentés. Elle ne montre pas les pays ayant seulement passé commande ni les lieux de déploiement temporaire.");
     const mapWrap=el('div','history-map-wrap');const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','-60 -25 1320 550');svg.setAttribute('role','img');svg.setAttribute('aria-label','Carte des pays associés à '+item.name);svg.classList.add('history-map');
     const mapTitle=document.createElementNS('http://www.w3.org/2000/svg','title');mapTitle.textContent='Carte des pays associés à '+item.name;svg.append(mapTitle);
@@ -69,15 +70,31 @@
     const stats=section('Repères chiffrés',"Chaque chiffre précise son périmètre : engins construits, livrés ou en service ; pertes documentées au combat ou lors d'un accident ; cibles attribuées. Les bilans de pertes ne sont pas des totaux mondiaux. Si les destructions de cibles ne peuvent pas être attribuées avec assez de confiance, la dernière carte indique le nombre de pays présents sur la carte.");
     const statGrid=el('div','history-stats');
     const production=figuresFor.production||fact.production;
+    const inventory=figuresFor.inventory;
+    const mainFigure=production||inventory;
     const userCount=new Set([...current,...former]).size;
     const data=[
-      [production?.label||'Exemplaires produits / livrés',production?.value||'Chiffre inconnu',production?.note||'Aucun volume de production suffisamment étayé trouvé pour ce modèle.',production?.source],
-      ['Engins détruits',figuresFor.losses?.value||'Bilan indisponible',figuresFor.losses?.note||'Aucun décompte fiable, avec un périmètre précis, retenu pour cette fiche. Cela ne signifie pas zéro perte.',figuresFor.losses?.source],
-      figuresFor.targets?['Cibles détruites attribuées',figuresFor.targets.value,figuresFor.targets.note,figuresFor.targets.source]:['Pays sur la carte',fact.originOnly?'Non recensés':String(userCount),"Pays utilisateurs documentés dans notre sélection ; ce n'est pas un total mondial.",null]
+      [mainFigure?.label||'Exemplaires produits / livrés',mainFigure?.value||'Chiffre inconnu',mainFigure?.note||'Aucun volume de production suffisamment étayé trouvé pour ce modèle.',mainFigure?.source],
+      [figuresFor.losses?.label||(item.category==='missiles'?'Pertes / interceptions documentées':'Engins détruits'),figuresFor.losses?.value||'Bilan indisponible',figuresFor.losses?.note||(item.category==='missiles'?'Aucun bilan consolidé retenu. Un missile consommé lors d’un tir n’est pas automatiquement une perte ou une interception ennemie.':'Aucun décompte fiable, avec un périmètre précis, retenu pour cette fiche. Cela ne signifie pas zéro perte.'),figuresFor.losses?.source],
+      figuresFor.targets?[figuresFor.targets.label||'Cibles détruites attribuées',figuresFor.targets.value,figuresFor.targets.note,figuresFor.targets.source]:['Pays sur la carte',fact.originOnly?'Non recensés':String(userCount),"Pays utilisateurs documentés dans notre sélection ; ce n'est pas un total mondial.",null]
     ];
+    if(production&&inventory)data.push([inventory.label,inventory.value,inventory.note,inventory.source]);
     data.forEach(([label,value,note,source])=>{const box=el('div','history-stat');box.append(el('span','',label),el('strong','',value),el('small','',note));if(source)box.append(link('Source ↗',source));statGrid.append(box)});stats.append(statGrid);detail.append(stats);
+    if(figuresFor.combatRecords?.length){
+      const records=section('Faits documentés',"Des événements précis pour comprendre les résultats attribués à ce missile. Ces exemples ne constituent pas un bilan mondial ; dommages, naufrages et opérations hors combat sont distingués.");
+      records.classList.add('history-records');
+      for(const record of figuresFor.combatRecords){
+        const card=el('article','history-record');
+        const meta=el('div','history-record-meta');meta.append(el('span','history-record-status',record.status),el('span','history-record-date',record.date));
+        card.append(meta,el('h4','',record.title),el('p','',record.text));
+        const links=el('ul','history-record-sources');
+        for(const source of record.sources){const li=el('li');li.append(link(source.label+' ↗',source.url));links.append(li)}
+        card.append(links);records.append(card);
+      }
+      detail.append(records);
+    }
     const sources=el('section','history-detail-section history-sources');sources.append(el('h3','','Sources de la fiche'));const list=el('ul');
-    const refs=[['Fiche du constructeur ou de la force armée',item.source],['Pays utilisateurs',fact.operatorSource],['Anciens utilisateurs',fact.formerSource],['Production et livraisons',production?.source],['Engins détruits',figuresFor.losses?.source],['Cibles détruites',figuresFor.targets?.source],...(fact.extraSources||[]).map(url=>['Autre source',url])];const seen=new Set();refs.forEach(([title,url])=>{if(url&&!seen.has(url)){seen.add(url);const li=el('li');li.append(link(title+' ↗',url));list.append(li)}});sources.append(list,el('p','','Sources consultées le '+(fact.checkedAt||'10 octobre 2026')+'. La carte présente les pays documentés dans ces sources, sans prétendre couvrir chaque transfert ou retrait. Les bilans de pertes sont des minimums documentés ou des estimations datées, précisés dans chaque carte.'));detail.append(sources);
+    const refs=[['Présentation et histoire du programme',item.source],['Pays utilisateurs',fact.operatorSource],['Anciens utilisateurs',fact.formerSource],['Production et livraisons',production?.source],['Inventaire daté',inventory?.source],['Engins détruits',figuresFor.losses?.source],['Cibles détruites',figuresFor.targets?.source],...(fact.extraSources||[]).map(url=>['Autre source',url])];const seen=new Set();refs.forEach(([title,url])=>{if(url&&!seen.has(url)){seen.add(url);const li=el('li');li.append(link(title+' ↗',url));list.append(li)}});sources.append(list,el('p','','Sources consultées le '+(fact.checkedAt||'10 octobre 2026')+'. La carte présente les pays documentés dans ces sources, sans prétendre couvrir chaque transfert ou retrait. Les bilans de pertes sont des minimums documentés ou des estimations datées, précisés dans chaque carte.'));detail.append(sources);
     const next=el('nav','history-next');next.setAttribute('aria-label','Parcourir les fiches');const prev=el('a','','← '+engins[(index+engins.length-1)%engins.length].name);prev.href='histoire.html?engin='+(index+engins.length-1)%engins.length;const after=el('a','',engins[(index+1)%engins.length].name+' →');after.href='histoire.html?engin='+(index+1)%engins.length;next.append(prev,after);detail.append(next);
   }
   const params=new URLSearchParams(location.search);const index=Number(params.get('engin'));

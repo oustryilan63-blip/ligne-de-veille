@@ -40,6 +40,7 @@
 .history-back:hover{text-decoration:underline}
 .history-detail-head{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:start}
 .history-detail-head img{width:100%;height:430px;object-fit:cover;background:#263b36;display:block}
+.history-detail-head .history-missile-media img,.history-card-missile img{object-fit:contain;background:#e2e9df}
 .history-detail-head h2{font:700 clamp(56px,6vw,86px)/.9 var(--serif);text-transform:uppercase;letter-spacing:-.02em;margin:16px 0 18px}
 .history-detail-head .history-subtitle{color:#a54e35;font:500 11px/1.5 var(--mono);text-transform:uppercase;letter-spacing:.04em}
 .history-detail-head p{color:#40574b;font-size:16px;line-height:1.65}
@@ -70,6 +71,18 @@
 .history-stat strong{display:block;font:700 clamp(30px,3vw,44px)/1 var(--serif);text-transform:uppercase;margin:20px 0 12px}
 .history-stat small{display:block;color:#d0dcd0;line-height:1.4}
 .history-stat a{color:#f0b299}
+.history-records{margin-top:38px}
+.history-records h3{font-size:clamp(32px,3.5vw,48px)}
+.history-record{margin-top:16px;padding:25px 28px;background:#f8f9f2;border:1px solid #bdcabc;border-left:4px solid #a54e35}
+.history-record-meta{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:10px;font:500 11px/1.5 var(--mono)}
+.history-record-status{color:#304c3c;text-transform:uppercase;letter-spacing:.03em}
+.history-record-date{color:#6d7367}
+.history-record h4{font:600 clamp(21px,2vw,28px)/1.2 var(--sans);color:#253b30;margin:16px 0 12px}
+.history-record p{max-width:960px;color:#40574b;font-size:15px;line-height:1.7;margin:0}
+.history-record-sources{display:flex;flex-wrap:wrap;gap:10px 24px;list-style:none;margin:20px 0 0;padding:0}
+.history-record-sources a{color:#944128;font-size:12px;text-underline-offset:3px;overflow-wrap:anywhere}
+.history-record a:focus-visible{outline:2px solid #304c3c;outline-offset:4px}
+@media(max-width:650px){.history-record{padding:20px 18px}.history-record-sources{display:grid}}
 .history-sources{background:#e3eae1;border-left:4px solid #ac5137;padding:26px 30px}
 .history-sources h3{margin:0 0 14px;font:700 29px/1 var(--serif);text-transform:uppercase}
 .history-sources ul{margin:0;padding-left:21px;line-height:1.9}

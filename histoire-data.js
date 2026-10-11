@@ -733,5 +733,128 @@ window.LDV_HISTOIRE = [
       "https://www.bundeswehr.de/de/organisation/marine/aktuelles/baden-wuerttemberg-wechselte-besatzung-5805822"
     ],
     "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le Minuteman III entre en service aux États-Unis en juin 1970. Il prolonge une famille apparue pendant la guerre froide, après les Minuteman I et II. Boeing figure comme constructeur principal dans la documentation de l’US Air Force. La production initiale s’achève en décembre 1978, mais le programme continue à travers le renouvellement de composants, l’entretien et la modernisation de ses installations. Sa longévité montre qu’un nom de modèle peut couvrir plusieurs décennies d’évolutions sans qu’il s’agisse d’une nouvelle production complète du missile.\n\nLe système appartient à la composante terrestre de la dissuasion américaine, aux côtés des forces embarquées sur sous-marins et des bombardiers stratégiques. En avril 2026, l’Air Force Global Strike Command indique un parc actif de 400 missiles. Ce nombre décrit une force en service à une date précise ; il ne correspond pas à la quantité fabriquée depuis l’origine. Les musées conservent également des exemplaires de plusieurs générations, utiles pour comprendre cette filiation. Pour reconnaître l’engin, il faut donc lire la légende de la photographie : un Minuteman ancien n’est pas automatiquement un Minuteman III.\n\nImage : Essai non armé du Minuteman III le 14 juin 2006",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "operatorNote": "Utilisateur documenté : États-Unis. Situation de la force décrite par l’Air Force Global Strike Command en avril 2026.",
+    "extraSources": [
+      "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196676/boeing-lgm-30g-minuteman-iii/",
+      "https://missilethreat.csis.org/missile/minuteman-iii/"
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le Titan II est développé aux États-Unis dans le prolongement du Titan I. Le programme proposé par Martin à la fin des années 1950 est approuvé par l’Air Force en 1959. Les premières unités deviennent opérationnelles en 1963. Prévu initialement pour une dizaine d’années, son service se prolonge jusqu’en 1987 grâce à plusieurs modernisations. Il incarne ainsi une période particulièrement longue de la dissuasion américaine pendant la guerre froide, avec un parc maximal de 54 missiles déployés.\n\nSon histoire dépasse le seul domaine militaire. Des Titan II adaptés deviennent les lanceurs des missions habitées Gemini de la NASA dans les années 1960. D’autres exemplaires retirés du rôle stratégique sont ensuite transformés pour placer des satellites en orbite. Ces carrières spatiales ne doivent pas être confondues avec l’inventaire des missiles militaires : les versions, les modifications et les usages sont différents. Près de Tucson, le Titan Missile Museum conserve un ancien site pour présenter cette histoire au public. Cette reconversion permet de découvrir le travail des équipes et le contexte politique de l’époque, tout en distinguant un objet de musée d’un système encore en service.\n\nImage : Photographie d’un exemplaire conservé ",
+    "current": [],
+    "former": [
+      "US"
+    ],
+    "operatorNote": "Missile militaire retiré du service américain en 1987 ; ne pas confondre avec la carrière ultérieure de lanceurs spatiaux dérivés.",
+    "extraSources": [
+      "https://titanmissilemuseum.org/about/titan-ii-history/",
+      "https://titanmissilemuseum.org/about/"
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le Peacekeeper apparaît dans les années 1970 sous le nom de MX, pour Missile, Experimental. Sa mise au point est accompagnée de longs débats sur le coût et le mode de stationnement à retenir. Différentes solutions sont étudiées, notamment une installation mobile sur voie ferrée, avant le choix d’anciens silos de Minuteman. Martin Marietta et Denver Aerospace assemblent et testent le missile avec de nombreux partenaires industriels. Le premier essai en vol a lieu en 1983 et le système devient opérationnel en 1986.\n\nL’US Air Force dispose de 50 Peacekeeper en service en 1988. Ce parc constitue un maximum déployé, distinct de la quantité de missiles construits pour les essais et le soutien. La fin de la guerre froide modifie le contexte stratégique dans lequel le programme avait été lancé. Les missiles sont progressivement retirés à partir de 2002, jusqu’en septembre 2005 ; certains éléments connaissent ensuite une reconversion dans le lancement spatial. Aujourd’hui, les collections du musée national de l’US Air Force permettent de replacer ce programme dans l’histoire industrielle et politique américaine. La photographie d’un essai présente le missile lui-même, alors que des vues muséales peuvent ne montrer qu’une partie de l’ensemble.\n\nImage : Photographie d’un essai du LGM-118 Peacekeeper.",
+    "current": [],
+    "former": [
+      "US"
+    ],
+    "operatorNote": "Service militaire américain de 1986 à 2005, d’après le musée national de l’US Air Force.",
+    "extraSources": [
+      "https://www.af.mil/News/Article-Display/Article/133312/air-force-says-farewell-to-most-powerful-icbm/",
+      "https://www.warren.af.mil/News/Releases/Article/635995/peacekeeper-silos-to-be-eliminated/",
+      "https://missilethreat.csis.org/missile/lgm-118-peacekeeper-mx/"
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le Topol-M appartient à la génération russe de missiles stratégiques qui suit les grands programmes soviétiques. Il faut le distinguer du Topol, malgré la proximité des noms. Son déploiement en silo commence en 1997 et s’achève en 2012 avec 60 missiles ; une composante mobile de 18 missiles s’y ajoute. Ces deux versions expliquent pourquoi le nom Topol-M apparaît aussi bien dans des photographies de grands véhicules que dans des documents concernant des installations fixes. Le décompte historique de 78 missiles déployés ne constitue pas le bilan complet de la fabrication.\n\nL’étude publiée en janvier 2026 par Pavel Podvig souligne la difficulté croissante à suivre l’évolution des forces russes à partir des informations ouvertes. Le renouvellement progressif de certains équipements impose de dater les chiffres et de préciser leur définition. Pour cette fiche, le repère retenu est donc le déploiement achevé en 2012. Il permet de raconter une étape documentée de l’histoire du programme, sans transformer une estimation ancienne en inventaire certain d’aujourd’hui. La photographie montre la version mobile avec son véhicule et son conteneur.\n\nImage : Topol-M dans sa version mobile, photographié lors du défilé de 2010.",
+    "current": [
+      "RU"
+    ],
+    "former": [],
+    "operatorNote": "Utilisateur documenté : Russie. Les informations publiques sur les retraits et remplacements sont incomplètes ; le chiffre présenté est un repère historique daté.",
+    "extraSources": [
+      "https://thebulletin.org/premium/2026-05/russian-nuclear-weapons-2026/"
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le RS-24 Yars occupe une place importante dans le renouvellement des missiles stratégiques russes. Il existe en version mobile et en version installée en silo. Les deux ne se présentent pas de la même manière dans les photographies : un véhicule de défilé montre surtout le transporteur et son conteneur, alors qu’un cliché d’essai permet parfois de voir le missile lui-même. Cette différence est utile dans un jeu de reconnaissance, car la photographie représente souvent le système complet plutôt qu’un engin isolé.\n\nLe Nuclear Notebook publié par les chercheurs de la Federation of American Scientists estime à environ 207 le nombre de Yars mobiles et fixes déployés en mars 2026. Les auteurs confrontent les annonces officielles aux observations disponibles et signalent des incertitudes sur l’achèvement de certains travaux. La fiche conserve donc le caractère estimé du chiffre. Il décrit un parc à une date donnée, sans mesurer toute la production industrielle. Les noms Yars, Yars-S et Yars-M apparaissent dans la littérature : ils ne doivent pas être traités automatiquement comme des appellations parfaitement interchangeables.\n\nImage : RS-24 Yars : véhicule et conteneur de lancement. Photo du ministère russe de la Défense.",
+    "current": [
+      "RU"
+    ],
+    "former": [],
+    "operatorNote": "Utilisateur documenté : Russie. Inventaire présenté comme une estimation indépendante de mars 2026.",
+    "extraSources": [
+      "https://russianforces.org/blog/2026/01/notes_on_the_status_of_russian.shtml"
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le Dongfeng-41, généralement abrégé DF-41, est présenté publiquement à Pékin le 1er octobre 2019, lors du défilé du soixante-dixième anniversaire de la République populaire de Chine. Le compte rendu diffusé par le ministère chinois de la Défense décrit une formation de seize lanceurs provenant de deux brigades. Cette apparition marque un moment important de sa visibilité publique. Elle ne constitue cependant pas un recensement de tous les missiles fabriqués ou de toutes les unités utilisatrices.\n\nLa version mobile se reconnaît surtout à son grand véhicule et au conteneur qu’il transporte. Dans leur étude publiée en juillet 2026, les chercheurs de la Federation of American Scientists évaluent à environ 28 le nombre de lanceurs mobiles DF-41 déployés. Ils précisent que cette estimation repose sur les informations ouvertes disponibles. La distinction entre lanceur et missile est essentielle : un véhicule observé n’établit pas le nombre de missiles produits, stockés ou utilisés lors d’essais. Cette fiche conserve donc la désignation exacte de l’objet compté et la date de l’étude. Elle présente le programme DF-41 sans attribuer automatiquement aux modèles ultérieurs ses caractéristiques ou son inventaire.\n\nImage : Véhicules du système DF-41 au défilé de Pékin du 1er octobre 2019.",
+    "current": [
+      "CN"
+    ],
+    "former": [],
+    "operatorNote": "Utilisateur documenté : Chine. Le chiffre de 28 concerne des lanceurs mobiles estimés, non un stock de missiles.",
+    "extraSources": [
+      "https://www.tandfonline.com/doi/full/10.1080/00963402.2026.2691662"
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le Trident II D5 entre en service en 1990 et succède à une première génération de Trident. Il équipe des sous-marins américains de la classe Ohio et britanniques de la classe Vanguard. Cette utilisation commune explique la présence de deux pays sur la carte, tout en conservant les États-Unis comme pays de conception. La fiche de l’US Navy distingue le missile initial de sa prolongation de vie, D5 Life Extension, introduite dans la flotte en 2017. Le nom reste donc familier alors que des composants et équipements sont renouvelés.\n\nL’histoire industrielle permet aussi de donner un chiffre concret sans le confondre avec un stock actuel : Lockheed Martin indique en décembre 2007 que le contrat initial de 425 missiles a été livré entre 1989 et 2007. Des productions supplémentaires ont suivi ; 425 n’est donc ni le total final de la famille ni le nombre disponible aujourd’hui. Les tirs d’essai non armés servent à éprouver le programme et les équipages. Ils ne constituent pas des destructions de matériel adverse et ne sont pas additionnés à un bilan de combat.\n\nImage : Trident II D5 lors d’un lancement d’essai ; photographie du département américain de la Défense.",
+    "current": [
+      "US",
+      "GB"
+    ],
+    "former": [],
+    "operatorSource": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169285/trident-ii-d5-missile/trident-ii-d5-missile/",
+    "operatorNote": "Utilisateurs documentés : États-Unis et Royaume-Uni. La carte ne représente pas les zones de patrouille.",
+    "extraSources": [
+      "https://investors.lockheedmartin.com/node/18991/pdf"
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le M51 appartient à l’histoire de la composante océanique de la dissuasion française. Sa première version entre en service dans la Force océanique stratégique en 2010. Le programme accompagne la classe Le Triomphant et se poursuit par versions successives, M51.1, M51.2 puis M51.3. Le ministère des Armées annonce l’entrée en service opérationnel de cette dernière le 24 octobre 2025. Le tir d’acceptation du Vigilant, communiqué en octobre 2026, illustre la continuité des essais et du suivi du système après les périodes d’entretien des bâtiments.\n\nLe dossier ministériel de mars 2026 apporte un repère d’inventaire : trois lots de seize missiles M51, soit quarante-huit. Il ne donne pas la production cumulée du programme, ni une ventilation complète de ce parc entre versions. Le chiffre est donc affiché comme parc annoncé, sans le transformer en nombre de missiles fabriqués. La famille reste présentée ici comme un programme français de dissuasion, distinct des missiles de croisière. L’image de cette fiche est une illustration publiée sur Wikimedia Commons, et non une photographie de la version M51.3.\n\nImage : Illustration du M51 par Rama, Wikimedia Commons ; ce dessin ne représente pas spécifiquement la version M51.3.",
+    "current": [
+      "FR"
+    ],
+    "former": [],
+    "operatorNote": "France : programme de la Force océanique stratégique. Le parc cité n’est pas un relevé de missiles embarqués à un instant donné.",
+    "extraSources": [
+      "https://www.defense.gouv.fr/sites/default/files/ministere-armees/28.10.2025%20Communiqu%C3%A9_A_mise%20en%20service%20op%C3%A9rationnel%20du%20missile%20M51.3.pdf",
+      "https://www.defense.gouv.fr/sites/default/files/ministere-armees/dossier-preparatoire-discours-PR-2-mars-2026-dissuasion-nucleaire-francaise.pdf"
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le Harpoon entre en service en 1977 selon la fiche historique de l’US Navy. Il devient un missile antinavire commun à plusieurs plateformes, au lieu de rester associé à un seul navire. La version aéroportée est notamment déployée sur le P-3C Orion en 1979. La famille évolue ensuite à travers plusieurs standards, dont le Block II développé à partir de 1998. Ces désignations sont importantes pour reconnaître un exemplaire : la présence d’un propulseur additionnel et le contexte de la photographie peuvent varier selon la version.\n\nLa carrière du Harpoon se prolonge grâce à son adoption par de nombreuses forces navales. Un communiqué Boeing de novembre 2008, consacré à un essai néerlandais, indique déjà plus de sept mille missiles livrés à la marine américaine et à ses alliés. Ce jalon industriel ancien est plus solide qu’un total contemporain sans source, mais ne prétend pas mesurer le stock encore en service. Les missiles tirés en exercice, les exemplaires réformés et les différentes modernisations empêchent de déduire ce stock des seules livraisons. La photographie montre ici un UGM-84 émergeant de sa capsule lors d’un essai en 1983.\n\nImage : UGM-84 Harpoon quittant sa capsule lors d’un essai, le 1er avril 1983 ; US Navy.",
+    "originOnly": true,
+    "operatorNote": "Conception américaine. La diffusion internationale est attestée, mais aucun inventaire exhaustif actualisé des utilisateurs n’est présenté sur cette carte.",
+    "extraSources": [
+      "https://boeing.mediaroom.com/2008-11-25-Royal-Netherlands-Navy-Launches-Harpoons-From-New-Frigate"
+    ],
+    "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le SM-3 s’inscrit dans le développement de la défense antimissile américaine autour du système Aegis. Le nom recouvre plusieurs versions, dont les premiers modèles et le Block IIA développé avec le Japon. Il faut distinguer les missiles des navires et des installations terrestres qui les accueillent : un nombre de lanceurs ne donne pas directement le nombre d’intercepteurs disponibles. Le rapport officiel d’acquisition de décembre 2019 fournit un jalon vérifiable, avec l’acceptation du quatre-centième SM-3 en août de cette année, également deux-centième exemplaire du Block IB.\n\nUn épisode singulier rend le SM-3 connu au-delà de la défense antimissile : en février 2008, un exemplaire modifié intercepte le satellite américain défaillant USA-193. Le compte rendu officiel et l’analyse ultérieure des débris permettent d’identifier l’objet concerné. Cette opération ne représente pas une victoire contre un adversaire : elle détruit un satellite américain hors service. Elle est présentée séparément, avec cette précision, afin de ne pas confondre une destruction matérielle documentée, un essai d’interception et un bilan de combat. Aucun total mondial d’interceptions n’est déduit de cet événement.\n\nImage : Lancement d’un SM-3 lors d’un essai ; illustration de la famille, pas photographie de l’opération USA-193.",
+    "originOnly": true,
+    "operatorNote": "Carte d’origine de la famille. Le Block IIA est issu d’une coopération américano-japonaise ; cette fiche n’est pas un inventaire des implantations Aegis.",
+    "extraSources": [
+      "https://www.norad.mil/Newsroom/Article/578258/navy-missile-hits-decaying-satellite-over-pacific-ocean/",
+      "https://celestrak.org/events/usa-193.php",
+      "https://raytheon.mediaroom.com/2024-10-15-RTXs-Raytheon-SM-3-R-Block-IIA-achieves-full-rate-production-approval"
+    ],
+    "checkedAt": "11 octobre 2026"
   }
 ];

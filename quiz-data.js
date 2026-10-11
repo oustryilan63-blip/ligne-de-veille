@@ -340,6 +340,76 @@ window.LDV_FACTS = [
     "answer": true,
     "ref": "Classe Baden-Württemberg (F125)",
     "reason": "La marine allemande prévoit huit équipages pour les quatre frégates, avec des relèves sur le théâtre de déploiement."
+  },
+  {
+    "claim": "Le Minuteman III est entré en service en 1970.",
+    "answer": true,
+    "ref": "LGM-30G Minuteman III",
+    "reason": "La fiche officielle de l’Air Force indique juin 1970.",
+    "source": "https://www.afgsc.af.mil/About/Fact-Sheets/Display/Article/630719/lgm-30g-minuteman-iii/"
+  },
+  {
+    "claim": "Des versions du Titan II ont été utilisées pour le programme spatial habité Gemini.",
+    "answer": true,
+    "ref": "LGM-25C Titan II",
+    "reason": "Le musée de l’US Air Force rappelle les lancements des missions Gemini par des Titan II adaptés.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197977/AFmuseum/martin-marietta-sm-68blgm-25c-titan-ii/"
+  },
+  {
+    "claim": "Le Peacekeeper était d’abord connu sous le nom de programme MX.",
+    "answer": true,
+    "ref": "LGM-118A Peacekeeper",
+    "reason": "MX signifiait Missile, Experimental avant l’adoption du nom Peacekeeper.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197974/AFmuseum/martin-marietta-lgm-118a-peacekeeper/"
+  },
+  {
+    "claim": "Le Topol-M existe uniquement en version mobile sur véhicule.",
+    "answer": false,
+    "ref": "Topol-M",
+    "reason": "La documentation distingue les versions mobile et en silo.",
+    "source": "https://russianforces.org/blog/2026/01/notes_on_the_status_of_russian.shtml"
+  },
+  {
+    "claim": "Le nombre de Yars déployés est identique par définition au nombre total de Yars fabriqués.",
+    "answer": false,
+    "ref": "RS-24 Yars",
+    "reason": "Un inventaire déployé est une photographie à une date donnée ; la production cumulée relève d’un autre décompte.",
+    "source": "https://thebulletin.org/premium/2026-05/russian-nuclear-weapons-2026/"
+  },
+  {
+    "claim": "Le DF-41 a été présenté publiquement lors du défilé chinois du 1er octobre 2019.",
+    "answer": true,
+    "ref": "DF-41",
+    "reason": "Le compte rendu officiel de cette journée présente les seize lanceurs DF-41 montrés au public.",
+    "source": "https://eng.mod.gov.cn/xb/News_213114/TopStories/4851953.html"
+  },
+  {
+    "claim": "Le Trident II D5 a également équipé des sous-marins britanniques.",
+    "answer": true,
+    "ref": "Trident II D5",
+    "reason": "L’US Navy documente son emploi sur les Ohio américains et les Vanguard britanniques.",
+    "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169285/trident-ii-d5-missile/trident-ii-d5-missile/"
+  },
+  {
+    "claim": "Le M51 est une famille de missiles français embarqués sur sous-marins.",
+    "answer": true,
+    "ref": "M51",
+    "reason": "Le ministère des Armées décrit le M51.3 à bord du sous-marin Le Vigilant.",
+    "source": "https://www.defense.gouv.fr/actualites/missile-m513-tir-dacceptation-reussi-snle-vigilant"
+  },
+  {
+    "claim": "Le Harpoon a été conçu uniquement pour être emporté par des avions.",
+    "answer": false,
+    "ref": "Harpoon",
+    "reason": "La famille comprend également des versions destinées aux bâtiments de surface et aux sous-marins.",
+    "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168358/harpoon-missile/harpoon-missile/"
+  },
+  {
+    "claim": "L’objet intercepté par un SM-3 pendant l’opération de février 2008 était un satellite américain.",
+    "answer": true,
+    "ref": "SM-3",
+    "reason": "USA-193 était un satellite américain défaillant ; il ne s’agissait pas d’un appareil adverse.",
+    "source": "https://www.norad.mil/Newsroom/Article/578258/navy-missile-hits-decaying-satellite-over-pacific-ocean/"
   }
 ];
 window.LDV_CHRONO = [
