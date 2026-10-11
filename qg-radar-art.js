@@ -200,7 +200,7 @@ window.QG_ART=(()=>{
   objects.sort((a,b)=>a.depth-b.depth).forEach(o=>o.draw());
   if(illustrations.terrain){for(let i=0;i<5;i++){const x=530+i*32,y=396+Math.sin(time/1700+i)*2;poly(c,[[x,y],[x+15,y-1],[x+20,y],[x+4,y+1]],'#577e86');}}
   // A small support vehicle travels along the central road.
-  const progress=(time/1400)%9,[vx,vy]=project(6,progress);if(!decoration(c,'support',vx,vy+3,27,22)){rect(c,vx-6,vy-7,12,7,'#e0c891');rect(c,vx-5,vy-6,4,3,'#496975');rect(c,vx-6,vy,3,3,'#203d41');rect(c,vx+3,vy,3,3,'#203d41');}
+  const progress=1.9+(time/1400)%8,[vx,vy]=project(6,progress);if(!decoration(c,'support',vx,vy+3,27,22)){rect(c,vx-6,vy-7,12,7,'#e0c891');rect(c,vx-5,vy-6,4,3,'#496975');rect(c,vx-6,vy,3,3,'#203d41');rect(c,vx+3,vy,3,3,'#203d41');}
  }
  return {sprite,building,scene,ready,pose,activity};
 })();
