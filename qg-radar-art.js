@@ -8,7 +8,7 @@ window.QG_ART=(()=>{
   image.onerror=()=>resolve();image.src=src;
  })));
  const colors={grass:'#88947a',edge:'#596d61',road:'#777c74',ink:'#243b41',light:'#e1dfc6',roof:'#b9bbaa',sea:'#284c59',foam:'#537b80',orange:'#cc7049'};
- const positions={atelier:[8,5],hangar:[3,3],port:[10,7],ecole:[5,7],radar:[8,1]};
+ const positions=window.QG_LAYOUT.buildings;
  function poly(c,points,color){c.fillStyle=color;c.beginPath();points.forEach(([x,y],i)=>i?c.lineTo(x,y):c.moveTo(x,y));c.closePath();c.fill();}
  function rect(c,x,y,w,h,color){c.fillStyle=color;c.fillRect(Math.round(x),Math.round(y),w,h);}
  function decoration(c,id,x,y,maxW,maxH){
@@ -106,7 +106,7 @@ window.QG_ART=(()=>{
    const factor=Math.min((preview?160:110)/image.naturalWidth,(preview?112:100)/image.naturalHeight),w=image.naturalWidth*factor,h=image.naturalHeight*factor;
    c.imageSmoothingEnabled=true;c.imageSmoothingQuality='high';
    c.drawImage(image,-w/2,-h*.8,w,h);
-   for(let i=0;i<level;i++)rect(c,-9+i*8,26,5,3,'#e9c382');
+   for(let i=0;i<level;i++)rect(c,-9+i*8,preview?26:16,5,3,'#e9c382');
    c.restore();return;
   }
   const p=(pts,col)=>poly(c,pts,col),r=(x,y,w,h,col)=>rect(c,x,y,w,h,col);
@@ -148,18 +148,18 @@ window.QG_ART=(()=>{
   for(let i=0;i<level;i++)r(-9+i*8,26,5,3,'#e9c382');c.restore();
  }
 
- const locations={rafale:[428,144,.8],caracal:[246,158,.75],leclerc:[350,270,.75],caesar:[220,284,.75],fremm:[604,310,.95],suffren:[541,369,.85]};
+ const locations=window.QG_LAYOUT.units;
  function pose(id,progress,kind='mission'){
   const p=Math.max(0,Math.min(1,Number.isFinite(progress)?progress:0)),returning=p>.82,fade=returning?Math.min(1,(p-.82)/.18):1;
-  if(kind==='repair')return {x:0,y:0,lift:0,angle:id==='rafale'?Math.PI*55/180:0,alpha:1,scale:1};
+  if(kind==='repair')return {x:0,y:0,lift:0,angle:0,alpha:1,scale:1};
   const q=Math.min(p/.82,1),ease=q*q*(3-2*q);
   let x=0,y=0,lift=0,angle=0,scale=1;
-  if(id==='rafale'){const roll=Math.min(q/.4,1);x=65*roll*roll+155*Math.max(0,(q-.4)/.6);y=35*roll*roll;lift=115*Math.max(0,(q-.4)/.6);angle=(55-55*Math.max(0,(q-.4)/.6))*Math.PI/180;scale=1-.18*ease;}
+  if(id==='rafale'){const roll=Math.min(q/.4,1);x=45*roll*roll+155*Math.max(0,(q-.4)/.6);y=24*roll*roll+75*Math.max(0,(q-.4)/.6);lift=110*Math.max(0,(q-.4)/.6);scale=1-.18*ease;}
   else if(id==='caracal'){x=60*ease;y=-18*ease;lift=45*Math.min(q*2,1);scale=1-.12*ease;}
-  else if(id==='leclerc'){x=78*ease;y=-42*ease;}
-  else if(id==='caesar'){x=130*ease;y=-70*ease;}
+  else if(id==='leclerc'){const exit=Math.min(ease/.22,1),road=Math.max(0,(ease-.22)/.78);x=-55*exit+112*road;y=-15*exit-60*road;}
+  else if(id==='caesar'){const exit=Math.min(ease/.22,1),road=Math.max(0,(ease-.22)/.78);x=39*exit+117*road;y=20*exit-63*road;}
   else {x=70*ease;y=-38*ease;}
-  if(returning){x=0;y=0;lift=0;angle=id==='rafale'?55*Math.PI/180:0;scale=1;}
+  if(returning){x=0;y=0;lift=0;angle=0;scale=1;}
   return {x,y,lift,angle,alpha:returning?fade:Math.min(1,(1-q)/.15),scale};
  }
  function activity(c,id,progress,kind='mission',preview=false,time=0){
@@ -190,10 +190,11 @@ window.QG_ART=(()=>{
   for(let x=1;x<=6;x++){const [px,py]=project(x,1);poly(c,[[px-24,py],[px,py+12],[px+24,py],[px,py-12]],'#405254');rect(c,px-5,py-1,10,2,'#e3ddbb');}
   for(let i=0;i<4;i++){const [x,y]=project(11,i+5);poly(c,[[x-13,y],[x+1,y+8],[x+57,y-21],[x+43,y-29]],'#b2ac8b');}
   }
-  for(const [x,y] of [[0,3],[1,7],[2,8],[3,9],[9,0],[10,1],[11,2],[7,9],[8,9]]){const [px,py]=project(x,y);if(!decoration(c,'tree',px,py,30,38)){rect(c,px,py-9,3,10,'#586553');poly(c,[[px-11,py-5],[px+1,py-27],[px+13,py-5]],'#496f5c');rect(c,px-6,py-12,9,4,'#628466');}}
-  Object.entries(positions).sort((a,b)=>a[1][0]+a[1][1]-b[1][0]-b[1][1]).forEach(([id,p])=>{const [x,y]=project(...p);building(c,id,x,y,state.buildings[id],time);});
-  const float=Math.sin(time/1600)*2;
-  for(const [id,[x,y,scale]] of Object.entries(locations)){const active=activities.find(a=>a.id===id);if(active){activity(c,id,active.progress,active.kind,false,time);continue;}c.save();c.translate(x,y+(['fremm','suffren'].includes(id)?float:0));if(id==='rafale')c.rotate(Math.PI*55/180);sprite(c,id,0,0,scale);c.restore();}
+  const objects=[];
+  for(const [gx,gy] of [[0,3],[0.2,7.6],[1.1,8.8],[2.4,9.8],[8.5,-0.15],[11.9,1.5],[12,3],[8.9,9.9],[9.9,9.1]]){const [x,y]=project(gx,gy);objects.push({depth:y,draw(){if(!decoration(c,'tree',x,y,30,38)){rect(c,x,y-9,3,10,'#586553');poly(c,[[x-11,y-5],[x+1,y-27],[x+13,y-5]],'#496f5c');}}});}
+  for(const [id,p] of Object.entries(positions)){const [x,y]=project(...p);objects.push({depth:y+12,draw(){building(c,id,x,y,state.buildings[id],time);}});}
+  for(const [id,[x,y,scale]] of Object.entries(locations)){const active=activities.find(a=>a.id===id),a=active?pose(id,active.progress,active.kind):null;objects.push({depth:a&&a.lift>10?1000:y+(a?.y||0),draw(){if(active){activity(c,id,active.progress,active.kind,false,time);return;}sprite(c,id,x,y+(['fremm','suffren'].includes(id)?Math.sin(time/1600)*2:0),scale);}});}
+  objects.sort((a,b)=>a.depth-b.depth).forEach(o=>o.draw());
   if(illustrations.terrain){for(let i=0;i<5;i++){const x=530+i*32,y=396+Math.sin(time/1700+i)*2;poly(c,[[x,y],[x+15,y-1],[x+20,y],[x+4,y+1]],'#577e86');}}
   // A small support vehicle travels along the central road.
   const progress=(time/1400)%9,[vx,vy]=project(6,progress);if(!decoration(c,'support',vx,vy+3,27,22)){rect(c,vx-6,vy-7,12,7,'#e0c891');rect(c,vx-5,vy-6,4,3,'#496975');rect(c,vx-6,vy,3,3,'#203d41');rect(c,vx+3,vy,3,3,'#203d41');}
