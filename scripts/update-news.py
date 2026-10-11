@@ -132,7 +132,7 @@ def article_image(item):
         return None
 
 def enrich_images(items):
-    eligible = [i for i in items if i['url'].startswith('https://www.gov.uk/government/news/') and not i.get('image')]
+    eligible = sorted([i for i in items if i['url'].startswith('https://www.gov.uk/government/news/') and not i.get('image')], key=lambda i:(i['date'],i.get('publishedAt','')), reverse=True)[:12]
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         for item, image in zip(eligible, pool.map(article_image, eligible)):
             if image: item['image'] = image
