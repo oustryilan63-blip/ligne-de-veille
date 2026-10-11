@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PARIS = ZoneInfo('Europe/Paris')
 CONTEXT = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
 CONTEXT.load_default_certs()
-HEADERS = {'User-Agent': 'LigneDeVeille/1.0 (+https://oustryilan63-blip.github.io/ligne-de-veille/)', 'Accept': 'application/rss+xml, application/atom+xml, text/xml, text/html;q=0.8'}
+HEADERS = {'User-Agent': 'Radar/1.0 (+https://oustryilan63-blip.github.io/ligne-de-veille/)', 'Accept': 'application/rss+xml, application/atom+xml, text/xml, text/html;q=0.8'}
 
 class PlainText(HTMLParser):
     def __init__(self):
