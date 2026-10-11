@@ -12,7 +12,23 @@ window.LDV_NEWS = {
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_01214912_000020-scaled-e1791555765870.jpg",
+        "kind": "article",
+        "alt": "Narco-violence : des quartiers toulousains crient leur « ras-le-bol »",
+        "credit": "FRED SCHEIBER/SIPA",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/narco-violence-des-quartiers-toulousains-crient-leur-ras-le-bol/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/narco-violence-des-quartiers-toulousains-crient-leur-ras-le-bol/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_01214912_000020-scaled-e1791555765870.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-11",
@@ -28,6 +44,22 @@ window.LDV_NEWS = {
       "sourceExcerpt": {
         "text": "Au moins à deux reprises, en juin 2022 et en mai 2023, l’armée de Terre lança, sous très faible préavis,…",
         "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/navdac-20261011.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Guerre électronique : L’armée de Terre évalue un nouveau système de navigation pour les chuteurs opérationnels ».",
+        "credit": "AID",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/11/guerre-electronique-larmee-de-terre-evalue-un-nouveau-systeme-de-navigation-pour-les-chuteurs-operationnels/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/11/guerre-electronique-larmee-de-terre-evalue-un-nouveau-systeme-de-navigation-pour-les-chuteurs-operationnels/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/navdac-20261011.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -44,6 +76,22 @@ window.LDV_NEWS = {
       "sourceExcerpt": {
         "text": "En août, dans le cadre de son programme JANUS, l’US Army fit savoir qu’elle venait d’attribuer des contrats d’une valeur…",
         "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/smr-general-atomics-20260827.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’armée de Terre veut lancer des études pour se doter de microréacteurs nucléaires ».",
+        "credit": "General Atomics",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/11/larmee-de-terre-veut-lancer-des-etudes-pour-se-doter-de-microreacteurs-nucleaires/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/11/larmee-de-terre-veut-lancer-des-etudes-pour-se-doter-de-microreacteurs-nucleaires/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/smr-general-atomics-20260827.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -83,7 +131,23 @@ window.LDV_NEWS = {
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/04/60-SIPA_01245638_000005-scaled.jpg",
+        "kind": "article",
+        "alt": "La marine populaire de Corée prend le large",
+        "credit": "Images//SOPAIMAGES_1.0371/Credit:KIM Jae-Hwan/SOPA/SIPA/2512251232",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/la-marine-populaire-de-coree-prend-le-large/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/la-marine-populaire-de-coree-prend-le-large/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/04/60-SIPA_01245638_000005-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-10",
@@ -126,6 +190,22 @@ window.LDV_NEWS = {
       "sourceExcerpt": {
         "text": "Au cours de l’été 2025, conformément au plan STAR [sécurité/service, technologie, ambition, résilience], la Défense belge a retiré du service…",
         "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/nh90-belge-20170504.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Les anciens hélicoptères NH90 TTH belges ne seront finalement pas récupérés par l’Aviation légère de l’armée de Terre ».",
+        "credit": "Défense belge",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/10/les-anciens-helicopteres-nh90-tth-belges-ne-seront-finalement-pas-recuperes-par-laviation-legere-de-larmee-de-terre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/10/les-anciens-helicopteres-nh90-tth-belges-ne-seront-finalement-pas-recuperes-par-laviation-legere-de-larmee-de-terre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/nh90-belge-20170504.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -173,6 +253,22 @@ window.LDV_NEWS = {
       "sourceExcerpt": {
         "text": "Mené par la France, l’Allemagne et l’Espagne, le projet de Système de combat aérien du futur [SCAF] ne se résume…",
         "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/rc-20261010.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « SCAF : La France, l’Allemagne et l’Espagne ont validé la revue de conception initiale d’un effecteur déporté développé par MBDA ».",
+        "credit": "MBDA",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/10/scaf-la-france-lallemagne-et-lespagne-ont-valide-la-revue-de-conception-initiale-dun-effecteur-deporte-developpe-par-mbda/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/10/scaf-la-france-lallemagne-et-lespagne-ont-valide-la-revue-de-conception-initiale-dun-effecteur-deporte-developpe-par-mbda/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/rc-20261010.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -185,7 +281,23 @@ window.LDV_NEWS = {
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2022/06/SIPA_AP22690568_000001-scaled.jpg",
+        "kind": "article",
+        "alt": "Bruits et signaux",
+        "credit": "La bourse de Séoul C: Ahn Young-joon/AP/SIPA",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/bruits-et-signaux/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/bruits-et-signaux/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2022/06/SIPA_AP22690568_000001-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-10",
@@ -230,6 +342,22 @@ window.LDV_NEWS = {
       "sourceExcerpt": {
         "text": "En septembre, la Direction générale de l’armement [DGA] a émis un appel d’offres pour acquérir des drones de surface [USV]…",
         "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/oryx-20261009.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le français Exail dévoile un nouveau système de surveillance maritime basé sur les drones navals de la gamme Oryx ».",
+        "credit": "Exail",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/09/le-francais-exail-devoile-un-nouveau-systeme-de-surveillance-maritime-base-sur-les-drones-navals-de-la-gamme-oryx/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/09/le-francais-exail-devoile-un-nouveau-systeme-de-surveillance-maritime-base-sur-les-drones-navals-de-la-gamme-oryx/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/oryx-20261009.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -242,7 +370,23 @@ window.LDV_NEWS = {
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2019/10/chine-cybercriminalite-etats-unis-hackers-internet.jpg",
+        "kind": "article",
+        "alt": "Nouvelle faille de l’État : le fichier de 48 millions de propriétaires dans la nature",
+        "credit": "Représentation d'un hacker, Bruxelles, le 15 avril 2019. Auteurs : ISOPIX/SIPA. Numéro de reportage : 00903881_000001",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/nouvelle-faille-de-letat-le-fichier-de-48-millions-de-proprietaires-dans-la-nature/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/nouvelle-faille-de-letat-le-fichier-de-48-millions-de-proprietaires-dans-la-nature/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2019/10/chine-cybercriminalite-etats-unis-hackers-internet.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-09",
@@ -258,6 +402,22 @@ window.LDV_NEWS = {
       "sourceExcerpt": {
         "text": "Présenté en Conseil des ministres, le 1er octobre, le projet de loi de financement de la Sécurité sociale pour 2027…",
         "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/famille-20170225.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Pour le général Mandon, la suppression de la majoration de pension pour enfants sera «désastreuse» pour les armées ».",
+        "credit": "armée de l’Air & de l’Espace",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/09/pour-le-general-mandon-la-suppression-de-la-majoration-de-pension-pour-enfants-sera-desastreuse-pour-les-armees/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/09/pour-le-general-mandon-la-suppression-de-la-majoration-de-pension-pour-enfants-sera-desastreuse-pour-les-armees/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/famille-20170225.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -299,7 +459,23 @@ window.LDV_NEWS = {
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/Aigle-americain-en-collage-retro.png",
+        "kind": "article",
+        "alt": "La tentation de Rome : Trump ou le réveil de l’imaginaire impérial",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/la-tentation-de-rome-trump-ou-le-reveil-de-limaginaire-imperial/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/la-tentation-de-rome-trump-ou-le-reveil-de-limaginaire-imperial/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/Aigle-americain-en-collage-retro.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-09",
@@ -311,7 +487,23 @@ window.LDV_NEWS = {
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/08/ChatGPT-Image-27-aout-2026-17_03_39.png",
+        "kind": "article",
+        "alt": "Quizz – 9 octobre",
+        "credit": "Quizz (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/quizz-9-octobre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/quizz-9-octobre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/08/ChatGPT-Image-27-aout-2026-17_03_39.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-09",
@@ -323,7 +515,23 @@ window.LDV_NEWS = {
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/10/conflits-lecteur-scaled-e1737970920644.jpg",
+        "kind": "article",
+        "alt": "Livres – 9 octobre",
+        "credit": "Livre (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/livres-9-octobre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/livres-9-octobre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/10/conflits-lecteur-scaled-e1737970920644.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-09",
@@ -335,7 +543,23 @@ window.LDV_NEWS = {
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/09/2026-07-28-22.21.22.jpg",
+        "kind": "article",
+        "alt": "Podcast – Le mythe des trente glorieuses",
+        "credit": "Jean Fourastié (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-le-mythe-des-trente-glorieuses/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-le-mythe-des-trente-glorieuses/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/09/2026-07-28-22.21.22.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-09",
@@ -344,7 +568,23 @@ window.LDV_NEWS = {
       "title": "L'UE adopte des mesures pour simplifier les projets de défense",
       "summary": "Le Conseil annonce l'adoption finale de textes sur les achats, les investissements et la coopération industrielle de défense.",
       "why": "Des procédures plus simples peuvent accélérer les projets communs et la montée en capacité des États européens.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/09/simplification-council-gives-final-green-light-to-new-laws-boosting-defence-industry-and-readiness/"
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/09/simplification-council-gives-final-green-light-to-new-laws-boosting-defence-industry-and-readiness/",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.consilium.europa.eu/media/5sfgqehw/council-gives-final-green-light-to-new-laws-boosting-defence-industry-and-readiness.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « L'UE adopte des mesures pour simplifier les projets de défense ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/09/simplification-council-gives-final-green-light-to-new-laws-boosting-defence-industry-and-readiness/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/09/simplification-council-gives-final-green-light-to-new-laws-boosting-defence-industry-and-readiness/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.consilium.europa.eu/media/5sfgqehw/council-gives-final-green-light-to-new-laws-boosting-defence-industry-and-readiness.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-09",
@@ -353,7 +593,23 @@ window.LDV_NEWS = {
       "title": "DANAE : trois drones de surface retenus pour poursuivre les essais",
       "summary": "Selon Zone Militaire, l’Agence de l’innovation de défense a annoncé la sélection des solutions de SeaOwl, du groupement ORCAS et de SIREHNA pour la suite de DANAE. Cette phase doit développer et évaluer les prototypes jusqu’à fin 2027 avant le choix d’une solution pour protéger les bases et les navires.",
       "why": "La sélection fait avancer la protection navale par des systèmes autonomes. Elle reste une étape d’expérimentation, avant une éventuelle production et mise en service.",
-      "url": "https://www.opex360.com/2026/10/09/la-direction-generale-de-larmement-selectionne-trois-drones-de-surface-pour-la-protection-des-bases-et-des-navires-de-la-marine/"
+      "url": "https://www.opex360.com/2026/10/09/la-direction-generale-de-larmement-selectionne-trois-drones-de-surface-pour-la-protection-des-bases-et-des-navires-de-la-marine/",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/seair-20261009.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « DANAE : trois drones de surface retenus pour poursuivre les essais ».",
+        "credit": "AID",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/09/la-direction-generale-de-larmement-selectionne-trois-drones-de-surface-pour-la-protection-des-bases-et-des-navires-de-la-marine/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/09/la-direction-generale-de-larmement-selectionne-trois-drones-de-surface-pour-la-protection-des-bases-et-des-navires-de-la-marine/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/seair-20261009.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-09",
@@ -362,7 +618,23 @@ window.LDV_NEWS = {
       "title": "MGCS : Paris affirme poursuivre la coopération et préparer une capacité intermédiaire",
       "summary": "Zone Militaire rapporte une clarification du ministère des Armées : le MGCS franco-allemand se poursuit, avec une mise en service décalée vers la fin des années 2040. La France prépare une capacité intermédiaire pour remplacer le Leclerc, tandis que la coopération se recentre sur la connectivité, le combat collaboratif et la robotisation.",
       "why": "Le décalage oblige à préparer le renouvellement des chars avant l’arrivée du MGCS. Distinguer la poursuite de la coopération de son calendrier évite de confondre retard et abandon.",
-      "url": "https://www.opex360.com/2026/10/09/le-projet-franco-allemand-de-systeme-principal-de-combat-terrestre-se-poursuit-assure-le-ministere-des-armees/"
+      "url": "https://www.opex360.com/2026/10/09/le-projet-franco-allemand-de-systeme-principal-de-combat-terrestre-se-poursuit-assure-le-ministere-des-armees/",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/mgcs-20241024.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « MGCS : Paris affirme poursuivre la coopération et préparer une capacité intermédiaire ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/09/le-projet-franco-allemand-de-systeme-principal-de-combat-terrestre-se-poursuit-assure-le-ministere-des-armees/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/09/le-projet-franco-allemand-de-systeme-principal-de-combat-terrestre-se-poursuit-assure-le-ministere-des-armees/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/mgcs-20241024.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-09",
@@ -371,7 +643,23 @@ window.LDV_NEWS = {
       "title": "Moldavie : l’OTAN présente les résultats de son soutien aux capacités de défense",
       "summary": "Lors de sa visite des 8 et 9 octobre en Moldavie, Radmila Shekerinska a échangé avec les autorités sur le partenariat avec l’OTAN. Selon l’Alliance, environ 50 millions d’euros ont été livrés dans le cadre de son soutien aux capacités de défense, notamment pour la protection individuelle, le stockage des munitions et la cybersécurité.",
       "why": "Ce bilan montre le contenu concret du partenariat : équipements, sécurité des stocks et cyberdéfense. Ces domaines contribuent à renforcer la résilience des institutions moldaves.",
-      "url": "https://nato.int/en/news-and-events/articles/news/2026/10/09/natos-deputy-secretary-general-visits-moldova"
+      "url": "https://nato.int/en/news-and-events/articles/news/2026/10/09/natos-deputy-secretary-general-visits-moldova",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://s7g10.scene7.com/is/image/ncia/20261009_trip-dsg-mol?fmt=jpeg&wid=600&qlt=85",
+        "kind": "article",
+        "alt": "Image principale de l’article « Moldavie : l’OTAN présente les résultats de son soutien aux capacités de défense ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://nato.int/en/news-and-events/articles/news/2026/10/09/natos-deputy-secretary-general-visits-moldova",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://nato.int/en/news-and-events/articles/news/2026/10/09/natos-deputy-secretary-general-visits-moldova",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://s7g10.scene7.com/is/image/ncia/20261009_trip-dsg-mol",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-08",
@@ -416,6 +704,22 @@ window.LDV_NEWS = {
       "sourceExcerpt": {
         "text": "Maintenant qu’elle aligne vingt-quatre Rafale pouvant être armés de missiles air-air METEOR à longue portée de type BVRAAM [Beyond Visual-Range…",
         "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/aim260-20260404.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Athènes veut acquérir des missiles à longue portée AIM-260 JATM et AGM-158B JASSM auprès des États-Unis ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/08/athenes-veut-acquerir-des-missiles-a-longue-portee-aim-260-jatm-et-agm-158b-jassm-aupres-des-etats-unis/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/08/athenes-veut-acquerir-des-missiles-a-longue-portee-aim-260-jatm-et-agm-158b-jassm-aupres-des-etats-unis/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/aim260-20260404.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -425,7 +729,23 @@ window.LDV_NEWS = {
       "title": "Budget des armées : les questions ouvertes pour 2027",
       "summary": "Une analyse de la trajectoire budgétaire annoncée et des incertitudes politiques qui l'entourent.",
       "why": "Le financement effectif conditionne les équipements et la préparation des forces dans la durée.",
-      "url": "https://opexnews.fr/budget-armees-defense-2027-presidentielle/"
+      "url": "https://opexnews.fr/budget-armees-defense-2027-presidentielle/",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://opexnews.fr/wp-content/uploads/2026/10/budget-des-armees-defense-2027-plf.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Budget des armées : les questions ouvertes pour 2027 ».",
+        "credit": "Armée de Terre",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://opexnews.fr/budget-armees-defense-2027-presidentielle/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://opexnews.fr/budget-armees-defense-2027-presidentielle/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://opexnews.fr/wp-content/uploads/2026/10/budget-des-armees-defense-2027-plf.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-08",
@@ -546,7 +866,8 @@ window.LDV_NEWS = {
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00"
     },
     {
       "date": "2026-10-07",
@@ -555,7 +876,23 @@ window.LDV_NEWS = {
       "title": "Le Comité militaire de l'OTAN s'est rendu à Kyiv",
       "summary": "L'Alliance indique avoir échangé avec les responsables ukrainiens sur les priorités militaires et les enseignements du terrain.",
       "why": "Ces échanges éclairent l'adaptation des capacités et des priorités de l'Alliance.",
-      "url": "https://www.nato.int/en/news-and-events/articles/news/2026/10/07/nato-military-committee-visited-kyiv"
+      "url": "https://www.nato.int/en/news-and-events/articles/news/2026/10/07/nato-military-committee-visited-kyiv",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://s7g10.scene7.com/is/image/ncia/20261007_trip-mc-ukr-0001?fmt=jpeg&wid=600&qlt=85",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le Comité militaire de l'OTAN s'est rendu à Kyiv ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.nato.int/en/news-and-events/articles/news/2026/10/07/nato-military-committee-visited-kyiv",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.nato.int/en/news-and-events/articles/news/2026/10/07/nato-military-committee-visited-kyiv",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://s7g10.scene7.com/is/image/ncia/20261007_trip-mc-ukr-0001",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-06",
@@ -564,7 +901,23 @@ window.LDV_NEWS = {
       "title": "Premier tir d'acceptation du M51.3 depuis Le Vigilant",
       "summary": "La DGA présente les objectifs du tir réalisé depuis le sous-marin après sa période d'entretien et de réparations.",
       "why": "Ce contrôle valide la remise en service d'une capacité centrale de la dissuasion française.",
-      "url": "https://www.defense.gouv.fr/dga/actualites/tir-dacceptation-dun-missile-m513-snle-vigilant"
+      "url": "https://www.defense.gouv.fr/dga/actualites/tir-dacceptation-dun-missile-m513-snle-vigilant",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00",
+      "image": {
+        "src": "https://www.defense.gouv.fr/sites/default/files/styles/16_9_md/public/dga/tir_m51%2010%202026%201.jpg?h=b5d6b38c&itok=7E1_0Poi",
+        "kind": "article",
+        "alt": "Image principale de l’article « Premier tir d'acceptation du M51.3 depuis Le Vigilant ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.defense.gouv.fr/dga/actualites/tir-dacceptation-dun-missile-m513-snle-vigilant",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.defense.gouv.fr/dga/actualites/tir-dacceptation-dun-missile-m513-snle-vigilant",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.defense.gouv.fr/sites/default/files/styles/16_9_md/public/dga/tir_m51%2010%202026%201.jpg?h=b5d6b38c&itok=7E1_0Poi",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-05",
@@ -576,7 +929,8 @@ window.LDV_NEWS = {
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00"
     }
   ],
   "checkedAt": "2026-10-11T16:01:51.413767+00:00",
@@ -621,7 +975,7 @@ window.LDV_NEWS = {
       }
     ],
     "newItems": 0,
-    "articleImages": 10,
-    "imagesCheckedAt": "2026-10-11T18:31:58.089128+00:00"
+    "articleImages": 32,
+    "imagesCheckedAt": "2026-10-11T18:43:25.184654+00:00"
   }
 };
