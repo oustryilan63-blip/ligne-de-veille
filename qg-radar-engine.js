@@ -48,7 +48,14 @@
  function upkeep(s){return 18+Object.values(s.buildings).reduce((a,b)=>a+b,0)*2;}
  function income(s){return 46+(s.buildings.radar-1)*8;}
  function repair(s){return 38+(s.buildings.atelier-1)*10;}
- function score(s){return Math.min(1000,s.completed*25+Object.values(s.buildings).reduce((n,l)=>n+(l-1)*15,0)+Math.round(units.reduce((n,u)=>n+s.units[u.id].condition,0)/6)+s.morale+Math.min(50,Math.floor(s.cash/4)));}
+ function tally(s){return [
+  ['Missions',Math.min(400,Math.round(s.completed*400/12)),400],
+  ['Améliorations',Math.min(200,Object.values(s.buildings).reduce((n,l)=>n+(l-1)*40,0)),200],
+  ['État moyen',Math.min(150,Math.round(units.reduce((n,u)=>n+s.units[u.id].condition,0)/3)),150],
+  ['Moral',Math.min(150,Math.round(s.morale*150/90)),150],
+  ['Réserve',Math.min(100,Math.floor(s.cash/2)),100]
+ ];}
+ function score(s){return tally(s).reduce((n,row)=>n+row[1],0);}
  function action(state,a){
   const fail=message=>({ok:false,state,message});
   if(!a||typeof a!=='object')return fail('Action inconnue.');
@@ -89,5 +96,5 @@
   if(!Array.isArray(s.log)||s.log.length>16||s.log.some(x=>typeof x!=='string'||x.length>350))return null;
   return JSON.parse(JSON.stringify(s));
  }catch{return null;}}
- const api={units,buildings,events,fresh,offers,action,restore,score,upkeep,income,repair};root.QG=api;if(typeof module!=='undefined')module.exports=api;
+ const api={units,buildings,events,fresh,offers,action,restore,score,tally,upkeep,income,repair};root.QG=api;if(typeof module!=='undefined')module.exports=api;
 })(typeof window!=='undefined'?window:globalThis);
