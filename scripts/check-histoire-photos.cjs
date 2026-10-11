@@ -30,7 +30,7 @@ for(const item of items){
  const preview=api.preview(item);assert.ok(preview&&preview.real!==false,item.name+' : aperçu réel absent');
  if((data[item.name]||[]).length&&item.mediaLabel!=='Illustration')assert.notEqual(preview.src,records[0].src,item.name+' : aperçu identique à la base');
 }
-assert.equal(newPhotos,189);assert.equal(total,288);assert.equal(multi,98);
+assert.equal(newPhotos,245);assert.equal(total,374);assert.equal(multi,128);
 assert.equal(api.photos(items[97])[0].userProvided,true);assert.equal(api.photos(items[97]).length,1);
 assert.ok(!data['Type 055'].some(p=>p.file==='Type 055 destroyer.jpg'));
 assert.ok(!data.M51.some(p=>/M5-eclate/.test(p.file)));
