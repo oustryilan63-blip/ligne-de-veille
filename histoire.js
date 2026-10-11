@@ -108,9 +108,10 @@
     catalogue.hidden=true;detail.hidden=false;detail.replaceChildren();document.body.classList.add('history-profile');document.title=item.name+' | Histoire | Radar';
     const fromCollection=params.get('retour')==='collection';
     const back=el('a','history-back',fromCollection?'← Revenir à ma collection':'← Revenir aux '+engins.length+' engins');back.href=fromCollection?'collection.html':'histoire.html';detail.append(back);
+    detail.append(el('h2','history-mobile-title',item.name));
     const jump=el('nav','profile-jump');jump.setAttribute('aria-label','Dans cette fiche');detail.append(jump);
     const head=el('div','history-detail-head');const media=el('div',item.category==='missiles'?'history-missile-media':'');media.id='photos';media.append(window.RADAR_PHOTOS.create(item));
-    const copy=el('div');copy.append(el('span','history-kicker',String(index+1).padStart(2,'0')+' / '+item.kind+' / '+item.country),el('h2','',item.name),el('p','history-subtitle','Origine : '+item.country));
+    const copy=el('div');copy.append(el('span','history-kicker',String(index+1).padStart(2,'0')+' / '+item.kind+' / '+item.country),el('h2','history-name',item.name),el('p','history-subtitle','Origine : '+item.country));
     copy.append(el('p','',item.explanation));
     copy.append(collection.button(item,true));
     const compare=el('a','compare-link','Comparer cet engin →');compare.href='comparateur.html?a='+index;copy.append(compare);

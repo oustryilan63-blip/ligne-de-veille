@@ -157,3 +157,17 @@ a:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-visible
   .game-intro h1{font-size:60px}
   .map-heading-row h2{font-size:38px}
 }
+
+/* Menu mobile : boutons lisibles et état ouvert identifiable. */
+[hidden]{display:none!important}
+@media(max-width:760px){
+  .site-header .main-nav{top:100%;padding:12px 18px 18px}
+  .site-header .main-nav a{min-height:44px;padding:13px 14px;font-size:14px;line-height:1.4;border-bottom:0}
+  .site-header .main-nav a+a{border-top:1px solid #d2d9d5}
+  .site-header .main-nav a::after{display:none}
+  .site-header .main-nav a[aria-current="page"]{background:#e5ebe1;border-left:3px solid var(--accent);padding-left:11px}
+  .menu-toggle{display:grid;place-content:center;gap:6px;width:44px;height:44px;padding:10px;cursor:pointer}
+  .menu-toggle span{width:22px;height:2px;margin:0;transition:transform .18s ease}
+  .menu-toggle[aria-expanded="true"] span:first-child{transform:translateY(4px) rotate(45deg)}
+  .menu-toggle[aria-expanded="true"] span:last-child{transform:translateY(-4px) rotate(-45deg)}
+}
