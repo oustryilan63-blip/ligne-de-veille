@@ -23,7 +23,7 @@ Le [guide de structure](ARCHITECTURE.md) détaille les liens entre les fichiers.
 
 GitHub Actions consulte les sources à **8 h et 18 h, heure de Paris**. GitHub peut décaler le démarrage d’une tâche planifiée. La date du dernier contrôle est affichée sur le site. La veille conserve les anciens articles et vérifie les liens avant d’ajouter un titre.
 
-Les photos d’article prises en charge sont les images éditoriales officielles GOV.UK sous OGL, avec exclusion des crédits tiers détectés. Elles sont affichées depuis le serveur officiel. Les autres publications utilisent une **illustration clairement signalée** : photographie libre d’un engin nommé dans le titre, mosaïque satellitaire NASA ou dessin Radar lié au thème. Les images d’un flux ne sont pas considérées comme librement réutilisables par défaut. Conflits est référencé par titre et lien, sans reprise de ses extraits ni de ses photos.
+Les actualités affichent uniquement des **images réellement publiées avec les articles**. La collecte de 8 h et 18 h cherche les photos officielles GOV.UK sous OGL, les photos OTAN dont les droits et le crédit sont confirmés, et les images avec une licence Creative Commons explicitement attachée à leur propre ImageObject. Les logos et les licences générales de textes ne sont pas considérés comme des licences photographiques. Chaque photo garde son crédit, sa licence et sa page de preuve. Une photo dont les droits restent inconnus est omise ; aucun visuel générique ni photo issue des jeux ne la remplace. Le filtre « Avec photo uniquement » facilite leur consultation. Conflits reste référencé par titre et lien sans reprise de ses extraits ; la photo de Xi Jinping fait l’objet d’une autorisation spécifique enregistrée ci-dessous.
 
 ## Modifier et vérifier
 
@@ -49,3 +49,7 @@ Le dossier **_site/** est le résultat destiné à l’hébergement, jamais le d
 - Les crédits et licences des photos sont conservés avec les données et dans les dossiers de médias. Les polices locales ont leur licence dans assets/fonts/atlas/.
 - Les sprites du QG sont des fichiers WebP séparés, mis en cache par le navigateur ; leur dessin n’a pas été modifié par cette optimisation.
 - Le code et les médias tiers n’ont pas une licence commune : vérifier le crédit de chaque média avant réutilisation.
+
+## Autorisations photographiques spécifiques
+
+Deux images précises sont autorisées sur confirmation du propriétaire de Radar concernant leur droit de republication : le Rafale au décollage (EMA / Armée de l’Air), et le banquet avec Xi Jinping (© Robin Utrecht / SIPA, crédit confirmé dans les métadonnées du fichier original). Ces autorisations concernent les deux fichiers enregistrés dans scripts/news-image-policy.json, sans autorisation générale pour les autres photos de Zone Militaire ou de Conflits. Si un nouvel article utilise exactement l’une de ces mêmes photos principales, la collecte peut la reconnaître automatiquement. Les crédits des détenteurs sont conservés.

@@ -80,7 +80,22 @@ window.LDV_NEWS = {
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_00679789_000002-1024x688.jpg",
+        "kind": "article",
+        "alt": "Xi Jinping et Peng Liyuan avec la famille royale néerlandaise lors du banquet du 22 mars 2014, image principale de cet article.",
+        "credit": "© Robin Utrecht / SIPA",
+        "license": "Autorisation spécifique",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-photographiques-spécifiques",
+        "sourceUrl": "https://www.revueconflits.com/xi-jinping-un-costume-tres-politique/",
+        "provider": "specific-permission",
+        "rightsUrl": "https://www.revueconflits.com/xi-jinping-un-costume-tres-politique/",
+        "evidence": "user-confirmed-specific-photo",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_00679789_000002-scaled.jpg",
+        "sha256": "51b5906dbd6a5bfc1f2220544fd5d65f3dbb0aaaec6533db65d3d36b3b50c254"
+      }
     },
     {
       "date": "2026-10-10",
@@ -112,6 +127,21 @@ window.LDV_NEWS = {
       "sourceExcerpt": {
         "text": "Jusqu’en août 2025, l’Escadron de chasse 3/11 Jura, établi sur la base aérienne 188 «Colonel Massart» de Djibouti, disposait de…",
         "kind": "feed-excerpt"
+      },
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/chammal-20200625.jpg",
+        "kind": "article",
+        "alt": "Rafale au décollage, image principale publiée avec cet article.",
+        "credit": "EMA / Armée de l’Air",
+        "license": "Autorisation spécifique",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-photographiques-spécifiques",
+        "sourceUrl": "https://www.opex360.com/2026/10/10/larmee-de-lair-de-lespace-confirme-larrive-du-rafale-a-djibouti-en-2027/",
+        "provider": "specific-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/10/larmee-de-lair-de-lespace-confirme-larrive-du-rafale-a-djibouti-en-2027/",
+        "evidence": "user-confirmed-specific-photo",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/chammal-20200625.jpg",
+        "sha256": "d08735f13b6dbe97aaf907b4104e95be6ab679b34ece6e09312daa5d018fc2e0"
       }
     },
     {
@@ -164,7 +194,11 @@ window.LDV_NEWS = {
         "credit": "Ministry of Defence / Crown copyright",
         "license": "OGL v3",
         "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-        "sourceUrl": "https://www.gov.uk/government/news/faster-front-line-delivery-with-new-testing-and-evaluation-programme"
+        "sourceUrl": "https://www.gov.uk/government/news/faster-front-line-delivery-with-new-testing-and-evaluation-programme",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/faster-front-line-delivery-with-new-testing-and-evaluation-programme",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-11"
       }
     },
     {
@@ -233,7 +267,11 @@ window.LDV_NEWS = {
         "credit": "Ministry of Defence / Crown copyright",
         "license": "OGL v3",
         "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-        "sourceUrl": "https://www.gov.uk/government/news/100-new-uk-jobs-created-as-kuwait-buys-british-made-ai-enabled-air-defence-systems"
+        "sourceUrl": "https://www.gov.uk/government/news/100-new-uk-jobs-created-as-kuwait-buys-british-made-ai-enabled-air-defence-systems",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/100-new-uk-jobs-created-as-kuwait-buys-british-made-ai-enabled-air-defence-systems",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-11"
       }
     },
     {
@@ -342,7 +380,11 @@ window.LDV_NEWS = {
         "credit": "Ministry of Defence / Crown copyright",
         "license": "OGL v3",
         "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-        "sourceUrl": "https://www.gov.uk/government/news/new-kyiv-business-centre-opens-in-ukraine"
+        "sourceUrl": "https://www.gov.uk/government/news/new-kyiv-business-centre-opens-in-ukraine",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/new-kyiv-business-centre-opens-in-ukraine",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-11"
       }
     },
     {
@@ -377,7 +419,20 @@ window.LDV_NEWS = {
       "title": "Steadfast Noon : l’OTAN annonce un exercice de dissuasion à partir du 13 octobre",
       "summary": "L’OTAN annonce que son exercice annuel Steadfast Noon commencera le 13 octobre 2026 en Italie, avec 17 nations. L’Alliance précise qu’aucune arme réelle ne sera utilisée et présente cette activité comme un entraînement planifié de longue date, sans lien avec les événements actuels.",
       "why": "Cet entraînement porte sur la préparation et les procédures de dissuasion. Son caractère annoncé et l’absence d’armes réelles permettent de le distinguer d’une opération de combat.",
-      "url": "https://www.nato.int/en/news-and-events/articles/news/2026/10/08/nato-holds-annual-nuclear-exercise-steadfast-noon"
+      "url": "https://www.nato.int/en/news-and-events/articles/news/2026/10/08/nato-holds-annual-nuclear-exercise-steadfast-noon",
+      "image": {
+        "src": "https://s7g10.scene7.com/is/image/ncia/250804-natohq?fmt=jpeg&wid=480&qlt=85",
+        "kind": "article",
+        "alt": "Siège de l’OTAN à Bruxelles avec les 32 drapeaux, photo choisie pour cette publication.",
+        "credit": "© NATO",
+        "license": "Conditions éditoriales OTAN",
+        "licenseUrl": "https://www.nato.int/en/about-us/official-texts-and-resources/use-of-nato-content-and-brand",
+        "sourceUrl": "https://www.nato.int/en/news-and-events/articles/news/2026/10/08/nato-holds-annual-nuclear-exercise-steadfast-noon",
+        "provider": "nato",
+        "rightsUrl": "https://www.nato.int/en/multimedia/multimedia/photos/general/nato-headquarters",
+        "evidence": "verified-individual-asset",
+        "checkedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-07",
@@ -401,7 +456,11 @@ window.LDV_NEWS = {
         "credit": "Ministry of Defence / Crown copyright",
         "license": "OGL v3",
         "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-        "sourceUrl": "https://www.gov.uk/government/news/decades-long-mystery-solved-as-lost-bomber-crew-identified"
+        "sourceUrl": "https://www.gov.uk/government/news/decades-long-mystery-solved-as-lost-bomber-crew-identified",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/decades-long-mystery-solved-as-lost-bomber-crew-identified",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-11"
       }
     },
     {
@@ -426,7 +485,11 @@ window.LDV_NEWS = {
         "credit": "Ministry of Defence / Crown copyright",
         "license": "OGL v3",
         "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-        "sourceUrl": "https://www.gov.uk/government/news/grave-of-cornish-soldier-missing-since-1945-identified-in-germany"
+        "sourceUrl": "https://www.gov.uk/government/news/grave-of-cornish-soldier-missing-since-1945-identified-in-germany",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/grave-of-cornish-soldier-missing-since-1945-identified-in-germany",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-11"
       }
     },
     {
@@ -451,7 +514,11 @@ window.LDV_NEWS = {
         "credit": "Ministry of Defence / Crown copyright",
         "license": "OGL v3",
         "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-        "sourceUrl": "https://www.gov.uk/government/news/unknown-sheffield-soldier-named-in-netherlands-ceremony"
+        "sourceUrl": "https://www.gov.uk/government/news/unknown-sheffield-soldier-named-in-netherlands-ceremony",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/unknown-sheffield-soldier-named-in-netherlands-ceremony",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-11"
       }
     },
     {
@@ -538,6 +605,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 0
+    "newItems": 0,
+    "articleImages": 9,
+    "imagesCheckedAt": "2026-10-11T17:59:19.154864+00:00"
   }
 };

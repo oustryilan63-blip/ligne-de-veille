@@ -3,7 +3,7 @@
 ## Trois espaces
 
 1. **Racine : site éditable.** Les pages HTML et leurs scripts restent proches pour conserver les anciens liens. `atlas.css` définit la direction artistique commune. Chaque jeu a ses styles.
-2. **`assets/` : médias et licences.** `jeu/` contient les photos communes, `histoire/` les galeries, `actualites/` les illustrations, `qg/` le terrain et les sprites, `fonts/` les polices.
+2. **`assets/` : médias et licences.** `jeu/` contient les photos communes, `histoire/` les galeries, `actualites/` les anciens visuels retirés des actualités, `qg/` le terrain et les sprites, `fonts/` les polices.
 3. **`scripts/`, `docs/`, `.github/` : maintenance.** Vérification, documentation, collecte et publication. Ils ne sont pas copiés dans le site public.
 
 ## Ce qui charge quand
@@ -24,7 +24,8 @@
 | Outil | Rôle |
 |---|---|
 | `update-news.py` | Titres, dates, liens, extraits courts autorisés et images officielles |
-| `build-news.mjs` | Validation et préparation des actualités |
+| `news_images.py` / `news-image-policy.json` | Photos d’articles, crédits et preuves de droits |
+| `build-news.mjs` / `news-image-validation.mjs` | Validation des actualités et des licences de photo |
 | `build-site.mjs` / `public-files.json` | Construction publique, exclusions explicites |
 | `optimize-static.mjs` | Compaction des données dans le résultat |
 | `check-public-site.mjs` | Contrôle des dépendances locales publiées |
