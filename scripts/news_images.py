@@ -170,11 +170,28 @@ def specific_permission_image(item,request,clean,clip):
         return image
     return None
 
+def verified_asset_image(item,request,clean,clip):
+    host=urllib.parse.urlsplit(item['url']).hostname
+    known={src:proof for src,proof in POLICY.get('verifiedLicensedAssets',{}).items() if host in proof['articleHosts']}
+    if not known:return None
+    article=page(request(item['url'],max_bytes=3_000_000));primary=article.metas.get('og:image','')
+    for src,proof in known.items():
+        if primary!=src or not secure(src,[host]):continue
+        data=request(src,max_bytes=2_000_000)
+        digest=hashlib.sha256(data).hexdigest()
+        if not raster_bytes(data) or digest!=proof['sha256']:continue
+        image=record(item,src,proof['alt'],proof['credit'],proof['license'],proof['licenseUrl'],'verified-asset',proof['rightsUrl'],'verified-source-license')
+        image['assetUrl']=primary;image['sha256']=digest
+        return image
+    return None
+
 def find_article_image(item,request,clean,clip):
     host=urllib.parse.urlsplit(item['url']).hostname
     if not secure(item['url'],[host] if host else []):return None
     if host in POLICY['providers']['gov-uk']['articleHosts']:return gov_image(item,request,clean,clip)
     if host in POLICY['providers']['nato']['articleHosts']:return nato_image(item,request,clean,clip)
+    licensed=verified_asset_image(item,request,clean,clip)
+    if licensed:return licensed
     if any(host in grant['articleHosts'] for grant in POLICY.get('explicitPermissions',{}).values()):
         permitted=specific_permission_image(item,request,clean,clip)
         if permitted:return permitted

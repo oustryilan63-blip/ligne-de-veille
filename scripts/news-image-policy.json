@@ -64,6 +64,19 @@
       "evidence": "La galerie officielle associe cet asset aux droits exclusifs de l’OTAN et au crédit NATO. Identité exacte vérifiée le 11 octobre 2026."
     }
   },
+  "verifiedLicensedAssets": {
+    "https://www.revueconflits.com/wp-content/uploads/2026/09/Miura_1_PLD_Space_Espana_2017_cropped.jpg": {
+      "articleHosts": ["www.revueconflits.com", "revueconflits.com"],
+      "credit": "PLD Space · recadrage Huntster",
+      "alt": "Vue d’artiste du lanceur Miura 1, image principale de l’article sur le spatial espagnol.",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "rightsUrl": "https://commons.wikimedia.org/wiki/File:Miura_1,_PLD_Space,_Espa%C3%B1a,_2017_(cropped).jpg",
+      "sha256": "29a2754ee448cae661258d36a90fa7ad2577497bf905d0c93a4a676b1a1ae41f",
+      "checkedAt": "2026-10-11",
+      "evidence": "Même image et recadrage que l’original Commons, identité visuelle vérifiée ; crédit PLD Space et licence CC BY-SA 2.0 associés à ce fichier précis."
+    }
+  },
   "explicitPermissions": {
     "https://www.opex360.com/wp-content/uploads/chammal-20200625.jpg": {
       "articleHosts": [

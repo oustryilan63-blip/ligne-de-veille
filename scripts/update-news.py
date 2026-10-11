@@ -120,6 +120,7 @@ def article_image(item):
 def enrich_images(items):
     hosts=set(POLICY['individualLicenseHosts'])|{h for p in POLICY['providers'].values() for h in p['articleHosts']}
     hosts.update(h for p in POLICY.get('explicitPermissions',{}).values() for h in p['articleHosts'])
+    hosts.update(h for p in POLICY.get('verifiedLicensedAssets',{}).values() for h in p['articleHosts'])
     eligible = sorted([i for i in items if urllib.parse.urlsplit(i['url']).hostname in hosts and (not i.get('image') or not i['image'].get('provider') or (i['image'].get('provider')=='specific-permission' and (not i['image'].get('assetUrl') or not i['image'].get('sha256'))))], key=lambda i:(i['date'],i.get('publishedAt','')), reverse=True)[:32]
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         for item, image in zip(eligible, pool.map(article_image, eligible)):
