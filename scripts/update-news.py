@@ -124,7 +124,7 @@ def main():
     stored['items'].sort(key=lambda item:(item['date'],item.get('publishedAt','')),reverse=True)
     stored['updatedAt'] = now.astimezone(PARIS).date().isoformat()
     stored['checkedAt'] = now.isoformat()
-    stored['automation'] = {'schedule':'08:00','timezone':'Europe/Paris','method':'RSS/Atom : titres, dates et liens vérifiés','sources':statuses,'newItems':len(additions)}
+    stored['automation'] = {'schedule':'08:00 et 18:00','schedules':['08:00','18:00'],'timezone':'Europe/Paris','method':'RSS/Atom : titres, dates et liens vérifiés','sources':statuses,'newItems':len(additions)}
     output = ROOT/'actualites.json'
     temporary = output.with_suffix('.json.tmp'); temporary.write_text(json.dumps(stored,ensure_ascii=False,indent=2)+'\n',encoding='utf-8'); temporary.replace(output)
     summary = f"{len(additions)} nouveautés ; {sum(s['ok'] for s in statuses)}/{len(statuses)} flux consultés ; {len(stored['items'])} publications conservées."

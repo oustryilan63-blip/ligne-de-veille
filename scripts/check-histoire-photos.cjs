@@ -35,5 +35,5 @@ assert.equal(api.photos(items[97])[0].userProvided,true);assert.equal(api.photos
 assert.ok(!data['Type 055'].some(p=>p.file==='Type 055 destroyer.jpg'));
 assert.ok(!data.M51.some(p=>/M5-eclate/.test(p.file)));
 assert.ok(!data['RBS 70'].some(p=>/MSHORAD/.test(p.file)));
-const html=fs.readFileSync(path.join(root,'histoire.html'),'utf8');assert.ok(html.indexOf('histoire-photos-data.js')<html.indexOf('histoire-photos.js'));assert.ok(html.indexOf('histoire-photos.js')<html.indexOf('histoire-3d.js'));
+const html=fs.readFileSync(path.join(root,'histoire.html'),'utf8'),loader=fs.readFileSync(path.join(root,'histoire-bootstrap.js'),'utf8');assert.ok(html.includes('histoire-bootstrap.js'));assert.ok(loader.indexOf('histoire-photos-data.js')<loader.indexOf('histoire-photos.js'));assert.ok(loader.includes('histoire-3d.js'));
 console.log(total+' photographies, '+multi+' galeries multiples : fichiers, crédits, images réelles, navigation circulaire, clavier, erreurs d’image et aperçus distincts vérifiés.');

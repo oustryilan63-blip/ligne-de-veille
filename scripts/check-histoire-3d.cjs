@@ -46,5 +46,8 @@ for(const item of items){
  toggle.fire('click');assert.equal(stage.children[0],poster);
  poster.children[0].fire('error');assert.equal(poster.children[0].hidden,true);
 }
-assert.ok(read('histoire.html').indexOf('histoire-3d-data.js')<read('histoire.html').indexOf('histoire-3d.js'));
+assert.ok(read('histoire.html').includes('histoire-bootstrap.js'));
+assert.ok(read('histoire-bootstrap.js').indexOf('histoire-3d-data.js')<read('histoire-bootstrap.js').indexOf('histoire-3d.js'));
+assert.equal(models.Rafale.id,'bf3f55ffe2864fc299fdf8052c65b4cc');
+assert.equal(models["F-16 Fighting Falcon"].id,'599242a3ab9f4dc49558299ceaf1e10d');
 console.log('93 modèles : cohérence du catalogue, aperçus distincts, lien redondant retiré, ouverture unique, fermeture, réouverture et erreurs tardives vérifiés.');
