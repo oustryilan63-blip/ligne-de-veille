@@ -4,8 +4,8 @@
     "confirmedAt": "2026-10-11",
     "basis": "Le propriétaire de Radar confirme avoir reçu les autorisations de tous les éditeurs et titulaires concernés pour republier les images principales des articles actuels et lors des mises à jour automatiques.",
     "scope": "Images principales des articles référencés sur Radar, avec conservation des crédits ; publications présentes et futures des sources configurées.",
-    "articleHosts": ["www.opex360.com", "opex360.com", "www.revueconflits.com", "revueconflits.com", "opexnews.fr", "www.opexnews.fr", "www.nato.int", "nato.int", "www.defense.gouv.fr", "www.consilium.europa.eu", "www.senat.fr", "www.gov.uk"],
-    "imageHosts": ["www.opex360.com", "opex360.com", "www.revueconflits.com", "revueconflits.com", "opexnews.fr", "www.opexnews.fr", "s7g10.scene7.com", "www.defense.gouv.fr", "www.consilium.europa.eu", "www.senat.fr", "assets.publishing.service.gov.uk", "upload.wikimedia.org", "i0.wp.com", "i1.wp.com", "i2.wp.com"],
+    "articleHosts": ["www.opex360.com", "opex360.com", "www.revueconflits.com", "revueconflits.com", "opexnews.fr", "www.opexnews.fr", "www.nato.int", "nato.int", "www.defense.gouv.fr", "www.consilium.europa.eu", "www.senat.fr", "www.gov.uk", "blablachars.blogspot.com", "forcesoperations.com", "www.forcesoperations.com", "navalnews.com", "www.navalnews.com"],
+    "imageHosts": ["www.opex360.com", "opex360.com", "www.revueconflits.com", "revueconflits.com", "opexnews.fr", "www.opexnews.fr", "s7g10.scene7.com", "www.defense.gouv.fr", "www.consilium.europa.eu", "www.senat.fr", "assets.publishing.service.gov.uk", "upload.wikimedia.org", "i0.wp.com", "i1.wp.com", "i2.wp.com", "blogger.googleusercontent.com", "bloggerusercontent.googleusercontent.com", "1.bp.blogspot.com", "2.bp.blogspot.com", "3.bp.blogspot.com", "4.bp.blogspot.com", "forcesoperations.com", "www.forcesoperations.com", "navalnews.com", "www.navalnews.com"],
     "license": "Republication autorisée",
     "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9"
   },

@@ -6,6 +6,8 @@ import html
 from html.parser import HTMLParser
 import json
 import os
+import re
+import unicodedata
 from pathlib import Path
 import ssl
 import sys
@@ -38,6 +40,20 @@ def clean(value):
 
 def clip(value, limit=140):
     return value if len(value) <= limit else value[:limit-1].rsplit(' ', 1)[0] + '…'
+
+def headline_key(value):
+    plain=''.join(c for c in unicodedata.normalize('NFKD',value.casefold()) if not unicodedata.combining(c))
+    return re.sub(r'[\W_]+','',plain)
+
+def fresh_candidates(items,urls,headlines,limit):
+    selected=[];duplicates=0
+    for item in items:
+        if item['url'].rstrip('/') in urls:continue
+        key=headline_key(item['title'])
+        if key in headlines:duplicates+=1;continue
+        headlines.add(key);selected.append(item)
+        if len(selected)>=limit:break
+    return selected,duplicates
 
 def canonical(raw, source):
     p = urllib.parse.urlsplit(raw.strip())
@@ -139,7 +155,9 @@ def main():
     statuses, additions, types_ok = [], [], set()
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         results = list(pool.map(lambda source:collect(source,now),sources))
-    candidates = []
+    candidates = [];duplicates_skipped=0
+    recent_after=(now.astimezone(PARIS)-dt.timedelta(days=7)).date().isoformat()
+    headlines={headline_key(i['title']) for i in stored['items'] if i['date']>=recent_after}
     existing = {item['url'].rstrip('/'): item for item in stored['items']}
     for source, items, error in results:
         statuses.append({'source':source['name'],'ok':not error,'recentItems':len(items),'error':error})
@@ -150,8 +168,9 @@ def main():
             saved = existing.get(item['url'].rstrip('/'))
             if saved and saved.get('autoCollected') and item.get('sourceExcerpt'):
                 saved['sourceExcerpt'] = item['sourceExcerpt']
-        # At most two recent headlines per source; no article bodies are republished.
-        candidates.extend([item for item in items if item['url'].rstrip('/') not in urls][:2])
+        # Keep sources balanced and omit identical headlines from the recent week.
+        selected,duplicates=fresh_candidates(items,urls,headlines,min(5,max(1,int(source.get('maxItems',2)))))
+        candidates.extend(selected);duplicates_skipped+=duplicates
     if not {'Source officielle','Presse spécialisée'}.issubset(types_ok):
         raise RuntimeError('La collecte doit réussir pour au moins une source officielle et une source spécialisée. Les actualités existantes sont conservées.')
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
@@ -166,7 +185,7 @@ def main():
     stored['items'].sort(key=lambda item:(item['date'],item.get('publishedAt','')),reverse=True)
     stored['updatedAt'] = now.astimezone(PARIS).date().isoformat()
     stored['checkedAt'] = now.isoformat()
-    stored['automation'] = {'schedule':'08:00 et 18:00','schedules':['08:00','18:00'],'timezone':'Europe/Paris','method':'RSS/Atom : titres, dates, liens vérifiés, courts extraits attribués et photos originales lorsque leurs droits sont vérifiés','sources':statuses,'newItems':len(additions),'articleImages':sum(bool(i.get('image')) for i in stored['items'])}
+    stored['automation'] = {'schedule':'08:00 et 18:00','schedules':['08:00','18:00'],'timezone':'Europe/Paris','method':'RSS/Atom : titres, dates, liens vérifiés, courts extraits attribués et images principales avec crédits et autorisations confirmées','sources':statuses,'newItems':len(additions),'articleImages':sum(bool(i.get('image')) for i in stored['items']),'duplicateHeadlinesSkipped':duplicates_skipped}
     output = ROOT/'actualites.json'
     temporary = output.with_suffix('.json.tmp'); temporary.write_text(json.dumps(stored,ensure_ascii=False,indent=2)+'\n',encoding='utf-8'); temporary.replace(output)
     summary = f"{len(additions)} nouveautés ; {sum(s['ok'] for s in statuses)}/{len(statuses)} flux consultés ; {len(stored['items'])} publications conservées."

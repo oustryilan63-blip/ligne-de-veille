@@ -192,8 +192,8 @@ def nodes(root):
 def absolute_image(raw,article_url):
     value=urllib.parse.urljoin(article_url,raw or '')
     p=urllib.parse.urlsplit(value)
-    if p.scheme=='http':value=urllib.parse.urlunsplit(('https',p.netloc,p.path,p.query,p.fragment))
-    return value
+    scheme='https' if p.scheme=='http' else p.scheme
+    return urllib.parse.urlunsplit((scheme,p.netloc,urllib.parse.quote(p.path,safe="/%:@!$&'()*+,;=-._~"),urllib.parse.quote(p.query,safe="=&%/:@!$'()*+,;?-._~"),p.fragment))
 
 def publisher_permission_image(item,request,clean,clip):
     permission=POLICY.get('publisherPermission',{})
@@ -222,6 +222,17 @@ def publisher_permission_image(item,request,clean,clip):
     if urllib.parse.urlsplit(src).hostname=='s7g10.scene7.com':src=base_asset(src)+'?fmt=jpeg&wid=600&qlt=85'
     if not jpeg_checked(src,request):return None
     credit=clean(image_node.attrs.get('data-credit','')) if image_node else ''
+    if not credit and image_node:
+        parent=image_node.parent
+        for _ in range(4):
+            if not parent:break
+            captions=[n.text() for n in nodes(parent) if n.tag=='figcaption' and len(n.text())<=500]
+            for caption in captions:
+                found=re.search(r'(?:©|(?:[Pp]hoto(?:graph)?|[Ii]mage|[Pp]icture|[Cc]redit)\s*(?:by|credit|:))\s*([^\[\n]+)',caption)
+                if not found:found=re.search(r'([^.!?]+?)\s+photograph\.?$',caption,re.I)
+                if found:credit=clean(found[1]);break
+            if credit:break
+            parent=parent.parent
     if not credit:
         for n in nodes(article.root):
             text=n.text()
