@@ -1,8 +1,8 @@
-name: Radar · veille de 8 h et publication du site
+name: Radar · veille de 8 h et 18 h et publication du site
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 8,18 * * *'
       timezone: Europe/Paris
   workflow_dispatch:
   push:
@@ -45,6 +45,7 @@ jobs:
           mkdir _site
           cp *.html *.css *.js *.svg actualites.json _site/
           cp -R assets _site/assets
+          node scripts/optimize-static.mjs _site
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
