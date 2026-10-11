@@ -23,7 +23,7 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v6
-      - name: Collecter les titres et liens des sources
+      - name: Collecter les actualités et les images officielles
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python3 scripts/update-news.py
       - name: Valider et préparer les actualités
@@ -42,10 +42,9 @@ jobs:
           fi
       - name: Préparer les fichiers publics
         run: |
-          mkdir _site
-          cp *.html *.css *.js *.svg actualites.json _site/
-          cp -R assets _site/assets
+          node scripts/build-site.mjs
           node scripts/optimize-static.mjs _site
+          node scripts/check-public-site.mjs _site
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
