@@ -106,7 +106,8 @@ window.QG_ART=(()=>{
    const orientation=window.QG_LAYOUT.alignment?.[id]||{shear:0,vertical:1};
    const factor=Math.min((preview?160:110)/image.naturalWidth,(preview?112:100)/(image.naturalHeight*orientation.vertical+image.naturalWidth*Math.abs(orientation.shear))),w=image.naturalWidth*factor,h=image.naturalHeight*factor;
    c.imageSmoothingEnabled=true;c.imageSmoothingQuality='high';
-   c.save();c.transform(1,orientation.shear,0,orientation.vertical,0,0);c.drawImage(image,-w/2,-h*.8,w,h);c.restore();
+   const contact=window.QG_LAYOUT.buildingArt?.[id+'-'+level],baseFactor=Math.min(110/image.naturalWidth,100/(image.naturalHeight*orientation.vertical+image.naturalWidth*Math.abs(orientation.shear)));
+   c.save();if(contact)c.translate(contact.offsetX*factor/baseFactor,contact.offsetY*factor/baseFactor);c.transform(1,orientation.shear,0,orientation.vertical,0,0);c.drawImage(image,-w/2,-h*.8,w,h);c.restore();
    for(let i=0;i<level;i++)rect(c,-9+i*8,preview?26:16,5,3,'#e9c382');
    c.restore();return;
   }
