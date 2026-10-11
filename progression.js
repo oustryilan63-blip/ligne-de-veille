@@ -1,13 +1,13 @@
 (() => {
   'use strict';
   const KEY='ldv-progression-v1';
-  const games={pays:['D’où vient cet engin ?','jeux.html'],recognition:['Quel est cet engin ?','devine-engin.html'],zoom:['Zoom mystère','zoom-mystere.html'],chrono:['Chrono défense','chrono-defense.html'],'vrai-faux':['Vrai ou faux ?','vrai-ou-faux.html'],quotidien:['Défi du jour','defi-du-jour.html'],radar:['Alerte radar','alerte-radar.html']};
+  const games={pays:['D’où vient cet engin ?','jeux.html'],recognition:['Quel est cet engin ?','devine-engin.html'],zoom:['Zoom mystère','zoom-mystere.html'],chrono:['Chrono défense','chrono-defense.html'],'vrai-faux':['Vrai ou faux ?','vrai-ou-faux.html'],quotidien:['Défi du jour','defi-du-jour.html'],radar:['Alerte radar','alerte-radar.html'],qg:['QG Radar','qg-radar.html']};
   const blank=()=>({version:1,games:{},missed:[],correct:0,reviewed:0,days:[]});
   let data=blank(),persistent=true;
   try {const saved=JSON.parse(localStorage.getItem(KEY));if(saved?.version===1&&saved.games&&typeof saved.games==='object'&&!Array.isArray(saved.games)&&Array.isArray(saved.missed)){data={...blank(),...saved};data.missed=data.missed.filter(x=>x&&games[x.game]&&typeof x.id==='string'&&typeof x.label==='string').map(x=>({...x,key:x.game+'|'+x.id,payload:x.payload&&typeof x.payload==='object'?x.payload:{}}));}}
   catch {persistent=false;}
   const number=v=>Number.isFinite(v)&&v>=0?v:0;
-  data.correct=number(data.correct);data.reviewed=number(data.reviewed);data.days=Array.isArray(data.days)?data.days.filter(x=>/^\d{4}-\d{2}-\d{2}$/.test(x)):[];
+  data.correct=number(data.correct);data.reviewed=number(data.reviewed);data.days=Array.isArray(data.days)?data.days.filter(x=>/^\d{4}-\d{2}-\d{2}$/.test(x)||/^qg-\d+-\d+$/.test(x)):[];
   for(const [id,record] of Object.entries(data.games)){if(!games[id]||!record||typeof record!=='object'){delete data.games[id];continue}record.played=number(record.played);record.perfect=number(record.perfect);if(record.best&&(!Number.isFinite(record.best.percent)||!Number.isFinite(record.best.score)||!Number.isFinite(record.best.max)||record.best.max<=0))record.best=null;}
   function save(){try{localStorage.setItem(KEY,JSON.stringify(data));persistent=true}catch{persistent=false}render();}
   const copy=v=>JSON.parse(JSON.stringify(v));
@@ -36,7 +36,7 @@
       const status=el('span','progress-record',record?.best?`Meilleur score : ${record.best.score}/${record.best.max} · ${record.best.percent} %`:'Ton premier record reste à écrire.');
       const link=el('a','progress-link',n?`Réviser mes erreurs (${n}) →`:'Mon carnet de joueur →');link.href=n?'revision.html?jeu='+encodeURIComponent(game):'tous-les-jeux.html#progression';
       box.replaceChildren(status,link);
-      for(const end of document.querySelectorAll('#game-end, #recognition-end, #arcade-end, #radar-end')){
+      for(const end of document.querySelectorAll('#game-end, #recognition-end, #arcade-end, #radar-end, #qg-end')){
         let action=end.querySelector('.progress-finish');if(!action){action=el('p','progress-finish');end.append(action)}
         const reviewLink=el('a','progress-link',n?`Réviser mes erreurs (${n}) →`:'Voir mes scores et mes badges →');reviewLink.href=link.href;action.replaceChildren(reviewLink);
       }

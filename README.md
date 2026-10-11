@@ -1,6 +1,6 @@
 # Radar
 
-Site francophone consacré à l'actualité de la défense, de la sécurité et de la géopolitique, avec sept jeux et un atlas de 100 engins militaires.
+Site francophone consacré à l'actualité de la défense, de la sécurité et de la géopolitique, avec huit jeux et un atlas de 100 engins militaires.
 
 ## Ouvrir le site
 
@@ -49,8 +49,15 @@ Les 100 fiches techniques et leurs récits ont été relus. Les variantes, conve
 
 ## Retrait de la rubrique Horizon — 11 octobre 2026
 
-La navigation ne comporte plus que Actualités, Jeux et Histoire. L’ancienne adresse horizon.html redirige vers le catalogue des sept jeux ; elle ne charge plus l’activité ni ses scripts.
+La navigation ne comporte plus que Actualités, Jeux et Histoire. L’ancienne adresse horizon.html redirige vers le catalogue des huit jeux ; elle ne charge plus l’activité ni ses scripts.
 
 ## Parcours de découverte — 11 octobre 2026
 
 Accueil raccourci, défi du jour et veille mis en avant. comparateur.html affiche deux variantes avec leurs caractéristiques sourcées ; aucun classement de performances. histoire-frises.js contient 216 jalons datés pour les 100 fiches. progression.js conserve scores normalisés, badges et questions ratées dans le navigateur (clé ldv-progression-v1), sans compte ni transmission. revision.html propose une révision ciblée qui ne modifie pas les records. Le défi du jour ne peut être recompté après rechargement. En cas de stockage refusé, le jeu reste disponible.
+
+
+## QG Radar
+
+Le huitième jeu est une gestion de base côtière, au tour par tour. Deux décisions par semaine pendant douze semaines : missions, réparations, formations, repos et améliorations de cinq bâtiments. Six engins de l’atlas disposent de sprites originaux dessinés dans `qg-radar-art.js`. Les valeurs et missions sont fictives. Vingt événements sont possibles ; douze sont tirés sans répétition par campagne.
+
+La campagne est sauvegardée dans ce navigateur sous `radar-qg-campaign-v1`, indépendamment des autres jeux. Une sauvegarde invalide est remplacée proprement. Les scores sont ajoutés une seule fois par campagne au carnet de joueur. Commandes de zoom, déplacement, pause des animations et préférence de mouvement réduit sont disponibles.
