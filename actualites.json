@@ -56,7 +56,22 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/09/Miura_1_PLD_Space_Espana_2017_cropped.jpg",
+        "kind": "article",
+        "alt": "Vue d’artiste du lanceur Miura 1, image principale de l’article sur le spatial espagnol.",
+        "credit": "PLD Space · recadrage Huntster",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "sourceUrl": "https://www.revueconflits.com/lespagne-prend-de-la-hauteur-la-conquete-iberique-de-lorbite/",
+        "provider": "verified-asset",
+        "rightsUrl": "https://commons.wikimedia.org/wiki/File:Miura_1,_PLD_Space,_Espa%C3%B1a,_2017_(cropped).jpg",
+        "evidence": "verified-source-license",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/09/Miura_1_PLD_Space_Espana_2017_cropped.jpg",
+        "sha256": "29a2754ee448cae661258d36a90fa7ad2577497bf905d0c93a4a676b1a1ae41f"
+      }
     },
     {
       "date": "2026-10-11",
@@ -606,7 +621,7 @@
       }
     ],
     "newItems": 0,
-    "articleImages": 9,
-    "imagesCheckedAt": "2026-10-11T17:59:19.154864+00:00"
+    "articleImages": 10,
+    "imagesCheckedAt": "2026-10-11T18:31:58.089128+00:00"
   }
 }
