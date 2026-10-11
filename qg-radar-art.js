@@ -114,6 +114,7 @@ window.QG_ART=(()=>{
   const p=(pts,col)=>poly(c,pts,col),r=(x,y,w,h,col)=>rect(c,x,y,w,h,col);
   const box=(x,y,w,d,h,roof='#b8c3aa')=>{p([[x-w,y],[x,y+d],[x,y+d-h],[x-w,y-h]],'#687e74');p([[x,y+d],[x+w,y],[x+w,y-h],[x,y+d-h]],'#8fa08c');p([[x-w,y-h],[x,y-h-d],[x+w,y-h],[x,y+d-h]],roof);};
   p([[-43,3],[5,-20],[55,8],[7,35]],'#60735e');
+  if(id==='defense'){box(-12,3,24,13,20,'#6c7e66');box(27,10,15,8,12,'#5c715d');for(let n=0;n<4;n++)p([[18+n*5,-3],[22+n*5,-4],[33+n*5,-24],[29+n*5,-25]],'#82977a');r(-10,-30,2,12,'#617766');p([[-25,-36],[7,-36],[10,-28],[-20,-27]],'#a7b39a');}
   if(id==='hangar'){
    p([[-39,12],[-2,33],[40,10],[4,-11]],'#a0a590');box(0,0,36,19,23,'#aebaa7');
    p([[-36,-23],[-5,-48],[36,-23],[0,-4]],'#ced0b3');p([[-5,-48],[36,-23],[36,-19],[-5,-42]],'#879c8d');
@@ -196,7 +197,7 @@ window.QG_ART=(()=>{
   }
   const objects=[];
   for(const [gx,gy] of window.QG_LAYOUT.trees){const [x,y]=project(gx,gy);objects.push({depth:y,draw(){if(!decoration(c,'tree',x,y,30,38)){rect(c,x,y-9,3,10,'#586553');poly(c,[[x-11,y-5],[x+1,y-27],[x+13,y-5]],'#496f5c');}}});}
-  for(const [id,p] of Object.entries(positions)){const [x,y]=project(...p);objects.push({depth:y+12,draw(){building(c,id,x,y,state.buildings[id],time);}});}
+  for(const [id,p] of Object.entries(positions)){const [x,y]=project(...p);objects.push({depth:y+12,draw(){building(c,id,x,y,state.buildings[id],time);if(state.integrity?.[id]<100){poly(c,[[x+18,y-9],[x+24,y+2],[x+12,y+2]],'#ba795a');rect(c,x+17,y-5,2,4,'#efe1b9');rect(c,x+17,y,2,1,'#efe1b9');}}});}
   for(const [id,[x,y,scale]] of Object.entries(locations)){if(!state.units[id]||state.units[id].owned===false)continue;const active=activities.find(a=>a.id===id),a=active?pose(id,active.progress,active.kind):null;objects.push({depth:a&&a.lift>10?1000:y+(a?.y||0),draw(){if(active){activity(c,id,active.progress,active.kind,false,time);return;}sprite(c,id,x,y+(['fremm','suffren'].includes(id)?Math.sin(time/1600)*2:0),scale);}});}
   objects.sort((a,b)=>a.depth-b.depth).forEach(o=>o.draw());
   if(illustrations.terrain){for(let i=0;i<5;i++){const x=530+i*32,y=396+Math.sin(time/1700+i)*2;poly(c,[[x,y],[x+15,y-1],[x+20,y],[x+4,y+1]],'#577e86');}}
