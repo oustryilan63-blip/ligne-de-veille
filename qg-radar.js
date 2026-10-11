@@ -35,8 +35,9 @@
  function renderBase(){
   $('qg-team').innerHTML=[['train','Former l’équipe',`Compétence ${state.skill}/6. +${Math.min(state.buildings.ecole,6-state.skill)} après une formation, et +4 de moral.`,'Former · 25 cr. · 1 décision'],['rest','Prendre soin du collectif',`Moral ${state.morale}/100. Une journée de repos rend jusqu’à 18 points de moral, sans dépenser de crédits.`,'Repos · 1 décision']].map(([id,title,desc,button])=>`<div><h3>${title}</h3><p>${desc}</p><button type="button" data-action="${id}" ${disabled({type:id})?'disabled':''}>${button}</button><div class="qg-reason">${reason({type:id})}</div></div>`).join('');
   $('qg-buildings').innerHTML=E.buildings.map(b=>{const l=state.buildings[b.id],a={type:'upgrade',id:b.id};return `<article class="qg-card"><canvas class="qg-sprite qg-building-sprite" data-building="${b.id}" width="320" height="160" role="img" aria-label="${b.name}, niveau ${l}"></canvas><span class="qg-tag">INSTALLATION / NIVEAU ${l}</span><h3>${b.name}</h3><div class="qg-levels" aria-label="Niveau ${l} sur 3">${[1,2,3].map(n=>`<i class="${n<=l?'on':''}"></i>`).join('')}</div><p>${b.effect}</p><button type="button" data-action="upgrade" data-id="${b.id}" ${disabled(a)?'disabled':''}>${l===3?'Niveau maximum':`Améliorer · ${l*35} cr. · 1 décision`}</button><span class="qg-reason">${reason(a)}</span></article>`;}).join('');
-  document.querySelectorAll('[data-building]').forEach(canvas=>{const c=canvas.getContext('2d');c.imageSmoothingEnabled=false;window.QG_ART.building(c,canvas.dataset.building,160,116,state.buildings[canvas.dataset.building],0,1.2);});
+  paintBase();
  }
+ function paintBase(){document.querySelectorAll('[data-building]').forEach(canvas=>{const c=canvas.getContext('2d');c.clearRect(0,0,320,160);c.imageSmoothingEnabled=false;window.QG_ART.building(c,canvas.dataset.building,160,116,state.buildings[canvas.dataset.building],0,1.2);});}
  function render(){
   text('qg-week',String(state.week).padStart(2,'0')+' / 12');text('qg-cash',state.cash+' cr.');text('qg-actions',state.actions+' / 2');text('qg-morale',state.morale+' / 100');text('qg-skill',state.skill+' / 6');
   const e=E.events[state.deck[state.week-1]];text('qg-event-title',e[0]);text('qg-event-copy',e[1]+' Effet déjà appliqué.');text('qg-income','+'+E.income(state)+' cr.');text('qg-upkeep','−'+E.upkeep(state)+' cr.');const net=E.income(state)-E.upkeep(state);text('qg-net',(net>=0?'+':'')+net+' cr.');text('qg-map-level','NIVEAUX / '+Object.values(state.buildings).reduce((a,b)=>a+b,0));
@@ -52,7 +53,7 @@
  tabs.forEach((tab,i)=>{tab.addEventListener('click',()=>showTab(tab));tab.addEventListener('keydown',e=>{let n;if(e.key==='ArrowRight')n=(i+1)%tabs.length;else if(e.key==='ArrowLeft')n=(i+tabs.length-1)%tabs.length;else if(e.key==='Home')n=0;else if(e.key==='End')n=tabs.length-1;if(n!==undefined){e.preventDefault();showTab(tabs[n]);tabs[n].focus();}});});
  const canvas=$('qg-map'),ctx=canvas.getContext('2d'),viewport=$('qg-map-viewport');ctx.imageSmoothingEnabled=false;
  function draw(t){window.QG_ART.scene(ctx,state,moving?t:0);}
- window.QG_ART.ready?.then(()=>{paintFleet();draw(performance.now());});
+ window.QG_ART.ready?.then(()=>{paintFleet();paintBase();draw(performance.now());});
  let raf,last=0;function animate(t){if(t-last>65){draw(t);last=t;}if(moving&&!document.hidden)raf=requestAnimationFrame(animate);}
  function motion(){cancelAnimationFrame(raf);$('qg-motion').setAttribute('aria-pressed',String(!moving));text('qg-motion',moving?'Pause animation':'Animer la base');if(moving&&!document.hidden)raf=requestAnimationFrame(animate);else draw(0);}
  $('qg-motion').addEventListener('click',()=>{moving=!moving;motion();});document.addEventListener('visibilitychange',motion);reduced.addEventListener('change',()=>{moving=!reduced.matches;motion();});

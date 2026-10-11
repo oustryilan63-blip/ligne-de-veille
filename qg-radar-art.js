@@ -1,4 +1,4 @@
-/* Décor dessiné par code ; Rafale et Leclerc illustrés pour Radar. */
+/* Sprites illustrés pour Radar ; terrain isométrique dessiné par code. */
 window.QG_ART=(()=>{
  const illustrations={};
  const ready=Promise.all(Object.entries(window.QG_SPRITES||{}).map(([id,src])=>new Promise(resolve=>{
@@ -11,6 +11,11 @@ window.QG_ART=(()=>{
  const positions={atelier:[8,5],hangar:[3,3],port:[10,7],ecole:[5,7],radar:[8,1]};
  function poly(c,points,color){c.fillStyle=color;c.beginPath();points.forEach(([x,y],i)=>i?c.lineTo(x,y):c.moveTo(x,y));c.closePath();c.fill();}
  function rect(c,x,y,w,h,color){c.fillStyle=color;c.fillRect(Math.round(x),Math.round(y),w,h);}
+ function decoration(c,id,x,y,maxW,maxH){
+  const image=illustrations[id];if(!image)return false;
+  const factor=Math.min(maxW/image.naturalWidth,maxH/image.naturalHeight),w=image.naturalWidth*factor,h=image.naturalHeight*factor;
+  c.save();c.imageSmoothingEnabled=true;c.imageSmoothingQuality='high';c.drawImage(image,x-w/2,y-h,w,h);c.restore();return true;
+ }
  function sprite(c,id,x,y,scale=1){c.save();c.translate(Math.round(x),Math.round(y));c.scale(scale,scale);
   const image=illustrations[id];
   if(image){
@@ -96,6 +101,14 @@ window.QG_ART=(()=>{
  }
  function building(c,id,x,y,level,t=0,scale=1){
   c.save();c.translate(Math.round(x),Math.round(y));c.scale(scale,scale);
+  const image=illustrations[id+'-'+level];
+  if(image){
+   const factor=Math.min(110/image.naturalWidth,100/image.naturalHeight),w=image.naturalWidth*factor,h=image.naturalHeight*factor;
+   c.imageSmoothingEnabled=true;c.imageSmoothingQuality='high';
+   c.drawImage(image,-w/2,-h*.8,w,h);
+   for(let i=0;i<level;i++)rect(c,-9+i*8,26,5,3,'#e9c382');
+   c.restore();return;
+  }
   const p=(pts,col)=>poly(c,pts,col),r=(x,y,w,h,col)=>rect(c,x,y,w,h,col);
   const box=(x,y,w,d,h,roof='#b8c3aa')=>{p([[x-w,y],[x,y+d],[x,y+d-h],[x-w,y-h]],'#687e74');p([[x,y+d],[x+w,y],[x+w,y-h],[x,y+d-h]],'#8fa08c');p([[x-w,y-h],[x,y-h-d],[x+w,y-h],[x,y+d-h]],roof);};
   p([[-43,3],[5,-20],[55,8],[7,35]],'#60735e');
@@ -143,12 +156,12 @@ window.QG_ART=(()=>{
   // Runway, quay and gardens follow the same isometric grid.
   for(let x=1;x<=6;x++){const [px,py]=project(x,1);poly(c,[[px-24,py],[px,py+12],[px+24,py],[px,py-12]],'#405254');rect(c,px-5,py-1,10,2,'#e3ddbb');}
   for(let i=0;i<4;i++){const [x,y]=project(11,i+5);poly(c,[[x-13,y],[x+1,y+8],[x+57,y-21],[x+43,y-29]],'#b2ac8b');}
-  for(const [x,y] of [[1,4],[1,7],[2,8],[3,9],[9,0],[10,1],[11,2],[7,9],[8,9]]){const [px,py]=project(x,y);rect(c,px,py-9,3,10,'#586553');poly(c,[[px-11,py-5],[px+1,py-27],[px+13,py-5]],'#496f5c');rect(c,px-6,py-12,9,4,'#628466');}
+  for(const [x,y] of [[0,3],[1,7],[2,8],[3,9],[9,0],[10,1],[11,2],[7,9],[8,9]]){const [px,py]=project(x,y);if(!decoration(c,'tree',px,py,30,38)){rect(c,px,py-9,3,10,'#586553');poly(c,[[px-11,py-5],[px+1,py-27],[px+13,py-5]],'#496f5c');rect(c,px-6,py-12,9,4,'#628466');}}
   Object.entries(positions).sort((a,b)=>a[1][0]+a[1][1]-b[1][0]-b[1][1]).forEach(([id,p])=>{const [x,y]=project(...p);building(c,id,x,y,state.buildings[id],time);});
   const float=Math.sin(time/1600)*2;
-  sprite(c,'rafale',...project(4,1),.8);sprite(c,'caracal',...project(3,5),.75);sprite(c,'leclerc',...project(7,7),.75);sprite(c,'caesar',...project(5,10),.75);sprite(c,'fremm',604,310+float,.95);sprite(c,'suffren',541,369+float,.85);
+  sprite(c,'rafale',...project(4,1),.8);sprite(c,'caracal',...project(1,5),.75);sprite(c,'leclerc',...project(7,7),.75);sprite(c,'caesar',...project(5,10),.75);sprite(c,'fremm',604,310+float,.95);sprite(c,'suffren',541,369+float,.85);
   // A small support vehicle travels along the central road.
-  const progress=(time/1400)%9,[vx,vy]=project(6,progress);rect(c,vx-6,vy-7,12,7,'#e0c891');rect(c,vx-5,vy-6,4,3,'#496975');rect(c,vx-6,vy,3,3,'#203d41');rect(c,vx+3,vy,3,3,'#203d41');
+  const progress=(time/1400)%9,[vx,vy]=project(6,progress);if(!decoration(c,'support',vx,vy+3,27,22)){rect(c,vx-6,vy-7,12,7,'#e0c891');rect(c,vx-5,vy-6,4,3,'#496975');rect(c,vx-6,vy,3,3,'#203d41');rect(c,vx+3,vy,3,3,'#203d41');}
  }
  return {sprite,building,scene,ready};
 })();
