@@ -1,0 +1,10 @@
+_site*/
+__pycache__/
+*.pyc
+*.tmp
+.DS_Store
+Thumbs.db
+# Sauvegardes personnelles et résultats de contrôles
+backups/
+test-results/
+playwright-report/

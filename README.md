@@ -1,84 +1,51 @@
 # Radar
 
-Site francophone consacré à l'actualité de la défense, de la sécurité et de la géopolitique, avec huit jeux et un atlas de 130 engins militaires.
+Actualités de défense et de géopolitique, huit jeux et un atlas de **130 engins** avec photographies, sources, fiches techniques et modèles 3D disponibles.
 
-## Ouvrir le site
+**[Ouvrir Radar](https://oustryilan63-blip.github.io/ligne-de-veille/)** · [Jeux](https://oustryilan63-blip.github.io/ligne-de-veille/tous-les-jeux.html) · [Histoire](https://oustryilan63-blip.github.io/ligne-de-veille/histoire.html)
 
-- [Site](https://oustryilan63-blip.github.io/ligne-de-veille/)
-- [Tous les jeux](https://oustryilan63-blip.github.io/ligne-de-veille/tous-les-jeux.html)
-- [Alerte radar](https://oustryilan63-blip.github.io/ligne-de-veille/alerte-radar.html)
-- [Histoire des engins](https://oustryilan63-blip.github.io/ligne-de-veille/histoire.html)
-- [Deviner le pays de conception](https://oustryilan63-blip.github.io/ligne-de-veille/jeux.html)
-- [Reconnaître l'engin sur une photo](https://oustryilan63-blip.github.io/ligne-de-veille/devine-engin.html)
-- [Zoom mystère](https://oustryilan63-blip.github.io/ligne-de-veille/zoom-mystere.html)
-- [Chrono défense](https://oustryilan63-blip.github.io/ligne-de-veille/chrono-defense.html)
-- [Vrai ou faux ?](https://oustryilan63-blip.github.io/ligne-de-veille/vrai-ou-faux.html)
-- [Défi du jour](https://oustryilan63-blip.github.io/ligne-de-veille/defi-du-jour.html)
+## Se retrouver dans les fichiers
 
-Le site fonctionne également sans installation : ouvrez `index.html` dans un navigateur, puis la rubrique « Jeux ». Les jeux de connaissance utilisent le catalogue de 130 engins. « Alerte radar » est une simulation d'arcade indépendante, avec des pistes et des moyens fictifs ; sa carte de France reprend les contours Natural Earth du site. Le jeu chronologique s'appuie sur dix-neuf dates de premier vol vérifiées dans les archives des fabricants. Le vrai/faux contient soixante-sept affirmations sourcées, dont dix sont tirées au hasard par partie. Le défi du jour change à minuit, heure de Paris, et le résultat est conservé localement dans le navigateur : il n'y a pas de classement global.
+| Je veux modifier… | Fichiers à ouvrir |
+|---|---|
+| L’accueil et ses actualités | index.html, news-view.js, news-images.css |
+| Les couleurs et la typographie | atlas.css, style.css |
+| Les sources et horaires de veille | scripts/news-sources.json, .github/workflows/veille-quotidienne.yml |
+| Les engins partagés par les jeux et l’atlas | engins-data.js |
+| Les textes, chiffres et fiches techniques | histoire-data.js, histoire-chiffres.js, histoire-technique.js |
+| Les photos et modèles 3D | histoire-photos-data.js, histoire-3d-data.js, assets/histoire/ |
+| Le jeu de gestion QG | qg-radar.html, qg-radar-engine.js, qg-radar-art.js, assets/qg/ |
+| La collection et les sauvegardes | collection.js, sauvegarde.js |
 
-La direction graphique « Atlas stratégique » est appliquée à l'accueil, aux jeux et à la rubrique Histoire. Les polices IBM Plex sont conservées dans `assets/fonts/atlas` avec leur licence. Les photos sont créditées et leurs détails figurent dans `assets/jeu/ajouts/credits.json` et `assets/jeu/ajouts/serie-2/credits.json` et les relevés `serie-3/credits.json` et `serie-4/credits.json` du même dossier. Les données des 130 engins sont partagées dans `engins-data.js` ; leurs textes et chiffres historiques sont dans `histoire-data.js`. La carte utilise `map-data.js`.
+Le [guide de structure](ARCHITECTURE.md) détaille les liens entre les fichiers. Le [journal](docs/journal.md) conserve les notes des versions précédentes ; certains chiffres de ces notes sont historiques.
 
-## Histoire
+## Actualités automatiques
 
-`histoire.html` présente les 130 engins sous forme de catalogue filtrable. Chaque fiche est accessible par un lien direct (`histoire.html?engin=0` à `histoire.html?engin=99`) et montre la photo, un récit, une carte des pays documentés et les sources. Le pays de conception, les utilisateurs actuels et les anciens utilisateurs ont des couleurs distinctes. Les pays qui ont seulement commandé un engin ne sont pas considérés comme opérateurs. Les chiffres complémentaires sont dans `histoire-chiffres.js` : ils peuvent provenir de sources officielles, de constructeurs ou de travaux spécialisés fiables. Chaque carte précise si elle concerne la production, des livraisons, une flotte en service, des pertes sur un conflit donné ou des cibles attribuées. Un chiffre indisponible ne signifie pas zéro. Quand les cibles détruites ne peuvent pas être attribuées de façon fiable, la fiche affiche le nombre de pays représentés sur sa carte. Pour les bâtiments individuels, « 1 bâtiment » désigne la fiche du navire, pas toute sa classe. Les chiffres et les statuts des flottes doivent être revérifiés lors d'une mise à jour éditoriale.
+GitHub Actions consulte les sources à **8 h et 18 h, heure de Paris**. GitHub peut décaler le démarrage d’une tâche planifiée. La date du dernier contrôle est affichée sur le site. La veille conserve les anciens articles et vérifie les liens avant d’ajouter un titre.
 
-## Actualités
+Les photos d’article prises en charge sont les images éditoriales officielles GOV.UK sous OGL, avec exclusion des crédits tiers détectés. Elles sont affichées depuis le serveur officiel. Les autres publications utilisent une **illustration clairement signalée** : photographie libre d’un engin nommé dans le titre, mosaïque satellitaire NASA ou dessin Radar lié au thème. Les images d’un flux ne sont pas considérées comme librement réutilisables par défaut. Conflits est référencé par titre et lien, sans reprise de ses extraits ni de ses photos.
 
-Une collecte GitHub Actions est programmée tous les jours à **8 h et 18 h, heure de Paris**, y compris après le changement d’heure. Elle fonctionne ordinateur éteint. GitHub peut retarder le démarrage de quelques minutes. Les titres, dates et liens proviennent des flux du Sénat, du ministère britannique de la Défense, d’Opex360, d’OpexNews et de Conflits. Les publications anglophones sont signalées. Aucun résumé automatique d’article n’est inventé : le lecteur est invité à consulter l’original. Les archives sont conservées. Une collecte doit réussir sur au moins une source documentaire et une source spécialisée ; sinon la dernière version publiée reste en place.
+## Modifier et vérifier
 
-La configuration se trouve dans `.github/workflows/veille-quotidienne.yml`, la collecte dans `scripts/update-news.py` et les flux dans `scripts/news-sources.json`. La date et l’heure du dernier contrôle apparaissent sur l’accueil.
+Node.js est nécessaire pour construire et contrôler le site ; Python 3.9+ avec les données de fuseaux horaires est utilisé pour la veille. Aucun paquet JavaScript à installer pour la construction courante.
 
-Les actualités enregistrées sont dans `actualites.json`. Après les avoir mises à jour, exécutez `node scripts/build-news.mjs` pour régénérer `actualites.js`. Le workflow publie ensuite automatiquement les fichiers sur GitHub Pages. Une modification locale ne devient publique qu’après son envoi dans le dépôt.
+```sh
+node scripts/build-news.mjs
+node scripts/check-catalog.mjs
+node scripts/check-feature-flows.cjs
+node scripts/check-news-images.cjs
+node scripts/build-site.mjs
+node scripts/optimize-static.mjs _site
+node scripts/check-public-site.mjs _site
+```
 
-Plus de détails figurent dans `LISEZ-MOI.md`.
+Le dossier **_site/** est le résultat destiné à l’hébergement, jamais le dossier à modifier. Le workflow reconstruit et publie ce dossier après un changement sur main. Pour consulter localement, ouvrir index.html ; la veille automatique reste exécutée sur GitHub.
 
-## Extension missiles — 11 octobre 2026
+## Données et médias
 
-Dix nouvelles fiches, dont six ICBM, portent le catalogue à 100 engins et 18 missiles. Les jeux utilisant le catalogue commun les incluent ; dix affirmations complètent le vrai/faux. Chrono conserve ses dates de premiers vols d’avions. Les données de production, livraisons et inventaires restent distinctes et datées. Les événements matériels documentés apparaissent sous les statistiques, avec les sources et le statut (coulé, endommagé, attribution collective ou hors combat). Ils ne sont pas un bilan mondial de destructions. Les dix images et leurs licences sont regroupées dans assets/jeu/ajouts/serie-5. Le M51 est illustré par un dessin explicitement crédité.
-
-## Fiches techniques (11 octobre 2026)
-
-Les 100 fiches Histoire proposent un bouton sous leur présentation. `histoire-technique.js` contient 576 caractéristiques publiques avec une variante explicite, une source par valeur, une date de consultation et une note de périmètre. Les panneaux sont fermés au chargement et accessibles au clavier.
-
-Les données non confirmées ne sont pas complétées par déduction. Certaines fiches restent partielles (notamment J-10, J-20, Su-57, Type 055, Topol-M, Yars, DF-41 et SM-3). Les masses, dimensions et performances varient selon les configurations. Les chiffres convertis sont signalés. Le contrôle du catalogue exige une fiche technique sourcée pour chaque nouvel engin.
-
-## Relecture des fiches et portées — 11 octobre 2026
-
-Les 100 fiches techniques et leurs récits ont été relus. Les variantes, conversions et conditions de mesure sont précisées ; les récits sont enrichis de jalons sourcés. Les 18 fiches missiles comportent une ligne de portée : 16 repères publics chiffrés, dont certaines bornes inférieures ou estimations datées, et deux absences explicitement signalées (IRIS-T air-air, SM-3 Block IIA). La portée M51 concerne uniquement le M51.2. Les références et réserves sont affichées à côté des valeurs. Astute : sixième livraison confirmée en septembre 2026, distincte de la disponibilité opérationnelle.
-
-## Retrait de la rubrique Horizon — 11 octobre 2026
-
-La navigation ne comporte plus que Actualités, Jeux et Histoire. L’ancienne adresse horizon.html redirige vers le catalogue des huit jeux ; elle ne charge plus l’activité ni ses scripts.
-
-## Parcours de découverte — 11 octobre 2026
-
-Accueil raccourci, défi du jour et veille mis en avant. comparateur.html affiche deux variantes avec leurs caractéristiques sourcées ; aucun classement de performances. histoire-frises.js contient 216 jalons datés pour les 100 fiches. progression.js conserve scores normalisés, badges et questions ratées dans le navigateur (clé ldv-progression-v1), sans compte ni transmission. revision.html propose une révision ciblée qui ne modifie pas les records. Le défi du jour ne peut être recompté après rechargement. En cas de stockage refusé, le jeu reste disponible.
-
-
-## QG Radar
-
-Le huitième jeu est une gestion de base côtière, au tour par tour. Deux décisions par semaine pendant douze semaines : missions, réparations, formations, repos et améliorations de cinq bâtiments. Six engins de l’atlas disposent de sprites originaux dessinés dans `qg-radar-art.js`. Les valeurs et missions sont fictives. Vingt événements sont possibles ; douze sont tirés sans répétition par campagne.
-
-La campagne est sauvegardée dans ce navigateur sous `radar-qg-campaign-v1`, indépendamment des autres jeux. Une sauvegarde invalide est remplacée proprement. Les scores sont ajoutés une seule fois par campagne au carnet de joueur. Commandes de zoom, déplacement, pause des animations et préférence de mouvement réduit sont disponibles.
-
-## Chargement et modèles 3D — 11 octobre 2026
-
-Le catalogue Histoire ne charge que les données indispensables aux cartes et au filtre 3D. Les histoires, caractéristiques, galeries et carte géographique sont chargées uniquement pour une fiche. Les neuf modèles revus incluent les choix Rafale et F-16 ; leur variante et auteur restent affichés. Les lecteurs 3D se chargent après clic. La publication compacte les données JSON sans modifier les sources lisibles du dépôt.
-
-## Alerte radar — lisibilité, 11 octobre 2026
-
-Neuf noms de pays sont placés dans les contours projetés existants. Les sept trajets des navires ont été corrigés et vérifiés en mer. Après identification, avion, missile et navire ont une silhouette distincte, sur la carte, dans les contacts et dans les moyens disponibles. Les signes ✓ et ! complètent les couleurs ; la barre de temps, le compteur de pistes à traiter et le bandeau de pause clarifient la manche. scripts/check-radar-game.cjs vérifie les vingt pistes et une campagne complète ; scripts/check-radar-geography.mjs vérifie les noms et les trajets maritimes.
-
-
-## Série 6 — 30 nouveaux engins, 11 octobre 2026
-
-Le catalogue partagé compte 130 entrées. Cette série ajoute 10 engins terrestres, 10 appareils aériens, 5 familles navales et 5 missiles. Chaque ajout possède sa fiche Histoire, ses caractéristiques sourcées, une frise et une galerie de 2 ou 3 photographies réelles créditées. 29 nouvelles vues 3D sont proposées ; le modèle Type 212 trouvé était trop sommaire pour être retenu. Les variantes représentées sont indiquées. Le filtre « Ajouts récents » permet de retrouver cette série.
-
-Les quatre jeux photographiques (pays, nom, zoom, défi), le vrai/faux, Chrono, la révision et le comparateur utilisent les nouveaux contenus pertinents. Alerte radar et QG Radar conservent leurs scénarios fictifs équilibrés. 30 affirmations et 10 premiers vols documentés sont ajoutés. Les cartes d’utilisateurs précisent leur périmètre ; les commandes, livraisons, productions et inventaires restent distincts. Les destructions non établies ne reçoivent aucun total inventé.
-
-## Navigation, collection et sauvegardes — 11 octobre 2026
-
-Recherche par noms, surnoms et pays ; filtres par pays de conception et type précis, tris alphabétique et récents. Les étoiles enregistrent une collection locale (collection.html), utilisable en QCM ou en réponse libre. Fiches avec navigation interne et photos en grand. Actualités filtrables par thème et source, courts extraits RSS attribués quand disponibles, et liens vers les engins repérés. Les quiz photo, Zoom mystère et pays proposent Débutant/Standard/Expert ; les modes sont indiqués dans les records. sauvegarde.html exporte ou restaure un fichier JSON validé : collection, progression, campagne QG, tutoriel et défis. Les données ne sont pas envoyées au serveur. Les parties de quiz en cours ne sont pas exportées.
-
-Les anciennes réponses au défi dépourvues de photo/propositions sont exportées comme résultats historiques : elles ne sont pas attribuées à une nouvelle question, ne recomptent pas le score et leur limite est signalée dans l’aperçu de restauration.
+- Les numéros d’engins sont stables : **ajouter en fin de catalogue**, sans réordonner les entrées utilisées dans les liens et les sauvegardes.
+- Les jeux de connaissance partagent le catalogue ; Chrono utilise 29 dates de premier vol vérifiées et Vrai ou faux 97 affirmations sourcées. QG et Alerte radar sont des simulations d’arcade.
+- Les sauvegardes et favoris restent dans le navigateur ; leur export passe par la page Sauvegardes.
+- Les crédits et licences des photos sont conservés avec les données et dans les dossiers de médias. Les polices locales ont leur licence dans assets/fonts/atlas/.
+- Les sprites du QG sont des fichiers WebP séparés, mis en cache par le navigateur ; leur dessin n’a pas été modifié par cette optimisation.
+- Le code et les médias tiers n’ont pas une licence commune : vérifier le crédit de chaque média avant réutilisation.

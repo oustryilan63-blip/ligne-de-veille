@@ -1,0 +1,37 @@
+# Structure de Radar
+
+## Trois espaces
+
+1. **Racine : site éditable.** Les pages HTML et leurs scripts restent proches pour conserver les anciens liens. `atlas.css` définit la direction artistique commune. Chaque jeu a ses styles.
+2. **`assets/` : médias et licences.** `jeu/` contient les photos communes, `histoire/` les galeries, `actualites/` les illustrations, `qg/` le terrain et les sprites, `fonts/` les polices.
+3. **`scripts/`, `docs/`, `.github/` : maintenance.** Vérification, documentation, collecte et publication. Ils ne sont pas copiés dans le site public.
+
+## Ce qui charge quand
+
+- Actualités : `actualites.json` est la source, `build-news.mjs` produit `actualites.js`. `news-tools.js` choisit les thèmes et illustrations, `news-view.js` affiche d’abord quatre publications. Les images ont une place réservée et chargent progressivement. Les lignes d’archives ne sont créées qu’à l’ouverture du dépliant.
+- Histoire : `histoire-bootstrap.js` charge un catalogue léger. Récits, chiffres, carte et médias détaillés sont chargés à l’ouverture d’une fiche. Les modèles 3D sont ouverts à la demande.
+- QG : `qg-radar-engine.js` gère les règles, `qg-radar-layout.js` les positions, `qg-radar-art.js` le dessin. Les scripts `qg-radar-sprites.js` et `qg-radar-terrain.js` contiennent les chemins des WebP. Le QG attend leurs images et redessine ; une erreur conserve le dessin de secours.
+- Collection et Sauvegardes : aucune donnée personnelle n’est envoyée à un serveur par ces fonctionnalités.
+
+## Construction et publication
+
+`scripts/public-files.json` liste les fichiers racine à publier. Ajouter un nouveau fichier public à cette liste. `build-site.mjs` copie cette liste et les médias autorisés vers `_site/`, sans documents, tests, caches et médias retirés. Les anciennes sources d’Horizon sont conservées pour l’historique ; seul `horizon.html`, qui redirige, est publié.
+
+`optimize-static.mjs` compacte les données dans `_site/` sans changer les sources éditables. `check-public-site.mjs` vérifie les ressources locales des pages, styles et chemins des sprites. Le workflow lance ces outils, puis envoie uniquement `_site/` à GitHub Pages.
+
+## Outils actifs
+
+| Outil | Rôle |
+|---|---|
+| `update-news.py` | Titres, dates, liens, extraits courts autorisés et images officielles |
+| `build-news.mjs` | Validation et préparation des actualités |
+| `build-site.mjs` / `public-files.json` | Construction publique, exclusions explicites |
+| `optimize-static.mjs` | Compaction des données dans le résultat |
+| `check-public-site.mjs` | Contrôle des dépendances locales publiées |
+| `check-catalog.mjs` | Cohérence des engins, sources et fiches |
+| `check-feature-flows.cjs` | Parcours de recherche, collection et jeux |
+| `check-news-images.cjs` / `check-news-excerpts.py` | Images, crédits, archives et flux |
+| `check-histoire-*.cjs` | Chargement, galeries et modèles 3D |
+| `check-qg-*.cjs` | Règles et parcours du jeu de gestion |
+
+Les scripts `add-*`, `find-*`, `download-*`, `apply-new-engins.mjs`, `update-copy.mjs` et fichiers `series-*` sont des aides utilisées lors d’extensions passées. Ils ne sont pas nécessaires pour publier le site et ne doivent pas être relancés comme entretien quotidien. Les contrôles d’Horizon concernent une rubrique retirée.
