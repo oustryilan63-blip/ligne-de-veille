@@ -23,7 +23,7 @@
    const names={air:'avion',missile:'missile',naval:'navire'},defenses={air:'Patrouille aérienne',missile:'Bouclier anti-missile',naval:'Patrouille maritime'};
    $('revision-question').textContent=`Dans Alerte radar, une piste ${names[kind]} est identifiée comme ${friend?'amie':'hostile fictive'}. Que fais-tu ?`;
    const answer=friend?'Je la laisse passer':defenses[kind];
-   choices(shuffle(['Je la laisse passer',...Object.values(defenses)]),answer,friend?'Une piste amie peut continuer sans tir.':'Dans ce jeu fictif, chaque type de piste correspond au moyen portant le même symbole. Les règles ne représentent aucune procédure réelle.',[]);return;
+   choices(shuffle(['Je la laisse passer',...Object.values(defenses)]),answer,friend?'Une piste amie peut continuer sans tir.':'Dans ce jeu fictif, chaque type de piste correspond au moyen de défense indiqué dans les règles. Elles ne représentent aucune procédure réelle.',[]);return;
   }
   const fact=x.game==='vrai-faux'?F.find(f=>f.claim===x.id):null,item=E.find(e=>e.name===(fact?fact.ref:x.id));
   if(!fact){const img=$('revision-photo');img.src='assets/jeu/'+item.photo;img.alt='Engin à identifier';img.hidden=false;}
