@@ -4,7 +4,10 @@
 .history-3d-stage{height:clamp(360px,45vw,560px);background:#243b31;border:1px solid #bac9b8;overflow:hidden}
 .history-3d-stage iframe{width:100%;height:100%;display:block;border:0}
 .history-3d-poster{height:100%;display:grid;grid-template-columns:1.2fr 1fr;align-items:center;color:#f4f8f1}
-.history-3d-poster img{width:100%;height:100%;object-fit:cover;min-width:0;filter:saturate(.65)}
+.history-3d-poster img{width:100%;height:100%;object-fit:contain;min-width:0;background:#192c24}
+.history-3d-poster img[hidden]{display:none}
+.history-3d-poster-noimage{grid-template-columns:1fr}
+.history-3d-poster small{color:#b8cdbb;font-size:12px;line-height:1.6;display:block}
 .history-3d-poster>div{padding:28px}
 .history-3d-poster strong{font:700 36px/1.1 var(--serif);text-transform:uppercase}
 .history-3d-poster p{color:#d0dcd0;line-height:1.6}
