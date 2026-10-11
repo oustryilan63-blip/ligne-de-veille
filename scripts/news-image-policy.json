@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-10-11",
+  "providers": {
+    "gov-uk": {
+      "articleHosts": [
+        "www.gov.uk"
+      ],
+      "imageHosts": [
+        "assets.publishing.service.gov.uk"
+      ],
+      "imagePathPrefixes": [
+        "/media/"
+      ],
+      "license": "OGL v3",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+    },
+    "nato": {
+      "articleHosts": [
+        "www.nato.int",
+        "nato.int"
+      ],
+      "imageHosts": [
+        "s7g10.scene7.com"
+      ],
+      "imagePathPrefixes": [
+        "/is/image/ncia/"
+      ],
+      "license": "Conditions éditoriales OTAN",
+      "licenseUrl": "https://www.nato.int/en/about-us/official-texts-and-resources/use-of-nato-content-and-brand"
+    }
+  },
+  "individualLicenseHosts": [
+    "www.opex360.com",
+    "opex360.com",
+    "opexnews.fr",
+    "www.opexnews.fr",
+    "www.senat.fr",
+    "www.defense.gouv.fr",
+    "www.consilium.europa.eu"
+  ],
+  "individualImageHosts": [
+    "upload.wikimedia.org",
+    "i0.wp.com",
+    "i1.wp.com",
+    "i2.wp.com"
+  ],
+  "creativeCommonsPaths": [
+    "/licenses/by/2.0/",
+    "/licenses/by/2.5/",
+    "/licenses/by/3.0/",
+    "/licenses/by/4.0/",
+    "/licenses/by-sa/2.0/",
+    "/licenses/by-sa/2.5/",
+    "/licenses/by-sa/3.0/",
+    "/licenses/by-sa/4.0/",
+    "/publicdomain/zero/1.0/",
+    "/publicdomain/mark/1.0/"
+  ],
+  "knownNatoMedia": {
+    "https://s7g10.scene7.com/is/image/ncia/250804-natohq": {
+      "rightsUrl": "https://www.nato.int/en/multimedia/multimedia/photos/general/nato-headquarters",
+      "credit": "© NATO",
+      "alt": "Siège de l’OTAN à Bruxelles avec les 32 drapeaux, photo choisie pour cette publication.",
+      "evidence": "La galerie officielle associe cet asset aux droits exclusifs de l’OTAN et au crédit NATO. Identité exacte vérifiée le 11 octobre 2026."
+    }
+  },
+  "explicitPermissions": {
+    "https://www.opex360.com/wp-content/uploads/chammal-20200625.jpg": {
+      "articleHosts": [
+        "www.opex360.com",
+        "opex360.com"
+      ],
+      "firstArticleUrl": "https://www.opex360.com/2026/10/10/larmee-de-lair-de-lespace-confirme-larrive-du-rafale-a-djibouti-en-2027/",
+      "credit": "EMA / Armée de l’Air",
+      "alt": "Rafale au décollage, image principale publiée avec cet article.",
+      "license": "Autorisation spécifique",
+      "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-photographiques-spécifiques",
+      "confirmedAt": "2026-10-11",
+      "scope": "Republication de cette photographie sur Radar : autorisation de ses titulaires confirmée par le propriétaire du site.",
+      "sha256": "d08735f13b6dbe97aaf907b4104e95be6ab679b34ece6e09312daa5d018fc2e0"
+    },
+    "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_00679789_000002-1024x688.jpg": {
+      "articleHosts": [
+        "www.revueconflits.com",
+        "revueconflits.com"
+      ],
+      "firstArticleUrl": "https://www.revueconflits.com/xi-jinping-un-costume-tres-politique/",
+      "credit": "© Robin Utrecht / SIPA",
+      "alt": "Xi Jinping et Peng Liyuan avec la famille royale néerlandaise lors du banquet du 22 mars 2014, image principale de cet article.",
+      "license": "Autorisation spécifique",
+      "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-photographiques-spécifiques",
+      "confirmedAt": "2026-10-11",
+      "scope": "Republication de cette photographie sur Radar : autorisation de ses titulaires confirmée par le propriétaire du site.",
+      "sha256": "51b5906dbd6a5bfc1f2220544fd5d65f3dbb0aaaec6533db65d3d36b3b50c254"
+    }
+  }
+}

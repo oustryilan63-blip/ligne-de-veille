@@ -19,6 +19,8 @@ PARIS = ZoneInfo('Europe/Paris')
 CONTEXT = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
 CONTEXT.load_default_certs()
 HEADERS = {'User-Agent': 'Radar/1.0 (+https://oustryilan63-blip.github.io/ligne-de-veille/)', 'Accept': 'application/rss+xml, application/atom+xml, text/xml, text/html;q=0.8'}
+sys.path.insert(0,str(ROOT/'scripts'))
+from news_images import find_article_image, POLICY
 
 class PlainText(HTMLParser):
     def __init__(self):
@@ -109,30 +111,16 @@ def verify_link(item):
     except Exception: return False
 
 def article_image(item):
-    """Only GOV.UK editorial lead images under OGL; never an OG site logo."""
-    p = urllib.parse.urlsplit(item['url'])
-    if p.hostname != 'www.gov.uk' or not p.path.startswith('/government/news/'): return None
     try:
-        data = json.loads(request('https://www.gov.uk/api/content'+p.path))
-        details = data.get('details', {})
-        lead = next((i for i in details.get('images', []) if i.get('type') == 'lead' and i.get('content_type') == 'image/jpeg'), None)
-        if not lead: return None
-        rights = clean(str(details.get('body', ''))+' '+str(lead.get('caption', ''))).lower()
-        # Reject explicit third-party notices. A missing or ambiguous lead uses the local illustration.
-        neutral = rights.replace('crown copyright', '').replace('© crown', '')
-        if any(mark in neutral for mark in ('copyright', '©', 'getty', 'reuters', 'associated press', 'all rights reserved', 'shutterstock', 'adobe stock', 'photo: ap')): return None
-        src = lead.get('sources', {}).get('s300', '')
-        q = urllib.parse.urlsplit(src)
-        if q.scheme != 'https' or q.hostname != 'assets.publishing.service.gov.uk' or not q.path.startswith('/media/') or q.username or q.password: return None
-        # Small JPEG derivative only; an HTML error page cannot become a thumbnail.
-        if not request(src, max_bytes=300_000).startswith(b'\xff\xd8\xff'): return None
-        return {'src': src, 'kind': 'article', 'alt': clip(clean(lead.get('caption')) or 'Image fournie avec cette publication par le ministère britannique de la Défense.', 240), 'credit': 'Ministry of Defence / Crown copyright', 'license': 'OGL v3', 'licenseUrl': 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/', 'sourceUrl': item['url']}
+        return find_article_image(item,request,clean,clip)
     except Exception as exc:
         print('Image officielle non disponible : '+str(exc)[:100], file=sys.stderr)
         return None
 
 def enrich_images(items):
-    eligible = sorted([i for i in items if i['url'].startswith('https://www.gov.uk/government/news/') and not i.get('image')], key=lambda i:(i['date'],i.get('publishedAt','')), reverse=True)[:12]
+    hosts=set(POLICY['individualLicenseHosts'])|{h for p in POLICY['providers'].values() for h in p['articleHosts']}
+    hosts.update(h for p in POLICY.get('explicitPermissions',{}).values() for h in p['articleHosts'])
+    eligible = sorted([i for i in items if urllib.parse.urlsplit(i['url']).hostname in hosts and (not i.get('image') or not i['image'].get('provider') or (i['image'].get('provider')=='specific-permission' and (not i['image'].get('assetUrl') or not i['image'].get('sha256'))))], key=lambda i:(i['date'],i.get('publishedAt','')), reverse=True)[:32]
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         for item, image in zip(eligible, pool.map(article_image, eligible)):
             if image: item['image'] = image
@@ -174,7 +162,7 @@ def main():
     stored['items'].sort(key=lambda item:(item['date'],item.get('publishedAt','')),reverse=True)
     stored['updatedAt'] = now.astimezone(PARIS).date().isoformat()
     stored['checkedAt'] = now.isoformat()
-    stored['automation'] = {'schedule':'08:00 et 18:00','schedules':['08:00','18:00'],'timezone':'Europe/Paris','method':'RSS/Atom : titres, dates, liens vérifiés et courts extraits attribués lorsqu’ils sont disponibles','sources':statuses,'newItems':len(additions)}
+    stored['automation'] = {'schedule':'08:00 et 18:00','schedules':['08:00','18:00'],'timezone':'Europe/Paris','method':'RSS/Atom : titres, dates, liens vérifiés, courts extraits attribués et photos originales lorsque leurs droits sont vérifiés','sources':statuses,'newItems':len(additions),'articleImages':sum(bool(i.get('image')) for i in stored['items'])}
     output = ROOT/'actualites.json'
     temporary = output.with_suffix('.json.tmp'); temporary.write_text(json.dumps(stored,ensure_ascii=False,indent=2)+'\n',encoding='utf-8'); temporary.replace(output)
     summary = f"{len(additions)} nouveautés ; {sum(s['ok'] for s in statuses)}/{len(statuses)} flux consultés ; {len(stored['items'])} publications conservées."
