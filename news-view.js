@@ -19,7 +19,7 @@
         const arrow=make('span','news-arrow','↗');arrow.setAttribute('aria-hidden','true');card.append(date,main,arrow);entry.append(card);
         const matches=tools.related(item);if(matches.length){const links=make('div','news-related');links.setAttribute('aria-label','À explorer dans l’atlas');links.append(make('span','','Dans l’atlas :'));for(const {e,i}of matches){const a=make('a','',e.name+' →');a.href='histoire.html?engin='+i;links.append(a)}entry.append(links)}grid.append(entry);
       }
-      document.getElementById('news-result-count').textContent=items.length?Math.min(limit,items.length)+' / '+items.length+' publications'+(filtered?' correspondant aux filtres':''):'Aucune publication ne correspond à ces filtres.';
+      document.getElementById('news-result-count').textContent=items.length?Math.min(limit,items.length)+' / '+items.length+' publication'+(items.length>1?'s':'')+(filtered?' correspondant aux filtres':''):'Aucune publication ne correspond à ces filtres.';
       more.hidden=items.length<=limit;
       archive.replaceChildren();document.getElementById('archive-count').textContent=items.length+' publication'+(items.length>1?'s':'')+(filtered?' filtrée'+(items.length>1?'s':''):'');
       const months=new Map();for(const item of items){const key=item.date.slice(0,7);if(!months.has(key))months.set(key,[]);months.get(key).push(item)}

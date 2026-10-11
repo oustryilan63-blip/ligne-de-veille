@@ -80,3 +80,5 @@ Les quatre jeux photographiques (pays, nom, zoom, défi), le vrai/faux, Chrono, 
 ## Navigation, collection et sauvegardes — 11 octobre 2026
 
 Recherche par noms, surnoms et pays ; filtres par pays de conception et type précis, tris alphabétique et récents. Les étoiles enregistrent une collection locale (collection.html), utilisable en QCM ou en réponse libre. Fiches avec navigation interne et photos en grand. Actualités filtrables par thème et source, courts extraits RSS attribués quand disponibles, et liens vers les engins repérés. Les quiz photo, Zoom mystère et pays proposent Débutant/Standard/Expert ; les modes sont indiqués dans les records. sauvegarde.html exporte ou restaure un fichier JSON validé : collection, progression, campagne QG, tutoriel et défis. Les données ne sont pas envoyées au serveur. Les parties de quiz en cours ne sont pas exportées.
+
+Les anciennes réponses au défi dépourvues de photo/propositions sont exportées comme résultats historiques : elles ne sont pas attribuées à une nouvelle question, ne recomptent pas le score et leur limite est signalée dans l’aperçu de restauration.
