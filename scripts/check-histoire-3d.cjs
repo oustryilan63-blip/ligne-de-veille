@@ -25,6 +25,8 @@ class Element{
  fire(k){this.events[k]?.()}
 }
 ctx.document={createElement:tag=>new Element(tag)};
+vm.runInNewContext(read('histoire-photos-data.js'),ctx);
+vm.runInNewContext(read('histoire-photos.js'),ctx);
 vm.runInNewContext(read('histoire-3d.js'),ctx);
 function flatten(n){return [n,...n.children.filter(c=>c&&typeof c==='object').flatMap(flatten)]}
 for(const item of items){
@@ -33,7 +35,8 @@ for(const item of items){
  const all=()=>flatten(view.section),stage=all().find(n=>n.id==='history-3d-stage'),toggle=all().find(n=>n.tag==='button'),poster=stage.children[0],status=all().find(n=>n.attrs.role==='status');
  assert.equal(all().filter(n=>n.tag==='iframe').length,0);
  assert.ok(!all().some(n=>n.textContent.includes('Ouvrir sur Sketchfab')));
- assert.equal(poster.children[0].src,models[item.name].thumbnail);
+ assert.equal(poster.children[0].src,ctx.window.RADAR_PHOTOS.preview(item).src);
+ assert.ok(!poster.children[0].src.includes('sketchfab.com'));
  view.open();view.open();assert.equal(stage.children.length,1);
  const first=stage.children[0];assert.equal(first.tag,'iframe');assert.match(first.src,/dnt=1/);assert.match(first.src,new RegExp(models[item.name].id));
  first.fire('load');assert.match(status.textContent,/Lecteur ouvert/);
