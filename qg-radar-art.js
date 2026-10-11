@@ -1,10 +1,23 @@
-/* Sprites originaux Radar, dessinés sur une grille de pixels. Aucune image externe. */
+/* Décor dessiné par code ; Rafale et Leclerc illustrés pour Radar. */
 window.QG_ART=(()=>{
+ const illustrations={};
+ const ready=Promise.all(Object.entries(window.QG_SPRITES||{}).map(([id,src])=>new Promise(resolve=>{
+  if(typeof window.Image!=='function'){resolve();return;}
+  const image=new window.Image();
+  image.onload=()=>{if(image.naturalWidth&&image.naturalHeight)illustrations[id]=image;resolve();};
+  image.onerror=()=>resolve();image.src=src;
+ })));
  const colors={grass:'#88947a',edge:'#596d61',road:'#777c74',ink:'#243b41',light:'#e1dfc6',roof:'#b9bbaa',sea:'#284c59',foam:'#537b80',orange:'#cc7049'};
  const positions={atelier:[8,5],hangar:[3,3],port:[10,7],ecole:[5,7],radar:[8,1]};
  function poly(c,points,color){c.fillStyle=color;c.beginPath();points.forEach(([x,y],i)=>i?c.lineTo(x,y):c.moveTo(x,y));c.closePath();c.fill();}
  function rect(c,x,y,w,h,color){c.fillStyle=color;c.fillRect(Math.round(x),Math.round(y),w,h);}
  function sprite(c,id,x,y,scale=1){c.save();c.translate(Math.round(x),Math.round(y));c.scale(scale,scale);
+  const image=illustrations[id];
+  if(image){
+   const factor=Math.min(105/image.naturalWidth,68/image.naturalHeight),w=image.naturalWidth*factor,h=image.naturalHeight*factor;
+   c.imageSmoothingEnabled=true;c.imageSmoothingQuality='high';
+   c.drawImage(image,-w/2,-h*.65,w,h);c.restore();return;
+  }
   const p=(pts,col)=>poly(c,pts,col),r=(x,y,w,h,col)=>rect(c,x,y,w,h,col);
   if(id==='rafale'){
    // Vue de dessus inclinée : aile delta, plans canards, deux tuyères, dérive unique.
@@ -137,5 +150,5 @@ window.QG_ART=(()=>{
   // A small support vehicle travels along the central road.
   const progress=(time/1400)%9,[vx,vy]=project(6,progress);rect(c,vx-6,vy-7,12,7,'#e0c891');rect(c,vx-5,vy-6,4,3,'#496975');rect(c,vx-6,vy,3,3,'#203d41');rect(c,vx+3,vy,3,3,'#203d41');
  }
- return {sprite,building,scene};
+ return {sprite,building,scene,ready};
 })();
