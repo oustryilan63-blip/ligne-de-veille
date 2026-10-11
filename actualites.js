@@ -4,6 +4,30 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-10-11",
+      "publishedAt": "2026-10-11T11:26:08+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Guerre électronique : L’armée de Terre évalue un nouveau système de navigation pour les chuteurs opérationnels",
+      "url": "https://www.opex360.com/2026/10/11/guerre-electronique-larmee-de-terre-evalue-un-nouveau-systeme-de-navigation-pour-les-chuteurs-operationnels/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-11",
+      "publishedAt": "2026-10-11T10:36:31+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’armée de Terre veut lancer des études pour se doter de microréacteurs nucléaires",
+      "url": "https://www.opex360.com/2026/10/11/larmee-de-terre-veut-lancer-des-etudes-pour-se-doter-de-microreacteurs-nucleaires/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-11",
       "publishedAt": "2026-10-11T02:00:25+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -153,6 +177,30 @@ window.LDV_NEWS = {
       "sourceType": "Presse spécialisée",
       "title": "La tentation de Rome : Trump ou le réveil de l’imaginaire impérial",
       "url": "https://www.revueconflits.com/la-tentation-de-rome-trump-ou-le-reveil-de-limaginaire-imperial/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T11:54:09+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Quizz – 9 octobre",
+      "url": "https://www.revueconflits.com/quizz-9-octobre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+    },
+    {
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T05:00:12+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Livres – 9 octobre",
+      "url": "https://www.revueconflits.com/livres-9-octobre/",
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
@@ -315,9 +363,13 @@ window.LDV_NEWS = {
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
     }
   ],
-  "checkedAt": "2026-10-11T06:20:36.768678+00:00",
+  "checkedAt": "2026-10-11T12:41:35.966621+00:00",
   "automation": {
-    "schedule": "08:00",
+    "schedule": "08:00 et 18:00",
+    "schedules": [
+      "08:00",
+      "18:00"
+    ],
     "timezone": "Europe/Paris",
     "method": "RSS/Atom : titres, dates et liens vérifiés",
     "sources": [
@@ -352,6 +404,6 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 6
+    "newItems": 4
   }
 };
