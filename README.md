@@ -38,6 +38,10 @@ Dix nouvelles fiches, dont six ICBM, portent le catalogue à 100 engins et 18 mi
 
 ## Fiches techniques (11 octobre 2026)
 
-Les 100 fiches Histoire proposent un bouton sous leur présentation. `histoire-technique.js` contient 547 caractéristiques publiques avec une variante explicite, une source par valeur, une date de consultation et une note de périmètre. Les panneaux sont fermés au chargement et accessibles au clavier.
+Les 100 fiches Histoire proposent un bouton sous leur présentation. `histoire-technique.js` contient 576 caractéristiques publiques avec une variante explicite, une source par valeur, une date de consultation et une note de périmètre. Les panneaux sont fermés au chargement et accessibles au clavier.
 
 Les données non confirmées ne sont pas complétées par déduction. Certaines fiches restent partielles (notamment J-10, J-20, Su-57, Type 055, Topol-M, Yars, DF-41 et SM-3). Les masses, dimensions et performances varient selon les configurations. Les chiffres convertis sont signalés. Le contrôle du catalogue exige une fiche technique sourcée pour chaque nouvel engin.
+
+## Relecture des fiches et portées — 11 octobre 2026
+
+Les 100 fiches techniques et leurs récits ont été relus. Les variantes, conversions et conditions de mesure sont précisées ; les récits sont enrichis de jalons sourcés. Les 18 fiches missiles comportent une ligne de portée : 16 repères publics chiffrés, dont certaines bornes inférieures ou estimations datées, et deux absences explicitement signalées (IRIS-T air-air, SM-3 Block IIA). La portée M51 concerne uniquement le M51.2. Les références et réserves sont affichées à côté des valeurs ; aucune portée n’est appliquée à Horizon. Astute : sixième livraison confirmée en septembre 2026, distincte de la disponibilité opérationnelle.

@@ -1,51 +1,50 @@
-// Caractéristiques publiques vérifiées ; variante et source précisées pour chaque valeur.
 window.LDV_TECHNIQUE = {
   "0": {
     "name": "Leclerc",
-    "variant": "Leclerc — fiche actuelle de l’armée de Terre",
+    "variant": "Leclerc XLR rénové — fiche de l’armée de Terre",
     "checkedAt": "2026-10-11",
     "fields": [
       {
         "label": "Équipage",
         "value": "3 personnes",
-        "source": "https://www.defense.gouv.fr/en/node/212"
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/char-leclerc-xlr-renove"
       },
       {
         "label": "Longueur",
         "value": "10,6 m, canon vers l’avant",
-        "source": "https://www.defense.gouv.fr/en/node/212"
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/char-leclerc-xlr-renove"
       },
       {
         "label": "Largeur",
         "value": "3,6 m",
-        "source": "https://www.defense.gouv.fr/en/node/212"
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/char-leclerc-xlr-renove"
       },
       {
         "label": "Masse publiée",
         "value": "56 t à vide ; PTAC de 63 t",
-        "source": "https://www.defense.gouv.fr/en/node/212"
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/char-leclerc-xlr-renove"
       },
       {
         "label": "Motorisation",
         "value": "Diesel V8X Hyperbar de 1 500 ch",
-        "source": "https://www.defense.gouv.fr/en/node/212"
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/char-leclerc-xlr-renove"
       },
       {
         "label": "Vitesse maximale",
         "value": "65 km/h sur route ; 50 km/h en tout-terrain",
-        "source": "https://www.defense.gouv.fr/en/node/212"
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/char-leclerc-xlr-renove"
       },
       {
         "label": "Armement principal",
         "value": "Canon de 120 mm",
-        "source": "https://www.defense.gouv.fr/en/node/212"
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/char-leclerc-xlr-renove"
       }
     ],
-    "note": "Valeurs de la fiche ministérielle actuelle, qui mentionne les équipements Scorpion. Elles ne doivent pas être appliquées indistinctement aux premières séries ou aux versions export.",
+    "note": "Les 56 t à vide et 63 t de PTAC sont publiées pour le Leclerc XLR rénové. Elles ne décrivent pas les premières séries ni les versions export.",
     "sources": [
       {
-        "label": "Armée de Terre — Char Leclerc",
-        "url": "https://www.defense.gouv.fr/en/node/212"
+        "label": "Armée de Terre — Le char Leclerc XLR rénové",
+        "url": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-chars-bataille/char-leclerc-xlr-renove"
       }
     ]
   },
@@ -106,39 +105,39 @@ window.LDV_TECHNIQUE = {
       {
         "label": "Équipage",
         "value": "3 personnes",
-        "source": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8"
+        "source": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0101"
       },
       {
         "label": "Masse au combat",
         "value": "56 t",
-        "source": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8"
+        "source": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0101"
       },
       {
         "label": "Motorisation",
-        "value": "Diesel de 1 500 ch",
-        "source": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8"
+        "value": "Diesel de 1 500 hp, valeur constructeur",
+        "source": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0101"
       },
       {
         "label": "Vitesse maximale",
         "value": "70 km/h sur route ; 50 km/h en terrain non revêtu",
-        "source": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8"
+        "source": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0101"
       },
       {
         "label": "Armement principal",
         "value": "Canon lisse de 120 mm, longueur 55 calibres",
-        "source": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8"
+        "source": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0101"
       },
       {
         "label": "Chargement du canon",
         "value": "Automatique",
-        "source": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8"
+        "source": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0101"
       }
     ],
     "note": "Les versions nationales et export peuvent différer. Le constructeur précise que les caractéristiques peuvent évoluer selon les exigences du client.",
     "sources": [
       {
-        "label": "Hyundai Rotem — K2",
-        "url": "https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8"
+        "label": "Hyundai Rotem — K2 et K2GF",
+        "url": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0101"
       }
     ]
   },
@@ -238,6 +237,11 @@ window.LDV_TECHNIQUE = {
       {
         "label": "Propulsion",
         "value": "Nucléaire",
+        "source": "https://www.royalnavy.mod.uk/equipment/submarine/astute-class"
+      },
+      {
+        "label": "Observation visuelle",
+        "value": "Mâts optroniques à caméras",
         "source": "https://www.royalnavy.mod.uk/equipment/submarine/astute-class"
       }
     ],
@@ -464,7 +468,7 @@ window.LDV_TECHNIQUE = {
   },
   "11": {
     "name": "Bayraktar TB2",
-    "variant": "TB2 — fiche constructeur actuelle",
+    "variant": "TB2 à moteur de 100 hp — fiche constructeur actuelle",
     "checkedAt": "2026-10-11",
     "fields": [
       {
@@ -491,9 +495,19 @@ window.LDV_TECHNIQUE = {
         "label": "Motorisation",
         "value": "Moteur à combustion interne de 100 hp",
         "source": "https://www.baykartech.com/en/uav/bayraktar-tb2/"
+      },
+      {
+        "label": "Masse maximale au décollage",
+        "value": "700 kg",
+        "source": "https://www.baykartech.com/en/uav/bayraktar-tb2/"
+      },
+      {
+        "label": "Endurance annoncée",
+        "value": "Plus de 18 h",
+        "source": "https://www.baykartech.com/en/uav/bayraktar-tb2/"
       }
     ],
-    "note": "Caractéristiques publiques de cette variante ; elles ne s’appliquent pas nécessairement aux autres versions.",
+    "note": "Données de la fiche TB2 actuelle, regroupant les versions A/B/C/D. Le record de 27 h 3 min est un essai distinct ; il ne constitue pas l’endurance garantie de chaque mission.",
     "sources": [
       {
         "label": "Baykar — TB2",
@@ -586,45 +600,50 @@ window.LDV_TECHNIQUE = {
   },
   "14": {
     "name": "Type 10",
-    "variant": "Type 10 japonais",
+    "variant": "Type 10 — configuration du guide ministériel japonais de 2018",
     "checkedAt": "2026-10-11",
     "fields": [
       {
         "label": "Équipage",
         "value": "3 personnes",
-        "source": "https://www.mod.go.jp/j/kids/works/index.html"
+        "source": "https://www.mod.go.jp/j/approach/hyouka/yosan_shikko/2018/04.pdf"
       },
       {
-        "label": "Longueur",
-        "value": "9,4 m",
-        "source": "https://www.mod.go.jp/j/kids/works/index.html"
+        "label": "Dimensions approximatives",
+        "value": "9,4 m × 3,2 m × 2,3 m (L × l × h)",
+        "source": "https://www.mod.go.jp/j/approach/hyouka/yosan_shikko/2018/04.pdf"
       },
       {
-        "label": "Largeur",
-        "value": "3,2 m",
-        "source": "https://www.mod.go.jp/j/kids/works/index.html"
-      },
-      {
-        "label": "Hauteur",
-        "value": "2,3 m",
-        "source": "https://www.mod.go.jp/j/kids/works/index.html"
+        "label": "Masse de référence",
+        "value": "Environ 44 t",
+        "source": "https://www.mod.go.jp/j/approach/hyouka/yosan_shikko/2018/04.pdf"
       },
       {
         "label": "Vitesse maximale",
         "value": "Environ 70 km/h",
-        "source": "https://www.mod.go.jp/j/kids/works/index.html"
+        "source": "https://www.mod.go.jp/j/approach/hyouka/yosan_shikko/2018/04.pdf"
+      },
+      {
+        "label": "Motorisation",
+        "value": "Diesel à 8 cylindres, refroidi par eau",
+        "source": "https://www.mod.go.jp/j/approach/hyouka/yosan_shikko/2018/04.pdf"
+      },
+      {
+        "label": "Transmission",
+        "value": "À variation continue",
+        "source": "https://www.mod.go.jp/j/approach/hyouka/yosan_shikko/2018/04.pdf"
       },
       {
         "label": "Armement principal",
-        "value": "Canon de 120 mm",
-        "source": "https://www.mod.go.jp/j/kids/works/index.html"
+        "value": "Canon lisse de 120 mm à chargement automatique",
+        "source": "https://www.mod.go.jp/j/approach/hyouka/yosan_shikko/2018/04.pdf"
       }
     ],
-    "note": "Dimensions et vitesse arrondies, telles que publiées par le ministère japonais. La masse dépend notamment de la configuration de protection et n’est pas ajoutée ici.",
+    "note": "Valeurs approximatives de la configuration décrite dans le guide ministériel de 2018. Les 44 t constituent une masse de référence, pas une masse applicable à toutes les configurations de protection.",
     "sources": [
       {
-        "label": "Ministère japonais de la Défense — équipements",
-        "url": "https://www.mod.go.jp/j/kids/works/index.html"
+        "label": "Ministère japonais de la Défense — guide des équipements terrestres, 2018",
+        "url": "https://www.mod.go.jp/j/approach/hyouka/yosan_shikko/2018/04.pdf"
       }
     ]
   },
@@ -650,8 +669,13 @@ window.LDV_TECHNIQUE = {
       },
       {
         "label": "Motorisation",
-        "value": "MT881Ka-500, 1 000 hp (environ 746 kW)",
-        "source": "https://www.hanwhaaerospace.co.kr/assets/content/library/download/Hanwha%20Defense%20Brochure_EN.pdf"
+        "value": "MT881Ka-500, 1 000 hp selon la brochure",
+        "source": "https://www.hanwhaaerospace.com/assets/content/library/download/Hanwha%20Defense%20Brochure_EN.pdf"
+      },
+      {
+        "label": "Suspension",
+        "value": "Hydropneumatique",
+        "source": "https://www.hanwhaaerospace.com/assets/content/library/download/Hanwha%20Defense%20Brochure_EN.pdf"
       }
     ],
     "note": "Cette fiche porte sur le K9 de référence, et non les versions K9A2/AS9 ou leurs évolutions nationales. Les caractéristiques de l’automatisation et l’effectif d’équipage ne sont pas généralisés à toutes les variantes.",
@@ -661,8 +685,8 @@ window.LDV_TECHNIQUE = {
         "url": "https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=271"
       },
       {
-        "label": "Source complémentaire officielle ou constructeur",
-        "url": "https://www.hanwhaaerospace.co.kr/assets/content/library/download/Hanwha%20Defense%20Brochure_EN.pdf"
+        "label": "Hanwha Defense — brochure des véhicules terrestres",
+        "url": "https://www.hanwhaaerospace.com/assets/content/library/download/Hanwha%20Defense%20Brochure_EN.pdf"
       }
     ]
   },
@@ -840,6 +864,16 @@ window.LDV_TECHNIQUE = {
         "label": "Personnel embarqué indiqué",
         "value": "1 900, dont 600 du groupe aérien et 90 d’état-major",
         "source": "https://www.defense.gouv.fr/marine/forces-surface/porte-avions"
+      },
+      {
+        "label": "Propulsion",
+        "value": "Nucléaire",
+        "source": "https://www.defense.gouv.fr/marine/forces-surface/porte-avions"
+      },
+      {
+        "label": "Aviation embarquée",
+        "value": "Deux catapultes à vapeur et trois brins d’arrêt",
+        "source": "https://www.defense.gouv.fr/marine/forces-surface/porte-avions"
       }
     ],
     "note": "La largeur maximale du porte-avions ne correspond pas à sa largeur de coque à la flottaison. Le total de personnel comprend le groupe aérien et l’état-major. Le déplacement n’est pas repris ici : les publications officielles consultées donnent 42 000 ou 42 500 t sans préciser une même condition de charge.",
@@ -917,6 +951,11 @@ window.LDV_TECHNIQUE = {
         "label": "Déplacement annoncé",
         "value": "> 12 000 t, condition non précisée",
         "source": "https://eng.chinamil.com.cn/CHINA_209163/WeaponryEquipment/News_209182/15931366.html"
+      },
+      {
+        "label": "Constructeur du programme",
+        "value": "China State Shipbuilding Corporation (CSSC)",
+        "source": "https://eng.mod.gov.cn/xb/News_213114/TopStories/16278919.html"
       }
     ],
     "note": "Fiche volontairement limitée : longueur, largeur, vitesse et effectif ne sont pas chiffrés faute de fiche technique officielle suffisamment précise dans les sources consultées. Le déplacement est une annonce de la marine chinoise rapportée par China Military ; ce n’est pas une valeur certifiée à pleine charge.",
@@ -928,6 +967,10 @@ window.LDV_TECHNIQUE = {
       {
         "label": "China Military — déplacement annoncé, 1er février 2020",
         "url": "https://eng.chinamil.com.cn/CHINA_209163/WeaponryEquipment/News_209182/15931366.html"
+      },
+      {
+        "label": "Ministère chinois de la Défense — Type055, constructeur et déplacement",
+        "url": "https://eng.mod.gov.cn/xb/News_213114/TopStories/16278919.html"
       }
     ]
   },
@@ -1188,6 +1231,11 @@ window.LDV_TECHNIQUE = {
       {
         "label": "Tourelle",
         "value": "Module de tourelle renouvelé par rapport aux T-90 antérieurs",
+        "source": "https://www.rostec.ru/media/news/tank-t-90m-proryvnaya-mashina/"
+      },
+      {
+        "label": "Confort de bord",
+        "value": "Climatisation dans la configuration décrite",
         "source": "https://www.rostec.ru/media/news/tank-t-90m-proryvnaya-mashina/"
       }
     ],
@@ -1469,7 +1517,7 @@ window.LDV_TECHNIQUE = {
       },
       {
         "label": "Déplacement à pleine charge",
-        "value": "100 000 long tons, soit environ 101 605 t métriques",
+        "value": "Environ 100 000 long tons, soit 101 600 t métriques",
         "source": "https://www.airlant.usff.navy.mil/Organization/Aircraft-Carriers/USS-Gerald-R-Ford-CVN-78/Command-History/lang/en/"
       },
       {
@@ -1615,7 +1663,7 @@ window.LDV_TECHNIQUE = {
   },
   "39": {
     "name": "Carlo Bergamini",
-    "variant": "Classe Bergamini — FREMM italienne, configuration GP",
+    "variant": "FREMM italienne GP — valeurs de référence Fincantieri",
     "checkedAt": "2026-10-11",
     "fields": [
       {
@@ -1634,7 +1682,7 @@ window.LDV_TECHNIQUE = {
         "source": "https://www.fincantieri.com/it/business/prodotti/navi-per-la-difesa/fregate/Classe-Bergamini"
       },
       {
-        "label": "Tirant d’eau",
+        "label": "Tirant d’eau, fiche constructeur",
         "value": "5,10 m",
         "source": "https://www.fincantieri.com/it/business/prodotti/navi-per-la-difesa/fregate/Classe-Bergamini"
       },
@@ -1649,11 +1697,15 @@ window.LDV_TECHNIQUE = {
         "source": "https://www.fincantieri.com/it/business/prodotti/navi-per-la-difesa/fregate/Classe-Bergamini"
       }
     ],
-    "note": "Fiche actuelle du constructeur ; la configuration General Purpose de Carlo Bergamini se distingue des FREMM italiennes ASM et des FREMM françaises.",
+    "note": "Valeurs de référence de Fincantieri. Une fiche générale de la Marina Militare donne 144,6 m et environ 6 900 t à pleine charge, ainsi qu’un tirant d’eau maximal d’environ 8,70 m au bulbe. Ces chiffres ne sont pas interchangeables avec le tirant d’eau de 5,10 m de la fiche constructeur ; les écarts de périmètre ne sont pas résolus par une moyenne. La version GP est distincte des variantes ASM et des FREMM françaises.",
     "sources": [
       {
         "label": "Fincantieri — Classe Bergamini",
         "url": "https://www.fincantieri.com/it/business/prodotti/navi-per-la-difesa/fregate/Classe-Bergamini"
+      },
+      {
+        "label": "Marina Militare — programme FREMM et conditions de mesure",
+        "url": "https://www.marina.difesa.it/noi-siamo-la-marina/pilastro-logistico/log_amm/marinalles/Pagine/FREMM.aspx"
       }
     ]
   },
@@ -1669,7 +1721,7 @@ window.LDV_TECHNIQUE = {
       },
       {
         "label": "Puissance moteur annoncée",
-        "value": "Jusqu’à 1 000 hp (environ 746 kW)",
+        "value": "Jusqu’à 1 000 hp, valeur constructeur",
         "source": "https://www.baesystems.com/en-us/product/cv90-mkiv"
       },
       {
@@ -2090,6 +2142,11 @@ window.LDV_TECHNIQUE = {
         "label": "Armement principal",
         "value": "Obusier de 155 mm, tube de 52 calibres",
         "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/panzerhaubitze-2000"
+      },
+      {
+        "label": "Magasin embarqué",
+        "value": "60 projectiles",
+        "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/panzerhaubitze-2000"
       }
     ],
     "note": "Les caractéristiques varient avec les équipements et les versions. La configuration de référence est précisée ci-dessus.",
@@ -2204,7 +2261,7 @@ window.LDV_TECHNIQUE = {
     "fields": [
       {
         "label": "Puissance publiée",
-        "value": "1 100 hp (environ 820 kW)",
+        "value": "1 100 hp, valeur de la brochure constructeur",
         "source": "https://www.rheinmetall.com/Rheinmetall%20Group/brochure-download/Vehicle-Systems/B260e0518-LYNX-KF41.pdf"
       },
       {
@@ -2742,6 +2799,11 @@ window.LDV_TECHNIQUE = {
         "label": "Équipage",
         "value": "65 personnes, hors forces spéciales",
         "source": "https://www.naval-group.com/en/actualites/naval-group-delivers-suffren-french-defence-procurement-agency-dga"
+      },
+      {
+        "label": "Admission au service actif du Suffren",
+        "value": "3 juin 2022",
+        "source": "https://www.defense.gouv.fr/marine/marins/marins-nucleaires-dattaque-sna-type-suffren"
       }
     ],
     "note": "Les deux déplacements correspondent à des conditions différentes. Le diamètre ne représente pas la hauteur totale avec le massif. Les limites opérationnelles d’immersion ne sont pas extrapolées.",
@@ -2749,6 +2811,10 @@ window.LDV_TECHNIQUE = {
       {
         "label": "Naval Group — livraison du Suffren, 6 novembre 2020",
         "url": "https://www.naval-group.com/en/actualites/naval-group-delivers-suffren-french-defence-procurement-agency-dga"
+      },
+      {
+        "label": "Marine nationale — Suffren, admission au service actif",
+        "url": "https://www.defense.gouv.fr/marine/marins/marins-nucleaires-dattaque-sna-type-suffren"
       }
     ]
   },
@@ -3173,7 +3239,7 @@ window.LDV_TECHNIQUE = {
   },
   "75": {
     "name": "Exocet",
-    "variant": "Exocet AM39 — version aéroportée",
+    "variant": "Exocet AM39 — version aéroportée ; portée du Block 2 mod 2",
     "checkedAt": "2026-10-11",
     "fields": [
       {
@@ -3200,6 +3266,12 @@ window.LDV_TECHNIQUE = {
         "label": "Propulsion",
         "value": "Moteur-fusée à propergol solide",
         "source": "https://www.mbda-systems.com/wp-content/uploads/2018/05/EXOCET-AM39.pdf"
+      },
+      {
+        "label": "Portée publique approximative",
+        "value": "Jusqu’à environ 70 km",
+        "source": "https://www.mbda-systems.com/wp-content/uploads/2015/07/EXOCET-AM39.pdf",
+        "note": "Repère de l’AM39 Block 2 mod 2 : la portée annoncée dépend de l’altitude et de la vitesse de lancement. Elle ne décrit pas les MM40 ou SM39."
       }
     ],
     "note": "Ces valeurs concernent l’AM39. Elles ne décrivent pas les Exocet MM40 de navire ni les SM39 de sous-marin.",
@@ -3207,6 +3279,10 @@ window.LDV_TECHNIQUE = {
       {
         "label": "MBDA — brochure Exocet AM39, 2018",
         "url": "https://www.mbda-systems.com/wp-content/uploads/2018/05/EXOCET-AM39.pdf"
+      },
+      {
+        "label": "MBDA — Exocet AM39 Block 2 mod 2, brochure 2015",
+        "url": "https://www.mbda-systems.com/wp-content/uploads/2015/07/EXOCET-AM39.pdf"
       }
     ]
   },
@@ -3244,6 +3320,12 @@ window.LDV_TECHNIQUE = {
         "label": "Avions cités",
         "value": "Rafale et Mirage 2000-5",
         "source": "https://www.mbda-systems.com/wp-content/uploads/2018/05/MICA.pdf"
+      },
+      {
+        "label": "Portée publique approximative",
+        "value": "Environ 60 km",
+        "source": "https://archives.defense.gouv.fr/actualites/dossiers/dossiers-archives/le-bourget-2013/les-materiels-presentes/les-emports-du-rafale.html",
+        "note": "Valeur publiée pour le MICA de première génération. Elle ne décrit pas le MICA NG, ni une portée garantie dans toutes les conditions."
       }
     ],
     "note": "Caractéristiques du MICA d’origine ; ne pas les attribuer au MICA NG ou à l’ensemble du système sol-air VL MICA.",
@@ -3251,6 +3333,10 @@ window.LDV_TECHNIQUE = {
       {
         "label": "MBDA — brochure MICA, 2018",
         "url": "https://www.mbda-systems.com/wp-content/uploads/2018/05/MICA.pdf"
+      },
+      {
+        "label": "Ministère de la Défense — les emports du Rafale, 2013",
+        "url": "https://archives.defense.gouv.fr/actualites/dossiers/dossiers-archives/le-bourget-2013/les-materiels-presentes/les-emports-du-rafale.html"
       }
     ]
   },
@@ -3288,6 +3374,12 @@ window.LDV_TECHNIQUE = {
         "label": "Propulsion",
         "value": "Moteur-fusée à propergol solide",
         "source": "https://www.navair.navy.mil/product/AIM-9M-Sidewinder"
+      },
+      {
+        "label": "Portée publique approximative",
+        "value": "Environ 16 à 29 km",
+        "source": "https://www.navair.navy.mil/product/AIM-9M-Sidewinder",
+        "note": "Conversion arrondie des 10 à 18 miles publiés par NAVAIR pour l’AIM-9M. Ne pas appliquer cette fourchette à l’AIM-9X."
       }
     ],
     "note": "Version M uniquement, distincte de l’AIM-9X. La photo illustre la famille Sidewinder. La masse métrique est recalculée depuis les livres, car la conversion figurant dans la page NAVAIR diffère.",
@@ -3332,6 +3424,12 @@ window.LDV_TECHNIQUE = {
         "label": "Début de service de la famille",
         "value": "Septembre 1991",
         "source": "https://www.af.mil/News/Fact-Sheets/Display/Article/104576/aim-120-amraam/"
+      },
+      {
+        "label": "Portée publiée · borne inférieure",
+        "value": "Plus de 32 km environ",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104576/aim-120-amraam/",
+        "note": "La fiche ancienne indique « 20+ miles ». C’est une borne inférieure publique, pas la portée maximale du missile. Elle ne permet pas de chiffrer l’AIM-120D."
       }
     ],
     "note": "La fiche USAF est ancienne et ne fournit pas un tableau séparé pour chaque variante. Ces repères ne décrivent pas l’AIM-120D ni l’AMRAAM-ER ; l’envergure peut changer entre versions. Conversion de masse recalculée depuis les livres.",
@@ -3339,6 +3437,10 @@ window.LDV_TECHNIQUE = {
       {
         "label": "US Air Force — AIM-120 AMRAAM",
         "url": "https://www.af.mil/News/Fact-Sheets/Display/Article/104576/aim-120-amraam/"
+      },
+      {
+        "label": "US Air Force — fiche AIM-120 AMRAAM",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104576/aim-120-amraam/"
       }
     ]
   },
@@ -3371,6 +3473,12 @@ window.LDV_TECHNIQUE = {
         "label": "Masse avec accélérateur",
         "value": "≈ 1 510 kg (3 330 lb)",
         "source": "https://www.navair.navy.mil/product/Tomahawk"
+      },
+      {
+        "label": "Portée publiée · Block IV/V",
+        "value": "Environ 1 600 km",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169229/tomohawk-cruise-missile/tomahawk-cruise-missile/",
+        "note": "Ordre de grandeur arrondi donné en kilomètres par l’US Navy pour les TLAM-E Block IV/V. Les unités de distance de la page sont arrondies différemment ; ce n’est pas une mesure précise."
       }
     ],
     "note": "NAVAIR ne sépare pas ces dimensions par Block. Elles sont présentées comme des repères de famille, sans les attribuer à une version récente précise. Conversions métriques arrondies.",
@@ -3378,6 +3486,10 @@ window.LDV_TECHNIQUE = {
       {
         "label": "NAVAIR — Tomahawk",
         "url": "https://www.navair.navy.mil/product/Tomahawk"
+      },
+      {
+        "label": "US Navy — Tomahawk, caractéristiques Block IV/V",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169229/tomohawk-cruise-missile/tomahawk-cruise-missile/"
       }
     ]
   },
@@ -3410,6 +3522,12 @@ window.LDV_TECHNIQUE = {
         "label": "Poste de visée",
         "value": "Unité CLU réutilisable, distincte de la munition",
         "source": "https://lockheedmartin.com/content/dam/lockheed-martin/mfc/pc/javelin/mfc-javelin-pc.pdf"
+      },
+      {
+        "label": "Portée publique approximative",
+        "value": "Jusqu’à environ 4 km",
+        "source": "https://www.lockheedmartin.com/en-us/news/features/2023/mission-focused-ramping-up-production-ahead-of-evolving-threats.html",
+        "note": "Portée annoncée par le constructeur en 2023 pour la famille contemporaine, dans la plupart des conditions opérationnelles ; elle n’est pas attribuée à toutes les générations anciennes."
       }
     ],
     "note": "La masse désigne l’all-up round (munition dans son tube) et exclut le poste CLU. Les dimensions sont celles du tube, pas du missile nu. À ne pas confondre avec l’ancien missile antiaérien britannique également appelé Javelin.",
@@ -3417,6 +3535,10 @@ window.LDV_TECHNIQUE = {
       {
         "label": "Lockheed Martin — brochure Javelin, 2021",
         "url": "https://lockheedmartin.com/content/dam/lockheed-martin/mfc/pc/javelin/mfc-javelin-pc.pdf"
+      },
+      {
+        "label": "Lockheed Martin — présentation du Javelin, 2023",
+        "url": "https://www.lockheedmartin.com/en-us/news/features/2023/mission-focused-ramping-up-production-ahead-of-evolving-threats.html"
       }
     ]
   },
@@ -3449,6 +3571,12 @@ window.LDV_TECHNIQUE = {
         "label": "Avions cités par la Luftwaffe",
         "value": "Eurofighter et Tornado",
         "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/ausruestung-bewaffnung/iris-t-aim-2000"
+      },
+      {
+        "label": "Portée publique approximative",
+        "value": "Courte portée — chiffre non confirmé",
+        "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/ausruestung-bewaffnung/iris-t-aim-2000",
+        "note": "Pas de distance chiffrée suffisamment étayée dans les sources primaires consultées. Les portées des systèmes sol-air SLS/SLM ne décrivent pas l’IRIS-T air-air."
       }
     ],
     "note": "Valeur de masse retenue : celle de la Bundeswehr. Cette fiche concerne l’IRIS-T aéroporté, pas les missiles sol-air IRIS-T SLM ou SLX.",
@@ -3488,6 +3616,12 @@ window.LDV_TECHNIQUE = {
         "label": "Introduction du système NG",
         "value": "2011",
         "source": "https://www.saab.com/products/rbs-70-ng"
+      },
+      {
+        "label": "Portée publique approximative",
+        "value": "Plus de 9 km",
+        "source": "https://www.saab.com/products/rbs-70-ng",
+        "note": "Portée effective annoncée pour le RBS 70 NG avec le missile BOLIDE. « Plus de » indique une borne publique, pas un maximum exact."
       }
     ],
     "note": "Fiche du système RBS 70 NG et du BOLIDE décrit par Saab. La page ne précise pas une masse et des dimensions permettant de distinguer proprement missile, tube et poste : ces valeurs sont omises.",
@@ -3552,14 +3686,14 @@ window.LDV_TECHNIQUE = {
         "source": "https://world.eurofighter.com/"
       },
       {
-        "label": "Vitesse maximale",
+        "label": "Vitesse maximale en altitude",
         "value": "Mach 2",
-        "source": "https://world.eurofighter.com/"
+        "source": "https://www.eurofighter.com/the-aircraft/performance"
       },
       {
-        "label": "Poussée totale annoncée",
+        "label": "Poussée totale avec postcombustion",
         "value": "180 kN",
-        "source": "https://world.eurofighter.com/"
+        "source": "https://www.eurofighter.com/the-aircraft/performance"
       },
       {
         "label": "Altitude maximale annoncée",
@@ -3572,6 +3706,10 @@ window.LDV_TECHNIQUE = {
       {
         "label": "Eurofighter — données de performances",
         "url": "https://world.eurofighter.com/"
+      },
+      {
+        "label": "Eurofighter — performances et conditions",
+        "url": "https://www.eurofighter.com/the-aircraft/performance"
       }
     ]
   },
@@ -3741,6 +3879,11 @@ window.LDV_TECHNIQUE = {
         "label": "Capacité totale",
         "value": "Jusqu’à 10 personnes",
         "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/gtk-boxer"
+      },
+      {
+        "label": "Armement du module de transport",
+        "value": "Tourelleau FLW 200 : mitrailleuse de 12,7 mm ou lance-grenades de 40 mm",
+        "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/gtk-boxer"
       }
     ],
     "note": "Les données correspondent au véhicule allemand de transport de groupe présenté par la Bundeswehr. Les modules ambulance, commandement et les variantes nationales peuvent différer.",
@@ -3834,6 +3977,12 @@ window.LDV_TECHNIQUE = {
         "label": "Début de déploiement",
         "value": "Juin 1970",
         "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104466/lgm-30g-minuteman-iii/lgm-30g-minuteman-iii/"
+      },
+      {
+        "label": "Portée publique approximative",
+        "value": "Plus de 9 650 km environ",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104466/lgm-30g-minuteman-iii/lgm-30g-minuteman-iii/",
+        "note": "Conversion arrondie de « 6 000+ miles ». La source donne une borne publique, et non une portée maximale exacte."
       }
     ],
     "note": "Repères publics de la fiche USAF. Les modernisations successives ne sont pas des modèles entièrement nouveaux ; aucun chiffre de performance non confirmé n’est ajouté.",
@@ -3878,6 +4027,12 @@ window.LDV_TECHNIQUE = {
         "label": "Service opérationnel",
         "value": "1963–1987",
         "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197977/AFmuseum/martin-marietta-sm-68blgm-25c-titan-ii/"
+      },
+      {
+        "label": "Portée publique approximative",
+        "value": "Environ 14 500 km",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197977/AFmuseum/martin-marietta-sm-68blgm-25c-titan-ii/",
+        "note": "Conversion arrondie des 9 000 miles publiés par le musée. Repère historique du Titan II militaire, distinct des lanceurs spatiaux dérivés."
       }
     ],
     "note": "Dimensions du missile militaire, distinct du lanceur spatial Titan II utilisé pour Gemini. Les unités impériales du musée sont converties et arrondies.",
@@ -3917,6 +4072,12 @@ window.LDV_TECHNIQUE = {
         "label": "Service opérationnel",
         "value": "1986–2005",
         "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197974/AFmuseum/martin-marietta-lgm-118a-peacekeeper/"
+      },
+      {
+        "label": "Portée publique approximative",
+        "value": "Plus de 9 650 km environ",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197974/AFmuseum/martin-marietta-lgm-118a-peacekeeper/",
+        "note": "Conversion arrondie de « greater than 6 000 miles ». Cette borne publique n’est pas une valeur maximale exacte."
       }
     ],
     "note": "Les dimensions et la masse suivent les chiffres arrondis du musée, convertis en unités métriques. La version ferroviaire envisagée n’a pas été la configuration opérationnelle.",
@@ -3951,6 +4112,12 @@ window.LDV_TECHNIQUE = {
         "label": "Étages propulsifs principaux",
         "value": "3, selon le tableau NASIC de 2020",
         "source": "https://www.readkong.com/page/defense-intelligence-ballistic-missile-analysis-committee-4286680"
+      },
+      {
+        "label": "Portée estimée · NASIC 2020",
+        "value": "Environ 11 000 km ou plus",
+        "source": "https://www.readkong.com/page/defense-intelligence-ballistic-missile-analysis-committee-4286680",
+        "note": "Estimation publique datée du rapport NASIC 2020 : « 11 000+ km ». Le rapport précise que ses portées sont approximatives."
       }
     ],
     "note": "Fiche partielle : architecture décrite par l’évaluation publique NASIC de 2020, distincte d’une fiche constructeur. Aucune dimension ou masse assez solidement confirmée pour cette variante n’est retenue. Le rapport est ancien et ne décrit pas toutes les évolutions ultérieures.",
@@ -3985,6 +4152,12 @@ window.LDV_TECHNIQUE = {
         "label": "Étages propulsifs principaux",
         "value": "3, selon le tableau NASIC de 2020",
         "source": "https://www.readkong.com/page/defense-intelligence-ballistic-missile-analysis-committee-4286680"
+      },
+      {
+        "label": "Portée estimée · NASIC 2020",
+        "value": "Environ 11 000 km ou plus",
+        "source": "https://www.readkong.com/page/defense-intelligence-ballistic-missile-analysis-committee-4286680",
+        "note": "Estimation publique datée du rapport NASIC 2020 : « 11 000+ km ». Le rapport précise que ses portées sont approximatives."
       }
     ],
     "note": "Fiche partielle : architecture décrite par l’évaluation publique NASIC de 2020, distincte d’une fiche constructeur. Aucune dimension ou masse assez solidement confirmée pour cette variante n’est retenue. Le rapport est ancien et ne décrit pas toutes les évolutions ultérieures.",
@@ -4019,6 +4192,12 @@ window.LDV_TECHNIQUE = {
         "label": "Étages propulsifs principaux",
         "value": "3, selon le tableau NASIC de 2020",
         "source": "https://www.readkong.com/page/defense-intelligence-ballistic-missile-analysis-committee-4286680"
+      },
+      {
+        "label": "Portée estimée · FAS 2024",
+        "value": "Environ 12 000 km",
+        "source": "https://fas.org/wp-content/uploads/2024/01/Chinese-nuclear-weapons-2024.pdf",
+        "note": "Estimation des chercheurs pour la version mobile DF-41 dans le tableau de 2024. Ce n’est pas une portée maximale certifiée par le constructeur."
       }
     ],
     "note": "Fiche partielle : architecture décrite par l’évaluation publique NASIC de 2020, distincte d’une fiche constructeur. Aucune dimension ou masse assez solidement confirmée pour cette variante n’est retenue. Le rapport est ancien et ne décrit pas toutes les évolutions ultérieures.",
@@ -4026,6 +4205,10 @@ window.LDV_TECHNIQUE = {
       {
         "label": "NASIC / DIBMAC — Ballistic and Cruise Missile Threat 2020, p. 29 (copie consultable)",
         "url": "https://www.readkong.com/page/defense-intelligence-ballistic-missile-analysis-committee-4286680"
+      },
+      {
+        "label": "FAS / Nuclear Notebook — Chinese nuclear weapons, 2024",
+        "url": "https://fas.org/wp-content/uploads/2024/01/Chinese-nuclear-weapons-2024.pdf"
       }
     ]
   },
@@ -4063,6 +4246,12 @@ window.LDV_TECHNIQUE = {
         "label": "Constructeur",
         "value": "Lockheed Martin",
         "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169285/trident-ii-d5-missile/trident-ii-d5-missile/"
+      },
+      {
+        "label": "Portée publique approximative",
+        "value": "Environ 7 400 km",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169285/trident-ii-d5-missile/trident-ii-d5-missile/",
+        "note": "Conversion arrondie des 4 000 milles nautiques publiés par l’US Navy. Repère du D5, sans extrapolation aux évolutions D5LE2 ni valeur maximale garantie pour toutes les configurations."
       }
     ],
     "note": "Les versions prolongées D5LE ne disposent pas d’un tableau dimensionnel séparé dans cette source. Masse omise : la conversion livres/kilogrammes de la fiche US Navy est incohérente.",
@@ -4107,6 +4296,12 @@ window.LDV_TECHNIQUE = {
         "label": "Début de service de la famille",
         "value": "Fin 2010",
         "source": "https://www.ariane.group/en/defence-systems/deterrence/"
+      },
+      {
+        "label": "Portée publiée · M51.2",
+        "value": "Plus de 8 000 km",
+        "source": "https://www.cheminsdememoire.gouv.fr/sites/default/files/2020-09/Affirmer%20sa%20puissance.%20Forces%20sous-marines%20et%20dissuasion%20nucl%C3%A9aire.pdf",
+        "note": "Repère publié pour le M51.2 dans le dossier de 2020. Ce chiffre n’est pas attribué au M51.3 : sa portée chiffrée n’est pas confirmée dans les communiqués officiels consultés."
       }
     ],
     "note": "ArianeGroup publie ces dimensions pour la famille M51, sans tableau complet séparant M51.1, M51.2 et M51.3. La masse reste donc une borne publique, pas une valeur exacte inventée pour chaque version.",
@@ -4114,50 +4309,55 @@ window.LDV_TECHNIQUE = {
       {
         "label": "ArianeGroup — système M51",
         "url": "https://www.ariane.group/en/defence-systems/deterrence/"
+      },
+      {
+        "label": "Chemins de mémoire / ministère des Armées — dossier pédagogique, 2020",
+        "url": "https://www.cheminsdememoire.gouv.fr/sites/default/files/2020-09/Affirmer%20sa%20puissance.%20Forces%20sous-marines%20et%20dissuasion%20nucl%C3%A9aire.pdf"
       }
     ]
   },
   "98": {
     "name": "Harpoon",
-    "variant": "Harpoon RGM/UGM-84 — configuration navale avec accélérateur",
+    "variant": "Harpoon Block II — configuration de lancement depuis un navire",
     "checkedAt": "2026-10-11",
     "fields": [
       {
         "label": "Catégorie",
         "value": "Missile de croisière antinavire",
-        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168358/harpoon-missile/harpoon-missile/"
+        "source": "https://www.boeing.com/content/dam/boeing/boeingdotcom/defense/weapons-weapons/images/harpoon_product_card.pdf"
       },
       {
-        "label": "Longueur publiée",
-        "value": "4,6 m, versions navire et sous-marin",
-        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168358/harpoon-missile/harpoon-missile/"
+        "label": "Longueur avec accélérateur",
+        "value": "≈ 4,63 m (182,2 pouces)",
+        "source": "https://www.boeing.com/content/dam/boeing/boeingdotcom/defense/weapons-weapons/images/harpoon_product_card.pdf"
       },
       {
         "label": "Diamètre",
-        "value": "343 mm",
-        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168358/harpoon-missile/harpoon-missile/"
-      },
-      {
-        "label": "Envergure",
-        "value": "0,914 m, ailettes et ailes incluses",
-        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168358/harpoon-missile/harpoon-missile/"
+        "value": "≈ 343 mm (13,5 pouces)",
+        "source": "https://www.boeing.com/content/dam/boeing/boeingdotcom/defense/weapons-weapons/images/harpoon_product_card.pdf"
       },
       {
         "label": "Masse avec accélérateur",
-        "value": "690,8 kg",
-        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168358/harpoon-missile/harpoon-missile/"
+        "value": "≈ 680 kg (environ 1 500 lb)",
+        "source": "https://www.boeing.com/content/dam/boeing/boeingdotcom/defense/weapons-weapons/images/harpoon_product_card.pdf"
       },
       {
         "label": "Propulsion",
         "value": "Turboréacteur et accélérateur à propergol solide",
-        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168358/harpoon-missile/harpoon-missile/"
+        "source": "https://www.boeing.com/content/dam/boeing/boeingdotcom/defense/weapons-weapons/images/harpoon_product_card.pdf"
+      },
+      {
+        "label": "Portée publique approximative",
+        "value": "Plus de 124 km",
+        "source": "https://www.boeing.com/content/dam/boeing/boeingdotcom/defense/weapons-weapons/images/harpoon_product_card.pdf",
+        "note": "Conversion arrondie de « greater than 67 nautical miles ». Borne annoncée pour le Block II ; ne décrit pas les variantes Extended Range."
       }
     ],
-    "note": "La version aéroportée AGM-84 est plus courte et n’utilise pas cet accélérateur. La fiche US Navy ne sépare pas chaque Block dans son tableau général.",
+    "note": "Valeurs de la brochure Boeing pour le Block II naval. La version aéroportée est plus courte et n’utilise pas cet accélérateur. La photographie historique illustre la famille Harpoon, pas spécifiquement le Block II.",
     "sources": [
       {
-        "label": "US Navy — Harpoon Missile",
-        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168358/harpoon-missile/harpoon-missile/"
+        "label": "Boeing — fiche Harpoon Block II",
+        "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/defense/weapons-weapons/images/harpoon_product_card.pdf"
       }
     ]
   },
@@ -4185,6 +4385,12 @@ window.LDV_TECHNIQUE = {
         "label": "Système associé",
         "value": "Aegis Ballistic Missile Defense",
         "source": "https://www.mda.mil/system/aegis_bmd.html"
+      },
+      {
+        "label": "Portée publique approximative",
+        "value": "Valeur chiffrée non confirmée",
+        "source": "https://www.mda.mil/system/aegis_bmd.html",
+        "note": "Pas de distance unique publiée pour le Block IIA dans la fiche MDA consultée. La portée du missile intercepté et l’altitude d’interception ne sont pas la portée de l’intercepteur."
       }
     ],
     "note": "Fiche partielle du Block IIA : ne pas lui attribuer les dimensions des SM-3 Block IA/IB. Longueur et masse omises faute de valeurs confirmées dans cette source officielle.",

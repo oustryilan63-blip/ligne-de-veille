@@ -1112,7 +1112,7 @@ window.LDV_ENGINS = [
     "code": "US",
     "photo": "ajouts/serie-2/arleigh.jpg",
     "alt": "Photographie de Classe Arleigh Burke",
-    "explanation": "La classe Arleigh Burke est une grande famille de destroyers américains guidés par le système Aegis.",
+    "explanation": "La classe Arleigh Burke est une grande famille de destroyers américains équipée du système de combat Aegis et construite en plusieurs séries.",
     "source": "https://www.surflant.usff.navy.mil/Organization/Operational-Forces/Destroyers/USS-Arleigh-Burke-DDG-51/About-Us/Characteristics/",
     "photoFile": "US_Navy_080906-N-1082Z-067_The_guided-missile_destroyer_USS_Roosevelt_(DDG_80)_transits_the_Atlantic_Ocean.jpg",
     "photoAuthor": "U.S. Navy photo by Mass Communication Specialist 2nd Class Jason R. Zalasky",

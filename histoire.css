@@ -106,6 +106,7 @@
 .history-tech-fields>div{display:grid;grid-template-columns:minmax(100px,.9fr) minmax(0,1.25fr);gap:16px;padding:12px 0;border-top:1px solid #c9d2c3;font-size:14px;line-height:1.5}
 .history-tech-fields dt{color:#4a6051}
 .history-tech-fields dd{margin:0;color:#1f362b;font-weight:600}
+.history-tech-field-note{display:block;margin-top:6px;font-size:12px;line-height:1.55;font-weight:400;color:#4c6054}
 .history-tech-citation{font:500 11px/1.4 var(--mono);white-space:nowrap;margin-left:3px}
 .history-tech-panel a{color:#315647;text-decoration:underline;text-underline-offset:3px}
 .history-tech-panel a:focus-visible{outline:2px solid #a64c32;outline-offset:3px}

@@ -41,6 +41,14 @@ window.LDV_CHIFFRES = {
       "source": "https://www.straitstimes.com/world/europe/sweden-and-ukraine-eye-export-deal-for-up-to-150-gripen-fighter-jets"
     }
   },
+  "5": {
+    "production": {
+      "label": "Sous-marins livrés",
+      "value": "6 sur 7 prévus",
+      "note": "Royal Navy, 25 septembre 2026 : Agamemnon, sixième Astute livré, commence ses essais en mer. Livraison et aptitude opérationnelle ne sont pas équivalentes ; Achilles reste en construction.",
+      "source": "https://www.royalnavy.mod.uk/news/2026/september/25/20260925-agamemnon-sails"
+    }
+  },
   "6": {
     "production": {
       "value": "12 sous-marins",
