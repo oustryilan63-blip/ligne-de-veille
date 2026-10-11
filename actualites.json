@@ -4,6 +4,22 @@
   "items": [
     {
       "date": "2026-10-11",
+      "publishedAt": "2026-10-11T13:35:43+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Narco-violence : des quartiers toulousains crient leur « ras-le-bol »",
+      "url": "https://www.revueconflits.com/narco-violence-des-quartiers-toulousains-crient-leur-ras-le-bol/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "À Toulouse, les fusillades liées au narcotrafic se multiplient dans les cités du Mirail ; une pétition de près de…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-11",
       "publishedAt": "2026-10-11T11:26:08+00:00",
       "source": "Zone Militaire — Opex360",
       "sourceType": "Presse spécialisée",
@@ -12,7 +28,11 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Au moins à deux reprises, en juin 2022 et en mai 2023, l’armée de Terre lança, sous très faible préavis,…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-11",
@@ -24,7 +44,11 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "En août, dans le cadre de son programme JANUS, l’US Army fit savoir qu’elle venait d’attribuer des contrats d’une valeur…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-11",
@@ -36,7 +60,11 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Longtemps cantonnée à un rôle de partenaire industriel et de relais logistique, l’Espagne conçoit désormais des systèmes spatiaux complets, opère…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-11",
@@ -48,7 +76,11 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "S’il avait fallu écrire, il y a dix ans, un article sur la marine nord-coréenne, l’exercice aurait été relativement bref,…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-10",
@@ -60,7 +92,11 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Tantôt en costume occidental, tantôt en veste chinoise, Xi Jinping fait de son vêtement un discours politique. La cravate ou…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-10",
@@ -72,7 +108,11 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Au cours de l’été 2025, conformément au plan STAR [sécurité/service, technologie, ambition, résilience], la Défense belge a retiré du service…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-10",
@@ -84,7 +124,11 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Jusqu’en août 2025, l’Escadron de chasse 3/11 Jura, établi sur la base aérienne 188 «Colonel Massart» de Djibouti, disposait de…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-10",
@@ -96,7 +140,11 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Mené par la France, l’Allemagne et l’Espagne, le projet de Système de combat aérien du futur [SCAF] ne se résume…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-10",
@@ -108,7 +156,11 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Plus de 90 % des facteurs qui influencent les marchés sont des bruits et des signaux qu’il convient d’identifier. Jean…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-10",
@@ -120,7 +172,11 @@
       "language": "en",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "MOD and QinetiQ launch Project Safari, a joint programme opening up access to UK test and evaluation facilities for SMEs.",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-09",
@@ -132,7 +188,11 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "En septembre, la Direction générale de l’armement [DGA] a émis un appel d’offres pour acquérir des drones de surface [USV]…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-09",
@@ -144,7 +204,11 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Fin août 2026, le fichier de la plateforme Zéro Logement Vacant a été dérobé : 148,9 millions de lignes, près…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-09",
@@ -156,7 +220,11 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Présenté en Conseil des ministres, le 1er octobre, le projet de loi de financement de la Sécurité sociale pour 2027…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-09",
@@ -168,7 +236,11 @@
       "language": "en",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "British jobs and skills will be boosted by a £370 million deal as Kuwait buys vital air defence systems from…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-09",
@@ -180,7 +252,11 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Des dorures du Bureau ovale aux revendications sur le Groenland, du canal de Panama aux alliés européens sommés de payer…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-09",
@@ -204,7 +280,27 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Iran et Égypte. Aperçu des livres de la semaine. Sophia Mahroug, Une histoire des gardiens de la révolution. De 1980…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T01:08:16+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Le mythe des trente glorieuses",
+      "url": "https://www.revueconflits.com/podcast-le-mythe-des-trente-glorieuses/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "« Trente glorieuses ». L’expression a été forgée par Jean Fourastié. Abondamment reprise aujourd’hui, beaucoup de ceux qui la cite…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-09",
@@ -252,7 +348,11 @@
       "language": "en",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "The inaugural meeting has been held at the centre, which provides a permanent foothold in Ukraine for UK companies.",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-08",
@@ -264,7 +364,11 @@
       "language": "fr",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Maintenant qu’elle aligne vingt-quatre Rafale pouvant être armés de missiles air-air METEOR à longue portée de type BVRAAM [Beyond Visual-Range…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-08",
@@ -294,7 +398,11 @@
       "language": "en",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "The graves of four previously unknown World War 2 Airmen have finally been given names at a ceremony in the…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-07",
@@ -306,7 +414,11 @@
       "language": "en",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "A rededication service for Private (Pte) Sidney Allen was organised by the MOD’s ‘War Detectives’ at CWGC Reichswald Forest War…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-07",
@@ -318,7 +430,11 @@
       "language": "en",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
-      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "The previously un-named grave of a World War 2 soldier has been identified and rededicated in his name in a…",
+        "kind": "feed-excerpt"
+      }
     },
     {
       "date": "2026-10-07",
@@ -363,7 +479,7 @@
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux."
     }
   ],
-  "checkedAt": "2026-10-11T12:41:35.966621+00:00",
+  "checkedAt": "2026-10-11T14:29:20.573370+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -371,7 +487,7 @@
       "18:00"
     ],
     "timezone": "Europe/Paris",
-    "method": "RSS/Atom : titres, dates et liens vérifiés",
+    "method": "RSS/Atom : titres, dates, liens vérifiés et courts extraits attribués lorsqu’ils sont disponibles",
     "sources": [
       {
         "source": "Sénat — Défense",
@@ -404,6 +520,6 @@
         "error": null
       }
     ],
-    "newItems": 4
+    "newItems": 2
   }
 }

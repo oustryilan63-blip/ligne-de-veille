@@ -13,11 +13,14 @@
   <script src="map-data.js" defer></script>
   <script src="engins-data.js?v=14" defer></script>
   <script src="progression.js?v=3" defer></script>
-  <script src="jeux.js?v=14" defer></script>
+  <script src="catalogue-tools.js?v=1" defer></script>
+  <script src="collection.js?v=1" defer></script>
+  <script src="quiz-settings.js?v=1" defer></script>
+  <script src="jeux.js?v=15" defer></script>
 <link rel="stylesheet" href="experience.css?v=1">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-</head>
-<body>
+<link rel="stylesheet" href="radar-features.css?v=1"></head>
+<body data-quiz="pays">
   <a class="skip-link" href="#main">Aller au jeu</a>
   <div class="utility-bar"><span>VEILLE DOCUMENTÉE <i></i> DÉFENSE · SÉCURITÉ · GÉOPOLITIQUE</span><span>JEUX / 01</span></div>
   <header class="site-header" id="top">
@@ -53,7 +56,7 @@
         <div class="option-group" role="group" aria-label="Catégorie des engins"><span class="option-label">CATÉGORIE</span><button type="button" data-category="all" aria-pressed="true">Tout</button><button type="button" data-category="terre" aria-pressed="false">Terre</button><button type="button" data-category="air" aria-pressed="false">Air</button><button type="button" data-category="mer" aria-pressed="false">Mer</button><button type="button" data-category="missiles" aria-pressed="false">Missiles</button></div>
         <p id="game-mode-description">5 questions tirées au hasard · 5 tentatives par engin.</p>
       </div>
-      <div class="game-status" aria-live="polite">
+      <div id="quiz-settings" class="quiz-level"></div><p id="country-empty" class="collection-quiz-info" role="status" hidden>Aucun engin dans cette sélection. <a href="collection.html">Ouvrir ma collection →</a> ou choisir tous les engins.</p><div class="game-status" aria-live="polite">
         <span id="round-count">Question 1 / 5</span>
         <span id="attempt-count">5 tentatives restantes</span>
         <span id="score-count">0 trouvé · 0 point</span>

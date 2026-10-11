@@ -1,6 +1,8 @@
 const ENGINES = window.LDV_ENGINS;
 const el = id => document.getElementById(id);
 const state = { answerMode: 'choices', roundMode: 'quick', category: 'all', deck: [], index: 0, found: 0, points: 0, attemptsLeft: 1, hintUsed: false, resolved: false };
+let quizSettings;
+const maxAttempts=()=>state.answerMode==='choices'?1:quizSettings?.config.level==='beginner'?4:quizSettings?.config.level==='expert'?1:3;
 
 const menuButton = document.querySelector('.menu-toggle');
 const nav = el('main-nav');
@@ -52,6 +54,10 @@ function updateStatus() {
 }
 
 function makeChoices(item) {
+  if(window.RADAR_CATALOGUE){
+    const pool=quizSettings.pool(ENGINES,state.category),names=window.RADAR_CATALOGUE.options(item,pool,quizSettings.config.level,shuffled);
+    el('recognition-choices').replaceChildren(...names.map((name,index)=>{const button=document.createElement('button');button.type='button';button.dataset.name=name;const label=document.createElement('span');label.textContent=name;const number=document.createElement('span');number.className='choice-index';number.textContent=String(index+1).padStart(2,'0');button.append(label,number);return button}));return;
+  }
   const alternatives = [];
   for (const pool of [ENGINES.filter(other => other.kind === item.kind), ENGINES.filter(other => other.category === item.category), ENGINES]) {
     for (const other of shuffled(pool)) {
@@ -98,7 +104,7 @@ function showAnswer(correct, chosenButton) {
   el('recognition-hint-button').disabled = true;
   if (correct) {
     state.found++;
-    state.points += state.hintUsed || state.attemptsLeft < (state.answerMode === 'choices' ? 1 : 3) ? 1 : 2;
+    state.points += state.hintUsed || state.attemptsLeft < maxAttempts() ? 1 : 2;
   }
   updateStatus();
   if (state.answerMode === 'choices') {
@@ -148,7 +154,7 @@ function submitAnswer(value, chosenButton = null) {
 
 function renderRound() {
   const item = state.deck[state.index];
-  state.attemptsLeft = state.answerMode === 'choices' ? 1 : 3;
+  state.attemptsLeft = maxAttempts();
   state.hintUsed = false;
   state.resolved = false;
   el('recognition-kind').textContent = item.kind;
@@ -158,6 +164,8 @@ function renderRound() {
   el('recognition-credit').hidden = true;
   el('recognition-hint').hidden = true;
   el('recognition-hint-button').disabled = false;
+  el('recognition-hint-button').hidden = quizSettings.config.level==='expert';
+  if(quizSettings.config.level==='beginner'){el('recognition-hint').textContent='Pays de conception : '+item.country+'.';el('recognition-hint').hidden=false;el('recognition-hint-button').disabled=true;}
   el('recognition-answer').hidden = true;
   el('recognition-choices').hidden = state.answerMode !== 'choices';
   el('recognition-form').hidden = state.answerMode !== 'text';
@@ -170,7 +178,10 @@ function renderRound() {
 }
 
 function startGame() {
-  const pool = shuffled(ENGINES.filter(item => state.category === 'all' || item.category === state.category));
+  const pool = shuffled(quizSettings.pool(ENGINES,state.category));
+  const choicesPossible=pool.length>=4&&pool.every(e=>window.RADAR_CATALOGUE.options(e,pool,quizSettings.config.level,shuffled).length===4);
+  if(!choicesPossible&&state.answerMode==='choices')state.answerMode='text';
+  document.querySelectorAll('[data-answer-mode]').forEach(b=>{b.disabled=b.dataset.answerMode==='choices'&&!choicesPossible;b.setAttribute('aria-pressed',String(b.dataset.answerMode===state.answerMode))});
   state.deck = state.roundMode === 'quick' ? pool.slice(0, 5) : pool;
   state.index = 0;
   state.found = 0;
@@ -178,13 +189,15 @@ function startGame() {
   el('recognition-end').hidden = true;
   el('recognition-card').hidden = false;
   el('recognition-answering').hidden = false;
-  const questionCount = state.roundMode === 'quick' ? 5 : pool.length;
-  el('recognition-mode-description').textContent = `${questionCount} questions au hasard · ${state.answerMode === 'choices' ? '4 propositions · une réponse par photo' : 'réponse libre · trois essais par photo'}. Une bonne réponse rapporte 1 ou 2 points.`;
+  el('recognition-empty').hidden=pool.length>0;
+  const questionCount = state.deck.length;
+  el('recognition-mode-description').textContent = `${questionCount} question${questionCount>1?'s':''} · ${quizSettings.label()} · ${state.answerMode === 'choices' ? '4 propositions · une réponse par photo' : 'réponse libre · '+maxAttempts()+' essai(s) par photo'}. Une bonne réponse rapporte 1 ou 2 points.`+(pool.length&&!choicesPossible?' Réponse libre activée : quatre propositions distinctes ne sont pas disponibles pour toute cette sélection.':'');
+  if(!pool.length){state.resolved=true;el('recognition-card').hidden=el('recognition-answering').hidden=el('recognition-answer').hidden=true;el('recognition-round').textContent='Aucune question';el('recognition-attempts').textContent='';el('recognition-score').textContent='0 point';return;}
   renderRound();
 }
 
 function finishGame() {
-  window.LDV_PROGRESS?.complete('recognition',state.points,state.deck.length*2,(state.answerMode==='choices'?'QCM':'Réponse libre')+' · '+state.deck.length+' questions · '+state.category);
+  window.LDV_PROGRESS?.complete('recognition',state.points,state.deck.length*2,quizSettings.label()+' · '+(state.answerMode==='choices'?'QCM':'Réponse libre')+' · '+state.deck.length+' questions · '+(quizSettings.config.scope==='collection'?'Ma collection':state.category));
   el('recognition-card').hidden = true;
   el('recognition-answering').hidden = true;
   el('recognition-answer').hidden = true;
@@ -226,4 +239,8 @@ el('recognition-next').addEventListener('click', () => {
 });
 el('recognition-restart').addEventListener('click', startGame);
 
+quizSettings=window.RADAR_QUIZ.mount(el('quiz-settings'),startGame);
+if(new URLSearchParams(location.search).get('collection')==='1')state.roundMode='full';
+if(new URLSearchParams(location.search).get('reponse')==='text')state.answerMode='text';
+document.querySelectorAll('[data-round-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.roundMode===state.roundMode)));
 startGame();

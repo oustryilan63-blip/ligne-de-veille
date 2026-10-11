@@ -22,6 +22,8 @@ let tried = new Set();
 let deck = [];
 let selectedMode = 'quick';
 let selectedCategory = 'all';
+let quizSettings;
+const maxAttempts=()=>quizSettings?.config.level==='expert'?3:5;
 const BASE_VIEW = { x: -60, y: -25, w: 1320, h: 550 };
 const MIN_VIEW_WIDTH = 170;
 let view = { ...BASE_VIEW };
@@ -50,7 +52,7 @@ function updateStatus() {
   document.querySelector('#score-count').textContent = `${found} trouvé${found > 1 ? 's' : ''} · ${points} point${points > 1 ? 's' : ''}`;
   const dots = document.querySelector('#attempt-dots');
   dots.replaceChildren();
-  for (let index = 0; index < 5; index++) {
+  for (let index = 0; index < maxAttempts(); index++) {
     const dot = document.createElement('i');
     dot.classList.toggle('used', index >= attemptsLeft);
     dots.append(dot);
@@ -79,7 +81,7 @@ function setCredit(item) {
 
 function startRound() {
   const item = deck[round];
-  attemptsLeft = 5;
+  attemptsLeft = maxAttempts();
   resolved = false;
   tried = new Set();
   hintUsed = false;
@@ -92,8 +94,10 @@ function startRound() {
   setCredit(item);
   setFeedback('Survole un pays pour voir son nom, puis clique pour tenter ta chance.');
   document.querySelector('#hint-button').disabled = false;
+  document.querySelector('#hint-button').hidden=quizSettings.config.level==='expert';
   document.querySelector('#hint-text').hidden = true;
   document.querySelector('#hint-text').textContent = '';
+  if(quizSettings.config.level==='beginner'){document.querySelector('#hint-text').textContent='Repère de départ : '+item.hint;document.querySelector('#hint-text').hidden=false;document.querySelector('#hint-button').disabled=true;}
   answerPanel.hidden = true;
   answerPanel.classList.remove('missed');
   choice.value = '';
@@ -112,13 +116,13 @@ function finishRound(won) {
     found += 1;
     streak += 1;
     bestStreak = Math.max(bestStreak, streak);
-    const attemptsUsed = 5 - attemptsLeft;
+    const attemptsUsed = maxAttempts() - attemptsLeft;
     const earned = Math.max(1, attemptsLeft + 1 - Number(hintUsed));
     points += earned;
     setFeedback(`Bravo ! ${item.country} trouvé en ${attemptsUsed} tentative${attemptsUsed > 1 ? 's' : ''}. +${earned} point${earned > 1 ? 's' : ''}.`, 'success');
   } else {
     streak = 0;
-    setFeedback(`Les cinq tentatives sont épuisées. La réponse était : ${item.country}.`, 'error');
+    setFeedback(`Les ${maxAttempts()} tentatives sont épuisées. La réponse était : ${item.country}.`, 'error');
   }
   updateStatus();
   document.querySelector('#answer-label').textContent = won ? 'Bonne réponse' : 'La réponse à retenir';
@@ -170,9 +174,7 @@ function shuffled(items) {
 }
 
 function startGame() {
-  const pool = selectedCategory === 'all'
-    ? QUESTIONS
-    : QUESTIONS.filter(item => item.category === selectedCategory);
+  const pool = quizSettings.pool(QUESTIONS,selectedCategory);
   deck = shuffled(pool).slice(0, selectedMode === 'quick' ? 5 : pool.length);
   round = 0;
   found = 0;
@@ -186,8 +188,10 @@ function startGame() {
   challenge.hidden = false;
   mapPanel.hidden = false;
   document.querySelector('.game-status').hidden = false;
+  document.querySelector('#country-empty').hidden=pool.length>0;
   document.querySelector('#game-mode-description').textContent =
-    `${deck.length} question${deck.length > 1 ? 's' : ''} tirée${deck.length > 1 ? 's' : ''} au hasard · 5 tentatives par engin · jusqu'à 5 points par bonne réponse.`;
+    `${deck.length} question${deck.length > 1 ? 's' : ''} · ${quizSettings.label()} · ${maxAttempts()} tentatives par engin · jusqu'à ${maxAttempts()} points par bonne réponse.`;
+  if(!pool.length){resolved=true;challenge.hidden=mapPanel.hidden=answerPanel.hidden=true;document.querySelector('.game-status').hidden=true;return;}
   startRound();
 }
 
@@ -347,6 +351,7 @@ if (Array.isArray(mapData) && mapData.length) {
     hint.hidden = false;
     document.querySelector('#hint-button').disabled = true;
   });
+  quizSettings=window.RADAR_QUIZ.mount(document.querySelector('#quiz-settings'),startGame);
   startGame();
   document.querySelector('#country-form').addEventListener('submit', event => {
     event.preventDefault();
@@ -376,7 +381,7 @@ if (Array.isArray(mapData) && mapData.length) {
       answerPanel.hidden = true;
       document.querySelector('.game-status').hidden = true;
       document.querySelector('#final-score').textContent = `Tu as trouvé ${found} engin${found > 1 ? 's' : ''} sur ${deck.length} et obtenu ${points} point${points > 1 ? 's' : ''}. Meilleure série : ${bestStreak}. Indices utilisés : ${hintsUsed}.`;
-      window.LDV_PROGRESS?.complete('pays',points,deck.length*5,(selectedMode==='quick'?'5 questions':'Catalogue')+' · '+selectedCategory);
+      window.LDV_PROGRESS?.complete('pays',points,deck.length*maxAttempts(),quizSettings.label()+' · '+deck.length+' questions · '+(quizSettings.config.scope==='collection'?'Ma collection':selectedCategory));
       gameEnd.hidden = false;
       gameEnd.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }

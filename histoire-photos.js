@@ -26,10 +26,20 @@
     const prev=make('button','history-gallery-arrow','←'),next=make('button','history-gallery-arrow','→');prev.type=next.type='button';
     prev.setAttribute('aria-label','Photo précédente de '+item.name);next.setAttribute('aria-label','Photo suivante de '+item.name);
     const counter=make('span','history-gallery-count');counter.setAttribute('role','status');counter.setAttribute('aria-live','polite');
-    controls.append(prev,counter,next);wrap.append(controls);
+    const enlarge=make('button','history-enlarge','Agrandir la photo ↗');enlarge.type='button';enlarge.setAttribute('aria-label','Agrandir les photos de '+item.name);
+    controls.append(prev,counter,next,enlarge);wrap.append(controls);
     const caption=make('p','history-gallery-caption'),credit=make('div'),warning=make('p','history-gallery-warning');warning.setAttribute('role','status');warning.hidden=true;
     wrap.append(caption,credit,warning);
-    let index=0;
+    let index=0,dialog=null,largeImage,largeCaption,largeCredit,largeCounter,largeWarning;
+    function updateLarge(){if(!dialog)return;const record=records[index];largeImage.src=record.src;largeImage.alt=record.alt||item.name;largeImage.hidden=false;largeCaption.textContent=record.caption||'Photographie documentaire';largeCredit.replaceChildren(creditFor(record));largeCounter.textContent=(index+1)+' / '+records.length;largeWarning.hidden=true;}
+    function openLarge(){
+      if(!dialog){dialog=make('dialog','photo-lightbox');dialog.setAttribute('aria-label','Photos en grand : '+item.name);const header=make('div','photo-lightbox-header'),title=make('h2','',item.name),close=make('button','','Fermer ✕');close.type='button';close.addEventListener('click',()=>dialog.close());header.append(title,close);
+        largeImage=make('img','photo-lightbox-image');largeCaption=make('p');largeCredit=make('div','photo-lightbox-credit');largeCounter=make('span');largeCounter.setAttribute('role','status');largeWarning=make('p','','Cette photo ne se charge pas. Choisis une autre vue ou ouvre sa source.');largeWarning.setAttribute('role','status');largeWarning.hidden=true;
+        const actions=make('div','photo-lightbox-controls'),back=make('button','','← Précédente'),forward=make('button','','Suivante →');back.type=forward.type='button';back.disabled=forward.disabled=records.length<2;back.addEventListener('click',()=>show(index-1));forward.addEventListener('click',()=>show(index+1));actions.append(back,largeCounter,forward);dialog.append(header,largeImage,actions,largeCaption,largeCredit,largeWarning);wrap.append(dialog);
+        dialog.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();show(index+(event.key==='ArrowLeft'?-1:1))}});dialog.addEventListener('close',()=>enlarge.focus());largeImage.addEventListener('error',()=>{largeImage.hidden=true;largeWarning.hidden=false;});
+      }
+      updateLarge();dialog.showModal();dialog.querySelector('button').focus();
+    }
     function show(position){
       index=(position+records.length)%records.length;
       const current=records[index];image.src=current.src;image.alt=current.alt||item.name;image.title=current.sourceCaption||current.caption||item.name;image.hidden=false;
@@ -38,9 +48,11 @@
       caption.textContent=current.caption||'Photographie documentaire de '+item.name;
       credit.replaceChildren(creditFor(current));warning.hidden=true;
       prev.disabled=next.disabled=records.length<2;
+      if(dialog?.open)updateLarge();
     }
     image.addEventListener('error',()=>{image.hidden=true;warning.hidden=false;warning.textContent='Cette photo ne se charge pas. Tu peux passer à la suivante ou consulter sa source.';});
     prev.addEventListener('click',()=>show(index-1));next.addEventListener('click',()=>show(index+1));
+    enlarge.addEventListener('click',openLarge);image.addEventListener('click',openLarge);
     controls.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();show(index+(event.key==='ArrowLeft'?-1:1))}});
     show(0);return wrap;
   }

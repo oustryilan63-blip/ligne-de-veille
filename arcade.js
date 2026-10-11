@@ -3,6 +3,7 @@
   if (!game) return;
   const $ = id => document.getElementById(id);
   const catalog = window.LDV_ENGINS || [];
+  let zoomSettings;
   const rand = max => Math.floor(Math.random() * max);
   const shuffle = items => {
     const copy = [...items];
@@ -80,6 +81,7 @@
     }));
   }
   function alternatives(item, seedShuffle = shuffle) {
+    if(game==='zoom'&&zoomSettings)return window.RADAR_CATALOGUE.options(item,catalog,zoomSettings.config.level,seedShuffle);
     const sameKind = catalog.filter(other => other.kind === item.kind && other.name !== item.name);
     const sameCategory = catalog.filter(other => other.category === item.category && other.name !== item.name);
     const picked = [];
@@ -108,7 +110,7 @@
 
   if (game === 'zoom') {
     let deck, index, score, stage, resolved;
-    const scales = [3.6, 2.8, 2.1, 1.5, 1];
+    let scales = [3.6, 2.8, 2.1, 1.5, 1];
     function round() {
       const item = deck[index]; stage = 0; resolved = false;
       text('arcade-progress', `PHOTO ${index + 1} / ${deck.length}`);
@@ -140,9 +142,10 @@
       text('zoom-level', `CADRAGE ${stage + 1} / ${scales.length} · ${5 - stage} POINTS POSSIBLES`);
       $('zoom-reveal').disabled = stage === scales.length - 1;
     });
-    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) { window.LDV_PROGRESS?.complete('zoom',score,25,'5 photos'); finish(`${score} point${score > 1 ? 's' : ''} sur 25. Les bons réflexes d’observation font la différence.`); } else round(); });
+    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) { window.LDV_PROGRESS?.complete('zoom',score,25,zoomSettings.label()+' · 5 photos'); finish(`${score} point${score > 1 ? 's' : ''} sur 25. Les bons réflexes d’observation font la différence.`); } else round(); });
     $('arcade-restart').addEventListener('click', start);
-    function start() { deck = shuffle(catalog).slice(0, 5); index = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); }
+    function start() { scales=zoomSettings.config.level==='beginner'?[2.4,1.9,1.5,1.2,1]:zoomSettings.config.level==='expert'?[4.8,3.8,2.8,1.9,1]:[3.6,2.8,2.1,1.5,1];deck = shuffle(catalog).slice(0, 5); index = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); }
+    zoomSettings=window.RADAR_QUIZ.mount($('quiz-settings'),start,{collectionAllowed:false});
     start();
   }
 

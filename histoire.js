@@ -13,6 +13,9 @@
   const search = document.getElementById('history-search');
   const count = document.getElementById('history-count');
   const empty = document.getElementById('history-empty');
+  const tools=window.RADAR_CATALOGUE,collection=window.RADAR_COLLECTION;
+  const collectionOnly=document.body.dataset.collectionOnly==='true';
+  const countrySelect=document.getElementById('history-country'),typeSelect=document.getElementById('history-type'),sortSelect=document.getElementById('history-sort');
   const mapCodes = new Set(countries.map(c => c.code));
   const strip = s => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
   const codeName = code => {try {return nameFor.of(code) || code} catch {return code}};
@@ -30,19 +33,35 @@
     return 'Avions';
   };
   let selected = 'Tous';
+  const latest=engins.map(e=>e.addedAt||'').sort().at(-1);
+  const originCodes=[...new Set(engins.flatMap(e=>e.originCodes||[e.code]))].sort((a,b)=>tools.countryName(a).localeCompare(tools.countryName(b),'fr'));
+  for(const code of originCodes){const option=el('option','',tools.countryName(code));option.value=code;countrySelect.append(option)}
+  for(const [key,label] of Object.entries(tools.types).filter(([key])=>engins.some(e=>tools.type(e)===key))){const option=el('option','',label);option.value=key;typeSelect.append(option)}
   categories.forEach(c => {const b=el('button','',c);b.type='button';b.setAttribute('aria-pressed',String(c===selected));b.addEventListener('click',()=>{selected=c;filters.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));renderCatalogue()});filters.append(b)});
   function renderCatalogue(){
-    const query=strip(search.value.trim());
-    const found=engins.map((item,i)=>({item,i})).filter(({item})=>(selected==='Tous'||(selected==='Ajouts récents'?item.addedAt==='2026-10-11':selected==='Vues 3D'?window.RADAR_3D?.has(item):group(item)===selected))&&strip([item.name,item.kind,item.country].join(' ')).includes(query));
+    const query=search.value.trim();
+    const found=engins.map((item,i)=>({item,i})).filter(({item})=>(!collectionOnly||collection.has(item.name))&&(selected==='Tous'||(selected==='Ajouts récents'?item.addedAt&&item.addedAt===latest:selected==='Vues 3D'?window.RADAR_3D?.has(item):group(item)===selected))&&(!countrySelect.value||(item.originCodes||[item.code]).includes(countrySelect.value))&&(!typeSelect.value||tools.type(item)===typeSelect.value)&&tools.matches(item,query));
+    if(sortSelect.value==='alpha')found.sort((a,b)=>a.item.name.localeCompare(b.item.name,'fr',{numeric:true}));
+    if(sortSelect.value==='recent')found.sort((a,b)=>(b.item.addedAt||'').localeCompare(a.item.addedAt||'')||b.i-a.i);
     grid.replaceChildren();
     found.forEach(({item,i})=>{
       const a=el('a','history-card');if(item.category==='missiles')a.classList.add('history-card-missile');a.href='histoire.html?engin='+i;a.setAttribute('aria-label','Lire la fiche : '+item.name);
+      if(collectionOnly)a.href+='&retour=collection';
       a.append(photo(item));const body=el('div','history-card-copy');body.append(el('span','history-card-kicker',item.kind));
-      const row=el('div','history-card-title');row.append(el('strong','',item.name),el('span','','↗'));body.append(row,el('span','history-card-country',item.country));if(window.RADAR_3D?.has(item))body.append(el('span','history-3d-badge','Vue 3D disponible'));a.append(body);grid.append(a);
+      const row=el('div','history-card-title');row.append(el('strong','',item.name),el('span','','↗'));body.append(row,el('span','history-card-country',item.country));if(window.RADAR_3D?.has(item))body.append(el('span','history-3d-badge','Vue 3D disponible'));a.append(body);const shell=el('article','history-card-shell');shell.append(a,collection.button(item));grid.append(shell);
     });
     count.textContent=found.length+' / '+engins.length+' ENGINS';empty.hidden=found.length>0;
+    if(collectionOnly&&collection.names().length===0)empty.textContent='Ta collection est vide. Dans Histoire, utilise les étoiles pour choisir tes premiers engins.';
+    else empty.textContent='Aucun engin ne correspond à cette recherche.';
+    const total=collection.names().length;
+    document.querySelectorAll('[data-collection-count]').forEach(n=>n.textContent=String(total));
+    const notice=document.getElementById('collection-state');if(notice)notice.textContent=collection.persistent()?'Collection conservée dans ce navigateur, sans compte.':'Le stockage est indisponible : cette collection reste disponible seulement sur cette page.';
+    const quiz=document.getElementById('collection-quiz-link');if(quiz){quiz.href='devine-engin.html?collection=1'+(total<4?'&reponse=text':'');quiz.textContent=total<4?'Quiz en réponse libre →':'Quiz sur ma collection →';quiz.hidden=total===0;}
   }
   search.addEventListener('input',renderCatalogue);
+  for(const select of [countrySelect,typeSelect,sortSelect])select.addEventListener('change',renderCatalogue);
+  document.getElementById('history-reset')?.addEventListener('click',()=>{search.value=countrySelect.value=typeSelect.value='';sortSelect.value='catalogue';selected='Tous';filters.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.textContent==='Tous')));renderCatalogue()});
+  window.addEventListener('radar-collection-change',()=>{if(!detail.hidden)return;const active=document.activeElement?.dataset?.favourite;renderCatalogue();if(active){const target=[...grid.querySelectorAll('[data-favourite]')].find(b=>b.dataset.favourite===active);if(target)target.focus();else document.getElementById('collection-title')?.focus();}});
   function section(title, desc){const s=el('section','history-detail-section');s.append(el('h3','',title));if(desc)s.append(el('p','',desc));return s}
   function technicalCard(index){
     const data=technical[index];
@@ -72,20 +91,23 @@
         el('p','history-tech-date','Sources consultées le '+data.checkedAt.split('-').reverse().join('/')+'.'));
     }else panel.append(el('p','history-tech-note','Les caractéristiques de cet engin ne sont pas encore vérifiées.'));
     button.addEventListener('click',()=>{const opened=panel.hidden;panel.hidden=!opened;button.setAttribute('aria-expanded',String(opened));caption.textContent=opened?'Masquer la fiche technique':'Afficher la fiche technique';icon.textContent=opened?'−':'+'});
-    wrap.append(button,panel);return wrap;
+    wrap.id='technique';wrap.append(button,panel);return wrap;
   }
   function renderDetail(index){
     const item=engins[index],fact=facts[index]||{},figuresFor=figures[index]||{};
     catalogue.hidden=true;detail.hidden=false;detail.replaceChildren();document.body.classList.add('history-profile');document.title=item.name+' | Histoire | Radar';
-    const back=el('a','history-back','← Revenir aux '+engins.length+' engins');back.href='histoire.html';detail.append(back);
-    const head=el('div','history-detail-head');const media=el('div',item.category==='missiles'?'history-missile-media':'');media.append(window.RADAR_PHOTOS.create(item));
+    const fromCollection=params.get('retour')==='collection';
+    const back=el('a','history-back',fromCollection?'← Revenir à ma collection':'← Revenir aux '+engins.length+' engins');back.href=fromCollection?'collection.html':'histoire.html';detail.append(back);
+    const jump=el('nav','profile-jump');jump.setAttribute('aria-label','Dans cette fiche');detail.append(jump);
+    const head=el('div','history-detail-head');const media=el('div',item.category==='missiles'?'history-missile-media':'');media.id='photos';media.append(window.RADAR_PHOTOS.create(item));
     const copy=el('div');copy.append(el('span','history-kicker',String(index+1).padStart(2,'0')+' / '+item.kind+' / '+item.country),el('h2','',item.name),el('p','history-subtitle','Origine : '+item.country));
     copy.append(el('p','',item.explanation));
+    copy.append(collection.button(item,true));
     const compare=el('a','compare-link','Comparer cet engin →');compare.href='comparateur.html?a='+index;copy.append(compare);
     copy.append(technicalCard(index));
     const modelView=window.RADAR_3D?.create(item);
     if(modelView){const explore=el('a','button button-dark history-3d-shortcut','Explorer cet engin en 3D ↓');explore.href='#vue-3d';explore.addEventListener('click',()=>modelView.open());media.append(explore)}
-    (fact.story||'L’histoire de cet engin est présentée dans la source liée ci-dessous.').split('\n\n').forEach(paragraph=>copy.append(el('p','',paragraph)));
+    const story=el('div');story.id='recit';(fact.story||'L’histoire de cet engin est présentée dans la source liée ci-dessous.').split('\n\n').forEach(paragraph=>story.append(el('p','',paragraph)));copy.append(story);
     head.append(media,copy);detail.append(head);
     if(modelView)detail.append(modelView.section);
     const events=window.LDV_TIMELINES?.[index]||[];
@@ -93,6 +115,7 @@
     const origin=item.code,origins=item.originCodes||[origin],former=fact.former||[];
     const current=fact.originOnly?[]:[...new Set([...(former.includes(origin)?[]:[origin]),...(fact.current||[])])];
     const mapSection=section('Où a-t-il été utilisé ?',"La carte situe le pays de conception et les pays utilisateurs documentés. Elle ne montre pas les pays ayant seulement passé commande ni les lieux de déploiement temporaire.");
+    mapSection.id='utilisateurs';
     const mapWrap=el('div','history-map-wrap');const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','-60 -25 1320 550');svg.setAttribute('role','img');svg.setAttribute('aria-label','Carte des pays associés à '+item.name);svg.classList.add('history-map');
     const mapTitle=document.createElementNS('http://www.w3.org/2000/svg','title');mapTitle.textContent='Carte des pays associés à '+item.name;svg.append(mapTitle);
     countries.forEach(c=>{const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('d',c.path);p.dataset.code=c.code;if(former.includes(c.code))p.classList.add('former');if(current.includes(c.code))p.classList.add('current');if(origins.includes(c.code))p.classList.add('origin');const t=document.createElementNS('http://www.w3.org/2000/svg','title');let state=origins.includes(c.code)?' · conception':current.includes(c.code)?' · utilisateur actuel documenté':former.includes(c.code)?' · ancien utilisateur documenté':'';t.textContent=codeName(c.code)+state;p.append(t);svg.append(p)});
@@ -104,6 +127,7 @@
     detail.append(mapSection);
     const stats=section('Repères chiffrés',"Chaque chiffre précise son périmètre : engins construits, livrés ou en service ; pertes documentées au combat ou lors d'un accident ; cibles attribuées. Les bilans de pertes ne sont pas des totaux mondiaux. Si les destructions de cibles ne peuvent pas être attribuées avec assez de confiance, la dernière carte indique le nombre de pays présents sur la carte.");
     const statGrid=el('div','history-stats');
+    stats.id='chiffres';
     const production=figuresFor.production||fact.production;
     const inventory=figuresFor.inventory;
     const mainFigure=production||inventory;
@@ -128,9 +152,10 @@
       }
       detail.append(records);
     }
-    const sources=el('section','history-detail-section history-sources');sources.append(el('h3','','Sources de la fiche'));const list=el('ul');
+    const sources=el('section','history-detail-section history-sources');sources.id='sources';sources.append(el('h3','','Sources de la fiche'));const list=el('ul');
     const refs=[['Présentation et histoire du programme',item.source],['Pays utilisateurs',fact.operatorSource],['Anciens utilisateurs',fact.formerSource],['Production et livraisons',production?.source],['Inventaire daté',inventory?.source],['Engins détruits',figuresFor.losses?.source],['Cibles détruites',figuresFor.targets?.source],...(fact.storySources||[]).map(ref=>[ref.label,ref.url]),...(fact.extraSources||[]).map(url=>['Autre source',url])];const seen=new Set();refs.forEach(([title,url])=>{if(url&&!seen.has(url)){seen.add(url);const li=el('li');li.append(link(title+' ↗',url));list.append(li)}});sources.append(list,el('p','','Sources consultées le '+(fact.checkedAt||'10 octobre 2026')+'. La carte présente les pays documentés dans ces sources, sans prétendre couvrir chaque transfert ou retrait. Les bilans de pertes sont des minimums documentés ou des estimations datées, précisés dans chaque carte.'));detail.append(sources);
     const next=el('nav','history-next');next.setAttribute('aria-label','Parcourir les fiches');const prev=el('a','','← '+engins[(index+engins.length-1)%engins.length].name);prev.href='histoire.html?engin='+(index+engins.length-1)%engins.length;const after=el('a','',engins[(index+1)%engins.length].name+' →');after.href='histoire.html?engin='+(index+1)%engins.length;next.append(prev,after);detail.append(next);
+    for(const [label,id] of [['Histoire','recit'],['Technique','technique'],['Photos','photos'],...(modelView?[['3D','vue-3d']]:[]),['Carte','utilisateurs'],['Chiffres','chiffres'],['Sources','sources']]){const a=el('a','',label);a.href='#'+id;if(id==='technique')a.addEventListener('click',()=>{const button=document.getElementById('tech-toggle-'+index);if(button.getAttribute('aria-expanded')==='false')button.click()});jump.append(a);}
   }
   const params=new URLSearchParams(location.search);const index=Number(params.get('engin'));
   if(params.has('engin')&&Number.isInteger(index)&&index>=0&&index<engins.length)renderDetail(index);else renderCatalogue();
