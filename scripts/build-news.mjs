@@ -15,7 +15,7 @@ for (const item of source.items) {
     if (typeof item[field] !== 'string' || !item[field].trim() || item[field].length > max) throw new Error(`Champ ${field} invalide`);
   }
   const url = new URL(item.url);
-  if(item.source==='Conflits')delete item.sourceExcerpt;
+  if(/conflits/i.test(item.source))delete item.sourceExcerpt;
   if(item.image){
     const image=item.image,src=new URL(image.src),license=new URL(image.licenseUrl);
     if(image.kind!=='article'||src.protocol!=='https:'||src.hostname!=='assets.publishing.service.gov.uk'||!src.pathname.startsWith('/media/')||src.username||src.password||url.hostname!=='www.gov.uk'||image.sourceUrl!==item.url||image.license!=='OGL v3'||license.href!=='https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/')throw new Error('Image officielle ou licence invalide');

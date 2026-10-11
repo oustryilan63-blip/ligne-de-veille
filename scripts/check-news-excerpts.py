@@ -13,8 +13,9 @@ source={'name':'Exemple','type':'Source officielle','language':'fr','domains':['
 rss=b'<rss><channel><item><title>Exemple valide</title><link>https://example.org/texte</link><pubDate>Sun, 11 Oct 2026 10:00:00 GMT</pubDate><description>Un extrait fourni directement par son editeur dans le flux officiel.</description></item><item><title>Hors domaine</title><link>https://foreign.org/texte</link><pubDate>Sun, 11 Oct 2026 10:00:00 GMT</pubDate></item></channel></rss>'
 rows=news.parse_feed(rss,source,dt.datetime(2026,10,11,12,tzinfo=dt.timezone.utc))
 assert len(rows)==1 and rows[0]['sourceExcerpt']['kind']=='feed-excerpt'
-source['name']='Conflits'
-assert 'sourceExcerpt' not in news.parse_feed(rss,source,dt.datetime(2026,10,11,12,tzinfo=dt.timezone.utc))[0]
+for name in ['Conflits','Revue Conflits']:
+    source['name']=name
+    assert 'sourceExcerpt' not in news.parse_feed(rss,source,dt.datetime(2026,10,11,12,tzinfo=dt.timezone.utc))[0]
 # Only a first-party editorial lead can receive the OGL image field.
 original=news.request
 import json

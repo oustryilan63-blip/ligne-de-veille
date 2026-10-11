@@ -91,7 +91,7 @@ def parse_feed(data, source, now):
         except ValueError: continue
         if source.get('pathPrefix') and not urllib.parse.urlsplit(url).path.startswith(source['pathPrefix']): continue
         item = {'date':published.astimezone(PARIS).date().isoformat(),'publishedAt':published.isoformat(),'source':source['name'],'sourceType':source['type'],'title':title,'url':url,'language':source['language'],'autoCollected':True,'summary':'Publication repérée dans le flux de '+source['name']+'. Consultez le site d’origine pour lire le contenu complet.','why':'Document original accessible chez son éditeur ; titre et date transmis par son flux.'}
-        excerpt = source_excerpt(entry) if source['name'] != 'Conflits' else None
+        excerpt = source_excerpt(entry) if 'conflits' not in source['name'].casefold() else None
         if excerpt: item['sourceExcerpt'] = excerpt
         result.append(item)
     return sorted(result,key=lambda item:item['publishedAt'],reverse=True)
@@ -137,7 +137,7 @@ def enrich_images(items):
         for item, image in zip(eligible, pool.map(article_image, eligible)):
             if image: item['image'] = image
     for item in items:
-        if item['source'] == 'Conflits': item.pop('sourceExcerpt', None)
+        if 'conflits' in item['source'].casefold(): item.pop('sourceExcerpt', None)
 
 def main():
     now = dt.datetime.now(dt.timezone.utc)
