@@ -3,6 +3,7 @@
   const engins = window.LDV_ENGINS || [];
   const facts = window.LDV_HISTOIRE || [];
   const figures = window.LDV_CHIFFRES || {};
+  const technical = window.LDV_TECHNIQUE || {};
   const countries = window.LDV_MAP || [];
   const nameFor = new Intl.DisplayNames(['fr'], {type:'region'});
   const catalogue = document.getElementById('history-catalogue');
@@ -43,6 +44,34 @@
   }
   search.addEventListener('input',renderCatalogue);
   function section(title, desc){const s=el('section','history-detail-section');s.append(el('h3','',title));if(desc)s.append(el('p','',desc));return s}
+  function technicalCard(index){
+    const data=technical[index];
+    const wrap=el('div','history-tech');
+    const button=el('button','history-tech-toggle');button.type='button';
+    const caption=el('span','','Afficher la fiche technique');
+    const icon=el('span','history-tech-icon','+');icon.setAttribute('aria-hidden','true');
+    button.append(caption,icon);button.id='tech-toggle-'+index;
+    button.setAttribute('aria-expanded','false');button.setAttribute('aria-controls','tech-panel-'+index);
+    const panel=el('section','history-tech-panel');panel.id='tech-panel-'+index;panel.hidden=true;
+    panel.setAttribute('aria-labelledby',button.id);
+    if(data){
+      panel.append(el('h3','','Fiche technique'),el('p','history-tech-variant','Version : '+data.variant));
+      const refs=data.sources||[],list=el('dl','history-tech-fields');
+      for(const field of data.fields){
+        const row=el('div'),value=el('dd','',field.value),number=refs.findIndex(s=>s.url===field.source)+1;
+        const citation=link('['+number+']',field.source);citation.className='history-tech-citation';
+        citation.setAttribute('aria-label','Source : '+field.label+' — '+(refs[number-1]?.label||'référence'));
+        value.append(' ',citation);row.append(el('dt','',field.label),value);list.append(row);
+      }
+      panel.append(list);
+      if(data.note)panel.append(el('p','history-tech-note',data.note));
+      const sources=el('ol','history-tech-sources');for(const ref of refs){const li=el('li');li.append(link(ref.label+' ↗',ref.url));sources.append(li)}
+      panel.append(el('p','history-tech-source-title','Sources des caractéristiques'),sources,
+        el('p','history-tech-date','Sources consultées le '+data.checkedAt.split('-').reverse().join('/')+'.'));
+    }else panel.append(el('p','history-tech-note','Les caractéristiques de cet engin ne sont pas encore vérifiées.'));
+    button.addEventListener('click',()=>{const opened=panel.hidden;panel.hidden=!opened;button.setAttribute('aria-expanded',String(opened));caption.textContent=opened?'Masquer la fiche technique':'Afficher la fiche technique';icon.textContent=opened?'−':'+'});
+    wrap.append(button,panel);return wrap;
+  }
   function renderDetail(index){
     const item=engins[index],fact=facts[index]||{},figuresFor=figures[index]||{};
     catalogue.hidden=true;detail.hidden=false;detail.replaceChildren();document.body.classList.add('history-profile');document.title=item.name+' | Histoire | Ligne de Veille';
@@ -53,6 +82,7 @@
     if(item.photoLicenseUrl){credit.append(' · ',link('Licence',item.photoLicenseUrl))}media.append(credit);
     const copy=el('div');copy.append(el('span','history-kicker',String(index+1).padStart(2,'0')+' / '+item.kind+' / '+item.country),el('h2','',item.name),el('p','history-subtitle','Origine : '+item.country));
     copy.append(el('p','',item.explanation));
+    copy.append(technicalCard(index));
     (fact.story||'L’histoire de cet engin est présentée dans la source liée ci-dessous.').split('\n\n').forEach(paragraph=>copy.append(el('p','',paragraph)));
     head.append(media,copy);detail.append(head);
     const origin=item.code,origins=item.originCodes||[origin],former=fact.former||[];

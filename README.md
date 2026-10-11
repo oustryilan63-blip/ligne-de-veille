@@ -35,3 +35,9 @@ Plus de détails figurent dans `LISEZ-MOI.md`.
 ## Extension missiles — 11 octobre 2026
 
 Dix nouvelles fiches, dont six ICBM, portent le catalogue à 100 engins et 18 missiles. Les jeux utilisant le catalogue commun les incluent ; dix affirmations complètent le vrai/faux. Chrono conserve ses dates de premiers vols d’avions. Les données de production, livraisons et inventaires restent distinctes et datées. Les événements matériels documentés apparaissent sous les statistiques, avec les sources et le statut (coulé, endommagé, attribution collective ou hors combat). Ils ne sont pas un bilan mondial de destructions. Les dix images et leurs licences sont regroupées dans assets/jeu/ajouts/serie-5. Le M51 est illustré par un dessin explicitement crédité.
+
+## Fiches techniques (11 octobre 2026)
+
+Les 100 fiches Histoire proposent un bouton sous leur présentation. `histoire-technique.js` contient 547 caractéristiques publiques avec une variante explicite, une source par valeur, une date de consultation et une note de périmètre. Les panneaux sont fermés au chargement et accessibles au clavier.
+
+Les données non confirmées ne sont pas complétées par déduction. Certaines fiches restent partielles (notamment J-10, J-20, Su-57, Type 055, Topol-M, Yars, DF-41 et SM-3). Les masses, dimensions et performances varient selon les configurations. Les chiffres convertis sont signalés. Le contrôle du catalogue exige une fiche technique sourcée pour chaque nouvel engin.
