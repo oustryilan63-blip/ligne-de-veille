@@ -1,4 +1,4 @@
-name: Veille de 8 h et publication du site
+name: Radar · veille de 8 h et publication du site
 
 on:
   schedule:
@@ -33,7 +33,7 @@ jobs:
       - name: Conserver la veille dans le dépôt
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
-          git config user.name "Ligne de Veille"
+          git config user.name "Radar"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add actualites.json actualites.js
           if ! git diff --cached --quiet; then
@@ -43,7 +43,7 @@ jobs:
       - name: Préparer les fichiers publics
         run: |
           mkdir _site
-          cp *.html *.css *.js actualites.json _site/
+          cp *.html *.css *.js *.svg actualites.json _site/
           cp -R assets _site/assets
       - uses: actions/upload-pages-artifact@v4
         with:
