@@ -26,13 +26,14 @@
     header.append(heading);
     const stage = make('div', 'history-3d-stage');
     const poster = make('div', 'history-3d-poster');
+    const photograph = window.RADAR_PHOTOS?.preview(item);
     const photo = make('img');
-    photo.src = model.thumbnail;
-    photo.alt = 'Aperçu du modèle 3D : ' + model.title;
-    photo.loading = 'lazy'; photo.decoding = 'async'; photo.referrerPolicy = 'no-referrer';
+    if(photograph){photo.src = photograph.src;photo.alt = photograph.alt||'Photographie de '+item.name;}
+    else {photo.hidden=true;poster.classList.add('history-3d-poster-noimage');}
+    photo.loading = 'lazy'; photo.decoding = 'async';
     photo.addEventListener('error', () => { photo.hidden = true; poster.classList.add('history-3d-poster-noimage'); });
     const prompt = make('div');
-    prompt.append(make('strong', '', 'À toi de l’explorer.'), make('p', '', 'Le modèle 3D se charge uniquement quand tu l’ouvres.'), make('small', '', 'Aperçu du modèle · ' + model.title));
+    prompt.append(make('strong', '', 'À toi de l’explorer.'), make('p', '', 'Le modèle 3D se charge uniquement quand tu l’ouvres.'), make('small', '', 'Photo réelle · ' + item.name));
     poster.append(photo, prompt);
     stage.append(poster);
     const actions = make('div', 'history-3d-actions');
@@ -47,7 +48,7 @@
     credit.append(external(model.title, model.url), ' · par ', external(model.author, model.authorUrl), ' · sur ', external('Sketchfab', 'https://sketchfab.com'), ' · ');
     if (model.licenseUrl) credit.append(external(model.licenseLabel + ' (licence affichée)', model.licenseUrl));
     else credit.append(model.licenseLabel);
-    const note = make('p', 'history-3d-note', model.note + ' Le lecteur et son aperçu sont fournis par Sketchfab. L’affichage nécessite une connexion et un navigateur compatible 3D.');
+    const note = make('p', 'history-3d-note', model.note + ' Le lecteur est fourni par Sketchfab. L’affichage nécessite une connexion et un navigateur compatible 3D.');
     let frame = null;
     function open() {
       if (frame) return;
@@ -74,6 +75,7 @@
       toggle.textContent = 'Charger la vue 3D'; toggle.setAttribute('aria-expanded', 'false');
     });
     section.append(header, stage, actions, status, help, credit, note);
+    if(photograph)section.append(window.RADAR_PHOTOS.creditFor(photograph));
     return { section, open };
   }
   window.RADAR_3D = Object.freeze({ has: item => Boolean(models[item.name]), create });

@@ -18,7 +18,7 @@
   const codeName = code => {try {return nameFor.of(code) || code} catch {return code}};
   const el = (tag, cls, value) => {const n=document.createElement(tag);if(cls)n.className=cls;if(value!==undefined)n.textContent=value;return n};
   const link = (label, href) => {const a=el('a','',label);a.href=href;a.target='_blank';a.rel='noopener noreferrer';return a};
-  const photo = item => {const img=el('img');img.src='assets/jeu/'+item.photo;img.alt=item.alt || item.name;img.loading='lazy';return img};
+  const photo = item => {const img=el('img');const real=item.mediaLabel==='Illustration'?window.RADAR_PHOTOS?.photos(item).find(p=>p.real!==false):null;img.src=real?.src||'assets/jeu/'+item.photo;img.alt=real?.alt||item.alt||item.name;img.loading='lazy';return img};
   const categories = ['Tous','Vues 3D','Chars et blindés','Avions','Drones et hélicoptères','Navires et sous-marins','Artillerie','Missiles'];
   const group = item => {
     if (item.category === 'missiles') return 'Missiles';
@@ -78,10 +78,7 @@
     const item=engins[index],fact=facts[index]||{},figuresFor=figures[index]||{};
     catalogue.hidden=true;detail.hidden=false;detail.replaceChildren();document.body.classList.add('history-profile');document.title=item.name+' | Histoire | Radar';
     const back=el('a','history-back','← Revenir aux '+engins.length+' engins');back.href='histoire.html';detail.append(back);
-    const head=el('div','history-detail-head');const media=el('div',item.category==='missiles'?'history-missile-media':'');media.append(photo(item));
-    const credit=el('p','history-photo-credit',(item.mediaLabel||'Photo')+' : '+(item.photoAuthor||'Wikimedia Commons')+' · '+(item.photoLicense||'Licence indiquée sur la source'));
-    if(item.photoFile){credit.append(' · ',link('Voir la photo','https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(item.photoFile)))}
-    if(item.photoLicenseUrl){credit.append(' · ',link('Licence',item.photoLicenseUrl))}media.append(credit);
+    const head=el('div','history-detail-head');const media=el('div',item.category==='missiles'?'history-missile-media':'');media.append(window.RADAR_PHOTOS.create(item));
     const copy=el('div');copy.append(el('span','history-kicker',String(index+1).padStart(2,'0')+' / '+item.kind+' / '+item.country),el('h2','',item.name),el('p','history-subtitle','Origine : '+item.country));
     copy.append(el('p','',item.explanation));
     const compare=el('a','compare-link','Comparer cet engin →');compare.href='comparateur.html?a='+index;copy.append(compare);
