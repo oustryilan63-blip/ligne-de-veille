@@ -4,6 +4,34 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-10-11",
+      "publishedAt": "2026-10-11T16:10:49+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Diesel russe : derrière le deal de l’année entre Washington et Moscou",
+      "url": "https://www.revueconflits.com/diesel-russe-derriere-le-deal-de-lannee-entre-washington-et-moscou/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-10-11T19:53:54.990622+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/07/SIPA_ap23046265_000128.jpg",
+        "kind": "article",
+        "alt": "Diesel russe : derrière le deal de l’année entre Washington et Moscou",
+        "credit": "President Donald Trump gestures after speaking at Mount Rushmore National Memorial, Friday, July 3, 2026, near Keystone, S.D. (AP Photo/Alex Brandon)/SDJE365/26185169767807//2607040644",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/diesel-russe-derriere-le-deal-de-lannee-entre-washington-et-moscou/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/diesel-russe-derriere-le-deal-de-lannee-entre-washington-et-moscou/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/07/SIPA_ap23046265_000128.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-11",
       "publishedAt": "2026-10-11T13:35:43+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -91,6 +119,38 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/smr-general-atomics-20260827.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-11",
+      "publishedAt": "2026-10-11T08:26:17+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "U.S. Navy Seeks Information on SSN(X) Next Gen Submarine",
+      "url": "https://www.navalnews.com/naval-news/2026/10/u-s-navy-seeks-information-on-ssnx-next-gen-submarine/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "The U.S. Navy published a Sources Sought Notice concerning SSN(X) late in the morning on October 9th, seeking information from…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-11T19:53:54.990622+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/DCS_23_387_451_02c244ba03-768x512.webp",
+        "kind": "article",
+        "alt": "U.S. Navy Seeks Information on SSN(X) Next Gen Submarine",
+        "credit": "Newport News Shipbuilding",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/u-s-navy-seeks-information-on-ssnx-next-gen-submarine/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/u-s-navy-seeks-information-on-ssnx-next-gen-submarine/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/DCS_23_387_451_02c244ba03-scaled.webp",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -330,6 +390,38 @@ window.LDV_NEWS = {
     },
     {
       "date": "2026-10-09",
+      "publishedAt": "2026-10-09T18:57:43+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "ET MAINTENANT QUE VAIS-JE FAIRE ?....",
+      "url": "https://blablachars.blogspot.com/2026/10/et-maintenant-que-vais-je-faire.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "En dépit de son titre (qui devrait rappeler quelques souvenirs aux plus anciens des blindonautes) cet article ne traitera pas…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-11T19:53:54.990622+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAyiXXDi6Mdslw2U4riJZh9wh8M0-ftoynmtiNEaY2R554Px00nsdpaPyUo1djTLHT4EmLwFwTZXNvR8hC7l-YOmP4UjSqhQuhyphenhyphenHe6mE640yoIOHvyFcobW2Zox13kW4h4rJAGR_vQlBqG5EfGBw53dCS-zoCoTJJcnS-7AlUx2ma7WBZJgMHsyGi2ySM/w1200-h630-p-k-no-nu/leclerc%20Proto.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « ET MAINTENANT QUE VAIS-JE FAIRE ?.... ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/et-maintenant-que-vais-je-faire.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/et-maintenant-que-vais-je-faire.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAyiXXDi6Mdslw2U4riJZh9wh8M0-ftoynmtiNEaY2R554Px00nsdpaPyUo1djTLHT4EmLwFwTZXNvR8hC7l-YOmP4UjSqhQuhyphenhyphenHe6mE640yoIOHvyFcobW2Zox13kW4h4rJAGR_vQlBqG5EfGBw53dCS-zoCoTJJcnS-7AlUx2ma7WBZJgMHsyGi2ySM/w1200-h630-p-k-no-nu/leclerc%20Proto.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-09",
       "publishedAt": "2026-10-09T17:33:44+00:00",
       "source": "Zone Militaire — Opex360",
       "sourceType": "Presse spécialisée",
@@ -385,6 +477,38 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2019/10/chine-cybercriminalite-etats-unis-hackers-internet.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T14:39:35+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Navantia and Larsen and Toubro collaborate to offer LHDs to the Indian Navy",
+      "url": "https://www.navalnews.com/naval-news/2026/10/navantia-and-larsen-and-toubro-collaborate-to-offer-lhds-to-the-indian-navy/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Navantia and L&T (Larsen and Toubro) have reached a strategic agreement to collaborate on the upcoming program for four amphibious…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-11T19:53:54.990622+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/navantia-larsen-and-toubro-768x439.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Navantia and Larsen and Toubro collaborate to offer LHDs to the Indian Navy ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/navantia-and-larsen-and-toubro-collaborate-to-offer-lhds-to-the-indian-navy/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/navantia-and-larsen-and-toubro-collaborate-to-offer-lhds-to-the-indian-navy/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/navantia-larsen-and-toubro-scaled.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -502,6 +626,38 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/08/ChatGPT-Image-27-aout-2026-17_03_39.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T08:18:49+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Une accélération à l’étude pour le successeur du LRU",
+      "url": "https://forcesoperations.com/une-acceleration-a-letude-pour-le-successeur-du-lru/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Longtemps attendu et enfin contractualisé, le remplacement du lance-roquettes unitaire (LRU) par le système THUNDART de Safran et MBDA pourrait…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-11T19:53:54.990622+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/07/La-Belgique-ELSA-et-les-feux-dans-la-profondeur_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Une accélération à l’étude pour le successeur du LRU ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/une-acceleration-a-letude-pour-le-successeur-du-lru/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/une-acceleration-a-letude-pour-le-successeur-du-lru/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/07/La-Belgique-ELSA-et-les-feux-dans-la-profondeur_001-394x218.png",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -771,6 +927,70 @@ window.LDV_NEWS = {
     },
     {
       "date": "2026-10-07",
+      "publishedAt": "2026-10-07T17:19:57+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "LA RUSSIE AU CENTRE DE L'EXERCICE",
+      "url": "https://blablachars.blogspot.com/2026/10/la-russie-au-centre-de-lexercice.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "L'exercice russe Tsentr (Centre) 2026 qui s'est déroulé du 28 septembre au 03 octobre dans la région de Tcheliabinsk marquait…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-11T19:53:54.990622+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifvN2GOoYJcGfZ8Pos-OgcD4Gt8OlyfB0xTQCq2zEN1_GixT4Wt8k6VNU05cHxyRkLaN0pb8jh2GjclqvQJdFbMGf5VdZGX4ibO8QHOQVF5cqWG0zQ2pQOe42nVDR_uuBWqlaO71T6uuMSEDV0FI7mHoFW9hshjTvvNyoNrkGeSyJyyC5BflDrm5okK7A/w1200-h630-p-k-no-nu/Shturm.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « LA RUSSIE AU CENTRE DE L'EXERCICE ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/la-russie-au-centre-de-lexercice.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/la-russie-au-centre-de-lexercice.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifvN2GOoYJcGfZ8Pos-OgcD4Gt8OlyfB0xTQCq2zEN1_GixT4Wt8k6VNU05cHxyRkLaN0pb8jh2GjclqvQJdFbMGf5VdZGX4ibO8QHOQVF5cqWG0zQ2pQOe42nVDR_uuBWqlaO71T6uuMSEDV0FI7mHoFW9hshjTvvNyoNrkGeSyJyyC5BflDrm5okK7A/w1200-h630-p-k-no-nu/Shturm.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T15:22:50+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Pourquoi KNDS pousse son canon 105 LG en Pologne",
+      "url": "https://forcesoperations.com/pourquoi-knds-pousse-son-canon-105-lg-en-pologne/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Après s'être rapproché du groupe Niewiadów pour la production d'obus de 155 mm, KNDS s'est tourné le mois dernier vers…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-11T19:53:54.990622+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2022/04/Le-Se%CC%81ne%CC%81gal-mise-sur-Nexter-pour-renouveler-son-artillerie-ink1-394x218.jpeg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Pourquoi KNDS pousse son canon 105 LG en Pologne ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/pourquoi-knds-pousse-son-canon-105-lg-en-pologne/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/pourquoi-knds-pousse-son-canon-105-lg-en-pologne/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-11",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2022/04/Le-Se%CC%81ne%CC%81gal-mise-sur-Nexter-pour-renouveler-son-artillerie-ink1-394x218.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-07",
       "publishedAt": "2026-10-07T15:21:24+00:00",
       "source": "Ministère britannique de la Défense",
       "sourceType": "Source officielle",
@@ -933,7 +1153,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00"
     }
   ],
-  "checkedAt": "2026-10-11T16:01:51.413767+00:00",
+  "checkedAt": "2026-10-11T19:53:52.341800+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -941,7 +1161,7 @@ window.LDV_NEWS = {
       "18:00"
     ],
     "timezone": "Europe/Paris",
-    "method": "RSS/Atom : titres, dates, liens vérifiés et courts extraits attribués lorsqu’ils sont disponibles",
+    "method": "RSS/Atom : titres, dates, liens vérifiés, courts extraits attribués et images principales avec crédits et autorisations confirmées",
     "sources": [
       {
         "source": "Sénat — Défense",
@@ -972,10 +1192,28 @@ window.LDV_NEWS = {
         "ok": true,
         "recentItems": 10,
         "error": null
+      },
+      {
+        "source": "Blablachars",
+        "ok": true,
+        "recentItems": 6,
+        "error": null
+      },
+      {
+        "source": "Forces Operations Blog",
+        "ok": true,
+        "recentItems": 4,
+        "error": null
+      },
+      {
+        "source": "Naval News",
+        "ok": true,
+        "recentItems": 10,
+        "error": null
       }
     ],
-    "newItems": 0,
-    "articleImages": 32,
-    "imagesCheckedAt": "2026-10-11T18:43:25.184654+00:00"
+    "newItems": 7,
+    "articleImages": 39,
+    "duplicateHeadlinesSkipped": 0
   }
 };

@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const fold=window.RADAR_CATALOGUE.fold;
-  const rules=[['Aérien',/avion|chasseur|aerien|aeronaut|rafale|f.35|helicoptere|drone/],['Maritime',/marin|naval|navire|porte.avions|sous.marin|fregate|torpille|corvette|flotte/],['Terrestre',/armee de terre|blind|char |chars|infanterie|artillerie|obusier|leclerc|gepard|soldat/],['Missiles',/missile|icbm|balistique|scalp|brahmos|atacms|iskander|meteor|patriot/],['Cyber et espace',/cyber|spatial|espace|satellite|orbite|guerre electronique/],['Géopolitique',/geopol|ukraine|russie|chine|coree|iran|alliance|otan|conflit|diplomat|politique/]];
+  const rules=[['Aérien',/avion|chasseur|aerien|aeronaut|rafale|f.35|helicoptere|drone|aircraft|fighter|helicopter/],['Maritime',/marin|naval|navire|porte.avions|sous.marin|fregate|torpille|corvette|flotte|\bnavy\b|submarine|frigate|destroyer|amphibious|shipbuilding/],['Terrestre',/armee de terre|blind|char |chars|infanterie|artillerie|obusier|leclerc|gepard|soldat|\barmy\b|\btank\b|armoured|armored|artillery/],['Missiles',/missile|icbm|balistique|scalp|brahmos|atacms|iskander|meteor|patriot|ballistic|interceptor/],['Cyber et espace',/cyber|spatial|espace|satellite|orbite|guerre electronique|\bspace\b|electronic warfare/],['Géopolitique',/geopol|ukraine|russie|chine|coree|iran|alliance|otan|conflit|diplomat|politique|\bnato\b|russia|china|korea/]];
   const documentText=item=>fold(item.title+' '+(item.sourceExcerpt?.text||(!item.autoCollected?item.summary:'')));
   function themes(item){const text=documentText(item),matched=rules.filter(([,re])=>re.test(text)).map(([name])=>name);return matched.length?matched:['Autres'];}
   const tokens=s=>fold(s).replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ');
