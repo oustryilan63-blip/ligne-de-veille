@@ -133,7 +133,7 @@ window.QG_ART=(()=>{
   for(const [x,y] of [[1,4],[1,7],[2,8],[3,9],[9,0],[10,1],[11,2],[7,9],[8,9]]){const [px,py]=project(x,y);rect(c,px,py-9,3,10,'#586553');poly(c,[[px-11,py-5],[px+1,py-27],[px+13,py-5]],'#496f5c');rect(c,px-6,py-12,9,4,'#628466');}
   Object.entries(positions).sort((a,b)=>a[1][0]+a[1][1]-b[1][0]-b[1][1]).forEach(([id,p])=>{const [x,y]=project(...p);building(c,id,x,y,state.buildings[id],time);});
   const float=Math.sin(time/1600)*2;
-  sprite(c,'rafale',...project(3,1),.8);sprite(c,'caracal',...project(3,5),.75);sprite(c,'leclerc',...project(7,6),.75);sprite(c,'caesar',...project(6,8),.75);sprite(c,'fremm',604,310+float,.95);sprite(c,'suffren',541,369+float,.85);
+  sprite(c,'rafale',...project(4,1),.8);sprite(c,'caracal',...project(3,5),.75);sprite(c,'leclerc',...project(7,7),.75);sprite(c,'caesar',...project(5,10),.75);sprite(c,'fremm',604,310+float,.95);sprite(c,'suffren',541,369+float,.85);
   // A small support vehicle travels along the central road.
   const progress=(time/1400)%9,[vx,vy]=project(6,progress);rect(c,vx-6,vy-7,12,7,'#e0c891');rect(c,vx-5,vy-6,4,3,'#496975');rect(c,vx-6,vy,3,3,'#203d41');rect(c,vx+3,vy,3,3,'#203d41');
  }
