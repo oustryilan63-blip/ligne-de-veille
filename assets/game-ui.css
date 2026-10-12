@@ -1,0 +1,72 @@
+/* Choisir un jeu et rejoindre rapidement sa partie. */
+.games-hub-page .game-intro{padding-top:46px}
+.games-hub-page .game-intro h1{font-size:clamp(52px,6.5vw,86px);line-height:1.02;margin:22px 0}
+.games-hub-page .game-intro p{font-size:15px;line-height:1.6;max-width:760px;margin-bottom:38px}
+.games-hub-page .games-hub{padding-top:36px}
+.games-start{display:flex;align-items:center;justify-content:space-between;gap:26px;margin:0 0 28px;padding:24px 28px;background:#e4ebde;border:1px solid #b5c6ad;border-left:4px solid #a85f43}
+.games-start strong{font:700 25px/1.2 var(--serif);text-transform:uppercase;color:#263d30}
+.games-start p{margin:8px 0 0;color:#4c6252;font-size:14px;line-height:1.6;max-width:600px}
+.games-start .button{flex:none;white-space:nowrap;min-height:48px;justify-content:center}
+.games-filters{display:flex;align-items:center;flex-wrap:wrap;gap:10px;padding:20px 0 0}
+.games-filters button{min-height:44px;padding:11px 16px;border:1px solid #aabda4;background:#f8faf4;color:#304b36;font:600 13px/1.4 var(--sans);cursor:pointer}
+.games-filters button[aria-pressed="true"]{background:#263d31;color:#fff;border-color:#263d31}
+.games-filters button:hover,.games-filters button:focus-visible{border-color:#a85f43}
+.games-count{font:500 11px/1.4 var(--mono);color:#536b58;margin:16px 0 0}
+.game-tile-meta{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0 0;font:500 11px/1.4 var(--mono);color:#425e49}
+.game-tile-meta span{padding:6px 9px;border:1px solid #bfceb9;background:#edf2e7}
+.game-tile:nth-child(3) .game-tile-meta span{background:#31493c;color:#edf4e7;border-color:#658069}
+.games-hub .game-tile-arrow{align-self:stretch;display:flex;align-items:center;justify-content:space-between;min-height:44px;font:600 14px/1.4 var(--sans);padding-top:15px;border-top:1px solid #bdcbb6}
+.games-hub .game-tile-arrow span{font-size:22px}
+.play-page .game-intro{padding-top:38px}
+.play-page .game-intro h1{font-size:clamp(43px,5.8vw,78px);line-height:1.02;margin:18px 0;text-wrap:balance}
+.play-page .game-intro p{font-size:15px;line-height:1.6;margin-bottom:32px;max-width:740px}
+.playbar{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-top:18px;padding-bottom:18px;border-bottom:1px solid #c2cec0;position:relative;z-index:8}
+.playbar>a{display:inline-flex;align-items:center;min-height:44px;color:#36523d;font:600 13px/1.4 var(--sans);text-decoration:none}
+.playbar>a:hover{text-decoration:underline;text-underline-offset:4px}
+.playbar-tools{display:flex;gap:10px}
+.play-menu{position:relative}
+.play-menu>summary{display:flex;align-items:center;justify-content:space-between;gap:14px;list-style:none;cursor:pointer;min-height:44px;padding:11px 15px;border:1px solid #aabca4;background:#f7faf1;color:#294331;font:600 13px/1.4 var(--sans)}
+.play-menu>summary::-webkit-details-marker{display:none}
+.play-menu>summary::after{content:'+';font:400 19px/1 var(--mono);color:#a65b3c}
+.play-menu[open]>summary::after{content:'−'}
+.play-menu-panel{position:absolute;top:calc(100% + 10px);right:0;min-width:290px;width:min(350px,calc(100vw - 36px));max-height:65svh;overflow:auto;padding:12px;background:#f8fbf3;border:1px solid #a8bda3;box-shadow:0 12px 30px #19302426}
+.play-menu-panel a{display:block;min-height:44px;padding:12px 14px;color:#2c4835;font-size:14px;text-decoration:none;border-bottom:1px solid #d6dfd0}
+.play-menu-panel a:last-child{border-bottom:0}
+.play-menu-panel a:hover,.play-menu-panel a[aria-current="page"]{background:#e3ecd9;color:#944b32}
+.play-menu-panel ol{padding-left:24px;margin:10px 6px;color:#405a47;font-size:14px;line-height:1.65}
+.play-menu-panel li+li{margin-top:10px}
+.play-page .game-shell{padding-top:24px}
+.play-config{background:#f7faf2;border:1px solid #b5c6b0;margin:0 0 22px}
+.play-config>summary{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:58px;padding:16px 20px;cursor:pointer;font:600 15px/1.4 var(--sans);color:#294432;list-style:none}
+.play-config>summary::-webkit-details-marker{display:none}
+.play-config>summary::after{content:'+';font:400 22px/1 var(--mono);color:#a65b3c}
+.play-config[open]>summary::after{content:'−'}
+.play-config .game-options{border:0;border-top:1px solid #c2d0b9;background:transparent;margin:0;padding:18px 20px;align-items:flex-start;gap:18px}
+.play-config .option-group{flex:1 1 260px;gap:8px}
+.play-config .option-label{flex-basis:100%;margin:0 0 4px}
+.play-config .option-group button{min-height:44px;padding:11px 15px;font-size:13px}
+.play-config .quiz-level{margin:0;padding:18px 20px;background:#edf2e6;border-top:1px solid #c2d0b9}
+.play-config .quiz-level select{min-height:44px;font-size:14px}
+.play-config-note{padding:0 20px 18px;margin:0;font-size:12px;line-height:1.6;color:#546b59}
+.keyboard-tip{font:500 11px/1.6 var(--mono);color:#5f725f;margin:14px 0 0}
+.recognition-copy .keyboard-tip{color:#c3d3c3}
+.play-page .game-status{padding:15px 18px;margin:0 0 20px;border:1px solid #b8c9b2;background:#edf3e6;letter-spacing:.035em;font-size:11px}
+.play-page .recognition-copy{padding:28px;min-width:0}
+.play-page .recognition-copy h2{font-size:clamp(31px,3.5vw,46px);line-height:1.08;margin:17px 0 14px}
+.recognition-copy .recognition-answering{width:100%;margin-top:20px}
+.recognition-copy .recognition-choices{gap:10px}
+.recognition-copy .recognition-choices button{min-height:64px;padding:14px;font-size:15px;gap:12px;overflow-wrap:anywhere}
+.recognition-copy .recognition-form{padding:18px}
+.recognition-copy .recognition-form label{font-size:23px}
+.recognition-copy .game-feedback{margin:0;padding-top:18px}
+.play-page .arcade-copy h2{font-size:clamp(32px,4vw,58px);line-height:1.08}
+.play-page .arcade-tool-row{gap:12px;flex-wrap:wrap}
+.play-page .arcade-tool-row button,.play-page .chrono-check{min-height:48px;line-height:1.4}
+.play-page .chrono-controls button{min-width:44px;min-height:44px}
+.play-page .answer-panel{gap:24px;align-items:center}
+.play-page .answer-panel>.button{min-height:48px;flex-shrink:0;justify-content:center}
+.play-page .qg-map-controls{gap:9px;flex-wrap:wrap}
+.play-page .qg-map-controls button,.play-page .qg-tabs button,.play-page .radar-pause{min-height:44px}
+.play-page .qg-shell,.play-page .radar-shell{padding-top:24px}
+@media(max-width:760px){.games-start{align-items:stretch;flex-direction:column;padding:21px}.games-start .button{width:100%;white-space:normal}.playbar{align-items:stretch;flex-direction:column;gap:10px}.playbar>a{min-height:36px}.playbar-tools{width:100%}.playbar-tools .play-menu{flex:1;min-width:0}.play-menu>summary{padding:11px 12px}.playbar-tools .play-menu:first-child .play-menu-panel{left:0;right:auto}.playbar-tools .play-menu:last-child .play-menu-panel{right:0}.play-page .game-intro{padding-top:29px}.play-page .game-intro h1{font-size:clamp(40px,9.5vw,62px)}.play-page .game-intro p{font-size:14px;margin-bottom:24px}.play-page .recognition-photo{height:280px}.play-page .recognition-copy{min-height:0;padding:23px}.play-page .arcade-figure{height:280px}.play-page .arcade-copy{min-height:0;padding:24px}.keyboard-tip{display:none}.play-page .answer-panel{flex-direction:column;align-items:stretch}.play-page .answer-panel>.button{width:100%}.play-config .option-group{flex-basis:100%}.play-page .qg-map-controls>span{flex-basis:100%}}
+@media(max-width:480px){.play-page .recognition-choices{grid-template-columns:1fr}.play-config>summary{padding:15px 17px;font-size:14px}.play-config .game-options,.play-config .quiz-level{padding:17px}.play-config-note{padding-left:17px;padding-right:17px}.games-filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.games-filters button{padding:10px;font-size:12px}.play-page .game-status{gap:10px;justify-content:flex-start}.play-page .game-status span{flex:1 1 auto}.play-page .chrono-row{gap:10px}.play-page .chrono-controls{display:flex;gap:8px}}
