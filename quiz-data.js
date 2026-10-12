@@ -1071,3 +1071,121 @@ window.LDV_CHRONO.push(...[
     "name": "A330 MRTT"
   }
 ]);
+
+// Série 8 : questions et premiers vols documentés.
+window.LDV_FACTS.push(...[
+  {
+    "claim": "Le M26 Pershing est à l’origine de la famille des chars Patton.",
+    "answer": true,
+    "ref": "M26 Pershing",
+    "reason": "Le M46 est une évolution du Pershing à nouveau groupe moteur et nouvelle transmission.",
+    "source": "https://tankmuseum.org/article/the-patton-family"
+  },
+  {
+    "claim": "Le Centurion Mk 3 du Tank Museum est armé d’un canon de 105 mm.",
+    "answer": false,
+    "ref": "Centurion",
+    "reason": "Ce Mk 3 possède le 20-pounder de 83,4 mm.",
+    "source": "https://tankmuseum.org/tank-nuts/tank-collection/centurion/"
+  },
+  {
+    "claim": "Le PT-76 emploie deux propulseurs à eau pour se déplacer à flot.",
+    "answer": true,
+    "ref": "PT-76",
+    "reason": "Le musée de Rzeszów décrit deux propulseurs placés à l’arrière.",
+    "source": "https://muzeum-techniki.rzeszow.pl/czolg-plywajacy-pt-76/"
+  },
+  {
+    "claim": "Le Sarath décrit par AVNL transporte sept fantassins en plus de son équipage de trois personnes.",
+    "answer": true,
+    "ref": "BMP-2",
+    "reason": "La fiche indique trois membres d’équipage et sept soldats transportés.",
+    "source": "https://avnl.co.in/index.php/hi/products/baiemapai-kae"
+  },
+  {
+    "claim": "L’AC-130J Ghostrider est équipé de canons de 30 et 105 mm dans la fiche USAF de janvier 2025.",
+    "answer": true,
+    "ref": "AC-130J Ghostrider",
+    "reason": "Ces deux calibres figurent dans l’armement du Precision Strike Package décrit par l’USAF.",
+    "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/"
+  },
+  {
+    "claim": "Le U-2S est un avion de reconnaissance à un seul réacteur.",
+    "answer": true,
+    "ref": "U-2 Dragon Lady",
+    "reason": "La fiche USAF donne un seul moteur General Electric F118-101.",
+    "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s/"
+  },
+  {
+    "claim": "Le F-5E Tiger II suisse est propulsé par un seul réacteur.",
+    "answer": false,
+    "ref": "F-5 Tiger II",
+    "reason": "Le tableau officiel suisse indique deux General Electric J85-GE-21A.",
+    "source": "https://www.vtg.admin.ch/dam/fr/sd-web/kyBRAbRF41IS/84_003_dfie_Broschuere_Patrouille_Suisse_2026.pdf"
+  },
+  {
+    "claim": "Le Harrier II Plus reçoit un radar APG-65 également utilisé par le F/A-18.",
+    "answer": true,
+    "ref": "AV-8B Harrier II",
+    "reason": "NAVAIR identifie ce radar dans la description du AV-8BII+.",
+    "source": "https://www.navair.navy.mil/product/AV-8B-Harrier"
+  },
+  {
+    "claim": "Les cuirassés Iowa modernisés ont conservé leurs neuf canons principaux tout en recevant des missiles.",
+    "answer": true,
+    "ref": "Classe Iowa",
+    "reason": "La modernisation ajoute Tomahawk et Harpoon sans supprimer les trois tourelles triples de 16 pouces.",
+    "source": "https://www.history.navy.mil/content/history/nhhc/about-us/leadership/director/directors-corner/h-grams/h-gram-029/h-029-4.html"
+  },
+  {
+    "claim": "La propulsion des porte-avions Nimitz repose sur deux réacteurs nucléaires.",
+    "answer": true,
+    "ref": "Classe Nimitz",
+    "reason": "La fiche du Naval Air Forces Pacific indique deux réacteurs nucléaires et quatre lignes d’arbres.",
+    "source": "https://www.airpac.navy.mil/Organization/Distinguished-Visitor-Info/Important-Links-and-Info/"
+  },
+  {
+    "claim": "Le NSM utilise un autodirecteur radar actif pour sa reconnaissance terminale.",
+    "answer": false,
+    "ref": "Naval Strike Missile (NSM)",
+    "reason": "Kongsberg décrit un autodirecteur passif à imagerie infrarouge avec reconnaissance autonome des navires.",
+    "source": "https://online.flippingbook.com/view/63366344/"
+  },
+  {
+    "claim": "JASSM et JASSM-ER sont deux désignations pour une version aux performances identiques.",
+    "answer": false,
+    "ref": "AGM-158 JASSM",
+    "reason": "Le constructeur distingue la version initiale et le JASSM-ER, dont la portée est accrue ; leur parenté ne rend pas leurs performances interchangeables.",
+    "source": "https://news.lockheedmartin.com/2016-09-06-Lockheed-Martin-Delivers-2-000th-JASSM-to-the-U-S-Air-Force%2C1"
+  }
+]);
+window.LDV_CHRONO.push(...[
+  {
+    "year": 2014,
+    "date": "31 janvier 2014",
+    "source": "https://www.edwards.af.mil/News/Air-Force-News/Air-Force-Features/Article/473295/new-ac-130j-completes-first-test-flight/",
+    "context": "Première sortie officielle du prototype après sa conversion de MC-130J en AC-130J; les dates de premier vol des Hercules de transport sont différentes.",
+    "name": "AC-130J Ghostrider"
+  },
+  {
+    "year": 1955,
+    "date": "8 août 1955",
+    "source": "https://www.cia.gov/resources/csi/static/CIA-and-U2-Program.pdf",
+    "context": "Date du premier vol qualifié d’officiel dans l’histoire de la CIA (chapitre 2, page 70). Elle suit le décollage involontaire du 1er août et les essais du 4 août, date également citée comme premier vol par Lockheed. Ce jalon concerne le U-2 initial, pas le U-2S.",
+    "name": "U-2 Dragon Lady"
+  },
+  {
+    "year": 1972,
+    "date": "11 août 1972",
+    "source": "https://www.aftc.af.mil/Portals/55/Documents/Historian/E-Books/Ad%20Inexplorata.pdf",
+    "context": "Premier vol du F-5E, premier Tiger II, dans la chronologie officielle des essais. Les premiers F-5A/B Freedom Fighter sont antérieurs et ne servent pas de référence à cette date.",
+    "name": "F-5 Tiger II"
+  },
+  {
+    "year": 1978,
+    "date": "9 novembre 1978",
+    "source": "https://www.boeing.com/features/2026/06/last-av-8b-harrier-jet-flies-away-into-history",
+    "context": "Premier vol du démonstrateur YAV-8B, selon Boeing. Le premier appareil AV-8B de développement complet vole le 5 novembre 1981; le Harrier II Plus vole le 22 septembre 1992.",
+    "name": "AV-8B Harrier II"
+  }
+]);

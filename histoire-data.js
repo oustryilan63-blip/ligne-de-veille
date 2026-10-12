@@ -3518,5 +3518,406 @@ window.LDV_HISTOIRE = [
     ],
     "checkedAt": "12 octobre 2026",
     "documentedOperatorsOnly": true
+  },
+  {
+    "story": "L’étude qui mène au Pershing commence en 1942 avec la famille expérimentale T20, destinée à améliorer la protection et l’armement du Sherman. Après plusieurs prototypes, le T26E3 associe un canon de 90 mm à une suspension à barres de torsion. Sa production commence en novembre 1944. Les premiers véhicules envoyés en Europe rejoignent les 3e et 9e divisions blindées américaines au début de 1945 ; la désignation M26 et le nom du général John Pershing suivent cette même année.\n\nLe 7 mars 1945, quatre Pershing appuient l’avance de l’infanterie américaine vers le pont de Remagen. Leur arrivée tardive limite néanmoins leur place dans la campagne européenne. Après la guerre, une amélioration du groupe moteur et de la transmission donne naissance au M46 Patton. Selon le Tank Museum, environ la moitié des 2 202 M26 sont transformés en M46. La famille se poursuit ensuite avec les M47, M48 et M60, dont les silhouettes et les équipements évoluent progressivement.",
+    "current": [],
+    "former": [
+      "US"
+    ],
+    "operatorSource": "https://armyhistory.org/the-m26-pershing-heavy-tank/",
+    "formerSource": "https://armyhistory.org/the-m26-pershing-heavy-tank/",
+    "operatorNote": "Carte partielle limitée à l’ancien emploi américain, dont le retrait et le transfert vers des alliés sont décrits par l’Army Historical Foundation. Aucun opérateur actuel n’est attesté dans cette recherche au 12 octobre 2026. Les emplois historiques en Europe ne sont pas transformés en statuts contemporains ; les M46 et T26E4 constituent d’autres configurations.",
+    "storySources": [
+      {
+        "label": "Army Historical Foundation — développement et engagements du M26",
+        "url": "https://armyhistory.org/the-m26-pershing-heavy-tank/"
+      },
+      {
+        "label": "Tank Museum — Pershing au pont de Remagen, 7 mars 2025",
+        "url": "https://tankmuseum.org/article/bridge-at-remagen"
+      },
+      {
+        "label": "Tank Museum — filiation Pershing et Patton, 24 octobre 2025",
+        "url": "https://tankmuseum.org/article/the-patton-family"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true
+  },
+  {
+    "story": "Le Centurion tire les leçons des combats britanniques en Afrique du Nord : un char doit pouvoir affronter aussi bien l’infanterie que les blindés. Présenté au printemps 1945, il arrive trop tard pour combattre en Europe. La famille connaît ensuite treize standards et de nombreux dérivés spécialisés. Un Centurion Mk 3 conservé au Tank Museum participe notamment à la défense de The Hook en Corée, en mai 1953.\n\nL’Australian War Memorial raconte une autre étape de sa carrière à travers son Mk 5/1. Cet exemplaire du 1er régiment blindé combat à Binh Ba le 6 juin 1969 au Sud-Vietnam. Touché par trois roquettes pendant l’opération Hammersley le 18 février 1970, il reste utilisable et poursuit son service après réparation, avant son retour en Australie en décembre. Au total, le Memorial recense 58 Centurion australiens employés au Vietnam. Ces parcours illustrent la durée d’emploi de la famille et l’importance de distinguer chaque version et chaque théâtre.",
+    "current": [],
+    "former": [
+      "GB"
+    ],
+    "operatorSource": "https://tankmuseum.org/tank-nuts/tank-collection/centurion/",
+    "formerSource": "https://tankmuseum.org/tank-nuts/tank-collection/centurion/",
+    "operatorNote": "Carte volontairement partielle : Royaume-Uni, dont le Tank Museum décrit des chars retirés du service. Aucun utilisateur actuel du char à canon n’a été établi dans cette recherche au 12 octobre 2026. Les véhicules de dépannage BARV, encore cités pour 2003, et les conversions profondes telles que l’Olifant ne permettent pas de déduire un statut actuel du Centurion de base.",
+    "storySources": [
+      {
+        "label": "Tank Museum — histoire et standards du Centurion",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/centurion/"
+      },
+      {
+        "label": "Australian War Memorial — Centurion Mk 5/1 au Vietnam, fiche du 23 février 2022",
+        "url": "https://www.awm.gov.au/visit/exhibitions/bigthingsinstore/centurion"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true
+  },
+  {
+    "story": "Après la Seconde Guerre mondiale, les nombreux cours d’eau d’Europe centrale orientent les études soviétiques vers de nouveaux véhicules amphibies. Le développement du futur PT-76 est confié à des équipes du VNII-100 en août 1949. Un prototype est achevé au printemps 1950, puis évalué lors d’essais d’État. L’Objet 740 est adopté le 6 août 1951 sous la désignation PT-76. Sa caisse étanche et deux propulseurs à eau permettent au char de se déplacer à flot.\n\nLa carrière de la famille dépasse largement son pays d’origine, mais les modifications nationales empêchent de lui attribuer une fiche technique unique. Le 11 octobre 2024, les Marines indonésiens publient ainsi un compte rendu d’essais de munitions pour leurs PT-76 à canon de 90 mm. Ces chars modernisés se distinguent du véhicule soviétique initial à canon de 76 mm décrit ici. Le communiqué atteste l’emploi d’une variante à cette date ; il ne donne pas le nombre de chars disponibles ni leur état en octobre 2026.",
+    "current": [
+      "ID"
+    ],
+    "former": [],
+    "operatorSource": "https://marinir.tnial.mil.id/public/index.php/detail-berita/irkormar-tinjau-uji-fungsi-amunisi-tank-pt-76",
+    "formerSource": "https://www.kskdivniy.ru/museum/eksponaty/pt-76/",
+    "operatorNote": "Sélection partielle : emploi indonésien d’un PT-76 modernisé à canon de 90 mm attesté le 11 octobre 2024 par le communiqué officiel indexé des Marines. Son texte indexé a été consulté ; l’ouverture intégrale échoue. Cette attestation n’est pas un inventaire opérationnel d’octobre 2026. Les autres utilisateurs et retraits ne sont pas cartographiés. RU représente l’origine soviétique sans affirmer un emploi russe actuel.",
+    "storySources": [
+      {
+        "label": "Musée de l’histoire militaire nationale de Padikovo — développement et adoption du PT-76",
+        "url": "https://www.kskdivniy.ru/museum/eksponaty/pt-76/"
+      },
+      {
+        "label": "Musée de la technique et des militaria de Rzeszów — caisse et propulsion à flot",
+        "url": "https://muzeum-techniki.rzeszow.pl/czolg-plywajacy-pt-76/"
+      },
+      {
+        "label": "Marines indonésiens — essais sur PT-76 à canon de 90 mm, 11 octobre 2024",
+        "url": "https://marinir.tnial.mil.id/public/index.php/detail-berita/irkormar-tinjau-uji-fungsi-amunisi-tank-pt-76"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true
+  },
+  {
+    "story": "Le BMP-2 entre en service soviétique en 1980. Il prolonge le concept du BMP-1 : transporter l’infanterie tout en lui fournissant un appui depuis un véhicule blindé. Sa tourelle accueille deux personnes et son armement principal devient un canon automatique de 30 mm, complété par une mitrailleuse et un système de missiles antichars. Ce changement distingue la silhouette et l’équipement du BMP-2 de ceux du premier BMP à canon de 73 mm.\n\nLa production sous licence donne à la famille une importante branche indienne, nommée Sarath. L’usine de Medak sort son premier véhicule en 1987, après la pose de sa première pierre en juillet 1984. Les évolutions se poursuivent bien après la fin de la période soviétique : le ministère indien de la Défense signe le 13 mars 2024 un contrat pour 693 modernisations d’armement vers le standard BMP2M. Le programme prévoit notamment de nouveaux viseurs et une conduite de tir adaptée au combat nocturne. Il s’agit de transformer des véhicules existants, et le communiqué ne vaut pas preuve de livraisons achevées.",
+    "current": [
+      "IN"
+    ],
+    "former": [],
+    "operatorSource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2014345",
+    "formerSource": "https://www.benning.army.mil/Armor/eARMOR/content/issues/2015/APR_JUN/Apr-Jun_2015_edition.pdf",
+    "operatorNote": "Carte partielle limitée à l’Inde : le contrat officiel du 13 mars 2024 porte sur des BMP2/2K existants. Cette date atteste leur emploi et un programme de modernisation ; elle ne certifie ni le parc disponible en octobre 2026 ni l’achèvement du contrat. Les autres utilisateurs ne sont pas cartographiés. RU représente l’origine soviétique ; Sarath est la production indienne sous licence.",
+    "storySources": [
+      {
+        "label": "US Army, ARMOR — histoire des BMP, avril–juin 2015",
+        "url": "https://www.benning.army.mil/Armor/eARMOR/content/issues/2015/APR_JUN/Apr-Jun_2015_edition.pdf"
+      },
+      {
+        "label": "AVNL — histoire de l’usine de Medak et Sarath",
+        "url": "https://avnl.co.in/ordnance-factory-medak"
+      },
+      {
+        "label": "AVNL — historique industriel, première pierre le 19 juillet 1984",
+        "url": "https://www.avnl.co.in/files/avnl_documents/AVNL_Complete2.pdf"
+      },
+      {
+        "label": "Ministère indien de la Défense — contrat BMP2M du 13 mars 2024",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2014345"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true
+  },
+  {
+    "story": "L’AC-130J poursuit l’histoire des avions d’appui feu issus du Hercules. Le prototype arrive à Eglin en janvier 2013 sous la forme d’un MC-130J Commando II, puis reçoit ses équipements de combat. Il effectue son premier vol dans cette nouvelle configuration le 31 janvier 2014. Cette date concerne le Ghostrider après transformation : elle ne correspond ni à la naissance du C-130 ni au premier vol du C-130J de transport.\n\nLe Ghostrider associe les qualités de vol du MC-130J à un ensemble de capteurs, de communications et d’armes. Sa fiche officielle décrit des canons de 30 et 105 mm ainsi que plusieurs munitions guidées. La capacité opérationnelle initiale est atteinte en 2017. L’avion sert notamment à protéger des troupes au contact et à surveiller des objectifs terrestres.\n\nLe 2 novembre 2022, l’AFSOC reçoit son trente et unième et dernier appareil annoncé dans ce bilan de livraisons. Il rejoint Cannon, au Nouveau-Mexique. Cette livraison achève la transition depuis les anciennes versions AC-130H, U et W; les caractéristiques retenues ici décrivent précisément le J dans la fiche de janvier 2025.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "operatorSource": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/",
+    "operatorNote": "États-Unis : emploi actif documenté par la fiche USAF arrêtée à janvier 2025. Cette référence n’est pas un inventaire d’octobre 2026. La carte porte sur l’AC-130J, sans ajouter les anciennes versions ni les pays accueillant un déploiement américain.",
+    "storySources": [
+      {
+        "label": "USAF / Edwards — premier vol de l’AC-130J, février 2014",
+        "url": "https://www.edwards.af.mil/News/Air-Force-News/Air-Force-Features/Article/473295/new-ac-130j-completes-first-test-flight/"
+      },
+      {
+        "label": "USAF — mission et caractéristiques, janvier 2025",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/"
+      },
+      {
+        "label": "USAF — dernière livraison, novembre 2022",
+        "url": "https://www.af.mil/News/Article-Display/Article/3209455/afsoc-receives-final-ac-130j/"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true
+  },
+  {
+    "story": "Conçu par Kelly Johnson et les Skunk Works de Lockheed au début de la guerre froide, le U-2 répond au besoin de photographier des installations difficiles à observer autrement. Son premier décollage est involontaire : le 1er août 1955, Tony Le Vier quitte le sol pendant un essai de roulage rapide. L’histoire officielle de la CIA distingue ensuite les essais du 4 août et le vol qualifié d’officiel du 8 août, devant les responsables du programme. Ces étapes concernent le premier U-2, pas le futur U-2S.\n\nLa famille évolue profondément. Le U-2R de 1967 est plus grand; les TR-1 de reconnaissance tactique arrivent dans les années 1980. La remotorisation par le General Electric F118 conduit ensuite à la désignation U-2S. Les longues ailes permettent de rester à très haute altitude, tandis que les équipements de mission recueillent des images et du renseignement électromagnétique.\n\nLe 31 juillet 2025, un TU-2S biplace de la 9th Reconnaissance Wing décolle de Beale pour une mission traversant les quarante-huit États contigus américains. Cet épisode documente la poursuite de l’emploi américain à cette date, sans fournir un inventaire pour octobre 2026.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "operatorSource": "https://www.aflcmc.af.mil/NEWS/Article/4267103/beale-afb-conducts-historic-u-2-dragon-lady-flight-11-years-in-the-making/",
+    "operatorNote": "Carte partielle et datée : États-Unis, emploi du TU-2S au sein de la 9th Reconnaissance Wing documenté le 31 juillet 2025. Ce constat ne certifie pas la situation du parc en octobre 2026. Les détachements américains à l’étranger ne créent pas d’opérateurs nationaux supplémentaires; la variante civile ER-2 de la NASA n’est pas ajoutée à la fiche technique.",
+    "storySources": [
+      {
+        "label": "Lockheed Martin — origine du programme U-2",
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/u2.html"
+      },
+      {
+        "label": "CIA Museum — décollage involontaire du 1er août 1955",
+        "url": "https://www.cia.gov/legacy/museum/artifact/piece-of-metal-from-u-2-article-341/"
+      },
+      {
+        "label": "CIA — histoire officielle, chapitre 2, pages 69-70 : essais et vol officiel",
+        "url": "https://www.cia.gov/resources/csi/static/CIA-and-U2-Program.pdf"
+      },
+      {
+        "label": "USAF — variantes et caractéristiques, septembre 2015",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s/"
+      },
+      {
+        "label": "USAF — mission commémorative de juillet 2025",
+        "url": "https://www.aflcmc.af.mil/NEWS/Article/4267103/beale-afb-conducts-historic-u-2-dragon-lady-flight-11-years-in-the-making/"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true
+  },
+  {
+    "story": "Le F-5 Tiger II appartient à la deuxième génération des chasseurs légers de Northrop. Le premier F-5E vole le 11 août 1972, selon la chronologie des essais de l’US Air Force. Le biplace F-5F suit le 25 septembre 1974. Ces avions se distinguent des F-5A et B Freedom Fighter, antérieurs : les dates et les caractéristiques de toute la famille ne doivent donc pas être attribuées au seul Tiger II.\n\nAux États-Unis, le Tiger II devient aussi un outil de formation au combat aérien. La Navy emploie le F-5E comme adversaire dès 1974. En 2009, elle achève un programme portant sur quarante-quatre anciens appareils suisses : quarante et un sont transformés en F-5N monoplaces et trois en F-5F biplaces. Cette réutilisation illustre la différence entre fabriquer un avion neuf et adapter une cellule existante.\n\nLes transformations se poursuivent avec ARTEMIS, qui modernise le cockpit et l’avionique des appareils rapatriés de Suisse. NAVAIR documente les premières livraisons d’avions améliorés en juillet 2025. La brochure officielle de la Patrouille Suisse confirme pour sa part l’emploi du F-5E pendant la saison 2026; elle fournit les valeurs techniques retenues ici.",
+    "current": [
+      "US",
+      "CH"
+    ],
+    "former": [],
+    "operatorSource": "https://www.vtg.admin.ch/dam/fr/sd-web/kyBRAbRF41IS/84_003_dfie_Broschuere_Patrouille_Suisse_2026.pdf",
+    "operatorNote": "Carte volontairement partielle : Suisse, emploi du F-5E documenté dans la brochure officielle de février 2026; États-Unis, flotte d’adversaires F-5 et premières livraisons améliorées attestées par NAVAIR le 21 juillet 2025 (source liée dans l’histoire). Ce dernier constat ne constitue pas un inventaire américain d’octobre 2026. Les autres utilisateurs étrangers, les F-5A/B et les opérateurs civils ne sont pas cartographiés. Aucun retrait futur annoncé n’est traité comme déjà réalisé.",
+    "storySources": [
+      {
+        "label": "Air Force Test Center — chronologie des premiers vols F-5E et F-5F",
+        "url": "https://www.aftc.af.mil/Portals/55/Documents/Historian/E-Books/Ad%20Inexplorata.pdf"
+      },
+      {
+        "label": "Naval History and Heritage Command — emploi naval depuis 1974",
+        "url": "https://www.history.navy.mil/content/dam/nhhc/research/histories/naval-aviation/dictionary-of-american-naval-aviation-squadrons-volume-1/pdfs/app1-2.pdf"
+      },
+      {
+        "label": "NAVAIR — conversions F-5N/F, mai 2009",
+        "url": "https://www.navair.navy.mil/node/9751"
+      },
+      {
+        "label": "NAVAIR — ARTEMIS, avril 2024",
+        "url": "https://www.navair.navy.mil/news/ARTEMIS-program-receives-first-repatriated-Swiss-F-5/Thu-04042024-1256?page=1"
+      },
+      {
+        "label": "NAVAIR — premières livraisons améliorées documentées, juillet 2025",
+        "url": "https://www.navair.navy.mil/news/PMA-226PMA-257-welcomes-new-program-manager-dual-leadership-role/Mon-07212025-1055"
+      },
+      {
+        "label": "Forces aériennes suisses — brochure Patrouille Suisse 2026",
+        "url": "https://www.vtg.admin.ch/dam/fr/sd-web/kyBRAbRF41IS/84_003_dfie_Broschuere_Patrouille_Suisse_2026.pdf"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true
+  },
+  {
+    "story": "L’AV-8B Harrier II prolonge la famille britannique Harrier avec une coopération entre McDonnell Douglas, British Aerospace et Rolls-Royce. Le démonstrateur YAV-8B vole le 9 novembre 1978. L’appareil de développement complet AV-8B effectue ensuite son premier vol le 5 novembre 1981, selon la chronologie de Boeing. Cette distinction évite d’attribuer au Harrier II les dates de 1968 et 1971 que certaines fiches reprennent pour la génération précédente.\n\nConçu pour l’appui rapproché et l’attaque, le Harrier II combine une poussée orientable et une souplesse de déploiement depuis la terre ou la mer. La version Plus, développée avec les États-Unis, l’Espagne et l’Italie, vole le 22 septembre 1992. Elle reçoit le radar APG-65 également utilisé par le F/A-18, en complément des systèmes du Harrier II.\n\nLe Marine Corps célèbre la fin du service de sa dernière escadrille opérationnelle, VMA-223, à Cherry Point le 3 juin 2026. Boeing indique dans son bilan de juin que l’avion reste alors en première ligne dans les marines espagnole et italienne. Les valeurs techniques ci-dessous décrivent le Harrier II Plus à moteur F402-RR-408A.",
+    "current": [
+      "ES",
+      "IT"
+    ],
+    "former": [
+      "US"
+    ],
+    "operatorSource": "https://www.boeing.com/features/2026/06/last-av-8b-harrier-jet-flies-away-into-history",
+    "formerSource": "https://www.marines.mil/News/News-Display/Article/4511422/vma-223-celebrates-sundown-as-marine-corps-final-harrier-squadron/",
+    "operatorNote": "Espagne et Italie : emploi de première ligne confirmé par Boeing le 22 juin 2026. États-Unis : fin du service opérationnel du Marine Corps documentée le 3 juin 2026. Les Harrier britanniques GR.5/7/9 et les anciens AV-8A/S ne sont pas assimilés à des AV-8B; le Royaume-Uni est un pays d’origine industrielle, pas un opérateur de cette variante sur la carte.",
+    "storySources": [
+      {
+        "label": "Boeing — histoire et bilan de juin 2026",
+        "url": "https://www.boeing.com/features/2026/06/last-av-8b-harrier-jet-flies-away-into-history"
+      },
+      {
+        "label": "Boeing — chronologie, premier AV-8B de développement en novembre 1981",
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing-Chronology.pdf"
+      },
+      {
+        "label": "NAVAIR — mission, versions et caractéristiques",
+        "url": "https://www.navair.navy.mil/product/AV-8B-Harrier"
+      },
+      {
+        "label": "Marine Corps — retrait de VMA-223, 3 juin 2026",
+        "url": "https://www.marines.mil/News/News-Display/Article/4511422/vma-223-celebrates-sundown-as-marine-corps-final-harrier-squadron/"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true
+  },
+  {
+    "story": "Les Iowa sont conçus pour accompagner les forces de porte-avions rapides américaines. L’USS Iowa entre en service le 22 février 1943 ; New Jersey, Missouri et Wisconsin complètent la classe. Leur batterie principale réunit neuf canons de 16 pouces, soit environ 406 mm, en trois tourelles. Dans le Pacifique, ces navires participent à la protection des porte-avions et aux bombardements côtiers. Le 2 septembre 1945, la capitulation japonaise est signée à bord du Missouri dans la baie de Tokyo.\n\nLeur carrière se prolonge par des retours au service après des périodes de réserve. Dans les années 1980, les quatre bâtiments sont modernisés avec Tomahawk, Harpoon et Phalanx, tout en conservant leurs grandes tourelles. Iowa est finalement retiré en octobre 1990 ; Missouri quitte le service en mars 1992 après avoir participé à la guerre du Golfe. La conservation muséale donne ensuite une autre fonction à ces bâtiments : Iowa ouvre au public à Los Angeles en juillet 2012.",
+    "current": [],
+    "former": [
+      "US"
+    ],
+    "operatorSource": "https://www.history.navy.mil/content/history/nhhc/about-us/leadership/director/directors-corner/h-grams/h-gram-029/h-029-4.html",
+    "formerSource": "https://ussmissouri.org/documents/History_Comes_Alive_at_the_Mighty_Mo_-_PR.pdf",
+    "operatorNote": "Utilisateur militaire historique : États-Unis. Aucun utilisateur militaire actuel n’est retenu. Les retraits définitifs se situent en 1990–1992 ; les navires conservés comme musées ne constituent pas une flotte opérationnelle. L’ancien USS Iowa Battleship No. 4 appartient à une autre génération.",
+    "storySources": [
+      {
+        "label": "Naval History and Heritage Command — classe Iowa et modernisation",
+        "url": "https://www.history.navy.mil/content/history/nhhc/about-us/leadership/director/directors-corner/h-grams/h-gram-029/h-029-4.html"
+      },
+      {
+        "label": "Battleship Missouri Memorial — capitulation, guerre du Golfe et retrait",
+        "url": "https://ussmissouri.org/documents/History_Comes_Alive_at_the_Mighty_Mo_-_PR.pdf"
+      },
+      {
+        "label": "Battleship USS Iowa Museum — ouverture du musée en 2012",
+        "url": "https://pacificbattleship.com/wp-content/uploads/2023/07/IOWA-Education-Program-Release-IPRv3.pdf"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true
+  },
+  {
+    "story": "La classe Nimitz prolonge l’expérience américaine du porte-avions nucléaire Enterprise en lançant une série de bâtiments. La construction du Nimitz commence avec la pose de sa quille le 22 juin 1968 à Newport News. Il entre en service le 3 mai 1975 et porte le nom de l’amiral Chester W. Nimitz. Dix porte-avions sont construits ; George H. W. Bush clôt la série avec son admission au service en janvier 2009.\n\nDeux réacteurs nucléaires alimentent chaque navire, qui accueille un groupe aérien et travaille au sein d’une force navale. Les missions comprennent la maîtrise de la mer, la présence, les opérations aériennes et l’assistance lors de catastrophes. La Navy prévoit une durée de service d’environ cinquante ans avec un grand chantier de modernisation et de rechargement du combustible vers le milieu de carrière. Les caractéristiques et effectifs publiés sont des références générales : ils varient avec les équipements, le groupe aérien et l’état de chaque bâtiment.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "operatorSource": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169795/aircraft-carriers-cvn",
+    "operatorNote": "Utilisateur documenté : US Navy, selon sa fiche du 27 février 2025. Aucun export de cette classe n’est documenté. Le total de dix bâtiments construits n’est pas présenté comme dix navires immédiatement disponibles en octobre 2026 ; les périodes de chantier et les calendriers de retrait restent distincts de cette carte des pays utilisateurs.",
+    "storySources": [
+      {
+        "label": "US Navy — création d’une série après Enterprise",
+        "url": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/2248168/nimitz-50-years-of-teamwork-and-tradition/"
+      },
+      {
+        "label": "NAVSEA — pose de quille, mise en service et missions du Nimitz",
+        "url": "https://www.navsea.navy.mil/Media/News/Article-View/Article/3034264/aircraft-carrier-centennial-uss-nimitz-cvn-68/"
+      },
+      {
+        "label": "George H. W. Bush Presidential Library — dixième et dernier Nimitz",
+        "url": "https://www.bush41library.gov/bushes/president-george-bush"
+      },
+      {
+        "label": "US Navy — durée de vie et rechargement à mi-carrière, février 2025",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169795/aircraft-carriers-cvn"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true
+  },
+  {
+    "story": "Le Naval Strike Missile est développé par Kongsberg pour la marine norvégienne. Il atteint sa capacité opérationnelle initiale en 2012 sur les frégates Fridtjof Nansen et les corvettes Skjold. Sa diffusion ne se limite pas aux bâtiments : la Pologne reçoit un premier système de défense côtière, dont la livraison et l’acceptation sont confirmées avant une nouvelle commande en décembre 2014. Le missile associe une cellule à faible signature et un capteur infrarouge passif, avec reconnaissance autonome des navires.\n\nL’US Navy le sélectionne en 2018 pour ses bâtiments de combat littoral et ses futures frégates. Gabrielle Giffords en tire un lors d’un exercice en octobre 2019. L’Australie réalise un premier tir depuis Sydney en juillet 2024, puis la Royal Navy annonce celui de Somerset en septembre 2025. Ces jalons d’utilisation sont distingués des contrats d’exportation : le nombre de pays ayant choisi le NSM n’est pas automatiquement le nombre de forces déjà équipées et opérationnelles.",
+    "current": [
+      "NO",
+      "PL",
+      "US",
+      "AU",
+      "GB"
+    ],
+    "former": [],
+    "operatorSource": "https://www.kongsberg.com/news/news-archive/2014/nsm-coastal-defence-contract-valued-at-nok-13-billions-with-poland/",
+    "operatorNote": "Sélection partielle des utilisateurs ayant des livraisons ou tirs documentés avant fin septembre 2025 : Norvège et Pologne selon Kongsberg ; États-Unis, Australie et Royaume-Uni selon leurs communications militaires citées dans storySources. La carte n’est pas un inventaire exhaustif ni une certification de disponibilité au 12 octobre 2026. Le communiqué danois de 2025 dénombre quatorze pays ayant sélectionné le NSM ; cette sélection ne prouve pas quatorze mises en service. Aucun ancien utilisateur n’a été établi dans le périmètre retenu.",
+    "storySources": [
+      {
+        "label": "Kongsberg — capacité norvégienne et première livraison polonaise",
+        "url": "https://www.kongsberg.com/news/news-archive/2014/nsm-coastal-defence-contract-valued-at-nok-13-billions-with-poland/"
+      },
+      {
+        "label": "Kongsberg — brochure missiles 2025, section NSM",
+        "url": "https://online.flippingbook.com/view/63366344/"
+      },
+      {
+        "label": "Kongsberg — sélection par l’US Navy en 2018",
+        "url": "https://www.kongsberg.com/news/news-archive/2018/us-navy-selects-naval-strike-missile/"
+      },
+      {
+        "label": "US Navy — tir de Gabrielle Giffords en octobre 2019",
+        "url": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/2237317/lcs-successfully-launches-naval-strike-missile/"
+      },
+      {
+        "label": "Défense australienne — premier tir naval de juillet 2024",
+        "url": "https://www.minister.defence.gov.au/media-releases/2024-07-22/navy-conducts-successful-firing-naval-strike-missile"
+      },
+      {
+        "label": "Royal Navy — premier tir annoncé en septembre 2025",
+        "url": "https://www.royalnavy.mod.uk/news/2025/september/29/20250929-hms-somerset-fires-naval-strike-missile"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true
+  },
+  {
+    "story": "Le programme JASSM est confié à Lockheed Martin en 1998 pour créer un missile de croisière pouvant être lancé par avion à distance des objectifs défendus. Le constructeur annonce sa certification pour l’emploi opérationnel en octobre 2003 ; l’Air Force situe ensuite la capacité opérationnelle initiale sur B-52 et B-1 en 2005. Ces jalons correspondent à des étapes différentes. Le missile navigue avec une centrale inertielle et le GPS avant d’utiliser un autodirecteur infrarouge dans sa phase finale.\n\nLa famille évolue avec le JASSM-ER, entré en service américain en 2014, dont la propulsion et les capacités de carburant accroissent la portée. Les utilisateurs étrangers du modèle initial comprennent l’Australie, où la pleine capacité est annoncée en mai 2014, la Finlande et la Pologne, qui annonce ses premières livraisons en janvier 2017. Le jalon du deux millième missile livré à l’US Air Force en 2016 concerne le programme industriel ; il ne donne pas le stock restant ni un total actualisé en 2026.",
+    "current": [
+      "US",
+      "AU",
+      "FI",
+      "PL"
+    ],
+    "former": [],
+    "operatorSource": "https://www.gov.pl/web/obrona-narodowa/pociski-jassm-dla-f-16-2",
+    "operatorNote": "Instantané historique des utilisateurs du JASSM initial autour de 2018, pas une liste certifiée des capacités actives en octobre 2026. États-Unis : Air Force ; Australie : pleine capacité AGM-158A en mai 2014 ; Pologne : premières livraisons en janvier 2017 ; Finlande : capacité opérationnelle de mai 2018 documentée par l’étude de l’US Army War College citée ci-dessous. Le ministère finlandais confirme en 2024 une acquisition supplémentaire de JASSM-ER pour les futurs F-35. Le retrait australien du Classic Hornet n’est pas transformé sans preuve en retrait de tous les missiles JASSM ; aucun ancien pays utilisateur n’est inféré.",
+    "storySources": [
+      {
+        "label": "Lockheed Martin — origine du programme et navigation",
+        "url": "https://lockheedmartin.com/en-us/news/features/history/jassm.html"
+      },
+      {
+        "label": "Lockheed Martin — certification et livraisons initiales, octobre 2003",
+        "url": "https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martins-jassm-certified-ready-operational-use-stealthy/"
+      },
+      {
+        "label": "Air Force Materiel Command — caractéristiques et capacité initiale de 2005",
+        "url": "https://www.afmc.af.mil/News/Article-Display/Article/155587/jassm-the-air-forces-next-generation-cruise-missile/"
+      },
+      {
+        "label": "Lockheed Martin — histoire du JASSM et mise en service du JASSM-ER",
+        "url": "https://www.lockheedmartin.com/en-us/products/jassm.html"
+      },
+      {
+        "label": "Défense australienne — AGM-158A pleinement en service en mai 2014",
+        "url": "https://www.minister.defence.gov.au/media-releases/2014-05-28/minister-defence-jassm-achieves-final-operational-capability"
+      },
+      {
+        "label": "Défense polonaise — premières livraisons de JASSM, janvier 2017",
+        "url": "https://www.gov.pl/web/obrona-narodowa/pociski-jassm-dla-f-16-2"
+      },
+      {
+        "label": "Lockheed Martin — jalon de la deux millième livraison en 2016",
+        "url": "https://news.lockheedmartin.com/2016-09-06-Lockheed-Martin-Delivers-2-000th-JASSM-to-the-U-S-Air-Force%2C1"
+      },
+      {
+        "label": "Défense australienne — modèle A en service en 2014",
+        "url": "https://www.minister.defence.gov.au/media-releases/2014-05-28/minister-defence-jassm-achieves-final-operational-capability"
+      },
+      {
+        "label": "US Army War College — capacité finlandaise de mai 2018, page 28",
+        "url": "https://media.defense.gov/2023/May/05/2003216700/-1/-1/0/3699.PDF"
+      },
+      {
+        "label": "Ministère finlandais de la Défense — commande supplémentaire de JASSM-ER, mai 2024",
+        "url": "https://valtioneuvosto.fi/-/236553176/puolustusvoimat-hankkii-pitkan-kantaman-ilmasta-maahan-ohjuksia-1"
+      },
+      {
+        "label": "Défense polonaise — premières livraisons de 2017",
+        "url": "https://www.gov.pl/web/obrona-narodowa/pociski-jassm-dla-f-16-2"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true
   }
 ];

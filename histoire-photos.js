@@ -3,7 +3,7 @@
   const datasets = window.RADAR_HISTORY_PHOTOS || {};
   const make = (tag, cls, text) => { const node=document.createElement(tag); if(cls)node.className=cls;if(text!==undefined)node.textContent=text;return node; };
   const sourceLink = (text,url) => { const a=make('a','',text);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a; };
-  const base = item => ({src:'assets/jeu/'+item.photo,alt:item.alt||item.name,author:item.photoAuthor||'Wikimedia Commons',license:item.photoLicense||'Licence indiquée sur la source',licenseUrl:item.photoLicenseUrl,source:item.photoFile?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(item.photoFile):item.source,caption:item.mediaLabel||'Photographie documentaire',real:item.mediaLabel!=='Illustration'});
+  const base = item => ({src:'assets/jeu/'+item.photo,alt:item.alt||item.name,author:item.photoAuthor||'Wikimedia Commons',license:item.photoLicense||'Licence indiquée sur la source',licenseUrl:item.photoLicenseUrl,source:item.photoSource||(item.photoFile?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(item.photoFile):item.source),caption:item.photoCaption||item.mediaLabel||'Photographie documentaire',real:item.mediaLabel!=='Illustration'});
   function photos(item){
     const list=datasets[item.name]||[],original=base(item);
     const all=original.real?[original,...list]:list.length?list:[original];

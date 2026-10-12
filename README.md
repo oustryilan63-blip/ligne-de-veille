@@ -1,6 +1,6 @@
 # Radar
 
-Actualités de défense et de géopolitique, huit jeux et un atlas de **150 engins** avec photographies, sources, fiches techniques et modèles 3D disponibles.
+Actualités de défense et de géopolitique, huit jeux et un atlas de **162 engins** avec photographies, sources, fiches techniques et modèles 3D disponibles.
 
 **[Ouvrir Radar](https://oustryilan63-blip.github.io/ligne-de-veille/)** · [Jeux](https://oustryilan63-blip.github.io/ligne-de-veille/tous-les-jeux.html) · [Histoire](https://oustryilan63-blip.github.io/ligne-de-veille/histoire.html)
 
@@ -65,7 +65,7 @@ Le dossier **_site/** est le résultat destiné à l’hébergement, jamais le d
 ## Données et médias
 
 - Les numéros d’engins sont stables : **ajouter en fin de catalogue**, sans réordonner les entrées utilisées dans les liens et les sauvegardes.
-- Les jeux de connaissance partagent le catalogue ; Chrono utilise 35 dates de premier vol vérifiées et Vrai ou faux 117 affirmations sourcées. QG et Alerte radar sont des simulations d’arcade.
+- Les jeux de connaissance partagent le catalogue ; Chrono utilise 39 dates de premier vol vérifiées et Vrai ou faux 129 affirmations sourcées. QG et Alerte radar sont des simulations d’arcade.
 - Les sauvegardes et favoris restent dans le navigateur ; leur export passe par la page Sauvegardes.
 - Les crédits et licences des photos sont conservés avec les données et dans les dossiers de médias. Les polices locales ont leur licence dans assets/fonts/atlas/.
 - Les sprites du QG sont des fichiers WebP séparés, mis en cache par le navigateur ; leur dessin n’a pas été modifié par cette optimisation.
@@ -82,3 +82,7 @@ Le 11 octobre 2026, le propriétaire de Radar confirme avoir reçu les autorisat
 ## Série 7 — 12 octobre 2026
 
 Vingt nouveaux engins portent le catalogue à 150 : six terrestres, six avions, quatre familles navales et quatre missiles. Ils enrichissent Histoire, le comparateur, la collection et les jeux de connaissance pertinents. Quarante photographies réelles créditées et dix-sept lecteurs 3D sont ajoutés ; les variantes représentées sont précisées. Aucun lecteur approximatif n’est ajouté au VAB, à Horizon ou à Aster 30. Les cartes des nouvelles fiches suivent les utilisateurs explicitement documentés et leurs limites ; l’origine de conception n’est pas interprétée comme une utilisation actuelle. Les chiffres de livraisons, de commandes et les épisodes particuliers restent distingués des totaux de production. Les nouveaux engins se retrouvent dans « Ajouts récents ».
+
+## Série 8 — 12 octobre 2026
+
+Douze nouveaux engins : M26 Pershing, Centurion, PT-76, BMP-2, AC-130J Ghostrider, U-2 Dragon Lady, F-5 Tiger II, AV-8B Harrier II, classes Iowa et Nimitz, Naval Strike Missile et AGM-158 JASSM. Ils enrichissent l’atlas, les jeux de connaissance, le comparateur et la collection. Vingt-quatre photos réelles créditées, douze affirmations et quatre premiers vols sont ajoutés. Les lecteurs 3D sont présents lorsqu’un modèle correspondant a été trouvé. Les opérateurs suivent les attestations et dates explicitement citées ; les commandes de rénovation sont distinguées des résultats de combat. L’ergonomie des fiches reste conservée.

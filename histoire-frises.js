@@ -2578,5 +2578,311 @@ window.LDV_TIMELINES = {
       "detail": "L’autorisation de production à pleine cadence est accordée pour le Block 2.",
       "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/rim-116-rolling-airframe-missile-ram/"
     }
+  ],
+  "150": [
+    {
+      "date": "1942",
+      "label": "Début de la famille T20",
+      "detail": "Les études qui conduisent au Pershing commencent.",
+      "source": "https://armyhistory.org/the-m26-pershing-heavy-tank/"
+    },
+    {
+      "date": "Novembre 1944",
+      "label": "Lancement industriel",
+      "detail": "Début de la production du T26E3.",
+      "source": "https://armyhistory.org/the-m26-pershing-heavy-tank/"
+    },
+    {
+      "date": "7 mars 1945",
+      "label": "Remagen",
+      "detail": "Quatre Pershing appuient l’infanterie près du pont sur le Rhin.",
+      "source": "https://tankmuseum.org/article/bridge-at-remagen"
+    }
+  ],
+  "151": [
+    {
+      "date": "Printemps 1945",
+      "label": "Présentation du Centurion",
+      "detail": "Le nouveau char britannique apparaît à la fin de la guerre.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/centurion/"
+    },
+    {
+      "date": "Mai 1953",
+      "label": "The Hook",
+      "detail": "L’exemplaire Mk 3 du musée combat en Corée.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/centurion/"
+    },
+    {
+      "date": "6 juin 1969",
+      "label": "Binh Ba",
+      "detail": "Le Mk 5/1 aujourd’hui à l’Australian War Memorial participe à la bataille.",
+      "source": "https://www.awm.gov.au/visit/exhibitions/bigthingsinstore/centurion"
+    }
+  ],
+  "152": [
+    {
+      "date": "15 août 1949",
+      "label": "Développement confié au VNII-100",
+      "detail": "Décision de développer le nouveau char amphibie.",
+      "source": "https://www.kskdivniy.ru/museum/eksponaty/pt-76/"
+    },
+    {
+      "date": "Printemps 1950",
+      "label": "Prototype",
+      "detail": "Achèvement du prototype avant les essais d’État de juin.",
+      "source": "https://www.kskdivniy.ru/museum/eksponaty/pt-76/"
+    },
+    {
+      "date": "6 août 1951",
+      "label": "Adoption soviétique",
+      "detail": "L’Objet 740 reçoit la désignation PT-76.",
+      "source": "https://www.kskdivniy.ru/museum/eksponaty/pt-76/"
+    },
+    {
+      "date": "11 octobre 2024",
+      "label": "Variante indonésienne",
+      "detail": "Les Marines testent des munitions de 90 mm sur PT-76 modernisés.",
+      "source": "https://marinir.tnial.mil.id/public/index.php/detail-berita/irkormar-tinjau-uji-fungsi-amunisi-tank-pt-76"
+    }
+  ],
+  "153": [
+    {
+      "date": "1980",
+      "label": "Entrée en service soviétique",
+      "detail": "Le BMP-2 rejoint la famille des véhicules de combat d’infanterie.",
+      "source": "https://www.benning.army.mil/Armor/eARMOR/content/issues/2015/APR_JUN/Apr-Jun_2015_edition.pdf"
+    },
+    {
+      "date": "1987",
+      "label": "Premier Sarath de Medak",
+      "detail": "L’usine indienne sort son premier véhicule de la famille BMP-II.",
+      "source": "https://avnl.co.in/ordnance-factory-medak"
+    },
+    {
+      "date": "13 mars 2024",
+      "label": "Contrat indien BMP2M",
+      "detail": "Un contrat est signé pour 693 modernisations d’armement de véhicules existants.",
+      "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2014345"
+    }
+  ],
+  "154": [
+    {
+      "date": "Janvier 2013",
+      "label": "Début de transformation",
+      "detail": "Le MC-130J destiné au prototype arrive à Eglin pour recevoir sa configuration d’appui feu.",
+      "source": "https://www.edwards.af.mil/News/Air-Force-News/Air-Force-Features/Article/473295/new-ac-130j-completes-first-test-flight/"
+    },
+    {
+      "date": "31 janvier 2014",
+      "label": "Premier vol comme Ghostrider",
+      "detail": "Le prototype vole pour la première fois après sa transformation en AC-130J.",
+      "source": "https://www.edwards.af.mil/News/Air-Force-News/Air-Force-Features/Article/473295/new-ac-130j-completes-first-test-flight/"
+    },
+    {
+      "date": "2017",
+      "label": "Capacité opérationnelle initiale",
+      "detail": "Le programme atteint sa capacité opérationnelle initiale selon la fiche USAF.",
+      "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/"
+    },
+    {
+      "date": "2 novembre 2022",
+      "label": "Dernière livraison annoncée",
+      "detail": "Après la cérémonie de Crestview, le dernier appareil du bilan de livraisons rejoint la 27th Special Operations Wing à Cannon.",
+      "source": "https://www.af.mil/News/Article-Display/Article/3209455/afsoc-receives-final-ac-130j/"
+    }
+  ],
+  "155": [
+    {
+      "date": "1er août 1955",
+      "label": "Décollage involontaire",
+      "detail": "Tony Le Vier quitte involontairement le sol lors d’un essai de roulage rapide du premier U-2, Article 341.",
+      "source": "https://www.cia.gov/legacy/museum/artifact/piece-of-metal-from-u-2-article-341/"
+    },
+    {
+      "date": "8 août 1955",
+      "label": "Premier vol qualifié d’officiel",
+      "detail": "La CIA décrit un vol officiel devant les responsables du programme, après les essais du 4 août; l’avion atteint 32 000 ft.",
+      "source": "https://www.cia.gov/resources/csi/static/CIA-and-U2-Program.pdf"
+    },
+    {
+      "date": "1967",
+      "label": "Premier vol du U-2R",
+      "detail": "La nouvelle cellule, plus grande, inaugure une autre génération de la famille.",
+      "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s/"
+    },
+    {
+      "date": "28 octobre 1994",
+      "label": "Premiers U-2S à Beale",
+      "detail": "Les trois premiers appareils de la version S arrivent à Beale selon la chronologie officielle de la 9th Reconnaissance Wing.",
+      "source": "https://www.beale.af.mil/Portals/110/Heritage%20Pamphlet.pdf"
+    },
+    {
+      "date": "31 juillet 2025",
+      "label": "Mission à travers les États-Unis",
+      "detail": "Un TU-2S de Beale commence une mission passant au-dessus des quarante-huit États contigus.",
+      "source": "https://www.aflcmc.af.mil/NEWS/Article/4267103/beale-afb-conducts-historic-u-2-dragon-lady-flight-11-years-in-the-making/"
+    }
+  ],
+  "156": [
+    {
+      "date": "11 août 1972",
+      "label": "Premier vol du F-5E",
+      "detail": "Le premier Tiger II vole selon la chronologie officielle de l’Air Force Test Center.",
+      "source": "https://www.aftc.af.mil/Portals/55/Documents/Historian/E-Books/Ad%20Inexplorata.pdf"
+    },
+    {
+      "date": "25 septembre 1974",
+      "label": "Premier vol du F-5F",
+      "detail": "La version biplace du Tiger II effectue son premier vol.",
+      "source": "https://www.aftc.af.mil/Portals/55/Documents/Historian/E-Books/Ad%20Inexplorata.pdf"
+    },
+    {
+      "date": "29 avril 2009",
+      "label": "Fin des premières conversions suisses",
+      "detail": "La Navy reçoit le dernier F-5N d’un programme portant sur quarante-quatre anciennes cellules suisses.",
+      "source": "https://www.navair.navy.mil/node/9751"
+    },
+    {
+      "date": "21 mars 2024",
+      "label": "Nouvelle tranche ARTEMIS",
+      "detail": "Le premier des vingt-deux appareils suisses du programme rejoint Cecil Field pour la deuxième phase de modernisation.",
+      "source": "https://www.navair.navy.mil/news/ARTEMIS-program-receives-first-repatriated-Swiss-F-5/Thu-04042024-1256?page=1"
+    }
+  ],
+  "157": [
+    {
+      "date": "9 novembre 1978",
+      "label": "Premier vol du YAV-8B",
+      "detail": "Le prototype de démonstration inaugure le programme Harrier II.",
+      "source": "https://www.boeing.com/features/2026/06/last-av-8b-harrier-jet-flies-away-into-history"
+    },
+    {
+      "date": "5 novembre 1981",
+      "label": "Premier AV-8B de développement",
+      "detail": "L’appareil de développement complet effectue son premier vol, distinct de celui du démonstrateur YAV-8B de 1978.",
+      "source": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing-Chronology.pdf"
+    },
+    {
+      "date": "22 septembre 1992",
+      "label": "Premier vol du Harrier II Plus",
+      "detail": "La version issue de la coopération américaine, espagnole et italienne ajoute un radar et une avionique améliorée.",
+      "source": "https://www.boeing.com/features/2026/06/last-av-8b-harrier-jet-flies-away-into-history"
+    },
+    {
+      "date": "2003",
+      "label": "Fin de production",
+      "detail": "Boeing situe la dernière livraison d’un AV-8B neuf à l’Espagne en 2003.",
+      "source": "https://www.boeing.com/features/2026/06/last-av-8b-harrier-jet-flies-away-into-history"
+    },
+    {
+      "date": "3 juin 2026",
+      "label": "Retrait du Marine Corps",
+      "detail": "VMA-223, dernière escadrille opérationnelle américaine de Harrier, célèbre la fin de l’emploi de l’AV-8B à Cherry Point.",
+      "source": "https://www.marines.mil/News/News-Display/Article/4511422/vma-223-celebrates-sundown-as-marine-corps-final-harrier-squadron/"
+    }
+  ],
+  "158": [
+    {
+      "date": "22 février 1943",
+      "label": "Iowa admis au service",
+      "detail": "Le premier des quatre cuirassés achevés de la classe entre dans l’US Navy.",
+      "source": "https://www.history.navy.mil/content/history/nhhc/about-us/leadership/director/directors-corner/h-grams/h-gram-029/h-029-4.html"
+    },
+    {
+      "date": "2 septembre 1945",
+      "label": "Capitulation à bord du Missouri",
+      "detail": "L’acte de capitulation du Japon est signé dans la baie de Tokyo à bord du BB-63.",
+      "source": "https://ussmissouri.org/documents/History_Comes_Alive_at_the_Mighty_Mo_-_PR.pdf"
+    },
+    {
+      "date": "28 avril 1984",
+      "label": "Iowa revient au service",
+      "detail": "Le BB-61 reprend le service après sa modernisation avec des missiles de croisière et antinavires.",
+      "source": "https://pacificbattleship.com/life-of-a-sailor-visitor-guide/"
+    },
+    {
+      "date": "31 mars 1992",
+      "label": "Retrait définitif du Missouri",
+      "detail": "Le BB-63 est désarmé après sa dernière période de service, qui comprend la guerre du Golfe de 1991.",
+      "source": "https://ussmissouri.org/documents/History_Comes_Alive_at_the_Mighty_Mo_-_PR.pdf"
+    }
+  ],
+  "159": [
+    {
+      "date": "22 juin 1968",
+      "label": "Pose de quille du Nimitz",
+      "detail": "La construction du premier porte-avions de la série commence à Newport News.",
+      "source": "https://www.navsea.navy.mil/Media/News/Article-View/Article/3034264/aircraft-carrier-centennial-uss-nimitz-cvn-68/"
+    },
+    {
+      "date": "3 mai 1975",
+      "label": "Premier bâtiment en service",
+      "detail": "L’USS Nimitz CVN-68 est admis au service lors d’une cérémonie à Norfolk.",
+      "source": "https://www.history.navy.mil/news-and-events/news/2022/nhm-050322.html"
+    },
+    {
+      "date": "10 janvier 2009",
+      "label": "La série atteint dix bâtiments",
+      "detail": "L’USS George H. W. Bush CVN-77, dixième et dernier Nimitz, entre en service.",
+      "source": "https://www.bush41library.gov/bushes/president-george-bush"
+    }
+  ],
+  "160": [
+    {
+      "date": "2012",
+      "label": "Capacité initiale en Norvège",
+      "detail": "Le NSM devient initialement opérationnel sur les frégates Nansen et les corvettes Skjold.",
+      "source": "https://www.kongsberg.com/news/news-archive/2014/nsm-coastal-defence-contract-valued-at-nok-13-billions-with-poland/"
+    },
+    {
+      "date": "1er octobre 2019",
+      "label": "Tir depuis Gabrielle Giffords",
+      "detail": "Le LCS américain réalise un lancement pendant l’exercice Pacific Griffin.",
+      "source": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/2237317/lcs-successfully-launches-naval-strike-missile/"
+    },
+    {
+      "date": "Juillet 2024",
+      "label": "Premier tir naval australien",
+      "detail": "HMAS Sydney lance un NSM pendant RIMPAC ; le ministère annonce ce jalon le 22 juillet.",
+      "source": "https://www.minister.defence.gov.au/media-releases/2024-07-22/navy-conducts-successful-firing-naval-strike-missile"
+    },
+    {
+      "date": "29 septembre 2025",
+      "label": "Premier tir britannique annoncé",
+      "detail": "La Royal Navy annonce le tir réussi du HMS Somerset pendant Aegir 25.",
+      "source": "https://www.royalnavy.mod.uk/news/2025/september/29/20250929-hms-somerset-fires-naval-strike-missile"
+    }
+  ],
+  "161": [
+    {
+      "date": "1998",
+      "label": "Contrat de développement",
+      "detail": "L’Air Force et la Navy confient initialement le programme JASSM à Lockheed Martin.",
+      "source": "https://lockheedmartin.com/en-us/news/features/history/jassm.html"
+    },
+    {
+      "date": "21 octobre 2003",
+      "label": "Certification opérationnelle annoncée",
+      "detail": "Lockheed Martin annonce la certification et la satisfaction des besoins initiaux en matériels pour les unités de B-52.",
+      "source": "https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martins-jassm-certified-ready-operational-use-stealthy/"
+    },
+    {
+      "date": "2005",
+      "label": "Capacité initiale sur B-52 et B-1",
+      "detail": "L’Air Force date de 2005 la déclaration de capacité opérationnelle initiale par Air Combat Command.",
+      "source": "https://www.afmc.af.mil/News/Article-Display/Article/155587/jassm-the-air-forces-next-generation-cruise-missile/"
+    },
+    {
+      "date": "2014",
+      "label": "Entrée en service du JASSM-ER",
+      "detail": "La version à portée accrue rejoint l’US Air Force, selon l’historique du constructeur.",
+      "source": "https://www.lockheedmartin.com/en-us/products/jassm.html"
+    },
+    {
+      "date": "20 janvier 2017",
+      "label": "Premières livraisons polonaises annoncées",
+      "detail": "Le ministère polonais annonce l’arrivée des premiers JASSM à Poznań-Krzesiny pour les F-16.",
+      "source": "https://www.gov.pl/web/obrona-narodowa/pociski-jassm-dla-f-16-2"
+    }
   ]
 };

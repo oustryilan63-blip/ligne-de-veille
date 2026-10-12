@@ -1179,5 +1179,86 @@ window.LDV_CHIFFRES = {
       "note": "Jalon publié dans la fiche Navy mise à jour en août 2021 pour toute la famille RAM. Ce n’est pas le nombre de Block 2 seuls ni un inventaire mondial actuel.",
       "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/rim-116-rolling-airframe-missile-ram/"
     }
+  },
+  "150": {
+    "production": {
+      "label": "M26 construits",
+      "value": "2 202",
+      "note": "Total de M26 cité par le Tank Museum. Les transformations ultérieures en M46 ne sont pas ajoutées comme de nouveaux M26 ; ce chiffre n’est pas un inventaire actuel.",
+      "source": "https://tankmuseum.org/article/the-patton-family"
+    },
+    "targets": {
+      "label": "Exemple documenté à Cologne",
+      "value": "1 Panther neutralisé",
+      "note": "Épisode du M26 Eagle 7 à Cologne décrit par l’Army Historical Foundation. Ce résultat précis n’est pas le total des cibles détruites par tous les M26 ; aucune perte humaine n’est comptabilisée ici.",
+      "source": "https://armyhistory.org/the-m26-pershing-heavy-tank/"
+    }
+  },
+  "151": {
+    "inventory": {
+      "label": "Centurion australiens employés au Vietnam",
+      "value": "58",
+      "note": "Cumul des chars ayant servi au Vietnam selon l’Australian War Memorial ; ce n’est ni la production mondiale ni un parc présent simultanément ou actuel.",
+      "source": "https://www.awm.gov.au/visit/exhibitions/bigthingsinstore/centurion"
+    }
+  },
+  "152": {},
+  "153": {
+    "inventory": {
+      "label": "Modernisations d’armement contractées en Inde",
+      "value": "693",
+      "note": "Nombre de modernisations BMP2→BMP2M prévu par le contrat du 13 mars 2024. Il ne s’agit ni de chars neufs, ni d’une production réalisée, ni du parc indien total ; aucun état d’achèvement en 2026 n’est déduit.",
+      "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2014345"
+    }
+  },
+  "154": {
+    "production": {
+      "value": "31 livrés en novembre 2022",
+      "label": "Bilan de livraisons de 2022",
+      "note": "Le communiqué officiel du 3 novembre 2022 désigne l’appareil livré la veille comme le 31e et dernier AC-130J de l’AFSOC. C’est un bilan daté, pas un inventaire actif de 2026. Le chiffre prévisionnel de 37 encore présent dans la fiche de 2025 n’est pas additionné à ce bilan.",
+      "source": "https://www.af.mil/News/Article-Display/Article/3209455/afsoc-receives-final-ac-130j/"
+    }
+  },
+  "155": {},
+  "156": {},
+  "157": {
+    "production": {
+      "value": "340 livrés",
+      "label": "Programme AV-8B, total Boeing",
+      "note": "Bilan Boeing du 22 juin 2026 : 340 appareils livrés, en comptant AV-8B d’attaque, TAV-8B biplaces et prototypes YAV-8B. Les derniers neufs sont livrés en 2003. Ce chiffre ne correspond ni au seul Harrier II Plus ni aux Harrier britanniques GR.",
+      "source": "https://www.boeing.com/features/2026/06/last-av-8b-harrier-jet-flies-away-into-history"
+    }
+  },
+  "158": {
+    "production": {
+      "label": "Bâtiments achevés",
+      "value": "4 cuirassés",
+      "note": "Total historique des unités admises au service : Iowa, New Jersey, Missouri et Wisconsin. Les projets inachevés ne sont pas comptés ; ce chiffre ne représente pas un effectif actif actuel.",
+      "source": "https://www.history.navy.mil/content/history/nhhc/about-us/leadership/director/directors-corner/h-grams/h-gram-029/h-029-4.html"
+    }
+  },
+  "159": {
+    "production": {
+      "label": "Série construite",
+      "value": "10 porte-avions",
+      "note": "Total historique de la classe, de CVN-68 à CVN-77. Enterprise CVN-65 et les bâtiments de classe Gerald R. Ford sont exclus. Ce total ne décrit pas leur disponibilité simultanée.",
+      "source": "https://www.bush41library.gov/bushes/president-george-bush"
+    }
+  },
+  "160": {
+    "inventory": {
+      "label": "Pays ayant sélectionné le NSM",
+      "value": "14 pays annoncés en 2025",
+      "note": "Périmètre commercial du communiqué de la commande danoise, qui présente le Danemark comme quatorzième pays à choisir le NSM. Ce chiffre ne mesure ni le nombre de missiles livrés, ni les stocks, ni quatorze capacités opérationnelles déjà disponibles.",
+      "source": "https://www.kongsberg.com/news/news-archive/2025/denmark-acquires-kongsbergs-naval-strike-missile/"
+    }
+  },
+  "161": {
+    "production": {
+      "label": "Jalon de livraison à l’US Air Force",
+      "value": "2 000e missile livré, annoncé en septembre 2016",
+      "note": "Le missile marquant le jalon est un JASSM Baseline du lot 12 ; le communiqué décrit un programme comprenant aussi JASSM-ER. Ce jalon n’est pas présenté comme 2 000 AGM-158A seuls, ni comme un stock restant ou un total mondial de 2026. Les plus de 2 700 commandés mentionnés dans le même communiqué sont un chiffre distinct des livraisons.",
+      "source": "https://news.lockheedmartin.com/2016-09-06-Lockheed-Martin-Delivers-2-000th-JASSM-to-the-U-S-Air-Force%2C1"
+    }
   }
 };

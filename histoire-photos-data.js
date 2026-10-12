@@ -3929,5 +3929,197 @@ window.RADAR_HISTORY_PHOTOS = {
       "width": 960,
       "height": 640
     }
+  ],
+  "M26 Pershing": [
+    {
+      "src": "assets/histoire/photos/150-1.webp",
+      "file": "M26-Pershing-Korea-19500904.JPG",
+      "author": "SGT. FRANK C. KERR",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:M26-Pershing-Korea-19500904.JPG",
+      "alt": "Photographie de M26 Pershing",
+      "caption": "M26 Pershing — Photographie documentaire ; versions précisées dans la fiche.",
+      "sourceCaption": "Operation / Series: KOREAN WAR Marine's Pershing tanks scramble around the edge of burning Korean village lately occupied by Communists to get at an enemy tank delaying our advance. NARA FILE# : 127-GK-234A-A2241",
+      "real": true,
+      "width": 960,
+      "height": 771
+    }
+  ],
+  "Centurion": [
+    {
+      "src": "assets/histoire/photos/151-1.webp",
+      "file": "Centurion cfb borden 1.JPG",
+      "author": "Balcer",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Centurion_cfb_borden_1.JPG",
+      "alt": "Photographie de Centurion",
+      "caption": "Centurion — Photographie documentaire ; versions précisées dans la fiche.",
+      "sourceCaption": "",
+      "real": true,
+      "width": 960,
+      "height": 720
+    }
+  ],
+  "PT-76": [
+    {
+      "src": "assets/histoire/photos/152-1.webp",
+      "file": "PT-76-latrun-1.jpg",
+      "author": "No machine-readable author provided. Bukvoed assumed (based on copyright claims).",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:PT-76-latrun-1.jpg",
+      "alt": "Photographie de PT-76",
+      "caption": "PT-76 — Photographie documentaire ; versions précisées dans la fiche.",
+      "sourceCaption": "Description: Soviet PT-76 amphibious tank in Yad la-Shiryon Museum, Israel. Source: Photo by me, User:Bukvoed .",
+      "real": true,
+      "width": 960,
+      "height": 624
+    }
+  ],
+  "BMP-2": [
+    {
+      "src": "assets/histoire/photos/153-1.webp",
+      "file": "Indian Army BMP-2.jpg",
+      "author": "Flickr user cell105",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Indian_Army_BMP-2.jpg",
+      "alt": "Photographie de BMP-2",
+      "caption": "BMP-2 — Photographie documentaire ; versions précisées dans la fiche.",
+      "sourceCaption": "",
+      "real": true,
+      "width": 960,
+      "height": 720
+    }
+  ],
+  "AC-130J Ghostrider": [
+    {
+      "src": "assets/histoire/photos/154-1.webp",
+      "file": "290321-F-YW122-009.jpg",
+      "author": "U.S. Air Force / Capt. Renee Douglas",
+      "license": "Public domain",
+      "licenseUrl": "https://www.dvidshub.net/image/6575636/ac-130j-ghostrider-visits-japan",
+      "source": "https://www.dvidshub.net/image/6575636/ac-130j-ghostrider-visits-japan",
+      "alt": "Photographie de AC-130J Ghostrider",
+      "caption": "AC-130J Ghostrider au roulage à Kadena, Japon, le 29 mars 2021.",
+      "sourceCaption": "AC-130J Ghostrider au roulage à Kadena, Japon, le 29 mars 2021.",
+      "real": true,
+      "width": 960,
+      "height": 640
+    }
+  ],
+  "U-2 Dragon Lady": [
+    {
+      "src": "assets/histoire/photos/155-1.webp",
+      "file": "USAF U-2S taxiing after landing at Al Dhafra Air Base.jpg",
+      "author": "TSgt Anthony Nelson Jr. (USAF)",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USAF_U-2S_taxiing_after_landing_at_Al_Dhafra_Air_Base.jpg",
+      "alt": "Photographie de U-2 Dragon Lady",
+      "caption": "U-2 Dragon Lady — Photographie documentaire ; versions précisées dans la fiche.",
+      "sourceCaption": "A Lockheed U-2 S taxies after lands at Al Dhafra Air Base , United Arab Emirates",
+      "real": true,
+      "width": 960,
+      "height": 338
+    }
+  ],
+  "F-5 Tiger II": [
+    {
+      "src": "assets/histoire/photos/156-1.webp",
+      "file": "F-5N of VFC-111 at NAS Key West in November 2014.JPG",
+      "author": "U.S. Navy photo by Mass Communication Specialist 1st Class Brian Morales",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:F-5N_of_VFC-111_at_NAS_Key_West_in_November_2014.JPG",
+      "alt": "Photographie de F-5 Tiger II",
+      "caption": "F-5 Tiger II — Photographie documentaire ; versions précisées dans la fiche.",
+      "sourceCaption": "A U.S. Navy Northrop F-5N Tiger II (BuNo 761560, USAF s/n 76-1560, former Swiss J-3035) assigned to Fighter Squadron Composite (VFC) 111 \"Sundowners\" launches from Boca Chica Field of Naval Air Station Key West, Florida (USA).",
+      "real": true,
+      "width": 960,
+      "height": 548
+    }
+  ],
+  "AV-8B Harrier II": [
+    {
+      "src": "assets/histoire/photos/157-1.webp",
+      "file": "AV-8B Harrier II of VMA-214 launches from Prince Sultan Air Base.jpg",
+      "author": "Senior Airman Giovanni Sims",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:AV-8B_Harrier_II_of_VMA-214_launches_from_Prince_Sultan_Air_Base.jpg",
+      "alt": "Photographie de AV-8B Harrier II",
+      "caption": "AV-8B Harrier II — Photographie documentaire ; versions précisées dans la fiche.",
+      "sourceCaption": "A USMC AV-8B Harrier II of VMA-214 launches from Prince Sultan Air Base, Saudi Arabia, on 16 June 2020.",
+      "real": true,
+      "width": 960,
+      "height": 640
+    }
+  ],
+  "Classe Iowa": [
+    {
+      "src": "assets/histoire/photos/158-1.webp",
+      "file": "BB61 USS Iowa BB61 broadside USN.jpg",
+      "author": "PH1 Jeff Hilton",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:BB61_USS_Iowa_BB61_broadside_USN.jpg",
+      "alt": "Photographie de Classe Iowa",
+      "caption": "Classe Iowa — Photographie documentaire ; versions précisées dans la fiche.",
+      "sourceCaption": "A bow view of the battleship USS IOWA (BB-61) firing its Mark 7 16-inch/50-caliber guns off the starboard side during a fire power demonstration.",
+      "real": true,
+      "width": 754,
+      "height": 960
+    }
+  ],
+  "Classe Nimitz": [
+    {
+      "src": "assets/histoire/photos/159-1.webp",
+      "file": "US Navy 050615-N-8148A-063 The Nimitz-class aircraft carrier USS Ronald Reagan (CVN 76) activates her countermeasures wash down system as part of a series of test and evaluations to certify the vessel in the event of a chemical.jpg",
+      "author": "U.S. Navy photo by Photographer's Mate 2nd Class Kitt Amaritnant",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_050615-N-8148A-063_The_Nimitz-class_aircraft_carrier_USS_Ronald_Reagan_(CVN_76)_activates_her_countermeasures_wash_down_system_as_part_of_a_series_of_test_and_evaluations_to_certify_the_vessel_in_the_event_of_a_chemical.jpg",
+      "alt": "Photographie de Classe Nimitz",
+      "caption": "Classe Nimitz — Photographie documentaire ; versions précisées dans la fiche.",
+      "sourceCaption": "Pacific Ocean (June 15, 2005) - The Nimitz-class aircraft carrier USS Ronald Reagan (CVN 76) activates her countermeasures wash down system as part of a series of test and evaluations to certify the vessel in the event of a chemical, biological or radiological attack. The sprinkler system also provides protection against flight deck fires. Reagan is currently underway in the Pacific Ocean conducting a Board of Inspection and Survey inspection. U.S. Navy photo by Photographer's Mate 2nd Class Kitt Amaritnant (RELEASED)",
+      "real": true,
+      "width": 960,
+      "height": 626
+    }
+  ],
+  "Naval Strike Missile (NSM)": [
+    {
+      "src": "assets/histoire/photos/160-1.webp",
+      "file": "USS Gabrielle Giffords (LCS-10) launches a Naval Strike Missile on 1 October 2019 (191001-N-FC670-004).JPG",
+      "author": "U.S. Navy photo by Chief Mass Communication Specialist Shannon Renfroe",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Gabrielle_Giffords_(LCS-10)_launches_a_Naval_Strike_Missile_on_1_October_2019_(191001-N-FC670-004).JPG",
+      "alt": "Photographie de Naval Strike Missile (NSM)",
+      "caption": "Naval Strike Missile (NSM) — Photographie documentaire ; versions précisées dans la fiche.",
+      "sourceCaption": "The U.S. Navy littoral combat ship USS Gabrielle Giffords (LCS-10) launches a Naval Strike Missile (NSM) during exercise Pacific Griffin on 1 October 2019. The NSM is a long-range, precision strike weapon that is designed to find and destroy enemy ships. Pacific Griffin is a biennial exercise conducted in the waters near Guam aimed at enhancing combined proficiency at sea while strengthening relationships between the U.S. and Republic of Singapore navies.",
+      "real": true,
+      "width": 960,
+      "height": 658
+    }
+  ],
+  "AGM-158 JASSM": [
+    {
+      "src": "assets/histoire/photos/161-1.webp",
+      "file": "240827-M-RM446-1213.jpg",
+      "author": "Lance Cpl. Jennifer Sanchez, U.S. Marine Corps",
+      "license": "Public domain",
+      "licenseUrl": "https://www.dvidshub.net/image/8615687/mals-11-and-vmfa-232-first-incorporate-joint-air-surface-standoff-missile-jassm",
+      "source": "https://www.dvidshub.net/image/8615687/mals-11-and-vmfa-232-first-incorporate-joint-air-surface-standoff-missile-jassm",
+      "alt": "Photographie de AGM-158 JASSM",
+      "caption": "AGM-158 JASSM — Photographie documentaire ; versions précisées dans la fiche.",
+      "sourceCaption": "Des Marines chargent un AGM-158A JASSM sur un F/A-18 de VMFA-232 à Miramar, le 27 août 2024.",
+      "real": true,
+      "width": 960,
+      "height": 640
+    }
   ]
 };

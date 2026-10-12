@@ -6909,5 +6909,589 @@ window.LDV_TECHNIQUE = {
         "url": "https://www.rtx.com/raytheon/what-we-do/sea/ram-missile"
       }
     ]
+  },
+  "150": {
+    "name": "M26 Pershing",
+    "checkedAt": "2026-10-12",
+    "variant": "T26E3 de série, standardisé M26 en 1945, configuration décrite par l’Army Historical Foundation",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "5 personnes",
+        "source": "https://armyhistory.org/the-m26-pershing-heavy-tank/"
+      },
+      {
+        "label": "Canon principal",
+        "value": "90 mm",
+        "source": "https://armyhistory.org/the-m26-pershing-heavy-tank/"
+      },
+      {
+        "label": "Mitrailleuses",
+        "value": "2 × .30 et 1 × .50",
+        "source": "https://armyhistory.org/the-m26-pershing-heavy-tank/"
+      },
+      {
+        "label": "Moteur",
+        "value": "Ford GAF V8",
+        "source": "https://armyhistory.org/the-m26-pershing-heavy-tank/"
+      },
+      {
+        "label": "Suspension",
+        "value": "Barres de torsion",
+        "source": "https://armyhistory.org/the-m26-pershing-heavy-tank/"
+      },
+      {
+        "label": "Blindage supérieur de caisse publié",
+        "value": "Jusqu’à 4 pouces, soit environ 102 mm",
+        "source": "https://armyhistory.org/the-m26-pershing-heavy-tank/"
+      }
+    ],
+    "note": "Configuration du T26E3/M26 ordinaire. Elle ne décrit ni le T26E4 Super Pershing ni le M46 à nouvelle motorisation. L’épaisseur du blindage est une dimension physique, sans équivalence moderne de protection.",
+    "sources": [
+      {
+        "label": "Army Historical Foundation — configuration du T26E3",
+        "url": "https://armyhistory.org/the-m26-pershing-heavy-tank/"
+      }
+    ]
+  },
+  "151": {
+    "name": "Centurion",
+    "checkedAt": "2026-10-12",
+    "variant": "FV 4007 Centurion Mark 3, fiche du Tank Museum",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "4 personnes",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/centurion/"
+      },
+      {
+        "label": "Canon principal",
+        "value": "20-pounder de 83,4 mm",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/centurion/"
+      },
+      {
+        "label": "Armement secondaire",
+        "value": "Mitrailleuse Besa de 7,92 mm",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/centurion/"
+      },
+      {
+        "label": "Masse publiée",
+        "value": "49,52 tons",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/centurion/"
+      },
+      {
+        "label": "Vitesse publiée",
+        "value": "21,5 mph, soit environ 35 km/h",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/centurion/"
+      }
+    ],
+    "note": "Valeurs du Mk 3 uniquement. Le musée ne précise pas la convention de son unité de masse « tons », conservée telle quelle. Les Centurion armés du canon de 105 mm et les transformations nationales ont d’autres caractéristiques.",
+    "sources": [
+      {
+        "label": "Tank Museum — caractéristiques du Centurion Mk 3",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/centurion/"
+      }
+    ]
+  },
+  "152": {
+    "name": "PT-76",
+    "checkedAt": "2026-10-12",
+    "variant": "PT-76 initial à canon D-56T, exemplaire présenté par le musée de Padikovo",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "3 personnes",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/pt-76/"
+      },
+      {
+        "label": "Masse de combat",
+        "value": "14,5 t",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/pt-76/"
+      },
+      {
+        "label": "Canon principal",
+        "value": "D-56T de 76 mm",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/pt-76/"
+      },
+      {
+        "label": "Mitrailleuse",
+        "value": "SGMT de 7,62 mm",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/pt-76/"
+      },
+      {
+        "label": "Longueur de caisse",
+        "value": "6,91 m",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/pt-76/"
+      },
+      {
+        "label": "Largeur de caisse",
+        "value": "3,14 m",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/pt-76/"
+      },
+      {
+        "label": "Hauteur publiée",
+        "value": "2,195 m",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/pt-76/"
+      }
+    ],
+    "note": "Caractéristiques de l’exemplaire initial décrit par le musée, dont le calibre est publié sous la forme arrondie 76 mm. Les PT-76B et les modernisations indonésiennes à canon de 90 mm ne sont pas assimilés à cette configuration. Aucun total de production n’est retenu, les pages muséales consultées donnant des périmètres ou chiffres divergents.",
+    "sources": [
+      {
+        "label": "Musée de Padikovo — caractéristiques du PT-76",
+        "url": "https://www.kskdivniy.ru/museum/eksponaty/pt-76/"
+      }
+    ]
+  },
+  "153": {
+    "name": "BMP-2",
+    "checkedAt": "2026-10-12",
+    "variant": "BMP-II / Sarath de série décrit par AVNL, avant les modernisations BMP2M annoncées en 2024",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "3 personnes",
+        "source": "https://avnl.co.in/index.php/hi/products/baiemapai-kae"
+      },
+      {
+        "label": "Fantassins transportés",
+        "value": "7",
+        "source": "https://avnl.co.in/index.php/hi/products/baiemapai-kae"
+      },
+      {
+        "label": "Canon principal",
+        "value": "2A42 automatique de 30 mm",
+        "source": "https://avnl.co.in/index.php/hi/products/baiemapai-kae"
+      },
+      {
+        "label": "Mitrailleuse coaxiale",
+        "value": "PKT de 7,62 mm",
+        "source": "https://avnl.co.in/index.php/hi/products/baiemapai-kae"
+      },
+      {
+        "label": "Moteur",
+        "value": "Diesel 6 cylindres de 300 ch",
+        "source": "https://avnl.co.in/index.php/hi/products/baiemapai-kae"
+      },
+      {
+        "label": "Vitesse maximale sur route",
+        "value": "65 km/h",
+        "source": "https://avnl.co.in/products/sarath-bmp-ii"
+      },
+      {
+        "label": "Vitesse à flot",
+        "value": "7 km/h",
+        "source": "https://avnl.co.in/products/sarath-bmp-ii"
+      }
+    ],
+    "note": "Configuration Sarath construite en Inde. La page AVNL en hindi est titrée BMP-IIK, mais son texte et ses caractéristiques décrivent explicitement le BMP-II/Sarath à trois membres d’équipage et sept fantassins. Ces valeurs ne sont pas appliquées à toutes les variantes de commandement, aux BMP-2M russes ou au véhicule modernisé du contrat indien.",
+    "sources": [
+      {
+        "label": "AVNL — fiche BMP-II/Sarath, page hindi de la gamme BMP-IIK",
+        "url": "https://avnl.co.in/index.php/hi/products/baiemapai-kae"
+      },
+      {
+        "label": "AVNL — mobilité du Sarath, page mise à jour le 23 septembre 2026",
+        "url": "https://avnl.co.in/products/sarath-bmp-ii"
+      }
+    ]
+  },
+  "154": {
+    "name": "AC-130J Ghostrider",
+    "checkedAt": "2026-10-12",
+    "variant": "AC-130J Ghostrider — fiche USAF arrêtée à janvier 2025",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "4 turbopropulseurs Rolls-Royce AE 2100D3",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/"
+      },
+      {
+        "label": "Puissance unitaire à l’arbre",
+        "value": "4 700 shp, soit environ 3 505 kW",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/"
+      },
+      {
+        "label": "Masse maximale au décollage",
+        "value": "164 000 lb, soit environ 74 390 kg",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/"
+      },
+      {
+        "label": "Équipage",
+        "value": "8 personnes : 2 pilotes, 2 officiers systèmes de combat et 4 spécialistes de mission",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/"
+      },
+      {
+        "label": "Canons",
+        "value": "30 mm et 105 mm",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/"
+      },
+      {
+        "label": "Distance franchissable publiée",
+        "value": "3 000 miles, soit environ 4 830 km",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/",
+        "note": "Le ravitaillement en vol peut prolonger la mission; la source cite alors la durée de service de l’équipage comme limite."
+      }
+    ],
+    "note": "Capacités de la fiche de janvier 2025; configuration et charge de mission font varier les performances. Conversions arrondies.",
+    "sources": [
+      {
+        "label": "USAF — fiche AC-130J, janvier 2025",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/467756/ac-130j-ghostrider/"
+      }
+    ]
+  },
+  "155": {
+    "name": "U-2 Dragon Lady",
+    "checkedAt": "2026-10-12",
+    "variant": "U-2S monoplace — fiche USAF arrêtée à septembre 2015",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "1 pilote",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s/"
+      },
+      {
+        "label": "Motorisation",
+        "value": "1 General Electric F118-101",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s/"
+      },
+      {
+        "label": "Poussée",
+        "value": "17 000 lbf, soit environ 75,6 kN",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s/"
+      },
+      {
+        "label": "Envergure",
+        "value": "105 ft, soit environ 32,00 m",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s/"
+      },
+      {
+        "label": "Longueur",
+        "value": "63 ft, soit environ 19,20 m",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s/"
+      },
+      {
+        "label": "Masse maximale au décollage",
+        "value": "40 000 lb, soit environ 18 144 kg",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s/"
+      },
+      {
+        "label": "Charge utile publiée",
+        "value": "5 000 lb, soit environ 2 268 kg",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s/"
+      },
+      {
+        "label": "Plafond",
+        "value": "Plus de 70 000 ft, soit plus de 21 336 m",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s/"
+      }
+    ],
+    "note": "Référence historique de septembre 2015. Conversions calculées depuis les valeurs américaines, avec arrondis. Le TU-2S est biplace; le U-2A et l’ER-2 ont d’autres configurations.",
+    "sources": [
+      {
+        "label": "USAF — fiche U-2S/TU-2S, septembre 2015",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s/"
+      }
+    ]
+  },
+  "156": {
+    "name": "F-5 Tiger II",
+    "checkedAt": "2026-10-12",
+    "variant": "F-5E Tiger II suisse — brochure des Forces aériennes suisses, février 2026, page 45",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "2 General Electric J85-GE-21A",
+        "source": "https://www.vtg.admin.ch/dam/fr/sd-web/kyBRAbRF41IS/84_003_dfie_Broschuere_Patrouille_Suisse_2026.pdf"
+      },
+      {
+        "label": "Longueur",
+        "value": "14,68 m",
+        "source": "https://www.vtg.admin.ch/dam/fr/sd-web/kyBRAbRF41IS/84_003_dfie_Broschuere_Patrouille_Suisse_2026.pdf"
+      },
+      {
+        "label": "Envergure",
+        "value": "8,13 m",
+        "source": "https://www.vtg.admin.ch/dam/fr/sd-web/kyBRAbRF41IS/84_003_dfie_Broschuere_Patrouille_Suisse_2026.pdf"
+      },
+      {
+        "label": "Hauteur",
+        "value": "4,06 m",
+        "source": "https://www.vtg.admin.ch/dam/fr/sd-web/kyBRAbRF41IS/84_003_dfie_Broschuere_Patrouille_Suisse_2026.pdf"
+      },
+      {
+        "label": "Masse à vide",
+        "value": "4 350 kg",
+        "source": "https://www.vtg.admin.ch/dam/fr/sd-web/kyBRAbRF41IS/84_003_dfie_Broschuere_Patrouille_Suisse_2026.pdf"
+      },
+      {
+        "label": "Masse maximale au décollage",
+        "value": "11 180 kg",
+        "source": "https://www.vtg.admin.ch/dam/fr/sd-web/kyBRAbRF41IS/84_003_dfie_Broschuere_Patrouille_Suisse_2026.pdf"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "1 700 km/h",
+        "source": "https://www.vtg.admin.ch/dam/fr/sd-web/kyBRAbRF41IS/84_003_dfie_Broschuere_Patrouille_Suisse_2026.pdf"
+      },
+      {
+        "label": "Plafond opérationnel",
+        "value": "15 590 m",
+        "source": "https://www.vtg.admin.ch/dam/fr/sd-web/kyBRAbRF41IS/84_003_dfie_Broschuere_Patrouille_Suisse_2026.pdf"
+      }
+    ],
+    "note": "Valeurs du F-5E suisse de la brochure 2026, pas du F-5F biplace ni du F-5N américain. La vitesse maximale n’est pas accompagnée d’une altitude dans ce tableau; les adaptations nationales peuvent modifier les équipements et les masses.",
+    "sources": [
+      {
+        "label": "Forces aériennes suisses — tableau F-5E Tiger II, page 45",
+        "url": "https://www.vtg.admin.ch/dam/fr/sd-web/kyBRAbRF41IS/84_003_dfie_Broschuere_Patrouille_Suisse_2026.pdf"
+      }
+    ]
+  },
+  "157": {
+    "name": "AV-8B Harrier II",
+    "checkedAt": "2026-10-12",
+    "variant": "AV-8B Harrier II Plus / Radar — moteur F402-RR-408A de la fiche NAVAIR",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "1 Rolls-Royce Pegasus F402-RR-408A",
+        "source": "https://www.navair.navy.mil/product/AV-8B-Harrier"
+      },
+      {
+        "label": "Poussée publiée",
+        "value": "Environ 22 200 lbf, soit environ 98,8 kN",
+        "source": "https://www.navair.navy.mil/product/AV-8B-Harrier"
+      },
+      {
+        "label": "Longueur",
+        "value": "14,12 m",
+        "source": "https://www.navair.navy.mil/product/AV-8B-Harrier"
+      },
+      {
+        "label": "Envergure",
+        "value": "9,25 m",
+        "source": "https://www.navair.navy.mil/product/AV-8B-Harrier"
+      },
+      {
+        "label": "Hauteur",
+        "value": "3,55 m",
+        "source": "https://www.navair.navy.mil/product/AV-8B-Harrier"
+      },
+      {
+        "label": "Radar",
+        "value": "APG-65",
+        "source": "https://www.navair.navy.mil/product/AV-8B-Harrier"
+      }
+    ],
+    "note": "La fiche NAVAIR regroupe les variantes Day Attack, Night Attack et Radar. Le moteur retenu est celui indiqué pour Night Attack / Radar; les dimensions sont celles de l’AV-8B publiées sur la même page. Le moteur F402-RR-406 des premiers appareils et le TAV-8B biplace sont exclus. La rubrique chronologique de cette page reprend des dates de la première génération Harrier; la chronologie Boeing sert donc pour l’AV-8B.",
+    "sources": [
+      {
+        "label": "NAVAIR — caractéristiques AV-8B et radar du II Plus",
+        "url": "https://www.navair.navy.mil/product/AV-8B-Harrier"
+      }
+    ]
+  },
+  "158": {
+    "name": "Classe Iowa",
+    "checkedAt": "2026-10-12",
+    "variant": "USS Iowa BB-61 après la modernisation de 1984 — caractéristiques historiques présentées par son musée",
+    "fields": [
+      {
+        "label": "Longueur",
+        "value": "887 pieds 3 pouces, environ 270,4 m",
+        "source": "https://pacificbattleship.com/life-of-a-sailor-visitor-guide/"
+      },
+      {
+        "label": "Déplacement à pleine charge publié",
+        "value": "58 000 tons",
+        "source": "https://pacificbattleship.com/life-of-a-sailor-visitor-guide/",
+        "note": "Unité originale conservée ; le guide ne précise pas ici short tons ou long tons."
+      },
+      {
+        "label": "Vitesse de référence",
+        "value": "Environ 33 nœuds",
+        "source": "https://pacificbattleship.com/life-of-a-sailor-visitor-guide/"
+      },
+      {
+        "label": "Propulsion",
+        "value": "8 chaudières et 4 turbines à vapeur",
+        "source": "https://pacificbattleship.com/life-of-a-sailor-visitor-guide/"
+      },
+      {
+        "label": "Artillerie principale",
+        "value": "9 canons de 16 pouces/50, en 3 tourelles triples",
+        "source": "https://pacificbattleship.com/life-of-a-sailor-visitor-guide/"
+      },
+      {
+        "label": "Capacité Tomahawk historique",
+        "value": "32 missiles dans 8 lanceurs blindés",
+        "source": "https://pacificbattleship.com/life-of-a-sailor-visitor-guide/"
+      },
+      {
+        "label": "Capacité Harpoon historique",
+        "value": "16 missiles antinavires",
+        "source": "https://pacificbattleship.com/life-of-a-sailor-visitor-guide/"
+      }
+    ],
+    "note": "Référence au bâtiment modernisé, sans présenter ses équipements historiques comme encore opérationnels. Les capacités de lancement sont des caractéristiques d’armement, pas un relevé de munitions présentes à bord. La vitesse de 33 nœuds correspond au tableau général ; les vitesses de pointe citées dans d’autres récits ne sont pas substituées à cette valeur.",
+    "sources": [
+      {
+        "label": "Battleship USS Iowa Museum — Life of a Sailor, caractéristiques et modernisation",
+        "url": "https://pacificbattleship.com/life-of-a-sailor-visitor-guide/"
+      }
+    ]
+  },
+  "159": {
+    "name": "Classe Nimitz",
+    "checkedAt": "2026-10-12",
+    "variant": "Classe Nimitz — caractéristiques générales du Naval Air Forces Pacific, hors classe Gerald R. Ford",
+    "fields": [
+      {
+        "label": "Longueur",
+        "value": "1 092 pieds, environ 332,85 m",
+        "source": "https://www.airpac.navy.mil/Organization/Distinguished-Visitor-Info/Important-Links-and-Info/"
+      },
+      {
+        "label": "Largeur de coque publiée",
+        "value": "134 pieds, environ 40,84 m",
+        "source": "https://www.airpac.navy.mil/Organization/Distinguished-Visitor-Info/Important-Links-and-Info/"
+      },
+      {
+        "label": "Largeur du pont d’envol publiée",
+        "value": "252 pieds, environ 76,8 m",
+        "source": "https://www.airpac.navy.mil/Organization/Distinguished-Visitor-Info/Important-Links-and-Info/"
+      },
+      {
+        "label": "Déplacement à pleine charge publié",
+        "value": "Environ 97 000 tons",
+        "source": "https://www.airpac.navy.mil/Organization/Distinguished-Visitor-Info/Important-Links-and-Info/",
+        "note": "Valeur et unité originales conservées ; ne pas mélanger avec les déplacements plus élevés publiés pour certaines unités ou configurations."
+      },
+      {
+        "label": "Propulsion",
+        "value": "2 réacteurs nucléaires et 4 lignes d’arbres",
+        "source": "https://www.airpac.navy.mil/Organization/Distinguished-Visitor-Info/Important-Links-and-Info/"
+      },
+      {
+        "label": "Vitesse publique",
+        "value": "Plus de 30 nœuds",
+        "source": "https://www.airpac.navy.mil/Organization/Distinguished-Visitor-Info/Important-Links-and-Info/"
+      },
+      {
+        "label": "Groupe aérien indicatif publié",
+        "value": "Environ 65 appareils ou davantage",
+        "source": "https://www.airpac.navy.mil/Organization/Distinguished-Visitor-Info/Important-Links-and-Info/"
+      }
+    ],
+    "note": "Tableau général d’une même page Navy. La largeur de coque et celle du pont d’envol sont distinguées. Le nombre d’appareils est une capacité indicative, pas un inventaire à une date donnée. Les valeurs spécifiques au George H. W. Bush et celles des Ford ne sont pas ajoutées à cette référence de classe.",
+    "sources": [
+      {
+        "label": "Naval Air Forces Pacific — General Characteristics, Nimitz class",
+        "url": "https://www.airpac.navy.mil/Organization/Distinguished-Visitor-Info/Important-Links-and-Info/"
+      }
+    ]
+  },
+  "160": {
+    "name": "Naval Strike Missile (NSM)",
+    "checkedAt": "2026-10-12",
+    "variant": "NSM de lancement naval ou côtier — caractéristiques commerciales de la brochure Kongsberg 2025, hors JSM",
+    "fields": [
+      {
+        "label": "Portée publique indicative",
+        "value": "Plus de 300 km",
+        "source": "https://online.flippingbook.com/view/63366344/",
+        "note": "Ordre de grandeur du fabricant dans l’édition 2025, pages 6–7 ; ne décrit pas toutes les versions précédemment livrées."
+      },
+      {
+        "label": "Masse publiée",
+        "value": "407 kg",
+        "source": "https://online.flippingbook.com/view/63366344/"
+      },
+      {
+        "label": "Longueur",
+        "value": "3,96 m",
+        "source": "https://online.flippingbook.com/view/63366344/"
+      },
+      {
+        "label": "Vitesse publique",
+        "value": "Subsonique élevée",
+        "source": "https://online.flippingbook.com/view/63366344/"
+      },
+      {
+        "label": "Autodirecteur",
+        "value": "Imagerie infrarouge haute résolution, passif",
+        "source": "https://online.flippingbook.com/view/63366344/"
+      },
+      {
+        "label": "Reconnaissance publiée",
+        "value": "Reconnaissance autonome des navires, ATR",
+        "source": "https://online.flippingbook.com/view/63366344/"
+      }
+    ],
+    "note": "Brochure accessible depuis la page officielle Kongsberg par son lien « Read our brochure ». L’édition 2023 indiquait plus de 185 km ; l’édition 2025 indique plus de 300 km sans nommer un bloc particulier. Cette évolution de référence commerciale n’est pas attribuée à tous les missiles antérieurs. Les valeurs du JSM aéroporté, présentées séparément dans la brochure, sont exclues.",
+    "sources": [
+      {
+        "label": "Kongsberg — brochure NSM/JSM 2025, pages 6–7",
+        "url": "https://online.flippingbook.com/view/63366344/"
+      },
+      {
+        "label": "Kongsberg — page NSM et lien vers la brochure",
+        "url": "https://www.kongsberg.com/what-we-do/defence-and-security/missile-systems/nsm-naval-strike-missile/"
+      },
+      {
+        "label": "Kongsberg — ancienne brochure 2023, référence de portée différente",
+        "url": "https://www.kongsberg.com/globalassets/kongsberg-defence--aerospace/2.1.-products/defence-and-security/missile-systems/2023-05-04_brosjyre_missiles_digital_mod.pdf"
+      }
+    ]
+  },
+  "161": {
+    "name": "AGM-158 JASSM",
+    "checkedAt": "2026-10-12",
+    "variant": "AGM-158A JASSM Baseline — version initiale décrite par l’Air Force en 2006, hors JASSM-ER et LRASM",
+    "fields": [
+      {
+        "label": "Portée publique indicative",
+        "value": "Plus de 200 milles nautiques, soit plus d’environ 370 km",
+        "source": "https://www.afmc.af.mil/News/Article-Display/Article/155587/jassm-the-air-forces-next-generation-cruise-missile/",
+        "note": "Seuil public de la version initiale ; ne pas lui attribuer les plus de 500 milles nautiques annoncés pour l’ER."
+      },
+      {
+        "label": "Longueur",
+        "value": "14 pieds, environ 4,27 m",
+        "source": "https://www.afmc.af.mil/News/Article-Display/Article/155587/jassm-the-air-forces-next-generation-cruise-missile/"
+      },
+      {
+        "label": "Masse publiée",
+        "value": "2 250 livres, environ 1 021 kg",
+        "source": "https://www.afmc.af.mil/News/Article-Display/Article/155587/jassm-the-air-forces-next-generation-cruise-missile/"
+      },
+      {
+        "label": "Navigation",
+        "value": "Navigation inertielle et GPS",
+        "source": "https://www.afmc.af.mil/News/Article-Display/Article/155587/jassm-the-air-forces-next-generation-cruise-missile/"
+      },
+      {
+        "label": "Autodirecteur terminal",
+        "value": "Infrarouge",
+        "source": "https://www.afmc.af.mil/News/Article-Display/Article/155587/jassm-the-air-forces-next-generation-cruise-missile/"
+      },
+      {
+        "label": "Charge conventionnelle publiée",
+        "value": "1 000 livres, environ 454 kg, pénétration et souffle/fragmentation",
+        "source": "https://www.minister.defence.gov.au/media-releases/2014-05-28/minister-defence-jassm-achieves-final-operational-capability"
+      }
+    ],
+    "note": "Dimensions, masse et portée tirées de la référence Air Force de mars 2006 ; charge explicitement confirmée pour l’AGM-158A par le ministère australien en 2014. Les conversions métriques sont arrondies. La masse de la charge n’est pas la masse d’explosif. Les performances des AGM-158B, B-2, D et du LRASM ne sont pas mélangées au modèle A.",
+    "sources": [
+      {
+        "label": "Air Force Materiel Command — JASSM initial, mars 2006",
+        "url": "https://www.afmc.af.mil/News/Article-Display/Article/155587/jassm-the-air-forces-next-generation-cruise-missile/"
+      },
+      {
+        "label": "Défense australienne — charge et désignation AGM-158A",
+        "url": "https://www.minister.defence.gov.au/media-releases/2014-05-28/minister-defence-jassm-achieves-final-operational-capability"
+      }
+    ]
   }
 };
