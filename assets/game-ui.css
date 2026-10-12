@@ -51,6 +51,8 @@
 .keyboard-tip{font:500 11px/1.6 var(--mono);color:#5f725f;margin:14px 0 0}
 .recognition-copy .keyboard-tip{color:#c3d3c3}
 .play-page .game-status{padding:15px 18px;margin:0 0 20px;border:1px solid #b8c9b2;background:#edf3e6;letter-spacing:.035em;font-size:11px}
+.play-page .progress-strip{padding:12px 0;gap:8px;font-size:12px}
+.play-page .hint-button:disabled{display:none}
 .play-page .recognition-copy{padding:28px;min-width:0}
 .play-page .recognition-copy h2{font-size:clamp(31px,3.5vw,46px);line-height:1.08;margin:17px 0 14px}
 .recognition-copy .recognition-answering{width:100%;margin-top:20px}
