@@ -62,6 +62,10 @@ Le contenu de `_site-export/` est indépendant de GitHub et peut être déposé 
 
 Le dossier **_site/** est le résultat destiné à l’hébergement, jamais le dossier à modifier. Le workflow reconstruit et publie ce dossier après un changement sur main. Pour consulter localement, ouvrir index.html ; la veille automatique reste exécutée sur GitHub.
 
+## Navigation et prise en main des jeux
+
+La page Jeux permet de filtrer les huit activités et affiche leur format avant de jouer. Une entrée en niveau Débutant facilite le premier essai. Chaque jeu propose un retour vers la sélection, un menu commun et des règles rapides. Les quiz de photo et de carte regroupent leurs réglages dans un dépliant ; changer un réglage lance une nouvelle partie. Les touches 1 à 4 répondent aux QCM, et 1 / 2 à Vrai ou faux, lorsqu'aucun champ de saisie ou menu n'est actif. QG et Alerte radar limitent leurs dessins à environ 30 rafraîchissements par seconde tout en continuant à compter leur temps d'animation. `assets/game-ui.css` et `assets/game-ui.js` regroupent ces fonctions.
+
 ## Données et médias
 
 - Les numéros d’engins sont stables : **ajouter en fin de catalogue**, sans réordonner les entrées utilisées dans les liens et les sauvegardes.

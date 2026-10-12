@@ -16,11 +16,11 @@
   <script src="catalogue-tools.js?v=2" defer></script>
   <script src="collection.js?v=1" defer></script>
   <script src="quiz-settings.js?v=1" defer></script>
-  <script src="jeux.js?v=15" defer></script>
+  <script src="jeux.js?v=16" defer></script>
 <link rel="stylesheet" href="experience.css?v=2">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-<link rel="stylesheet" href="radar-features.css?v=1"></head>
-<body data-quiz="pays">
+<link rel="stylesheet" href="radar-features.css?v=1"><link rel="stylesheet" href="assets/game-ui.css?v=1"><script src="assets/game-ui.js?v=1" defer></script></head>
+<body class="play-page" data-quiz="pays">
   <a class="skip-link" href="#main">Aller au jeu</a>
   <div class="utility-bar"><span>VEILLE DOCUMENTÉE <i></i> DÉFENSE · SÉCURITÉ · GÉOPOLITIQUE</span><span>JEUX / 01</span></div>
   <header class="site-header" id="top">
@@ -41,22 +41,19 @@
         <p>Chars, avions, drones, hélicoptères, navires, artillerie et missiles : retrouve leur <strong>pays de conception</strong> sur la carte. Tu as cinq tentatives par question. Pour un programme multinational, un pays partenaire documenté est accepté.</p>
         <div class="game-intro-foot"><span>162 ENGINS À DÉCOUVRIR</span><span>01 / JEUX</span></div>
       </div>
-    </section>
+    </section><nav class="playbar wrap" aria-label="Navigation des jeux"><a href="tous-les-jeux.html">← Tous les jeux</a><div class="playbar-tools"><details class="play-menu"><summary>Changer de jeu</summary><div class="play-menu-panel"><a href="jeux.html" aria-current="page">Deviner le pays</a><a href="devine-engin.html">Deviner l’engin</a><a href="zoom-mystere.html">Zoom mystère</a><a href="chrono-defense.html">Chrono défense</a><a href="vrai-ou-faux.html">Vrai ou faux</a><a href="defi-du-jour.html">Défi du jour</a><a href="alerte-radar.html">Alerte radar</a><a href="qg-radar.html">QG Radar</a></div></details><details class="play-menu"><summary>Règles rapides</summary><div class="play-menu-panel"><ol><li>Observe l’engin, puis clique sur son pays de conception.</li><li>Glisse pour déplacer la carte ; utilise la molette ou deux doigts pour zoomer.</li><li>Après la réponse, lis l’explication et passe à l’engin suivant.</li></ol></div></details></div></nav>
 <div class="wrap"><div class="progress-strip" data-progress-strip="pays" aria-live="polite"></div></div>
 
-    <div class="wrap"><a class="all-games-link" href="tous-les-jeux.html">← Tous les jeux</a></div>
-    <nav class="game-switch wrap" aria-label="Choisir un jeu">
-      <a href="jeux.html" aria-current="page"><span>01 / CARTE</span><strong>Deviner le pays</strong></a>
-      <a href="devine-engin.html"><span>02 / PHOTO</span><strong>Deviner l’engin <span aria-hidden="true">↗</span></strong></a>
-    </nav>
+    
+    
 
     <section class="game-shell wrap" aria-label="Quiz des engins militaires">
-      <div class="game-options" id="game-options">
+      <details class="play-config"><summary>Personnaliser la partie</summary><div class="game-options" id="game-options">
         <div class="option-group" role="group" aria-label="Durée de la partie"><span class="option-label">DURÉE</span><button type="button" data-mode="quick" aria-pressed="true">Partie rapide · 5</button><button type="button" data-mode="full" aria-pressed="false">Grand tour · tout</button></div>
         <div class="option-group" role="group" aria-label="Catégorie des engins"><span class="option-label">CATÉGORIE</span><button type="button" data-category="all" aria-pressed="true">Tout</button><button type="button" data-category="terre" aria-pressed="false">Terre</button><button type="button" data-category="air" aria-pressed="false">Air</button><button type="button" data-category="mer" aria-pressed="false">Mer</button><button type="button" data-category="missiles" aria-pressed="false">Missiles</button></div>
         <p id="game-mode-description">5 questions tirées au hasard · 5 tentatives par engin.</p>
       </div>
-      <div id="quiz-settings" class="quiz-level"></div><p id="country-empty" class="collection-quiz-info" role="status" hidden>Aucun engin dans cette sélection. <a href="collection.html">Ouvrir ma collection →</a> ou choisir tous les engins.</p><div class="game-status" aria-live="polite">
+      <div id="quiz-settings" class="quiz-level"></div><p class="play-config-note">Changer un réglage lance une nouvelle partie.</p></details><p id="country-empty" class="collection-quiz-info" role="status" hidden>Aucun engin dans cette sélection. <a href="collection.html">Ouvrir ma collection →</a> ou choisir tous les engins.</p><div class="game-status" aria-live="polite">
         <span id="round-count">Question 1 / 5</span>
         <span id="attempt-count">5 tentatives restantes</span>
         <span id="score-count">0 trouvé · 0 point</span>

@@ -34,7 +34,7 @@
     const credit = $('arcade-credit');
     if (!item.photoFile) { credit.hidden = true; return; }
     const photo = document.createElement('a');
-    photo.href = `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(item.photoFile)}`;
+    photo.href = item.photoSource || `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(item.photoFile)}`;
     photo.target = '_blank'; photo.rel = 'noopener noreferrer'; photo.textContent = item.photoAuthor;
     const license = document.createElement('a');
     license.href = item.photoLicenseUrl; license.target = '_blank'; license.rel = 'noopener noreferrer'; license.textContent = item.photoLicense;
@@ -60,7 +60,7 @@
       let figure = panel.querySelector('.result-photo');
       if (!figure) { figure = document.createElement('figure'); figure.className = 'result-photo'; panel.prepend(figure); }
       const img = document.createElement('img'); img.src = 'assets/jeu/' + sourceItem.photo; img.alt = sourceItem.name;
-      const credit = document.createElement('a'); credit.href = 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(sourceItem.photoFile);
+      const credit = document.createElement('a'); credit.href = sourceItem.photoSource || 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(sourceItem.photoFile);
       credit.target = '_blank'; credit.rel = 'noopener noreferrer'; credit.textContent = sourceItem.photoAuthor + ' · ' + sourceItem.photoLicense;
       figure.replaceChildren(img, credit);
     }
@@ -171,7 +171,7 @@
         if (ref) {
           const img = document.createElement('img'); img.className = 'chrono-thumb'; img.src = 'assets/jeu/' + ref.photo; img.alt = ref.name;
           row.append(img);
-          const credit = document.createElement('a'); credit.className = 'chrono-credit'; credit.href = 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(ref.photoFile); credit.target = '_blank'; credit.rel = 'noopener noreferrer';
+          const credit = document.createElement('a'); credit.className = 'chrono-credit'; credit.href = ref.photoSource || 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(ref.photoFile); credit.target = '_blank'; credit.rel = 'noopener noreferrer';
           credit.textContent = (alias[item.name] ? 'Illustration : ' + ref.name + ' · ' : '') + ref.photoAuthor + ' · ' + ref.photoLicense;
           caption.append(credit);
         }

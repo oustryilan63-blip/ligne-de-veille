@@ -84,7 +84,7 @@ function makeChoices(item) {
 function setCredit(item) {
   const credit = el('recognition-credit');
   const fileLink = document.createElement('a');
-  fileLink.href = `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(item.photoFile)}`;
+  fileLink.href = item.photoSource || `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(item.photoFile)}`;
   fileLink.target = '_blank';
   fileLink.rel = 'noopener noreferrer';
   fileLink.textContent = item.photoAuthor;
@@ -237,7 +237,7 @@ el('recognition-next').addEventListener('click', () => {
   if (state.index + 1 === state.deck.length) finishGame();
   else { state.index++; renderRound(); el('recognition-card').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
 });
-el('recognition-restart').addEventListener('click', startGame);
+el('recognition-restart').addEventListener('click', () => {startGame();if(state.deck.length)el('recognition-card').scrollIntoView({behavior:'smooth',block:'start'});});
 
 quizSettings=window.RADAR_QUIZ.mount(el('quiz-settings'),startGame);
 if(new URLSearchParams(location.search).get('collection')==='1')state.roundMode='full';

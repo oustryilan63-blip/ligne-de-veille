@@ -67,7 +67,7 @@ function setFeedback(message, type = '') {
 function setCredit(item) {
   const credit = document.querySelector('#photo-credit');
   const fileLink = document.createElement('a');
-  fileLink.href = `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(item.photoFile)}`;
+  fileLink.href = item.photoSource || `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(item.photoFile)}`;
   fileLink.target = '_blank';
   fileLink.rel = 'noopener noreferrer';
   fileLink.textContent = item.photoAuthor;

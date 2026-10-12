@@ -16,11 +16,11 @@
   <script src="catalogue-tools.js?v=2" defer></script>
   <script src="collection.js?v=1" defer></script>
   <script src="quiz-settings.js?v=1" defer></script>
-  <script src="devine-engin.js?v=13" defer></script>
+  <script src="devine-engin.js?v=14" defer></script>
 <link rel="stylesheet" href="experience.css?v=2">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-<link rel="stylesheet" href="radar-features.css?v=1"></head>
-<body>
+<link rel="stylesheet" href="radar-features.css?v=1"><link rel="stylesheet" href="assets/game-ui.css?v=1"><script src="assets/game-ui.js?v=1" defer></script></head>
+<body class="play-page">
   <a class="skip-link" href="#main">Aller au jeu</a>
   <div class="utility-bar"><span>VEILLE DOCUMENTÉE <i></i> DÉFENSE · SÉCURITÉ · GÉOPOLITIQUE</span><span>JEUX / 02</span></div>
   <header class="site-header" id="top">
@@ -41,34 +41,31 @@
         <p>Une photo, un nom à trouver. Choisis parmi quatre réponses ou écris le nom toi-même ; l’histoire de l’engin apparaît après chaque question.</p>
         <div class="game-intro-foot"><span>162 ENGINS À RECONNAÎTRE</span><span>02 / JEUX</span></div>
       </div>
-    </section>
+    </section><nav class="playbar wrap" aria-label="Navigation des jeux"><a href="tous-les-jeux.html">← Tous les jeux</a><div class="playbar-tools"><details class="play-menu"><summary>Changer de jeu</summary><div class="play-menu-panel"><a href="jeux.html">Deviner le pays</a><a href="devine-engin.html" aria-current="page">Deviner l’engin</a><a href="zoom-mystere.html">Zoom mystère</a><a href="chrono-defense.html">Chrono défense</a><a href="vrai-ou-faux.html">Vrai ou faux</a><a href="defi-du-jour.html">Défi du jour</a><a href="alerte-radar.html">Alerte radar</a><a href="qg-radar.html">QG Radar</a></div></details><details class="play-menu"><summary>Règles rapides</summary><div class="play-menu-panel"><ol><li>Observe la photo et choisis son nom parmi les propositions.</li><li>Dans les réglages, tu peux écrire la réponse, choisir une catégorie ou jouer avec ta collection.</li><li>L’indice et le nombre d’essais dépendent du niveau choisi.</li></ol></div></details></div></nav>
 <div class="wrap"><div class="progress-strip" data-progress-strip="recognition" aria-live="polite"></div></div>
 
-    <div class="wrap"><a class="all-games-link" href="tous-les-jeux.html">← Tous les jeux</a></div>
-    <nav class="game-switch wrap" aria-label="Choisir un jeu">
-      <a href="jeux.html"><span>01 / CARTE</span><strong>Deviner le pays <span aria-hidden="true">↗</span></strong></a>
-      <a href="devine-engin.html" aria-current="page"><span>02 / PHOTO</span><strong>Deviner l’engin</strong></a>
-    </nav>
+    
+    
 
     <section class="game-shell wrap" aria-label="Quiz de reconnaissance des engins">
-      <div class="game-options" id="recognition-options">
+      <details class="play-config"><summary>Personnaliser la partie</summary><div class="game-options" id="recognition-options">
         <div class="option-group" role="group" aria-label="Façon de répondre"><span class="option-label">RÉPONSE</span><button type="button" data-answer-mode="choices" aria-pressed="true">4 propositions</button><button type="button" data-answer-mode="text" aria-pressed="false">Écrire le nom</button></div>
         <div class="option-group" role="group" aria-label="Durée de la partie"><span class="option-label">DURÉE</span><button type="button" data-round-mode="quick" aria-pressed="true">Partie rapide · 5</button><button type="button" data-round-mode="full" aria-pressed="false">Grand tour · tout</button></div>
         <div class="option-group" role="group" aria-label="Catégorie des engins"><span class="option-label">CATÉGORIE</span><button type="button" data-category="all" aria-pressed="true">Tout</button><button type="button" data-category="terre" aria-pressed="false">Terre</button><button type="button" data-category="air" aria-pressed="false">Air</button><button type="button" data-category="mer" aria-pressed="false">Mer</button><button type="button" data-category="missiles" aria-pressed="false">Missiles</button></div>
         <p id="recognition-mode-description">5 questions au hasard · 4 propositions · une réponse par photo.</p>
       </div>
 
-      <div id="quiz-settings" class="quiz-level"></div><p id="recognition-empty" class="collection-quiz-info" role="status" hidden>Aucun engin dans cette sélection. <a href="collection.html">Ouvrir ma collection →</a> ou choisir tous les engins.</p><div class="game-status" aria-live="polite"><span id="recognition-round">Question 1 / 5</span><span id="recognition-attempts">1 tentative</span><span id="recognition-score">0 trouvé · 0 point</span></div>
+      <div id="quiz-settings" class="quiz-level"></div><p class="play-config-note">Changer un réglage lance une nouvelle partie.</p></details><p id="recognition-empty" class="collection-quiz-info" role="status" hidden>Aucun engin dans cette sélection. <a href="collection.html">Ouvrir ma collection →</a> ou choisir tous les engins.</p><div class="game-status" aria-live="polite"><span id="recognition-round">Question 1 / 5</span><span id="recognition-attempts">1 tentative</span><span id="recognition-score">0 trouvé · 0 point</span></div>
 
       <div class="recognition-card" id="recognition-card">
         <figure class="recognition-photo"><img id="recognition-photo" src="" alt="Photographie de l’engin militaire à identifier" width="960" height="640"><figcaption id="recognition-credit" hidden></figcaption></figure>
-        <div class="recognition-copy"><span class="challenge-category" id="recognition-kind">PHOTO MYSTÈRE</span><h2 id="recognition-prompt">Observe la photo.</h2><p>Quel est le nom de cet engin ?</p><button class="hint-button" id="recognition-hint-button" type="button">Indice : pays de conception <span aria-hidden="true">↗</span></button><p class="hint-text" id="recognition-hint" hidden></p><p class="game-feedback" id="recognition-feedback" role="status" aria-live="polite">Choisis une réponse pour commencer.</p></div>
-      </div>
-
-      <div class="recognition-answering" id="recognition-answering">
+        <div class="recognition-copy"><span class="challenge-category" id="recognition-kind">PHOTO MYSTÈRE</span><h2 id="recognition-prompt">Observe la photo.</h2><p>Quel est le nom de cet engin ?</p><button class="hint-button" id="recognition-hint-button" type="button">Indice : pays de conception <span aria-hidden="true">↗</span></button><p class="hint-text" id="recognition-hint" hidden></p><p class="game-feedback" id="recognition-feedback" role="status" aria-live="polite">Choisis une réponse pour commencer.</p><div class="recognition-answering" id="recognition-answering">
         <div class="recognition-choices" id="recognition-choices" role="group" aria-label="Quatre noms possibles"></div>
         <form class="recognition-form" id="recognition-form" hidden><label for="recognition-input">Écris le nom de l’engin</label><div><input id="recognition-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Ex. Rafale, F-35, Leclerc…" required><button type="submit">Valider ↗</button></div><p>Les accents et les tirets ne comptent pas. Le nombre d’essais dépend du niveau choisi.</p></form>
+      <p class="keyboard-tip">Au clavier : touches 1 à 4 pour les propositions.</p></div></div>
       </div>
+
+      
 
       <div class="answer-panel" id="recognition-answer" hidden><div><span class="answer-label" id="recognition-result-label">Bonne réponse</span><h3 id="recognition-name"></h3><p id="recognition-explanation"></p><a id="recognition-source" href="#" target="_blank" rel="noopener noreferrer">Vérifier dans la source documentaire <span aria-hidden="true">↗</span></a></div><button class="button button-accent" id="recognition-next" type="button">Question suivante <span aria-hidden="true">→</span></button></div>
 

@@ -8,6 +8,8 @@
 
 ## Ce qui charge quand
 
+Les huit jeux utilisent `assets/game-ui.css` et `assets/game-ui.js` pour leurs menus, raccourcis clavier, filtres et affichage commun. Ces petits fichiers sont copiés avec les ressources de `assets/`. `check-game-ui.cjs` contrôle les filtres, les raccourcis pendant une saisie ou un dialogue, les liens et la cadence des dessins.
+
 - Actualités : `actualites.json` est la source, `build-news.mjs` produit `actualites.js`. `news-tools.js` repère les thèmes et sélectionne l’image attachée à chaque publication, `news-view.js` affiche d’abord quatre publications. Les images principales chargent progressivement. La collecte utilise les licences vérifiées et les autorisations de republication confirmées par le propriétaire dans `news-image-policy.json`. Les lignes d’archives ne sont créées qu’à l’ouverture du dépliant.
 - Histoire : `histoire-bootstrap.js` charge un catalogue léger. Récits, chiffres, carte et médias détaillés sont chargés à l’ouverture d’une fiche. Les modèles 3D sont ouverts à la demande.
 - QG : `qg-radar-engine.js` gère les règles, `qg-radar-layout.js` les positions, `qg-radar-art.js` le dessin. Les scripts `qg-radar-sprites.js` et `qg-radar-terrain.js` contiennent les chemins des WebP. Le QG attend leurs images et redessine ; une erreur conserve le dessin de secours.
