@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-10-11",
+  "updatedAt": "2026-10-12",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-12",
+      "publishedAt": "2026-10-12T02:15:30+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Bruits sur la crise de la dette française",
+      "url": "https://www.revueconflits.com/bruits-sur-la-crise-de-la-dette-francaise/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-10-12T06:05:45.511564+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2021/03/Dette-pubique-e1791746970777.jpg",
+        "kind": "article",
+        "alt": "Bruits sur la crise de la dette française",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/bruits-sur-la-crise-de-la-dette-francaise/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/bruits-sur-la-crise-de-la-dette-francaise/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-12",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2021/03/Dette-pubique-e1791746970777.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-11",
       "publishedAt": "2026-10-11T16:10:49+00:00",
@@ -663,6 +691,38 @@
     },
     {
       "date": "2026-10-09",
+      "publishedAt": "2026-10-09T06:57:48+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Exail Introduces Neptis Uncrewed Maritime Surveillance System",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/exail-introduces-neptis-uncrewed-maritime-surveillance-system/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Exail introduced its Neptis uncrewed maritime surveillance system during the Euronaval press tour. Bringing together Oryx-family uncrewed surface vessels (USVs),…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-12T06:05:45.511564+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/exail-neptis-c2-maritime-surveillance-system_2990x1680-768x432.jpg",
+        "kind": "article",
+        "alt": "Exail Introduces Neptis Uncrewed Maritime Surveillance System",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/exail-introduces-neptis-uncrewed-maritime-surveillance-system/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/exail-introduces-neptis-uncrewed-maritime-surveillance-system/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-12",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/exail-neptis-c2-maritime-surveillance-system_2990x1680-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-09",
       "publishedAt": "2026-10-09T05:00:12+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -714,6 +774,38 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/09/2026-07-28-22.21.22.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-08T22:26:45+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Raytheon awarded $6.3 billion multi-year contract for SM-3 IB interceptors",
+      "url": "https://www.navalnews.com/naval-news/2026/10/raytheon-awarded-6-3-billion-multi-year-contract-for-sm-3-ib-interceptors/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Raytheon has secured a five-year contract, with two additional option years, valued up to $6.3 billion for the production and…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-12T06:05:45.511564+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/DVIDS-SM3-BLK1B-JFTM-05_4_2-1920x1080-1-768x432.jpg",
+        "kind": "article",
+        "alt": "Raytheon awarded .3 billion multi-year contract for SM-3 IB interceptors",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/raytheon-awarded-6-3-billion-multi-year-contract-for-sm-3-ib-interceptors/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/raytheon-awarded-6-3-billion-multi-year-contract-for-sm-3-ib-interceptors/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-12",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/DVIDS-SM3-BLK1B-JFTM-05_4_2-1920x1080-1.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -1020,6 +1112,23 @@
     },
     {
       "date": "2026-10-07",
+      "publishedAt": "2026-10-07T13:02:34+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "DES KORKUT EN UKRAINE ?",
+      "url": "https://blablachars.blogspot.com/2026/10/des-korkut-en-ukraine.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Selon des informations non officiellement confirmées, plusieurs exemplaires du système de lutte anti drones Korkut produit par la firme turque…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-12T06:05:45.511564+00:00"
+    },
+    {
+      "date": "2026-10-07",
       "publishedAt": "2026-10-07T11:04:12+00:00",
       "source": "Ministère britannique de la Défense",
       "sourceType": "Source officielle",
@@ -1116,6 +1225,38 @@
     },
     {
       "date": "2026-10-06",
+      "publishedAt": "2026-10-06T15:09:59+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Éclaircie à l’horizon pour les hélicoptères de la Gendarmerie nationale",
+      "url": "https://forcesoperations.com/eclaircie-a-lhorizon-pour-les-helicopteres-de-la-gendarmerie-nationale/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Les alertes successives du Parlement et de la direction de la Gendarmerie nationale semblent avoir été entendus : des crédits…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-12T06:05:45.511564+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/10/Eclaircie-a-lhorizon-pour-les-helicopteres-de-la-Gendarmerie-nationale_001-394x218.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Éclaircie à l’horizon pour les hélicoptères de la Gendarmerie nationale ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/eclaircie-a-lhorizon-pour-les-helicopteres-de-la-gendarmerie-nationale/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/eclaircie-a-lhorizon-pour-les-helicopteres-de-la-gendarmerie-nationale/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-12",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/Eclaircie-a-lhorizon-pour-les-helicopteres-de-la-Gendarmerie-nationale_001-394x218.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-06",
       "source": "Ministère des Armées",
       "sourceType": "Source officielle",
       "title": "Premier tir d'acceptation du M51.3 depuis Le Vigilant",
@@ -1141,6 +1282,38 @@
     },
     {
       "date": "2026-10-05",
+      "publishedAt": "2026-10-05T09:24:36+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Comment le 501e RCC fait du drone l’allié du cavalier",
+      "url": "https://forcesoperations.com/comment-le-501e-rcc-fait-du-drone-lallie-du-cavalier/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Le char de combat attend son heure. Loin d'être remisé au garage face à des drones devenus omniprésents, il cherche…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-12T06:05:45.511564+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/10/eZy-Watermark_05-10-2026_11-12-51-1110AM-394x218.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Comment le 501e RCC fait du drone l’allié du cavalier ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/comment-le-501e-rcc-fait-du-drone-lallie-du-cavalier/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/comment-le-501e-rcc-fait-du-drone-lallie-du-cavalier/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-12",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/eZy-Watermark_05-10-2026_11-12-51-1110AM-394x218.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-05",
       "publishedAt": "2026-10-04T22:00:00+00:00",
       "source": "Sénat — Défense",
       "sourceType": "Source officielle",
@@ -1153,7 +1326,7 @@
       "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00"
     }
   ],
-  "checkedAt": "2026-10-11T19:53:52.341800+00:00",
+  "checkedAt": "2026-10-12T06:05:40.566038+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -1166,7 +1339,7 @@
       {
         "source": "Sénat — Défense",
         "ok": true,
-        "recentItems": 2,
+        "recentItems": 1,
         "error": null
       },
       {
@@ -1212,8 +1385,8 @@
         "error": null
       }
     ],
-    "newItems": 7,
-    "articleImages": 39,
+    "newItems": 6,
+    "articleImages": 44,
     "duplicateHeadlinesSkipped": 0
   }
 }
