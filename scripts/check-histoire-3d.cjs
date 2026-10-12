@@ -4,7 +4,7 @@ function read(name){return fs.readFileSync(path.join(root,name),'utf8')}
 vm.runInNewContext(read('engins-data.js'),ctx);
 vm.runInNewContext(read('histoire-3d-data.js'),ctx);
 const models=ctx.window.RADAR_3D_MODELS,items=ctx.window.LDV_ENGINS;
-assert.equal(Object.keys(models).length,139);
+assert.equal(Object.keys(models).length,149);
 const seen=new Set();
 for(const [name,m] of Object.entries(models)){
  assert.equal(items[m.index].name,name);assert.equal(m.engine,name);
@@ -50,4 +50,4 @@ assert.ok(read('histoire.html').includes('histoire-bootstrap.js'));
 assert.ok(read('histoire-bootstrap.js').indexOf('histoire-3d-data.js')<read('histoire-bootstrap.js').indexOf('histoire-3d.js'));
 assert.equal(models.Rafale.id,'bf3f55ffe2864fc299fdf8052c65b4cc');
 assert.equal(models["F-16 Fighting Falcon"].id,'599242a3ab9f4dc49558299ceaf1e10d');
-console.log('139 modèles : cohérence du catalogue, aperçus distincts, lien redondant retiré, ouverture unique, fermeture, réouverture et erreurs tardives vérifiés.');
+console.log('149 modèles : cohérence du catalogue, aperçus distincts, lien redondant retiré, ouverture unique, fermeture, réouverture et erreurs tardives vérifiés.');
