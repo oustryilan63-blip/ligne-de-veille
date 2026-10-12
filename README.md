@@ -1,6 +1,6 @@
 # Radar
 
-Actualités de défense et de géopolitique, huit jeux et un atlas de **130 engins** avec photographies, sources, fiches techniques et modèles 3D disponibles.
+Actualités de défense et de géopolitique, huit jeux et un atlas de **150 engins** avec photographies, sources, fiches techniques et modèles 3D disponibles.
 
 **[Ouvrir Radar](https://oustryilan63-blip.github.io/ligne-de-veille/)** · [Jeux](https://oustryilan63-blip.github.io/ligne-de-veille/tous-les-jeux.html) · [Histoire](https://oustryilan63-blip.github.io/ligne-de-veille/histoire.html)
 
@@ -46,7 +46,7 @@ Le dossier **_site/** est le résultat destiné à l’hébergement, jamais le d
 ## Données et médias
 
 - Les numéros d’engins sont stables : **ajouter en fin de catalogue**, sans réordonner les entrées utilisées dans les liens et les sauvegardes.
-- Les jeux de connaissance partagent le catalogue ; Chrono utilise 29 dates de premier vol vérifiées et Vrai ou faux 97 affirmations sourcées. QG et Alerte radar sont des simulations d’arcade.
+- Les jeux de connaissance partagent le catalogue ; Chrono utilise 35 dates de premier vol vérifiées et Vrai ou faux 117 affirmations sourcées. QG et Alerte radar sont des simulations d’arcade.
 - Les sauvegardes et favoris restent dans le navigateur ; leur export passe par la page Sauvegardes.
 - Les crédits et licences des photos sont conservés avec les données et dans les dossiers de médias. Les polices locales ont leur licence dans assets/fonts/atlas/.
 - Les sprites du QG sont des fichiers WebP séparés, mis en cache par le navigateur ; leur dessin n’a pas été modifié par cette optimisation.
@@ -59,3 +59,7 @@ Deux images précises ont d’abord été autorisées sur confirmation du propri
 ## Autorisations des images d’actualité
 
 Le 11 octobre 2026, le propriétaire de Radar confirme avoir reçu les autorisations de tous les sites et titulaires concernés pour republier les images principales des articles du site et intégrer cette récupération dans les mises à jour automatiques. Cette confirmation est enregistrée sous `publisherPermission` dans scripts/news-image-policy.json avec les domaines des sources et des médias pris en charge. Les crédits restent attachés aux images. Ces autorisations de republication sur Radar ne constituent pas une licence libre accordée aux visiteurs et ne portent pas sur le texte intégral des articles.
+
+## Série 7 — 12 octobre 2026
+
+Vingt nouveaux engins portent le catalogue à 150 : six terrestres, six avions, quatre familles navales et quatre missiles. Ils enrichissent Histoire, le comparateur, la collection et les jeux de connaissance pertinents. Quarante photographies réelles créditées et dix-sept lecteurs 3D sont ajoutés ; les variantes représentées sont précisées. Aucun lecteur approximatif n’est ajouté au VAB, à Horizon ou à Aster 30. Les cartes des nouvelles fiches suivent les utilisateurs explicitement documentés et leurs limites ; l’origine de conception n’est pas interprétée comme une utilisation actuelle. Les chiffres de livraisons, de commandes et les épisodes particuliers restent distingués des totaux de production. Les nouveaux engins se retrouvent dans « Ajouts récents ».

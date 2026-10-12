@@ -2082,5 +2082,501 @@ window.LDV_TIMELINES = {
       "detail": "MBDA annonce une commande complémentaire pour l’Allemagne.",
       "source": "https://www.mbda-systems.com/mbda-receives-new-order-more-meteor-germany"
     }
+  ],
+  "130": [
+    {
+      "date": "27 octobre 1956",
+      "label": "Coopération européenne",
+      "detail": "Accord franco-allemand sur le développement d’un char de bataille.",
+      "source": "https://www.terremag.defense.gouv.fr/histoire/lamx-30-un-char-de-bataille"
+    },
+    {
+      "date": "Août 1966",
+      "label": "Premières dotations",
+      "detail": "Les premiers AMX-30B arrivent au 501e régiment de chars de combat.",
+      "source": "https://www.terremag.defense.gouv.fr/histoire/lamx-30-un-char-de-bataille"
+    },
+    {
+      "date": "1982",
+      "label": "Standard B2",
+      "detail": "L’armée française commence à recevoir la version B2 modernisée.",
+      "source": "https://www.terremag.defense.gouv.fr/histoire/lamx-30-un-char-de-bataille"
+    },
+    {
+      "date": "1991",
+      "label": "Opération Daguet",
+      "detail": "Les AMX-30B2 du 4e régiment de Dragons sont engagés dans la guerre du Golfe.",
+      "source": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/objet-histoire/char-amx-30"
+    }
+  ],
+  "131": [
+    {
+      "date": "1946",
+      "label": "Études d’après-guerre",
+      "detail": "Début des travaux sur une nouvelle famille de blindés français.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/amx-13/"
+    },
+    {
+      "date": "Février 1952",
+      "label": "Exemplaire conservé",
+      "detail": "L’AMX-13 numéro 212 aujourd’hui au Tank Museum est achevé.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/amx-13/"
+    },
+    {
+      "date": "1963",
+      "label": "Service néerlandais",
+      "detail": "Début de la période d’emploi du char léger à canon de 105 mm donnée par le musée néerlandais.",
+      "source": "https://www.nmm.nl/nl/stories/amx-13/"
+    },
+    {
+      "date": "1985",
+      "label": "Fin de la période néerlandaise",
+      "detail": "Fin de la période 1963–1985 inscrite dans la fiche du musée.",
+      "source": "https://www.nmm.nl/nl/stories/amx-13/"
+    }
+  ],
+  "132": [
+    {
+      "date": "Mars 1959",
+      "label": "Standardisation du M60",
+      "detail": "Le nouveau char de 105 mm reçoit sa désignation officielle.",
+      "source": "https://ewarbirds.org/exhibits/vehicles/m60a3-main-battle-tank/"
+    },
+    {
+      "date": "1979",
+      "label": "M60A3 TTS",
+      "detail": "Le viseur thermique caractérise la dernière évolution américaine décrite par le Tank Museum.",
+      "source": "https://tankmuseum.org/article/the-patton-family"
+    },
+    {
+      "date": "1990–1991",
+      "label": "Guerre du Golfe",
+      "detail": "Les Marines emploient encore le M60 pendant le conflit.",
+      "source": "https://tankmuseum.org/article/the-patton-family"
+    },
+    {
+      "date": "1997",
+      "label": "Retrait américain",
+      "detail": "Les chars M60A3 quittent le service de l’armée américaine.",
+      "source": "https://home.army.mil/mccoy/8016/6367/8525/2019_EP_GUIDE.pdf"
+    }
+  ],
+  "133": [
+    {
+      "date": "1940",
+      "label": "Première mise en service",
+      "detail": "Le T-34/76 commence sa carrière soviétique.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76/"
+    },
+    {
+      "date": "1941",
+      "label": "Rencontre avec les forces allemandes",
+      "detail": "Le T-34/76 est rencontré pendant l’invasion de l’Union soviétique.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76/"
+    },
+    {
+      "date": "Fin 1944",
+      "label": "Un T-34/85 conservé",
+      "detail": "Construction à l’usine no 112 de Gorki de l’exemplaire ensuite envoyé en Corée.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-85/"
+    },
+    {
+      "date": "1950",
+      "label": "Guerre de Corée",
+      "detail": "L’exemplaire nord-coréen du Tank Museum est capturé pendant le conflit.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-85/"
+    }
+  ],
+  "134": [
+    {
+      "date": "1957",
+      "label": "T-54B",
+      "detail": "La variante reçoit une stabilisation du canon sur deux axes selon le musée canadien.",
+      "source": "https://tankmuseum.ca/blog-post/the-t-54/"
+    },
+    {
+      "date": "1958",
+      "label": "Production du T-55",
+      "detail": "Début de la fabrication du T-55 à Omsk selon Rostec.",
+      "source": "https://rostec.ru/media/news/konstruktorskomu-byuro-omsktransmasha-65-let/?sphrase_id=5284332"
+    },
+    {
+      "date": "16 juillet 1962",
+      "label": "Adoption du T-55A",
+      "detail": "L’armée soviétique adopte la version à protection antiradiation renforcée.",
+      "source": "https://www.kskdivniy.ru/museum/eksponaty/t-55/"
+    },
+    {
+      "date": "1964",
+      "label": "Licences de production",
+      "detail": "Des licences T-55A sont transférées à la Pologne et à la Tchécoslovaquie.",
+      "source": "https://www.kskdivniy.ru/museum/eksponaty/t-55/"
+    }
+  ],
+  "135": [
+    {
+      "date": "1970",
+      "label": "Lancement du programme",
+      "detail": "Programme de blindé lancé sous le ministre Robert Galley.",
+      "source": "https://www.arquus-defense.com/fr/les-40-ans-du-vab-fete-le-19-octobre-2016"
+    },
+    {
+      "date": "1973",
+      "label": "Essais de sélection",
+      "detail": "Campagne d’essais précédant le choix du 4 × 4 Saviem.",
+      "source": "https://www.arquus-defense.com/fr/larmee-francaise-choisit-le-vehicule-de-lavant-blinde-vab"
+    },
+    {
+      "date": "1976",
+      "label": "Première unité équipée",
+      "detail": "Le VAB entre au 1er régiment d’infanterie.",
+      "source": "https://www.arquus-defense.com/fr/les-40-ans-du-vab-fete-le-19-octobre-2016"
+    },
+    {
+      "date": "1996",
+      "label": "Bilan international",
+      "detail": "Arquus situe à cette date le cumul de 5 000 VAB livrés à quatorze pays.",
+      "source": "https://www.arquus-defense.com/fr/larmee-francaise-choisit-le-vehicule-de-lavant-blinde-vab"
+    },
+    {
+      "date": "2019",
+      "label": "Début de succession",
+      "detail": "Le Griffon commence à remplacer progressivement le VAB.",
+      "source": "https://www.defense.gouv.fr/dga/actualites/livraison-16-vehicules-blindes-griffon-cadre-du-programme-scorpion"
+    }
+  ],
+  "136": [
+    {
+      "date": "27 mai 1958",
+      "label": "Premier vol du prototype",
+      "detail": "Le XF4H-1 Phantom II effectue son premier vol.",
+      "source": "https://www.history.navy.mil/today-in-history/may-27.html"
+    },
+    {
+      "date": "Mai 1963",
+      "label": "Premier vol du F-4C",
+      "detail": "La première version de l’US Air Force vole; les livraisons de production commencent six mois plus tard.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/2929390/mcdonnell-douglas-f-4c-phantom-ii/"
+    },
+    {
+      "date": "1965",
+      "label": "Engagement en Asie du Sud-Est",
+      "detail": "L’USAF y envoie ses premiers F-4C pour les missions air-air et air-sol.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/2929390/mcdonnell-douglas-f-4c-phantom-ii/"
+    },
+    {
+      "date": "21 décembre 2016",
+      "label": "Fin du QF-4 américain",
+      "detail": "À Holloman, la dernière démonstration et la cérémonie de retrait ferment la carrière américaine du Phantom comme cible aérienne.",
+      "source": "https://www.acc.af.mil/News/Article-Display/Article/1037351/final-flight-farewells-phantom/"
+    }
+  ],
+  "137": [
+    {
+      "date": "23 décembre 1966",
+      "label": "Premier vol",
+      "detail": "René Bigand fait voler le Mirage F1 01 à Melun-Villaroche.",
+      "source": "https://www.dassault-aviation.com/fr/passion/avions/dassault-militaires/mirage-f1/"
+    },
+    {
+      "date": "7 janvier 1967",
+      "label": "Mach 2 au quatrième vol",
+      "detail": "Le prototype dépasse rapidement le seuil bisonique pendant ses essais.",
+      "source": "https://www.dassault-aviation.com/fr/passion/avions/dassault-militaires/mirage-f1/"
+    },
+    {
+      "date": "1992",
+      "label": "Entrée en service du F1CT",
+      "detail": "La version destinée à l’assaut tactique entre en service après conversion de F1-200.",
+      "source": "https://aatlse.org/fr/appareils/mirage-f1-ct/"
+    },
+    {
+      "date": "2014",
+      "label": "Fin de la carrière française",
+      "detail": "Le retrait des F1CR clôt l’emploi opérationnel de la famille en France.",
+      "source": "https://timeline.dassault-aviation.com/fr/"
+    }
+  ],
+  "138": [
+    {
+      "date": "14 février 1955",
+      "label": "Premier prototype du programme",
+      "detail": "L’E-2 à aile en flèche vole pour la première fois, piloté par Gueorgui Mossolov.",
+      "source": "https://www.rostec.ru/media/news/mig-21-proshchay-legenda-chast-i/"
+    },
+    {
+      "date": "16 juin 1955",
+      "label": "Prototype à aile delta",
+      "detail": "L’E-4 inaugure la formule d’aile delta dans cette lignée de prototypes.",
+      "source": "https://www.rostec.ru/media/news/mig-21-proshchay-legenda-chast-i/"
+    },
+    {
+      "date": "1985",
+      "label": "Fin de production en URSS",
+      "detail": "L’URSS termine sa fabrication de MiG-21 après plus de 10 000 appareils.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d/"
+    },
+    {
+      "date": "26 septembre 2025",
+      "label": "Retrait indien",
+      "detail": "Le ministère indien de la Défense marque la fin de carrière du MiG-21 dans l’Indian Air Force à Chandigarh.",
+      "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2171701&lang=2&reg=48"
+    }
+  ],
+  "139": [
+    {
+      "date": "22 février 1975",
+      "label": "Premier vol du T-8",
+      "detail": "Vladimir Iliouchine fait voler le prototype qui donnera naissance au Su-25.",
+      "source": "https://www.rostec.ru/media/news/grachi-prileteli-polveka-pervomu-poletu-su-25/"
+    },
+    {
+      "date": "Avril–juillet 1980",
+      "label": "Évaluation en Afghanistan",
+      "detail": "Deux prototypes sont utilisés pour des essais de systèmes d’armes.",
+      "source": "https://www.vhu.sk/prudove-podzvukove-bitevne-lietadlo-su-25k/"
+    },
+    {
+      "date": "1984",
+      "label": "Version d’exportation",
+      "detail": "La fabrication du Su-25K commence et la Tchécoslovaquie devient son premier utilisateur étranger.",
+      "source": "https://www.vhu.cz/exhibit/bitevni-letoun-suchoj-su-25-k-vyr-c-25508109098/"
+    },
+    {
+      "date": "20–24 juillet 2026",
+      "label": "Entraînement bulgare",
+      "detail": "Des Su-25 de la base de Bezmer prennent part à un entraînement multinational dans l’espace aérien bulgare.",
+      "source": "https://www.mod.bg/news9458"
+    }
+  ],
+  "140": [
+    {
+      "date": "9 février 1972",
+      "label": "Premier vol du précurseur",
+      "detail": "Le prototype EC-137D du programme E-3 vole depuis les installations Boeing dans l’État de Washington.",
+      "source": "https://www.acc.af.mil/News/Article-Display/Article/2957379/whales-tales/"
+    },
+    {
+      "date": "23 mars 1977",
+      "label": "Premier E-3 à Tinker",
+      "detail": "L’arrivée du premier appareil ouvre l’ère opérationnelle de la 552nd Airborne Warning and Control Wing.",
+      "source": "https://www.acc.af.mil/News/Article/202614/e-3-sentry-celebrates-30-years-in-air-forces-fleet/"
+    },
+    {
+      "date": "16 avril 1978",
+      "label": "Capacité opérationnelle initiale",
+      "detail": "Le programme américain atteint sa capacité opérationnelle initiale.",
+      "source": "https://www.acc.af.mil/News/Article/202614/e-3-sentry-celebrates-30-years-in-air-forces-fleet/"
+    },
+    {
+      "date": "30 septembre 2021",
+      "label": "Retrait britannique",
+      "detail": "La Royal Air Force célèbre les trente ans de service et le retrait de l’E-3D Sentry.",
+      "source": "https://www.raf.mod.uk/news/articles/his-royal-highness-the-earl-of-wessex-marks-retirement-of-e-3d-sentry-from-raf-service-after-30-years/"
+    }
+  ],
+  "141": [
+    {
+      "date": "Juin 2007",
+      "label": "Premier vol",
+      "detail": "Le rapport annuel EADS 2007 situe le premier vol de l’A330 MRTT en juin, sans préciser le jour.",
+      "source": "https://www.airbus.com/sites/g/files/jlcbta136/files/2021-07/annual-review-2007.pdf"
+    },
+    {
+      "date": "Juin 2011",
+      "label": "Premier utilisateur",
+      "detail": "Le KC-30A entre en service au sein du No. 33 Squadron australien.",
+      "source": "https://www.airforce.gov.au/about-us/history/our-journey/australian-government-signed-contract-convert-five-airbus-a330-airframes-raaf"
+    },
+    {
+      "date": "2014",
+      "label": "Programme français Phénix",
+      "detail": "La France lance son programme sur la base de l’A330 MRTT Enhanced.",
+      "source": "https://www.defense.gouv.fr/air/nos-aeronefs/nos-avions/airbus-a330-phenix"
+    },
+    {
+      "date": "11 avril 2025",
+      "label": "Entrée en service espagnole annoncée",
+      "detail": "Airbus annonce la mise en service du premier MRTT espagnol au sein de la 45e escadre; c’est le premier des trois acquis.",
+      "source": "https://www.airbus.com/en/newsroom/press-releases/2025-04-first-airbus-a330-mrtt-for-the-spanish-air-and-space-force-enters"
+    }
+  ],
+  "142": [
+    {
+      "date": "1er juin 1990",
+      "label": "Premier bâtiment en service",
+      "detail": "Le HMS Norfolk, futur Almirante Cochrane, est admis dans la Royal Navy.",
+      "source": "https://www.armada.cl/armada/site/tax/port/all/taxport_29_29_160_1.html"
+    },
+    {
+      "date": "Septembre 2005",
+      "label": "Acquisition chilienne",
+      "detail": "Un accord porte sur trois anciennes frégates Type 23 de la Royal Navy.",
+      "source": "https://www.armada.cl/noticias-navales/designados-nombres-de-fragatas-britanicas-tipo-23"
+    },
+    {
+      "date": "28 mai 2008",
+      "label": "Almirante Condell rejoint la flotte",
+      "detail": "L’ex-HMS Marlborough est incorporé à la marine chilienne sous son nouveau nom.",
+      "source": "https://www.armada.cl/armada/site/tax/port/all/taxport_29_29_160_1.html"
+    }
+  ],
+  "143": [
+    {
+      "date": "Décembre 2007",
+      "label": "Livraison de l’Andrea Doria",
+      "detail": "Fincantieri livre le premier des deux bâtiments italiens du programme.",
+      "source": "https://www.fincantieri.com/it/newsroom/news-e-comunicati-stampa/2009/consegnato-alla-marina-militare-il-cacciatorpediniere-caio-duilio"
+    },
+    {
+      "date": "3 avril 2009",
+      "label": "Livraison du Caio Duilio",
+      "detail": "La marine italienne reçoit le second Orizzonte ; les essais des systèmes se poursuivent avant la pleine capacité opérationnelle.",
+      "source": "https://www.fincantieri.com/it/newsroom/news-e-comunicati-stampa/2009/consegnato-alla-marina-militare-il-cacciatorpediniere-caio-duilio"
+    },
+    {
+      "date": "28 juillet 2023",
+      "label": "Contrat de modernisation",
+      "detail": "Le Yearbook de Naval Group date l’attribution du contrat de modernisation des quatre Horizon à Naviris et Eurosam.",
+      "source": "https://www.naval-group.com/sites/default/files/2024-06/Yearbook%20Naval%20Group%202023-2024%20EN_0.pdf"
+    }
+  ],
+  "144": [
+    {
+      "date": "Décembre 1997",
+      "label": "Première commande chilienne",
+      "detail": "Le Chili signe le contrat pour deux sous-marins avec DCN et Bazán.",
+      "source": "https://www.armada.cl/unidades-navales/submarinos/clase-scorpene/ss-23-o-higgins"
+    },
+    {
+      "date": "9 septembre 2005",
+      "label": "Pavillon chilien sur le O’Higgins",
+      "detail": "La cérémonie intervient après les essais du premier Scorpène chilien.",
+      "source": "https://www.armada.cl/unidades-navales/submarinos/clase-scorpene/ss-23-o-higgins"
+    },
+    {
+      "date": "15 janvier 2025",
+      "label": "Sixième Kalvari en service",
+      "detail": "L’INS Vaghsheer complète la première série indienne de six unités.",
+      "source": "https://www.naval-group.com/sites/default/files/2025-01/20250115_PR_Commissioning%20of%20INS%20Vaghsheer.pdf"
+    },
+    {
+      "date": "26 novembre 2025",
+      "label": "Troisième livraison brésilienne",
+      "detail": "Le Tonelero est livré ; le lancement du quatrième bâtiment le même jour ne constitue pas une quatrième livraison.",
+      "source": "https://www.naval-group.com/sites/default/files/2025-11/20251127_Delivery%20SBR3%20and%20launching%20SBR4.pdf"
+    }
+  ],
+  "145": [
+    {
+      "date": "1981",
+      "label": "Début du service de la classe",
+      "detail": "Les Ohio commencent à remplacer les anciens sous-marins stratégiques américains.",
+      "source": "https://www.history.navy.mil/content/history/nhhc/browse-by-topic/wars-conflicts-and-operations/cold-war/strategic-deterrence/Ohio-class.html"
+    },
+    {
+      "date": "1997",
+      "label": "Série complète",
+      "detail": "La période d’admission en service des dix-huit Ohio s’achève.",
+      "source": "https://www.history.navy.mil/content/history/nhhc/browse-by-topic/wars-conflicts-and-operations/cold-war/strategic-deterrence/Ohio-class.html"
+    },
+    {
+      "date": "2002–2008",
+      "label": "Quatre conversions SSGN",
+      "detail": "Les quatre plus anciens bâtiments sont transformés pour des missions conventionnelles et spéciales.",
+      "source": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/cold-war/strategic-deterrence/fleet-ballistic-missiles-submarines.html"
+    }
+  ],
+  "146": [
+    {
+      "date": "Mars 1983",
+      "label": "Production approuvée",
+      "detail": "Le Defense Systems Acquisition Review Council approuve la pleine production du missile.",
+      "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104574/agm-88-harm/"
+    },
+    {
+      "date": "1984",
+      "label": "Déploiement",
+      "detail": "La fiche de l’US Air Force date le déploiement du HARM de 1984.",
+      "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104574/agm-88-harm/"
+    },
+    {
+      "date": "5 septembre 2012",
+      "label": "Essais d’une modernisation achevés",
+      "detail": "Raytheon annonce avoir terminé ses essais d’améliorations HCSM sur le HARM.",
+      "source": "https://raytheon.mediaroom.com/index.php?item=2162&s=43"
+    }
+  ],
+  "147": [
+    {
+      "date": "Août 1972",
+      "label": "Premiers AGM-65A acceptés",
+      "detail": "L’US Air Force accepte ses premiers Maverick.",
+      "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104577/agm-65-maverick/"
+    },
+    {
+      "date": "Février 1986",
+      "label": "AGM-65D opérationnel",
+      "detail": "La variante à imagerie infrarouge atteint sa capacité opérationnelle initiale.",
+      "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104577/agm-65-maverick/"
+    },
+    {
+      "date": "1991",
+      "label": "Emploi massif pendant Desert Storm",
+      "detail": "Les fiches militaires recensent plus de 5 000 tirs de Maverick, sans en déduire autant de cibles détruites.",
+      "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168374/agm-65-maverick-guided-missile/"
+    },
+    {
+      "date": "14 septembre 2009",
+      "label": "Jalon industriel",
+      "detail": "Raytheon annonce plus de 69 000 missiles produits, toutes versions.",
+      "source": "https://raytheon.mediaroom.com/index.php?item=1382&s=43"
+    }
+  ],
+  "148": [
+    {
+      "date": "1990",
+      "label": "Contrats franco-italiens",
+      "detail": "Les contrats d’origine de la famille Aster et de ses systèmes sont conclus.",
+      "source": "https://www.mbda-systems.com/our-company/our-history"
+    },
+    {
+      "date": "Août 2020",
+      "label": "Permanence opérationnelle à Singapour",
+      "detail": "Le système Aster 30 de la RSAF assure la défense aérienne en permanence, selon le ministère singapourien.",
+      "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/29nov23_fs/"
+    },
+    {
+      "date": "22 mars 2023",
+      "label": "Tir de la Lorraine",
+      "detail": "La FREMM de défense aérienne Lorraine réalise un tir d’Aster 30 annoncé par MBDA.",
+      "source": "https://www.mbda-systems.com/fr/la-fremm-da-lorraine-tire-avec-succes-un-missile-de-defense-aerienne-aster-30"
+    },
+    {
+      "date": "23 juillet 2025",
+      "label": "Première livraison accélérée",
+      "detail": "MBDA livre un premier lot de la nouvelle acquisition commune de la famille Aster.",
+      "source": "https://www.mbda-systems.com/mbda-track-its-acceleration-aster-missile-production"
+    }
+  ],
+  "149": [
+    {
+      "date": "Août 1999",
+      "label": "Déploiement du Block 1A",
+      "detail": "La Navy date de ce mois le déploiement de cette évolution du RAM.",
+      "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/rim-116-rolling-airframe-missile-ram/"
+    },
+    {
+      "date": "Mai 2015",
+      "label": "Block 2 opérationnel",
+      "detail": "Le RAM Block 2 atteint sa capacité opérationnelle initiale.",
+      "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/rim-116-rolling-airframe-missile-ram/"
+    },
+    {
+      "date": "Novembre 2018",
+      "label": "Pleine production autorisée",
+      "detail": "L’autorisation de production à pleine cadence est accordée pour le Block 2.",
+      "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/rim-116-rolling-airframe-missile-ram/"
+    }
   ]
 };

@@ -2848,5 +2848,675 @@ window.LDV_HISTOIRE = [
       }
     ],
     "checkedAt": "11 octobre 2026"
+  },
+  {
+    "story": "Le projet commence dans le cadre d’une coopération franco-allemande engagée en 1956. Après la séparation des programmes, l’Allemagne poursuit le Leopard 1 et la France l’AMX-30. Les premiers AMX-30B arrivent au 501e régiment de chars de combat en août 1966. Ce char mise sur une masse contenue, la mobilité et un canon de 105 mm ; son châssis sert ensuite aux véhicules de dépannage, à l’artillerie et à des systèmes de missiles.\n\nLa version B2, mise en service à partir de 1982, apporte notamment un télémètre laser et une conduite de tir automatisée. Lors de l’opération Daguet en 1991, le 4e régiment de Dragons engage 44 AMX-30B2 modifiés pour le théâtre. La carrière de la famille se prolonge à l’export : en septembre 2026, le ministre chypriote de la Défense confirme la modernisation des AMX-30 encore employés par la Garde nationale.",
+    "current": [
+      "CY"
+    ],
+    "former": [
+      "FR",
+      "ES",
+      "GR"
+    ],
+    "operatorSource": "https://cyprus-mail.com/2026/09/25/palmas-confirms-upgrade-of-ageing-amx-30-tanks",
+    "formerSource": "https://en.wikipedia.org/wiki/AMX-30",
+    "operatorNote": "Sélection partielle : Chypre attestée en septembre 2026 par les déclarations du ministre rapportées par Cyprus Mail. France, Espagne et Grèce sont classées parmi les anciens opérateurs de chars de combat par la liste Wikipédia consultée le 12 octobre 2026. Le périmètre exclut les engins dérivés et les chars servant de cibles ou de véhicules d’entraînement ; aucun effectif actuel n’est déduit de cette sélection.",
+    "storySources": [
+      {
+        "label": "Armée de Terre — histoire de l’AMX-30, 12 octobre 2022",
+        "url": "https://www.terremag.defense.gouv.fr/histoire/lamx-30-un-char-de-bataille"
+      },
+      {
+        "label": "Ministère des Armées — AMX-30B2 dans Daguet",
+        "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/objet-histoire/char-amx-30"
+      },
+      {
+        "label": "Cyprus Mail — déclarations du ministre chypriote, 25 septembre 2026",
+        "url": "https://cyprus-mail.com/2026/09/25/palmas-confirms-upgrade-of-ageing-amx-30-tanks"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "Mis à l’étude après la Seconde Guerre mondiale, l’AMX-13 apparaît en 1952. Son moteur occupe l’avant de la caisse et sa tourelle est placée vers l’arrière. Le modèle de 75 mm combine une tourelle oscillante et un chargement automatique, ce qui évite d’embarquer un chargeur humain.\n\nDans cette tourelle, la partie supérieure suit l’élévation du canon tandis que la partie inférieure assure la rotation. Deux magasins de six obus donnent douze coups prêts à tirer, puis un membre d’équipage doit sortir pour les recharger. Les Pays-Bas emploient une variante à canon de 105 mm à partir de 1963. Le châssis donne aussi naissance à des transports d’infanterie et des automoteurs d’artillerie : ces engins de la même famille ne doivent pas être confondus avec le char léger.",
+    "current": [
+      "ID"
+    ],
+    "former": [
+      "FR",
+      "NL"
+    ],
+    "operatorSource": "https://ppid.tniad.mil.id/index.php/i/3355/asah-kemampuan-tempur-yonkav-12bc-laksanakan-latbakjatrat-ranpur",
+    "formerSource": "https://en.wikipedia.org/wiki/AMX-13",
+    "operatorNote": "Sélection partielle : Indonésie attestée lors de tirs d’entraînement sur AMX-13/105 du 11 au 13 août 2022 par le service d’information de l’armée ; la liste Wikipédia mentionne encore l’Indonésie en 2024. Ces dates ne certifient pas un inventaire opérationnel en octobre 2026. France et Pays-Bas sont d’anciens opérateurs ; le musée national néerlandais donne une période 1963–1985. La carte ne couvre pas tous les utilisateurs mondiaux.",
+    "storySources": [
+      {
+        "label": "Tank Museum — AMX-13 à canon de 75 mm",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/amx-13/"
+      },
+      {
+        "label": "Nationaal Militair Museum — service néerlandais et tourelle",
+        "url": "https://www.nmm.nl/nl/stories/amx-13/"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "Standardisé en mars 1959, le M60 développe l’architecture du M48 avec un canon de 105 mm et un moteur diesel. Les échecs de plusieurs programmes de remplacement prolongent sa carrière. Le M60A1 reçoit une tourelle allongée ; les modernisations des années 1970 améliorent ensuite la stabilisation, la fiabilité et la vision nocturne.\n\nLe M60A3 modernise la conduite de tir avec un télémètre laser et un calculateur électronique. Le standard TTS, apparu en 1979, ajoute un viseur thermique. Après un dernier engagement des Marines dans le Golfe en 1990–1991, les derniers chars de cette famille quittent le service américain en 1997. Des utilisateurs étrangers continuent cependant à les entretenir : une étude officielle taïwanaise de 2025 décrit le remplacement futur d’une partie des M60A3 encore présents.",
+    "current": [
+      "TW"
+    ],
+    "former": [
+      "US"
+    ],
+    "operatorSource": "https://www.mnd.gov.tw/File/52608",
+    "formerSource": "https://home.army.mil/mccoy/8016/6367/8525/2019_EP_GUIDE.pdf",
+    "operatorNote": "Carte partielle : Taïwan documentée par une étude publiée sur le site du ministère de la Défense en 2025, qui cite les M60A3 existants à remplacer en partie. Le statut n’est pas extrapolé à un total disponible en octobre 2026. États-Unis : retrait des chars M60A3 en 1997 ; les véhicules de génie sur châssis M60 relèvent d’un autre périmètre.",
+    "storySources": [
+      {
+        "label": "Tank Museum — évolution de la famille Patton, 24 octobre 2025",
+        "url": "https://tankmuseum.org/article/the-patton-family"
+      },
+      {
+        "label": "Estrella Warbirds Museum — M60A3 et conduite de tir",
+        "url": "https://ewarbirds.org/exhibits/vehicles/m60a3-main-battle-tank/"
+      },
+      {
+        "label": "Ministère taïwanais de la Défense — étude du char à roues, 2025",
+        "url": "https://www.mnd.gov.tw/File/52608"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "Le T-34/76 entre en service en 1940 et surprend les forces allemandes en 1941. Son blindage incliné, sa mobilité et son canon de 76,2 mm constituent un ensemble marquant. L’exemplaire ancien du Tank Museum est capturé par les Finlandais puis employé comme véhicule d’entraînement dans les années 1950.\n\nÀ partir de 1943, les nouveaux chars allemands imposent une évolution. Le T-34/85 reçoit une tourelle plus grande et un canon de 85 mm. Trois hommes peuvent désormais travailler dans la tourelle, améliorant la répartition des tâches. Cette variante poursuit une longue carrière internationale après 1945 ; l’un des exemplaires du musée, construit fin 1944, est envoyé en Corée du Nord et capturé pendant la guerre de Corée. Les désignations /76 et /85 distinguent donc deux configurations importantes au sein de la famille.",
+    "current": [],
+    "former": [
+      "FI",
+      "DE"
+    ],
+    "operatorSource": "https://en.wikipedia.org/wiki/T-34",
+    "formerSource": "https://en.wikipedia.org/wiki/T-34",
+    "operatorNote": "Sélection historique : Finlande et Allemagne, y compris la RDA, figurent parmi les anciens utilisateurs de la liste Wikipédia consultée le 12 octobre 2026 ; l’emploi finlandais est recoupé par le Tank Museum. Aucun utilisateur contemporain n’est cartographié faute de vérification récente dans cette recherche. Cela ne signifie pas qu’aucun T-34 ne subsiste en service, en réserve ou au musée. RU représente ici l’origine soviétique dans la carte ISO2, sans affirmation d’un emploi russe actuel.",
+    "storySources": [
+      {
+        "label": "Tank Museum — T-34/76",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76/"
+      },
+      {
+        "label": "Tank Museum — T-34/85 et carrière après-guerre",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-85/"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "Les T-54 et T-55 deviennent des chars majeurs de l’après-guerre soviétique. Le T-54 emploie un canon de 100 mm ; ses évolutions améliorent la stabilisation et la vision de nuit. Le T-55 entre en production en 1958 avec un moteur plus puissant et une protection adaptée au champ de bataille nucléaire. La production sous licence et les exportations diffusent largement la famille.\n\nAdopté le 16 juillet 1962, le T-55A renforce la protection contre les radiations par des matériaux ajoutés dans et autour des compartiments habités. Cette modification accroît sa masse et entraîne notamment la suppression de la mitrailleuse de caisse. Des programmes ultérieurs changent la visée, la motorisation ou le blindage ; leurs données ne peuvent pas être appliquées au modèle d’origine. Le Vietnam présente encore des T-54B et T-55 lors de son défilé du 2 septembre 2025.",
+    "current": [
+      "VN"
+    ],
+    "former": [
+      "CZ",
+      "PL",
+      "DE"
+    ],
+    "operatorSource": "https://www.vietnam.vn/en/can-canh-dan-thiet-bi-khi-tai-cua-quan-doi-nhan-dan-viet-nam-tai-le-dieu-binh-dieu-hanh-chao-mung-ky-niem-80-nam-quoc-khanh",
+    "formerSource": "https://en.wikipedia.org/wiki/T-54/T-55_operators_and_variants",
+    "operatorNote": "Sélection partielle : Vietnam attesté par le défilé du 2 septembre 2025 documenté sur Vietnam.vn ; cette présence ne certifie pas un effectif opérationnel en octobre 2026. République tchèque, Pologne et Allemagne, dont la RDA, figurent parmi les anciens opérateurs de la liste Wikipédia consultée le 12 octobre 2026. Le périmètre porte sur les chars T-54/T-55 ; les Type 59 chinois et les véhicules spécialisés sont exclus. RU sert à représenter l’origine soviétique.",
+    "storySources": [
+      {
+        "label": "Canadian Tank Museum — évolution T-54 / T-55",
+        "url": "https://tankmuseum.ca/blog-post/the-t-54/"
+      },
+      {
+        "label": "Musée de l’histoire militaire nationale — T-55A",
+        "url": "https://www.kskdivniy.ru/museum/eksponaty/t-55/"
+      },
+      {
+        "label": "Vietnam.vn — défilé national du 2 septembre 2025, ministère de la Culture",
+        "url": "https://www.vietnam.vn/en/can-canh-dan-thiet-bi-khi-tai-cua-quan-doi-nhan-dan-viet-nam-tai-le-dieu-binh-dieu-hanh-chao-mung-ky-niem-80-nam-quoc-khanh"
+      },
+      {
+        "label": "Rostec — production historique d’Omsk, mars 2023",
+        "url": "https://rostec.ru/media/news/konstruktorskomu-byuro-omsktransmasha-65-let/?sphrase_id=5284332"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "Le programme du VAB est lancé en 1970 pour protéger les soldats tout en conservant une mobilité sur route et hors route. Après les essais de 1973, l’armée retient le modèle 4 × 4 de Saviem. Les premiers véhicules arrivent au 1er régiment d’infanterie en 1976. La famille se décline en de nombreuses versions : transport de troupes, commandement, santé, génie ou reconnaissance NRBC.\n\nLes revalorisations répondent aux évolutions des menaces. Le VAB Ultima reçoit notamment un tourelleau téléopéré de 12,7 mm et une protection complémentaire contre les engins explosifs improvisés. Son poids et ses dimensions diffèrent donc du véhicule initial. Le Griffon commence à remplacer progressivement le VAB en 2019. Cette transition s’étale sur plusieurs années : l’armée de Terre cite encore le VAB Arlad parmi les équipements d’un régiment en juillet 2026.",
+    "current": [
+      "FR"
+    ],
+    "former": [],
+    "operatorSource": "https://www.defense.gouv.fr/terre/actualites/14-juillet-2026-quelles-unites-larmee-terre-defilent",
+    "formerSource": "https://www.arquus-defense.com/fr/larmee-francaise-choisit-le-vehicule-de-lavant-blinde-vab",
+    "operatorNote": "Carte volontairement partielle : France attestée en juillet 2026 par une page de l’armée de Terre mentionnant le VAB Arlad. Les autres exportations, dons et utilisateurs de variantes ne sont pas cartographiés ici. Le nombre de pays destinataires de 1996 est un bilan de livraison historique, pas le nombre d’opérateurs actuels.",
+    "storySources": [
+      {
+        "label": "Arquus — choix du VAB et livraisons historiques",
+        "url": "https://www.arquus-defense.com/fr/larmee-francaise-choisit-le-vehicule-de-lavant-blinde-vab"
+      },
+      {
+        "label": "Arquus — quarante ans du VAB, entrée en service en 1976",
+        "url": "https://www.arquus-defense.com/fr/les-40-ans-du-vab-fete-le-19-octobre-2016"
+      },
+      {
+        "label": "Armée de Terre — VAB Ultima",
+        "url": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-dartillerie/vab-ultima"
+      },
+      {
+        "label": "DGA — remplacement progressif par le Griffon depuis 2019",
+        "url": "https://www.defense.gouv.fr/dga/actualites/livraison-16-vehicules-blindes-griffon-cadre-du-programme-scorpion"
+      },
+      {
+        "label": "Armée de Terre — équipements du 14 juillet 2026",
+        "url": "https://www.defense.gouv.fr/terre/actualites/14-juillet-2026-quelles-unites-larmee-terre-defilent"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "Le Phantom II est conçu par McDonnell pour protéger les porte-avions américains. Son prototype XF4H-1 effectue son premier vol le 27 mai 1958. La cellule associe deux réacteurs et un équipage de deux personnes, avec des versions adaptées aux besoins de la marine puis de l’armée de l’air américaine. Cette origine navale explique les ailes repliables de certaines versions et une silhouette compacte malgré la puissance de l’appareil.\n\nLe F-4C de l’US Air Force vole en mai 1963. Il est employé en Asie du Sud-Est à partir de 1965, dans les missions air-air et air-sol. L’exemplaire présenté au musée de l’USAF a servi à Robin Olds et Stephen Croker lorsqu’ils ont abattu deux MiG-17 le 20 mai 1967. La famille comprend aussi des versions de reconnaissance et plusieurs adaptations étrangères.\n\nAprès sa carrière de combat américaine, le Phantom sert encore de cible aérienne sous la désignation QF-4. Le dernier vol de cette mission américaine est célébré le 21 décembre 2016 à Holloman. Les caractéristiques ci-dessous décrivent le F-4C historique du musée; elles ne représentent pas les Phantom britanniques à moteurs Spey ni les F-4E modernisés.",
+    "current": [],
+    "former": [
+      "US"
+    ],
+    "operatorSource": "https://www.acc.af.mil/News/Article-Display/Article/1037351/final-flight-farewells-phantom/",
+    "formerSource": "https://www.acc.af.mil/News/Article-Display/Article/1037351/final-flight-farewells-phantom/",
+    "operatorNote": "Carte volontairement partielle : retrait de la famille F/QF-4 du service de l’US Air Force documenté le 21 décembre 2016. Les utilisateurs étrangers encore mentionnés dans des inventaires anciens ne sont pas présentés comme actifs en 2026 faute de vérification primaire récente dans cette fiche. L’absence de pays actifs ne signifie pas un retrait mondial.",
+    "storySources": [
+      {
+        "label": "US Navy — premier vol du prototype",
+        "url": "https://www.history.navy.mil/today-in-history/may-27.html"
+      },
+      {
+        "label": "National Museum of the USAF — F-4C",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/2929390/mcdonnell-douglas-f-4c-phantom-ii/"
+      },
+      {
+        "label": "Air Combat Command — retrait du QF-4",
+        "url": "https://www.acc.af.mil/News/Article-Display/Article/1037351/final-flight-farewells-phantom/"
+      },
+      {
+        "label": "RAF Museum — production de la famille",
+        "url": "https://www.rafmuseum.org.uk/research/collections/mcdonnell-douglas-phantom-fg1-nose-only/"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "Le Mirage F1 naît du besoin de remplacer les premiers Mirage III avec un avion capable d’utiliser des pistes plus courtes et d’atterrir moins vite. Dassault finance un prototype avec ses partenaires industriels. L’aile en flèche, montée en position haute, reçoit des dispositifs d’hypersustentation permettant une grande différence entre vitesse maximale et vitesse d’approche. René Bigand fait voler le F1 01 à Melun-Villaroche le 23 décembre 1966; le prototype atteint Mach 2 lors de son quatrième vol, le 7 janvier 1967.\n\nLa famille se diversifie : le F1C privilégie la défense aérienne, le F1B est biplace, le F1CR assure la reconnaissance et le F1CT adapte des cellules d’interception à l’assaut tactique. Les F1CT reçoivent notamment un télémètre laser et des équipements de navigation et de protection adaptés. Le musée Ailes Anciennes Toulouse conserve le F1CT numéro 261; sa fiche sert de référence technique ici.\n\nLe F1 connaît une carrière internationale étendue : Dassault recense 725 appareils construits, dont 473 exportés. En France, la version CT quitte le service en 2012 et les derniers CR en 2014. Une partie des appareils réformés retrouve ensuite une utilisation d’entraînement comme adversaire simulé auprès d’entreprises spécialisées.",
+    "current": [
+      "US"
+    ],
+    "former": [
+      "FR"
+    ],
+    "operatorSource": "https://www.atacusa.com/index.php/air-to-air",
+    "formerSource": "https://timeline.dassault-aviation.com/fr/",
+    "operatorNote": "Carte partielle : France, emploi militaire de 1973 à 2014 selon Dassault ; États-Unis, opérateur civil d’entraînement ATAC dont la page de mission consultée le 12 octobre 2026 confirme l’utilisation de Mirage F1. Cette couleur ne désigne pas un Mirage F1 en service dans l’US Air Force. Les autres utilisateurs militaires étrangers ne sont pas ajoutés sans état récent recoupé.",
+    "storySources": [
+      {
+        "label": "Dassault — naissance et variantes du Mirage F1",
+        "url": "https://www.dassault-aviation.com/fr/passion/avions/dassault-militaires/mirage-f1/"
+      },
+      {
+        "label": "Dassault — bilan historique de production",
+        "url": "https://timeline.dassault-aviation.com/fr/"
+      },
+      {
+        "label": "Ailes Anciennes Toulouse — Mirage F1CT n°261",
+        "url": "https://aatlse.org/fr/appareils/mirage-f1-ct/"
+      },
+      {
+        "label": "ATAC — flotte Mirage F1 employée pour l’entraînement",
+        "url": "https://www.atacusa.com/index.php/air-to-air"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "Le programme du MiG-21 se développe dans les années 1950 à travers plusieurs prototypes. L’E-2, encore muni d’une aile en flèche, vole le 14 février 1955 avec Gueorgui Mossolov. L’E-4 à aile delta suit le 16 juin. Ces étapes expliquent pourquoi la date de 1955 est généralement retenue pour la naissance de la famille, même si les prototypes ne possèdent pas tous la configuration des appareils de série. La silhouette finale associe une aile delta et une entrée d’air frontale dotée d’un cône central.\n\nLe MiG-21PF présenté par le musée de l’USAF est une version équipée de missiles air-air, sans canon. Pendant la guerre d’Asie du Sud-Est, les MiG-21 affrontent notamment les F-4 Phantom américains. Plus de cinquante pays utilisent différentes versions de la famille, et l’URSS en fabrique plus de 10 000 avant d’arrêter sa production en 1985.\n\nLa durée de sa carrière se mesure aussi à celle de ses exportations et fabrications sous licence. L’Inde, qui a exploité environ 850 MiG-21 selon son ministère de la Défense, organise leur cérémonie de retrait le 26 septembre 2025 à Chandigarh. Ce retrait indien ne signifie pas que la famille a disparu de toutes les forces aériennes.",
+    "current": [],
+    "former": [
+      "IN"
+    ],
+    "operatorSource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2171701&lang=2&reg=48",
+    "formerSource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2171701&lang=2&reg=48",
+    "operatorNote": "Carte volontairement partielle : Inde, retrait officiellement célébré le 26 septembre 2025. Le musée américain confirme un emploi historique dans plus de cinquante pays. Cette fiche ne transpose pas les inventaires étrangers anciens en statut actif pour octobre 2026; l’absence de pays actifs sur la carte ne signifie pas un retrait mondial. Les J-7/F-7 chinois ne sont pas ajoutés.",
+    "storySources": [
+      {
+        "label": "Rostec — prototypes E-2, E-4 et E-5",
+        "url": "https://www.rostec.ru/media/news/mig-21-proshchay-legenda-chast-i/"
+      },
+      {
+        "label": "National Museum of the USAF — MiG-21PF",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d/"
+      },
+      {
+        "label": "Défense indienne — retrait du MiG-21, septembre 2025",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2171701&lang=2&reg=48"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "Le Su-25 résulte du retour à un avion spécialisé dans l’appui direct des troupes au sol. Le bureau Sukhoï travaille sur le projet T-8 à la fin des années 1960. Vladimir Iliouchine fait voler le prototype le 22 février 1975. L’appareil privilégie une cellule robuste, une protection partielle et deux réacteurs plutôt que la recherche d’une vitesse supersonique. Son surnom russe Grach désigne le corbeau freux; l’OTAN lui attribue le nom Frogfoot.\n\nDes prototypes sont évalués en Afghanistan entre avril et juillet 1980. La version d’exportation Su-25K apparaît en production en 1984; la Tchécoslovaquie en devient le premier utilisateur étranger. Le musée militaire slovaque conserve l’appareil 1007, fabriqué à Tbilissi et livré en juillet 1987. Sa fiche décrit précisément les réacteurs R-95Ch et les conditions de mesure de certaines performances.\n\nLa carrière de la famille se prolonge dans plusieurs pays, avec des modernisations différentes. La Bulgarie emploie encore des Su-25 lors de l’entraînement Thracian Viper de juillet 2026. L’université militaire aéronautique ukrainienne étudie en avril 2026 le comportement du Su-25 à partir de l’expérience de guerre. Les valeurs techniques du Su-25K historique ne sont pas transférables telles quelles à toutes ces versions modernisées.",
+    "current": [
+      "BG",
+      "UA"
+    ],
+    "former": [
+      "CZ"
+    ],
+    "operatorSource": "https://www.mod.bg/news9458",
+    "formerSource": "https://www.vhu.cz/exhibit/bitevni-letoun-suchoj-su-25-k-vyr-c-25508109098/",
+    "operatorNote": "Sélection documentée, non exhaustive : vols bulgares de Su-25 confirmés du 20 au 24 juillet 2026; emploi ukrainien dans la guerre actuelle décrit par l’université militaire aéronautique lors de sa conférence des 8–9 avril 2026. Retrait tchèque en 2000 confirmé par le musée militaire de Prague. Les autres flottes ne sont pas évaluées; les stocks exacts et disponibilités ne sont pas déduits de ces sources.",
+    "storySources": [
+      {
+        "label": "Rostec — cinquante ans du premier vol",
+        "url": "https://www.rostec.ru/media/news/grachi-prileteli-polveka-pervomu-poletu-su-25/"
+      },
+      {
+        "label": "Musée militaire slovaque — Su-25K et histoire",
+        "url": "https://www.vhu.sk/prudove-podzvukove-bitevne-lietadlo-su-25k/"
+      },
+      {
+        "label": "Défense bulgare — exercice de juillet 2026",
+        "url": "https://www.mod.bg/news9458"
+      },
+      {
+        "label": "Université aéronautique militaire ukrainienne — conférence 2026",
+        "url": "https://hups.mil.gov.ua/wp-content/uploads/admission-university/naukovij_centr/XXI%D0%86_mizhnarodna_naukova_konferencia_KhNUPS_2026.pdf"
+      },
+      {
+        "label": "Musée militaire de Prague — retrait tchèque",
+        "url": "https://www.vhu.cz/exhibit/bitevni-letoun-suchoj-su-25-k-vyr-c-25508109098/"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "Le Sentry transforme une cellule de Boeing 707-320 en poste de surveillance et de commandement aérien. Son signe distinctif est un radôme rotatif de 9,1 mètres de diamètre, porté au-dessus du fuselage par deux supports. Les opérateurs de mission fusionnent les détections, identifient les aéronefs et transmettent la situation aux centres de commandement. Le radar peut suivre des avions volant à basse altitude en filtrant les retours du sol.\n\nLe démonstrateur EC-137D, précurseur de l’E-3, vole le 9 février 1972. Les premiers Sentry arrivent à Tinker le 23 mars 1977, puis la capacité opérationnelle initiale est atteinte le 16 avril 1978. Les missions de longue durée sont prolongées par le ravitaillement en vol. La famille se déploie au sein de plusieurs forces nationales et de la flotte commune de l’OTAN.\n\nL’appareil ne se réduit pas à son radar : les systèmes de communication, les calculateurs et les équipes embarquées en font un outil de coordination des forces. Les versions nationales possèdent des moteurs et des équipements différents. Le Royaume-Uni marque le retrait de ses E-3D en septembre 2021, tandis que l’E-3F français participe à Orion 2026. Les caractéristiques retenues ici restent celles du Sentry américain à moteurs TF33 dans la fiche USAF datée de septembre 2015.",
+    "current": [
+      "FR"
+    ],
+    "former": [
+      "GB"
+    ],
+    "operatorSource": "https://www.defense.gouv.fr/air/tous-nos-dossiers/dossier-orion-2026/orion-2026-deploiement-dune-campagne-aerienne",
+    "formerSource": "https://www.raf.mod.uk/news/articles/his-royal-highness-the-earl-of-wessex-marks-retirement-of-e-3d-sentry-from-raf-service-after-30-years/",
+    "operatorNote": "Carte volontairement partielle : emploi français d’E-3F confirmé pendant Orion 2026; retrait britannique de l’E-3D célébré le 30 septembre 2021. L’OTAN constitue un opérateur collectif et n’est pas convertie en une liste de flottes nationales. Les nombres et pays d’un inventaire USAF de 2015 ne sont pas présentés comme un inventaire actif d’octobre 2026. Les E-767 japonais constituent une autre plateforme.",
+    "storySources": [
+      {
+        "label": "USAF — mission et caractéristiques",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104504/e-3-sentry-awacs/e-3-sentry-awacs/"
+      },
+      {
+        "label": "Air Combat Command — premier vol du prototype",
+        "url": "https://www.acc.af.mil/News/Article-Display/Article/2957379/whales-tales/"
+      },
+      {
+        "label": "Air Combat Command — début de service et capacité initiale",
+        "url": "https://www.acc.af.mil/News/Article/202614/e-3-sentry-celebrates-30-years-in-air-forces-fleet/"
+      },
+      {
+        "label": "Tinker — achats et histoire de l’E-3",
+        "url": "https://www.tinker.af.mil/News/Article-Display/Article/1202848/tinker-history-boeing-e-3-sentry/"
+      },
+      {
+        "label": "RAF — retrait des E-3D en 2021",
+        "url": "https://www.raf.mod.uk/news/articles/his-royal-highness-the-earl-of-wessex-marks-retirement-of-e-3d-sentry-from-raf-service-after-30-years/"
+      },
+      {
+        "label": "Armée de l’Air et de l’Espace — Orion 2026",
+        "url": "https://www.defense.gouv.fr/air/tous-nos-dossiers/dossier-orion-2026/orion-2026-deploiement-dune-campagne-aerienne"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "L’A330 MRTT utilise la cellule de l’A330-200 pour réunir le transport stratégique et le ravitaillement en vol. L’assemblage initial est réalisé à Toulouse, puis la conversion militaire à Getafe, en Espagne. Les systèmes de ravitaillement varient selon le client : perche rigide à l’arrière, nacelles à tuyau et panier sous les ailes, ou combinaisons de ces équipements. Le rapport annuel EADS de 2007 situe le premier vol de l’A330 MRTT en juin de cette année.\n\nL’Australie devient le premier client et met le KC-30A en service en juin 2011. Le programme français Phénix, lancé en 2014, choisit le standard MRTT Enhanced pour renouveler le ravitaillement et le transport à longue distance. Les caméras permettent à l’opérateur de contrôler le contact avec l’avion receveur. La cabine peut accueillir des passagers, du personnel médical et des modules d’évacuation adaptés à des blessés légers ou à des patients nécessitant des soins intensifs.\n\nLe MRTT s’étend ensuite à plusieurs forces aériennes et à une flotte multinationale de l’OTAN. En avril 2025, l’Espagne met son premier exemplaire converti en service. Le rapport Airbus pour fin 2025 distingue 85 commandes de 66 appareils déjà livrés et en exploitation. Les données ci-dessous restent celles du Phénix à moteurs Trent 772B; elles ne décrivent pas le futur MRTT+ dérivé de l’A330neo.",
+    "current": [
+      "AU",
+      "GB",
+      "FR",
+      "SA",
+      "AE",
+      "SG",
+      "KR",
+      "ES"
+    ],
+    "former": [],
+    "operatorSource": "https://flightsafety.airbus.com/defenceandspace/aar-series-article-2-the-a330-mrtt-programme-from-the-opportunity-to-the-success/",
+    "operatorNote": "Sélection de flottes nationales avec livraisons et emploi documentés dans le tableau Airbus Flight Safety arrêté à avril 2026 : Australie, Royaume-Uni, France, Arabie saoudite, Émirats arabes unis, Singapour, Corée du Sud et Espagne. Les commandes canadiennes, brésiliennes et thaïlandaises ne sont pas assimilées à des MRTT opérationnels. La flotte commune OTAN est mentionnée dans l’histoire mais n’est pas attribuée à chaque participant comme flotte nationale. Origine FR/ES : assemblage de l’A330 à Toulouse, conversion MRTT à Getafe; ces codes ne recensent pas toute la chaîne industrielle européenne.",
+    "storySources": [
+      {
+        "label": "Airbus — plateforme et organisation industrielle",
+        "url": "https://www.airbus.com/en/products-services/defence/military-aircraft/a330-mrtt"
+      },
+      {
+        "label": "EADS — rapport annuel 2007, premier vol",
+        "url": "https://www.airbus.com/sites/g/files/jlcbta136/files/2021-07/annual-review-2007.pdf"
+      },
+      {
+        "label": "RAAF — première utilisation et histoire",
+        "url": "https://www.airforce.gov.au/about-us/history/our-journey/australian-government-signed-contract-convert-five-airbus-a330-airframes-raaf"
+      },
+      {
+        "label": "Armée de l’Air et de l’Espace — Phénix",
+        "url": "https://www.defense.gouv.fr/air/nos-aeronefs/nos-avions/airbus-a330-phenix"
+      },
+      {
+        "label": "Airbus — premier MRTT espagnol en service",
+        "url": "https://www.airbus.com/en/newsroom/press-releases/2025-04-first-airbus-a330-mrtt-for-the-spanish-air-and-space-force-enters"
+      },
+      {
+        "label": "Airbus — rapport du conseil 2025",
+        "url": "https://www.airbus.com/sites/g/files/jlcbta136/files/2026-02/airbus_se_report_of_the_board_of_directors_fy_2025_1.pdf"
+      },
+      {
+        "label": "Airbus Flight Safety — tableau opérateurs, avril 2026",
+        "url": "https://flightsafety.airbus.com/defenceandspace/aar-series-article-2-the-a330-mrtt-programme-from-the-opportunity-to-the-success/"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "La classe Type 23 naît pendant la guerre froide pour la lutte anti-sous-marine. Le premier bâtiment, HMS Norfolk, entre en service britannique le 1er juin 1990. La série de seize frégates devient ensuite une composante polyvalente de la Royal Navy, assurant aussi des missions de présence, d’escorte et de sécurité maritime.\n\nLe Chili acquiert trois unités d’occasion en 2005, rebaptisées Almirante Cochrane, Almirante Lynch et Almirante Condell. Ces transferts prolongent la carrière de la classe dans le Pacifique. Au Royaume-Uni, le remplacement des Duke est engagé avec les classes City et Inspiration ; le nombre de frégates disponibles évolue au rythme des retraits et des travaux.",
+    "current": [
+      "GB",
+      "CL"
+    ],
+    "former": [],
+    "operatorSource": "https://en.wikipedia.org/wiki/Type_23_frigate",
+    "operatorNote": "Sélection vérifiée le 12 octobre 2026 : Royal Navy et Armada de Chile, qui présente ses trois Type 23. Les retraits de bâtiments britanniques ne font pas du Royaume-Uni un ancien utilisateur de toute la classe. Aucun effectif actif exact n’est déduit du total construit.",
+    "storySources": [
+      {
+        "label": "Royal Navy — classe Duke",
+        "url": "https://www.royalnavy.mod.uk/equipment/ships/duke-class"
+      },
+      {
+        "label": "Armada de Chile — unités Type 23 et histoire du Norfolk",
+        "url": "https://www.armada.cl/armada/site/tax/port/all/taxport_29_29_160_1.html"
+      },
+      {
+        "label": "Armada de Chile — acquisition des trois frégates, octobre 2005",
+        "url": "https://www.armada.cl/noticias-navales/designados-nombres-de-fragatas-britanicas-tipo-23"
+      },
+      {
+        "label": "Royal Navy — Richmond, dixième des seize Type 23",
+        "url": "https://www.royalnavy.mod.uk/organisation/units-and-squadrons/type-23/hms-richmond"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "La France et l’Italie construisent chacune deux bâtiments dans le programme Horizon, mené par Naval Group et Fincantieri. Ces grands navires protègent notamment une force navale contre les menaces aériennes. L’Andrea Doria est livré à la marine italienne en décembre 2007, puis le Caio Duilio en avril 2009 ; les deux unités françaises sont le Forbin et le Chevalier Paul.\n\nUn programme commun de modernisation à mi-vie est engagé en 2023 avec Naviris et Eurosam. Il couvre les systèmes de défense aérienne, les radars, le système de combat et la plateforme. Les caractéristiques techniques de cette fiche restent celles du Caio Duilio à sa livraison : les équipements futurs de la modernisation ne sont pas présentés comme déjà installés.",
+    "current": [
+      "FR",
+      "IT"
+    ],
+    "former": [],
+    "operatorSource": "https://www.naval-group.com/en/naviris-moves-forward-mid-life-upgrade-horizon-frigates",
+    "operatorNote": "Périmètre de la classe au 12 octobre 2026 : les deux marines partenaires, deux bâtiments chacune. Le Royaume-Uni utilise des Type 45, qui constituent une classe distincte.",
+    "storySources": [
+      {
+        "label": "Fincantieri — livraison du Caio Duilio, 3 avril 2009",
+        "url": "https://www.fincantieri.com/it/newsroom/news-e-comunicati-stampa/2009/consegnato-alla-marina-militare-il-cacciatorpediniere-caio-duilio"
+      },
+      {
+        "label": "Naval Group — modernisation des quatre Horizon, juin 2023",
+        "url": "https://www.naval-group.com/en/naviris-moves-forward-mid-life-upgrade-horizon-frigates"
+      },
+      {
+        "label": "Naval Group — Yearbook 2023–2024, contrat et calendrier de modernisation",
+        "url": "https://www.naval-group.com/sites/default/files/2024-06/Yearbook%20Naval%20Group%202023-2024%20EN_0.pdf"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "Le Chili commande deux Scorpène en décembre 1997 au consortium DCN–Bazán, devenu ensuite DCNS/Naval Group et Navantia. Le O’Higgins est lancé à Cherbourg en octobre 2003 et reçoit le pavillon chilien en septembre 2005. Cette coopération franco-espagnole explique l’origine de la famille, même si ses programmes ultérieurs sont présentés par Naval Group comme des réalisations françaises avec des partenaires locaux.\n\nLe modèle est ensuite adapté à plusieurs marines. En Inde, six unités Kalvari sont construites chez Mazagon Dock avec transfert de technologie ; la dernière entre en service en janvier 2025. Au Brésil, le troisième Scorpène est livré en novembre 2025 et le quatrième est lancé. Les deux Scorpène Evolved indonésiens restent un programme de construction : une commande ne vaut pas admission en service.",
+    "current": [
+      "CL",
+      "MY",
+      "IN",
+      "BR"
+    ],
+    "former": [],
+    "operatorSource": "https://en.wikipedia.org/wiki/Scorp%C3%A8ne-class_submarine",
+    "operatorNote": "Sélection vérifiée le 12 octobre 2026 : Chili, Malaisie, Inde et Brésil pour les variantes effectivement livrées. L’Indonésie, dont le contrat est entré en vigueur en juillet 2025, est exclue tant que ses bâtiments ne sont pas livrés. La France et l’Espagne sont pays d’origine industrielle, pas utilisateurs navals du Scorpène.",
+    "storySources": [
+      {
+        "label": "Armada de Chile — histoire du O’Higgins et consortium d’origine",
+        "url": "https://www.armada.cl/unidades-navales/submarinos/clase-scorpene/ss-23-o-higgins"
+      },
+      {
+        "label": "Naval Group — admission du sixième Kalvari, janvier 2025",
+        "url": "https://www.naval-group.com/sites/default/files/2025-01/20250115_PR_Commissioning%20of%20INS%20Vaghsheer.pdf"
+      },
+      {
+        "label": "Naval Group — troisième livraison brésilienne, novembre 2025",
+        "url": "https://www.naval-group.com/en/presse/delivery-third-and-launching-fourth-brazilian-scorpener-submarines"
+      },
+      {
+        "label": "Naval Group — contrat Scorpène Evolved pour l’Indonésie",
+        "url": "https://www.naval-group.com/en/entry-force-scorpener-evolved-submarines-contract-indonesia"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "Les dix-huit sous-marins Ohio entrent en service entre 1981 et 1997 et remplacent les premières générations de sous-marins stratégiques américains. Construits par Electric Boat, ils assurent des patrouilles de dissuasion nucléaire. Leurs missiles Trident II D5 succèdent au Trident I C4 sur la flotte stratégique.\n\nEntre 2002 et 2008, les quatre unités les plus anciennes sont transformées en SSGN pour des missions conventionnelles et spéciales. Les quatorze autres conservent le rôle SSBN. La fiche navale de 2025 indique vingt tubes stratégiques utilisables par SSBN après la désactivation permanente de quatre des vingt-quatre tubes initiaux ; les Ohio convertis ne portent pas cette même configuration.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "operatorSource": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169580/fleet-ballistic-missile-submarines-ssbn/",
+    "operatorNote": "Classe exclusivement américaine, vérifiée le 12 octobre 2026. Le total construit de dix-huit n’est pas assimilé à une disponibilité instantanée ; les quatorze SSBN et les quatre conversions SSGN sont des sous-ensembles historiques distincts.",
+    "storySources": [
+      {
+        "label": "US Navy History — dix-huit Ohio et conversions",
+        "url": "https://www.history.navy.mil/content/history/nhhc/browse-by-topic/wars-conflicts-and-operations/cold-war/strategic-deterrence/Ohio-class.html"
+      },
+      {
+        "label": "US Navy History — histoire des sous-marins stratégiques",
+        "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/cold-war/strategic-deterrence/fleet-ballistic-missiles-submarines.html"
+      },
+      {
+        "label": "US Navy — fiche Ohio SSBN, février 2025",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169580/fleet-ballistic-missile-submarines-ssbn/"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "Le programme HARM associe l’US Navy et l’US Air Force. La production à pleine cadence est approuvée en mars 1983 et l’Air Force date son déploiement de 1984. Le missile équipe notamment le F-4G Wild Weasel, puis le F-16, pour réduire la menace des défenses aériennes guidées par radar.\n\nLe HARM évolue par modernisations successives. Le programme HCSM ajoute une navigation GPS et inertielle à des missiles existants ; Raytheon annonce la fin de ses essais en septembre 2012. Ces modifications doivent être distinguées des AARGM et AARGM-ER, dont les systèmes et certaines dimensions diffèrent. La carte présente une sélection d’utilisateurs documentés des HARM classiques et modernisés, sans transformer les seules autorisations de vente en livraisons.",
+    "current": [
+      "US",
+      "DE",
+      "GR",
+      "IL",
+      "IT",
+      "KW",
+      "MA",
+      "SA",
+      "KR",
+      "ES",
+      "TR",
+      "UA",
+      "AE",
+      "EG"
+    ],
+    "former": [],
+    "operatorSource": "https://en.wikipedia.org/wiki/AGM-88_HARM",
+    "operatorNote": "Sélection documentée au 12 octobre 2026 pour HARM classique et modernisations, sans prétendre à un inventaire mondial exhaustif ni à une variante identique pour tous. Australie, Bahreïn, Qatar et Taïwan ne sont pas ajoutés sur la seule base des commandes ou calendriers de la page consultée ; Finlande, Pays-Bas, Pologne et Norvège liés à des programmes futurs AARGM-ER sont également exclus. La DSCA confirme en 2024 la présence de HARM dans l’inventaire émirien, indépendamment de la nouvelle autorisation de modernisation.",
+    "storySources": [
+      {
+        "label": "US Air Force — HARM, référence d’août 2020",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104574/agm-88-harm/"
+      },
+      {
+        "label": "Raytheon — essais HCSM achevés en septembre 2012",
+        "url": "https://raytheon.mediaroom.com/index.php?item=2162&s=43"
+      },
+      {
+        "label": "GAO — modernisation HCSM et réemploi des AGM-88C",
+        "url": "https://www.gao.gov/assets/b-410036.pdf"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "L’US Air Force accepte ses premiers Maverick AGM-65A en août 1972. La conception modulaire permet ensuite de combiner plusieurs autodirecteurs avec deux grandes catégories de charges. Les premiers AGM-65D à imagerie infrarouge sont livrés en octobre 1983 et cette variante atteint sa capacité opérationnelle initiale en février 1986.\n\nLa famille se diffuse à l’exportation et est largement employée pendant la guerre du Golfe : les fiches militaires indiquent plus de 5 000 missiles tirés en 1991. Raytheon annonce plus de 69 000 Maverick produits en septembre 2009, toutes versions confondues. Ce jalon industriel ancien et le nombre de tirs ne donnent ni le stock actuel ni un total de cibles détruites.",
+    "current": [
+      "US",
+      "CA",
+      "CL",
+      "CZ",
+      "EG",
+      "GR",
+      "HU",
+      "ID",
+      "IQ",
+      "IR",
+      "IL",
+      "JP",
+      "JO",
+      "KW",
+      "MY",
+      "MA",
+      "OM",
+      "PK",
+      "PE",
+      "PH",
+      "PL",
+      "PT",
+      "RO",
+      "SA",
+      "RS",
+      "SG",
+      "KR",
+      "ES",
+      "TW",
+      "TH",
+      "TR",
+      "TN"
+    ],
+    "former": [
+      "DE",
+      "NZ",
+      "SE"
+    ],
+    "operatorSource": "https://en.wikipedia.org/wiki/AGM-65_Maverick",
+    "formerSource": "https://en.wikipedia.org/wiki/AGM-65_Maverick",
+    "operatorNote": "Sélection documentée de pays utilisateurs de la famille au 12 octobre 2026 ; elle ne signifie pas que tous possèdent l’AGM-65D. Les anciens utilisateurs explicitement identifiés sont Allemagne, Nouvelle-Zélande et Suède. Australie, Belgique, Danemark, Pays-Bas et Suisse, encore présents dans des listes historiques d’exportation, sont laissés hors sélection actuelle faute de statut de missile suffisamment clair après le retrait de plateformes. Aucun stock ni capacité immédiatement disponible n’est inféré de cette carte.",
+    "storySources": [
+      {
+        "label": "US Air Force — variantes et histoire du Maverick",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104577/agm-65-maverick/"
+      },
+      {
+        "label": "US Navy — Maverick et emploi de 1991",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168374/agm-65-maverick-guided-missile/"
+      },
+      {
+        "label": "Raytheon — jalon de production de septembre 2009",
+        "url": "https://raytheon.mediaroom.com/index.php?item=1382&s=43"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "La famille Aster naît de contrats franco-italiens conclus en 1990. La coopération s’étend ensuite au Royaume-Uni pour le système naval PAAMS. Aster 30 équipe des bâtiments comme les Horizon et les Type 45 ainsi que des systèmes terrestres de défense aérienne ; les variantes Aster 15 et Aster 30 partagent leur partie terminale mais disposent d’accélérateurs différents.\n\nLes évolutions Block 1 et B1NT élargissent les capacités de la famille. En juillet 2025, MBDA livre le premier lot issu d’un programme de production accélérée ; l’acquisition commune correspond à près de mille Aster de différentes versions. Ce volume commandé ne constitue pas un total déjà fabriqué d’Aster 30. La variante technique de référence reste ici l’Aster 30 de la fiche publique MBDA de 2019.",
+    "current": [
+      "FR",
+      "IT",
+      "GB",
+      "SG",
+      "EG",
+      "QA",
+      "UA",
+      "GR"
+    ],
+    "former": [],
+    "operatorSource": "https://en.wikipedia.org/wiki/Aster_(missile)",
+    "operatorNote": "Sélection au 12 octobre 2026 d’utilisateurs documentés d’Aster 30 naval ou terrestre, avec variants différents. La Grèce est retenue après la livraison du Kimon en décembre 2025, appuyée par Naval Group. Algérie, Maroc et Arabie saoudite ne sont pas automatiquement ajoutés depuis la liste de la famille Aster, car leurs équipements cités concernent notamment Aster 15. Les commandes futures comme celles du Danemark ne prouvent pas une capacité déjà en service.",
+    "storySources": [
+      {
+        "label": "MBDA — histoire de la coopération Aster",
+        "url": "https://www.mbda-systems.com/our-company/our-history"
+      },
+      {
+        "label": "MBDA — fiche technique Aster, édition 2019",
+        "url": "https://www.mbda-systems.com/sites/mbda/files/2024-06/2018%20ASTER%20datasheet.pdf"
+      },
+      {
+        "label": "MBDA — premières livraisons accélérées, juillet 2025",
+        "url": "https://www.mbda-systems.com/mbda-track-its-acceleration-aster-missile-production"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
+  },
+  {
+    "story": "Le RAM est conçu comme un système de défense rapprochée des navires contre les missiles antinavires et d’autres menaces. Il résulte d’un programme commun aux gouvernements américain et allemand, poursuivi en coopération industrielle. Le lanceur Mk49 peut contenir vingt-et-un missiles ; SeaRAM associe quant à lui des équipements du Phalanx à un lanceur RAM distinct.\n\nLa famille évolue du Block 0 vers le Block 1A puis le Block 2. Ce dernier atteint sa capacité opérationnelle initiale en mai 2015 et reçoit l’autorisation de pleine production en novembre 2018. La Navy indique plus de cinq mille missiles produits dans l’ensemble du programme en 2021. Raytheon présente depuis une diffusion sur plus de 165 navires dans onze pays, sans publier ici de portée absolue pour le Block 2.",
+    "current": [
+      "US",
+      "DE",
+      "EG",
+      "GR",
+      "JP",
+      "MX",
+      "QA",
+      "KR",
+      "SA",
+      "TR",
+      "AE"
+    ],
+    "former": [],
+    "operatorSource": "https://en.wikipedia.org/wiki/RIM-116_Rolling_Airframe_Missile",
+    "operatorNote": "Sélection des onze pays utilisateurs documentés de la famille au 12 octobre 2026 ; les versions embarquées diffèrent. La diffusion à onze pays est aussi indiquée par Raytheon. Pays-Bas, Canada et Australie, liés à des installations futures dans la page consultée, ne sont pas inclus sur la seule base de leurs annonces.",
+    "storySources": [
+      {
+        "label": "US Navy — variantes, coopération et production RAM",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/rim-116-rolling-airframe-missile-ram/"
+      },
+      {
+        "label": "US Navy — système SeaRAM",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2167555/searam-close-in-weapon-system-ciws-anti-ship-missile-defense-system/searam-close-in-weapon-system-ciws-anti-ship-missile-defense-system/"
+      },
+      {
+        "label": "Raytheon — diffusion mondiale du RAM",
+        "url": "https://www.rtx.com/raytheon/what-we-do/sea/ram-missile"
+      },
+      {
+        "label": "Diehl Defence — coopération RAM",
+        "url": "https://new.diehl.com/defence/de/produkte/lenkflugkoerper/ram2"
+      }
+    ],
+    "checkedAt": "12 octobre 2026",
+    "documentedOperatorsOnly": true
   }
 ];

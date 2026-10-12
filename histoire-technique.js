@@ -5878,5 +5878,1036 @@ window.LDV_TECHNIQUE = {
         "url": "https://www.mbda-systems.com/mbda-receives-new-order-more-meteor-germany"
       }
     ]
+  },
+  "130": {
+    "name": "AMX-30",
+    "checkedAt": "2026-10-12",
+    "variant": "AMX-30B, standard décrit dans le rapport sénatorial de novembre 1974",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "4 personnes",
+        "source": "https://www.senat.fr/rap/1974-1975/i1974_1975_0102_05.pdf"
+      },
+      {
+        "label": "Masse en ordre de combat",
+        "value": "36 t",
+        "source": "https://www.senat.fr/rap/1974-1975/i1974_1975_0102_05.pdf"
+      },
+      {
+        "label": "Canon principal",
+        "value": "105 mm",
+        "source": "https://www.senat.fr/rap/1974-1975/i1974_1975_0102_05.pdf"
+      },
+      {
+        "label": "Vitesse maximale sur route",
+        "value": "65 km/h",
+        "source": "https://www.senat.fr/rap/1974-1975/i1974_1975_0102_05.pdf"
+      },
+      {
+        "label": "Autonomie sur route",
+        "value": "500 km",
+        "source": "https://www.senat.fr/rap/1974-1975/i1974_1975_0102_05.pdf"
+      },
+      {
+        "label": "Mitrailleuse de défense rapprochée",
+        "value": "7,62 mm",
+        "source": "https://www.senat.fr/rap/1974-1975/i1974_1975_0102_05.pdf"
+      }
+    ],
+    "note": "Données historiques de l’AMX-30B, annexe page imprimée 73. La version B2 et les kits Brennus possèdent d’autres équipements. L’armement coaxial variait : il n’est donc pas fixé à une configuration unique ici.",
+    "sources": [
+      {
+        "label": "Sénat — avis sur le budget 1975, fiche AMX-30B",
+        "url": "https://www.senat.fr/rap/1974-1975/i1974_1975_0102_05.pdf"
+      }
+    ]
+  },
+  "131": {
+    "name": "AMX-13",
+    "checkedAt": "2026-10-12",
+    "variant": "AMX-13/75 présenté par le Tank Museum",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "3 personnes",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/amx-13/"
+      },
+      {
+        "label": "Masse publiée",
+        "value": "14,8 tons",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/amx-13/"
+      },
+      {
+        "label": "Canon principal",
+        "value": "CN-75-50 de 75 mm",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/amx-13/"
+      },
+      {
+        "label": "Armement secondaire",
+        "value": "1 mitrailleuse MAC31 de 7,5 mm",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/amx-13/"
+      },
+      {
+        "label": "Vitesse publiée",
+        "value": "37 mph, soit environ 60 km/h",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/amx-13/"
+      }
+    ],
+    "note": "Valeurs de l’exemplaire de 75 mm du musée. L’unité de masse « tons » est conservée car la fiche ne précise pas sa convention. Les versions de 90 et 105 mm sont distinctes.",
+    "sources": [
+      {
+        "label": "Tank Museum — fiche AMX-13",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/amx-13/"
+      }
+    ]
+  },
+  "132": {
+    "name": "M60 Patton",
+    "checkedAt": "2026-10-12",
+    "variant": "M60A3, fiche de l’Estrella Warbirds Museum",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "4 personnes",
+        "source": "https://ewarbirds.org/exhibits/vehicles/m60a3-main-battle-tank/"
+      },
+      {
+        "label": "Canon principal",
+        "value": "M68E1 rayé de 105 mm",
+        "source": "https://ewarbirds.org/exhibits/vehicles/m60a3-main-battle-tank/"
+      },
+      {
+        "label": "Dotation du canon",
+        "value": "63 obus",
+        "source": "https://ewarbirds.org/exhibits/vehicles/m60a3-main-battle-tank/"
+      },
+      {
+        "label": "Mitrailleuse coaxiale",
+        "value": "M240 de 7,62 mm",
+        "source": "https://ewarbirds.org/exhibits/vehicles/m60a3-main-battle-tank/"
+      },
+      {
+        "label": "Mitrailleuse du chef de char",
+        "value": "M85 de 12,7 mm (.50)",
+        "source": "https://ewarbirds.org/exhibits/vehicles/m60a3-main-battle-tank/"
+      },
+      {
+        "label": "Vitesse maximale sur route",
+        "value": "30 mph, soit environ 48 km/h",
+        "source": "https://ewarbirds.org/exhibits/vehicles/m60a3-main-battle-tank/"
+      },
+      {
+        "label": "Autonomie publiée",
+        "value": "312 miles, soit environ 502 km",
+        "source": "https://ewarbirds.org/exhibits/vehicles/m60a3-main-battle-tank/"
+      }
+    ],
+    "note": "Caractéristiques de la variante M60A3 décrite par le musée. Les conversions de miles en kilomètres sont arrondies. La masse et la puissance sont omises car les conventions et valeurs de la fiche mériteraient un recoupement.",
+    "sources": [
+      {
+        "label": "Estrella Warbirds Museum — fiche M60A3",
+        "url": "https://ewarbirds.org/exhibits/vehicles/m60a3-main-battle-tank/"
+      }
+    ]
+  },
+  "133": {
+    "name": "T-34",
+    "checkedAt": "2026-10-12",
+    "variant": "T-34/76 ancien à canon L-11 conservé au Tank Museum",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "4 personnes",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76/"
+      },
+      {
+        "label": "Masse",
+        "value": "26,5 t",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76/"
+      },
+      {
+        "label": "Canon principal",
+        "value": "L-11 de 76,2 mm",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76/"
+      },
+      {
+        "label": "Armement secondaire",
+        "value": "Mitrailleuse DT de 7,62 mm",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76/"
+      },
+      {
+        "label": "Vitesse publiée",
+        "value": "53 km/h",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76/"
+      },
+      {
+        "label": "Épaisseur de blindage publiée",
+        "value": "15 à 45 mm",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76/"
+      }
+    ],
+    "note": "Données du T-34/76 ancien du musée. Les versions à canon F-34 et les T-34/85 présentent d’autres caractéristiques ; l’épaisseur physique du blindage n’est pas une équivalence de protection.",
+    "sources": [
+      {
+        "label": "Tank Museum — caractéristiques de l’ancien T-34/76",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76/"
+      }
+    ]
+  },
+  "134": {
+    "name": "T-54 / T-55",
+    "checkedAt": "2026-10-12",
+    "variant": "T-55A soviétique, fiche du musée de l’histoire militaire nationale de Padikovo",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "4 personnes",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/t-55/"
+      },
+      {
+        "label": "Masse de combat",
+        "value": "38 t",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/t-55/"
+      },
+      {
+        "label": "Canon principal",
+        "value": "D-10T2S de 100 mm",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/t-55/"
+      },
+      {
+        "label": "Dotation du canon",
+        "value": "43 coups",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/t-55/"
+      },
+      {
+        "label": "Moteur",
+        "value": "Diesel V-55 de 580 ch",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/t-55/"
+      },
+      {
+        "label": "Vitesse maximale",
+        "value": "50 km/h",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/t-55/"
+      },
+      {
+        "label": "Autonomie sur route",
+        "value": "500 km",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/t-55/"
+      },
+      {
+        "label": "Blindage frontal de caisse",
+        "value": "100 mm",
+        "source": "https://www.kskdivniy.ru/museum/eksponaty/t-55/"
+      }
+    ],
+    "note": "Toutes les valeurs concernent le T-55A décrit par le musée. Elles ne sont pas celles d’un T-54 ancien ou d’un T-55 modernisé. L’épaisseur du blindage est physique et ne mesure pas une équivalence moderne.",
+    "sources": [
+      {
+        "label": "Musée de Padikovo — fiche T-55A",
+        "url": "https://www.kskdivniy.ru/museum/eksponaty/t-55/"
+      }
+    ]
+  },
+  "135": {
+    "name": "VAB",
+    "checkedAt": "2026-10-12",
+    "variant": "VAB Ultima, configuration publiée par l’armée de Terre",
+    "fields": [
+      {
+        "label": "Armement",
+        "value": "Tourelleau téléopéré de 12,7 mm",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-dartillerie/vab-ultima"
+      },
+      {
+        "label": "Masse à vide",
+        "value": "13,8 t",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-dartillerie/vab-ultima"
+      },
+      {
+        "label": "Poids total autorisé en charge",
+        "value": "15,8 t",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-dartillerie/vab-ultima"
+      },
+      {
+        "label": "Longueur",
+        "value": "6,53 m",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-dartillerie/vab-ultima"
+      },
+      {
+        "label": "Largeur",
+        "value": "2,53 m",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-dartillerie/vab-ultima"
+      },
+      {
+        "label": "Hauteur",
+        "value": "3,03 m",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-dartillerie/vab-ultima"
+      },
+      {
+        "label": "Vitesse maximale sur route",
+        "value": "90 km/h",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-dartillerie/vab-ultima"
+      },
+      {
+        "label": "Autonomie avec nourrices",
+        "value": "800 km",
+        "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-dartillerie/vab-ultima"
+      }
+    ],
+    "note": "Données de la version Ultima, incluant les équipements décrits par l’armée. Le PTAC est une limite autorisée, distincte de la masse à vide. L’autonomie est donnée avec réserves complémentaires et ne décrit pas tous les VAB.",
+    "sources": [
+      {
+        "label": "Armée de Terre — caractéristiques du VAB Ultima",
+        "url": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-dartillerie/vab-ultima"
+      }
+    ]
+  },
+  "136": {
+    "name": "F-4 Phantom II",
+    "checkedAt": "2026-10-12",
+    "variant": "F-4C Phantom II — appareil et fiche du National Museum of the USAF",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "2 General Electric J79-GE-15",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/2929390/mcdonnell-douglas-f-4c-phantom-ii/"
+      },
+      {
+        "label": "Poussée unitaire",
+        "value": "17 000 lbf, soit environ 75,6 kN",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/2929390/mcdonnell-douglas-f-4c-phantom-ii/",
+        "note": "Valeur publiée par le musée; le régime n’est pas détaillé dans la fiche."
+      },
+      {
+        "label": "Envergure",
+        "value": "38 ft 5 in, soit environ 11,71 m",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/2929390/mcdonnell-douglas-f-4c-phantom-ii/"
+      },
+      {
+        "label": "Longueur",
+        "value": "58 ft 2 in, soit environ 17,73 m",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/2929390/mcdonnell-douglas-f-4c-phantom-ii/"
+      },
+      {
+        "label": "Hauteur",
+        "value": "16 ft 6 in, soit environ 5,03 m",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/2929390/mcdonnell-douglas-f-4c-phantom-ii/"
+      },
+      {
+        "label": "Vitesse maximale",
+        "value": "1 400 mph, soit environ 2 250 km/h",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/2929390/mcdonnell-douglas-f-4c-phantom-ii/"
+      },
+      {
+        "label": "Plafond",
+        "value": "59 600 ft, soit environ 18 170 m",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/2929390/mcdonnell-douglas-f-4c-phantom-ii/"
+      },
+      {
+        "label": "Armement externe maximal publié",
+        "value": "16 000 lb, soit environ 7 260 kg",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/2929390/mcdonnell-douglas-f-4c-phantom-ii/"
+      }
+    ],
+    "note": "Valeurs de la seule version F-4C retenue, avec conversions arrondies. Le chiffre d’emport est une capacité maximale d’armement externe; les performances dépendent de la charge et ne sont pas toutes réalisables simultanément.",
+    "sources": [
+      {
+        "label": "Fiche technique F-4C du musée de l’USAF",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/2929390/mcdonnell-douglas-f-4c-phantom-ii/"
+      }
+    ]
+  },
+  "137": {
+    "name": "Mirage F1",
+    "checkedAt": "2026-10-12",
+    "variant": "Mirage F1CT — fiche de l’exemplaire n°261 des Ailes Anciennes Toulouse",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "1 pilote",
+        "source": "https://aatlse.org/fr/appareils/mirage-f1-ct/"
+      },
+      {
+        "label": "Motorisation",
+        "value": "1 SNECMA Atar 9K-50",
+        "source": "https://aatlse.org/fr/appareils/mirage-f1-ct/"
+      },
+      {
+        "label": "Poussée avec postcombustion",
+        "value": "7,2 tonnes-force, soit environ 70,6 kN",
+        "source": "https://aatlse.org/fr/appareils/mirage-f1-ct/"
+      },
+      {
+        "label": "Envergure",
+        "value": "8,40 m",
+        "source": "https://aatlse.org/fr/appareils/mirage-f1-ct/"
+      },
+      {
+        "label": "Longueur",
+        "value": "15,3 m",
+        "source": "https://aatlse.org/fr/appareils/mirage-f1-ct/"
+      },
+      {
+        "label": "Masse à vide",
+        "value": "8,1 t",
+        "source": "https://aatlse.org/fr/appareils/mirage-f1-ct/"
+      },
+      {
+        "label": "Masse maximale publiée",
+        "value": "15,2 t",
+        "source": "https://aatlse.org/fr/appareils/mirage-f1-ct/"
+      },
+      {
+        "label": "Vitesse maximale",
+        "value": "Mach 2,2",
+        "source": "https://aatlse.org/fr/appareils/mirage-f1-ct/"
+      }
+    ],
+    "note": "Toutes ces valeurs proviennent de la même fiche F1CT. Les variantes C, B, CR et les standards d’exportation peuvent avoir des masses, des équipements et des performances différents.",
+    "sources": [
+      {
+        "label": "Fiche du Mirage F1CT des Ailes Anciennes Toulouse",
+        "url": "https://aatlse.org/fr/appareils/mirage-f1-ct/"
+      }
+    ]
+  },
+  "138": {
+    "name": "MiG-21",
+    "checkedAt": "2026-10-12",
+    "variant": "MiG-21PF « Fishbed-D » — fiche du National Museum of the USAF",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "1 Toumanski R-11F2-300",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d/"
+      },
+      {
+        "label": "Poussée publiée",
+        "value": "Plus de 13 000 lbf, soit plus de 57,8 kN",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d/"
+      },
+      {
+        "label": "Vitesse maximale",
+        "value": "1 300 mph, soit environ 2 090 km/h",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d/"
+      },
+      {
+        "label": "Distance franchissable publiée",
+        "value": "870 miles, soit environ 1 400 km",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d/"
+      },
+      {
+        "label": "Distance avec réservoir auxiliaire",
+        "value": "1 110 miles, soit environ 1 786 km",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d/"
+      },
+      {
+        "label": "Plafond",
+        "value": "62 000 ft, soit environ 18 900 m",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d/"
+      },
+      {
+        "label": "Armement",
+        "value": "2 missiles K-5 ou K-13; aucun canon sur ce PF",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d/"
+      }
+    ],
+    "note": "Conversions métriques arrondies. Les distances ne sont pas des rayons d’action de combat. Le MiG-21PF ne doit pas être confondu avec le MiG-21bis ou le Bison indien, qui disposent d’autres équipements.",
+    "sources": [
+      {
+        "label": "Fiche technique MiG-21PF du musée de l’USAF",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d/"
+      }
+    ]
+  },
+  "139": {
+    "name": "Su-25",
+    "checkedAt": "2026-10-12",
+    "variant": "Su-25K (T-8K) à moteurs R-95Ch — fiche du musée militaire slovaque",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "2 R-95Ch (R-95Š)",
+        "source": "https://www.vhu.cz/exhibit/bitevni-letoun-suchoj-su-25-k-vyr-c-25508109098/"
+      },
+      {
+        "label": "Poussée unitaire",
+        "value": "41 kN",
+        "source": "https://www.vhu.cz/exhibit/bitevni-letoun-suchoj-su-25-k-vyr-c-25508109098/"
+      },
+      {
+        "label": "Longueur avec sonde de pression",
+        "value": "15,530 m",
+        "source": "https://www.vhu.cz/exhibit/bitevni-letoun-suchoj-su-25-k-vyr-c-25508109098/"
+      },
+      {
+        "label": "Envergure",
+        "value": "14,360 m",
+        "source": "https://www.vhu.cz/exhibit/bitevni-letoun-suchoj-su-25-k-vyr-c-25508109098/"
+      },
+      {
+        "label": "Hauteur",
+        "value": "4,800 m",
+        "source": "https://www.vhu.cz/exhibit/bitevni-letoun-suchoj-su-25-k-vyr-c-25508109098/"
+      },
+      {
+        "label": "Masse maximale au décollage",
+        "value": "17 350 kg",
+        "source": "https://www.vhu.cz/exhibit/bitevni-letoun-suchoj-su-25-k-vyr-c-25508109098/"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "850 km/h à 200 m d’altitude",
+        "source": "https://www.vhu.sk/prudove-podzvukove-bitevne-lietadlo-su-25k/"
+      },
+      {
+        "label": "Altitude maximale admissible",
+        "value": "7 000 m",
+        "source": "https://www.vhu.cz/exhibit/bitevni-letoun-suchoj-su-25-k-vyr-c-25508109098/"
+      },
+      {
+        "label": "Distance pratique de référence",
+        "value": "500 km",
+        "source": "https://www.vhu.sk/prudove-podzvukove-bitevne-lietadlo-su-25k/",
+        "note": "3 000 kg de carburant, altitude de 200 m et vitesse de 700 km/h."
+      },
+      {
+        "label": "Distance maximale avec réservoirs",
+        "value": "1 950 km",
+        "source": "https://www.vhu.sk/prudove-podzvukove-bitevne-lietadlo-su-25k/",
+        "note": "Quatre réservoirs externes de 820 litres, altitude de 7 000 m, Mach 0,5 à 0,6."
+      }
+    ],
+    "note": "Valeurs du Su-25K à moteurs R-95Ch, recoupées entre les musées militaires slovaque et tchèque pour les dimensions, moteurs et masse maximale. La vitesse à 200 m et les deux distances avec leurs conditions proviennent de la fiche slovaque. Le premier vol est établi par Rostec, les textes narratifs des deux musées indiquant une date de prototype différente.",
+    "sources": [
+      {
+        "label": "Fiche Su-25K du musée militaire slovaque",
+        "url": "https://www.vhu.sk/prudove-podzvukove-bitevne-lietadlo-su-25k/"
+      },
+      {
+        "label": "VHÚ Prague — recoupement des dimensions, moteurs et masse maximale du Su-25K",
+        "url": "https://www.vhu.cz/exhibit/bitevni-letoun-suchoj-su-25-k-vyr-c-25508109098/"
+      }
+    ]
+  },
+  "140": {
+    "name": "E-3 Sentry",
+    "checkedAt": "2026-10-12",
+    "variant": "E-3 Sentry américain à TF33 — fiche USAF, septembre 2015",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "4 Pratt & Whitney TF33-PW-100A",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104504/e-3-sentry-awacs/e-3-sentry-awacs/"
+      },
+      {
+        "label": "Poussée unitaire",
+        "value": "20 500 lbf au niveau de la mer, soit environ 91,2 kN",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104504/e-3-sentry-awacs/e-3-sentry-awacs/"
+      },
+      {
+        "label": "Longueur",
+        "value": "46,6 m",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104504/e-3-sentry-awacs/e-3-sentry-awacs/"
+      },
+      {
+        "label": "Envergure",
+        "value": "44,4 m",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104504/e-3-sentry-awacs/e-3-sentry-awacs/"
+      },
+      {
+        "label": "Hauteur",
+        "value": "13 m, valeur arrondie publiée",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104504/e-3-sentry-awacs/e-3-sentry-awacs/"
+      },
+      {
+        "label": "Masse maximale au décollage",
+        "value": "147 418 kg",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104504/e-3-sentry-awacs/e-3-sentry-awacs/"
+      },
+      {
+        "label": "Diamètre du radôme",
+        "value": "9,1 m",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104504/e-3-sentry-awacs/e-3-sentry-awacs/"
+      },
+      {
+        "label": "Équipage de conduite",
+        "value": "4 personnes",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104504/e-3-sentry-awacs/e-3-sentry-awacs/",
+        "note": "Configuration historique de la fiche de 2015, avant les adaptations de cockpit décrites dans d’autres modernisations."
+      },
+      {
+        "label": "Équipe de mission",
+        "value": "13 à 19 spécialistes selon la mission",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104504/e-3-sentry-awacs/e-3-sentry-awacs/"
+      },
+      {
+        "label": "Durée de mission sans ravitaillement",
+        "value": "Environ 8 heures",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104504/e-3-sentry-awacs/e-3-sentry-awacs/"
+      }
+    ],
+    "note": "Référence technique historique, pas état de flotte 2026. Les E-3D/F à moteurs CFM56 et les E-3A de l’OTAN ont des équipements différents. La fiche de 2015 décrit un équipage de conduite de quatre personnes; certaines modernisations ultérieures modifient ce nombre.",
+    "sources": [
+      {
+        "label": "Fiche USAF E-3, caractéristiques au septembre 2015",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104504/e-3-sentry-awacs/e-3-sentry-awacs/"
+      }
+    ]
+  },
+  "141": {
+    "name": "A330 MRTT",
+    "checkedAt": "2026-10-12",
+    "variant": "A330 MRTT Enhanced Phénix français à moteurs Trent 772B — plaquette 2021",
+    "fields": [
+      {
+        "label": "Pilotes",
+        "value": "2, complétés par les opérateurs et le personnel de cabine selon la mission",
+        "source": "https://archives.defense.gouv.fr/content/download/613676/10271056/file/Plaquette_Phenix_2021.pdf"
+      },
+      {
+        "label": "Motorisation",
+        "value": "2 Rolls-Royce Trent 772B",
+        "source": "https://archives.defense.gouv.fr/content/download/613676/10271056/file/Plaquette_Phenix_2021.pdf"
+      },
+      {
+        "label": "Poussée unitaire publiée",
+        "value": "316 kN",
+        "source": "https://archives.defense.gouv.fr/content/download/613676/10271056/file/Plaquette_Phenix_2021.pdf"
+      },
+      {
+        "label": "Longueur",
+        "value": "58,8 m",
+        "source": "https://archives.defense.gouv.fr/content/download/613676/10271056/file/Plaquette_Phenix_2021.pdf"
+      },
+      {
+        "label": "Envergure",
+        "value": "60,3 m",
+        "source": "https://archives.defense.gouv.fr/content/download/613676/10271056/file/Plaquette_Phenix_2021.pdf"
+      },
+      {
+        "label": "Hauteur",
+        "value": "17,4 m",
+        "source": "https://archives.defense.gouv.fr/content/download/613676/10271056/file/Plaquette_Phenix_2021.pdf"
+      },
+      {
+        "label": "Masse maximale au décollage",
+        "value": "233 t",
+        "source": "https://archives.defense.gouv.fr/content/download/613676/10271056/file/Plaquette_Phenix_2021.pdf"
+      },
+      {
+        "label": "Emport de carburant",
+        "value": "110 t",
+        "source": "https://archives.defense.gouv.fr/content/download/613676/10271056/file/Plaquette_Phenix_2021.pdf"
+      },
+      {
+        "label": "Vitesse maximale",
+        "value": "Mach 0,86",
+        "source": "https://archives.defense.gouv.fr/content/download/613676/10271056/file/Plaquette_Phenix_2021.pdf"
+      },
+      {
+        "label": "Vitesse de croisière",
+        "value": "Mach 0,82",
+        "source": "https://archives.defense.gouv.fr/content/download/613676/10271056/file/Plaquette_Phenix_2021.pdf"
+      },
+      {
+        "label": "Passagers au maximum",
+        "value": "272",
+        "source": "https://archives.defense.gouv.fr/content/download/613676/10271056/file/Plaquette_Phenix_2021.pdf"
+      },
+      {
+        "label": "Charge utile publiée",
+        "value": "40 t",
+        "source": "https://archives.defense.gouv.fr/content/download/613676/10271056/file/Plaquette_Phenix_2021.pdf"
+      }
+    ],
+    "note": "Valeurs de la fiche française Phénix, une seule variante. Les configurations médicales, de transport et de ravitaillement font varier l’équipage et l’emport utile. Les 110 tonnes désignent la capacité de carburant, pas la quantité toujours transférable à d’autres avions. Le MRTT+ et les KC-30A à moteurs CF6 sont exclus de cette fiche technique.",
+    "sources": [
+      {
+        "label": "Armée de l’Air et de l’Espace — plaquette Phénix 2021, tableau technique",
+        "url": "https://archives.defense.gouv.fr/content/download/613676/10271056/file/Plaquette_Phenix_2021.pdf"
+      },
+      {
+        "label": "Fiche officielle A330 Phénix",
+        "url": "https://www.defense.gouv.fr/air/nos-aeronefs/nos-avions/airbus-a330-phenix"
+      }
+    ]
+  },
+  "142": {
+    "name": "Classe Type 23 (Duke)",
+    "checkedAt": "2026-10-12",
+    "variant": "Type 23 de la Royal Navy — caractéristiques générales de la brochure officielle DESA de 2022",
+    "fields": [
+      {
+        "label": "Longueur",
+        "value": "133 m",
+        "source": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1091383/DESA_sales_brochure.pdf"
+      },
+      {
+        "label": "Largeur",
+        "value": "16,1 m",
+        "source": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1091383/DESA_sales_brochure.pdf"
+      },
+      {
+        "label": "Déplacement publié",
+        "value": "4 900 tonnes",
+        "source": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1091383/DESA_sales_brochure.pdf"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "28 nœuds",
+        "source": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1091383/DESA_sales_brochure.pdf"
+      },
+      {
+        "label": "Autonomie publiée",
+        "value": "7 800 milles nautiques à 15 nœuds",
+        "source": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1091383/DESA_sales_brochure.pdf"
+      },
+      {
+        "label": "Équipage de référence",
+        "value": "185 personnes ; logements pour 205",
+        "source": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1091383/DESA_sales_brochure.pdf"
+      }
+    ],
+    "note": "Valeurs réunies dans une même brochure officielle, page 6. Le déplacement est publié sans précision de condition de charge dans cette liste. L’armement et les capteurs évoluent selon les modernisations et diffèrent entre les unités britanniques et chiliennes.",
+    "sources": [
+      {
+        "label": "Ministère britannique de la Défense — DESA, caractéristiques Type 23, page 6",
+        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1091383/DESA_sales_brochure.pdf"
+      }
+    ]
+  },
+  "143": {
+    "name": "Classe Horizon",
+    "checkedAt": "2026-10-12",
+    "variant": "Caio Duilio D554 — bâtiment italien de classe Orizzonte, état de livraison d’avril 2009",
+    "fields": [
+      {
+        "label": "Longueur",
+        "value": "153 m",
+        "source": "https://www.fincantieri.com/it/newsroom/news-e-comunicati-stampa/2009/consegnato-alla-marina-militare-il-cacciatorpediniere-caio-duilio"
+      },
+      {
+        "label": "Largeur publiée",
+        "value": "20 m",
+        "source": "https://www.fincantieri.com/it/newsroom/news-e-comunicati-stampa/2009/consegnato-alla-marina-militare-il-cacciatorpediniere-caio-duilio"
+      },
+      {
+        "label": "Déplacement à pleine charge",
+        "value": "7 050 tonnes",
+        "source": "https://www.fincantieri.com/it/newsroom/news-e-comunicati-stampa/2009/consegnato-alla-marina-militare-il-cacciatorpediniere-caio-duilio"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "29 nœuds",
+        "source": "https://www.fincantieri.com/it/newsroom/news-e-comunicati-stampa/2009/consegnato-alla-marina-militare-il-cacciatorpediniere-caio-duilio"
+      },
+      {
+        "label": "Équipage publié",
+        "value": "230 personnes",
+        "source": "https://www.fincantieri.com/it/newsroom/news-e-comunicati-stampa/2009/consegnato-alla-marina-militare-il-cacciatorpediniere-caio-duilio"
+      }
+    ],
+    "note": "Une seule référence est employée pour ces cinq valeurs : le communiqué du constructeur à la livraison du Caio Duilio. Les fiches générales plus récentes de la classe publient d’autres arrondis, déplacements et effectifs ; ils ne sont pas mélangés à cet état de référence.",
+    "sources": [
+      {
+        "label": "Fincantieri — Caio Duilio livré en 2009",
+        "url": "https://www.fincantieri.com/it/newsroom/news-e-comunicati-stampa/2009/consegnato-alla-marina-militare-il-cacciatorpediniere-caio-duilio"
+      }
+    ]
+  },
+  "144": {
+    "name": "Classe Scorpène",
+    "checkedAt": "2026-10-12",
+    "variant": "O’Higgins SS-23 — Scorpène chilien, caractéristiques de l’Armada de Chile",
+    "fields": [
+      {
+        "label": "Longueur",
+        "value": "66,4 m",
+        "source": "https://www.armada.cl/unidades-navales/submarinos/clase-scorpene/ss-23-o-higgins"
+      },
+      {
+        "label": "Largeur",
+        "value": "6,2 m",
+        "source": "https://www.armada.cl/unidades-navales/submarinos/clase-scorpene/ss-23-o-higgins"
+      },
+      {
+        "label": "Déplacement en surface",
+        "value": "1 564 tons, unité de la fiche chilienne",
+        "source": "https://www.armada.cl/unidades-navales/submarinos/clase-scorpene/ss-23-o-higgins"
+      },
+      {
+        "label": "Déplacement en plongée",
+        "value": "1 711 tons, unité de la fiche chilienne",
+        "source": "https://www.armada.cl/unidades-navales/submarinos/clase-scorpene/ss-23-o-higgins"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "21 nœuds",
+        "source": "https://www.armada.cl/unidades-navales/submarinos/clase-scorpene/ss-23-o-higgins"
+      },
+      {
+        "label": "Tubes lance-torpilles",
+        "value": "6 tubes de 21 pouces, environ 533 mm",
+        "source": "https://www.armada.cl/unidades-navales/submarinos/clase-scorpene/ss-23-o-higgins"
+      },
+      {
+        "label": "Puissance publiée",
+        "value": "2,3 MW",
+        "source": "https://www.armada.cl/unidades-navales/submarinos/clase-scorpene/ss-23-o-higgins"
+      }
+    ],
+    "note": "Données d’un seul bâtiment chilien, sans ajout des dimensions des Kalvari indiens, des Riachuelo brésiliens ou du Scorpène Evolved. L’Armada écrit « tons » sans préciser dans cette fiche le système d’unités ; aucune conversion de déplacement n’est ajoutée.",
+    "sources": [
+      {
+        "label": "Armada de Chile — SS-23 O’Higgins",
+        "url": "https://www.armada.cl/unidades-navales/submarinos/clase-scorpene/ss-23-o-higgins"
+      }
+    ]
+  },
+  "145": {
+    "name": "Classe Ohio",
+    "checkedAt": "2026-10-12",
+    "variant": "Ohio SSBN équipé de Trident II D5 — fiche US Navy mise à jour le 27 février 2025",
+    "fields": [
+      {
+        "label": "Longueur",
+        "value": "170,69 m",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169580/fleet-ballistic-missile-submarines-ssbn/"
+      },
+      {
+        "label": "Largeur",
+        "value": "12,8 m",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169580/fleet-ballistic-missile-submarines-ssbn/"
+      },
+      {
+        "label": "Déplacement en plongée",
+        "value": "Environ 19 000 tonnes métriques",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169580/fleet-ballistic-missile-submarines-ssbn/"
+      },
+      {
+        "label": "Propulsion",
+        "value": "Un réacteur nucléaire et une ligne d’arbre",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169580/fleet-ballistic-missile-submarines-ssbn/"
+      },
+      {
+        "label": "Vitesse publique",
+        "value": "Plus de 20 nœuds",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169580/fleet-ballistic-missile-submarines-ssbn/"
+      },
+      {
+        "label": "Tubes stratégiques utilisables",
+        "value": "20 tubes pour Trident II D5",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169580/fleet-ballistic-missile-submarines-ssbn/"
+      }
+    ],
+    "note": "Configuration SSBN uniquement ; les quatre conversions SSGN sont exclues. Le déplacement métrique et le seuil de vitesse sont ceux rendus publics par la Navy. Aucune profondeur maximale ou vitesse classifiée n’est estimée.",
+    "sources": [
+      {
+        "label": "US Navy — Fleet Ballistic Missile Submarines",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169580/fleet-ballistic-missile-submarines-ssbn/"
+      }
+    ]
+  },
+  "146": {
+    "name": "AGM-88 HARM",
+    "checkedAt": "2026-10-12",
+    "variant": "HARM classique — standard de référence AGM-88 publié par l’US Air Force en août 2020, antérieur aux caractéristiques AARGM-ER",
+    "fields": [
+      {
+        "label": "Portée publique",
+        "value": "Plus de 48 km",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104574/agm-88-harm/",
+        "note": "Seuil public indicatif de la fiche USAF ; aucune portée universelle garantie n’est déduite."
+      },
+      {
+        "label": "Longueur publiée",
+        "value": "Environ 4,14 m",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104574/agm-88-harm/"
+      },
+      {
+        "label": "Masse au lancement publiée",
+        "value": "Environ 360 kg",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104574/agm-88-harm/"
+      },
+      {
+        "label": "Diamètre",
+        "value": "25,4 cm",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104574/agm-88-harm/"
+      },
+      {
+        "label": "Propulsion",
+        "value": "Moteur-fusée à propergol solide et double poussée",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104574/agm-88-harm/"
+      },
+      {
+        "label": "Vitesse publique",
+        "value": "Supersonique",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104574/agm-88-harm/"
+      }
+    ],
+    "note": "La fiche USAF ne précise pas de lettre de sous-variante pour son tableau : son standard public est conservé tel quel, avec ses arrondis métriques. Il serait trompeur de l’attribuer à tous les AGM-88E/F/G. Aucun profil de vol ou paramètre de ciblage n’est ajouté.",
+    "sources": [
+      {
+        "label": "US Air Force — AGM-88 HARM",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104574/agm-88-harm/"
+      }
+    ]
+  },
+  "147": {
+    "name": "AGM-65 Maverick",
+    "checkedAt": "2026-10-12",
+    "variant": "AGM-65D — autodirecteur à imagerie infrarouge et charge creuse de 125 livres",
+    "fields": [
+      {
+        "label": "Portée publique indicative",
+        "value": "Jusqu’à environ 24 km dans le descriptif USAF de la famille",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104577/agm-65-maverick/",
+        "note": "Le descriptif cite 13 milles nautiques ; son tableau déclare la portée classifiée et ne publie pas de maximum propre au D."
+      },
+      {
+        "label": "Longueur",
+        "value": "98 pouces, environ 2,49 m",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168374/agm-65-maverick-guided-missile/"
+      },
+      {
+        "label": "Masse au lancement",
+        "value": "485 livres, environ 220 kg",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104577/agm-65-maverick/",
+        "note": "Valeur originale en livres retenue pour le D ; conversion métrique arrondie."
+      },
+      {
+        "label": "Diamètre",
+        "value": "12 pouces, 30,48 cm",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104577/agm-65-maverick/"
+      },
+      {
+        "label": "Envergure publiée",
+        "value": "28 pouces, 71,12 cm",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104577/agm-65-maverick/"
+      },
+      {
+        "label": "Autodirecteur",
+        "value": "Imagerie infrarouge",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104577/agm-65-maverick/"
+      },
+      {
+        "label": "Charge",
+        "value": "Charge creuse de 125 livres, environ 57 kg",
+        "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104577/agm-65-maverick/"
+      }
+    ],
+    "note": "La masse, le capteur et la charge concernent le D ; les dimensions communes sont données par les fiches militaires. Les charges pénétrantes de 300 livres des E/F/G/K sont exclues. La portée est seulement un ordre de grandeur du descriptif public et non une performance exacte certifiée pour le D.",
+    "sources": [
+      {
+        "label": "US Air Force — caractéristiques de l’AGM-65D",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104577/agm-65-maverick/"
+      },
+      {
+        "label": "US Navy — dimensions générales du Maverick",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168374/agm-65-maverick-guided-missile/"
+      }
+    ]
+  },
+  "148": {
+    "name": "Aster 30",
+    "checkedAt": "2026-10-12",
+    "variant": "Aster 30 — référence MBDA de la fiche Aster © 2019, hors B1NT",
+    "fields": [
+      {
+        "label": "Portée publique",
+        "value": "Plus de 120 km",
+        "source": "https://www.mbda-systems.com/sites/mbda/files/2024-06/2018%20ASTER%20datasheet.pdf",
+        "note": "Indication générale du fabricant pour Aster 30, sans portée garantie pour toute cible."
+      },
+      {
+        "label": "Masse",
+        "value": "450 kg",
+        "source": "https://www.mbda-systems.com/sites/mbda/files/2024-06/2018%20ASTER%20datasheet.pdf"
+      },
+      {
+        "label": "Longueur",
+        "value": "4,9 m",
+        "source": "https://www.mbda-systems.com/sites/mbda/files/2024-06/2018%20ASTER%20datasheet.pdf"
+      },
+      {
+        "label": "Diamètre de la partie terminale",
+        "value": "180 mm",
+        "source": "https://www.mbda-systems.com/sites/mbda/files/2024-06/2018%20ASTER%20datasheet.pdf",
+        "note": "Le diamètre publié correspond au corps terminal, pas au diamètre maximal de l’accélérateur."
+      },
+      {
+        "label": "Propulsion",
+        "value": "Propergol solide, deux étages",
+        "source": "https://www.mbda-systems.com/sites/mbda/files/2024-06/2018%20ASTER%20datasheet.pdf"
+      },
+      {
+        "label": "Vitesse maximale publique",
+        "value": "Mach 4,5",
+        "source": "https://www.mbda-systems.com/sites/mbda/files/2024-06/2018%20ASTER%20datasheet.pdf"
+      }
+    ],
+    "note": "Les valeurs proviennent d’un seul tableau Aster 30 et ne mélangent pas Aster 15, Block 1 et B1NT. Les données publiques de certains systèmes terrestres sont différentes selon la version et la menace ; la valeur commerciale de portée n’est pas une enveloppe d’interception universelle.",
+    "sources": [
+      {
+        "label": "MBDA — caractéristiques Aster 30, page 2",
+        "url": "https://www.mbda-systems.com/sites/mbda/files/2024-06/2018%20ASTER%20datasheet.pdf"
+      }
+    ]
+  },
+  "149": {
+    "name": "RIM-116 RAM",
+    "checkedAt": "2026-10-12",
+    "variant": "RAM Block 2 / RIM-116C — tableau de référence US Navy de 2021, hors Block 1A et Block 2B",
+    "fields": [
+      {
+        "label": "Longueur",
+        "value": "2,88 m",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/rim-116-rolling-airframe-missile-ram/"
+      },
+      {
+        "label": "Masse",
+        "value": "88,2 kg",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/rim-116-rolling-airframe-missile-ram/"
+      },
+      {
+        "label": "Diamètre",
+        "value": "15,87 cm",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/rim-116-rolling-airframe-missile-ram/"
+      },
+      {
+        "label": "Envergure publiée",
+        "value": "32,17 cm",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/rim-116-rolling-airframe-missile-ram/"
+      },
+      {
+        "label": "Vitesse publique",
+        "value": "Supersonique",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/rim-116-rolling-airframe-missile-ram/"
+      },
+      {
+        "label": "Propulsion",
+        "value": "Moteur-fusée à propergol solide, agrandi par rapport au Block 1A",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/rim-116-rolling-airframe-missile-ram/"
+      },
+      {
+        "label": "Portée publique",
+        "value": "Valeur absolue non publiée dans les fiches primaires retenues",
+        "source": "https://www.rtx.com/raytheon/what-we-do/sea/ram-missile",
+        "note": "Les portées citées pour Block 1 ou Block 2B ne sont pas transférées au Block 2 de ce tableau."
+      }
+    ],
+    "note": "Dimensions et masse cohérentes du Block 2. La valeur de 7,9 livres indiquée par la Navy concerne la masse d’explosif et non la masse totale de la charge : elle n’est donc pas présentée comme cette dernière. La portée absolue n’est pas remplacée par une estimation sans source primaire pour cette version.",
+    "sources": [
+      {
+        "label": "US Navy — caractéristiques RAM Block 2",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/rim-116-rolling-airframe-missile-ram/"
+      },
+      {
+        "label": "Raytheon — RAM Missile",
+        "url": "https://www.rtx.com/raytheon/what-we-do/sea/ram-missile"
+      }
+    ]
   }
 };

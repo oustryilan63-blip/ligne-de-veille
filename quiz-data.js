@@ -863,3 +863,211 @@ window.LDV_CHRONO.push(...[
     "context": "Premier vol de Tigre EC665."
   }
 ]);
+
+// Série 7 : questions et premiers vols documentés.
+window.LDV_FACTS.push(...[
+  {
+    "ref": "AMX-30",
+    "claim": "L’AMX-30B possède un canon principal de 120 mm.",
+    "answer": false,
+    "reason": "Sa fiche de 1974 indique un canon de 105 mm.",
+    "explanation": "Sa fiche de 1974 indique un canon de 105 mm.",
+    "source": "https://www.senat.fr/rap/1974-1975/i1974_1975_0102_05.pdf"
+  },
+  {
+    "ref": "AMX-13",
+    "claim": "L’AMX-13 de 75 mm emploie un chargeur automatique.",
+    "answer": true,
+    "reason": "Deux magasins de six obus alimentent le canon sans chargeur humain.",
+    "explanation": "Deux magasins de six obus alimentent le canon sans chargeur humain.",
+    "source": "https://tankmuseum.org/tank-nuts/tank-collection/amx-13/"
+  },
+  {
+    "ref": "M60 Patton",
+    "claim": "Le nom Patton était la désignation officielle du M60.",
+    "answer": false,
+    "reason": "Le M60 est apparenté aux Patton, mais n’a jamais été officiellement baptisé ainsi.",
+    "explanation": "Le M60 est apparenté aux Patton, mais n’a jamais été officiellement baptisé ainsi.",
+    "source": "https://tankmuseum.org/article/the-patton-family"
+  },
+  {
+    "ref": "T-34",
+    "claim": "Le T-34/76 ancien du Tank Museum possède cinq membres d’équipage.",
+    "answer": false,
+    "reason": "Il en possède quatre ; la fiche du T-34/85 indique cinq personnes.",
+    "explanation": "Il en possède quatre ; la fiche du T-34/85 indique cinq personnes.",
+    "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76/"
+  },
+  {
+    "ref": "T-54 / T-55",
+    "claim": "Le T-55A décrit par le musée possède un canon de 125 mm.",
+    "answer": false,
+    "reason": "Son armement principal est un D-10T2S de 100 mm.",
+    "explanation": "Son armement principal est un D-10T2S de 100 mm.",
+    "source": "https://www.kskdivniy.ru/museum/eksponaty/t-55/"
+  },
+  {
+    "ref": "VAB",
+    "claim": "Le VAB Ultima permet de téléopérer sa mitrailleuse de 12,7 mm.",
+    "answer": true,
+    "reason": "La fiche de l’armée de Terre décrit un tourelleau TOP de 12,7 mm.",
+    "explanation": "La fiche de l’armée de Terre décrit un tourelleau TOP de 12,7 mm.",
+    "source": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/nos-vehicules/vehicules-dartillerie/vab-ultima"
+  },
+  {
+    "claim": "Le F-4C Phantom II est propulsé par un seul réacteur.",
+    "answer": false,
+    "reason": "La fiche du musée décrit deux General Electric J79-GE-15.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/2929390/mcdonnell-douglas-f-4c-phantom-ii/",
+    "ref": "F-4 Phantom II",
+    "explanation": "La fiche du musée décrit deux General Electric J79-GE-15."
+  },
+  {
+    "claim": "Le Mirage F1 utilise une aile delta sans empennage horizontal, comme le Mirage III.",
+    "answer": false,
+    "reason": "Le constructeur décrit une aile en flèche; le Mirage F1 possède un empennage horizontal distinct.",
+    "source": "https://www.dassault-aviation.com/fr/passion/avions/dassault-militaires/mirage-f1/",
+    "ref": "Mirage F1",
+    "explanation": "Le constructeur décrit une aile en flèche; le Mirage F1 possède un empennage horizontal distinct."
+  },
+  {
+    "claim": "Le MiG-21PF présenté dans cette fiche technique possède un canon intégré.",
+    "answer": false,
+    "reason": "Le musée de l’USAF précise que ce PF emporte des missiles mais aucun canon.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d/",
+    "ref": "MiG-21",
+    "explanation": "Le musée de l’USAF précise que ce PF emporte des missiles mais aucun canon."
+  },
+  {
+    "claim": "Le Su-25K de référence est un avion supersonique.",
+    "answer": false,
+    "reason": "Le musée militaire slovaque le présente comme un avion d’attaque subsonique; sa vitesse publiée est de 850 km/h à 200 m.",
+    "source": "https://www.vhu.sk/prudove-podzvukove-bitevne-lietadlo-su-25k/",
+    "ref": "Su-25",
+    "explanation": "Le musée militaire slovaque le présente comme un avion d’attaque subsonique; sa vitesse publiée est de 850 km/h à 200 m."
+  },
+  {
+    "claim": "L’E-3 Sentry est conçu sur une cellule de Boeing 707 modifiée.",
+    "answer": true,
+    "reason": "La fiche USAF décrit une cellule commerciale 707-320 transformée pour l’alerte et le commandement aérien.",
+    "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104504/e-3-sentry-awacs/e-3-sentry-awacs/",
+    "ref": "E-3 Sentry",
+    "explanation": "La fiche USAF décrit une cellule commerciale 707-320 transformée pour l’alerte et le commandement aérien."
+  },
+  {
+    "claim": "L’A330 MRTT Phénix sert uniquement au ravitaillement en vol.",
+    "answer": false,
+    "reason": "La fiche française décrit aussi le transport de passagers et plusieurs configurations d’évacuation médicale.",
+    "source": "https://www.defense.gouv.fr/air/nos-aeronefs/nos-avions/airbus-a330-phenix",
+    "ref": "A330 MRTT",
+    "explanation": "La fiche française décrit aussi le transport de passagers et plusieurs configurations d’évacuation médicale."
+  },
+  {
+    "ref": "Classe Type 23 (Duke)",
+    "claim": "Trois frégates Type 23 britanniques ont été acquises par le Chili.",
+    "answer": true,
+    "explanation": "L’Armada de Chile identifie Cochrane, Lynch et Condell comme les trois unités acquises auprès du Royaume-Uni.",
+    "source": "https://www.armada.cl/noticias-navales/designados-nombres-de-fragatas-britanicas-tipo-23",
+    "reason": "L’Armada de Chile identifie Cochrane, Lynch et Condell comme les trois unités acquises auprès du Royaume-Uni."
+  },
+  {
+    "ref": "Classe Horizon",
+    "claim": "La classe Horizon est utilisée uniquement par la France.",
+    "answer": false,
+    "explanation": "La classe comprend aussi les deux Orizzonte italiens Andrea Doria et Caio Duilio.",
+    "source": "https://www.naval-group.com/en/naviris-moves-forward-mid-life-upgrade-horizon-frigates",
+    "reason": "La classe comprend aussi les deux Orizzonte italiens Andrea Doria et Caio Duilio."
+  },
+  {
+    "ref": "Classe Scorpène",
+    "claim": "Les premiers Scorpène chiliens proviennent d’une coopération entre la France et l’Espagne.",
+    "answer": true,
+    "explanation": "L’Armada de Chile décrit explicitement le consortium franco-espagnol DCN–Bazán et la construction partagée.",
+    "source": "https://www.armada.cl/unidades-navales/submarinos/clase-scorpene/ss-23-o-higgins",
+    "reason": "L’Armada de Chile décrit explicitement le consortium franco-espagnol DCN–Bazán et la construction partagée."
+  },
+  {
+    "ref": "Classe Ohio",
+    "claim": "Quatre sous-marins Ohio ont été convertis en lanceurs de missiles de croisière.",
+    "answer": true,
+    "explanation": "La Navy identifie Ohio, Michigan, Florida et Georgia comme les quatre premières unités transformées en SSGN.",
+    "source": "https://www.history.navy.mil/content/history/nhhc/browse-by-topic/wars-conflicts-and-operations/cold-war/strategic-deterrence/Ohio-class.html",
+    "reason": "La Navy identifie Ohio, Michigan, Florida et Georgia comme les quatre premières unités transformées en SSGN."
+  },
+  {
+    "ref": "AGM-88 HARM",
+    "claim": "La modernisation HCSM réutilise le moteur et la charge de missiles AGM-88C existants.",
+    "answer": true,
+    "explanation": "Le GAO décrit le remplacement de la section de contrôle tout en conservant notamment le moteur-fusée, les ailettes, la charge et la section de guidage de missiles en stock.",
+    "source": "https://www.gao.gov/assets/b-410036.pdf",
+    "reason": "Le GAO décrit le remplacement de la section de contrôle tout en conservant notamment le moteur-fusée, les ailettes, la charge et la section de guidage de missiles en stock."
+  },
+  {
+    "ref": "AGM-65 Maverick",
+    "claim": "Toutes les versions du Maverick utilisent le même type d’autodirecteur.",
+    "answer": false,
+    "explanation": "La famille comprend des autodirecteurs électro-optiques, à imagerie infrarouge ou laser selon la version.",
+    "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104577/agm-65-maverick/",
+    "reason": "La famille comprend des autodirecteurs électro-optiques, à imagerie infrarouge ou laser selon la version."
+  },
+  {
+    "ref": "Aster 30",
+    "claim": "Aster 15 et Aster 30 partagent la même partie terminale du missile.",
+    "answer": true,
+    "explanation": "MBDA décrit une partie terminale commune aux deux variantes, dont les caractéristiques globales et les accélérateurs diffèrent.",
+    "source": "https://www.mbda-systems.com/sites/mbda/files/2024-06/2018%20ASTER%20datasheet.pdf",
+    "reason": "MBDA décrit une partie terminale commune aux deux variantes, dont les caractéristiques globales et les accélérateurs diffèrent."
+  },
+  {
+    "ref": "RIM-116 RAM",
+    "claim": "Le RAM est issu d’un programme commun aux États-Unis et à l’Allemagne.",
+    "answer": true,
+    "explanation": "La Navy et Diehl décrivent explicitement la coopération gouvernementale et industrielle transatlantique à l’origine du système.",
+    "source": "https://new.diehl.com/defence/de/produkte/lenkflugkoerper/ram2",
+    "reason": "La Navy et Diehl décrivent explicitement la coopération gouvernementale et industrielle transatlantique à l’origine du système."
+  }
+]);
+window.LDV_CHRONO.push(...[
+  {
+    "year": 1958,
+    "date": "27 mai 1958",
+    "source": "https://www.history.navy.mil/today-in-history/may-27.html",
+    "context": "Premier vol du prototype XF4H-1 de la famille Phantom II, antérieur au F-4C de 1963.",
+    "name": "F-4 Phantom II"
+  },
+  {
+    "year": 1966,
+    "date": "23 décembre 1966",
+    "source": "https://www.dassault-aviation.com/fr/passion/avions/dassault-militaires/mirage-f1/",
+    "context": "Premier vol du prototype Mirage F1 01 à Melun-Villaroche, piloté par René Bigand.",
+    "name": "Mirage F1"
+  },
+  {
+    "year": 1955,
+    "date": "14 février 1955",
+    "source": "https://www.rostec.ru/media/news/mig-21-proshchay-legenda-chast-i/",
+    "context": "Premier vol de l’E-2, prototype initial à aile en flèche du programme MiG-21; l’E-4 à aile delta vole le 16 juin 1955.",
+    "name": "MiG-21"
+  },
+  {
+    "year": 1975,
+    "date": "22 février 1975",
+    "source": "https://www.rostec.ru/media/news/grachi-prileteli-polveka-pervomu-poletu-su-25/",
+    "context": "Premier vol du prototype T-8 par Vladimir Iliouchine, source industrielle commémorative du 22 février 2025.",
+    "name": "Su-25"
+  },
+  {
+    "year": 1972,
+    "date": "9 février 1972",
+    "source": "https://www.acc.af.mil/News/Article-Display/Article/2957379/whales-tales/",
+    "context": "Premier vol du démonstrateur EC-137D, précurseur du Sentry; il ne s’agit pas de l’entrée en service des E-3 de série en 1977.",
+    "name": "E-3 Sentry"
+  },
+  {
+    "year": 2007,
+    "date": "Juin 2007",
+    "source": "https://www.airbus.com/sites/g/files/jlcbta136/files/2021-07/annual-review-2007.pdf",
+    "context": "Premier vol de l’A330 MRTT selon le rapport annuel EADS 2007; précision mensuelle retenue car cette source ne donne pas le jour.",
+    "name": "A330 MRTT"
+  }
+]);

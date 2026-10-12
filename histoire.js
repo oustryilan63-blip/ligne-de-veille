@@ -124,7 +124,7 @@
     const events=window.LDV_TIMELINES?.[index]||[];
     if(events.length){const timeline=el('section','history-timeline');timeline.append(el('h3','','Les grandes étapes'),el('p','','Jalons documentés : les dates conservent la précision de leurs sources.'));const list=el('ol');for(const event of events){const li=el('li');li.append(el('time','',event.date),el('h4','',event.label),el('p','',event.detail),link('Vérifier ce jalon ↗',event.source));list.append(li)}timeline.append(list);detail.append(timeline)}
     const origin=item.code,origins=item.originCodes||[origin],former=fact.former||[];
-    const current=fact.originOnly?[]:[...new Set([...(former.includes(origin)?[]:[origin]),...(fact.current||[])])];
+    const current=fact.originOnly?[]:[...new Set([...(fact.documentedOperatorsOnly||former.includes(origin)?[]:[origin]),...(fact.current||[])])];
     const mapSection=section('Où a-t-il été utilisé ?',"La carte situe le pays de conception et les pays utilisateurs documentés. Elle ne montre pas les pays ayant seulement passé commande ni les lieux de déploiement temporaire.");
     mapSection.id='utilisateurs';
     const mapWrap=el('div','history-map-wrap');const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','-60 -25 1320 550');svg.setAttribute('role','img');svg.setAttribute('aria-label','Carte des pays associés à '+item.name);svg.classList.add('history-map');

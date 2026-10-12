@@ -3609,5 +3609,325 @@ window.RADAR_HISTORY_PHOTOS = {
       "width": 960,
       "height": 720
     }
+  ],
+  "AMX-30": [
+    {
+      "src": "assets/histoire/photos/130-1.webp",
+      "file": "French AMX-30 Desert Storm.jpg",
+      "author": "STAFF SGT. DEAN WAGNER",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:French_AMX-30_Desert_Storm.jpg",
+      "alt": "Photographie de AMX-30",
+      "caption": "AMX-30 — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "A crew member waves to the camera from the back of his AMX-30B2 main battle tank of the French Division Daguet bivouacked near Al-Salman during Operation Desert Storm.",
+      "real": true,
+      "width": 960,
+      "height": 646
+    }
+  ],
+  "AMX-13": [
+    {
+      "src": "assets/histoire/photos/131-1.webp",
+      "file": "AMX-13 (SM-1).jpg",
+      "author": "Dave1185 ( talk )",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:AMX-13_(SM-1).jpg",
+      "alt": "Photographie de AMX-13",
+      "caption": "AMX-13 — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "AMX-13 (SM-1), Mobile Column photo taken on National Day Parade, 2005",
+      "real": true,
+      "width": 600,
+      "height": 397
+    }
+  ],
+  "M60 Patton": [
+    {
+      "src": "assets/histoire/photos/132-1.webp",
+      "file": "Left side view of M60A3 tank during Reforger 82.jpg",
+      "author": "Bob Simons",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Left_side_view_of_M60A3_tank_during_Reforger_82.jpg",
+      "alt": "Photographie de M60 Patton",
+      "caption": "M60 Patton — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "A left side view of an M60A3 main battle tank in use during Reforger '82.",
+      "real": true,
+      "width": 960,
+      "height": 619
+    }
+  ],
+  "T-34": [
+    {
+      "src": "assets/histoire/photos/133-1.webp",
+      "file": "Tank T-34.JPG",
+      "author": "Cezary Piwowarski",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tank_T-34.JPG",
+      "alt": "Photographie de T-34",
+      "caption": "T-34 — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "T-34 tank from the collection of Stanisław Kęszycki during the reconstruction of the Battle of Berlin in the Modlin Fortress",
+      "real": true,
+      "width": 960,
+      "height": 531
+    }
+  ],
+  "T-54 / T-55": [
+    {
+      "src": "assets/histoire/photos/134-1.webp",
+      "file": "T-55A Martial law Poland.jpg",
+      "author": "Jacek Żołnierkiewicz",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:T-55A_Martial_law_Poland.jpg",
+      "alt": "Photographie de T-54 / T-55",
+      "caption": "T-54 / T-55 — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "T-55A on the streets of Zbąszyń during Martial law in Poland.",
+      "real": true,
+      "width": 800,
+      "height": 598
+    }
+  ],
+  "VAB": [
+    {
+      "src": "assets/histoire/photos/135-1.webp",
+      "file": "French VAB in Afghanistan.JPG",
+      "author": "Richard W. Jones Jr., U.S. Army",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:French_VAB_in_Afghanistan.JPG",
+      "alt": "Photographie de VAB",
+      "caption": "VAB — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "A French soldier, assigned to the Operation Mentor Liaison Team, conducts communication checks on a Véhicule de l'Avant Blindé, with rest of his team, prior to departing an Afghanistan National Police station, in Logar province, Afghanistan, Aug. 19, 2009.",
+      "real": true,
+      "width": 960,
+      "height": 640
+    }
+  ],
+  "F-4 Phantom II": [
+    {
+      "src": "assets/histoire/photos/136-1.webp",
+      "file": "QF-4 Holloman AFB.jpg",
+      "author": "USAF",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:QF-4_Holloman_AFB.jpg",
+      "alt": "Photographie de F-4 Phantom II",
+      "caption": "F-4 Phantom II — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "Holloman AFB F-4 Phantom II",
+      "real": true,
+      "width": 960,
+      "height": 646
+    }
+  ],
+  "Mirage F1": [
+    {
+      "src": "assets/histoire/photos/137-1.webp",
+      "file": "Mirage F1 France.jpg",
+      "author": "USAF",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Mirage_F1_France.jpg",
+      "alt": "Photographie de Mirage F1",
+      "caption": "Mirage F1 — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "An Armée de l'Air (French Air Force) Dassault Mirage F1C from Escadron de chasse 1/5 Vendée (serial 5-NH) based at Base aérienne 115 Orange-Caritat, Vaucluse, Provence (France). EC 1/5 flew the Mirage F1C from 1975 to 1988.",
+      "real": true,
+      "width": 960,
+      "height": 645
+    }
+  ],
+  "MiG-21": [
+    {
+      "src": "assets/histoire/photos/138-1.webp",
+      "file": "Croatian MiG-21 (cropped).jpg",
+      "author": "Gojanovic123456789",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Croatian_MiG-21_(cropped).jpg",
+      "alt": "Photographie de MiG-21",
+      "caption": "MiG-21 — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "MiG-21",
+      "real": true,
+      "width": 960,
+      "height": 650
+    }
+  ],
+  "Su-25": [
+    {
+      "src": "assets/histoire/photos/139-1.webp",
+      "file": "Sukhoi Su-25K, 8077 van de Tsjechische luchtmacht 2193-006-082 0011.jpg",
+      "author": "Blouw, Henk",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sukhoi_Su-25K,_8077_van_de_Tsjechische_luchtmacht_2193-006-082_0011.jpg",
+      "alt": "Photographie de Su-25",
+      "caption": "Su-25 — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "Sukhoi Su-25K, 8077 van de Tsjechische luchtmacht, op de static show van de Open Dag van Vliegbasis Leeuwarden op 2 juli 1994.",
+      "real": true,
+      "width": 942,
+      "height": 960
+    }
+  ],
+  "E-3 Sentry": [
+    {
+      "src": "assets/histoire/photos/140-1.webp",
+      "file": "Boeing E-3F Sentry (8).jpg",
+      "author": "Cjp24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Boeing_E-3F_Sentry_(8).jpg",
+      "alt": "Photographie de E-3 Sentry",
+      "caption": "E-3 Sentry — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "Un des quatre AWACS de l'Armée de l'air française. Cet avion effectue de brefs circuits, dont des posé-décollés ; aéroport de Châteauroux-Centre, France.",
+      "real": true,
+      "width": 960,
+      "height": 720
+    }
+  ],
+  "A330 MRTT": [
+    {
+      "src": "assets/histoire/photos/141-1.webp",
+      "file": "KC-30 A39-002 refuelling an USAF F-16 (cropped).jpg",
+      "author": "U.S. Air Force photo by Christian Turner",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:KC-30_A39-002_refuelling_an_USAF_F-16_(cropped).jpg",
+      "alt": "Photographie de A330 MRTT",
+      "caption": "A330 MRTT — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "Royal Australian Air Force KC-30 A39-002 refuelling an USAF F-16 during a trial in 2015",
+      "real": true,
+      "width": 960,
+      "height": 651
+    }
+  ],
+  "Classe Type 23 (Duke)": [
+    {
+      "src": "assets/histoire/photos/142-1.webp",
+      "file": "HMS Richmond MOD 45155880.jpg",
+      "author": "L(Phot) Gaz Weatherston",
+      "license": "OGL v1.0",
+      "licenseUrl": "https://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Richmond_MOD_45155880.jpg",
+      "alt": "Photographie de Classe Type 23",
+      "caption": "Classe Type 23 — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "Royal Navy type 23 frigate HMS Richmond is pictured during an exercise. HMS Richmond is among the most tried and tested in the Fleet, having pounded Saddam Hussein’s defences on the Al Faw peninsula in the opening hours of the 2003 Iraq campaign, to providing vital aid in the Caribbean after Hurricane Ivan – the tenth strongest storm in history – steamrollered through a succession of islands in 2004. HMS Richmond has had a busy year so far. Setting sail in early February following a brief maintenance period in Portsmouth, the Ship’s Company put trainee submariners through their paces off the west coast of Norway whilst taking part in the gruelling multi-national Submarine Command Course. Organization: Royal Navy Object Name: MG130035021 Category: MOD Supplemental Categories: Equipment, Ships, Frigates, Type 23 Keywords: Royal Navy, Equipment, Ship, Frigate, FFG, Type 23, Duke Class, HMS Richmond Country: At sea",
+      "real": true,
+      "width": 743,
+      "height": 960
+    }
+  ],
+  "Classe Horizon": [
+    {
+      "src": "assets/histoire/photos/143-1.webp",
+      "file": "Nave Caio Duilio.jpg",
+      "author": "ItalianLarry",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Nave_Caio_Duilio.jpg",
+      "alt": "Photographie de Classe Horizon",
+      "caption": "Classe Horizon — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "ITS Caio Duilio",
+      "real": true,
+      "width": 960,
+      "height": 720
+    }
+  ],
+  "Classe Scorpène": [
+    {
+      "src": "assets/histoire/photos/144-1.webp",
+      "file": "Submarino Riachuelo (S40) (52816921064) (cropped).jpg",
+      "author": "Marinha do Brasil",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Submarino_Riachuelo_(S40)_(52816921064)_(cropped).jpg",
+      "alt": "Photographie de Classe Scorpène",
+      "caption": "Classe Scorpène — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "Crédito: Coordenadoria-Geral do Programa de Desenvolvimento do Submarino com Propulsão Nuclear (COGESN)",
+      "real": true,
+      "width": 960,
+      "height": 936
+    }
+  ],
+  "Classe Ohio": [
+    {
+      "src": "assets/histoire/photos/145-1.webp",
+      "file": "USS Michigan (SSBN-727).jpg",
+      "author": "U.S. Navy photo by Brian Nokell. (RELEASED)",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Michigan_(SSBN-727).jpg",
+      "alt": "Photographie de Classe Ohio",
+      "caption": "Classe Ohio — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "021114-N-6497N-150 Naval Submarine Base, Bangor, Wash. (Nov. 14, 2002) -- Sailors complete the 200th drydocking maneuver of a Trident submarine at the Intermediate Maintenance Facility (IMF) Delta Pier. The strategic missile submarine USS Michigan (SSBN 727) is one of the Trident submarines that IMF has performed maintenance and a substantial level of overhaul work for which they recently celebrated their 20th anniversary.",
+      "real": true,
+      "width": 960,
+      "height": 626
+    }
+  ],
+  "AGM-88 HARM": [
+    {
+      "src": "assets/histoire/photos/146-1.webp",
+      "file": "AIM-9 AIM-120 and AGM-88 on F-16C.jpg",
+      "author": "TSGT KEVIN J. GRUENWALD, USAF",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-9_AIM-120_and_AGM-88_on_F-16C.jpg",
+      "alt": "Photographie de AGM-88 HARM",
+      "caption": "AGM-88 HARM — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "US Air Force (USAF) F-16C Fighting Falcon aircraft assigned to the 23rd Fighter Squadron (FS), armed with AIM-120 Advanced Medium Range Air-to-Air Missiles (AMRAAM), AIM-9 Sidewinder missiles and AGM-88 High Speed Antiradiation Missile (HARM) taxies onto the flight line at Incirlik Air Base (AB), Turkey, for a mission in support of Operation NORTHERN WATCH.",
+      "real": true,
+      "width": 960,
+      "height": 630
+    }
+  ],
+  "AGM-65 Maverick": [
+    {
+      "src": "assets/histoire/photos/147-1.webp",
+      "file": "US Navy 041128-N-5345W-016 Aviation Ordnanceman 3rd Class William Miller arms an AGM-65 Maverick laser-guided missile.jpg",
+      "author": "U.S. Navy photo by Photographer’s Mate Airman Kristopher Wilson",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_041128-N-5345W-016_Aviation_Ordnanceman_3rd_Class_William_Miller_arms_an_AGM-65_Maverick_laser-guided_missile.jpg",
+      "alt": "Photographie de AGM-65 Maverick",
+      "caption": "AGM-65 Maverick — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "Persian Gulf (Nov. 28, 2004) - Aviation Ordnanceman 3rd Class William Miller, assigned to the “Gunslingers” of Strike Fighter Squadron One Zero Five (VFA-105), arms a AGM-65 Maverick laser-guided missile loaded on an F/A-18 Hornet prior to launch from the flight deck of the Nimitz-class aircraft carrier USS Harry S. Truman (CVN 75). The AGM-65 Maverick is an air-to-surface tactical missile designed for close air support, interdiction and defense suppression. It is effective against a wide range of tactical targets, including armor, air defenses, ships, ground transportation and fuel storage facilities. Truman's Carrier Strike Group Ten (CSG-10) and her embarked Carrier Air Wing Three (CVW-3) are currently on a scheduled deployment in support of the Global War on Terrorism. U.S. Navy photo by Photographer’s Mate Airman Kristopher Wilson (RELEASED)",
+      "real": true,
+      "width": 960,
+      "height": 686
+    }
+  ],
+  "Aster 30": [
+    {
+      "src": "assets/histoire/photos/148-1.webp",
+      "file": "The MBDA Aster 30 of the Republic of Singapore Air Force.jpg",
+      "author": "Z3144228",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:The_MBDA_Aster_30_of_the_Republic_of_Singapore_Air_Force.jpg",
+      "alt": "Photographie de Aster 30",
+      "caption": "Aster 30 — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "The MBDA Aster 30 of the Republic of Singapore Air Force displayed in Singapore Air Show 2020.",
+      "real": true,
+      "width": 960,
+      "height": 640
+    }
+  ],
+  "RIM-116 RAM": [
+    {
+      "src": "assets/histoire/photos/149-1.webp",
+      "file": "USS New Orleans (LPD-18) launches RIM-116 missile 2013.jpg",
+      "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Gary Granger Jr.",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_New_Orleans_(LPD-18)_launches_RIM-116_missile_2013.jpg",
+      "alt": "Photographie de RIM-116 RAM",
+      "caption": "RIM-116 RAM — Photographie documentaire ; les versions peuvent varier entre les vues.",
+      "sourceCaption": "The U.S. Navy amphibious transport dock ship USS New Orleans (LPD-18) fires a RIM-116 surface to air intercept missile from its Rolling Airframe Missile (RAM) launcher while off the coast of California (USA) during a live-fire exercise. New Orleans was underway conducting a certification in preparation to deploy to the U.S. 5th Fleet and U.S. 7th Fleet area of responsibility.",
+      "real": true,
+      "width": 960,
+      "height": 640
+    }
   ]
 };

@@ -1027,5 +1027,157 @@ window.LDV_CHIFFRES = {
       "note": "Cible d’acquisition française publiée dans le projet de budget 2023, contre 200 initialement. Ce n’est ni un total mondial produit ni un stock actuel après tirs et commandes complémentaires.",
       "source": "https://www.budget.gouv.fr/documentation/file-download/18462"
     }
+  },
+  "130": {
+    "inventory": {
+      "label": "AMX-30B2 engagés par le 4e Dragons",
+      "value": "44",
+      "note": "Contingent de l’opération Daguet en 1991 selon le ministère des Armées ; ni parc français total ni production mondiale.",
+      "source": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/objet-histoire/char-amx-30"
+    }
+  },
+  "131": {
+    "production": {
+      "value": "3 000 (fiche du musée)",
+      "note": "Chiffre donné par le Tank Museum pour l’AMX-13 ; variantes et périmètre industriel non détaillés. Ne pas l’interpréter comme le total de tous les véhicules dérivés du châssis.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/amx-13/"
+    }
+  },
+  "132": {
+    "production": {
+      "value": "≈ 15 000",
+      "note": "Ordre de grandeur de la famille M60 cité dans le guide officiel du parc de Fort McCoy de 2019. Il ne représente pas les seuls M60A3 ni un inventaire contemporain ; les rénovations ne sont pas ajoutées à ce total.",
+      "source": "https://home.army.mil/mccoy/8016/6367/8525/2019_EP_GUIDE.pdf"
+    }
+  },
+  "133": {
+    "production": {
+      "value": "35 467 T-34/76",
+      "note": "Nombre donné par le Tank Museum pour la version à canon de 76 mm. Il exclut les T-34/85 et ne représente pas le total de toute la famille.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76/"
+    }
+  },
+  "134": {
+    "production": {
+      "label": "T-55 fabriqués à Omsk",
+      "value": "Près de 13 000",
+      "note": "Rostec indique près de 13 000 T-55 de plusieurs modifications sortis de l’usine d’Omsk en vingt ans à partir de 1958. Périmètre d’une usine ; ce n’est pas le total mondial T-54/T-55.",
+      "source": "https://rostec.ru/media/news/konstruktorskomu-byuro-omsktransmasha-65-let/?sphrase_id=5284332"
+    }
+  },
+  "135": {
+    "production": {
+      "label": "VAB livrés au bilan 1996",
+      "value": "5 000",
+      "note": "Cumul de livraisons à quatorze pays donné par Arquus pour 1996. Il s’agit d’engins livrés, pas d’une commande ; ce n’est ni la production finale de la famille ni le parc restant en 2026.",
+      "source": "https://www.arquus-defense.com/fr/larmee-francaise-choisit-le-vehicule-de-lavant-blinde-vab"
+    }
+  },
+  "136": {
+    "production": {
+      "value": "5 195",
+      "note": "Production totale de la famille Phantom II, toutes versions et fabrication sous licence comprises, selon le RAF Museum. Ce total ne correspond pas au seul F-4C.",
+      "source": "https://www.rafmuseum.org.uk/research/collections/mcdonnell-douglas-phantom-fg1-nose-only/"
+    },
+    "targets": {
+      "value": "2 MiG-17",
+      "note": "Épisode du 20 mai 1967 : deux avions abattus par Robin Olds et Stephen Croker à bord du F-4C conservé au musée de l’USAF. Ce chiffre décrit cet épisode uniquement.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/2929390/mcdonnell-douglas-f-4c-phantom-ii/",
+      "label": "Victoires lors d’un épisode documenté"
+    }
+  },
+  "137": {
+    "production": {
+      "value": "725",
+      "note": "Total de Mirage F1 construits publié dans la frise historique officielle Dassault, dont 473 exportés vers dix pays. Le total inclut plusieurs variantes.",
+      "source": "https://timeline.dassault-aviation.com/fr/"
+    }
+  },
+  "138": {
+    "production": {
+      "value": "Plus de 10 000",
+      "note": "Appareils construits en URSS jusqu’à la fin de production soviétique en 1985, selon le musée de l’USAF. Ce périmètre exclut les autres fabrications sous licence et les J-7/F-7 chinois.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d/"
+    },
+    "inventory": {
+      "value": "Environ 850",
+      "label": "Appareils ayant servi en Inde",
+      "note": "Nombre historique cumulé de MiG-21 ayant servi dans l’Indian Air Force, publié par le ministère de la Défense lors du retrait de septembre 2025; ce n’est pas une flotte active à cette date.",
+      "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2171701&lang=2&reg=48"
+    }
+  },
+  "139": {
+    "production": {
+      "value": "Environ 700",
+      "note": "Bilan historique attribué par le musée militaire slovaque à la production de Tbilissi en 1981–1992. Ce chiffre n’est pas un total mondial de toutes les versions de Su-25 et ne comprend pas les productions d’autres usines.",
+      "source": "https://www.vhu.sk/prudove-podzvukove-bitevne-lietadlo-su-25k/"
+    }
+  },
+  "140": {
+    "production": {
+      "value": "35",
+      "label": "Appareils achetés par l’USAF",
+      "note": "Nombre d’E-3 achetés par les États-Unis entre les exercices budgétaires 1977 et 1984, selon l’histoire officielle de Tinker publiée en 2017. Ce chiffre couvre le programme américain, pas la production mondiale ni une flotte active actuelle.",
+      "source": "https://www.tinker.af.mil/News/Article-Display/Article/1202848/tinker-history-boeing-e-3-sentry/"
+    }
+  },
+  "141": {
+    "production": {
+      "value": "66 livrés fin 2025",
+      "note": "Livraisons cumulées d’A330 MRTT en exploitation dans le monde au 31 décembre 2025, selon le rapport Airbus publié le 18 février 2026. Le même rapport mentionne 85 commandes; les commandes non livrées ne sont pas ajoutées à ce chiffre.",
+      "source": "https://www.airbus.com/sites/g/files/jlcbta136/files/2026-02/airbus_se_report_of_the_board_of_directors_fy_2025_1.pdf"
+    }
+  },
+  "142": {
+    "production": {
+      "value": "16 bâtiments",
+      "note": "Total historique construit pour la Royal Navy. Les trois frégates chiliennes sont des transferts de ces seize unités, pas des constructions supplémentaires.",
+      "source": "https://www.royalnavy.mod.uk/organisation/units-and-squadrons/type-23/hms-richmond"
+    }
+  },
+  "143": {
+    "production": {
+      "value": "4 bâtiments",
+      "note": "Deux pour la France et deux pour l’Italie. Les Type 45 britanniques sont exclus de ce total.",
+      "source": "https://www.naval-group.com/en/naviris-moves-forward-mid-life-upgrade-horizon-frigates"
+    }
+  },
+  "144": {
+    "production": {
+      "label": "Série indienne achevée",
+      "value": "6 bâtiments livrés et admis en service",
+      "note": "Périmètre de la première série Kalvari/P75 en janvier 2025. Ce chiffre n’est pas un total mondial : il exclut les constructions chiliennes, malaisiennes et brésiliennes, ainsi que les commandes futures.",
+      "source": "https://www.naval-group.com/sites/default/files/2025-01/20250115_PR_Commissioning%20of%20INS%20Vaghsheer.pdf"
+    }
+  },
+  "145": {
+    "production": {
+      "value": "18 bâtiments",
+      "note": "Total historique construit comme SSBN ; les quatre SSGN sont des conversions de cette série et ne s’ajoutent pas au total.",
+      "source": "https://www.history.navy.mil/content/history/nhhc/browse-by-topic/wars-conflicts-and-operations/cold-war/strategic-deterrence/Ohio-class.html"
+    }
+  },
+  "146": {},
+  "147": {
+    "production": {
+      "value": "Plus de 69 000 (2009)",
+      "note": "Jalon constructeur du 14 septembre 2009 pour toute la famille Maverick. Ce n’est ni un total arrêté à 2026 ni le stock d’AGM-65D.",
+      "source": "https://raytheon.mediaroom.com/index.php?item=1382&s=43"
+    }
+  },
+  "148": {
+    "inventory": {
+      "label": "Acquisition commune de la famille Aster",
+      "value": "Près de 1 000 commandés",
+      "note": "Programme lancé en décembre 2022 puis complété en février 2025 pour France, Italie et Royaume-Uni. Comprend plusieurs versions Aster ; le premier lot est livré en juillet 2025, sans quantité publique ici. Ce n’est ni un stock actuel ni mille Aster 30 déjà livrés.",
+      "source": "https://www.mbda-systems.com/mbda-track-its-acceleration-aster-missile-production"
+    }
+  },
+  "149": {
+    "production": {
+      "value": "Plus de 5 000 (2021)",
+      "note": "Jalon publié dans la fiche Navy mise à jour en août 2021 pour toute la famille RAM. Ce n’est pas le nombre de Block 2 seuls ni un inventaire mondial actuel.",
+      "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168961/rim-116-rolling-airframe-missile-ram/rim-116-rolling-airframe-missile-ram/"
+    }
   }
 };
