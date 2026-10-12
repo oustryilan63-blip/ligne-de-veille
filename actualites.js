@@ -13,11 +13,16 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "Combat Management System",
+        "Naval Group"
+      ],
       "sourceExcerpt": {
         "text": "Inside Naval Group's next-gen SETIS Combat Management System. Watch our video report exploring AI-driven tactical decision support, at-sea upgrades, and…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-10-12T16:05:49.256182+00:00",
+      "imageCheckedAt": "2026-10-12T16:01:32.996881+00:00",
       "image": {
         "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Inside-Naval-Groups-Next-Gen-SETIS-Combat-Management-System.jpg",
         "kind": "article",
@@ -45,11 +50,21 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Défense antimissile",
+        "Industrie",
+        "Anduril",
+        "défense aérienne",
+        "missile intercepteur",
+        "Patriot",
+        "Steelfin",
+        "THAAD"
+      ],
       "sourceExcerpt": {
         "text": "En septembre 2024, l’américain Anduril dévoila le missile de croisière «Barracuda» qui, décliné en trois versions, pouvait être produit à…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-10-12T16:05:49.256182+00:00",
+      "imageCheckedAt": "2026-10-12T16:01:32.996881+00:00",
       "image": {
         "src": "https://www.opex360.com/wp-content/uploads/stelfin-20261012.jpg",
         "kind": "article",
@@ -77,11 +92,19 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "artillerie",
+        "Belgique",
+        "mortier",
+        "munition",
+        "Thales"
+      ],
       "sourceExcerpt": {
         "text": "Une nouvelle commande de munitions est sur les rails en Belgique après la vague d'achats de ce début d’année. Dans…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-10-12T16:05:49.256182+00:00",
+      "imageCheckedAt": "2026-10-12T16:01:32.996881+00:00",
       "image": {
         "src": "https://forcesoperations.com/wp-content/uploads/2026/10/IMG_1494Nouvelle-salve-de-munitions-pour-les-mortiers-belges_001-394x218.png",
         "kind": "article",
@@ -109,7 +132,13 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-12T16:05:49.256182+00:00",
+      "publisherCategories": [
+        "Escalade en Iran",
+        "Moyen-Orient",
+        "Abonné",
+        "Arabie saoudite"
+      ],
+      "imageCheckedAt": "2026-10-12T16:01:32.996881+00:00",
       "image": {
         "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/Collage-geopolitique-du-Yemen-petrolier.png",
         "kind": "article",
@@ -137,11 +166,18 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "B-52",
+        "LRASM",
+        "US Navy",
+        "USAF"
+      ],
       "sourceExcerpt": {
         "text": "The U.S. Navy plans to contract Lockheed Martin to integrate AGM-158C LRASM anti-ship missiles onto the Air Force's B-52 bombers,…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-10-12T16:05:49.256182+00:00",
+      "imageCheckedAt": "2026-10-12T16:01:32.996881+00:00",
       "image": {
         "src": "https://www.navalnews.com/wp-content/uploads/2026/10/9552569-768x432.jpg",
         "kind": "article",
@@ -169,11 +205,23 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Technologie",
+        "AED",
+        "Airbus",
+        "CSP",
+        "DLR",
+        "drones",
+        "Future [unmanned] Air-to-Air Refuelling Capability",
+        "PESCO",
+        "ravitaillement en vol"
+      ],
       "sourceExcerpt": {
         "text": "En février, dans le cadre d’une coopération avec le ministère singapourien de la Défense en 2020, Airbus Defence & Space…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-10-12T16:05:49.256182+00:00",
+      "imageCheckedAt": "2026-10-12T16:01:32.996881+00:00",
       "image": {
         "src": "https://www.opex360.com/wp-content/uploads/a330-a3r-20240723.jpg",
         "kind": "article",
@@ -201,7 +249,15 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-12T16:05:49.256182+00:00",
+      "publisherCategories": [
+        "Revue Conflits",
+        "Abonné",
+        "Guerre en Ukraine",
+        "Russie",
+        "Sahel",
+        "Ukraine"
+      ],
+      "imageCheckedAt": "2026-10-12T16:01:32.996881+00:00",
       "image": {
         "src": "https://www.revueconflits.com/wp-content/uploads/2020/06/SAHEL.jpg",
         "kind": "article",
@@ -244,7 +300,14 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-12",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2021/03/Dette-pubique-e1791746970777.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Économie, énergies et entreprises",
+        "Europe",
+        "Abonné",
+        "Économie",
+        "France"
+      ]
     },
     {
       "date": "2026-10-11",
@@ -272,7 +335,15 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/07/SIPA_ap23046265_000128.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Économie, énergies et entreprises",
+        "Escalade en Iran",
+        "Abonné",
+        "Energie",
+        "États-Unis",
+        "Russie"
+      ]
     },
     {
       "date": "2026-10-11",
@@ -300,7 +371,14 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_01214912_000020-scaled-e1791555765870.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Criminalité et terrorisme",
+        "Géopolitique de la France",
+        "Abonné",
+        "Chemins de France",
+        "Drogue"
+      ]
     },
     {
       "date": "2026-10-11",
@@ -332,7 +410,20 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/navdac-20261011.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Forces spéciales",
+        "Forces terrestres",
+        "1er RPIMa",
+        "AID",
+        "chuteur opératonnel",
+        "GNSS",
+        "GPS",
+        "guerre électronique",
+        "NAVDAC",
+        "navigation",
+        "OAP"
+      ]
     },
     {
       "date": "2026-10-11",
@@ -364,7 +455,18 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/smr-general-atomics-20260827.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Forces terrestres",
+        "Action aéroterrestre future",
+        "armée de terre",
+        "CCF",
+        "énergie",
+        "nucléaiee",
+        "PC",
+        "réacteur nucléaire",
+        "SMR"
+      ]
     },
     {
       "date": "2026-10-11",
@@ -396,7 +498,13 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/DCS_23_387_451_02c244ba03-scaled.webp",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "News",
+        "SSN(X)",
+        "Submarine",
+        "US Navy"
+      ]
     },
     {
       "date": "2026-10-11",
@@ -423,7 +531,14 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/09/Miura_1_PLD_Space_Espana_2017_cropped.jpg",
         "sha256": "29a2754ee448cae661258d36a90fa7ad2577497bf905d0c93a4a676b1a1ae41f"
-      }
+      },
+      "publisherCategories": [
+        "Espace",
+        "Europe",
+        "Europe occidentale",
+        "Abonné",
+        "Espagne"
+      ]
     },
     {
       "date": "2026-10-11",
@@ -451,7 +566,12 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/04/60-SIPA_01245638_000005-scaled.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Asie de l'Est",
+        "Abonné",
+        "Corée du Nord"
+      ]
     },
     {
       "date": "2026-10-10",
@@ -478,7 +598,13 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_00679789_000002-scaled.jpg",
         "sha256": "51b5906dbd6a5bfc1f2220544fd5d65f3dbb0aaaec6533db65d3d36b3b50c254"
-      }
+      },
+      "publisherCategories": [
+        "Asie",
+        "Abonné",
+        "Chine",
+        "Culture"
+      ]
     },
     {
       "date": "2026-10-10",
@@ -510,7 +636,18 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/nh90-belge-20170504.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Forces terrestres",
+        "3e RHC",
+        "ALAT",
+        "armée de terre",
+        "Belgique",
+        "hélicoptère",
+        "NH90",
+        "NH90 TTH",
+        "NHIndustries"
+      ]
     },
     {
       "date": "2026-10-10",
@@ -541,7 +678,19 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/chammal-20200625.jpg",
         "sha256": "d08735f13b6dbe97aaf907b4104e95be6ab679b34ece6e09312daa5d018fc2e0"
-      }
+      },
+      "publisherCategories": [
+        "Afrique",
+        "Forces aériennes",
+        "aAE",
+        "armée de l'Air & de l'Espace",
+        "BA 188",
+        "Djibouti",
+        "FFDJ",
+        "Forces françaises stationnées à Djibouti",
+        "Mirage 2000D RMV",
+        "Rafale"
+      ]
     },
     {
       "date": "2026-10-10",
@@ -573,7 +722,21 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/rc-20261010.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Europe",
+        "Forces aériennes",
+        "Technologie",
+        "Allemagne",
+        "effecteur déporté",
+        "Espagne",
+        "France",
+        "MBDA",
+        "NGWS",
+        "RC",
+        "Remote Carrier Compact",
+        "Satnus"
+      ]
     },
     {
       "date": "2026-10-10",
@@ -601,7 +764,14 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2022/06/SIPA_AP22690568_000001-scaled.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Analyse et théorie",
+        "Économie, énergies et entreprises",
+        "Abonné",
+        "Économie",
+        "géoéconomie"
+      ]
     },
     {
       "date": "2026-10-10",
@@ -662,7 +832,19 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAyiXXDi6Mdslw2U4riJZh9wh8M0-ftoynmtiNEaY2R554Px00nsdpaPyUo1djTLHT4EmLwFwTZXNvR8hC7l-YOmP4UjSqhQuhyphenhyphenHe6mE640yoIOHvyFcobW2Zox13kW4h4rJAGR_vQlBqG5EfGBw53dCS-zoCoTJJcnS-7AlUx2ma7WBZJgMHsyGi2ySM/w1200-h630-p-k-no-nu/leclerc%20Proto.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Berlin",
+        "CEMA",
+        "Hyundai Rotem",
+        "K2",
+        "KNDS",
+        "Leclerc",
+        "MGCS",
+        "MinArm",
+        "Paris",
+        "RHeinMetall"
+      ]
     },
     {
       "date": "2026-10-09",
@@ -694,7 +876,18 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/oryx-20261009.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Forces navales",
+        "Technologie",
+        "drone naval",
+        "Exail",
+        "Marine Nationale",
+        "Neptis",
+        "Oryx",
+        "surveillance maritime",
+        "USV"
+      ]
     },
     {
       "date": "2026-10-09",
@@ -722,7 +915,14 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2019/10/chine-cybercriminalite-etats-unis-hackers-internet.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Criminalité et terrorisme",
+        "Géopolitique de la France",
+        "Abonné",
+        "France",
+        "géoéconomie"
+      ]
     },
     {
       "date": "2026-10-09",
@@ -754,7 +954,14 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/navantia-larsen-and-toubro-scaled.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "News",
+        "Amphibious",
+        "Indian Navy",
+        "LPD",
+        "Navantia"
+      ]
     },
     {
       "date": "2026-10-09",
@@ -786,7 +993,21 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/famille-20170225.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Condition militaire",
+        "armées",
+        "cadres",
+        "CEMA",
+        "condition militaire",
+        "famille",
+        "fidélisation",
+        "général Mandon",
+        "majoration",
+        "pension",
+        "PLFSS 27",
+        "sous-officiers"
+      ]
     },
     {
       "date": "2026-10-09",
@@ -903,7 +1124,15 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/07/La-Belgique-ELSA-et-les-feux-dans-la-profondeur_001-394x218.png",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Actualités",
+        "armée de terre",
+        "artillerie",
+        "frappe longue portée",
+        "LRU",
+        "Thundart"
+      ]
     },
     {
       "date": "2026-10-09",
@@ -935,7 +1164,14 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-12",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/exail-neptis-c2-maritime-surveillance-system_2990x1680-scaled.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Euronaval 2026",
+        "EURONAVAL 2026",
+        "Exail",
+        "Neptis",
+        "USV"
+      ]
     },
     {
       "date": "2026-10-09",
@@ -1023,7 +1259,13 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-12",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/DVIDS-SM3-BLK1B-JFTM-05_4_2-1920x1080-1.jpg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "News",
+        "Raytheon",
+        "SM-3",
+        "US Navy"
+      ]
     },
     {
       "date": "2026-10-09",
@@ -1188,6 +1430,44 @@ window.LDV_NEWS = {
     },
     {
       "date": "2026-10-08",
+      "publishedAt": "2026-10-08T11:33:57+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Ormuz, du baril à l’assiette",
+      "url": "https://www.areion24.news/2026/10/08/ormuz-du-baril-a-lassiette/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Les Grands Dossiers de Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Bloqué depuis fin février, le détroit d’Ormuz rappelle son rôle de point névralgique de l’économie énergétique mondiale : environ 20…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-12T16:01:32.996881+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/10/shutterstock_2343636077.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Ormuz, du baril à l’assiette ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/10/08/ormuz-du-baril-a-lassiette/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/10/08/ormuz-du-baril-a-lassiette/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-12",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/10/shutterstock_2343636077.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-08",
       "source": "OpexNews",
       "sourceType": "Presse spécialisée",
       "title": "Budget des armées : les questions ouvertes pour 2027",
@@ -1263,6 +1543,54 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifvN2GOoYJcGfZ8Pos-OgcD4Gt8OlyfB0xTQCq2zEN1_GixT4Wt8k6VNU05cHxyRkLaN0pb8jh2GjclqvQJdFbMGf5VdZGX4ibO8QHOQVF5cqWG0zQ2pQOe42nVDR_uuBWqlaO71T6uuMSEDV0FI7mHoFW9hshjTvvNyoNrkGeSyJyyC5BflDrm5okK7A/w1200-h630-p-k-no-nu/Shturm.jpg",
         "permissionConfirmedAt": "2026-10-11"
+      },
+      "publisherCategories": [
+        "3D",
+        "Chine",
+        "Drones",
+        "Drones dragons",
+        "Exercice",
+        "RUSSIE",
+        "Shturm",
+        "T-14"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T16:37:26+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Statut personnel et condition féminine : dialogue entre modernité et héritage au Maroc et en Irak",
+      "url": "https://www.areion24.news/2026/10/07/statut-personnel-et-condition-feminine-dialogue-entre-modernite-et-heritage-au-maroc-et-en-irak/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Moyen-Orient"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Les Codes du statut personnel sont des textes juridiques régissant des aspects de la vie tels que le mariage, le…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-12T16:01:32.996881+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/10/shutterstock_1628462572.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Statut personnel et condition féminine : dialogue entre modernité et héritage au Maroc et en Irak ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/10/07/statut-personnel-et-condition-feminine-dialogue-entre-modernite-et-heritage-au-maroc-et-en-irak/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/10/07/statut-personnel-et-condition-feminine-dialogue-entre-modernite-et-heritage-au-maroc-et-en-irak/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-12",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/10/shutterstock_1628462572.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -1295,7 +1623,15 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-11",
         "assetUrl": "https://forcesoperations.com/wp-content/uploads/2022/04/Le-Se%CC%81ne%CC%81gal-mise-sur-Nexter-pour-renouveler-son-artillerie-ink1-394x218.jpeg",
         "permissionConfirmedAt": "2026-10-11"
-      }
+      },
+      "publisherCategories": [
+        "Actualités",
+        "105 LG",
+        "artillerie",
+        "canon",
+        "KNDS",
+        "Pologne"
+      ]
     },
     {
       "date": "2026-10-07",
@@ -1341,7 +1677,15 @@ window.LDV_NEWS = {
         "text": "Selon des informations non officiellement confirmées, plusieurs exemplaires du système de lutte anti drones Korkut produit par la firme turque…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-10-12T06:05:45.511564+00:00"
+      "imageCheckedAt": "2026-10-12T06:05:45.511564+00:00",
+      "publisherCategories": [
+        "Aselsan",
+        "Bayraktar TB2",
+        "Drones C-UAS",
+        "Korkut",
+        "Turquie",
+        "Ukraine"
+      ]
     },
     {
       "date": "2026-10-07",
@@ -1450,11 +1794,35 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "APS",
+        "Elbit Systems",
+        "Génie",
+        "Iron Fist",
+        "Israel",
+        "Rafael Advanced Defense Systems",
+        "Tsahal"
+      ],
       "sourceExcerpt": {
         "text": "Selon la chaine d'informations israélienne I24, Tsahal prépare une modernisation importante de sa composante terrestre basée sur les enseignements des…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-10-12T16:05:49.256182+00:00"
+      "imageCheckedAt": "2026-10-12T16:01:32.996881+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmsYwdUFXXL0MqTlprB3frhJPIWhrlZKv7puS30L_uhWwPwNaMk-xJjTQeRLUNbRWqLGARt4XdtoX7RE4WQ1qG0SCp4FxC992COELDcKpNIHSpoPux89U9wihdruk433vqw1n7HNG8cXiQtexEd-Ku3zdcGdXc_0b3R2-wEYQr7s8mtJnxdsHK-dkQ5Mc/w1200-h630-p-k-no-nu/D9.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « IRON FIST POUR LES SAPEURS ISRAELIENS ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/iron-fist-pour-les-sapeurs-israeliens.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/iron-fist-pour-les-sapeurs-israeliens.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-12",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmsYwdUFXXL0MqTlprB3frhJPIWhrlZKv7puS30L_uhWwPwNaMk-xJjTQeRLUNbRWqLGARt4XdtoX7RE4WQ1qG0SCp4FxC992COELDcKpNIHSpoPux89U9wihdruk433vqw1n7HNG8cXiQtexEd-Ku3zdcGdXc_0b3R2-wEYQr7s8mtJnxdsHK-dkQ5Mc/w1200-h630-p-k-no-nu/D9.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-06",
@@ -1485,6 +1853,52 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-12",
         "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/Eclaircie-a-lhorizon-pour-les-helicopteres-de-la-Gendarmerie-nationale_001-394x218.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      },
+      "publisherCategories": [
+        "Actualités",
+        "Airbus Helicopters",
+        "FAGN",
+        "gendarmerie nationale"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T15:05:50+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "EN ATTENDANT LE XM 30...",
+      "url": "https://blablachars.blogspot.com/2026/10/en-attendant-le-xm-30.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "APS",
+        "Bradley",
+        "Elbit Systems",
+        "First Cav",
+        "Iron Fist",
+        "XM30"
+      ],
+      "sourceExcerpt": {
+        "text": "Alors que les premiers clichés des prototypes du programme XM 30 commencent à être diffusés, l'armée américaine a reçu ces…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-12T16:01:32.996881+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVkdG1L4HxU-2rTLw35bAumypTfE5Zetccq-_h18sdDt7t0exPwHPbDAYOtt7Ux3mVjNF5nF8XUYBKaIyyLyCcYjQn9RXLGnsdvr6LSQnY7JZNz2yy89L1SwpoPi-WSB8PYtgUj_BpcDXpMSmfl8XF1MogAwHpOJsSyK6AMwYZ0QktLT889KI5iatCY7w/w1200-h630-p-k-no-nu/Bradely%20M2A4%20APS.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « EN ATTENDANT LE XM 30... ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/en-attendant-le-xm-30.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/en-attendant-le-xm-30.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-12",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVkdG1L4HxU-2rTLw35bAumypTfE5Zetccq-_h18sdDt7t0exPwHPbDAYOtt7Ux3mVjNF5nF8XUYBKaIyyLyCcYjQn9RXLGnsdvr6LSQnY7JZNz2yy89L1SwpoPi-WSB8PYtgUj_BpcDXpMSmfl8XF1MogAwHpOJsSyK6AMwYZ0QktLT889KI5iatCY7w/w1200-h630-p-k-no-nu/Bradely%20M2A4%20APS.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -1559,7 +1973,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-10-11T18:43:19.135021+00:00"
     }
   ],
-  "checkedAt": "2026-10-12T16:05:45.083250+00:00",
+  "checkedAt": "2026-10-12T16:01:29.511775+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -1616,10 +2030,22 @@ window.LDV_NEWS = {
         "ok": true,
         "recentItems": 10,
         "error": null
+      },
+      {
+        "source": "Conseil de l’UE — Relations internationales",
+        "ok": true,
+        "recentItems": 8,
+        "error": null
+      },
+      {
+        "source": "Areion — Géopolitique",
+        "ok": true,
+        "recentItems": 2,
+        "error": null
       }
     ],
-    "newItems": 8,
-    "articleImages": 51,
+    "newItems": 11,
+    "articleImages": 55,
     "duplicateHeadlinesSkipped": 0
   }
 };

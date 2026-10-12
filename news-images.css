@@ -1,4 +1,10 @@
 /* Vignettes d’actualité : la provenance reste distincte du lien vers l’article. */
+.news-theme-shortcuts{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 22px}
+.news-theme-shortcuts button{border:1px solid #b5c3b1;border-radius:22px;background:transparent;color:var(--ink);font:600 13px/1.4 var(--sans);padding:11px 18px;min-height:44px;cursor:pointer}
+.news-theme-shortcuts button[aria-pressed="true"]{background:#294437;border-color:#294437;color:#fbfcf7}
+.news-theme-shortcuts button:hover{box-shadow:0 0 0 2px #29443722}
+.news-theme-shortcuts button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+#news-grid .news-theme-tag{display:inline-block;font:600 11px/1.4 var(--sans);color:#294437;background:#e7eee1;padding:4px 9px;margin:0 0 10px;border-radius:12px}
 #news-grid{display:block}
 #news-grid .news-card{display:grid;grid-template-columns:220px minmax(0,1fr) 24px;align-items:start;gap:26px;padding:25px 0;margin:0;min-height:0;background:transparent;color:var(--ink);border:0}
 #news-grid .news-card::before{display:none}

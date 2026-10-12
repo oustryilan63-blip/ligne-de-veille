@@ -4,10 +4,12 @@
   function mount(news,{dateLabel,monthFormatter,shortDateFormatter,parsedDate}){
     const tools=window.RADAR_NEWS_TOOLS,search=document.getElementById('news-search'),sourceSelect=document.getElementById('news-source-filter'),themeSelect=document.getElementById('news-theme-filter'),photosOnly=document.getElementById('news-photos-only'),grid=document.getElementById('news-grid'),archive=document.getElementById('archive-list'),more=document.getElementById('news-more');
     let limit=4,current=[],archiveDirty=true;
+    const quickThemes=[...document.querySelectorAll('[data-news-theme]')];
     const archiveDetails=document.getElementById('archive-details');
     const indexed=news.items.map(item=>({item,image:tools.image(item),themes:tools.themes(item),matches:tools.related(item),text:tools.fold([item.title,item.source,item.summary,item.sourceExcerpt?.text].join(' '))}));
     for(const source of [...new Set(news.items.map(i=>i.source))].sort((a,b)=>a.localeCompare(b,'fr'))){const o=make('option','',source);o.value=source;sourceSelect.append(o)}
     for(const theme of tools.themeNames){const o=make('option','',theme);o.value=theme;themeSelect.append(o)}
+    if(window.location?.href&&new URL(window.location.href).searchParams.get('theme')==='geopolitique'){themeSelect.value='Géopolitique';limit=12;}
     function render(){
       const query=tools.fold(search.value).trim().split(/\s+/).filter(Boolean),filtered=Boolean(query.length||sourceSelect.value||themeSelect.value||photosOnly.checked);
       const matching=indexed.filter(r=>/^https:\/\//.test(r.item.url)&&(!sourceSelect.value||r.item.source===sourceSelect.value)&&(!themeSelect.value||r.themes.includes(themeSelect.value))&&query.every(word=>r.text.includes(word)));
@@ -15,11 +17,14 @@
       document.getElementById('news-photo-count').textContent=matching.filter(r=>r.image).length+' / '+matching.length+' articles avec une photo d’origine';
       const items=rows.map(r=>r.item);current=items;archiveDirty=true;
       grid.replaceChildren();
-      for(const {item,matches} of rows.slice(0,limit)){
+      for(const button of quickThemes)button.setAttribute('aria-pressed',String(button.dataset.newsTheme===themeSelect.value));
+      for(const {item,matches,themes} of rows.slice(0,limit)){
         const entry=make('article','news-entry'),card=make('a','news-card');card.href=item.url;card.target='_blank';card.rel='noopener noreferrer';
         const date=make('span','news-date',dateLabel(item.date)),main=make('span','news-main'),source=make('span','news-source',item.sourceType+' · '+item.source+(item.language==='en'?' · en anglais':'')),title=make('strong','',item.title),summary=make('small');
         if(item.sourceExcerpt&&!/conflits/i.test(item.source)){summary.append(make('span','news-summary-label','Extrait de l’éditeur'),document.createTextNode('« '+item.sourceExcerpt.text+' »'));}else summary.textContent=item.autoCollected?'Titre transmis par le flux de l’éditeur. Ouvre la publication pour lire l’article.':item.summary;
-        main.append(date,source,title,summary);
+        main.append(date,source);
+        if(themes.includes('Géopolitique'))main.append(make('span','news-theme-tag','Géopolitique'));
+        main.append(title,summary);
         if(!item.autoCollected&&item.why){const why=make('span','news-why');why.append(make('b','','À retenir'),make('span','',item.why));main.append(why)}
         const visual=tools.image(item),arrow=make('span','news-arrow','↗');arrow.setAttribute('aria-hidden','true');
         if(visual){
@@ -42,6 +47,7 @@
       for(const [month,rows]of months){const group=make('div','archive-month'),heading=make('h3','',monthFormatter.format(parsedDate(month+'-01'))),list=make('ul');for(const item of rows){const row=make('li'),a=make('a');a.href=item.url;a.target='_blank';a.rel='noopener noreferrer';const time=make('time','',shortDateFormatter.format(parsedDate(item.date)));time.dateTime=item.date;a.append(time,make('strong','',item.title),make('span','',item.source+(item.language==='en'?' · en anglais':'')));row.append(a);list.append(row)}group.append(heading,list);archive.append(group)}
     }
     function change(){limit=search.value.trim()||sourceSelect.value||themeSelect.value||photosOnly.checked?12:4;render()}
+    for(const button of quickThemes)button.addEventListener('click',()=>{themeSelect.value=button.dataset.newsTheme;change()});
     archiveDetails?.addEventListener('toggle',()=>{if(archiveDetails.open)renderArchive()});
     search.addEventListener('input',change);sourceSelect.addEventListener('change',change);themeSelect.addEventListener('change',change);photosOnly.addEventListener('change',change);more.addEventListener('click',()=>{limit+=8;render()});document.getElementById('news-reset').addEventListener('click',()=>{search.value=sourceSelect.value=themeSelect.value='';photosOnly.checked=false;change();search.focus()});render();
   }
