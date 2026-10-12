@@ -31,15 +31,34 @@ Les actualités affichent les **images principales réellement publiées avec le
 
 Node.js est nécessaire pour construire et contrôler le site ; Python 3.9+ avec les données de fuseaux horaires est utilisé pour la veille. Aucun paquet JavaScript à installer pour la construction courante.
 
+Pour une modification courante, une seule commande choisit les contrôles utiles et en exécute jusqu'à quatre à la fois, sans accès réseau ni publication :
+
+```sh
+node scripts/check-changes.mjs --files histoire-photos-data.js
+```
+
+Remplacer les noms par les fichiers réellement modifiés. Sans argument, le contrôle général couvre le catalogue, les parcours et les sauvegardes. `--plan` affiche la sélection ; `--report` conserve les durées dans `test-results/check-changes.json`. Les changements de documentation ne lancent pas de tests. Pour une modification transversale ou avant une migration :
+
+```sh
+node scripts/check-changes.mjs --all
+```
+
+La recherche et la vérification des sources des nouvelles fiches restent nécessaires. Les contrôles automatiques vérifient leur cohérence ; ils ne confirment pas à eux seuls la justesse d'une source externe. Une retouche visuelle appelle un contrôle ciblé de son rendu.
+
+### Publier ou changer d'hébergeur
+
+Le workflow GitHub construit déjà le site et le publie après l'envoi des modifications sur main. Il n'est pas nécessaire de construire aussi le site localement, de fabriquer un ZIP et d'envoyer plusieurs copies à chaque retouche.
+
+Pour exporter vers un autre hébergeur, préparer une seule fois un dossier vide avec ces commandes :
+
 ```sh
 node scripts/build-news.mjs
-node scripts/check-catalog.mjs
-node scripts/check-feature-flows.cjs
-node scripts/check-news-images.cjs
-node scripts/build-site.mjs
-node scripts/optimize-static.mjs _site
-node scripts/check-public-site.mjs _site
+node scripts/build-site.mjs _site-export
+node scripts/optimize-static.mjs _site-export
+node scripts/check-public-site.mjs _site-export
 ```
+
+Le contenu de `_site-export/` est indépendant de GitHub et peut être déposé sur un hébergement statique. Le ZIP sert seulement si le service choisi le demande. La veille de 8 h et 18 h utilise actuellement GitHub Actions : lors d'une migration, garder ce traitement connecté au nouvel hébergement ou installer son remplacement avant de l'arrêter.
 
 Le dossier **_site/** est le résultat destiné à l’hébergement, jamais le dossier à modifier. Le workflow reconstruit et publie ce dossier après un changement sur main. Pour consulter localement, ouvrir index.html ; la veille automatique reste exécutée sur GitHub.
 

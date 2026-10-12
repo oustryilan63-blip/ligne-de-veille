@@ -111,15 +111,15 @@
     detail.append(el('h2','history-mobile-title',item.name));
     const jump=el('nav','profile-jump');jump.setAttribute('aria-label','Dans cette fiche');detail.append(jump);
     const head=el('div','history-detail-head');const media=el('div',item.category==='missiles'?'history-missile-media':'');media.id='photos';media.append(window.RADAR_PHOTOS.create(item));
-    const copy=el('div');copy.append(el('span','history-kicker',String(index+1).padStart(2,'0')+' / '+item.kind+' / '+item.country),el('h2','history-name',item.name),el('p','history-subtitle','Origine : '+item.country));
-    copy.append(el('p','',item.explanation));
-    copy.append(collection.button(item,true));
-    const compare=el('a','compare-link','Comparer cet engin →');compare.href='comparateur.html?a='+index;copy.append(compare);
+    const copy=el('div','history-summary');copy.append(el('span','history-kicker',String(index+1).padStart(2,'0')+' / '+item.kind+' / '+item.country),el('h2','history-name',item.name),el('p','history-subtitle','Origine : '+item.country));
+    copy.append(el('p','history-introduction',item.explanation));
+    const actions=el('div','history-profile-actions');actions.setAttribute('role','group');actions.setAttribute('aria-label','Actions sur cet engin');actions.append(collection.button(item,true));
+    const compare=el('a','compare-link','Comparer cet engin →');compare.href='comparateur.html?a='+index;actions.append(compare);copy.append(actions);
     copy.append(technicalCard(index));
     const modelView=window.RADAR_3D?.create(item);
     if(modelView){const explore=el('a','button button-dark history-3d-shortcut','Explorer cet engin en 3D ↓');explore.href='#vue-3d';explore.addEventListener('click',()=>modelView.open());media.append(explore)}
-    const story=el('div');story.id='recit';(fact.story||'L’histoire de cet engin est présentée dans la source liée ci-dessous.').split('\n\n').forEach(paragraph=>story.append(el('p','',paragraph)));copy.append(story);
-    head.append(media,copy);detail.append(head);
+    const story=el('section','history-story');story.id='recit';story.setAttribute('aria-labelledby','story-title-'+index);const storyTitle=el('h3','','Son histoire');storyTitle.id='story-title-'+index;story.append(storyTitle);(fact.story||'L’histoire de cet engin est présentée dans la source liée ci-dessous.').split('\n\n').forEach(paragraph=>story.append(el('p','',paragraph)));
+    head.append(media,copy);detail.append(head,story);
     if(modelView)detail.append(modelView.section);
     const events=window.LDV_TIMELINES?.[index]||[];
     if(events.length){const timeline=el('section','history-timeline');timeline.append(el('h3','','Les grandes étapes'),el('p','','Jalons documentés : les dates conservent la précision de leurs sources.'));const list=el('ol');for(const event of events){const li=el('li');li.append(el('time','',event.date),el('h4','',event.label),el('p','',event.detail),link('Vérifier ce jalon ↗',event.source));list.append(li)}timeline.append(list);detail.append(timeline)}
