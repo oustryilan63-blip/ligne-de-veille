@@ -45,6 +45,13 @@ def headline_key(value):
     plain=''.join(c for c in unicodedata.normalize('NFKD',value.casefold()) if not unicodedata.combining(c))
     return re.sub(r'[\W_]+','',plain)
 
+def relevant_entry(title, categories, source):
+    """Select the configured international sections before applying source quotas."""
+    if any(headline_key(term) in headline_key(title) for term in source.get('excludeTitleTerms', [])):
+        return False
+    required = source.get('categoryTermsAny', [])
+    return not required or any(headline_key(term) in headline_key(category) for term in required for category in categories)
+
 def fresh_candidates(items,urls,headlines,limit):
     selected=[];duplicates=0
     for item in items:
@@ -95,6 +102,8 @@ def parse_feed(data, source, now):
     for entry in tree.iter():
         if local_name(entry.tag) not in ('item','entry'): continue
         title = clip(clean(child_text(entry, ('title',))))
+        categories = [clip(clean(child.text), 100) for child in entry if local_name(child.tag) == 'category' and child.text]
+        if not relevant_entry(title, categories, source): continue
         raw_date = child_text(entry, ('published','pubDate','date','updated'))
         try:
             try: published = dt.datetime.fromisoformat(raw_date.replace('Z','+00:00'))
@@ -109,6 +118,8 @@ def parse_feed(data, source, now):
         except ValueError: continue
         if source.get('pathPrefix') and not urllib.parse.urlsplit(url).path.startswith(source['pathPrefix']): continue
         item = {'date':published.astimezone(PARIS).date().isoformat(),'publishedAt':published.isoformat(),'source':source['name'],'sourceType':source['type'],'title':title,'url':url,'language':source['language'],'autoCollected':True,'summary':'Publication repérée dans le flux de '+source['name']+'. Consultez le site d’origine pour lire le contenu complet.','why':'Document original accessible chez son éditeur ; titre et date transmis par son flux.'}
+        if categories: item['publisherCategories'] = categories[:12]
+        if source.get('topics'): item['themes'] = source['topics']
         excerpt = source_excerpt(entry) if 'conflits' not in source['name'].casefold() else None
         if excerpt: item['sourceExcerpt'] = excerpt
         result.append(item)
@@ -168,6 +179,9 @@ def main():
             saved = existing.get(item['url'].rstrip('/'))
             if saved and saved.get('autoCollected') and item.get('sourceExcerpt'):
                 saved['sourceExcerpt'] = item['sourceExcerpt']
+            if saved and saved.get('autoCollected'):
+                for field in ('themes', 'publisherCategories'):
+                    if item.get(field): saved[field] = item[field]
         # Keep sources balanced and omit identical headlines from the recent week.
         selected,duplicates=fresh_candidates(items,urls,headlines,min(5,max(1,int(source.get('maxItems',2)))))
         candidates.extend(selected);duplicates_skipped+=duplicates

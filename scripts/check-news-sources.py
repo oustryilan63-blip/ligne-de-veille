@@ -18,4 +18,17 @@ assert '%CC%81' in encoded and '%20' in encoded and encoded.isascii()
 assert absolute_image(encoded,'https://forcesoperations.com/article')==encoded
 for source in sources:
  assert any(host==domain or host.endswith('.'+domain) for host in POLICY['publisherPermission']['articleHosts'] for domain in source['domains'])
+eu=next(s for s in sources if s['id']=='consilium')
+rss=b'''<rss xmlns:a="http://www.w3.org/2005/Atom"><channel>
+<item><title>EU-UK summit</title><link>https://www.consilium.europa.eu/en/press/press-releases/test-summit/</link><a:updated>2026-10-10T16:30:00Z</a:updated><category>Non-EU Western Europe</category></item>
+<item><title>Sanctions</title><link>https://www.consilium.europa.eu/en/press/press-releases/test-sanctions/</link><a:updated>2026-10-10T15:30:00Z</a:updated><category>Sanctions</category></item>
+<item><title>Local budget</title><link>https://www.consilium.europa.eu/en/press/press-releases/test-budget/</link><a:updated>2026-10-10T14:30:00Z</a:updated><category>Budget</category></item>
+<item><title>Media advisory - summit</title><link>https://www.consilium.europa.eu/en/press/press-releases/test-advisory/</link><a:updated>2026-10-10T13:30:00Z</a:updated><category>Non-EU Western Europe</category></item>
+</channel></rss>'''
+rows=news.parse_feed(rss,eu,dt.datetime(2026,10,11,tzinfo=dt.timezone.utc))
+assert len(rows)==2 and all(r['themes']==['Géopolitique'] and r['language']=='en' for r in rows)
+areion=next(s for s in sources if s['id']=='areion')
+assert news.relevant_entry('Ormuz', ['Magazine Les Grands Dossiers de Diplomatie'],areion)
+assert not news.relevant_entry('Technique', ['Magazine DSI'],areion)
 print('Sources uniques, Atom Blogger, titres identiques filtrés, angles différents conservés et URL d’image accentuée : OK')
+print('Géopolitique : catégories internationales, dates Atom, quotas après sélection et annonces hors sujet exclues : OK')
