@@ -4,6 +4,244 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-10-13",
+      "publishedAt": "2026-10-13T14:06:26+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le ministère des Armées a commandé un nouveau lot de munitions téléopérées DAMOCLES auprès de KNDS",
+      "url": "https://www.opex360.com/2026/10/13/le-ministere-des-armees-a-commande-un-nouveau-lot-de-munitions-teleoperees-damocles-aupres-de-knds/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "DGA",
+        "Industrie",
+        "armée de terre",
+        "commande",
+        "Damoclès",
+        "Delair",
+        "KNDS France",
+        "Marine Nationale",
+        "MTO",
+        "munition téléopérée",
+        "MX-10",
+        "Schaeffler"
+      ],
+      "sourceExcerpt": {
+        "text": "En janvier, le ministère des Armées fit savoir que la Direction générale de l’armement [DGA] venait de remettre au Service…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-13T16:07:09.837226+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/damocles-20260123.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le ministère des Armées a commandé un nouveau lot de munitions téléopérées DAMOCLES auprès de KNDS ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/13/le-ministere-des-armees-a-commande-un-nouveau-lot-de-munitions-teleoperees-damocles-aupres-de-knds/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/13/le-ministere-des-armees-a-commande-un-nouveau-lot-de-munitions-teleoperees-damocles-aupres-de-knds/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-13",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/damocles-20260123.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T14:00:50+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "« L’expertise sur la Russie refuse de sortir de la guerre froide »",
+      "url": "https://www.revueconflits.com/lexpertise-sur-la-russie-refuse-de-sortir-de-la-guerre-froide/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Europe de l'Est",
+        "Revue Conflits",
+        "Russie"
+      ],
+      "imageCheckedAt": "2026-10-13T16:07:09.837226+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/54731855633_aa79257192_k-e1791901000999.jpg",
+        "kind": "article",
+        "alt": "« L’expertise sur la Russie refuse de sortir de la guerre froide »",
+        "credit": "The White House",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/lexpertise-sur-la-russie-refuse-de-sortir-de-la-guerre-froide/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/lexpertise-sur-la-russie-refuse-de-sortir-de-la-guerre-froide/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-13",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/54731855633_aa79257192_k-e1791901000999.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T11:39:15+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Sweden Formalizes Interim Submarine Training and Södermanland Lease for Poland",
+      "url": "https://www.navalnews.com/naval-news/2026/10/sweden-formalizes-interim-submarine-training-and-sodermanland-lease-for-poland/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Poland",
+        "Submarine",
+        "Sweden"
+      ],
+      "sourceExcerpt": {
+        "text": "Poland and Sweden have finalized formal contracts for Polish submarine crew training and the lease of the interim A17-class boat…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-13T16:07:09.837226+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2022/09/HSwMS-Sodermanland-768x576.jpg",
+        "kind": "article",
+        "alt": "HSwMS Södermanland",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/sweden-formalizes-interim-submarine-training-and-sodermanland-lease-for-poland/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/sweden-formalizes-interim-submarine-training-and-sodermanland-lease-for-poland/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-13",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2022/09/HSwMS-Sodermanland-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T10:48:57+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "«Flotte fantôme» russe : La Marine nationale a arraisonné le pétrolier DF Peak à 450 nautiques de La Réunion",
+      "url": "https://www.opex360.com/2026/10/13/flotte-fantome-russe-la-marine-nationale-a-arraisonne-le-petrolier-df-peak-a-450-nautiques-de-la-reunion/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "DF Peak",
+        "Etat-major des armées",
+        "flotte fantôme",
+        "La Réunion",
+        "Marine Nationale",
+        "Océan indien",
+        "pétrole",
+        "Russie"
+      ],
+      "sourceExcerpt": {
+        "text": "Ces derniers mois, l’Union européenne a durci le ton contre la «flotte fantôme» exploitée par la Russie pour contourner les…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-13T16:07:09.837226+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/dfpeak-20261013.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « «Flotte fantôme» russe : La Marine nationale a arraisonné le pétrolier DF Peak à 450 nautiques de La Réunion ».",
+        "credit": "EMA",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/13/flotte-fantome-russe-la-marine-nationale-a-arraisonne-le-petrolier-df-peak-a-450-nautiques-de-la-reunion/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/13/flotte-fantome-russe-la-marine-nationale-a-arraisonne-le-petrolier-df-peak-a-450-nautiques-de-la-reunion/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-13",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/dfpeak-20261013.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T08:41:06+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Nouvelle tranche française et première victoire à l’étranger pour DAMOCLES",
+      "url": "https://forcesoperations.com/nouvelle-tranche-francaise-et-premiere-victoire-a-letranger-pour-damocles/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "DAMOCLES",
+        "KNDS",
+        "MTO",
+        "munition téléopérée"
+      ],
+      "sourceExcerpt": {
+        "text": "Double victoire pour la munition téléopérée MX-10 DAMOCLES développée par KNDS France et Delair. D'un côté, le ministère des Armées…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-13T16:07:09.837226+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/10/Nouvelle-commande-francaise-et-premiere-victoire-a-letranger-pour-Damocles_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Nouvelle tranche française et première victoire à l’étranger pour DAMOCLES ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/nouvelle-tranche-francaise-et-premiere-victoire-a-letranger-pour-damocles/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/nouvelle-tranche-francaise-et-premiere-victoire-a-letranger-pour-damocles/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-13",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/Nouvelle-commande-francaise-et-premiere-victoire-a-letranger-pour-Damocles_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T08:31:40+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Will The German Navy’s F127 Frigate Displace Other Procurements Over High Cost?",
+      "url": "https://www.navalnews.com/naval-news/2026/10/will-the-german-navys-f127-frigate-displace-other-procurements-over-high-cost/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "F127",
+        "German Navy",
+        "TKMS"
+      ],
+      "sourceExcerpt": {
+        "text": "Expenditures in the double-digit billion-euro range associated with the procurement of eight F127 air defence frigates now trigger concerns among…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-13T16:07:09.837226+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/MEKO_A-400_Three-Vessels_F127-Fregatte_Bild_tkMS-1536x1020.jpg-768x510.webp",
+        "kind": "article",
+        "alt": "Are the High Costs of the F127 Crowding Out Other Defense Projects?",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/will-the-german-navys-f127-frigate-displace-other-procurements-over-high-cost/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/will-the-german-navys-f127-frigate-displace-other-procurements-over-high-cost/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-13",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/MEKO_A-400_Three-Vessels_F127-Fregatte_Bild_tkMS-1536x1020.jpg.webp",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-13",
       "publishedAt": "2026-10-13T03:00:56+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -1944,7 +2182,7 @@ window.LDV_NEWS = {
         "text": "Selon des informations non officiellement confirmées, plusieurs exemplaires du système de lutte anti drones Korkut produit par la firme turque…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-10-12T06:05:45.511564+00:00",
+      "imageCheckedAt": "2026-10-13T16:07:09.837226+00:00",
       "publisherCategories": [
         "Aselsan",
         "Bayraktar TB2",
@@ -2240,7 +2478,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-10-13T06:05:44.930958+00:00"
     }
   ],
-  "checkedAt": "2026-10-13T06:05:35.303283+00:00",
+  "checkedAt": "2026-10-13T16:07:03.802196+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -2259,7 +2497,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 3,
         "error": null
       },
       {
@@ -2311,8 +2549,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 7,
-    "articleImages": 62,
+    "newItems": 6,
+    "articleImages": 68,
     "duplicateHeadlinesSkipped": 0
   }
 };
