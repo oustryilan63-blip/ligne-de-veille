@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"><meta name="referrer" content="strict-origin-when-cross-origin"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'sha256-m/qJDNIuyPZak1OIsj8BkLPZ62kpBhkiP7My07iWpag='; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; font-src 'self'; connect-src 'self'; frame-src https://sketchfab.com; object-src 'none'; base-uri 'none'; form-action 'none'; worker-src 'none'; upgrade-insecure-requests"><script src="privacy.js?v=1" defer></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#142025">
   <meta name="description" content="Alerte radar : identifie les pistes sur une carte de France, laisse passer les alliés et choisis la bonne défense face aux intrus fictifs.">
@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="alerte-radar.css?v=4">
   <script src="progression.js?v=3" defer></script>
   <script src="alerte-radar-engine.js?v=1" defer></script><script src="alerte-radar.js?v=5" defer></script>
-<link rel="stylesheet" href="assets/game-ui.css?v=2"><script src="assets/game-ui.js?v=1" defer></script></head>
+<link rel="stylesheet" href="assets/game-ui.css?v=2"><script src="assets/game-ui.js?v=1" defer></script><link rel="stylesheet" href="confiance.css?v=1"></head>
 <body class="play-page" data-game="radar">
   <a class="skip-link" href="#main">Aller au jeu</a>
   <div class="utility-bar"><span>VEILLE DOCUMENTÉE <i></i> DÉFENSE · SÉCURITÉ · GÉOPOLITIQUE</span><span>JEUX / 07</span></div>
@@ -34,7 +34,7 @@
       <div class="radar-end" id="radar-end" hidden><span class="eyebrow">FIN DE LA VEILLE</span><h2 id="radar-end-title">Veille terminée.</h2><p id="radar-end-copy"></p><button class="button button-dark" id="radar-restart" type="button">Rejouer ↗</button><a class="all-games-link" href="tous-les-jeux.html">Découvrir un autre jeu →</a></div>
     </section>
   </main>
-  <footer class="site-footer"><div class="wrap footer-main"><div><a class="brand footer-brand" href="index.html" aria-label="Radar, accueil"><span class="brand-mark radar-mark" aria-hidden="true"><b>R</b><i></i></span><span class="brand-name">RADAR</span></a><p>Défense, sécurité, géopolitique.<br>Les faits en perspective.</p></div><div class="footer-links"><div><strong>EXPLORER</strong><a href="index.html#actualites">Les actualités</a><a href="tous-les-jeux.html">Tous les jeux</a><a href="histoire.html">L’histoire des engins</a><a href="jeux.html">Deviner le pays</a><a href="devine-engin.html">Deviner l’engin</a></div><div><strong>À PROPOS</strong><span>Veille thématique automatisée</span><a href="index.html#methode">Notre méthode</a></div></div></div><div class="wrap footer-bottom"><span>© 2026 Radar — Défense, sécurité, géopolitique</span><a href="#top">Retour en haut ↑</a></div></footer>
+  <footer class="site-footer"><div class="wrap footer-main"><div><a class="brand footer-brand" href="index.html" aria-label="Radar, accueil"><span class="brand-mark radar-mark" aria-hidden="true"><b>R</b><i></i></span><span class="brand-name">RADAR</span></a><p>Défense, sécurité, géopolitique.<br>Les faits en perspective.</p></div><div class="footer-links"><div><strong>EXPLORER</strong><a href="index.html#actualites">Les actualités</a><a href="tous-les-jeux.html">Tous les jeux</a><a href="histoire.html">L’histoire des engins</a><a href="jeux.html">Deviner le pays</a><a href="devine-engin.html">Deviner l’engin</a></div><div><strong>À PROPOS</strong><span>Veille thématique automatisée</span><a href="index.html#methode">Notre méthode</a></div><div class="footer-trust"><strong>LE SITE</strong><a href="a-propos.html">À propos de Radar</a><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite.html">Confidentialité et données</a><a href="conditions.html">Conditions d’utilisation</a></div></div></div><div class="wrap footer-bottom"><span>© 2026 Radar — Défense, sécurité, géopolitique</span><a href="#top">Retour en haut ↑</a></div></footer>
   <script>const menu=document.querySelector('.menu-toggle'),nav=document.getElementById('main-nav');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Fermer le menu':'Ouvrir le menu')});nav.addEventListener('click',e=>{if(e.target.closest('a')){nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}});</script>
 </body>
 </html>

@@ -99,3 +99,13 @@ Vingt nouveaux engins portent le catalogue à 150 : six terrestres, six avions, 
 ## Série 8 — 12 octobre 2026
 
 Douze nouveaux engins : M26 Pershing, Centurion, PT-76, BMP-2, AC-130J Ghostrider, U-2 Dragon Lady, F-5 Tiger II, AV-8B Harrier II, classes Iowa et Nimitz, Naval Strike Missile et AGM-158 JASSM. Ils enrichissent l’atlas, les jeux de connaissance, le comparateur et la collection. Vingt-quatre photos réelles créditées, douze affirmations et quatre premiers vols sont ajoutés. Les lecteurs 3D sont présents lorsqu’un modèle correspondant a été trouvé. Les opérateurs suivent les attestations et dates explicitement citées ; les commandes de rénovation sont distinguées des résultats de combat. L’ergonomie des fiches reste conservée.
+
+## Informations du site et protections
+
+Les pages À propos, Mentions légales, Confidentialité et Conditions sont accessibles dans le pied de page. L’éditeur a déclaré une activité personnelle non professionnelle et choisi l’anonymat de l’article 1-1 II de la LCEN, en confirmant avoir communiqué ses éléments d’identification à GitHub. Le lecteur Sketchfab est soumis à un choix préalable ; le paramètre dnt=1 ne suffit pas à garantir une absence de traitement. Les données des jeux restent dans le navigateur. La page Confidentialité permet leur effacement ciblé après confirmation. La durée des échanges ordinaires reçus par e-mail doit être appliquée par l’éditeur : six mois après clôture, sous réserve des obligations de conservation justifiées.
+
+Les pages ont une politique CSP calculée par scripts/security-meta.mjs : scripts du site et hachages des scripts intégrés, objets désactivés, URL de base bloquée, lecteur limité à Sketchfab. Les styles intégrés restent nécessaires aux jauges et aux cartes ; les images HTTPS des éditeurs restent autorisées. Le script de construction recalcule les hachages sur les fichiers publiés. Les en-têtes HTTP de GitHub Pages relèvent de l’hébergeur ; une balise meta ne fournit pas toutes les protections d’un en-tête CSP serveur.
+
+### Publication cohérente depuis l’interface GitHub
+
+Lorsque des fichiers sont envoyés dans plusieurs répertoires, préparer tous les changements sur une branche créée depuis main. Envoyer les fichiers publics et le manifeste sur cette même branche, vérifier la différence et les contrôles concernés, puis fusionner la branche en une seule publication dans main. Une modification intermédiaire du manifeste dans main peut référencer des fichiers qui n’ont pas encore été envoyés ; c’est la cause de l’échec #130 du 13 octobre 2026, corrigé par la publication complète #131. La veille de 8 h et 18 h (Europe/Paris) reste sur main.
