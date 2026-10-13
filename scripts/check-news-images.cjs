@@ -28,5 +28,16 @@ async function test(){
  details.open=true;await details.fire('toggle');assert.ok(archive.children.length>0);
  document.getElementById('news-search').value='introuvable-z999';await document.getElementById('news-search').fire('input');assert.equal(grid.children.length,0);assert.equal(archive.children.length,0);
  await document.getElementById('news-reset').click();assert.equal(filter.checked,false);assert.equal(grid.children.length,4);assert.ok(archive.children.length>0);
+ const sample=createDOM(fs.readFileSync(path.join(root,'index.html'),'utf8'));c.document=sample;
+ c.window.RADAR_NEWS_VIEW.mount({items:[
+  {title:'Un extrait disponible',date:'2026-10-13',source:'Source officielle',sourceType:'Officiel',url:'https://example.org/extrait',autoCollected:true,sourceExcerpt:{text:'Le texte court transmis par la source décrit directement cette publication.'}},
+  {title:'Un résumé éditorial',date:'2026-10-13',source:'Source officielle',sourceType:'Officiel',url:'https://example.org/resume',summary:'Un résumé déjà rédigé et vérifié.'},
+  {title:'Une publication sans extrait',date:'2026-10-13',source:'Source officielle',sourceType:'Officiel',url:'https://example.org/sans-extrait',autoCollected:true,summary:'Publication repérée dans le flux.'}
+ ]},{dateLabel:d=>d,monthFormatter:new Intl.DateTimeFormat('fr',{month:'long'}),shortDateFormatter:new Intl.DateTimeFormat('fr'),parsedDate:d=>new Date(d)});
+ const samples=sample.getElementById('news-grid').children;
+ assert.match(samples[0].querySelector('small').textContent,/texte court transmis/);
+ assert.equal(samples[1].querySelector('small').textContent,'Un résumé déjà rédigé et vérifié.');
+ assert.equal(samples[2].querySelector('small'),null,'Aucun faux résumé quand le flux ne fournit pas de texte');
+ assert.match(samples[2].querySelector('.news-read').textContent,/Lire l’article chez Source officielle/);
  console.log(`${photos.length} photos d’origine, deux exemples exacts, aucun visuel de substitution, filtre photo, erreurs et archives : OK.`);
 }test().catch(e=>{console.error(e);process.exitCode=1});
