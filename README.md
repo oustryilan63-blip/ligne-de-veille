@@ -13,6 +13,7 @@ Actualités de défense et de géopolitique, huit jeux et un atlas de **162 engi
 | Les sources et horaires de veille | scripts/news-sources.json, .github/workflows/veille-quotidienne.yml |
 | Les engins partagés par les jeux et l’atlas | engins-data.js |
 | Les textes, chiffres et fiches techniques | histoire-data.js, histoire-chiffres.js, histoire-technique.js |
+| Les chronologies et leurs références | histoire-frises.js |
 | Les photos et modèles 3D | histoire-photos-data.js, histoire-3d-data.js, assets/histoire/ |
 | Le jeu de gestion QG | qg-radar.html, qg-radar-engine.js, qg-radar-art.js, assets/qg/ |
 | La collection et les sauvegardes | collection.js, sauvegarde.js |
@@ -25,9 +26,15 @@ GitHub Actions consulte les sources à **8 h et 18 h, heure de Paris**. GitHub p
 
 La sélection couvre aussi la **géopolitique** : diplomatie, alliances, sanctions, rivalités et enjeux économiques internationaux. Le bouton « Géopolitique » ouvre ce thème ; un lien direct est disponible avec `?theme=geopolitique#actualites`. Aux sources de défense et à Revue Conflits s’ajoutent [le Conseil de l’UE](https://www.consilium.europa.eu/en/about-site/rss/) et [Areion](https://www.areion24.news/diplomatie/). Leurs rubriques internationales sont sélectionnées avant la limite par source pour éviter les annonces administratives sans rapport. Les communiqués du Conseil sont référencés en anglais et signalés comme tels. Areion fournit les rubriques Diplomatie, Grands Dossiers de Diplomatie, Carto et Moyen-Orient. Les horaires existants et le traitement des photos sont conservés.
 
-Huit flux sont suivis : Sénat — Défense, ministère britannique de la Défense, Zone Militaire, OpexNews, Revue Conflits, Blablachars, Forces Operations Blog et Naval News. Blablachars ajoute un regard sur les blindés, FOB sur les programmes et l’industrie, Naval News sur le naval international. Les publications anglaises gardent leur langue et sont signalées. Chaque collecte ajoute au maximum deux articles par source ; les titres identiques, après normalisation des accents et de la ponctuation, sont filtrés sur la semaine récente. Deux traitements d’un même sujet peuvent néanmoins apporter des informations différentes.
+Dix flux sont suivis : Sénat — Défense, ministère britannique de la Défense, Zone Militaire, OpexNews, Revue Conflits, Blablachars, Forces Operations Blog, Naval News, Conseil de l’UE et Areion. Blablachars ajoute un regard sur les blindés, FOB sur les programmes et l’industrie, Naval News sur le naval international. Les publications anglaises gardent leur langue et sont signalées. Chaque collecte ajoute au maximum deux ou trois articles par source selon sa configuration ; les titres identiques, après normalisation des accents et de la ponctuation, sont filtrés sur la semaine récente. Deux traitements d’un même sujet peuvent néanmoins apporter des informations différentes.
 
 Les actualités affichent les **images principales réellement publiées avec les articles**. À 8 h et 18 h, la collecte les repère dans les métadonnées Open Graph ou Twitter des sources configurées. Elle conserve les licences libres vérifiées quand elles sont disponibles et utilise les autorisations de republication confirmées par le propriétaire de Radar pour les autres images. Chaque image garde le crédit indiqué dans l’article, ou « Crédit non indiqué par l’éditeur » quand celui-ci manque, ainsi que le lien vers sa publication. Les logos et images de remplacement sont exclus. Une image inaccessible reste absente ; sa recherche est retentée après 24 heures. Le filtre « Avec photo uniquement » facilite leur consultation. Conflits reste référencé par titre et lien sans reprise de ses extraits.
+
+## Histoires et frises
+
+Les 162 récits sont organisés en chapitres : origines, conception, carrière et évolutions. Chaque passage donne accès à ses références dans un dépliant. Les frises réunissent des étapes documentées de la naissance du programme à sa carrière ; une annonce, un prototype, une livraison et une entrée en service restent des événements distincts. Les dates gardent la précision réelle des sources et les variantes sont identifiées. Un lien dans le récit donne accès directement à la chronologie.
+
+Les paragraphes et leurs références se trouvent dans `histoire-data.js` (`storySections`), les événements dans `histoire-frises.js`. L’indice de chaque fiche reste celui d’`engins-data.js` : modifier les histoires ne change pas les identités utilisées dans les jeux ou les collections. Le chargement complet du récit reste réservé à l’ouverture d’une fiche.
 
 ## Modifier et vérifier
 

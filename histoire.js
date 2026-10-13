@@ -119,11 +119,42 @@
     copy.append(technicalCard(index));
     const modelView=window.RADAR_3D?.create(item);
     if(modelView){const explore=el('a','button button-dark history-3d-shortcut','Explorer cet engin en 3D ↓');explore.href='#vue-3d';explore.addEventListener('click',()=>modelView.open());media.append(explore)}
-    const story=el('section','history-story');story.id='recit';story.setAttribute('aria-labelledby','story-title-'+index);const storyTitle=el('h3','','Son histoire');storyTitle.id='story-title-'+index;story.append(storyTitle);(fact.story||'L’histoire de cet engin est présentée dans la source liée ci-dessous.').split('\n\n').forEach(paragraph=>story.append(el('p','',paragraph)));
+    const events=window.LDV_TIMELINES?.[index]||[];
+    const story=el('section','history-story');story.id='recit';story.setAttribute('aria-labelledby','story-title-'+index);const storyTitle=el('h3','','Son histoire');storyTitle.id='story-title-'+index;story.append(storyTitle);
+    const storyMeta=el('div','history-story-meta');
+    const minutes=Math.max(1,Math.round((fact.story||'').split(/\s+/).filter(Boolean).length/180));
+    storyMeta.append(el('span','',minutes+' min de lecture'));
+    if(fact.storyCheckedAt)storyMeta.append(el('span','history-story-reviewed','Récit revu le '+fact.storyCheckedAt));
+    if(events.length){const shortcut=el('a','','Voir les '+events.length+' grandes étapes ↓');shortcut.href='#chronologie';storyMeta.append(shortcut)}
+    story.append(storyMeta);
+    if(fact.storySections?.length){
+      const chapters=el('div','history-story-chapters');
+      for(const chapter of fact.storySections){
+        const block=el('section','history-story-chapter');block.append(el('h4','',chapter.title));
+        chapter.text.split('\n\n').forEach(paragraph=>block.append(el('p','',paragraph)));
+        if(chapter.sources?.length){
+          const refs=el('details','history-chapter-sources');refs.append(el('summary','','Sources de ce passage'));
+          const list=el('ul');for(const url of chapter.sources){const li=el('li'),label=fact.storySources?.find(s=>s.url===url)?.label||'Document de référence';li.append(link(label+' ↗',url));list.append(li)}refs.append(list);block.append(refs);
+        }
+        chapters.append(block);
+      }
+      story.append(chapters);
+    }else (fact.story||'L’histoire de cet engin est présentée dans la source liée ci-dessous.').split('\n\n').forEach(paragraph=>story.append(el('p','',paragraph)));
     head.append(media,copy);detail.append(head,story);
     if(modelView)detail.append(modelView.section);
-    const events=window.LDV_TIMELINES?.[index]||[];
-    if(events.length){const timeline=el('section','history-timeline');timeline.append(el('h3','','Les grandes étapes'),el('p','','Jalons documentés : les dates conservent la précision de leurs sources.'));const list=el('ol');for(const event of events){const li=el('li');li.append(el('time','',event.date),el('h4','',event.label),el('p','',event.detail),link('Vérifier ce jalon ↗',event.source));list.append(li)}timeline.append(list);detail.append(timeline)}
+    if(events.length){
+      const timeline=el('section','history-timeline');timeline.id='chronologie';timeline.setAttribute('aria-labelledby','timeline-title-'+index);
+      const heading=el('h3','','Les grandes étapes');heading.id='timeline-title-'+index;
+      timeline.append(heading,el('p','history-timeline-intro','Du développement aux évolutions de la carrière. Chaque étape conserve la précision de sa source.'));
+      if(fact.timelineNote)timeline.append(el('p','history-timeline-note',fact.timelineNote));
+      const list=el('ol');
+      for(const [position,event] of events.entries()){
+        const li=el('li'),number=el('span','history-timeline-number',String(position+1).padStart(2,'0'));number.setAttribute('aria-hidden','true');
+        const ref=link('Vérifier ce jalon ↗',event.source);ref.setAttribute('aria-label','Source du jalon : '+event.label+' — '+event.date);
+        li.append(number,el('time','',event.date),el('h4','',event.label),el('p','',event.detail),ref);list.append(li);
+      }
+      timeline.append(list);detail.append(timeline);
+    }
     const origin=item.code,origins=item.originCodes||[origin],former=fact.former||[];
     const current=fact.originOnly?[]:[...new Set([...(fact.documentedOperatorsOnly||former.includes(origin)?[]:[origin]),...(fact.current||[])])];
     const currentLabel=fact.operatorSnapshot?'Utilisateur attesté dans les sources':'Utilisateur actuel documenté';
@@ -166,7 +197,7 @@
       detail.append(records);
     }
     const sources=el('section','history-detail-section history-sources');sources.id='sources';sources.append(el('h3','','Sources de la fiche'));const list=el('ul');
-    const refs=[['Présentation et histoire du programme',item.source],['Pays utilisateurs',fact.operatorSource],['Anciens utilisateurs',fact.formerSource],['Production et livraisons',production?.source],['Inventaire daté',inventory?.source],['Engins détruits',figuresFor.losses?.source],['Cibles détruites',figuresFor.targets?.source],...(fact.storySources||[]).map(ref=>[ref.label,ref.url]),...(fact.extraSources||[]).map(url=>['Autre source',url])];const seen=new Set();refs.forEach(([title,url])=>{if(url&&!seen.has(url)){seen.add(url);const li=el('li');li.append(link(title+' ↗',url));list.append(li)}});sources.append(list,el('p','','Sources consultées le '+(fact.checkedAt||'10 octobre 2026')+'. La carte présente les pays documentés dans ces sources, sans prétendre couvrir chaque transfert ou retrait. Les bilans de pertes sont des minimums documentés ou des estimations datées, précisés dans chaque carte.'));detail.append(sources);
+    const refs=[['Présentation et histoire du programme',item.source],['Pays utilisateurs',fact.operatorSource],['Anciens utilisateurs',fact.formerSource],['Production et livraisons',production?.source],['Inventaire daté',inventory?.source],['Engins détruits',figuresFor.losses?.source],['Cibles détruites',figuresFor.targets?.source],...(fact.storySources||[]).map(ref=>[ref.label,ref.url]),...(fact.extraSources||[]).map(url=>['Autre source',url])];const seen=new Set();refs.forEach(([title,url])=>{if(url&&!seen.has(url)){seen.add(url);const li=el('li');li.append(link(title+' ↗',url));list.append(li)}});sources.append(list,el('p','',(fact.storyCheckedAt?'Récit et frise revus le '+fact.storyCheckedAt+'. Autres repères : dernière vérification indiquée le '+(fact.checkedAt||'10 octobre 2026'):'Sources consultées le '+(fact.checkedAt||'10 octobre 2026'))+'. La carte présente les pays documentés dans ces sources, sans prétendre couvrir chaque transfert ou retrait. Les bilans de pertes sont des minimums documentés ou des estimations datées, précisés dans chaque carte.'));detail.append(sources);
     const next=el('nav','history-next');next.setAttribute('aria-label','Parcourir les fiches');const prev=el('a','','← '+engins[(index+engins.length-1)%engins.length].name);prev.href='histoire.html?engin='+(index+engins.length-1)%engins.length;const after=el('a','',engins[(index+1)%engins.length].name+' →');after.href='histoire.html?engin='+(index+1)%engins.length;next.append(prev,after);detail.append(next);
     for(const [label,id] of [['Histoire','recit'],['Technique','technique'],['Photos','photos'],...(modelView?[['3D','vue-3d']]:[]),['Carte','utilisateurs'],['Chiffres','chiffres'],['Sources','sources']]){const a=el('a','',label);a.href='#'+id;if(id==='technique')a.addEventListener('click',()=>{const button=document.getElementById('tech-toggle-'+index);if(button.getAttribute('aria-expanded')==='false')button.click()});jump.append(a);}
   }
