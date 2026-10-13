@@ -9,7 +9,7 @@
     const request=new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=src;script.async=true;script.onload=resolve;script.onerror=()=>{script.remove();cache.delete(src);reject(new Error('Chargement impossible : '+src))};document.head.append(script)});
     cache.set(src,request);return request;
   }
-  const profileData=['histoire-data.js?v=17','histoire-chiffres.js?v=16','histoire-technique.js?v=5','map-data.js','histoire-frises.js?v=5','histoire-photos-data.js?v=4','histoire-3d-data.js?v=5'];
+  const profileData=['histoire-data.js?v=18','histoire-chiffres.js?v=16','histoire-technique.js?v=5','map-data.js','histoire-frises.js?v=6','histoire-photos-data.js?v=4','histoire-3d-data.js?v=5'];
   async function start(){
     status.hidden=false;status.textContent=isProfile?'Chargement de la fiche…':'Chargement du catalogue…';
     if(isProfile){document.body.classList.add('history-profile');document.getElementById('history-catalogue').hidden=true;await Promise.all(profileData.map(load));await Promise.all(['histoire-photos.js?v=3','histoire-3d.js?v=3'].map(load));}

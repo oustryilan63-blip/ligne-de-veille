@@ -570,7 +570,7 @@ window.LDV_HISTOIRE = [
     "storyCheckedAt": "13 octobre 2026"
   },
   {
-    "story": "Le Rafale est conçu pour remplacer plusieurs types d’avions spécialisés dans l’aviation de combat française. Il doit assurer défense aérienne, attaque, reconnaissance et autres missions au sein d’une même famille. Cette ambition associe dès l’origine l’armée de l’air et la Marine nationale, avec une base technique commune et des adaptations aux contraintes des pistes terrestres ou du pont d’un porte-avions.\n\nLe Rafale A, qui vole en 1986, démontre des choix techniques sans constituer un avion de série. Les prototypes C01 et M01 prennent l’air en 1991, puis le B01 biplace en 1993. Le Rafale C est monoplace, le B biplace et le M adapté aux catapultages et appontages. La version embarquée conserve un seul siège, mais possède des adaptations structurelles propres.\n\nLa première flottille navale est déclarée opérationnelle en 2004, suivie du premier escadron de l’armée de l’air en 2006. Les capacités se développent ensuite par standards successifs, qui étendent l’armement et les missions disponibles. L’évolution concerne les capteurs, les échanges de données et les équipements de protection. Elle permet de faire progresser un avion en service sans reprendre toute sa cellule depuis le début.\n\nLe Rafale est engagé opérationnellement puis adopté par plusieurs forces étrangères. L’exportation s’appuie sur une famille capable de combiner plusieurs tâches au cours d’une sortie, tout en demandant formation et soutien adaptés. Son histoire se comprend donc en distinguant les versions et leurs standards : une date de livraison ne suffit pas à connaître les capacités qualifiées, et les caractéristiques du Rafale C ne décrivent pas exactement celles du M.",
+    "story": "Le Rafale est conçu pour remplacer plusieurs types d’avions spécialisés dans l’aviation de combat française. Il doit assurer défense aérienne, attaque, reconnaissance et autres missions au sein d’une même famille. Cette ambition associe dès l’origine l’armée de l’air et la Marine nationale, avec une base technique commune et des adaptations aux contraintes des pistes terrestres ou du pont d’un porte-avions.\n\nLe Rafale A, qui vole en 1986, démontre des choix techniques sans constituer un avion de série. Les prototypes C01 et M01 prennent l’air en 1991, puis le B01 biplace en 1993. Le Rafale C est monoplace, le B biplace et le M adapté aux catapultages et appontages. La version embarquée conserve un seul siège, mais possède des adaptations structurelles propres.\n\nLa première flottille navale est déclarée opérationnelle en 2004, suivie du premier escadron de l’armée de l’air en 2006. Les capacités se développent ensuite par standards successifs, qui étendent l’armement et les missions disponibles. L’évolution concerne les capteurs, les échanges de données et les équipements de protection. Elle permet de faire progresser un avion en service sans reprendre toute sa cellule depuis le début.\n\nLe F3-R, qualifié en octobre 2018, apporte notamment Meteor et Talios. En mars 2023, la qualification du F4.1 ajoute des fonctions de combat aérien collaboratif ; l’adoption par les forces et leur préparation opérationnelle constituent ensuite des étapes distinctes.\n\nLe Rafale est engagé opérationnellement puis adopté par plusieurs forces étrangères. L’exportation s’appuie sur une famille capable de combiner plusieurs tâches au cours d’une sortie, tout en demandant formation et soutien adaptés. Son histoire se comprend donc en distinguant les versions et leurs standards : une date de livraison ne suffit pas à connaître les capacités qualifiées, et les caractéristiques du Rafale C ne décrivent pas exactement celles du M.",
     "current": [
       "EG",
       "QA",
@@ -601,6 +601,18 @@ window.LDV_HISTOIRE = [
       {
         "label": "Dassault — présentation du Rafale",
         "url": "https://www.dassault-aviation.com/en/defense/rafale/"
+      },
+      {
+        "label": "Dassault Aviation — qualification du Rafale F3-R par la DGA",
+        "url": "https://www.dassault-aviation.com/wp-content/blogs.dir/2/files/2018/11/PR-Dassault_F3-R.pdf"
+      },
+      {
+        "label": "DGA — qualification du Rafale F4.1, mars 2023",
+        "url": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/27.03.2023%20Qualification%20du%20Rafale%20au%20standard%20F4.1%20par%20la%20direction%20g%C3%A9n%C3%A9rale%20de%20l%E2%80%99armement.pdf"
+      },
+      {
+        "label": "Armée de l’Air et de l’Espace — adoption du F4.1 et préparation opérationnelle",
+        "url": "https://www.defense.gouv.fr/air/actualites/standard-f41-du-rafale-desormais-adopte-laae"
       }
     ],
     "checkedAt": "11 octobre 2026",
@@ -622,10 +634,13 @@ window.LDV_HISTOIRE = [
       },
       {
         "title": "Construire la capacité opérationnelle",
-        "text": "La première flottille navale est déclarée opérationnelle en 2004, suivie du premier escadron de l’armée de l’air en 2006. Les capacités se développent ensuite par standards successifs, qui étendent l’armement et les missions disponibles. L’évolution concerne les capteurs, les échanges de données et les équipements de protection. Elle permet de faire progresser un avion en service sans reprendre toute sa cellule depuis le début.",
+        "text": "La première flottille navale est déclarée opérationnelle en 2004, suivie du premier escadron de l’armée de l’air en 2006. Les capacités se développent ensuite par standards successifs, qui étendent l’armement et les missions disponibles. L’évolution concerne les capteurs, les échanges de données et les équipements de protection. Elle permet de faire progresser un avion en service sans reprendre toute sa cellule depuis le début.\n\nLe F3-R, qualifié en octobre 2018, apporte notamment Meteor et Talios. En mars 2023, la qualification du F4.1 ajoute des fonctions de combat aérien collaboratif ; l’adoption par les forces et leur préparation opérationnelle constituent ensuite des étapes distinctes.",
         "sources": [
           "https://www.dassault-aviation.com/en/defense/rafale/a-fully-optimized-airframe/",
-          "https://www.dassault-aviation.com/en/defense/rafale/"
+          "https://www.dassault-aviation.com/en/defense/rafale/",
+          "https://www.dassault-aviation.com/wp-content/blogs.dir/2/files/2018/11/PR-Dassault_F3-R.pdf",
+          "https://www.defense.gouv.fr/sites/default/files/ministere-armees/27.03.2023%20Qualification%20du%20Rafale%20au%20standard%20F4.1%20par%20la%20direction%20g%C3%A9n%C3%A9rale%20de%20l%E2%80%99armement.pdf",
+          "https://www.defense.gouv.fr/air/actualites/standard-f41-du-rafale-desormais-adopte-laae"
         ]
       },
       {
@@ -1516,7 +1531,7 @@ window.LDV_HISTOIRE = [
     "storyCheckedAt": "13 octobre 2026"
   },
   {
-    "story": "La famille M1 Abrams fait ses débuts dans les forces américaines en 1980. Elle renouvelle le char de bataille autour d’une plateforme protégée, d’une conduite de tir moderne et d’une turbine à gaz. Ce choix de propulsion distingue l’Abrams de nombreuses familles à moteur diesel. Il entraîne une organisation de soutien adaptée, tandis que le char devient un élément central des unités blindées américaines.\n\nLe M1A1, dont la production commence en 1985, introduit notamment le canon lisse de 120 mm. Il entre en service en 1986. La famille conserve une silhouette apparentée mais évolue en armement et en équipements. Ces générations doivent rester distinctes : un M1 initial et un M1A1 n’ont pas exactement les mêmes moyens de combat, même lorsqu’ils appartiennent au même programme de char.\n\nLa production du M1A2 commence en 1992. Un viseur thermique indépendant pour le chef complète les moyens du tireur, tandis qu’une architecture numérique renouvelle l’exploitation des informations. Les programmes SEP prolongent cette transformation : l’US Army situe une première évolution en service en 2001, puis le début du déploiement du SEP v2 en 2004. Les écrans et les échanges de données modifient le travail des équipages.\n\nLe SEP v3 renouvelle à son tour l’alimentation électrique et intègre un groupe auxiliaire sous blindage, selon General Dynamics. Les modernisations doivent maintenir les capteurs et les communications à niveau tout en gérant la masse et les besoins énergétiques. L’histoire de l’Abrams illustre cette adaptation progressive d’une plateforme ancienne. Les caractéristiques d’un M1A2 de référence ne peuvent donc pas être appliquées indistinctement aux SEP plus récents ou aux configurations export.",
+    "story": "La famille M1 Abrams fait ses débuts dans les forces américaines en 1980. Elle renouvelle le char de bataille autour d’une plateforme protégée, d’une conduite de tir moderne et d’une turbine à gaz. Ce choix de propulsion distingue l’Abrams de nombreuses familles à moteur diesel. Il entraîne une organisation de soutien adaptée, tandis que le char devient un élément central des unités blindées américaines.\n\nLe M1A1, dont la production commence en 1985, introduit notamment le canon lisse de 120 mm. Il entre en service en 1986. La famille conserve une silhouette apparentée mais évolue en armement et en équipements. Ces générations doivent rester distinctes : un M1 initial et un M1A1 n’ont pas exactement les mêmes moyens de combat, même lorsqu’ils appartiennent au même programme de char.\n\nLa production du M1A2 commence en 1992. Un viseur thermique indépendant pour le chef complète les moyens du tireur, tandis qu’une architecture numérique renouvelle l’exploitation des informations. Les programmes SEP prolongent cette transformation : l’US Army situe une première évolution en service en 2001, puis le début du déploiement du SEP v2 en 2004. Les écrans et les échanges de données modifient le travail des équipages.\n\nLe SEP v3 renouvelle à son tour l’alimentation électrique et intègre un groupe auxiliaire sous blindage, selon General Dynamics. Les modernisations doivent maintenir les capteurs et les communications à niveau tout en gérant la masse et les besoins énergétiques. L’histoire de l’Abrams illustre cette adaptation progressive d’une plateforme ancienne. Les caractéristiques d’un M1A2 de référence ne peuvent donc pas être appliquées indistinctement aux SEP plus récents ou aux configurations export.\n\nL’US Army reçoit le premier SEP v3 de production initiale en octobre 2017. La brigade Greywolf devient la première unité équipée en juillet 2020 : la réception industrielle et l’arrivée du standard dans les formations de combat restent deux jalons distincts.",
     "current": [
       "AU",
       "EG",
@@ -1545,6 +1560,14 @@ window.LDV_HISTOIRE = [
       {
         "label": "US Army ODIN — histoire du M1A1",
         "url": "https://odin.t2com.army.mil/WEG/Asset/M1A1_Abrams_American_Main_Battle_Tank"
+      },
+      {
+        "label": "US Army — première réception de production du M1A2 SEP v3, octobre 2017",
+        "url": "https://www.army.mil/article/194952/army_rolls_out_latest_version_of_iconic_abrams_main_battle_tank"
+      },
+      {
+        "label": "US Army — première unité équipée du M1A2C SEP v3, juillet 2020",
+        "url": "https://www.army.mil/article-amp/238575/greywolf_brigade_first_to_receive_new_abrams_tanks"
       }
     ],
     "checkedAt": "11 octobre 2026",
@@ -1572,10 +1595,12 @@ window.LDV_HISTOIRE = [
       },
       {
         "title": "Une évolution de longue durée",
-        "text": "Le SEP v3 renouvelle à son tour l’alimentation électrique et intègre un groupe auxiliaire sous blindage, selon General Dynamics. Les modernisations doivent maintenir les capteurs et les communications à niveau tout en gérant la masse et les besoins énergétiques. L’histoire de l’Abrams illustre cette adaptation progressive d’une plateforme ancienne. Les caractéristiques d’un M1A2 de référence ne peuvent donc pas être appliquées indistinctement aux SEP plus récents ou aux configurations export.",
+        "text": "Le SEP v3 renouvelle à son tour l’alimentation électrique et intègre un groupe auxiliaire sous blindage, selon General Dynamics. Les modernisations doivent maintenir les capteurs et les communications à niveau tout en gérant la masse et les besoins énergétiques. L’histoire de l’Abrams illustre cette adaptation progressive d’une plateforme ancienne. Les caractéristiques d’un M1A2 de référence ne peuvent donc pas être appliquées indistinctement aux SEP plus récents ou aux configurations export.\n\nL’US Army reçoit le premier SEP v3 de production initiale en octobre 2017. La brigade Greywolf devient la première unité équipée en juillet 2020 : la réception industrielle et l’arrivée du standard dans les formations de combat restent deux jalons distincts.",
         "sources": [
           "https://www.gdls.com/abrams/",
-          "https://international.gdls.com/english/products/ABRAMS/M1A2.pdf"
+          "https://international.gdls.com/english/products/ABRAMS/M1A2.pdf",
+          "https://www.army.mil/article/194952/army_rolls_out_latest_version_of_iconic_abrams_main_battle_tank",
+          "https://www.army.mil/article-amp/238575/greywolf_brigade_first_to_receive_new_abrams_tanks"
         ]
       }
     ],
@@ -1881,7 +1906,7 @@ window.LDV_HISTOIRE = [
     "storyCheckedAt": "13 octobre 2026"
   },
   {
-    "story": "Le Mirage 2000 reprend la silhouette à aile delta associée aux Mirage, mais constitue un avion nouveau. Dassault le développe avec des commandes de vol électriques et une stabilité artificielle. Cette combinaison permet de renouveler la maniabilité et l’intégration des systèmes. Le premier vol en 1978 ouvre une famille destinée à la défense aérienne française et à l’exportation, avec des versions adaptées à plusieurs missions.\n\nLa première version entre en service dans l’armée de l’air française en 1984 pour la défense aérienne. La configuration monoplace organise observation, interception et tir autour d’un pilote. Les capteurs et la conduite de mission continuent d’évoluer avec la flotte. Une version biplace permet également la formation et constitue la base d’autres modèles spécialisés, dont les missions demandent une répartition différente du travail à bord.\n\nLa lignée s’élargit avec le Mirage 2000N, dont le prototype vole en 1983, puis des versions d’attaque et de défense aérienne modernisée. Le Mirage 2000-5 prend l’air en 1991, suivi du 2000-9 en 2000 dans la chronologie Dassault. Ces étapes illustrent la capacité à renouveler radar, armement et équipements dans une cellule apparentée. Elles ne constituent pas les dates d’entrée en service de chaque version.\n\nL’exportation donne à la famille une carrière dans plusieurs forces aériennes, avec des équipements répondant aux besoins nationaux. La maintenance et les rénovations permettent de poursuivre l’exploitation longtemps après les premières livraisons. Le Mirage 2000 montre ainsi l’importance des standards et du soutien dans la vie d’un chasseur. Pour comparer un appareil, il faut préciser sa variante : les masses et l’équipage d’un 2000-5 monoplace ne décrivent pas les versions biplaces spécialisées.",
+    "story": "Le Mirage 2000 reprend la silhouette à aile delta associée aux Mirage, mais constitue un avion nouveau. Dassault le développe avec des commandes de vol électriques et une stabilité artificielle. Cette combinaison permet de renouveler la maniabilité et l’intégration des systèmes. Le premier vol en 1978 ouvre une famille destinée à la défense aérienne française et à l’exportation, avec des versions adaptées à plusieurs missions.\n\nLa première version entre en service dans l’armée de l’air française en 1984 pour la défense aérienne. La configuration monoplace organise observation, interception et tir autour d’un pilote. Les capteurs et la conduite de mission continuent d’évoluer avec la flotte. Une version biplace permet également la formation et constitue la base d’autres modèles spécialisés, dont les missions demandent une répartition différente du travail à bord.\n\nLa lignée s’élargit avec le Mirage 2000N, dont le prototype vole en 1983, puis des versions d’attaque et de défense aérienne modernisée. Le Mirage 2000-5 prend l’air en 1991, suivi du 2000-9 en 2000 dans la chronologie Dassault. Ces étapes illustrent la capacité à renouveler radar, armement et équipements dans une cellule apparentée. Elles ne constituent pas les dates d’entrée en service de chaque version.\n\nL’exportation donne à la famille une carrière dans plusieurs forces aériennes, avec des équipements répondant aux besoins nationaux. La maintenance et les rénovations permettent de poursuivre l’exploitation longtemps après les premières livraisons. Le Mirage 2000 montre ainsi l’importance des standards et du soutien dans la vie d’un chasseur. Pour comparer un appareil, il faut préciser sa variante : les masses et l’équipage d’un 2000-5 monoplace ne décrivent pas les versions biplaces spécialisées.\n\nLa variante d’attaque Mirage 2000D reçoit une rénovation à mi-vie qui modernise son armement, son cockpit et sa connectivité, avec quinze appareils mis en service au dernier trimestre 2022. La livraison du dernier exemplaire rénové en juin 2026 prolonge concrètement la carrière de cette branche de la famille.",
     "current": [
       "EG",
       "GR",
@@ -1913,6 +1938,18 @@ window.LDV_HISTOIRE = [
       {
         "label": "Dassault — chronologie des Mirage 2000",
         "url": "https://www.dassault-aviation.com/wp-content/extra/timeline/en/"
+      },
+      {
+        "label": "Armée de l’Air et de l’Espace — mise en service des Mirage 2000D RMV en 2022",
+        "url": "https://www.defense.gouv.fr/air/actualites/trois-mirage-2000-3e-escadre-projetes-djibouti"
+      },
+      {
+        "label": "DGA — livraison du dernier Mirage 2000D rénové, juin 2026",
+        "url": "https://www.defense.gouv.fr/de/node/24336"
+      },
+      {
+        "label": "Armée de l’Air et de l’Espace — rénovation du Mirage 2000D et capacités renouvelées",
+        "url": "https://www.defense.gouv.fr/air/actualites/mirage-2000-renove-combattre-cest-sadapter"
       }
     ],
     "checkedAt": "11 octobre 2026",
@@ -1940,10 +1977,13 @@ window.LDV_HISTOIRE = [
       },
       {
         "title": "La durée de vie passe par le soutien",
-        "text": "L’exportation donne à la famille une carrière dans plusieurs forces aériennes, avec des équipements répondant aux besoins nationaux. La maintenance et les rénovations permettent de poursuivre l’exploitation longtemps après les premières livraisons. Le Mirage 2000 montre ainsi l’importance des standards et du soutien dans la vie d’un chasseur. Pour comparer un appareil, il faut préciser sa variante : les masses et l’équipage d’un 2000-5 monoplace ne décrivent pas les versions biplaces spécialisées.",
+        "text": "L’exportation donne à la famille une carrière dans plusieurs forces aériennes, avec des équipements répondant aux besoins nationaux. La maintenance et les rénovations permettent de poursuivre l’exploitation longtemps après les premières livraisons. Le Mirage 2000 montre ainsi l’importance des standards et du soutien dans la vie d’un chasseur. Pour comparer un appareil, il faut préciser sa variante : les masses et l’équipage d’un 2000-5 monoplace ne décrivent pas les versions biplaces spécialisées.\n\nLa variante d’attaque Mirage 2000D reçoit une rénovation à mi-vie qui modernise son armement, son cockpit et sa connectivité, avec quinze appareils mis en service au dernier trimestre 2022. La livraison du dernier exemplaire rénové en juin 2026 prolonge concrètement la carrière de cette branche de la famille.",
         "sources": [
           "https://www.dassault-aviation.com/fr/defense/soutien-militaire/avions-soutenus/mirage-2000/",
-          "https://dassault-aviation.publispeak.com/2023-annual-report/doc/article/44/"
+          "https://dassault-aviation.publispeak.com/2023-annual-report/doc/article/44/",
+          "https://www.defense.gouv.fr/air/actualites/trois-mirage-2000-3e-escadre-projetes-djibouti",
+          "https://www.defense.gouv.fr/de/node/24336",
+          "https://www.defense.gouv.fr/air/actualites/mirage-2000-renove-combattre-cest-sadapter"
         ]
       }
     ],
@@ -5295,7 +5335,7 @@ window.LDV_HISTOIRE = [
     "storyCheckedAt": "13 octobre 2026"
   },
   {
-    "story": "Le B-2 apparaît à la fin de la guerre froide, alors que les défenses aériennes deviennent plus exigeantes. Northrop développe un bombardier conçu autour de la faible observabilité et de la capacité de transport de charges sur de longues distances. La forme d’aile volante constitue son signe le plus reconnaissable. Le programme reprend cette architecture dans une génération nouvelle, où matériaux, contrôle de vol et équipements jouent un rôle majeur.\n\nLes matériaux composites, les revêtements et les choix de conception cherchent à réduire plusieurs signatures. Une partie de ces techniques demeure non publique. La forme seule n’explique donc pas le B-2, et les comparaisons de furtivité ne peuvent être résumées par des valeurs inventées. Le poste de pilotage accueille deux pilotes. Le programme associe ainsi une cellule inhabituelle à un ensemble de systèmes et de pratiques d’entretien propres.\n\nLe B-2 est présenté au public le 22 novembre 1988 à Palmdale, puis effectue son premier vol le 17 juillet 1989. La campagne d’essais précède la livraison du premier appareil opérationnel le 17 décembre 1993 à Whiteman, dans le Missouri. Ces étapes séparent la révélation d’un programme, son vol initial et l’arrivée dans la flotte. Le soutien se concentre ensuite autour d’un parc spécialisé.\n\nLe bombardier participe à Allied Force en 1999, puis aux opérations en Afghanistan en 2001 et en Irak en 2003, selon le musée de l’US Air Force. Ces engagements montrent le passage d’un programme conçu pendant la guerre froide à d’autres missions. Le B-2 reste un repère dans l’histoire de la faible observabilité : son importance repose sur l’intégration de nombreuses technologies, avec les contraintes de maintenance et de soutien d’un appareil complexe.",
+    "story": "Le B-2 apparaît à la fin de la guerre froide, alors que les défenses aériennes deviennent plus exigeantes. Northrop développe un bombardier conçu autour de la faible observabilité et de la capacité de transport de charges sur de longues distances. La forme d’aile volante constitue son signe le plus reconnaissable. Le programme reprend cette architecture dans une génération nouvelle, où matériaux, contrôle de vol et équipements jouent un rôle majeur.\n\nLes matériaux composites, les revêtements et les choix de conception cherchent à réduire plusieurs signatures. Une partie de ces techniques demeure non publique. La forme seule n’explique donc pas le B-2, et les comparaisons de furtivité ne peuvent être résumées par des valeurs inventées. Le poste de pilotage accueille deux pilotes. Le programme associe ainsi une cellule inhabituelle à un ensemble de systèmes et de pratiques d’entretien propres.\n\nLe B-2 est présenté au public le 22 novembre 1988 à Palmdale, puis effectue son premier vol le 17 juillet 1989. La campagne d’essais précède la livraison du premier appareil opérationnel le 17 décembre 1993 à Whiteman, dans le Missouri. Ces étapes séparent la révélation d’un programme, son vol initial et l’arrivée dans la flotte. Le soutien se concentre ensuite autour d’un parc spécialisé.\n\nLe bombardier participe à Allied Force en 1999, puis aux opérations en Afghanistan en 2001 et en Irak en 2003, selon le musée de l’US Air Force. Ces engagements montrent le passage d’un programme conçu pendant la guerre froide à d’autres missions. Le B-2 reste un repère dans l’histoire de la faible observabilité : son importance repose sur l’intégration de nombreuses technologies, avec les contraintes de maintenance et de soutien d’un appareil complexe.\n\nLa modernisation se poursuit aussi dans les logiciels : en décembre 2022, l’US Air Force décrit les premiers bénéfices de Spirit Realm, développé avec Northrop Grumman. Ce dispositif renouvelle l’organisation des essais et des mises à jour pour soutenir la flotte au-delà de ses premiers engagements.",
     "current": [
       "US"
     ],
@@ -5318,6 +5358,10 @@ window.LDV_HISTOIRE = [
       {
         "label": "Source historique du catalogue — B-2 Spirit",
         "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104482/b-2-spirit/"
+      },
+      {
+        "label": "US Air Force — modernisation logicielle du B-2 avec Spirit Realm, décembre 2022",
+        "url": "https://www.af.mil/News/Features/Article/3233335/new-spirit-realm-b-2-spirit-software-factory-keeps-fleet-operational-enabling-c/"
       }
     ],
     "storySections": [
@@ -5346,10 +5390,11 @@ window.LDV_HISTOIRE = [
       },
       {
         "title": "Une carrière dans des contextes différents",
-        "text": "Le bombardier participe à Allied Force en 1999, puis aux opérations en Afghanistan en 2001 et en Irak en 2003, selon le musée de l’US Air Force. Ces engagements montrent le passage d’un programme conçu pendant la guerre froide à d’autres missions. Le B-2 reste un repère dans l’histoire de la faible observabilité : son importance repose sur l’intégration de nombreuses technologies, avec les contraintes de maintenance et de soutien d’un appareil complexe.",
+        "text": "Le bombardier participe à Allied Force en 1999, puis aux opérations en Afghanistan en 2001 et en Irak en 2003, selon le musée de l’US Air Force. Ces engagements montrent le passage d’un programme conçu pendant la guerre froide à d’autres missions. Le B-2 reste un repère dans l’histoire de la faible observabilité : son importance repose sur l’intégration de nombreuses technologies, avec les contraintes de maintenance et de soutien d’un appareil complexe.\n\nLa modernisation se poursuit aussi dans les logiciels : en décembre 2022, l’US Air Force décrit les premiers bénéfices de Spirit Realm, développé avec Northrop Grumman. Ce dispositif renouvelle l’organisation des essais et des mises à jour pour soutenir la flotte au-delà de ses premiers engagements.",
         "sources": [
           "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195832/USAFmuseum/northrop-b-2-spirit/",
-          "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104482/b-2-spirit/b-2-spirit/"
+          "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104482/b-2-spirit/b-2-spirit/",
+          "https://www.af.mil/News/Features/Article/3233335/new-spirit-realm-b-2-spirit-software-factory-keeps-fleet-operational-enabling-c/"
         ]
       }
     ],
@@ -5627,7 +5672,7 @@ window.LDV_HISTOIRE = [
     "storyCheckedAt": "13 octobre 2026"
   },
   {
-    "story": "Le Minuteman III prolonge une famille américaine issue de la guerre froide, après les générations I et II. Un contrat de recherche et développement est confié à Boeing en juillet 1965. Le programme adapte la base existante à de nouvelles exigences du système stratégique. Il appartient à la composante terrestre de la dissuasion, aux côtés des sous-marins et des bombardiers, avec un soutien industriel distinct de celui des autres composantes.\n\nLe premier Minuteman III non armé est lancé en essai le 16 août 1968. Les campagnes se poursuivent avant le déploiement de juin 1970 et la constitution des unités. Cette transition sépare un prototype validé en vol d’un système exploité par la force. La production initiale s’achève en décembre 1978 ; cette fin de fabrication n’équivaut pas à un retrait, puisque la maintenance et le remplacement des composants prennent ensuite le relais.\n\nLa fin de la guerre froide transforme le parc américain. Le Minuteman II est progressivement retiré, son dernier exemplaire quittant un silo en 1995. Le retrait du Peacekeeper s’achève en 2005. Le Minuteman III devient ainsi le seul modèle d’ICBM terrestre en service aux États-Unis. Cette place résulte des décisions concernant l’ensemble de la force, autant que des qualités et modernisations propres au programme lui-même.\n\nLes programmes de prolongation de vie renouvellent les moteurs, les équipements et les installations au lieu de relancer la fabrication complète sous un nouveau nom. Le système conserve donc sa désignation au travers de transformations importantes. Les inventaires publiés doivent rester datés et se distinguer de la production cumulée. Le Minuteman III illustre une durée de service rendue possible par un entretien permanent, tandis que les générations antérieures restent conservées dans les collections historiques.",
+    "story": "Le Minuteman III prolonge une famille américaine issue de la guerre froide, après les générations I et II. Un contrat de recherche et développement est confié à Boeing en juillet 1965. Le programme adapte la base existante à de nouvelles exigences du système stratégique. Il appartient à la composante terrestre de la dissuasion, aux côtés des sous-marins et des bombardiers, avec un soutien industriel distinct de celui des autres composantes.\n\nLe premier Minuteman III non armé est lancé en essai le 16 août 1968. Les campagnes se poursuivent avant le déploiement de juin 1970 et la constitution des unités. Cette transition sépare un prototype validé en vol d’un système exploité par la force. La production initiale s’achève en décembre 1978 ; cette fin de fabrication n’équivaut pas à un retrait, puisque la maintenance et le remplacement des composants prennent ensuite le relais.\n\nLa fin de la guerre froide transforme le parc américain. Le Minuteman II est progressivement retiré, son dernier exemplaire quittant un silo en 1995. Le retrait du Peacekeeper s’achève en 2005. Le Minuteman III devient ainsi le seul modèle d’ICBM terrestre en service aux États-Unis. Cette place résulte des décisions concernant l’ensemble de la force, autant que des qualités et modernisations propres au programme lui-même.\n\nLes programmes de prolongation de vie renouvellent les moteurs, les équipements et les installations au lieu de relancer la fabrication complète sous un nouveau nom. Le système conserve donc sa désignation au travers de transformations importantes. Les inventaires publiés doivent rester datés et se distinguer de la production cumulée. Le Minuteman III illustre une durée de service rendue possible par un entretien permanent, tandis que les générations antérieures restent conservées dans les collections historiques.\n\nEn août 2024, l’Air Force réunit les directions Minuteman III et Sentinel pour coordonner soutien et relève. Le GAO indique en septembre 2025 qu’un maintien du Minuteman III jusqu’en 2050 est étudié face aux retards du successeur, avec des risques de soutien qui restent à traiter.",
     "current": [
       "US"
     ],
@@ -5654,6 +5699,10 @@ window.LDV_HISTOIRE = [
       {
         "label": "National Museum of the USAF — chronologie Minuteman",
         "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197679/minuteman-timeline/"
+      },
+      {
+        "label": "US Government Accountability Office — maintien du Minuteman III et transition vers Sentinel, septembre 2025",
+        "url": "https://files.gao.gov/reports/GAO-25-108466/index.html"
       }
     ],
     "storySections": [
@@ -5683,10 +5732,11 @@ window.LDV_HISTOIRE = [
       },
       {
         "title": "Une longue carrière par renouvellement des composants",
-        "text": "Les programmes de prolongation de vie renouvellent les moteurs, les équipements et les installations au lieu de relancer la fabrication complète sous un nouveau nom. Le système conserve donc sa désignation au travers de transformations importantes. Les inventaires publiés doivent rester datés et se distinguer de la production cumulée. Le Minuteman III illustre une durée de service rendue possible par un entretien permanent, tandis que les générations antérieures restent conservées dans les collections historiques.",
+        "text": "Les programmes de prolongation de vie renouvellent les moteurs, les équipements et les installations au lieu de relancer la fabrication complète sous un nouveau nom. Le système conserve donc sa désignation au travers de transformations importantes. Les inventaires publiés doivent rester datés et se distinguer de la production cumulée. Le Minuteman III illustre une durée de service rendue possible par un entretien permanent, tandis que les générations antérieures restent conservées dans les collections historiques.\n\nEn août 2024, l’Air Force réunit les directions Minuteman III et Sentinel pour coordonner soutien et relève. Le GAO indique en septembre 2025 qu’un maintien du Minuteman III jusqu’en 2050 est étudié face aux retards du successeur, avec des risques de soutien qui restent à traiter.",
         "sources": [
           "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104466/lgm-30g-minuteman-iii/lgm-30g-minuteman-iii/",
-          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196676/boeing-lgm-30g-minuteman-iii/"
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196676/boeing-lgm-30g-minuteman-iii/",
+          "https://files.gao.gov/reports/GAO-25-108466/index.html"
         ]
       }
     ],
@@ -7370,7 +7420,7 @@ window.LDV_HISTOIRE = [
     "storyCheckedAt": "13 octobre 2026"
   },
   {
-    "story": "Le MiG-29 est développé au début des années 1970 pour l’aviation tactique soviétique, face à une nouvelle génération d’avions américains comprenant les F-15 et F-16. Le bureau Mikoyan-Gurevich reçoit la mission de concevoir ce chasseur. Le premier prototype vole le 6 octobre 1977. La production débute en 1982 et les livraisons aux unités suivent en 1983.\n\nLe Fulcrum associe radar, capteur infrarouge et viseur de casque. Ces équipements donnent au pilote différentes façons de percevoir son environnement et d’exploiter son armement. L’avion conserve également une capacité air-sol. Cette polyvalence doit être comprise dans le cadre de la version initiale : elle ne lui attribue pas automatiquement les équipements, l’autonomie ou les possibilités des évolutions construites plusieurs décennies plus tard.\n\nLa réunification place des MiG-29 de l’ancienne RDA dans la Luftwaffe. Leur exploitation permet aux pilotes allemands et alliés de travailler avec un appareil conçu selon une autre tradition industrielle et opérationnelle. L’Allemagne les utilise pour la défense aérienne et l’entraînement, puis les transfère à la Pologne. Les derniers avions concernés rejoignent Bydgoszcz le 4 août 2004, clôturant cette phase de leur carrière.\n\nLa lignée évolue vers plusieurs versions, dont le MiG-29K utilisé par la marine indienne. L’adaptation aux opérations embarquées correspond à un programme distinct de celui du MiG-29A d’origine. Le nom Fulcrum recouvre ainsi des générations et des usages différents. Pour comprendre l’engin historique, il faut conserver son contexte soviétique, puis suivre ses transformations sans confondre le premier modèle, ses modernisations et les développements apparentés.",
+    "story": "Le MiG-29 est développé au début des années 1970 pour l’aviation tactique soviétique, face à une nouvelle génération d’avions américains comprenant les F-15 et F-16. Le bureau Mikoyan-Gurevich reçoit la mission de concevoir ce chasseur. Le premier prototype vole le 6 octobre 1977. La production débute en 1982 et les livraisons aux unités suivent en 1983.\n\nLe Fulcrum associe radar, capteur infrarouge et viseur de casque. Ces équipements donnent au pilote différentes façons de percevoir son environnement et d’exploiter son armement. L’avion conserve également une capacité air-sol. Cette polyvalence doit être comprise dans le cadre de la version initiale : elle ne lui attribue pas automatiquement les équipements, l’autonomie ou les possibilités des évolutions construites plusieurs décennies plus tard.\n\nLa réunification place des MiG-29 de l’ancienne RDA dans la Luftwaffe. Leur exploitation permet aux pilotes allemands et alliés de travailler avec un appareil conçu selon une autre tradition industrielle et opérationnelle. L’Allemagne les utilise pour la défense aérienne et l’entraînement, puis les transfère à la Pologne. Les derniers avions concernés rejoignent Bydgoszcz le 4 août 2004, clôturant cette phase de leur carrière.\n\nLa lignée évolue vers plusieurs versions, dont le MiG-29K utilisé par la marine indienne. L’adaptation aux opérations embarquées correspond à un programme distinct de celui du MiG-29A d’origine. Le nom Fulcrum recouvre ainsi des générations et des usages différents. Pour comprendre l’engin historique, il faut conserver son contexte soviétique, puis suivre ses transformations sans confondre le premier modèle, ses modernisations et les développements apparentés.\n\nLa marine indienne admet le MiG-29K au service le 19 février 2010. En mai 2023, cette branche embarquée poursuit son intégration avec un premier appontage nocturne sur le nouveau porte-avions Vikrant, pendant une phase d’essais clairement identifiée.",
     "current": [
       "IN"
     ],
@@ -7390,8 +7440,12 @@ window.LDV_HISTOIRE = [
         "url": "https://www.bundeswehr.de/de/organisation/luftwaffe/aktuelles/30-jahre-armee-der-einheit-uebernahme-der-mig-29-3248728"
       },
       {
-        "label": "Gouvernement indien — MiG-29K embarqué",
+        "label": "Ministère indien de la Défense — essais embarqués de mai 2023",
         "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1927354&lang=13&reg=22"
+      },
+      {
+        "label": "Ministère indien de la Défense — admission du MiG-29K en février 2010",
+        "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=68744"
       }
     ],
     "checkedAt": "11 octobre 2026",
@@ -7419,10 +7473,11 @@ window.LDV_HISTOIRE = [
       },
       {
         "title": "Une famille qui se transforme",
-        "text": "La lignée évolue vers plusieurs versions, dont le MiG-29K utilisé par la marine indienne. L’adaptation aux opérations embarquées correspond à un programme distinct de celui du MiG-29A d’origine. Le nom Fulcrum recouvre ainsi des générations et des usages différents. Pour comprendre l’engin historique, il faut conserver son contexte soviétique, puis suivre ses transformations sans confondre le premier modèle, ses modernisations et les développements apparentés.",
+        "text": "La lignée évolue vers plusieurs versions, dont le MiG-29K utilisé par la marine indienne. L’adaptation aux opérations embarquées correspond à un programme distinct de celui du MiG-29A d’origine. Le nom Fulcrum recouvre ainsi des générations et des usages différents. Pour comprendre l’engin historique, il faut conserver son contexte soviétique, puis suivre ses transformations sans confondre le premier modèle, ses modernisations et les développements apparentés.\n\nLa marine indienne admet le MiG-29K au service le 19 février 2010. En mai 2023, cette branche embarquée poursuit son intégration avec un premier appontage nocturne sur le nouveau porte-avions Vikrant, pendant une phase d’essais clairement identifiée.",
         "sources": [
           "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/AFmuseum/mikoyan-gurevich-mig-29a/",
-          "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1927354&lang=13&reg=22"
+          "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1927354&lang=13&reg=22",
+          "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=68744"
         ]
       }
     ],
@@ -8317,7 +8372,7 @@ window.LDV_HISTOIRE = [
     "storyCheckedAt": "13 octobre 2026"
   },
   {
-    "story": "Les études de l’AMX-13 commencent en 1946, dans le renouvellement des blindés français après la Seconde Guerre mondiale. Le projet aboutit à un char léger, avec le moteur à l’avant et la tourelle installée vers l’arrière. L’exemplaire numéro 212 conservé au Tank Museum est achevé en février 1952. Ce jalon documente un véhicule précis de la première période de la famille.\n\nLe modèle à canon de 75 mm utilise une tourelle dont la partie supérieure suit l’élévation de l’arme, tandis que la partie inférieure assure la rotation. Cette disposition accompagne un chargement automatique et évite l’embarquement d’un chargeur humain. Elle donne à l’AMX-13 une solution très particulière pour associer une puissance de feu relativement importante à une plateforme légère et à un équipage réduit.\n\nDeux magasins offrent douze coups prêts à tirer sur le modèle décrit. Il faut ensuite sortir pour recharger les magasins, ce qui impose une limite au fonctionnement du système. Cette contrainte fait partie de l’histoire du char autant que l’originalité de sa tourelle. Le chargement automatique n’abolit donc pas le travail humain : il le déplace entre l’utilisation de la réserve disponible et son renouvellement.\n\nLes Pays-Bas emploient une version à canon de 105 mm de 1963 à 1985. Elle doit être distinguée de l’AMX-13 de 75 mm conservé au musée britannique. Le châssis donne aussi naissance à des transports d’infanterie et à des automoteurs d’artillerie. Cette diffusion illustre la valeur d’une base mécanique réutilisable, tout en rappelant que les véhicules dérivés possèdent d’autres aménagements et ne sont pas tous des chars légers.",
+    "story": "Les études de l’AMX-13 commencent en 1946, dans le renouvellement des blindés français après la Seconde Guerre mondiale. Le projet aboutit à un char léger, avec le moteur à l’avant et la tourelle installée vers l’arrière. L’exemplaire numéro 212 conservé au Tank Museum est achevé en février 1952. Ce jalon documente un véhicule précis de la première période de la famille.\n\nLe modèle à canon de 75 mm utilise une tourelle dont la partie supérieure suit l’élévation de l’arme, tandis que la partie inférieure assure la rotation. Cette disposition accompagne un chargement automatique et évite l’embarquement d’un chargeur humain. Elle donne à l’AMX-13 une solution très particulière pour associer une puissance de feu relativement importante à une plateforme légère et à un équipage réduit.\n\nDeux magasins offrent douze coups prêts à tirer sur le modèle décrit. Il faut ensuite sortir pour recharger les magasins, ce qui impose une limite au fonctionnement du système. Cette contrainte fait partie de l’histoire du char autant que l’originalité de sa tourelle. Le chargement automatique n’abolit donc pas le travail humain : il le déplace entre l’utilisation de la réserve disponible et son renouvellement.\n\nLes Pays-Bas emploient une version à canon de 105 mm de 1963 à 1985. Elle doit être distinguée de l’AMX-13 de 75 mm conservé au musée britannique. Le châssis donne aussi naissance à des transports d’infanterie et à des automoteurs d’artillerie. Cette diffusion illustre la valeur d’une base mécanique réutilisable, tout en rappelant que les véhicules dérivés possèdent d’autres aménagements et ne sont pas tous des chars légers.\n\nL’AMX-13 équipe aussi la première unité de chars singapourienne formée en 1969. L’historique de cette armée situe en 1987 la transformation vers le SM1, qui renouvelle notamment le moteur, les chenilles et la suspension.",
     "current": [
       "ID"
     ],
@@ -8336,6 +8391,10 @@ window.LDV_HISTOIRE = [
       {
         "label": "Nationaal Militair Museum — service néerlandais et tourelle",
         "url": "https://www.nmm.nl/nl/stories/amx-13/"
+      },
+      {
+        "label": "Singapore Army — première unité de chars et transformation AMX-13/SM1",
+        "url": "https://www.mindef.gov.sg/army/our-forces/formations/armour"
       }
     ],
     "checkedAt": "12 octobre 2026",
@@ -8366,10 +8425,11 @@ window.LDV_HISTOIRE = [
       },
       {
         "title": "Des versions exportées et des dérivés",
-        "text": "Les Pays-Bas emploient une version à canon de 105 mm de 1963 à 1985. Elle doit être distinguée de l’AMX-13 de 75 mm conservé au musée britannique. Le châssis donne aussi naissance à des transports d’infanterie et à des automoteurs d’artillerie. Cette diffusion illustre la valeur d’une base mécanique réutilisable, tout en rappelant que les véhicules dérivés possèdent d’autres aménagements et ne sont pas tous des chars légers.",
+        "text": "Les Pays-Bas emploient une version à canon de 105 mm de 1963 à 1985. Elle doit être distinguée de l’AMX-13 de 75 mm conservé au musée britannique. Le châssis donne aussi naissance à des transports d’infanterie et à des automoteurs d’artillerie. Cette diffusion illustre la valeur d’une base mécanique réutilisable, tout en rappelant que les véhicules dérivés possèdent d’autres aménagements et ne sont pas tous des chars légers.\n\nL’AMX-13 équipe aussi la première unité de chars singapourienne formée en 1969. L’historique de cette armée situe en 1987 la transformation vers le SM1, qui renouvelle notamment le moteur, les chenilles et la suspension.",
         "sources": [
           "https://tankmuseum.org/tank-nuts/tank-collection/amx-13/",
-          "https://www.nmm.nl/nl/stories/amx-13/"
+          "https://www.nmm.nl/nl/stories/amx-13/",
+          "https://www.mindef.gov.sg/army/our-forces/formations/armour"
         ]
       }
     ],
@@ -8442,7 +8502,7 @@ window.LDV_HISTOIRE = [
     "storyCheckedAt": "13 octobre 2026"
   },
   {
-    "story": "Le T-34/76 entre en service soviétique en 1940. Le blindage incliné, la mobilité et le canon de 76,2 mm forment un ensemble marquant pour cette génération de chars. Les forces allemandes le rencontrent pendant l’invasion de l’Union soviétique en 1941. L’intérêt du programme vient de cette combinaison de choix, qui ne doit pas faire oublier les contraintes de fonctionnement des premières configurations.\n\nÀ partir de 1943, l’apparition de nouveaux chars allemands pousse à renforcer l’armement. Le T-34/85 reçoit une tourelle plus grande et un canon de 85 mm. Trois hommes peuvent désormais travailler dans la tourelle, ce qui améliore la répartition des tâches. Le changement dépasse donc le seul calibre : l’organisation de l’équipage évolue et constitue une différence centrale entre les deux versions.\n\nLe Tank Museum conserve un T-34/76 capturé par les Finlandais, puis utilisé pour l’entraînement dans les années 1950. Un autre exemplaire, un T-34/85 construit à Gorki fin 1944, est envoyé en Corée du Nord et capturé pendant la guerre de Corée en 1950. Ces parcours montrent que la carrière d’une même famille se poursuit au-delà du pays et de la guerre qui l’ont vue naître.\n\nLes désignations T-34/76 et T-34/85 distinguent deux configurations importantes, tandis que les exemplaires produits et exportés connaissent des parcours variés. La conservation au musée aide à relier les transformations techniques aux utilisateurs réels. La longévité internationale du T-34 ne signifie pas que toutes les versions possèdent les mêmes capacités. Son importance historique réside aussi dans ces évolutions de tourelle, d’équipage et d’emploi au fil des générations.",
+    "story": "Le T-34/76 entre en service soviétique en 1940. Le blindage incliné, la mobilité et le canon de 76,2 mm forment un ensemble marquant pour cette génération de chars. Les forces allemandes le rencontrent pendant l’invasion de l’Union soviétique en 1941. L’intérêt du programme vient de cette combinaison de choix, qui ne doit pas faire oublier les contraintes de fonctionnement des premières configurations.\n\nÀ partir de 1943, l’apparition de nouveaux chars allemands pousse à renforcer l’armement. Le T-34/85 reçoit une tourelle plus grande et un canon de 85 mm. Trois hommes peuvent désormais travailler dans la tourelle, ce qui améliore la répartition des tâches. Le changement dépasse donc le seul calibre : l’organisation de l’équipage évolue et constitue une différence centrale entre les deux versions.\n\nLe T-34/85 est engagé dans les unités en 1944, puis participe largement aux offensives soviétiques de 1945 : l’évolution de tourelle et d’armement renouvelle ainsi une grande partie de la force blindée.\n\nLe Tank Museum conserve un T-34/76 capturé par les Finlandais, puis utilisé pour l’entraînement dans les années 1950. Un autre exemplaire, un T-34/85 construit à Gorki fin 1944, est envoyé en Corée du Nord et capturé pendant la guerre de Corée en 1950. Ces parcours montrent que la carrière d’une même famille se poursuit au-delà du pays et de la guerre qui l’ont vue naître.\n\nLes désignations T-34/76 et T-34/85 distinguent deux configurations importantes, tandis que les exemplaires produits et exportés connaissent des parcours variés. La conservation au musée aide à relier les transformations techniques aux utilisateurs réels. La longévité internationale du T-34 ne signifie pas que toutes les versions possèdent les mêmes capacités. Son importance historique réside aussi dans ces évolutions de tourelle, d’équipage et d’emploi au fil des générations.",
     "current": [],
     "former": [
       "FI",
@@ -8457,8 +8517,12 @@ window.LDV_HISTOIRE = [
         "url": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-76/"
       },
       {
-        "label": "Tank Museum — T-34/85 et carrière après-guerre",
+        "label": "Tank Museum — T-34/85 et emploi nord-coréen",
         "url": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-85/"
+      },
+      {
+        "label": "Parc Patriot, ministère russe de la Défense — carrière du T-34/85 en 1944–1945",
+        "url": "https://www.parkpatriot.ru/o-parke/tekhnika-parka/sredniy-tank-t-34-85/"
       }
     ],
     "checkedAt": "12 octobre 2026",
@@ -8473,9 +8537,10 @@ window.LDV_HISTOIRE = [
       },
       {
         "title": "Faire évoluer la tourelle",
-        "text": "À partir de 1943, l’apparition de nouveaux chars allemands pousse à renforcer l’armement. Le T-34/85 reçoit une tourelle plus grande et un canon de 85 mm. Trois hommes peuvent désormais travailler dans la tourelle, ce qui améliore la répartition des tâches. Le changement dépasse donc le seul calibre : l’organisation de l’équipage évolue et constitue une différence centrale entre les deux versions.",
+        "text": "À partir de 1943, l’apparition de nouveaux chars allemands pousse à renforcer l’armement. Le T-34/85 reçoit une tourelle plus grande et un canon de 85 mm. Trois hommes peuvent désormais travailler dans la tourelle, ce qui améliore la répartition des tâches. Le changement dépasse donc le seul calibre : l’organisation de l’équipage évolue et constitue une différence centrale entre les deux versions.\n\nLe T-34/85 est engagé dans les unités en 1944, puis participe largement aux offensives soviétiques de 1945 : l’évolution de tourelle et d’armement renouvelle ainsi une grande partie de la force blindée.",
         "sources": [
-          "https://tankmuseum.org/tank-nuts/tank-collection/t-34-85/"
+          "https://tankmuseum.org/tank-nuts/tank-collection/t-34-85/",
+          "https://www.parkpatriot.ru/o-parke/tekhnika-parka/sredniy-tank-t-34-85/"
         ]
       },
       {
@@ -8498,7 +8563,7 @@ window.LDV_HISTOIRE = [
     "storyCheckedAt": "13 octobre 2026"
   },
   {
-    "story": "Les T-54 et T-55 occupent une place majeure parmi les chars soviétiques de l’après-guerre. Le T-54 adopte un canon de 100 mm et connaît plusieurs évolutions de stabilisation et de vision nocturne. Le T-54B reçoit une stabilisation sur deux axes en 1957. La famille se développe ainsi par étapes, avec des changements d’équipement qui comptent pour le travail de l’équipage.\n\nLe T-55 entre en production en 1958 avec un moteur plus puissant et une protection adaptée au contexte du champ de bataille nucléaire. Il reste apparenté au T-54, tout en intégrant ces changements. La production sous licence et les exportations contribuent à diffuser largement la famille. Elles donnent également naissance à des parcours nationaux différents, avec des matériels fabriqués et entretenus dans plusieurs pays.\n\nLe T-55A est adopté le 16 juillet 1962. Des matériaux ajoutés dans et autour des compartiments habités renforcent la protection contre les radiations. Cette évolution augmente la masse et entraîne notamment la suppression de la mitrailleuse de caisse. Elle montre comment une menace nouvelle peut modifier l’aménagement d’un char sans bouleverser immédiatement sa silhouette, ni faire disparaître la filiation mécanique avec la génération précédente.\n\nDes licences de production du T-55A sont transférées à la Pologne et à la Tchécoslovaquie en 1964. Les modernisations ultérieures peuvent changer la visée, le moteur ou les protections, avec des résultats propres à chaque programme. Le Vietnam présente encore des T-54B et T-55 lors de son défilé national de septembre 2025. Cette présence documentée illustre une longue carrière, sans attribuer à tous les chars le même standard ni un état opérationnel identique.",
+    "story": "Les T-54 et T-55 occupent une place majeure parmi les chars soviétiques de l’après-guerre. Le T-54 adopte un canon de 100 mm et connaît plusieurs évolutions de stabilisation et de vision nocturne. Le T-54B reçoit une stabilisation sur deux axes en 1957. La famille se développe ainsi par étapes, avec des changements d’équipement qui comptent pour le travail de l’équipage.\n\nLe T-55 entre en production en 1958 avec un moteur plus puissant et une protection adaptée au contexte du champ de bataille nucléaire. Il reste apparenté au T-54, tout en intégrant ces changements. La production sous licence et les exportations contribuent à diffuser largement la famille. Elles donnent également naissance à des parcours nationaux différents, avec des matériels fabriqués et entretenus dans plusieurs pays.\n\nLe T-55A est adopté le 16 juillet 1962. Des matériaux ajoutés dans et autour des compartiments habités renforcent la protection contre les radiations. Cette évolution augmente la masse et entraîne notamment la suppression de la mitrailleuse de caisse. Elle montre comment une menace nouvelle peut modifier l’aménagement d’un char sans bouleverser immédiatement sa silhouette, ni faire disparaître la filiation mécanique avec la génération précédente.\n\nDes licences de production du T-55A sont transférées à la Pologne et à la Tchécoslovaquie en 1964. Les modernisations ultérieures peuvent changer la visée, le moteur ou les protections, avec des résultats propres à chaque programme. Le Vietnam présente encore des T-54B et T-55 lors de son défilé national de septembre 2025. Cette présence documentée illustre une longue carrière, sans attribuer à tous les chars le même standard ni un état opérationnel identique.\n\nLa carrière export comprend l’emploi de T-54/T-55 égyptiens pendant la guerre des Six Jours en 1967. Les évolutions se poursuivent ensuite : en 1983, le T-55AD reçoit la protection active Drozd, un standard distinct de celui du char initial.",
     "current": [
       "VN"
     ],
@@ -8512,7 +8577,7 @@ window.LDV_HISTOIRE = [
     "operatorNote": "Sélection partielle : Vietnam attesté par le défilé du 2 septembre 2025 documenté sur Vietnam.vn ; cette présence ne certifie pas un effectif opérationnel en octobre 2026. République tchèque, Pologne et Allemagne, dont la RDA, figurent parmi les anciens opérateurs de la liste Wikipédia consultée le 12 octobre 2026. Le périmètre porte sur les chars T-54/T-55 ; les Type 59 chinois et les véhicules spécialisés sont exclus. RU sert à représenter l’origine soviétique.",
     "storySources": [
       {
-        "label": "Canadian Tank Museum — évolution T-54 / T-55",
+        "label": "Canadian Tank Museum — carrière export et engagement de 1967",
         "url": "https://tankmuseum.ca/blog-post/the-t-54/"
       },
       {
@@ -8526,6 +8591,10 @@ window.LDV_HISTOIRE = [
       {
         "label": "Rostec — production historique d’Omsk, mars 2023",
         "url": "https://rostec.ru/media/news/konstruktorskomu-byuro-omsktransmasha-65-let/?sphrase_id=5284332"
+      },
+      {
+        "label": "Parc Patriot, ministère russe de la Défense — évolution T-55AD de 1983",
+        "url": "https://parkpatriot.ru/o-parke/tekhnika-parka/sredniy-tank-t-55/"
       }
     ],
     "checkedAt": "12 octobre 2026",
@@ -8555,10 +8624,12 @@ window.LDV_HISTOIRE = [
       },
       {
         "title": "Licences et modernisations nationales",
-        "text": "Des licences de production du T-55A sont transférées à la Pologne et à la Tchécoslovaquie en 1964. Les modernisations ultérieures peuvent changer la visée, le moteur ou les protections, avec des résultats propres à chaque programme. Le Vietnam présente encore des T-54B et T-55 lors de son défilé national de septembre 2025. Cette présence documentée illustre une longue carrière, sans attribuer à tous les chars le même standard ni un état opérationnel identique.",
+        "text": "Des licences de production du T-55A sont transférées à la Pologne et à la Tchécoslovaquie en 1964. Les modernisations ultérieures peuvent changer la visée, le moteur ou les protections, avec des résultats propres à chaque programme. Le Vietnam présente encore des T-54B et T-55 lors de son défilé national de septembre 2025. Cette présence documentée illustre une longue carrière, sans attribuer à tous les chars le même standard ni un état opérationnel identique.\n\nLa carrière export comprend l’emploi de T-54/T-55 égyptiens pendant la guerre des Six Jours en 1967. Les évolutions se poursuivent ensuite : en 1983, le T-55AD reçoit la protection active Drozd, un standard distinct de celui du char initial.",
         "sources": [
           "https://www.kskdivniy.ru/museum/eksponaty/t-55/",
-          "https://www.vietnam.vn/en/can-canh-dan-thiet-bi-khi-tai-cua-quan-doi-nhan-dan-viet-nam-tai-le-dieu-binh-dieu-hanh-chao-mung-ky-niem-80-nam-quoc-khanh"
+          "https://www.vietnam.vn/en/can-canh-dan-thiet-bi-khi-tai-cua-quan-doi-nhan-dan-viet-nam-tai-le-dieu-binh-dieu-hanh-chao-mung-ky-niem-80-nam-quoc-khanh",
+          "https://tankmuseum.ca/blog-post/the-t-54/",
+          "https://parkpatriot.ru/o-parke/tekhnika-parka/sredniy-tank-t-55/"
         ]
       }
     ],
@@ -9260,7 +9331,7 @@ window.LDV_HISTOIRE = [
     "storyCheckedAt": "13 octobre 2026"
   },
   {
-    "story": "Les dix-huit Ohio sont construits par Electric Boat pour renouveler les premières générations américaines de sous-marins stratégiques. Leur admission au service s’étend de 1981 à 1997. Ils assurent des patrouilles de dissuasion nucléaire, avec une organisation distincte de celle des sous-marins d’attaque. La plateforme est donc conçue autour de ce rôle durable et du soutien du système stratégique embarqué.\n\nLes premiers bâtiments utilisent le Trident I C4, avant le déploiement du Trident II D5. Le Tennessee réalise sa première patrouille de dissuasion avec les D5 en mars 1990. Ce jalon concerne une nouvelle génération de système stratégique, à distinguer de la construction et de l’admission du sous-marin lui-même. La modernisation d’une flotte rassemble ainsi plusieurs calendriers de plateforme, d’équipements et de qualification.\n\nEntre 2002 et 2008, les quatre unités les plus anciennes sont transformées en SSGN. Elles quittent leur fonction stratégique initiale pour des missions conventionnelles et spéciales. Les quatorze autres conservent la mission SSBN. Ces conversions modifient l’emploi et l’aménagement des bâtiments. Un Ohio transformé ne porte donc pas simplement un autre nom : il appartient à une branche fonctionnelle différente de la même famille de coques.\n\nLa fiche navale de 2025 décrit vingt tubes stratégiques utilisables par SSBN après la désactivation permanente de quatre tubes initiaux. Cette évolution ne concerne pas les Ohio convertis de la même façon. Leur longue carrière montre l’importance de suivre les modifications réellement effectuées et les rôles de chaque bâtiment. Les nombres de tubes et les capacités historiques ne doivent pas être réunis dans une configuration intemporelle qui effacerait les changements de mission.",
+    "story": "Les dix-huit Ohio sont construits par Electric Boat pour renouveler les premières générations américaines de sous-marins stratégiques. Leur admission au service s’étend de 1981 à 1997. Ils assurent des patrouilles de dissuasion nucléaire, avec une organisation distincte de celle des sous-marins d’attaque. La plateforme est donc conçue autour de ce rôle durable et du soutien du système stratégique embarqué.\n\nLes premiers bâtiments utilisent le Trident I C4, avant le déploiement du Trident II D5. Le Tennessee réalise sa première patrouille de dissuasion avec les D5 en mars 1990. Ce jalon concerne une nouvelle génération de système stratégique, à distinguer de la construction et de l’admission du sous-marin lui-même. La modernisation d’une flotte rassemble ainsi plusieurs calendriers de plateforme, d’équipements et de qualification.\n\nEntre 2002 et 2008, les quatre unités les plus anciennes sont transformées en SSGN. Elles quittent leur fonction stratégique initiale pour des missions conventionnelles et spéciales. Les quatorze autres conservent la mission SSBN. Ces conversions modifient l’emploi et l’aménagement des bâtiments. Un Ohio transformé ne porte donc pas simplement un autre nom : il appartient à une branche fonctionnelle différente de la même famille de coques.\n\nLa fiche navale de 2025 décrit vingt tubes stratégiques utilisables par SSBN après la désactivation permanente de quatre tubes initiaux. Cette évolution ne concerne pas les Ohio convertis de la même façon. Leur longue carrière montre l’importance de suivre les modifications réellement effectuées et les rôles de chaque bâtiment. Les nombres de tubes et les capacités historiques ne doivent pas être réunis dans une configuration intemporelle qui effacerait les changements de mission.\n\nLe renouvellement se poursuit avec l’introduction du système D5 Life Extension en 2017 sur la branche stratégique. En février 2023, le Louisiana achève la dernière grande refonte avec rechargement nucléaire prévue pour un Ohio SSBN, associant entretien de la plateforme et rénovation d’équipements.",
     "current": [
       "US"
     ],
@@ -9283,6 +9354,14 @@ window.LDV_HISTOIRE = [
       {
         "label": "NAVSEA — première patrouille Trident II du Tennessee",
         "url": "https://www.navsea.navy.mil/Home/Warfare-Centers/NSWC-Dahlgren/Who-We-Are/History/Blogs/SLBM/"
+      },
+      {
+        "label": "US Navy Strategic Systems Programs — prolongation de la classe Ohio et du système D5",
+        "url": "https://www.ssp.navy.mil/About-Us/PAE-SSP-Mission/Sustainment/"
+      },
+      {
+        "label": "NAVSEA — achèvement de la refonte du Louisiana, février 2023",
+        "url": "https://www.navsea.navy.mil/Media/News/Article-View/Article/3315248/louisiana-back-underway-project-team-completes-the-final-engineered-refueling-o/"
       }
     ],
     "checkedAt": "12 octobre 2026",
@@ -9314,9 +9393,11 @@ window.LDV_HISTOIRE = [
       },
       {
         "title": "Des configurations datées",
-        "text": "La fiche navale de 2025 décrit vingt tubes stratégiques utilisables par SSBN après la désactivation permanente de quatre tubes initiaux. Cette évolution ne concerne pas les Ohio convertis de la même façon. Leur longue carrière montre l’importance de suivre les modifications réellement effectuées et les rôles de chaque bâtiment. Les nombres de tubes et les capacités historiques ne doivent pas être réunis dans une configuration intemporelle qui effacerait les changements de mission.",
+        "text": "La fiche navale de 2025 décrit vingt tubes stratégiques utilisables par SSBN après la désactivation permanente de quatre tubes initiaux. Cette évolution ne concerne pas les Ohio convertis de la même façon. Leur longue carrière montre l’importance de suivre les modifications réellement effectuées et les rôles de chaque bâtiment. Les nombres de tubes et les capacités historiques ne doivent pas être réunis dans une configuration intemporelle qui effacerait les changements de mission.\n\nLe renouvellement se poursuit avec l’introduction du système D5 Life Extension en 2017 sur la branche stratégique. En février 2023, le Louisiana achève la dernière grande refonte avec rechargement nucléaire prévue pour un Ohio SSBN, associant entretien de la plateforme et rénovation d’équipements.",
         "sources": [
-          "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169580/fleet-ballistic-missile-submarines-ssbn/"
+          "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2169580/fleet-ballistic-missile-submarines-ssbn/",
+          "https://www.ssp.navy.mil/About-Us/PAE-SSP-Mission/Sustainment/",
+          "https://www.navsea.navy.mil/Media/News/Article-View/Article/3315248/louisiana-back-underway-project-team-completes-the-final-engineered-refueling-o/"
         ]
       }
     ],
@@ -9711,7 +9792,7 @@ window.LDV_HISTOIRE = [
     "storyCheckedAt": "13 octobre 2026"
   },
   {
-    "story": "Le Centurion tire les leçons des opérations britanniques en Afrique du Nord. Le projet recherche un char capable d’affronter l’infanterie et les blindés, au lieu de conserver une séparation trop rigide entre les rôles. Présenté au printemps 1945, il arrive trop tard pour combattre en Europe. Son importance se construit donc surtout après la guerre, avec une carrière internationale et plusieurs évolutions de standard.\n\nLa famille connaît treize standards ainsi que des dérivés spécialisés. Les changements d’armement et d’équipement répondent aux besoins des utilisateurs, sans faire disparaître la base commune de la plateforme. Le Mk 3 conservé au Tank Museum participe à la défense de The Hook en Corée en mai 1953. Cet exemple relie une variante identifiée à un théâtre et à une étape concrète de sa carrière.\n\nL’Australian War Memorial conserve un Mk 5/1 du 1er régiment blindé employé au Sud-Vietnam. Il participe à la bataille de Binh Ba le 6 juin 1969. Endommagé pendant l’opération Hammersley le 18 février 1970, il demeure utilisable, puis continue son service après réparation. Son retour en Australie en décembre clôt cette séquence documentée, qui donne un visage précis à l’emploi de la famille sur ce théâtre.\n\nLes parcours coréen et vietnamien montrent la durée d’emploi de la plateforme dans des environnements différents. La conservation de véhicules précis permet aussi de suivre l’entretien, les réparations et les standards réellement utilisés. Le nom Centurion recouvre donc plusieurs configurations et plusieurs histoires nationales. Sa longévité ne doit pas effacer ces différences : un Mk 3 britannique et un Mk 5/1 australien appartiennent à la même lignée sans représenter exactement le même char.",
+    "story": "Le Centurion tire les leçons des opérations britanniques en Afrique du Nord. Le projet recherche un char capable d’affronter l’infanterie et les blindés, au lieu de conserver une séparation trop rigide entre les rôles. Présenté au printemps 1945, il arrive trop tard pour combattre en Europe. Son importance se construit donc surtout après la guerre, avec une carrière internationale et plusieurs évolutions de standard.\n\nLa famille connaît treize standards ainsi que des dérivés spécialisés. Les changements d’armement et d’équipement répondent aux besoins des utilisateurs, sans faire disparaître la base commune de la plateforme. Le Mk 3 conservé au Tank Museum participe à la défense de The Hook en Corée en mai 1953. Cet exemple relie une variante identifiée à un théâtre et à une étape concrète de sa carrière.\n\nL’Australian War Memorial conserve un Mk 5/1 du 1er régiment blindé employé au Sud-Vietnam. Il participe à la bataille de Binh Ba le 6 juin 1969. Endommagé pendant l’opération Hammersley le 18 février 1970, il demeure utilisable, puis continue son service après réparation. Son retour en Australie en décembre clôt cette séquence documentée, qui donne un visage précis à l’emploi de la famille sur ce théâtre.\n\nLes parcours coréen et vietnamien montrent la durée d’emploi de la plateforme dans des environnements différents. La conservation de véhicules précis permet aussi de suivre l’entretien, les réparations et les standards réellement utilisés. Le nom Centurion recouvre donc plusieurs configurations et plusieurs histoires nationales. Sa longévité ne doit pas effacer ces différences : un Mk 3 britannique et un Mk 5/1 australien appartiennent à la même lignée sans représenter exactement le même char.\n\nLes dérivés spécialisés prolongent encore cette lignée : des Centurion BARV britanniques de dépannage amphibie sont employés en Irak en 2003, bien après les grandes campagnes des versions de char.",
     "current": [],
     "former": [
       "GB"
@@ -9721,7 +9802,7 @@ window.LDV_HISTOIRE = [
     "operatorNote": "Carte volontairement partielle : Royaume-Uni, dont le Tank Museum décrit des chars retirés du service. Aucun utilisateur actuel du char à canon n’a été établi dans cette recherche au 12 octobre 2026. Les véhicules de dépannage BARV, encore cités pour 2003, et les conversions profondes telles que l’Olifant ne permettent pas de déduire un statut actuel du Centurion de base.",
     "storySources": [
       {
-        "label": "Tank Museum — histoire et standards du Centurion",
+        "label": "Tank Museum — emploi du dérivé Centurion BARV en 2003",
         "url": "https://tankmuseum.org/tank-nuts/tank-collection/centurion/"
       },
       {
@@ -9756,7 +9837,7 @@ window.LDV_HISTOIRE = [
       },
       {
         "title": "Comprendre la longévité du Centurion",
-        "text": "Les parcours coréen et vietnamien montrent la durée d’emploi de la plateforme dans des environnements différents. La conservation de véhicules précis permet aussi de suivre l’entretien, les réparations et les standards réellement utilisés. Le nom Centurion recouvre donc plusieurs configurations et plusieurs histoires nationales. Sa longévité ne doit pas effacer ces différences : un Mk 3 britannique et un Mk 5/1 australien appartiennent à la même lignée sans représenter exactement le même char.",
+        "text": "Les parcours coréen et vietnamien montrent la durée d’emploi de la plateforme dans des environnements différents. La conservation de véhicules précis permet aussi de suivre l’entretien, les réparations et les standards réellement utilisés. Le nom Centurion recouvre donc plusieurs configurations et plusieurs histoires nationales. Sa longévité ne doit pas effacer ces différences : un Mk 3 britannique et un Mk 5/1 australien appartiennent à la même lignée sans représenter exactement le même char.\n\nLes dérivés spécialisés prolongent encore cette lignée : des Centurion BARV britanniques de dépannage amphibie sont employés en Irak en 2003, bien après les grandes campagnes des versions de char.",
         "sources": [
           "https://tankmuseum.org/tank-nuts/tank-collection/centurion/",
           "https://www.awm.gov.au/visit/exhibitions/bigthingsinstore/centurion"

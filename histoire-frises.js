@@ -332,6 +332,20 @@ window.LDV_TIMELINES = {
       "label": "Premier escadron de l’armée de l’air",
       "detail": "Le premier escadron français de Rafale terrestre entre dans la carrière opérationnelle.",
       "source": "https://www.dassault-aviation.com/en/defense/rafale/"
+    },
+    {
+      "date": "31 octobre 2018",
+      "year": 2018,
+      "label": "Standard F3-R qualifié",
+      "detail": "La DGA qualifie le F3-R, qui intègre notamment le missile Meteor et la nacelle de désignation Talios.",
+      "source": "https://www.dassault-aviation.com/wp-content/blogs.dir/2/files/2018/11/PR-Dassault_F3-R.pdf"
+    },
+    {
+      "date": "13 mars 2023",
+      "year": 2023,
+      "label": "Standard F4.1 qualifié",
+      "detail": "La DGA qualifie le premier incrément F4.1, avec des capacités de combat aérien collaboratif, l’AASM de 1 000 kg et un renforcement face aux menaces cyber ; cette qualification précède la préparation opérationnelle des forces.",
+      "source": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/27.03.2023%20Qualification%20du%20Rafale%20au%20standard%20F4.1%20par%20la%20direction%20g%C3%A9n%C3%A9rale%20de%20l%E2%80%99armement.pdf"
     }
   ],
   "10": [
@@ -852,6 +866,20 @@ window.LDV_TIMELINES = {
       "label": "Déploiement du SEP v2",
       "detail": "Le déploiement initial du deuxième package SEP commence.",
       "source": "https://www.army.mil/article/54409/tankers_go_digital_with_abrams_upgrade"
+    },
+    {
+      "date": "4 octobre 2017",
+      "year": 2017,
+      "label": "Premier SEP v3 de production reçu",
+      "detail": "L’US Army accepte à Lima le premier véhicule de production initiale M1A2 SEP v3, avant le déploiement du standard dans les unités.",
+      "source": "https://www.army.mil/article/194952/army_rolls_out_latest_version_of_iconic_abrams_main_battle_tank"
+    },
+    {
+      "date": "20 juillet 2020",
+      "year": 2020,
+      "label": "Première unité équipée du SEP v3",
+      "detail": "La brigade Greywolf de la 1re division de cavalerie reçoit les M1A2C, désignation du SEP v3, à Fort Hood et devient la première unité équipée de ce standard.",
+      "source": "https://www.army.mil/article-amp/238575/greywolf_brigade_first_to_receive_new_abrams_tanks"
     }
   ],
   "25": [
@@ -1046,6 +1074,20 @@ window.LDV_TIMELINES = {
       "label": "Mirage 2000-9",
       "detail": "Le Mirage 2000-9 apparaît dans la chronologie constructeur.",
       "source": "https://www.dassault-aviation.com/wp-content/extra/timeline/en/"
+    },
+    {
+      "date": "Dernier trimestre 2022",
+      "year": 2022,
+      "label": "Mirage 2000D rénovés en service",
+      "detail": "Quinze Mirage 2000D rénovés à mi-vie sont mis en service opérationnel ; le standard modernise la carrière de la variante d’attaque au sol.",
+      "source": "https://www.defense.gouv.fr/air/actualites/trois-mirage-2000-3e-escadre-projetes-djibouti"
+    },
+    {
+      "date": "16 juin 2026",
+      "year": 2026,
+      "label": "Dernier Mirage 2000D rénové livré",
+      "detail": "La DGA remet le cinquantième et dernier Mirage 2000D rénové à mi-vie à l’armée de l’Air et de l’Espace, achevant les livraisons de cette rénovation.",
+      "source": "https://www.defense.gouv.fr/de/node/24336"
     }
   ],
   "31": [
@@ -3081,6 +3123,13 @@ window.LDV_TIMELINES = {
       "label": "Opérations en Irak",
       "detail": "Le B-2 participe aux opérations en Irak.",
       "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195832/USAFmuseum/northrop-b-2-spirit/"
+    },
+    {
+      "date": "Décembre 2022",
+      "year": 2022,
+      "label": "Modernisation logicielle Spirit Realm",
+      "detail": "L’US Air Force décrit les premiers bénéfices de Spirit Realm, une organisation de développement et d’essais des logiciels du B-2 créée avec Northrop Grumman pour faciliter les mises à jour de la flotte.",
+      "source": "https://www.af.mil/News/Features/Article/3233335/new-spirit-realm-b-2-spirit-software-factory-keeps-fleet-operational-enabling-c/"
     }
   ],
   "86": [
@@ -3280,6 +3329,13 @@ window.LDV_TIMELINES = {
       "label": "Seul ICBM terrestre américain",
       "detail": "Le retrait du Peacekeeper laisse le Minuteman III comme seul modèle terrestre en service.",
       "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196676/boeing-lgm-30g-minuteman-iii/"
+    },
+    {
+      "date": "Septembre 2025",
+      "year": 2025,
+      "label": "Prolongation de service à l’étude",
+      "detail": "Le GAO documente l’étude d’un maintien possible du Minuteman III jusqu’en 2050 face aux retards de Sentinel. Cette échéance est une option évaluée, avec des risques de soutien, et non une prolongation déjà accomplie.",
+      "source": "https://files.gao.gov/reports/GAO-25-108466/index.html"
     }
   ],
   "91": [
@@ -4216,6 +4272,20 @@ window.LDV_TIMELINES = {
       "detail": "Les derniers MiG-29 allemands transférés rejoignent Bydgoszcz.",
       "source": "https://www.bundeswehr.de/de/organisation/luftwaffe/aktuelles/30-jahre-armee-der-einheit-uebernahme-der-mig-29-3248728",
       "year": 2004
+    },
+    {
+      "date": "19 février 2010",
+      "year": 2010,
+      "label": "MiG-29K admis dans la marine indienne",
+      "detail": "La marine indienne intègre la variante embarquée MiG-29K à INS Hansa, nouvelle branche de service distincte du MiG-29A initial.",
+      "source": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=68744"
+    },
+    {
+      "date": "24 mai 2023",
+      "year": 2023,
+      "label": "Premier appontage nocturne sur Vikrant",
+      "detail": "Le MiG-29K réalise son premier appontage nocturne sur le nouveau porte-avions indien pendant les essais d’intégration aéronautique.",
+      "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1927354&lang=13&reg=22"
     }
   ],
   "118": [
@@ -4638,13 +4708,6 @@ window.LDV_TIMELINES = {
       "year": 1946
     },
     {
-      "date": "Février 1952",
-      "label": "Exemplaire conservé",
-      "detail": "L’AMX-13 numéro 212 aujourd’hui au Tank Museum est achevé.",
-      "source": "https://tankmuseum.org/tank-nuts/tank-collection/amx-13/",
-      "year": 1952
-    },
-    {
       "date": "1963",
       "label": "Service néerlandais",
       "detail": "Début de la période d’emploi du char léger à canon de 105 mm donnée par le musée néerlandais.",
@@ -4652,11 +4715,18 @@ window.LDV_TIMELINES = {
       "year": 1963
     },
     {
-      "date": "1985",
-      "label": "Fin de la période néerlandaise",
-      "detail": "Fin de la période 1963–1985 inscrite dans la fiche du musée.",
-      "source": "https://www.nmm.nl/nl/stories/amx-13/",
-      "year": 1985
+      "date": "1969",
+      "year": 1969,
+      "label": "AMX-13 dans la première unité de chars singapourienne",
+      "detail": "Singapour forme sa première unité de chars, le 40 SAB, avec des AMX-13 ; leur présentation publique du 9 août documente cette première génération de sa force blindée.",
+      "source": "https://www.mindef.gov.sg/army/our-forces/formations/armour"
+    },
+    {
+      "date": "1987",
+      "year": 1987,
+      "label": "Transformation vers le standard SM1 à Singapour",
+      "detail": "L’armée singapourienne entreprend en 1987 la modernisation de ses AMX-13 : moteur diesel, chenilles et suspension renouvelés forment le standard SM1.",
+      "source": "https://www.mindef.gov.sg/army/our-forces/formations/armour"
     }
   ],
   "132": [
@@ -4705,18 +4775,18 @@ window.LDV_TIMELINES = {
       "year": 1941
     },
     {
-      "date": "Fin 1944",
-      "label": "Un T-34/85 conservé",
-      "detail": "Construction à l’usine no 112 de Gorki de l’exemplaire ensuite envoyé en Corée.",
-      "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-85/",
-      "year": 1944
+      "date": "1944",
+      "year": 1944,
+      "label": "Le T-34/85 rejoint les unités",
+      "detail": "La version à canon de 85 mm est engagée en 1944 puis largement employée dans les offensives soviétiques de 1945, renouvelant l’armement et la tourelle de la famille.",
+      "source": "https://www.parkpatriot.ru/o-parke/tekhnika-parka/sredniy-tank-t-34-85/"
     },
     {
-      "date": "1950",
-      "label": "Guerre de Corée",
-      "detail": "L’exemplaire nord-coréen du Tank Museum est capturé pendant le conflit.",
-      "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-85/",
-      "year": 1950
+      "date": "1950–1953",
+      "year": 1950,
+      "label": "Service nord-coréen pendant la guerre de Corée",
+      "detail": "L’armée nord-coréenne emploie des T-34/85 pendant le conflit ; le parcours des exemplaires du Tank Museum documente cette carrière internationale de la famille.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/t-34-85/"
     }
   ],
   "134": [
@@ -4747,6 +4817,20 @@ window.LDV_TIMELINES = {
       "detail": "Des licences T-55A sont transférées à la Pologne et à la Tchécoslovaquie.",
       "source": "https://www.kskdivniy.ru/museum/eksponaty/t-55/",
       "year": 1964
+    },
+    {
+      "date": "1967",
+      "year": 1967,
+      "label": "Emploi égyptien pendant la guerre des Six Jours",
+      "detail": "L’armée égyptienne engage des T-54/T-55 pendant la guerre des Six Jours, étape de leur carrière export au Moyen-Orient.",
+      "source": "https://tankmuseum.ca/blog-post/the-t-54/"
+    },
+    {
+      "date": "1983",
+      "year": 1983,
+      "label": "Protection active sur le T-55AD",
+      "detail": "Le T-55AD reçoit le système Drozd, ajoutant une protection active aux équipements de cette variante modernisée.",
+      "source": "https://parkpatriot.ru/o-parke/tekhnika-parka/sredniy-tank-t-55/"
     }
   ],
   "135": [
@@ -5133,6 +5217,20 @@ window.LDV_TIMELINES = {
       "detail": "Les quatre plus anciens bâtiments sont transformés pour des missions conventionnelles et spéciales.",
       "source": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/cold-war/strategic-deterrence/fleet-ballistic-missiles-submarines.html",
       "year": 2002
+    },
+    {
+      "date": "2017",
+      "year": 2017,
+      "label": "Système stratégique prolongé",
+      "detail": "La Navy introduit le Trident II D5 Life Extension dans la flotte. Ce renouvellement d’équipements accompagne la prolongation du service des Ohio conservés dans leur rôle de sous-marins stratégiques.",
+      "source": "https://www.ssp.navy.mil/About-Us/PAE-SSP-Mission/Sustainment/"
+    },
+    {
+      "date": "21 février 2023",
+      "year": 2023,
+      "label": "Dernière refonte avec rechargement",
+      "detail": "Le Louisiana achève la dernière grande refonte avec rechargement nucléaire prévue pour un Ohio stratégique. Les travaux comprennent la rénovation de composants et des équipements électroniques pour poursuivre sa carrière.",
+      "source": "https://www.navsea.navy.mil/Media/News/Article-View/Article/3315248/louisiana-back-underway-project-team-completes-the-final-engineered-refueling-o/"
     }
   ],
   "146": [
@@ -5329,11 +5427,11 @@ window.LDV_TIMELINES = {
       "year": 1969
     },
     {
-      "date": "18 février 1970",
-      "year": 1970,
-      "label": "Le Mk 5/1 du Memorial endommagé",
-      "detail": "L’exemplaire australien aujourd’hui conservé subit des impacts pendant Hammersley, puis reprend le service après réparation.",
-      "source": "https://www.awm.gov.au/visit/exhibitions/bigthingsinstore/centurion"
+      "date": "2003",
+      "year": 2003,
+      "label": "Le dérivé BARV sert encore en Irak",
+      "detail": "Des véhicules britanniques de dépannage amphibie BARV issus du Centurion sont employés pendant la guerre d’Irak, montrant la prolongation de la famille dans une fonction spécialisée.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/centurion/"
     }
   ],
   "152": [
