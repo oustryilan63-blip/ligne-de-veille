@@ -6,7 +6,7 @@ import {fileURLToPath} from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const suites = {
-  core: ['check-catalog.mjs', 'check-feature-flows.cjs', 'check-radar-features.cjs', 'check-game-ui.cjs'],
+  core: ['check-catalog.mjs', 'check-feature-flows.cjs', 'check-radar-features.cjs', 'check-game-ui.cjs', 'check-game-content.cjs'],
   histoire: ['check-histoire-loading.cjs', 'check-histoire-photos.cjs', 'check-histoire-3d.cjs'],
   actualites: ['check-news-images.cjs', 'check-news-validation.mjs'],
   qg: ['check-qg-game.cjs', 'check-qg-management.cjs', 'check-qg-combat.cjs'],
