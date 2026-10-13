@@ -11,7 +11,7 @@ const suites = {
   actualites: ['check-news-images.cjs', 'check-news-validation.mjs'],
   qg: ['check-qg-game.cjs', 'check-qg-management.cjs', 'check-qg-combat.cjs'],
   radar: ['check-radar-game.cjs', 'check-radar-geography.mjs'],
-  publication: ['check-static-optimization.cjs'],
+  publication: ['check-static-optimization.cjs', 'check-confiance.cjs'],
 };
 const args = process.argv.slice(2);
 const allowedFlags = new Set(['--all', '--plan', '--report', '--files', '--help']);

@@ -11,6 +11,7 @@ function step(a){const r=Q.action(s,a);assert.ok(r.ok,r.message);s=r.state;asser
 let m=Q.offers(s)[0];assert.ok(step({type:'mission',id:m.id,unit:m.unit,support:'leclerc',mode:'prudent'}).operation);assert.equal(s.completed,0,'Aucune victoire déterminée avant de jouer');assert.ok(!Q.action(s,{type:'next'}).ok);assert.ok(!Q.action(s,{type:'train'}).ok);
 step({type:'operationStep',id:m.id,stage:0,hit:false});assert.ok(!Q.action(s,{type:'operationStep',id:m.id,stage:0,hit:true}).ok);step({type:'operationStep',id:m.id,stage:1,hit:true});step({type:'operationStep',id:m.id,stage:2,hit:false});assert.equal(s.completed,1);assert.equal(s.content.operation,null);assert.ok(s.units.leclerc.used);
 const bad=JSON.parse(JSON.stringify(s));bad.content.resources.parts=-1;assert.equal(Q.restore(bad),null);
+for(let seed=0;seed<4;seed++){const empty=Q.fresh(seed);empty.cash=0;empty.content.resources={fuel:0,parts:0,ammo:0};empty.content.incidentDone=false;assert.ok(Q.incident(empty).options.some((_,choice)=>Q.action(empty,{type:'incident',choice}).ok),'Un événement doit rester résoluble sans réserve');}
 s=Q.fresh(3);let total=0;
 for(let week=1;week<=12;week++){
  if(!s.content.incidentDone){const choice=Q.incident(s).options.findIndex((_,i)=>Q.action(s,{type:'incident',choice:i}).ok);assert.ok(choice>=0);step({type:'incident',choice});}
