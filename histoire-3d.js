@@ -50,10 +50,11 @@
     else credit.append(model.licenseLabel);
     const note = make('p', 'history-3d-note', model.note + ' Le lecteur est fourni par Sketchfab. L’affichage nécessite une connexion et un navigateur compatible 3D.');
     let frame = null;
-    function open() {
+    function loadViewer() {
       if (frame) return;
       const viewer = make('iframe');
       viewer.title = 'Vue 3D interactive : ' + model.title + ', par ' + model.author + ' sur Sketchfab';
+      viewer.setAttribute('sandbox','allow-scripts allow-same-origin allow-pointer-lock allow-presentation allow-popups allow-popups-to-escape-sandbox');
       viewer.allow = 'autoplay; fullscreen'; viewer.allowFullscreen = true;
       viewer.referrerPolicy = 'strict-origin-when-cross-origin';
       viewer.src = 'https://sketchfab.com/models/' + model.id + '/embed?autostart=1&autospin=0&camera=0&preload=0&dnt=1&max_texture_size=2048';
@@ -68,13 +69,16 @@
       stage.replaceChildren(viewer); help.hidden = false;
       toggle.textContent = 'Fermer la vue 3D'; toggle.setAttribute('aria-expanded', 'true');
     }
+    function open(){if(frame)return;const privacy=window.RADAR_PRIVACY;if(!privacy){status.textContent='Les préférences de confidentialité sont indisponibles. Tu peux consulter les photos.';return;}privacy.request(loadViewer);}
     toggle.addEventListener('click', () => {
       if (!frame) { open(); return; }
       frame.remove(); frame = null; stage.replaceChildren(poster);
       status.textContent = 'Vue 3D fermée.'; help.hidden = true;
       toggle.textContent = 'Charger la vue 3D'; toggle.setAttribute('aria-expanded', 'false');
     });
-    section.append(header, stage, actions, status, help, credit, note);
+    const preferences=make('a','privacy-preferences','Confidentialité et choix du lecteur 3D');preferences.href='confidentialite.html#mes-choix';
+    window.addEventListener?.('radar-privacy-change',()=>{if(window.RADAR_PRIVACY?.choice()!=='accepted'&&frame){frame.remove();frame=null;stage.replaceChildren(poster);status.textContent='Autorisation retirée : le lecteur est fermé.';help.hidden=true;toggle.textContent='Charger la vue 3D';toggle.setAttribute('aria-expanded','false');}});
+    section.append(header, stage, actions, status, help, credit, note);section.append(preferences);
     if(photograph)section.append(window.RADAR_PHOTOS.creditFor(photograph));
     return { section, open };
   }

@@ -24,7 +24,7 @@ class Element{
  remove(){if(this.parent)this.parent.children=this.parent.children.filter(n=>n!==this)}
  fire(k){this.events[k]?.()}
 }
-ctx.document={createElement:tag=>new Element(tag)};
+ctx.document={createElement:tag=>new Element(tag)};ctx.window.RADAR_PRIVACY={choice:()=>'accepted',request:fn=>fn()};
 vm.runInNewContext(read('histoire-photos-data.js'),ctx);
 vm.runInNewContext(read('histoire-photos.js'),ctx);
 vm.runInNewContext(read('histoire-3d.js'),ctx);
@@ -46,6 +46,7 @@ for(const item of items){
  toggle.fire('click');assert.equal(stage.children[0],poster);
  poster.children[0].fire('error');assert.equal(poster.children[0].hidden,true);
 }
+ctx.window.RADAR_PRIVACY={choice:()=>null,request(){}};const denied=ctx.window.RADAR_3D.create(items[9]);denied.open();assert.equal(flatten(denied.section).filter(n=>n.tag==='iframe').length,0,'Aucune iframe sans choix préalable');delete ctx.window.RADAR_PRIVACY;denied.open();assert.equal(flatten(denied.section).filter(n=>n.tag==='iframe').length,0,'La confidentialité indisponible garde le lecteur bloqué');
 assert.ok(read('histoire.html').includes('histoire-bootstrap.js'));
 assert.ok(read('histoire-bootstrap.js').indexOf('histoire-3d-data.js')<read('histoire-bootstrap.js').indexOf('histoire-3d.js'));
 assert.equal(models.Rafale.id,'bf3f55ffe2864fc299fdf8052c65b4cc');
