@@ -92,3 +92,20 @@
 @media(max-width:540px){.chrono-row{padding:10px;gap:8px;flex-wrap:wrap}.chrono-number{width:18px}.chrono-thumb{width:64px;height:48px}.chrono-caption{flex-basis:calc(100% - 110px)}.chrono-controls{margin-left:auto}.result-photo{width:100%;max-width:240px}.result-photo img{height:150px}.game-tile{min-height:400px}}
 
 @media(max-width:540px){.arcade-copy h2{font-size:clamp(36px,11vw,46px);line-height:1.02;text-wrap:balance}.arcade-copy{padding:26px}.arcade-tool-row button{white-space:normal;line-height:1.4;padding:12px 18px}}
+
+/* Le choix du jeu est visible dès le début de la rubrique. */
+.games-hub-page main>.game-intro{padding-top:0}
+.games-hub-page main>.game-intro .wrap{padding-top:24px;padding-bottom:20px}
+.games-hub-page main>.game-intro h1{font-size:clamp(36px,4.5vw,56px);line-height:1.05;margin:10px 0 12px}
+.games-hub-page main>.game-intro p{max-width:none;font-size:15px;line-height:1.5;margin:0 0 14px}
+.games-hub-page .game-intro-foot{align-items:center;gap:14px;flex-wrap:wrap;padding-top:8px}
+.games-beginner-link{display:inline-flex;align-items:center;min-height:44px;color:#f3c3aa;font:600 13px/1.4 var(--sans);text-decoration:underline;text-underline-offset:4px}
+.games-hub-page main>.games-hub{padding-top:24px}
+.games-hub-page .games-hub-intro{padding-bottom:12px;gap:22px}
+.games-hub-page .games-hub-intro h2{font-size:36px;line-height:1.05;margin:8px 0 0}
+.games-hub-page .games-hub-intro p{max-width:460px;font-size:14px;line-height:1.5}
+.games-hub-page .games-filters{padding-top:14px}
+.games-hub-page .games-count{margin-top:10px}
+.games-hub-page .games-grid{margin-top:18px}
+.games-more{margin-top:32px}
+@media(max-width:760px){.games-hub-page .games-hub-intro p{margin-top:12px}.games-hub-page .game-intro-foot{gap:6px}.games-beginner-link{width:100%}}

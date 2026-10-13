@@ -34,3 +34,5 @@
 .news-card .news-main{min-width:0}
 .news-card .news-main strong{overflow-wrap:break-word}
 @media(max-width:700px){.news-tools .news-photo-controls{gap:8px 14px}.news-tools .news-photo-controls span{width:100%;order:3}.news-tools #news-reset{margin-left:auto}}
+
+#news-grid .news-read{display:block;margin-top:14px;font:600 13px/1.5 var(--sans);color:#944128}

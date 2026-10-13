@@ -111,7 +111,11 @@
     const back=el('a','history-back',fromCollection?'← Revenir à ma collection':'← Revenir aux '+engins.length+' engins');back.href=fromCollection?'collection.html':'histoire.html';detail.append(back);
     detail.append(el('h2','history-mobile-title',item.name));
     const jump=el('nav','profile-jump');jump.setAttribute('aria-label','Dans cette fiche');detail.append(jump);
-    const head=el('div','history-detail-head');const media=el('div',item.category==='missiles'?'history-missile-media':'');media.id='photos';media.append(window.RADAR_PHOTOS.create(item));
+    const head=el('div','history-detail-head');const media=el('div',item.category==='missiles'?'history-missile-media':'');
+    const photoRecords=window.RADAR_PHOTOS.photos(item),coverRecord=photoRecords[0],cover=el('a','history-cover'),coverImage=el('img');
+    cover.href='#photos';cover.setAttribute('aria-label','Voir la galerie photo de '+item.name);coverImage.src=coverRecord.src;coverImage.alt=coverRecord.alt||item.name;coverImage.decoding='async';coverImage.loading='eager';cover.append(coverImage);
+    const photoShortcut=el('a','history-photo-shortcut','Voir les '+photoRecords.length+' photo'+(photoRecords.length>1?'s':'')+' ↓');photoShortcut.href='#photos';
+    media.append(cover,window.RADAR_PHOTOS.creditFor(coverRecord),photoShortcut);
     const copy=el('div','history-summary');copy.append(el('span','history-kicker',String(index+1).padStart(2,'0')+' / '+item.kind+' / '+item.country),el('h2','history-name',item.name),el('p','history-subtitle','Origine : '+item.country));
     copy.append(el('p','history-introduction',item.explanation));
     const actions=el('div','history-profile-actions');actions.setAttribute('role','group');actions.setAttribute('aria-label','Actions sur cet engin');actions.append(collection.button(item,true));
@@ -141,7 +145,6 @@
       story.append(chapters);
     }else (fact.story||'L’histoire de cet engin est présentée dans la source liée ci-dessous.').split('\n\n').forEach(paragraph=>story.append(el('p','',paragraph)));
     head.append(media,copy);detail.append(head,story);
-    if(modelView)detail.append(modelView.section);
     if(events.length){
       const timeline=el('section','history-timeline');timeline.id='chronologie';timeline.setAttribute('aria-labelledby','timeline-title-'+index);
       const heading=el('h3','','Les grandes étapes');heading.id='timeline-title-'+index;
@@ -155,6 +158,9 @@
       }
       timeline.append(list);detail.append(timeline);
     }
+    const photoSection=section('La galerie photo','Parcours les vues de l’engin et agrandis une photo pour observer ses détails.');photoSection.id='photos';photoSection.classList.add('history-photos');
+    const gallery=window.RADAR_PHOTOS.create(item);gallery.querySelector('img').loading='lazy';photoSection.append(gallery);detail.append(photoSection);
+    if(modelView)detail.append(modelView.section);
     const origin=item.code,origins=item.originCodes||[origin],former=fact.former||[];
     const current=fact.originOnly?[]:[...new Set([...(fact.documentedOperatorsOnly||former.includes(origin)?[]:[origin]),...(fact.current||[])])];
     const currentLabel=fact.operatorSnapshot?'Utilisateur attesté dans les sources':'Utilisateur actuel documenté';
@@ -199,7 +205,7 @@
     const sources=el('section','history-detail-section history-sources');sources.id='sources';sources.append(el('h3','','Sources de la fiche'));const list=el('ul');
     const refs=[['Présentation et histoire du programme',item.source],['Pays utilisateurs',fact.operatorSource],['Anciens utilisateurs',fact.formerSource],['Production et livraisons',production?.source],['Inventaire daté',inventory?.source],['Engins détruits',figuresFor.losses?.source],['Cibles détruites',figuresFor.targets?.source],...(fact.storySources||[]).map(ref=>[ref.label,ref.url]),...(fact.extraSources||[]).map(url=>['Autre source',url])];const seen=new Set();refs.forEach(([title,url])=>{if(url&&!seen.has(url)){seen.add(url);const li=el('li');li.append(link(title+' ↗',url));list.append(li)}});sources.append(list,el('p','',(fact.storyCheckedAt?'Récit et frise revus le '+fact.storyCheckedAt+'. Autres repères : dernière vérification indiquée le '+(fact.checkedAt||'10 octobre 2026'):'Sources consultées le '+(fact.checkedAt||'10 octobre 2026'))+'. La carte présente les pays documentés dans ces sources, sans prétendre couvrir chaque transfert ou retrait. Les bilans de pertes sont des minimums documentés ou des estimations datées, précisés dans chaque carte.'));detail.append(sources);
     const next=el('nav','history-next');next.setAttribute('aria-label','Parcourir les fiches');const prev=el('a','','← '+engins[(index+engins.length-1)%engins.length].name);prev.href='histoire.html?engin='+(index+engins.length-1)%engins.length;const after=el('a','',engins[(index+1)%engins.length].name+' →');after.href='histoire.html?engin='+(index+1)%engins.length;next.append(prev,after);detail.append(next);
-    for(const [label,id] of [['Histoire','recit'],['Technique','technique'],['Photos','photos'],...(modelView?[['3D','vue-3d']]:[]),['Carte','utilisateurs'],['Chiffres','chiffres'],['Sources','sources']]){const a=el('a','',label);a.href='#'+id;if(id==='technique')a.addEventListener('click',()=>{const button=document.getElementById('tech-toggle-'+index);if(button.getAttribute('aria-expanded')==='false')button.click()});jump.append(a);}
+    for(const [label,id] of [['Histoire','recit'],...(events.length?[['Chronologie','chronologie']]:[]),['Technique','technique'],['Photos','photos'],...(modelView?[['3D','vue-3d']]:[]),['Carte','utilisateurs'],['Chiffres','chiffres'],['Sources','sources']]){const a=el('a','',label);a.href='#'+id;if(id==='technique')a.addEventListener('click',()=>{const button=document.getElementById('tech-toggle-'+index);if(button.getAttribute('aria-expanded')==='false')button.click()});jump.append(a);}
   }
   const params=new URLSearchParams(location.search);const index=Number(params.get('engin'));
   if(params.has('engin')&&Number.isInteger(index)&&index>=0&&index<engins.length)renderDetail(index);else renderCatalogue();

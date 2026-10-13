@@ -5,7 +5,23 @@
   const documentText=item=>fold([item.title,item.sourceExcerpt?.text||(!item.autoCollected?item.summary:''),...(item.publisherCategories||[])].join(' '));
   function themes(item){const text=documentText(item),matched=rules.filter(([name,re])=>item.themes?.includes(name)||re.test(text)).map(([name])=>name);return matched.length?matched:['Autres'];}
   const tokens=s=>fold(s).replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ');
-  function related(item,engins=window.LDV_ENGINS||[]){const doc=' '+tokens(item.title+' '+(item.sourceExcerpt?.text||''))+' ';return engins.map((e,i)=>({e,i})).filter(({e})=>{if(e.category==='mer'&&!/naval|marin|navire|porte.avions|fregate|corvette|flotte|submarine/.test(fold(item.title)))return false;const model=e.name.match(/\b[A-Z]{1,4}[- ]?\d+[A-Z0-9-]*\b/);return [e.name,...(e.aliases||[]),model?.[0]].filter(Boolean).some(n=>{const key=tokens(n);return key.length>=3&&/[a-z]/.test(key)&&doc.includes(' '+key+' ');});}).slice(0,3);}
+  const ambiguousNames=new Set(['apache','tigre','tiger','panther','lynx','gazelle','puma','cougar','tornado','typhoon','raptor','reaper','predator','spirit','viper','leclerc','centurion','warrior','challenger','patriot','meteor','mistral','trident']);
+  const contexts={air:/avion|chasseur|aerien|aeronaut|helicoptere|drone|airbus|boeing|dassault|aircraft|fighter|helicopter|air force/,terre:/blind|\bchars?\b|artillerie|obusier|infanterie|armee|\barmy\b|\btanks?\b|armoured|armored/,mer:/naval|marin|navire|porte.avions|fregate|corvette|flotte|submarine|\bnavy\b|frigate|destroyer|amphibious|\bship\b/,missiles:/missile|balistique|intercept|munition|mbda|dissuasion|air.air|defense aerienne|icbm/};
+  function related(item,engins=window.LDV_ENGINS||[]){
+    const text=fold(item.title+' '+(item.sourceExcerpt?.text||'')),doc=' '+tokens(text)+' ';
+    return engins.map((e,i)=>({e,i})).filter(({e})=>{
+      const context=contexts[e.category];
+      if(e.category==='mer'&&!context.test(text))return false;
+      const model=e.name.match(/\b[A-Z]{1,4}[- ]?\d+[A-Z0-9-]*\b/);
+      return [e.name,...(e.aliases||[]),model?.[0]].filter(Boolean).some(n=>{
+        const key=tokens(n);
+        // Un atlas géopolitique n'identifie pas l'A400M : son nom ou sa désignation sont nécessaires.
+        if(key==='atlas'||key.length<3||!/[a-z]/.test(key))return false;
+        if(ambiguousNames.has(key)&&context&&!context.test(text))return false;
+        return doc.includes(' '+key+' ');
+      });
+    }).slice(0,3);
+  }
   function image(item){return item.image?.kind==='article'?item.image:null;}
   window.RADAR_NEWS_TOOLS=Object.freeze({themes,related,image,fold,themeNames:[...rules.map(([name])=>name),'Autres']});
 })();

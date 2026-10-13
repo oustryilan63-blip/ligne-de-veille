@@ -192,3 +192,13 @@
 .history-tech-sources li+li{margin-top:6px}
 .history-detail-head .history-tech-date{font:400 10px/1.5 var(--mono);color:#57695b;margin:16px 0 0}
 @media(max-width:480px){.history-tech-panel{padding:20px 15px}.history-tech-fields>div{gap:12px;font-size:13px;grid-template-columns:minmax(85px,.8fr) minmax(0,1.2fr)}}
+
+/* Une couverture pour identifier l'engin, puis la galerie après sa chronologie. */
+.history-cover{display:block;height:430px;background:#263b36}
+.history-detail-head .history-cover img{display:block;width:100%;height:100%;object-fit:contain}
+.history-photo-shortcut{display:inline-flex;align-items:center;min-height:44px;margin-top:8px;color:#944128;font-weight:600;text-underline-offset:4px}
+.history-photos .history-gallery-frame img{display:block;width:100%;height:100%;object-fit:contain;cursor:zoom-in}
+.history-photos .history-gallery-caption{font-size:13px;line-height:1.6;margin:12px 0 6px;color:#40574b}
+.history-photos .history-gallery{max-width:980px;margin:0 auto}
+@media(max-width:950px){.history-cover{height:380px}}
+@media(max-width:650px){.history-cover{height:280px}}
