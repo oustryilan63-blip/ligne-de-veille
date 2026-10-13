@@ -11,6 +11,11 @@ if(Object.keys(timelines).length!==engins.length)fail('Couverture des frises inc
 for(const [i,e] of engins.entries()){
   if(!timelines[i]?.length)fail('Frise manquante : '+e.name);
   for(const event of timelines[i])if(!event.date||!event.label||!event.detail||!event.source?.startsWith('https://'))fail('Jalon sans référence : '+e.name);
+  if(history[i]?.storySections){
+    if(timelines[i].length<4&&!(timelines[i].length>=3&&history[i].timelineNote))fail('Frise insuffisamment développée sans limite documentée : '+e.name);
+    let previous=0;
+    for(const event of timelines[i]){if(!Number.isInteger(event.year)||event.year<previous||event.year>new Date().getFullYear())fail('Frise non chronologique : '+e.name);previous=event.year;}
+  }
 }
 if(Object.keys(technical).length!==engins.length)fail('Couverture des fiches techniques incomplète');
 for(const [i,e] of engins.entries()){
@@ -31,6 +36,12 @@ for(const [i,e] of engins.entries()){
   if(!e.photoFile||!e.photoAuthor||!e.photoLicense)fail('Crédit manquant : '+e.name);
   if(!history[i]?.story)fail('Histoire manquante : '+e.name);
   for(const source of history[i].storySources||[])if(!source.label||!source.url?.startsWith('https://'))fail('Source du récit invalide : '+e.name);
+  if(history[i].storySections){
+    const chapters=history[i].storySections,urls=new Set((history[i].storySources||[]).map(r=>r.url));
+    if(chapters.length<4||history[i].story.split(/\s+/).length<190)fail('Histoire insuffisamment développée : '+e.name);
+    for(const c of chapters)if(!c.title||!c.text||!c.sources?.length||c.sources.some(url=>!urls.has(url)))fail('Chapitre sans référence : '+e.name);
+    if(chapters.map(c=>c.text.trim()).join('\n\n')!==history[i].story)fail('Récit et chapitres différents : '+e.name);
+  }
   for(const code of [...(history[i].current||[]),...(history[i].former||[])])if(!codes.has(code))fail('Pays utilisateur absent de la carte : '+e.name+' '+code);
 }
 for(const fact of facts)if(!names.has(fact.ref))fail('Question sans engin : '+fact.ref);
