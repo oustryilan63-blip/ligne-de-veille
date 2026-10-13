@@ -3,7 +3,7 @@
   if (!game) return;
   const $ = id => document.getElementById(id);
   const catalog = window.LDV_ENGINS || [];
-  let zoomSettings;
+  let zoomSettings,chronoSettings,factSettings;
   const rand = max => Math.floor(Math.random() * max);
   const shuffle = items => {
     const copy = [...items];
@@ -81,7 +81,7 @@
     }));
   }
   function alternatives(item, seedShuffle = shuffle) {
-    if(game==='zoom'&&zoomSettings)return window.RADAR_CATALOGUE.options(item,catalog,zoomSettings.config.level,seedShuffle);
+    if(game==='zoom'&&zoomSettings)return window.RADAR_CATALOGUE.options(item,zoomSettings.pool(catalog),zoomSettings.config.level,seedShuffle);
     const sameKind = catalog.filter(other => other.kind === item.kind && other.name !== item.name);
     const sameCategory = catalog.filter(other => other.category === item.category && other.name !== item.name);
     const picked = [];
@@ -144,7 +144,7 @@
     });
     $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) { window.LDV_PROGRESS?.complete('zoom',score,25,zoomSettings.label()+' · 5 photos'); finish(`${score} point${score > 1 ? 's' : ''} sur 25. Les bons réflexes d’observation font la différence.`); } else round(); });
     $('arcade-restart').addEventListener('click', start);
-    function start() { scales=zoomSettings.config.level==='beginner'?[2.4,1.9,1.5,1.2,1]:zoomSettings.config.level==='expert'?[4.8,3.8,2.8,1.9,1]:[3.6,2.8,2.1,1.5,1];deck = shuffle(catalog).slice(0, 5); index = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); }
+    function start() { scales=zoomSettings.config.level==='beginner'?[2.4,1.9,1.5,1.2,1]:zoomSettings.config.level==='expert'?[4.8,3.8,2.8,1.9,1]:[3.6,2.8,2.1,1.5,1];deck = shuffle(zoomSettings.pool(catalog)).slice(0, 5); index = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); }
     zoomSettings=window.RADAR_QUIZ.mount($('quiz-settings'),start,{collectionAllowed:false});
     start();
   }
@@ -155,8 +155,9 @@
     function chooseGroups() {
       // Une seule date par année : les sources ne donnent pas toutes le jour exact.
       const seen = new Set();
-      const selected = shuffle(byYear).filter(item => { if (seen.has(item.year)) return false; seen.add(item.year); return true; }).slice(0, 8).sort((a, b) => a.year - b.year);
-      groups = [[selected[0], selected[2], selected[4], selected[6]], [selected[1], selected[3], selected[5], selected[7]]];
+      const selected = shuffle(window.RADAR_CATALOGUE.levelPool(byYear,chronoSettings.config.level)).filter(item => { if (seen.has(item.year)) return false; seen.add(item.year); return true; }).slice(0, 8).sort((a, b) => a.year - b.year);
+      if(selected.length>=8)groups = [[selected[0], selected[2], selected[4], selected[6]], [selected[1], selected[3], selected[5], selected[7]]];
+      else {const choose=()=>{const years=new Set();return shuffle(window.RADAR_CATALOGUE.levelPool(byYear,chronoSettings.config.level)).filter(item=>{if(years.has(item.year))return false;years.add(item.year);return true;}).slice(0,4).sort((a,b)=>a.year-b.year)};groups=[choose(),choose()];}
     }
     let group, score, order, resolved;
     function renderList() {
@@ -214,9 +215,9 @@
       result(correct === 4, `${correct} / 4 bien placés`, 'Voici l’ordre vérifié des premiers vols. Ouvre chaque source pour retrouver sa date.', {}, group === 1 ? 'Voir mon score →' : 'Série suivante →');
       show('arcade-source', false);
     });
-    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++group === 2) { window.LDV_PROGRESS?.complete('chrono',score,8,'2 séries de 4'); finish(`${score} appareils bien placés sur 8. Rejoue pour découvrir une autre sélection de premiers vols.`); } else round(); });
+    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++group === 2) { window.LDV_PROGRESS?.complete('chrono',score,8,chronoSettings.label()+' · 2 séries de 4'); finish(`${score} appareils bien placés sur 8. Rejoue pour découvrir une autre sélection de premiers vols.`); } else round(); });
     $('arcade-restart').addEventListener('click', () => { chooseGroups(); group = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); });
-    chooseGroups(); group = 0; score = 0; round();
+    chronoSettings=window.RADAR_QUIZ.mount($('quiz-settings'),()=>{chooseGroups();group=0;score=0;show('arcade-end',false);show('arcade-play',true);round();},{collectionAllowed:false});chooseGroups(); group = 0; score = 0; round();
   }
 
   if (game === 'vrai-faux') {
@@ -246,10 +247,10 @@
       const ref = catalog.find(item => item.name === fact.ref);
       result(ok, fact.answer ? 'C’est vrai.' : 'C’est faux.', fact.reason, ref, index + 1 === deck.length ? 'Voir mon score →' : 'Affirmation suivante →');
     });
-    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) { window.LDV_PROGRESS?.complete('vrai-faux',score,deck.length,'10 affirmations'); finish(`${score} bonne${score > 1 ? 's' : ''} réponse${score > 1 ? 's' : ''} sur ${deck.length}. Chaque correction renvoie à une source.`); } else round(); });
+    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) { window.LDV_PROGRESS?.complete('vrai-faux',score,deck.length,factSettings.label()+' · 10 affirmations'); finish(`${score} bonne${score > 1 ? 's' : ''} réponse${score > 1 ? 's' : ''} sur ${deck.length}. Chaque correction renvoie à une source.`); } else round(); });
     $('arcade-restart').addEventListener('click', start);
-    function start() { deck = shuffle(window.LDV_FACTS).slice(0, 10); index = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); }
-    start();
+    function start() { deck = shuffle(window.RADAR_CATALOGUE.levelPool(window.LDV_FACTS,factSettings.config.level)).slice(0, 10); index = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); }
+    factSettings=window.RADAR_QUIZ.mount($('quiz-settings'),start,{collectionAllowed:false});start();
   }
 
   if (game === 'quotidien') {

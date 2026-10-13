@@ -16,7 +16,7 @@ window.QG_ART=(()=>{
   const factor=Math.min(maxW/image.naturalWidth,maxH/image.naturalHeight),w=image.naturalWidth*factor,h=image.naturalHeight*factor;
   c.save();c.imageSmoothingEnabled=true;c.imageSmoothingQuality='high';c.drawImage(image,x-w/2,y-h,w,h);c.restore();return true;
  }
- function sprite(c,id,x,y,scale=1){if(!illustrations[id]&&['griffon','nh90','a400m'].includes(id))return sprite(c,{griffon:'caesar',nh90:'caracal',a400m:'rafale'}[id],x,y,scale);c.save();c.translate(Math.round(x),Math.round(y));c.scale(scale,scale);
+ function sprite(c,id,x,y,scale=1){if(window.QG_SUPPORT_ART?.sprite(c,id,x,y,scale))return;if(!illustrations[id]&&['griffon','nh90','a400m'].includes(id))return sprite(c,{griffon:'caesar',nh90:'caracal',a400m:'rafale'}[id],x,y,scale);c.save();c.translate(Math.round(x),Math.round(y));c.scale(scale,scale);
   const image=illustrations[id];
   if(image){
    const factor=Math.min(105/image.naturalWidth,68/image.naturalHeight),w=image.naturalWidth*factor,h=image.naturalHeight*factor;
@@ -158,7 +158,7 @@ window.QG_ART=(()=>{
   const q=Math.min(p/.82,1),ease=q*q*(3-2*q);
   let x=0,y=0,lift=0,angle=0,scale=1;
   if(id==='rafale'){const roll=Math.min(q/.4,1);x=45*roll*roll+155*Math.max(0,(q-.4)/.6);y=24*roll*roll+75*Math.max(0,(q-.4)/.6);lift=110*Math.max(0,(q-.4)/.6);scale=1-.18*ease;}
-  else if(id==='caracal'||id==='nh90'){x=60*ease;y=-18*ease;lift=45*Math.min(q*2,1);scale=1-.12*ease;}
+  else if(id==='caracal'||id==='nh90'||id==='drone'){x=60*ease;y=-18*ease;lift=45*Math.min(q*2,1);scale=1-.12*ease;}
   else if(id==='a400m'){const taxi=Math.min(q/.3,1),roll=Math.max(0,Math.min(1,(q-.3)/.25)),climb=Math.max(0,(q-.55)/.45);x=69*taxi+50*roll+100*climb;y=-37*taxi+27*roll+50*climb;lift=90*climb;scale=1-.18*ease;}
   else if(id==='griffon'){x=-42*Math.min(ease/.2,1)+112*Math.max(0,(ease-.2)/.8);y=-23*Math.min(ease/.2,1)-60*Math.max(0,(ease-.2)/.8);}
   else if(id==='leclerc'){const exit=Math.min(ease/.22,1),road=Math.max(0,(ease-.22)/.78);x=-55*exit+112*road;y=-15*exit-60*road;}
@@ -169,7 +169,7 @@ window.QG_ART=(()=>{
  }
  function activity(c,id,progress,kind='mission',preview=false,time=0){
   const base=locations[id];if(!base)return;
-  const a=pose(id,progress,kind),p=Math.max(0,Math.min(1,progress)),air=['rafale','caracal','nh90','a400m'].includes(id),ship=id==='fremm'||id==='suffren';
+  const a=pose(id,progress,kind),p=Math.max(0,Math.min(1,progress)),air=['rafale','caracal','nh90','a400m','drone'].includes(id),ship=id==='fremm'||id==='suffren';
   const x=preview?160+a.x*.28:base[0]+a.x,y=preview?103+a.y*.18:base[1]+a.y,scale=preview?1.7:base[2];
   c.save();c.globalAlpha=a.alpha;
   if(kind==='mission'&&p<.82){

@@ -4,6 +4,8 @@
   const compact=s=>fold(s).replace(/[^a-z0-9]/g,'');
   const types={tank:'Chars de combat',armour:'Autres blindés',artillery:'Artillerie',combat:'Avions de combat',bomber:'Bombardiers',transport:'Avions de transport',trainer:'Avions d’entraînement',recon:'Avions de reconnaissance et de guet',helicopter:'Hélicoptères',drone:'Drones',submarine:'Sous-marins',carrier:'Porte-avions',amphibious:'Bâtiments amphibies',surface:'Autres navires',ballistic:'Missiles balistiques',cruise:'Missiles de croisière',airmissile:'Missiles air-air',othermissile:'Autres missiles'};
   function type(e){const k=fold(e.kind);if(e.category==='terre')return /artillerie|obusier|canon|lance.roquettes/.test(k)?'artillery':/\bchar\b/.test(k)?'tank':'armour';if(e.category==='air'){if(/helicoptere/.test(k))return 'helicopter';if(/drone/.test(k))return 'drone';if(/transport|ravitail/.test(k))return 'transport';if(/entrainement/.test(k))return 'trainer';if(/reconnaissance|guet|detection|surveillance|patrouille|awacs/.test(k))return 'recon';if(/bombardier/.test(k)&&!/chasseur/.test(k))return 'bomber';return 'combat'}if(e.category==='mer'){if(/sous.marin/.test(k))return 'submarine';if(/amphibie|porte.helicopteres/.test(k))return 'amphibious';if(/porte.avions|porte.aeronefs/.test(k))return 'carrier';return 'surface'}if(/balistique|icbm/.test(k))return 'ballistic';if(/croisiere/.test(k))return 'cruise';if(/air.air/.test(k))return 'airmissile';return 'othermissile'}
+  function difficulty(e){const name=e?.name||e?.ref||'',alias={'Rafale A':'Rafale','KC-390 Millennium':'C-390 Millennium'},key=alias[name]||name;if(name==='F-15 Eagle')return 'beginner';for(const [level,names] of Object.entries(window.RADAR_DIFFICULTY_TIERS||{}))if(names.includes(key))return level;return 'standard';}
+  function levelPool(items,level){return window.RADAR_DIFFICULTY_TIERS?items.filter(e=>difficulty(e)===level):items;}
   const regions=new Intl.DisplayNames(['fr'],{type:'region'});
   const countryName=c=>{try{return regions.of(c)||c}catch{return c}};
   function matches(e,query){const terms=fold(query).trim().split(/\s+/).filter(Boolean),values=[e.name,e.kind,e.country,types[type(e)],...(e.aliases||[]),...(e.originCodes||[e.code]).map(countryName)];return terms.every(term=>values.some(v=>fold(v).includes(term)||compact(v).includes(compact(term))));}
@@ -17,5 +19,5 @@
     if(chosen.length<3)push(distinct);
     return chosen.length===3?shuffle([item,...chosen]).map(e=>e.name):[];
   }
-  window.RADAR_CATALOGUE=Object.freeze({fold,compact,type,types,countryName,matches,family,options});
+  window.RADAR_CATALOGUE=Object.freeze({fold,compact,type,types,countryName,matches,family,options,difficulty,levelPool});
 })();
