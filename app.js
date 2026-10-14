@@ -75,3 +75,30 @@ document.querySelectorAll('a[href="#archives"]').forEach(link => {
     document.querySelector('#archive-details').open = true;
   });
 });
+
+// La première valeur aléatoire et le jour parisien sont ceux du Défi du jour.
+// L’aperçu ne contient ni nom de l’engin ni indication de sa réponse.
+(() => {
+  const catalog=window.LDV_ENGINS||[],visual=document.getElementById('daily-home-visual');
+  if(!visual||!catalog.length)return;
+  const card=document.getElementById('daily-home-card'),img=document.getElementById('daily-home-photo'),credit=document.getElementById('daily-home-credit');
+  let displayedDay='';
+  const external=(label,url)=>{const a=document.createElement('a');a.textContent=label;a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a;};
+  function refresh(){
+    const parts=Object.fromEntries(new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Paris',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(p=>[p.type,p.value]));
+    const key=parts.year+'-'+parts.month+'-'+parts.day;if(key===displayedDay)return;displayedDay=key;
+    let seed=2166136261;for(const char of key){seed^=char.charCodeAt(0);seed=Math.imul(seed,16777619);}
+    const random=((Math.imul(seed,1664525)+1013904223)>>>0)/4294967296;
+    let item=catalog[Math.floor(random*catalog.length)];
+    try{const saved=JSON.parse(localStorage.getItem('ldv-defi-'+key)),remembered=saved&&catalog.find(e=>e.name===saved.itemName);
+      if(remembered&&Array.isArray(saved.names)&&saved.names.length===4&&new Set(saved.names).size===4&&saved.names.includes(remembered.name)&&saved.names.includes(saved.choice)&&saved.names.every(name=>catalog.some(e=>e.name===name)))item=remembered;
+    }catch{/* L’aperçu reste disponible sans stockage local. */}
+    credit.replaceChildren();
+    if(item.photoFile&&item.photoAuthor&&item.photoLicenseUrl){credit.append(external(item.photoAuthor,item.photoSource||'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(item.photoFile)),' · ',external(item.photoLicense,item.photoLicenseUrl));}
+    img.src='assets/jeu/'+item.photo;visual.hidden=false;card.classList.add('has-photo');
+  }
+  img.addEventListener('error',()=>{visual.hidden=true;card.classList.remove('has-photo');});
+  refresh();
+  if(typeof window.setInterval==='function')window.setInterval(refresh,60000);
+  document.addEventListener?.('visibilitychange',()=>{if(!document.hidden)refresh();});
+})();

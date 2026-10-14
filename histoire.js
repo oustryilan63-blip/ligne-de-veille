@@ -205,7 +205,22 @@
     const sources=el('section','history-detail-section history-sources');sources.id='sources';sources.append(el('h3','','Sources de la fiche'));const list=el('ul');
     const refs=[['Présentation et histoire du programme',item.source],['Pays utilisateurs',fact.operatorSource],['Anciens utilisateurs',fact.formerSource],['Production et livraisons',production?.source],['Inventaire daté',inventory?.source],['Engins détruits',figuresFor.losses?.source],['Cibles détruites',figuresFor.targets?.source],...(fact.storySources||[]).map(ref=>[ref.label,ref.url]),...(fact.extraSources||[]).map(url=>['Autre source',url])];const seen=new Set();refs.forEach(([title,url])=>{if(url&&!seen.has(url)){seen.add(url);const li=el('li');li.append(link(title+' ↗',url));list.append(li)}});sources.append(list,el('p','',(fact.storyCheckedAt?'Récit et frise revus le '+fact.storyCheckedAt+'. Autres repères : dernière vérification indiquée le '+(fact.checkedAt||'10 octobre 2026'):'Sources consultées le '+(fact.checkedAt||'10 octobre 2026'))+'. La carte présente les pays documentés dans ces sources, sans prétendre couvrir chaque transfert ou retrait. Les bilans de pertes sont des minimums documentés ou des estimations datées, précisés dans chaque carte.'));detail.append(sources);
     const next=el('nav','history-next');next.setAttribute('aria-label','Parcourir les fiches');const prev=el('a','','← '+engins[(index+engins.length-1)%engins.length].name);prev.href='histoire.html?engin='+(index+engins.length-1)%engins.length;const after=el('a','',engins[(index+1)%engins.length].name+' →');after.href='histoire.html?engin='+(index+1)%engins.length;next.append(prev,after);detail.append(next);
-    for(const [label,id] of [['Histoire','recit'],...(events.length?[['Chronologie','chronologie']]:[]),['Technique','technique'],['Photos','photos'],...(modelView?[['3D','vue-3d']]:[]),['Carte','utilisateurs'],['Chiffres','chiffres'],['Sources','sources']]){const a=el('a','',label);a.href='#'+id;if(id==='technique')a.addEventListener('click',()=>{const button=document.getElementById('tech-toggle-'+index);if(button.getAttribute('aria-expanded')==='false')button.click()});jump.append(a);}
+    for(const [label,id] of [['Histoire','recit'],...(events.length?[['Chronologie','chronologie']]:[]),['Technique','technique'],['Photos','photos'],...(modelView?[['3D','vue-3d']]:[]),['Carte','utilisateurs'],['Chiffres','chiffres'],['Sources','sources']]){
+      const a=el('a','',label);a.href='#'+id;a.dataset.section=id;
+      a.addEventListener('click',()=>{markSection(id);if(id==='technique'){const button=document.getElementById('tech-toggle-'+index);if(button.getAttribute('aria-expanded')==='false')button.click();}});
+      jump.append(a);
+    }
+    const sectionLinks=[...jump.querySelectorAll('a')];let currentSection='';
+    function markSection(id){
+      if(id===currentSection)return;currentSection=id;
+      for(const a of sectionLinks){if(a.dataset.section===id){a.setAttribute('aria-current','location');if(typeof jump.scrollTo==='function')jump.scrollTo({left:Math.max(0,a.offsetLeft-16),behavior:'auto'});}else a.removeAttribute('aria-current');}
+    }
+    markSection(sectionLinks.some(a=>a.href.endsWith(location.hash))&&location.hash?location.hash.slice(1):'recit');
+    if(typeof window.requestAnimationFrame==='function'){
+      const targets=sectionLinks.map(a=>({id:a.dataset.section,node:document.getElementById(a.dataset.section)})).filter(s=>s.node);let queued=false;
+      const schedule=()=>{if(queued)return;queued=true;window.requestAnimationFrame(()=>{queued=false;const line=jump.getBoundingClientRect().bottom+48;let nearest=null;for(const s of targets){const bounds=s.node.getBoundingClientRect();if(bounds.height>0&&bounds.top<=line&&(!nearest||bounds.top>nearest.top))nearest={id:s.id,top:bounds.top};}markSection(nearest?.id||'recit');});};
+      window.addEventListener('scroll',schedule,{passive:true});window.addEventListener('resize',schedule,{passive:true});
+    }
   }
   const params=new URLSearchParams(location.search);const index=Number(params.get('engin'));
   if(params.has('engin')&&Number.isInteger(index)&&index>=0&&index<engins.length)renderDetail(index);else renderCatalogue();

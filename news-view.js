@@ -6,12 +6,18 @@
     let limit=4,current=[],archiveDirty=true;
     const quickThemes=[...document.querySelectorAll('[data-news-theme]')];
     const archiveDetails=document.getElementById('archive-details');
+    const filterToggle=document.getElementById('news-filters-toggle'),filterPanel=document.getElementById('news-filters-panel'),filterState=document.getElementById('news-filters-state');
+    filterToggle?.addEventListener('click',()=>{filterPanel.hidden=!filterPanel.hidden;filterToggle.setAttribute('aria-expanded',String(!filterPanel.hidden));});
+    filterPanel?.addEventListener('keydown',event=>{if(event.key==='Escape'){filterPanel.hidden=true;filterToggle.setAttribute('aria-expanded','false');filterToggle.focus();}});
     const indexed=news.items.map(item=>({item,image:tools.image(item),themes:tools.themes(item),matches:tools.related(item),text:tools.fold([item.title,item.source,item.summary,item.sourceExcerpt?.text].join(' '))}));
     for(const source of [...new Set(news.items.map(i=>i.source))].sort((a,b)=>a.localeCompare(b,'fr'))){const o=make('option','',source);o.value=source;sourceSelect.append(o)}
     for(const theme of tools.themeNames){const o=make('option','',theme);o.value=theme;themeSelect.append(o)}
     if(window.location?.href&&new URL(window.location.href).searchParams.get('theme')==='geopolitique'){themeSelect.value='Géopolitique';limit=12;}
     function render(){
       const query=tools.fold(search.value).trim().split(/\s+/).filter(Boolean),filtered=Boolean(query.length||sourceSelect.value||themeSelect.value||photosOnly.checked);
+      const activeFilters=Number(Boolean(sourceSelect.value))+Number(Boolean(themeSelect.value))+Number(photosOnly.checked);
+      if(filterState)filterState.textContent=activeFilters?activeFilters+' actif'+(activeFilters>1?'s':''):'Tous les articles';
+      filterToggle?.classList.toggle('has-active-filters',activeFilters>0);
       const matching=indexed.filter(r=>/^https:\/\//.test(r.item.url)&&(!sourceSelect.value||r.item.source===sourceSelect.value)&&(!themeSelect.value||r.themes.includes(themeSelect.value))&&query.every(word=>r.text.includes(word)));
       const rows=photosOnly.checked?matching.filter(r=>r.image):matching;
       document.getElementById('news-photo-count').textContent=matching.filter(r=>r.image).length+' / '+matching.length+' articles avec une photo d’origine';
