@@ -94,3 +94,67 @@ body .button-dark:hover{background:#344f3e}
 @media(max-width:900px){.home-direct .wrap{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:24px}.daily-home-copy{padding:16px}.daily-home.has-photo{grid-template-columns:minmax(100px,.7fr) minmax(0,1.3fr)}}
 @media(max-width:700px){.home-direct{padding:28px 0}.home-direct .wrap{grid-template-columns:1fr;gap:24px}.home-direct h1{font-size:clamp(33px,8.5vw,44px)}.home-direct p{font-size:14px}.home-actions{margin-top:18px}.home-shortcuts{grid-template-columns:1fr;gap:16px}.daily-home.has-photo{grid-template-columns:minmax(110px,.8fr) minmax(0,1.2fr)}.daily-home-copy{padding:18px}.daily-home-visual img{max-height:220px}.daily-home p{font-size:13px}.news-section .news-heading{display:block;margin-bottom:20px}.news-section .news-heading-side{margin-top:14px}.news-section .news-heading-side p{max-width:550px}.news-section .section-heading h2{font-size:35px;max-width:500px}.news-section .news-tools{grid-template-columns:1fr}.news-filters-toggle{justify-content:flex-start;width:100%}.news-filters-toggle .filter-chevron{margin-left:auto}.news-filters-panel{grid-template-columns:1fr;padding:16px}.news-section .news-theme-shortcuts{margin-top:18px}.history-profile .history-main{padding-top:24px}.history-profile .history-back{margin-bottom:12px}}
 @media(prefers-reduced-motion:reduce){body .button:hover{transform:none}.filter-chevron{transition:none}}
+/* Confort de lecture et surfaces communes — octobre 2026. */
+.site-header .main-nav a{border-radius:7px 7px 0 0}
+body:has(.home-direct)>.site-header,body.games-hub-page>.site-header,body:has(#history-catalogue):not(.history-profile)>.site-header{position:sticky;top:0;box-shadow:0 4px 18px #1a31200a}
+#actualites,#progression,#history-options{scroll-margin-top:100px}
+.home-direct{padding:42px 0;background:radial-gradient(ellipse at 90% 0,#3a5447 0,transparent 65%),#20382e}
+.home-direct h1{max-width:760px;line-height:1.12}
+.daily-home{box-shadow:0 8px 28px #0e211e18;border-color:#68816b}
+.daily-home.has-photo{grid-template-columns:minmax(120px,.95fr) minmax(0,1.15fr)}
+.home-shortcuts a{box-shadow:0 3px 12px #18322205}
+.home-shortcuts a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+/* Des articles séparés, avec un pied de carte réservé aux crédits. */
+.news-section #news-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;border:0}
+.news-section #news-grid>.news-entry{padding:22px;border:1px solid #d0d8c9;border-radius:10px;background:#fbfcf7;transition:border-color .16s,box-shadow .16s}
+.news-section #news-grid>.news-entry:hover{border-color:#aabda5;box-shadow:0 5px 20px #243b2d08}
+.news-section #news-grid .news-entry .news-card{padding:0;gap:24px;background:transparent}
+.news-section #news-grid .news-entry .news-main strong{font-size:clamp(23px,2.1vw,29px);line-height:1.22;text-wrap:pretty}
+.news-section #news-grid .news-entry .news-main small{line-height:1.75;color:#526351}
+.news-section #news-grid .news-entry .news-media{border-radius:6px}
+.news-section #news-grid .news-image-credit{margin-top:16px;padding:12px 0 0;border-top:1px solid #e1e6da;font-size:11px;line-height:1.65;color:#62715d}
+.news-section #news-grid .news-related{padding:12px 0 0;gap:10px 16px;align-items:center}
+.news-section #news-grid .news-related a{display:inline-flex;align-items:center;min-height:32px;text-underline-offset:4px}
+.news-section #news-more{display:flex;justify-content:center;margin:28px auto 0;min-width:min(100%,340px)}
+.news-section #news-more[hidden]{display:none}
+.news-section .news-disclaimer{max-width:96ch;font-size:12px;line-height:1.8;margin:26px 0 16px}
+/* Les cartes de jeu conservent leurs photos et une hiérarchie commune. */
+.games-hub-page .game-intro{background:radial-gradient(ellipse at 85% 0,#354d40 0,transparent 65%),#20382e}
+.games-hub-page main>.game-intro h1,.games-hub-page .games-hub-intro h2{text-transform:none;line-height:1.14;letter-spacing:-.025em}
+.games-hub .games-grid{gap:24px}
+.games-hub .game-tile:nth-child(n){background:#fbfcf7;color:#253c30;border:1px solid #c9d4c3;border-radius:10px;box-shadow:0 3px 12px #18322205}
+.games-hub .game-tile:before{display:none}
+.games-hub .game-tile:hover,.games-hub .game-tile:focus-visible{transform:translateY(-3px);border-color:#859d7e;box-shadow:0 10px 24px #18322212}
+.games-hub .game-tile strong{font-size:clamp(25px,2.3vw,31px);line-height:1.18;text-transform:none;margin:20px 0 14px;text-wrap:balance}
+.games-hub .game-tile:nth-child(n) .game-tile-number{color:#925038;letter-spacing:.035em}
+.games-hub .game-tile:nth-child(n) p{color:#53674f;line-height:1.75}
+.games-hub .game-tile-photo{height:176px;filter:none}
+.games-hub .games-filters{gap:9px}
+.games-hub .games-filters button{border-radius:24px;min-height:44px;padding-inline:17px}
+.games-hub .games-filters button[aria-pressed=true]{box-shadow:0 2px 7px #1e382819}
+/* Un atlas plus compact et des titres de fiches plus faciles à parcourir. */
+.history-hero{padding-top:46px;background:radial-gradient(ellipse at 90% 0,#354d40 0,transparent 65%),#20382e}
+.history-hero:before{opacity:.35}
+.history-hero h1{font-size:clamp(46px,6vw,78px);line-height:1.04;text-transform:none;letter-spacing:-.03em;margin:20px 0}
+.history-hero p{margin-bottom:38px;line-height:1.7}
+.history-main{padding-top:44px}
+.history-card-shell .history-card{border-radius:10px;overflow:hidden;box-shadow:0 3px 12px #18322205}
+.history-card .history-card-title strong{font-size:25px;line-height:1.2;text-transform:none}
+.history-card .history-card-copy{padding:20px 22px 22px}
+.history-card .history-card-country{font-size:13px;line-height:1.6;margin-top:10px}
+.history-card .history-3d-badge{border-radius:4px}
+.history-detail .history-story{max-width:780px}
+.history-story .history-story-copy,.history-story .history-story-sources{max-width:70ch}
+.history-detail .history-story>h2,.history-detail .history-story>h3,.history-detail .history-timeline h3,.history-3d .history-3d-head h3{text-transform:none;line-height:1.15}
+.history-detail .history-timeline,.history-detail .history-3d{border-radius:10px}
+.history-detail .history-story-meta{line-height:1.7;gap:10px 22px}
+@media(max-width:760px){
+  body:has(.home-direct)>.site-header,body.games-hub-page>.site-header,body:has(#history-catalogue):not(.history-profile)>.site-header{height:70px}
+  .home-direct{padding:30px 0}.home-direct .wrap{gap:28px}
+  .history-hero{padding-top:32px}.history-hero h1{font-size:clamp(42px,10vw,62px)}.history-hero p{font-size:15px;margin-bottom:28px}.history-main{padding-top:30px}
+  .news-section #news-grid>.news-entry{padding:18px}.news-section #news-grid .news-entry .news-card{gap:16px}.news-section #news-grid .news-entry .news-main strong{font-size:24px}
+  .games-hub .games-grid{gap:18px}.games-hub .game-tile-photo{height:185px}.games-hub .game-tile strong{font-size:28px}
+  .history-detail .history-story p{font-size:16px;line-height:1.85}
+}
+@media(max-width:420px){.daily-home.has-photo{grid-template-columns:minmax(100px,.8fr) minmax(0,1.2fr)}.daily-home-copy{padding:15px}.daily-home h2{font-size:23px}.daily-home .button{font-size:11px;padding-inline:10px}.home-actions{gap:10px}.home-actions .button{padding-inline:15px}.news-section #news-grid>.news-entry{padding:15px}}
+@media(prefers-reduced-motion:reduce){.news-section #news-grid>.news-entry,.games-hub .game-tile{transition:none}.games-hub .game-tile:hover,.games-hub .game-tile:focus-visible{transform:none}}
