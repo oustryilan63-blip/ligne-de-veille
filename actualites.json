@@ -4,6 +4,296 @@
   "items": [
     {
       "date": "2026-10-14",
+      "publishedAt": "2026-10-14T15:25:47+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Andy Lord appointed Interim Chair of NAD Group Advisory Board",
+      "url": "https://www.gov.uk/government/news/andy-lord-appointed-interim-chair-of-nad-group-advisory-board",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "The Board provides independent support and challenge, helping to ensure the Group is well run and manages its strategy, performance…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-14T16:20:45.864514+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6acf66ea2de3184ccf8b80e8/s300_Andy_Lord.jpeg",
+        "kind": "article",
+        "alt": "Andy Lord, Interim Chair of the NAD Group Advisory Board",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/andy-lord-appointed-interim-chair-of-nad-group-advisory-board",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/andy-lord-appointed-interim-chair-of-nad-group-advisory-board",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-14"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T15:11:10+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’amiral Cluzel ne voit pas de problème avec les catapultes électromagnétiques américaines du futur porte-avions",
+      "url": "https://www.opex360.com/2026/10/14/lamiral-cluzel-ne-voit-pas-de-probleme-avec-les-catapultes-electromagnetiques-americaines-du-futur-porte-avions/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "amiral Cluzel",
+        "catapulte électromagnétique",
+        "CEMM",
+        "dépendance",
+        "EMALS",
+        "France Libre",
+        "General Atomics",
+        "Marine Nationale",
+        "porte-avions",
+        "US Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "En novembre 2025, le chef d’état-major des armées [CEMA], le général Fabien Mandon, avait dit vouloir mener une réflexion sur…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-14T16:20:45.864514+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/france-libre-20260318.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’amiral Cluzel ne voit pas de problème avec les catapultes électromagnétiques américaines du futur porte-avions ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/14/lamiral-cluzel-ne-voit-pas-de-probleme-avec-les-catapultes-electromagnetiques-americaines-du-futur-porte-avions/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/14/lamiral-cluzel-ne-voit-pas-de-probleme-avec-les-catapultes-electromagnetiques-americaines-du-futur-porte-avions/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-14",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/france-libre-20260318.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T14:09:32+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "À Lorient, la frégate suédoise prend corps et Naval Group lorgne le Danemark",
+      "url": "https://www.revueconflits.com/a-lorient-la-fregate-suedoise-prend-corps-et-naval-group-lorgne-le-danemark/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Armes et armement",
+        "Abonné",
+        "Reportage"
+      ],
+      "imageCheckedAt": "2026-10-14T16:20:45.864514+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/2026_MBST_008_V_016_001-scaled.jpg",
+        "kind": "article",
+        "alt": "À Lorient, la frégate suédoise prend corps et Naval Group lorgne le Danemark",
+        "credit": "Durant sa navigation en Atlantique Nord, la FDI Amiral Ronarc'h a mis son embarcation à l'eau pour entrainer les pilotes d'embarcation ainsi que pour prendre des photos. ©Kevin Auger/Marine Nationale/Défense",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/a-lorient-la-fregate-suedoise-prend-corps-et-naval-group-lorgne-le-danemark/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/a-lorient-la-fregate-suedoise-prend-corps-et-naval-group-lorgne-le-danemark/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-14",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/2026_MBST_008_V_016_001-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T12:55:00+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "NAD and CDS want capability delivered faster as DSEI 27 launched",
+      "url": "https://www.gov.uk/government/news/dsei-uk-27-mod-leaders-focus-on-speed-innovation-and-readiness",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "The National Armaments Director and the Chief of the Defence Staff urge faster capability delivery, greater innovation, and improved readiness.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-14T16:20:45.864514+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6acf7a9d71dbe79328fd4507/s300_DSEI_Theme_Launch-NAD_CDS.jpg",
+        "kind": "article",
+        "alt": "Pictured (L-R): Rupert Pearce, National Armaments Director and Air Chief Marshal Knighton, Chief of the Defence Staff, speak to Rear Admiral Jon Pentreath (ret’d), Military Advisor DSEI UK, to launch DSEI UK 27 - Delivering the Integrated…",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/dsei-uk-27-mod-leaders-focus-on-speed-innovation-and-readiness",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/dsei-uk-27-mod-leaders-focus-on-speed-innovation-and-readiness",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-14"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T12:33:16+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "New Launcher Spotted Aboard Royal Navy Type 45 Destroyer",
+      "url": "https://www.navalnews.com/naval-news/2026/10/type-45-destroyer-drone-interceptor-launchers/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "C-UAS",
+        "Royal Navy",
+        "Type 45"
+      ],
+      "sourceExcerpt": {
+        "text": "New images reveal mystery containerized drone interceptor launchers fitted aboard the Royal Navy Type 45 Destroyer HMS Dauntless for C-UAS…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-14T16:20:45.864514+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/HMS-Dauntless-new-launcher-768x431.jpg",
+        "kind": "article",
+        "alt": "New Launcher Spotted Aboard Royal Navy Type 45 Destroyer",
+        "credit": "Crown copyright 2026.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/type-45-destroyer-drone-interceptor-launchers/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/type-45-destroyer-drone-interceptor-launchers/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-14",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/HMS-Dauntless-new-launcher-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T10:33:10+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La France et le Tchad signent une lettre d’intention pour rétablir leur coopération en matière de défense",
+      "url": "https://www.opex360.com/2026/10/14/la-france-et-le-tchad-signent-une-lettre-dintention-pour-retablir-leur-cooperation-en-matiere-de-defense/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Diplomatie",
+        "Catherine Vautrin",
+        "coopération militaire",
+        "France",
+        "Issakha Malloua Djamouss",
+        "Sahel",
+        "Soudan",
+        "Tchad"
+      ],
+      "sourceExcerpt": {
+        "text": "Quand il était chef d’état-major des armées [CEMA], après la rupture consommée avec le Mali, le Burkina Faso, le Niger…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-14T16:20:45.864514+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/tchad-20240125.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La France et le Tchad signent une lettre d’intention pour rétablir leur coopération en matière de défense ».",
+        "credit": "Mirage 2000D sur la base Sergent-chef Adji Kosseï – État-major des armées / archive",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/14/la-france-et-le-tchad-signent-une-lettre-dintention-pour-retablir-leur-cooperation-en-matiere-de-defense/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/14/la-france-et-le-tchad-signent-une-lettre-dintention-pour-retablir-leur-cooperation-en-matiere-de-defense/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-14",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/tchad-20240125.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T10:28:21+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Hellenic Navy Tests SARONIC’s Corsair USV Ahead of Major Order",
+      "url": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-tests-saronics-corsair-usv-ahead-of-major-order/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Hellenic Navy",
+        "Saronic Technologies",
+        "USV"
+      ],
+      "sourceExcerpt": {
+        "text": "The Hellenic Navy is currently testing a number of Corsair autonomous unmanned surface vessels (USVs) and has submitted a Letter…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-14T16:20:45.864514+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Saronic-Corsair-USV-on-the-open-deck-of-Perseus-768x412.jpg",
+        "kind": "article",
+        "alt": "Hellenic Navy Tests SARONIC’s Corsair USV Ahead of Major Order",
+        "credit": "Greek MoD.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-tests-saronics-corsair-usv-ahead-of-major-order/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-tests-saronics-corsair-usv-ahead-of-major-order/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-14",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Saronic-Corsair-USV-on-the-open-deck-of-Perseus.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T08:52:29+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "« Un atlas est un manifeste » – Entretien avec Jean-Baptiste Noé",
+      "url": "https://www.revueconflits.com/un-atlas-est-un-manifeste-entretien-avec-jean-baptiste-noe/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Livres",
+        "Abonné",
+        "Chemins de France"
+      ],
+      "imageCheckedAt": "2026-10-14T16:20:45.864514+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/Vignettes-videos-93.png",
+        "kind": "article",
+        "alt": "« Un atlas est un manifeste » – Entretien avec Jean-Baptiste Noé",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/un-atlas-est-un-manifeste-entretien-avec-jean-baptiste-noe/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/un-atlas-est-un-manifeste-entretien-avec-jean-baptiste-noe/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-14",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/Vignettes-videos-93.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-14",
       "publishedAt": "2026-10-14T05:30:23+00:00",
       "source": "Areion — Géopolitique",
       "sourceType": "Presse spécialisée",
@@ -2415,7 +2705,7 @@
         "text": "Selon des informations non officiellement confirmées, plusieurs exemplaires du système de lutte anti drones Korkut produit par la firme turque…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-10-13T16:07:09.837226+00:00",
+      "imageCheckedAt": "2026-10-14T16:20:45.864514+00:00",
       "publisherCategories": [
         "Aselsan",
         "Bayraktar TB2",
@@ -2711,7 +3001,7 @@
       "imageCheckedAt": "2026-10-14T06:14:39.353720+00:00"
     }
   ],
-  "checkedAt": "2026-10-14T06:14:30.261136+00:00",
+  "checkedAt": "2026-10-14T16:20:42.278226+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -2754,13 +3044,13 @@
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 5,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 3,
         "error": null
       },
       {
@@ -2772,7 +3062,7 @@
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 13,
+        "recentItems": 12,
         "error": null
       },
       {
@@ -2782,8 +3072,8 @@
         "error": null
       }
     ],
-    "newItems": 6,
-    "articleImages": 74,
+    "newItems": 8,
+    "articleImages": 82,
     "duplicateHeadlinesSkipped": 0
   }
 }
