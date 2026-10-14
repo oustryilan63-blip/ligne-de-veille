@@ -198,11 +198,11 @@ window.QG_ART=(()=>{
   const objects=[];
   for(const [gx,gy] of window.QG_LAYOUT.trees){const [x,y]=project(gx,gy);objects.push({depth:y,draw(){if(!decoration(c,'tree',x,y,30,38)){rect(c,x,y-9,3,10,'#586553');poly(c,[[x-11,y-5],[x+1,y-27],[x+13,y-5]],'#496f5c');}}});}
   for(const [id,p] of Object.entries(positions)){const [x,y]=project(...p);objects.push({depth:y+12,draw(){building(c,id,x,y,state.buildings[id],time);if(state.integrity?.[id]<100){poly(c,[[x+18,y-9],[x+24,y+2],[x+12,y+2]],'#ba795a');rect(c,x+17,y-5,2,4,'#efe1b9');rect(c,x+17,y,2,1,'#efe1b9');}}});}
-  for(const [id,[x,y,scale]] of Object.entries(locations)){if(!state.units[id]||state.units[id].owned===false)continue;const active=activities.find(a=>a.id===id),a=active?pose(id,active.progress,active.kind):null;objects.push({depth:a&&a.lift>10?1000:y+(a?.y||0),draw(){if(active){activity(c,id,active.progress,active.kind,false,time);return;}sprite(c,id,x,y+(['fremm','suffren'].includes(id)?Math.sin(time/1600)*2:0),scale);}});}
+  for(const [id,[x,y,scale]] of Object.entries(locations)){if(!state.units[id]||state.units[id].owned===false)continue;const active=activities.find(a=>a.id===id),a=active?pose(id,active.progress,active.kind):null;const deployed=state.content?.operation&&[state.content.operation.unit,state.content.operation.support].includes(id);if(deployed&&!active)continue;objects.push({depth:a&&a.lift>10?1000:y+(a?.y||0),draw(){if(active){activity(c,id,active.progress,active.kind,false,time);return;}sprite(c,id,x,y+(['fremm','suffren'].includes(id)?Math.sin(time/1600)*2:0),scale);}});}
   objects.sort((a,b)=>a.depth-b.depth).forEach(o=>o.draw());
   if(illustrations.terrain){for(let i=0;i<5;i++){const x=530+i*32,y=396+Math.sin(time/1700+i)*2;poly(c,[[x,y],[x+15,y-1],[x+20,y],[x+4,y+1]],'#577e86');}}
   // A small support vehicle travels along the central road.
-  const progress=1.9+(time/1400)%8,[vx,vy]=project(6,progress);if(!decoration(c,'support',vx,vy+3,27,22)){rect(c,vx-6,vy-7,12,7,'#e0c891');rect(c,vx-5,vy-6,4,3,'#496975');rect(c,vx-6,vy,3,3,'#203d41');rect(c,vx+3,vy,3,3,'#203d41');}
+  const phase=(time/1400)%16,progress=1.9+(phase<8?phase:16-phase),[vx,vy]=project(6,progress);if(!decoration(c,'support',vx,vy+3,27,22)){rect(c,vx-6,vy-7,12,7,'#e0c891');rect(c,vx-5,vy-6,4,3,'#496975');rect(c,vx-6,vy,3,3,'#203d41');rect(c,vx+3,vy,3,3,'#203d41');}
  }
  return {sprite,building,scene,ready,pose,activity};
 })();
