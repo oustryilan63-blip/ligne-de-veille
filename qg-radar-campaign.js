@@ -38,25 +38,25 @@
    if(current.ended||current.actions<1)return fail('Une décision disponible est nécessaire.');if(current.cash<24)return fail('Il faut 24 crédits.');if(Object.keys(caps).every(k=>current.content.resources[k]===caps[k]))return fail('Les stocks sont déjà pleins.');current.cash-=24;current.actions--;for(const [k,gain] of Object.entries({fuel:45,parts:14,ammo:18}))current.content.resources[k]=Math.min(caps[k],current.content.resources[k]+gain);const message='Ravitaillement reçu : +45 carburant, +14 pièces, +18 munitions (limités à la capacité des réserves).';current.log.unshift(message);current.log=current.log.slice(0,16);return {ok:true,state:current,message};
   }
   if(a.type==='mission'){
-   const eligible=L.action(current,a);if(!eligible.ok)return fail(eligible.message);const m=L.mission(current,a.id,a.unit),mode=a.mode||'normal',support=a.support||'';
+   const eligible=L.action(current,a);if(!eligible.ok)return fail(eligible.message);const m=root.QG.mission(current,a.id,a.unit,a.order),mode=a.mode||'normal',support=a.support||'';
    if(!['normal','prudent','rapide'].includes(mode))return fail('Préparation inconnue.');
    if(support&&(!current.units[support]?.owned||current.units[support].used||current.units[support].condition<45||support===a.unit))return fail('Choisis un soutien disponible, en état de partir.');
-   const costs=resourceCost(current,m,mode);if(support)costs.fuel+=5;for(const k of Object.keys(caps))if(current.content.resources[k]<costs[k])return fail('Stock insuffisant : '+({fuel:'carburant',parts:'pièces',ammo:'munitions'}[k])+'. Ravitaille la base.');
+   const costs=root.QG.resourceCost(current,m,mode);if(support)costs.fuel+=5;for(const k of Object.keys(caps))if(current.content.resources[k]<costs[k])return fail('Stock insuffisant : '+({fuel:'carburant',parts:'pièces',ammo:'munitions'}[k])+'. Ravitaille la base.');
    current.cash-=m.cost;current.actions--;for(const k of Object.keys(caps))current.content.resources[k]-=costs[k];current.units[a.unit].used=true;if(support)current.units[support].used=true;
-   current.content.operation={id:a.id,unit:a.unit,support,mode,stage:0,hits:0,kind:m.combat?m.type:'soutien'};
+   current.content.operation={id:a.id,unit:a.unit,support,mode,stage:0,hits:0,kind:m.combat?m.type:'soutien',order:m.order||''};
    const message=m.title+' : préparation terminée. Réussis les trois étapes interactives'+(support?' avec '+supportLabel(support):'')+'.';current.log.unshift(message);current.log=current.log.slice(0,16);return {ok:true,state:current,message,operation:true};
   }
   if(a.type==='operationStep'){
    const op=current.content.operation;if(!op||a.id!==op.id||a.stage!==op.stage||typeof a.hit!=='boolean')return fail('Cette étape est déjà résolue ou inconnue.');op.hits+=a.hit?1:0;op.stage++;
    if(op.stage<3)return {ok:true,state:current,message:'Étape '+op.stage+'/3 : '+(a.hit?'objectif atteint.':'difficulté rencontrée.')};
-   const m=L.mission(current,op.id,op.unit),success=op.hits+(op.support?1:0)>=2,reward=success?m.reward:Math.floor(m.reward*.25),wear=success?m.wear:m.maxDamage;
+   const m=root.QG.mission(current,op.id,op.unit,op.order),success=op.hits+((op.support||op.intel)?1:0)>=2,reward=success?m.reward:Math.floor(m.reward*.25),wear=success?m.wear:m.maxDamage;
    current.cash=Math.min(9999,current.cash+reward);current.units[op.unit].condition=Math.max(0,current.units[op.unit].condition-wear);if(op.support)current.units[op.support].condition=Math.max(0,current.units[op.support].condition-8);current.done.push(op.id);if(success)current.completed++;current.morale=Math.max(0,Math.min(100,current.morale+(success?3:-5)));current.content.operation=null;
    const message=m.title+' : '+(success?'réussite':'repli')+' · '+op.hits+'/3 étapes réussies'+(op.support?' + soutien':'')+' · '+reward+' crédits reçus · usure −'+wear+'.';current.log.unshift(message);current.log=current.log.slice(0,16);return {ok:true,state:current,message,operationResult:{success,hits:op.hits}};
   }
   if(a.type==='repair'&&current.content.resources.parts<6)return fail('Il faut 6 pièces pour réparer cet engin.');
   const result=L.action(current,a);if(!result.ok)return fail(result.message);const s=enrich(result.state);
   if(a.type==='repair')s.content.resources.parts-=6;
-  if((a.type==='next'||a.type==='continue')&&s.week!==current.week){for(const [k,gain] of Object.entries({fuel:22,parts:5,ammo:8}))s.content.resources[k]=Math.min(caps[k],s.content.resources[k]+gain);s.content.incidentDone=false;}
+  if((a.type==='next'||a.type==='continue')&&s.week!==current.week){const gains=root.QG.theater?.weeklySupply?root.QG.theater.weeklySupply(current,s):{fuel:22,parts:5,ammo:8};for(const [k,gain] of Object.entries(gains))s.content.resources[k]=Math.min(caps[k],s.content.resources[k]+gain);s.content.incidentDone=!!root.QG.theater;}
   if(a.type==='intercept')s.content.resources.ammo=Math.max(0,s.content.resources.ammo-2);
   return {...result,state:s};
  }

@@ -65,6 +65,7 @@
     "qg-radar-engine.js",
     "qg-radar-layout.js",
     "qg-radar-motion.js",
+    "qg-radar-operation-engine.js",
     "qg-radar-operations.js",
     "qg-radar-planning.js",
     "qg-radar-preview.svg",
