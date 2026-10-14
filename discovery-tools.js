@@ -30,4 +30,41 @@
     }).filter(Boolean).sort((a,b)=>b.score-a.score||a.index-b.index).map(x=>x.item);
   }
   window.RADAR_DISCOVERY=Object.freeze({fold,slug,profileURL,description,essentials,rank});
+  if(typeof document==='undefined')return;
+  const filters=document.getElementById('learning-filters');
+  if(filters){
+    const cards=[...document.querySelectorAll('[data-guide-categories]')];
+    const buttons=[...filters.querySelectorAll('[data-guide-filter]')];
+    const status=document.getElementById('learning-filter-status');
+    for(const button of buttons)button.addEventListener('click',()=>{
+      const theme=button.dataset.guideFilter;
+      for(const card of cards)card.hidden=theme!=='all'&&!card.dataset.guideCategories.split(' ').includes(theme);
+      for(const other of buttons)other.setAttribute('aria-pressed',String(other===button));
+      const count=cards.filter(card=>!card.hidden).length;
+      status.textContent=count+' dossier'+(count>1?'s':'')+' · '+button.textContent;
+    });
+    filters.hidden=false;
+  }
+  const glossary=document.getElementById('glossary-search');
+  if(glossary){
+    const entries=[...document.querySelectorAll('[data-glossary-term]')];
+    const count=document.getElementById('glossary-count');
+    const update=()=>{const query=fold(glossary.value).trim();for(const entry of entries)entry.hidden=!fold(entry.dataset.glossaryTerm).includes(query);const n=entries.filter(e=>!e.hidden).length;count.textContent=n?n+' définition'+(n>1?'s':''):'Aucun terme trouvé. Essaie un autre mot ou efface la recherche.';};
+    glossary.addEventListener('input',update);
+    document.getElementById('glossary-search-wrap').hidden=false;
+    update();
+  }
+  for(const form of document.querySelectorAll('.learning-quiz-form')){
+    const fields=[...form.querySelectorAll('fieldset')],score=form.querySelector('.learning-quiz-score');
+    form.addEventListener('submit',event=>{
+      event.preventDefault();
+      const selected=fields.map(field=>[...field.querySelectorAll('input')].find(input=>input.checked));
+      if(selected.some(input=>!input)){score.textContent='Choisis une réponse à chacune des trois questions.';return;}
+      let total=0;
+      fields.forEach((field,i)=>{const correct=selected[i].value===field.dataset.answer,feedback=field.querySelector('.learning-quiz-feedback');if(correct)total++;feedback.textContent=(correct?'✓ Bonne réponse. ':'À retenir : '+feedback.dataset.correct+'. ')+feedback.dataset.explanation;feedback.dataset.result=correct?'correct':'review';feedback.hidden=false;});
+      score.textContent=total+' / '+fields.length+' · '+(total===fields.length?'Les repères sont acquis !':'Relis les explications, puis réessaie si tu le souhaites.');
+    });
+    form.addEventListener('reset',()=>{for(const field of fields)field.querySelector('.learning-quiz-feedback').hidden=true;score.textContent='';});
+    form.hidden=false;
+  }
 })();
