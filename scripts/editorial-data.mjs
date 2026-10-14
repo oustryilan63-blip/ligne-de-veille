@@ -6,7 +6,7 @@ export const editorial = {
       slug:'malouines-1982',period:'1982',title:'Les Malouines : une guerre entre mer, air et terre',
       description:'Comprendre la guerre de 1982, ses étapes, le rôle des moyens navals et aériens et ses conséquences humaines.',
       takeaway:'Les porte-avions, les avions et les missiles rendent cette guerre très visible. Son histoire comprend aussi un différend territorial, une expédition lointaine, des débarquements et des combats terrestres.',
-      map:{viewBox:'265 245 365 265',countries:['AR'],points:[{x:403,y:447,label:'Malouines / Falkland',tx:438,ty:458},{x:400,y:335,label:'Amérique du Sud',tx:425,ty:316}]},
+      map:{viewBox:'265 245 365 265',countries:['AR'],points:[{x:403,y:438,label:'Malouines / Falkland',tx:438,ty:449},{x:400,y:335,label:'Amérique du Sud',tx:425,ty:316}]},
       sources:[
         {label:'National Army Museum — l’armée britannique et les Malouines',url:'https://www.nam.ac.uk/explore/british-army-and-falklands-war'},
         {label:'RAF Museum — Harriers over Falklands',url:'https://www.rafmuseum.org.uk/blog/harriers-over-falklands/'},
