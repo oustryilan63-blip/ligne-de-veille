@@ -23,6 +23,10 @@ CONTEXT.load_default_certs()
 HEADERS = {'User-Agent': 'Radar/1.0 (+https://oustryilan63-blip.github.io/ligne-de-veille/)', 'Accept': 'application/rss+xml, application/atom+xml, text/xml, text/html;q=0.8'}
 sys.path.insert(0,str(ROOT/'scripts'))
 from news_images import find_article_image, POLICY
+from news_http import NewsHTTP
+
+HTTP = NewsHTTP(HEADERS, CONTEXT)
+WORKERS = 5
 
 class PlainText(HTMLParser):
     def __init__(self):
@@ -71,11 +75,7 @@ def canonical(raw, source):
     return urllib.parse.urlunsplit(('https',p.netloc,p.path,urllib.parse.urlencode(query),''))
 
 def request(url, max_bytes=2_000_000):
-    with urllib.request.urlopen(urllib.request.Request(url,headers=HEADERS),timeout=25,context=CONTEXT) as response:
-        if urllib.parse.urlsplit(response.url).scheme != 'https': raise ValueError('Redirection non HTTPS')
-        data = response.read(max_bytes + 1)
-        if len(data) > max_bytes: raise ValueError('Flux trop volumineux')
-        return data
+    return HTTP.request(url, max_bytes=max_bytes)
 
 def local_name(tag): return tag.rsplit('}',1)[-1]
 def child_text(element, names):
@@ -130,12 +130,7 @@ def collect(source, now):
     except Exception as exc: return source, [], str(exc)[:180]
 
 def verify_link(item):
-    try:
-        with urllib.request.urlopen(urllib.request.Request(item['url'],headers=HEADERS),timeout=20,context=CONTEXT) as response:
-            if urllib.parse.urlsplit(response.url).scheme != 'https' or 'text/html' not in response.headers.get('Content-Type',''): return False
-            response.read(1024)
-            return response.status == 200
-    except Exception: return False
+    return HTTP.verify_article(item['url'])
 
 def article_image(item):
     try:
@@ -151,7 +146,7 @@ def enrich_images(items):
     hosts.update(POLICY.get('publisherPermission',{}).get('articleHosts',[]))
     now=dt.datetime.now(dt.timezone.utc);retry_before=(now-dt.timedelta(hours=24)).isoformat()
     eligible = sorted([i for i in items if urllib.parse.urlsplit(i['url']).hostname in hosts and (not i.get('image') or not i['image'].get('provider') or (i['image'].get('provider')=='specific-permission' and (not i['image'].get('assetUrl') or not i['image'].get('sha256')))) and i.get('imageCheckedAt','')<retry_before], key=lambda i:(not bool(i.get('imageCheckedAt')),i['date'],i.get('publishedAt','')), reverse=True)[:48]
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
         for item, image in zip(eligible, pool.map(article_image, eligible)):
             item['imageCheckedAt']=now.isoformat()
             if image: item['image'] = image
@@ -164,7 +159,7 @@ def main():
     stored = json.loads((ROOT/'actualites.json').read_text(encoding='utf-8'))
     urls = {item['url'].rstrip('/') for item in stored['items']}
     statuses, additions, types_ok = [], [], set()
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
         results = list(pool.map(lambda source:collect(source,now),sources))
     candidates = [];duplicates_skipped=0
     recent_after=(now.astimezone(PARIS)-dt.timedelta(days=7)).date().isoformat()
@@ -187,7 +182,7 @@ def main():
         candidates.extend(selected);duplicates_skipped+=duplicates
     if not {'Source officielle','Presse spécialisée'}.issubset(types_ok):
         raise RuntimeError('La collecte doit réussir pour au moins une source officielle et une source spécialisée. Les actualités existantes sont conservées.')
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
         verified = list(pool.map(verify_link,candidates))
     for item, valid in zip(candidates,verified):
         if valid and item['url'].rstrip('/') not in urls:
@@ -204,6 +199,8 @@ def main():
     temporary = output.with_suffix('.json.tmp'); temporary.write_text(json.dumps(stored,ensure_ascii=False,indent=2)+'\n',encoding='utf-8'); temporary.replace(output)
     summary = f"{len(additions)} nouveautés ; {sum(s['ok'] for s in statuses)}/{len(statuses)} flux consultés ; {len(stored['items'])} publications conservées."
     print(summary)
+    http = HTTP.stats()
+    print(f"HTTP : {http['requests']} requêtes ; {http['cacheHits']} réutilisations de réponses ; {http['sharedRequests']} requêtes simultanées regroupées.")
     if os.environ.get('GITHUB_STEP_SUMMARY'):
         with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as report: report.write('## Veille quotidienne\n\n'+summary+'\n\nContrôle : '+now.astimezone(PARIS).isoformat()+'\n')
 
