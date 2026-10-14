@@ -1,7 +1,164 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-10-13",
+  "updatedAt": "2026-10-14",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T05:30:23+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Yémen : un clivage nord-sud à l’épreuve de la guerre",
+      "url": "https://www.areion24.news/2026/10/14/yemen-un-clivage-nord-sud-a-lepreuve-de-la-guerre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Carto"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Près de quinze ans après la chute d’Ali Abdallah Saleh (1947-2017), président de 1978 à 2012, le Yémen demeure un…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-14T06:14:39.353720+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/10/0301_MO_Yemen_Politique_Guerre_2026_V3.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Yémen : un clivage nord-sud à l’épreuve de la guerre ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/10/14/yemen-un-clivage-nord-sud-a-lepreuve-de-la-guerre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/10/14/yemen-un-clivage-nord-sud-a-lepreuve-de-la-guerre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-14",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/10/0301_MO_Yemen_Politique_Guerre_2026_V3.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T03:00:49+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Élections brésiliennes : ce que disent les cartes du premier tour",
+      "url": "https://www.revueconflits.com/elections-bresiliennes-ce-que-disent-les-cartes-du-premier-tour/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique latine",
+        "Cartes",
+        "Abonné",
+        "Brésil"
+      ],
+      "imageCheckedAt": "2026-10-14T06:14:39.353720+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/Vignettes-videos-88.png",
+        "kind": "article",
+        "alt": "Élections brésiliennes : ce que disent les cartes du premier tour",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/elections-bresiliennes-ce-que-disent-les-cartes-du-premier-tour/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/elections-bresiliennes-ce-que-disent-les-cartes-du-premier-tour/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-14",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/Vignettes-videos-88.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T17:30:50+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’armée de l’Air & de l’Espace se prépare à une possible attaque chimique menée par des drones",
+      "url": "https://www.opex360.com/2026/10/13/larmee-de-lair-de-lespace-se-prepare-a-une-possible-attaque-chimique-menee-par-des-drones/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "NBC",
+        "aAE",
+        "armée de l'Air & de l'Espace",
+        "attaque",
+        "attaque chimique",
+        "base aérienne",
+        "BASEX",
+        "drone",
+        "NRBC"
+      ],
+      "sourceExcerpt": {
+        "text": "Les forces aérospatiales russes ont-elles imaginé que, un jour, cinq de leurs bases abritant des bombardiers stratégiques se feraient attaquer…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-14T06:14:39.353720+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/basex-20261013.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’armée de l’Air & de l’Espace se prépare à une possible attaque chimique menée par des drones ».",
+        "credit": "armée de l’Air & de l’Espace",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/13/larmee-de-lair-de-lespace-se-prepare-a-une-possible-attaque-chimique-menee-par-des-drones/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/13/larmee-de-lair-de-lespace-se-prepare-a-une-possible-attaque-chimique-menee-par-des-drones/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-14",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/basex-20261013.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T16:35:41+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le français Drone Volt présente le nouveau drone logistique Hercules 100, capable de transporter une charge de 100 kg",
+      "url": "https://www.opex360.com/2026/10/13/le-francais-drone-volt-presente-le-nouveau-drone-logistique-hercules-100-capable-de-transporter-une-charge-de-100-kg/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "Industrie",
+        "armée de terre",
+        "drone logistique",
+        "DRONE VOLT",
+        "Hercules 100",
+        "Marine Nationale"
+      ],
+      "sourceExcerpt": {
+        "text": "Au sein d’un groupe aéronaval, environ 90 % des liaisons d’un navire à un autre effectuées par hélicoptère concernent des…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-14T06:14:39.353720+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/hercules-100-20261013.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le français Drone Volt présente le nouveau drone logistique Hercules 100, capable de transporter une charge de 100 kg ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/13/le-francais-drone-volt-presente-le-nouveau-drone-logistique-hercules-100-capable-de-transporter-une-charge-de-100-kg/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/13/le-francais-drone-volt-presente-le-nouveau-drone-logistique-hercules-100-capable-de-transporter-une-charge-de-100-kg/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-14",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/hercules-100-20261013.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-13",
       "publishedAt": "2026-10-13T14:06:26+00:00",
@@ -62,7 +219,7 @@ window.LDV_NEWS = {
       "publisherCategories": [
         "Europe",
         "Europe de l'Est",
-        "Revue Conflits",
+        "Abonné",
         "Russie"
       ],
       "imageCheckedAt": "2026-10-13T16:07:09.837226+00:00",
@@ -738,6 +895,82 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-12",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2020/06/SAHEL.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "publishedAt": "2026-10-12T08:22:51+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "French MoD Selects Top Contenders for DANAE Armed Surface Drone Project",
+      "url": "https://www.navalnews.com/naval-news/2026/10/french-mod-selects-top-contenders-for-danae-armed-surface-drone-project/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "DANAE",
+        "French Navy",
+        "USV"
+      ],
+      "sourceExcerpt": {
+        "text": "The French Navy and AID select three industrial teams to develop advanced armed autonomous surface drones for the DANAE armed…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-14T06:14:39.353720+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/DANAE_USV_finalists-768x512.jpg",
+        "kind": "article",
+        "alt": "French MoD Selects Top Contenders for DANAE Armed Surface Drone Project",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/french-mod-selects-top-contenders-for-danae-armed-surface-drone-project/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/french-mod-selects-top-contenders-for-danae-armed-surface-drone-project/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-14",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/DANAE_USV_finalists.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "publishedAt": "2026-10-12T06:50:56+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Exail Starts Production of Unmanned MCM System for Indonesian Navy",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/exail-starts-production-of-unmanned-mcm-system-for-indonesian-navy/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "Exail",
+        "Indonesia",
+        "TNI AL"
+      ],
+      "sourceExcerpt": {
+        "text": "Exail has begun production of the Unmanned MCM System (UMIS) for the Indonesian Navy, featuring Inspector 90 USVs, third-party integrations,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-14T06:14:39.353720+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2025/06/Inspector-90_HD-768x424.jpg",
+        "kind": "article",
+        "alt": "Inspector 90 USV by Exail",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/exail-starts-production-of-unmanned-mcm-system-for-indonesian-navy/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/exail-starts-production-of-unmanned-mcm-system-for-indonesian-navy/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-14",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2025/06/Inspector-90_HD-scaled.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -2261,7 +2494,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-13T06:05:44.930958+00:00"
+      "imageCheckedAt": "2026-10-14T06:14:39.353720+00:00"
     },
     {
       "date": "2026-10-07",
@@ -2475,10 +2708,10 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-13T06:05:44.930958+00:00"
+      "imageCheckedAt": "2026-10-14T06:14:39.353720+00:00"
     }
   ],
-  "checkedAt": "2026-10-13T16:07:03.802196+00:00",
+  "checkedAt": "2026-10-14T06:14:30.261136+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -2491,7 +2724,7 @@ window.LDV_NEWS = {
       {
         "source": "Sénat — Défense",
         "ok": true,
-        "recentItems": 1,
+        "recentItems": 0,
         "error": null
       },
       {
@@ -2539,18 +2772,18 @@ window.LDV_NEWS = {
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 10,
+        "recentItems": 13,
         "error": null
       },
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 4,
         "error": null
       }
     ],
     "newItems": 6,
-    "articleImages": 68,
+    "articleImages": 74,
     "duplicateHeadlinesSkipped": 0
   }
 };
