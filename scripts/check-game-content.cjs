@@ -22,18 +22,20 @@ for(let week=1;week<=12;week++){
  if(s.alert?.pending)step({type:'intercept',id:s.alert.id,hit:true});step({type:'next'});
 }
 assert.ok(s.ended);assert.ok(total>=12,'Campagne réalisable : '+total);step({type:'continue'});assert.equal(s.week,13);
-console.log('162 niveaux exclusifs, sélections, migration QG, victoire différée, soutien, pas de double gain et campagne de 12 semaines réalisable : OK.');
-const {createDOM}=require('./feature-test-dom.cjs'),doc=createDOM('<p id="qg-status"></p>'),canvasContext=new Proxy({},{get:()=>()=>{}}),originalCreate=doc.createElement;
+console.log(E.length+' engins, sélections, migration QG, victoire différée, soutien, pas de double gain et campagne de 12 semaines réalisable : OK.');
+const {createDOM}=require('./feature-test-dom.cjs'),doc=createDOM('<p id="qg-status"></p><section id="qg-events-under"></section>'),canvasContext=new Proxy({},{get:()=>()=>{}}),originalCreate=doc.createElement;
 doc.createElement=tag=>{const n=originalCreate(tag);if(tag==='canvas'){n.getContext=()=>canvasContext;n.getBoundingClientRect=()=>({left:0,top:0,width:720,height:400});}return n};
 const events={};doc.addEventListener=(k,fn)=>{events[k]=fn};doc.hidden=false;
 const command=doc.createElement('aside');command.className='qg-command';doc.body.append(command);
 let callbacks=[],gameState=Q.fresh(9),updates=0;gameState=Q.action(gameState,{type:'mission',id:'1-0',unit:'rafale'}).state;
+gameState.content.operation.scenario={title:'Opération héritée',sector:'air',stages:['Départ','Objectif','Retour'],mechanics:['legacy','legacy','legacy']};
 const ui={window:{QG:Q,QG_ART:{sprite(){}}},document:doc,requestAnimationFrame:fn=>{callbacks.push(fn);return callbacks.length},cancelAnimationFrame:()=>{callbacks=[]}};
+vm.runInNewContext(fs.readFileSync(path.join(root,'qg-radar-operation-engine.js'),'utf8'),ui);
 vm.runInNewContext(fs.readFileSync(path.join(root,'qg-radar-operations.js'),'utf8'),ui);
-const send=a=>{const r=Q.action(gameState,a);if(r.ok){gameState=r.state;updates++}return r};ui.window.QG_OPERATIONS.render(gameState,send);assert.match(doc.getElementById('qg-resources').textContent,/Carburant/);ui.window.QG_OPERATIONS.open(gameState,send);
+const send=a=>{const r=Q.action(gameState,a);if(r.ok){gameState=r.state;updates++}return r};ui.window.QG_OPERATIONS.render(gameState,send);assert.match(doc.getElementById('qg-resources').textContent,/Phase 1\/3/);ui.window.QG_OPERATIONS.open(gameState,send);
 async function operationUI(){const dialog=doc.getElementById('qg-operation'),start=doc.getElementById('qg-operation-start'),pause=doc.getElementById('qg-operation-pause'),canvas=dialog.querySelector('canvas');
  await start.click();await pause.click();assert.equal(callbacks.length,0,'Pause : animation arrêtée');
- for(let stage=0;stage<3;stage++){await start.click();const p=ui.window.QG_OPERATIONS.target(gameState.content.operation,0);await canvas.fire('pointerdown',{clientX:p.x*720,clientY:p.y*400});}
+ for(let stage=0;stage<3;stage++){await start.click();const engine=ui.window.QG_OPERATION_ENGINE,p=engine.targets(engine.create(gameState.content.operation,gameState.seed+gameState.week*97))[0];await canvas.fire('pointerdown',{clientX:p.x*720,clientY:p.y*400});}
  assert.equal(updates,3);assert.equal(gameState.completed,1);assert.equal(dialog.open,false);await canvas.fire('pointerdown',{clientX:100,clientY:100});assert.equal(updates,3,'Pas de double victoire après fermeture');
- console.log('Opération : stocks visibles, pause, trois étapes jouées à la souris et clôture sans double gain : OK.');
+ console.log('Opération héritée : reprise visible, pause, trois étapes jouées à la souris et clôture sans double gain : OK.');
 }operationUI().catch(e=>{console.error(e);process.exitCode=1});
