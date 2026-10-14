@@ -17,6 +17,8 @@
         const key=tokens(n);
         // Un atlas géopolitique n'identifie pas l'A400M : son nom ou sa désignation sont nécessaires.
         if(key==='atlas'||key.length<3||!/[a-z]/.test(key))return false;
+        // Hercules 100 (drone) et C-130 Hercules sont des appareils distincts.
+        if(key==='hercules'&&!/\bc[- ]?130\b|\blockheed\b/.test(text))return false;
         if(ambiguousNames.has(key)&&context&&!context.test(text))return false;
         return doc.includes(' '+key+' ');
       });
