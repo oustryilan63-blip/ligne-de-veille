@@ -42,3 +42,9 @@ Les scripts `add-*`, `find-*`, `download-*`, `apply-new-engins.mjs`, `update-cop
 ## Découverte et référencement
 
 `decouverte-data.js` contient les dossiers et les comparatifs éditoriaux sourcés. `discovery-tools.js` partage les adresses lisibles, les encadrés et le classement de recherche. `scripts/build-discovery.mjs` prépare pendant la construction les 162 pages `fiche-*.html`, Comprendre et ses dossiers, les trois comparatifs, la recherche, son index, le sitemap et les aperçus de partage. Aucun export supplémentaire n’est nécessaire. La recherche lit le dernier `actualites.json` à chaque construction de 8 h et 18 h. Les galeries, cartes et collections restent chargées à la demande. La variable `RADAR_SITE_URL` permet de changer l’adresse canonique lors du raccordement d’un domaine. L’image `assets/radar-partage.png` est une création graphique de Radar.
+
+## Lecture des récits
+
+Les 162 récits sont affichés en une seule colonne de paragraphes continus, avec un dépliant unique de références après le texte. `storySections` conserve uniquement le lien éditorial entre les passages et leurs sources ; ses titres ne sont plus affichés comme quatre blocs. `story` reste le récit intégral et détermine le temps de lecture. Les repères rapides sont repliés après le récit. Le rendu généré et le rendu interactif suivent le même ordre.
+
+Le 14 octobre 2026, six récits sont enrichis à partir de sources primaires : Leclerc, Rafale, Mirage 2000, Virginia, Suffren et SCALP/Storm Shadow. La date de revue et les références sont conservées dans chaque fiche.

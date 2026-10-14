@@ -131,31 +131,28 @@
     if(fact.storyCheckedAt)storyMeta.append(el('span','history-story-reviewed','Récit revu le '+fact.storyCheckedAt));
     if(events.length){const shortcut=el('a','','Voir les '+events.length+' grandes étapes ↓');shortcut.href='#chronologie';storyMeta.append(shortcut)}
     story.append(storyMeta);
-    if(fact.storySections?.length){
-      const chapters=el('div','history-story-chapters');
-      for(const chapter of fact.storySections){
-        const block=el('section','history-story-chapter');block.append(el('h4','',chapter.title));
-        chapter.text.split('\n\n').forEach(paragraph=>block.append(el('p','',paragraph)));
-        if(chapter.sources?.length){
-          const refs=el('details','history-chapter-sources');refs.append(el('summary','','Sources de ce passage'));
-          const list=el('ul');for(const url of chapter.sources){const li=el('li'),label=fact.storySources?.find(s=>s.url===url)?.label||'Document de référence';li.append(link(label+' ↗',url));list.append(li)}refs.append(list);block.append(refs);
-        }
-        chapters.append(block);
-      }
-      story.append(chapters);
-    }else (fact.story||'L’histoire de cet engin est présentée dans la source liée ci-dessous.').split('\n\n').forEach(paragraph=>story.append(el('p','',paragraph)));
+    const narrative=el('div','history-story-copy');
+    (fact.story||'L’histoire de cet engin est présentée dans la source liée ci-dessous.').split('\n\n').filter(Boolean).forEach(paragraph=>narrative.append(el('p','',paragraph)));
+    story.append(narrative);
+    const storyURLs=[...new Set(fact.storySections?.flatMap(chapter=>chapter.sources||[])||fact.storySources?.map(source=>source.url)||[item.source])];
+    if(storyURLs.length){
+      const refs=el('details','history-story-sources');refs.append(el('summary','','Sources du récit · '+storyURLs.length+' référence'+(storyURLs.length>1?'s':'')));
+      const list=el('ol');for(const url of storyURLs){const li=el('li'),label=fact.storySources?.find(source=>source.url===url)?.label||'Document de référence';li.append(link(label+' ↗',url));list.append(li)}refs.append(list);story.append(refs);
+    }
     head.append(media,copy);detail.append(head);
+    let essential;
     if(window.RADAR_DISCOVERY){
-      const essential=el('section','discovery-essential');essential.id='essentiel';essential.append(el('h2','','L’essentiel en quatre questions'));
+      essential=el('details','discovery-essential history-summary-fold');essential.id='essentiel';essential.append(el('summary','','Repères en bref'));
       const answers=el('div','discovery-answers');
       for(const q of window.RADAR_DISCOVERY.essentials(item,fact,technical[index])){const box=el('div','discovery-answer');box.append(el('h3','',q.question),el('p','',q.answer));if(q.source)box.append(link('Consulter la source ↗',q.source));answers.append(box)}
-      essential.append(answers);detail.append(essential);
+      essential.append(answers);
       const description=window.RADAR_DISCOVERY.description(item),url=window.RADAR_DISCOVERY.profileURL(item);
       for(const selector of ['meta[name="description"]','meta[property="og:description"]','meta[name="twitter:description"]']){const node=document.querySelector(selector);if(node)node.setAttribute('content',description)}
       const canonical=document.querySelector('link[rel="canonical"]');if(canonical&&location.href){canonical.href=new URL(url,location.href).href;const node=document.querySelector('meta[property="og:url"]');if(node)node.setAttribute('content',canonical.href)}
       for(const selector of ['meta[property="og:title"]','meta[name="twitter:title"]']){const node=document.querySelector(selector);if(node)node.setAttribute('content',item.name+' | Histoire | Radar')}
     }
     detail.append(story);
+    if(essential)detail.append(essential);
     if(events.length){
       const timeline=el('section','history-timeline');timeline.id='chronologie';timeline.setAttribute('aria-labelledby','timeline-title-'+index);
       const heading=el('h3','','Les grandes étapes');heading.id='timeline-title-'+index;
