@@ -28,7 +28,7 @@ if(fs.existsSync(path.join(output,'sitemap.xml'))){
  assert.equal(index.items.filter(i=>i.type==='engin').length,E.length);assert.equal(index.items.filter(i=>i.type==='dossier').length,4);assert.equal(index.items.filter(i=>i.type==='jeu').length,8);
  for(const [i,e]of E.entries()){
   const html=fs.readFileSync(path.join(output,D.profileURL(e)),'utf8');
-  assert.ok(html.includes('data-engine-index="'+i+'"'));assert.ok(html.includes('L’essentiel en quatre questions'));assert.ok(html.includes('<h1 class="history-name">'));
+  assert.ok(html.includes('data-engine-index="'+i+'"'));assert.ok(html.includes('Repères en bref'));assert.ok(html.includes('class="history-story-copy"'));assert.ok(!html.includes('class="history-story-chapter"'));assert.ok(html.includes('class="history-story-sources"'));assert.ok(html.includes('<h1 class="history-name">'));
   assert.ok(html.includes('rel="canonical"'));assert.ok(html.includes('property="og:image"'));assert.ok(html.includes('name="twitter:card"'));
   assert.ok(html.includes('href="recherche.html"'));assert.ok(html.includes('href="comprendre.html"'));
  }
