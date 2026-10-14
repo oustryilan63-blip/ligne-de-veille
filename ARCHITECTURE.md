@@ -38,3 +38,7 @@ Les huit jeux utilisent `assets/game-ui.css` et `assets/game-ui.js` pour leurs m
 | `check-qg-*.cjs` | Règles et parcours du jeu de gestion |
 
 Les scripts `add-*`, `find-*`, `download-*`, `apply-new-engins.mjs`, `update-copy.mjs` et fichiers `series-*` sont des aides utilisées lors d’extensions passées. Ils ne sont pas nécessaires pour publier le site et ne doivent pas être relancés comme entretien quotidien. Les contrôles d’Horizon concernent une rubrique retirée.
+
+## Découverte et référencement
+
+`decouverte-data.js` contient les dossiers et les comparatifs éditoriaux sourcés. `discovery-tools.js` partage les adresses lisibles, les encadrés et le classement de recherche. `scripts/build-discovery.mjs` prépare pendant la construction les 162 pages `fiche-*.html`, Comprendre et ses dossiers, les trois comparatifs, la recherche, son index, le sitemap et les aperçus de partage. Aucun export supplémentaire n’est nécessaire. La recherche lit le dernier `actualites.json` à chaque construction de 8 h et 18 h. Les galeries, cartes et collections restent chargées à la demande. La variable `RADAR_SITE_URL` permet de changer l’adresse canonique lors du raccordement d’un domaine. L’image `assets/radar-partage.png` est une création graphique de Radar.
