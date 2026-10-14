@@ -22,7 +22,11 @@ for(const g of C.guides){
  assert.ok(g.categories.length&&g.categories.every(tag=>C.categories.some(([id])=>tag===id)));
  assert.equal(g.quiz.length,3);for(const q of g.quiz){assert.equal(q.choices.length,3);assert.ok(Number.isInteger(q.answer)&&q.answer>=0&&q.answer<3);assert.ok(q.explanation.length>30);}
  for(const source of g.sources)assert.equal(new URL(source.url).protocol,'https:');
+ assert.ok(g.history?.paragraphs.length>=2);for(const p of g.history.paragraphs)assert.ok(p.text&&p.sources.length&&p.sources.every(i=>g.sources[i]));
+ assert.equal(g.milestones.length,3);for(const m of g.milestones)assert.ok(m.date&&m.title&&m.text&&g.sources[m.source]);
+ const prose=[...g.sections.map(s=>s.text),...g.history.paragraphs.map(p=>p.text)].join(' ');assert.ok(prose.split(/\s+/).length>=350,'Dossier trop peu développé : '+g.slug);
 }
+for(const e of E)for(const link of D.guideLinks(e))assert.ok(C.guides.some(g=>'comprendre-'+g.slug+'.html'===link.url),'Dossier associé absent : '+e.name);
 assert.equal(C.glossary.length,12);for(const [term,definition,slug] of C.glossary){assert.ok(term&&definition);assert.ok(C.guides.some(g=>g.slug===slug));}
 for(const p of C.comparisons){assert.notEqual(p.a,p.b);assert.equal(E[p.a].category,E[p.b].category);assert.ok(T[p.a].variant&&T[p.b].variant);assert.ok(p.sources.length>=2)}
 const output=path.join(root,'_site-decouverte');
@@ -34,12 +38,13 @@ if(fs.existsSync(path.join(output,'sitemap.xml'))){
  }
  assert.equal(index.items.filter(i=>i.type==='engin').length,E.length);assert.equal(index.items.filter(i=>i.type==='dossier').length,C.guides.length);assert.equal(index.items.filter(i=>i.type==='jeu').length,8);
  const hub=fs.readFileSync(path.join(output,'comprendre.html'),'utf8');assert.ok(hub.includes('id="learning-filters"'));assert.ok(hub.includes('id="glossaire"'));assert.equal((hub.match(/data-guide-categories=/g)||[]).length,C.guides.length);assert.equal((hub.match(/data-glossary-term=/g)||[]).length,12);
- for(const g of C.guides){const html=fs.readFileSync(path.join(output,'comprendre-'+g.slug+'.html'),'utf8');assert.ok(html.includes('aria-label="Sommaire du dossier"'));assert.equal((html.match(/<fieldset data-answer=/g)||[]).length,3);assert.ok(html.includes('Références consultées le 14 octobre 2026'));assert.ok(!html.includes('undefined'));if(g.visual)assert.ok(html.includes('class="learning-svg"'));}
+ for(const g of C.guides){const html=fs.readFileSync(path.join(output,'comprendre-'+g.slug+'.html'),'utf8');assert.ok(html.includes('aria-label="Sommaire du dossier"'));assert.equal((html.match(/<fieldset data-answer=/g)||[]).length,3);assert.ok(html.includes('Références consultées le 14 octobre 2026'));assert.ok(html.includes('id="contexte-historique"'));assert.ok(html.includes('class="learning-timeline"'));assert.ok(!html.includes('undefined'));if(g.visual)assert.ok(html.includes('class="learning-svg"'));}
  for(const [i,e]of E.entries()){
   const html=fs.readFileSync(path.join(output,D.profileURL(e)),'utf8');
   assert.ok(html.includes('data-engine-index="'+i+'"'));assert.ok(html.includes('Repères en bref'));assert.ok(html.includes('class="history-story-copy"'));assert.ok(!html.includes('class="history-story-chapter"'));assert.ok(html.includes('class="history-story-sources"'));assert.ok(html.includes('<h1 class="history-name">'));
   assert.ok(html.includes('rel="canonical"'));assert.ok(html.includes('property="og:image"'));assert.ok(html.includes('name="twitter:card"'));
   assert.ok(html.includes('href="recherche.html"'));assert.ok(html.includes('href="comprendre.html"'));
+  assert.ok(html.includes('class="learning-profile-reading"'));assert.ok(H[i].storyExpansion,'Récit non approfondi : '+e.name);
  }
  for(const p of C.comparisons){const html=fs.readFileSync(path.join(output,'comparatif-'+p.slug+'.html'),'utf8');assert.ok(html.includes('data-compare-a="'+p.a+'"'));assert.ok(html.includes(T[p.a].variant));assert.ok(html.includes(T[p.b].variant));}
  const sitemap=fs.readFileSync(path.join(output,'sitemap.xml'),'utf8');assert.ok(sitemap.includes('fiche-rafale.html'));assert.ok(sitemap.includes('comprendre-sna-snle.html'));assert.ok(!sitemap.includes('recherche.html'));
