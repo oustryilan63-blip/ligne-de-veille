@@ -60,6 +60,7 @@ export function buildDiscovery(root,output){
   const homeBlock='<section class="discovery-home wrap"><span class="eyebrow">LES REPÈRES</span><h2>Une question ? Commence ici.</h2><div class="discovery-home-links"><a href="comprendre.html">Les dossiers Comprendre →</a><a href="comparateur.html">Les comparatifs →</a><a href="recherche.html">Rechercher sur tout Radar →</a></div></section>';
   for(const file of fs.readdirSync(output).filter(n=>n.endsWith('.html'))){
     let html=fs.readFileSync(path.join(output,file),'utf8');
+    html=html.replace(/src="menu\.js(?:\?v=\d+)?"/g,'src="menu.js?v=2"');
     html=html.replace(/(<nav\b[^>]*\bid="main-nav"[^>]*>)([\s\S]*?)(<\/nav>)/,(_,start,body,end)=>start+body+(body.includes('href="comprendre.html"')?'':'<a href="comprendre.html"'+(file.startsWith('comprendre')?' aria-current="page"':'')+'>Comprendre</a>')+end);
     if(!html.includes('class="header-search"'))html=html.replace('<div class="header-actions">','<div class="header-actions"><a class="header-search" href="recherche.html" aria-label="Rechercher sur tout Radar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10" cy="10" r="6.5"></circle><path d="m15 15 6 6"></path></svg><span>Rechercher</span></a>');
     if(!html.includes('src="discovery-tools.js'))html=html.replace('<head>','<head><script src="discovery-tools.js?v=2" defer></script>');
