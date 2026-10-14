@@ -45,10 +45,28 @@
       }else if(/porte-avions|porte-aeronefs/.test(kind))add('porte-avions-groupe-aeronaval','L’histoire et les fonctions du groupe aéronaval');
       else add('fregate-destroyer-corvette','Frégate, destroyer et corvette : les repères');
     }
+    if(name==='rafale')links.push({url:'variantes-rafale.html',title:'Rafale C, B, M et standards : comprendre les versions'});
+    if(name==='leopard 2')links.push({url:'variantes-leopard-2.html',title:'Leopard 2 A4, A6 et A7V : comparer les évolutions'});
     return links;
   }
   window.RADAR_DISCOVERY=Object.freeze({fold,slug,profileURL,description,essentials,rank,guideLinks});
   if(typeof document==='undefined')return;
+  // Complète les menus existants sans ajouter un second mécanisme d'ouverture.
+  const menuButton=document.querySelector('.menu-toggle'),mainNav=document.getElementById('main-nav');
+  if(menuButton&&mainNav&&document.addEventListener){
+    const closeMenu=()=>{mainNav.classList.remove('open');menuButton.setAttribute('aria-expanded','false');menuButton.setAttribute('aria-label','Ouvrir le menu');};
+    document.addEventListener('keydown',event=>{if(event.key==='Escape'&&menuButton.getAttribute('aria-expanded')==='true'){closeMenu();menuButton.focus();}});
+    document.addEventListener('click',event=>{if(menuButton.getAttribute('aria-expanded')==='true'&&!event.target.closest('.main-nav')&&!event.target.closest('.menu-toggle'))closeMenu();});
+  }
+  for(const path of document.querySelectorAll('[data-reading-path]')){
+    const steps=[...path.querySelectorAll('[data-reading-step]')],status=path.querySelector('.reading-path-status');
+    const update=()=>{const n=steps.filter(step=>step.checked).length;status.textContent=n+' / '+steps.length+' étapes cochées'+(n===steps.length?' · Parcours terminé ! Tu peux refaire le quiz ou poursuivre ta lecture.':'');};
+    for(const label of path.querySelectorAll('.reading-step-check'))label.hidden=false;
+    path.querySelector('.reading-path-controls').hidden=false;
+    for(const step of steps)step.addEventListener('change',update);
+    path.querySelector('[data-reading-reset]').addEventListener('click',()=>{for(const step of steps)step.checked=false;update();});
+    update();
+  }
   const filters=document.getElementById('learning-filters');
   if(filters){
     const cards=[...document.querySelectorAll('[data-guide-categories]')];
