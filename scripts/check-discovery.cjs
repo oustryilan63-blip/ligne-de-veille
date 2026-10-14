@@ -14,11 +14,17 @@ assert.ok(N.related({title:'Les C-130 Hercules de Lockheed'}).some(x=>x.e.name==
 assert.ok(!N.related({title:'Atlas géopolitique des crises'}).some(x=>x.e.name==='A400M Atlas'));
 const items=[{type:'engin',title:'Rafale',description:'Avion français',keywords:'France Dassault'},{type:'dossier',title:'Reconnaître les avions',description:'Mirage et Rafale'},{type:'actualite',title:'Une livraison',description:'France'}];
 assert.equal(D.rank(items,'rafale')[0].title,'Rafale');assert.equal(D.rank(items,'francais').length,1);assert.equal(D.rank(items,'Rafale','dossier').length,1);assert.equal(D.rank(items,'<script>').length,0);assert.equal(D.rank(items,'introuvable').length,0);
+assert.equal(D.rank([{type:'engin',title:'F-35 Lightning II'}],'F35')[0].title,'F-35 Lightning II');
+assert.equal(D.rank(items,'---').length,0);
 for(const g of C.guides){assert.ok(g.sources.length>=2);assert.ok(g.sections.every(s=>s.sources.length&&s.sources.every(i=>g.sources[i])));assert.ok(g.engins.every(i=>E[i]));}
 for(const p of C.comparisons){assert.notEqual(p.a,p.b);assert.equal(E[p.a].category,E[p.b].category);assert.ok(T[p.a].variant&&T[p.b].variant);assert.ok(p.sources.length>=2)}
 const output=path.join(root,'_site-decouverte');
 if(fs.existsSync(path.join(output,'sitemap.xml'))){
  const index=JSON.parse(fs.readFileSync(path.join(output,'recherche-index.json'),'utf8'));
+ for(const file of ['comprendre.html','comprendre-sna-snle.html','recherche.html']){
+  const html=fs.readFileSync(path.join(output,file),'utf8');
+  assert.ok(!/href="#(?:actualites|archives|methode)"/.test(html),'Lien de pied de page local invalide : '+file);
+ }
  assert.equal(index.items.filter(i=>i.type==='engin').length,E.length);assert.equal(index.items.filter(i=>i.type==='dossier').length,4);assert.equal(index.items.filter(i=>i.type==='jeu').length,8);
  for(const [i,e]of E.entries()){
   const html=fs.readFileSync(path.join(output,D.profileURL(e)),'utf8');

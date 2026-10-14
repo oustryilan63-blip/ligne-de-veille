@@ -12,7 +12,7 @@ export function buildDiscovery(root,output){
   const news=JSON.parse(fs.readFileSync(path.join(root,'actualites.json'),'utf8'));
   const indexTemplate=fs.readFileSync(path.join(output,'index.html'),'utf8');
   const header=indexTemplate.match(/<header\b[\s\S]*?<\/header>/)[0].replace(/ aria-current="page"/g,'');
-  const footer=indexTemplate.match(/<footer\b[\s\S]*?<\/footer>/)[0];
+  const footer=indexTemplate.match(/<footer\b[\s\S]*?<\/footer>/)[0].replace(/href="#(actualites|archives|methode)"/g,'href="index.html#$1"');
   const imageFor=e=>e.mediaLabel==='Illustration'&&ctx.window.RADAR_CATALOG_PHOTOS?.[e.name]?ctx.window.RADAR_CATALOG_PHOTOS[e.name]:{src:'assets/jeu/'+e.photo,author:e.photoAuthor,license:e.photoLicense,licenseUrl:e.photoLicenseUrl,source:e.photoSource||'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(e.photoFile),alt:e.alt||e.name};
   const credit=p=>'<a href="'+esc(p.source)+'" target="_blank" rel="noopener noreferrer">'+esc(p.author||'Source de la photo')+'</a> · <a href="'+esc(p.licenseUrl)+'" target="_blank" rel="noopener noreferrer">'+esc(p.license)+'</a>';
   const figure=id=>{const e=E[id],p=imageFor(e);return '<figure class="discovery-photo"><div class="discovery-photo-label">'+esc(e.name)+'</div><img src="'+esc(p.src)+'" alt="'+esc(p.alt||e.name)+'" width="680" height="420" loading="lazy" decoding="async"><figcaption>'+credit(p)+'</figcaption></figure>'};
@@ -60,18 +60,20 @@ export function buildDiscovery(root,output){
   const homeBlock='<section class="discovery-home wrap"><span class="eyebrow">LES REPÈRES</span><h2>Une question ? Commence ici.</h2><div class="discovery-home-links"><a href="comprendre.html">Les dossiers Comprendre →</a><a href="comparateur.html">Les comparatifs →</a><a href="recherche.html">Rechercher sur tout Radar →</a></div></section>';
   for(const file of fs.readdirSync(output).filter(n=>n.endsWith('.html'))){
     let html=fs.readFileSync(path.join(output,file),'utf8');
-    html=html.replace(/(<nav\b[^>]*\bid="main-nav"[^>]*>)([\s\S]*?)(<\/nav>)/,(_,start,body,end)=>start+body+'<a href="comprendre.html"'+(file.startsWith('comprendre')?' aria-current="page"':'')+'>Comprendre</a>'+end);
-    html=html.replace('<div class="header-actions">','<div class="header-actions"><a class="header-search" href="recherche.html" aria-label="Rechercher sur tout Radar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10" cy="10" r="6.5"></circle><path d="m15 15 6 6"></path></svg><span>Rechercher</span></a>');
-    if(!html.includes('src="discovery-tools.js'))html=html.replace('<head>','<head><script src="discovery-tools.js?v=1" defer></script>');
-    if(!html.includes('href="decouverte.css'))html=html.replace('</head>','<link rel="stylesheet" href="decouverte.css?v=1"></head>');
-    if(file==='index.html')html=html.replace('<section class="history-teaser"',homeBlock+'<section class="history-teaser"');
+    html=html.replace(/(<nav\b[^>]*\bid="main-nav"[^>]*>)([\s\S]*?)(<\/nav>)/,(_,start,body,end)=>start+body+(body.includes('href="comprendre.html"')?'':'<a href="comprendre.html"'+(file.startsWith('comprendre')?' aria-current="page"':'')+'>Comprendre</a>')+end);
+    if(!html.includes('class="header-search"'))html=html.replace('<div class="header-actions">','<div class="header-actions"><a class="header-search" href="recherche.html" aria-label="Rechercher sur tout Radar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10" cy="10" r="6.5"></circle><path d="m15 15 6 6"></path></svg><span>Rechercher</span></a>');
+    if(!html.includes('src="discovery-tools.js'))html=html.replace('<head>','<head><script src="discovery-tools.js?v=2" defer></script>');
+    html=html.replace(/discovery-tools\.js\?v=\d+/g,'discovery-tools.js?v=2');
+    if(!html.includes('href="decouverte.css'))html=html.replace('</head>','<link rel="stylesheet" href="decouverte.css?v=2"></head>');
+    html=html.replace(/decouverte\.css\?v=\d+/g,'decouverte.css?v=2');
+    if(file==='index.html'&&!html.includes('class="discovery-home wrap"'))html=html.replace('<section class="history-teaser"',homeBlock+'<section class="history-teaser"');
     const title=text(html.match(/<title>([\s\S]*?)<\/title>/)?.[1]),desc=html.match(/<meta name="description" content="([^"]*)"/)?.[1]||'Radar : défense, sécurité et géopolitique.';
     const engine=E.find(e=>D.profileURL(e)===file),guide=C.guides.find(g=>'comprendre-'+g.slug+'.html'===file),preset=C.comparisons.find(p=>'comparatif-'+p.slug+'.html'===file);
     const image=engine?imageFor(engine).src:guide?imageFor(E[guide.engins[0]]).src:preset?imageFor(E[preset.a]).src:'assets/radar-partage.png';
     const canonical=absolute(file==='index.html'?'./':file),type=engine||guide||preset?'article':'website';
     html=html.replace(/<link rel="canonical"[^>]*>/g,'').replace(/<meta (?:property="og:[^"]*"|name="twitter:[^"]*")[^>]*>/g,'');
     html=html.replace('</head>','<link rel="canonical" href="'+esc(canonical)+'"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="Radar"><meta property="og:type" content="'+type+'"><meta property="og:title" content="'+esc(title)+'"><meta property="og:description" content="'+desc+'"><meta property="og:url" content="'+esc(canonical)+'"><meta property="og:image" content="'+esc(absolute(image))+'"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="'+esc(title)+'"><meta name="twitter:description" content="'+desc+'"><meta name="twitter:image" content="'+esc(absolute(image))+'"></head>');
-    if(file==='histoire.html'){
+    if(file==='histoire.html'&&!html.includes('<h2>Toutes les fiches</h2>')){
       const links='<noscript><section class="wrap"><h2>Toutes les fiches</h2><ul>'+E.map(e=>'<li><a href="'+D.profileURL(e)+'">'+esc(e.name)+'</a></li>').join('')+'</ul></section></noscript>';
       html=html.replace('</main>',links+'</main>');
     }
