@@ -152,6 +152,12 @@
       for(const selector of ['meta[property="og:title"]','meta[name="twitter:title"]']){const node=document.querySelector(selector);if(node)node.setAttribute('content',item.name+' | Histoire | Radar')}
     }
     detail.append(story);
+    if(window.RADAR_DISCOVERY?.guideLinks){
+      const reading=el('nav','learning-profile-reading');reading.setAttribute('aria-label','Comprendre le contexte de cet engin');
+      reading.append(el('h3','','Pour comprendre son contexte'),el('p','','Le récit suit cet engin. Les dossiers expliquent les familles, les missions et les notions qui l’entourent.'));
+      for(const guide of window.RADAR_DISCOVERY.guideLinks(item)){const anchor=el('a','',guide.title+' →');anchor.href=guide.url;reading.append(anchor);}
+      const all=el('a','','Tous les dossiers et le lexique →');all.href='comprendre.html';reading.append(all);detail.append(reading);
+    }
     if(essential)detail.append(essential);
     if(events.length){
       const timeline=el('section','history-timeline');timeline.id='chronologie';timeline.setAttribute('aria-labelledby','timeline-title-'+index);

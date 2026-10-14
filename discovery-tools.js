@@ -29,7 +29,25 @@
       return {item,index,score};
     }).filter(Boolean).sort((a,b)=>b.score-a.score||a.index-b.index).map(x=>x.item);
   }
-  window.RADAR_DISCOVERY=Object.freeze({fold,slug,profileURL,description,essentials,rank});
+  function guideLinks(item){
+    const kind=fold(item.kind),name=fold(item.name),links=[];
+    const add=(slug,title)=>links.push({url:'comprendre-'+slug+'.html',title});
+    if(item.category==='missiles')add('missile-balistique-croisiere','Missiles balistiques et de croisière : les repères');
+    else if(item.category==='terre'&&/char|blinde|infanterie|transport|reconnaissance/.test(kind))add('char-blinde-infanterie','Char, blindé et VCI : comprendre les rôles');
+    else if(item.category==='air'){
+      if(/drone/.test(kind))add('familles-drones','Les familles de drones et leur histoire');
+      else if(/rafale|mirage 2000/.test(name))add('reconnaitre-rafale-mirage-2000','Reconnaître Rafale et Mirage 2000');
+      else add('radar-sonar','Détection et observation : les principes du radar et du sonar');
+    }else if(item.category==='mer'){
+      if(/sous-marin/.test(kind)){
+        if(/nucleaire/.test(kind)||/suffren|virginia|astute|seawolf|los angeles|akula|ohio/.test(name))add('sna-snle','SNA et SNLE : deux familles de missions');
+        add('radar-sonar','Radar et sonar : comprendre la détection');
+      }else if(/porte-avions|porte-aeronefs/.test(kind))add('porte-avions-groupe-aeronaval','L’histoire et les fonctions du groupe aéronaval');
+      else add('fregate-destroyer-corvette','Frégate, destroyer et corvette : les repères');
+    }
+    return links;
+  }
+  window.RADAR_DISCOVERY=Object.freeze({fold,slug,profileURL,description,essentials,rank,guideLinks});
   if(typeof document==='undefined')return;
   const filters=document.getElementById('learning-filters');
   if(filters){
