@@ -16,7 +16,14 @@ const items=[{type:'engin',title:'Rafale',description:'Avion français',keywords
 assert.equal(D.rank(items,'rafale')[0].title,'Rafale');assert.equal(D.rank(items,'francais').length,1);assert.equal(D.rank(items,'Rafale','dossier').length,1);assert.equal(D.rank(items,'<script>').length,0);assert.equal(D.rank(items,'introuvable').length,0);
 assert.equal(D.rank([{type:'engin',title:'F-35 Lightning II'}],'F35')[0].title,'F-35 Lightning II');
 assert.equal(D.rank(items,'---').length,0);
-for(const g of C.guides){assert.ok(g.sources.length>=2);assert.ok(g.sections.every(s=>s.sources.length&&s.sources.every(i=>g.sources[i])));assert.ok(g.engins.every(i=>E[i]));}
+assert.equal(C.guides.length,10);assert.equal(new Set(C.guides.map(g=>g.slug)).size,10);
+for(const g of C.guides){
+ assert.ok(g.sources.length>=2);assert.ok(g.sections.every(s=>s.sources.length&&s.sources.every(i=>g.sources[i])));assert.ok(g.engins.every(i=>E[i]));
+ assert.ok(g.categories.length&&g.categories.every(tag=>C.categories.some(([id])=>tag===id)));
+ assert.equal(g.quiz.length,3);for(const q of g.quiz){assert.equal(q.choices.length,3);assert.ok(Number.isInteger(q.answer)&&q.answer>=0&&q.answer<3);assert.ok(q.explanation.length>30);}
+ for(const source of g.sources)assert.equal(new URL(source.url).protocol,'https:');
+}
+assert.equal(C.glossary.length,12);for(const [term,definition,slug] of C.glossary){assert.ok(term&&definition);assert.ok(C.guides.some(g=>g.slug===slug));}
 for(const p of C.comparisons){assert.notEqual(p.a,p.b);assert.equal(E[p.a].category,E[p.b].category);assert.ok(T[p.a].variant&&T[p.b].variant);assert.ok(p.sources.length>=2)}
 const output=path.join(root,'_site-decouverte');
 if(fs.existsSync(path.join(output,'sitemap.xml'))){
@@ -25,7 +32,9 @@ if(fs.existsSync(path.join(output,'sitemap.xml'))){
   const html=fs.readFileSync(path.join(output,file),'utf8');
   assert.ok(!/href="#(?:actualites|archives|methode)"/.test(html),'Lien de pied de page local invalide : '+file);
  }
- assert.equal(index.items.filter(i=>i.type==='engin').length,E.length);assert.equal(index.items.filter(i=>i.type==='dossier').length,4);assert.equal(index.items.filter(i=>i.type==='jeu').length,8);
+ assert.equal(index.items.filter(i=>i.type==='engin').length,E.length);assert.equal(index.items.filter(i=>i.type==='dossier').length,C.guides.length);assert.equal(index.items.filter(i=>i.type==='jeu').length,8);
+ const hub=fs.readFileSync(path.join(output,'comprendre.html'),'utf8');assert.ok(hub.includes('id="learning-filters"'));assert.ok(hub.includes('id="glossaire"'));assert.equal((hub.match(/data-guide-categories=/g)||[]).length,C.guides.length);assert.equal((hub.match(/data-glossary-term=/g)||[]).length,12);
+ for(const g of C.guides){const html=fs.readFileSync(path.join(output,'comprendre-'+g.slug+'.html'),'utf8');assert.ok(html.includes('aria-label="Sommaire du dossier"'));assert.equal((html.match(/<fieldset data-answer=/g)||[]).length,3);assert.ok(html.includes('Références consultées le 14 octobre 2026'));assert.ok(!html.includes('undefined'));if(g.visual)assert.ok(html.includes('class="learning-svg"'));}
  for(const [i,e]of E.entries()){
   const html=fs.readFileSync(path.join(output,D.profileURL(e)),'utf8');
   assert.ok(html.includes('data-engine-index="'+i+'"'));assert.ok(html.includes('Repères en bref'));assert.ok(html.includes('class="history-story-copy"'));assert.ok(!html.includes('class="history-story-chapter"'));assert.ok(html.includes('class="history-story-sources"'));assert.ok(html.includes('<h1 class="history-name">'));
@@ -35,7 +44,7 @@ if(fs.existsSync(path.join(output,'sitemap.xml'))){
  for(const p of C.comparisons){const html=fs.readFileSync(path.join(output,'comparatif-'+p.slug+'.html'),'utf8');assert.ok(html.includes('data-compare-a="'+p.a+'"'));assert.ok(html.includes(T[p.a].variant));assert.ok(html.includes(T[p.b].variant));}
  const sitemap=fs.readFileSync(path.join(output,'sitemap.xml'),'utf8');assert.ok(sitemap.includes('fiche-rafale.html'));assert.ok(sitemap.includes('comprendre-sna-snle.html'));assert.ok(!sitemap.includes('recherche.html'));
 }
-console.log('162 adresses et encadrés, index multi-rubriques, recherche accentuée et vide, 4 dossiers sourcés, 3 comparaisons et régression Hercules : OK.');
+console.log(E.length+' adresses et encadrés, index multi-rubriques, recherche accentuée et vide, 10 dossiers sourcés, 30 questions, 12 définitions, 3 comparaisons et régression Hercules : OK.');
 if(fs.existsSync(path.join(output,'recherche.html')))(async()=>{
  const {createDOM}=require('./feature-test-dom.cjs');
  const document=createDOM(fs.readFileSync(path.join(output,'recherche.html'),'utf8'));
@@ -52,4 +61,23 @@ if(fs.existsSync(path.join(output,'recherche.html')))(async()=>{
  vm.runInNewContext(read('comparateur.js'),compare);assert.match(compareDoc.getElementById('compare-editorial').textContent,/Rafale et F-35/);assert.equal(compareDoc.getElementById('compare-a').value,'9');assert.equal(compareDoc.getElementById('compare-b').value,'3');
  compareDoc.getElementById('compare-b').value='30';await compareDoc.getElementById('compare-b').fire('change');assert.equal(compareDoc.getElementById('compare-editorial').hidden,true);
  console.log('Recherche exécutée : requête, filtre, absence, panne et reprise ; comparatif préparé et changement de sélection : OK.');
+ {
+ const learn=createDOM(''),make=(tag,parent,attrs={})=>{const el=learn.createElement(tag);for(const[k,v]of Object.entries(attrs))el.setAttribute(k,v);parent.append(el);return el;};
+ const filters=make('div',learn.body,{id:'learning-filters'}),filterStatus=make('p',learn.body,{id:'learning-filter-status'});
+ const themeButtons=C.categories.map(([id,label])=>{const b=make('button',filters,{'data-guide-filter':id});b.textContent=label;return b});
+ const cards=C.guides.map(g=>make('article',learn.body,{'data-guide-categories':g.categories.join(' ')}));
+ const wrap=make('div',learn.body,{id:'glossary-search-wrap'}),field=make('input',wrap,{id:'glossary-search'}),count=make('p',wrap,{id:'glossary-count'});
+ const terms=C.glossary.map(([term,definition])=>make('details',learn.body,{'data-glossary-term':term+' '+definition}));
+ const form=make('form',learn.body,{class:'learning-quiz-form'}),questions=C.guides.find(g=>g.fresh).quiz;
+ const quizFields=questions.map(q=>{const f=make('fieldset',form,{'data-answer':String(q.answer)});q.choices.forEach((_,i)=>{const input=make('input',f);input.value=String(i);input.checked=false});make('p',f,{class:'learning-quiz-feedback','data-correct':q.choices[q.answer],'data-explanation':q.explanation});return f;});
+ const score=make('p',form,{class:'learning-quiz-score'});vm.runInNewContext(read('discovery-tools.js'),{window:{},document:learn,Intl});
+ await themeButtons.find(b=>b.dataset.guideFilter==='geopolitique').click();assert.equal(cards.filter(c=>!c.hidden).length,2);assert.match(filterStatus.textContent,/2 dossiers/);
+ await themeButtons.find(b=>b.dataset.guideFilter==='all').click();assert.equal(cards.filter(c=>!c.hidden).length,10);
+ field.value='DETROIT';await field.fire('input');assert.equal(terms.filter(t=>!t.hidden).length,1);field.value='<script>';await field.fire('input');assert.equal(terms.filter(t=>!t.hidden).length,0);assert.match(count.textContent,/Aucun/);field.value='';await field.fire('input');assert.equal(terms.filter(t=>!t.hidden).length,12);
+ await form.fire('submit');assert.match(score.textContent,/Choisis une réponse/);
+ quizFields.forEach((f,i)=>f.querySelectorAll('input').forEach(input=>input.checked=Number(input.value)===questions[i].answer));await form.fire('submit');assert.match(score.textContent,/3 \/ 3/);assert.ok(quizFields.every(f=>!f.querySelector('.learning-quiz-feedback').hidden));
+ quizFields[0].querySelectorAll('input').forEach(input=>input.checked=Number(input.value)===(questions[0].answer+1)%3);await form.fire('submit');assert.match(score.textContent,/2 \/ 3/);assert.match(quizFields[0].querySelector('.learning-quiz-feedback').textContent,/À retenir/);
+ await form.fire('reset');assert.equal(score.textContent,'');assert.ok(quizFields.every(f=>f.querySelector('.learning-quiz-feedback').hidden));
+ console.log('Comprendre exécuté : thèmes, réinitialisation, lexique sans accents, absence, quiz incomplet/correct/incorrect et remise à zéro : OK.');
+ }
 })().catch(e=>{console.error(e);process.exitCode=1});
