@@ -70,6 +70,8 @@
     "qg-radar-preview.svg",
     "qg-radar-sprites.js",
     "qg-radar-terrain.js",
+    "qg-radar-theater-view.js",
+    "qg-radar-theater.js",
     "qg-radar-tutorial.js",
     "qg-radar.css",
     "qg-radar.html",
