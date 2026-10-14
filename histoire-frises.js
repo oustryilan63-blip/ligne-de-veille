@@ -6329,7 +6329,7 @@ window.LDV_TIMELINES = {
       "date": "2001",
       "year": 2001,
       "label": "Fin de période de service recensée",
-      "detail": "L’association historique situe la fin de service en 2001 ; Saab cite 1997 pour le retrait, selon son périmètre.",
+      "detail": "La SPHF indique une période de service de 1967 à 2001. Saab indique un retrait en 1997 ; les deux publications ne précisent pas l’origine de cet écart.",
       "source": "https://www.sphf.se/svenskt-pansar/fordon/stridsvagn-2/"
     }
   ],
