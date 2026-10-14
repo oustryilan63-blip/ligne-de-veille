@@ -26,9 +26,8 @@
  }
  function open(state,callback){getState=()=>state;act=a=>{const r=callback(a);if(r?.state)state=r.state;return r};init();prepare();$('qg-operation-status').textContent='La mission est sauvegardée à chaque étape. Fermer conserve les étapes terminées.';dialog.showModal();$('qg-operation-start').focus();}
  function render(s,callback){
-  let panel=$('qg-resources');if(!panel){panel=make('section','qg-resources');panel.id='qg-resources';panel.setAttribute('aria-label','Stocks et événements');document.querySelector('.qg-command').append(panel);}
-  panel.replaceChildren();const r=s.content.resources;panel.append(make('h3','','Les réserves'),make('p','','Carburant '+r.fuel+'/200 · Pièces '+r.parts+'/80 · Munitions '+r.ammo+'/100'));
-  const supply=make('button','button button-light','Ravitailler · 24 cr. · 1 décision');supply.type='button';supply.disabled=!root.QG.action(s,{type:'resupply'}).ok;supply.addEventListener('click',()=>callback({type:'resupply'}));panel.append(supply);
+  let panel=$('qg-resources');if(!panel){panel=make('section','qg-resources');panel.id='qg-resources';panel.setAttribute('aria-label','Événements et opération en cours');(document.getElementById('qg-events-under')||document.querySelector('.qg-command')).append(panel);}
+  panel.replaceChildren();panel.hidden=(s.content.incidentDone||s.ended)&&!s.content.operation;
   if(!s.content.incidentDone&&!s.ended){const i=root.QG.incident(s);panel.append(make('h3','',i.title),make('p','',i.copy));for(let index=0;index<i.options.length;index++){const b=make('button','button button-light',i.options[index].label);b.type='button';const eligibility=root.QG.action(s,{type:'incident',choice:index});b.disabled=!eligibility.ok;b.title=eligibility.ok?'Choix sans décision utilisée':eligibility.message;b.addEventListener('click',()=>callback({type:'incident',choice:index}));panel.append(b);}}
   if(s.content.operation){panel.append(make('h3','','Opération en cours'),make('p','','Étape '+(s.content.operation.stage+1)+'/3 · '+s.content.operation.hits+' réussite(s)'));const resume=make('button','button button-accent','Reprendre l’opération →');resume.type='button';resume.addEventListener('click',()=>open(s,callback));panel.append(resume);}
  }
