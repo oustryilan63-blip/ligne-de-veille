@@ -10607,5 +10607,2081 @@ window.LDV_HISTOIRE = [
       }
     ],
     "storyCheckedAt": "13 octobre 2026"
+  },
+  {
+    "story": "Le Mustang naît d’un programme américain destiné à répondre aux besoins britanniques pendant la Seconde Guerre mondiale. Sa carrière change profondément avec l’adoption du moteur Merlin construit sous licence par Packard. Les P-51B et P-51C combinent alors de bonnes performances en altitude et une autonomie adaptée à l’escorte des bombardiers lourds au-dessus de l’Europe.\n\nLe P-51D, arrivé en nombre au printemps 1944, rend cette silhouette célèbre. Sa verrière en goutte d’eau améliore la visibilité ; les six mitrailleuses remplacent l’armement à quatre armes des versions précédentes. Des modifications de l’alimentation des munitions réduisent également les enrayages. Ces changements montrent que son développement concerne aussi les conditions de travail du pilote.\n\nLe Mustang ne se limite pas à l’escorte. Il accomplit des missions de reconnaissance et d’attaque au sol, puis reprend le combat en Corée sous la désignation F-51. Son autonomie permet notamment d’opérer depuis le Japon au début du conflit. Les unités américaines, sud-coréennes, australiennes et sud-africaines utilisent cet avion à hélice aux côtés d’appareils à réaction.\n\nLes derniers Mustang des unités de l’US Air Force disparaissent en 1957. Les exemplaires conservés et ceux qui volent dans les manifestations aériennes témoignent de cette longue transition entre deux générations de chasseurs. Pour comparer ses chiffres, il faut toujours identifier la version et la présence éventuelle de réservoirs supplémentaires : une autonomie de convoyage ne décrit pas la même mission qu’une escorte armée.",
+    "current": [
+      "US",
+      "GB",
+      "KR",
+      "AU",
+      "ZA"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "National Museum USAF — P-51D",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/"
+      },
+      {
+        "label": "Smithsonian — P-51D",
+        "url": "https://airandspace.si.edu/collection-objects/north-american-p-51d-30-na-mustang/nasm_A19600300000"
+      },
+      {
+        "label": "Document photographique — P-51D du 361st Fighter Group en vol.",
+        "url": "https://commons.wikimedia.org/wiki/File:P-51-361.jpg"
+      },
+      {
+        "label": "Document photographique — P-51D restauré lors d’une présentation à Duxford en 2024.",
+        "url": "https://commons.wikimedia.org/wiki/File:North_American_P-51D_Mustang_44-13521_G-MRLL_Duxford_Flying_Finale_2024_01.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le Mustang naît d’un programme américain destiné à répondre aux besoins britanniques pendant la Seconde Guerre mondiale. Sa carrière change profondément avec l’adoption du moteur Merlin construit sous licence par Packard. Les P-51B et P-51C combinent alors de bonnes performances en altitude et une autonomie adaptée à l’escorte des bombardiers lourds au-dessus de l’Europe.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/",
+          "https://airandspace.si.edu/collection-objects/north-american-p-51d-30-na-mustang/nasm_A19600300000"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Le P-51D, arrivé en nombre au printemps 1944, rend cette silhouette célèbre. Sa verrière en goutte d’eau améliore la visibilité ; les six mitrailleuses remplacent l’armement à quatre armes des versions précédentes. Des modifications de l’alimentation des munitions réduisent également les enrayages. Ces changements montrent que son développement concerne aussi les conditions de travail du pilote.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/",
+          "https://airandspace.si.edu/collection-objects/north-american-p-51d-30-na-mustang/nasm_A19600300000"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Le Mustang ne se limite pas à l’escorte. Il accomplit des missions de reconnaissance et d’attaque au sol, puis reprend le combat en Corée sous la désignation F-51. Son autonomie permet notamment d’opérer depuis le Japon au début du conflit. Les unités américaines, sud-coréennes, australiennes et sud-africaines utilisent cet avion à hélice aux côtés d’appareils à réaction.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/",
+          "https://airandspace.si.edu/collection-objects/north-american-p-51d-30-na-mustang/nasm_A19600300000"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Les derniers Mustang des unités de l’US Air Force disparaissent en 1957. Les exemplaires conservés et ceux qui volent dans les manifestations aériennes témoignent de cette longue transition entre deux générations de chasseurs. Pour comparer ses chiffres, il faut toujours identifier la version et la présence éventuelle de réservoirs supplémentaires : une autonomie de convoyage ne décrit pas la même mission qu’une escorte armée.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/",
+          "https://airandspace.si.edu/collection-objects/north-american-p-51d-30-na-mustang/nasm_A19600300000"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Dessiné chez Supermarine autour de l’équipe de R. J. Mitchell, le Spitfire effectue son premier vol le 5 mars 1936 à Eastleigh. Le pilote Joseph Summers réalise cet essai avec le prototype K5054. L’Air Ministry passe une première commande de 310 appareils en juin, mais la fabrication de cette cellule moderne exige des méthodes industrielles difficiles à généraliser rapidement.\n\nLa forme de l’aile, devenue immédiatement reconnaissable, ne doit pas faire oublier ces débuts laborieux. Supermarine possède une capacité limitée et la montée en production mobilise d’autres entreprises ainsi qu’une nouvelle usine à Castle Bromwich. Les premiers avions de série rejoignent le 19 Squadron en août 1938, deux ans après le vol du prototype.\n\nÀ l’été 1940, le Spitfire I participe à la bataille d’Angleterre aux côtés du Hurricane. Les dix-neuf escadrilles disponibles en juillet ne suffisent pas, à elles seules, à expliquer la défense britannique : organisation de l’alerte, contrôle aérien, formation et adaptation des tactiques jouent également un rôle. Des hélices à vitesse constante et l’emploi d’un carburant amélioré accompagnent l’évolution des premiers appareils.\n\nLe nom Spitfire couvre ensuite de nombreuses versions dont les moteurs, les ailes et l’armement évoluent. Cette fiche prend le Mk I comme référence technique ; elle ne lui attribue pas les performances d’un modèle tardif. Les photographies de restauration montrent parfois ces autres versions, ce qui permet d’observer une famille d’avions plutôt que de réduire toute son histoire à une seule configuration.",
+    "current": [
+      "GB"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.rafmuseum.org.uk/research/collections/supermarine-spitfire-i/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "RAF Museum — Spitfire I",
+        "url": "https://www.rafmuseum.org.uk/research/collections/supermarine-spitfire-i/"
+      },
+      {
+        "label": "RAF Museum — le premier vol",
+        "url": "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/"
+      },
+      {
+        "label": "RAF Museum — fiche pédagogique Mk I",
+        "url": "https://www.rafmuseum.org.uk/documents/Cosford/Scout-groups/air_researchers_badge_answers_cosford.pdf"
+      },
+      {
+        "label": "Document photographique — Spitfire Mk IA conservé au musée.",
+        "url": "https://commons.wikimedia.org/wiki/File:Supermarine_Spitfire_Mk_IA.jpg"
+      },
+      {
+        "label": "Document photographique — Spitfire Mk I photographié à Duxford en 2025.",
+        "url": "https://commons.wikimedia.org/wiki/File:Supermarine_Spitfire_Mk.1_G-AIST_Duxford_2025_01.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Dessiné chez Supermarine autour de l’équipe de R. J. Mitchell, le Spitfire effectue son premier vol le 5 mars 1936 à Eastleigh. Le pilote Joseph Summers réalise cet essai avec le prototype K5054. L’Air Ministry passe une première commande de 310 appareils en juin, mais la fabrication de cette cellule moderne exige des méthodes industrielles difficiles à généraliser rapidement.",
+        "sources": [
+          "https://www.rafmuseum.org.uk/research/collections/supermarine-spitfire-i/",
+          "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/",
+          "https://www.rafmuseum.org.uk/documents/Cosford/Scout-groups/air_researchers_badge_answers_cosford.pdf"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "La forme de l’aile, devenue immédiatement reconnaissable, ne doit pas faire oublier ces débuts laborieux. Supermarine possède une capacité limitée et la montée en production mobilise d’autres entreprises ainsi qu’une nouvelle usine à Castle Bromwich. Les premiers avions de série rejoignent le 19 Squadron en août 1938, deux ans après le vol du prototype.",
+        "sources": [
+          "https://www.rafmuseum.org.uk/research/collections/supermarine-spitfire-i/",
+          "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/",
+          "https://www.rafmuseum.org.uk/documents/Cosford/Scout-groups/air_researchers_badge_answers_cosford.pdf"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "À l’été 1940, le Spitfire I participe à la bataille d’Angleterre aux côtés du Hurricane. Les dix-neuf escadrilles disponibles en juillet ne suffisent pas, à elles seules, à expliquer la défense britannique : organisation de l’alerte, contrôle aérien, formation et adaptation des tactiques jouent également un rôle. Des hélices à vitesse constante et l’emploi d’un carburant amélioré accompagnent l’évolution des premiers appareils.",
+        "sources": [
+          "https://www.rafmuseum.org.uk/research/collections/supermarine-spitfire-i/",
+          "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/",
+          "https://www.rafmuseum.org.uk/documents/Cosford/Scout-groups/air_researchers_badge_answers_cosford.pdf"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Le nom Spitfire couvre ensuite de nombreuses versions dont les moteurs, les ailes et l’armement évoluent. Cette fiche prend le Mk I comme référence technique ; elle ne lui attribue pas les performances d’un modèle tardif. Les photographies de restauration montrent parfois ces autres versions, ce qui permet d’observer une famille d’avions plutôt que de réduire toute son histoire à une seule configuration.",
+        "sources": [
+          "https://www.rafmuseum.org.uk/research/collections/supermarine-spitfire-i/",
+          "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/",
+          "https://www.rafmuseum.org.uk/documents/Cosford/Scout-groups/air_researchers_badge_answers_cosford.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le B-17 appartient à la génération de bombardiers quadrimoteurs qui transforme la guerre aérienne. Le prototype de Boeing vole le 28 juillet 1935. Lorsque les États-Unis entrent en guerre, la flotte reste relativement réduite, puis la production augmente fortement. Boeing, Douglas et Vega participent à un effort industriel dont les appareils deviennent l’un des symboles les plus connus.\n\nLa Flying Fortress est surtout associée au bombardement stratégique de jour en Europe. Son équipage doit assurer navigation, bombardement, pilotage, radio et défense dans un environnement extrêmement éprouvant. Les versions successives multiplient les positions de tir ; le B-17G constitue l’une des configurations les plus reconnaissables. Les formations et les chasseurs d’escorte restent pourtant indispensables à sa protection.\n\nLa production de la famille se termine en mai 1945 après 12 726 exemplaires. Ce total rassemble plusieurs versions : il ne faut pas l’attribuer au seul B-17G. Certains avions connaissent ensuite des emplois très différents du bombardement. Le 44-83690, livré à la fin de la guerre, est notamment transformé pour contrôler des avions sans pilote lors d’essais.\n\nCet exemplaire reste dans les inventaires militaires jusqu’en 1960, avant d’être préservé puis transféré au Museum of Aviation en 2015. Son parcours rappelle que les avions survivants ne possèdent pas tous une carrière de combat. Une livrée restaurée peut représenter une autre machine ou une unité historique ; l’histoire de la famille et celle de l’exemplaire photographié doivent donc être lues séparément.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://museumofaviation.org/portfolio/b-17g-flying-fortress/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "Museum of Aviation — B-17G",
+        "url": "https://museumofaviation.org/portfolio/b-17g-flying-fortress/"
+      },
+      {
+        "label": "National Park Service — B-17G 44-83690",
+        "url": "https://www.nps.gov/articles/b17g-flying-fortress-no-4483690.htm"
+      },
+      {
+        "label": "Museum of Flight — B-17F",
+        "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/boeing-b-17f-flying-fortress"
+      },
+      {
+        "label": "Document photographique — B-17 en vol lors du meeting de Chino de 2014.",
+        "url": "https://commons.wikimedia.org/wiki/File:B17_-_Chino_Airshow_2014_(framed).jpg"
+      },
+      {
+        "label": "Document photographique — B-17G Sally B à Duxford en 2024.",
+        "url": "https://commons.wikimedia.org/wiki/File:Boeing_B-17G_Flying_Fortress_124485_DF-A_Duxford_Flying_Evening_2024_01.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le B-17 appartient à la génération de bombardiers quadrimoteurs qui transforme la guerre aérienne. Le prototype de Boeing vole le 28 juillet 1935. Lorsque les États-Unis entrent en guerre, la flotte reste relativement réduite, puis la production augmente fortement. Boeing, Douglas et Vega participent à un effort industriel dont les appareils deviennent l’un des symboles les plus connus.",
+        "sources": [
+          "https://museumofaviation.org/portfolio/b-17g-flying-fortress/",
+          "https://www.nps.gov/articles/b17g-flying-fortress-no-4483690.htm",
+          "https://www.museumofflight.org/exhibits-and-events/aircraft/boeing-b-17f-flying-fortress"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "La Flying Fortress est surtout associée au bombardement stratégique de jour en Europe. Son équipage doit assurer navigation, bombardement, pilotage, radio et défense dans un environnement extrêmement éprouvant. Les versions successives multiplient les positions de tir ; le B-17G constitue l’une des configurations les plus reconnaissables. Les formations et les chasseurs d’escorte restent pourtant indispensables à sa protection.",
+        "sources": [
+          "https://museumofaviation.org/portfolio/b-17g-flying-fortress/",
+          "https://www.nps.gov/articles/b17g-flying-fortress-no-4483690.htm",
+          "https://www.museumofflight.org/exhibits-and-events/aircraft/boeing-b-17f-flying-fortress"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "La production de la famille se termine en mai 1945 après 12 726 exemplaires. Ce total rassemble plusieurs versions : il ne faut pas l’attribuer au seul B-17G. Certains avions connaissent ensuite des emplois très différents du bombardement. Le 44-83690, livré à la fin de la guerre, est notamment transformé pour contrôler des avions sans pilote lors d’essais.",
+        "sources": [
+          "https://museumofaviation.org/portfolio/b-17g-flying-fortress/",
+          "https://www.nps.gov/articles/b17g-flying-fortress-no-4483690.htm",
+          "https://www.museumofflight.org/exhibits-and-events/aircraft/boeing-b-17f-flying-fortress"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Cet exemplaire reste dans les inventaires militaires jusqu’en 1960, avant d’être préservé puis transféré au Museum of Aviation en 2015. Son parcours rappelle que les avions survivants ne possèdent pas tous une carrière de combat. Une livrée restaurée peut représenter une autre machine ou une unité historique ; l’histoire de la famille et celle de l’exemplaire photographié doivent donc être lues séparément.",
+        "sources": [
+          "https://museumofaviation.org/portfolio/b-17g-flying-fortress/",
+          "https://www.nps.gov/articles/b17g-flying-fortress-no-4483690.htm",
+          "https://www.museumofflight.org/exhibits-and-events/aircraft/boeing-b-17f-flying-fortress"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le B-29 Superfortress pousse très loin la complexité du bombardier à moteurs à pistons. Ses compartiments pressurisés et ses tourelles commandées à distance accompagnent un programme industriel considérable. Sa mise au point n’est pas un simple prolongement du B-17 : moteurs, équipements et fabrication imposent des difficultés que les responsables américains doivent résoudre pendant la guerre.\n\nEn 1944, l’effort connu sous le nom de « bataille du Kansas » accélère les modifications nécessaires avant l’envoi des appareils en opérations. Les campagnes contre le Japon donnent au B-29 une place centrale dans la guerre du Pacifique. Les installations à terre, l’entretien des moteurs et l’acheminement du carburant sont aussi déterminants que les performances du bombardier lui-même.\n\nDeux appareils modifiés, Enola Gay et Bockscar, sont indissociables des bombardements atomiques d’Hiroshima et de Nagasaki en août 1945. Les musées qui les conservent documentent ces missions et leurs conséquences historiques. Les modifications dites Silverplate doivent être distinguées de la configuration d’un bombardier ordinaire : toutes les Superfortress ne possèdent pas les mêmes équipements ni le même armement défensif.\n\nLe B-29 est encore engagé pendant la guerre de Corée, où l’apparition des chasseurs MiG-15 souligne le changement d’époque. Des exemplaires survivent ensuite dans les collections, et Bockscar rejoint Dayton en 1961. Cette longue carrière montre à la fois l’aboutissement d’une génération technique et ses limites face à la réaction ; les chiffres de la fiche décrivent une configuration publiée, sans résumer toutes ses missions.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "National Museum USAF — B-29",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/"
+      },
+      {
+        "label": "Smithsonian — Enola Gay",
+        "url": "https://airandspace.si.edu/collection-objects/boeing-b-29-superfortress-enola-gay/nasm_A19500100000"
+      },
+      {
+        "label": "Air Force Materiel Command — industrialisation",
+        "url": "https://www.afmc.af.mil/News/Article-Display/Article/1602130/flashback-battle-of-kansas-and-the-birth-of-the-superfortress"
+      },
+      {
+        "label": "Document photographique — Superfortress Doc en vol.",
+        "url": "https://commons.wikimedia.org/wiki/File:Boeing_TB-29-70-BW_Superfortress_%E2%80%98469972%E2%80%99_%E2%80%9CDoc%E2%80%9D_(N69972)_(50871638276).jpg"
+      },
+      {
+        "label": "Document photographique — Poste de pilotage d’un B-29 conservé.",
+        "url": "https://commons.wikimedia.org/wiki/File:Boeing_B-29,_FIFI_(31).jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le B-29 Superfortress pousse très loin la complexité du bombardier à moteurs à pistons. Ses compartiments pressurisés et ses tourelles commandées à distance accompagnent un programme industriel considérable. Sa mise au point n’est pas un simple prolongement du B-17 : moteurs, équipements et fabrication imposent des difficultés que les responsables américains doivent résoudre pendant la guerre.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/",
+          "https://airandspace.si.edu/collection-objects/boeing-b-29-superfortress-enola-gay/nasm_A19500100000",
+          "https://www.afmc.af.mil/News/Article-Display/Article/1602130/flashback-battle-of-kansas-and-the-birth-of-the-superfortress"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "En 1944, l’effort connu sous le nom de « bataille du Kansas » accélère les modifications nécessaires avant l’envoi des appareils en opérations. Les campagnes contre le Japon donnent au B-29 une place centrale dans la guerre du Pacifique. Les installations à terre, l’entretien des moteurs et l’acheminement du carburant sont aussi déterminants que les performances du bombardier lui-même.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/",
+          "https://airandspace.si.edu/collection-objects/boeing-b-29-superfortress-enola-gay/nasm_A19500100000",
+          "https://www.afmc.af.mil/News/Article-Display/Article/1602130/flashback-battle-of-kansas-and-the-birth-of-the-superfortress"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Deux appareils modifiés, Enola Gay et Bockscar, sont indissociables des bombardements atomiques d’Hiroshima et de Nagasaki en août 1945. Les musées qui les conservent documentent ces missions et leurs conséquences historiques. Les modifications dites Silverplate doivent être distinguées de la configuration d’un bombardier ordinaire : toutes les Superfortress ne possèdent pas les mêmes équipements ni le même armement défensif.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/",
+          "https://airandspace.si.edu/collection-objects/boeing-b-29-superfortress-enola-gay/nasm_A19500100000",
+          "https://www.afmc.af.mil/News/Article-Display/Article/1602130/flashback-battle-of-kansas-and-the-birth-of-the-superfortress"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Le B-29 est encore engagé pendant la guerre de Corée, où l’apparition des chasseurs MiG-15 souligne le changement d’époque. Des exemplaires survivent ensuite dans les collections, et Bockscar rejoint Dayton en 1961. Cette longue carrière montre à la fois l’aboutissement d’une génération technique et ses limites face à la réaction ; les chiffres de la fiche décrivent une configuration publiée, sans résumer toutes ses missions.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/",
+          "https://airandspace.si.edu/collection-objects/boeing-b-29-superfortress-enola-gay/nasm_A19500100000",
+          "https://www.afmc.af.mil/News/Article-Display/Article/1602130/flashback-battle-of-kansas-and-the-birth-of-the-superfortress"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le C-47 Skytrain vient du Douglas DC-3 civil, mais sa carrière militaire lui donne une identité propre. Commandé par l’US Army Air Corps en 1940, il devient un transport essentiel de la Seconde Guerre mondiale. Il emporte du personnel, du fret et des blessés, et peut aussi remorquer des planeurs. Les Britanniques le connaissent sous le nom de Dakota.\n\nSon rôle dans les opérations aéroportées est particulièrement visible en Normandie. Les transports acheminent les parachutistes et participent aux opérations de planeurs, tandis que d’autres missions reposent sur une logistique moins spectaculaire. Le ravitaillement des forces alliées en Asie, notamment par les routes aériennes au-dessus de l’Himalaya, rappelle que l’efficacité d’une armée dépend aussi de ces appareils de transport.\n\nAprès 1945, la famille poursuit son service. Les C-47 participent au pont aérien de Berlin puis au conflit coréen, où ils transportent des approvisionnements et évacuent des blessés. En Asie du Sud-Est, des cellules sont employées pour la reconnaissance, la guerre psychologique ou transformées en avions d’appui. Un nom commun peut donc désigner des configurations profondément différentes.\n\nLe C-47D conservé à Dayton arrive au musée en 1975 après une longue utilisation américaine. Sa présentation évoque un avion de récupération de planeurs de 1944, et non nécessairement sa propre apparence d’origine. La capacité annoncée dépend de la mission : passagers, parachutistes équipés, civières et fret ne sont pas des charges interchangeables. Cette polyvalence explique une bonne part de la longévité de la famille.",
+    "current": [
+      "US",
+      "GB"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "National Museum USAF — C-47D",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/"
+      },
+      {
+        "label": "National WWII Museum — C-47",
+        "url": "https://www.nationalww2museum.org/war/articles/douglas-c-47-skytrain"
+      },
+      {
+        "label": "Document photographique — C-47 en vol à Duxford en 2014.",
+        "url": "https://commons.wikimedia.org/wiki/File:C47_Skytrain_-_Duxford_D-Day_Show_2014_(cropped).jpg"
+      },
+      {
+        "label": "Document photographique — C-47 Second Chance au musée American Airpower en 2024.",
+        "url": "https://commons.wikimedia.org/wiki/File:At_American_Airpower_Museum_2024_029_-_Douglas_C-47_Skytrain.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le C-47 Skytrain vient du Douglas DC-3 civil, mais sa carrière militaire lui donne une identité propre. Commandé par l’US Army Air Corps en 1940, il devient un transport essentiel de la Seconde Guerre mondiale. Il emporte du personnel, du fret et des blessés, et peut aussi remorquer des planeurs. Les Britanniques le connaissent sous le nom de Dakota.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/",
+          "https://www.nationalww2museum.org/war/articles/douglas-c-47-skytrain"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Son rôle dans les opérations aéroportées est particulièrement visible en Normandie. Les transports acheminent les parachutistes et participent aux opérations de planeurs, tandis que d’autres missions reposent sur une logistique moins spectaculaire. Le ravitaillement des forces alliées en Asie, notamment par les routes aériennes au-dessus de l’Himalaya, rappelle que l’efficacité d’une armée dépend aussi de ces appareils de transport.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/",
+          "https://www.nationalww2museum.org/war/articles/douglas-c-47-skytrain"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Après 1945, la famille poursuit son service. Les C-47 participent au pont aérien de Berlin puis au conflit coréen, où ils transportent des approvisionnements et évacuent des blessés. En Asie du Sud-Est, des cellules sont employées pour la reconnaissance, la guerre psychologique ou transformées en avions d’appui. Un nom commun peut donc désigner des configurations profondément différentes.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/",
+          "https://www.nationalww2museum.org/war/articles/douglas-c-47-skytrain"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Le C-47D conservé à Dayton arrive au musée en 1975 après une longue utilisation américaine. Sa présentation évoque un avion de récupération de planeurs de 1944, et non nécessairement sa propre apparence d’origine. La capacité annoncée dépend de la mission : passagers, parachutistes équipés, civières et fret ne sont pas des charges interchangeables. Cette polyvalence explique une bonne part de la longévité de la famille.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/",
+          "https://www.nationalww2museum.org/war/articles/douglas-c-47-skytrain"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le F-86 Sabre illustre le passage de l’aviation de combat américaine aux ailes en flèche. Son prototype vole en octobre 1947, puis le premier appareil de production en mai 1948. Un record de vitesse établi quelques mois plus tard souligne le changement de performances par rapport aux chasseurs à hélice de la guerre précédente.\n\nC’est pendant la guerre de Corée que le Sabre devient célèbre, face au MiG-15 soviétique. Les F-86A, puis les versions E et F, assurent les principales missions de chasse de jour américaines dans cet affrontement. Les résultats dépendent aussi des pilotes, du contrôle au sol et des équipements de visée ; les seules vitesses maximales ne permettent pas de résumer les combats.\n\nLes premiers viseurs du F-86A restent proches de ceux des chasseurs de la génération précédente. Des dispositifs utilisant un radar de télémétrie réduisent ensuite la charge de travail du pilote. Le musée souligne également la généralisation des combinaisons anti-g pendant le conflit, autre évolution souvent moins visible que la forme de l’avion ou ses armes.\n\nLa famille Sabre est largement exportée et construite sous différentes formes, notamment au Canada. Il faut distinguer les chasseurs de jour des intercepteurs F-86D, dont le nez et l’armement changent nettement. La fiche technique retient le F-86A documenté à Dayton ; les avions préservés peuvent appartenir à des versions ultérieures. Leur comparaison permet de suivre l’évolution d’une même famille au cours des années 1950.",
+    "current": [
+      "US",
+      "CA",
+      "GB",
+      "DE",
+      "JP",
+      "AU"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "National Museum USAF — F-86A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/"
+      },
+      {
+        "label": "National Museum USAF — pilotes et viseurs du Sabre",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196386/AFmuseum/sabre-pilot/"
+      },
+      {
+        "label": "Document photographique — F-86 lors d’un vol de présentation en 2016.",
+        "url": "https://commons.wikimedia.org/wiki/File:F-86_Sabre_hertiage_flight.jpg"
+      },
+      {
+        "label": "Document photographique — F-86F sud-coréen conservé à Séoul.",
+        "url": "https://commons.wikimedia.org/wiki/File:North_American_F-86F_Sabre_of_the_ROKAF.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le F-86 Sabre illustre le passage de l’aviation de combat américaine aux ailes en flèche. Son prototype vole en octobre 1947, puis le premier appareil de production en mai 1948. Un record de vitesse établi quelques mois plus tard souligne le changement de performances par rapport aux chasseurs à hélice de la guerre précédente.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196386/AFmuseum/sabre-pilot/"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "C’est pendant la guerre de Corée que le Sabre devient célèbre, face au MiG-15 soviétique. Les F-86A, puis les versions E et F, assurent les principales missions de chasse de jour américaines dans cet affrontement. Les résultats dépendent aussi des pilotes, du contrôle au sol et des équipements de visée ; les seules vitesses maximales ne permettent pas de résumer les combats.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196386/AFmuseum/sabre-pilot/"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Les premiers viseurs du F-86A restent proches de ceux des chasseurs de la génération précédente. Des dispositifs utilisant un radar de télémétrie réduisent ensuite la charge de travail du pilote. Le musée souligne également la généralisation des combinaisons anti-g pendant le conflit, autre évolution souvent moins visible que la forme de l’avion ou ses armes.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196386/AFmuseum/sabre-pilot/"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "La famille Sabre est largement exportée et construite sous différentes formes, notamment au Canada. Il faut distinguer les chasseurs de jour des intercepteurs F-86D, dont le nez et l’armement changent nettement. La fiche technique retient le F-86A documenté à Dayton ; les avions préservés peuvent appartenir à des versions ultérieures. Leur comparaison permet de suivre l’évolution d’une même famille au cours des années 1950.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196386/AFmuseum/sabre-pilot/"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le MiG-15 est l’un des chasseurs soviétiques qui marquent le début de la guerre froide. Entré en service en 1949, il associe une aile en flèche à un réacteur et à un armement de canons. La version MiG-15bis, produite à partir de 1950, reçoit notamment un moteur plus puissant et des commandes d’ailerons assistées.\n\nSon apparition en Corée modifie brutalement les conditions de la guerre aérienne. Il affronte les chasseurs des Nations unies et menace leurs bombardiers. Le face-à-face avec le F-86 Sabre devient emblématique, sans se réduire à un duel de machines isolées : expérience des équipages, bases disponibles et conduite des opérations pèsent sur les résultats des deux camps.\n\nUn exemplaire connaît une histoire exceptionnelle le 21 septembre 1953. Le pilote nord-coréen No Kum-Sok atterrit à Kimpo après avoir choisi de faire défection. L’avion, un MiG-15bis, est étudié puis essayé par les Américains, notamment à Okinawa. Son arrivée permet d’observer directement une version améliorée que les renseignements occidentaux cherchent alors à comprendre.\n\nAprès ces évaluations, l’appareil rejoint le musée en 1957. Cette trajectoire donne à une cellule précise une importance différente de celle de la famille entière. Les photographies peuvent également montrer des appareils produits sous licence, comme les Lim polonais. La fiche emploie les données du MiG-15bis et conserve cette distinction : un biplace d’entraînement MiG-15UTI ne possède pas exactement la même configuration.",
+    "current": [
+      "RU",
+      "KP"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026. Conception soviétique : la Russie sert de repère géographique sur la carte actuelle.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "National Museum USAF — MiG-15bis",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/"
+      },
+      {
+        "label": "National Museum USAF — parcours du MiG-15bis exposé",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196377/USAFmuseum/the-story-of-the-mig-15bis-on-display/"
+      },
+      {
+        "label": "Document photographique — MiG-15bisSB conservé à Edenvale.",
+        "url": "https://commons.wikimedia.org/wiki/File:MiG-15bis_-_Edenvale_Aerodrome.jpg"
+      },
+      {
+        "label": "Document photographique — MiG-15bis présenté au musée de Monino.",
+        "url": "https://commons.wikimedia.org/wiki/File:MiG-15bis.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le MiG-15 est l’un des chasseurs soviétiques qui marquent le début de la guerre froide. Entré en service en 1949, il associe une aile en flèche à un réacteur et à un armement de canons. La version MiG-15bis, produite à partir de 1950, reçoit notamment un moteur plus puissant et des commandes d’ailerons assistées.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196377/USAFmuseum/the-story-of-the-mig-15bis-on-display/"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Son apparition en Corée modifie brutalement les conditions de la guerre aérienne. Il affronte les chasseurs des Nations unies et menace leurs bombardiers. Le face-à-face avec le F-86 Sabre devient emblématique, sans se réduire à un duel de machines isolées : expérience des équipages, bases disponibles et conduite des opérations pèsent sur les résultats des deux camps.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196377/USAFmuseum/the-story-of-the-mig-15bis-on-display/"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Un exemplaire connaît une histoire exceptionnelle le 21 septembre 1953. Le pilote nord-coréen No Kum-Sok atterrit à Kimpo après avoir choisi de faire défection. L’avion, un MiG-15bis, est étudié puis essayé par les Américains, notamment à Okinawa. Son arrivée permet d’observer directement une version améliorée que les renseignements occidentaux cherchent alors à comprendre.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196377/USAFmuseum/the-story-of-the-mig-15bis-on-display/"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Après ces évaluations, l’appareil rejoint le musée en 1957. Cette trajectoire donne à une cellule précise une importance différente de celle de la famille entière. Les photographies peuvent également montrer des appareils produits sous licence, comme les Lim polonais. La fiche emploie les données du MiG-15bis et conserve cette distinction : un biplace d’entraînement MiG-15UTI ne possède pas exactement la même configuration.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196377/USAFmuseum/the-story-of-the-mig-15bis-on-display/"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le Messerschmitt Me 262 représente une rupture visible dans l’aviation de la Seconde Guerre mondiale. Issu d’études commencées en 1938, il effectue son premier vol sous la seule propulsion de ses réacteurs le 18 juillet 1942. Cette précision compte : les essais initiaux du programme et le premier vol réellement propulsé par réaction ne désignent pas le même événement.\n\nSes deux moteurs lui donnent un avantage de vitesse sur les chasseurs à hélice, mais la mise en service reste difficile. La fiabilité des réacteurs, les bombardements et les choix de production retardent sa disponibilité. Le débat entre emploi comme chasseur et emploi comme bombardier rapide complique également l’utilisation d’un appareil dont les ressources industrielles sont déjà très contraintes.\n\nLes engagements de 1944 montrent le potentiel de cette nouvelle génération. Pourtant, une performance technique remarquable ne suffit pas à redresser la situation militaire allemande. Les avions ont besoin de carburant, de pièces, de personnels formés et de transports en état. Le musée américain estime que moins de trois cents des plus de mille quatre cents appareils construits ont effectivement combattu.\n\nAprès la capitulation, plusieurs exemplaires sont étudiés par les Alliés. Celui conservé à Dayton est transféré aux États-Unis en juillet 1945, puis restauré plusieurs décennies plus tard. Des répliques volantes existent aujourd’hui, avec une motorisation moderne : elles ne doivent pas servir à attribuer au modèle historique leurs qualités mécaniques. La fiche retient le Me 262A et les caractéristiques publiées pour cette version.",
+    "current": [
+      "DE"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "National Museum USAF — Me 262A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/"
+      },
+      {
+        "label": "National Naval Aviation Museum — Me 262",
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/m/me-262.html"
+      },
+      {
+        "label": "Document photographique — Me 262A conservé au National Museum USAF.",
+        "url": "https://commons.wikimedia.org/wiki/File:Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_(cropped).jpg"
+      },
+      {
+        "label": "Document photographique — Me 262A sur un terrain d’aviation : photographie des archives allemandes.",
+        "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_141-2497,_Flugzeug_Me_262A_auf_Flugplatz.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le Messerschmitt Me 262 représente une rupture visible dans l’aviation de la Seconde Guerre mondiale. Issu d’études commencées en 1938, il effectue son premier vol sous la seule propulsion de ses réacteurs le 18 juillet 1942. Cette précision compte : les essais initiaux du programme et le premier vol réellement propulsé par réaction ne désignent pas le même événement.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/",
+          "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/m/me-262.html"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Ses deux moteurs lui donnent un avantage de vitesse sur les chasseurs à hélice, mais la mise en service reste difficile. La fiabilité des réacteurs, les bombardements et les choix de production retardent sa disponibilité. Le débat entre emploi comme chasseur et emploi comme bombardier rapide complique également l’utilisation d’un appareil dont les ressources industrielles sont déjà très contraintes.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/",
+          "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/m/me-262.html"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Les engagements de 1944 montrent le potentiel de cette nouvelle génération. Pourtant, une performance technique remarquable ne suffit pas à redresser la situation militaire allemande. Les avions ont besoin de carburant, de pièces, de personnels formés et de transports en état. Le musée américain estime que moins de trois cents des plus de mille quatre cents appareils construits ont effectivement combattu.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/",
+          "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/m/me-262.html"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Après la capitulation, plusieurs exemplaires sont étudiés par les Alliés. Celui conservé à Dayton est transféré aux États-Unis en juillet 1945, puis restauré plusieurs décennies plus tard. Des répliques volantes existent aujourd’hui, avec une motorisation moderne : elles ne doivent pas servir à attribuer au modèle historique leurs qualités mécaniques. La fiche retient le Me 262A et les caractéristiques publiées pour cette version.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/",
+          "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/m/me-262.html"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Avec son fuselage très allongé et ses petites ailes, le F-104 Starfighter possède l’une des silhouettes les plus singulières de la guerre froide. Lockheed commence son développement en 1952 et le prototype XF-104 vole en 1954. Le projet privilégie les performances du chasseur supersonique, dans le contexte des enseignements tirés de la guerre de Corée.\n\nLe programme produit rapidement des records. Un F-104A établit une marque mondiale de vitesse en mai 1958, puis un F-104C atteint une altitude record en décembre 1959. Ces résultats d’essai ne décrivent pas une mission ordinaire : ils montrent des possibilités obtenues dans des conditions spécifiques. La fiche sépare donc ces jalons des caractéristiques de référence de l’appareil.\n\nLa carrière internationale du Starfighter dépasse largement ses débuts américains. La production sous licence et les coopérations industrielles en font un avion majeur de plusieurs forces de l’OTAN, ainsi que d’autres pays alliés. Son emploi s’étend à l’interception, à l’attaque au sol et à la reconnaissance. Cette diversité entraîne des différences importantes entre les F-104C, les F-104G et les autres versions.\n\nLa formation et le soutien technique occupent une place essentielle dans cette histoire, marquée aussi par les accidents et les difficultés de mise en œuvre. Lockheed développe des programmes d’assistance aux utilisateurs. Le dernier appareil est construit en 1980 selon l’historique du constructeur. Les photos d’un F-104G permettent de reconnaître la famille, mais les chiffres affichés ici restent ceux du F-104C documenté par le musée USAF.",
+    "current": [
+      "US",
+      "DE",
+      "CA",
+      "IT",
+      "JP",
+      "TR"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "National Museum USAF — F-104C",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/"
+      },
+      {
+        "label": "Lockheed Martin — histoire du F-104",
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/f-104.html"
+      },
+      {
+        "label": "Document photographique — F-104G préservé sous immatriculation D-8114.",
+        "url": "https://commons.wikimedia.org/wiki/File:Lockheed_F-104G_Starfighter_D-8114_(9179542542).jpg"
+      },
+      {
+        "label": "Document photographique — F-104 à l’atterrissage avec son parachute de freinage.",
+        "url": "https://commons.wikimedia.org/wiki/File:Lockheed_F-104_Starfighter_drag_chute_landing.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Avec son fuselage très allongé et ses petites ailes, le F-104 Starfighter possède l’une des silhouettes les plus singulières de la guerre froide. Lockheed commence son développement en 1952 et le prototype XF-104 vole en 1954. Le projet privilégie les performances du chasseur supersonique, dans le contexte des enseignements tirés de la guerre de Corée.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/",
+          "https://www.lockheedmartin.com/en-us/news/features/history/f-104.html"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Le programme produit rapidement des records. Un F-104A établit une marque mondiale de vitesse en mai 1958, puis un F-104C atteint une altitude record en décembre 1959. Ces résultats d’essai ne décrivent pas une mission ordinaire : ils montrent des possibilités obtenues dans des conditions spécifiques. La fiche sépare donc ces jalons des caractéristiques de référence de l’appareil.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/",
+          "https://www.lockheedmartin.com/en-us/news/features/history/f-104.html"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "La carrière internationale du Starfighter dépasse largement ses débuts américains. La production sous licence et les coopérations industrielles en font un avion majeur de plusieurs forces de l’OTAN, ainsi que d’autres pays alliés. Son emploi s’étend à l’interception, à l’attaque au sol et à la reconnaissance. Cette diversité entraîne des différences importantes entre les F-104C, les F-104G et les autres versions.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/",
+          "https://www.lockheedmartin.com/en-us/news/features/history/f-104.html"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "La formation et le soutien technique occupent une place essentielle dans cette histoire, marquée aussi par les accidents et les difficultés de mise en œuvre. Lockheed développe des programmes d’assistance aux utilisateurs. Le dernier appareil est construit en 1980 selon l’historique du constructeur. Les photos d’un F-104G permettent de reconnaître la famille, mais les chiffres affichés ici restent ceux du F-104C documenté par le musée USAF.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/",
+          "https://www.lockheedmartin.com/en-us/news/features/history/f-104.html"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le Su-27 est un chasseur soviétique conçu pour répondre au F-15 américain. Le nom Flanker recouvre plusieurs versions : la fiche technique retient ici le Su-27UB, biplace d’entraînement avancé entré en service en 1986. Le suffixe et la présence du second poste sont donc essentiels pour interpréter les performances présentées dans les tableaux.\n\nDans cette version, l’instructeur prend place derrière l’élève et dispose de doubles commandes. L’avion conserve une capacité de combat et peut être piloté depuis le seul poste avant. Ce choix associe apprentissage et familiarisation avec les équipements d’une famille de chasseurs lourds, plutôt que de séparer totalement l’avion d’école de l’appareil opérationnel.\n\nLe Su-27UB exposé à Dayton possède une trajectoire particulièrement documentée. Construit en 1989, il passe de l’aéronavale soviétique à l’armée de l’air ukrainienne après la disparition de l’URSS. Démilitarisé, il est vendu à une société américaine en 2008, puis acheté par l’US Air Force en 2011. Il rejoint finalement le musée en 2023.\n\nCe parcours raconte les changements politiques autant que la technique. Il ne représente ni un inventaire actuel ni toute l’histoire des exportations du Su-27. La famille sert aussi de point de départ à des développements ultérieurs, dont les Su-30 et Su-35. Reconnaître un Flanker sur une photo est un premier repère ; identifier son nombre de places et sa variante permet ensuite une comparaison plus précise.",
+    "current": [
+      "RU",
+      "UA"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026. Conception soviétique : la Russie sert de repère géographique sur la carte actuelle.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "National Museum USAF — Su-27UB",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+      },
+      {
+        "label": "Document photographique — Su-27SM3 en vol pendant une présentation aérienne.",
+        "url": "https://commons.wikimedia.org/wiki/File:Su-27SM3_in_flight,_Celebration_of_the_100th_anniversary_of_Russian_Air_Force.jpg"
+      },
+      {
+        "label": "Document photographique — Su-27 ukrainien photographié au meeting de Radom en 2018.",
+        "url": "https://commons.wikimedia.org/wiki/File:Sukhoi_Su-27_-_B-1831M1_-_Radom_Air_Show_-_20180825_1527_5742_DxO.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le Su-27 est un chasseur soviétique conçu pour répondre au F-15 américain. Le nom Flanker recouvre plusieurs versions : la fiche technique retient ici le Su-27UB, biplace d’entraînement avancé entré en service en 1986. Le suffixe et la présence du second poste sont donc essentiels pour interpréter les performances présentées dans les tableaux.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Dans cette version, l’instructeur prend place derrière l’élève et dispose de doubles commandes. L’avion conserve une capacité de combat et peut être piloté depuis le seul poste avant. Ce choix associe apprentissage et familiarisation avec les équipements d’une famille de chasseurs lourds, plutôt que de séparer totalement l’avion d’école de l’appareil opérationnel.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Le Su-27UB exposé à Dayton possède une trajectoire particulièrement documentée. Construit en 1989, il passe de l’aéronavale soviétique à l’armée de l’air ukrainienne après la disparition de l’URSS. Démilitarisé, il est vendu à une société américaine en 2008, puis acheté par l’US Air Force en 2011. Il rejoint finalement le musée en 2023.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Ce parcours raconte les changements politiques autant que la technique. Il ne représente ni un inventaire actuel ni toute l’histoire des exportations du Su-27. La famille sert aussi de point de départ à des développements ultérieurs, dont les Su-30 et Su-35. Reconnaître un Flanker sur une photo est un premier repère ; identifier son nombre de places et sa variante permet ensuite une comparaison plus précise.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le M4 Sherman constitue une réponse industrielle autant qu’un projet de char. Étudié en 1941 pour succéder au M3 moyen, il conserve une partie de sa mécanique mais place son armement principal dans une tourelle entièrement mobile. Un modèle pilote apparaît en septembre 1941 ; la fabrication commence en février 1942 et mobilise ensuite plusieurs constructeurs américains.\n\nCette production donne naissance à des variantes dont les différences sont parfois importantes. Le M4A1 possède une caisse moulée, tandis que d’autres modèles utilisent des éléments soudés. Les moteurs varient aussi ; le M4A3 retenu pour la fiche technique reçoit un Ford GAA. Les chars à canon de 75 mm, ceux à canon de 76 mm et les véhicules spécialisés ne doivent pas être confondus.\n\nLe Sherman équipe les forces américaines et plusieurs alliés grâce au prêt-bail. Sa disponibilité, son entretien et ses transformations contribuent à son importance. Les Britanniques développent notamment le Firefly avec un autre canon ; des Sherman deviennent démineurs Crab ou chars amphibies Duplex Drive. Derrière une silhouette familière se trouvent donc des réponses à des missions très différentes.\n\nLes collections actuelles conservent cette diversité, mais une restauration ne restitue pas toujours une configuration d’origine. Le Tank Museum décrit ainsi plusieurs conversions et véhicules reconstruits. Comparer un Sherman à un autre char suppose d’abord d’identifier la version, son armement et son époque. La fiche évite de combiner le moteur d’un M4A3, le canon d’un Firefly et la protection d’un Jumbo dans un même portrait.",
+    "current": [
+      "US",
+      "GB",
+      "FR",
+      "CN",
+      "RU"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://tankmuseum.org/tank-nuts/tank-collection/m4-sherman/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "The Tank Museum — famille Sherman",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/m4-sherman/"
+      },
+      {
+        "label": "National WWII Museum — M4A3",
+        "url": "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m4-sherman-tank"
+      },
+      {
+        "label": "Document photographique — Sherman Cougar préservé aux Pays-Bas.",
+        "url": "https://commons.wikimedia.org/wiki/File:M4_Sherman_tank_-_Flickr_-_Joost_J._Bakker_IJmuiden.jpg"
+      },
+      {
+        "label": "Document photographique — Sherman de la famille Grizzly conservé à Vienne.",
+        "url": "https://commons.wikimedia.org/wiki/File:M4_Sherman_tank_at_the_Heeresgeschichtliches_Museum_in_Vienna.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le M4 Sherman constitue une réponse industrielle autant qu’un projet de char. Étudié en 1941 pour succéder au M3 moyen, il conserve une partie de sa mécanique mais place son armement principal dans une tourelle entièrement mobile. Un modèle pilote apparaît en septembre 1941 ; la fabrication commence en février 1942 et mobilise ensuite plusieurs constructeurs américains.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/m4-sherman/",
+          "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m4-sherman-tank"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Cette production donne naissance à des variantes dont les différences sont parfois importantes. Le M4A1 possède une caisse moulée, tandis que d’autres modèles utilisent des éléments soudés. Les moteurs varient aussi ; le M4A3 retenu pour la fiche technique reçoit un Ford GAA. Les chars à canon de 75 mm, ceux à canon de 76 mm et les véhicules spécialisés ne doivent pas être confondus.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/m4-sherman/",
+          "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m4-sherman-tank"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Le Sherman équipe les forces américaines et plusieurs alliés grâce au prêt-bail. Sa disponibilité, son entretien et ses transformations contribuent à son importance. Les Britanniques développent notamment le Firefly avec un autre canon ; des Sherman deviennent démineurs Crab ou chars amphibies Duplex Drive. Derrière une silhouette familière se trouvent donc des réponses à des missions très différentes.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/m4-sherman/",
+          "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m4-sherman-tank"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Les collections actuelles conservent cette diversité, mais une restauration ne restitue pas toujours une configuration d’origine. Le Tank Museum décrit ainsi plusieurs conversions et véhicules reconstruits. Comparer un Sherman à un autre char suppose d’abord d’identifier la version, son armement et son époque. La fiche évite de combiner le moteur d’un M4A3, le canon d’un Firefly et la protection d’un Jumbo dans un même portrait.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/m4-sherman/",
+          "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m4-sherman-tank"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le Stuart vient du développement des chars légers américains des années 1930. La série M3 se précise en 1940, dans un contexte où les besoins en véhicules blindés augmentent rapidement. Son arrivée dans les forces britanniques en Afrique du Nord en 1941 lui donne une première expérience de combat. Le nom Stuart s’impose chez ces utilisateurs, ainsi que le surnom Honey.\n\nSa mécanique appréciée et sa mobilité ne compensent pas durablement les limites de son canon de 37 mm et de sa protection. À mesure que les adversaires se renforcent, le Stuart se prête moins aux affrontements de chars moyens. La disposition interne comporte également des contraintes : le passage de l’arbre de transmission gêne l’équipage dans le compartiment de combat des premiers modèles.\n\nLes modifications du M3A1 améliorent notamment le travail dans la tourelle. D’autres versions prolongent la famille, mais le M5 n’est pas un simple changement de nom du M3 : sa caisse et sa motorisation évoluent. Avec l’arrivée de chars plus puissants, les Stuart sont de plus en plus employés pour la reconnaissance et des missions où leur légèreté reste utile.\n\nLeur diffusion internationale se poursuit longtemps après la guerre. Le Tank Museum conserve par exemple un véhicule donné par l’armée brésilienne en 1990, dont la caisse et la tourelle viennent de versions différentes. Ce cas explique l’importance des légendes des photographies. La fiche choisit le M3A1 comme référence technique et ne transforme pas les caractéristiques d’un exemplaire hybride en données universelles de toute la famille.",
+    "current": [
+      "US",
+      "GB",
+      "BR"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "The Tank Museum — M3A1 Stuart",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/"
+      },
+      {
+        "label": "National WWII Museum — M3A1",
+        "url": "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m3a1-stuart-tank"
+      },
+      {
+        "label": "Document photographique — Stuart pendant Tankfest en 2023.",
+        "url": "https://commons.wikimedia.org/wiki/File:Stuart_tankfest_2023.JPG"
+      },
+      {
+        "label": "Document photographique — M3A1 : photographie d’archive du char léger.",
+        "url": "https://commons.wikimedia.org/wiki/File:M3A1_Light_Tank.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le Stuart vient du développement des chars légers américains des années 1930. La série M3 se précise en 1940, dans un contexte où les besoins en véhicules blindés augmentent rapidement. Son arrivée dans les forces britanniques en Afrique du Nord en 1941 lui donne une première expérience de combat. Le nom Stuart s’impose chez ces utilisateurs, ainsi que le surnom Honey.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/",
+          "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m3a1-stuart-tank"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Sa mécanique appréciée et sa mobilité ne compensent pas durablement les limites de son canon de 37 mm et de sa protection. À mesure que les adversaires se renforcent, le Stuart se prête moins aux affrontements de chars moyens. La disposition interne comporte également des contraintes : le passage de l’arbre de transmission gêne l’équipage dans le compartiment de combat des premiers modèles.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/",
+          "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m3a1-stuart-tank"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Les modifications du M3A1 améliorent notamment le travail dans la tourelle. D’autres versions prolongent la famille, mais le M5 n’est pas un simple changement de nom du M3 : sa caisse et sa motorisation évoluent. Avec l’arrivée de chars plus puissants, les Stuart sont de plus en plus employés pour la reconnaissance et des missions où leur légèreté reste utile.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/",
+          "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m3a1-stuart-tank"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Leur diffusion internationale se poursuit longtemps après la guerre. Le Tank Museum conserve par exemple un véhicule donné par l’armée brésilienne en 1990, dont la caisse et la tourelle viennent de versions différentes. Ce cas explique l’importance des légendes des photographies. La fiche choisit le M3A1 comme référence technique et ne transforme pas les caractéristiques d’un exemplaire hybride en données universelles de toute la famille.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/",
+          "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m3a1-stuart-tank"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le Tiger I apparaît en 1942 comme un char lourd allemand associant un canon de 88 mm à une protection importante pour l’époque. Sa taille, son armement et son emploi dans des unités spécialisées contribuent à sa réputation. Cette notoriété ne signifie pourtant pas qu’il puisse être considéré isolément des contraintes techniques et logistiques de la guerre.\n\nLe poids du véhicule impose des exigences considérables à la mécanique, au dépannage et aux déplacements. Le Tank Museum rappelle les problèmes de fiabilité et le risque d’incendie. La puissance du canon ne suffit donc pas à mesurer la disponibilité réelle des unités. Une comparaison sérieuse doit aussi tenir compte de l’entretien, des itinéraires possibles et des moyens nécessaires pour récupérer un char immobilisé.\n\nL’exemplaire Tiger 131 possède une histoire particulièrement bien identifiée. Capturé par les Britanniques le 24 avril 1943 en Tunisie, il devient un précieux objet d’étude. Sa conservation permet aujourd’hui d’observer un véhicule réel plutôt que de dépendre uniquement des photographies de guerre et des représentations populaires. Ses démonstrations nécessitent elles-mêmes un important travail de maintenance.\n\nLe Tiger I doit être distingué du Tiger II, malgré la proximité des noms. Les silhouettes, les masses et les conceptions diffèrent. Le chiffre de production affiché ici correspond à la notice du musée pour le Tiger I ; aucun total mondial de destructions ne lui est attribué sans documentation comparable. Les photographies d’archives sont présentées comme des documents historiques, avec leur provenance et leur date lorsqu’elles sont connues.",
+    "current": [
+      "DE"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "The Tank Museum — Tiger I",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/"
+      },
+      {
+        "label": "The Tank Museum — Tiger 131, commémoration de la capture",
+        "url": "https://tankmuseum.org/article/tiger-day-autumn-stars-2026"
+      },
+      {
+        "label": "Document photographique — Tiger I : photographie d’archive en France.",
+        "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-299-1805-16,_Nordfrankreich,_Panzer_VI_(Tiger_I).2.jpg"
+      },
+      {
+        "label": "Document photographique — Tiger I préservé à Snegiri ; véhicule historique endommagé.",
+        "url": "https://commons.wikimedia.org/wiki/File:Pz.Kpfw._Vl_Ausf.H_in_Snegiri.JPG"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le Tiger I apparaît en 1942 comme un char lourd allemand associant un canon de 88 mm à une protection importante pour l’époque. Sa taille, son armement et son emploi dans des unités spécialisées contribuent à sa réputation. Cette notoriété ne signifie pourtant pas qu’il puisse être considéré isolément des contraintes techniques et logistiques de la guerre.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/",
+          "https://tankmuseum.org/article/tiger-day-autumn-stars-2026"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Le poids du véhicule impose des exigences considérables à la mécanique, au dépannage et aux déplacements. Le Tank Museum rappelle les problèmes de fiabilité et le risque d’incendie. La puissance du canon ne suffit donc pas à mesurer la disponibilité réelle des unités. Une comparaison sérieuse doit aussi tenir compte de l’entretien, des itinéraires possibles et des moyens nécessaires pour récupérer un char immobilisé.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/",
+          "https://tankmuseum.org/article/tiger-day-autumn-stars-2026"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "L’exemplaire Tiger 131 possède une histoire particulièrement bien identifiée. Capturé par les Britanniques le 24 avril 1943 en Tunisie, il devient un précieux objet d’étude. Sa conservation permet aujourd’hui d’observer un véhicule réel plutôt que de dépendre uniquement des photographies de guerre et des représentations populaires. Ses démonstrations nécessitent elles-mêmes un important travail de maintenance.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/",
+          "https://tankmuseum.org/article/tiger-day-autumn-stars-2026"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Le Tiger I doit être distingué du Tiger II, malgré la proximité des noms. Les silhouettes, les masses et les conceptions diffèrent. Le chiffre de production affiché ici correspond à la notice du musée pour le Tiger I ; aucun total mondial de destructions ne lui est attribué sans documentation comparable. Les photographies d’archives sont présentées comme des documents historiques, avec leur provenance et leur date lorsqu’elles sont connues.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/",
+          "https://tankmuseum.org/article/tiger-day-autumn-stars-2026"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le Panzer IV commence sa carrière comme char d’appui des régiments blindés allemands. Son canon court de 75 mm doit notamment tirer des obus explosifs et fumigènes. Cette fonction initiale explique pourquoi il ne faut pas lui attribuer, dès le début de la guerre, les capacités des versions ultérieures à canon long qui deviennent les plus familières.\n\nL’évolution de la menace pousse à modifier l’armement et la protection. Durant l’hiver 1941–1942, le développement du canon long KwK 40 marque un changement majeur. La famille conserve une base reconnaissable mais évolue suffisamment pour que deux Panzer IV puissent présenter des capacités différentes selon leur date, leur canon et les transformations qu’ils ont reçues.\n\nL’exemplaire du Tank Museum illustre particulièrement bien cette difficulté. Construit comme un Ausf. D, il reçoit des blindages supplémentaires, puis un canon KwK 40 L/43 en 1943. Il sert comme véhicule d’instruction. Sa configuration ne correspond donc pas simplement à celle d’un Ausf. D sorti d’usine : une identification limitée à une lettre de version serait trompeuse.\n\nLa production importante de la famille et la présence de plusieurs exemplaires dans les collections permettent de suivre ces changements. Les caractéristiques retenues ici sont celles du véhicule documenté à Bovington, pas une moyenne artificielle de toutes les versions. Le Panzer IV est également distinct des engins spécialisés utilisant des châssis apparentés : une ressemblance de caisse ne suffit pas pour classer un véhicule comme char à tourelle.",
+    "current": [
+      "DE"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "The Tank Museum — Panzer IV",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/"
+      },
+      {
+        "label": "Deutsches Panzermuseum — collection",
+        "url": "https://daspanzermuseum.de/en/large-exhibits/"
+      },
+      {
+        "label": "Document photographique — Panzer IV conservé au musée de Munster.",
+        "url": "https://commons.wikimedia.org/wiki/File:Panzermuseum_Munster_2010_0128_b.jpg"
+      },
+      {
+        "label": "Document photographique — Panzer IV préservé au musée de Saumur.",
+        "url": "https://commons.wikimedia.org/wiki/File:PzIV.Saumur.000a5s6s.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le Panzer IV commence sa carrière comme char d’appui des régiments blindés allemands. Son canon court de 75 mm doit notamment tirer des obus explosifs et fumigènes. Cette fonction initiale explique pourquoi il ne faut pas lui attribuer, dès le début de la guerre, les capacités des versions ultérieures à canon long qui deviennent les plus familières.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/",
+          "https://daspanzermuseum.de/en/large-exhibits/"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "L’évolution de la menace pousse à modifier l’armement et la protection. Durant l’hiver 1941–1942, le développement du canon long KwK 40 marque un changement majeur. La famille conserve une base reconnaissable mais évolue suffisamment pour que deux Panzer IV puissent présenter des capacités différentes selon leur date, leur canon et les transformations qu’ils ont reçues.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/",
+          "https://daspanzermuseum.de/en/large-exhibits/"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "L’exemplaire du Tank Museum illustre particulièrement bien cette difficulté. Construit comme un Ausf. D, il reçoit des blindages supplémentaires, puis un canon KwK 40 L/43 en 1943. Il sert comme véhicule d’instruction. Sa configuration ne correspond donc pas simplement à celle d’un Ausf. D sorti d’usine : une identification limitée à une lettre de version serait trompeuse.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/",
+          "https://daspanzermuseum.de/en/large-exhibits/"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "La production importante de la famille et la présence de plusieurs exemplaires dans les collections permettent de suivre ces changements. Les caractéristiques retenues ici sont celles du véhicule documenté à Bovington, pas une moyenne artificielle de toutes les versions. Le Panzer IV est également distinct des engins spécialisés utilisant des châssis apparentés : une ressemblance de caisse ne suffit pas pour classer un véhicule comme char à tourelle.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/",
+          "https://daspanzermuseum.de/en/large-exhibits/"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le Churchill est un exemple de la doctrine britannique du char d’infanterie. La priorité va à la protection et à l’accompagnement de fantassins, plutôt qu’à une vitesse élevée. Ses longues chenilles et son allure massive le distinguent des chars conçus pour d’autres formes de manœuvre. Les premiers véhicules apparaissent au cours des premières années de la Seconde Guerre mondiale.\n\nLa famille évolue fortement. Les premières configurations emploient un canon de deux livres ; les Mark III et des versions suivantes reçoivent un canon de six livres ou un canon de 75 mm. Le Mark VII introduit une refonte importante avec une protection accrue. Il serait donc incorrect de réunir dans une seule fiche le blindage d’un Mark VII et tous les équipements d’une version initiale.\n\nLe Churchill sert en Afrique du Nord, en Italie et en Europe occidentale. Le Tank Museum souligne notamment son rôle lors des combats pour la cote 309 en juillet 1944. Le châssis donne aussi naissance à des véhicules du génie, comme l’AVRE, et à la variante lance-flammes Crocodile. Ces versions répondent à des missions particulières et ne représentent pas tous les chars de la famille.\n\nLes exemplaires préservés racontent souvent plusieurs transformations successives. Un char peut avoir été modifié pour l’instruction, converti en véhicule spécialisé puis restauré. Cette fiche privilégie les repères communs et précise l’armement de la version choisie. Elle ne présente pas une photographie de Churchill comme la preuve d’une configuration universelle, ce qui permet de comparer les variantes sans effacer leur histoire.",
+    "current": [
+      "GB",
+      "RU"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "The Tank Museum — Churchill",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+      },
+      {
+        "label": "Document photographique — Churchill : photographie officielle britannique de la Seconde Guerre mondiale.",
+        "url": "https://commons.wikimedia.org/wiki/File:Tanks_and_Afvs_of_the_British_Army_1939-45_KID1265.jpg"
+      },
+      {
+        "label": "Document photographique — Churchill III de Kingforce dans le désert en novembre 1942.",
+        "url": "https://commons.wikimedia.org/wiki/File:Churchill_III_tanks_of_%27Kingforce%27,_1st_Armoured_Division,_in_the_Western_Desert,_5_November_1942._E18991.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le Churchill est un exemple de la doctrine britannique du char d’infanterie. La priorité va à la protection et à l’accompagnement de fantassins, plutôt qu’à une vitesse élevée. Ses longues chenilles et son allure massive le distinguent des chars conçus pour d’autres formes de manœuvre. Les premiers véhicules apparaissent au cours des premières années de la Seconde Guerre mondiale.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "La famille évolue fortement. Les premières configurations emploient un canon de deux livres ; les Mark III et des versions suivantes reçoivent un canon de six livres ou un canon de 75 mm. Le Mark VII introduit une refonte importante avec une protection accrue. Il serait donc incorrect de réunir dans une seule fiche le blindage d’un Mark VII et tous les équipements d’une version initiale.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Le Churchill sert en Afrique du Nord, en Italie et en Europe occidentale. Le Tank Museum souligne notamment son rôle lors des combats pour la cote 309 en juillet 1944. Le châssis donne aussi naissance à des véhicules du génie, comme l’AVRE, et à la variante lance-flammes Crocodile. Ces versions répondent à des missions particulières et ne représentent pas tous les chars de la famille.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Les exemplaires préservés racontent souvent plusieurs transformations successives. Un char peut avoir été modifié pour l’instruction, converti en véhicule spécialisé puis restauré. Cette fiche privilégie les repères communs et précise l’armement de la version choisie. Elle ne présente pas une photographie de Churchill comme la preuve d’une configuration universelle, ce qui permet de comparer les variantes sans effacer leur histoire.",
+        "sources": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le Stridsvagn 103 est l’une des réponses les plus originales au problème du char de combat pendant la guerre froide. Le projet suédois abandonne la tourelle et fixe le canon dans la caisse. Sven Berge propose ce concept en 1957 ; Bofors développe ensuite les prototypes, avant une commande de 290 véhicules passée en 1964.\n\nL’objectif est de réduire la silhouette exposée. Cette architecture impose de déplacer la caisse pour orienter le canon, tandis que la suspension permet d’en modifier l’élévation. Elle entraîne donc des compromis très différents de ceux d’un char classique à tourelle. L’absence de tourelle ne transforme pas pour autant le véhicule en simple canon automoteur : il occupe bien une fonction de char dans l’armée suédoise.\n\nLes livraisons se déroulent de 1967 à 1971. Les versions A puis B évoluent, et les chars sont modernisés au standard C dans les années 1980. La motorisation et certains équipements changent au fil de ces transformations. Les valeurs techniques de cette fiche concernent le 103C lorsque la différence entre versions est significative, notamment pour la masse et la vitesse maximale.\n\nLes sources n’emploient pas exactement la même date de fin de carrière : Saab cite 1997, tandis que l’association historique suédoise indique un service jusqu’en 2001. Les deux repères sont conservés avec leur contexte. Ce char reste surtout un excellent exemple de choix de conception : une silhouette plus basse apporte des avantages, mais impose d’autres contraintes, et ne permet pas à elle seule de désigner une solution universellement supérieure.",
+    "current": [
+      "SE"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.saab.com/newsroom/stories/2019/may/artillery-pieces-and-combat-vehicles",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "Saab — histoire des véhicules Bofors",
+        "url": "https://www.saab.com/newsroom/stories/2019/may/artillery-pieces-and-combat-vehicles"
+      },
+      {
+        "label": "Svensk Pansarhistorisk Förening — Stridsvagn 103",
+        "url": "https://www.sphf.se/svenskt-pansar/fordon/stridsvagn-2/"
+      },
+      {
+        "label": "Document photographique — Stridsvagn 103 en démonstration à Revingehed en 2022.",
+        "url": "https://commons.wikimedia.org/wiki/File:STRV-103_demonstrating_at_P7_Revingehed,_24th_April_2022.jpg"
+      },
+      {
+        "label": "Document photographique — Stridsvagn 103 à Revinge en 2013.",
+        "url": "https://commons.wikimedia.org/wiki/File:Stridsvagn_103_Revinge_2013-2.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le Stridsvagn 103 est l’une des réponses les plus originales au problème du char de combat pendant la guerre froide. Le projet suédois abandonne la tourelle et fixe le canon dans la caisse. Sven Berge propose ce concept en 1957 ; Bofors développe ensuite les prototypes, avant une commande de 290 véhicules passée en 1964.",
+        "sources": [
+          "https://www.saab.com/newsroom/stories/2019/may/artillery-pieces-and-combat-vehicles",
+          "https://www.sphf.se/svenskt-pansar/fordon/stridsvagn-2/"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "L’objectif est de réduire la silhouette exposée. Cette architecture impose de déplacer la caisse pour orienter le canon, tandis que la suspension permet d’en modifier l’élévation. Elle entraîne donc des compromis très différents de ceux d’un char classique à tourelle. L’absence de tourelle ne transforme pas pour autant le véhicule en simple canon automoteur : il occupe bien une fonction de char dans l’armée suédoise.",
+        "sources": [
+          "https://www.saab.com/newsroom/stories/2019/may/artillery-pieces-and-combat-vehicles",
+          "https://www.sphf.se/svenskt-pansar/fordon/stridsvagn-2/"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Les livraisons se déroulent de 1967 à 1971. Les versions A puis B évoluent, et les chars sont modernisés au standard C dans les années 1980. La motorisation et certains équipements changent au fil de ces transformations. Les valeurs techniques de cette fiche concernent le 103C lorsque la différence entre versions est significative, notamment pour la masse et la vitesse maximale.",
+        "sources": [
+          "https://www.saab.com/newsroom/stories/2019/may/artillery-pieces-and-combat-vehicles",
+          "https://www.sphf.se/svenskt-pansar/fordon/stridsvagn-2/"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Les sources n’emploient pas exactement la même date de fin de carrière : Saab cite 1997, tandis que l’association historique suédoise indique un service jusqu’en 2001. Les deux repères sont conservés avec leur contexte. Ce char reste surtout un excellent exemple de choix de conception : une silhouette plus basse apporte des avantages, mais impose d’autres contraintes, et ne permet pas à elle seule de désigner une solution universellement supérieure.",
+        "sources": [
+          "https://www.saab.com/newsroom/stories/2019/may/artillery-pieces-and-combat-vehicles",
+          "https://www.sphf.se/svenskt-pansar/fordon/stridsvagn-2/"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le Marder 1 accompagne la reconstruction des forces mécanisées allemandes pendant la guerre froide. Les premiers véhicules de série sont remis officiellement le 7 mai 1971 à Kiel et à Kassel. Il doit travailler avec les chars de combat tout en transportant un groupe de fantassins capable de combattre depuis le véhicule ou après avoir débarqué.\n\nSon rôle ne se confond donc pas avec celui d’un char. Le canon automatique de 20 mm, les moyens d’observation et les équipements antichars servent une mission de combat d’infanterie. La configuration documentée par la Bundeswehr comprend trois membres d’équipage et six soldats transportés. La place disponible, les accès et l’organisation du groupe sont aussi importants que l’armement visible sur la tourelle.\n\nDes modernisations successives prolongent la carrière de la famille. Le standard 1A3 est utilisé à partir de 1989 ; les 1A5 renforcent notamment la protection contre les mines. D’autres modifications concernent les communications, l’observation et l’intégration de nouveaux systèmes antichars. Les photographies de variantes différentes sont légendées comme telles, sans attribuer à tous les Marder le même niveau de protection.\n\nConçu pour une confrontation en Europe, le véhicule connaît ensuite des engagements extérieurs, notamment dans les Balkans et en Afghanistan. Le récit industriel de son cinquantième anniversaire souligne cette évolution des missions. La fiche conserve le nom Marder 1 pour éviter une confusion avec les chasseurs de chars allemands de la Seconde Guerre mondiale, qui partagent le même nom animal mais ne constituent pas cette famille de véhicules.",
+    "current": [
+      "DE"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "Bundeswehr — Marder 1",
+        "url": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder"
+      },
+      {
+        "label": "Rheinmetall — cinquante ans du Marder",
+        "url": "https://www.rheinmetall.com/de/media/stories/2022/50-jahre-marder"
+      },
+      {
+        "label": "Document photographique — Marder 1 au cours d’un exercice de la Bundeswehr en 2012.",
+        "url": "https://commons.wikimedia.org/wiki/File:IL%C3%9C_der_Bundeswehr_am_24.09.2012_--_Marder_AT_(cropped).jpg"
+      },
+      {
+        "label": "Document photographique — Marder allemand de la KFOR en 1999.",
+        "url": "https://commons.wikimedia.org/wiki/File:German_KFOR_armoured_vehicle,_1999.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le Marder 1 accompagne la reconstruction des forces mécanisées allemandes pendant la guerre froide. Les premiers véhicules de série sont remis officiellement le 7 mai 1971 à Kiel et à Kassel. Il doit travailler avec les chars de combat tout en transportant un groupe de fantassins capable de combattre depuis le véhicule ou après avoir débarqué.",
+        "sources": [
+          "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder",
+          "https://www.rheinmetall.com/de/media/stories/2022/50-jahre-marder"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Son rôle ne se confond donc pas avec celui d’un char. Le canon automatique de 20 mm, les moyens d’observation et les équipements antichars servent une mission de combat d’infanterie. La configuration documentée par la Bundeswehr comprend trois membres d’équipage et six soldats transportés. La place disponible, les accès et l’organisation du groupe sont aussi importants que l’armement visible sur la tourelle.",
+        "sources": [
+          "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder",
+          "https://www.rheinmetall.com/de/media/stories/2022/50-jahre-marder"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Des modernisations successives prolongent la carrière de la famille. Le standard 1A3 est utilisé à partir de 1989 ; les 1A5 renforcent notamment la protection contre les mines. D’autres modifications concernent les communications, l’observation et l’intégration de nouveaux systèmes antichars. Les photographies de variantes différentes sont légendées comme telles, sans attribuer à tous les Marder le même niveau de protection.",
+        "sources": [
+          "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder",
+          "https://www.rheinmetall.com/de/media/stories/2022/50-jahre-marder"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Conçu pour une confrontation en Europe, le véhicule connaît ensuite des engagements extérieurs, notamment dans les Balkans et en Afghanistan. Le récit industriel de son cinquantième anniversaire souligne cette évolution des missions. La fiche conserve le nom Marder 1 pour éviter une confusion avec les chasseurs de chars allemands de la Seconde Guerre mondiale, qui partagent le même nom animal mais ne constituent pas cette famille de véhicules.",
+        "sources": [
+          "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder",
+          "https://www.rheinmetall.com/de/media/stories/2022/50-jahre-marder"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "L’AS90 est un obusier automoteur britannique développé pour renouveler l’artillerie de campagne. En juin 1989, le gouvernement annonce son choix et une commande de 179 véhicules auprès de VSEL. Son nom renvoie à l’artillerie des années 1990, période de sa mise en service. Il associe un canon de 155 mm à un châssis chenillé protégé.\n\nLe véhicule transporte son équipage et ses munitions, et sa tourelle peut s’orienter sur un tour complet. L’assistance au chargement réduit certaines tâches physiques sans supprimer les besoins en personnel et en ravitaillement. La portée publiée pour le canon de référence est de 24,7 kilomètres ; ce chiffre dépend de la munition et ne doit pas être confondu avec l’autonomie routière du véhicule.\n\nCette distinction est particulièrement utile pour lire les fiches d’artillerie. Une portée de tir, un nombre d’obus transportés et une cadence momentanée ne décrivent pas une capacité soutenue identique. La fiche reprend la configuration de base à tube de 39 calibres décrite par la British Army ; les projets de tubes plus longs ne sont pas traités comme des caractéristiques de tous les AS90.\n\nLa guerre en Ukraine donne une nouvelle étape à sa carrière. La British Army documente le don de 32 AS90 et l’achat d’Archer pour combler temporairement une partie du besoin créé. La fiche distingue cette quantité transférée de la commande initiale. Elle présente l’AS90 comme un système complet d’artillerie, dont l’efficacité dépend aussi de la maintenance, des transmissions et de l’approvisionnement en munitions.",
+    "current": [
+      "GB",
+      "UA"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/as90/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "British Army — AS90",
+        "url": "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/as90/"
+      },
+      {
+        "label": "Hansard — décision de commande de 1989",
+        "url": "https://hansard.parliament.uk/Commons/1989-06-20/debates/a1db6bb6-563a-465c-9dde-c881ebb85b51/WrittenAnswers"
+      },
+      {
+        "label": "British Army — remplacement temporaire par Archer",
+        "url": "https://www.army.mod.uk/news/british-gunners-take-aim-and-fire-swedish-archer-for-the-first-time/"
+      },
+      {
+        "label": "Document photographique — AS90 photographié lors d’une présentation.",
+        "url": "https://commons.wikimedia.org/wiki/File:AS90_(52931434897).jpg"
+      },
+      {
+        "label": "Document photographique — AS90 de la British Army.",
+        "url": "https://commons.wikimedia.org/wiki/File:AS-90_Howitzer_1.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "L’AS90 est un obusier automoteur britannique développé pour renouveler l’artillerie de campagne. En juin 1989, le gouvernement annonce son choix et une commande de 179 véhicules auprès de VSEL. Son nom renvoie à l’artillerie des années 1990, période de sa mise en service. Il associe un canon de 155 mm à un châssis chenillé protégé.",
+        "sources": [
+          "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/as90/",
+          "https://hansard.parliament.uk/Commons/1989-06-20/debates/a1db6bb6-563a-465c-9dde-c881ebb85b51/WrittenAnswers",
+          "https://www.army.mod.uk/news/british-gunners-take-aim-and-fire-swedish-archer-for-the-first-time/"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Le véhicule transporte son équipage et ses munitions, et sa tourelle peut s’orienter sur un tour complet. L’assistance au chargement réduit certaines tâches physiques sans supprimer les besoins en personnel et en ravitaillement. La portée publiée pour le canon de référence est de 24,7 kilomètres ; ce chiffre dépend de la munition et ne doit pas être confondu avec l’autonomie routière du véhicule.",
+        "sources": [
+          "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/as90/",
+          "https://hansard.parliament.uk/Commons/1989-06-20/debates/a1db6bb6-563a-465c-9dde-c881ebb85b51/WrittenAnswers",
+          "https://www.army.mod.uk/news/british-gunners-take-aim-and-fire-swedish-archer-for-the-first-time/"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Cette distinction est particulièrement utile pour lire les fiches d’artillerie. Une portée de tir, un nombre d’obus transportés et une cadence momentanée ne décrivent pas une capacité soutenue identique. La fiche reprend la configuration de base à tube de 39 calibres décrite par la British Army ; les projets de tubes plus longs ne sont pas traités comme des caractéristiques de tous les AS90.",
+        "sources": [
+          "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/as90/",
+          "https://hansard.parliament.uk/Commons/1989-06-20/debates/a1db6bb6-563a-465c-9dde-c881ebb85b51/WrittenAnswers",
+          "https://www.army.mod.uk/news/british-gunners-take-aim-and-fire-swedish-archer-for-the-first-time/"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "La guerre en Ukraine donne une nouvelle étape à sa carrière. La British Army documente le don de 32 AS90 et l’achat d’Archer pour combler temporairement une partie du besoin créé. La fiche distingue cette quantité transférée de la commande initiale. Elle présente l’AS90 comme un système complet d’artillerie, dont l’efficacité dépend aussi de la maintenance, des transmissions et de l’approvisionnement en munitions.",
+        "sources": [
+          "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/as90/",
+          "https://hansard.parliament.uk/Commons/1989-06-20/debates/a1db6bb6-563a-465c-9dde-c881ebb85b51/WrittenAnswers",
+          "https://www.army.mod.uk/news/british-gunners-take-aim-and-fire-swedish-archer-for-the-first-time/"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le Type VII est l’une des familles de sous-marins allemands les plus associées à la bataille de l’Atlantique. Sa conception appartient à une époque où un sous-marin navigue encore largement en surface et ne plonge que pour certaines phases de sa mission. La propulsion diesel et les moteurs électriques répondent à ces deux conditions d’utilisation très différentes.\n\nLa famille comporte plusieurs variantes, dont le Type VIIC et le VIIC/41. Les photographies de l’U-995 permettent aujourd’hui d’en observer un exemplaire réel à Laboe. La notice du Marinebund documente sa mise en service à Hambourg le 16 septembre 1943 et son emploi principalement dans les eaux du Nord. Cette histoire individuelle ne doit pas être étendue automatiquement à tous les Type VII.\n\nÀ la fin de la guerre, l’U-995 se trouve en Norvège. Il est ensuite repris par la marine norvégienne et connaît une seconde carrière, ce qui explique les changements de nom et de configuration visibles dans ses archives. Ces réemplois rappellent que la fin d’un conflit ne correspond pas toujours au retrait immédiat de tous les matériels qui y ont participé.\n\nLe 13 mars 1972, le bâtiment est installé à terre à Laboe pour devenir un musée technique. Son intérieur et son environnement de conservation permettent d’aborder les conditions de vie de l’équipage, autant que la mécanique. Les chiffres présentés se rapportent à l’exemplaire et aux variantes explicitement indiquées ; les performances du Type XXI, beaucoup plus tourné vers la navigation en immersion, ne lui sont pas attribuées.",
+    "current": [
+      "DE",
+      "NO"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://deutscher-marinebund.de/marine-ehrenmal-u-995/technisches-museum-u-995/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "Deutscher Marinebund — U 995",
+        "url": "https://deutscher-marinebund.de/marine-ehrenmal-u-995/technisches-museum-u-995/"
+      },
+      {
+        "label": "Marinebund — données U 995",
+        "url": "https://mk-eu.de/.cm4all/uproc.php/0/News/U995_A4q.pdf?_=168a52b8ba8&cdp=a"
+      },
+      {
+        "label": "Musée Wilhelm Bauer — comparaison des générations",
+        "url": "https://uboot-wilhelm-bauer.de/en/history/"
+      },
+      {
+        "label": "Document photographique — U-995, de la famille Type VII, conservé à Laboe.",
+        "url": "https://commons.wikimedia.org/wiki/File:U995_2004_1_b.jpg"
+      },
+      {
+        "label": "Document photographique — Type VIIC U-570 au moment de sa capture.",
+        "url": "https://commons.wikimedia.org/wiki/File:U570_capture.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le Type VII est l’une des familles de sous-marins allemands les plus associées à la bataille de l’Atlantique. Sa conception appartient à une époque où un sous-marin navigue encore largement en surface et ne plonge que pour certaines phases de sa mission. La propulsion diesel et les moteurs électriques répondent à ces deux conditions d’utilisation très différentes.",
+        "sources": [
+          "https://deutscher-marinebund.de/marine-ehrenmal-u-995/technisches-museum-u-995/",
+          "https://mk-eu.de/.cm4all/uproc.php/0/News/U995_A4q.pdf?_=168a52b8ba8&cdp=a",
+          "https://uboot-wilhelm-bauer.de/en/history/"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "La famille comporte plusieurs variantes, dont le Type VIIC et le VIIC/41. Les photographies de l’U-995 permettent aujourd’hui d’en observer un exemplaire réel à Laboe. La notice du Marinebund documente sa mise en service à Hambourg le 16 septembre 1943 et son emploi principalement dans les eaux du Nord. Cette histoire individuelle ne doit pas être étendue automatiquement à tous les Type VII.",
+        "sources": [
+          "https://deutscher-marinebund.de/marine-ehrenmal-u-995/technisches-museum-u-995/",
+          "https://mk-eu.de/.cm4all/uproc.php/0/News/U995_A4q.pdf?_=168a52b8ba8&cdp=a",
+          "https://uboot-wilhelm-bauer.de/en/history/"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "À la fin de la guerre, l’U-995 se trouve en Norvège. Il est ensuite repris par la marine norvégienne et connaît une seconde carrière, ce qui explique les changements de nom et de configuration visibles dans ses archives. Ces réemplois rappellent que la fin d’un conflit ne correspond pas toujours au retrait immédiat de tous les matériels qui y ont participé.",
+        "sources": [
+          "https://deutscher-marinebund.de/marine-ehrenmal-u-995/technisches-museum-u-995/",
+          "https://mk-eu.de/.cm4all/uproc.php/0/News/U995_A4q.pdf?_=168a52b8ba8&cdp=a",
+          "https://uboot-wilhelm-bauer.de/en/history/"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Le 13 mars 1972, le bâtiment est installé à terre à Laboe pour devenir un musée technique. Son intérieur et son environnement de conservation permettent d’aborder les conditions de vie de l’équipage, autant que la mécanique. Les chiffres présentés se rapportent à l’exemplaire et aux variantes explicitement indiquées ; les performances du Type XXI, beaucoup plus tourné vers la navigation en immersion, ne lui sont pas attribuées.",
+        "sources": [
+          "https://deutscher-marinebund.de/marine-ehrenmal-u-995/technisches-museum-u-995/",
+          "https://mk-eu.de/.cm4all/uproc.php/0/News/U995_A4q.pdf?_=168a52b8ba8&cdp=a",
+          "https://uboot-wilhelm-bauer.de/en/history/"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le Type XXI marque un changement de priorité dans la conception des sous-marins allemands. Contrairement aux bâtiments antérieurs qui passent beaucoup de temps en surface, il est pensé pour de longues périodes en immersion. Sa coque, ses capacités électriques et son organisation générale vont dans ce sens. Le projet arrive toutefois trop tard pour modifier l’issue de la Seconde Guerre mondiale.\n\nLe gain de vitesse sous l’eau est l’un des repères de cette évolution. Le musée du Wilhelm Bauer cite environ 17,2 nœuds, à comparer aux 7,6 nœuds du Type VIIC. Ce rapprochement reste un indicateur de conception, pas une autonomie à vitesse maximale : les distances parcourues dépendent fortement de la vitesse et de l’état des batteries.\n\nL’exemplaire conservé, l’U-2540, est sabordé en 1945 puis renfloué en 1957. Il reprend du service en 1960 sous le nom Wilhelm Bauer et devient un bâtiment d’essais de la marine ouest-allemande. À partir de 1970, son exploitation expérimentale se poursuit avec un équipage civil. Les modifications de cette seconde carrière doivent être distinguées de l’état du sous-marin en 1945.\n\nAprès son retrait, des associations se mobilisent pour sa conservation et le musée ouvre en avril 1984 à Bremerhaven. Cette trajectoire permet d’étudier une innovation au-delà de son apparition initiale. La fiche présente les valeurs publiées par le musée pour ce bâtiment et précise leurs conditions ; elle ne transforme pas une autonomie économique en distance réalisable à la vitesse de pointe.",
+    "current": [
+      "DE"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://uboot-wilhelm-bauer.de/en/history/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "Technikmuseum Wilhelm Bauer — histoire et données",
+        "url": "https://uboot-wilhelm-bauer.de/en/history/"
+      },
+      {
+        "label": "Deutsches Schifffahrtsmuseum — biographie du Wilhelm Bauer",
+        "url": "https://urn.dsm.museum/DSA/DSA07_1984_153186_Roessler.pdf"
+      },
+      {
+        "label": "Document photographique — U-2540 / Wilhelm Bauer conservé à Bremerhaven.",
+        "url": "https://commons.wikimedia.org/wiki/File:2004-Bremerhaven_U-Boot-Museum-Sicherlich_retouched.jpg"
+      },
+      {
+        "label": "Document photographique — Type XXI U-3008 après la guerre.",
+        "url": "https://commons.wikimedia.org/wiki/File:German_submarine_U_3008.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le Type XXI marque un changement de priorité dans la conception des sous-marins allemands. Contrairement aux bâtiments antérieurs qui passent beaucoup de temps en surface, il est pensé pour de longues périodes en immersion. Sa coque, ses capacités électriques et son organisation générale vont dans ce sens. Le projet arrive toutefois trop tard pour modifier l’issue de la Seconde Guerre mondiale.",
+        "sources": [
+          "https://uboot-wilhelm-bauer.de/en/history/",
+          "https://urn.dsm.museum/DSA/DSA07_1984_153186_Roessler.pdf"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Le gain de vitesse sous l’eau est l’un des repères de cette évolution. Le musée du Wilhelm Bauer cite environ 17,2 nœuds, à comparer aux 7,6 nœuds du Type VIIC. Ce rapprochement reste un indicateur de conception, pas une autonomie à vitesse maximale : les distances parcourues dépendent fortement de la vitesse et de l’état des batteries.",
+        "sources": [
+          "https://uboot-wilhelm-bauer.de/en/history/",
+          "https://urn.dsm.museum/DSA/DSA07_1984_153186_Roessler.pdf"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "L’exemplaire conservé, l’U-2540, est sabordé en 1945 puis renfloué en 1957. Il reprend du service en 1960 sous le nom Wilhelm Bauer et devient un bâtiment d’essais de la marine ouest-allemande. À partir de 1970, son exploitation expérimentale se poursuit avec un équipage civil. Les modifications de cette seconde carrière doivent être distinguées de l’état du sous-marin en 1945.",
+        "sources": [
+          "https://uboot-wilhelm-bauer.de/en/history/",
+          "https://urn.dsm.museum/DSA/DSA07_1984_153186_Roessler.pdf"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Après son retrait, des associations se mobilisent pour sa conservation et le musée ouvre en avril 1984 à Bremerhaven. Cette trajectoire permet d’étudier une innovation au-delà de son apparition initiale. La fiche présente les valeurs publiées par le musée pour ce bâtiment et précise leurs conditions ; elle ne transforme pas une autonomie économique en distance réalisable à la vitesse de pointe.",
+        "sources": [
+          "https://uboot-wilhelm-bauer.de/en/history/",
+          "https://urn.dsm.museum/DSA/DSA07_1984_153186_Roessler.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "La classe Fletcher illustre la production navale américaine à grande échelle pendant la Seconde Guerre mondiale. Son premier bâtiment, l’USS Fletcher, entre en service le 30 juin 1942. Les 175 destroyers de la famille assurent des missions nombreuses : protection des formations, lutte contre les sous-marins, défense antiaérienne et appui par leur artillerie.\n\nCes navires combinent des canons de 127 mm à des torpilles et à des équipements spécialisés qui évoluent pendant la guerre. La configuration exacte varie d’un bâtiment et d’une période à l’autre. La fiche technique utilise l’USS Cassin Young comme exemple documenté, afin d’éviter d’assembler des équipements de différentes dates dans une représentation imaginaire de toute la classe.\n\nLe parcours du Fletcher montre cette polyvalence. Le navire intervient dans la campagne du Pacifique et son historique cite notamment une action contre le sous-marin japonais I-18 en février 1943. D’autres bâtiments connaissent des combats et des dommages très différents. Un événement concernant un destroyer précis ne doit donc pas être présenté comme un bilan commun à l’ensemble de la série.\n\nLa carrière de plusieurs Fletcher se prolonge après 1945, avec des modernisations et des transferts à d’autres marines. Les navires conservés permettent d’observer les passerelles, les pièces d’artillerie et les conditions de vie de leur époque. Ils rappellent aussi qu’un destroyer est un système collectif : l’autonomie, la veille, les réparations et les équipages comptent autant que le nombre d’armes visibles sur une photographie.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.history.navy.mil/browse-by-topic/ships/modern-ships/uss-fletcher.html",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "Naval History and Heritage Command — Fletcher",
+        "url": "https://www.history.navy.mil/browse-by-topic/ships/modern-ships/uss-fletcher.html"
+      },
+      {
+        "label": "NHHC — classe de 175 destroyers",
+        "url": "https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/ships-us/ships-usn-f/uss-fletcher-dd-445-dde-445.html"
+      },
+      {
+        "label": "NHHC — Cassin Young",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/y/young-ii.html"
+      },
+      {
+        "label": "Document photographique — USS Erben, de classe Fletcher, en navigation dans les années 1950.",
+        "url": "https://commons.wikimedia.org/wiki/File:USS_Erben_(DD-631)_underway_the_1950s.jpg"
+      },
+      {
+        "label": "Document photographique — USS Cassin Young, de classe Fletcher, conservé à Boston.",
+        "url": "https://commons.wikimedia.org/wiki/File:USS_Cassin_Young_2007.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "La classe Fletcher illustre la production navale américaine à grande échelle pendant la Seconde Guerre mondiale. Son premier bâtiment, l’USS Fletcher, entre en service le 30 juin 1942. Les 175 destroyers de la famille assurent des missions nombreuses : protection des formations, lutte contre les sous-marins, défense antiaérienne et appui par leur artillerie.",
+        "sources": [
+          "https://www.history.navy.mil/browse-by-topic/ships/modern-ships/uss-fletcher.html",
+          "https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/ships-us/ships-usn-f/uss-fletcher-dd-445-dde-445.html",
+          "https://www.history.navy.mil/research/histories/ship-histories/danfs/y/young-ii.html"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Ces navires combinent des canons de 127 mm à des torpilles et à des équipements spécialisés qui évoluent pendant la guerre. La configuration exacte varie d’un bâtiment et d’une période à l’autre. La fiche technique utilise l’USS Cassin Young comme exemple documenté, afin d’éviter d’assembler des équipements de différentes dates dans une représentation imaginaire de toute la classe.",
+        "sources": [
+          "https://www.history.navy.mil/browse-by-topic/ships/modern-ships/uss-fletcher.html",
+          "https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/ships-us/ships-usn-f/uss-fletcher-dd-445-dde-445.html",
+          "https://www.history.navy.mil/research/histories/ship-histories/danfs/y/young-ii.html"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Le parcours du Fletcher montre cette polyvalence. Le navire intervient dans la campagne du Pacifique et son historique cite notamment une action contre le sous-marin japonais I-18 en février 1943. D’autres bâtiments connaissent des combats et des dommages très différents. Un événement concernant un destroyer précis ne doit donc pas être présenté comme un bilan commun à l’ensemble de la série.",
+        "sources": [
+          "https://www.history.navy.mil/browse-by-topic/ships/modern-ships/uss-fletcher.html",
+          "https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/ships-us/ships-usn-f/uss-fletcher-dd-445-dde-445.html",
+          "https://www.history.navy.mil/research/histories/ship-histories/danfs/y/young-ii.html"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "La carrière de plusieurs Fletcher se prolonge après 1945, avec des modernisations et des transferts à d’autres marines. Les navires conservés permettent d’observer les passerelles, les pièces d’artillerie et les conditions de vie de leur époque. Ils rappellent aussi qu’un destroyer est un système collectif : l’autonomie, la veille, les réparations et les équipages comptent autant que le nombre d’armes visibles sur une photographie.",
+        "sources": [
+          "https://www.history.navy.mil/browse-by-topic/ships/modern-ships/uss-fletcher.html",
+          "https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/ships-us/ships-usn-f/uss-fletcher-dd-445-dde-445.html",
+          "https://www.history.navy.mil/research/histories/ship-histories/danfs/y/young-ii.html"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "La classe Oliver Hazard Perry est développée pour assurer des missions d’escorte et contribuer à la sécurité des voies maritimes. Les premiers bâtiments entrent dans la flotte américaine en 1977. Le programme recherche une frégate produite en série, capable d’intégrer une formation navale tout en restant adaptée à des missions de surveillance et de protection des transports.\n\nLes différences de coque et d’équipements sont importantes. Les premières unités possèdent une coque courte ; d’autres versions sont allongées pour répondre notamment à l’évolution des installations aéronautiques. La fiche utilise l’USS Oliver Hazard Perry, FFG-7, comme référence pour ses dimensions. Les chiffres d’une variante allongée ne sont donc pas présentés comme s’ils concernaient tous les navires de la classe.\n\nLa diffusion internationale et les transferts prolongent la carrière de cette famille. Les utilisateurs adaptent les équipements et modernisent les navires selon leurs besoins. Les photographies prises à des décennies différentes peuvent montrer des lanceurs, des capteurs ou des moyens de défense modifiés. Identifier le pavillon et la date aide à comprendre ces écarts plutôt que de les considérer comme des erreurs de photographie.\n\nLe dernier retrait américain intervient en septembre 2015, après presque trente-huit ans de présence dans l’US Navy. Cet événement ne constitue pas une date de retrait mondiale, puisque d’autres marines poursuivent leur exploitation. La carte présente uniquement des utilisateurs attestés par les sources retenues ; elle ne prétend pas fournir un inventaire opérationnel en temps réel des bâtiments encore disponibles dans chaque pays.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.history.navy.mil/content/history/nhhc/research/histories/ship-histories/danfs/o/oliver-hazard-perry-ffg-7.html",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "NHHC — Oliver Hazard Perry FFG-7",
+        "url": "https://www.history.navy.mil/content/history/nhhc/research/histories/ship-histories/danfs/o/oliver-hazard-perry-ffg-7.html"
+      },
+      {
+        "label": "US Navy / NHHC — fin de service américaine en 2015",
+        "url": "https://www.doncio.navy.mil/chips/ArticleDetails.aspx?ID=6922"
+      },
+      {
+        "label": "Document photographique — USS Rodney M. Davis, frégate de classe Oliver Hazard Perry.",
+        "url": "https://commons.wikimedia.org/wiki/File:080713-N-7949W-084_-_USS_Rodney_M._Davis_(FFG-60).jpg"
+      },
+      {
+        "label": "Document photographique — USS Ford au départ de Pearl Harbor pour RIMPAC en 2010.",
+        "url": "https://commons.wikimedia.org/wiki/File:US_Navy_100707-N-0641S-215_SS_Ford_(FFG_54)_departs_Joint_Base_Pearl_Harbor-Hickam_to_support_Rim_of_the_Pacific_(RIMPAC)_2010_exercises.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "La classe Oliver Hazard Perry est développée pour assurer des missions d’escorte et contribuer à la sécurité des voies maritimes. Les premiers bâtiments entrent dans la flotte américaine en 1977. Le programme recherche une frégate produite en série, capable d’intégrer une formation navale tout en restant adaptée à des missions de surveillance et de protection des transports.",
+        "sources": [
+          "https://www.history.navy.mil/content/history/nhhc/research/histories/ship-histories/danfs/o/oliver-hazard-perry-ffg-7.html",
+          "https://www.doncio.navy.mil/chips/ArticleDetails.aspx?ID=6922"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Les différences de coque et d’équipements sont importantes. Les premières unités possèdent une coque courte ; d’autres versions sont allongées pour répondre notamment à l’évolution des installations aéronautiques. La fiche utilise l’USS Oliver Hazard Perry, FFG-7, comme référence pour ses dimensions. Les chiffres d’une variante allongée ne sont donc pas présentés comme s’ils concernaient tous les navires de la classe.",
+        "sources": [
+          "https://www.history.navy.mil/content/history/nhhc/research/histories/ship-histories/danfs/o/oliver-hazard-perry-ffg-7.html",
+          "https://www.doncio.navy.mil/chips/ArticleDetails.aspx?ID=6922"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "La diffusion internationale et les transferts prolongent la carrière de cette famille. Les utilisateurs adaptent les équipements et modernisent les navires selon leurs besoins. Les photographies prises à des décennies différentes peuvent montrer des lanceurs, des capteurs ou des moyens de défense modifiés. Identifier le pavillon et la date aide à comprendre ces écarts plutôt que de les considérer comme des erreurs de photographie.",
+        "sources": [
+          "https://www.history.navy.mil/content/history/nhhc/research/histories/ship-histories/danfs/o/oliver-hazard-perry-ffg-7.html",
+          "https://www.doncio.navy.mil/chips/ArticleDetails.aspx?ID=6922"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Le dernier retrait américain intervient en septembre 2015, après presque trente-huit ans de présence dans l’US Navy. Cet événement ne constitue pas une date de retrait mondiale, puisque d’autres marines poursuivent leur exploitation. La carte présente uniquement des utilisateurs attestés par les sources retenues ; elle ne prétend pas fournir un inventaire opérationnel en temps réel des bâtiments encore disponibles dans chaque pays.",
+        "sources": [
+          "https://www.history.navy.mil/content/history/nhhc/research/histories/ship-histories/danfs/o/oliver-hazard-perry-ffg-7.html",
+          "https://www.doncio.navy.mil/chips/ArticleDetails.aspx?ID=6922"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "La classe Clemenceau accompagne la reconstruction de l’aéronautique navale française après la Seconde Guerre mondiale. Les deux porte-avions, Clemenceau et Foch, sont conçus en France pour remplacer une génération de bâtiments d’origine étrangère. Leur entrée en service en 1961 puis en 1963 donne à la Marine nationale des moyens modernes pour déployer des avions de combat en mer.\n\nCes bâtiments utilisent une propulsion classique, à la différence du Charles de Gaulle qui leur succède. Leur fonction dépasse le seul transport d’avions : opérations aériennes, navigation, entretien, contrôle de la chasse et soutien du groupe naval doivent fonctionner ensemble. Les évolutions de l’aviation embarquée et des moyens de coordination marquent progressivement leur carrière et modifient les équipements visibles sur les photographies.\n\nLe Clemenceau et le Foch participent à plusieurs engagements et déploiements de la France. Les archives officielles documentent notamment le Clemenceau pendant la crise du Golfe, tandis que les récits du contrôle aérien embarqué montrent l’importance de la coordination des patrouilles. Leur histoire décrit ainsi le développement d’une organisation aéronavale autant que celui de deux coques ou de leurs groupes aériens.\n\nLa seconde carrière du Foch sous le nom São Paulo prolonge l’histoire au Brésil après son départ de la Marine nationale. Un changement de pavillon ne constitue pas la construction d’un troisième navire de la classe. La fiche conserve cette distinction et évite d’utiliser les dimensions d’une coque, d’un pont d’envol et d’un autre état de modernisation comme s’il s’agissait de mesures strictement équivalentes.",
+    "current": [
+      "FR",
+      "BR"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.servicehistorique.sga.defense.gouv.fr/en/node/954925",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "Service historique de la Défense — Clemenceau",
+        "url": "https://www.servicehistorique.sga.defense.gouv.fr/en/node/954925"
+      },
+      {
+        "label": "Marine nationale — histoire",
+        "url": "https://www.defense.gouv.fr/marine/mieux-nous-connaitre/notre-histoire"
+      },
+      {
+        "label": "Revue maritime brésilienne — étude des porte-avions",
+        "url": "https://www.marinha.mil.br/rmb/sites/www.marinha.mil.br.rmb/files/3-2015%20revista.pdf"
+      },
+      {
+        "label": "Marine nationale — contrôle aérien embarqué",
+        "url": "https://www.defense.gouv.fr/marine/defense-aerienne-levolution-du-controle-tactique-chasse-embarquee"
+      },
+      {
+        "label": "Document photographique — Clemenceau pendant l’opération Desert Shield.",
+        "url": "https://commons.wikimedia.org/wiki/File:FS_Clemenceau_(R-98)_aircraft_carrier_during_Operation_Desert_Shield.JPEG"
+      },
+      {
+        "label": "Document photographique — Vue latérale du Clemenceau pendant l’opération Desert Shield.",
+        "url": "https://commons.wikimedia.org/wiki/File:French_aircraft_carrier_FS_Clemenceau_(R-98).JPEG"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "La classe Clemenceau accompagne la reconstruction de l’aéronautique navale française après la Seconde Guerre mondiale. Les deux porte-avions, Clemenceau et Foch, sont conçus en France pour remplacer une génération de bâtiments d’origine étrangère. Leur entrée en service en 1961 puis en 1963 donne à la Marine nationale des moyens modernes pour déployer des avions de combat en mer.",
+        "sources": [
+          "https://www.servicehistorique.sga.defense.gouv.fr/en/node/954925",
+          "https://www.defense.gouv.fr/marine/mieux-nous-connaitre/notre-histoire",
+          "https://www.marinha.mil.br/rmb/sites/www.marinha.mil.br.rmb/files/3-2015%20revista.pdf",
+          "https://www.defense.gouv.fr/marine/defense-aerienne-levolution-du-controle-tactique-chasse-embarquee"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Ces bâtiments utilisent une propulsion classique, à la différence du Charles de Gaulle qui leur succède. Leur fonction dépasse le seul transport d’avions : opérations aériennes, navigation, entretien, contrôle de la chasse et soutien du groupe naval doivent fonctionner ensemble. Les évolutions de l’aviation embarquée et des moyens de coordination marquent progressivement leur carrière et modifient les équipements visibles sur les photographies.",
+        "sources": [
+          "https://www.servicehistorique.sga.defense.gouv.fr/en/node/954925",
+          "https://www.defense.gouv.fr/marine/mieux-nous-connaitre/notre-histoire",
+          "https://www.marinha.mil.br/rmb/sites/www.marinha.mil.br.rmb/files/3-2015%20revista.pdf",
+          "https://www.defense.gouv.fr/marine/defense-aerienne-levolution-du-controle-tactique-chasse-embarquee"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Le Clemenceau et le Foch participent à plusieurs engagements et déploiements de la France. Les archives officielles documentent notamment le Clemenceau pendant la crise du Golfe, tandis que les récits du contrôle aérien embarqué montrent l’importance de la coordination des patrouilles. Leur histoire décrit ainsi le développement d’une organisation aéronavale autant que celui de deux coques ou de leurs groupes aériens.",
+        "sources": [
+          "https://www.servicehistorique.sga.defense.gouv.fr/en/node/954925",
+          "https://www.defense.gouv.fr/marine/mieux-nous-connaitre/notre-histoire",
+          "https://www.marinha.mil.br/rmb/sites/www.marinha.mil.br.rmb/files/3-2015%20revista.pdf",
+          "https://www.defense.gouv.fr/marine/defense-aerienne-levolution-du-controle-tactique-chasse-embarquee"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "La seconde carrière du Foch sous le nom São Paulo prolonge l’histoire au Brésil après son départ de la Marine nationale. Un changement de pavillon ne constitue pas la construction d’un troisième navire de la classe. La fiche conserve cette distinction et évite d’utiliser les dimensions d’une coque, d’un pont d’envol et d’un autre état de modernisation comme s’il s’agissait de mesures strictement équivalentes.",
+        "sources": [
+          "https://www.servicehistorique.sga.defense.gouv.fr/en/node/954925",
+          "https://www.defense.gouv.fr/marine/mieux-nous-connaitre/notre-histoire",
+          "https://www.marinha.mil.br/rmb/sites/www.marinha.mil.br.rmb/files/3-2015%20revista.pdf",
+          "https://www.defense.gouv.fr/marine/defense-aerienne-levolution-du-controle-tactique-chasse-embarquee"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le projet 1164 Atlant, appelé classe Slava dans la nomenclature de l’OTAN, appartient à la flotte soviétique de grands bâtiments de surface lance-missiles. Sa silhouette se reconnaît particulièrement aux volumineux lanceurs inclinés installés de chaque côté de la superstructure. Cette architecture donne à l’armement antinavire une place très visible dans l’identité de la classe.\n\nLa présence du Slava en Méditerranée est documentée dès 1983 dans les récits historiques de l’US Navy consacrés à la crise du Liban. Ces témoignages replacent le croiseur dans les relations entre groupes navals de la guerre froide. Il ne s’agit pas d’une simple comparaison de tonnages : identification, surveillance et interprétation des intentions occupent une place centrale dans ces rencontres.\n\nLes archives photographiques américaines et britanniques permettent ensuite de suivre d’autres bâtiments de la même classe, notamment le Marshal Ustinov. Les équipements et les modernisations ne sont pas identiques à toutes les dates. Une image prise lors d’une visite ou d’un passage maritime constitue un instantané ; elle ne suffit pas à établir l’état opérationnel de chaque système du navire plusieurs années plus tard.\n\nEn 2022, le naufrage du Moskva, ancien Slava, marque profondément l’histoire de la famille. La Royal Navy mentionne cette perte tout en documentant l’activité du Marshal Ustinov. La disparition d’une unité ne signifie donc pas celle de toute la classe. Cette fiche garde les configurations distinctes et ne donne pas de bilan global de cibles détruites lorsque les sources publiques ne permettent pas de le constituer sérieusement.",
+    "current": [
+      "RU"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.royalnavy.mod.uk/news/2022/september/06/220906-royal-navy-keeps-watch-as-russian-warships-sail-close-to-the-uk",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026. Conception soviétique : la Russie sert de repère géographique sur la carte actuelle.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "Royal Navy — suivi du Marshal Ustinov en 2022",
+        "url": "https://www.royalnavy.mod.uk/news/2022/september/06/220906-royal-navy-keeps-watch-as-russian-warships-sail-close-to-the-uk"
+      },
+      {
+        "label": "NHHC — présence du Slava en Méditerranée en 1983",
+        "url": "https://www.history.navy.mil/content/dam/nhhc/about-us/leadership/hgram_pdfs/H-Gram_080-2.pdf"
+      },
+      {
+        "label": "Document photographique — Marshal Ustinov photographié par la Royal Navy.",
+        "url": "https://commons.wikimedia.org/wiki/File:Russian_cruiser_Marshal_Ustinov_MOD_45164874.jpg"
+      },
+      {
+        "label": "Document photographique — Marshal Ustinov quittant Norfolk en 1989.",
+        "url": "https://commons.wikimedia.org/wiki/File:Cruiser_Marshal_Ustinov_leaving_Norfolk_1989.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le projet 1164 Atlant, appelé classe Slava dans la nomenclature de l’OTAN, appartient à la flotte soviétique de grands bâtiments de surface lance-missiles. Sa silhouette se reconnaît particulièrement aux volumineux lanceurs inclinés installés de chaque côté de la superstructure. Cette architecture donne à l’armement antinavire une place très visible dans l’identité de la classe.",
+        "sources": [
+          "https://www.royalnavy.mod.uk/news/2022/september/06/220906-royal-navy-keeps-watch-as-russian-warships-sail-close-to-the-uk",
+          "https://www.history.navy.mil/content/dam/nhhc/about-us/leadership/hgram_pdfs/H-Gram_080-2.pdf"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "La présence du Slava en Méditerranée est documentée dès 1983 dans les récits historiques de l’US Navy consacrés à la crise du Liban. Ces témoignages replacent le croiseur dans les relations entre groupes navals de la guerre froide. Il ne s’agit pas d’une simple comparaison de tonnages : identification, surveillance et interprétation des intentions occupent une place centrale dans ces rencontres.",
+        "sources": [
+          "https://www.royalnavy.mod.uk/news/2022/september/06/220906-royal-navy-keeps-watch-as-russian-warships-sail-close-to-the-uk",
+          "https://www.history.navy.mil/content/dam/nhhc/about-us/leadership/hgram_pdfs/H-Gram_080-2.pdf"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Les archives photographiques américaines et britanniques permettent ensuite de suivre d’autres bâtiments de la même classe, notamment le Marshal Ustinov. Les équipements et les modernisations ne sont pas identiques à toutes les dates. Une image prise lors d’une visite ou d’un passage maritime constitue un instantané ; elle ne suffit pas à établir l’état opérationnel de chaque système du navire plusieurs années plus tard.",
+        "sources": [
+          "https://www.royalnavy.mod.uk/news/2022/september/06/220906-royal-navy-keeps-watch-as-russian-warships-sail-close-to-the-uk",
+          "https://www.history.navy.mil/content/dam/nhhc/about-us/leadership/hgram_pdfs/H-Gram_080-2.pdf"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "En 2022, le naufrage du Moskva, ancien Slava, marque profondément l’histoire de la famille. La Royal Navy mentionne cette perte tout en documentant l’activité du Marshal Ustinov. La disparition d’une unité ne signifie donc pas celle de toute la classe. Cette fiche garde les configurations distinctes et ne donne pas de bilan global de cibles détruites lorsque les sources publiques ne permettent pas de le constituer sérieusement.",
+        "sources": [
+          "https://www.royalnavy.mod.uk/news/2022/september/06/220906-royal-navy-keeps-watch-as-russian-warships-sail-close-to-the-uk",
+          "https://www.history.navy.mil/content/dam/nhhc/about-us/leadership/hgram_pdfs/H-Gram_080-2.pdf"
+        ]
+      }
+    ],
+    "timelineNote": "Trois jalons documentés sont retenus ; aucune date de construction ou de modernisation n’est déduite des photographies."
+  },
+  {
+    "story": "Le TOW est une famille de missiles antichars américaine dont l’origine remonte aux études menées après la Seconde Guerre mondiale. Son nom décrit le concept initial : un missile lancé depuis un tube, suivi optiquement et guidé par une liaison filaire. Le programme cherche à réunir un emploi plus simple et une précision supérieure aux systèmes antérieurs étudiés par l’US Army.\n\nLe développement se structure au début des années 1960. Le contrat de production arrive en 1968 et les premiers missiles de série sont livrés en août 1969. Des unités d’instruction deviennent opérationnelles en 1970. L’histoire publiée par Redstone montre un programme fait d’essais, de corrections et de difficultés industrielles, plutôt qu’un système apparu immédiatement dans sa configuration définitive.\n\nLes générations suivantes modifient les charges, les moyens de visée et certaines liaisons de guidage. Le nom TOW reste donc un repère familial. La portée de 4,5 kilomètres citée dans cette fiche appartient au TOW 2B Aero documenté par l’US Army ; elle ne doit pas être appliquée automatiquement aux premiers BGM-71. Les photographies de postes terrestres et de véhicules montrent également des intégrations différentes.\n\nEn octobre 2024, RTX annonce de nouveaux contrats et indique plus de 700 000 systèmes TOW livrés aux forces américaines et internationales. Ce jalon industriel reste daté et reprend le périmètre du constructeur. Son nombre d’utilisations au combat ne constitue pas un nombre de véhicules détruits : un tir, un impact observé et une destruction confirmée sont trois informations distinctes, qui ne sont pas additionnées comme si elles étaient équivalentes.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://history.redstone.army.mil/miss-tow.html",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "US Army Redstone — histoire du TOW",
+        "url": "https://history.redstone.army.mil/miss-tow.html"
+      },
+      {
+        "label": "RTX — bilan industriel daté d’octobre 2024",
+        "url": "https://www.rtx.com/news/news-center/2024/10/23/u-s-army-awards-rtxs-raytheon-tow-contracts-for-676-million"
+      },
+      {
+        "label": "US Army — Weapon Systems 2010",
+        "url": "https://asc.army.mil/docs/wsh2/2010-wsh.pdf"
+      },
+      {
+        "label": "Document photographique — Poste TOW de l’US Army lors d’un exercice.",
+        "url": "https://commons.wikimedia.org/wiki/File:Hires_090509-A-4842R-001a.jpg"
+      },
+      {
+        "label": "Document photographique — Tir d’un TOW sur le terrain d’entraînement de Fort Pickett.",
+        "url": "https://commons.wikimedia.org/wiki/File:TOW_missile_Fort_Pickett.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le TOW est une famille de missiles antichars américaine dont l’origine remonte aux études menées après la Seconde Guerre mondiale. Son nom décrit le concept initial : un missile lancé depuis un tube, suivi optiquement et guidé par une liaison filaire. Le programme cherche à réunir un emploi plus simple et une précision supérieure aux systèmes antérieurs étudiés par l’US Army.",
+        "sources": [
+          "https://history.redstone.army.mil/miss-tow.html",
+          "https://www.rtx.com/news/news-center/2024/10/23/u-s-army-awards-rtxs-raytheon-tow-contracts-for-676-million",
+          "https://asc.army.mil/docs/wsh2/2010-wsh.pdf"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Le développement se structure au début des années 1960. Le contrat de production arrive en 1968 et les premiers missiles de série sont livrés en août 1969. Des unités d’instruction deviennent opérationnelles en 1970. L’histoire publiée par Redstone montre un programme fait d’essais, de corrections et de difficultés industrielles, plutôt qu’un système apparu immédiatement dans sa configuration définitive.",
+        "sources": [
+          "https://history.redstone.army.mil/miss-tow.html",
+          "https://www.rtx.com/news/news-center/2024/10/23/u-s-army-awards-rtxs-raytheon-tow-contracts-for-676-million",
+          "https://asc.army.mil/docs/wsh2/2010-wsh.pdf"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Les générations suivantes modifient les charges, les moyens de visée et certaines liaisons de guidage. Le nom TOW reste donc un repère familial. La portée de 4,5 kilomètres citée dans cette fiche appartient au TOW 2B Aero documenté par l’US Army ; elle ne doit pas être appliquée automatiquement aux premiers BGM-71. Les photographies de postes terrestres et de véhicules montrent également des intégrations différentes.",
+        "sources": [
+          "https://history.redstone.army.mil/miss-tow.html",
+          "https://www.rtx.com/news/news-center/2024/10/23/u-s-army-awards-rtxs-raytheon-tow-contracts-for-676-million",
+          "https://asc.army.mil/docs/wsh2/2010-wsh.pdf"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "En octobre 2024, RTX annonce de nouveaux contrats et indique plus de 700 000 systèmes TOW livrés aux forces américaines et internationales. Ce jalon industriel reste daté et reprend le périmètre du constructeur. Son nombre d’utilisations au combat ne constitue pas un nombre de véhicules détruits : un tir, un impact observé et une destruction confirmée sont trois informations distinctes, qui ne sont pas additionnées comme si elles étaient équivalentes.",
+        "sources": [
+          "https://history.redstone.army.mil/miss-tow.html",
+          "https://www.rtx.com/news/news-center/2024/10/23/u-s-army-awards-rtxs-raytheon-tow-contracts-for-676-million",
+          "https://asc.army.mil/docs/wsh2/2010-wsh.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le Hellfire est développé pour donner aux hélicoptères une capacité de missile guidé contre les véhicules blindés. Le programme américain commence dans les années 1970 et évolue ensuite en une famille d’armes aux usages plus divers. L’AGM-114 est notamment associé à l’Apache, mais son histoire ne se limite pas à cet hélicoptère ni à une seule variante.\n\nLes premières générations et le Hellfire II connaissent des modifications de guidage et de charge. Le Longbow utilise un autodirecteur radar, alors que d’autres versions s’appuient sur le laser. Ces différences interdisent de présenter une seule description de guidage comme universelle. La chronologie de Redstone situe notamment l’autorisation complète de l’AGM-114K pour les plateformes de l’US Army en janvier 1996.\n\nLa diffusion du missile conduit à des adaptations sur d’autres aéronefs, des véhicules terrestres et des navires. Une photographie de tir naval peut donc représenter un Hellfire authentique sans montrer un emploi depuis un hélicoptère. Les intégrations ne rendent toutefois pas toutes les configurations équivalentes : les moyens de détection, de conduite de tir et les versions du missile restent à identifier.\n\nLe JAGM prolonge une partie de cet héritage en reprenant des éléments du Hellfire II Romeo, mais il s’agit d’un autre programme et d’une autre désignation. La fiche garde cette frontière et n’importe pas la portée ou les dimensions du JAGM dans les chiffres de l’AGM-114. Les jalons de production communiqués par le constructeur sont également datés ; ils ne représentent ni un stock disponible ni un total de destructions confirmées.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://history.redstone.army.mil/miss-hellfire.html",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "US Army Redstone — chronologie Hellfire",
+        "url": "https://history.redstone.army.mil/miss-hellfire.html"
+      },
+      {
+        "label": "Lockheed Martin — famille Hellfire",
+        "url": "https://www.lockheedmartin.com/en-us/products/hellfire.html"
+      },
+      {
+        "label": "NAVAIR — filiation du JAGM",
+        "url": "https://www.navair.navy.mil/product/Joint-Air-Ground-Missile-JAGM"
+      },
+      {
+        "label": "Lockheed Martin — bilan industriel AGMS",
+        "url": "https://www.f35.com/content/dam/lockheed-martin/mfc/documents/business-area-landing/agms-fast-facts.pdf"
+      },
+      {
+        "label": "Document photographique — Hellfire sous un hélicoptère AH-1W à Balad en 2005.",
+        "url": "https://commons.wikimedia.org/wiki/File:Balad_AH1_Cobra_1.jpg"
+      },
+      {
+        "label": "Document photographique — Longbow Hellfire lancé depuis l’USS Montgomery en mai 2022.",
+        "url": "https://commons.wikimedia.org/wiki/File:AGM-114L_Longbow_missile_launch_from_USS_Montgomery_(LCS-8).jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le Hellfire est développé pour donner aux hélicoptères une capacité de missile guidé contre les véhicules blindés. Le programme américain commence dans les années 1970 et évolue ensuite en une famille d’armes aux usages plus divers. L’AGM-114 est notamment associé à l’Apache, mais son histoire ne se limite pas à cet hélicoptère ni à une seule variante.",
+        "sources": [
+          "https://history.redstone.army.mil/miss-hellfire.html",
+          "https://www.lockheedmartin.com/en-us/products/hellfire.html",
+          "https://www.navair.navy.mil/product/Joint-Air-Ground-Missile-JAGM",
+          "https://www.f35.com/content/dam/lockheed-martin/mfc/documents/business-area-landing/agms-fast-facts.pdf"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Les premières générations et le Hellfire II connaissent des modifications de guidage et de charge. Le Longbow utilise un autodirecteur radar, alors que d’autres versions s’appuient sur le laser. Ces différences interdisent de présenter une seule description de guidage comme universelle. La chronologie de Redstone situe notamment l’autorisation complète de l’AGM-114K pour les plateformes de l’US Army en janvier 1996.",
+        "sources": [
+          "https://history.redstone.army.mil/miss-hellfire.html",
+          "https://www.lockheedmartin.com/en-us/products/hellfire.html",
+          "https://www.navair.navy.mil/product/Joint-Air-Ground-Missile-JAGM",
+          "https://www.f35.com/content/dam/lockheed-martin/mfc/documents/business-area-landing/agms-fast-facts.pdf"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "La diffusion du missile conduit à des adaptations sur d’autres aéronefs, des véhicules terrestres et des navires. Une photographie de tir naval peut donc représenter un Hellfire authentique sans montrer un emploi depuis un hélicoptère. Les intégrations ne rendent toutefois pas toutes les configurations équivalentes : les moyens de détection, de conduite de tir et les versions du missile restent à identifier.",
+        "sources": [
+          "https://history.redstone.army.mil/miss-hellfire.html",
+          "https://www.lockheedmartin.com/en-us/products/hellfire.html",
+          "https://www.navair.navy.mil/product/Joint-Air-Ground-Missile-JAGM",
+          "https://www.f35.com/content/dam/lockheed-martin/mfc/documents/business-area-landing/agms-fast-facts.pdf"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Le JAGM prolonge une partie de cet héritage en reprenant des éléments du Hellfire II Romeo, mais il s’agit d’un autre programme et d’une autre désignation. La fiche garde cette frontière et n’importe pas la portée ou les dimensions du JAGM dans les chiffres de l’AGM-114. Les jalons de production communiqués par le constructeur sont également datés ; ils ne représentent ni un stock disponible ni un total de destructions confirmées.",
+        "sources": [
+          "https://history.redstone.army.mil/miss-hellfire.html",
+          "https://www.lockheedmartin.com/en-us/products/hellfire.html",
+          "https://www.navair.navy.mil/product/Joint-Air-Ground-Missile-JAGM",
+          "https://www.f35.com/content/dam/lockheed-martin/mfc/documents/business-area-landing/agms-fast-facts.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le Stinger est un missile américain de défense aérienne de courte portée, connu pour sa forme portable. La version initiale entre en service en 1981 comme arme tirée à l’épaule. Son but est de fournir une protection à des unités qui ne disposent pas nécessairement des grands systèmes de défense aérienne déployés autour d’installations fixes.\n\nLa famille évolue avec de nouveaux autodirecteurs et des équipements adaptés aux différents utilisateurs. Les versions POST et les générations reprogrammables ne se résument pas à un changement de nom. La chronologie de Redstone documente ces étapes et l’extension du Stinger à d’autres montages, dont l’Avenger. Le missile et le véhicule qui le transporte constituent donc deux objets différents dans l’atlas.\n\nLes chiffres publics doivent être lus avec leur périmètre. La publication de l’US Army retenue ici donne un ordre de grandeur non classifié de quatre kilomètres et décrit la masse de l’ensemble avec sa poignée et son unité d’alimentation. Cette masse n’est pas celle du seul missile nu. Les équipements d’entraînement peuvent aussi ressembler aux ensembles réels sans être des missiles opérationnels.\n\nLa maintenance prend une importance croissante à mesure que les stocks vieillissent. Un article officiel de 2017 décrit un travail destiné à prolonger la durée de vie et à remettre des missiles en inventaire. Cette démarche rappelle qu’un nombre produit dans le passé ne décrit pas automatiquement une quantité utilisable aujourd’hui. La fiche évite donc de déduire un stock disponible à partir d’un total historique de fabrication.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.army.mil/article/188420/stinger_maintenance_work_to_increase_service_life_reliability",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "US Army — mise en service et maintenance",
+        "url": "https://www.army.mil/article/188420/stinger_maintenance_work_to_increase_service_life_reliability"
+      },
+      {
+        "label": "US Army Redstone — Stinger et Avenger",
+        "url": "https://history.redstone.army.mil/miss-stingeravenger.html"
+      },
+      {
+        "label": "US Army — données publiques Stinger, 2018",
+        "url": "https://api.army.mil/e2/c/downloads/2023/01/19/18849503/18-16-maneuver-leader-s-guide-to-stinger-handbook-apr-18-public.pdf"
+      },
+      {
+        "label": "Document photographique — Ensemble Stinger conservé dans les archives photographiques néerlandaises.",
+        "url": "https://commons.wikimedia.org/wiki/File:Voorzijde_van_een_Stinger_lanceerbuis_met_richt-afvuurapparatuur_(2086-065-004).jpg"
+      },
+      {
+        "label": "Document photographique — Stinger photographié en vol pendant un exercice.",
+        "url": "https://commons.wikimedia.org/wiki/File:Launched_FIM-92A_Stinger_missile.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le Stinger est un missile américain de défense aérienne de courte portée, connu pour sa forme portable. La version initiale entre en service en 1981 comme arme tirée à l’épaule. Son but est de fournir une protection à des unités qui ne disposent pas nécessairement des grands systèmes de défense aérienne déployés autour d’installations fixes.",
+        "sources": [
+          "https://www.army.mil/article/188420/stinger_maintenance_work_to_increase_service_life_reliability",
+          "https://history.redstone.army.mil/miss-stingeravenger.html",
+          "https://api.army.mil/e2/c/downloads/2023/01/19/18849503/18-16-maneuver-leader-s-guide-to-stinger-handbook-apr-18-public.pdf"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "La famille évolue avec de nouveaux autodirecteurs et des équipements adaptés aux différents utilisateurs. Les versions POST et les générations reprogrammables ne se résument pas à un changement de nom. La chronologie de Redstone documente ces étapes et l’extension du Stinger à d’autres montages, dont l’Avenger. Le missile et le véhicule qui le transporte constituent donc deux objets différents dans l’atlas.",
+        "sources": [
+          "https://www.army.mil/article/188420/stinger_maintenance_work_to_increase_service_life_reliability",
+          "https://history.redstone.army.mil/miss-stingeravenger.html",
+          "https://api.army.mil/e2/c/downloads/2023/01/19/18849503/18-16-maneuver-leader-s-guide-to-stinger-handbook-apr-18-public.pdf"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Les chiffres publics doivent être lus avec leur périmètre. La publication de l’US Army retenue ici donne un ordre de grandeur non classifié de quatre kilomètres et décrit la masse de l’ensemble avec sa poignée et son unité d’alimentation. Cette masse n’est pas celle du seul missile nu. Les équipements d’entraînement peuvent aussi ressembler aux ensembles réels sans être des missiles opérationnels.",
+        "sources": [
+          "https://www.army.mil/article/188420/stinger_maintenance_work_to_increase_service_life_reliability",
+          "https://history.redstone.army.mil/miss-stingeravenger.html",
+          "https://api.army.mil/e2/c/downloads/2023/01/19/18849503/18-16-maneuver-leader-s-guide-to-stinger-handbook-apr-18-public.pdf"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "La maintenance prend une importance croissante à mesure que les stocks vieillissent. Un article officiel de 2017 décrit un travail destiné à prolonger la durée de vie et à remettre des missiles en inventaire. Cette démarche rappelle qu’un nombre produit dans le passé ne décrit pas automatiquement une quantité utilisable aujourd’hui. La fiche évite donc de déduire un stock disponible à partir d’un total historique de fabrication.",
+        "sources": [
+          "https://www.army.mil/article/188420/stinger_maintenance_work_to_increase_service_life_reliability",
+          "https://history.redstone.army.mil/miss-stingeravenger.html",
+          "https://api.army.mil/e2/c/downloads/2023/01/19/18849503/18-16-maneuver-leader-s-guide-to-stinger-handbook-apr-18-public.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le HAWK appartient à la première grande génération américaine de missiles sol-air mobiles de moyenne portée. Développé dans les années 1950, il vise notamment les avions volant à basse et moyenne altitude. Le système ne se réduit pas aux trois missiles souvent visibles sur son lanceur : radars, commandement, soutien et liaisons entre équipements font partie de son fonctionnement général.\n\nLes sources officielles donnent des repères voisins mais distincts pour ses débuts : la production commence en 1959, tandis que l’historique détaillé de Redstone situe la première mise en service en 1960. La fiche conserve cette nuance. L’Improved HAWK et les programmes de modernisation successifs modifient ensuite les équipements et les capacités, ce qui empêche d’appliquer une seule performance à toute la famille.\n\nLe système est exporté et connaît des engagements au-delà des forces américaines. Redstone cite l’emploi israélien de 1967 et rapporte aussi des résultats attribués aux défenses koweïtiennes en 1990. Ces récits sont présentés avec leur provenance ; ils ne sont pas transformés en un total mondial et définitif d’appareils détruits par tous les utilisateurs du HAWK.\n\nL’histoire se poursuit par la maintenance, les transformations et le soutien d’équipements anciens. En 2025, l’US Army présente une nouvelle installation de test à McAlester. Cette longévité montre pourquoi la date de conception ne suffit pas à décrire une configuration actuelle. La fiche distingue les grandes générations et garde les informations techniques dont le périmètre est clair, sans inventer une valeur unique lorsque les variantes diffèrent.",
+    "current": [
+      "US",
+      "IL",
+      "KW"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://history.redstone.army.mil/miss-hawk.html",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "US Army Redstone — histoire du HAWK",
+        "url": "https://history.redstone.army.mil/miss-hawk.html"
+      },
+      {
+        "label": "US Army — maintenance HAWK en 2025",
+        "url": "https://www.army.mil/article/283282/mcalester_army_ammunition_plant_cuts_ribbon_on_hawk_missile_test_facility"
+      },
+      {
+        "label": "Document photographique — Missiles HAWK sur leur lanceur dans les forces roumaines.",
+        "url": "https://commons.wikimedia.org/wiki/File:Romanian_MIM-23_Hawk.jpg"
+      },
+      {
+        "label": "Document photographique — Tir d’essai d’un missile HAWK.",
+        "url": "https://commons.wikimedia.org/wiki/File:Hawk_launch_better.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le HAWK appartient à la première grande génération américaine de missiles sol-air mobiles de moyenne portée. Développé dans les années 1950, il vise notamment les avions volant à basse et moyenne altitude. Le système ne se réduit pas aux trois missiles souvent visibles sur son lanceur : radars, commandement, soutien et liaisons entre équipements font partie de son fonctionnement général.",
+        "sources": [
+          "https://history.redstone.army.mil/miss-hawk.html",
+          "https://www.army.mil/article/283282/mcalester_army_ammunition_plant_cuts_ribbon_on_hawk_missile_test_facility"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Les sources officielles donnent des repères voisins mais distincts pour ses débuts : la production commence en 1959, tandis que l’historique détaillé de Redstone situe la première mise en service en 1960. La fiche conserve cette nuance. L’Improved HAWK et les programmes de modernisation successifs modifient ensuite les équipements et les capacités, ce qui empêche d’appliquer une seule performance à toute la famille.",
+        "sources": [
+          "https://history.redstone.army.mil/miss-hawk.html",
+          "https://www.army.mil/article/283282/mcalester_army_ammunition_plant_cuts_ribbon_on_hawk_missile_test_facility"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Le système est exporté et connaît des engagements au-delà des forces américaines. Redstone cite l’emploi israélien de 1967 et rapporte aussi des résultats attribués aux défenses koweïtiennes en 1990. Ces récits sont présentés avec leur provenance ; ils ne sont pas transformés en un total mondial et définitif d’appareils détruits par tous les utilisateurs du HAWK.",
+        "sources": [
+          "https://history.redstone.army.mil/miss-hawk.html",
+          "https://www.army.mil/article/283282/mcalester_army_ammunition_plant_cuts_ribbon_on_hawk_missile_test_facility"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "L’histoire se poursuit par la maintenance, les transformations et le soutien d’équipements anciens. En 2025, l’US Army présente une nouvelle installation de test à McAlester. Cette longévité montre pourquoi la date de conception ne suffit pas à décrire une configuration actuelle. La fiche distingue les grandes générations et garde les informations techniques dont le périmètre est clair, sans inventer une valeur unique lorsque les variantes diffèrent.",
+        "sources": [
+          "https://history.redstone.army.mil/miss-hawk.html",
+          "https://www.army.mil/article/283282/mcalester_army_ammunition_plant_cuts_ribbon_on_hawk_missile_test_facility"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le missile allemand A4, plus connu sous le nom de V2, appartient aux armes développées pendant la Seconde Guerre mondiale. Son histoire est liée au centre de Peenemünde et à la recherche d’un projectile balistique de longue portée pour l’époque. Il porte une charge explosive conventionnelle : le présenter comme un missile nucléaire ou comme un ICBM moderne serait historiquement faux.\n\nLes reconnaissances alliées et les bombardements de 1943 perturbent le programme et contribuent au déplacement d’une partie de la production. La fabrication repose sur un système de travail forcé dont les victimes font pleinement partie de l’histoire de l’arme. L’avancée technique ne peut donc pas être séparée des conditions humaines dans lesquelles le régime nazi organise sa production.\n\nLes tirs opérationnels commencent en septembre 1944 et visent principalement des zones urbaines. L’imprécision et les difficultés de production empêchent le missile de modifier l’issue de la guerre, tout en provoquant de nombreuses morts parmi les civils. Les données du musée décrivent environ six mille exemplaires fabriqués, mais un nombre construit ne correspond pas au nombre de tirs réussis ni à un bilan de véhicules détruits.\n\nAprès 1945, les V2 capturés et les équipes associées au programme contribuent aux études balistiques et spatiales de l’après-guerre. Cette continuité technique ne doit pas effacer l’usage initial de l’arme. La fiche conserve un cadre historique, distingue la portée des missiles ultérieurs et ne transforme pas les victimes civiles en score de jeu. Les photographies documentent le matériel et sa conservation, sans images de victimes.",
+    "current": [
+      "DE"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "National Museum USAF — V2 et son histoire",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/"
+      },
+      {
+        "label": "National Museum USAF — le programme V2",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195894/v-2-rocket/"
+      },
+      {
+        "label": "National Museum USAF — développement à Peenemünde",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196684/AFmuseum/flying-bomb-and-rocket-development/"
+      },
+      {
+        "label": "Document photographique — V2 conservée au musée de Peenemünde.",
+        "url": "https://commons.wikimedia.org/wiki/File:Fus%C3%A9e_V2_(cropped).jpg"
+      },
+      {
+        "label": "Document photographique — V2 sur une remorque Meillerwagen pendant l’opération Backfire en 1945.",
+        "url": "https://commons.wikimedia.org/wiki/File:V-2_Rocket_On_Meillerwagen.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le missile allemand A4, plus connu sous le nom de V2, appartient aux armes développées pendant la Seconde Guerre mondiale. Son histoire est liée au centre de Peenemünde et à la recherche d’un projectile balistique de longue portée pour l’époque. Il porte une charge explosive conventionnelle : le présenter comme un missile nucléaire ou comme un ICBM moderne serait historiquement faux.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195894/v-2-rocket/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196684/AFmuseum/flying-bomb-and-rocket-development/"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Les reconnaissances alliées et les bombardements de 1943 perturbent le programme et contribuent au déplacement d’une partie de la production. La fabrication repose sur un système de travail forcé dont les victimes font pleinement partie de l’histoire de l’arme. L’avancée technique ne peut donc pas être séparée des conditions humaines dans lesquelles le régime nazi organise sa production.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195894/v-2-rocket/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196684/AFmuseum/flying-bomb-and-rocket-development/"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "Les tirs opérationnels commencent en septembre 1944 et visent principalement des zones urbaines. L’imprécision et les difficultés de production empêchent le missile de modifier l’issue de la guerre, tout en provoquant de nombreuses morts parmi les civils. Les données du musée décrivent environ six mille exemplaires fabriqués, mais un nombre construit ne correspond pas au nombre de tirs réussis ni à un bilan de véhicules détruits.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195894/v-2-rocket/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196684/AFmuseum/flying-bomb-and-rocket-development/"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Après 1945, les V2 capturés et les équipes associées au programme contribuent aux études balistiques et spatiales de l’après-guerre. Cette continuité technique ne doit pas effacer l’usage initial de l’arme. La fiche conserve un cadre historique, distingue la portée des missiles ultérieurs et ne transforme pas les victimes civiles en score de jeu. Les photographies documentent le matériel et sa conservation, sans images de victimes.",
+        "sources": [
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195894/v-2-rocket/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196684/AFmuseum/flying-bomb-and-rocket-development/"
+        ]
+      }
+    ]
+  },
+  {
+    "story": "Le Sea Sparrow adapte à l’autodéfense navale une lignée initialement associée au missile air-air Sparrow. Le RIM-7 doit protéger les bâtiments contre des menaces aériennes, notamment des missiles antinavires. Son emploi s’intègre à un ensemble de capteurs, de conduite de tir et de lanceurs ; le missile n’est qu’une partie de cette défense collective du navire.\n\nLes essais à bord de l’USS Bradley sont documentés en 1967. Les configurations évoluent ensuite et la fiche de référence de l’US Navy donne 1976 comme date de déploiement. Ces dates ne se contredisent pas : un essai en mer, le développement d’une capacité et la mise en service d’un standard correspondent à des étapes différentes de la vie d’un programme.\n\nL’historique de l’USS Spruance décrit des interceptions réalisées pendant des exercices, dont des engagements contre des missiles Exocet utilisés comme cibles. Ces résultats constituent des événements d’essai documentés ; ils ne sont pas ajoutés à un bilan de victoires au combat. La distinction permet de comprendre ce qui a été démontré sans inventer un nombre de destructions opérationnelles.\n\nLe nom reste proche de celui de l’Evolved Sea Sparrow Missile, mais le RIM-162 ESSM représente un autre missile. Les photos de l’ESSM ne sont donc pas utilisées comme portraits du RIM-7. La fiche technique reprend les dimensions publiques de la notice américaine ; elle indique que cette même notice ne publie pas la portée ni la vitesse, plutôt que de recopier une estimation dépourvue de contexte.",
+    "current": [
+      "US"
+    ],
+    "former": [],
+    "documentedOperatorsOnly": true,
+    "operatorSnapshot": true,
+    "operatorSource": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/",
+    "operatorNote": "Sélection d’utilisateurs attestés à une époque dans les sources citées ; ce relevé historique n’est ni exhaustif ni un inventaire des matériels disponibles en 2026.",
+    "checkedAt": "14 octobre 2026",
+    "storyCheckedAt": "14 octobre 2026",
+    "storySources": [
+      {
+        "label": "US Navy — RIM-7 Sea Sparrow",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/"
+      },
+      {
+        "label": "NHHC — essais du Bradley",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/b/bradley-i.html"
+      },
+      {
+        "label": "NHHC — essais documentés de l’USS Spruance",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/s/spruance.html"
+      },
+      {
+        "label": "Document photographique — RIM-7 Sea Sparrow quittant son lanceur sur l’USS Abraham Lincoln.",
+        "url": "https://commons.wikimedia.org/wiki/File:RIM-7_Sea_Sparrow_-_ID_070813-N-4166B-041.jpg"
+      },
+      {
+        "label": "Document photographique — Tir d’un Sea Sparrow depuis l’USS O’Brien en novembre 2003.",
+        "url": "https://commons.wikimedia.org/wiki/File:US_Navy_031105-N-0000D-003_USS_O%27Brien_launches_a_surface-to-air_NATO_Sea_Sparrow_missile.jpg"
+      }
+    ],
+    "storySections": [
+      {
+        "title": "Origines",
+        "text": "Le Sea Sparrow adapte à l’autodéfense navale une lignée initialement associée au missile air-air Sparrow. Le RIM-7 doit protéger les bâtiments contre des menaces aériennes, notamment des missiles antinavires. Son emploi s’intègre à un ensemble de capteurs, de conduite de tir et de lanceurs ; le missile n’est qu’une partie de cette défense collective du navire.",
+        "sources": [
+          "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/",
+          "https://www.history.navy.mil/research/histories/ship-histories/danfs/b/bradley-i.html",
+          "https://www.history.navy.mil/research/histories/ship-histories/danfs/s/spruance.html"
+        ]
+      },
+      {
+        "title": "Développement",
+        "text": "Les essais à bord de l’USS Bradley sont documentés en 1967. Les configurations évoluent ensuite et la fiche de référence de l’US Navy donne 1976 comme date de déploiement. Ces dates ne se contredisent pas : un essai en mer, le développement d’une capacité et la mise en service d’un standard correspondent à des étapes différentes de la vie d’un programme.",
+        "sources": [
+          "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/",
+          "https://www.history.navy.mil/research/histories/ship-histories/danfs/b/bradley-i.html",
+          "https://www.history.navy.mil/research/histories/ship-histories/danfs/s/spruance.html"
+        ]
+      },
+      {
+        "title": "Carrière",
+        "text": "L’historique de l’USS Spruance décrit des interceptions réalisées pendant des exercices, dont des engagements contre des missiles Exocet utilisés comme cibles. Ces résultats constituent des événements d’essai documentés ; ils ne sont pas ajoutés à un bilan de victoires au combat. La distinction permet de comprendre ce qui a été démontré sans inventer un nombre de destructions opérationnelles.",
+        "sources": [
+          "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/",
+          "https://www.history.navy.mil/research/histories/ship-histories/danfs/b/bradley-i.html",
+          "https://www.history.navy.mil/research/histories/ship-histories/danfs/s/spruance.html"
+        ]
+      },
+      {
+        "title": "Héritage",
+        "text": "Le nom reste proche de celui de l’Evolved Sea Sparrow Missile, mais le RIM-162 ESSM représente un autre missile. Les photos de l’ESSM ne sont donc pas utilisées comme portraits du RIM-7. La fiche technique reprend les dimensions publiques de la notice américaine ; elle indique que cette même notice ne publie pas la portée ni la vitesse, plutôt que de recopier une estimation dépourvue de contexte.",
+        "sources": [
+          "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/",
+          "https://www.history.navy.mil/research/histories/ship-histories/danfs/b/bradley-i.html",
+          "https://www.history.navy.mil/research/histories/ship-histories/danfs/s/spruance.html"
+        ]
+      }
+    ]
   }
 ];

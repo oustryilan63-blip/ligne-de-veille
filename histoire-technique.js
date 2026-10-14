@@ -7493,5 +7493,1493 @@ window.LDV_TECHNIQUE = {
         "url": "https://www.minister.defence.gov.au/media-releases/2014-05-28/minister-defence-jassm-achieves-final-operational-capability"
       }
     ]
+  },
+  "162": {
+    "name": "P-51 Mustang",
+    "checkedAt": "2026-10-14",
+    "variant": "P-51D ; les premiers Mustang à moteur Allison et les P-51H ont des performances différentes.",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "1 Packard Merlin V-1650",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "≈ 703 km/h (437 mph)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/"
+      },
+      {
+        "label": "Autonomie publiée",
+        "value": "≈ 1 609 km (1 000 miles) ; configuration de la fiche du musée",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/"
+      },
+      {
+        "label": "Envergure",
+        "value": "≈ 11,28 m",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/"
+      },
+      {
+        "label": "Armement du P-51D",
+        "value": "6 mitrailleuses de 12,7 mm",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "National Museum USAF — P-51D",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/"
+      },
+      {
+        "label": "Smithsonian — P-51D",
+        "url": "https://airandspace.si.edu/collection-objects/north-american-p-51d-30-na-mustang/nasm_A19600300000"
+      },
+      {
+        "label": "Document photographique — P-51D du 361st Fighter Group en vol.",
+        "url": "https://commons.wikimedia.org/wiki/File:P-51-361.jpg"
+      },
+      {
+        "label": "Document photographique — P-51D restauré lors d’une présentation à Duxford en 2024.",
+        "url": "https://commons.wikimedia.org/wiki/File:North_American_P-51D_Mustang_44-13521_G-MRLL_Duxford_Flying_Finale_2024_01.jpg"
+      }
+    ]
+  },
+  "163": {
+    "name": "Spitfire",
+    "checkedAt": "2026-10-14",
+    "variant": "Spitfire Mk I ; les photos peuvent montrer des versions ultérieures explicitement légendées.",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "1 pilote",
+        "source": "https://www.rafmuseum.org.uk/research/collections/supermarine-spitfire-i/"
+      },
+      {
+        "label": "Motorisation",
+        "value": "Rolls-Royce Merlin II ou III, 1 030 hp",
+        "source": "https://www.rafmuseum.org.uk/documents/Cosford/Scout-groups/air_researchers_badge_answers_cosford.pdf"
+      },
+      {
+        "label": "Vitesse maximale de référence",
+        "value": "≈ 570 km/h à 5 790 m, selon la fiche pédagogique",
+        "source": "https://www.rafmuseum.org.uk/documents/Cosford/Scout-groups/air_researchers_badge_answers_cosford.pdf"
+      },
+      {
+        "label": "Armement initial de série",
+        "value": "8 mitrailleuses de 7,7 mm",
+        "source": "https://www.rafmuseum.org.uk/documents/Cosford/Scout-groups/air_researchers_badge_answers_cosford.pdf"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "RAF Museum — Spitfire I",
+        "url": "https://www.rafmuseum.org.uk/research/collections/supermarine-spitfire-i/"
+      },
+      {
+        "label": "RAF Museum — le premier vol",
+        "url": "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/"
+      },
+      {
+        "label": "RAF Museum — fiche pédagogique Mk I",
+        "url": "https://www.rafmuseum.org.uk/documents/Cosford/Scout-groups/air_researchers_badge_answers_cosford.pdf"
+      },
+      {
+        "label": "Document photographique — Spitfire Mk IA conservé au musée.",
+        "url": "https://commons.wikimedia.org/wiki/File:Supermarine_Spitfire_Mk_IA.jpg"
+      },
+      {
+        "label": "Document photographique — Spitfire Mk I photographié à Duxford en 2025.",
+        "url": "https://commons.wikimedia.org/wiki/File:Supermarine_Spitfire_Mk.1_G-AIST_Duxford_2025_01.jpg"
+      }
+    ]
+  },
+  "164": {
+    "name": "B-17 Flying Fortress",
+    "checkedAt": "2026-10-14",
+    "variant": "B-17G pour les caractéristiques ; récit de la famille B-17 et exemple conservé 44-83690.",
+    "fields": [
+      {
+        "label": "Équipage de guerre",
+        "value": "10 personnes",
+        "source": "https://www.museumofflight.org/exhibits-and-events/aircraft/boeing-b-17f-flying-fortress"
+      },
+      {
+        "label": "Envergure",
+        "value": "≈ 31,65 m",
+        "source": "https://museumofaviation.org/portfolio/b-17g-flying-fortress/"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "≈ 483 km/h (300 mph)",
+        "source": "https://museumofaviation.org/portfolio/b-17g-flying-fortress/"
+      },
+      {
+        "label": "Autonomie publiée",
+        "value": "≈ 2 977 km (1 850 miles)",
+        "source": "https://museumofaviation.org/portfolio/b-17g-flying-fortress/"
+      },
+      {
+        "label": "Motorisation",
+        "value": "4 Wright R-1820 de 1 200 hp",
+        "source": "https://museumofaviation.org/portfolio/b-17g-flying-fortress/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "Museum of Aviation — B-17G",
+        "url": "https://museumofaviation.org/portfolio/b-17g-flying-fortress/"
+      },
+      {
+        "label": "National Park Service — B-17G 44-83690",
+        "url": "https://www.nps.gov/articles/b17g-flying-fortress-no-4483690.htm"
+      },
+      {
+        "label": "Museum of Flight — B-17F",
+        "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/boeing-b-17f-flying-fortress"
+      },
+      {
+        "label": "Document photographique — B-17 en vol lors du meeting de Chino de 2014.",
+        "url": "https://commons.wikimedia.org/wiki/File:B17_-_Chino_Airshow_2014_(framed).jpg"
+      },
+      {
+        "label": "Document photographique — B-17G Sally B à Duxford en 2024.",
+        "url": "https://commons.wikimedia.org/wiki/File:Boeing_B-17G_Flying_Fortress_124485_DF-A_Duxford_Flying_Evening_2024_01.jpg"
+      }
+    ]
+  },
+  "165": {
+    "name": "B-29 Superfortress",
+    "checkedAt": "2026-10-14",
+    "variant": "B-29 de référence USAF ; la version Silverplate des bombardements atomiques possède des modifications propres.",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "4 Wright R-3350 de 2 200 hp",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "≈ 575 km/h (357 mph)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/"
+      },
+      {
+        "label": "Autonomie publiée",
+        "value": "≈ 5 955 km (3 700 miles)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/"
+      },
+      {
+        "label": "Envergure",
+        "value": "≈ 43,05 m",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/"
+      },
+      {
+        "label": "Longueur",
+        "value": "≈ 30,18 m",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "National Museum USAF — B-29",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/"
+      },
+      {
+        "label": "Smithsonian — Enola Gay",
+        "url": "https://airandspace.si.edu/collection-objects/boeing-b-29-superfortress-enola-gay/nasm_A19500100000"
+      },
+      {
+        "label": "Air Force Materiel Command — industrialisation",
+        "url": "https://www.afmc.af.mil/News/Article-Display/Article/1602130/flashback-battle-of-kansas-and-the-birth-of-the-superfortress"
+      },
+      {
+        "label": "Document photographique — Superfortress Doc en vol.",
+        "url": "https://commons.wikimedia.org/wiki/File:Boeing_TB-29-70-BW_Superfortress_%E2%80%98469972%E2%80%99_%E2%80%9CDoc%E2%80%9D_(N69972)_(50871638276).jpg"
+      },
+      {
+        "label": "Document photographique — Poste de pilotage d’un B-29 conservé.",
+        "url": "https://commons.wikimedia.org/wiki/File:Boeing_B-29,_FIFI_(31).jpg"
+      }
+    ]
+  },
+  "166": {
+    "name": "C-47 Skytrain",
+    "checkedAt": "2026-10-14",
+    "variant": "C-47D de référence USAF ; C-47 est une famille militaire dérivée du DC-3 civil.",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "2 Pratt & Whitney R-1830 de 1 200 hp",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "≈ 373 km/h (232 mph)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/"
+      },
+      {
+        "label": "Autonomie publiée",
+        "value": "≈ 2 435 km (1 513 miles)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/"
+      },
+      {
+        "label": "Capacité indicative",
+        "value": "28 passagers ou 18 à 22 parachutistes équipés, selon mission",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "National Museum USAF — C-47D",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/"
+      },
+      {
+        "label": "National WWII Museum — C-47",
+        "url": "https://www.nationalww2museum.org/war/articles/douglas-c-47-skytrain"
+      },
+      {
+        "label": "Document photographique — C-47 en vol à Duxford en 2014.",
+        "url": "https://commons.wikimedia.org/wiki/File:C47_Skytrain_-_Duxford_D-Day_Show_2014_(cropped).jpg"
+      },
+      {
+        "label": "Document photographique — C-47 Second Chance au musée American Airpower en 2024.",
+        "url": "https://commons.wikimedia.org/wiki/File:At_American_Airpower_Museum_2024_029_-_Douglas_C-47_Skytrain.jpg"
+      }
+    ]
+  },
+  "167": {
+    "name": "F-86 Sabre",
+    "checkedAt": "2026-10-14",
+    "variant": "F-86A ; les F-86D d’interception et les productions sous licence diffèrent.",
+    "fields": [
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "≈ 1 102 km/h (685 mph)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/"
+      },
+      {
+        "label": "Autonomie publiée",
+        "value": "≈ 1 931 km (1 200 miles)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/"
+      },
+      {
+        "label": "Armement",
+        "value": "6 mitrailleuses de 12,7 mm",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/"
+      },
+      {
+        "label": "Motorisation",
+        "value": "1 General Electric J47",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "National Museum USAF — F-86A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/"
+      },
+      {
+        "label": "National Museum USAF — pilotes et viseurs du Sabre",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196386/AFmuseum/sabre-pilot/"
+      },
+      {
+        "label": "Document photographique — F-86 lors d’un vol de présentation en 2016.",
+        "url": "https://commons.wikimedia.org/wiki/File:F-86_Sabre_hertiage_flight.jpg"
+      },
+      {
+        "label": "Document photographique — F-86F sud-coréen conservé à Séoul.",
+        "url": "https://commons.wikimedia.org/wiki/File:North_American_F-86F_Sabre_of_the_ROKAF.jpg"
+      }
+    ]
+  },
+  "168": {
+    "name": "MiG-15",
+    "checkedAt": "2026-10-14",
+    "variant": "MiG-15bis pour les caractéristiques ; ne pas confondre avec le biplace MiG-15UTI.",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "1 Klimov VK-1",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "≈ 1 078 km/h (670 mph)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/"
+      },
+      {
+        "label": "Autonomie publiée",
+        "value": "≈ 805 km (500 miles)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/"
+      },
+      {
+        "label": "Armement",
+        "value": "2 canons de 23 mm et 1 canon de 37 mm",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/"
+      },
+      {
+        "label": "Envergure",
+        "value": "≈ 10,1 m",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "National Museum USAF — MiG-15bis",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/"
+      },
+      {
+        "label": "National Museum USAF — parcours du MiG-15bis exposé",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196377/USAFmuseum/the-story-of-the-mig-15bis-on-display/"
+      },
+      {
+        "label": "Document photographique — MiG-15bisSB conservé à Edenvale.",
+        "url": "https://commons.wikimedia.org/wiki/File:MiG-15bis_-_Edenvale_Aerodrome.jpg"
+      },
+      {
+        "label": "Document photographique — MiG-15bis présenté au musée de Monino.",
+        "url": "https://commons.wikimedia.org/wiki/File:MiG-15bis.jpg"
+      }
+    ]
+  },
+  "169": {
+    "name": "Me 262",
+    "checkedAt": "2026-10-14",
+    "variant": "Me 262A ; photographies d’avions historiques, distinctes des répliques modernes à autres moteurs.",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "2 turboréacteurs Junkers Jumo 004",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "≈ 869 km/h (540 mph)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/"
+      },
+      {
+        "label": "Autonomie publiée",
+        "value": "≈ 1 046 km (650 miles)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/"
+      },
+      {
+        "label": "Armement du chasseur",
+        "value": "4 canons MK 108 de 30 mm",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/"
+      },
+      {
+        "label": "Envergure",
+        "value": "≈ 12,50 m",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "National Museum USAF — Me 262A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/"
+      },
+      {
+        "label": "National Naval Aviation Museum — Me 262",
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/m/me-262.html"
+      },
+      {
+        "label": "Document photographique — Me 262A conservé au National Museum USAF.",
+        "url": "https://commons.wikimedia.org/wiki/File:Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_(cropped).jpg"
+      },
+      {
+        "label": "Document photographique — Me 262A sur un terrain d’aviation : photographie des archives allemandes.",
+        "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_141-2497,_Flugzeug_Me_262A_auf_Flugplatz.jpg"
+      }
+    ]
+  },
+  "170": {
+    "name": "F-104 Starfighter",
+    "checkedAt": "2026-10-14",
+    "variant": "F-104C pour les chiffres USAF ; le F-104G et les biplaces ont des équipements différents.",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "1 pilote",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/"
+      },
+      {
+        "label": "Motorisation",
+        "value": "1 General Electric J79",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "≈ 2 124 km/h (1 320 mph)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/"
+      },
+      {
+        "label": "Autonomie publiée",
+        "value": "≈ 2 012 km (1 250 miles)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/"
+      },
+      {
+        "label": "Envergure",
+        "value": "≈ 6,68 m",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "National Museum USAF — F-104C",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/"
+      },
+      {
+        "label": "Lockheed Martin — histoire du F-104",
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/f-104.html"
+      },
+      {
+        "label": "Document photographique — F-104G préservé sous immatriculation D-8114.",
+        "url": "https://commons.wikimedia.org/wiki/File:Lockheed_F-104G_Starfighter_D-8114_(9179542542).jpg"
+      },
+      {
+        "label": "Document photographique — F-104 à l’atterrissage avec son parachute de freinage.",
+        "url": "https://commons.wikimedia.org/wiki/File:Lockheed_F-104_Starfighter_drag_chute_landing.jpg"
+      }
+    ]
+  },
+  "171": {
+    "name": "Su-27 Flanker",
+    "checkedAt": "2026-10-14",
+    "variant": "Su-27UB Flanker-C biplace pour les données ; la famille comprend aussi des monoplaces.",
+    "fields": [
+      {
+        "label": "Motorisation",
+        "value": "2 Lyulka AL-31F, série 2",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "Mach 2,0 (Su-27UB)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+      },
+      {
+        "label": "Autonomie publiée",
+        "value": "≈ 2 607 km (1 620 miles), conditions non précisées par le musée",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+      },
+      {
+        "label": "Armement fixe",
+        "value": "1 canon GSh-301 de 30 mm",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "National Museum USAF — Su-27UB",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+      },
+      {
+        "label": "Document photographique — Su-27SM3 en vol pendant une présentation aérienne.",
+        "url": "https://commons.wikimedia.org/wiki/File:Su-27SM3_in_flight,_Celebration_of_the_100th_anniversary_of_Russian_Air_Force.jpg"
+      },
+      {
+        "label": "Document photographique — Su-27 ukrainien photographié au meeting de Radom en 2018.",
+        "url": "https://commons.wikimedia.org/wiki/File:Sukhoi_Su-27_-_B-1831M1_-_Radom_Air_Show_-_20180825_1527_5742_DxO.jpg"
+      }
+    ]
+  },
+  "172": {
+    "name": "M4 Sherman",
+    "checkedAt": "2026-10-14",
+    "variant": "M4A3 à canon de 75 mm pour les caractéristiques ; la famille inclut de nombreuses autres versions.",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "5 personnes",
+        "source": "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m4-sherman-tank"
+      },
+      {
+        "label": "Motorisation du M4A3",
+        "value": "Ford GAA V8, 500 hp",
+        "source": "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m4-sherman-tank"
+      },
+      {
+        "label": "Vitesse sur terrain plat publiée",
+        "value": "≈ 42 km/h (26 mph)",
+        "source": "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m4-sherman-tank"
+      },
+      {
+        "label": "Armement principal",
+        "value": "Canon de 75 mm sur la configuration retenue",
+        "source": "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m4-sherman-tank"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "The Tank Museum — famille Sherman",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/m4-sherman/"
+      },
+      {
+        "label": "National WWII Museum — M4A3",
+        "url": "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m4-sherman-tank"
+      },
+      {
+        "label": "Document photographique — Sherman Cougar préservé aux Pays-Bas.",
+        "url": "https://commons.wikimedia.org/wiki/File:M4_Sherman_tank_-_Flickr_-_Joost_J._Bakker_IJmuiden.jpg"
+      },
+      {
+        "label": "Document photographique — Sherman de la famille Grizzly conservé à Vienne.",
+        "url": "https://commons.wikimedia.org/wiki/File:M4_Sherman_tank_at_the_Heeresgeschichtliches_Museum_in_Vienna.jpg"
+      }
+    ]
+  },
+  "173": {
+    "name": "M3 Stuart",
+    "checkedAt": "2026-10-14",
+    "variant": "M3A1 ; les M3, M3A3 et M5 Stuart appartiennent à des configurations distinctes.",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "4 personnes",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/"
+      },
+      {
+        "label": "Masse de référence du musée",
+        "value": "12,9 tonnes",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/"
+      },
+      {
+        "label": "Armement principal",
+        "value": "Canon de 37 mm",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "≈ 58 km/h (36 mph)",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "The Tank Museum — M3A1 Stuart",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/"
+      },
+      {
+        "label": "National WWII Museum — M3A1",
+        "url": "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m3a1-stuart-tank"
+      },
+      {
+        "label": "Document photographique — Stuart pendant Tankfest en 2023.",
+        "url": "https://commons.wikimedia.org/wiki/File:Stuart_tankfest_2023.JPG"
+      },
+      {
+        "label": "Document photographique — M3A1 : photographie d’archive du char léger.",
+        "url": "https://commons.wikimedia.org/wiki/File:M3A1_Light_Tank.jpg"
+      }
+    ]
+  },
+  "174": {
+    "name": "Tiger I",
+    "checkedAt": "2026-10-14",
+    "variant": "Panzerkampfwagen VI Tiger Ausf. E ; ne pas confondre avec le Tiger II.",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "5 personnes",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/"
+      },
+      {
+        "label": "Masse de référence",
+        "value": "57 tonnes",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/"
+      },
+      {
+        "label": "Armement principal",
+        "value": "Canon de 88 mm",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "40 km/h",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "The Tank Museum — Tiger I",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/"
+      },
+      {
+        "label": "The Tank Museum — Tiger 131, commémoration de la capture",
+        "url": "https://tankmuseum.org/article/tiger-day-autumn-stars-2026"
+      },
+      {
+        "label": "Document photographique — Tiger I : photographie d’archive en France.",
+        "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-299-1805-16,_Nordfrankreich,_Panzer_VI_(Tiger_I).2.jpg"
+      },
+      {
+        "label": "Document photographique — Tiger I préservé à Snegiri ; véhicule historique endommagé.",
+        "url": "https://commons.wikimedia.org/wiki/File:Pz.Kpfw._Vl_Ausf.H_in_Snegiri.JPG"
+      }
+    ]
+  },
+  "175": {
+    "name": "Panzer IV",
+    "checkedAt": "2026-10-14",
+    "variant": "Ausf. D transformé avec canon KwK 40 L/43, tel que documenté à Bovington ; autres versions différentes.",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "5 personnes",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/"
+      },
+      {
+        "label": "Armement du véhicule de référence",
+        "value": "Canon de 75 mm KwK 40 L/43",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/"
+      },
+      {
+        "label": "Masse publiée pour cet exemplaire",
+        "value": "20 tonnes",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/"
+      },
+      {
+        "label": "Vitesse publiée",
+        "value": "40 km/h",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "The Tank Museum — Panzer IV",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/"
+      },
+      {
+        "label": "Deutsches Panzermuseum — collection",
+        "url": "https://daspanzermuseum.de/en/large-exhibits/"
+      },
+      {
+        "label": "Document photographique — Panzer IV conservé au musée de Munster.",
+        "url": "https://commons.wikimedia.org/wiki/File:Panzermuseum_Munster_2010_0128_b.jpg"
+      },
+      {
+        "label": "Document photographique — Panzer IV préservé au musée de Saumur.",
+        "url": "https://commons.wikimedia.org/wiki/File:PzIV.Saumur.000a5s6s.jpg"
+      }
+    ]
+  },
+  "176": {
+    "name": "Churchill",
+    "checkedAt": "2026-10-14",
+    "variant": "Churchill de la famille A22 ; armement de référence des Mk III/IV à canon de 6 livres.",
+    "fields": [
+      {
+        "label": "Rôle",
+        "value": "Char d’accompagnement de l’infanterie",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+      },
+      {
+        "label": "Équipage",
+        "value": "5 personnes",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+      },
+      {
+        "label": "Armement retenu",
+        "value": "Canon de 6 livres (≈ 57 mm), versions III/IV",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+      },
+      {
+        "label": "Vitesse publiée",
+        "value": "≈ 25 km/h",
+        "source": "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "The Tank Museum — Churchill",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+      },
+      {
+        "label": "Document photographique — Churchill : photographie officielle britannique de la Seconde Guerre mondiale.",
+        "url": "https://commons.wikimedia.org/wiki/File:Tanks_and_Afvs_of_the_British_Army_1939-45_KID1265.jpg"
+      },
+      {
+        "label": "Document photographique — Churchill III de Kingforce dans le désert en novembre 1942.",
+        "url": "https://commons.wikimedia.org/wiki/File:Churchill_III_tanks_of_%27Kingforce%27,_1st_Armoured_Division,_in_the_Western_Desert,_5_November_1942._E18991.jpg"
+      }
+    ]
+  },
+  "177": {
+    "name": "Stridsvagn 103",
+    "checkedAt": "2026-10-14",
+    "variant": "Stridsvagn 103C pour la masse et la vitesse ; famille suédoise à canon fixe.",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "3 personnes",
+        "source": "https://www.sphf.se/svenskt-pansar/fordon/stridsvagn-2/"
+      },
+      {
+        "label": "Masse du 103C",
+        "value": "39,7 tonnes",
+        "source": "https://www.sphf.se/svenskt-pansar/fordon/stridsvagn-2/"
+      },
+      {
+        "label": "Armement principal",
+        "value": "Canon de 105 mm L/62",
+        "source": "https://www.sphf.se/svenskt-pansar/fordon/stridsvagn-2/"
+      },
+      {
+        "label": "Vitesse maximale du 103C",
+        "value": "55 km/h",
+        "source": "https://www.sphf.se/svenskt-pansar/fordon/stridsvagn-2/"
+      },
+      {
+        "label": "Hauteur de caisse publiée",
+        "value": "2,14 m, hors équipements supérieurs",
+        "source": "https://www.sphf.se/svenskt-pansar/fordon/stridsvagn-2/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "Saab — histoire des véhicules Bofors",
+        "url": "https://www.saab.com/newsroom/stories/2019/may/artillery-pieces-and-combat-vehicles"
+      },
+      {
+        "label": "Svensk Pansarhistorisk Förening — Stridsvagn 103",
+        "url": "https://www.sphf.se/svenskt-pansar/fordon/stridsvagn-2/"
+      },
+      {
+        "label": "Document photographique — Stridsvagn 103 en démonstration à Revingehed en 2022.",
+        "url": "https://commons.wikimedia.org/wiki/File:STRV-103_demonstrating_at_P7_Revingehed,_24th_April_2022.jpg"
+      },
+      {
+        "label": "Document photographique — Stridsvagn 103 à Revinge en 2013.",
+        "url": "https://commons.wikimedia.org/wiki/File:Stridsvagn_103_Revinge_2013-2.jpg"
+      }
+    ]
+  },
+  "178": {
+    "name": "Marder 1",
+    "checkedAt": "2026-10-14",
+    "variant": "Marder 1A3 pour la configuration de référence ; ne pas confondre avec les chasseurs de chars Marder de 1939–1945.",
+    "fields": [
+      {
+        "label": "Équipage et groupe transporté",
+        "value": "3 + 6 personnes",
+        "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder"
+      },
+      {
+        "label": "Armement principal",
+        "value": "Canon automatique de 20 mm",
+        "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder"
+      },
+      {
+        "label": "Puissance publiée",
+        "value": "441 kW / 600 PS",
+        "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "65 km/h",
+        "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder"
+      },
+      {
+        "label": "Longueur",
+        "value": "6,88 m",
+        "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "Bundeswehr — Marder 1",
+        "url": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder"
+      },
+      {
+        "label": "Rheinmetall — cinquante ans du Marder",
+        "url": "https://www.rheinmetall.com/de/media/stories/2022/50-jahre-marder"
+      },
+      {
+        "label": "Document photographique — Marder 1 au cours d’un exercice de la Bundeswehr en 2012.",
+        "url": "https://commons.wikimedia.org/wiki/File:IL%C3%9C_der_Bundeswehr_am_24.09.2012_--_Marder_AT_(cropped).jpg"
+      },
+      {
+        "label": "Document photographique — Marder allemand de la KFOR en 1999.",
+        "url": "https://commons.wikimedia.org/wiki/File:German_KFOR_armoured_vehicle,_1999.jpg"
+      }
+    ]
+  },
+  "179": {
+    "name": "AS90",
+    "checkedAt": "2026-10-14",
+    "variant": "AS90 à canon de 155 mm / 39 calibres ; les projets à canon allongé ne sont pas la configuration de base.",
+    "fields": [
+      {
+        "label": "Équipage",
+        "value": "5 personnes",
+        "source": "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/as90/"
+      },
+      {
+        "label": "Calibre de référence",
+        "value": "155 mm / 39 calibres, texte principal de la British Army",
+        "source": "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/as90/"
+      },
+      {
+        "label": "Portée publiée du canon",
+        "value": "24,7 km ; dépend de la munition",
+        "source": "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/as90/"
+      },
+      {
+        "label": "Autonomie du véhicule",
+        "value": "420 km",
+        "source": "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/as90/"
+      },
+      {
+        "label": "Vitesse maximale publiée",
+        "value": "53 km/h",
+        "source": "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/as90/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "British Army — AS90",
+        "url": "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/as90/"
+      },
+      {
+        "label": "Hansard — décision de commande de 1989",
+        "url": "https://hansard.parliament.uk/Commons/1989-06-20/debates/a1db6bb6-563a-465c-9dde-c881ebb85b51/WrittenAnswers"
+      },
+      {
+        "label": "British Army — remplacement temporaire par Archer",
+        "url": "https://www.army.mod.uk/news/british-gunners-take-aim-and-fire-swedish-archer-for-the-first-time/"
+      },
+      {
+        "label": "Document photographique — AS90 photographié lors d’une présentation.",
+        "url": "https://commons.wikimedia.org/wiki/File:AS90_(52931434897).jpg"
+      },
+      {
+        "label": "Document photographique — AS90 de la British Army.",
+        "url": "https://commons.wikimedia.org/wiki/File:AS-90_Howitzer_1.jpg"
+      }
+    ]
+  },
+  "180": {
+    "name": "Type VII",
+    "checkedAt": "2026-10-14",
+    "variant": "Type VIIC/41 U-995 pour l’exemplaire conservé ; la famille Type VII comprend plusieurs variantes.",
+    "fields": [
+      {
+        "label": "Propulsion",
+        "value": "Diesel-électrique",
+        "source": "https://uboot-wilhelm-bauer.de/en/history/"
+      },
+      {
+        "label": "Équipage en service norvégien",
+        "value": "45 personnes, état du Kaura décrit par le Marinebund",
+        "source": "https://deutscher-marinebund.de/marine-ehrenmal-u-995/technisches-museum-u-995/"
+      },
+      {
+        "label": "Famille",
+        "value": "Type VII, variante conservée VIIC/41",
+        "source": "https://deutscher-marinebund.de/marine-ehrenmal-u-995/technisches-museum-u-995/"
+      },
+      {
+        "label": "Vitesse en plongée du VIIC citée par le musée",
+        "value": "≈ 7,6 nœuds",
+        "source": "https://uboot-wilhelm-bauer.de/en/history/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "Deutscher Marinebund — U 995",
+        "url": "https://deutscher-marinebund.de/marine-ehrenmal-u-995/technisches-museum-u-995/"
+      },
+      {
+        "label": "Marinebund — données U 995",
+        "url": "https://mk-eu.de/.cm4all/uproc.php/0/News/U995_A4q.pdf?_=168a52b8ba8&cdp=a"
+      },
+      {
+        "label": "Musée Wilhelm Bauer — comparaison des générations",
+        "url": "https://uboot-wilhelm-bauer.de/en/history/"
+      },
+      {
+        "label": "Document photographique — U-995, de la famille Type VII, conservé à Laboe.",
+        "url": "https://commons.wikimedia.org/wiki/File:U995_2004_1_b.jpg"
+      },
+      {
+        "label": "Document photographique — Type VIIC U-570 au moment de sa capture.",
+        "url": "https://commons.wikimedia.org/wiki/File:U570_capture.jpg"
+      }
+    ]
+  },
+  "181": {
+    "name": "Type XXI",
+    "checkedAt": "2026-10-14",
+    "variant": "Type XXI U-2540 / Wilhelm Bauer ; chiffres du musée, variables selon les transformations après-guerre.",
+    "fields": [
+      {
+        "label": "Longueur",
+        "value": "76,7 m",
+        "source": "https://uboot-wilhelm-bauer.de/en/history/"
+      },
+      {
+        "label": "Déplacement en plongée publié",
+        "value": "1 819 tonnes",
+        "source": "https://uboot-wilhelm-bauer.de/en/history/"
+      },
+      {
+        "label": "Équipage de référence",
+        "value": "58 personnes",
+        "source": "https://uboot-wilhelm-bauer.de/en/history/"
+      },
+      {
+        "label": "Autonomie en immersion publiée",
+        "value": "340 milles nautiques à 5 nœuds (≈ 630 km)",
+        "source": "https://uboot-wilhelm-bauer.de/en/history/"
+      },
+      {
+        "label": "Vitesse en plongée publiée",
+        "value": "≈ 17,2 nœuds",
+        "source": "https://uboot-wilhelm-bauer.de/en/history/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "Technikmuseum Wilhelm Bauer — histoire et données",
+        "url": "https://uboot-wilhelm-bauer.de/en/history/"
+      },
+      {
+        "label": "Deutsches Schifffahrtsmuseum — biographie du Wilhelm Bauer",
+        "url": "https://urn.dsm.museum/DSA/DSA07_1984_153186_Roessler.pdf"
+      },
+      {
+        "label": "Document photographique — U-2540 / Wilhelm Bauer conservé à Bremerhaven.",
+        "url": "https://commons.wikimedia.org/wiki/File:2004-Bremerhaven_U-Boot-Museum-Sicherlich_retouched.jpg"
+      },
+      {
+        "label": "Document photographique — Type XXI U-3008 après la guerre.",
+        "url": "https://commons.wikimedia.org/wiki/File:German_submarine_U_3008.jpg"
+      }
+    ]
+  },
+  "182": {
+    "name": "Classe Fletcher",
+    "checkedAt": "2026-10-14",
+    "variant": "Configuration de guerre de l’USS Cassin Young DD-793 pour les chiffres ; les modernisations de la classe diffèrent.",
+    "fields": [
+      {
+        "label": "Longueur de référence",
+        "value": "≈ 114,6 m (376 pieds)",
+        "source": "https://www.history.navy.mil/research/histories/ship-histories/danfs/y/young-ii.html"
+      },
+      {
+        "label": "Déplacement de référence publié",
+        "value": "2 050 tonnes, état de charge non précisé dans la notice",
+        "source": "https://www.history.navy.mil/research/histories/ship-histories/danfs/y/young-ii.html"
+      },
+      {
+        "label": "Vitesse publiée pour cet exemplaire",
+        "value": "35 nœuds",
+        "source": "https://www.history.navy.mil/research/histories/ship-histories/danfs/y/young-ii.html"
+      },
+      {
+        "label": "Artillerie principale de guerre",
+        "value": "5 canons de 127 mm",
+        "source": "https://www.history.navy.mil/research/histories/ship-histories/danfs/y/young-ii.html"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "Naval History and Heritage Command — Fletcher",
+        "url": "https://www.history.navy.mil/browse-by-topic/ships/modern-ships/uss-fletcher.html"
+      },
+      {
+        "label": "NHHC — classe de 175 destroyers",
+        "url": "https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/ships-us/ships-usn-f/uss-fletcher-dd-445-dde-445.html"
+      },
+      {
+        "label": "NHHC — Cassin Young",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/y/young-ii.html"
+      },
+      {
+        "label": "Document photographique — USS Erben, de classe Fletcher, en navigation dans les années 1950.",
+        "url": "https://commons.wikimedia.org/wiki/File:USS_Erben_(DD-631)_underway_the_1950s.jpg"
+      },
+      {
+        "label": "Document photographique — USS Cassin Young, de classe Fletcher, conservé à Boston.",
+        "url": "https://commons.wikimedia.org/wiki/File:USS_Cassin_Young_2007.jpg"
+      }
+    ]
+  },
+  "183": {
+    "name": "Classe Oliver Hazard Perry",
+    "checkedAt": "2026-10-14",
+    "variant": "USS Oliver Hazard Perry FFG-7 à coque courte ; les variantes à coque allongée et les modernisations nationales diffèrent.",
+    "fields": [
+      {
+        "label": "Longueur de coque courte",
+        "value": "≈ 135,6 m (445 pieds)",
+        "source": "https://www.history.navy.mil/content/history/nhhc/research/histories/ship-histories/danfs/o/oliver-hazard-perry-ffg-7.html"
+      },
+      {
+        "label": "Largeur",
+        "value": "≈ 13,7 m (45 pieds)",
+        "source": "https://www.history.navy.mil/content/history/nhhc/research/histories/ship-histories/danfs/o/oliver-hazard-perry-ffg-7.html"
+      },
+      {
+        "label": "Vitesse publiée",
+        "value": "28 nœuds",
+        "source": "https://www.history.navy.mil/content/history/nhhc/research/histories/ship-histories/danfs/o/oliver-hazard-perry-ffg-7.html"
+      },
+      {
+        "label": "Artillerie principale",
+        "value": "Canon de 76 mm",
+        "source": "https://www.history.navy.mil/content/history/nhhc/research/histories/ship-histories/danfs/o/oliver-hazard-perry-ffg-7.html"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "NHHC — Oliver Hazard Perry FFG-7",
+        "url": "https://www.history.navy.mil/content/history/nhhc/research/histories/ship-histories/danfs/o/oliver-hazard-perry-ffg-7.html"
+      },
+      {
+        "label": "US Navy / NHHC — fin de service américaine en 2015",
+        "url": "https://www.doncio.navy.mil/chips/ArticleDetails.aspx?ID=6922"
+      },
+      {
+        "label": "Document photographique — USS Rodney M. Davis, frégate de classe Oliver Hazard Perry.",
+        "url": "https://commons.wikimedia.org/wiki/File:080713-N-7949W-084_-_USS_Rodney_M._Davis_(FFG-60).jpg"
+      },
+      {
+        "label": "Document photographique — USS Ford au départ de Pearl Harbor pour RIMPAC en 2010.",
+        "url": "https://commons.wikimedia.org/wiki/File:US_Navy_100707-N-0641S-215_SS_Ford_(FFG_54)_departs_Joint_Base_Pearl_Harbor-Hickam_to_support_Rim_of_the_Pacific_(RIMPAC)_2010_exercises.jpg"
+      }
+    ]
+  },
+  "184": {
+    "name": "Classe Clemenceau",
+    "checkedAt": "2026-10-14",
+    "variant": "Classe française de deux porte-avions à propulsion classique ; le Foch devient ensuite São Paulo au Brésil.",
+    "fields": [
+      {
+        "label": "Bâtiments de la classe",
+        "value": "Clemenceau et Foch",
+        "source": "https://www.servicehistorique.sga.defense.gouv.fr/en/node/954925"
+      },
+      {
+        "label": "Propulsion",
+        "value": "Classique, non nucléaire",
+        "source": "https://www.defense.gouv.fr/marine/mieux-nous-connaitre/notre-histoire"
+      },
+      {
+        "label": "Fonction",
+        "value": "Porte-avions avec chasse embarquée et contrôle aérien",
+        "source": "https://www.defense.gouv.fr/marine/defense-aerienne-levolution-du-controle-tactique-chasse-embarquee"
+      },
+      {
+        "label": "Mise en service des unités",
+        "value": "Clemenceau : 1961 ; Foch : 1963",
+        "source": "https://www.marinha.mil.br/rmb/sites/www.marinha.mil.br.rmb/files/3-2015%20revista.pdf"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "Service historique de la Défense — Clemenceau",
+        "url": "https://www.servicehistorique.sga.defense.gouv.fr/en/node/954925"
+      },
+      {
+        "label": "Marine nationale — histoire",
+        "url": "https://www.defense.gouv.fr/marine/mieux-nous-connaitre/notre-histoire"
+      },
+      {
+        "label": "Revue maritime brésilienne — étude des porte-avions",
+        "url": "https://www.marinha.mil.br/rmb/sites/www.marinha.mil.br.rmb/files/3-2015%20revista.pdf"
+      },
+      {
+        "label": "Marine nationale — contrôle aérien embarqué",
+        "url": "https://www.defense.gouv.fr/marine/defense-aerienne-levolution-du-controle-tactique-chasse-embarquee"
+      },
+      {
+        "label": "Document photographique — Clemenceau pendant l’opération Desert Shield.",
+        "url": "https://commons.wikimedia.org/wiki/File:FS_Clemenceau_(R-98)_aircraft_carrier_during_Operation_Desert_Shield.JPEG"
+      },
+      {
+        "label": "Document photographique — Vue latérale du Clemenceau pendant l’opération Desert Shield.",
+        "url": "https://commons.wikimedia.org/wiki/File:French_aircraft_carrier_FS_Clemenceau_(R-98).JPEG"
+      }
+    ]
+  },
+  "185": {
+    "name": "Classe Slava (Projet 1164)",
+    "checkedAt": "2026-10-14",
+    "variant": "Projet soviétique 1164 Atlant, code OTAN Slava ; configurations différentes selon le navire et la période.",
+    "fields": [
+      {
+        "label": "Catégorie",
+        "value": "Croiseur lance-missiles de surface",
+        "source": "https://www.royalnavy.mod.uk/news/2022/september/06/220906-royal-navy-keeps-watch-as-russian-warships-sail-close-to-the-uk"
+      },
+      {
+        "label": "Origine",
+        "value": "Conception soviétique, reprise ensuite par la marine russe",
+        "source": "https://www.royalnavy.mod.uk/news/2022/september/06/220906-royal-navy-keeps-watch-as-russian-warships-sail-close-to-the-uk"
+      },
+      {
+        "label": "Armement visible documenté",
+        "value": "Grands lanceurs antinavires inclinés de part et d’autre de la superstructure",
+        "source": "https://commons.wikimedia.org/wiki/File:Russian_cruiser_Marshal_Ustinov_MOD_45164874.jpg"
+      },
+      {
+        "label": "Exemplaires identifiés dans les sources",
+        "value": "Moskva (ancien Slava) et Marshal Ustinov",
+        "source": "https://www.royalnavy.mod.uk/news/2022/september/06/220906-royal-navy-keeps-watch-as-russian-warships-sail-close-to-the-uk"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "Royal Navy — suivi du Marshal Ustinov en 2022",
+        "url": "https://www.royalnavy.mod.uk/news/2022/september/06/220906-royal-navy-keeps-watch-as-russian-warships-sail-close-to-the-uk"
+      },
+      {
+        "label": "NHHC — présence du Slava en Méditerranée en 1983",
+        "url": "https://www.history.navy.mil/content/dam/nhhc/about-us/leadership/hgram_pdfs/H-Gram_080-2.pdf"
+      },
+      {
+        "label": "Document photographique — Marshal Ustinov photographié par la Royal Navy.",
+        "url": "https://commons.wikimedia.org/wiki/File:Russian_cruiser_Marshal_Ustinov_MOD_45164874.jpg"
+      },
+      {
+        "label": "Document photographique — Marshal Ustinov quittant Norfolk en 1989.",
+        "url": "https://commons.wikimedia.org/wiki/File:Cruiser_Marshal_Ustinov_leaving_Norfolk_1989.jpg"
+      }
+    ]
+  },
+  "186": {
+    "name": "BGM-71 TOW",
+    "checkedAt": "2026-10-14",
+    "variant": "Famille TOW ; la portée chiffrée ci-dessous concerne le TOW 2B Aero et ne vaut pas pour tous les BGM-71.",
+    "fields": [
+      {
+        "label": "Rôle",
+        "value": "Missile antichar lancé depuis un tube",
+        "source": "https://history.redstone.army.mil/miss-tow.html"
+      },
+      {
+        "label": "Guidage de la famille",
+        "value": "Suivi optique ; liaison par fil sur les premières versions, radio sur des versions récentes",
+        "source": "https://www.rtx.com/news/news-center/2024/10/23/u-s-army-awards-rtxs-raytheon-tow-contracts-for-676-million"
+      },
+      {
+        "label": "Portée publique de référence",
+        "value": "4,5 km pour le TOW 2B Aero",
+        "source": "https://asc.army.mil/docs/wsh2/2010-wsh.pdf"
+      },
+      {
+        "label": "Plateformes",
+        "value": "Postes terrestres et véhicules ; des versions ont aussi été intégrées à des hélicoptères",
+        "source": "https://history.redstone.army.mil/miss-tow.html"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "US Army Redstone — histoire du TOW",
+        "url": "https://history.redstone.army.mil/miss-tow.html"
+      },
+      {
+        "label": "RTX — bilan industriel daté d’octobre 2024",
+        "url": "https://www.rtx.com/news/news-center/2024/10/23/u-s-army-awards-rtxs-raytheon-tow-contracts-for-676-million"
+      },
+      {
+        "label": "US Army — Weapon Systems 2010",
+        "url": "https://asc.army.mil/docs/wsh2/2010-wsh.pdf"
+      },
+      {
+        "label": "Document photographique — Poste TOW de l’US Army lors d’un exercice.",
+        "url": "https://commons.wikimedia.org/wiki/File:Hires_090509-A-4842R-001a.jpg"
+      },
+      {
+        "label": "Document photographique — Tir d’un TOW sur le terrain d’entraînement de Fort Pickett.",
+        "url": "https://commons.wikimedia.org/wiki/File:TOW_missile_Fort_Pickett.jpg"
+      }
+    ]
+  },
+  "187": {
+    "name": "AGM-114 Hellfire",
+    "checkedAt": "2026-10-14",
+    "variant": "Famille AGM-114 ; Hellfire II laser et Longbow à radar ne partagent pas exactement le même guidage.",
+    "fields": [
+      {
+        "label": "Mission",
+        "value": "Missile guidé air-sol, également adapté à des plateformes terrestres et navales",
+        "source": "https://www.lockheedmartin.com/en-us/products/hellfire.html"
+      },
+      {
+        "label": "Guidage",
+        "value": "Laser semi-actif ou radar selon variante",
+        "source": "https://www.lockheedmartin.com/en-us/products/hellfire.html"
+      },
+      {
+        "label": "Propulsion",
+        "value": "Moteur-fusée à propergol solide",
+        "source": "https://www.navair.navy.mil/product/Joint-Air-Ground-Missile-JAGM"
+      },
+      {
+        "label": "Filiation documentée",
+        "value": "Le JAGM reprend des éléments du Hellfire II Romeo ; c’est une autre désignation",
+        "source": "https://www.navair.navy.mil/product/Joint-Air-Ground-Missile-JAGM"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "US Army Redstone — chronologie Hellfire",
+        "url": "https://history.redstone.army.mil/miss-hellfire.html"
+      },
+      {
+        "label": "Lockheed Martin — famille Hellfire",
+        "url": "https://www.lockheedmartin.com/en-us/products/hellfire.html"
+      },
+      {
+        "label": "NAVAIR — filiation du JAGM",
+        "url": "https://www.navair.navy.mil/product/Joint-Air-Ground-Missile-JAGM"
+      },
+      {
+        "label": "Lockheed Martin — bilan industriel AGMS",
+        "url": "https://www.f35.com/content/dam/lockheed-martin/mfc/documents/business-area-landing/agms-fast-facts.pdf"
+      },
+      {
+        "label": "Document photographique — Hellfire sous un hélicoptère AH-1W à Balad en 2005.",
+        "url": "https://commons.wikimedia.org/wiki/File:Balad_AH1_Cobra_1.jpg"
+      },
+      {
+        "label": "Document photographique — Longbow Hellfire lancé depuis l’USS Montgomery en mai 2022.",
+        "url": "https://commons.wikimedia.org/wiki/File:AGM-114L_Longbow_missile_launch_from_USS_Montgomery_(LCS-8).jpg"
+      }
+    ]
+  },
+  "188": {
+    "name": "FIM-92 Stinger",
+    "checkedAt": "2026-10-14",
+    "variant": "Famille FIM-92 ; données de la publication publique de 2018, versions différentes selon les utilisateurs.",
+    "fields": [
+      {
+        "label": "Catégorie",
+        "value": "Défense aérienne de courte portée, portable ou montée sur véhicule",
+        "source": "https://www.army.mil/article/188420/stinger_maintenance_work_to_increase_service_life_reliability"
+      },
+      {
+        "label": "Portée publique de référence",
+        "value": "Ordre de grandeur : 4 km, référence non classifiée publiée en 2018",
+        "source": "https://api.army.mil/e2/c/downloads/2023/01/19/18849503/18-16-maneuver-leader-s-guide-to-stinger-handbook-apr-18-public.pdf"
+      },
+      {
+        "label": "Longueur de l’ensemble décrit",
+        "value": "≈ 1,51 m",
+        "source": "https://api.army.mil/e2/c/downloads/2023/01/19/18849503/18-16-maneuver-leader-s-guide-to-stinger-handbook-apr-18-public.pdf"
+      },
+      {
+        "label": "Masse de l’ensemble décrit",
+        "value": "≈ 16,4 kg, poignée et unité batterie/refroidissement incluses",
+        "source": "https://api.army.mil/e2/c/downloads/2023/01/19/18849503/18-16-maneuver-leader-s-guide-to-stinger-handbook-apr-18-public.pdf"
+      },
+      {
+        "label": "Guidage",
+        "value": "Autodirecteur passif infrarouge / ultraviolet selon version",
+        "source": "https://api.army.mil/e2/c/downloads/2023/01/19/18849503/18-16-maneuver-leader-s-guide-to-stinger-handbook-apr-18-public.pdf"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "US Army — mise en service et maintenance",
+        "url": "https://www.army.mil/article/188420/stinger_maintenance_work_to_increase_service_life_reliability"
+      },
+      {
+        "label": "US Army Redstone — Stinger et Avenger",
+        "url": "https://history.redstone.army.mil/miss-stingeravenger.html"
+      },
+      {
+        "label": "US Army — données publiques Stinger, 2018",
+        "url": "https://api.army.mil/e2/c/downloads/2023/01/19/18849503/18-16-maneuver-leader-s-guide-to-stinger-handbook-apr-18-public.pdf"
+      },
+      {
+        "label": "Document photographique — Ensemble Stinger conservé dans les archives photographiques néerlandaises.",
+        "url": "https://commons.wikimedia.org/wiki/File:Voorzijde_van_een_Stinger_lanceerbuis_met_richt-afvuurapparatuur_(2086-065-004).jpg"
+      },
+      {
+        "label": "Document photographique — Stinger photographié en vol pendant un exercice.",
+        "url": "https://commons.wikimedia.org/wiki/File:Launched_FIM-92A_Stinger_missile.jpg"
+      }
+    ]
+  },
+  "189": {
+    "name": "MIM-23 HAWK",
+    "checkedAt": "2026-10-14",
+    "variant": "Famille Basic HAWK / Improved HAWK ; capacités variables suivant les générations de missiles et de radars.",
+    "fields": [
+      {
+        "label": "Mission",
+        "value": "Défense sol-air de moyenne portée, historiquement contre des avions à basse et moyenne altitude",
+        "source": "https://history.redstone.army.mil/miss-hawk.html"
+      },
+      {
+        "label": "Organisation",
+        "value": "Missiles sur lanceurs associés à des radars et à une conduite de tir",
+        "source": "https://history.redstone.army.mil/miss-hawk.html"
+      },
+      {
+        "label": "Mobilité",
+        "value": "Système transportable ; plusieurs configurations de mobilité ont existé",
+        "source": "https://history.redstone.army.mil/miss-hawk.html"
+      },
+      {
+        "label": "Grandes générations",
+        "value": "Basic HAWK, Improved HAWK et améliorations Phase I à III",
+        "source": "https://history.redstone.army.mil/miss-hawk.html"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "US Army Redstone — histoire du HAWK",
+        "url": "https://history.redstone.army.mil/miss-hawk.html"
+      },
+      {
+        "label": "US Army — maintenance HAWK en 2025",
+        "url": "https://www.army.mil/article/283282/mcalester_army_ammunition_plant_cuts_ribbon_on_hawk_missile_test_facility"
+      },
+      {
+        "label": "Document photographique — Missiles HAWK sur leur lanceur dans les forces roumaines.",
+        "url": "https://commons.wikimedia.org/wiki/File:Romanian_MIM-23_Hawk.jpg"
+      },
+      {
+        "label": "Document photographique — Tir d’essai d’un missile HAWK.",
+        "url": "https://commons.wikimedia.org/wiki/File:Hawk_launch_better.jpg"
+      }
+    ]
+  },
+  "190": {
+    "name": "V2 (A4)",
+    "checkedAt": "2026-10-14",
+    "variant": "A4 / V2 allemand de la Seconde Guerre mondiale ; missile conventionnel, pas un ICBM nucléaire.",
+    "fields": [
+      {
+        "label": "Catégorie",
+        "value": "Missile balistique à courte portée",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/"
+      },
+      {
+        "label": "Portée historique publiée",
+        "value": "≈ 290 à 354 km (180 à 220 miles), selon la configuration et les sources du musée",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/"
+      },
+      {
+        "label": "Masse au départ publiée",
+        "value": "≈ 12,7 tonnes (28 000 livres)",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/"
+      },
+      {
+        "label": "Charge",
+        "value": "Explosive conventionnelle, non nucléaire",
+        "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "National Museum USAF — V2 et son histoire",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/"
+      },
+      {
+        "label": "National Museum USAF — le programme V2",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195894/v-2-rocket/"
+      },
+      {
+        "label": "National Museum USAF — développement à Peenemünde",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196684/AFmuseum/flying-bomb-and-rocket-development/"
+      },
+      {
+        "label": "Document photographique — V2 conservée au musée de Peenemünde.",
+        "url": "https://commons.wikimedia.org/wiki/File:Fus%C3%A9e_V2_(cropped).jpg"
+      },
+      {
+        "label": "Document photographique — V2 sur une remorque Meillerwagen pendant l’opération Backfire en 1945.",
+        "url": "https://commons.wikimedia.org/wiki/File:V-2_Rocket_On_Meillerwagen.jpg"
+      }
+    ]
+  },
+  "191": {
+    "name": "RIM-7 Sea Sparrow",
+    "checkedAt": "2026-10-14",
+    "variant": "RIM-7 de la fiche US Navy mise à jour en 2022 ; ne pas confondre avec le RIM-162 ESSM.",
+    "fields": [
+      {
+        "label": "Longueur publiée",
+        "value": "3,64 m",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/"
+      },
+      {
+        "label": "Diamètre publié",
+        "value": "20,3 cm",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/"
+      },
+      {
+        "label": "Masse au lancement publiée",
+        "value": "≈ 225 kg",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/"
+      },
+      {
+        "label": "Guidage",
+        "value": "Radar semi-actif",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/"
+      },
+      {
+        "label": "Portée et vitesse",
+        "value": "Non publiées dans la fiche US Navy, indiquées comme classifiées",
+        "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/"
+      }
+    ],
+    "note": "Données publiques pour la version et les conditions précisées. Les vitesses maximales et autonomies ne correspondent pas nécessairement à la même configuration. Les bilans d’utilisation ne constituent pas des totaux de destructions.",
+    "sources": [
+      {
+        "label": "US Navy — RIM-7 Sea Sparrow",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/"
+      },
+      {
+        "label": "NHHC — essais du Bradley",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/b/bradley-i.html"
+      },
+      {
+        "label": "NHHC — essais documentés de l’USS Spruance",
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/s/spruance.html"
+      },
+      {
+        "label": "Document photographique — RIM-7 Sea Sparrow quittant son lanceur sur l’USS Abraham Lincoln.",
+        "url": "https://commons.wikimedia.org/wiki/File:RIM-7_Sea_Sparrow_-_ID_070813-N-4166B-041.jpg"
+      },
+      {
+        "label": "Document photographique — Tir d’un Sea Sparrow depuis l’USS O’Brien en novembre 2003.",
+        "url": "https://commons.wikimedia.org/wiki/File:US_Navy_031105-N-0000D-003_USS_O%27Brien_launches_a_surface-to-air_NATO_Sea_Sparrow_missile.jpg"
+      }
+    ]
   }
 };

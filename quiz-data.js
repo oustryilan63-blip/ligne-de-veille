@@ -410,146 +410,7 @@ window.LDV_FACTS = [
     "ref": "SM-3",
     "reason": "USA-193 était un satellite américain défaillant ; il ne s’agissait pas d’un appareil adverse.",
     "source": "https://www.norad.mil/Newsroom/Article/578258/navy-missile-hits-decaying-satellite-over-pacific-ocean/"
-  }
-];
-window.LDV_CHRONO = [
-  {
-    "name": "F-15 Eagle",
-    "year": 1972,
-    "date": "27 juillet 1972",
-    "context": "Premier vol du prototype F-15 Eagle.",
-    "source": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
   },
-  {
-    "name": "F-16 Fighting Falcon",
-    "year": 1974,
-    "date": "2 février 1974",
-    "context": "Premier vol officiel du prototype YF-16.",
-    "source": "https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martin-marks-aviation-milestone-30th-anniversary-first/"
-  },
-  {
-    "name": "Mirage 2000",
-    "year": 1978,
-    "date": "10 mars 1978",
-    "context": "Le Mirage 2000-01 décolle à Istres pour la première fois.",
-    "source": "https://www.dassault-aviation.com/en/passion/history/1916-to-2000/1965-1986/"
-  },
-  {
-    "name": "Rafale A",
-    "year": 1986,
-    "date": "4 juillet 1986",
-    "context": "Premier vol du démonstrateur technologique Rafale A.",
-    "source": "https://timeline.dassault-aviation.com/fr/un-socle-pour-le-futur/"
-  },
-  {
-    "name": "JAS 39 Gripen",
-    "year": 1988,
-    "date": "1988",
-    "context": "Saab fait voler le premier appareil de développement Gripen.",
-    "source": "https://www.saab.com/about/company-in-brief/history"
-  },
-  {
-    "name": "Pilatus PC-21",
-    "year": 2002,
-    "date": "1er juillet 2002",
-    "context": "Premier vol de cet avion suisse d’entraînement.",
-    "source": "https://www.pilatus-aircraft.com/en/company/heritage"
-  },
-  {
-    "name": "F-35 Lightning II",
-    "year": 2006,
-    "date": "15 décembre 2006",
-    "context": "Premier vol du F-35 Lightning II à Fort Worth.",
-    "source": "https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martin-f-35-lightning-ii-stealth-fighter-completes/"
-  },
-  {
-    "name": "KC-390 Millennium",
-    "year": 2015,
-    "date": "3 février 2015",
-    "context": "Premier vol de l’avion de transport brésilien.",
-    "source": "https://www.embraer.com/media-center/en?detail=19386&mediatype=NEWS&page=38"
-  },
-  {
-    "name": "CH-47 Chinook",
-    "year": 1961,
-    "date": "21 septembre 1961",
-    "context": "Premier vol du CH-47A à rotors en tandem.",
-    "source": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing-Chronology.pdf"
-  },
-  {
-    "name": "C-17 Globemaster III",
-    "year": 1991,
-    "date": "15 septembre 1991",
-    "context": "Premier vol du C-17 à Long Beach.",
-    "source": "https://www.boeing.com/features/2026/09/35-years-ago-the-c-17-first-took-flight"
-  },
-  {
-    "name": "F-22 Raptor",
-    "year": 1997,
-    "date": "7 septembre 1997",
-    "context": "Premier vol du F-22 Raptor.",
-    "source": "https://www.lockheedmartin.com/en-us/news/features/history/f-22.html"
-  },
-  {
-    "name": "Su-57",
-    "year": 2010,
-    "date": "29 janvier 2010",
-    "context": "Premier vol du prototype T-50, futur Su-57.",
-    "source": "https://www.rostec.ru/media/news/su-57-15-let-v-nebe/"
-  },
-  {
-    "name": "Bayraktar Akıncı",
-    "year": 2019,
-    "date": "6 décembre 2019",
-    "context": "Premier vol du drone turc Akıncı.",
-    "source": "https://baykartech.com/en/press/turkish-akinci-combat-drone-sets-new-national-avia/"
-  },
-  {
-    "name": "P-8 Poseidon",
-    "year": 2009,
-    "date": "25 avril 2009",
-    "context": "Premier vol du Boeing P-8A Poseidon, avion de patrouille maritime.",
-    "source": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing-Chronology.pdf"
-  },
-  {
-    "name": "KF-21 Boramae",
-    "year": 2022,
-    "date": "19 juillet 2022",
-    "context": "Premier vol du prototype du chasseur sud-coréen KF-21.",
-    "source": "https://www.koreaaero.com/EN/Business/KF21.aspx"
-  },
-  {
-    "name": "UH-60 Black Hawk",
-    "year": 1974,
-    "date": "1974",
-    "context": "Premier vol du prototype Black Hawk, selon la chronologie du constructeur.",
-    "source": "https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/photo/black-hawk/8394Ke-18_BLACK-HAWK-40TH-poster.pdf"
-  },
-  {
-    "name": "Eurofighter Typhoon",
-    "year": 1994,
-    "date": "27 mars 1994",
-    "context": "Premier vol du prototype DA1 à Manching.",
-    "source": "https://www.eurofighter.com/news/30-years-young"
-  },
-  {
-    "name": "B-2 Spirit",
-    "year": 1989,
-    "date": "17 juillet 1989",
-    "context": "Premier vol du B-2 à Palmdale.",
-    "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104482/b-2-spirit/"
-  },
-  {
-    "name": "V-22 Osprey",
-    "year": 1989,
-    "date": "Mars 1989",
-    "context": "Premier vol de l’Osprey à Arlington, au Texas.",
-    "source": "https://www.boeing.com/features/2023/06/22-fast-facts-on-the-bell-boeing-v-22-osprey"
-  }
-];
-
-// Série 6 : questions et premiers vols documentés.
-window.LDV_FACTS.push(...[
   {
     "ref": "T-72",
     "claim": "Le T-72M1 possède quatre membres d’équipage.",
@@ -789,83 +650,7 @@ window.LDV_FACTS.push(...[
     "explanation": "Saab situe cette première mise en service en 2016, sur Gripen.",
     "source": "https://www.saab.com/products/meteor",
     "reason": "Saab situe cette première mise en service en 2016, sur Gripen."
-  }
-]);
-window.LDV_CHRONO.push(...[
-  {
-    "name": "F-14 Tomcat",
-    "year": 1970,
-    "date": "21 décembre 1970",
-    "source": "https://www.history.navy.mil/browse-by-topic/communities/naval-aviation/1970-1979.html",
-    "context": "Premier vol de F-14 Tomcat."
   },
-  {
-    "name": "F-15E Strike Eagle",
-    "year": 1986,
-    "date": "11 décembre 1986",
-    "source": "https://www.af.mil/Portals/1/documents/cct/2016/CCT_Dec_8_2016.pdf?ver=2016-12-08-163143-640",
-    "context": "Premier vol du F-15E de série, distinct du premier F-15A de 1972."
-  },
-  {
-    "name": "F-117 Nighthawk",
-    "year": 1981,
-    "date": "18 juin 1981",
-    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/",
-    "context": "Premier vol de F-117 Nighthawk."
-  },
-  {
-    "name": "SR-71 Blackbird",
-    "year": 1964,
-    "date": "22 décembre 1964",
-    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/",
-    "context": "Premier vol de SR-71 Blackbird."
-  },
-  {
-    "name": "B-52 Stratofortress",
-    "year": 1952,
-    "date": "15 avril 1952",
-    "source": "https://www.kirtland.af.mil/News/Features/Display/Article/390769/this-week-in-history-april-15-1952-b-52-first-flight/",
-    "context": "Premier vol de B-52 Stratofortress."
-  },
-  {
-    "name": "C-130 Hercules",
-    "year": 1954,
-    "date": "23 août 1954",
-    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197558/lockheed-ac-130a-hercules/",
-    "context": "Premier vol de C-130 Hercules."
-  },
-  {
-    "name": "A400M Atlas",
-    "year": 2009,
-    "date": "11 décembre 2009",
-    "source": "https://publications.parliament.uk/pa/cm200910/cmselect/cmdfence/99/9905.htm",
-    "context": "Premier vol de A400M Atlas."
-  },
-  {
-    "name": "MiG-29 Fulcrum",
-    "year": 1977,
-    "date": "6 octobre 1977",
-    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/AFmuseum/mikoyan-gurevich-mig-29a/",
-    "context": "Premier vol de MiG-29 Fulcrum."
-  },
-  {
-    "name": "Mi-24 Hind",
-    "year": 1969,
-    "date": "15 septembre 1969",
-    "source": "https://parkpatriot.ru/o-parke/tekhnika-parka/mi-24/",
-    "context": "Premier décollage du prototype V-24 sur attache; premier vol libre le 19 septembre 1969."
-  },
-  {
-    "name": "Tigre EC665",
-    "year": 1991,
-    "date": "27 avril 1991",
-    "source": "https://www.airbus.com/en/newsroom/news/2021-04-the-tiger-combat-helicopter-three-decades-of-flight-and-many-more-to-come",
-    "context": "Premier vol de Tigre EC665."
-  }
-]);
-
-// Série 7 : questions et premiers vols documentés.
-window.LDV_FACTS.push(...[
   {
     "ref": "AMX-30",
     "claim": "L’AMX-30B possède un canon principal de 120 mm.",
@@ -1025,55 +810,7 @@ window.LDV_FACTS.push(...[
     "explanation": "La Navy et Diehl décrivent explicitement la coopération gouvernementale et industrielle transatlantique à l’origine du système.",
     "source": "https://new.diehl.com/defence/de/produkte/lenkflugkoerper/ram2",
     "reason": "La Navy et Diehl décrivent explicitement la coopération gouvernementale et industrielle transatlantique à l’origine du système."
-  }
-]);
-window.LDV_CHRONO.push(...[
-  {
-    "year": 1958,
-    "date": "27 mai 1958",
-    "source": "https://www.history.navy.mil/today-in-history/may-27.html",
-    "context": "Premier vol du prototype XF4H-1 de la famille Phantom II, antérieur au F-4C de 1963.",
-    "name": "F-4 Phantom II"
   },
-  {
-    "year": 1966,
-    "date": "23 décembre 1966",
-    "source": "https://www.dassault-aviation.com/fr/passion/avions/dassault-militaires/mirage-f1/",
-    "context": "Premier vol du prototype Mirage F1 01 à Melun-Villaroche, piloté par René Bigand.",
-    "name": "Mirage F1"
-  },
-  {
-    "year": 1955,
-    "date": "14 février 1955",
-    "source": "https://www.rostec.ru/media/news/mig-21-proshchay-legenda-chast-i/",
-    "context": "Premier vol de l’E-2, prototype initial à aile en flèche du programme MiG-21; l’E-4 à aile delta vole le 16 juin 1955.",
-    "name": "MiG-21"
-  },
-  {
-    "year": 1975,
-    "date": "22 février 1975",
-    "source": "https://www.rostec.ru/media/news/grachi-prileteli-polveka-pervomu-poletu-su-25/",
-    "context": "Premier vol du prototype T-8 par Vladimir Iliouchine, source industrielle commémorative du 22 février 2025.",
-    "name": "Su-25"
-  },
-  {
-    "year": 1972,
-    "date": "9 février 1972",
-    "source": "https://www.acc.af.mil/News/Article-Display/Article/2957379/whales-tales/",
-    "context": "Premier vol du démonstrateur EC-137D, précurseur du Sentry; il ne s’agit pas de l’entrée en service des E-3 de série en 1977.",
-    "name": "E-3 Sentry"
-  },
-  {
-    "year": 2007,
-    "date": "Juin 2007",
-    "source": "https://www.airbus.com/sites/g/files/jlcbta136/files/2021-07/annual-review-2007.pdf",
-    "context": "Premier vol de l’A330 MRTT selon le rapport annuel EADS 2007; précision mensuelle retenue car cette source ne donne pas le jour.",
-    "name": "A330 MRTT"
-  }
-]);
-
-// Série 8 : questions et premiers vols documentés.
-window.LDV_FACTS.push(...[
   {
     "claim": "Le M26 Pershing est à l’origine de la famille des chars Patton.",
     "answer": true,
@@ -1157,9 +894,464 @@ window.LDV_FACTS.push(...[
     "ref": "AGM-158 JASSM",
     "reason": "Le constructeur distingue la version initiale et le JASSM-ER, dont la portée est accrue ; leur parenté ne rend pas leurs performances interchangeables.",
     "source": "https://news.lockheedmartin.com/2016-09-06-Lockheed-Martin-Delivers-2-000th-JASSM-to-the-U-S-Air-Force%2C1"
+  },
+  {
+    "claim": "Le P-51D possède six mitrailleuses de 12,7 mm.",
+    "answer": true,
+    "ref": "P-51 Mustang",
+    "reason": "La fiche USAF distingue les six armes du P-51D de l’armement des versions antérieures.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/"
+  },
+  {
+    "claim": "Le premier prototype du Spitfire a volé en 1936.",
+    "answer": true,
+    "ref": "Spitfire",
+    "reason": "Le RAF Museum date le premier vol de K5054 du 5 mars 1936.",
+    "source": "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/"
+  },
+  {
+    "claim": "Le B-17 est un bombardier bimoteur.",
+    "answer": false,
+    "ref": "B-17 Flying Fortress",
+    "reason": "La Flying Fortress possède quatre moteurs à pistons.",
+    "source": "https://museumofaviation.org/portfolio/b-17g-flying-fortress/"
+  },
+  {
+    "claim": "Tous les B-29 avaient exactement la configuration d’Enola Gay.",
+    "answer": false,
+    "ref": "B-29 Superfortress",
+    "reason": "Les avions Silverplate employés pour les missions atomiques avaient des modifications particulières.",
+    "source": "https://airandspace.si.edu/collection-objects/boeing-b-29-superfortress-enola-gay/nasm_A19500100000"
+  },
+  {
+    "claim": "Le C-47 pouvait remorquer des planeurs.",
+    "answer": true,
+    "ref": "C-47 Skytrain",
+    "reason": "Le remorquage de planeurs figure parmi ses missions documentées par le musée USAF.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/"
+  },
+  {
+    "claim": "Le F-86A est un chasseur à aile droite.",
+    "answer": false,
+    "ref": "F-86 Sabre",
+    "reason": "Le Sabre est précisément associé à l’adoption de l’aile en flèche.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/"
+  },
+  {
+    "claim": "Le MiG-15bis est une version améliorée du MiG-15.",
+    "answer": true,
+    "ref": "MiG-15",
+    "reason": "La production de la version bis commence en 1950 avec notamment un moteur plus puissant.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/"
+  },
+  {
+    "claim": "Le premier vol du Me 262 sous propulsion à réaction date de 1942.",
+    "answer": true,
+    "ref": "Me 262",
+    "reason": "Le musée donne le 18 juillet 1942 ; cette date ne désigne pas tous les essais antérieurs du programme.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/"
+  },
+  {
+    "claim": "Le F-104 possède une très grande aile delta.",
+    "answer": false,
+    "ref": "F-104 Starfighter",
+    "reason": "Le Starfighter est reconnaissable à ses petites ailes trapézoïdales et à son long fuselage.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/"
+  },
+  {
+    "claim": "Le Su-27UB possède deux postes de pilotage.",
+    "answer": true,
+    "ref": "Su-27 Flanker",
+    "reason": "UB désigne ici la version biplace d’entraînement avancé documentée par le musée.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+  },
+  {
+    "claim": "Tous les Sherman possèdent le même moteur.",
+    "answer": false,
+    "ref": "M4 Sherman",
+    "reason": "Les variantes de la famille utilisent plusieurs motorisations ; le M4A3 est notamment associé au Ford GAA.",
+    "source": "https://tankmuseum.org/tank-nuts/tank-collection/m4-sherman/"
+  },
+  {
+    "claim": "Le Stuart est un char lourd.",
+    "answer": false,
+    "ref": "M3 Stuart",
+    "reason": "Le M3 est un char léger, dont l’armement principal est un canon de 37 mm.",
+    "source": "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/"
+  },
+  {
+    "claim": "Tiger I et Tiger II désignent exactement le même char.",
+    "answer": false,
+    "ref": "Tiger I",
+    "reason": "Ce sont deux modèles distincts, avec des conceptions et silhouettes différentes.",
+    "source": "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/"
+  },
+  {
+    "claim": "Le Panzer IV a conservé le même canon pendant toute sa carrière.",
+    "answer": false,
+    "ref": "Panzer IV",
+    "reason": "Les premières versions à canon court sont suivies de versions à canon long KwK 40.",
+    "source": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/"
+  },
+  {
+    "claim": "La doctrine du Churchill donnait la priorité à la grande vitesse.",
+    "answer": false,
+    "ref": "Churchill",
+    "reason": "Le char d’infanterie privilégiait la protection et l’accompagnement des fantassins.",
+    "source": "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+  },
+  {
+    "claim": "Le Stridsvagn 103 possède une tourelle classique.",
+    "answer": false,
+    "ref": "Stridsvagn 103",
+    "reason": "Son canon est fixé dans la caisse ; c’est l’architecture distinctive du S-Tank.",
+    "source": "https://www.saab.com/newsroom/stories/2019/may/artillery-pieces-and-combat-vehicles"
+  },
+  {
+    "claim": "Le Marder 1 est un véhicule de combat d’infanterie.",
+    "answer": true,
+    "ref": "Marder 1",
+    "reason": "Il transporte un groupe de fantassins et dispose notamment d’un canon automatique de 20 mm.",
+    "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder"
+  },
+  {
+    "claim": "Les 420 km publiés pour l’AS90 correspondent à la portée de son canon.",
+    "answer": false,
+    "ref": "AS90",
+    "reason": "420 km décrit l’autonomie du véhicule ; la portée publiée du canon est de 24,7 km.",
+    "source": "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/as90/"
+  },
+  {
+    "claim": "Le Type VII est un sous-marin à propulsion nucléaire.",
+    "answer": false,
+    "ref": "Type VII",
+    "reason": "Il utilise une propulsion diesel-électrique, avec des moteurs électriques en plongée.",
+    "source": "https://deutscher-marinebund.de/marine-ehrenmal-u-995/technisches-museum-u-995/"
+  },
+  {
+    "claim": "Le Type XXI était conçu pour privilégier la navigation en immersion.",
+    "answer": true,
+    "ref": "Type XXI",
+    "reason": "C’est l’une des différences majeures avec les sous-marins allemands des générations précédentes.",
+    "source": "https://uboot-wilhelm-bauer.de/en/history/"
+  },
+  {
+    "claim": "La classe Fletcher comprend seulement cinq bâtiments.",
+    "answer": false,
+    "ref": "Classe Fletcher",
+    "reason": "Le NHHC recense 175 destroyers de cette classe.",
+    "source": "https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/ships-us/ships-usn-f/uss-fletcher-dd-445-dde-445.html"
+  },
+  {
+    "claim": "Le retrait des Perry de l’US Navy en 2015 signifie leur retrait simultané dans le monde entier.",
+    "answer": false,
+    "ref": "Classe Oliver Hazard Perry",
+    "reason": "La fin de service américaine ne vaut pas pour toutes les marines utilisatrices.",
+    "source": "https://www.doncio.navy.mil/chips/ArticleDetails.aspx?ID=6922"
+  },
+  {
+    "claim": "Le Foch et le São Paulo brésilien sont deux coques différentes.",
+    "answer": false,
+    "ref": "Classe Clemenceau",
+    "reason": "Le São Paulo est la seconde carrière du porte-avions Foch sous pavillon brésilien.",
+    "source": "https://www.marinha.mil.br/rmb/sites/www.marinha.mil.br.rmb/files/3-2015%20revista.pdf"
+  },
+  {
+    "claim": "Le Moskva était le seul bâtiment de la classe Slava.",
+    "answer": false,
+    "ref": "Classe Slava (Projet 1164)",
+    "reason": "La Royal Navy identifie notamment le Marshal Ustinov comme un autre croiseur de la même classe.",
+    "source": "https://www.royalnavy.mod.uk/news/2022/september/06/220906-royal-navy-keeps-watch-as-russian-warships-sail-close-to-the-uk"
+  },
+  {
+    "claim": "La portée publiée du TOW 2B Aero vaut automatiquement pour toutes les versions du TOW.",
+    "answer": false,
+    "ref": "BGM-71 TOW",
+    "reason": "Les générations diffèrent ; la valeur de 4,5 km est rattachée au TOW 2B Aero.",
+    "source": "https://asc.army.mil/docs/wsh2/2010-wsh.pdf"
+  },
+  {
+    "claim": "Tous les Hellfire utilisent exactement le même autodirecteur.",
+    "answer": false,
+    "ref": "AGM-114 Hellfire",
+    "reason": "La famille comprend notamment des variantes laser et des variantes Longbow à radar.",
+    "source": "https://www.lockheedmartin.com/en-us/products/hellfire.html"
+  },
+  {
+    "claim": "La masse d’un Stinger complet est nécessairement celle du missile seul.",
+    "answer": false,
+    "ref": "FIM-92 Stinger",
+    "reason": "L’ensemble publié inclut aussi la poignée et l’unité batterie/refroidissement.",
+    "source": "https://api.army.mil/e2/c/downloads/2023/01/19/18849503/18-16-maneuver-leader-s-guide-to-stinger-handbook-apr-18-public.pdf"
+  },
+  {
+    "claim": "HAWK désigne uniquement un missile indépendant de tout radar au sol.",
+    "answer": false,
+    "ref": "MIM-23 HAWK",
+    "reason": "La batterie comprend aussi des radars et une conduite de tir ; le lanceur seul ne décrit pas le système complet.",
+    "source": "https://history.redstone.army.mil/miss-hawk.html"
+  },
+  {
+    "claim": "La V2 de la Seconde Guerre mondiale portait une charge nucléaire.",
+    "answer": false,
+    "ref": "V2 (A4)",
+    "reason": "La V2 utilisait une charge explosive conventionnelle.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/"
+  },
+  {
+    "claim": "RIM-7 Sea Sparrow et RIM-162 ESSM sont exactement le même missile.",
+    "answer": false,
+    "ref": "RIM-7 Sea Sparrow",
+    "reason": "L’ESSM est une évolution distincte ; cette fiche porte sur le RIM-7.",
+    "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/"
   }
-]);
-window.LDV_CHRONO.push(...[
+];
+window.LDV_CHRONO = [
+  {
+    "name": "F-15 Eagle",
+    "year": 1972,
+    "date": "27 juillet 1972",
+    "context": "Premier vol du prototype F-15 Eagle.",
+    "source": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing_Products.pdf"
+  },
+  {
+    "name": "F-16 Fighting Falcon",
+    "year": 1974,
+    "date": "2 février 1974",
+    "context": "Premier vol officiel du prototype YF-16.",
+    "source": "https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martin-marks-aviation-milestone-30th-anniversary-first/"
+  },
+  {
+    "name": "Mirage 2000",
+    "year": 1978,
+    "date": "10 mars 1978",
+    "context": "Le Mirage 2000-01 décolle à Istres pour la première fois.",
+    "source": "https://www.dassault-aviation.com/en/passion/history/1916-to-2000/1965-1986/"
+  },
+  {
+    "name": "Rafale A",
+    "year": 1986,
+    "date": "4 juillet 1986",
+    "context": "Premier vol du démonstrateur technologique Rafale A.",
+    "source": "https://timeline.dassault-aviation.com/fr/un-socle-pour-le-futur/"
+  },
+  {
+    "name": "JAS 39 Gripen",
+    "year": 1988,
+    "date": "1988",
+    "context": "Saab fait voler le premier appareil de développement Gripen.",
+    "source": "https://www.saab.com/about/company-in-brief/history"
+  },
+  {
+    "name": "Pilatus PC-21",
+    "year": 2002,
+    "date": "1er juillet 2002",
+    "context": "Premier vol de cet avion suisse d’entraînement.",
+    "source": "https://www.pilatus-aircraft.com/en/company/heritage"
+  },
+  {
+    "name": "F-35 Lightning II",
+    "year": 2006,
+    "date": "15 décembre 2006",
+    "context": "Premier vol du F-35 Lightning II à Fort Worth.",
+    "source": "https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martin-f-35-lightning-ii-stealth-fighter-completes/"
+  },
+  {
+    "name": "KC-390 Millennium",
+    "year": 2015,
+    "date": "3 février 2015",
+    "context": "Premier vol de l’avion de transport brésilien.",
+    "source": "https://www.embraer.com/media-center/en?detail=19386&mediatype=NEWS&page=38"
+  },
+  {
+    "name": "CH-47 Chinook",
+    "year": 1961,
+    "date": "21 septembre 1961",
+    "context": "Premier vol du CH-47A à rotors en tandem.",
+    "source": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing-Chronology.pdf"
+  },
+  {
+    "name": "C-17 Globemaster III",
+    "year": 1991,
+    "date": "15 septembre 1991",
+    "context": "Premier vol du C-17 à Long Beach.",
+    "source": "https://www.boeing.com/features/2026/09/35-years-ago-the-c-17-first-took-flight"
+  },
+  {
+    "name": "F-22 Raptor",
+    "year": 1997,
+    "date": "7 septembre 1997",
+    "context": "Premier vol du F-22 Raptor.",
+    "source": "https://www.lockheedmartin.com/en-us/news/features/history/f-22.html"
+  },
+  {
+    "name": "Su-57",
+    "year": 2010,
+    "date": "29 janvier 2010",
+    "context": "Premier vol du prototype T-50, futur Su-57.",
+    "source": "https://www.rostec.ru/media/news/su-57-15-let-v-nebe/"
+  },
+  {
+    "name": "Bayraktar Akıncı",
+    "year": 2019,
+    "date": "6 décembre 2019",
+    "context": "Premier vol du drone turc Akıncı.",
+    "source": "https://baykartech.com/en/press/turkish-akinci-combat-drone-sets-new-national-avia/"
+  },
+  {
+    "name": "P-8 Poseidon",
+    "year": 2009,
+    "date": "25 avril 2009",
+    "context": "Premier vol du Boeing P-8A Poseidon, avion de patrouille maritime.",
+    "source": "https://www.boeing.com/content/dam/boeing/boeingdotcom/history/pdf/Boeing-Chronology.pdf"
+  },
+  {
+    "name": "KF-21 Boramae",
+    "year": 2022,
+    "date": "19 juillet 2022",
+    "context": "Premier vol du prototype du chasseur sud-coréen KF-21.",
+    "source": "https://www.koreaaero.com/EN/Business/KF21.aspx"
+  },
+  {
+    "name": "UH-60 Black Hawk",
+    "year": 1974,
+    "date": "1974",
+    "context": "Premier vol du prototype Black Hawk, selon la chronologie du constructeur.",
+    "source": "https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/photo/black-hawk/8394Ke-18_BLACK-HAWK-40TH-poster.pdf"
+  },
+  {
+    "name": "Eurofighter Typhoon",
+    "year": 1994,
+    "date": "27 mars 1994",
+    "context": "Premier vol du prototype DA1 à Manching.",
+    "source": "https://www.eurofighter.com/news/30-years-young"
+  },
+  {
+    "name": "B-2 Spirit",
+    "year": 1989,
+    "date": "17 juillet 1989",
+    "context": "Premier vol du B-2 à Palmdale.",
+    "source": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104482/b-2-spirit/"
+  },
+  {
+    "name": "V-22 Osprey",
+    "year": 1989,
+    "date": "Mars 1989",
+    "context": "Premier vol de l’Osprey à Arlington, au Texas.",
+    "source": "https://www.boeing.com/features/2023/06/22-fast-facts-on-the-bell-boeing-v-22-osprey"
+  },
+  {
+    "name": "F-14 Tomcat",
+    "year": 1970,
+    "date": "21 décembre 1970",
+    "source": "https://www.history.navy.mil/browse-by-topic/communities/naval-aviation/1970-1979.html",
+    "context": "Premier vol de F-14 Tomcat."
+  },
+  {
+    "name": "F-15E Strike Eagle",
+    "year": 1986,
+    "date": "11 décembre 1986",
+    "source": "https://www.af.mil/Portals/1/documents/cct/2016/CCT_Dec_8_2016.pdf?ver=2016-12-08-163143-640",
+    "context": "Premier vol du F-15E de série, distinct du premier F-15A de 1972."
+  },
+  {
+    "name": "F-117 Nighthawk",
+    "year": 1981,
+    "date": "18 juin 1981",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198056/lockheed-f-117a-nighthawk/",
+    "context": "Premier vol de F-117 Nighthawk."
+  },
+  {
+    "name": "SR-71 Blackbird",
+    "year": 1964,
+    "date": "22 décembre 1964",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/AFmuseum/lockheed-sr-71a/",
+    "context": "Premier vol de SR-71 Blackbird."
+  },
+  {
+    "name": "B-52 Stratofortress",
+    "year": 1952,
+    "date": "15 avril 1952",
+    "source": "https://www.kirtland.af.mil/News/Features/Display/Article/390769/this-week-in-history-april-15-1952-b-52-first-flight/",
+    "context": "Premier vol de B-52 Stratofortress."
+  },
+  {
+    "name": "C-130 Hercules",
+    "year": 1954,
+    "date": "23 août 1954",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197558/lockheed-ac-130a-hercules/",
+    "context": "Premier vol de C-130 Hercules."
+  },
+  {
+    "name": "A400M Atlas",
+    "year": 2009,
+    "date": "11 décembre 2009",
+    "source": "https://publications.parliament.uk/pa/cm200910/cmselect/cmdfence/99/9905.htm",
+    "context": "Premier vol de A400M Atlas."
+  },
+  {
+    "name": "MiG-29 Fulcrum",
+    "year": 1977,
+    "date": "6 octobre 1977",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/AFmuseum/mikoyan-gurevich-mig-29a/",
+    "context": "Premier vol de MiG-29 Fulcrum."
+  },
+  {
+    "name": "Mi-24 Hind",
+    "year": 1969,
+    "date": "15 septembre 1969",
+    "source": "https://parkpatriot.ru/o-parke/tekhnika-parka/mi-24/",
+    "context": "Premier décollage du prototype V-24 sur attache; premier vol libre le 19 septembre 1969."
+  },
+  {
+    "name": "Tigre EC665",
+    "year": 1991,
+    "date": "27 avril 1991",
+    "source": "https://www.airbus.com/en/newsroom/news/2021-04-the-tiger-combat-helicopter-three-decades-of-flight-and-many-more-to-come",
+    "context": "Premier vol de Tigre EC665."
+  },
+  {
+    "year": 1958,
+    "date": "27 mai 1958",
+    "source": "https://www.history.navy.mil/today-in-history/may-27.html",
+    "context": "Premier vol du prototype XF4H-1 de la famille Phantom II, antérieur au F-4C de 1963.",
+    "name": "F-4 Phantom II"
+  },
+  {
+    "year": 1966,
+    "date": "23 décembre 1966",
+    "source": "https://www.dassault-aviation.com/fr/passion/avions/dassault-militaires/mirage-f1/",
+    "context": "Premier vol du prototype Mirage F1 01 à Melun-Villaroche, piloté par René Bigand.",
+    "name": "Mirage F1"
+  },
+  {
+    "year": 1955,
+    "date": "14 février 1955",
+    "source": "https://www.rostec.ru/media/news/mig-21-proshchay-legenda-chast-i/",
+    "context": "Premier vol de l’E-2, prototype initial à aile en flèche du programme MiG-21; l’E-4 à aile delta vole le 16 juin 1955.",
+    "name": "MiG-21"
+  },
+  {
+    "year": 1975,
+    "date": "22 février 1975",
+    "source": "https://www.rostec.ru/media/news/grachi-prileteli-polveka-pervomu-poletu-su-25/",
+    "context": "Premier vol du prototype T-8 par Vladimir Iliouchine, source industrielle commémorative du 22 février 2025.",
+    "name": "Su-25"
+  },
+  {
+    "year": 1972,
+    "date": "9 février 1972",
+    "source": "https://www.acc.af.mil/News/Article-Display/Article/2957379/whales-tales/",
+    "context": "Premier vol du démonstrateur EC-137D, précurseur du Sentry; il ne s’agit pas de l’entrée en service des E-3 de série en 1977.",
+    "name": "E-3 Sentry"
+  },
+  {
+    "year": 2007,
+    "date": "Juin 2007",
+    "source": "https://www.airbus.com/sites/g/files/jlcbta136/files/2021-07/annual-review-2007.pdf",
+    "context": "Premier vol de l’A330 MRTT selon le rapport annuel EADS 2007; précision mensuelle retenue car cette source ne donne pas le jour.",
+    "name": "A330 MRTT"
+  },
   {
     "year": 2014,
     "date": "31 janvier 2014",
@@ -1187,5 +1379,40 @@ window.LDV_CHRONO.push(...[
     "source": "https://www.boeing.com/features/2026/06/last-av-8b-harrier-jet-flies-away-into-history",
     "context": "Premier vol du démonstrateur YAV-8B, selon Boeing. Le premier appareil AV-8B de développement complet vole le 5 novembre 1981; le Harrier II Plus vole le 22 septembre 1992.",
     "name": "AV-8B Harrier II"
+  },
+  {
+    "name": "Spitfire",
+    "year": 1936,
+    "date": "5 mars 1936",
+    "context": "Premier vol du prototype de la famille, et non date d’entrée en service.",
+    "source": "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/"
+  },
+  {
+    "name": "B-17 Flying Fortress",
+    "year": 1935,
+    "date": "28 juillet 1935",
+    "context": "Premier vol du prototype de la famille, et non date d’entrée en service.",
+    "source": "https://museumofaviation.org/portfolio/b-17g-flying-fortress/"
+  },
+  {
+    "name": "F-86 Sabre",
+    "year": 1947,
+    "date": "Octobre 1947",
+    "context": "Premier vol du prototype de la famille, et non date d’entrée en service.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/"
+  },
+  {
+    "name": "Me 262",
+    "year": 1942,
+    "date": "18 juillet 1942",
+    "context": "Premier vol sous propulsion à réaction ; distinct des essais antérieurs.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/"
+  },
+  {
+    "name": "F-104 Starfighter",
+    "year": 1954,
+    "date": "1954",
+    "context": "Premier vol du prototype XF-104.",
+    "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/"
   }
-]);
+];
