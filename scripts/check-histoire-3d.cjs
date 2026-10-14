@@ -4,7 +4,11 @@ function read(name){return fs.readFileSync(path.join(root,name),'utf8')}
 vm.runInNewContext(read('engins-data.js'),ctx);
 vm.runInNewContext(read('histoire-3d-data.js'),ctx);
 const models=ctx.window.RADAR_3D_MODELS,items=ctx.window.LDV_ENGINS;
-assert.equal(Object.keys(models).length,149);
+assert.equal(Object.keys(models).length,179);
+// Chaque nouvel engin de la série 9 doit aussi proposer sa vue 3D.
+const additions=items.filter(item=>item.addedBatch===9);
+assert.equal(additions.length,30);
+for(const item of additions)assert.ok(models[item.name],'Vue 3D manquante : '+item.name);
 const seen=new Set();
 for(const [name,m] of Object.entries(models)){
  assert.equal(items[m.index].name,name);assert.equal(m.engine,name);
