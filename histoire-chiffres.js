@@ -1260,5 +1260,165 @@ window.LDV_CHIFFRES = {
       "note": "Le missile marquant le jalon est un JASSM Baseline du lot 12 ; le communiqué décrit un programme comprenant aussi JASSM-ER. Ce jalon n’est pas présenté comme 2 000 AGM-158A seuls, ni comme un stock restant ou un total mondial de 2026. Les plus de 2 700 commandés mentionnés dans le même communiqué sont un chiffre distinct des livraisons.",
       "source": "https://news.lockheedmartin.com/2016-09-06-Lockheed-Martin-Delivers-2-000th-JASSM-to-the-U-S-Air-Force%2C1"
     }
+  },
+  "162": {
+    "production": {
+      "label": "Production documentée",
+      "value": "Près de 8 000 P-51D",
+      "note": "Production de la seule version D indiquée par le musée ; ne représente pas tous les Mustang.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/"
+    }
+  },
+  "163": {
+    "production": {
+      "label": "Commande documentée",
+      "value": "310 commandés en juin 1936",
+      "note": "Première commande britannique, pas le total de production de la famille.",
+      "source": "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/"
+    }
+  },
+  "164": {
+    "production": {
+      "label": "Production documentée",
+      "value": "12 726 B-17",
+      "note": "Total de toutes les versions à la fin de la production en mai 1945.",
+      "source": "https://museumofaviation.org/portfolio/b-17g-flying-fortress/"
+    }
+  },
+  "166": {
+    "production": {
+      "label": "Livraisons ou acquisitions documentées",
+      "value": "9 348 acquis par l’USAAC/USAAF",
+      "note": "Acquisitions américaines à la fin de la Seconde Guerre mondiale selon le musée ; ne constitue pas un total de tous les dérivés du DC-3.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/"
+    }
+  },
+  "167": {
+    "production": {
+      "label": "Production documentée",
+      "value": "Plus de 5 500 chasseurs de jour",
+      "note": "Périmètre américain et canadien cité par le musée ; exclut l’assimilation à un total mondial de tous les Sabre.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/"
+    }
+  },
+  "169": {
+    "production": {
+      "label": "Production documentée",
+      "value": "Plus de 1 400",
+      "note": "Ordre de grandeur de la famille publié par le musée USAF.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/"
+    }
+  },
+  "173": {
+    "production": {
+      "label": "Production documentée",
+      "value": "13 859 M3 de la famille",
+      "note": "Total publié sur la notice du Tank Museum ; le périmètre comprend la série M3 et ne doit pas être lu comme le nombre de seuls M3A1.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/"
+    }
+  },
+  "174": {
+    "production": {
+      "label": "Production documentée",
+      "value": "1 354 selon le Tank Museum",
+      "note": "Décompte de la notice du musée pour le Tiger I ; certains ouvrages emploient un périmètre légèrement différent.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/"
+    }
+  },
+  "175": {
+    "production": {
+      "label": "Production documentée",
+      "value": "8 553",
+      "note": "Total de la famille Panzer IV publié par le Tank Museum.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/"
+    }
+  },
+  "177": {
+    "production": {
+      "label": "Livraisons ou acquisitions documentées",
+      "value": "290 livrés",
+      "note": "Commande et livraisons de la série suédoise ; les transformations B puis C ne sont pas comptées comme de nouveaux chars.",
+      "source": "https://www.saab.com/newsroom/stories/2019/may/artillery-pieces-and-combat-vehicles"
+    }
+  },
+  "179": {
+    "production": {
+      "label": "Commande documentée",
+      "value": "179 commandés en 1989",
+      "note": "Commande annoncée au Parlement ; ce chiffre n’est pas présenté comme un inventaire disponible aujourd’hui.",
+      "source": "https://hansard.parliament.uk/Commons/1989-06-20/debates/a1db6bb6-563a-465c-9dde-c881ebb85b51/WrittenAnswers"
+    }
+  },
+  "182": {
+    "production": {
+      "label": "Production documentée",
+      "value": "175 bâtiments",
+      "note": "Total de la classe Fletcher cité par le Naval History and Heritage Command.",
+      "source": "https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/ships-us/ships-usn-f/uss-fletcher-dd-445-dde-445.html"
+    }
+  },
+  "184": {
+    "production": {
+      "label": "Production documentée",
+      "value": "2 porte-avions",
+      "note": "Clemenceau et Foch ; le São Paulo est le Foch transféré, pas une troisième construction.",
+      "source": "https://www.marinha.mil.br/rmb/sites/www.marinha.mil.br.rmb/files/3-2015%20revista.pdf"
+    }
+  },
+  "186": {
+    "production": {
+      "label": "Livraisons ou acquisitions documentées",
+      "value": "Plus de 700 000 livrés",
+      "note": "Jalon RTX d’octobre 2024, présenté par le constructeur comme des systèmes TOW livrés ; aucun inventaire disponible actuel n’en est déduit.",
+      "source": "https://www.rtx.com/news/news-center/2024/10/23/u-s-army-awards-rtxs-raytheon-tow-contracts-for-676-million"
+    }
+  },
+  "187": {
+    "production": {
+      "label": "Livraisons ou acquisitions documentées",
+      "value": "Plus de 100 000 Hellfire livrés",
+      "note": "Jalon industriel de la fiche AGMS du constructeur, et non inventaire opérationnel. Le document regroupe l’héritage Hellfire II et Longbow.",
+      "source": "https://www.f35.com/content/dam/lockheed-martin/mfc/documents/business-area-landing/agms-fast-facts.pdf"
+    }
+  },
+  "189": {
+    "combatRecords": [
+      {
+        "title": "Engagements rapportés au Koweït en 1990",
+        "status": "Bilan attribué dans une source officielle, non recoupé ici",
+        "date": "2 août 1990",
+        "text": "L’historique Redstone de l’US Army attribue aux unités koweïtiennes équipées de HAWK environ 22 avions irakiens et un hélicoptère abattus pendant l’invasion. Il s’agit d’un bilan rétrospectif rapporté par cette source, sans liste détaillée de pertes jointe. Radar le présente comme une attribution, pas comme un total indépendant confirmé ni comme le bilan mondial du missile.",
+        "sources": [
+          {
+            "label": "US Army Redstone — histoire du HAWK",
+            "url": "https://history.redstone.army.mil/miss-hawk.html"
+          }
+        ]
+      }
+    ]
+  },
+  "190": {
+    "production": {
+      "label": "Production documentée",
+      "value": "Environ 6 000",
+      "note": "Ordre de grandeur publié par le musée USAF pour 1944–1945 ; tous n’ont pas été lancés.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/"
+    }
+  },
+  "191": {
+    "combatRecords": [
+      {
+        "title": "Interceptions d’Exocet lors d’un exercice naval",
+        "status": "Essai documenté — hors combat",
+        "date": "Mai 1990",
+        "text": "L’historique officiel de l’USS Spruance décrit le lancement de quatre Sea Sparrow et l’interception de deux missiles MM38 Exocet pendant un exercice américano-allemand le 12 mai 1990. Ce résultat documente un exercice précis ; il n’est pas compté comme un bilan de destructions au combat.",
+        "sources": [
+          {
+            "label": "NHHC — essais documentés de l’USS Spruance",
+            "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/s/spruance.html"
+          }
+        ]
+      }
+    ]
   }
 };

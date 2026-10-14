@@ -30,7 +30,7 @@ for(const item of items){
  const preview=api.preview(item);assert.ok(preview&&preview.real!==false,item.name+' : aperçu réel absent');
  if((data[item.name]||[]).length&&item.mediaLabel!=='Illustration')assert.notEqual(preview.src,records[0].src,item.name+' : aperçu identique à la base');
 }
-assert.equal(newPhotos,277);assert.equal(total,438);assert.equal(multi,160);
+assert.equal(newPhotos,307);assert.equal(total,498);assert.equal(multi,190);
 assert.match(api.photos(items.find(e=>e.name==='AGM-158 JASSM'))[0].source,/^https:\/\/www\.dvidshub\.net\//,'Une photo DVIDS doit renvoyer vers sa véritable source');
 assert.equal(api.photos(items[97])[0].userProvided,true);assert.equal(api.photos(items[97]).length,1);
 assert.ok(!data['Type 055'].some(p=>p.file==='Type 055 destroyer.jpg'));

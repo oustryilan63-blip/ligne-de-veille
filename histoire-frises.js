@@ -5810,5 +5810,961 @@ window.LDV_TIMELINES = {
       "source": "https://www.gov.pl/web/obrona-narodowa/pociski-jassm-dla-f-16-2",
       "year": 2017
     }
+  ],
+  "162": [
+    {
+      "date": "Décembre",
+      "year": 1943,
+      "label": "Premiers P-51B/C au combat en Europe",
+      "detail": "Les versions à moteur Merlin précèdent le P-51D dans les groupes d’escorte américains.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/"
+    },
+    {
+      "date": "Printemps",
+      "year": 1944,
+      "label": "Le P-51D arrive en nombre",
+      "detail": "Sa verrière en goutte d’eau et ses six mitrailleuses caractérisent cette version.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/"
+    },
+    {
+      "date": "1950",
+      "year": 1950,
+      "label": "Retour au combat en Corée",
+      "detail": "Désignés F-51, des Mustang sont engagés dans l’appui au sol.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/"
+    },
+    {
+      "date": "1957",
+      "year": 1957,
+      "label": "Fin du service dans les unités USAF",
+      "detail": "Les derniers appareils de la réserve et de la Garde nationale sont retirés.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196263/north-american-p-51d-mustang/"
+    }
+  ],
+  "163": [
+    {
+      "date": "5 mars 1936",
+      "year": 1936,
+      "label": "Premier vol du prototype",
+      "detail": "K5054 décolle d’Eastleigh avec Joseph Summers aux commandes.",
+      "source": "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/"
+    },
+    {
+      "date": "3 juin 1936",
+      "year": 1936,
+      "label": "Première commande",
+      "detail": "Le ministère de l’Air commande 310 avions.",
+      "source": "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/"
+    },
+    {
+      "date": "4 août 1938",
+      "year": 1938,
+      "label": "Premières livraisons en escadrille",
+      "detail": "Le 19 Squadron reçoit le Spitfire.",
+      "source": "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/"
+    },
+    {
+      "date": "Été 1940",
+      "year": 1940,
+      "label": "Bataille d’Angleterre",
+      "detail": "La RAF dispose de dix-neuf escadrilles de Spitfire I en juillet.",
+      "source": "https://www.rafmuseum.org.uk/research/collections/supermarine-spitfire-i/"
+    }
+  ],
+  "164": [
+    {
+      "date": "28 juillet 1935",
+      "year": 1935,
+      "label": "Premier vol du prototype",
+      "detail": "Le Model 299 inaugure la lignée du B-17.",
+      "source": "https://museumofaviation.org/portfolio/b-17g-flying-fortress/"
+    },
+    {
+      "date": "Mai 1945",
+      "year": 1945,
+      "label": "Fin de la production",
+      "detail": "Le total de la famille atteint 12 726 avions.",
+      "source": "https://museumofaviation.org/portfolio/b-17g-flying-fortress/"
+    },
+    {
+      "date": "Juillet 1950",
+      "year": 1950,
+      "label": "Une seconde carrière spécialisée",
+      "detail": "Le 44-83690 reçoit des équipements de contrôle de drones.",
+      "source": "https://museumofaviation.org/portfolio/b-17g-flying-fortress/"
+    },
+    {
+      "date": "2015",
+      "year": 2015,
+      "label": "Transfert pour restauration",
+      "detail": "Cet exemplaire rejoint le Museum of Aviation de Robins.",
+      "source": "https://museumofaviation.org/portfolio/b-17g-flying-fortress/"
+    }
+  ],
+  "165": [
+    {
+      "date": "1944",
+      "year": 1944,
+      "label": "Industrialisation accélérée",
+      "detail": "La « bataille du Kansas » vise à rendre les avions disponibles pour les opérations.",
+      "source": "https://www.afmc.af.mil/News/Article-Display/Article/1602130/flashback-battle-of-kansas-and-the-birth-of-the-superfortress"
+    },
+    {
+      "date": "6 août 1945",
+      "year": 1945,
+      "label": "Bombardement atomique d’Hiroshima",
+      "detail": "Enola Gay est l’appareil porteur de cette mission.",
+      "source": "https://airandspace.si.edu/collection-objects/boeing-b-29-superfortress-enola-gay/nasm_A19500100000"
+    },
+    {
+      "date": "9 août 1945",
+      "year": 1945,
+      "label": "Bombardement atomique de Nagasaki",
+      "detail": "Bockscar effectue le second bombardement atomique.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/"
+    },
+    {
+      "date": "1950",
+      "year": 1950,
+      "label": "Engagement en Corée",
+      "detail": "Le B-29 reprend des missions de combat.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/"
+    },
+    {
+      "date": "26 septembre 1961",
+      "year": 1961,
+      "label": "Bockscar rejoint le musée",
+      "detail": "Le bombardier conservé arrive à Dayton.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196252/boeing-b-29-superfortress/"
+    }
+  ],
+  "166": [
+    {
+      "date": "1940",
+      "year": 1940,
+      "label": "Première commande américaine",
+      "detail": "L’US Army Air Corps commande le transport dérivé du DC-3.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/"
+    },
+    {
+      "date": "6 juin 1944",
+      "year": 1944,
+      "label": "Opérations de Normandie",
+      "detail": "Des C-47 transportent les parachutistes et remorquent des planeurs.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/"
+    },
+    {
+      "date": "22 mars 1945",
+      "year": 1945,
+      "label": "Évacuation par planeur à Remagen",
+      "detail": "Le pilote Bud Berry utilise un C-47 pour récupérer un planeur chargé de blessés.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/"
+    },
+    {
+      "date": "1975",
+      "year": 1975,
+      "label": "Dernier C-47 d’usage courant USAF préservé",
+      "detail": "Le C-47D du musée rejoint Dayton.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196271/douglas-c-47d-skytrain/"
+    }
+  ],
+  "167": [
+    {
+      "date": "Octobre 1947",
+      "year": 1947,
+      "label": "Premier vol",
+      "detail": "Le prototype inaugure le premier chasseur à réaction à aile en flèche de l’USAF.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/"
+    },
+    {
+      "date": "Mai 1948",
+      "year": 1948,
+      "label": "Premier appareil de production",
+      "detail": "Le F-86A de série commence ses vols.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/"
+    },
+    {
+      "date": "Septembre 1948",
+      "year": 1948,
+      "label": "Record de vitesse",
+      "detail": "Un F-86A atteint officiellement 670,9 mph.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/"
+    },
+    {
+      "date": "17 décembre 1950",
+      "year": 1950,
+      "label": "Première victoire du Sabre contre un MiG",
+      "detail": "Bruce Hinton remporte le combat cité par le musée.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/"
+    },
+    {
+      "date": "1961",
+      "year": 1961,
+      "label": "Préservation d’un F-86A",
+      "detail": "L’exemplaire exposé rejoint Dayton.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196118/north-american-f-86a-sabre/"
+    }
+  ],
+  "168": [
+    {
+      "date": "1949",
+      "year": 1949,
+      "label": "Entrée en service",
+      "detail": "Le MiG-15 équipe les forces soviétiques.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/"
+    },
+    {
+      "date": "1950",
+      "year": 1950,
+      "label": "Production du MiG-15bis",
+      "detail": "La version améliorée reçoit un moteur plus puissant.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196115/mikoyan-gurevich-mig-15bis/"
+    },
+    {
+      "date": "Novembre 1950",
+      "year": 1950,
+      "label": "Engagement en Corée",
+      "detail": "L’apparition du chasseur surprend les forces des Nations unies.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196377/USAFmuseum/the-story-of-the-mig-15bis-on-display/"
+    },
+    {
+      "date": "21 septembre 1953",
+      "year": 1953,
+      "label": "Arrivée d’un MiG-15bis à Kimpo",
+      "detail": "No Kum-Sok fuit la Corée du Nord avec son appareil.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196377/USAFmuseum/the-story-of-the-mig-15bis-on-display/"
+    },
+    {
+      "date": "1957",
+      "year": 1957,
+      "label": "Transfert au musée américain",
+      "detail": "L’avion évalué après la défection devient une pièce de collection.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196377/USAFmuseum/the-story-of-the-mig-15bis-on-display/"
+    }
+  ],
+  "169": [
+    {
+      "date": "1938",
+      "year": 1938,
+      "label": "Début du projet",
+      "detail": "Le développement part des études de Messerschmitt.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/"
+    },
+    {
+      "date": "18 juillet 1942",
+      "year": 1942,
+      "label": "Premier vol sous réaction",
+      "detail": "Cette date distingue le vol à réaction des premiers essais du prototype.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/"
+    },
+    {
+      "date": "25 juillet 1944",
+      "year": 1944,
+      "label": "Premier engagement cité par le musée",
+      "detail": "Un Me 262 attaque un Mosquito de reconnaissance.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/"
+    },
+    {
+      "date": "Juillet 1945",
+      "year": 1945,
+      "label": "Évaluation aux États-Unis",
+      "detail": "L’appareil aujourd’hui conservé à Dayton est transféré depuis l’Allemagne.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196266/messerschmitt-me-262a-schwalbe/"
+    }
+  ],
+  "170": [
+    {
+      "date": "1952",
+      "year": 1952,
+      "label": "Début du développement",
+      "detail": "Lockheed lance l’étude du futur Starfighter.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/"
+    },
+    {
+      "date": "1954",
+      "year": 1954,
+      "label": "Premier vol du XF-104",
+      "detail": "Le prototype ouvre la campagne d’essais.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/"
+    },
+    {
+      "date": "18 mai 1958",
+      "year": 1958,
+      "label": "Record mondial de vitesse",
+      "detail": "Un F-104A atteint 1 404,19 mph.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/"
+    },
+    {
+      "date": "14 décembre 1959",
+      "year": 1959,
+      "label": "Record mondial d’altitude",
+      "detail": "Un F-104C atteint 103 395 pieds.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198067/lockheed-f-104c-starfighter/"
+    },
+    {
+      "date": "1980",
+      "year": 1980,
+      "label": "Dernier appareil construit",
+      "detail": "Le constructeur situe à cette date la fin de la production.",
+      "source": "https://www.lockheedmartin.com/en-us/news/features/history/f-104.html"
+    }
+  ],
+  "171": [
+    {
+      "date": "1986",
+      "year": 1986,
+      "label": "Su-27UB en service soviétique",
+      "detail": "La variante biplace conserve une capacité de combat.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+    },
+    {
+      "date": "1989",
+      "year": 1989,
+      "label": "Construction de l’avion préservé",
+      "detail": "L’exemplaire du musée sert d’abord dans l’aéronavale soviétique.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+    },
+    {
+      "date": "2008",
+      "year": 2008,
+      "label": "Vente à une entreprise américaine",
+      "detail": "L’appareil ukrainien est démilitarisé avant sa vente.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+    },
+    {
+      "date": "2011",
+      "year": 2011,
+      "label": "Acquisition par l’US Air Force",
+      "detail": "Cette étape concerne l’exemplaire du musée, pas un achat de la famille pour des unités de combat.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+    },
+    {
+      "date": "2023",
+      "year": 2023,
+      "label": "Arrivée au musée de Dayton",
+      "detail": "Le Su-27UB entre dans les collections.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/"
+    }
+  ],
+  "172": [
+    {
+      "date": "Avril 1941",
+      "year": 1941,
+      "label": "Étude du M4",
+      "detail": "Le nouveau char reprend plusieurs éléments mécaniques du M3.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/m4-sherman/"
+    },
+    {
+      "date": "Septembre 1941",
+      "year": 1941,
+      "label": "Modèle pilote",
+      "detail": "Le projet reçoit une tourelle portant l’armement principal.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/m4-sherman/"
+    },
+    {
+      "date": "Février 1942",
+      "year": 1942,
+      "label": "Début de la production",
+      "detail": "Le Sherman entre en fabrication industrielle.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/m4-sherman/"
+    },
+    {
+      "date": "1944",
+      "year": 1944,
+      "label": "Conversions spécialisées",
+      "detail": "Des Sherman sont adaptés au déminage et aux opérations amphibies.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/m4-sherman/"
+    }
+  ],
+  "173": [
+    {
+      "date": "1940",
+      "year": 1940,
+      "label": "Standardisation du projet",
+      "detail": "L’évolution des chars légers américains conduit au M3.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/"
+    },
+    {
+      "date": "Juillet 1941",
+      "year": 1941,
+      "label": "Arrivée en Afrique du Nord",
+      "detail": "Les Britanniques commencent à recevoir le Stuart.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/"
+    },
+    {
+      "date": "Novembre 1941",
+      "year": 1941,
+      "label": "Premiers combats britanniques",
+      "detail": "Le M3 est employé pendant la campagne du désert.",
+      "source": "https://www.nationalww2museum.org/visit/museum-campus/us-freedom-pavilion/vehicles-war/m3a1-stuart-tank"
+    },
+    {
+      "date": "1990",
+      "year": 1990,
+      "label": "Un exemplaire brésilien rejoint Bovington",
+      "detail": "Le Brésil donne au musée un Stuart à caisse M3 et tourelle M3A1.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/m3a1-stuart/"
+    }
+  ],
+  "174": [
+    {
+      "date": "1942",
+      "year": 1942,
+      "label": "Premiers engagements",
+      "detail": "Le Tiger I apparaît d’abord sur le front de l’Est.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/"
+    },
+    {
+      "date": "24 avril 1943",
+      "year": 1943,
+      "label": "Capture de Tiger 131",
+      "detail": "Des forces britanniques s’emparent de cet exemplaire en Tunisie.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/tiger-i/"
+    },
+    {
+      "date": "1944",
+      "year": 1944,
+      "label": "Combats en Europe occidentale",
+      "detail": "Les archives photographiques documentent le Tiger I en France.",
+      "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-299-1805-16,_Nordfrankreich,_Panzer_VI_(Tiger_I).2.jpg"
+    },
+    {
+      "date": "2026",
+      "year": 2026,
+      "label": "Préservation et démonstrations",
+      "detail": "Tiger 131 fait l’objet d’un programme de conservation au Tank Museum.",
+      "source": "https://tankmuseum.org/article/tiger-day-autumn-stars-2026"
+    }
+  ],
+  "175": [
+    {
+      "date": "1939",
+      "year": 1939,
+      "label": "Emploi au début de la guerre",
+      "detail": "Le Panzer IV sert alors principalement à l’appui avec un canon court.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/"
+    },
+    {
+      "date": "Hiver 1941–1942",
+      "year": 1941,
+      "label": "Évolution de l’armement",
+      "detail": "L’adoption d’un canon long transforme les capacités de la famille.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/"
+    },
+    {
+      "date": "1943",
+      "year": 1943,
+      "label": "Transformation de l’exemplaire de Bovington",
+      "detail": "Il reçoit une protection renforcée et un KwK 40 L/43.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/"
+    },
+    {
+      "date": "1945",
+      "year": 1945,
+      "label": "Une famille centrale de l’effort allemand",
+      "detail": "Le total de production donné par le musée atteint 8 553 exemplaires.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/panzer-iv/"
+    }
+  ],
+  "176": [
+    {
+      "date": "1941",
+      "year": 1941,
+      "label": "Premières versions de série",
+      "detail": "Le musée conserve une caisse construite comme Mark I ou II cette année-là.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+    },
+    {
+      "date": "1942",
+      "year": 1942,
+      "label": "Développement des conversions du génie",
+      "detail": "Un Churchill III conservé est construit avant sa conversion en AVRE.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+    },
+    {
+      "date": "30 juillet 1944",
+      "year": 1944,
+      "label": "Combats pour la cote 309",
+      "detail": "Les Churchill jouent un rôle notable dans cette opération de Normandie.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+    },
+    {
+      "date": "Octobre 1945",
+      "year": 1945,
+      "label": "Dernier Churchill construit",
+      "detail": "Le musée identifie son exemplaire Crocodile comme le dernier produit.",
+      "source": "https://tankmuseum.org/tank-nuts/tank-collection/churchill-iv/"
+    }
+  ],
+  "177": [
+    {
+      "date": "1957",
+      "year": 1957,
+      "label": "Concept du S-Tank",
+      "detail": "Le projet de Sven Berge retient une silhouette sans tourelle.",
+      "source": "https://www.saab.com/newsroom/stories/2019/may/artillery-pieces-and-combat-vehicles"
+    },
+    {
+      "date": "1964",
+      "year": 1964,
+      "label": "Commande de 290 chars",
+      "detail": "Bofors reçoit une commande majeure de l’administration suédoise.",
+      "source": "https://www.saab.com/newsroom/stories/2019/may/artillery-pieces-and-combat-vehicles"
+    },
+    {
+      "date": "1967–1971",
+      "year": 1967,
+      "label": "Livraisons à l’armée",
+      "detail": "Le véhicule devient officiellement Stridsvagn 103.",
+      "source": "https://www.saab.com/newsroom/stories/2019/may/artillery-pieces-and-combat-vehicles"
+    },
+    {
+      "date": "1986–1988",
+      "year": 1986,
+      "label": "Transformation au standard C",
+      "detail": "Les véhicules sont rénovés et modernisés.",
+      "source": "https://www.sphf.se/svenskt-pansar/fordon/stridsvagn-2/"
+    },
+    {
+      "date": "2001",
+      "year": 2001,
+      "label": "Fin de période de service recensée",
+      "detail": "L’association historique situe la fin de service en 2001 ; Saab cite 1997 pour le retrait, selon son périmètre.",
+      "source": "https://www.sphf.se/svenskt-pansar/fordon/stridsvagn-2/"
+    }
+  ],
+  "178": [
+    {
+      "date": "7 mai 1971",
+      "year": 1971,
+      "label": "Premiers exemplaires livrés",
+      "detail": "Les cérémonies de remise ont lieu à Kiel et à Kassel.",
+      "source": "https://www.rheinmetall.com/de/media/stories/2022/50-jahre-marder"
+    },
+    {
+      "date": "1989",
+      "year": 1989,
+      "label": "Introduction du standard 1A3",
+      "detail": "La protection et l’équipement évoluent.",
+      "source": "https://www.bundeswehr.de/de/ausruestung-technik-bundeswehr/landsysteme-bundeswehr/schuetzenpanzer-marder"
+    },
+    {
+      "date": "1999",
+      "year": 1999,
+      "label": "Emploi au Kosovo",
+      "detail": "Des véhicules allemands sont documentés dans la KFOR.",
+      "source": "https://commons.wikimedia.org/wiki/File:German_KFOR_armoured_vehicle,_1999.jpg"
+    },
+    {
+      "date": "2021",
+      "year": 2021,
+      "label": "Cinquantième anniversaire",
+      "detail": "L’industriel revient sur les modernisations et les engagements du véhicule.",
+      "source": "https://www.rheinmetall.com/de/media/stories/2022/50-jahre-marder"
+    }
+  ],
+  "179": [
+    {
+      "date": "20 juin 1989",
+      "year": 1989,
+      "label": "Choix de l’AS90",
+      "detail": "Le gouvernement annonce une commande de 179 obusiers.",
+      "source": "https://hansard.parliament.uk/Commons/1989-06-20/debates/a1db6bb6-563a-465c-9dde-c881ebb85b51/WrittenAnswers"
+    },
+    {
+      "date": "Années 1990",
+      "year": 1993,
+      "label": "Mise en service britannique",
+      "detail": "L’AS90 remplace une génération d’artillerie automotrice.",
+      "source": "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/as90/"
+    },
+    {
+      "date": "2023",
+      "year": 2023,
+      "label": "Don de 32 systèmes à l’Ukraine",
+      "detail": "La British Army documente ce don lors de l’introduction d’Archer.",
+      "source": "https://www.army.mod.uk/news/british-gunners-take-aim-and-fire-swedish-archer-for-the-first-time/"
+    },
+    {
+      "date": "2023",
+      "year": 2023,
+      "label": "Relais par Archer",
+      "detail": "Le système suédois est acquis comme solution intermédiaire pour l’armée britannique.",
+      "source": "https://www.army.mod.uk/news/british-gunners-take-aim-and-fire-swedish-archer-for-the-first-time/"
+    }
+  ],
+  "180": [
+    {
+      "date": "16 septembre 1943",
+      "year": 1943,
+      "label": "U-995 entre en service",
+      "detail": "Le sous-marin est mis en service à Hambourg.",
+      "source": "https://deutscher-marinebund.de/marine-ehrenmal-u-995/technisches-museum-u-995/"
+    },
+    {
+      "date": "8 mai 1945",
+      "year": 1945,
+      "label": "Fin du service de guerre allemand",
+      "detail": "U-995 se trouve alors en Norvège.",
+      "source": "https://deutscher-marinebund.de/marine-ehrenmal-u-995/technisches-museum-u-995/"
+    },
+    {
+      "date": "1947",
+      "year": 1947,
+      "label": "Reprise par la Norvège",
+      "detail": "Le bâtiment connaît une carrière après-guerre sous pavillon norvégien.",
+      "source": "https://deutscher-marinebund.de/marine-ehrenmal-u-995/technisches-museum-u-995/"
+    },
+    {
+      "date": "13 mars 1972",
+      "year": 1972,
+      "label": "Installation à Laboe",
+      "detail": "Le sous-marin devient un musée technique près du mémorial naval.",
+      "source": "https://deutscher-marinebund.de/marine-ehrenmal-u-995/technisches-museum-u-995/"
+    }
+  ],
+  "181": [
+    {
+      "date": "1945",
+      "year": 1945,
+      "label": "Sabordage de l’U-2540",
+      "detail": "Son équipage coule le sous-marin à la fin de la guerre.",
+      "source": "https://uboot-wilhelm-bauer.de/en/history/"
+    },
+    {
+      "date": "1957",
+      "year": 1957,
+      "label": "Renflouement",
+      "detail": "Le bâtiment est récupéré après douze ans au fond de l’eau.",
+      "source": "https://uboot-wilhelm-bauer.de/en/history/"
+    },
+    {
+      "date": "1960",
+      "year": 1960,
+      "label": "Retour en service comme Wilhelm Bauer",
+      "detail": "Il sert aux essais de la marine ouest-allemande.",
+      "source": "https://uboot-wilhelm-bauer.de/en/history/"
+    },
+    {
+      "date": "1970",
+      "year": 1970,
+      "label": "Nouvelle phase expérimentale",
+      "detail": "L’exploitation se poursuit avec un équipage civil.",
+      "source": "https://uboot-wilhelm-bauer.de/en/history/"
+    },
+    {
+      "date": "28 avril 1984",
+      "year": 1984,
+      "label": "Ouverture du musée",
+      "detail": "Le bâtiment devient accessible à Bremerhaven.",
+      "source": "https://uboot-wilhelm-bauer.de/en/history/"
+    }
+  ],
+  "182": [
+    {
+      "date": "30 juin 1942",
+      "year": 1942,
+      "label": "Fletcher entre en service",
+      "detail": "Le premier bâtiment donne son nom à la classe.",
+      "source": "https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/ships-us/ships-usn-f/uss-fletcher-dd-445-dde-445.html"
+    },
+    {
+      "date": "11 février 1943",
+      "year": 1943,
+      "label": "Action anti-sous-marine",
+      "detail": "Le Fletcher participe à la destruction de l’I-18 selon l’historique naval.",
+      "source": "https://www.history.navy.mil/browse-by-topic/ships/modern-ships/uss-fletcher.html"
+    },
+    {
+      "date": "1945",
+      "year": 1945,
+      "label": "Une grande série de guerre",
+      "detail": "La famille compte 175 unités construites.",
+      "source": "https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/ships-us/ships-usn-f/uss-fletcher-dd-445-dde-445.html"
+    },
+    {
+      "date": "Années 1950",
+      "year": 1950,
+      "label": "Poursuite du service",
+      "detail": "Des bâtiments, dont l’Erben photographié par l’US Navy, servent après la guerre.",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Erben_(DD-631)_underway_the_1950s.jpg"
+    }
+  ],
+  "183": [
+    {
+      "date": "1977",
+      "year": 1977,
+      "label": "Début du service américain",
+      "detail": "La famille entre dans la flotte des États-Unis.",
+      "source": "https://www.doncio.navy.mil/chips/ArticleDetails.aspx?ID=6922"
+    },
+    {
+      "date": "1982",
+      "year": 1982,
+      "label": "Service en formation",
+      "detail": "Des frégates de la classe sont photographiées ensemble en navigation par l’US Navy.",
+      "source": "https://commons.wikimedia.org/wiki/File:Oliver_Hazard_Perry-class_frigates_underway_in_1982.JPEG"
+    },
+    {
+      "date": "2010",
+      "year": 2010,
+      "label": "Emploi international prolongé",
+      "detail": "Des unités américaines participent encore à RIMPAC.",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_100707-N-0641S-215_SS_Ford_(FFG_54)_departs_Joint_Base_Pearl_Harbor-Hickam_to_support_Rim_of_the_Pacific_(RIMPAC)_2010_exercises.jpg"
+    },
+    {
+      "date": "30 septembre 2015",
+      "year": 2015,
+      "label": "Fin du service dans l’US Navy",
+      "detail": "Le retrait américain ne signifie pas la disparition des navires dans toutes les marines.",
+      "source": "https://www.doncio.navy.mil/chips/ArticleDetails.aspx?ID=6922"
+    }
+  ],
+  "184": [
+    {
+      "date": "1961",
+      "year": 1961,
+      "label": "Clemenceau entre en service",
+      "detail": "La Marine nationale dispose de son premier porte-avions moderne de cette génération.",
+      "source": "https://www.defense.gouv.fr/marine/mieux-nous-connaitre/notre-histoire"
+    },
+    {
+      "date": "1963",
+      "year": 1963,
+      "label": "Foch entre en service",
+      "detail": "Le second bâtiment complète la classe.",
+      "source": "https://www.marinha.mil.br/rmb/sites/www.marinha.mil.br.rmb/files/3-2015%20revista.pdf"
+    },
+    {
+      "date": "1990",
+      "year": 1990,
+      "label": "Clemenceau pendant la crise du Golfe",
+      "detail": "Les photographies officielles le documentent pendant Desert Shield.",
+      "source": "https://commons.wikimedia.org/wiki/File:FS_Clemenceau_(R-98)_aircraft_carrier_during_Operation_Desert_Shield.JPEG"
+    },
+    {
+      "date": "2000",
+      "year": 2000,
+      "label": "Seconde carrière du Foch",
+      "detail": "Le bâtiment devient le São Paulo dans la marine brésilienne.",
+      "source": "https://www.marinha.mil.br/rmb/sites/www.marinha.mil.br.rmb/files/3-2015%20revista.pdf"
+    }
+  ],
+  "185": [
+    {
+      "date": "1983",
+      "year": 1983,
+      "label": "Slava en Méditerranée",
+      "detail": "Un récit naval américain documente sa présence lors de la crise du Liban.",
+      "source": "https://www.history.navy.mil/content/dam/nhhc/about-us/leadership/hgram_pdfs/H-Gram_080-2.pdf"
+    },
+    {
+      "date": "1989",
+      "year": 1989,
+      "label": "Visite à Norfolk",
+      "detail": "Le Marshal Ustinov est photographié par les Américains lors de son départ.",
+      "source": "https://commons.wikimedia.org/wiki/File:Cruiser_Marshal_Ustinov_leaving_Norfolk_1989.jpg"
+    },
+    {
+      "date": "2022",
+      "year": 2022,
+      "label": "Perte du Moskva et activité d’autres unités",
+      "detail": "La Royal Navy mentionne son naufrage en avril puis suit l’Ustinov en septembre.",
+      "source": "https://www.royalnavy.mod.uk/news/2022/september/06/220906-royal-navy-keeps-watch-as-russian-warships-sail-close-to-the-uk"
+    }
+  ],
+  "186": [
+    {
+      "date": "1962",
+      "year": 1962,
+      "label": "Organisation du programme",
+      "detail": "L’US Army confie la gestion du futur système au Missile Command.",
+      "source": "https://history.redstone.army.mil/miss-tow.html"
+    },
+    {
+      "date": "1968",
+      "year": 1968,
+      "label": "Contrat de production",
+      "detail": "L’étape prépare les premières livraisons en série.",
+      "source": "https://history.redstone.army.mil/miss-tow.html"
+    },
+    {
+      "date": "Août 1969",
+      "year": 1969,
+      "label": "Premiers missiles livrés",
+      "detail": "Les premières livraisons de production sont acceptées.",
+      "source": "https://history.redstone.army.mil/miss-tow.html"
+    },
+    {
+      "date": "1970",
+      "year": 1970,
+      "label": "Premières unités d’instruction opérationnelles",
+      "detail": "Trois bataillons d’instruction sont opérationnels en septembre.",
+      "source": "https://history.redstone.army.mil/miss-tow.html"
+    },
+    {
+      "date": "Octobre 2024",
+      "year": 2024,
+      "label": "Nouveaux contrats industriels",
+      "detail": "RTX annonce la poursuite de la production et un bilan de livraisons.",
+      "source": "https://www.rtx.com/news/news-center/2024/10/23/u-s-army-awards-rtxs-raytheon-tow-contracts-for-676-million"
+    }
+  ],
+  "187": [
+    {
+      "date": "1974",
+      "year": 1974,
+      "label": "Contrats de développement avancé",
+      "detail": "Des contrats de développement avancé du missile modulaire sont attribués ; les études antérieures remontent aux années 1960.",
+      "source": "https://history.redstone.army.mil/miss-hellfire.html"
+    },
+    {
+      "date": "1982",
+      "year": 1982,
+      "label": "Décision de production",
+      "detail": "Le programme passe à une nouvelle étape industrielle.",
+      "source": "https://history.redstone.army.mil/miss-hellfire.html"
+    },
+    {
+      "date": "Janvier 1996",
+      "year": 1996,
+      "label": "Autorisation matérielle du Hellfire II",
+      "detail": "L’AGM-114K est autorisé sur les plateformes de l’US Army.",
+      "source": "https://history.redstone.army.mil/miss-hellfire.html"
+    },
+    {
+      "date": "Mai 2022",
+      "year": 2022,
+      "label": "Emploi naval documenté",
+      "detail": "Un Longbow Hellfire est tiré depuis l’USS Montgomery.",
+      "source": "https://commons.wikimedia.org/wiki/File:AGM-114L_Longbow_missile_launch_from_USS_Montgomery_(LCS-8).jpg"
+    }
+  ],
+  "188": [
+    {
+      "date": "1981",
+      "year": 1981,
+      "label": "Première mise en service",
+      "detail": "Le Stinger initial est une arme tirée à l’épaule.",
+      "source": "https://www.army.mil/article/188420/stinger_maintenance_work_to_increase_service_life_reliability"
+    },
+    {
+      "date": "1983",
+      "year": 1983,
+      "label": "Développement du Stinger-POST",
+      "detail": "Le programme prépare l’évolution de l’autodirecteur.",
+      "source": "https://history.redstone.army.mil/miss-stingeravenger.html"
+    },
+    {
+      "date": "1984",
+      "year": 1984,
+      "label": "Premières livraisons à la Garde nationale",
+      "detail": "La chronologie de Redstone documente cette diffusion.",
+      "source": "https://history.redstone.army.mil/miss-stingeravenger.html"
+    },
+    {
+      "date": "2017",
+      "year": 2017,
+      "label": "Programme de prolongation de vie",
+      "detail": "Des opérations de maintenance visent à remettre des missiles en inventaire.",
+      "source": "https://www.army.mil/article/188420/stinger_maintenance_work_to_increase_service_life_reliability"
+    }
+  ],
+  "189": [
+    {
+      "date": "1959–1960",
+      "year": 1960,
+      "label": "Premiers déploiements",
+      "detail": "Les sources officielles distinguent production en 1959 et mise en service initiale en 1960.",
+      "source": "https://history.redstone.army.mil/miss-hawk.html"
+    },
+    {
+      "date": "1967",
+      "year": 1967,
+      "label": "Premiers engagements documentés",
+      "detail": "L’historique américain cite les tirs israéliens de la guerre des Six Jours.",
+      "source": "https://history.redstone.army.mil/miss-hawk.html"
+    },
+    {
+      "date": "1972",
+      "year": 1972,
+      "label": "Improved HAWK opérationnel",
+      "detail": "Le premier bataillon équipé atteint sa capacité initiale en octobre.",
+      "source": "https://history.redstone.army.mil/miss-hawk.html"
+    },
+    {
+      "date": "1989",
+      "year": 1989,
+      "label": "Premier bataillon Phase III",
+      "detail": "La modernisation se poursuit à la fin de la guerre froide.",
+      "source": "https://history.redstone.army.mil/miss-hawk.html"
+    },
+    {
+      "date": "2025",
+      "year": 2025,
+      "label": "Nouvelle installation de contrôle",
+      "detail": "L’US Army inaugure une capacité de test à McAlester.",
+      "source": "https://www.army.mil/article/283282/mcalester_army_ammunition_plant_cuts_ribbon_on_hawk_missile_test_facility"
+    }
+  ],
+  "190": [
+    {
+      "date": "1943",
+      "year": 1943,
+      "label": "Reconnaissance alliée à Peenemünde",
+      "detail": "Les installations du programme sont identifiées puis attaquées.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196684/AFmuseum/flying-bomb-and-rocket-development/"
+    },
+    {
+      "date": "8 septembre 1944",
+      "year": 1944,
+      "label": "Premiers tirs opérationnels",
+      "detail": "Le missile est employé contre des zones urbaines.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/"
+    },
+    {
+      "date": "30 mars 1945",
+      "year": 1945,
+      "label": "Dernier tir opérationnel cité",
+      "detail": "Le musée situe à cette date la fin de la campagne.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/"
+    },
+    {
+      "date": "Après 1945",
+      "year": 1945,
+      "label": "Études et transferts technologiques",
+      "detail": "Des matériels et des spécialistes sont transférés aux États-Unis et étudiés.",
+      "source": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/AFmuseum/v-2-with-meillerwagen/"
+    }
+  ],
+  "191": [
+    {
+      "date": "1967",
+      "year": 1967,
+      "label": "Essais à bord du Bradley",
+      "detail": "Un système Sea Sparrow est installé pour une campagne d’essais.",
+      "source": "https://www.history.navy.mil/research/histories/ship-histories/danfs/b/bradley-i.html"
+    },
+    {
+      "date": "1976",
+      "year": 1976,
+      "label": "Déploiement du standard de référence",
+      "detail": "Date donnée par la fiche de l’US Navy.",
+      "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/"
+    },
+    {
+      "date": "1990",
+      "year": 1990,
+      "label": "Interceptions en exercice",
+      "detail": "L’historique du Spruance décrit deux Exocet interceptés lors d’un exercice.",
+      "source": "https://www.history.navy.mil/research/histories/ship-histories/danfs/s/spruance.html"
+    },
+    {
+      "date": "2022",
+      "year": 2022,
+      "label": "Fiche de référence de l’US Navy",
+      "detail": "La documentation distingue ce missile du programme ESSM.",
+      "source": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2168965/seasparrow-missile-rim-7/"
+    }
   ]
 };

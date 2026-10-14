@@ -4121,5 +4121,485 @@ window.RADAR_HISTORY_PHOTOS = {
       "width": 960,
       "height": 640
     }
+  ],
+  "P-51 Mustang": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/162-1.webp",
+      "file": "North American P-51D Mustang 44-13521 G-MRLL Duxford Flying Finale 2024 01.jpg",
+      "author": "Julian Herzog ( Website )",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:North_American_P-51D_Mustang_44-13521_G-MRLL_Duxford_Flying_Finale_2024_01.jpg",
+      "alt": "P-51D restauré lors d’une présentation à Duxford en 2024.",
+      "caption": "P-51D restauré lors d’une présentation à Duxford en 2024. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "North American P-51D Mustang ‘Marinell’ (reg. G-MRLL / 5Q-B, s/n 44-13521, built 1944) taking off at the Duxford Flying Finale 2024.",
+      "real": true,
+      "width": 1000,
+      "height": 625
+    }
+  ],
+  "Spitfire": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/163-1.webp",
+      "file": "Supermarine Spitfire Mk.1 G-AIST Duxford 2025 01.jpg",
+      "author": "Julian Herzog ( Website )",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Supermarine_Spitfire_Mk.1_G-AIST_Duxford_2025_01.jpg",
+      "alt": "Spitfire Mk I photographié à Duxford en 2025.",
+      "caption": "Spitfire Mk I photographié à Duxford en 2025. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "Supermarine Spitfire Mk.1 (reg. G-AIST / P7308 / XR-D, built in 1941) in Royal Air Force livery landing at Duxford Aerodrome, England.",
+      "real": true,
+      "width": 1000,
+      "height": 625
+    }
+  ],
+  "B-17 Flying Fortress": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/164-1.webp",
+      "file": "Boeing B-17G Flying Fortress 124485 DF-A Duxford Flying Evening 2024 01.jpg",
+      "author": "Julian Herzog ( Website )",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Boeing_B-17G_Flying_Fortress_124485_DF-A_Duxford_Flying_Evening_2024_01.jpg",
+      "alt": "B-17G Sally B à Duxford en 2024.",
+      "caption": "B-17G Sally B à Duxford en 2024. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "Boeing B-17G Flying Fortress Sally B (reg. 124485 / DF-A, s/n 44-85784, built 1945) at the Duxford Flying Evening 2024.",
+      "real": true,
+      "width": 1000,
+      "height": 625
+    }
+  ],
+  "B-29 Superfortress": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/165-1.webp",
+      "file": "Boeing B-29, FIFI (31).jpg",
+      "author": "Bubba73",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Boeing_B-29,_FIFI_(31).jpg",
+      "alt": "Poste de pilotage d’un B-29 conservé.",
+      "caption": "Poste de pilotage d’un B-29 conservé. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "A Boeing B-29, named \"FIFI\". Owned by the Commerative Air Force. A Norden bombsight is in the nose.",
+      "real": true,
+      "width": 1000,
+      "height": 667
+    }
+  ],
+  "C-47 Skytrain": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/166-1.webp",
+      "file": "At American Airpower Museum 2024 029 - Douglas C-47 Skytrain.jpg",
+      "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:At_American_Airpower_Museum_2024_029_-_Douglas_C-47_Skytrain.jpg",
+      "alt": "C-47 Second Chance au musée American Airpower en 2024.",
+      "caption": "C-47 Second Chance au musée American Airpower en 2024. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "Douglas C-47 Skytrain “Second Chance” at the American Airpower Museum",
+      "real": true,
+      "width": 1000,
+      "height": 666
+    }
+  ],
+  "F-86 Sabre": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/167-1.webp",
+      "file": "North American F-86F Sabre of the ROKAF.jpg",
+      "author": "Photographer: Mosbatho",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:North_American_F-86F_Sabre_of_the_ROKAF.jpg",
+      "alt": "F-86F sud-coréen conservé à Séoul.",
+      "caption": "F-86F sud-coréen conservé à Séoul. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "A F-86Fs aircraft of the Republic of Korea Air Force on display at the \"War Memorial of Korea\" Museum in Seoul.",
+      "real": true,
+      "width": 1000,
+      "height": 592
+    }
+  ],
+  "MiG-15": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/168-1.webp",
+      "file": "MiG-15bis.jpg",
+      "author": "Kirill Pisman",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:MiG-15bis.jpg",
+      "alt": "MiG-15bis présenté au musée de Monino.",
+      "caption": "MiG-15bis présenté au musée de Monino. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "MiG-15bis on display at Monino aircraft museum.",
+      "real": true,
+      "width": 1000,
+      "height": 750
+    }
+  ],
+  "Me 262": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/169-1.webp",
+      "file": "Bundesarchiv Bild 141-2497, Flugzeug Me 262A auf Flugplatz.jpg",
+      "author": "Unknown Unknown",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_141-2497,_Flugzeug_Me_262A_auf_Flugplatz.jpg",
+      "alt": "Me 262A sur un terrain d’aviation : photographie des archives allemandes.",
+      "caption": "Me 262A sur un terrain d’aviation : photographie des archives allemandes. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "Information added by Wikimedia users. Le Me 262 A W.Nr.500071 « weiss 3 » en avril 1945. Le pilote Mutke a atteri à la base aérienne de Dübendorf (de) en Suisse le 25 avril 1945 après avoir déserté la Luftwaffe. Tracteur : Cletrac Modell A.G Der Pilot Mutke landete am 25. April 1945 auf dem Luftwaffenstützpunkt Dübendorf (DE) in der Schweiz, nachdem er von der Luftwaffe desertiert war.",
+      "real": true,
+      "width": 800,
+      "height": 450
+    }
+  ],
+  "F-104 Starfighter": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/170-1.webp",
+      "file": "Lockheed F-104 Starfighter drag chute landing.jpg",
+      "author": "Pakistan Air Force (PAF)",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Lockheed_F-104_Starfighter_drag_chute_landing.jpg",
+      "alt": "F-104 à l’atterrissage avec son parachute de freinage.",
+      "caption": "F-104 à l’atterrissage avec son parachute de freinage. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "A Pakistani Lockheed F-104A Starfighter (56-803) drags its brake chute as it rolls outs at Sargodha following a dissimilar air combat training mission in early 1964",
+      "real": true,
+      "width": 1000,
+      "height": 294
+    }
+  ],
+  "Su-27 Flanker": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/171-1.webp",
+      "file": "Sukhoi Su-27 - B-1831M1 - Radom Air Show - 20180825 1527 5742 DxO.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sukhoi_Su-27_-_B-1831M1_-_Radom_Air_Show_-_20180825_1527_5742_DxO.jpg",
+      "alt": "Su-27 ukrainien photographié au meeting de Radom en 2018.",
+      "caption": "Su-27 ukrainien photographié au meeting de Radom en 2018. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "Sukhoi Su-27 in Ukrainian service at Radom Air Show",
+      "real": true,
+      "width": 1000,
+      "height": 663
+    }
+  ],
+  "M4 Sherman": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/172-1.webp",
+      "file": "M4 Sherman tank at the Heeresgeschichtliches Museum in Vienna.jpg",
+      "author": "Austin Ring",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:M4_Sherman_tank_at_the_Heeresgeschichtliches_Museum_in_Vienna.jpg",
+      "alt": "Sherman de la famille Grizzly conservé à Vienne.",
+      "caption": "Sherman de la famille Grizzly conservé à Vienne. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "M4 Sherman tank at the Heeresgeschichtliches Museum in Vienna",
+      "real": true,
+      "width": 1000,
+      "height": 563
+    }
+  ],
+  "M3 Stuart": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/173-1.webp",
+      "file": "M3A1 Light Tank.jpg",
+      "author": "Office of War Information",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:M3A1_Light_Tank.jpg",
+      "alt": "M3A1 : photographie d’archive du char léger.",
+      "caption": "M3A1 : photographie d’archive du char léger. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "Light tank going through water obstacle, Fort Knox, Kentucky",
+      "real": true,
+      "width": 922,
+      "height": 715
+    }
+  ],
+  "Tiger I": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/174-1.webp",
+      "file": "Pz.Kpfw. Vl Ausf.H in Snegiri.JPG",
+      "author": "Fastboy",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pz.Kpfw._Vl_Ausf.H_in_Snegiri.JPG",
+      "alt": "Tiger I préservé à Snegiri ; véhicule historique endommagé.",
+      "caption": "Tiger I préservé à Snegiri ; véhicule historique endommagé. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "Pz.Kpfw. Vl Ausf.H («Tiger I») in Lenino-Snegiri Military Historical Museum, Russia.",
+      "real": true,
+      "width": 1000,
+      "height": 750
+    }
+  ],
+  "Panzer IV": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/175-1.webp",
+      "file": "PzIV.Saumur.000a5s6s.jpg",
+      "author": "User:Fat yankey",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:PzIV.Saumur.000a5s6s.jpg",
+      "alt": "Panzer IV préservé au musée de Saumur.",
+      "caption": "Panzer IV préservé au musée de Saumur. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "PzKpfw IV, version J on display at the Musée des Blindés in Saumur .",
+      "real": true,
+      "width": 800,
+      "height": 539
+    }
+  ],
+  "Churchill": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/176-1.webp",
+      "file": "Churchill III tanks of 'Kingforce', 1st Armoured Division, in the Western Desert, 5 November 1942. E18991.jpg",
+      "author": "Fox (Sgt), No 1 Army Film &amp; Photographic Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Churchill_III_tanks_of_%27Kingforce%27,_1st_Armoured_Division,_in_the_Western_Desert,_5_November_1942._E18991.jpg",
+      "alt": "Churchill III de Kingforce dans le désert en novembre 1942.",
+      "caption": "Churchill III de Kingforce dans le désert en novembre 1942. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "Churchill III tanks of 'Kingforce', 1st Armoured Division, in the Western Desert, 5 November 1942. Churchill III tanks of 'Kingforce', 1st Armoured Division, 5 November 1942. The unit was named Kingforce after its commander, Major Norris King MC.",
+      "real": true,
+      "width": 754,
+      "height": 750
+    }
+  ],
+  "Stridsvagn 103": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/177-1.webp",
+      "file": "Stridsvagn 103 Revinge 2013-2.jpg",
+      "author": "Jorchr",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Stridsvagn_103_Revinge_2013-2.jpg",
+      "alt": "Stridsvagn 103 à Revinge en 2013.",
+      "caption": "Stridsvagn 103 à Revinge en 2013. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "Framåtlutad Stridsvagn 103 (Stridsvagn S) vid Regementets Dag på P7 Revingehed",
+      "real": true,
+      "width": 1000,
+      "height": 510
+    }
+  ],
+  "Marder 1": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/178-1.webp",
+      "file": "German KFOR armoured vehicle, 1999.jpg",
+      "author": "http://en.wikipedia.org/wiki/User:Nick_Macdonald .",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:German_KFOR_armoured_vehicle,_1999.jpg",
+      "alt": "Marder allemand de la KFOR en 1999.",
+      "caption": "Marder allemand de la KFOR en 1999. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "Photo of German KFOR armoured vehicle taken by Nick Macdonald (nickmacdonald.net) in Kosovo in 1999.",
+      "real": true,
+      "width": 1000,
+      "height": 683
+    }
+  ],
+  "AS90": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/179-1.webp",
+      "file": "AS-90 Howitzer 1.jpg",
+      "author": "Bthebest",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:AS-90_Howitzer_1.jpg",
+      "alt": "AS90 de la British Army.",
+      "caption": "AS90 de la British Army. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "AS-90 Howitzer of the British Army",
+      "real": true,
+      "width": 1000,
+      "height": 688
+    }
+  ],
+  "Type VII": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/180-1.webp",
+      "file": "U570 capture.jpg",
+      "author": "Royal Air Force official photographer",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:U570_capture.jpg",
+      "alt": "Type VIIC U-570 au moment de sa capture.",
+      "caption": "Type VIIC U-570 au moment de sa capture. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "Capture of the German submarine U570. The surfaced submarine is alongside a Royal Navy ship. Taken from RAF Catalina aircraft of 209 Squadron.",
+      "real": true,
+      "width": 748,
+      "height": 750
+    }
+  ],
+  "Type XXI": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/181-1.webp",
+      "file": "German submarine U 3008.jpg",
+      "author": "Auteur non identifié — archive du domaine public",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:German_submarine_U_3008.jpg",
+      "alt": "Type XXI U-3008 après la guerre.",
+      "caption": "Type XXI U-3008 après la guerre. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "German submarine U-3008 in Portsmouth Naval Shipyard, Kittery, Maine",
+      "real": true,
+      "width": 979,
+      "height": 750
+    }
+  ],
+  "Classe Fletcher": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/182-1.webp",
+      "file": "USS Cassin Young 2007.jpg",
+      "author": "ROxBo at English Wikipedia",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Cassin_Young_2007.jpg",
+      "alt": "USS Cassin Young, de classe Fletcher, conservé à Boston.",
+      "caption": "USS Cassin Young, de classe Fletcher, conservé à Boston. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "Taken on the 4th of July, 2007.",
+      "real": true,
+      "width": 1000,
+      "height": 750
+    }
+  ],
+  "Classe Oliver Hazard Perry": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/183-1.webp",
+      "file": "US Navy 100707-N-0641S-215 SS Ford (FFG 54) departs Joint Base Pearl Harbor-Hickam to support Rim of the Pacific (RIMPAC) 2010 exercises.jpg",
+      "author": "U.S. Navy photo by Mass Communication Specialist 1st Class Jason Swink",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_100707-N-0641S-215_SS_Ford_(FFG_54)_departs_Joint_Base_Pearl_Harbor-Hickam_to_support_Rim_of_the_Pacific_(RIMPAC)_2010_exercises.jpg",
+      "alt": "USS Ford au départ de Pearl Harbor pour RIMPAC en 2010.",
+      "caption": "USS Ford au départ de Pearl Harbor pour RIMPAC en 2010. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "PEARL HARBOR (July 7, 2010) The Oliver Hazard Perry-class fast frigate USS Ford (FFG 54) departs Joint Base Pearl Harbor-Hickam to support Rim of the Pacific (RIMPAC) 2010 exercises. RIMPAC is a biennial, multinational exercise designed to strengthen regional partnerships and improve multinational interoperability. (U.S. Navy photo by Mass Communication Specialist 1st Class Jason Swink/Released)",
+      "real": true,
+      "width": 1000,
+      "height": 714
+    }
+  ],
+  "Classe Clemenceau": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/184-1.webp",
+      "file": "French aircraft carrier FS Clemenceau (R-98).JPEG",
+      "author": "OS2 John Bouvia",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:French_aircraft_carrier_FS_Clemenceau_(R-98).JPEG",
+      "alt": "Vue latérale du Clemenceau pendant l’opération Desert Shield.",
+      "caption": "Vue latérale du Clemenceau pendant l’opération Desert Shield. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "The French aircraft carrier FS Clemenceau (R-98) is moored at port during Operation Desert Shield.",
+      "real": true,
+      "width": 1000,
+      "height": 670
+    }
+  ],
+  "Classe Slava (Projet 1164)": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/185-1.webp",
+      "file": "Cruiser Marshal Ustinov leaving Norfolk 1989.jpg",
+      "author": "Camera Operator: PH1 JEFF ELLIOT, USN",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Cruiser_Marshal_Ustinov_leaving_Norfolk_1989.jpg",
+      "alt": "Marshal Ustinov quittant Norfolk en 1989.",
+      "caption": "Marshal Ustinov quittant Norfolk en 1989. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "The Soviet Slava Class Guided Missile Cruiser MARSHAL USTINOV (CG 088) passes by Fort Monroe as it leaves Hampton Roads. The MARSHAL USTINOV, the Guided Missile Destroyer OTLICHNYY (DDG 434) and the Replenishment Oiler GENRIKH GASANOV are ending a five-day goodwill visit to Naval Base, Norfolk, Virginia (VA). The visit was the first to an American military port by ships of the Soviet navy.",
+      "real": true,
+      "width": 1000,
+      "height": 637
+    }
+  ],
+  "BGM-71 TOW": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/186-1.webp",
+      "file": "TOW missile Fort Pickett.jpg",
+      "author": "DoD photo by Lance Cpl. T. A. Pope, U.S. Marine Corps.",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:TOW_missile_Fort_Pickett.jpg",
+      "alt": "Tir d’un TOW sur le terrain d’entraînement de Fort Pickett.",
+      "caption": "Tir d’un TOW sur le terrain d’entraînement de Fort Pickett. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "U.S. Marines fire a Tube launched, Optically tracked, Wire guided missile on the firing range during an exercise at Fort Pickett, Va., on March 30, 1998. The Marines are attached to Bravo Company, Weapons Platoon, 2nd Light Armored Reconnaissance Battalion, Camp Lejeune, N.C.",
+      "real": true,
+      "width": 1000,
+      "height": 663
+    }
+  ],
+  "AGM-114 Hellfire": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/187-1.webp",
+      "file": "AGM-114L Longbow missile launch from USS Montgomery (LCS-8).jpg",
+      "author": "U.S. Navy photo by Lt. j.g. Samuel Hardgrove",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:AGM-114L_Longbow_missile_launch_from_USS_Montgomery_(LCS-8).jpg",
+      "alt": "Longbow Hellfire lancé depuis l’USS Montgomery en mai 2022.",
+      "caption": "Longbow Hellfire lancé depuis l’USS Montgomery en mai 2022. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "PACIFIC OCEAN (12 May 2022) – An AGM-114L Longbow Hellfire missile launches from the Surface-To-Surface Missile Module (SSMM) aboard Independence-variant Littoral Combat Ship USS Montgomery (LCS-8). The missile exercise was the first proof of concept launch of the Longbow Hellfire missile against land-based target.",
+      "real": true,
+      "width": 1000,
+      "height": 666
+    }
+  ],
+  "FIM-92 Stinger": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/188-1.webp",
+      "file": "Launched FIM-92A Stinger missile.jpg",
+      "author": "Christopher O'Quin, U.S. Marine Corps",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Launched_FIM-92A_Stinger_missile.jpg",
+      "alt": "Stinger photographié en vol pendant un exercice.",
+      "caption": "Stinger photographié en vol pendant un exercice. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "A Marine fires a FIM-92A Stinger missile at an unmanned aerial target during training at San Clemente Island, July 28.",
+      "real": true,
+      "width": 1000,
+      "height": 666
+    }
+  ],
+  "MIM-23 HAWK": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/189-1.webp",
+      "file": "Hawk launch better.jpg",
+      "author": "Auteur non identifié — archive du domaine public",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Hawk_launch_better.jpg",
+      "alt": "Tir d’essai d’un missile HAWK.",
+      "caption": "Tir d’essai d’un missile HAWK. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "",
+      "real": true,
+      "width": 704,
+      "height": 557
+    }
+  ],
+  "V2 (A4)": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/190-1.webp",
+      "file": "V-2 Rocket On Meillerwagen.jpg",
+      "author": "User Ian Dunster on en.wikipedia",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:V-2_Rocket_On_Meillerwagen.jpg",
+      "alt": "V2 sur une remorque Meillerwagen pendant l’opération Backfire en 1945.",
+      "caption": "V2 sur une remorque Meillerwagen pendant l’opération Backfire en 1945. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "V-2 rocket on Meillerwagen at Operation Backfire near Cuxhaven in 1945",
+      "real": true,
+      "width": 1000,
+      "height": 703
+    }
+  ],
+  "RIM-7 Sea Sparrow": [
+    {
+      "src": "assets/jeu/ajouts/serie-9/191-1.webp",
+      "file": "US Navy 031105-N-0000D-003 USS O'Brien launches a surface-to-air NATO Sea Sparrow missile.jpg",
+      "author": "U.S. Navy photo by Ensign Kristin Dahlgren.",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_031105-N-0000D-003_USS_O%27Brien_launches_a_surface-to-air_NATO_Sea_Sparrow_missile.jpg",
+      "alt": "Tir d’un Sea Sparrow depuis l’USS O’Brien en novembre 2003.",
+      "caption": "Tir d’un Sea Sparrow depuis l’USS O’Brien en novembre 2003. Photographie redimensionnée et convertie en WebP.",
+      "sourceCaption": "At sea aboard USS O'Brien (DD 975) Nov. 5, 2003 -- USS O’Brien launches a surface-to-air NATO Sea Sparrow missile during MISSILEX 04-1. MISSILEX 04-1 involves firing missiles at controllable target drones provided by Commander Fleet Activities Okinawa’s ordnance department. The drones were launched from O’Brien and each missile fired was equipped with telemetry-gathering instrumentation to provide an accurate assessment of missile performance. U.S. Navy photo by Ensign Kristin Dahlgren. (RELEASED)",
+      "real": true,
+      "width": 1000,
+      "height": 669
+    }
   ]
 };

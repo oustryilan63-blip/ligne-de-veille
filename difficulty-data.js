@@ -39,7 +39,13 @@ window.RADAR_DIFFICULTY_TIERS = Object.freeze({
     "ATACMS",
     "T-34",
     "Classe Iowa",
-    "Classe Nimitz"
+    "Classe Nimitz",
+    "P-51 Mustang",
+    "Spitfire",
+    "B-17 Flying Fortress",
+    "M4 Sherman",
+    "Tiger I",
+    "FIM-92 Stinger"
   ],
   "standard": [
     "K2 Black Panther",
@@ -118,7 +124,24 @@ window.RADAR_DIFFICULTY_TIERS = Object.freeze({
     "BMP-2",
     "U-2 Dragon Lady",
     "F-5 Tiger II",
-    "AV-8B Harrier II"
+    "AV-8B Harrier II",
+    "B-29 Superfortress",
+    "C-47 Skytrain",
+    "F-86 Sabre",
+    "MiG-15",
+    "Me 262",
+    "F-104 Starfighter",
+    "Su-27 Flanker",
+    "M3 Stuart",
+    "Panzer IV",
+    "Churchill",
+    "Marder 1",
+    "Type VII",
+    "Classe Fletcher",
+    "Classe Clemenceau",
+    "BGM-71 TOW",
+    "AGM-114 Hellfire",
+    "V2 (A4)"
   ],
   "expert": [
     "Classe Sōryū",
@@ -166,6 +189,13 @@ window.RADAR_DIFFICULTY_TIERS = Object.freeze({
     "PT-76",
     "AC-130J Ghostrider",
     "Naval Strike Missile (NSM)",
-    "AGM-158 JASSM"
+    "AGM-158 JASSM",
+    "Stridsvagn 103",
+    "AS90",
+    "Type XXI",
+    "Classe Oliver Hazard Perry",
+    "Classe Slava (Projet 1164)",
+    "MIM-23 HAWK",
+    "RIM-7 Sea Sparrow"
   ]
 });
