@@ -79,8 +79,8 @@ export function buildDiscovery(root,output){
     if(!html.includes('class="header-search"'))html=html.replace('<div class="header-actions">','<div class="header-actions"><a class="header-search" href="recherche.html" aria-label="Rechercher sur tout Radar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10" cy="10" r="6.5"></circle><path d="m15 15 6 6"></path></svg><span>Rechercher</span></a>');
     if(!html.includes('src="discovery-tools.js'))html=html.replace('<head>','<head><script src="discovery-tools.js?v=3" defer></script>');
     html=html.replace(/discovery-tools\.js\?v=\d+/g,'discovery-tools.js?v=3');
-    if(!html.includes('href="decouverte.css'))html=html.replace('</head>','<link rel="stylesheet" href="decouverte.css?v=3"></head>');
-    html=html.replace(/decouverte\.css\?v=\d+/g,'decouverte.css?v=3');
+    if(!html.includes('href="decouverte.css'))html=html.replace('</head>','<link rel="stylesheet" href="decouverte.css?v=4"></head>');
+    html=html.replace(/decouverte\.css\?v=\d+/g,'decouverte.css?v=4');
     if(file==='index.html'&&!html.includes('class="discovery-home wrap"'))html=html.replace('<section class="history-teaser"',homeBlock+'<section class="history-teaser"');
     const title=text(html.match(/<title>([\s\S]*?)<\/title>/)?.[1]),desc=html.match(/<meta name="description" content="([^"]*)"/)?.[1]||'Radar : défense, sécurité et géopolitique.';
     const engine=E.find(e=>D.profileURL(e)===file),guide=C.guides.find(g=>'comprendre-'+g.slug+'.html'===file),preset=C.comparisons.find(p=>'comparatif-'+p.slug+'.html'===file);
