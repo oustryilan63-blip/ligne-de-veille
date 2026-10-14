@@ -16,6 +16,10 @@ const items=[{type:'engin',title:'Rafale',description:'Avion français',keywords
 assert.equal(D.rank(items,'rafale')[0].title,'Rafale');assert.equal(D.rank(items,'francais').length,1);assert.equal(D.rank(items,'Rafale','dossier').length,1);assert.equal(D.rank(items,'<script>').length,0);assert.equal(D.rank(items,'introuvable').length,0);
 assert.equal(D.rank([{type:'engin',title:'F-35 Lightning II'}],'F35')[0].title,'F-35 Lightning II');
 assert.equal(D.rank(items,'---').length,0);
+assert.equal(N.context({title:'Rafale F4 : une livraison'}).url,'variantes-rafale.html');
+assert.equal(N.context({title:'Nouveaux drones de transport'}).url,'comprendre-familles-drones.html');
+assert.equal(N.context({title:'Un sommet diplomatique sans thème documenté'}),null);
+assert.equal(N.context({title:'Le transport commercial',publisherCategories:['Détroit d’Ormuz']}).url,'comprendre-detroits-routes-maritimes.html');
 assert.equal(C.guides.length,10);assert.equal(new Set(C.guides.map(g=>g.slug)).size,10);
 for(const g of C.guides){
  assert.ok(g.sources.length>=2);assert.ok(g.sections.every(s=>s.sources.length&&s.sources.every(i=>g.sources[i])));assert.ok(g.engins.every(i=>E[i]));
@@ -26,7 +30,7 @@ for(const g of C.guides){
  assert.equal(g.milestones.length,3);for(const m of g.milestones)assert.ok(m.date&&m.title&&m.text&&g.sources[m.source]);
  const prose=[...g.sections.map(s=>s.text),...g.history.paragraphs.map(p=>p.text)].join(' ');assert.ok(prose.split(/\s+/).length>=350,'Dossier trop peu développé : '+g.slug);
 }
-for(const e of E)for(const link of D.guideLinks(e))assert.ok(C.guides.some(g=>'comprendre-'+g.slug+'.html'===link.url),'Dossier associé absent : '+e.name);
+for(const e of E)for(const link of D.guideLinks(e))assert.ok(['variantes-rafale.html','variantes-leopard-2.html'].includes(link.url)||C.guides.some(g=>'comprendre-'+g.slug+'.html'===link.url),'Dossier associé absent : '+e.name);
 assert.equal(C.glossary.length,12);for(const [term,definition,slug] of C.glossary){assert.ok(term&&definition);assert.ok(C.guides.some(g=>g.slug===slug));}
 for(const p of C.comparisons){assert.notEqual(p.a,p.b);assert.equal(E[p.a].category,E[p.b].category);assert.ok(T[p.a].variant&&T[p.b].variant);assert.ok(p.sources.length>=2)}
 const output=path.join(root,'_site-decouverte');
@@ -36,7 +40,7 @@ if(fs.existsSync(path.join(output,'sitemap.xml'))){
   const html=fs.readFileSync(path.join(output,file),'utf8');
   assert.ok(!/href="#(?:actualites|archives|methode)"/.test(html),'Lien de pied de page local invalide : '+file);
  }
- assert.equal(index.items.filter(i=>i.type==='engin').length,E.length);assert.equal(index.items.filter(i=>i.type==='dossier').length,C.guides.length);assert.equal(index.items.filter(i=>i.type==='jeu').length,8);
+ assert.equal(index.items.filter(i=>i.type==='engin').length,E.length);assert.equal(index.items.filter(i=>i.type==='dossier').length,C.guides.length+5);assert.equal(index.items.filter(i=>i.type==='jeu').length,8);
  const hub=fs.readFileSync(path.join(output,'comprendre.html'),'utf8');assert.ok(hub.includes('id="learning-filters"'));assert.ok(hub.includes('id="glossaire"'));assert.equal((hub.match(/data-guide-categories=/g)||[]).length,C.guides.length);assert.equal((hub.match(/data-glossary-term=/g)||[]).length,12);
  for(const g of C.guides){const html=fs.readFileSync(path.join(output,'comprendre-'+g.slug+'.html'),'utf8');assert.ok(html.includes('aria-label="Sommaire du dossier"'));assert.equal((html.match(/<fieldset data-answer=/g)||[]).length,3);assert.ok(html.includes('Références consultées le 14 octobre 2026'));assert.ok(html.includes('id="contexte-historique"'));assert.ok(html.includes('class="learning-timeline"'));assert.ok(!html.includes('undefined'));if(g.visual)assert.ok(html.includes('class="learning-svg"'));}
  for(const [i,e]of E.entries()){
@@ -85,4 +89,29 @@ if(fs.existsSync(path.join(output,'recherche.html')))(async()=>{
  await form.fire('reset');assert.equal(score.textContent,'');assert.ok(quizFields.every(f=>f.querySelector('.learning-quiz-feedback').hidden));
  console.log('Comprendre exécuté : thèmes, réinitialisation, lexique sans accents, absence, quiz incomplet/correct/incorrect et remise à zéro : OK.');
  }
+})().catch(e=>{console.error(e);process.exitCode=1});
+
+(async()=>{
+ const {editorial:C2}=await import('./editorial-data.mjs');
+ const {editorialFiles}=await import('./build-editorial.mjs');
+ assert.equal(C2.histories.length,2);assert.equal(C2.variants.length,2);assert.equal(C2.paths.length,3);
+ for(const h of C2.histories){assert.equal(h.timeline.length,6);assert.ok(h.sections.flatMap(s=>s.paragraphs).join(' ').split(/\s+/).length>550);for(const s of h.sections)assert.ok(s.sources.length&&s.sources.every(i=>h.sources[i]));for(const e of h.timeline)assert.ok(h.sources[e[3]]);for(const name of h.engins)assert.ok(E.some(e=>e.name===name));}
+ for(const v of C2.variants){assert.equal(v.columns.length,3);assert.ok(v.rows.every(row=>row.length===4));for(const s of v.sections)assert.ok(s.sources.length&&s.sources.every(i=>v.sources[i]));}
+ for(const x of [...C2.histories,...C2.variants])for(const source of x.sources)assert.equal(new URL(source.url).protocol,'https:');
+ if(fs.existsSync(path.join(output,'parcours.html'))){
+  for(const file of editorialFiles){const html=fs.readFileSync(path.join(output,file),'utf8');assert.ok(html.includes('<h1>'));assert.ok(!html.includes('undefined'));assert.ok(html.includes('rel="canonical"'));}
+  const search=JSON.parse(fs.readFileSync(path.join(output,'recherche-index.json'),'utf8'));for(const file of editorialFiles)assert.ok(search.items.some(i=>i.url===file));
+  for(const p of C2.paths)for(const [, ,url]of p.steps){const [file,anchor]=url.split('#'),html=fs.readFileSync(path.join(output,file),'utf8');if(anchor)assert.ok(html.includes('id="'+anchor+'"'),'Ancre de parcours absente : '+url);}
+ }
+ const {createDOM}=require('./feature-test-dom.cjs'),doc=createDOM('');
+ const pathEl=doc.createElement('section');pathEl.setAttribute('data-reading-path','');doc.body.append(pathEl);
+ const status=doc.createElement('p');status.className='reading-path-status';pathEl.append(status);
+ const controls=doc.createElement('div');controls.className='reading-path-controls';pathEl.append(controls);
+ const reset=doc.createElement('button');reset.setAttribute('data-reading-reset','');pathEl.append(reset);
+ const steps=Array.from({length:4},()=>{const label=doc.createElement('label');label.className='reading-step-check';label.hidden=true;const input=doc.createElement('input');input.setAttribute('data-reading-step','');input.checked=false;label.append(input);pathEl.append(label);return input});
+ vm.runInNewContext(read('discovery-tools.js'),{window:{},document:doc,Intl});assert.match(status.textContent,/0 \/ 4/);assert.equal(pathEl.querySelector('.reading-step-check').hidden,false);
+ steps[0].checked=true;await steps[0].fire('change');assert.match(status.textContent,/1 \/ 4/);
+ for(const step of steps)step.checked=true;await steps[3].fire('change');assert.match(status.textContent,/Parcours terminé/);
+ await reset.click();assert.ok(steps.every(step=>!step.checked));assert.match(status.textContent,/0 \/ 4/);
+ console.log('Nouveaux dossiers et sources, variantes, liens des parcours, repères d’actualité ciblés et progression sans stockage : OK.');
 })().catch(e=>{console.error(e);process.exitCode=1});
