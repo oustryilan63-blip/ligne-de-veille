@@ -331,6 +331,7 @@
 .silhouette-material-seam{fill:none;stroke:#485b5d;stroke-width:.65;opacity:.65}
 .silhouette-material-glint{fill:none;stroke:#e5f0ec;stroke-width:1.5;opacity:.7}
 .silhouette-material-tread{fill:none;stroke:#b3baa3;stroke-width:1.2;opacity:.55}
+.silhouette-material-wear{fill:none;stroke:#c2b89b;stroke-width:1;opacity:.3}
 .silhouette-material-water{fill:none;stroke:#6c9395;stroke-width:1.6;opacity:.35}
 .silhouette-material-bootline{fill:none;stroke:#2d444b;stroke-width:2.5}
 .silhouette-material-rail{fill:none;stroke:#718889;stroke-width:.65}
@@ -339,7 +340,7 @@
 .silhouette-material-roundel-white{fill:#e2e5df;stroke:none}
 .silhouette-material-roundel-red{fill:#ab695c;stroke:none}
 .silhouette-material-roundel-blue{fill:#466777;stroke:none}
-.silhouette-marking{fill:#eef0e6;font:600 14px var(--sans);letter-spacing:2px;opacity:.85}
+.silhouette-marking{fill:#36494f;font:600 14px var(--sans);letter-spacing:2px;opacity:.9}
 .silhouette-selection{display:none;fill:#bd85402b;stroke:#a9682f;stroke-width:2;stroke-linejoin:round;vector-effect:non-scaling-stroke;pointer-events:none}
 .silhouette-selection.silhouette-highlight{display:block}
 .silhouette-leader{fill:#a9682f;stroke:#a9682f;stroke-width:1.1;opacity:.18;pointer-events:none}
