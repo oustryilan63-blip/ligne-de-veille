@@ -10,10 +10,14 @@
     const seen=new Set();return all.filter(p=>{if(seen.has(p.src))return false;seen.add(p.src);return true});
   }
   function creditFor(record){
-    const credit=make('p','history-photo-credit');
-    credit.append(record.real===false?'Illustration : ':'Photo : ',record.author||'Auteur indiqué sur la source',' · ',record.license||'Licence indiquée sur la source');
-    if(record.source)credit.append(' · ',sourceLink('Voir la photo',record.source));
-    if(record.licenseUrl)credit.append(' · ',sourceLink('Licence',record.licenseUrl));
+    const credit=make('div','history-photo-credit');
+    const attribution=make('span','history-credit-attribution');
+    attribution.append(record.real===false?'Illustration : ':'Photo : ',record.author||'Auteur indiqué sur la source');
+    const references=make('span','history-credit-references');
+    if(record.licenseUrl)references.append(sourceLink(record.license||'Licence',record.licenseUrl));
+    else references.append(record.license||'Licence indiquée sur la source');
+    if(record.source)references.append(' · ',sourceLink('Source de la photo ↗',record.source));
+    credit.append(attribution,references);
     return credit;
   }
   function preview(item){return photos(item).find(p=>p.real!==false&&p.src!=='assets/jeu/'+item.photo)||photos(item).find(p=>p.real!==false)||null;}
