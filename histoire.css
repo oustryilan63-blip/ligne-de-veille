@@ -294,3 +294,31 @@
   .history-profile .history-detail .history-tech-fields>div{grid-template-columns:1fr;gap:5px}
 }
 @media(prefers-reduced-motion:reduce){.history-profile .profile-jump a{transition:none}}
+
+/* Silhouettes pédagogiques : dessins vectoriels, repères tactiles et texte associé. */
+.silhouette-layout{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(270px,1fr);gap:24px;margin-top:26px;align-items:start}
+.silhouette-figure{min-width:0;margin:0;padding:18px;border:1px solid #c4cebb;border-radius:12px;background:#f2f5eb}
+.silhouette-view{font:500 11px/1.6 var(--mono);color:#586c56;margin-bottom:12px}
+.silhouette-board{position:relative;aspect-ratio:2/1;border-radius:7px;background-color:#e6ecde;background-image:linear-gradient(#b9c8b633 1px,transparent 1px),linear-gradient(90deg,#b9c8b633 1px,transparent 1px);background-size:24px 24px}
+.silhouette-board svg{display:block;width:100%;height:100%;overflow:visible}
+.silhouette-shape{fill:#b5c4aa;stroke:#3a5440;stroke-width:2;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.silhouette-shape.silhouette-highlight{fill:#bf7b56;stroke:#70432c;stroke-width:2.5}
+.silhouette-shape.silhouette-detail{fill:none;stroke:#62755d;stroke-width:1.5}
+.silhouette-wheel{fill:#e6ecde;stroke:#4e654c;stroke-width:2}
+.silhouette-board .silhouette-point{position:absolute;transform:translate(-50%,-50%);display:grid;place-items:center;padding:0;width:44px;height:44px;min-height:44px;border:2px solid #f6f8ed;border-radius:50%;background:#2c4834;color:#fff;font:600 13px/1 var(--sans);cursor:pointer;box-shadow:0 2px 6px #263d312b}
+.silhouette-board .silhouette-point[aria-pressed="true"]{background:#99562f;box-shadow:0 0 0 3px #99562f40}
+.silhouette-figure figcaption{margin-top:16px;font:400 11px/1.7 var(--sans);color:#586b52}
+.silhouette-controls{min-width:0}
+.silhouette-choices{display:grid;grid-template-columns:1fr;gap:6px}
+.silhouette-choices .silhouette-choice{display:flex;align-items:center;gap:12px;width:100%;min-height:44px;padding:10px 14px;background:#f4f7ed;border:1px solid #c5d0bc;border-radius:6px;color:#314a35;font:500 13px/1.5 var(--sans);text-align:left;cursor:pointer}
+.silhouette-choice>span:first-child{font:500 11px/1.5 var(--mono);opacity:.75}
+.silhouette-choices .silhouette-choice[aria-pressed="true"]{background:#2c4834;border-color:#2c4834;color:#fff}
+.silhouette-choice:hover,.silhouette-point:hover{filter:brightness(.94)}
+.silhouette-choice:focus-visible,.silhouette-point:focus-visible{outline:3px solid #9a542e;outline-offset:4px}
+.silhouette-explanation{margin-top:18px;padding:20px;border-left:3px solid #ad674b;border-radius:0 8px 8px 0;background:#e9eee0;min-height:240px}
+.silhouette-step{display:block;color:#785035;font:500 10px/1.6 var(--mono);text-transform:uppercase;letter-spacing:.06em}
+.history-silhouette .silhouette-explanation h3{font:600 23px/1.25 var(--serif);text-transform:none;letter-spacing:0;margin:10px 0 12px;color:#2c4834}
+.history-silhouette .silhouette-explanation p{font:400 14px/1.8 var(--sans);color:#3d523e;margin:0 0 14px}
+.silhouette-explanation>a{font:500 11px/1.7 var(--sans);color:#785035;text-underline-offset:3px}
+@media(max-width:950px){.silhouette-layout{grid-template-columns:1fr}.silhouette-controls{display:grid;grid-template-columns:minmax(210px,1fr) minmax(0,1.3fr);gap:18px}.silhouette-explanation{margin-top:0;min-height:0}}
+@media(max-width:600px){.silhouette-layout{gap:18px}.silhouette-figure{padding:12px}.silhouette-controls{display:block}.silhouette-choices{grid-template-columns:1fr 1fr}.silhouette-choices .silhouette-choice{gap:7px;padding:10px;font-size:12px}.silhouette-explanation{margin-top:16px;padding:18px}.silhouette-board .silhouette-point{width:40px;height:40px;min-height:40px;font-size:12px}}
