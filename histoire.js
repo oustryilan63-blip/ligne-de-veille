@@ -144,7 +144,7 @@
     };
     const data=drawings[item.name];if(!data)return null;
     const wrap=section('Lire sa silhouette','Choisis un numéro sur le dessin ou le nom d’un élément pour comprendre son rôle.');wrap.id='silhouette';wrap.classList.add('history-silhouette');
-    const layout=el('div','silhouette-layout'),figure=el('figure','silhouette-figure'),board=el('div','silhouette-board');board.id='silhouette-board';
+    const layout=el('div','silhouette-layout'),figure=el('figure','silhouette-figure'),viewport=el('div','silhouette-viewport'),board=el('div','silhouette-board');board.id='silhouette-board';viewport.tabIndex=0;viewport.setAttribute('role','region');viewport.setAttribute('aria-label','Dessin de '+item.name);
     const svgNode=(tag,attrs={})=>{const node=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const [key,value] of Object.entries(attrs))node.setAttribute(key,value);return node;};
     const svg=svgNode('svg',{viewBox:'0 0 800 440',role:'img','aria-label':'Illustration pédagogique : '+item.name+'. '+data.view});
     const defs=svgNode('defs');
@@ -153,7 +153,7 @@
     svg.append(defs);
     const artwork=svgNode('g',{class:'silhouette-artwork'}),shapeNodes=[],leaders=[];
     for(const [key,d,tone='metal'] of data.shapes){
-      const p=svgNode('path',{d,class:'silhouette-shape silhouette-material-'+tone});p.dataset.part=key;
+      const p=svgNode('path',{d,class:'silhouette-shape silhouette-material-'+tone});p.dataset.part=key;if(key==='decor')p.classList.add('silhouette-decoration');
       const n=data.parts.findIndex(part=>part.key===key);if(n>=0){p.classList.add('silhouette-part');p.addEventListener('click',()=>select(n));}
       artwork.append(p);
     }
@@ -161,22 +161,39 @@
     svg.append(artwork);
     for(const [key,d] of data.highlights){const p=svgNode('path',{d,class:'silhouette-selection'});svg.append(p);shapeNodes.push({key,node:p});}
     for(const part of data.parts){const leader=svgNode('g',{class:'silhouette-leader'});leader.append(svgNode('path',{d:'M'+part.x*8+' '+part.y*4.4+' L'+part.tx*8+' '+part.ty*4.4}),svgNode('circle',{cx:part.tx*8,cy:part.ty*4.4,r:'4'}));svg.append(leader);leaders.push(leader);}
-    board.append(svg);
-    const toolbar=el('div','silhouette-toolbar'),view=el('span','silhouette-view',data.view),mode=el('button','silhouette-mode','Contours');mode.type='button';mode.setAttribute('aria-pressed','false');mode.setAttribute('aria-label','Afficher la vue en contours');mode.setAttribute('aria-controls',board.id);
-    mode.addEventListener('click',()=>{const outline=board.classList.toggle('silhouette-outline');mode.setAttribute('aria-pressed',String(outline));mode.setAttribute('aria-label',outline?'Revenir à la vue détaillée':'Afficher la vue en contours');});
-    toolbar.append(view,mode);
+    board.append(svg);viewport.append(board);
+    const toolbar=el('div','silhouette-toolbar'),view=el('span','silhouette-view',data.view),modes=el('div','silhouette-mode-switch'),detailed=el('button','silhouette-detail-mode','Détaillé'),mode=el('button','silhouette-mode','Contours');modes.setAttribute('role','group');modes.setAttribute('aria-label','Présentation du schéma');
+    for(const button of [detailed,mode]){button.type='button';button.setAttribute('aria-controls',board.id);}
+    detailed.setAttribute('aria-pressed','true');mode.setAttribute('aria-pressed','false');
+    const setOutline=outline=>{board.classList.toggle('silhouette-outline',outline);mode.setAttribute('aria-pressed',String(outline));detailed.setAttribute('aria-pressed',String(!outline));};
+    mode.addEventListener('click',()=>setOutline(true));detailed.addEventListener('click',()=>setOutline(false));modes.append(detailed,mode);toolbar.append(view,modes);
     const legend=el('div','silhouette-legend');legend.append(el('span','silhouette-legend-swatch'),el('span','','Zone sélectionnée · clique sur le dessin ou un repère'));
-    figure.append(toolbar,board,legend,el('figcaption','','Illustration originale Radar · proportions simplifiées. '+data.note));
+    figure.append(toolbar,viewport,legend,el('figcaption','','Illustration originale Radar · proportions simplifiées. '+data.note));
     const controls=el('div','silhouette-controls'),choices=el('div','silhouette-choices');choices.setAttribute('role','group');choices.setAttribute('aria-label','Éléments de '+item.name);
     const panel=el('div','silhouette-explanation');panel.id='silhouette-explanation';panel.setAttribute('aria-live','polite');panel.setAttribute('aria-atomic','true');
     const step=el('span','silhouette-step'),title=el('h3'),text=el('p'),ref=link('','');panel.append(step,title,text,ref);
-    const buttons=[],hotspots=[];
-    const select=n=>{const part=data.parts[n];step.textContent='Repère '+(n+1)+' / '+data.parts.length;title.textContent=part.label;text.textContent=part.text;ref.textContent='Source : '+part.credit+' ↗';ref.href=part.source;buttons.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===n)));hotspots.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===n)));shapeNodes.forEach(s=>s.node.classList.toggle('silhouette-highlight',s.key===part.key));leaders.forEach((node,i)=>node.classList.toggle('silhouette-leader-active',i===n));};
+    const buttons=[],hotspots=[];let active=0;
+    const select=n=>{active=n;const part=data.parts[n];step.textContent='Repère '+(n+1)+' / '+data.parts.length;title.textContent=part.label;text.textContent=part.text;ref.textContent='Source : '+part.credit+' ↗';ref.href=part.source;buttons.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===n)));hotspots.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===n)));shapeNodes.forEach(s=>s.node.classList.toggle('silhouette-highlight',s.key===part.key));leaders.forEach((node,i)=>node.classList.toggle('silhouette-leader-active',i===n));};
     const keyboard=(event,n,list)=>{let next;if(event.key==='ArrowRight'||event.key==='ArrowDown')next=(n+1)%data.parts.length;else if(event.key==='ArrowLeft'||event.key==='ArrowUp')next=(n+data.parts.length-1)%data.parts.length;else if(event.key==='Home')next=0;else if(event.key==='End')next=data.parts.length-1;else return;event.preventDefault();select(next);list[next].focus();};
     data.parts.forEach((part,n)=>{const label=String(n+1).padStart(2,'0'),button=el('button','silhouette-choice');button.type='button';button.append(el('span','',label),el('span','',part.label));button.setAttribute('aria-controls',panel.id);button.addEventListener('click',()=>select(n));button.addEventListener('keydown',event=>keyboard(event,n,buttons));choices.append(button);buttons.push(button);
       const point=el('button','silhouette-point',String(n+1));point.type='button';point.style.left=part.x+'%';point.style.top=part.y+'%';point.setAttribute('aria-label',label+' · '+part.label);point.setAttribute('aria-controls',panel.id);point.addEventListener('click',()=>select(n));point.addEventListener('keydown',event=>keyboard(event,n,hotspots));board.append(point);hotspots.push(point);
     });
-    controls.append(choices,panel);layout.append(figure,controls);wrap.append(layout);select(0);return wrap;
+    const partNav=el('div','silhouette-part-nav'),previous=el('button','silhouette-previous','← Précédent'),nextPart=el('button','silhouette-next','Suivant →');previous.type=nextPart.type='button';previous.setAttribute('aria-label','Élément précédent');nextPart.setAttribute('aria-label','Élément suivant');previous.addEventListener('click',()=>select((active+data.parts.length-1)%data.parts.length));nextPart.addEventListener('click',()=>select((active+1)%data.parts.length));partNav.append(previous,nextPart);panel.append(partNav);
+    const actions=el('div','silhouette-actions'),enlarge=el('button','silhouette-enlarge','Agrandir le schéma ↗');enlarge.type='button';enlarge.setAttribute('aria-haspopup','dialog');enlarge.setAttribute('aria-expanded','false');actions.append(enlarge);
+    let dialog=null,zoom=100,zoomOut,zoomIn,zoomValue;
+    const setZoom=value=>{const old=zoom;zoom=Math.max(100,Math.min(200,value));const x=((viewport.scrollLeft||0)+(viewport.clientWidth||0)/2)*zoom/old-(viewport.clientWidth||0)/2,y=((viewport.scrollTop||0)+(viewport.clientHeight||0)/2)*zoom/old-(viewport.clientHeight||0)/2;board.style.width=zoom+'%';zoomValue.textContent=zoom+' %';zoomOut.disabled=zoom===100;zoomIn.disabled=zoom===200;viewport.scrollLeft=zoom===100?0:Math.max(0,x);viewport.scrollTop=zoom===100?0:Math.max(0,y);};
+    enlarge.addEventListener('click',()=>{
+      if(!dialog){
+        dialog=el('dialog','silhouette-modal');dialog.setAttribute('aria-labelledby','silhouette-modal-title');dialog.setAttribute('aria-describedby','silhouette-zoom-help');
+        const header=el('div','silhouette-modal-header'),heading=el('h2','',item.name+' · le schéma en grand'),close=el('button','silhouette-close','Fermer ×');heading.id='silhouette-modal-title';close.type='button';close.setAttribute('aria-label','Fermer le schéma agrandi');close.addEventListener('click',()=>dialog.close());header.append(heading,close);
+        const tools=el('div','silhouette-zoom-tools'),zoomGroup=el('div','silhouette-zoom-group'),reset=el('button','silhouette-zoom-reset','Réinitialiser');zoomGroup.setAttribute('role','group');zoomGroup.setAttribute('aria-label','Zoom du schéma');zoomOut=el('button','silhouette-zoom-out','−');zoomIn=el('button','silhouette-zoom-in','+');zoomOut.type=zoomIn.type=reset.type='button';zoomOut.setAttribute('aria-label','Zoom arrière');zoomIn.setAttribute('aria-label','Zoom avant');reset.setAttribute('aria-label','Réinitialiser le zoom');zoomValue=el('output','silhouette-zoom-value');zoomValue.setAttribute('aria-live','polite');zoomOut.addEventListener('click',()=>setZoom(zoom-25));zoomIn.addEventListener('click',()=>setZoom(zoom+25));reset.addEventListener('click',()=>setZoom(100));zoomGroup.append(zoomOut,zoomValue,zoomIn,reset);
+        const help=el('p','','Après avoir zoomé, fais défiler le dessin pour explorer ses détails. Les numéros et les explications restent cliquables.');help.id='silhouette-zoom-help';tools.append(zoomGroup,help);dialog.append(header,tools);wrap.append(dialog);
+        dialog.addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();dialog.close();}});
+        dialog.addEventListener('close',()=>{setZoom(100);layout.remove();wrap.append(layout);enlarge.setAttribute('aria-expanded','false');enlarge.focus({preventScroll:true});});
+      }
+      layout.remove();dialog.append(layout);setZoom(100);dialog.showModal();enlarge.setAttribute('aria-expanded','true');dialog.querySelector('.silhouette-close').focus();
+    });
+    controls.append(choices,panel);layout.append(figure,controls);wrap.append(actions,layout);select(0);return wrap;
   }
   function renderDetail(index){
     const item=engins[index],fact=facts[index]||{},figuresFor=figures[index]||{};
