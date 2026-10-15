@@ -4,6 +4,305 @@
   "items": [
     {
       "date": "2026-10-15",
+      "publishedAt": "2026-10-15T14:48:12+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "AUKUS: HII Awarded Contract for Engineering and Design Support",
+      "url": "https://www.navalnews.com/naval-news/2026/10/aukus-hii-awarded-contract-for-engineering-and-design-support/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "AUKUS",
+        "HII",
+        "SSN-AUKUS"
+      ],
+      "sourceExcerpt": {
+        "text": "HII announced that its Newport News Shipbuilding (NNS) division was awarded a $56 million contract by the U.S. Navy for…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-15T16:17:18.856548+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/HII-to-Support-AUKUS-Engineering-and-Design-Work-768x432.jpg",
+        "kind": "article",
+        "alt": "HII to Support AUKUS Engineering and Design Work",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/aukus-hii-awarded-contract-for-engineering-and-design-support/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/aukus-hii-awarded-contract-for-engineering-and-design-support/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/HII-to-Support-AUKUS-Engineering-and-Design-Work.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T14:34:08+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’armée de l’Air & de l’Espace va doter son escadron de drones de bombardement de munitions téléopérées «DÉLUGE»",
+      "url": "https://www.opex360.com/2026/10/15/larmee-de-lair-de-lespace-va-doter-son-escadron-de-drones-de-bombardement-de-munitions-teleoperees-deluge/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "aAE",
+        "armée de l'Air & de l'Espace",
+        "DÉLUGE",
+        "escadron de drones de bombardement",
+        "général Bellanger",
+        "MBDA",
+        "MTO"
+      ],
+      "sourceExcerpt": {
+        "text": "En marge des débats sur l’actualisation de la Loi de programmation militaire [LPM] 2024-30, le chef d’état-major de l’armée de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-15T16:17:18.856548+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/owe-20250616.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’armée de l’Air & de l’Espace va doter son escadron de drones de bombardement de munitions téléopérées «DÉLUGE» ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/15/larmee-de-lair-de-lespace-va-doter-son-escadron-de-drones-de-bombardement-de-munitions-teleoperees-deluge/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/15/larmee-de-lair-de-lespace-va-doter-son-escadron-de-drones-de-bombardement-de-munitions-teleoperees-deluge/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/owe-20250616.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T13:28:05+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Shield AI Delivers First V-BAT to Taiwan Coast Guard",
+      "url": "https://www.navalnews.com/naval-news/2026/10/shield-ai-delivers-first-v-bat-to-taiwan-coast-guard/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Shield AI",
+        "Taiwan Coast Guard",
+        "V-BAT"
+      ],
+      "sourceExcerpt": {
+        "text": "Shield AI delivers the first V-BAT autonomous aircraft to the Taiwan Coast Guard Administration, enhancing maritime domain awareness with partner…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-15T16:17:18.856548+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Shield-AI-Delivers-First-V-BAT-to-Taiwan-Coast-Guard-768x432.jpg",
+        "kind": "article",
+        "alt": "Shield AI Delivers First V-BAT to Taiwan Coast Guard",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/shield-ai-delivers-first-v-bat-to-taiwan-coast-guard/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/shield-ai-delivers-first-v-bat-to-taiwan-coast-guard/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Shield-AI-Delivers-First-V-BAT-to-Taiwan-Coast-Guard.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T13:22:42+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Ceuta et Melilla : la Couronne espagnole fait front",
+      "url": "https://www.revueconflits.com/ceuta-et-melilla-la-couronne-espagnole-fait-front/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Abonné",
+        "Espagne",
+        "Maroc"
+      ],
+      "imageCheckedAt": "2026-10-15T16:17:18.856548+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2022/08/08-Carte-Gibraltar-115x75-1.jpg",
+        "kind": "article",
+        "alt": "Ceuta et Melilla : la Couronne espagnole fait front",
+        "credit": "Détroit de Gibraltar (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/ceuta-et-melilla-la-couronne-espagnole-fait-front/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/ceuta-et-melilla-la-couronne-espagnole-fait-front/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2022/08/08-Carte-Gibraltar-115x75-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T10:51:13+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Avec l’A2SM XLR, l’armée de l’Air va récupérer une capacité de suppression des défenses aériennes adverses",
+      "url": "https://www.opex360.com/2026/10/15/avec-la2sm-xlr-larmee-de-lair-va-recuperer-une-capacite-de-suppression-des-defenses-aeriennes-adverses/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "A2SM XLR",
+        "aAE",
+        "armée de l'Air & de l'Espace",
+        "CEMAAE",
+        "général Bellanger",
+        "guerre électronique",
+        "safran",
+        "SEAD",
+        "STRATUS RS",
+        "Suppression des défenses aériennes ennemies"
+      ],
+      "sourceExcerpt": {
+        "text": "Lors d’une audition à l’Assemblée nationale, le 14 octobre, le chef d’état-major de l’armée de l’Air & de l’Espace [CEMAAE],…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-15T16:17:18.856548+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/aasm1000-rafale-20230126.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Avec l’A2SM XLR, l’armée de l’Air va récupérer une capacité de suppression des défenses aériennes adverses ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/15/avec-la2sm-xlr-larmee-de-lair-va-recuperer-une-capacite-de-suppression-des-defenses-aeriennes-adverses/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/15/avec-la2sm-xlr-larmee-de-lair-va-recuperer-une-capacite-de-suppression-des-defenses-aeriennes-adverses/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/aasm1000-rafale-20230126.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T09:30:02+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Les Houthis contrôlent Bab el-Mandeb : les États-Unis pourraient-ils intervenir ?",
+      "url": "https://www.revueconflits.com/les-houthis-controlent-bab-el-mandeb-les-etats-unis-pourraient-ils-intervenir/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Cartes",
+        "Moyen-Orient",
+        "Abonné",
+        "Entretien"
+      ],
+      "imageCheckedAt": "2026-10-15T16:17:18.856548+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/AFP__20261009__D2RW9ZT__v1__HighRes__YemenUsIsraelIranWar-scaled-1-e1792054149562.jpg",
+        "kind": "article",
+        "alt": "Les Houthis contrôlent Bab el-Mandeb : les États-Unis pourraient-ils intervenir ?",
+        "credit": "(Photo by Mohammed HUWAIS / AFP)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/les-houthis-controlent-bab-el-mandeb-les-etats-unis-pourraient-ils-intervenir/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/les-houthis-controlent-bab-el-mandeb-les-etats-unis-pourraient-ils-intervenir/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/AFP__20261009__D2RW9ZT__v1__HighRes__YemenUsIsraelIranWar-scaled-1-e1792054149562.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T08:15:33+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "First World War Soldier of the West Yorkshire Regiment Buried in France more than a century after his death",
+      "url": "https://www.gov.uk/government/news/first-world-war-soldier-of-the-west-yorkshire-regiment-buried-in-france-more-than-a-century-after-his-death",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "An unknown soldier of the West Yorkshire Regiment, discovered near the Thiepval Memorial on the Somme, has been given a…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-15T16:17:18.856548+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6acfad6cb8542d3693fd455e/s300_IMG_20261014_132917772_HDR.jpg",
+        "kind": "article",
+        "alt": "The coffin of the unknown soldier, dressed in the Union Flag, is guarded by two serving soldiers prior to the start of the service (Crown Copyright)",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/first-world-war-soldier-of-the-west-yorkshire-regiment-buried-in-france-more-than-a-century-after-his-death",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/first-world-war-soldier-of-the-west-yorkshire-regiment-buried-in-france-more-than-a-century-after-his-death",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-15"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T06:16:50+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Les CUBITA, les six futurs pivots de l’avenir agricole et alimentaire mondial",
+      "url": "https://www.areion24.news/2026/10/15/les-cubita-les-six-futurs-pivots-de-lavenir-agricole-et-alimentaire-mondial/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Les Grands Dossiers de Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Vingt-cinq ans après la première apparition de l’acronyme BRIC, aujourd’hui BRICS+ (1), regardons vers le prochain quart de siècle avec…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-15T16:17:18.856548+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/10/XxjpbeE000034_20260507_PEPFN0A001-scaled.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Les CUBITA, les six futurs pivots de l’avenir agricole et alimentaire mondial ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/10/15/les-cubita-les-six-futurs-pivots-de-lavenir-agricole-et-alimentaire-mondial/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/10/15/les-cubita-les-six-futurs-pivots-de-lavenir-agricole-et-alimentaire-mondial/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/10/XxjpbeE000034_20260507_PEPFN0A001-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-15",
       "publishedAt": "2026-10-15T05:00:26+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -712,6 +1011,50 @@
     },
     {
       "date": "2026-10-13",
+      "publishedAt": "2026-10-13T14:56:06+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "PREMIERES INFORMATIONS AMERICAINES",
+      "url": "https://blablachars.blogspot.com/2026/10/premieres-informations-americaines.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "American Rheinmetall",
+        "Bradley",
+        "Etats-Unis",
+        "GDLS",
+        "Lynx",
+        "OMFV",
+        "VBCI",
+        "VCI",
+        "Wolf",
+        "XM 30"
+      ],
+      "sourceExcerpt": {
+        "text": "Les premières photos ou illustrations des prototypes XM 30 qui commencent à apparaitre sur les réseaux sociaux, ont été complétées…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-15T16:17:18.856548+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibzWiL-a57_-SXs83DWrO3HxOLXa_UXXf3Jdm2omFTvEMcu7ksneLeROdu0ABnVWUv3UJORSCwCrTTl_0WzLsjfXjU5Dj0rhL65aef2i_60-z2IT1Ah6wLTZturD0UzgDh43KnpRLWEkbBhR-voP3DHVf8RRK9q4wO6tjQLDkwgH834bxAk0qi6f37UYk/w1200-h630-p-k-no-nu/Wolf%20lynx%20et%20M1E3.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « PREMIERES INFORMATIONS AMERICAINES ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/premieres-informations-americaines.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/premieres-informations-americaines.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibzWiL-a57_-SXs83DWrO3HxOLXa_UXXf3Jdm2omFTvEMcu7ksneLeROdu0ABnVWUv3UJORSCwCrTTl_0WzLsjfXjU5Dj0rhL65aef2i_60-z2IT1Ah6wLTZturD0UzgDh43KnpRLWEkbBhR-voP3DHVf8RRK9q4wO6tjQLDkwgH834bxAk0qi6f37UYk/w1200-h630-p-k-no-nu/Wolf%20lynx%20et%20M1E3.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-13",
       "publishedAt": "2026-10-13T14:06:26+00:00",
       "source": "Zone Militaire — Opex360",
       "sourceType": "Presse spécialisée",
@@ -868,6 +1211,45 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-13",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/dfpeak-20261013.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T08:50:52+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "BYE BYE LE K9, WELCOME TO XM 1776",
+      "url": "https://blablachars.blogspot.com/2026/10/bye-bye-le-k9-welcome-to-xm-1776.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Etats-Unis",
+        "Hanwha Defense USA",
+        "K9",
+        "SPH 155",
+        "XM 1776"
+      ],
+      "sourceExcerpt": {
+        "text": "Le Salon AUSA qui se tient actuellement à Washington a permis à Hanwha Defense USA de présenter la version américaine…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-15T16:17:18.856548+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtdFS8t2CrGtG_Jp1agq8FmBYFZ6AY7WLzOxn3qr_jfyK7foyadQD92A2grE40ii539Xzqo4ZF5gQoOVbs3oiXTFHsocz04Un-T8DfKw_mfEvQfUUA0Hb0KoAZNl3DJUgfZxTsb8v_z2vFhUm4IIPoTjzVC_0EsJvihgggWPd2Si6eX-VnUtw-29ipxhM/w1200-h630-p-k-no-nu/XM%201776.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « BYE BYE LE K9, WELCOME TO XM 1776 ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/bye-bye-le-k9-welcome-to-xm-1776.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/bye-bye-le-k9-welcome-to-xm-1776.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtdFS8t2CrGtG_Jp1agq8FmBYFZ6AY7WLzOxn3qr_jfyK7foyadQD92A2grE40ii539Xzqo4ZF5gQoOVbs3oiXTFHsocz04Un-T8DfKw_mfEvQfUUA0Hb0KoAZNl3DJUgfZxTsb8v_z2vFhUm4IIPoTjzVC_0EsJvihgggWPd2Si6eX-VnUtw-29ipxhM/w1200-h630-p-k-no-nu/XM%201776.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -3262,7 +3644,7 @@
       "imageCheckedAt": "2026-10-15T06:16:14.328256+00:00"
     }
   ],
-  "checkedAt": "2026-10-15T06:16:09.692441+00:00",
+  "checkedAt": "2026-10-15T16:17:12.461845+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -3281,7 +3663,7 @@
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -3293,7 +3675,7 @@
       {
         "source": "OpexNews",
         "ok": true,
-        "recentItems": 1,
+        "recentItems": 0,
         "error": null
       },
       {
@@ -3323,7 +3705,7 @@
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 11,
+        "recentItems": 8,
         "error": null
       },
       {
@@ -3333,8 +3715,8 @@
         "error": null
       }
     ],
-    "newItems": 7,
-    "articleImages": 89,
+    "newItems": 10,
+    "articleImages": 99,
     "duplicateHeadlinesSkipped": 0
   }
 }
