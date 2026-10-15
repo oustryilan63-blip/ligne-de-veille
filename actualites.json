@@ -1,7 +1,200 @@
 {
-  "updatedAt": "2026-10-14",
+  "updatedAt": "2026-10-15",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T05:00:26+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Face à la rivalité sino-américaine, Singapour cultive « l’équidistance »",
+      "url": "https://www.revueconflits.com/face-a-la-rivalite-sino-americaine-singapour-cultive-lequidistance/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie",
+        "Asie de l'Est",
+        "Asie du Sud",
+        "Entretien",
+        "Abonné",
+        "Chine",
+        "États-Unis"
+      ],
+      "imageCheckedAt": "2026-10-15T06:16:14.328256+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/Vignettes-videos-90.png",
+        "kind": "article",
+        "alt": "Face à la rivalité sino-américaine, Singapour cultive « l’équidistance »",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/face-a-la-rivalite-sino-americaine-singapour-cultive-lequidistance/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/face-a-la-rivalite-sino-americaine-singapour-cultive-lequidistance/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/Vignettes-videos-90.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T03:00:12+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Felipe VI, l’homme le mieux habillé d’Europe",
+      "url": "https://www.revueconflits.com/felipe-vi-lhomme-le-mieux-habille-deurope/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Abonné",
+        "Culture",
+        "Espagne"
+      ],
+      "imageCheckedAt": "2026-10-15T06:16:14.328256+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_01259572_000035-scaled.jpg",
+        "kind": "article",
+        "alt": "Felipe VI, l’homme le mieux habillé d’Europe",
+        "credit": "Queen Letizia of Spain, King Felipe of Spain visit Jaen on the 1200th anniversary of the city on the 17th of March of 2026 in Jaen, Spain 17/03/2026-Jaen-Spain 17/03/2026-Jaen-Spain//SMITHROBERT__SMI6091/Credit:R. SMITH/SIPA/2603171827",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/felipe-vi-lhomme-le-mieux-habille-deurope/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/felipe-vi-lhomme-le-mieux-habille-deurope/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_01259572_000035-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T17:35:10+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Armement terrestre : Berlin envisage d’acquérir 50 % du groupe franco-allemand KNDS",
+      "url": "https://www.opex360.com/2026/10/14/armement-terrestre-berlin-envisage-dacquerir-50-du-groupe-franco-allemand-knds/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Industrie",
+        "actionnaire",
+        "Allemagne",
+        "armement terrestre",
+        "Bode-Wegmann",
+        "bourse",
+        "France",
+        "KDNS",
+        "nationalisation"
+      ],
+      "sourceExcerpt": {
+        "text": "Lors du rapprochement entre Nexter Systems et Krauss-Maffei Wegmann, en 2015, il fut convenu que l’État français, via Giat Industries,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-15T06:16:14.328256+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/embt-20231206.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Armement terrestre : Berlin envisage d’acquérir 50 % du groupe franco-allemand KNDS ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/14/armement-terrestre-berlin-envisage-dacquerir-50-du-groupe-franco-allemand-knds/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/14/armement-terrestre-berlin-envisage-dacquerir-50-du-groupe-franco-allemand-knds/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/embt-20231206.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T17:33:47+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "La Chine accepte de plafonner l’exportation des hybrides en Europe. À quel prix ?",
+      "url": "https://www.revueconflits.com/la-chine-accepte-de-plafonner-ses-hybrides-en-europe-a-quel-prix/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Économie, énergies et entreprises",
+        "Abonné",
+        "Chine"
+      ],
+      "imageCheckedAt": "2026-10-15T06:16:14.328256+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_sipausa30077127_000011-scaled-e1791998830566.jpg",
+        "kind": "article",
+        "alt": "La Chine accepte de plafonner l’exportation des hybrides en Europe. À quel prix ?",
+        "credit": "Credit: Han Chuanhao/Xinhua/Sipa Press/geelychnsipa.011/1112081955",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/la-chine-accepte-de-plafonner-ses-hybrides-en-europe-a-quel-prix/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/la-chine-accepte-de-plafonner-ses-hybrides-en-europe-a-quel-prix/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_sipausa30077127_000011-scaled-e1791998830566.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T16:50:56+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Israël confirme la commande de douze hélicoptères d’attaque AH-64E Apache/Guardian auprès de Boeing",
+      "url": "https://www.opex360.com/2026/10/14/israel-confirme-la-commande-de-douze-helicopteres-dattaque-ah-64e-apache-guardian-aupres-de-boeing/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Moyen-Orient",
+        "AH-64E",
+        "Apache",
+        "Boeing",
+        "contrat",
+        "Echo",
+        "Etats-Unis",
+        "Guardian",
+        "hélicoptère d'attaque",
+        "Israël",
+        "Tsahal"
+      ],
+      "sourceExcerpt": {
+        "text": "Chaque conflit a des caractéristiques qui lui sont propres. Aussi, ceux qui, à la lumière des retours d’expérience [RETEX] de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-15T06:16:14.328256+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/ah64e-israel-20261014.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Israël confirme la commande de douze hélicoptères d’attaque AH-64E Apache/Guardian auprès de Boeing ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/14/israel-confirme-la-commande-de-douze-helicopteres-dattaque-ah-64e-apache-guardian-aupres-de-boeing/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/14/israel-confirme-la-commande-de-douze-helicopteres-dattaque-ah-64e-apache-guardian-aupres-de-boeing/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/ah64e-israel-20261014.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-14",
       "publishedAt": "2026-10-14T15:25:47+00:00",
@@ -180,6 +373,36 @@
     },
     {
       "date": "2026-10-14",
+      "publishedAt": "2026-10-14T11:03:00+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Scarborough soldier buried in Belgium more than a century after his death",
+      "url": "https://www.gov.uk/government/news/scarborough-soldier-buried-in-belgium-more-than-a-century-after-his-death",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Scarborough soldier, Lance Corporal (LCpl) Claude Stanley Dell, has been laid to rest more than a century after his death…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-15T06:16:14.328256+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6ace611c2de3184ccf8b805f/s300_Photo_2_-_LCpl_April_Farthing_sounded_the_Last_Post.jpg",
+        "kind": "article",
+        "alt": "Lance Corporal April Farthing stands ready to sound Last Post as the coffin of LCpl Dell is born to the graveside (Crown Copyright)",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/scarborough-soldier-buried-in-belgium-more-than-a-century-after-his-death",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/scarborough-soldier-buried-in-belgium-more-than-a-century-after-his-death",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-15"
+      }
+    },
+    {
+      "date": "2026-10-14",
       "publishedAt": "2026-10-14T10:33:10+00:00",
       "source": "Zone Militaire — Opex360",
       "sourceType": "Presse spécialisée",
@@ -289,6 +512,44 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-14",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/Vignettes-videos-93.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T08:16:31+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "HD HHI Launches Third 2,400-Ton OPV ‘BRP Rajah Humabon’ for Philippine Navy",
+      "url": "https://www.navalnews.com/naval-news/2026/10/hd-hhi-launches-third-2400-ton-opv-brp-rajah-humabon-for-philippine-navy/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "HD HHI",
+        "OPV",
+        "Philippine Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "HD Hyundai Heavy Industries has launched BRP Rajah Humabon, the third of six 2,400-ton Offshore Patrol Vessels (OPVs) built for…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-15T06:16:14.328256+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/BRP-Rajah-Humabon-OPV-1-768x515.jpg",
+        "kind": "article",
+        "alt": "BRP Rajah Humabon",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/hd-hhi-launches-third-2400-ton-opv-brp-rajah-humabon-for-philippine-navy/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/hd-hhi-launches-third-2400-ton-opv-brp-rajah-humabon-for-philippine-navy/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-15",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/BRP-Rajah-Humabon-OPV-1.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -2784,7 +3045,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-14T06:14:39.353720+00:00"
+      "imageCheckedAt": "2026-10-15T06:16:14.328256+00:00"
     },
     {
       "date": "2026-10-07",
@@ -2998,10 +3259,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-14T06:14:39.353720+00:00"
+      "imageCheckedAt": "2026-10-15T06:16:14.328256+00:00"
     }
   ],
-  "checkedAt": "2026-10-14T16:20:42.278226+00:00",
+  "checkedAt": "2026-10-15T06:16:09.692441+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -3044,7 +3305,7 @@
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -3062,18 +3323,18 @@
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 12,
+        "recentItems": 11,
         "error": null
       },
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 3,
         "error": null
       }
     ],
-    "newItems": 8,
-    "articleImages": 82,
+    "newItems": 7,
+    "articleImages": 89,
     "duplicateHeadlinesSkipped": 0
   }
 }
