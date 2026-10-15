@@ -73,7 +73,7 @@
   for(const select of [countrySelect,typeSelect,sortSelect])select.addEventListener('change',renderCatalogue);
   document.getElementById('history-reset')?.addEventListener('click',()=>{search.value=countrySelect.value=typeSelect.value='';sortSelect.value='catalogue';selected='Tous';filters.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.textContent==='Tous')));renderCatalogue()});
   window.addEventListener('radar-collection-change',()=>{if(!detail.hidden)return;const active=document.activeElement?.dataset?.favourite;renderCatalogue();if(active){const target=[...grid.querySelectorAll('[data-favourite]')].find(b=>b.dataset.favourite===active);if(target)target.focus();else document.getElementById('collection-title')?.focus();}});
-  function section(title, desc){const s=el('section','history-detail-section');s.append(el('h3','',title));if(desc)s.append(el('p','',desc));return s}
+  function section(title, desc){const s=el('section','history-detail-section');s.append(el('h2','',title));if(desc)s.append(el('p','',desc));return s}
   function technicalCard(index){
     const data=technical[index];
     const wrap=el('div','history-tech');
@@ -109,14 +109,13 @@
     catalogue.hidden=true;detail.hidden=false;detail.replaceChildren();document.body.classList.add('history-profile');document.title=item.name+' | Histoire | Radar';
     const fromCollection=params.get('retour')==='collection';
     const back=el('a','history-back',fromCollection?'← Revenir à ma collection':'← Revenir aux '+engins.length+' engins');back.href=fromCollection?'collection.html':'histoire.html';detail.append(back);
-    detail.append(el('h2','history-mobile-title',item.name));
     const jump=el('nav','profile-jump');jump.setAttribute('aria-label','Dans cette fiche');detail.append(jump);
     const head=el('div','history-detail-head');const media=el('div',item.category==='missiles'?'history-missile-media':'');
     const photoRecords=window.RADAR_PHOTOS.photos(item),coverRecord=photoRecords[0],cover=el('a','history-cover'),coverImage=el('img');
     cover.href='#photos';cover.setAttribute('aria-label','Voir la galerie photo de '+item.name);coverImage.src=coverRecord.src;coverImage.alt=coverRecord.alt||item.name;coverImage.decoding='async';coverImage.loading='eager';cover.append(coverImage);
     const photoShortcut=el('a','history-photo-shortcut','Voir les '+photoRecords.length+' photo'+(photoRecords.length>1?'s':'')+' ↓');photoShortcut.href='#photos';
     media.append(cover,window.RADAR_PHOTOS.creditFor(coverRecord),photoShortcut);
-    const copy=el('div','history-summary');copy.append(el('span','history-kicker',String(index+1).padStart(2,'0')+' / '+item.kind+' / '+item.country),el('h1','history-name',item.name),el('p','history-subtitle','Origine : '+item.country));
+    const copy=el('div','history-summary');copy.append(el('span','history-kicker',item.kind+' · '+item.country),el('h1','history-name',item.name));
     copy.append(el('p','history-introduction',item.explanation));
     const actions=el('div','history-profile-actions');actions.setAttribute('role','group');actions.setAttribute('aria-label','Actions sur cet engin');actions.append(collection.button(item,true));
     const compare=el('a','compare-link','Comparer cet engin →');compare.href='comparateur.html?a='+index;actions.append(compare);copy.append(actions);
@@ -124,10 +123,10 @@
     const modelView=window.RADAR_3D?.create(item);
     if(modelView){const explore=el('a','button button-dark history-3d-shortcut','Explorer cet engin en 3D ↓');explore.href='#vue-3d';explore.addEventListener('click',()=>modelView.open());media.append(explore)}
     const events=window.LDV_TIMELINES?.[index]||[];
-    const story=el('section','history-story');story.id='recit';story.setAttribute('aria-labelledby','story-title-'+index);const storyTitle=el('h3','','Son histoire');storyTitle.id='story-title-'+index;story.append(storyTitle);
+    const story=el('section','history-story');story.id='recit';story.setAttribute('aria-labelledby','story-title-'+index);const storyTitle=el('h2','','Son histoire');storyTitle.id='story-title-'+index;story.append(storyTitle);
     const storyMeta=el('div','history-story-meta');
     const minutes=Math.max(1,Math.round((fact.story||'').split(/\s+/).filter(Boolean).length/180));
-    storyMeta.append(el('span','',minutes+' min de lecture'));
+    storyMeta.append(el('span','history-reading-time',minutes+' min de lecture'));
     if(fact.storyCheckedAt)storyMeta.append(el('span','history-story-reviewed','Récit revu le '+fact.storyCheckedAt));
     if(events.length){const shortcut=el('a','','Voir les '+events.length+' grandes étapes ↓');shortcut.href='#chronologie';storyMeta.append(shortcut)}
     story.append(storyMeta);
@@ -151,17 +150,17 @@
       const canonical=document.querySelector('link[rel="canonical"]');if(canonical&&location.href){canonical.href=new URL(url,location.href).href;const node=document.querySelector('meta[property="og:url"]');if(node)node.setAttribute('content',canonical.href)}
       for(const selector of ['meta[property="og:title"]','meta[name="twitter:title"]']){const node=document.querySelector(selector);if(node)node.setAttribute('content',item.name+' | Histoire | Radar')}
     }
+    if(essential)detail.append(essential);
     detail.append(story);
     if(window.RADAR_DISCOVERY?.guideLinks){
       const reading=el('nav','learning-profile-reading');reading.setAttribute('aria-label','Comprendre le contexte de cet engin');
-      reading.append(el('h3','','Pour comprendre son contexte'),el('p','','Le récit suit cet engin. Les dossiers expliquent les familles, les missions et les notions qui l’entourent.'));
+      reading.append(el('h2','','Pour comprendre son contexte'),el('p','','Le récit suit cet engin. Les dossiers expliquent les familles, les missions et les notions qui l’entourent.'));
       for(const guide of window.RADAR_DISCOVERY.guideLinks(item)){const anchor=el('a','',guide.title+' →');anchor.href=guide.url;reading.append(anchor);}
       const all=el('a','','Tous les dossiers et le lexique →');all.href='comprendre.html';reading.append(all);detail.append(reading);
     }
-    if(essential)detail.append(essential);
     if(events.length){
       const timeline=el('section','history-timeline');timeline.id='chronologie';timeline.setAttribute('aria-labelledby','timeline-title-'+index);
-      const heading=el('h3','','Les grandes étapes');heading.id='timeline-title-'+index;
+      const heading=el('h2','','Les grandes étapes');heading.id='timeline-title-'+index;
       timeline.append(heading,el('p','history-timeline-intro','Du développement aux évolutions de la carrière. Chaque étape conserve la précision de sa source.'));
       if(fact.timelineNote)timeline.append(el('p','history-timeline-note',fact.timelineNote));
       const list=el('ol');
@@ -216,7 +215,7 @@
       }
       detail.append(records);
     }
-    const sources=el('section','history-detail-section history-sources');sources.id='sources';sources.append(el('h3','','Sources de la fiche'));const list=el('ul');
+    const sources=el('section','history-detail-section history-sources');sources.id='sources';sources.append(el('h2','','Sources de la fiche'));const list=el('ul');
     const refs=[['Présentation et histoire du programme',item.source],['Pays utilisateurs',fact.operatorSource],['Anciens utilisateurs',fact.formerSource],['Production et livraisons',production?.source],['Inventaire daté',inventory?.source],['Engins détruits',figuresFor.losses?.source],['Cibles détruites',figuresFor.targets?.source],...(fact.storySources||[]).map(ref=>[ref.label,ref.url]),...(fact.extraSources||[]).map(url=>['Autre source',url])];const seen=new Set();refs.forEach(([title,url])=>{if(url&&!seen.has(url)){seen.add(url);const li=el('li');li.append(link(title+' ↗',url));list.append(li)}});sources.append(list,el('p','',(fact.storyCheckedAt?'Récit et frise revus le '+fact.storyCheckedAt+'. Autres repères : dernière vérification indiquée le '+(fact.checkedAt||'10 octobre 2026'):'Sources consultées le '+(fact.checkedAt||'10 octobre 2026'))+'. La carte présente les pays documentés dans ces sources, sans prétendre couvrir chaque transfert ou retrait. Les bilans de pertes sont des minimums documentés ou des estimations datées, précisés dans chaque carte.'));detail.append(sources);
     const next=el('nav','history-next');next.setAttribute('aria-label','Parcourir les fiches');const prev=el('a','','← '+engins[(index+engins.length-1)%engins.length].name);prev.href=window.RADAR_DISCOVERY?.profileURL(engins[(index+engins.length-1)%engins.length])||'histoire.html?engin='+(index+engins.length-1)%engins.length;const after=el('a','',engins[(index+1)%engins.length].name+' →');after.href=window.RADAR_DISCOVERY?.profileURL(engins[(index+1)%engins.length])||'histoire.html?engin='+(index+1)%engins.length;next.append(prev,after);detail.append(next);
     for(const [label,id] of [['Histoire','recit'],...(events.length?[['Chronologie','chronologie']]:[]),['Technique','technique'],['Photos','photos'],...(modelView?[['3D','vue-3d']]:[]),['Carte','utilisateurs'],['Chiffres','chiffres'],['Sources','sources']]){
