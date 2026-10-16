@@ -1,7 +1,273 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-10-15",
+  "updatedAt": "2026-10-16",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T02:34:56+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – La culture du combat en Israël. Gil Mihaely",
+      "url": "https://www.revueconflits.com/podcast-la-culture-du-combat-en-israel-gil-mihaely/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Podcasts",
+        "Podcasts Géostratégie",
+        "Podcasts Moyen-Orient",
+        "Israël"
+      ],
+      "imageCheckedAt": "2026-10-16T06:15:28.664135+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/06/SIPA_01278533_000043-scaled.jpg",
+        "kind": "article",
+        "alt": "Podcast – La culture du combat en Israël. Gil Mihaely",
+        "credit": "Israeli settlers walk through the Old City of Hebron in the occupied West Bank under the protection of the Israeli army on June 27, 2026. Wazwaz//APAIMAGES_28061496/Credit:Mamoun Wazwaz/SIPA/2606281048",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-la-culture-du-combat-en-israel-gil-mihaely/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-la-culture-du-combat-en-israel-gil-mihaely/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/06/SIPA_01278533_000043-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T02:00:20+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Livres – 16 octobre",
+      "url": "https://www.revueconflits.com/livres-16-octobre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Revue Conflits",
+        "Livre"
+      ],
+      "imageCheckedAt": "2026-10-16T06:15:28.664135+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/10/conflits-lecteur-scaled-e1737970920644.jpg",
+        "kind": "article",
+        "alt": "Livres – 16 octobre",
+        "credit": "Livre (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/livres-16-octobre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/livres-16-octobre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/10/conflits-lecteur-scaled-e1737970920644.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T20:11:58+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "AV and Thunder Tiger Sign MOU to Explore Uncrewed Systems Integration and Co-Production in Taiwan",
+      "url": "https://www.navalnews.com/naval-news/2026/10/av-and-thunder-tiger-sign-mou-to-explore-uncrewed-systems-integration-and-co-production-in-taiwan/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Taiwan",
+        "Unmanned Vehicles"
+      ],
+      "sourceExcerpt": {
+        "text": "AeroVironment, Inc., a global defense technology leader, and Thunder Tiger Corp., a Taiwan-based developer and manufacturer of unmanned systems, today…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-16T06:15:28.664135+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/AV-and-Thunder-Tiger-signing-768x512.webp",
+        "kind": "article",
+        "alt": "AV and Thunder Tiger Sign MOU to Explore Uncrewed Systems Integration and Co-Production in Taiwan",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/av-and-thunder-tiger-sign-mou-to-explore-uncrewed-systems-integration-and-co-production-in-taiwan/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/av-and-thunder-tiger-sign-mou-to-explore-uncrewed-systems-integration-and-co-production-in-taiwan/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/AV-and-Thunder-Tiger-signing.webp",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T18:58:59+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Navantia signs a contract to modernize two patrol vessels for Angolan Navy",
+      "url": "https://www.navalnews.com/naval-news/2026/10/navantia-signs-a-contract-to-modernize-two-patrol-vessels-for-angolan-navy/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Angolan Navy",
+        "Navantia"
+      ],
+      "sourceExcerpt": {
+        "text": "On October 15, 2026, Spanish shipbuilder Navantia announced a contract with the Angolan Navy for the modernization of two Mandume-class…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-16T06:15:28.664135+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Angola-Mandume-Class-768x311.jpg",
+        "kind": "article",
+        "alt": "Navantia signs a contract to modernize two patrol vessels for Angolan Navy",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/navantia-signs-a-contract-to-modernize-two-patrol-vessels-for-angolan-navy/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/navantia-signs-a-contract-to-modernize-two-patrol-vessels-for-angolan-navy/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Angola-Mandume-Class.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T18:22:07+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Deluge en mer et Rampart bientôt de retour à terre",
+      "url": "https://forcesoperations.com/deluge-en-mer-et-rampart-bientot-de-retour-a-terre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "Deluge",
+        "MTO",
+        "Rampart"
+      ],
+      "sourceExcerpt": {
+        "text": "Clap de fin pour Wildfire 26.2, cet exercice de lutte anti-drones conduit en Méditerranée par la Marine nationale. Un rendez-vous…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-16T06:15:28.664135+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/10/Au-sol-et-dans-le-ciel-le-plan-de-larmee-de-Terre-pour-muscler-son-artillerie_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Deluge en mer et Rampart bientôt de retour à terre ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/deluge-en-mer-et-rampart-bientot-de-retour-a-terre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/deluge-en-mer-et-rampart-bientot-de-retour-a-terre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/Au-sol-et-dans-le-ciel-le-plan-de-larmee-de-Terre-pour-muscler-son-artillerie_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T17:42:55+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La France n’a pas l’intention de nouer des coopérations «structurelles» pour développer son «Avion de combat du futur»",
+      "url": "https://www.opex360.com/2026/10/15/la-france-na-pas-lintention-de-nouer-des-cooperations-structurelles-pour-developper-son-avion-de-combat-du-futur/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Industrie",
+        "aAE",
+        "ACF",
+        "armée de l'Air & de l'Espace",
+        "Avion de combat du futur",
+        "ccoopération",
+        "général Bellanger",
+        "NGF",
+        "SCAF"
+      ],
+      "sourceExcerpt": {
+        "text": "Après le retrait de l’Allemagne du projet du chasseur-bombardier de 6e génération, alors appelé NGF [pour New Generation Fighter], sur…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-16T06:15:28.664135+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/ngf-20190915.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La France n’a pas l’intention de nouer des coopérations «structurelles» pour développer son «Avion de combat du futur» ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/15/la-france-na-pas-lintention-de-nouer-des-cooperations-structurelles-pour-developper-son-avion-de-combat-du-futur/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/15/la-france-na-pas-lintention-de-nouer-des-cooperations-structurelles-pour-developper-son-avion-de-combat-du-futur/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/ngf-20190915.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T16:41:15+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le général Bellanger s’inquiète de l’évolution des capacités aériennes russes, notamment dans le domaine des drones d’attaque",
+      "url": "https://www.opex360.com/2026/10/15/le-general-bellanger-sinquiete-de-levolution-des-capacites-aeriennes-russes-notamment-dans-le-domaine-des-drones-dattaque/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces aériennes",
+        "drones",
+        "géénéral Bellanger",
+        "général de Montgros",
+        "Geran-5",
+        "guerre en Ukraine",
+        "Russie",
+        "supériorité aérienne",
+        "Vivaldi"
+      ],
+      "sourceExcerpt": {
+        "text": "Lancée au début du mois de septembre, l’opération Vivaldi aurait permis aux forces ukrainiennes de reprendre 172 km² de territoire…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-16T06:15:28.664135+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/geran-5-20261015.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le général Bellanger s’inquiète de l’évolution des capacités aériennes russes, notamment dans le domaine des drones d’attaque ».",
+        "credit": "Geran-5 / Ministère ukrainien de la Défense",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/15/le-general-bellanger-sinquiete-de-levolution-des-capacites-aeriennes-russes-notamment-dans-le-domaine-des-drones-dattaque/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/15/le-general-bellanger-sinquiete-de-levolution-des-capacites-aeriennes-russes-notamment-dans-le-domaine-des-drones-dattaque/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/geran-5-20261015.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-15",
       "publishedAt": "2026-10-15T14:48:12+00:00",
@@ -317,7 +583,6 @@ window.LDV_NEWS = {
         "Asie de l'Est",
         "Asie du Sud",
         "Entretien",
-        "Abonné",
         "Chine",
         "États-Unis"
       ],
@@ -1289,6 +1554,45 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-13",
         "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/Nouvelle-commande-francaise-et-premiere-victoire-a-letranger-pour-Damocles_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T08:35:26+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "CONFIRMATION ISRAELIENNE",
+      "url": "https://blablachars.blogspot.com/2026/10/confirmation-israelienne.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Elbit Systems",
+        "Israel",
+        "Maroc",
+        "UT 30 Mk2",
+        "WhAP"
+      ],
+      "sourceExcerpt": {
+        "text": "Comme annoncé en début d'année par le Blog complétement blindé, les WhAP marocains seront bien équipés de tourelles israéliennes fournies…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-16T06:15:28.664135+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipRArUF2QYybG9c6PsPIytuhgdhZy6yzicSGxwCnHW4odgRWU80waqt-3Heg7tLIh0PDRuJJl2y-eqt9UsCTiyksSMjjy2I0UDrTWnHKpDyW5ObwsTvno6PP9texaZTPqwSU_ua2nfC6vOUEl5YaGaIaM-MIn9bqe6VDSMx6dPrLsQHFi4m6isY_ueApQ/w1200-h630-p-k-no-nu/UT%2030Mk2.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « CONFIRMATION ISRAELIENNE ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/confirmation-israelienne.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/confirmation-israelienne.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipRArUF2QYybG9c6PsPIytuhgdhZy6yzicSGxwCnHW4odgRWU80waqt-3Heg7tLIh0PDRuJJl2y-eqt9UsCTiyksSMjjy2I0UDrTWnHKpDyW5ObwsTvno6PP9texaZTPqwSU_ua2nfC6vOUEl5YaGaIaM-MIn9bqe6VDSMx6dPrLsQHFi4m6isY_ueApQ/w1200-h630-p-k-no-nu/UT%2030Mk2.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -3348,7 +3652,7 @@ window.LDV_NEWS = {
         "text": "Selon des informations non officiellement confirmées, plusieurs exemplaires du système de lutte anti drones Korkut produit par la firme turque…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-10-14T16:20:45.864514+00:00",
+      "imageCheckedAt": "2026-10-16T06:15:28.664135+00:00",
       "publisherCategories": [
         "Aselsan",
         "Bayraktar TB2",
@@ -3644,7 +3948,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-10-15T06:16:14.328256+00:00"
     }
   ],
-  "checkedAt": "2026-10-15T16:17:12.461845+00:00",
+  "checkedAt": "2026-10-16T06:15:01.596398+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -3656,9 +3960,9 @@ window.LDV_NEWS = {
     "sources": [
       {
         "source": "Sénat — Défense",
-        "ok": true,
+        "ok": false,
         "recentItems": 0,
-        "error": null
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
       },
       {
         "source": "Ministère britannique de la Défense",
@@ -3693,7 +3997,7 @@ window.LDV_NEWS = {
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -3705,7 +4009,7 @@ window.LDV_NEWS = {
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 8,
+        "recentItems": 11,
         "error": null
       },
       {
@@ -3715,8 +4019,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 10,
-    "articleImages": 99,
+    "newItems": 8,
+    "articleImages": 107,
     "duplicateHeadlinesSkipped": 0
   }
 };
