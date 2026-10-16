@@ -392,3 +392,24 @@
 @media(max-width:950px){.silhouette-layout{grid-template-columns:1fr}.silhouette-controls{display:grid;grid-template-columns:minmax(210px,1fr) minmax(0,1.3fr);gap:18px}.silhouette-explanation{margin-top:0;min-height:0}}
 @media(max-width:950px){.silhouette-modal .silhouette-layout{grid-template-columns:1fr}.silhouette-zoom-tools{align-items:flex-start;flex-direction:column;gap:10px}.silhouette-modal .silhouette-viewport{max-height:55dvh}}
 @media(max-width:600px){.silhouette-layout{gap:18px}.silhouette-figure{padding:12px}.silhouette-toolbar{align-items:flex-start;flex-direction:column;gap:10px}.silhouette-view{font-size:10px}.silhouette-mode-switch button{min-height:40px;padding:8px 12px}.silhouette-controls{display:block}.silhouette-choices{grid-template-columns:1fr 1fr}.silhouette-choices .silhouette-choice{gap:7px;padding:10px;font-size:12px}.silhouette-explanation{margin-top:16px;padding:18px}.silhouette-board .silhouette-point{width:36px;height:36px;min-height:36px;font-size:11px}.silhouette-legend{font-size:11px}.silhouette-modal-header{padding:10px 12px}.silhouette-modal-header h2{font-size:20px}.silhouette-modal .silhouette-layout{padding:0 12px 12px}.silhouette-zoom-tools{padding:12px}.silhouette-zoom-group{gap:5px}.silhouette-zoom-group button{padding:8px}.silhouette-zoom-value{min-width:52px}}
+
+
+/* Leclerc: paint, plate thickness and contact lighting, scoped to this drawing. */
+.silhouette-leclerc .silhouette-shape{stroke-width:.55}
+.silhouette-leclerc .silhouette-material-olive{fill:url(#silhouette-leclerc-green)}
+.silhouette-leclerc .silhouette-material-olive-light{fill:url(#silhouette-leclerc-light)}
+.silhouette-leclerc .silhouette-material-khaki,.silhouette-leclerc .silhouette-material-camo-sand{fill:url(#silhouette-leclerc-brown)}
+.silhouette-leclerc .silhouette-material-camo-dark{fill:url(#silhouette-leclerc-black);opacity:.96}
+.silhouette-leclerc .silhouette-material-wheel{fill:url(#silhouette-leclerc-wheel)}
+.silhouette-leclerc .silhouette-material-rubber{fill:#252f28;stroke:#1e2721;stroke-width:.7}
+.silhouette-leclerc .silhouette-material-relief-edge{fill:#d0d0ab;stroke:none;opacity:.34}
+.silhouette-leclerc .silhouette-material-relief-contact{fill:#16251c;stroke:none;opacity:.52}
+.silhouette-leclerc .silhouette-material-relief-rim{fill:none;stroke:#c3c3a1;stroke-width:.7;opacity:.57}
+.silhouette-leclerc .silhouette-material-relief-groove{fill:none;stroke:#29372a;stroke-width:1.2;opacity:.85}
+.silhouette-leclerc .silhouette-material-relief-fastener{fill:#c2bea1;stroke:#344333;stroke-width:.4}
+.silhouette-leclerc .silhouette-material-relief-shoe{fill:#56604f;stroke:#a7ac91;stroke-width:.65;opacity:.85}
+.silhouette-leclerc .silhouette-material-relief-optic{fill:#d9f0e9;stroke:none;opacity:.72}
+.silhouette-leclerc .silhouette-material-relief-dust{fill:#a69b77;stroke:none;opacity:.18}
+.silhouette-leclerc .silhouette-material-relief-wear{fill:none;stroke:#d4caa6;stroke-width:.7;opacity:.48}
+.silhouette-leclerc.silhouette-outline .silhouette-shape{fill:none;stroke:#557766;stroke-width:.85;opacity:.75}
+.silhouette-leclerc.silhouette-outline .silhouette-material-shadow,.silhouette-leclerc.silhouette-outline .silhouette-material-camo-dark,.silhouette-leclerc.silhouette-outline .silhouette-material-camo-sand,.silhouette-leclerc.silhouette-outline [class*="silhouette-material-relief-"]{display:none}
