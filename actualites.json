@@ -4,6 +4,339 @@
   "items": [
     {
       "date": "2026-10-16",
+      "publishedAt": "2026-10-16T15:32:48+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Faute de Patroller, le 61e Régiment d’Artillerie sera doté de drones Tekever AR3",
+      "url": "https://www.opex360.com/2026/10/16/faute-de-patroller-le-61e-regiment-dartillerie-sera-dote-de-drones-tekever-ar3/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "61e RA",
+        "61e Régiment d'Artillerie",
+        "AR3",
+        "armée de terre",
+        "CEMAT",
+        "drone",
+        "général de Montgros",
+        "Patroller",
+        "Tekever"
+      ],
+      "sourceExcerpt": {
+        "text": "L’actualisation de la Loi de programmation militaire [LPM] 2024-30 a confirmé l’abandon du drone tactique Patroller, qui avait été commandé…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/ar3-20261016.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Faute de Patroller, le 61e Régiment d’Artillerie sera doté de drones Tekever AR3 ».",
+        "credit": "Tekever",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/16/faute-de-patroller-le-61e-regiment-dartillerie-sera-dote-de-drones-tekever-ar3/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/16/faute-de-patroller-le-61e-regiment-dartillerie-sera-dote-de-drones-tekever-ar3/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/ar3-20261016.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T15:12:34+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "CONTRAT POUR L'ACV-R",
+      "url": "https://blablachars.blogspot.com/2026/10/contrat-pour-lacv-r.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "ACV",
+        "ACV-R",
+        "BAE Systems",
+        "Etats-Unis",
+        "United States Marine Corps"
+      ],
+      "sourceExcerpt": {
+        "text": "Après plusieurs mois d'essais au sein du Corps des Marines, l'ACV-R (Amphibious Combat Vehicle-Recovery) version de dépannage du véhicule amphibie…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjctM8-dHN3hDhbYCetivA4kUSxsUu_LFa8tHogVzjEuzN1Y8gjwZaYOVakRC8O8uFZ9sWElf8GhNFckr0ypgetfQ9wGyJo-M63_njWX0KGfJh_2ihhtDpeOQb-6gA9ToMyoJBtr87vAn1fUvpneCF9x5f8t62v3pdkWjlYR0-mowwXaBKps7bRIriwToU/w1200-h630-p-k-no-nu/ACV-R.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « CONTRAT POUR L'ACV-R ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/contrat-pour-lacv-r.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/contrat-pour-lacv-r.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjctM8-dHN3hDhbYCetivA4kUSxsUu_LFa8tHogVzjEuzN1Y8gjwZaYOVakRC8O8uFZ9sWElf8GhNFckr0ypgetfQ9wGyJo-M63_njWX0KGfJh_2ihhtDpeOQb-6gA9ToMyoJBtr87vAn1fUvpneCF9x5f8t62v3pdkWjlYR0-mowwXaBKps7bRIriwToU/w1200-h630-p-k-no-nu/ACV-R.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T13:48:49+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "MARTAC USVs Gain Real-Time Machine Vision from SEA.AI",
+      "url": "https://www.navalnews.com/naval-news/2026/10/martac-usvs-gain-real-time-machine-vision-from-sea-ai/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "AI",
+        "Martac",
+        "USV"
+      ],
+      "sourceExcerpt": {
+        "text": "MARTAC has integrated SEA.AI machine vision on its unmanned surface vessels. The system classifies contacts in real time at the…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/T38-front-speed-03-1.webp",
+        "kind": "article",
+        "alt": "Image principale de l’article « MARTAC USVs Gain Real-Time Machine Vision from SEA.AI ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/martac-usvs-gain-real-time-machine-vision-from-sea-ai/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/martac-usvs-gain-real-time-machine-vision-from-sea-ai/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/T38-front-speed-03-1.webp",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T12:47:41+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Douglas Alexander welcomes defence skills investment boost",
+      "url": "https://www.gov.uk/government/news/douglas-alexander-welcomes-defence-skills-investment-boost",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Two Defence Technical Excellence Colleges are coming to Scotland after the Scottish Government confirmed it will match fund the UK…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6ad21c5167af5c09d04796ff/s300_GOV.UK_resize__3_.png",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/douglas-alexander-welcomes-defence-skills-investment-boost",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/douglas-alexander-welcomes-defence-skills-investment-boost",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-16"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T10:33:17+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Mer rouge : Une frégate française a abattu un drone jugé menaçant pour le porte-conteneurs Champs-Élysées",
+      "url": "https://www.opex360.com/2026/10/16/mer-rouge-une-fregate-francaise-a-abattu-un-drone-juge-menacant-pour-le-porte-conteneurs-champs-elysees/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Moyen-Orient",
+        "Opérations",
+        "Bab el-Mandeb",
+        "CMA-CGM",
+        "drone",
+        "EMA",
+        "Etat-major des armées",
+        "FREMM",
+        "Languedoc",
+        "Marine Nationale",
+        "mer Rouge"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 18 avril 2025, l’État-major des armées [EMA] diffusa une vidéo montrant une frégate multimissions [FREMM] faire usage de son…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/canon-fremm-20261016.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Mer rouge : Une frégate française a abattu un drone jugé menaçant pour le porte-conteneurs Champs-Élysées ».",
+        "credit": "Tir canon d’une FREMM contre un drone en mer Rouge – archive",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/16/mer-rouge-une-fregate-francaise-a-abattu-un-drone-juge-menacant-pour-le-porte-conteneurs-champs-elysees/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/16/mer-rouge-une-fregate-francaise-a-abattu-un-drone-juge-menacant-pour-le-porte-conteneurs-champs-elysees/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/canon-fremm-20261016.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T09:57:53+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Fincantieri Cuts Steel for Italian Navy’s Final PPA",
+      "url": "https://www.navalnews.com/naval-news/2026/10/fincantieri-cuts-steel-for-italian-navys-final-ppa-patrol-vessel/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Fincantieri",
+        "Italian Navy",
+        "OCCAR",
+        "PPA"
+      ],
+      "sourceExcerpt": {
+        "text": "Fincantieri has cut steel for the ninth Multipurpose Patrol Ship (PPA 9) at its Riva Trigoso shipyard, marking the start…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/1792079145508-768x576.jpeg",
+        "kind": "article",
+        "alt": "Fincantieri Cuts Steel for Italian Navy's Final PPA Patrol Vessel",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/fincantieri-cuts-steel-for-italian-navys-final-ppa-patrol-vessel/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/fincantieri-cuts-steel-for-italian-navys-final-ppa-patrol-vessel/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/1792079145508.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T08:00:31+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Qu’est ce que le corridor médian, route des échanges entre l’Asie et l’Europe ?",
+      "url": "https://www.revueconflits.com/quest-ce-que-le-corridor-median-route-des-echanges-entre-lasie-et-leurope/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Cartes",
+        "Revue Conflits",
+        "Abonné",
+        "Eurasie"
+      ],
+      "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/bruno-kelzer-zZoscDXH6ss-unsplash-scaled-e1792083317546.jpg",
+        "kind": "article",
+        "alt": "Qu’est ce que le corridor médian, route des échanges entre l’Asie et l’Europe ?",
+        "credit": "Bruno Kelzer",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/quest-ce-que-le-corridor-median-route-des-echanges-entre-lasie-et-leurope/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/quest-ce-que-le-corridor-median-route-des-echanges-entre-lasie-et-leurope/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/bruno-kelzer-zZoscDXH6ss-unsplash-scaled-e1792083317546.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T08:00:00+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "UK and Germany strengthen defence ties in London talks",
+      "url": "https://www.gov.uk/government/news/uk-and-germany-strengthen-defence-ties-in-london-talks",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "UK and Germany deepen defence-industrial cooperation at Lancaster House talks, building on the Trinity House Agreement and Kensington Treaty.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6ad0dcd2dfa45fcb6753ca73/s300_DDC-OFFICIAL-20261015-286-210.jpg",
+        "kind": "article",
+        "alt": "Pictured left to right: National Armaments Director, Rupert Pearce; Minister for Defence Readiness and Industry, Luke Pollard; German State Secretary for Armament, Innovation and Cyber, Jens Plötner; and German National Director for…",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/uk-and-germany-strengthen-defence-ties-in-london-talks",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/uk-and-germany-strengthen-defence-ties-in-london-talks",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-16"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T06:30:10+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "UE et droits de l’homme : à l’Est, rien de nouveau ?",
+      "url": "https://www.revueconflits.com/ue-et-droits-de-lhomme-a-lest-rien-de-nouveau/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe de l'Est",
+        "Arménie",
+        "Géorgie"
+      ],
+      "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2020/06/justice-force-droit-economie-conflits.jpg",
+        "kind": "article",
+        "alt": "UE et droits de l’homme : à l’Est, rien de nouveau ?",
+        "credit": "© Pixabay",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/ue-et-droits-de-lhomme-a-lest-rien-de-nouveau/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/ue-et-droits-de-lhomme-a-lest-rien-de-nouveau/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-16",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2020/06/justice-force-droit-economie-conflits.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
       "publishedAt": "2026-10-16T02:34:56+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -3731,7 +4064,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-15T06:16:14.328256+00:00"
+      "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00"
     },
     {
       "date": "2026-10-07",
@@ -3945,10 +4278,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-15T06:16:14.328256+00:00"
+      "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00"
     }
   ],
-  "checkedAt": "2026-10-16T06:15:01.596398+00:00",
+  "checkedAt": "2026-10-16T16:16:28.831145+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -3960,14 +4293,14 @@
     "sources": [
       {
         "source": "Sénat — Défense",
-        "ok": false,
+        "ok": true,
         "recentItems": 0,
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
+        "error": null
       },
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -3991,13 +4324,13 @@
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 6,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 3,
         "error": null
       },
       {
@@ -4019,8 +4352,8 @@
         "error": null
       }
     ],
-    "newItems": 8,
-    "articleImages": 107,
+    "newItems": 9,
+    "articleImages": 116,
     "duplicateHeadlinesSkipped": 0
   }
 }
