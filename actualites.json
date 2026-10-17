@@ -4,6 +4,228 @@
   "items": [
     {
       "date": "2026-10-17",
+      "publishedAt": "2026-10-17T16:03:03+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "The Spanish Crown holds the line: Ceuta and Melilla put to the test by the crisis",
+      "url": "https://www.revueconflits.com/the-spanish-crown-holds-the-line-ceuta-and-melilla-put-to-the-test-by-the-crisis/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Conflits in English",
+        "Abonné"
+      ],
+      "imageCheckedAt": "2026-10-17T16:09:15.349809+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_01301943_000005-scaled.jpg",
+        "kind": "article",
+        "alt": "The Spanish Crown holds the line: Ceuta and Melilla put to the test by the crisis",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/the-spanish-crown-holds-the-line-ceuta-and-melilla-put-to-the-test-by-the-crisis/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/the-spanish-crown-holds-the-line-ceuta-and-melilla-put-to-the-test-by-the-crisis/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_01301943_000005-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T16:01:19+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "« An atlas is a manifesto »",
+      "url": "https://www.revueconflits.com/an-atlas-is-a-manifesto/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Conflits in English",
+        "Abonné"
+      ],
+      "imageCheckedAt": "2026-10-17T16:09:15.349809+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/Vignettes-videos-93.png",
+        "kind": "article",
+        "alt": "« An atlas is a manifesto »",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/an-atlas-is-a-manifesto/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/an-atlas-is-a-manifesto/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/Vignettes-videos-93.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T15:59:00+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "The Middle Corridor: representations, limits and geopolitical prospects",
+      "url": "https://www.revueconflits.com/the-middle-corridor-representations-limits-and-geopolitical-prospects/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Conflits in English",
+        "Abonné"
+      ],
+      "imageCheckedAt": "2026-10-17T16:09:15.349809+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/conflits-carte_2026-10-15_corridor-median.png",
+        "kind": "article",
+        "alt": "The Middle Corridor: representations, limits and geopolitical prospects",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/the-middle-corridor-representations-limits-and-geopolitical-prospects/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/the-middle-corridor-representations-limits-and-geopolitical-prospects/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/conflits-carte_2026-10-15_corridor-median.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T14:08:03+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Avec VULTRA, l’armée de l’Air & de l’Espace va faciliter les liaisons entre un aéronef et des drones",
+      "url": "https://www.opex360.com/2026/10/17/avec-vultra-larmee-de-lair-de-lespace-va-faciliter-les-liaisons-entre-un-aeronef-et-des-drones/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Technologie",
+        "aAE",
+        "armée de l'Air & de l'Espace",
+        "drones",
+        "effecteurs",
+        "innovation participative",
+        "liaison",
+        "prix de l'audace",
+        "radio",
+        "VULTRA"
+      ],
+      "sourceExcerpt": {
+        "text": "Tous les deux ans, depuis 1992, la Fondation Maréchal Leclerc de Hauteclocque décerne le «prix de l’Audace» à projets innovants…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-17T16:09:15.349809+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/vultra-20261017-1.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Avec VULTRA, l’armée de l’Air & de l’Espace va faciliter les liaisons entre un aéronef et des drones ».",
+        "credit": "AAE",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/17/avec-vultra-larmee-de-lair-de-lespace-va-faciliter-les-liaisons-entre-un-aeronef-et-des-drones/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/17/avec-vultra-larmee-de-lair-de-lespace-va-faciliter-les-liaisons-entre-un-aeronef-et-des-drones/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/vultra-20261017-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T12:56:37+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’intérêt de Chypre pour l’Engin blindé de reconnaissance et de combat Jaguar se confirme",
+      "url": "https://www.opex360.com/2026/10/17/linteret-de-chypre-pour-lengin-blinde-de-reconnaissance-et-de-combat-jaguar-se-confirme/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "armée de terre",
+        "Chypre",
+        "EBRC",
+        "Ecole de Cavalerie",
+        "garde nationale",
+        "Jaguar",
+        "KNDS France",
+        "Scorpion"
+      ],
+      "sourceExcerpt": {
+        "text": "Cette semaine, une délégation de l’armée luxembourgeoise a été reçue au camp militaire de Suippes pour participer à un entraînement…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-17T16:09:15.349809+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/jaguar-chypre-20261017.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’intérêt de Chypre pour l’Engin blindé de reconnaissance et de combat Jaguar se confirme ».",
+        "credit": "École de cavalerie / armée de Terre",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/17/linteret-de-chypre-pour-lengin-blinde-de-reconnaissance-et-de-combat-jaguar-se-confirme/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/17/linteret-de-chypre-pour-lengin-blinde-de-reconnaissance-et-de-combat-jaguar-se-confirme/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/jaguar-chypre-20261017.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T08:27:02+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Mothership, MCM, Trials Platform: Indian Navy Inducts First Multi-Purpose Vessel",
+      "url": "https://www.navalnews.com/naval-news/2026/10/indian-navy-first-multi-purpose-vessel-ins-samarthak/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Indian Navy",
+        "",
+        "Multi-Purpose Vessel"
+      ],
+      "sourceExcerpt": {
+        "text": "The Indian Navy commissioned its first Multi-Purpose Vessel INS Samarthak at Naval Base, Karwar on October 16, 2026. Built by…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-17T16:09:15.349809+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Samarthak-768x480.png",
+        "kind": "article",
+        "alt": "Mothership, MCM & Trials Platform: Indian Navy Commissions First Multi-Purpose Vessel, INS Samarthak",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/indian-navy-first-multi-purpose-vessel-ins-samarthak/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/indian-navy-first-multi-purpose-vessel-ins-samarthak/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Samarthak.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-17",
       "publishedAt": "2026-10-17T05:00:02+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -312,6 +534,45 @@
     },
     {
       "date": "2026-10-16",
+      "publishedAt": "2026-10-16T14:53:12+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "DES CHENILLES VITE !",
+      "url": "https://blablachars.blogspot.com/2026/10/des-chenilles-vite.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Auroch",
+        "chenilles",
+        "EGC",
+        "marc Chassillan",
+        "VBAE"
+      ],
+      "sourceExcerpt": {
+        "text": "Pour ce nouveau post, Blablachars est heureux et honoré d'ouvrir les pages du blog complétement blindé à un des experts…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-17T16:09:15.349809+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbAsBxrVdXyOHtyXBkcBiuodRYowjVqMNQkobYdBj-Dzv6syfthiQusPv1MDAI6OEAQRCcEOMp624lnObi9U0kTYBrvtl0XCFOtXw6KrFCycnPujxvhigozIiiVCh7ZG2l78_jcxvhangFRKwGVrpWPSQ5e5qs6ioyEkSs4Zj_KkqCSkijXhxtNIJp1Xw/w1200-h630-p-k-no-nu/Marc%20Chassillan.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « DES CHENILLES VITE ! ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/des-chenilles-vite.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/des-chenilles-vite.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbAsBxrVdXyOHtyXBkcBiuodRYowjVqMNQkobYdBj-Dzv6syfthiQusPv1MDAI6OEAQRCcEOMp624lnObi9U0kTYBrvtl0XCFOtXw6KrFCycnPujxvhigozIiiVCh7ZG2l78_jcxvhangFRKwGVrpWPSQ5e5qs6ioyEkSs4Zj_KkqCSkijXhxtNIJp1Xw/w1200-h630-p-k-no-nu/Marc%20Chassillan.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
       "publishedAt": "2026-10-16T13:48:49+00:00",
       "source": "Naval News",
       "sourceType": "Presse spécialisée",
@@ -563,6 +824,45 @@
         "rightsUrl": "https://www.gov.uk/government/news/uk-and-germany-strengthen-defence-ties-in-london-talks",
         "evidence": "official-editorial-lead",
         "checkedAt": "2026-10-16"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T07:17:34+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection",
+      "url": "https://www.navalnews.com/naval-news/2026/10/eu-renews-operation-irini-to-2029-targets-russian-shadow-fleet-and-cui-protection/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "EUNAVFOR",
+        "EUNAVFOR MED IRINI",
+        "seabed warfare",
+        "Shadow Fleet"
+      ],
+      "sourceExcerpt": {
+        "text": "The EU Council has extended EUNAVFOR MED IRINI mandate through March 2029, adding new tasks to monitor Russian shadow fleets…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-17T16:09:15.349809+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-11.32.57-1024x572.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « EU Renews Operation IRINI to 2029, Targets Russian Shadow Fleet and CUI Protection ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/eu-renews-operation-irini-to-2029-targets-russian-shadow-fleet-and-cui-protection/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/eu-renews-operation-irini-to-2029-targets-russian-shadow-fleet-and-cui-protection/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-11.32.57-1024x572.png",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -4248,7 +4548,7 @@
         "text": "Selon des informations non officiellement confirmées, plusieurs exemplaires du système de lutte anti drones Korkut produit par la firme turque…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-10-16T06:15:28.664135+00:00",
+      "imageCheckedAt": "2026-10-17T16:09:15.349809+00:00",
       "publisherCategories": [
         "Aselsan",
         "Bayraktar TB2",
@@ -4544,7 +4844,7 @@
       "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00"
     }
   ],
-  "checkedAt": "2026-10-17T06:11:26.277273+00:00",
+  "checkedAt": "2026-10-17T16:09:09.989964+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -4615,8 +4915,8 @@
         "error": null
       }
     ],
-    "newItems": 7,
-    "articleImages": 123,
+    "newItems": 8,
+    "articleImages": 131,
     "duplicateHeadlinesSkipped": 0
   }
 }
