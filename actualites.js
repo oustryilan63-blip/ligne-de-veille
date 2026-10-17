@@ -1,7 +1,232 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-17",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T05:00:02+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "L’échec du cessez-le-feu pétrolier en Ukraine",
+      "url": "https://www.revueconflits.com/lechec-du-cessez-le-feu-petrolier-en-ukraine/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Conflits armés",
+        "Abonné",
+        "États-Unis",
+        "Ukraine"
+      ],
+      "imageCheckedAt": "2026-10-17T06:11:30.873321+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2025/10/SIPA_sipausa31660436_000010-scaled.jpg",
+        "kind": "article",
+        "alt": "L’échec du cessez-le-feu pétrolier en Ukraine",
+        "credit": "President Donald Trump greets President of Ukraine Volodymyr Zelenskyy outside the West Wing of the White House Photo by Bonnie Cash/UPI Photo via Newscom/upiphotosthree104429/UPI/Newscom/SIPA/2510172045",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/lechec-du-cessez-le-feu-petrolier-en-ukraine/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/lechec-du-cessez-le-feu-petrolier-en-ukraine/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2025/10/SIPA_sipausa31660436_000010-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T03:00:09+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Fjord, de Cristian Mungiu",
+      "url": "https://www.revueconflits.com/fjord-de-cristian-mungiu/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Revue Conflits",
+        "Abonné"
+      ],
+      "imageCheckedAt": "2026-10-17T06:11:30.873321+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/7da334b5a024f1960d11cefab25107bc.webp",
+        "kind": "article",
+        "alt": "Fjord, de Cristian Mungiu",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/fjord-de-cristian-mungiu/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/fjord-de-cristian-mungiu/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/7da334b5a024f1960d11cefab25107bc.webp",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T01:09:12+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Indice Conflits de la défense",
+      "url": "https://www.revueconflits.com/podcast-indice-conflits-de-la-defense/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Podcasts",
+        "Podcasts Géopolitique & Entreprises",
+        "Armement",
+        "géoéconomie"
+      ],
+      "imageCheckedAt": "2026-10-17T06:11:30.873321+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/07/Aeronautique-article.jpg",
+        "kind": "article",
+        "alt": "Podcast – Indice Conflits de la défense",
+        "credit": "Hélicoptère EC-725 Caracal de l'armée de l'air française. MCSN Emily M. Blair, 3 janvier 2014.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-indice-conflits-de-la-defense/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-indice-conflits-de-la-defense/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/07/Aeronautique-article.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T19:29:03+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Naval Group rolls out 5th Suffren-class attack submarine",
+      "url": "https://www.navalnews.com/naval-news/2026/10/naval-group-rolls-out-5th-suffren-class-attack-submarine/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Barracuda",
+        "Naval Group",
+        "SSN"
+      ],
+      "sourceExcerpt": {
+        "text": "Naval Group has rolled out Rubis (S639), the fifth Barracuda type nuclear attack submarine (SSN), transferring the vessel to its…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-17T06:11:30.873321+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Naval-Group-rolls-out-5th-Suffren-class-submarine-768x510.jpg",
+        "kind": "article",
+        "alt": "Naval Group rolls out 5th Suffren-class submarine",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/naval-group-rolls-out-5th-suffren-class-attack-submarine/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/naval-group-rolls-out-5th-suffren-class-attack-submarine/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Naval-Group-rolls-out-5th-Suffren-class-submarine-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T17:37:36+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le nouveau sous-marin nucléaire d’attaque Rubis rejoint le dispositif de mise à l’eau en vue de son lancement",
+      "url": "https://www.opex360.com/2026/10/16/le-nouveau-sous-marin-nucleaire-dattaque-rubis-rejoint-le-dispositif-de-mise-a-leau-en-vue-de-son-lancement/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Barracuda",
+        "Marine Nationale",
+        "Naval Group",
+        "Rubis",
+        "SNA",
+        "sous-marin nucléaire d'attaque",
+        "Suffren"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 14 juin dernier, quatre mois à peine après avoir effectué ses premiers essais à la mer sous la supervision…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-17T06:11:30.873321+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/rubis-20261016.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le nouveau sous-marin nucléaire d’attaque Rubis rejoint le dispositif de mise à l’eau en vue de son lancement ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/16/le-nouveau-sous-marin-nucleaire-dattaque-rubis-rejoint-le-dispositif-de-mise-a-leau-en-vue-de-son-lancement/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/16/le-nouveau-sous-marin-nucleaire-dattaque-rubis-rejoint-le-dispositif-de-mise-a-leau-en-vue-de-son-lancement/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/rubis-20261016.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T16:38:21+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "En attendant le Thundart, le 1er Régiment d’Artillerie va créer une batterie dotée de munitions téléopérées à longue portée",
+      "url": "https://www.opex360.com/2026/10/16/en-attendant-le-thundart-le-1er-regiment-dartillerie-va-creer-une-batterie-dotee-de-munitions-teleoperees-a-longue-portee/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "1er RA",
+        "1er régiment d'Artillerie",
+        "armée de terre",
+        "artillerie",
+        "CEMAT",
+        "Corps d'armée",
+        "général de Montgros",
+        "longue portée",
+        "LRU",
+        "Thundart"
+      ],
+      "sourceExcerpt": {
+        "text": "Quand il était chef d’état-major de l’armée de Terre [CEMAT], le général Pierre Schill n’a cessé de réclamer le remplacement…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-17T06:11:30.873321+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/owe-mbda-20260123.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « En attendant le Thundart, le 1er Régiment d’Artillerie va créer une batterie dotée de munitions téléopérées à longue portée ».",
+        "credit": "OWE « Déluge » de MBDA",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/16/en-attendant-le-thundart-le-1er-regiment-dartillerie-va-creer-une-batterie-dotee-de-munitions-teleoperees-a-longue-portee/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/16/en-attendant-le-thundart-le-1er-regiment-dartillerie-va-creer-une-batterie-dotee-de-munitions-teleoperees-a-longue-portee/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/owe-mbda-20260123.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-16",
       "publishedAt": "2026-10-16T15:32:48+00:00",
@@ -235,6 +460,44 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-16",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/1792079145508.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T08:08:53+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Saab, FMV and the Swedish Armed Forces launch LUUV",
+      "url": "https://www.navalnews.com/naval-news/2026/10/saab-fmv-and-the-swedish-armed-forces-launch-luuv/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "FMV",
+        "LUUV",
+        "Saab"
+      ],
+      "sourceExcerpt": {
+        "text": "Saab, the FMV and the Swedish Armed Forces have successfully developed, built and launched a demonstrator for a Large Uncrewed…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-17T06:11:30.873321+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Saab-LUUV-768x431.jpg",
+        "kind": "article",
+        "alt": "Saab LUUV",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/saab-fmv-and-the-swedish-armed-forces-launch-luuv/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/saab-fmv-and-the-swedish-armed-forces-launch-luuv/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-17",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Saab-LUUV-scaled.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -4281,7 +4544,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00"
     }
   ],
-  "checkedAt": "2026-10-16T16:16:28.831145+00:00",
+  "checkedAt": "2026-10-17T06:11:26.277273+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -4342,7 +4605,7 @@ window.LDV_NEWS = {
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 11,
+        "recentItems": 10,
         "error": null
       },
       {
@@ -4352,8 +4615,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 9,
-    "articleImages": 116,
+    "newItems": 7,
+    "articleImages": 123,
     "duplicateHeadlinesSkipped": 0
   }
 };
