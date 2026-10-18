@@ -1,7 +1,44 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-10-17",
+  "updatedAt": "2026-10-18",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-18",
+      "publishedAt": "2026-10-18T03:00:37+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "L’avenir du régime iranien : entretien avec Clément Therme",
+      "url": "https://www.revueconflits.com/lavenir-du-regime-iranien-entretien-avec-clement-therme/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Analyse et théorie",
+        "Livres",
+        "Moyen-Orient",
+        "Abonné",
+        "Histoire",
+        "Iran",
+        "Livre"
+      ],
+      "imageCheckedAt": "2026-10-18T06:11:07.544508+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/03/SIPA_sipahub60127061_000003-scaled.jpg",
+        "kind": "article",
+        "alt": "L’avenir du régime iranien : entretien avec Clément Therme",
+        "credit": "Ameer Al-Mohammedawi/DPA/SIPA/2603051544",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/lavenir-du-regime-iranien-entretien-avec-clement-therme/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/lavenir-du-regime-iranien-entretien-avec-clement-therme/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-18",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/03/SIPA_sipahub60127061_000003-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-17",
       "publishedAt": "2026-10-17T16:03:03+00:00",
@@ -100,6 +137,37 @@ window.LDV_NEWS = {
     },
     {
       "date": "2026-10-17",
+      "publishedAt": "2026-10-17T15:56:49+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "How much has France given to Ukraine?",
+      "url": "https://www.revueconflits.com/how-much-has-france-given-to-ukraine/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Conflits in English"
+      ],
+      "imageCheckedAt": "2026-10-18T06:11:07.544508+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2025/06/61-SIPA_01203848_000006-scaled.jpg",
+        "kind": "article",
+        "alt": "How much has France given to Ukraine?",
+        "credit": "Officers of the firearm licensing department of the Russian National Guard Troops inspect hunting guns for fighting with enemy drones before handing them over to combat units / Konstantin Mihalchevskiy//SIPA/2503210946",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/how-much-has-france-given-to-ukraine/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/how-much-has-france-given-to-ukraine/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-18",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2025/06/61-SIPA_01203848_000006-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-17",
       "publishedAt": "2026-10-17T14:08:03+00:00",
       "source": "Zone Militaire — Opex360",
       "sourceType": "Presse spécialisée",
@@ -123,7 +191,7 @@ window.LDV_NEWS = {
         "VULTRA"
       ],
       "sourceExcerpt": {
-        "text": "Tous les deux ans, depuis 1992, la Fondation Maréchal Leclerc de Hauteclocque décerne le «prix de l’Audace» à projets innovants…",
+        "text": "Tous les deux ans, depuis 1992, la Fondation Maréchal Leclerc de Hauteclocque décerne le «prix de l’Audace» à des projets…",
         "kind": "feed-excerpt"
       },
       "imageCheckedAt": "2026-10-17T16:09:15.349809+00:00",
@@ -140,6 +208,39 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-17",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/vultra-20261017-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T13:23:08+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Combien la France a-t-elle donné à l’Ukraine ?",
+      "url": "https://www.revueconflits.com/combien-la-france-a-t-elle-donne-a-lukraine/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Guerre en Ukraine",
+        "Abonné",
+        "France"
+      ],
+      "imageCheckedAt": "2026-10-18T06:11:07.544508+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2025/04/SIPA_01207373_000027-1-scaled.jpg",
+        "kind": "article",
+        "alt": "Combien la France a-t-elle donné à l’Ukraine ?",
+        "credit": "Konstantin Mihalchevskiy / Sputnik//SPUTNIK_8897048_67f4ed1c2f863/Credit:Konstantin Mihalchevskiy//SIPA/2504081201",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/combien-la-france-a-t-elle-donne-a-lukraine/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/combien-la-france-a-t-elle-donne-a-lukraine/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-18",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2025/04/SIPA_01207373_000027-1-scaled.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -183,6 +284,47 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-17",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/jaguar-chypre-20261017.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T10:37:31+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le premier équipage de la frégate de défense et d’intervention «Amiral Louzeau» a été officiellement constitué",
+      "url": "https://www.opex360.com/2026/10/17/le-premier-equipage-de-la-fregate-de-defense-et-dintervention-amiral-louzeau-a-ete-officiellement-constitue/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Non classé",
+        "amiral Louzeau",
+        "équipage",
+        "FDI",
+        "Frégate de défense et d'intervention",
+        "Marine Nationale",
+        "Naval Group"
+      ],
+      "sourceExcerpt": {
+        "text": "La Marine nationale aligne officiellement quinze navires de surface dits de «premier rang». Mais, dans le détail, elle n’en compte…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-18T06:11:07.544508+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/louzeau-20261017.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le premier équipage de la frégate de défense et d’intervention «Amiral Louzeau» a été officiellement constitué ».",
+        "credit": "Thomas Trebern / Marine nationale",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/17/le-premier-equipage-de-la-fregate-de-defense-et-dintervention-amiral-louzeau-a-ete-officiellement-constitue/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/17/le-premier-equipage-de-la-fregate-de-defense-et-dintervention-amiral-louzeau-a-ete-officiellement-constitue/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-18",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/louzeau-20261017.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -4627,7 +4769,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00"
+      "imageCheckedAt": "2026-10-18T06:11:07.544508+00:00"
     },
     {
       "date": "2026-10-07",
@@ -4841,10 +4983,10 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-16T16:16:33.947838+00:00"
+      "imageCheckedAt": "2026-10-18T06:11:07.544508+00:00"
     }
   ],
-  "checkedAt": "2026-10-17T16:09:09.989964+00:00",
+  "checkedAt": "2026-10-18T06:10:40.845932+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -4856,9 +4998,9 @@ window.LDV_NEWS = {
     "sources": [
       {
         "source": "Sénat — Défense",
-        "ok": true,
+        "ok": false,
         "recentItems": 0,
-        "error": null
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
       },
       {
         "source": "Ministère britannique de la Défense",
@@ -4915,8 +5057,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 8,
-    "articleImages": 131,
+    "newItems": 4,
+    "articleImages": 135,
     "duplicateHeadlinesSkipped": 0
   }
 };
