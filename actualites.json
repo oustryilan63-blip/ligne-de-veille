@@ -4,6 +4,208 @@
   "items": [
     {
       "date": "2026-10-18",
+      "publishedAt": "2026-10-18T15:54:12+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Second Possible Chinese UUV Mothership Appears In Guangzhou",
+      "url": "https://www.navalnews.com/naval-news/2026/10/second-possible-chinese-uuv-mothership-appears-in-guangzhou/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "China",
+        "Mothership",
+        "UUV"
+      ],
+      "sourceExcerpt": {
+        "text": "Imagery from Guangzhou reveals a second suspected Chinese UUV mothership, designed to launch and recover massive underwater drones. The post…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-18T16:11:07.223773+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/HU5Z86PaUAA5-Da-768x481.jpg",
+        "kind": "article",
+        "alt": "Second Possible Chinese UUV Mothership Appears In Guangzhou",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/second-possible-chinese-uuv-mothership-appears-in-guangzhou/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/second-possible-chinese-uuv-mothership-appears-in-guangzhou/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-18",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/HU5Z86PaUAA5-Da.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "publishedAt": "2026-10-18T13:00:00+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "L’artillerie française en ordre de marche pour tonner aujourd’hui et se projeter sur 2040",
+      "url": "https://forcesoperations.com/lartillerie-francaise-en-ordre-de-marche-pour-tonner-aujourdhui-et-se-projeter-sur-2040/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Focus",
+        "artillerie",
+        "Caesar",
+        "drones",
+        "MBDA",
+        "Offert",
+        "Thundart"
+      ],
+      "sourceExcerpt": {
+        "text": "Une décennie de remontée en puissance démarre pour l’artillerie française. De l’appui-feu indirect à la défense sol-air, des capteurs à…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-18T16:11:07.223773+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/10/Lartillerie-francaise-en-ordre-de-marche-pour-tonner-aujourdhui-et-se-projeter-sur-2040_005-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’artillerie française en ordre de marche pour tonner aujourd’hui et se projeter sur 2040 ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/lartillerie-francaise-en-ordre-de-marche-pour-tonner-aujourdhui-et-se-projeter-sur-2040/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/lartillerie-francaise-en-ordre-de-marche-pour-tonner-aujourdhui-et-se-projeter-sur-2040/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-18",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/Lartillerie-francaise-en-ordre-de-marche-pour-tonner-aujourdhui-et-se-projeter-sur-2040_005-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "publishedAt": "2026-10-18T11:05:44+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La nacelle de renseignement électromagnétique va (enfin) être opérationnelle sur les drones Reaper de l’armée de l’Air",
+      "url": "https://www.opex360.com/2026/10/18/la-nacelle-de-renseignement-electromagnetique-va-enfin-etre-operationnelle-sur-les-drones-reaper-de-larmee-de-lair/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Guerre électronique",
+        "33e ESRA",
+        "aAE",
+        "armée de l'Air & de l'Espace",
+        "MQ-9B Reaper",
+        "nacelle ROEM",
+        "Reaper",
+        "renseignement électromagnétique",
+        "ROEM"
+      ],
+      "sourceExcerpt": {
+        "text": "Le retrait anticipé, en 2022, des deux Transall C-160G «Gabriel» dédiés à la guerre électronique sans attendre la mise en…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-18T16:11:07.223773+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/reaper-corse-20260615.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La nacelle de renseignement électromagnétique va (enfin) être opérationnelle sur les drones Reaper de l’armée de l’Air ».",
+        "credit": "armée de l’Air & de l’Espace",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/18/la-nacelle-de-renseignement-electromagnetique-va-enfin-etre-operationnelle-sur-les-drones-reaper-de-larmee-de-lair/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/18/la-nacelle-de-renseignement-electromagnetique-va-enfin-etre-operationnelle-sur-les-drones-reaper-de-larmee-de-lair/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-18",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/reaper-corse-20260615.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "publishedAt": "2026-10-18T10:03:10+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Canada : Un «incident grave» a fait plusieurs tués et de nombreux blessés sur la base militaire de Wainwright",
+      "url": "https://www.opex360.com/2026/10/18/canada-un-incident-grave-a-fait-plusieurs-tues-et-de-nombreux-blesses-sur-la-base-militaire-de-wainwright/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amériques",
+        "Forces terrestres",
+        "Alberta",
+        "Armée canadienne",
+        "base",
+        "canada",
+        "incendie",
+        "incident",
+        "Wainwright"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 17 octobre, vers 16 heures [heure locale], un incendie s’est déclaré dans le périmètre de la base militaire de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-18T16:11:07.223773+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/canada-drapeau-20261018.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Canada : Un «incident grave» a fait plusieurs tués et de nombreux blessés sur la base militaire de Wainwright ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/18/canada-un-incident-grave-a-fait-plusieurs-tues-et-de-nombreux-blesses-sur-la-base-militaire-de-wainwright/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/18/canada-un-incident-grave-a-fait-plusieurs-tues-et-de-nombreux-blesses-sur-la-base-militaire-de-wainwright/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-18",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/canada-drapeau-20261018.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "publishedAt": "2026-10-18T08:08:27+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Les entreprises doivent se doter d’un Chief Geopolitical Officer",
+      "url": "https://www.revueconflits.com/les-entreprises-doivent-se-doter-dun-chief-geopolitical-officer/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Économie, énergies et entreprises",
+        "Entretien",
+        "Livres",
+        "France",
+        "géoéconomie",
+        "Livre"
+      ],
+      "imageCheckedAt": "2026-10-18T16:11:07.223773+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2020/11/services-g%C3%A9opolitiques-conflits-scaled.jpg",
+        "kind": "article",
+        "alt": "Les entreprises doivent se doter d’un Chief Geopolitical Officer",
+        "credit": "(c) Unsplash",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/les-entreprises-doivent-se-doter-dun-chief-geopolitical-officer/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/les-entreprises-doivent-se-doter-dun-chief-geopolitical-officer/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-18",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2020/11/services-g%C3%A9opolitiques-conflits-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-18",
       "publishedAt": "2026-10-18T03:00:37+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -368,6 +570,37 @@
     },
     {
       "date": "2026-10-17",
+      "publishedAt": "2026-10-17T05:03:26+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Quizz – 17 octobre",
+      "url": "https://www.revueconflits.com/quizz-17-octobre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Revue Conflits"
+      ],
+      "imageCheckedAt": "2026-10-18T16:11:07.223773+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/08/ChatGPT-Image-27-aout-2026-17_03_39.png",
+        "kind": "article",
+        "alt": "Quizz – 17 octobre",
+        "credit": "Quizz (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/quizz-17-octobre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/quizz-17-octobre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-18",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/08/ChatGPT-Image-27-aout-2026-17_03_39.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-17",
       "publishedAt": "2026-10-17T05:00:02+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -501,6 +734,47 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-17",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Naval-Group-rolls-out-5th-Suffren-class-submarine-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T17:55:27+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "UN MERCREDI A PARIS",
+      "url": "https://blablachars.blogspot.com/2026/10/un-mercredi-paris.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Adaptation",
+        "division",
+        "Défi",
+        "innovation",
+        "MGAT",
+        "PAT 2026",
+        "École Militaire"
+      ],
+      "sourceExcerpt": {
+        "text": "Invité à l'édition 2026 de la Présentation de l'Armée de Terre (PAT) Blablachars s'est rendu mercredi dernier à l’École Militaire…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-18T16:11:07.223773+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH67c13rnwVxQK8W1Up165Jaq-diOjwe18Agih0_JfCwsAQCCnukBRjo6vIyIatuw01cgBEkzaaNPD42eKuqV7qUddzq7neDerfZ1z-M9ACfX7p2ALCrTBc7Hj3DPi6fVkH-mBnY_FROyDI-G0k54Xw2Fzz0NFbIaOlFbbXbpTtABnE1srW8MHG9SdAXE/w1200-h630-p-k-no-nu/PAT%202026.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « UN MERCREDI A PARIS ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/un-mercredi-paris.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/un-mercredi-paris.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-18",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH67c13rnwVxQK8W1Up165Jaq-diOjwe18Agih0_JfCwsAQCCnukBRjo6vIyIatuw01cgBEkzaaNPD42eKuqV7qUddzq7neDerfZ1z-M9ACfX7p2ALCrTBc7Hj3DPi6fVkH-mBnY_FROyDI-G0k54Xw2Fzz0NFbIaOlFbbXbpTtABnE1srW8MHG9SdAXE/w1200-h630-p-k-no-nu/PAT%202026.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -4690,7 +4964,7 @@
         "text": "Selon des informations non officiellement confirmées, plusieurs exemplaires du système de lutte anti drones Korkut produit par la firme turque…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-10-17T16:09:15.349809+00:00",
+      "imageCheckedAt": "2026-10-18T16:11:07.223773+00:00",
       "publisherCategories": [
         "Aselsan",
         "Bayraktar TB2",
@@ -4698,7 +4972,22 @@
         "Korkut",
         "Turquie",
         "Ukraine"
-      ]
+      ],
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjzxfgPz0tfZ8PUDbNU_hQGcFyclmkeNxL73EOplw0YgwS2mTkeJRyZX4C34WOAwlc8zUdsJiU2iu3r6yC1SSkmSeXRe5Z3v2-h8I-jmBpu86oGHS1CbBPQCnk-LKoyWN-hNACcE_GJpiLraKNlGrGOVChw4V6krH12lWiYr_pEFfqlffxN4_12NnQMtI/w1200-h630-p-k-no-nu/ASELSAN-KORKUT.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « DES KORKUT EN UKRAINE ? ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/des-korkut-en-ukraine.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/des-korkut-en-ukraine.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-18",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjzxfgPz0tfZ8PUDbNU_hQGcFyclmkeNxL73EOplw0YgwS2mTkeJRyZX4C34WOAwlc8zUdsJiU2iu3r6yC1SSkmSeXRe5Z3v2-h8I-jmBpu86oGHS1CbBPQCnk-LKoyWN-hNACcE_GJpiLraKNlGrGOVChw4V6krH12lWiYr_pEFfqlffxN4_12NnQMtI/w1200-h630-p-k-no-nu/ASELSAN-KORKUT.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-07",
@@ -4986,7 +5275,7 @@
       "imageCheckedAt": "2026-10-18T06:11:07.544508+00:00"
     }
   ],
-  "checkedAt": "2026-10-18T06:10:40.845932+00:00",
+  "checkedAt": "2026-10-18T16:10:39.650514+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -5035,7 +5324,7 @@
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -5057,8 +5346,8 @@
         "error": null
       }
     ],
-    "newItems": 4,
-    "articleImages": 135,
+    "newItems": 7,
+    "articleImages": 143,
     "duplicateHeadlinesSkipped": 0
   }
 }
