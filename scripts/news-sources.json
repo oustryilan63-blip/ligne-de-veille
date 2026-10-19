@@ -3,6 +3,7 @@
   {"id":"mod-uk","name":"Ministère britannique de la Défense","type":"Source officielle","url":"https://www.gov.uk/government/organisations/ministry-of-defence.atom","domains":["gov.uk"],"language":"en","pathPrefix":"/government/news/"},
   {"id":"opex360","name":"Zone Militaire — Opex360","type":"Presse spécialisée","url":"https://www.opex360.com/feed/","domains":["opex360.com"],"language":"fr"},
   {"id":"opexnews","name":"OpexNews","type":"Presse spécialisée","url":"https://opexnews.fr/feed/","domains":["opexnews.fr"],"language":"fr"},
+  {"id":"forum-militaire","name":"Forum Militaire","type":"Presse spécialisée","url":"https://www.forum-militaire.fr/feed/","domains":["forum-militaire.fr"],"language":"fr","maxItems":2,"focus":"Défense, armées, industrie et géopolitique"},
   {"id":"conflits","name":"Revue Conflits","type":"Presse spécialisée","url":"https://www.revueconflits.com/feed/","domains":["revueconflits.com"],"language":"fr","maxItems":3,"focus":"Géopolitique, rivalités et économie internationale"},
   {"id":"blablachars","name":"Blablachars","type":"Presse spécialisée","url":"https://blablachars.blogspot.com/feeds/posts/default?alt=rss","domains":["blablachars.blogspot.com"],"language":"fr","maxItems":2,"focus":"Blindés et analyse des forces terrestres"},
   {"id":"fob","name":"Forces Operations Blog","type":"Presse spécialisée","url":"https://forcesoperations.com/feed/","domains":["forcesoperations.com"],"language":"fr","maxItems":2,"focus":"Programmes, industrie et reportages"},
