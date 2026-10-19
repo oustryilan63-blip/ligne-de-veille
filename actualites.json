@@ -4,6 +4,391 @@
   "items": [
     {
       "date": "2026-10-19",
+      "publishedAt": "2026-10-19T15:40:39+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Une carapace anti-drones “maison” pour le VBCI",
+      "url": "https://forcesoperations.com/une-carapace-anti-drones-maison-pour-le-vbci/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "16e BCP",
+        "8e RMAT",
+        "armée de terre",
+        "VBCI"
+      ],
+      "sourceExcerpt": {
+        "text": "La carapace du VBCI va se renforcer pour mieux résister aux drones armés et autres munitions téléopérées. L'équation privilégiée par…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-19T16:08:13.764590+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/10/Une-carapace-anti-drones-22maison22-pour-le-VBCI_002-394x218.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Une carapace anti-drones “maison” pour le VBCI ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/une-carapace-anti-drones-maison-pour-le-vbci/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/une-carapace-anti-drones-maison-pour-le-vbci/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-19",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/Une-carapace-anti-drones-22maison22-pour-le-VBCI_002-394x218.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T15:35:31+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Un engin spatial russe s’est approché à quelques mètres d’un satellite d’observation ICEYE au terme de manœuvres inédites",
+      "url": "https://www.opex360.com/2026/10/19/un-engin-spatial-russe-sest-approche-a-quelques-metres-dun-satellite-dobservation-iceye-au-terme-de-manoeuvres-inedites/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Espace",
+        "approche",
+        "Cosmos 2612",
+        "ICEYE X-36",
+        "Kosmos 2612",
+        "Renseignement",
+        "RPO",
+        "Russie",
+        "satellite"
+      ],
+      "sourceExcerpt": {
+        "text": "La semaine passée, devant les députés de la commission de la Défense, le chef d’état-major de l’armée de l’Air &…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-19T16:08:13.764590+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/iceye-20261019.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Un engin spatial russe s’est approché à quelques mètres d’un satellite d’observation ICEYE au terme de manœuvres inédites ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/19/un-engin-spatial-russe-sest-approche-a-quelques-metres-dun-satellite-dobservation-iceye-au-terme-de-manoeuvres-inedites/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/19/un-engin-spatial-russe-sest-approche-a-quelques-metres-dun-satellite-dobservation-iceye-au-terme-de-manoeuvres-inedites/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-19",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/iceye-20261019.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T14:11:06+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Le signal et le bruit : peut-on voir venir les révoltes de la Gen Z ?",
+      "url": "https://www.revueconflits.com/le-signal-et-le-bruit-peut-on-voir-venir-les-revoltes-de-la-gen-z/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Analyse et théorie",
+        "kenya",
+        "Madagascar"
+      ],
+      "imageCheckedAt": "2026-10-19T16:08:13.764590+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/03/SIPA_sipahub60071321_000007-scaled.jpg",
+        "kind": "article",
+        "alt": "Le signal et le bruit : peut-on voir venir les révoltes de la Gen Z ?",
+        "credit": "October 14, 2025, Antananarivo, Analamanga, Madagascar: (Credit Image: © iAko Randrianarivelo/ZUMA Press Wire)/20251014_zip_r268_005/ZEUS/2510141957",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/le-signal-et-le-bruit-peut-on-voir-venir-les-revoltes-de-la-gen-z/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/le-signal-et-le-bruit-peut-on-voir-venir-les-revoltes-de-la-gen-z/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-19",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/03/SIPA_sipahub60071321_000007-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T13:30:38+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Bruits sur une sortie de la France de l’euro",
+      "url": "https://www.revueconflits.com/bruits-et-signaux-la-question-de-leuro/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Économie, énergies et entreprises",
+        "Abonné",
+        "géoéconomie"
+      ],
+      "imageCheckedAt": "2026-10-19T16:08:13.764590+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/11/SIPA_01180015_000002-scaled.jpg",
+        "kind": "article",
+        "alt": "Bruits sur une sortie de la France de l’euro",
+        "credit": "Ursula von der Leyen, présidente de la Commission européenne, et Olaf Scholz, chancelier de l'Allemagne (SPD, à droite), lors de la conférence de presse suivant le Sommet du Processus de Berlin 2024.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/bruits-et-signaux-la-question-de-leuro/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/bruits-et-signaux-la-question-de-leuro/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-19",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/11/SIPA_01180015_000002-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T13:16:43+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La Russie a mis 30 ans à refabriquer ce bombardier, et sa plus grande difficulté n’a pas été l’électronique mais le titane",
+      "url": "https://www.forum-militaire.fr/la-russie-a-mis-30-ans-a-refabriquer-ce-bombardier-et-sa-plus-grande-difficulte-na-pas-ete-lelectronique-mais-le-titane/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de l'air",
+        "avion"
+      ],
+      "sourceExcerpt": {
+        "text": "Le constructeur affirme avoir modernisé 80 % des équipements de son bombardier stratégique. Mais le récit qu’il livre du chantier…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T12:34:20+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Jeumont Electric to Supply Propulsion Systems for Poland’s A26 Submarines",
+      "url": "https://www.navalnews.com/naval-news/2026/10/jeumont-electric-to-supply-propulsion-systems-for-polands-a26-submarines/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "A26",
+        "Poland",
+        "Propulsion System",
+        "Submarine"
+      ],
+      "sourceExcerpt": {
+        "text": "Jeumont Electric will supply three complete low-signature electric propulsion systems for the Polish Navy's A26 submarines under the Orka programme.…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-19T16:08:13.764590+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/06/Polish_Navy_A26_Orka-768x560.jpg",
+        "kind": "article",
+        "alt": "Saab receives order for three submarines for Poland",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/jeumont-electric-to-supply-propulsion-systems-for-polands-a26-submarines/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/jeumont-electric-to-supply-propulsion-systems-for-polands-a26-submarines/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-19",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/06/Polish_Navy_A26_Orka.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T10:52:41+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Pour remplacer ses Alphajet, le Maroc s’intéresse au chasseur léger sud-coréen F/A-50 Golden Eagle",
+      "url": "https://www.opex360.com/2026/10/19/pour-remplacer-ses-alphajet-le-maroc-sinteresse-au-chasseur-leger-sud-coreen-f-a-50-golden-eagle/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Forces aériennes",
+        "Alphajet",
+        "Corée du Sud",
+        "F-5",
+        "F/A-50",
+        "Forces Royales Air",
+        "KAI",
+        "Korea Aerospace Industries",
+        "Maroc",
+        "T-50"
+      ],
+      "sourceExcerpt": {
+        "text": "En 2022, les Forces royales Air marocaines alignaient vingt-cinq chasseurs légers F-5 Tiger II, acquis d’occasion auprès des États-Unis, et…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-19T16:08:13.764590+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/fa50-philippines-20210329.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Pour remplacer ses Alphajet, le Maroc s’intéresse au chasseur léger sud-coréen F/A-50 Golden Eagle ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/19/pour-remplacer-ses-alphajet-le-maroc-sinteresse-au-chasseur-leger-sud-coreen-f-a-50-golden-eagle/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/19/pour-remplacer-ses-alphajet-le-maroc-sinteresse-au-chasseur-leger-sud-coreen-f-a-50-golden-eagle/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-19",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/fa50-philippines-20210329.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T10:16:52+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Military Engineering Showcase highlights UK defence innovation",
+      "url": "https://www.gov.uk/government/news/military-engineering-showcase-highlights-uk-defence-innovation",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Over 60 UK companies joined partners from over 20 nations to showcase military engineering solutions, strengthen collaboration and support UK…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-19T16:08:13.764590+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6ad5edc7a89985bb97026878/s300_Military_Eng_Event.jpg",
+        "kind": "article",
+        "alt": "Attendees at the Military Engineering Showcase",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/military-engineering-showcase-highlights-uk-defence-innovation",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/military-engineering-showcase-highlights-uk-defence-innovation",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-19"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T09:40:10+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La Chine a lancé la production d’une flotte sans équivalent en Occident : des navire-mère pour drones sous-marins géants",
+      "url": "https://www.forum-militaire.fr/la-chine-a-lance-la-production-dune-flotte-sans-equivalent-en-occident-des-navire-mere-pour-drones-sous-marins-geants/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Marines militaires",
+        "drone",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Un mois après la révélation d’un premier navire-mère chinois pour drones sous-marins géants au chantier Hudong-Zhonghua de Shanghai, le site…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T09:34:54+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Exail USVs Set for U.S. Navy and Coast Guard Evaluations",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/exail-usvs-set-for-u-s-navy-and-coast-guard-evaluations/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "Exail",
+        "ONR",
+        "USCG",
+        "USV"
+      ],
+      "sourceExcerpt": {
+        "text": "The U.S. Navy and Coast Guard will evaluate Exail's newest USVs. The DriX H-9 will serve as a counter-drone testbed,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-19T16:08:13.764590+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Exail-DriX-H9-La-Ciotat-768x579.jpg",
+        "kind": "article",
+        "alt": "Exail DriX H-9 La Ciotat",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/exail-usvs-set-for-u-s-navy-and-coast-guard-evaluations/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/exail-usvs-set-for-u-s-navy-and-coast-guard-evaluations/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-19",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Exail-DriX-H9-La-Ciotat.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T06:34:37+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Les fantômes impériaux de la relation sino-russe : un passé qui divise",
+      "url": "https://www.areion24.news/2026/10/19/les-fantomes-imperiaux-de-la-relation-sino-russe-un-passe-qui-divise/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "La Chine et la Russie partagent une histoire longue et complexe qui remonte au XVIIe siècle, lorsque l’expansion des Russes…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-19T16:08:13.764590+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/10/MANCHURIA-U.S.S.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Les fantômes impériaux de la relation sino-russe : un passé qui divise ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/10/19/les-fantomes-imperiaux-de-la-relation-sino-russe-un-passe-qui-divise/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/10/19/les-fantomes-imperiaux-de-la-relation-sino-russe-un-passe-qui-divise/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-19",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/10/MANCHURIA-U.S.S.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
       "publishedAt": "2026-10-19T03:00:33+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -5346,7 +5731,7 @@
       "imageCheckedAt": "2026-10-19T06:18:32.209383+00:00"
     }
   ],
-  "checkedAt": "2026-10-19T06:18:27.579271+00:00",
+  "checkedAt": "2026-10-19T16:08:08.679249+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -5381,6 +5766,12 @@
         "error": null
       },
       {
+        "source": "Forum Militaire",
+        "ok": true,
+        "recentItems": 14,
+        "error": null
+      },
+      {
         "source": "Revue Conflits",
         "ok": true,
         "recentItems": 10,
@@ -5407,7 +5798,7 @@
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 10,
+        "recentItems": 7,
         "error": null
       },
       {
@@ -5417,8 +5808,8 @@
         "error": null
       }
     ],
-    "newItems": 2,
-    "articleImages": 145,
+    "newItems": 11,
+    "articleImages": 154,
     "duplicateHeadlinesSkipped": 0
   }
 }
