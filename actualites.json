@@ -351,6 +351,82 @@
     },
     {
       "date": "2026-10-19",
+      "publishedAt": "2026-10-19T08:28:30+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Denmark Procures Additional Naval Strike Missiles from Kongsberg",
+      "url": "https://www.navalnews.com/naval-news/2026/10/denmark-procures-additional-naval-strike-missiles-from-kongsberg/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Denmark",
+        "Kongsberg",
+        "NSM"
+      ],
+      "sourceExcerpt": {
+        "text": "Denmark is procuring additional Kongsberg Naval Strike Missiles (NSM) to upgrade its frigate fleet under a government-to-government deal with Norway.…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-19T16:29:55.433359+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/09/nsm-2-768x446.webp",
+        "kind": "article",
+        "alt": "Naval Strike Missile",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/denmark-procures-additional-naval-strike-missiles-from-kongsberg/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/denmark-procures-additional-naval-strike-missiles-from-kongsberg/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-19",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/09/nsm-2.webp",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T08:04:45+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Taiwan Coast Guard to Acquire MARTAC Devil Ray T24 USVs",
+      "url": "https://www.navalnews.com/naval-news/2026/10/taiwan-coast-guard-to-acquire-martac-devil-ray-t24-usvs/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Martac",
+        "Taiwan",
+        "USV"
+      ],
+      "sourceExcerpt": {
+        "text": "Taiwan's Coast Guard signs an agreement with MARTAC to acquire Devil Ray T24 autonomous surface vessels under a U.S.-Taiwan co-production…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-19T16:29:55.433359+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2023/05/MARTAC-T24-USV-768x428.jpg",
+        "kind": "article",
+        "alt": "MARTAC T24 USV",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/taiwan-coast-guard-to-acquire-martac-devil-ray-t24-usvs/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/taiwan-coast-guard-to-acquire-martac-devil-ray-t24-usvs/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-19",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2023/05/MARTAC-T24-USV.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
       "publishedAt": "2026-10-19T06:34:37+00:00",
       "source": "Areion — Géopolitique",
       "sourceType": "Presse spécialisée",
@@ -494,6 +570,30 @@
         "checkedAt": "2026-10-18",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/HU5Z86PaUAA5-Da.jpg",
         "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "publishedAt": "2026-10-18T13:03:57+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La Chine affiche une portée doublée pour ce missile antinavire, qu’elle tire depuis un hélicoptère dérivé d’un appareil français construit…",
+      "url": "https://www.forum-militaire.fr/la-chine-affiche-une-portee-doublee-pour-ce-missile-antinavire-quelle-tire-depuis-un-helicoptere-derive-dun-appareil-francais-construit-sous-licence/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Marines militaires",
+        "marine",
+        "missile"
+      ],
+      "sourceExcerpt": {
+        "text": "Un engin léger conçu pour couler des vedettes rapides, présenté sur un salon égyptien et issu d’une famille vendue à…",
+        "kind": "feed-excerpt"
       }
     },
     {
@@ -658,6 +758,29 @@
         "checkedAt": "2026-10-18",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2020/11/services-g%C3%A9opolitiques-conflits-scaled.jpg",
         "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "publishedAt": "2026-10-18T07:25:25+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Cet avion français fut l’un des projets les plus ambitieux de l’Hexagone post seconde guerre mondiale mais sa fin fut tragique : le…",
+      "url": "https://www.forum-militaire.fr/le-coleoptere-c-450-lun-des-engins-volants-les-plus-audacieux-jamais-construits-en-france/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "avion",
+        "Histoire"
+      ],
+      "sourceExcerpt": {
+        "text": "Dans la série des « folies d’ingénierie » françaises, je demande le Coléoptère C.450. Melun-Villaroche, samedi 25 juillet 1959, en…",
+        "kind": "feed-excerpt"
       }
     },
     {
@@ -5731,7 +5854,7 @@
       "imageCheckedAt": "2026-10-19T06:18:32.209383+00:00"
     }
   ],
-  "checkedAt": "2026-10-19T16:08:08.679249+00:00",
+  "checkedAt": "2026-10-19T16:29:52.526496+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -5808,8 +5931,8 @@
         "error": null
       }
     ],
-    "newItems": 11,
-    "articleImages": 154,
+    "newItems": 4,
+    "articleImages": 156,
     "duplicateHeadlinesSkipped": 0
   }
 }
