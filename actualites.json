@@ -1,7 +1,78 @@
 {
-  "updatedAt": "2026-10-18",
+  "updatedAt": "2026-10-19",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T03:00:33+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Élections du 25 octobre en Serbie : « ce ne sont pas les acteurs extérieurs qui décideront »",
+      "url": "https://www.revueconflits.com/elections-du-25-octobre-en-serbie-ce-ne-sont-pas-les-acteurs-exterieurs-qui-decideront/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Europe de l'Est",
+        "Abonné",
+        "Élections",
+        "Serbie"
+      ],
+      "imageCheckedAt": "2026-10-19T06:18:32.209383+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/Predsednik_Vucic_obisao_Pcinjski_okrug_6.jpg",
+        "kind": "article",
+        "alt": "Élections du 25 octobre en Serbie : « ce ne sont pas les acteurs extérieurs qui décideront »",
+        "credit": "Aleksandar Vučić en 2023. (C) Wikipédia.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/elections-du-25-octobre-en-serbie-ce-ne-sont-pas-les-acteurs-exterieurs-qui-decideront/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/elections-du-25-octobre-en-serbie-ce-ne-sont-pas-les-acteurs-exterieurs-qui-decideront/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-19",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/Predsednik_Vucic_obisao_Pcinjski_okrug_6.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T03:00:15+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Guerrilleros, narcotrafiquants et paramilitaires : caudillos de la Colombie contemporaine",
+      "url": "https://www.revueconflits.com/guerrilleros-narcotrafiquants-et-paramilitaires-caudillos-de-la-colombie-contemporaine/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique",
+        "Amérique latine",
+        "Histoire",
+        "Abonné",
+        "Amerique Latine",
+        "Colombie"
+      ],
+      "imageCheckedAt": "2026-10-19T06:18:32.209383+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_ap21964779_000005-scaled-e1792350159306.jpg",
+        "kind": "article",
+        "alt": "Guerrilleros, narcotrafiquants et paramilitaires : caudillos de la Colombie contemporaine",
+        "credit": "AP Photo/Rodrigo Abd, File)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/guerrilleros-narcotrafiquants-et-paramilitaires-caudillos-de-la-colombie-contemporaine/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/guerrilleros-narcotrafiquants-et-paramilitaires-caudillos-de-la-colombie-contemporaine/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-19",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_ap21964779_000005-scaled-e1792350159306.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-18",
       "publishedAt": "2026-10-18T15:54:12+00:00",
@@ -5058,7 +5129,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-18T06:11:07.544508+00:00"
+      "imageCheckedAt": "2026-10-19T06:18:32.209383+00:00"
     },
     {
       "date": "2026-10-07",
@@ -5272,10 +5343,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-18T06:11:07.544508+00:00"
+      "imageCheckedAt": "2026-10-19T06:18:32.209383+00:00"
     }
   ],
-  "checkedAt": "2026-10-18T16:10:39.650514+00:00",
+  "checkedAt": "2026-10-19T06:18:27.579271+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -5287,9 +5358,9 @@
     "sources": [
       {
         "source": "Sénat — Défense",
-        "ok": false,
+        "ok": true,
         "recentItems": 0,
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
+        "error": null
       },
       {
         "source": "Ministère britannique de la Défense",
@@ -5346,8 +5417,8 @@
         "error": null
       }
     ],
-    "newItems": 7,
-    "articleImages": 143,
+    "newItems": 2,
+    "articleImages": 145,
     "duplicateHeadlinesSkipped": 0
   }
 }
