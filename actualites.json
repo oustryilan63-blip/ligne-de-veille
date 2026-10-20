@@ -4,6 +4,313 @@
   "items": [
     {
       "date": "2026-10-20",
+      "publishedAt": "2026-10-20T16:13:41+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Premiers tours d’hélices dans la 4e BAC pour les drones intercepteurs de drones",
+      "url": "https://forcesoperations.com/premiers-tours-dhelices-dans-la-4e-bac-pour-les-drones-intercepteurs-de-drones/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "3e RHC",
+        "aérocombat",
+        "Asterodyn"
+      ],
+      "sourceExcerpt": {
+        "text": "Décollage réussi pour le premier drone intercepteur de drones pris en main par la 4e brigade d'aérocombat (4e BAC). Équipages…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-20T16:20:40.336005+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/10/Premiers-tours-dhelices-dans-la-4e-BAC-pour-les-drones-intercepteurs-de-drones_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Premiers tours d’hélices dans la 4e BAC pour les drones intercepteurs de drones ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/premiers-tours-dhelices-dans-la-4e-bac-pour-les-drones-intercepteurs-de-drones/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/premiers-tours-dhelices-dans-la-4e-bac-pour-les-drones-intercepteurs-de-drones/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-20",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/Premiers-tours-dhelices-dans-la-4e-BAC-pour-les-drones-intercepteurs-de-drones_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T15:16:26+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le Royaume-Uni renforce son soutien à l’Arabie saoudite avec l’envoi d’Eurofighter Typhoon et d’un A400M",
+      "url": "https://www.opex360.com/2026/10/20/le-royaume-uni-renforce-son-soutien-a-larabie-saoudite-avec-lenvoi-deurofighter-typhoon-et-dun-a400m/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Moyen-Orient",
+        "A400M",
+        "Arabie Saoudite",
+        "atlas",
+        "Crossways",
+        "défense",
+        "houthistes",
+        "Royal Air Force",
+        "Typhoon",
+        "Yemen"
+      ],
+      "sourceExcerpt": {
+        "text": "Avec un budget militaire annuel de 72,5 milliards de dollars [soit 5,7 % de son PIB] et des forces armées…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-20T16:20:40.336005+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/typhoon-shader-20230526.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le Royaume-Uni renforce son soutien à l’Arabie saoudite avec l’envoi d’Eurofighter Typhoon et d’un A400M ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/20/le-royaume-uni-renforce-son-soutien-a-larabie-saoudite-avec-lenvoi-deurofighter-typhoon-et-dun-a400m/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/20/le-royaume-uni-renforce-son-soutien-a-larabie-saoudite-avec-lenvoi-deurofighter-typhoon-et-dun-a400m/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-20",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/typhoon-shader-20230526.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T15:00:47+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Métro et totalitarisme",
+      "url": "https://www.revueconflits.com/metro-et-totalitarisme/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Analyse et théorie",
+        "Abonné",
+        "Transport"
+      ],
+      "imageCheckedAt": "2026-10-20T16:20:40.336005+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/thomas-evans-ypMJ_JTD2h4-unsplash-scaled.jpg",
+        "kind": "article",
+        "alt": "Métro et totalitarisme",
+        "credit": "Métro de Pyongyang. Thomas Evans",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/metro-et-totalitarisme/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/metro-et-totalitarisme/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-20",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/thomas-evans-ypMJ_JTD2h4-unsplash-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T13:23:00+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Les tourelles de cette PME slovène se retrouvent chez les géants européens, et aussi sur un système azerbaïdjanais armé de canons russes",
+      "url": "https://www.forum-militaire.fr/les-tourelles-de-cette-pme-slovene-se-retrouvent-chez-les-geants-europeens-et-aussi-sur-un-systeme-azerbaidjanais-arme-de-canons-russes/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "Blindé"
+      ],
+      "sourceExcerpt": {
+        "text": "Sept ans d’existence, une poignée de produits, et un nom qui ne dit rien au grand public. Pourtant ses tourelles…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T11:12:06+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’armée ukrainienne revendique la première évacuation d’un soldat blessé par un drone aérien",
+      "url": "https://www.opex360.com/2026/10/20/larmee-ukrainienne-revendique-la-premiere-evacuation-dun-soldat-blesse-par-un-drone-aerien/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces terrestres",
+        "92e Brigade mécanisée",
+        "armée ukrainienne",
+        "blessé",
+        "drone",
+        "évacuation",
+        "EVASAN",
+        "guerre en Ukraine",
+        "Gurzuf Defence",
+        "robot"
+      ],
+      "sourceExcerpt": {
+        "text": "Évacuer rapidement un soldat blessé au cours d’une action de combat est primordial pour augmenter ses chances de survie. L’an…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-20T16:20:40.336005+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/evasan-drone-20261020.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’armée ukrainienne revendique la première évacuation d’un soldat blessé par un drone aérien ».",
+        "credit": "capture d’écran",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/20/larmee-ukrainienne-revendique-la-premiere-evacuation-dun-soldat-blesse-par-un-drone-aerien/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/20/larmee-ukrainienne-revendique-la-premiere-evacuation-dun-soldat-blesse-par-un-drone-aerien/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-20",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/evasan-drone-20261020.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T10:59:33+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Operational update 20 October – UK military support to the Kingdom of Saudi Arabia",
+      "url": "https://www.gov.uk/government/news/operational-update-20-october-uk-military-support-to-the-kingdom-of-saudi-arabia",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "The UK will provide additional defensive military support to the Kingdom of Saudi Arabia, given escalating Houthi attacks in the…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-20T16:20:40.336005+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/operational-update-20-october-uk-military-support-to-the-kingdom-of-saudi-arabia",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/operational-update-20-october-uk-military-support-to-the-kingdom-of-saudi-arabia",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-20"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T09:40:19+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La France mise énormément sur ce nouvel allié en Méditerranée qui est un des seuls en Europe à lui acheter du matériel militaire : la Grèce",
+      "url": "https://www.forum-militaire.fr/lalliance-franco-grecque-passe-sous-leau/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Marines militaires",
+        "contrat",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Naval Group a confirmé en avril 2026 avoir répondu à la demande d’information lancée fin 2025 par la Marine hellénique…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T08:22:16+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Le palmier qui signifie l’effondrement du pouvoir",
+      "url": "https://www.revueconflits.com/le-palmier-qui-signifie-leffondrement-du-pouvoir/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Analyse et théorie",
+        "Art et Géopolitique",
+        "Abonné",
+        "Chemins de France"
+      ],
+      "imageCheckedAt": "2026-10-20T16:20:40.336005+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_ap23068224_000009-scaled.jpg",
+        "kind": "article",
+        "alt": "Le palmier qui signifie l’effondrement du pouvoir",
+        "credit": "Paris, France, Monday Oct. 19, 2026. (Julien de Rosa/Pool Photo via AP)/DSOB107/26292395163011/POOL PHOTO/2610191304",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/le-palmier-qui-signifie-leffondrement-du-pouvoir/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/le-palmier-qui-signifie-leffondrement-du-pouvoir/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-20",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_ap23068224_000009-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T06:36:07+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "« Un empire n’attaque jamais, il est attaqué ». Entretien avec Gabriel Martinez-Gros",
+      "url": "https://www.revueconflits.com/un-empire-nattaque-jamais-il-est-attaque-entretien-avec-gabriel-martinez-gros/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Histoire",
+        "Livres",
+        "Abonné",
+        "Chine",
+        "Islam",
+        "Rome"
+      ],
+      "imageCheckedAt": "2026-10-20T16:20:40.336005+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/03/Empire_Romain_Hadrien-175x170-1.png",
+        "kind": "article",
+        "alt": "« Un empire n’attaque jamais, il est attaqué ». Entretien avec Gabriel Martinez-Gros",
+        "credit": "Empire romain (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/un-empire-nattaque-jamais-il-est-attaque-entretien-avec-gabriel-martinez-gros/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/un-empire-nattaque-jamais-il-est-attaque-entretien-avec-gabriel-martinez-gros/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-20",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/03/Empire_Romain_Hadrien-175x170-1.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-20",
       "publishedAt": "2026-10-20T02:30:19+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -109,6 +416,46 @@
     },
     {
       "date": "2026-10-19",
+      "publishedAt": "2026-10-19T20:24:52+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "NOUVEAU CONTRAT EUROPEEN POUR ELBIT SYSTEMS",
+      "url": "https://blablachars.blogspot.com/2026/10/nouveau-contrat-europeen-pour-elbit.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Elbit Systems",
+        "Europe",
+        "Extra",
+        "Extra MR",
+        "Lance Roquettes Multiples",
+        "Puls"
+      ],
+      "sourceExcerpt": {
+        "text": "Elbit Systems a annoncé la signature d'un contrat portant sur la fourniture de lance-roquettes Puls, de missiles Extra-MR (Medium Range).…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-20T16:20:40.336005+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd1BEFjS_DIf8XGlxjqLWp3Q0Cq6Ed1KEV9JRRwhcPrwPo68pPw-zLRcpXXNzoyQOg4rPcR6vcsiss27opyz7KtYCEBEZqTcGVmUdc78vuQcE3t8kG5gD5iSO0xKRNGZZWDwsTo111orY1QDWHkilP40H2Xr_I22oAzZcslU3KvLR8nVxrBm-p76WetkE/w1200-h630-p-k-no-nu/PULS.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « NOUVEAU CONTRAT EUROPEEN POUR ELBIT SYSTEMS ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/nouveau-contrat-europeen-pour-elbit.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/nouveau-contrat-europeen-pour-elbit.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-20",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd1BEFjS_DIf8XGlxjqLWp3Q0Cq6Ed1KEV9JRRwhcPrwPo68pPw-zLRcpXXNzoyQOg4rPcR6vcsiss27opyz7KtYCEBEZqTcGVmUdc78vuQcE3t8kG5gD5iSO0xKRNGZZWDwsTo111orY1QDWHkilP40H2Xr_I22oAzZcslU3KvLR8nVxrBm-p76WetkE/w1200-h630-p-k-no-nu/PULS.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
       "publishedAt": "2026-10-19T17:35:29+00:00",
       "source": "Zone Militaire — Opex360",
       "sourceType": "Presse spécialisée",
@@ -175,7 +522,7 @@
         "Seahawk"
       ],
       "sourceExcerpt": {
-        "text": "En un peu d’un an, pas moins de trois ministres de la Défense auront eu à s’occuper du dossier concernant…",
+        "text": "En un peu plus d’un an, pas moins de trois ministres de la Défense auront eu à s’occuper du dossier…",
         "kind": "feed-excerpt"
       },
       "imageCheckedAt": "2026-10-20T06:16:28.400467+00:00",
@@ -5916,7 +6263,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-19T06:18:32.209383+00:00"
+      "imageCheckedAt": "2026-10-20T16:20:40.336005+00:00"
     },
     {
       "date": "2026-10-07",
@@ -6130,10 +6477,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-19T06:18:32.209383+00:00"
+      "imageCheckedAt": "2026-10-20T16:20:40.336005+00:00"
     }
   ],
-  "checkedAt": "2026-10-20T06:16:24.803943+00:00",
+  "checkedAt": "2026-10-20T16:20:34.778532+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -6182,7 +6529,7 @@
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 7,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -6193,9 +6540,9 @@
       },
       {
         "source": "Naval News",
-        "ok": true,
-        "recentItems": 10,
-        "error": null
+        "ok": false,
+        "recentItems": 0,
+        "error": "HTTP Error 503: Service Temporarily Unavailable"
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
@@ -6210,8 +6557,8 @@
         "error": null
       }
     ],
-    "newItems": 8,
-    "articleImages": 162,
+    "newItems": 10,
+    "articleImages": 170,
     "duplicateHeadlinesSkipped": 0
   }
 }
