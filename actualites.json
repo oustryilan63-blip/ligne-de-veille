@@ -1,7 +1,200 @@
 {
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-20",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T02:30:19+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "France : fuite de cerveaux",
+      "url": "https://www.revueconflits.com/france-fuite-de-cerveaux/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Géopolitique de la France",
+        "Abonné",
+        "France"
+      ],
+      "imageCheckedAt": "2026-10-20T06:16:28.400467+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/julia-koblitz-RlOAwXt2fEA-unsplash-scaled.jpg",
+        "kind": "article",
+        "alt": "France : fuite de cerveaux",
+        "credit": "(C) Unsplash.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/france-fuite-de-cerveaux/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/france-fuite-de-cerveaux/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-20",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/julia-koblitz-RlOAwXt2fEA-unsplash-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T02:21:31+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Géopolitique de Paris",
+      "url": "https://www.revueconflits.com/podcast-geopolitique-de-paris/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Podcasts",
+        "Podcasts France",
+        "Chemins de France",
+        "Histoire de france"
+      ],
+      "imageCheckedAt": "2026-10-20T06:16:28.400467+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/12/SIPA_01186211_000052-scaled.jpg",
+        "kind": "article",
+        "alt": "Podcast – Géopolitique de Paris",
+        "credit": "Portail extérieur de Notre-Dame //04SIPA_SIPA303/Credit:STEPHANE DE SAKUTIN -POOL/SIPA/2411291411",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-geopolitique-de-paris/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-geopolitique-de-paris/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-20",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/12/SIPA_01186211_000052-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T20:36:32+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "HD Hyundai and Anduril Demonstrate Integrated VAone and Lattice USV Autonomy",
+      "url": "https://www.navalnews.com/naval-news/2026/10/hd-hyundai-and-anduril-demonstrate-integrated-vaone-and-lattice-usv-autonomy/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Anduril",
+        "HD HHI",
+        "USV"
+      ],
+      "sourceExcerpt": {
+        "text": "HD Hyundai and Anduril successfully demonstrated integrated USV operations off California, combining the VAone ship platform with Lattice mission software.…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-20T06:16:28.400467+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/HD-Hyundai-Anduril_1-768x576.jpg",
+        "kind": "article",
+        "alt": "HD Hyundai and Anduril Demonstrate Integrated VAone and Lattice USV Autonomy",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/hd-hyundai-and-anduril-demonstrate-integrated-vaone-and-lattice-usv-autonomy/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/hd-hyundai-and-anduril-demonstrate-integrated-vaone-and-lattice-usv-autonomy/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-20",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/HD-Hyundai-Anduril_1-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T17:35:29+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Pour la première fois, un drone de surface va intégrer un groupe aéronaval de l’US Navy",
+      "url": "https://www.opex360.com/2026/10/19/pour-la-premiere-fois-un-drone-de-surface-va-integrer-un-groupe-aeronaval-de-lus-navy/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "DARPA",
+        "drone naval",
+        "groupe aéronaval",
+        "lutte asm",
+        "porte-avions",
+        "Seahawk",
+        "US Navy",
+        "USS Theodore Roosevelt"
+      ],
+      "sourceExcerpt": {
+        "text": "Quand il était chef d’état-major de la Marine nationale [CEMM], l’amiral Nicolas Vaujour expliquait que les drones de surface n’avaient…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-20T06:16:28.400467+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/seahawk-20210910.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Pour la première fois, un drone de surface va intégrer un groupe aéronaval de l’US Navy ».",
+        "credit": "Seahawk – US Navy",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/19/pour-la-premiere-fois-un-drone-de-surface-va-integrer-un-groupe-aeronaval-de-lus-navy/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/19/pour-la-premiere-fois-un-drone-de-surface-va-integrer-un-groupe-aeronaval-de-lus-navy/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-20",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/seahawk-20210910.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T16:54:51+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Nouvelle-Zélande confirme l’achat de cinq hélicoptères américains MH-60R SeaHawk pour plus de 930 millions de dollars",
+      "url": "https://www.opex360.com/2026/10/19/la-nouvelle-zelande-confirme-lachat-de-cinq-helicopteres-americains-mh-60r-seahawk-pour-plus-de-930-millions-de-dollars/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie-Pacifique",
+        "Forces navales",
+        "ANZAC",
+        "commande",
+        "contrat",
+        "Etats-Unis",
+        "hélicoptère",
+        "lutte anti-sous-marine",
+        "MH-60R",
+        "Nouvelle-Zélande",
+        "Seahawk"
+      ],
+      "sourceExcerpt": {
+        "text": "En un peu d’un an, pas moins de trois ministres de la Défense auront eu à s’occuper du dossier concernant…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-20T06:16:28.400467+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/seahakw-20231112.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Nouvelle-Zélande confirme l’achat de cinq hélicoptères américains MH-60R SeaHawk pour plus de 930 millions de dollars ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/19/la-nouvelle-zelande-confirme-lachat-de-cinq-helicopteres-americains-mh-60r-seahawk-pour-plus-de-930-millions-de-dollars/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/19/la-nouvelle-zelande-confirme-lachat-de-cinq-helicopteres-americains-mh-60r-seahawk-pour-plus-de-930-millions-de-dollars/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-20",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/seahakw-20231112.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-19",
       "publishedAt": "2026-10-19T15:40:39+00:00",
@@ -422,6 +615,44 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-19",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2023/05/MARTAC-T24-USV.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T07:36:36+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Rheinmetall to take over the Mangalia shipyard in Romania",
+      "url": "https://www.navalnews.com/naval-news/2026/10/rheinmetall-to-take-over-the-mangalia-shipyard-in-romania/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Rheinmetall",
+        "Romania",
+        "Shipbuilding"
+      ],
+      "sourceExcerpt": {
+        "text": "Rheinmetall and MSC acquire Romania’s Mangalia shipyard for €138M to establish a dual-use hub for civil and military naval shipbuilding…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-20T06:16:28.400467+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Rheinmetall-Mangalia-shipyard-in-Romania-768x384.jpg",
+        "kind": "article",
+        "alt": "Rheinmetall Mangalia shipyard in Romania",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/rheinmetall-to-take-over-the-mangalia-shipyard-in-romania/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/rheinmetall-to-take-over-the-mangalia-shipyard-in-romania/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-20",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Rheinmetall-Mangalia-shipyard-in-Romania.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -1027,6 +1258,30 @@
     },
     {
       "date": "2026-10-17",
+      "publishedAt": "2026-10-17T13:00:57+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Le chef des armées norvégiennes ne voulait pas de ces chars, son pays vient d’ouvrir une usine pour en assembler trente-sept",
+      "url": "https://www.forum-militaire.fr/le-chef-des-armees-norvegiennes-ne-voulait-pas-de-ces-chars-son-pays-vient-douvrir-une-usine-pour-en-assembler-trente-sept/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "char",
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Les deux finalistes avaient passé les essais. Oslo a tranché sur des critères d’alliance, et trois ans plus tard le…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-17",
       "publishedAt": "2026-10-17T12:56:37+00:00",
       "source": "Zone Militaire — Opex360",
       "sourceType": "Presse spécialisée",
@@ -1145,6 +1400,30 @@
         "checkedAt": "2026-10-17",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Samarthak.png",
         "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T07:11:01+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Impensable en France, ce projet de chantier naval américain géant à 5,6 milliards d’euros va être convié à une entreprise qui n’a pas 10…",
+      "url": "https://www.forum-militaire.fr/impensable-en-france-ce-projet-de-chantier-naval-americain-geant-a-56-milliards-deuros-va-etre-convie-a-une-entreprise-qui-na-pas-10-ans-anduril/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Industrie",
+        "Marines militaires",
+        "contrat",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Donald Trump a annoncé le 6 octobre 2026 depuis Sparrows Point, dans le Maryland, le lancement du plus vaste chantier…",
+        "kind": "feed-excerpt"
       }
     },
     {
@@ -5854,7 +6133,7 @@
       "imageCheckedAt": "2026-10-19T06:18:32.209383+00:00"
     }
   ],
-  "checkedAt": "2026-10-19T16:29:52.526496+00:00",
+  "checkedAt": "2026-10-20T06:16:24.803943+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -5903,7 +6182,7 @@
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 7,
         "error": null
       },
       {
@@ -5931,8 +6210,8 @@
         "error": null
       }
     ],
-    "newItems": 4,
-    "articleImages": 156,
+    "newItems": 8,
+    "articleImages": 162,
     "duplicateHeadlinesSkipped": 0
   }
 }
