@@ -227,3 +227,17 @@ body:has(.discovery-article) .discovery-hero p{font-size:15px;line-height:1.85;m
 .discovery-main .editorial-cover figcaption{padding-top:10px;font-size:10px;line-height:1.8;color:#607452;overflow-wrap:anywhere}
 .discovery-main .editorial-cover figcaption a{text-underline-offset:3px}
 @media(max-width:600px){.discovery-main .editorial-cover img{height:180px}}
+
+/* Suivi des conflits : les dates de collecte et de contexte restent distinctes. */
+.discovery-main .learning-live{margin:30px 0 36px;padding:26px 28px;border:1px solid #b9cbb0;border-left:4px solid #476440;border-radius:10px;background:#f1f5eb;scroll-margin-top:30px}
+.discovery-main .learning-live h2{margin:12px 0 10px;font-size:28px}
+.discovery-main .learning-live .learning-live-date{font-size:13px;color:#3c573a;margin-bottom:12px}
+.discovery-main .learning-live .learning-live-intro,.discovery-main .learning-live-coverage p{font-size:14px;line-height:1.8;margin-bottom:14px}
+.discovery-main .learning-live-list{list-style:none;padding:0;margin:18px 0 0}
+.discovery-main .learning-live-list li{padding:16px 0;border-top:1px solid #cbd8c2}
+.discovery-main .learning-live-list li>span{display:block;font-size:11px;line-height:1.8;color:#53684a;margin-bottom:6px}
+.discovery-main .learning-live-list a{display:block;font-size:17px;font-weight:650;line-height:1.65;text-underline-offset:4px;overflow-wrap:anywhere}
+.discovery-main .learning-live-coverage{padding-top:12px;font-size:12px;line-height:1.8}
+.discovery-main .learning-live-coverage summary{cursor:pointer}
+.discovery-main .learning-live .learning-live-warning{padding:12px;border:1px solid #b69052;background:#fff7e7;font-size:14px}
+@media(max-width:600px){.discovery-main .learning-live{padding:22px 18px}.discovery-main .learning-live-list a{font-size:16px}}

@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-21T16:19:32.380382+00:00",
+  "windowDays": 14,
+  "schedule": {
+    "times": [
+      "08:00",
+      "18:00"
+    ],
+    "timezone": "Europe/Paris"
+  },
+  "coverage": {
+    "ok": 10,
+    "total": 11,
+    "unavailable": [
+      "Naval News"
+    ]
+  },
+  "topics": {
+    "ukraine-guerre-enjeux": {
+      "changedAt": "2026-10-21T16:19:32.380382+00:00",
+      "items": [
+        {
+          "title": "L’armée ukrainienne revendique la première évacuation d’un soldat blessé par un drone aérien",
+          "url": "https://www.opex360.com/2026/10/20/larmee-ukrainienne-revendique-la-premiere-evacuation-dun-soldat-blesse-par-un-drone-aerien/",
+          "source": "Zone Militaire — Opex360",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-10-20T11:12:06+00:00",
+          "language": "fr"
+        },
+        {
+          "title": "How much has France given to Ukraine?",
+          "url": "https://www.revueconflits.com/how-much-has-france-given-to-ukraine/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-10-17T15:56:49+00:00",
+          "language": "fr"
+        },
+        {
+          "title": "Combien la France a-t-elle donné à l’Ukraine ?",
+          "url": "https://www.revueconflits.com/combien-la-france-a-t-elle-donne-a-lukraine/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-10-17T13:23:08+00:00",
+          "language": "fr"
+        },
+        {
+          "title": "New Kyiv Business Centre opens in Ukraine",
+          "url": "https://www.gov.uk/government/news/new-kyiv-business-centre-opens-in-ukraine",
+          "source": "Ministère britannique de la Défense",
+          "sourceType": "Source officielle",
+          "publishedAt": "2026-10-08T18:09:00+00:00",
+          "language": "en"
+        }
+      ]
+    },
+    "taiwan-detroit-tensions": {
+      "changedAt": "2026-10-21T16:19:32.380382+00:00",
+      "items": [
+        {
+          "title": "Taiwan Coast Guard to Acquire MARTAC Devil Ray T24 USVs",
+          "url": "https://www.navalnews.com/naval-news/2026/10/taiwan-coast-guard-to-acquire-martac-devil-ray-t24-usvs/",
+          "source": "Naval News",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-10-19T08:04:45+00:00",
+          "language": "en"
+        },
+        {
+          "title": "AV and Thunder Tiger Sign MOU to Explore Uncrewed Systems Integration and Co-Production in Taiwan",
+          "url": "https://www.navalnews.com/naval-news/2026/10/av-and-thunder-tiger-sign-mou-to-explore-uncrewed-systems-integration-and-co-production-in-taiwan/",
+          "source": "Naval News",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-10-15T20:11:58+00:00",
+          "language": "en"
+        }
+      ]
+    },
+    "moyen-orient-conflits": {
+      "changedAt": "2026-10-21T16:19:32.380382+00:00",
+      "items": [
+        {
+          "title": "L’avenir du régime iranien : entretien avec Clément Therme",
+          "url": "https://www.revueconflits.com/lavenir-du-regime-iranien-entretien-avec-clement-therme/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-10-18T03:00:37+00:00",
+          "language": "fr"
+        },
+        {
+          "title": "Podcast – La culture du combat en Israël. Gil Mihaely",
+          "url": "https://www.revueconflits.com/podcast-la-culture-du-combat-en-israel-gil-mihaely/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-10-16T02:34:56+00:00",
+          "language": "fr"
+        },
+        {
+          "title": "Israël confirme la commande de douze hélicoptères d’attaque AH-64E Apache/Guardian auprès de Boeing",
+          "url": "https://www.opex360.com/2026/10/14/israel-confirme-la-commande-de-douze-helicopteres-dattaque-ah-64e-apache-guardian-aupres-de-boeing/",
+          "source": "Zone Militaire — Opex360",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-10-14T16:50:56+00:00",
+          "language": "fr"
+        },
+        {
+          "title": "Yémen : un clivage nord-sud à l’épreuve de la guerre",
+          "url": "https://www.areion24.news/2026/10/14/yemen-un-clivage-nord-sud-a-lepreuve-de-la-guerre/",
+          "source": "Areion — Géopolitique",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-10-14T05:30:23+00:00",
+          "language": "fr"
+        }
+      ]
+    }
+  }
+}
