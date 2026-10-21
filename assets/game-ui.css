@@ -72,3 +72,201 @@
 .play-page .qg-shell,.play-page .radar-shell{padding-top:24px}
 @media(max-width:760px){.games-start{align-items:stretch;flex-direction:column;padding:21px}.games-start .button{width:100%;white-space:normal}.playbar{align-items:stretch;flex-direction:column;gap:10px}.playbar>a{min-height:36px}.playbar-tools{width:100%}.playbar-tools .play-menu{flex:1;min-width:0}.play-menu>summary{padding:11px 12px}.playbar-tools .play-menu:first-child .play-menu-panel{left:0;right:auto}.playbar-tools .play-menu:last-child .play-menu-panel{right:0}.play-page .game-intro{padding-top:29px}.play-page .game-intro h1{font-size:clamp(40px,9.5vw,62px)}.play-page .game-intro p{font-size:14px;margin-bottom:24px}.play-page .recognition-photo{height:280px}.play-page .recognition-copy{min-height:0;padding:23px}.play-page .arcade-figure{height:280px}.play-page .arcade-copy{min-height:0;padding:24px}.keyboard-tip{display:none}.play-page .answer-panel{flex-direction:column;align-items:stretch}.play-page .answer-panel>.button{width:100%}.play-config .option-group{flex-basis:100%}.play-page .qg-map-controls>span{flex-basis:100%}}
 @media(max-width:480px){.play-page .recognition-choices{grid-template-columns:1fr}.play-config>summary{padding:15px 17px;font-size:14px}.play-config .game-options,.play-config .quiz-level{padding:17px}.play-config-note{padding-left:17px;padding-right:17px}.games-filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.games-filters button{padding:10px;font-size:12px}.play-page .game-status{gap:10px;justify-content:flex-start}.play-page .game-status span{flex:1 1 auto}.play-page .chrono-row{gap:10px}.play-page .chrono-controls{display:flex;gap:8px}}
+
+/* Les jeux eux-mêmes : la partie passe avant le grand bandeau. */
+.play-page .game-intro{padding:0;background:radial-gradient(ellipse at 100% 0,#405a46 0,transparent 68%),#243a2f;border-bottom:3px solid #b67b57}
+.play-page .game-intro .wrap,.play-page[data-game=qg] .game-intro .wrap{padding-top:32px;padding-bottom:20px}
+.play-page .game-intro h1,.play-page[data-game=qg] .game-intro h1{font:700 clamp(36px,4.6vw,62px)/1.08 var(--serif);letter-spacing:-.025em;text-transform:none;margin:16px 0}
+.play-page .game-intro h1 em{color:#e5c4a3;font-weight:600;font-style:normal}
+.play-page .game-intro p,.play-page[data-game=qg] .game-intro p{font-size:14px;line-height:1.8;max-width:85ch;margin:0 0 22px;color:#dce6d5}
+.play-page .game-intro .eyebrow{font-size:9px;line-height:1.7;color:#c7d7bd}
+.play-page .game-intro-foot{padding-top:14px;line-height:1.7;border-color:#cbdcc155;gap:18px;letter-spacing:.04em}
+.play-page .playbar{padding-top:15px;padding-bottom:15px;border-color:#d2dcc9;gap:16px}
+.play-page .play-menu>summary{border-radius:8px;background:#fffef8;border-color:#ccd7c1;padding:12px 16px;min-height:46px}
+.play-page .play-menu-panel{border-radius:10px;border-color:#bccdad;background:#fffef8;padding:10px;box-shadow:0 15px 35px #1f382422}
+.play-page .play-menu-panel a{border-radius:5px;line-height:1.6}
+.play-page .play-config{border-radius:11px;border-color:#cbd8bf;background:#fffef8;box-shadow:0 4px 14px #20332205}
+.play-page .play-config>summary{min-height:58px;padding:17px 22px;line-height:1.6}
+.play-page .play-config .game-options{padding:22px;gap:20px}
+.play-page .play-config .option-group button{border-radius:7px;min-height:44px;padding:11px 16px;line-height:1.5}
+.play-page .play-config .quiz-level{padding:20px 22px;background:#edf3e6}
+.play-page .quiz-level select{border-radius:7px;min-height:46px;padding:10px 13px;background:#fffef8;color:#2b4431;border-color:#bdcdb1}
+.play-page .progress-strip{border-color:#d5dfcd;line-height:1.7;color:#5a7053}
+.play-page .game-status{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;padding:0;border:1px solid #c5d4b7;background:#eff4e8;border-radius:10px;overflow:hidden;margin-bottom:22px}
+.play-page .game-status>span{padding:16px 20px;font:500 11px/1.7 var(--mono);text-transform:none;letter-spacing:0;color:#46603e;min-width:0;overflow-wrap:anywhere}
+.play-page .game-status>span+span{border-left:1px solid #cbd9bf}
+.play-page .game-status>span:last-child{background:#e3ecd9;color:#304d31;font-weight:600}
+
+/* Une photo entière et une zone de question clairement séparée. */
+.play-page .recognition-card,.play-page .challenge-hero,.play-page .arcade-stage{border:1px solid #a6baa1;border-radius:14px;overflow:hidden;background:#263e31;box-shadow:0 10px 30px #1e382416}
+.play-page .recognition-photo,.play-page .challenge-photo{background:#192e25;min-height:370px}
+.play-page .recognition-photo img,.play-page .challenge-photo img{object-fit:contain}
+.play-page .recognition-copy,.play-page .challenge-copy,.play-page .arcade-copy{padding:30px 32px;background:radial-gradient(ellipse at 100% 0,#3c5742 0,transparent 85%),#263e31;min-height:0}
+.play-page .recognition-copy h2,.play-page .challenge-copy h2,.play-page .arcade-copy h2{font:600 clamp(30px,3.5vw,46px)/1.15 var(--serif);text-transform:none;letter-spacing:-.02em;margin:18px 0;color:#fffdf2;text-wrap:pretty}
+.play-page .recognition-copy>p:not(.game-feedback),.play-page .challenge-copy>p:not(.game-feedback),.play-page .arcade-copy p{font-size:15px;line-height:1.85;color:#dbe6d5}
+.play-page .challenge-category{font-size:10px;line-height:1.8;color:#e5c4a3}
+.play-page .hint-button{border:1px solid #b6a782;border-radius:6px;padding:11px 14px;color:#f0d3ae;font-size:12px;line-height:1.6;min-height:44px}
+.play-page .hint-button:hover:not(:disabled){background:#566049;color:#fffbe9}
+.play-page .recognition-copy .game-feedback,.play-page .challenge-copy .game-feedback{padding-top:17px;margin-top:22px;min-height:0;border-color:#b4c5a94a;line-height:1.8;font-size:13px;color:#dce7d6}
+.play-page .game-feedback.success{color:#bce8bd}
+.play-page .game-feedback.error{color:#ffd2ba}
+.play-page .recognition-answering{margin-top:22px}
+.play-page .recognition-choices,.play-page .arcade-choice-grid{gap:12px}
+.play-page .recognition-choices button,.play-page .arcade-choice,.play-page .vf-buttons button{border-radius:9px;min-height:68px;padding:17px 19px;border:1px solid #c1d0b8;background:#fffef8;color:#2c4330;line-height:1.6;box-shadow:0 3px 10px #132c1b06;transition:background .15s,border-color .15s,box-shadow .15s}
+.play-page .recognition-choices button:hover:not(:disabled),.play-page .arcade-choice:hover:not(:disabled),.play-page .vf-buttons button:hover:not(:disabled){transform:none;background:#e7efde;border-color:#869e74;box-shadow:0 3px 12px #1d3a2212}
+.play-page .recognition-choices button .choice-index,.play-page .arcade-choice .choice-index{display:grid;place-items:center;min-width:28px;min-height:28px;padding:4px;border:1px solid #d9e0cf;border-radius:5px;background:#f1f4e9;color:#865336;font-size:10px}
+.play-page .recognition-choices button.is-correct,.play-page .arcade-choice.is-correct,.play-page .vf-buttons button.is-correct{background:#deedd7;border:2px solid #628656;color:#294c29;box-shadow:none}
+.play-page .recognition-choices button.is-wrong,.play-page .arcade-choice.is-wrong,.play-page .vf-buttons button.is-wrong{background:#f3e1d6;border:2px solid #b16a4d;color:#78412c;box-shadow:none}
+.play-page .recognition-form{border-radius:10px;border-color:#c7d5bd;background:#f7f9ef;padding:22px}
+.play-page .recognition-form input{border-radius:6px;min-height:48px;font-size:16px}
+.play-page .recognition-form button{border-radius:6px;min-height:46px;line-height:1.5}
+.play-page .recognition-form label{font-size:23px;line-height:1.4}
+.play-page .answer-panel{border:1px solid #bbcfad;border-left:4px solid #638153;background:#edf4e5;border-radius:11px;padding:28px 30px;box-shadow:0 5px 18px #20332208}
+.play-page .answer-panel.missed{border-color:#d9beaa;border-left-color:#af6b4c;background:#f5ece1}
+.play-page .answer-panel h3{font:600 clamp(27px,3vw,38px)/1.2 var(--serif);letter-spacing:-.02em;margin:12px 0}
+.play-page .answer-panel p{font-size:15px;line-height:1.85;color:#475f40}
+.play-page .answer-panel a{font-size:12px;line-height:1.8;text-underline-offset:4px}
+.play-page .answer-panel .button{padding:14px 22px;min-height:48px;white-space:normal;text-align:center}
+.play-page .map-panel{border-radius:14px;border-color:#ccd8c2;background:#fffef8;box-shadow:0 8px 26px #1f38240c;overflow:hidden}
+.play-page .map-heading-row{padding:25px 28px;gap:20px}
+.play-page .map-heading-row h2{font:600 32px/1.2 var(--serif);letter-spacing:-.02em}
+.play-page .map-actions button{min-height:44px;border-radius:7px;background:#f0f4e8;border-color:#bfceb4;color:#304b33}
+.play-page .map-actions button:hover{background:#344f3a;color:#fffdf2}
+
+/* Zoom, défi quotidien, vrai ou faux et chronologie. */
+.play-page .arcade-board{border-radius:14px;border-color:#ccd8c2;background:#fffef8;padding:26px;box-shadow:0 8px 26px #1f38240c}
+.play-page .arcade-lead{border-color:#d8e1ce;padding:3px 0 19px;font-size:11px;line-height:1.8;gap:14px}
+.play-page .arcade-lead span:last-child{background:#e7efdc;color:#3b5833;padding:5px 11px;border-radius:5px}
+.play-page .arcade-stage{margin-top:22px;box-shadow:none}
+.play-page .arcade-figure{background:#192e25}
+.play-page .arcade-tool-row button,.play-page .chrono-check{border-radius:7px;min-height:48px;padding:13px 20px;line-height:1.6;background:#2b4634}
+.play-page .arcade-tool-row{gap:15px;margin-top:20px}
+.play-page .arcade-tool-row span{font-size:11px;line-height:1.8}
+.play-page .vf-stage,.play-page .vf-stage .arcade-copy{min-height:235px}
+.play-page .vf-stage .arcade-copy{padding:30px 34px;max-width:none}
+.play-page .vf-buttons{gap:14px;margin-top:20px}
+.play-page .vf-buttons button{font:600 26px/1.2 var(--serif);text-transform:none;min-height:70px}
+.play-page .chrono-panel{border:0;padding:24px 0 0;background:transparent}
+.play-page .chrono-panel>p{font-size:14px;line-height:1.8;color:#53694b}
+.play-page .chrono-list{gap:12px}
+.play-page .chrono-row{padding:12px 16px;background:#f0f4e9;border:1px solid #d4dfc9;border-left:3px solid #b47b56;border-radius:8px;gap:16px}
+.play-page .chrono-row strong{font-size:23px;line-height:1.4;text-transform:none}
+.play-page .chrono-controls button{border-radius:7px;background:#fffef8;border-color:#bdcdb1;min-height:44px;min-width:44px}
+.play-page .chrono-thumb{border-radius:5px}
+.play-page .chrono-sources li{border-radius:8px;padding:18px;background:#edf3e5;line-height:1.8}
+.play-page .arcade-end{padding:48px 22px;background:#f4f7ec;border-radius:10px}
+.play-page .arcade-end h2{font-size:clamp(38px,5vw,64px);line-height:1.1;text-transform:none}
+.play-page .arcade-end p{line-height:1.85}
+
+/* Radar : la carte et les couleurs des contacts conservent leur sens. */
+.play-page .radar-intro-card,.play-page .radar-board{border-radius:14px;border-color:#527361;box-shadow:0 12px 32px #1a352218}
+.play-page .radar-intro-card h2{font-size:clamp(36px,4vw,56px);line-height:1.1;text-transform:none;letter-spacing:-.02em}
+.play-page .radar-intro-card p{line-height:1.85}
+.play-page .radar-intro-card li{border-radius:7px;padding:18px 15px;line-height:1.7}
+.play-page .radar-intro-card li strong{font-size:21px;line-height:1.4;text-transform:none}
+.play-page .radar-hud{padding:22px 25px;gap:20px;background:#1b3534;border-radius:14px 14px 0 0}
+.play-page .radar-hud-label{font-size:10px;line-height:1.8;color:#b0ccb8;letter-spacing:.04em}
+.play-page .radar-hud strong{font-size:clamp(23px,2.6vw,32px);line-height:1.2;font-variant-numeric:tabular-nums}
+.play-page .radar-pause{border-radius:7px;padding:12px 17px;line-height:1.5}
+.play-page .radar-panel{padding:24px;gap:18px}
+.play-page .radar-panel-title strong{font-size:23px;line-height:1.3}
+.play-page .radar-contact{padding:13px 15px;border-radius:8px;gap:12px;min-height:68px}
+.play-page .radar-contact strong{font-size:20px;line-height:1.3;text-transform:none}
+.play-page .radar-contact small{font-size:12px;line-height:1.7}
+.play-page .radar-target{border-radius:8px;padding:20px;background:#112f32}
+.play-page .radar-target h2{font-size:28px;line-height:1.2;text-transform:none}
+.play-page .radar-target p{font-size:13px;line-height:1.8}
+.play-page .radar-tools{gap:10px}
+.play-page .radar-tools button{border-radius:8px;padding:13px 15px;min-height:57px;line-height:1.6}
+.play-page .radar-tools button strong{font-size:14px;line-height:1.6}
+.play-page .radar-bottom{padding:24px 26px;gap:22px}
+.play-page .radar-bottom p{line-height:1.8}
+.play-page .radar-bottom ol{line-height:1.8}
+.play-page .radar-end{border-radius:14px;background:#f4f7ee;padding:45px 28px}
+.play-page .radar-end h2{text-transform:none;line-height:1.1}
+
+/* QG : des ressources, commandes et cartes de gestion plus faciles à lire. */
+.play-page .qg-hud{border-radius:12px 12px 0 0;background:#243b2f;border-bottom-color:#b98057}
+.play-page .qg-hud>div{padding:20px 22px;border-color:#8195764d}
+.play-page .qg-hud span{color:#c7d7bb;font-size:10px;line-height:1.8;letter-spacing:.04em}
+.play-page .qg-hud strong{font-size:clamp(22px,2.6vw,31px);line-height:1.25;margin-top:8px;font-variant-numeric:tabular-nums;color:#fffced}
+.play-page .qg-layout{border-color:#c4d2b8;border-radius:0 0 12px 12px;box-shadow:0 8px 24px #1e38240c;background:#fffef8}
+.play-page .qg-command{padding:28px;gap:18px;background:#fffef8;border-radius:0 0 12px 0}
+.play-page .qg-command h2{font-size:30px;line-height:1.2}
+.play-page .qg-command p{line-height:1.8;font-size:13px}
+.play-page .qg-balance{border-radius:8px;padding:18px;background:#edf3e4;border:1px solid #d0ddc1;line-height:1.8}
+.play-page .qg-balance small{line-height:1.8}
+.play-page .qg-map-controls{padding:13px 15px;gap:9px}
+.play-page .qg-map-controls button{border-radius:6px;padding:9px 12px;min-height:44px;font-size:11px;line-height:1.5}
+.play-page .qg-tabs{gap:9px;border-color:#c4d2b8;flex-wrap:wrap}
+.play-page .qg-tabs button{border:1px solid #c4d2b8;border-bottom:3px solid transparent;border-radius:8px 8px 0 0;background:#fffef8;padding:15px 19px;font-size:18px;line-height:1.5}
+.play-page .qg-tabs button[aria-selected=true]{background:#2c4533;color:#fffdef;border-color:#2c4533;border-bottom-color:#c18e65}
+.play-page .qg-tabs button[aria-selected=true] span{color:#d2dfc6}
+.play-page .qg-section-head h2{font-size:31px;line-height:1.3}
+.play-page .qg-section-head p{line-height:1.85;font-size:13px}
+.play-page .qg-cards{gap:20px}
+.play-page .qg-card{padding:24px;border-radius:12px;border-color:#ccd9c0;background:#fffef8;box-shadow:0 5px 18px #1e382408}
+.play-page .qg-card h3{font-size:28px;line-height:1.2;margin:15px 0}
+.play-page .qg-card p{font-size:13px;line-height:1.8}
+.play-page .qg-card .qg-sprite{border-radius:7px;background:#e8eede}
+.play-page .qg-card dl{gap:10px;line-height:1.8;padding:13px 0;border-top:1px solid #e0e7d6;border-bottom:1px solid #e0e7d6}
+.play-page .qg-card select{border-radius:7px;min-height:46px;padding:11px 13px;font-size:13px;background:#f4f7ec;line-height:1.5}
+.play-page .qg-card button,.play-page .qg-team button{border-radius:7px;min-height:46px;padding:13px 15px;line-height:1.6}
+.play-page .qg-team>div,.play-page .qg-objectives,.play-page .qg-tutorial-invite,.play-page .qg-consequence,.play-page .qg-finance{border-radius:10px;border-color:#c9d6bd}
+.play-page .qg-priority,.play-page .qg-project,.play-page .qg-milestone{border-radius:10px}
+.play-page .qg-end{border-radius:12px;background:#edf3e3;padding:30px}
+.play-page .qg-end p{line-height:1.85}
+.play-page .qg-log li{padding:17px 18px;line-height:1.8}
+.play-page .qg-log li:first-child{border-radius:8px;background:#fffef8}
+
+@media(max-width:900px){
+ .play-page .recognition-copy,.play-page .challenge-copy,.play-page .arcade-copy{padding:26px}
+ .play-page .radar-panel{padding:20px}
+ .play-page .qg-command{padding:23px}
+ .play-page .qg-hud>div{padding:17px}
+}
+@media(max-width:760px){
+ .play-page .game-intro .wrap,.play-page[data-game=qg] .game-intro .wrap{padding-top:25px;padding-bottom:18px}
+ .play-page .game-intro h1,.play-page[data-game=qg] .game-intro h1{font-size:clamp(33px,8vw,48px);margin:14px 0}
+ .play-page .game-intro p,.play-page[data-game=qg] .game-intro p{font-size:13px;line-height:1.8;margin-bottom:18px}
+ .play-page .playbar{gap:12px}
+ .play-page .game-status>span{padding:13px 12px;font-size:10px;line-height:1.7}
+ .play-page .recognition-photo,.play-page .challenge-photo{height:290px;min-height:0}
+ .play-page .recognition-copy,.play-page .challenge-copy,.play-page .arcade-copy{padding:25px 23px}
+ .play-page .recognition-copy h2,.play-page .challenge-copy h2,.play-page .arcade-copy h2{font-size:31px}
+ .play-page .recognition-copy>p:not(.game-feedback),.play-page .challenge-copy>p:not(.game-feedback),.play-page .arcade-copy p{font-size:14px}
+ .play-page .recognition-choices button,.play-page .arcade-choice{padding:16px;min-height:65px;font-size:14px}
+ .play-page .answer-panel{padding:24px 22px;gap:22px}
+ .play-page .answer-panel p{font-size:14px;line-height:1.85}
+ .play-page .map-heading-row{padding:23px;align-items:flex-start;flex-wrap:wrap}
+ .play-page .arcade-board{padding:20px}
+ .play-page .vf-stage,.play-page .vf-stage .arcade-copy{min-height:210px}
+ .play-page .vf-stage .arcade-copy{padding:25px}
+ .play-page .chrono-row{padding:12px;gap:12px}
+ .play-page .radar-hud{padding:20px;gap:16px}
+ .play-page .radar-hud strong{font-size:24px}
+ .play-page .radar-panel{padding:20px;gap:16px}
+ .play-page .radar-tools button{padding:12px;min-height:54px}
+ .play-page .qg-hud>div{padding:15px 12px}
+ .play-page .qg-hud strong{font-size:23px}
+ .play-page .qg-command{padding:23px;border-radius:0 0 12px 12px}
+ .play-page .qg-tabs{gap:7px}.play-page .qg-tabs button{font-size:16px;padding:12px 14px}
+ .play-page .qg-card{padding:23px}.play-page .qg-card h3{font-size:26px}
+}
+@media(max-width:480px){
+ .play-page .game-status{grid-template-columns:1fr;gap:0}
+ .play-page .game-status>span{padding:10px 15px;font-size:11px}
+ .play-page .game-status>span+span{border-left:0;border-top:1px solid #d1ddc5}
+ .play-page .recognition-photo,.play-page .challenge-photo{height:260px}
+ .play-page .recognition-copy,.play-page .challenge-copy{padding:23px 20px}
+ .play-page .arcade-board{padding:16px}
+ .play-page .arcade-choice-grid{grid-template-columns:1fr}
+ .play-page .vf-buttons button{font-size:24px;padding:14px;min-height:65px}
+ .play-page .chrono-row strong{font-size:21px}
+ .play-page .radar-panel{padding:17px}.play-page .radar-bottom{padding:20px}
+ .play-page .qg-hud strong{font-size:21px}.play-page .qg-command{padding:21px}
+ .play-page .qg-map-controls button{padding:9px 10px}
+}
+@media(prefers-reduced-motion:reduce){
+ .play-page .recognition-choices button,.play-page .arcade-choice,.play-page .vf-buttons button{transition:none}
+}
