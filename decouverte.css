@@ -241,3 +241,16 @@ body:has(.discovery-article) .discovery-hero p{font-size:15px;line-height:1.85;m
 .discovery-main .learning-live-coverage summary{cursor:pointer}
 .discovery-main .learning-live .learning-live-warning{padding:12px;border:1px solid #b69052;background:#fff7e7;font-size:14px}
 @media(max-width:600px){.discovery-main .learning-live{padding:22px 18px}.discovery-main .learning-live-list a{font-size:16px}}
+
+/* Le texte des événements récents passe avant les liens complémentaires. */
+.discovery-main .learning-digest{margin:34px 0;scroll-margin-top:30px}
+.discovery-main .learning-digest .learning-digest-date{font-size:12px;color:#52684b;line-height:1.8;margin-bottom:14px}
+.discovery-main .learning-digest .learning-digest-method{font-size:14px;color:#52684b;line-height:1.85;padding-left:17px;border-left:3px solid #bbccaf}
+.discovery-main .learning-digest .learning-digest-paragraph{font-size:17px;line-height:1.95;margin:24px 0}
+.discovery-main .learning-digest-paragraph q{quotes:'« ' ' »' '“' '”'}
+.discovery-main .learning-digest-paragraph a{text-underline-offset:4px;font-weight:650}
+.discovery-main .learning-digest .learning-digest-notice{font-size:13px;line-height:1.8;color:#6d5a32;background:#fbf5e7;padding:14px 17px;border-radius:6px}
+.discovery-main .learning-live-fold{margin:26px 0 36px;border:1px solid #cbd8c2;border-radius:8px;padding:16px 20px;background:#f1f5eb}
+.discovery-main .learning-live-fold>summary{cursor:pointer;line-height:1.7;font-weight:650}
+.discovery-main .learning-live-fold .learning-live{border:0;margin:18px 0 0;padding:10px 0}
+@media(max-width:600px){.discovery-main .learning-digest .learning-digest-paragraph{font-size:16px}.discovery-main .learning-live-fold{padding:15px 16px}}
