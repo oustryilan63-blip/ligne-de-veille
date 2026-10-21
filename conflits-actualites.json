@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-21T17:20:22.905271+00:00",
+  "checkedAt": "2026-10-21T17:58:07.656296+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,9 +10,11 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 11,
+    "ok": 10,
     "total": 11,
-    "unavailable": []
+    "unavailable": [
+      "Naval News"
+    ]
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -53,9 +55,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-21T17:39:56.447193+00:00",
-        "updatedAt": "2026-10-21T17:38:30.764645+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-10-21T17:58:10.428541+00:00",
+        "updatedAt": "2026-10-21T17:58:10.428541+00:00",
+        "status": "updated",
         "paragraphs": [
           {
             "title": "Rencontre Witkoff - Poutine : envoi de la première cargaison de diesel russe vers les États-Unis",
@@ -64,14 +66,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/vid%C3%A9o/20261021-rencontre-witkoff-poutine-envoi-de-la-premi%C3%A8re-cargaison-de-diesel-russe-vers-les-%C3%A9tats-unis",
             "publishedAt": "2026-10-21T13:41:52+00:00"
-          },
-          {
-            "title": "Ukraine : à l’approche de l’hiver, des millions de déplacés risquent de devoir fuir à nouveau",
-            "text": "Après avoir fui les combats, près de 3,8 millions d’Ukrainiens ont regagné leur domicile depuis le début de l’invasion russe.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/10/1159677",
-            "publishedAt": "2026-10-16T12:00:00+00:00"
           }
         ],
         "sources": [
@@ -108,7 +102,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-21T17:39:56.447193+00:00",
+        "checkedAt": "2026-10-21T17:58:10.428541+00:00",
         "updatedAt": "2026-10-21T17:38:30.764645+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -179,9 +173,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-21T17:39:56.447193+00:00",
-        "updatedAt": "2026-10-21T17:38:30.764645+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-10-21T17:58:10.428541+00:00",
+        "updatedAt": "2026-10-21T17:58:10.428541+00:00",
+        "status": "updated",
         "paragraphs": [
           {
             "title": "Arabie saoudite : Emmanuel Macron à Riyad dans la dernière étape de sa tournée dans le Golfe",
@@ -198,14 +192,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/%C3%A9missions/les-observateurs/20261021-cessez-feu-gaza-corps-decombres-morts-gravats",
             "publishedAt": "2026-10-21T15:32:49+00:00"
-          },
-          {
-            "title": "Yémen : Taëz encerclée, l’ONU craint une catastrophe humanitaire",
-            "text": "L’encerclement de Taëz par les rebelles houthis entrave l’acheminement de l’aide et aggrave une crise déjà marquée par la faim, les pénuries d’eau…",
-            "truncated": true,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/10/1159691",
-            "publishedAt": "2026-10-20T12:00:00+00:00"
           }
         ],
         "sources": [

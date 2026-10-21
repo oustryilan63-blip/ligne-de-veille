@@ -7205,7 +7205,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-10-21T17:20:29.682825+00:00"
     }
   ],
-  "checkedAt": "2026-10-21T17:20:22.905271+00:00",
+  "checkedAt": "2026-10-21T17:58:07.656296+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -7265,9 +7265,9 @@ window.LDV_NEWS = {
       },
       {
         "source": "Naval News",
-        "ok": true,
-        "recentItems": 10,
-        "error": null
+        "ok": false,
+        "recentItems": 0,
+        "error": "HTTP Error 503: Service Temporarily Unavailable"
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
@@ -7282,7 +7282,7 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 6,
+    "newItems": 0,
     "articleImages": 185,
     "duplicateHeadlinesSkipped": 0
   }
