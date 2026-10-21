@@ -216,3 +216,7 @@ body:has(.discovery-article) .discovery-hero p{font-size:15px;line-height:1.85;m
 }
 .discovery-main .discovery-card[hidden],.discovery-main .learning-filters[hidden],.discovery-main .learning-quiz-form[hidden],.discovery-main .learning-quiz-feedback[hidden],.discovery-main .learning-glossary details[hidden]{display:none}
 @media(prefers-reduced-motion:reduce){.discovery-main .discovery-card{transition:none}}
+
+/* Photographies des dossiers Comprendre. */
+.discovery-main .learning-photo img{display:block;width:100%;height:auto;max-height:440px;object-fit:contain;background:#e5ecdc}
+.discovery-main .learning-photo-caption{display:block;font-size:13px;line-height:1.75;color:#37503a;margin-bottom:7px}
