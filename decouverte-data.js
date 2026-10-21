@@ -852,3 +852,675 @@ window.RADAR_DISCOVERY_CONTENT={
   }
 ]);
 })();
+
+/* Géopolitique : quatre dossiers documentés — 21 octobre 2026. */
+(() => {
+  window.RADAR_DISCOVERY_CONTENT.guides.unshift(...[
+  {
+    "slug": "onu-maintien-paix",
+    "title": "ONU, veto, Casques bleus : qui peut agir ?",
+    "theme": "DIPLOMATIE ET SÉCURITÉ",
+    "categories": [
+      "geopolitique"
+    ],
+    "level": "Découverte",
+    "fresh": true,
+    "checkedAt": "2026-10-21",
+    "engins": [],
+    "visual": "",
+    "description": "Comprendre le Conseil de sécurité, les limites du veto et le rôle des opérations de paix, de la naissance de l’ONU à la crise de Suez.",
+    "takeaway": "Une décision diplomatique, un mandat et un déploiement sont des étapes différentes. Les Casques bleus agissent dans un cadre défini avec des moyens fournis par les États.",
+    "sources": [
+      {
+        "label": "Nations unies — la création de l’Organisation en 1945",
+        "url": "https://www.un.org/en/about-us/history-of-the-un"
+      },
+      {
+        "label": "Conseil de sécurité — règles de vote et droit de veto",
+        "url": "https://main.un.org/securitycouncil/en/content/voting-system"
+      },
+      {
+        "label": "ONU — les principes des opérations de maintien de la paix",
+        "url": "https://peacekeeping.un.org/en/node/132245"
+      },
+      {
+        "label": "ONU — comment se déploient les opérations de paix",
+        "url": "https://peacekeeping.un.org/en/deploying-peacekeepers"
+      },
+      {
+        "label": "ONU — histoire du maintien de la paix depuis 1948",
+        "url": "https://peacekeeping.un.org/en/our-history"
+      },
+      {
+        "label": "Archives de l’ONU — la première Force d’urgence et la crise de Suez",
+        "url": "https://peacekeeping.un.org/sites/default/files/past/unef1backgr1.html"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Un conseil où les États doivent s’entendre",
+        "text": "Le Conseil de sécurité compte quinze membres, dont cinq permanents : Chine, États-Unis, France, Royaume-Uni et Russie. Ses règles de vote donnent un poids particulier à ces derniers. Sur les questions de fond, un projet doit réunir au moins neuf voix favorables et peut être bloqué par le vote négatif d’un membre permanent. Cette organisation explique qu’une majorité de soutiens ne suffise pas toujours. L’ONU repose sur une coopération entre États dont les intérêts et les appréciations d’une crise peuvent diverger.",
+        "sources": [
+          1
+        ]
+      },
+      {
+        "title": "Veto et abstention ne produisent pas le même effet",
+        "text": "Le veto ne s’applique pas de la même façon aux questions de procédure. Autre distinction essentielle : l’abstention d’un membre permanent n’équivaut pas à un veto et peut laisser adopter un texte qui réunit les voix nécessaires. Quand une actualité annonce un vote « bloqué », il faut donc regarder le projet, la nature de la décision et le détail des votes. Le nombre de délégations présentes dans une salle ou une déclaration générale ne remplacent pas le résultat officiel du scrutin.",
+        "sources": [
+          1
+        ]
+      },
+      {
+        "title": "Les Casques bleus ont besoin d’un mandat et de moyens",
+        "text": "L’ONU ne dispose pas d’une armée permanente qu’elle pourrait envoyer immédiatement après chaque déclaration. Les États contribuent aux personnels militaires et policiers des missions. La préparation d’un déploiement demande donc des moyens, un encadrement et une organisation sur le terrain. Un mandat fixe les tâches de l’opération ; sa réalisation dépend ensuite des ressources effectivement réunies. Cette distinction permet de comprendre pourquoi la création d’une mission et son plein déploiement ne constituent pas un seul événement instantané.",
+        "sources": [
+          3
+        ]
+      },
+      {
+        "title": "Maintenir la paix comporte plusieurs missions",
+        "text": "Les opérations de paix peuvent contribuer à la protection des civils, soutenir un processus politique ou accompagner des institutions, selon leur mandat. Elles suivent trois principes : consentement des parties, impartialité et recours à la force limité à la légitime défense et à la défense du mandat. Ces principes ne signifient pas que chaque opération possède les mêmes moyens ou rencontre les mêmes conditions. Pour comprendre une mission précise, il faut lire son mandat et son contexte plutôt que déduire son action du seul casque bleu.",
+        "sources": [
+          2
+        ]
+      }
+    ],
+    "history": {
+      "title": "De 1945 aux premières opérations de paix",
+      "paragraphs": [
+        {
+          "text": "L’ONU naît après les destructions de la Seconde Guerre mondiale. Des représentants se réunissent à San Francisco pour élaborer sa Charte, signée le 26 juin 1945. L’Organisation commence officiellement à exister le 24 octobre, lorsque les conditions de ratification sont réunies. La signature et l’entrée en vigueur ne sont donc pas la même date. Le projet associe un cadre de discussion entre États à l’ambition d’éviter une nouvelle guerre mondiale ; il dépend cependant de leur coopération concrète.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "text": "Le maintien de la paix se construit ensuite par étapes. En 1948, l’ONU envoie des observateurs militaires au Moyen-Orient. En 1956, pendant la crise de Suez, la première Force d’urgence des Nations unies devient une opération armée de maintien de la paix, avec le consentement du pays d’accueil. Les archives montrent un dispositif conçu dans une situation politique particulière. Les observateurs, les contingents et les missions contemporaines s’inscrivent dans cette histoire d’adaptation : le terme « Casques bleus » rassemble des fonctions et des parcours qui ne sont pas tous identiques.",
+          "sources": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "date": "24 octobre 1945",
+        "title": "Naissance officielle de l’ONU",
+        "text": "La Charte entre en vigueur après sa signature en juin.",
+        "source": 0
+      },
+      {
+        "date": "1948",
+        "title": "Les premiers observateurs",
+        "text": "Le maintien de la paix commence avec une mission au Moyen-Orient.",
+        "source": 4
+      },
+      {
+        "date": "1956",
+        "title": "La première Force d’urgence",
+        "text": "La crise de Suez conduit à une opération armée de maintien de la paix.",
+        "source": 5
+      }
+    ],
+    "diagram": [
+      [
+        "Décider",
+        "Lire le vote et le texte adopté."
+      ],
+      [
+        "Mandater",
+        "Définir les tâches d’une opération."
+      ],
+      [
+        "Déployer",
+        "Réunir les personnels et les moyens nécessaires."
+      ]
+    ],
+    "quiz": [
+      {
+        "question": "L’abstention d’un membre permanent est-elle automatiquement un veto ?",
+        "choices": [
+          "Oui",
+          "Non",
+          "Seulement en décembre"
+        ],
+        "answer": 1,
+        "explanation": "L’abstention peut laisser adopter un projet réunissant les voix requises ; le veto correspond à un vote négatif sur une question de fond."
+      },
+      {
+        "question": "Les personnels militaires des missions proviennent principalement…",
+        "choices": [
+          "D’une armée permanente propre à l’ONU",
+          "D’entreprises choisies par les visiteurs",
+          "Des contributions des États"
+        ],
+        "answer": 2,
+        "explanation": "Les États fournissent les contingents : l’ONU ne possède pas une armée permanente disponible pour chaque mission."
+      },
+      {
+        "question": "Pour savoir ce qu’une mission peut faire, que faut-il lire ?",
+        "choices": [
+          "Son mandat et son contexte",
+          "Seulement son nom",
+          "La couleur des véhicules"
+        ],
+        "answer": 0,
+        "explanation": "Le mandat définit les tâches ; les moyens et les conditions sur le terrain influencent ensuite leur réalisation."
+      }
+    ],
+    "photo": {
+      "src": "assets/comprendre/onu-new-york.jpg",
+      "author": "Valarie",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "alt": "Des drapeaux devant le siège des Nations unies à New York.",
+      "caption": "Les drapeaux devant le siège des Nations unies à New York, photographiés en 2007.",
+      "source": "https://commons.wikimedia.org/wiki/File:UNflags.jpg",
+      "height": 960,
+      "width": 1280
+    }
+  },
+  {
+    "slug": "dissuasion-nucleaire",
+    "title": "La dissuasion nucléaire : comprendre la logique et ses limites",
+    "theme": "PUISSANCE ET STRATÉGIE",
+    "categories": [
+      "geopolitique",
+      "technologies"
+    ],
+    "level": "Découverte",
+    "fresh": true,
+    "checkedAt": "2026-10-21",
+    "engins": [
+      145
+    ],
+    "visual": "",
+    "description": "Pourquoi des États entretiennent-ils des forces nucléaires ? Distinguer doctrine, moyens, risques et non-prolifération, avec les repères de 1962 à 2026.",
+    "takeaway": "La dissuasion cherche à influer sur la décision d’un adversaire par la perspective des conséquences. Une doctrine est une position officielle, dont l’efficacité et les risques doivent être discutés.",
+    "sources": [
+      {
+        "label": "OTAN — politique et forces de dissuasion nucléaire, mise à jour en septembre 2026",
+        "url": "https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-nuclear-deterrence-policy-and-forces."
+      },
+      {
+        "label": "Élysée — discours sur la dissuasion à l’Île Longue, 2 mars 2026",
+        "url": "https://www.elysee.fr/emmanuel-macron/2026/03/02/deplacement-sur-la-base-operationnelle-de-lile-longue"
+      },
+      {
+        "label": "Nations unies — désarmement et traité de non-prolifération",
+        "url": "https://www.un.org/en/peaceandsecurity/what-nuclear-disarmament"
+      },
+      {
+        "label": "Département d’État américain, archives historiques — la crise de Cuba",
+        "url": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis"
+      },
+      {
+        "label": "Recueil des traités de l’ONU — entrée en vigueur du TNP",
+        "url": "https://treaties.un.org/pages/showDetails.aspx?objid=08000002801d56c5"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Agir sur le calcul d’un adversaire",
+        "text": "La dissuasion cherche à empêcher une action en faisant anticiper des conséquences jugées inacceptables. L’OTAN présente sa capacité nucléaire comme un moyen de décourager l’agression et la coercition. Il s’agit d’un objectif politique déclaré : cette présentation ne démontre pas, à elle seule, qu’aucune crise ou erreur ne pourrait survenir. Pour comprendre un discours, il faut distinguer l’effet recherché, les moyens qui le soutiennent et l’interprétation possible par les autres acteurs. La relation entre ces éléments constitue le cœur du sujet.",
+        "sources": [
+          0
+        ]
+      },
+      {
+        "title": "Une doctrine exprime des choix politiques",
+        "text": "Une doctrine explique comment un État présente le rôle de ses forces. Le 2 mars 2026, le président français réaffirme à l’Île Longue la protection des intérêts vitaux, le caractère défensif de la doctrine et la responsabilité nationale de la décision ultime. Il expose aussi une démarche de « dissuasion avancée » avec des partenaires européens. Ces affirmations doivent être attribuées à leur auteur et datées. Elles ne se confondent pas avec un accord donnant automatiquement à chaque partenaire le pouvoir de décider d’un emploi nucléaire.",
+        "sources": [
+          1
+        ]
+      },
+      {
+        "title": "Les équipements ne racontent qu’une partie de l’histoire",
+        "text": "Les politiques nucléaires font intervenir des forces, des infrastructures, des responsabilités et des relations entre alliés. La photographie d’un sous-marin ou d’un avion montre un moyen matériel ; elle ne suffit pas à établir sa mission exacte à cet instant, ni une décision politique. L’OTAN distingue notamment les contributions des États et les forces stratégiques nationales. Pour lire une annonce, commence par identifier l’acteur qui s’exprime et le cadre concerné : un programme de matériel, une politique nationale et une position de l’Alliance ne sont pas des objets identiques.",
+        "sources": [
+          0
+        ]
+      },
+      {
+        "title": "Dissuasion, non-prolifération et désarmement",
+        "text": "La non-prolifération vise à empêcher la diffusion des armes nucléaires ; le désarmement porte sur leur réduction et leur élimination. Les Nations unies rappellent que le TNP associe ces objectifs aux usages pacifiques de l’énergie nucléaire. Ces notions peuvent donc apparaître dans un même débat sans désigner la même chose. Les risques de guerre nucléaire et les conséquences d’un emploi font partie de la discussion internationale. Comprendre une doctrine demande aussi de regarder les engagements diplomatiques et les arguments qui la contestent, sans transformer une position officielle en certitude universelle.",
+        "sources": [
+          2
+        ]
+      }
+    ],
+    "history": {
+      "title": "La crise de Cuba et le cadre de non-prolifération",
+      "paragraphs": [
+        {
+          "text": "En octobre 1962, le déploiement de missiles soviétiques à Cuba provoque une confrontation majeure avec les États-Unis. Les archives du Département d’État décrivent des calculs, des erreurs d’appréciation et des communications publiques ou secrètes. L’issue associe le retrait des missiles soviétiques de Cuba, un engagement américain de ne pas envahir l’île et un arrangement confidentiel concernant les missiles américains en Turquie. Cet épisode rappelle que la compréhension des intentions, la négociation et les risques d’escalade appartiennent pleinement à l’histoire nucléaire.",
+          "sources": [
+            3
+          ]
+        },
+        {
+          "text": "Le traité de non-prolifération entre en vigueur le 5 mars 1970. Il est prolongé pour une durée indéfinie en 1995. Cette histoire diplomatique se déroule parallèlement à celle des arsenaux et des doctrines. Les annonces françaises de mars 2026 appartiennent ainsi à un débat toujours évolutif sur la sécurité européenne. Le dossier en donne des repères datés, sans établir de classement des arsenaux ni présenter la stabilité comme un résultat mécanique. Les positions des gouvernements et les objectifs du désarmement doivent être lus ensemble pour comprendre les tensions du sujet.",
+          "sources": [
+            2,
+            4,
+            1
+          ]
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "date": "Octobre 1962",
+        "title": "La crise de Cuba",
+        "text": "Une confrontation majeure mêle menace nucléaire, communications et négociations.",
+        "source": 3
+      },
+      {
+        "date": "5 mars 1970",
+        "title": "Entrée en vigueur du TNP",
+        "text": "Un cadre international de non-prolifération, de désarmement et d’usages pacifiques.",
+        "source": 4
+      },
+      {
+        "date": "2 mars 2026",
+        "title": "Discours français à l’Île Longue",
+        "text": "La présidence expose la démarche de dissuasion avancée et ses limites décisionnelles.",
+        "source": 1
+      }
+    ],
+    "diagram": [
+      [
+        "Doctrine",
+        "La position politique officiellement présentée."
+      ],
+      [
+        "Moyens",
+        "Les forces et l’organisation qui la soutiennent."
+      ],
+      [
+        "Diplomatie",
+        "Les engagements, les négociations et les perceptions."
+      ]
+    ],
+    "quiz": [
+      {
+        "question": "Une doctrine nucléaire est avant tout…",
+        "choices": [
+          "Un classement de vitesse",
+          "Une position politique sur le rôle des forces",
+          "Un type de propulsion"
+        ],
+        "answer": 1,
+        "explanation": "La doctrine expose des objectifs et des choix ; elle ne se résume pas aux caractéristiques techniques d’un missile."
+      },
+      {
+        "question": "La non-prolifération vise notamment à…",
+        "choices": [
+          "Empêcher la diffusion des armes nucléaires",
+          "Accélérer tous les programmes nucléaires militaires",
+          "Supprimer tout usage médical du nucléaire"
+        ],
+        "answer": 0,
+        "explanation": "La non-prolifération concerne la diffusion des armes ; le TNP traite aussi des usages pacifiques et du désarmement."
+      },
+      {
+        "question": "La crise de Cuba montre-t-elle une absence de risques dès que la dissuasion existe ?",
+        "choices": [
+          "Oui",
+          "Oui, si les dirigeants communiquent",
+          "Non, elle illustre aussi les risques d’escalade"
+        ],
+        "answer": 2,
+        "explanation": "Les archives décrivent des erreurs d’appréciation et des négociations : l’existence d’armes nucléaires n’efface pas le risque de crise."
+      }
+    ],
+    "photo": {
+      "src": "assets/histoire/photos/145-1.webp",
+      "alt": "Le sous-marin américain USS Michigan dans un bassin de maintenance à Bangor en 2002.",
+      "caption": "L’USS Michigan (SSBN-727) à Bangor, en 2002. Cette vue illustre sa configuration historique de sous-marin lanceur d’engins.",
+      "author": "U.S. Navy photo by Brian Nokell. (RELEASED)",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Michigan_(SSBN-727).jpg",
+      "width": 960,
+      "height": 626
+    }
+  },
+  {
+    "slug": "espaces-maritimes-zee",
+    "title": "À qui appartient la mer ? Comprendre les ZEE",
+    "theme": "FRONTIÈRES ET RESSOURCES",
+    "categories": [
+      "geopolitique",
+      "mer"
+    ],
+    "level": "Découverte",
+    "fresh": true,
+    "checkedAt": "2026-10-21",
+    "engins": [],
+    "visual": "",
+    "description": "Mer territoriale, zone économique exclusive, lignes de base : des repères pour comprendre les cartes maritimes et les enjeux de ressources.",
+    "takeaway": "La mer territoriale et la ZEE relèvent de régimes différents. Une ZEE donne des droits sur certaines activités et ressources, tout en conservant des libertés pour les autres États.",
+    "sources": [
+      {
+        "label": "Shom — comprendre les délimitations et les lignes de base",
+        "url": "https://www.shom.fr/en/node/394"
+      },
+      {
+        "label": "Convention des Nations unies sur le droit de la mer — partie V, articles 55 à 75",
+        "url": "https://www.un.org/depts/los/convention_agreements/texts/unclos/part5.htm"
+      },
+      {
+        "label": "Limites maritimes, portail national — espaces maritimes français et accords",
+        "url": "https://limitesmaritimes.gouv.fr/thematiques/espaces-maritimes-francais"
+      },
+      {
+        "label": "Nations unies — histoire de la négociation de la Convention",
+        "url": "https://www.un.org/depts/los/convention_agreements/convention_historical_perspective.htm"
+      },
+      {
+        "label": "Recueil des traités de l’ONU — Convention de 1982 et entrée en vigueur en 1994",
+        "url": "https://treaties-prod.un.org/Pages/showDetails.aspx?clang=_en&objid=0800000280043ad5"
+      }
+    ],
+    "sections": [
+      {
+        "title": "On commence par les lignes de base",
+        "text": "Les distances des espaces maritimes se mesurent à partir de lignes de base définies selon les règles applicables, et non depuis n’importe quel point choisi sur une plage. Le Shom distingue les espaces de souveraineté et les espaces où l’État exerce certains droits ou compétences. La mer territoriale peut s’étendre jusqu’à douze milles marins, soit environ vingt-deux kilomètres. Cette première distinction aide à lire les cartes : une côte visible et une limite juridique ne sont pas toujours représentées par le même trait.",
+        "sources": [
+          0
+        ]
+      },
+      {
+        "title": "La ZEE porte sur des droits déterminés",
+        "text": "La zone économique exclusive se situe au-delà de la mer territoriale et lui est adjacente. Elle ne peut dépasser deux cents milles marins depuis les lignes de base, soit environ trois cent soixante-dix kilomètres. L’État côtier y dispose notamment de droits souverains sur l’exploration, l’exploitation, la conservation et la gestion des ressources. La Convention prévoit aussi des compétences concernant certaines installations, la recherche scientifique marine et la protection du milieu. Parler de droits souverains sur ces activités est plus précis que présenter toute la ZEE comme un territoire national.",
+        "sources": [
+          1,
+          0
+        ]
+      },
+      {
+        "title": "Une zone économique n’efface pas la navigation",
+        "text": "La Convention maintient dans la ZEE des libertés pour les autres États, notamment la navigation, le survol et la pose de câbles sous-marins, dans le respect du régime applicable. Une activité économique, une traversée et une opération de recherche ne posent donc pas automatiquement la même question juridique. Pour comprendre un différend, identifie l’espace concerné puis l’activité discutée. Le simple fait qu’un navire se trouve dans une ZEE ne permet pas de conclure que toute présence étrangère y serait interdite.",
+        "sources": [
+          1
+        ]
+      },
+      {
+        "title": "Les frontières ne sont pas de simples cercles",
+        "text": "Deux cents milles représentent une limite maximale, pas une surface garantie autour de chaque côte. Les espaces des États voisins peuvent se rencontrer et leur délimitation relève d’accords ou de procédures adaptées. Le portail national français distingue les limites extérieures, les lignes de base et les limites issues d’accords avec d’autres États. Une carte sérieuse doit donc préciser ce qu’elle représente et sa date. Elle peut montrer une frontière convenue ou une revendication, deux informations dont la portée n’est pas identique.",
+        "sources": [
+          2
+        ]
+      }
+    ],
+    "history": {
+      "title": "Des usages concurrents à une convention mondiale",
+      "paragraphs": [
+        {
+          "text": "L’histoire présentée par les Nations unies décrit une tension ancienne entre liberté des mers et extension des droits des États côtiers. Les ressources, la pêche et les progrès des techniques donnent une importance croissante aux espaces marins. La troisième Conférence des Nations unies sur le droit de la mer commence en 1973. Ses négociations rassemblent des intérêts différents : accès aux ressources, circulation, protection du milieu et situation des États côtiers ou sans littoral. Le compromis se construit donc autour de plusieurs usages, plutôt qu’autour d’une seule frontière.",
+          "sources": [
+            3
+          ]
+        },
+        {
+          "text": "La Convention est ouverte à la signature à Montego Bay le 10 décembre 1982 ; elle entre en vigueur le 16 novembre 1994. Ces deux dates permettent de distinguer l’adoption d’un cadre et son application comme traité en vigueur. Les délimitations concrètes continuent ensuite de demander des données, des textes et des accords. En France, le Shom contribue à ce travail technique. Une photographie de littoral aide à situer le sujet, mais elle ne dessine pas une frontière : les sources cartographiques et les actes officiels apportent cette information.",
+          "sources": [
+            4,
+            0,
+            2
+          ]
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "date": "1973",
+        "title": "Début d’une grande négociation",
+        "text": "La troisième Conférence des Nations unies sur le droit de la mer commence.",
+        "source": 3
+      },
+      {
+        "date": "10 décembre 1982",
+        "title": "Ouverture à la signature",
+        "text": "La Convention est ouverte à la signature à Montego Bay.",
+        "source": 4
+      },
+      {
+        "date": "16 novembre 1994",
+        "title": "Entrée en vigueur",
+        "text": "La Convention entre en vigueur après les ratifications nécessaires.",
+        "source": 4
+      }
+    ],
+    "diagram": [
+      [
+        "Mer territoriale",
+        "Un espace de souveraineté, avec son régime de passage."
+      ],
+      [
+        "ZEE",
+        "Des droits et compétences sur certaines activités."
+      ],
+      [
+        "Délimitation",
+        "Une limite à vérifier dans les textes et les cartes."
+      ]
+    ],
+    "quiz": [
+      {
+        "question": "Les deux cents milles de la ZEE se mesurent depuis…",
+        "choices": [
+          "Le centre du pays",
+          "Les lignes de base applicables",
+          "Le navire le plus proche"
+        ],
+        "answer": 1,
+        "explanation": "Les distances sont mesurées depuis les lignes de base utilisées pour la mer territoriale, selon les règles applicables."
+      },
+      {
+        "question": "La ZEE interdit-elle automatiquement toute navigation étrangère ?",
+        "choices": [
+          "Oui",
+          "Seulement en hiver",
+          "Non"
+        ],
+        "answer": 2,
+        "explanation": "La Convention maintient notamment la liberté de navigation dans la ZEE, sous réserve de son régime juridique."
+      },
+      {
+        "question": "Une carte de revendications représente-t-elle forcément des frontières convenues ?",
+        "choices": [
+          "Non",
+          "Oui, dès qu’elle est en couleur",
+          "Oui, si elle est récente"
+        ],
+        "answer": 0,
+        "explanation": "Une revendication et une délimitation convenue sont différentes : il faut vérifier la légende, la date et les textes associés."
+      }
+    ],
+    "photo": {
+      "src": "assets/comprendre/cap-frehel.jpg",
+      "author": "Clemflippy",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "Les falaises du cap Fréhel et la mer, vues depuis les airs.",
+      "caption": "Le cap Fréhel, en Bretagne, vu du ciel en 2018. Le littoral est le point de départ de la lecture des espaces maritimes.",
+      "source": "https://commons.wikimedia.org/wiki/File:Cap_Frehel_Aerien.jpg",
+      "height": 960,
+      "width": 1280
+    }
+  },
+  {
+    "slug": "arctique-enjeux",
+    "title": "Pourquoi l’Arctique attire-t-il autant l’attention ?",
+    "theme": "CLIMAT ET RIVALITÉS",
+    "categories": [
+      "geopolitique",
+      "mer"
+    ],
+    "level": "Découverte",
+    "fresh": true,
+    "checkedAt": "2026-10-21",
+    "engins": [],
+    "visual": "",
+    "description": "Routes maritimes, populations, climat et coopération : comprendre une région habitée dont les transformations dépassent la seule question militaire.",
+    "takeaway": "L’Arctique est à la fois une région habitée, un milieu fragile et un espace de circulation. La réduction de la glace ne supprime ni les risques de navigation ni les questions de droit.",
+    "sources": [
+      {
+        "label": "Conseil de l’Arctique — les huit États arctiques",
+        "url": "https://www.arcticcouncil.org/about/states/"
+      },
+      {
+        "label": "NOAA — cartographier les eaux arctiques et sécuriser la navigation",
+        "url": "https://www.noaa.gov/explainers/arctic-charting-mapping-new-frontier"
+      },
+      {
+        "label": "Conseil de l’Arctique — les populations et leurs savoirs",
+        "url": "https://www.arcticcouncil.org/explore/topics/arctic-peoples/"
+      },
+      {
+        "label": "Conseil de l’Arctique — organisation, histoire et limites du mandat",
+        "url": "https://www.arcticcouncil.org/about/"
+      },
+      {
+        "label": "Organisation maritime internationale — le Code polaire",
+        "url": "https://www.imo.org/en/ourwork/safety/pages/polar-code.aspx"
+      },
+      {
+        "label": "NOAA Arctic Report Card — suivi du trafic maritime, étude de 2022",
+        "url": "https://arctic.noaa.gov/report-card/report-card-2022/satellite-record-of-pan-arctic-maritime-ship-traffic/"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Une région qui relie plusieurs espaces",
+        "text": "L’Arctique est organisé autour d’un océan entouré de terres. Huit États ont des territoires dans la région : Canada, Danemark, États-Unis, Finlande, Islande, Norvège, Russie et Suède. Cette catégorie ne signifie pas que chacun possède une côte sur l’océan Arctique. Les distances, les accès et les juridictions diffèrent selon les lieux. Une lecture géopolitique commence donc par la carte et les acteurs concernés. L’Arctique ne forme pas un bloc homogène que l’on pourrait résumer à un seul pays, un seul passage ou une frontière circulaire.",
+        "sources": [
+          0,
+          4
+        ]
+      },
+      {
+        "title": "Moins de glace ne signifie pas une route ordinaire",
+        "text": "Les évolutions de la glace suscitent un intérêt pour la navigation. La NOAA souligne cependant l’importance des cartes marines et de la connaissance des fonds dans ces eaux. Le trafic varie aussi selon les saisons et les zones étudiées ; une projection de route future n’est pas un itinéraire déjà fréquenté en permanence. L’éloignement, la météo et les moyens de secours restent des contraintes. Une distance plus courte dessinée sur une carte ne suffit donc pas à démontrer qu’un trajet serait simple, sûr ou intéressant pour chaque navire.",
+        "sources": [
+          1,
+          5,
+          4
+        ]
+      },
+      {
+        "title": "Des habitants, des activités et des savoirs",
+        "text": "Des peuples autochtones et d’autres communautés vivent dans l’Arctique, dans des villes comme dans des territoires moins densément peuplés. Les changements environnementaux touchent leurs déplacements, leurs activités et leurs conditions de vie. Le Conseil de l’Arctique souligne la contribution des savoirs autochtones et locaux aux décisions et aux recherches. Pour comprendre un projet maritime ou économique, il faut donc aussi regarder les habitants concernés. La région ne se réduit pas à un réservoir de ressources ou à une nouvelle route entre deux ports éloignés.",
+        "sources": [
+          2
+        ]
+      },
+      {
+        "title": "Coopération et sécurité : des cadres à distinguer",
+        "text": "Le Conseil de l’Arctique est un forum de coopération, notamment sur le développement durable et la protection de l’environnement. Des organisations représentant les peuples autochtones y participent avec un statut particulier. Son mandat exclut explicitement la sécurité militaire. Il serait donc trompeur de le présenter comme une alliance de défense ou comme l’autorité capable de régler toutes les rivalités de la région. Les questions arctiques relèvent de plusieurs cadres : coopération scientifique, règles maritimes, décisions nationales et relations entre États.",
+        "sources": [
+          3
+        ]
+      }
+    ],
+    "history": {
+      "title": "La construction de règles et de coopérations",
+      "paragraphs": [
+        {
+          "text": "Le 19 septembre 1996, la déclaration d’Ottawa établit le Conseil de l’Arctique. Cette création prolonge des travaux de coopération environnementale engagés au début des années 1990. Le forum contribue ensuite à des discussions qui conduisent notamment à un accord de coopération en matière de recherche et de sauvetage en 2011. Cette histoire rappelle que les États ont aussi des besoins communs : comprendre l’environnement, échanger des connaissances et préparer la réponse aux accidents dans une région éloignée des grands moyens de secours.",
+          "sources": [
+            3
+          ]
+        },
+        {
+          "text": "Le Code polaire de l’Organisation maritime internationale entre en vigueur le 1er janvier 2017. Il traite de la sécurité des navires et de la prévention des pollutions dans les eaux polaires, en complétant les conventions applicables. Sa logique porte sur les risques particuliers de ces milieux : glace, froid, isolement et difficultés d’intervention. Il ne constitue pas un partage politique de l’Arctique. Le rapprochement de ces deux histoires aide à lire les annonces : une règle de navigation, un accord de secours et un différend stratégique ne remplissent pas la même fonction.",
+          "sources": [
+            4
+          ]
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "date": "19 septembre 1996",
+        "title": "Déclaration d’Ottawa",
+        "text": "Le Conseil de l’Arctique est établi comme forum de coopération.",
+        "source": 3
+      },
+      {
+        "date": "2011",
+        "title": "Coopérer pour les secours",
+        "text": "Un accord porte sur la recherche et le sauvetage aéronautiques et maritimes dans l’Arctique.",
+        "source": 3
+      },
+      {
+        "date": "1er janvier 2017",
+        "title": "Entrée en vigueur du Code polaire",
+        "text": "Des dispositions de sécurité et de prévention des pollutions répondent aux risques des eaux polaires.",
+        "source": 4
+      }
+    ],
+    "diagram": [
+      [
+        "Territoires",
+        "Des États et des juridictions à identifier."
+      ],
+      [
+        "Habitants",
+        "Des communautés concernées par les transformations."
+      ],
+      [
+        "Navigation",
+        "Des possibilités à replacer dans leurs contraintes."
+      ]
+    ],
+    "quiz": [
+      {
+        "question": "Le Conseil de l’Arctique est-il une alliance militaire ?",
+        "choices": [
+          "Oui",
+          "Non",
+          "Uniquement en été"
+        ],
+        "answer": 1,
+        "explanation": "Son mandat porte notamment sur l’environnement et le développement durable ; la sécurité militaire en est explicitement exclue."
+      },
+      {
+        "question": "Une réduction de la glace garantit-elle une navigation facile toute l’année ?",
+        "choices": [
+          "Non",
+          "Oui pour tous les navires",
+          "Oui si la route est plus courte"
+        ],
+        "answer": 0,
+        "explanation": "Les saisons, la météo, la cartographie, les équipements et les moyens de secours continuent à compter."
+      },
+      {
+        "question": "Quelle dimension faut-il aussi regarder dans un projet arctique ?",
+        "choices": [
+          "Seulement la longueur du trajet",
+          "Seulement le nombre de navires",
+          "Les habitants et leurs activités"
+        ],
+        "answer": 2,
+        "explanation": "La région est habitée : les communautés, leurs droits, leurs savoirs et leurs conditions de vie font partie du sujet."
+      }
+    ],
+    "photo": {
+      "src": "assets/comprendre/arctique-groenland.jpg",
+      "author": "Jeremy Harbeck / NASA",
+      "license": "Domaine public (États-Unis)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "alt": "Un iceberg pris dans la glace de North Star Bay, au Groenland, sous un ciel étoilé.",
+      "caption": "Un iceberg dans North Star Bay, au Groenland, en mars 2015. Photographie composée de quatre poses par Jeremy Harbeck.",
+      "source": "https://commons.wikimedia.org/wiki/File:Iceberg_in_North_Star_Bay,_Greenland.jpg",
+      "height": 1086,
+      "width": 1280
+    }
+  }
+]);
+})();
