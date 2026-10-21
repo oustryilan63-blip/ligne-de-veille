@@ -2,7 +2,7 @@
 window.RADAR_DISCOVERY_CONTENT={
   checkedAt:'2026-10-14',
   guides:[
-    {slug:'sna-snle',title:'SNA et SNLE : quelle différence ?',theme:'Sous-marins',engins:[64,43],
+    {slug:'sna-snle',photo:{"src":"assets/histoire/photos/043-2.webp","alt":"Photographie de Classe Virginia","caption":"Le New Hampshire, un sous-marin de la classe Virginia, lors de sa cérémonie de baptême.","author":"U.S. Navy photo by John Narewski","license":"Public domain","licenseUrl":"https://commons.wikimedia.org/wiki/Commons:Public_domain","source":"https://commons.wikimedia.org/wiki/File:US_Navy_080621-N-8467N-001_Pre-commissioning_Unit_New_Hampshire_(SSN_778)_sits_moored_to_the_pier_at_General_Dynamics_Electric_Boat_shipyard_moments_before_her_christening_ceremony_commenced.jpg","width":960,"height":634},title:'SNA et SNLE : quelle différence ?',theme:'Sous-marins',engins:[64,43],
       description:'Deux familles de sous-marins à propulsion nucléaire, avec des missions différentes. Des repères pour comprendre les sigles.',
       takeaway:'Le mot « nucléaire » décrit ici la propulsion. La mission de dissuasion distingue le SNLE du sous-marin d’attaque.',
       sections:[
@@ -15,7 +15,7 @@ window.RADAR_DISCOVERY_CONTENT={
         {label:'Marine nationale — guide des forces sous-marines',url:'https://www.lamarinerecrute.fr/sites/default/files/2024-05/2023_MSRM_PAO_GUIDE_FORCE_SOUS_MARINES_C_205%20BD.pdf'},
         {label:'Marine nationale — mission à bord du SNLE Le Vigilant',url:'https://www.defense.gouv.fr/marine/actualites/lieutenant-vaisseau-maiwen-chef-du-service-propulsion-bord-du-snle-vigilant'},
         {label:'Cols bleus — propulsion nucléaire, juillet 2025',url:'https://www.colsbleus.defense.gouv.fr/sites/default/files/2025-07/COLSbleus_3128_PDFweb_Light.pdf'}]},
-    {slug:'missile-balistique-croisiere',title:'Missile balistique ou de croisière ?',theme:'Missiles',engins:[128,125],
+    {slug:'missile-balistique-croisiere',photo:{"src":"assets/histoire/photos/125-1.webp","alt":"Photographie de SCALP-EG / Storm Shadow","caption":"Un exemplaire de présentation du missile de croisière Storm Shadow / SCALP-EG.","author":"Copyright © 2007 David Monniaux","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0/","source":"https://commons.wikimedia.org/wiki/File:Storm_Shadow_p1220865.jpg","width":960,"height":382},title:'Missile balistique ou de croisière ?',theme:'Missiles',engins:[128,125],
       description:'Comprendre ce qui distingue les familles balistique et de croisière, sans confondre trajectoire, portée, vitesse et charge.',
       takeaway:'« Balistique » et « de croisière » décrivent principalement le mode de vol. Ces mots ne déterminent pas, à eux seuls, la portée ni la nature de la charge.',
       sections:[
@@ -27,7 +27,7 @@ window.RADAR_DISCOVERY_CONTENT={
         {label:'OTAN — définitions des missiles dans le traité INF',url:'https://www.nato.int/en/what-we-do/wider-activities/nato-and-the-inf-treaty'},
         {label:'MBDA — Storm Shadow / SCALP',url:'https://www.mbda-systems.com/products/deep-strike/storm-shadow-scalp'},
         {label:'Ministère des Armées — décryptage de la menace missile',url:'https://www.defense.gouv.fr/actualites/decryptage-comment-se-proteger-face-menace-missile-0'}]},
-    {slug:'reconnaitre-rafale-mirage-2000',title:'Reconnaître un Rafale et un Mirage 2000',theme:'Reconnaissance',engins:[9,30],
+    {slug:'reconnaitre-rafale-mirage-2000',photo:{"src":"assets/histoire/photos/009-1.webp","alt":"Photographie de Rafale","caption":"Un Rafale de l’armée de l’Air en vol.","author":"Capt. Jason Smith","license":"Public domain","licenseUrl":"https://commons.wikimedia.org/wiki/Commons:Public_domain","source":"https://commons.wikimedia.org/wiki/File:A_French_air_force_Rafale_aircraft_breaks_formation_after_refueling_from_a_U.S._Air_Force_KC-135_Stratotanker_aircraft_assigned_to_the_351st_Expeditionary_Air_Refueling_Squadron_(EARS)_over_an_undisclosed_130317-F-BY961-185_(cropped).png","width":960,"height":598},title:'Reconnaître un Rafale et un Mirage 2000',theme:'Reconnaissance',engins:[9,30],
       description:'Des indices visuels simples pour distinguer deux avions français : plans canards, moteurs et silhouette générale.',
       takeaway:'Cherche d’abord les petits plans canards du Rafale, puis le nombre de sorties de moteur. L’angle de la photo peut masquer un indice.',
       sections:[
@@ -38,7 +38,7 @@ window.RADAR_DISCOVERY_CONTENT={
       sources:[
         {label:'Dassault Aviation — formule aérodynamique du Rafale',url:'https://www.dassault-aviation.com/fr/defense/rafale/concevoir-et-optimiser/'},
         {label:'Dassault Aviation — Mirage 2000',url:'https://www.dassault-aviation.com/fr/defense/soutien-militaire/avions-soutenus/mirage-2000/'}]},
-    {slug:'fregate-destroyer-corvette',title:'Frégate, destroyer, corvette : les repères',theme:'Marine',engins:[67,65,13],
+    {slug:'fregate-destroyer-corvette',photo:{"src":"assets/histoire/photos/065-2.webp","alt":"Photographie de Type 45 Daring","caption":"Le HMS Defender, un destroyer britannique de la classe Type 45.","author":"UK Ministry of Defence from London, United Kingdom","license":"CC BY-SA 2.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/2.0","source":"https://commons.wikimedia.org/wiki/File:HMS_Defender_(8614177368).jpg","width":960,"height":636},title:'Frégate, destroyer, corvette : les repères',theme:'Marine',engins:[67,65,13],
       description:'Comprendre trois appellations de bâtiments de combat à partir d’exemples concrets, sans réduire leur rôle à leur taille.',
       takeaway:'Lis d’abord la mission et les équipements du bâtiment. Le nom de sa catégorie ne constitue pas une échelle universelle de puissance.',
       sections:[

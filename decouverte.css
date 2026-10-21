@@ -220,3 +220,10 @@ body:has(.discovery-article) .discovery-hero p{font-size:15px;line-height:1.85;m
 /* Photographies des dossiers Comprendre. */
 .discovery-main .learning-photo img{display:block;width:100%;height:auto;max-height:440px;object-fit:contain;background:#e5ecdc}
 .discovery-main .learning-photo-caption{display:block;font-size:13px;line-height:1.75;color:#37503a;margin-bottom:7px}
+
+/* Photos des dossiers historiques et des variantes. */
+.discovery-main .editorial-cover{margin:0 0 22px}
+.discovery-main .editorial-cover img{display:block;width:100%;height:200px;object-fit:cover;border-radius:8px;background:#e5ecdc}
+.discovery-main .editorial-cover figcaption{padding-top:10px;font-size:10px;line-height:1.8;color:#607452;overflow-wrap:anywhere}
+.discovery-main .editorial-cover figcaption a{text-underline-offset:3px}
+@media(max-width:600px){.discovery-main .editorial-cover img{height:180px}}

@@ -3,7 +3,7 @@ export const editorial = {
   checkedAt:'2026-10-14',
   histories:[
     {
-      slug:'malouines-1982',period:'1982',title:'Les Malouines : une guerre entre mer, air et terre',
+      slug:'malouines-1982',photo:{"src":"assets/comprendre/malouines-1982.jpg","author":"Ken Griffiths","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0/","alt":"Des marins britanniques du HMS Cardiff à Pebble Island","caption":"Des marins du HMS Cardiff à Pebble Island, en juin 1982, selon la légende du photographe.","source":"https://commons.wikimedia.org/wiki/File:Falklands_1982.jpg","width":1280,"height":782},period:'1982',title:'Les Malouines : une guerre entre mer, air et terre',
       description:'Comprendre la guerre de 1982, ses étapes, le rôle des moyens navals et aériens et ses conséquences humaines.',
       takeaway:'Les porte-avions, les avions et les missiles rendent cette guerre très visible. Son histoire comprend aussi un différend territorial, une expédition lointaine, des débarquements et des combats terrestres.',
       map:{viewBox:'265 245 365 265',countries:['AR'],points:[{x:403,y:438,label:'Malouines / Falkland',tx:438,ty:449},{x:400,y:335,label:'Amérique du Sud',tx:425,ty:316}]},
@@ -53,7 +53,7 @@ export const editorial = {
       guides:['porte-avions-groupe-aeronaval','radar-sonar']
     },
     {
-      slug:'golfe-1991',period:'1990–1991',title:'La guerre du Golfe : comprendre la campagne de 1991',
+      slug:'golfe-1991',photo:{"src":"assets/comprendre/golfe-1991.jpg","author":"SSgt. Masters / U.S. Department of Defense — National Archives","license":"Domaine public (États-Unis)","licenseUrl":"https://creativecommons.org/publicdomain/mark/1.0/","alt":"Deux chars M1A1 Abrams des Marines dans le désert","caption":"Deux M1A1 Abrams des Marines pendant l’opération Desert Storm, le 24 février 1991.","source":"https://commons.wikimedia.org/wiki/File:Two_Marine_Corps_M-1A1_Abrams_main_battle_tanks_move_across_the_desert_during_the_ground_phase_of_Operation_Desert_Storm_-_DPLA_-_ff6d02040bda6719fce2434d1acbc703.jpeg","width":1280,"height":829},period:'1990–1991',title:'La guerre du Golfe : comprendre la campagne de 1991',
       description:'Du Koweït envahi à la fin des combats : coalition, aviation, blindés, logistique et limites des récits sur la technologie.',
       takeaway:'La libération du Koweït en 1991 s’appuie sur une coalition, une longue préparation et des moyens complémentaires. Cette guerre est distincte de l’invasion de l’Irak en 2003.',
       map:{viewBox:'675 120 190 135',countries:['IQ','KW'],points:[{x:747,y:164,label:'Irak',tx:710,ty:153},{x:760,y:177,label:'Koweït',tx:779,ty:191}]},
@@ -109,7 +109,7 @@ export const editorial = {
   ],
   variants:[
     {
-      slug:'rafale',title:'Rafale : C, B ou M ? Et que signifie F4 ?',description:'Distinguer la configuration de l’avion de son standard de modernisation.',engin:'Rafale',
+      slug:'rafale',photo:{"src":"assets/histoire/photos/009-2.webp","alt":"Photographie de Rafale","caption":"Un Rafale Marine à l’appontage sur le porte-avions USS George H. W. Bush.","author":"Mass Communication Specialist 3rd Class Brooke Macchietto/U.S. Navy","license":"Public domain","licenseUrl":"https://commons.wikimedia.org/wiki/Commons:Public_domain","source":"https://commons.wikimedia.org/wiki/File:A_Rafale_Marine_of_the_French_navy_lands_during_flight_operations_aboard_USS_George_H.W._Bush._(41385978054).jpg","width":960,"height":603},title:'Rafale : C, B ou M ? Et que signifie F4 ?',description:'Distinguer la configuration de l’avion de son standard de modernisation.',engin:'Rafale',
       intro:'C, B et M décrivent trois configurations. F3-R et F4 décrivent des étapes de modernisation du système d’armes : ce sont deux façons différentes de parler du même programme.',
       columns:['Rafale C','Rafale B','Rafale M'],
       rows:[
@@ -131,7 +131,7 @@ export const editorial = {
       note:'Repères d’identification, sans classement de performances. Les points qui ne sont pas visibles demandent une légende ou une source précise.'
     },
     {
-      slug:'leopard-2',title:'Leopard 2 : comprendre A4, A6 et A7V',description:'Les évolutions de la famille allemande et quelques repères pour identifier les versions.',engin:'Leopard 2',
+      slug:'leopard-2',photo:{"src":"assets/histoire/photos/001-1.webp","alt":"Photographie de Leopard 2","caption":"Un Leopard 2A5 néerlandais en 1999. Cette photo illustre la famille ; le dossier compare les versions A4, A6 et A7V.","author":"Fotoafdrukken Koninklijke Landmacht","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0","source":"https://commons.wikimedia.org/wiki/File:Een_Leopard_2A5_gevechtstank_op_snelheid_1999_2155_501335.jpg","width":960,"height":645},title:'Leopard 2 : comprendre A4, A6 et A7V',description:'Les évolutions de la famille allemande et quelques repères pour identifier les versions.',engin:'Leopard 2',
       intro:'Le nom Leopard 2 couvre de nombreuses configurations nationales. Cette comparaison porte sur des versions allemandes A4, A6 et A7V : elle n’est pas une description de tous les chars exportés ou modernisés.',
       columns:['Leopard 2 A4','Leopard 2 A6','Leopard 2 A7V'],
       rows:[
