@@ -1524,3 +1524,537 @@ window.RADAR_DISCOVERY_CONTENT={
   }
 ]);
 })();
+
+/* Conflits et tensions : trois dossiers documentés — situation au 21 octobre 2026. */
+(() => {
+  const C=window.RADAR_DISCOVERY_CONTENT;
+  C.categories.push(["crises","Conflits et tensions"]);
+  C.guides.unshift(...[
+  {
+    "slug": "ukraine-guerre-enjeux",
+    "title": "Ukraine : comprendre la guerre et ses enjeux",
+    "theme": "CONFLITS ET TENSIONS",
+    "categories": [
+      "geopolitique",
+      "crises"
+    ],
+    "level": "Découverte",
+    "fresh": true,
+    "checkedAt": "2026-10-21",
+    "engins": [],
+    "visual": "",
+    "description": "De la Crimée à l’invasion à grande échelle : les origines, les enjeux de souveraineté, les conséquences civiles et un point de situation daté.",
+    "takeaway": "La guerre concerne la souveraineté de l’Ukraine, la sécurité européenne et la vie des populations. Une annonce de négociations doit être distinguée d’un cessez-le-feu effectivement appliqué.",
+    "sources": [
+      {
+        "label": "Université des Nations unies — Ukraine, résolutions de 2014 et de 2022",
+        "url": "https://assemblyforpeace.unu.edu/cases/ukraine-2014-2022/"
+      },
+      {
+        "label": "Haut-Commissariat des Nations unies aux droits de l’homme — quatre ans depuis l’invasion, février 2026",
+        "url": "https://ukraine.ohchr.org/sites/default/files/2026-02/2026-02-16%20HRMMU_Four%20Years%20On_fact%20sheet.pdf"
+      },
+      {
+        "label": "ONU en Ukraine — protection des civils et infrastructures énergétiques, 16 octobre 2026",
+        "url": "https://ukraine.un.org/en/324562-civilian-casualties-remain-record-levels-amid-intensifying-attacks-energy-winter-approaches"
+      },
+      {
+        "label": "PNUD — évaluation conjointe des dommages et des besoins de reconstruction, février 2026",
+        "url": "https://www.undp.org/ukraine/press-releases/updated-ukraine-recovery-and-reconstruction-needs-assessment-released"
+      },
+      {
+        "label": "Associated Press — annonce russe sur une possible reprise des discussions, 21 octobre 2026",
+        "url": "https://apnews.com/article/3f00c0c6fd10bab948c2c3f8502e0a91"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Situation au 21 octobre 2026",
+        "text": "La guerre se poursuit, avec des conséquences civiles documentées par l’ONU. Sur le volet diplomatique, Associated Press rapporte le 21 octobre que le Kremlin annonce un accord de principe de Vladimir Poutine pour reprendre des discussions trilatérales avec Washington et Kyiv après le 10 novembre. Il s’agit d’une annonce attribuée à un responsable russe, concernant des discussions futures. Elle ne permet pas de présenter un cessez-le-feu général comme acquis. Ce point de situation est daté ; les évolutions suivantes sont à retrouver dans les Actualités de Radar.",
+        "sources": [
+          2,
+          4
+        ]
+      },
+      {
+        "title": "Pourquoi la souveraineté est au centre du conflit",
+        "text": "L’enjeu territorial ne se limite pas au dessin d’une ligne sur une carte militaire. Il concerne l’indépendance de l’Ukraine et ses frontières internationalement reconnues. Les résolutions de l’Assemblée générale de l’ONU rappellent ces principes et condamnent l’agression russe. Il faut distinguer une zone contrôlée par une armée, une revendication politique et une frontière reconnue : ces trois informations n’ont pas le même sens. Une carte de contrôle territorial doit donc être lue avec sa date et sa légende, sans transformer une occupation en reconnaissance juridique.",
+        "sources": [
+          0
+        ]
+      },
+      {
+        "title": "Les civils et les réseaux essentiels",
+        "text": "Dans son communiqué du 16 octobre, la mission de surveillance des droits de l’homme de l’ONU indique avoir vérifié au moins 328 morts et 2 105 blessés civils pour septembre 2026. Ce bilan concerne ce mois précis, et non toute la guerre. L’ONU précise que les difficultés d’accès peuvent empêcher de vérifier certains incidents. Elle décrit aussi les conséquences des frappes sur l’électricité et le chauffage à l’approche de l’hiver. Le fonctionnement d’un réseau énergétique touche directement l’eau, les logements, les soins et la vie quotidienne.",
+        "sources": [
+          2
+        ]
+      },
+      {
+        "title": "La reconstruction commence avant la fin des combats",
+        "text": "L’évaluation publiée en février 2026 par le gouvernement ukrainien, la Banque mondiale, la Commission européenne et l’ONU examine les dommages accumulés jusqu’au 31 décembre 2025. Elle identifie notamment les besoins liés aux logements, aux transports et à l’énergie. Les réparations urgentes et la préparation d’un relèvement durable coexistent donc avec la poursuite de la guerre. Les besoins estimés ne correspondent ni à une somme déjà versée ni à une facture définitive. Ils dépendent d’une période d’observation, d’hypothèses de coût et de l’évolution des destructions.",
+        "sources": [
+          3
+        ]
+      },
+      {
+        "title": "Comprendre ce que les chiffres mesurent",
+        "text": "Un bilan de victimes vérifiées, une estimation de dommages et un besoin de financement répondent à des questions différentes. Dans les publications de l’ONU, le verbe « vérifier » décrit une méthode de documentation ; il ne garantit pas que tous les événements ont pu être recensés. Une évaluation économique mesure pour sa part des catégories de dommages et des besoins selon une date de référence. Avant de comparer deux chiffres, regarde donc leur période, leur territoire, leur unité et leur source. Cette lecture évite de confondre une hausse documentée avec une simple différence de méthode.",
+        "sources": [
+          2,
+          3
+        ]
+      }
+    ],
+    "history": {
+      "title": "2014 et 2022 : deux jalons indispensables",
+      "paragraphs": [
+        {
+          "text": "En mars 2014, après la prise de contrôle de la Crimée par la Russie et l’organisation d’un référendum, l’Assemblée générale adopte la résolution 68/262. Elle réaffirme l’intégrité territoriale de l’Ukraine et considère que le référendum ne peut modifier le statut de la Crimée. Cette séquence précède l’invasion à grande échelle. Elle aide à comprendre pourquoi les débats actuels sur les territoires occupés s’inscrivent dans une histoire plus longue et dans des positions juridiques déjà exprimées aux Nations unies.",
+          "sources": [
+            0
+          ]
+        },
+        {
+          "text": "Le 24 février 2022, la Russie lance son invasion à grande échelle de l’Ukraine. Le rapport de l’ONU publié pour le quatrième anniversaire décrit des déplacements de population et des atteintes durables aux logements, aux infrastructures et aux droits humains. Il repose sur un travail de surveillance, avec ses limites d’accès et de vérification. La lecture de cette guerre doit ainsi relier les décisions politiques, les transformations du conflit et l’expérience des populations. Les seules annonces de gains ou de pertes de terrain ne suffisent pas à en rendre compte.",
+          "sources": [
+            1
+          ]
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "date": "Mars 2014",
+        "title": "La question de la Crimée",
+        "text": "La résolution 68/262 réaffirme l’intégrité territoriale de l’Ukraine.",
+        "source": 0
+      },
+      {
+        "date": "24 février 2022",
+        "title": "Invasion à grande échelle",
+        "text": "La Russie étend la guerre par une invasion de l’Ukraine.",
+        "source": 1
+      },
+      {
+        "date": "16 octobre 2026",
+        "title": "Un bilan civil et énergétique",
+        "text": "L’ONU publie un point sur les victimes documentées et les conséquences des frappes sur l’énergie.",
+        "source": 2
+      }
+    ],
+    "diagram": [
+      [
+        "Territoires",
+        "Distinguer contrôle militaire, revendication et frontière reconnue."
+      ],
+      [
+        "Populations",
+        "Regarder les déplacements et les services essentiels."
+      ],
+      [
+        "Diplomatie",
+        "Vérifier ce qui est annoncé, signé et appliqué."
+      ]
+    ],
+    "quiz": [
+      {
+        "question": "Une zone occupée devient-elle automatiquement une frontière internationalement reconnue ?",
+        "choices": [
+          "Oui",
+          "Non",
+          "Seulement si elle apparaît sur une carte"
+        ],
+        "answer": 1,
+        "explanation": "Le contrôle militaire et la reconnaissance juridique sont deux informations différentes ; une carte doit préciser ce qu’elle représente."
+      },
+      {
+        "question": "Le bilan de septembre 2026 cité ici correspond…",
+        "choices": [
+          "À tous les morts depuis 2014",
+          "À une estimation de pertes militaires",
+          "Aux victimes civiles vérifiées pour ce mois"
+        ],
+        "answer": 2,
+        "explanation": "Le communiqué de l’ONU porte sur une période définie et distingue les cas vérifiés des incidents difficiles à documenter."
+      },
+      {
+        "question": "Une annonce de négociations prouve-t-elle qu’un cessez-le-feu général est appliqué ?",
+        "choices": [
+          "Non",
+          "Oui, immédiatement",
+          "Oui, si une seule partie le déclare"
+        ],
+        "answer": 0,
+        "explanation": "Une annonce, la tenue de discussions, la signature d’un accord et son application sont des étapes distinctes."
+      }
+    ],
+    "photo": {
+      "src": "assets/comprendre/ukraine-kyiv.jpg",
+      "author": "Sergey Galyonkin",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Vue panoramique des monuments et des toits de Kyiv au crépuscule.",
+      "caption": "Kyiv en janvier 2015. Cette photographie de repérage géographique est antérieure à l’invasion à grande échelle de 2022.",
+      "source": "https://commons.wikimedia.org/wiki/File:Kyiv_skyline_(15688086793).jpg",
+      "height": 704,
+      "width": 1280
+    }
+  },
+  {
+    "slug": "taiwan-detroit-tensions",
+    "title": "Taïwan : pourquoi le détroit est-il sous tension ?",
+    "theme": "CONFLITS ET TENSIONS",
+    "categories": [
+      "geopolitique",
+      "crises",
+      "mer"
+    ],
+    "level": "Découverte",
+    "fresh": true,
+    "checkedAt": "2026-10-21",
+    "engins": [],
+    "visual": "",
+    "description": "Comprendre les autorités de Taipei, les revendications de Pékin, l’histoire diplomatique et les enjeux d’une crise suivie bien au-delà du détroit.",
+    "takeaway": "Taïwan est administrée par ses propres autorités et revendiquée par Pékin. Les pressions, les exercices et les différends maritimes doivent être décrits précisément, sans annoncer une guerre comme inévitable.",
+    "sources": [
+      {
+        "label": "Reuters, repris par MarketScreener — différend autour des Pratas, 21 octobre 2026",
+        "url": "https://uk.marketscreener.com/news/china-says-it-is-safeguarding-order-around-taiwan-controlled-south-china-sea-atoll-ce785cd8df8df222"
+      },
+      {
+        "label": "Service européen pour l’action extérieure — relations entre l’Union européenne et Taïwan",
+        "url": "https://www.eeas.europa.eu/delegations/taiwan/european-union-and-taiwan_en?s=242"
+      },
+      {
+        "label": "Présidence taïwanaise — discours du 10 octobre 2026, position officielle de Lai Ching-te",
+        "url": "https://english.president.gov.tw/News/7226"
+      },
+      {
+        "label": "Département d’État américain, archives historiques — la révolution chinoise de 1949",
+        "url": "https://history.state.gov/milestones/1945-1952/chinese-rev"
+      },
+      {
+        "label": "Bibliothèque de l’ONU — résolution 2758 du 25 octobre 1971 et représentation de la Chine",
+        "url": "https://ask.un.org/faq/320138"
+      },
+      {
+        "label": "Département d’État américain, archives historiques — normalisation de 1979 et Taiwan Relations Act",
+        "url": "https://history.state.gov/milestones/1977-1980/china-policy"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Situation au 21 octobre 2026",
+        "text": "Reuters rapporte le 21 octobre un différend autour des Pratas, un atoll contrôlé par Taïwan en mer de Chine méridionale. Pékin présente les patrouilles de ses garde-côtes comme des opérations de maintien de l’ordre ; Taipei dénonce des comportements provocateurs. Le contrôle effectif de l’atoll et les revendications de souveraineté sont donc à distinguer. Le dossier porte sur des tensions et des risques d’escalade, sans présenter les incidents rapportés comme la preuve qu’une invasion aurait commencé. Les annonces ultérieures sont à suivre dans les Actualités.",
+        "sources": [
+          0
+        ]
+      },
+      {
+        "title": "Deux autorités et des positions opposées",
+        "text": "Taïwan possède ses propres institutions et organise des élections. Pékin revendique l’île, tandis que les autorités de Taipei rejettent sa prétention à leur imposer sa souveraineté. Ces positions structurent le différend politique. Dans son discours du 10 octobre 2026, Lai Ching-te met en avant la démocratie et la capacité des habitants à décider de leur avenir. Ce discours représente la position de la présidence taïwanaise. Pour comprendre la crise, il faut identifier les acteurs et attribuer leurs affirmations, plutôt que reprendre une revendication comme une description neutre acceptée par tous.",
+        "sources": [
+          0,
+          2
+        ]
+      },
+      {
+        "title": "Pourquoi la distinction diplomatique compte",
+        "text": "L’Union européenne explique reconnaître le gouvernement de la République populaire de Chine comme seul gouvernement légal de la Chine, tout en entretenant des relations et des coopérations avec Taïwan. Elle soutient le maintien du statu quo et un règlement pacifique des différends. Cette position montre pourquoi reconnaissance diplomatique, échanges économiques et relations pratiques ne se confondent pas. Les mots employés par chaque acteur ont une histoire et un périmètre. Une politique dite d’« une seule Chine » doit être lue dans le texte de l’acteur qui la formule.",
+        "sources": [
+          1
+        ]
+      },
+      {
+        "title": "Les enjeux dépassent le face-à-face militaire",
+        "text": "Le dossier concerne aussi les liens commerciaux, les technologies, les échanges scientifiques et les populations. Les relations décrites par l’Union européenne comprennent des coopérations économiques et de recherche ; le discours présidentiel taïwanais souligne le rôle des industries technologiques, notamment des semi-conducteurs. Il faut attribuer cette dernière présentation à son auteur. Pour analyser une crise, on peut donc regarder les dépendances et les relations civiles autant que les moyens militaires. La photographie de Taipei rappelle qu’une ville et une société vivent derrière les formules de stratégie.",
+        "sources": [
+          1,
+          2
+        ]
+      },
+      {
+        "title": "Lire une alerte sans transformer une hypothèse en certitude",
+        "text": "Un signalement de garde-côtes, un exercice militaire, une déclaration et une opération de guerre ne décrivent pas le même événement. L’exemple des Pratas montre aussi que les lieux associés à Taïwan ne se trouvent pas tous dans le seul détroit. Avant de partager une alerte, vérifie sa date, le lieu nommé, l’auteur de l’observation et ce que la source affirme réellement. Une intention prêtée à un acteur reste une appréciation tant qu’elle n’est pas établie. Le suivi d’une crise gagne en clarté lorsqu’il conserve ces distinctions au lieu d’annoncer une échéance certaine.",
+        "sources": [
+          0
+        ]
+      }
+    ],
+    "history": {
+      "title": "De la guerre civile chinoise aux relations actuelles",
+      "paragraphs": [
+        {
+          "text": "En 1949, la victoire communiste sur le continent conduit à la proclamation de la République populaire de Chine. Le gouvernement nationaliste de la République de Chine se replie à Taïwan. Les archives américaines replacent cette séparation dans l’histoire de la guerre civile et des débuts de la guerre froide. Elle explique la coexistence d’autorités distinctes et la longue confrontation autour de la représentation de la Chine. L’évolution politique de Taïwan, notamment vers des élections directes, appartient ensuite à une histoire propre que la seule date de 1949 ne résume pas.",
+          "sources": [
+            3,
+            2
+          ]
+        },
+        {
+          "text": "Le 25 octobre 1971, la résolution 2758 reconnaît les représentants du gouvernement de la République populaire comme les seuls représentants légitimes de la Chine à l’ONU. En 1979, les États-Unis établissent des relations diplomatiques avec Pékin et conservent des relations non officielles avec Taïwan ; le Taiwan Relations Act fournit un cadre à ces dernières. Ces textes ont des objets différents et doivent être lus séparément. En 1996, Taïwan organise sa première élection présidentielle au suffrage direct, un anniversaire rappelé dans le discours du 10 octobre 2026.",
+          "sources": [
+            4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "date": "1949",
+        "title": "Des autorités séparées",
+        "text": "La République populaire est proclamée sur le continent ; le gouvernement nationaliste se replie à Taïwan.",
+        "source": 3
+      },
+      {
+        "date": "25 octobre 1971",
+        "title": "La représentation de la Chine à l’ONU",
+        "text": "La résolution 2758 change la représentation chinoise aux Nations unies.",
+        "source": 4
+      },
+      {
+        "date": "1996",
+        "title": "Première présidentielle au suffrage direct",
+        "text": "Un jalon de l’évolution démocratique de Taïwan.",
+        "source": 2
+      }
+    ],
+    "diagram": [
+      [
+        "Contrôle",
+        "Identifier qui administre effectivement un lieu."
+      ],
+      [
+        "Revendication",
+        "Attribuer les positions des différents acteurs."
+      ],
+      [
+        "Diplomatie",
+        "Lire les textes et leurs objets précis."
+      ]
+    ],
+    "quiz": [
+      {
+        "question": "Une revendication et un contrôle effectif désignent-ils toujours la même chose ?",
+        "choices": [
+          "Oui",
+          "Non",
+          "Seulement sur une île"
+        ],
+        "answer": 1,
+        "explanation": "Un territoire peut être administré par un acteur et revendiqué par un autre : les deux informations doivent être distinguées."
+      },
+      {
+        "question": "La résolution 2758 de 1971 porte sur…",
+        "choices": [
+          "La représentation de la Chine à l’ONU",
+          "Le calendrier d’une invasion",
+          "La production de semi-conducteurs"
+        ],
+        "answer": 0,
+        "explanation": "Cette résolution concerne la représentation chinoise aux Nations unies ; son texte doit être distingué des politiques bilatérales."
+      },
+      {
+        "question": "Un exercice ou une patrouille permet-il de fixer une date certaine de guerre ?",
+        "choices": [
+          "Oui",
+          "Oui, si la photo est récente",
+          "Non"
+        ],
+        "answer": 2,
+        "explanation": "La description d’un événement observé ne suffit pas à établir un calendrier futur ou une intention précise."
+      }
+    ],
+    "photo": {
+      "src": "assets/comprendre/taiwan-taipei.jpg",
+      "author": "xiangyang17",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Les lumières de Taipei et la tour Taipei 101 à la tombée de la nuit.",
+      "caption": "Taipei photographiée en avril 2023. Une vue urbaine pour situer le dossier, sans lien avec un incident militaire particulier.",
+      "source": "https://commons.wikimedia.org/wiki/File:Taipei_Night_Skyline_20230402.jpg",
+      "height": 854,
+      "width": 1280
+    }
+  },
+  {
+    "slug": "moyen-orient-conflits",
+    "title": "Moyen-Orient : comprendre des conflits liés, mais distincts",
+    "theme": "CONFLITS ET TENSIONS",
+    "categories": [
+      "geopolitique",
+      "crises"
+    ],
+    "level": "Découverte",
+    "fresh": true,
+    "checkedAt": "2026-10-21",
+    "engins": [],
+    "visual": "",
+    "description": "Israël et Palestine, Liban, Iran, Yémen : situer les principaux acteurs, les liens régionaux et les enjeux civils, avec un point de situation daté.",
+    "takeaway": "La région rassemble plusieurs conflits avec leurs acteurs, leurs histoires et leurs négociations. Une accalmie sur un théâtre ne signifie pas que tous les autres sont apaisés.",
+    "sources": [
+      {
+        "label": "UNSCO / Nations unies — exposé au Conseil de sécurité, 15 octobre 2026",
+        "url": "https://www.un.org/unispal/document/it-is-time-to-return-to-a-genuine-peace-process-acting-special-coordinator-for-the-middle-east-peace-process-tells-the-security-council/"
+      },
+      {
+        "label": "OCHA — rapport humanitaire du 15 octobre 2026, publié le 19 octobre",
+        "url": "https://www.ochaopt.org/content/humanitarian-situation-report-15-october-2026"
+      },
+      {
+        "label": "Nations unies — histoire de la question de Palestine",
+        "url": "https://www.un.org/unispal/history/"
+      },
+      {
+        "label": "Conseil de sécurité — résolution 1701 de 2006 sur le Liban",
+        "url": "https://unifil.unmissions.org/sites/default/files/old_dnn/N0646503.94e0ff00-2581-4794-bfd1-877cdf67e435.04aaa3c5-b93a-4fad-8c75-92c3d9b802a3.pdf"
+      },
+      {
+        "label": "Associated Press — Yémen, Arabie saoudite et développements régionaux, 20 octobre 2026",
+        "url": "https://apnews.com/article/6f69abd6470c9b43b75de7b223011486"
+      },
+      {
+        "label": "Reuters, repris par le Jerusalem Post — développements et signalement maritime, 21 octobre 2026",
+        "url": "https://www.jpost.com/middle-east/iran-news/2026-10-20/live-updates-912229"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Situation au 21 octobre 2026",
+        "text": "Les documents consultés montrent plusieurs foyers de violence et des démarches diplomatiques distinctes. Le 15 octobre, le responsable onusien du processus de paix souligne la fragilité de la situation un an après le cessez-le-feu annoncé à Gaza. Le rapport OCHA publié le 19 décrit encore des frappes, des déplacements et de graves difficultés humanitaires. Un accord annoncé et ses effets sur le terrain doivent donc être examinés séparément. Ce point de situation est daté ; il ne constitue pas un suivi minute par minute de toute la région.",
+        "sources": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Israël, Palestine : distinguer territoires et acteurs",
+        "text": "Gaza, la Cisjordanie et Jérusalem-Est sont des espaces distincts dont les situations doivent être précisées. Les autorités israéliennes, l’Autorité palestinienne, le Hamas et les autres groupes armés ne se confondent pas avec l’ensemble des populations qu’ils gouvernent ou prétendent représenter. La question concerne notamment la sécurité, l’occupation, les droits des peuples, les réfugiés et les possibilités d’un règlement politique. La présentation historique des Nations unies aide à retrouver ces fils. Elle évite de réduire un conflit ancien à une seule journée ou à une explication uniquement religieuse.",
+        "sources": [
+          2,
+          0
+        ]
+      },
+      {
+        "title": "Le Liban possède sa propre histoire de conflit",
+        "text": "Le cadre libanais implique notamment l’État libanais, Israël et le Hezbollah. La résolution 1701 du Conseil de sécurité, adoptée en 2006, demande une cessation des hostilités et traite du déploiement de l’armée libanaise et de la FINUL dans le Sud. C’est un repère historique et diplomatique, dont l’existence ne démontre pas automatiquement le respect sur le terrain. Les annonces concernant Gaza ne modifient pas à elles seules la situation au Liban. Pour lire une négociation, il faut regarder les parties concernées, le territoire couvert et les engagements précis.",
+        "sources": [
+          3
+        ]
+      },
+      {
+        "title": "Iran, Yémen et circulation maritime : des liens régionaux",
+        "text": "Les rapports de force dépassent les frontières d’un seul conflit. Le 20 octobre, Associated Press rapporte une annonce britannique de soutien défensif à l’Arabie saoudite face aux attaques des Houthis, mouvement yéménite soutenu par l’Iran. Le 21, Reuters relaie un signalement de l’UKMTO concernant un pétrolier touché près du détroit d’Ormuz. L’auteur du tir ne doit pas être déduit du seul lieu de l’incident. Ces exemples illustrent l’articulation entre acteurs locaux, soutiens extérieurs et sécurité des routes maritimes, sans rendre toutes leurs décisions identiques.",
+        "sources": [
+          4,
+          5
+        ]
+      },
+      {
+        "title": "Les conséquences civiles ont leur propre calendrier",
+        "text": "Le rapport OCHA sur la période du 29 septembre au 12 octobre décrit à Gaza des difficultés d’abri, d’alimentation, d’accès à l’eau et de fonctionnement des services de santé. Il traite aussi séparément de la Cisjordanie, notamment des violences, des démolitions et des restrictions d’accès. Une baisse de certains combats ne répare pas immédiatement un logement, un réseau d’eau ou un système de soins. Les chiffres cités dans un rapport doivent conserver leur période et leur attribution : un bilan transmis par une autorité et un nombre de cas vérifiés par l’ONU ne relèvent pas nécessairement de la même méthode.",
+        "sources": [
+          1
+        ]
+      }
+    ],
+    "history": {
+      "title": "Une histoire longue et des crises qui s’entrecroisent",
+      "paragraphs": [
+        {
+          "text": "En 1947, l’ONU propose un partage de la Palestine sous mandat britannique en deux États, avec un statut international pour Jérusalem. La proclamation d’Israël en 1948 et la guerre qui suit s’accompagnent d’un exode massif de Palestiniens. En 1967, Israël occupe notamment la Cisjordanie, Jérusalem-Est et Gaza. Ces jalons expliquent la place des questions de territoire et de réfugiés dans les négociations. Ils ne résument cependant ni toutes les sociétés de la région ni les histoires du Liban, de l’Iran ou du Yémen.",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "text": "Le 7 octobre 2023, le Hamas et d’autres groupes armés palestiniens attaquent Israël, tuent des civils et prennent des otages ; la guerre à Gaza provoque ensuite des destructions et une catastrophe humaine. Dans son exposé du 15 octobre 2026, le responsable onusien rappelle ces événements et le cessez-le-feu déclaré un an auparavant. Son appel à un processus politique souligne la distance entre une interruption annoncée des combats et une paix durable. Cette chronologie doit être rapprochée des rapports humanitaires et des autres dossiers régionaux, plutôt que servir de récit unique à tous les conflits.",
+          "sources": [
+            0
+          ]
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "date": "1948",
+        "title": "Guerre et déplacements",
+        "text": "La création d’Israël, la guerre et l’exode palestinien marquent durablement la région.",
+        "source": 2
+      },
+      {
+        "date": "7 octobre 2023",
+        "title": "Attaques et guerre à Gaza",
+        "text": "Les attaques du Hamas et d’autres groupes armés contre Israël précèdent la guerre dévastatrice à Gaza.",
+        "source": 0
+      },
+      {
+        "date": "10 octobre 2025",
+        "title": "Annonce d’un cessez-le-feu à Gaza",
+        "text": "Les rapports de 2026 décrivent les limites de sa mise en œuvre et la poursuite de violences.",
+        "source": 1
+      }
+    ],
+    "diagram": [
+      [
+        "Acteurs",
+        "Distinguer États, organisations, groupes armés et populations."
+      ],
+      [
+        "Théâtres",
+        "Situer chaque événement avant de le relier aux autres."
+      ],
+      [
+        "Accords",
+        "Identifier le territoire, les parties et l’application."
+      ]
+    ],
+    "quiz": [
+      {
+        "question": "Un cessez-le-feu annoncé à Gaza règle-t-il automatiquement les autres conflits de la région ?",
+        "choices": [
+          "Oui",
+          "Non",
+          "Seulement les conflits maritimes"
+        ],
+        "answer": 1,
+        "explanation": "Chaque théâtre possède ses acteurs, ses accords et ses conditions d’application ; leurs évolutions peuvent être différentes."
+      },
+      {
+        "question": "La résolution 1701 de 2006 concerne principalement…",
+        "choices": [
+          "Le Liban et la cessation des hostilités",
+          "Le détroit de Taïwan",
+          "La reconstruction de Kyiv"
+        ],
+        "answer": 0,
+        "explanation": "La résolution fournit un cadre relatif au Liban, notamment à la cessation des hostilités et au déploiement dans le Sud."
+      },
+      {
+        "question": "Lorsqu’un navire est touché, peut-on désigner l’auteur sur le seul critère de sa position ?",
+        "choices": [
+          "Toujours",
+          "Oui, si l’incident est près d’un détroit",
+          "Non"
+        ],
+        "answer": 2,
+        "explanation": "Un lieu et un type d’incident ne suffisent pas à identifier un responsable ; il faut des éléments attribués et vérifiés."
+      }
+    ],
+    "photo": {
+      "src": "assets/comprendre/moyen-orient-jerusalem.jpg",
+      "author": "James Emery",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "alt": "Les toits et les monuments de la vieille ville de Jérusalem vus depuis un clocher.",
+      "caption": "Jérusalem vue depuis le clocher de l’église luthérienne du Rédempteur. Photographie d’archive, utilisée comme repère géographique.",
+      "source": "https://commons.wikimedia.org/wiki/File:Jerusalem_Skyline_w-_Holy_Sepulcher_2003_(511082427).jpg",
+      "width": 1280,
+      "height": 960
+    }
+  }
+]);
+})();
