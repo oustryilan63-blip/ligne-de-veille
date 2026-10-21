@@ -96,8 +96,8 @@ export function buildDiscovery(root,output){
     html=html.replace(/discovery-tools\.js\?v=\d+/g,'discovery-tools.js?v=5');
     if(!html.includes('href="experience.css'))html=html.replace('</head>','<link rel="stylesheet" href="experience.css?v=6"></head>');
     html=html.replace(/experience\.css\?v=\d+/g,'experience.css?v=6');
-    if(!html.includes('href="decouverte.css'))html=html.replace('</head>','<link rel="stylesheet" href="decouverte.css?v=11"></head>');
-    html=html.replace(/decouverte\.css\?v=\d+/g,'decouverte.css?v=11');
+    if(!html.includes('href="decouverte.css'))html=html.replace('</head>','<link rel="stylesheet" href="decouverte.css?v=12"></head>');
+    html=html.replace(/decouverte\.css\?v=\d+/g,'decouverte.css?v=12');
     if(file==='histoire.html')html=html.replace('<section class="learning-catalog-guide wrap">','<section class="editorial-history-entry wrap"><h2>Les engins dans leur époque</h2><p>Deux récits de campagne pour relier matériels, décisions et conséquences humaines.</p><a href="histoire-malouines-1982.html">Les Malouines, 1982 →</a><a href="histoire-golfe-1991.html">La guerre du Golfe, 1990–1991 →</a></section><section class="learning-catalog-guide wrap">');
     if(file==='index.html'&&!html.includes('class="discovery-home wrap"'))html=html.replace('<section class="history-teaser"',homeBlock+'<section class="history-teaser"');
     const title=text(html.match(/<title>([\s\S]*?)<\/title>/)?.[1]),desc=html.match(/<meta name="description" content="([^"]*)"/)?.[1]||'Radar : défense, sécurité et géopolitique.';
