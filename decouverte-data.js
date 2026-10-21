@@ -74,7 +74,7 @@ window.RADAR_DISCOVERY_CONTENT={
   const tags=[['mer'],['technologies'],['air'],['mer']];
   C.guides.forEach((g,i)=>{g.categories=tags[i];g.level='Découverte';});
   C.guides.push(
-    {slug:'char-blinde-infanterie',title:'Char, blindé, VCI : comment les distinguer ?',theme:'Terre',categories:['terre'],level:'Découverte',fresh:true,engins:[0,109],visual:'armor',
+    {slug:'char-blinde-infanterie',title:'Char, blindé, VCI : comment les distinguer ?',theme:'Terre',categories:['terre'],level:'Découverte',fresh:true,engins:[0,109],visual:'',
       description:'Leclerc ou VBCI : partir de la mission et de la place de l’infanterie pour comprendre les familles de véhicules.',
       takeaway:'« Blindé » décrit une protection. Un char et un véhicule de combat d’infanterie sont tous deux blindés, mais ils ne remplissent pas le même rôle.',
       sections:[
