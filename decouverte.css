@@ -247,8 +247,11 @@ body:has(.discovery-article) .discovery-hero p{font-size:15px;line-height:1.85;m
 .discovery-main .learning-digest .learning-digest-date{font-size:12px;color:#52684b;line-height:1.8;margin-bottom:14px}
 .discovery-main .learning-digest .learning-digest-method{font-size:14px;color:#52684b;line-height:1.85;padding-left:17px;border-left:3px solid #bbccaf}
 .discovery-main .learning-digest .learning-digest-paragraph{font-size:17px;line-height:1.95;margin:24px 0}
-.discovery-main .learning-digest-paragraph q{quotes:'« ' ' »' '“' '”'}
-.discovery-main .learning-digest-paragraph a{text-underline-offset:4px;font-weight:650}
+.discovery-main .learning-digest-entry{margin:28px 0 32px}
+.discovery-main .learning-digest-entry blockquote{margin:0;padding:0;border:0;font-style:normal}
+.discovery-main .learning-digest-entry .learning-digest-paragraph{margin:0}
+.discovery-main .learning-digest-credit{margin-top:10px;font-size:12px;line-height:1.8;color:#52684b}
+.discovery-main .learning-digest-credit a{color:inherit;font-weight:500;text-underline-offset:4px}
 .discovery-main .learning-digest .learning-digest-notice{font-size:13px;line-height:1.8;color:#6d5a32;background:#fbf5e7;padding:14px 17px;border-radius:6px}
 .discovery-main .learning-live-fold{margin:26px 0 36px;border:1px solid #cbd8c2;border-radius:8px;padding:16px 20px;background:#f1f5eb}
 .discovery-main .learning-live-fold>summary{cursor:pointer;line-height:1.7;font-weight:650}
