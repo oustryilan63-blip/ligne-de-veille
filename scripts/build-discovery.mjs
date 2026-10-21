@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import {buildEditorial} from './build-editorial.mjs';
+import {validateConflictUpdates,conflictUpdateHTML} from './build-conflicts.mjs';
 import {learningVisual,learningFigure,learningQuiz,glossaryHTML,readingMinutes,learningHistory} from './build-learning.mjs';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const text=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
@@ -13,6 +14,7 @@ export function buildDiscovery(root,output){
   const base=new URL(process.env.RADAR_SITE_URL||'https://oustryilan63-blip.github.io/ligne-de-veille/');
   const absolute=href=>new URL(href,base).href;
   const news=JSON.parse(fs.readFileSync(path.join(root,'actualites.json'),'utf8'));
+  const conflicts=validateConflictUpdates(JSON.parse(fs.readFileSync(path.join(root,'conflits-actualites.json'),'utf8')));
   const indexTemplate=fs.readFileSync(path.join(output,'index.html'),'utf8');
   const header=indexTemplate.match(/<header\b[\s\S]*?<\/header>/)[0].replace(/ aria-current="page"/g,'');
   const footer=indexTemplate.match(/<footer\b[\s\S]*?<\/footer>/)[0].replace(/href="#(actualites|archives|methode)"/g,'href="index.html#$1"');
@@ -59,13 +61,15 @@ export function buildDiscovery(root,output){
   fs.writeFileSync(path.join(output,'comprendre.html'),shell('Comprendre la défense et la géopolitique',C.guides.length+' dossiers approfondis, des repères historiques, un lexique et des quiz pour comprendre la défense et la géopolitique.',hero('LES REPÈRES','Comprendre, simplement.','Les engins, leurs missions et le monde qui les entoure. Des explications accessibles, des photos et les sources pour aller plus loin.')+'<div class="discovery-main wrap"><nav class="learning-jump" aria-label="Dans cette rubrique"><a href="#par-ou-commencer">Pour débuter ↓</a><a href="#dossiers-historiques">Les dossiers historiques ↓</a><a href="#dossiers">Explorer les '+C.guides.length+' dossiers ↓</a><a href="#glossaire">Le lexique ↓</a><a href="#comparaisons">Comparer deux engins ↓</a></nav>'+editorial.hub+'<section id="dossiers" aria-labelledby="dossiers-title"><h2 id="dossiers-title">Une question, des repères.</h2><p>Des explications, l’histoire des idées et des programmes, puis des repères pour lire les actualités. Les trois questions finales sont facultatives.</p>'+filters+'<div class="discovery-grid">'+C.guides.map(guideCard).join('')+'</div></section>'+glossaryHTML(C)+'<section id="comparaisons"><h2>Deux engins, leurs différences</h2><p>Des comparaisons préparées, avec les variantes et les limites des chiffres.</p>'+presetLinks()+'<a class="button button-light" href="comparateur.html">Choisir ma comparaison →</a></section></div>'));
   for(const g of C.guides){
     const guideDate=new Intl.DateTimeFormat('fr-FR',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date((g.checkedAt||C.checkedAt)+'T12:00:00Z'));
+    const live=conflictUpdateHTML(conflicts,g.slug);
+    const sections=live?g.sections.map((s,i)=>i===0?{...s,title:'Point de référence du '+guideDate}:s):g.sections;
     const diagram='<div class="discovery-diagram" role="group" aria-label="Repères à retenir">'+g.diagram.map(([label,copy])=>'<div><strong>'+esc(label)+'</strong><span>'+esc(copy)+'</span></div>').join('')+'<small>Repères simplifiés. Les sources donnent le contexte et les précisions.</small></div>';
-    const toc='<nav class="learning-toc" aria-label="Sommaire du dossier"><strong>Dans ce dossier</strong><ol>'+g.sections.map((s,i)=>'<li><a href="#repere-'+(i+1)+'">'+esc(s.title)+'</a></li>').join('')+'</ol><a href="#contexte-historique">Le contexte historique ↓</a><br><a href="#quiz-title">Les trois questions ↓</a> · <a href="#sources">Les sources ↓</a></nav>';
+    const toc='<nav class="learning-toc" aria-label="Sommaire du dossier"><strong>Dans ce dossier</strong><ol>'+(live?'<li><a href="#suivi-conflit">Les publications récentes</a></li>':'')+sections.map((s,i)=>'<li><a href="#repere-'+(i+1)+'">'+esc(s.title)+'</a></li>').join('')+'</ol><a href="#contexte-historique">Le contexte historique ↓</a><br><a href="#quiz-title">Les trois questions ↓</a> · <a href="#sources">Les sources ↓</a></nav>';
     const next=C.guides.filter(other=>other!==g&&other.categories.some(category=>g.categories.includes(category))).slice(0,2);
     const further='<nav class="learning-further" aria-label="Continuer à comprendre"><h2>Pour continuer</h2>'+next.map(other=>'<a href="comprendre-'+other.slug+'.html">'+esc(other.title)+' →</a>').join('')+'<a href="comprendre.html#glossaire">Retrouver un sigle dans le lexique →</a><a href="index.html#actualites">Lire les actualités et leurs sources →</a></nav>';
-    const meta='<p class="learning-meta">'+readingMinutes(g)+' min de lecture · '+esc(g.level)+' · Vérifié le '+esc(guideDate)+'</p>';
+    const meta='<p class="learning-meta">'+readingMinutes(g)+' min de lecture · '+esc(g.level)+' · '+(live?'Contexte vérifié le ':'Vérifié le ')+esc(guideDate)+'</p>';
     const aside=g.engins.length?'<aside aria-label="Les engins en images">'+g.engins.slice(0,2).map(figure).join('')+'</aside>':'';
-    const body=hero(g.theme,g.title,g.description)+'<div class="discovery-main wrap"><a href="comprendre.html#dossiers">← Tous les dossiers</a>'+meta+'<div class="discovery-split'+(aside?'':' learning-full')+'"><article class="discovery-article"><div class="discovery-takeaway"><strong>À retenir</strong><br>'+esc(g.takeaway)+'</div>'+toc+(guidePhoto(g.photo)||learningFigure(g,ctx.window.LDV_MAP))+g.sections.map((s,i)=>'<section id="repere-'+(i+1)+'"><h2>'+esc(s.title)+'</h2><p>'+esc(s.text)+'</p>'+refs(g.sources,s.sources)+'</section>').join('')+learningHistory(g)+diagram+(g.engins.length?related(g.engins):'')+learningQuiz(g)+sources(g.sources,guideDate)+further+'</article>'+aside+'</div></div>';
+    const body=hero(g.theme,g.title,g.description)+'<div class="discovery-main wrap"><a href="comprendre.html#dossiers">← Tous les dossiers</a>'+meta+'<div class="discovery-split'+(aside?'':' learning-full')+'"><article class="discovery-article"><div class="discovery-takeaway"><strong>À retenir</strong><br>'+esc(g.takeaway)+'</div>'+toc+live+(guidePhoto(g.photo)||learningFigure(g,ctx.window.LDV_MAP))+sections.map((s,i)=>'<section id="repere-'+(i+1)+'"><h2>'+esc(s.title)+'</h2><p>'+esc(s.text)+'</p>'+refs(g.sources,s.sources)+'</section>').join('')+learningHistory(g)+diagram+(g.engins.length?related(g.engins):'')+learningQuiz(g)+sources(g.sources,guideDate)+further+'</article>'+aside+'</div></div>';
     fs.writeFileSync(path.join(output,'comprendre-'+g.slug+'.html'),shell(g.title,g.description,body));
   }
   const compareTemplate=fs.readFileSync(path.join(output,'comparateur.html'),'utf8');
@@ -91,8 +95,8 @@ export function buildDiscovery(root,output){
     html=html.replace(/discovery-tools\.js\?v=\d+/g,'discovery-tools.js?v=5');
     if(!html.includes('href="experience.css'))html=html.replace('</head>','<link rel="stylesheet" href="experience.css?v=6"></head>');
     html=html.replace(/experience\.css\?v=\d+/g,'experience.css?v=6');
-    if(!html.includes('href="decouverte.css'))html=html.replace('</head>','<link rel="stylesheet" href="decouverte.css?v=9"></head>');
-    html=html.replace(/decouverte\.css\?v=\d+/g,'decouverte.css?v=9');
+    if(!html.includes('href="decouverte.css'))html=html.replace('</head>','<link rel="stylesheet" href="decouverte.css?v=10"></head>');
+    html=html.replace(/decouverte\.css\?v=\d+/g,'decouverte.css?v=10');
     if(file==='histoire.html')html=html.replace('<section class="learning-catalog-guide wrap">','<section class="editorial-history-entry wrap"><h2>Les engins dans leur époque</h2><p>Deux récits de campagne pour relier matériels, décisions et conséquences humaines.</p><a href="histoire-malouines-1982.html">Les Malouines, 1982 →</a><a href="histoire-golfe-1991.html">La guerre du Golfe, 1990–1991 →</a></section><section class="learning-catalog-guide wrap">');
     if(file==='index.html'&&!html.includes('class="discovery-home wrap"'))html=html.replace('<section class="history-teaser"',homeBlock+'<section class="history-teaser"');
     const title=text(html.match(/<title>([\s\S]*?)<\/title>/)?.[1]),desc=html.match(/<meta name="description" content="([^"]*)"/)?.[1]||'Radar : défense, sécurité et géopolitique.';

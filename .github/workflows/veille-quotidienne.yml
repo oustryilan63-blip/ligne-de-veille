@@ -26,6 +26,11 @@ jobs:
       - name: Collecter les actualités et les images officielles
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python3 scripts/update-news.py
+      - name: Actualiser le suivi des trois dossiers de conflits
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: python3 scripts/update-conflicts.py
+      - name: Vérifier le suivi des dossiers
+        run: node scripts/check-conflicts.cjs
       - name: Valider et préparer les actualités
         run: node scripts/build-news.mjs
       - name: Vérifier le catalogue et ses photos
@@ -35,9 +40,9 @@ jobs:
         run: |
           git config user.name "Radar"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add actualites.json actualites.js
+          git add actualites.json actualites.js conflits-actualites.json
           if ! git diff --cached --quiet; then
-            git commit -m "Actualise la veille quotidienne"
+            git commit -m "Actualise les actualités et les dossiers de conflits"
             git push
           fi
       - name: Préparer les fichiers publics

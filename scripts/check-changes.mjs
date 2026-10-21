@@ -9,6 +9,7 @@ const suites = {
   core: ['check-discovery.cjs', 'check-catalog.mjs', 'check-feature-flows.cjs', 'check-radar-features.cjs', 'check-game-ui.cjs', 'check-game-content.cjs'],
   histoire: ['check-histoire-loading.cjs', 'check-histoire-photos.cjs', 'check-histoire-3d.cjs'],
   actualites: ['check-news-images.cjs', 'check-news-validation.mjs', 'check-news-process.cjs'],
+  conflits: ['check-conflicts.cjs'],
   qg: ['check-qg-game.cjs', 'check-qg-management.cjs', 'check-qg-combat.cjs', 'check-qg-development.cjs', 'check-qg-theater.cjs', 'check-qg-operations.cjs'],
   radar: ['check-radar-game.cjs', 'check-radar-geography.mjs'],
   publication: ['check-static-optimization.cjs', 'check-confiance.cjs'],
@@ -36,6 +37,7 @@ else for (const file of files) {
   addIf(/^alerte-radar|^assets\/radar|^map-data/, ['radar']);
   addIf(/^(?:engins-data|quiz-data|catalogue-tools|collection|comparateur|sauvegarde|progression|revision|quiz-settings|arcade|jeux|devine-engin|chrono-defense|defi-du-jour|vrai-ou-faux|zoom-mystere)/, ['core']);
   addIf(/^\.github\/|^scripts\/(?:build-site|optimize-static|public-files|check-)/, ['publication']);
+  addIf(/^(?:conflits-actualites\.json|\.github\/workflows\/veille-quotidienne\.yml)|^scripts\/(?:update-conflicts|build-conflicts|check-conflicts)/, ['conflits']);
   // Un fichier sans correspondance conserve les contrôles généraux.
   if (!matched) groups.add('core');
 }
