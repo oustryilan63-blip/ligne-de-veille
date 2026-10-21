@@ -1543,7 +1543,7 @@ window.RADAR_DISCOVERY_CONTENT={
     "checkedAt": "2026-10-21",
     "engins": [],
     "visual": "",
-    "description": "De la Crimée à l’invasion à grande échelle : les origines, les enjeux de souveraineté, les conséquences civiles et un point de situation daté.",
+    "description": "De l’indépendance aux accords de Minsk et à l’invasion à grande échelle : comprendre les acteurs, le soutien extérieur, les sanctions et les conséquences de la guerre.",
     "takeaway": "La guerre concerne la souveraineté de l’Ukraine, la sécurité européenne et la vie des populations. Une annonce de négociations doit être distinguée d’un cessez-le-feu effectivement appliqué.",
     "sources": [
       {
@@ -1565,6 +1565,22 @@ window.RADAR_DISCOVERY_CONTENT={
       {
         "label": "Associated Press — annonce russe sur une possible reprise des discussions, 21 octobre 2026",
         "url": "https://apnews.com/article/3f00c0c6fd10bab948c2c3f8502e0a91"
+      },
+      {
+        "label": "France Diplomatie — de la crise de 2013 aux accords de Minsk de 2014–2015",
+        "url": "https://www.diplomatie.gouv.fr/fr/le-ministere-en-action/promouvoir-une-europe-souveraine/dossiers-europeens/guerre-en-ukraine-l-action-diplomatique-de-la-france/comprendre-la-situation-en-ukraine-depuis-2014"
+      },
+      {
+        "label": "OTAN — histoire du partenariat avec l’Ukraine et organisation du soutien",
+        "url": "https://www.nato.int/en/what-we-do/partnerships-and-cooperation/relations-with-ukraine"
+      },
+      {
+        "label": "Conseil de l’UE — les différentes formes de soutien à l’Ukraine",
+        "url": "https://www.consilium.europa.eu/fr/policies/eu-solidarity-ukraine/"
+      },
+      {
+        "label": "Conseil de l’UE — objectifs et évolution des sanctions contre la Russie",
+        "url": "https://www.consilium.europa.eu/fr/policies/sanctions-against-russia/"
       }
     ],
     "sections": [
@@ -1581,6 +1597,21 @@ window.RADAR_DISCOVERY_CONTENT={
         "text": "L’enjeu territorial ne se limite pas au dessin d’une ligne sur une carte militaire. Il concerne l’indépendance de l’Ukraine et ses frontières internationalement reconnues. Les résolutions de l’Assemblée générale de l’ONU rappellent ces principes et condamnent l’agression russe. Il faut distinguer une zone contrôlée par une armée, une revendication politique et une frontière reconnue : ces trois informations n’ont pas le même sens. Une carte de contrôle territorial doit donc être lue avec sa date et sa légende, sans transformer une occupation en reconnaissance juridique.",
         "sources": [
           0
+        ]
+      },
+      {
+        "title": "Qui aide l’Ukraine, et à quoi sert ce soutien ?",
+        "text": "L’aide extérieure recouvre plusieurs besoins. Les livraisons de matériels et la formation visent la capacité de défense ; le soutien financier aide au fonctionnement de l’État ; les programmes humanitaires concernent les populations. L’Union européenne et ses États membres interviennent dans ces différents domaines. L’OTAN décrit aussi des mécanismes de coordination des équipements, de la formation et de la maintenance. Une livraison ne se réduit donc pas au nombre de véhicules annoncés : leur entretien et la préparation des personnels comptent dans la durée. Pour comprendre une décision d’aide, il est utile d’identifier son objectif, son calendrier et l’organisme qui la met en œuvre.",
+        "sources": [
+          7,
+          6
+        ]
+      },
+      {
+        "title": "Pourquoi parle-t-on aussi de sanctions ?",
+        "text": "Les sanctions constituent un autre instrument de la réponse européenne. Introduites dès 2014 puis fortement élargies après l’invasion de 2022, elles prennent notamment la forme de restrictions financières, commerciales et technologiques, ainsi que de mesures visant des personnes et des organisations. Le Conseil de l’UE les présente comme un moyen d’accroître le coût de la guerre et de limiter les ressources qui peuvent l’alimenter. Leur adoption ne provoque pas mécaniquement l’arrêt des combats. Elle ouvre aussi des questions d’application et de contournement : annoncer une mesure, la faire respecter et constater ses effets correspondent à trois étapes différentes.",
+        "sources": [
+          8
         ]
       },
       {
@@ -1607,12 +1638,26 @@ window.RADAR_DISCOVERY_CONTENT={
       }
     ],
     "history": {
-      "title": "2014 et 2022 : deux jalons indispensables",
+      "title": "De l’indépendance à l’invasion à grande échelle",
       "paragraphs": [
         {
-          "text": "En mars 2014, après la prise de contrôle de la Crimée par la Russie et l’organisation d’un référendum, l’Assemblée générale adopte la résolution 68/262. Elle réaffirme l’intégrité territoriale de l’Ukraine et considère que le référendum ne peut modifier le statut de la Crimée. Cette séquence précède l’invasion à grande échelle. Elle aide à comprendre pourquoi les débats actuels sur les territoires occupés s’inscrivent dans une histoire plus longue et dans des positions juridiques déjà exprimées aux Nations unies.",
+          "text": "Le 24 août 1991, l’Ukraine proclame son indépendance à l’égard de l’Union soviétique. Elle développe ensuite ses propres relations extérieures ; son partenariat avec l’OTAN commence la même année. Ce point de départ est essentiel : l’Ukraine est un État dont les choix politiques et diplomatiques appartiennent à sa propre histoire. Le conflit actuel engage donc sa souveraineté, et ne se comprend pas seulement comme une rivalité entre la Russie et les pays occidentaux.",
           "sources": [
+            6
+          ]
+        },
+        {
+          "text": "À la fin de 2013, la suspension du processus d’accord d’association avec l’Union européenne par le président Viktor Ianoukovitch provoque les manifestations d’Euromaïdan. La crise politique est suivie, en 2014, par la prise de contrôle puis l’annexion de la Crimée par la Russie et par le début du conflit dans le Donbass, à l’est du pays. L’Assemblée générale de l’ONU réaffirme l’intégrité territoriale ukrainienne dans la résolution 68/262. Ces événements expliquent pourquoi 2022 constitue un changement d’échelle de la guerre, plutôt que son unique point de départ.",
+          "sources": [
+            5,
             0
+          ]
+        },
+        {
+          "text": "Les accords de Minsk de septembre 2014 et de février 2015 cherchent à mettre fin aux combats dans le Donbass. Le processus associe des engagements de sécurité et un règlement politique concernant les zones contrôlées par les séparatistes. La France et l’Allemagne participent aux discussions avec l’Ukraine et la Russie dans le format dit « de Normandie » ; l’OSCE intervient dans le cadre du groupe de contact. Cette tentative de règlement n’empêche pas la poursuite des violences ni l’invasion de 2022. Elle aide à comprendre pourquoi une nouvelle annonce diplomatique soulève immédiatement la question des garanties et de l’application sur le terrain.",
+          "sources": [
+            5,
+            6
           ]
         },
         {
@@ -1715,7 +1760,7 @@ window.RADAR_DISCOVERY_CONTENT={
     "checkedAt": "2026-10-21",
     "engins": [],
     "visual": "",
-    "description": "Comprendre les autorités de Taipei, les revendications de Pékin, l’histoire diplomatique et les enjeux d’une crise suivie bien au-delà du détroit.",
+    "description": "De la guerre civile chinoise aux tensions actuelles : comprendre les positions de Pékin et de Taipei, le rôle américain, le statu quo et l’importance économique de l’île.",
     "takeaway": "Taïwan est administrée par ses propres autorités et revendiquée par Pékin. Les pressions, les exercices et les différends maritimes doivent être décrits précisément, sans annoncer une guerre comme inévitable.",
     "sources": [
       {
@@ -1741,6 +1786,10 @@ window.RADAR_DISCOVERY_CONTENT={
       {
         "label": "Département d’État américain, archives historiques — normalisation de 1979 et Taiwan Relations Act",
         "url": "https://history.state.gov/milestones/1977-1980/china-policy"
+      },
+      {
+        "label": "US Government Publishing Office — Taiwan Relations Act, §§ 3301 et 3302",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title22/html/USCODE-2024-title22-chap48.htm"
       }
     ],
     "sections": [
@@ -1767,18 +1816,34 @@ window.RADAR_DISCOVERY_CONTENT={
         ]
       },
       {
-        "title": "Les enjeux dépassent le face-à-face militaire",
-        "text": "Le dossier concerne aussi les liens commerciaux, les technologies, les échanges scientifiques et les populations. Les relations décrites par l’Union européenne comprennent des coopérations économiques et de recherche ; le discours présidentiel taïwanais souligne le rôle des industries technologiques, notamment des semi-conducteurs. Il faut attribuer cette dernière présentation à son auteur. Pour analyser une crise, on peut donc regarder les dépendances et les relations civiles autant que les moyens militaires. La photographie de Taipei rappelle qu’une ville et une société vivent derrière les formules de stratégie.",
+        "title": "Quel rôle jouent les États-Unis ?",
+        "text": "Après la normalisation diplomatique avec Pékin en 1979, les États-Unis conservent des relations non officielles avec Taïwan. Le Taiwan Relations Act prévoit la fourniture d’armements de nature défensive et inscrit un règlement pacifique de l’avenir de l’île dans la politique américaine. Il prévoit aussi que le président et le Congrès déterminent la réponse appropriée à une menace, selon les procédures constitutionnelles. Ce cadre éclaire les annonces de ventes d’armes et les déclarations de Washington. Il ne décrit pas une réaction militaire automatique et identique à toute crise : le contenu d’une déclaration doit être distingué du texte de la loi et de la décision effectivement prise.",
         "sources": [
-          1,
-          2
+          5,
+          6
         ]
       },
       {
-        "title": "Lire une alerte sans transformer une hypothèse en certitude",
-        "text": "Un signalement de garde-côtes, un exercice militaire, une déclaration et une opération de guerre ne décrivent pas le même événement. L’exemple des Pratas montre aussi que les lieux associés à Taïwan ne se trouvent pas tous dans le seul détroit. Avant de partager une alerte, vérifie sa date, le lieu nommé, l’auteur de l’observation et ce que la source affirme réellement. Une intention prêtée à un acteur reste une appréciation tant qu’elle n’est pas établie. Le suivi d’une crise gagne en clarté lorsqu’il conserve ces distinctions au lieu d’annoncer une échéance certaine.",
+        "title": "Le « statu quo », concrètement, qu’est-ce que cela signifie ?",
+        "text": "Dans ce dossier, le statu quo désigne le maintien de la situation existante sans modification imposée par la force. Taïwan reste administrée par ses propres autorités, tandis que le différend de souveraineté persiste. L’Union européenne soutient un règlement pacifique et rejette les menaces ou le recours à la force. Maintenir cette situation ne revient donc pas à avoir résolu le conflit politique. C’est chercher à éviter qu’il soit tranché par une contrainte militaire. Cette distinction permet de comprendre pourquoi des acteurs peuvent entretenir des relations pratiques avec Taipei, reconnaître diplomatiquement Pékin et demander en même temps la stabilité du détroit.",
         "sources": [
-          0
+          1
+        ]
+      },
+      {
+        "title": "Pourquoi les semi-conducteurs attirent-ils autant l’attention ?",
+        "text": "Les semi-conducteurs sont les composants électroniques au cœur des puces utilisées dans de nombreux équipements. Taïwan occupe une place majeure dans cette industrie, comme le souligne le service diplomatique européen. Les échanges avec l’île concernent aussi la recherche, les technologies numériques et les chaînes de production internationales. Une crise toucherait donc potentiellement des entreprises et des consommateurs éloignés du détroit. Cela aide à comprendre l’attention portée à Taïwan en Europe. Cette importance économique ne suffit toutefois pas à expliquer toute la tension : le désaccord politique et l’histoire des relations entre les deux rives précèdent l’essor de l’industrie des puces.",
+        "sources": [
+          1,
+          3
+        ]
+      },
+      {
+        "title": "Patrouille, exercice, embargo : des événements différents",
+        "text": "Une patrouille signale une présence ; un exercice est une activité d’entraînement ; un embargo cherche à restreindre certains échanges. Ces mots ne sont pas interchangeables. Le Taiwan Relations Act mentionne les boycotts et les embargos parmi les moyens non pacifiques susceptibles de menacer l’avenir de l’île : la tension ne se limite donc pas à l’hypothèse d’un débarquement. Dans l’exemple des Pratas rapporté en octobre 2026, il faut aussi distinguer cet atoll de l’île principale de Taïwan. Pour comprendre une alerte, commence par le lieu et l’action réellement décrits. L’intention prêtée à un acteur ne constitue pas, à elle seule, une opération constatée.",
+        "sources": [
+          0,
+          6
         ]
       }
     ],
@@ -1798,6 +1863,14 @@ window.RADAR_DISCOVERY_CONTENT={
             4,
             5,
             2
+          ]
+        },
+        {
+          "text": "Ces étapes ont laissé plusieurs niveaux de relations qui coexistent encore dans les débats : la représentation de la Chine à l’ONU, la reconnaissance diplomatique par les États et les relations pratiques avec Taïwan. Une évolution dans l’un de ces domaines n’entraîne pas nécessairement un changement dans les autres. Le cadre américain de 1979 illustre cette distinction, puisqu’il permet la poursuite des liens avec les habitants et les autorités de l’île après le changement de reconnaissance diplomatique. C’est cette histoire qui donne leur sens aux formules très précises employées dans les communiqués actuels.",
+          "sources": [
+            4,
+            5,
+            6
           ]
         }
       ]
@@ -1893,7 +1966,7 @@ window.RADAR_DISCOVERY_CONTENT={
     "checkedAt": "2026-10-21",
     "engins": [],
     "visual": "",
-    "description": "Israël et Palestine, Liban, Iran, Yémen : situer les principaux acteurs, les liens régionaux et les enjeux civils, avec un point de situation daté.",
+    "description": "Les racines du conflit israélo-palestinien, le cadre libanais et les tensions maritimes : des explications pour comprendre comment ces crises se croisent et affectent les populations.",
     "takeaway": "La région rassemble plusieurs conflits avec leurs acteurs, leurs histoires et leurs négociations. Une accalmie sur un théâtre ne signifie pas que tous les autres sont apaisés.",
     "sources": [
       {
@@ -1919,6 +1992,14 @@ window.RADAR_DISCOVERY_CONTENT={
       {
         "label": "Reuters, repris par le Jerusalem Post — développements et signalement maritime, 21 octobre 2026",
         "url": "https://www.jpost.com/middle-east/iran-news/2026-10-20/live-updates-912229"
+      },
+      {
+        "label": "Conseil de l’UE — attaques en mer Rouge et lancement de l’opération défensive ASPIDES, février 2024",
+        "url": "https://www.consilium.europa.eu/fr/press/press-releases/2024/02/19/security-and-freedom-of-navigation-in-the-red-sea-council-launches-new-eu-defensive-operation/"
+      },
+      {
+        "label": "CICR — protection des civils et interdépendance des services essentiels au Moyen-Orient",
+        "url": "https://www.icrc.org/fr/article/faq-droit-international-humanitaire-escalade-conflit-moyen-orient"
       }
     ],
     "sections": [
@@ -1939,6 +2020,15 @@ window.RADAR_DISCOVERY_CONTENT={
         ]
       },
       {
+        "title": "Pourquoi un cessez-le-feu ne règle-t-il pas tout ?",
+        "text": "Arrêter les tirs peut permettre de sauver des vies et d’améliorer l’accès aux secours, mais ne résout pas à lui seul les questions politiques. Le processus d’Oslo de 1993 reposait sur des arrangements intérimaires, en reportant plusieurs dossiers de fond à des négociations ultérieures. Les frontières, le statut de Jérusalem et la question des réfugiés demeurent des éléments centraux de l’histoire du conflit. Cette distinction entre urgence et règlement durable aide à lire les discussions actuelles : une mesure sur l’aide humanitaire, une libération d’otages et une négociation politique peuvent avancer à des rythmes différents. Leurs effets doivent être appréciés séparément.",
+        "sources": [
+          2,
+          0,
+          1
+        ]
+      },
+      {
         "title": "Le Liban possède sa propre histoire de conflit",
         "text": "Le cadre libanais implique notamment l’État libanais, Israël et le Hezbollah. La résolution 1701 du Conseil de sécurité, adoptée en 2006, demande une cessation des hostilités et traite du déploiement de l’armée libanaise et de la FINUL dans le Sud. C’est un repère historique et diplomatique, dont l’existence ne démontre pas automatiquement le respect sur le terrain. Les annonces concernant Gaza ne modifient pas à elles seules la situation au Liban. Pour lire une négociation, il faut regarder les parties concernées, le territoire couvert et les engagements précis.",
         "sources": [
@@ -1954,9 +2044,24 @@ window.RADAR_DISCOVERY_CONTENT={
         ]
       },
       {
+        "title": "Pourquoi les attaques en mer concernent-elles d’autres pays ?",
+        "text": "La mer Rouge, le golfe d’Aden et les détroits voisins sont des espaces de circulation internationale. Des navires marchands peuvent donc être exposés à des attaques alors même que leur équipage ou leur destination n’appartiennent pas aux parties directement engagées dans un conflit terrestre. En février 2024, l’Union européenne lance l’opération ASPIDES pour contribuer à protéger la navigation face aux attaques houthistes. Son mandat initial prévoit la surveillance de la situation, l’accompagnement et la protection des navires en mer. Ce précédent explique la présence de marines extérieures à la région. Il faut distinguer cette mission défensive d’une opération de frappes à terre ou d’un accord politique sur le Yémen.",
+        "sources": [
+          6
+        ]
+      },
+      {
         "title": "Les conséquences civiles ont leur propre calendrier",
         "text": "Le rapport OCHA sur la période du 29 septembre au 12 octobre décrit à Gaza des difficultés d’abri, d’alimentation, d’accès à l’eau et de fonctionnement des services de santé. Il traite aussi séparément de la Cisjordanie, notamment des violences, des démolitions et des restrictions d’accès. Une baisse de certains combats ne répare pas immédiatement un logement, un réseau d’eau ou un système de soins. Les chiffres cités dans un rapport doivent conserver leur période et leur attribution : un bilan transmis par une autorité et un nombre de cas vérifiés par l’ONU ne relèvent pas nécessairement de la même méthode.",
         "sources": [
+          1
+        ]
+      },
+      {
+        "title": "Pourquoi les effets humanitaires durent-ils après les frappes ?",
+        "text": "Un hôpital a besoin d’eau, d’électricité, de personnel et de fournitures pour fonctionner. Une station de pompage dépend elle aussi de l’énergie ; sans eau ou sans assainissement, les risques sanitaires augmentent. Le CICR décrit ces effets en cascade : les conséquences d’une destruction peuvent s’étendre au-delà du lieu touché et durer bien après l’attaque. Cela explique pourquoi un rapport humanitaire ne se limite pas au nombre de bâtiments détruits. Il examine aussi les services disponibles, l’accès aux secours et les conditions de vie. Les règles de protection des civils et des infrastructures essentielles restent applicables à toutes les parties au conflit.",
+        "sources": [
+          7,
           1
         ]
       }
@@ -1966,6 +2071,12 @@ window.RADAR_DISCOVERY_CONTENT={
       "paragraphs": [
         {
           "text": "En 1947, l’ONU propose un partage de la Palestine sous mandat britannique en deux États, avec un statut international pour Jérusalem. La proclamation d’Israël en 1948 et la guerre qui suit s’accompagnent d’un exode massif de Palestiniens. En 1967, Israël occupe notamment la Cisjordanie, Jérusalem-Est et Gaza. Ces jalons expliquent la place des questions de territoire et de réfugiés dans les négociations. Ils ne résument cependant ni toutes les sociétés de la région ni les histoires du Liban, de l’Iran ou du Yémen.",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "text": "En 1993, Israël et l’Organisation de libération de la Palestine se reconnaissent mutuellement dans le cadre du processus d’Oslo. Les accords ouvrent la voie à une administration palestinienne et à des arrangements transitoires, sans régler immédiatement l’ensemble des questions de souveraineté. Les négociations ultérieures n’aboutissent pas à un accord définitif. Ce passage de l’histoire est utile pour comprendre les mots « processus de paix » : ils désignent une succession de discussions et de mesures, pas l’existence d’une paix déjà acquise. L’Autorité palestinienne, les différents groupes armés et les populations doivent ensuite être distingués dans chaque événement rapporté.",
           "sources": [
             2
           ]
