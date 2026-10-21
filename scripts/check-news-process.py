@@ -3,6 +3,13 @@ import concurrent.futures
 import io
 import threading
 import unittest
+from unittest import mock
+import contextlib
+import datetime as dt
+import importlib.util
+import json
+from pathlib import Path
+import tempfile
 
 from news_http import NewsHTTP
 from news_images import find_article_image
@@ -32,6 +39,35 @@ class FakeResponse:
 
 
 class NewsProcessTests(unittest.TestCase):
+    def test_unverified_new_links_keep_articles_and_allow_dossiers(self):
+        spec = importlib.util.spec_from_file_location('news_update_regression', Path(__file__).with_name('update-news.py'))
+        news = importlib.util.module_from_spec(spec); spec.loader.exec_module(news)
+        temporary_root = Path(__file__).resolve().parent.parent / 'test-results'
+        temporary_root.mkdir(exist_ok=True)
+        with tempfile.TemporaryDirectory(dir=temporary_root) as folder:
+            root = Path(folder)
+            self.assertEqual(root.resolve().parent, temporary_root.resolve())
+            (root/'scripts').mkdir()
+            sources = [{'name':'Officiel','type':'Source officielle'}, {'name':'Presse','type':'Presse spécialisée'}]
+            (root/'scripts/news-sources.json').write_text(json.dumps(sources),encoding='utf-8')
+            stamp = dt.datetime.now(dt.timezone.utc).isoformat()
+            old = {'title':'Publication déjà vérifiée','url':'https://example.test/old','date':stamp[:10],'publishedAt':stamp,'source':'Presse'}
+            candidate = {**old,'title':'Lien momentanément inaccessible','url':'https://example.test/new'}
+            output = root/'actualites.json'
+            output.write_text(json.dumps({'items':[old]}),encoding='utf-8')
+            with mock.patch.object(news,'ROOT',root), mock.patch.object(news,'collect',side_effect=lambda s,n:(s,[candidate],None)), mock.patch.object(news,'verify_link',return_value=False), mock.patch.object(news,'enrich_images'), contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+                news.main()
+            result = json.loads(output.read_text(encoding='utf-8'))
+            self.assertEqual(result['items'],[old])
+            self.assertEqual(result['automation']['newItems'],0)
+            self.assertTrue(result['checkedAt'])
+            self.assertTrue(all(s['ok'] for s in result['automation']['sources']))
+            # A genuinely insufficient feed collection must still stop before writing.
+            before = output.read_text(encoding='utf-8')
+            with mock.patch.object(news,'ROOT',root), mock.patch.object(news,'collect',side_effect=lambda s,n:(s,[],None if s['name']=='Presse' else 'timeout')), contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+                with self.assertRaises(RuntimeError): news.main()
+            self.assertEqual(output.read_text(encoding='utf-8'),before)
+
     def test_same_image_and_credit_with_one_article_download(self):
         article = 'https://www.opex360.com/2026/10/14/example/'
         image = 'https://www.opex360.com/wp-content/uploads/example.jpg'

@@ -188,7 +188,8 @@ def main():
         if valid and item['url'].rstrip('/') not in urls:
             additions.append(item); urls.add(item['url'].rstrip('/'))
         elif not valid: print('Lien non vérifié, publication ignorée : '+item['url'],file=sys.stderr)
-    if candidates and not additions: raise RuntimeError('Aucun nouveau lien vérifiable : conservation de la dernière version.')
+    if candidates and not additions:
+        print('::warning::Aucun nouveau lien vérifiable : les articles existants sont conservés. La collecte et les dossiers peuvent continuer.', file=sys.stderr)
     stored['items'].extend(additions)
     enrich_images(stored['items'])
     stored['items'].sort(key=lambda item:(item['date'],item.get('publishedAt','')),reverse=True)
