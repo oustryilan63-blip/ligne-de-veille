@@ -37,7 +37,7 @@ else for (const file of files) {
   addIf(/^alerte-radar|^assets\/radar|^map-data/, ['radar']);
   addIf(/^(?:engins-data|quiz-data|catalogue-tools|collection|comparateur|sauvegarde|progression|revision|quiz-settings|arcade|jeux|devine-engin|chrono-defense|defi-du-jour|vrai-ou-faux|zoom-mystere)/, ['core']);
   addIf(/^\.github\/|^scripts\/(?:build-site|optimize-static|public-files|check-)/, ['publication']);
-  addIf(/^(?:conflits-actualites\.json|\.github\/workflows\/veille-quotidienne\.yml)|^scripts\/(?:update-conflicts|build-conflicts|check-conflicts)/, ['conflits']);
+  addIf(/^(?:conflits-actualites\.json|\.github\/workflows\/veille-quotidienne\.yml)|^scripts\/(?:update-conflicts|build-conflicts|check-conflict|conflict[_-])/, ['conflits']);
   // Un fichier sans correspondance conserve les contrôles généraux.
   if (!matched) groups.add('core');
 }

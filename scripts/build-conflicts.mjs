@@ -21,8 +21,29 @@ export function validateConflictUpdates(data) {
           typeof item.title !== 'string' || !item.title.trim() || !item.source || seen.has(item.url)) throw Error('Publication invalide : ' + slug);
       seen.add(item.url);
     }
+    const digest = topic.digest;
+    if (!digest || digest.method !== 'publisher-excerpts' || !validDate(digest.checkedAt) ||
+        !['updated','unchanged','retained','empty'].includes(digest.status) || !Array.isArray(digest.sources) ||
+        !Array.isArray(digest.paragraphs) || digest.paragraphs.length > 3 ||
+        (digest.paragraphs.length && !validDate(digest.updatedAt))) throw Error('Résumé de dossier invalide : ' + slug);
+    for (const paragraph of digest.paragraphs) {
+      const url = new URL(paragraph.url);
+      if (url.protocol !== 'https:' || url.username || url.password || !validDate(paragraph.publishedAt) ||
+          Date.parse(paragraph.publishedAt) > Date.parse(digest.checkedAt) + 300000 ||
+          !paragraph.source || !paragraph.title || typeof paragraph.text !== 'string' ||
+          paragraph.text.trim().split(/\s+/).length > 25 || paragraph.text.trim().split(/\s+/).length < 8) throw Error('Paragraphe non sourcé ou trop long : ' + slug);
+    }
   }
   return data;
+}
+
+export function conflictDigestHTML(data, slug) {
+  if (!conflictSlugs.includes(slug)) return '';
+  const digest = data.topics[slug].digest;
+  const intro = '<p class="learning-digest-method">Courts extraits des résumés publiés par les sources, assemblés automatiquement à 8 h et 18 h. Chaque événement garde la date de sa publication.</p>';
+  const status = digest.status === 'retained' ? '<p class="learning-digest-notice">Aucun nouveau résumé exploitable n’a été recueilli lors du dernier passage. Le dernier texte sourcé est conservé ci-dessous avec ses dates.</p>' : '';
+  const paragraphs = digest.paragraphs.map(p => '<p class="learning-digest-paragraph">Le <time datetime="' + esc(p.publishedAt) + '">' + esc(date(p.publishedAt)) + '</time>, <a href="' + esc(p.url) + '" target="_blank" rel="noopener noreferrer">' + esc(p.source) + '</a> publiait <q>' + esc(p.title) + '</q>. Son résumé précise : <q>' + esc(p.text) + '</q></p>').join('');
+  return '<section id="situation-recente" class="learning-digest" aria-labelledby="situation-recente-title"><h2 id="situation-recente-title">Les derniers événements rapportés</h2><p class="learning-digest-date">' + (digest.updatedAt ? 'Texte actualisé le <time datetime="' + esc(digest.updatedAt) + '">' + esc(date(digest.updatedAt, true)) + '</time> · ' : '') + 'Collecte contrôlée le <time datetime="' + esc(digest.checkedAt) + '">' + esc(date(digest.checkedAt, true)) + '</time>.</p>' + intro + status + (paragraphs || '<p>Aucun résumé récent exploitable n’est disponible pour ce dossier. Le contexte de référence reste consultable ci-dessous.</p>') + (digest.sources.some(s => !s.ok) ? '<p class="learning-digest-notice">Certaines sources de résumés étaient indisponibles : ' + digest.sources.filter(s => !s.ok).map(s => esc(s.source)).join(', ') + '.</p>' : '') + '</section>';
 }
 
 export function conflictUpdateHTML(data, slug, now = new Date()) {
