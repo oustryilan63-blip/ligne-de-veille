@@ -82,6 +82,8 @@ export function buildDiscovery(root,output){
     if(!html.includes('class="header-search"'))html=html.replace('<div class="header-actions">','<div class="header-actions"><a class="header-search" href="recherche.html" aria-label="Rechercher sur tout Radar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10" cy="10" r="6.5"></circle><path d="m15 15 6 6"></path></svg><span>Rechercher</span></a>');
     if(!html.includes('src="discovery-tools.js'))html=html.replace('<head>','<head><script src="discovery-tools.js?v=5" defer></script>');
     html=html.replace(/discovery-tools\.js\?v=\d+/g,'discovery-tools.js?v=5');
+    if(!html.includes('href="experience.css'))html=html.replace('</head>','<link rel="stylesheet" href="experience.css?v=6"></head>');
+    html=html.replace(/experience\.css\?v=\d+/g,'experience.css?v=6');
     if(!html.includes('href="decouverte.css'))html=html.replace('</head>','<link rel="stylesheet" href="decouverte.css?v=7"></head>');
     html=html.replace(/decouverte\.css\?v=\d+/g,'decouverte.css?v=7');
     if(file==='histoire.html')html=html.replace('<section class="learning-catalog-guide wrap">','<section class="editorial-history-entry wrap"><h2>Les engins dans leur époque</h2><p>Deux récits de campagne pour relier matériels, décisions et conséquences humaines.</p><a href="histoire-malouines-1982.html">Les Malouines, 1982 →</a><a href="histoire-golfe-1991.html">La guerre du Golfe, 1990–1991 →</a></section><section class="learning-catalog-guide wrap">');
