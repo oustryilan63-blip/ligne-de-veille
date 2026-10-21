@@ -158,3 +158,121 @@ body:has(.home-direct)>.site-header,body.games-hub-page>.site-header,body:has(#h
 }
 @media(max-width:420px){.daily-home.has-photo{grid-template-columns:minmax(100px,.8fr) minmax(0,1.2fr)}.daily-home-copy{padding:15px}.daily-home h2{font-size:23px}.daily-home .button{font-size:11px;padding-inline:10px}.home-actions{gap:10px}.home-actions .button{padding-inline:15px}.news-section #news-grid>.news-entry{padding:15px}}
 @media(prefers-reduced-motion:reduce){.news-section #news-grid>.news-entry,.games-hub .game-tile{transition:none}.games-hub .game-tile:hover,.games-hub .game-tile:focus-visible{transform:none}}
+
+/* Radar — une même présentation éditoriale dans les quatre rubriques. */
+:root{--radar-surface:#fffef9;--radar-border:#d4dace;--radar-shadow:0 8px 28px #1b33230a}
+body{background:#f0f1eb}
+.site-header{border-bottom-color:#d5dbd1}
+.site-header .brand-name{letter-spacing:.12em}
+.site-header .main-nav a{border-radius:7px;font-size:14px}
+.site-header .main-nav a[aria-current=page]{background:#e9eee3;color:#8d432e}
+.site-header .main-nav a:after{bottom:5px;height:2px}
+.header-search{border-color:#d5dbd1;background:#f6f8f0;border-radius:7px}
+.header-search:hover{background:#e9eee3}
+body .button{border-radius:7px;box-shadow:0 2px 3px #10221a06}
+
+/* Les cercles sont purement décoratifs : aucun élément animé ou média ajouté. */
+.home-direct,.games-hub-page .game-intro,.history-hero,body .discovery-hero{position:relative;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse at 100% 0,#405c48 0,transparent 64%),#20372d;border-bottom:3px solid #b87754}
+.home-direct:after,.games-hub-page .game-intro:after,.history-hero:after,body .discovery-hero:after{content:'';position:absolute;z-index:-1;pointer-events:none;width:470px;height:470px;right:-100px;top:-160px;border:1px solid #dce5d415;border-radius:50%;box-shadow:0 0 0 65px #dce5d406,0 0 0 66px #dce5d40b,0 0 0 135px #dce5d403,0 0 0 136px #dce5d40a}
+.home-direct{padding:62px 0 58px}
+.home-direct .wrap{gap:48px;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}
+.home-direct h1{font:700 clamp(46px,5.1vw,72px)/1.02 var(--serif);letter-spacing:-.025em;margin:22px 0}
+.home-direct h1 em{font-style:normal;font-weight:600;color:#e7c8a9}
+.home-direct p{font-size:16px;line-height:1.8;max-width:57ch;color:#dce5d6}
+.home-direct .eyebrow{font-size:10px;line-height:1.8;max-width:100%}
+.home-actions{margin-top:27px;gap:14px}
+.home-direct .daily-home{border:1px solid #f0f2e3;border-radius:14px;background:#f4f4eb;box-shadow:0 18px 45px #091c2333;color:#263b31}
+.home-direct .daily-home-copy{padding:26px 22px}
+.home-direct .daily-home .eyebrow{color:#885033;font-size:9px}
+.home-direct .daily-home h2{font:700 clamp(25px,2.5vw,34px)/1.1 var(--serif);letter-spacing:-.02em;margin:13px 0}
+.home-direct .daily-home p{font-size:13px;line-height:1.7;color:#52634f}
+.home-direct .daily-home .button-light{background:#2b4335;border-color:#2b4335;color:#fffef7}
+.home-direct .daily-home .button-light:hover{background:#3d5944}
+.home-direct .daily-home .daily-progress-link{color:#40573d}
+.home-direct .daily-home-visual{background:#e5e9dc}
+.home-direct .daily-home-visual img{max-height:none;min-height:245px}
+.home-direct .daily-home-visual figcaption{background:#e5e9dc;color:#43583f;padding:10px 12px;font-size:9px}
+
+.news-section{background:#fafbf6}
+.news-section .news-heading{margin-bottom:28px}
+.news-section .news-heading h2{font-size:clamp(36px,4vw,54px);line-height:1.08}
+.news-section #news-grid>.news-entry{background:var(--radar-surface);border-color:var(--radar-border);border-radius:12px;box-shadow:var(--radar-shadow)}
+.news-section #news-grid .news-entry .news-media{border-radius:8px}
+.news-section #news-grid .news-entry:hover{border-color:#a6b99c;box-shadow:0 8px 24px #243b2d0e}
+.home-shortcuts{padding-top:38px;padding-bottom:38px;gap:24px}
+.home-shortcuts a{background:var(--radar-surface);border-color:var(--radar-border);border-radius:12px;padding:30px;border-top:3px solid #b87754;box-shadow:var(--radar-shadow)}
+.home-shortcuts a>span:first-child{font:500 10px/1.7 var(--mono);color:#8c5139;letter-spacing:.04em}
+.home-shortcuts strong{font:600 29px/1.2 var(--serif);margin:14px 0}
+.home-shortcuts a>span:last-child{color:#5a6b56;line-height:1.8}
+
+.games-hub-page main>.game-intro{padding:46px 0 0}
+.games-hub-page main>.game-intro h1{font:700 clamp(46px,5.4vw,76px)/1.04 var(--serif);margin:24px 0 20px}
+.games-hub-page .game-intro> .wrap>p{max-width:77ch;line-height:1.8;color:#dce5d6}
+.games-hub-page .game-intro-foot{padding:23px 0;margin-top:28px;border-color:#b5c6ae55;line-height:1.7;gap:20px}
+.games-hub .games-hub-intro{padding-bottom:22px;margin-bottom:22px;border-bottom-color:#d4dace}
+.games-hub .game-tile:nth-child(n){background:var(--radar-surface);border-color:var(--radar-border);border-radius:14px;box-shadow:var(--radar-shadow)}
+.games-hub .game-tile-photo{height:205px;margin-bottom:22px}
+.games-hub .game-tile strong{font-size:32px;line-height:1.15;margin:16px 0}
+.games-hub .game-tile-meta{gap:8px;flex-wrap:wrap}
+.games-hub .game-tile-meta>span{background:#edf1e6;padding:5px 8px;border-radius:4px;color:#4b6346;font-size:11px}
+.games-hub .game-tile-arrow{display:flex;align-items:center;justify-content:space-between;width:100%;padding-top:18px;border-top:1px solid #dde3d5;color:#8d4d32;font-size:14px;font-weight:600}
+.games-hub .game-tile-arrow>span{font-size:22px}
+.games-start,.progress-records article,.progress-summary>div{border-radius:10px}
+
+.history-hero{padding-top:50px}
+.history-hero h1{font-size:clamp(50px,6.3vw,84px);line-height:1.03;margin:23px 0}
+.history-hero h1 em{color:#e7c8a9}
+.history-hero p{max-width:65ch;line-height:1.8;margin-bottom:38px}
+.history-hero-foot{padding:22px 0;border-color:#b5c6ae55}
+.history-grid{gap:24px}
+.history-card-shell .history-card{border-color:var(--radar-border);border-radius:12px;background:var(--radar-surface);box-shadow:var(--radar-shadow)}
+.history-card .history-card-copy{padding:23px 24px 25px}
+.history-card .history-card-title strong{font-size:29px;line-height:1.14}
+.history-card .history-card-country{padding-top:12px;margin-top:15px;border-top:1px solid #e3e7dc;line-height:1.7}
+.history-card .history-card-kicker{font-size:10px;color:#8c5139}
+.history-detail .history-cover,.history-detail .history-timeline,.history-detail .history-3d{border-radius:12px}
+
+body .discovery-hero{padding:54px 0}
+body .discovery-hero h1{font:700 clamp(44px,5.3vw,72px)/1.06 var(--serif);letter-spacing:-.025em;margin:24px 0}
+body .discovery-hero p{line-height:1.8;color:#dce5d6}
+body .discovery-card{background:var(--radar-surface);border-color:var(--radar-border);border-radius:12px;box-shadow:var(--radar-shadow)}
+body .discovery-card-copy{padding:26px 28px}
+body .discovery-card h3{font:600 29px/1.2 var(--serif);letter-spacing:-.015em;margin:13px 0 16px}
+body .discovery-card p{font-size:15px;line-height:1.8;color:#52634f}
+body .learning-paths article,body .editorial-card{border-radius:12px;background:var(--radar-surface);border-color:var(--radar-border);box-shadow:var(--radar-shadow)}
+body .learning-filters,body .learning-glossary,body .learning-catalog-guide details,body .atlas-fold{border-radius:10px;border-color:#cbd6c2}
+.site-footer{background:#1c3028;border-top:3px solid #b87754}
+.footer-main{padding-top:55px;padding-bottom:55px;gap:40px}
+.site-footer .footer-links{gap:clamp(28px,5vw,90px)}
+.site-footer .footer-links strong{color:#e1b38f;letter-spacing:.1em}
+.site-footer .footer-links a,.site-footer .footer-links span,.site-footer .footer-main p{color:#c6d3bf;line-height:1.7}
+.site-footer .footer-bottom{border-color:#c7d5bd2b;color:#b3c4ac;line-height:1.7}
+
+@media(max-width:1000px){
+ .home-direct .wrap{gap:30px;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)}
+ .home-direct h1{font-size:clamp(43px,5.5vw,58px)}
+ .home-direct .daily-home-copy{padding:20px 17px}
+ .site-footer .footer-links{gap:28px}.site-footer .footer-links>div{min-width:120px}
+}
+@media(max-width:760px){
+ .home-direct{padding:36px 0}.home-direct .wrap{grid-template-columns:1fr;gap:28px}
+ .home-direct h1{font-size:clamp(43px,8.7vw,64px);max-width:650px;margin:20px 0}
+ .home-direct p{font-size:15px;line-height:1.8}.home-direct .eyebrow{font-size:9px}
+ .home-direct .daily-home{max-width:600px;width:100%}
+ .home-direct .daily-home-visual img{min-height:205px}
+ .home-direct .daily-home-copy{padding:22px}
+ .home-shortcuts a{padding:24px}.home-shortcuts strong{font-size:27px}
+ .games-hub-page main>.game-intro{padding-top:34px}.games-hub-page main>.game-intro h1{font-size:clamp(43px,8vw,60px)}
+ .games-hub .game-tile-photo{height:190px}.games-hub .game-tile strong{font-size:29px}
+ .history-hero{padding-top:35px}.history-hero h1{font-size:clamp(46px,9vw,68px)}
+ .history-grid{gap:18px}.history-card .history-card-copy{padding:21px}
+ body .discovery-hero{padding:36px 0}body .discovery-hero h1{font-size:clamp(40px,8vw,58px)}
+ body .discovery-card-copy{padding:22px}body .discovery-card h3{font-size:27px}
+ .footer-main{display:block}.site-footer .footer-links{margin-top:35px;gap:24px;flex-wrap:wrap}.site-footer .footer-links>div{min-width:120px;flex:1}
+}
+@media(max-width:420px){
+ .home-direct .daily-home-copy{padding:18px 14px}.home-direct .daily-home h2{font-size:27px}
+ .home-direct .daily-home p{font-size:12px}.home-direct .daily-home-visual img{min-height:220px}
+ .games-hub .game-tile strong{font-size:28px}.history-card .history-card-title strong{font-size:27px}
+ .games-hub-page .game-intro-foot{align-items:flex-start;flex-direction:column;gap:12px}
+}
