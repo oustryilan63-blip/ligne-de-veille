@@ -170,3 +170,685 @@ window.RADAR_DISCOVERY_CONTENT={
   const C=window.RADAR_DISCOVERY_CONTENT,R={"tanks":["The Tank Museum — premiers chars à Flers, 1916","https://tankmuseum.org/article/tanks-at-flers"],"vbci":["Assemblée nationale — premières livraisons du VBCI, rapport budgétaire 2010","https://www.assemblee-nationale.fr/13/pdf/budget/plf2010/a1972-tvii.pdf"],"xlr":["DGA — développement et prototype du Leclerc XLR","https://www.defense.gouv.fr/dga/actualites/dga-notifie-commande-cinquante-chars-leclerc-renoves"],"sonar":["CNRS Le journal — travaux de Langevin et essais de 1917","https://lejournal.cnrs.fr/billets/les-scientifiques-entre-tranchees-et-paillasses"],"radar":["RAF Museum — aviation militaire britannique en 1935","https://www.rafmuseum.org.uk/research/research-enquiries/history-of-aviation-timeline/british-military-aviation/1935-2/"],"dowding":["RAF Museum — radar et système de contrôle pendant la bataille d’Angleterre","https://www.rafmuseum.org.uk/research/online-exhibitions/history-of-the-battle-of-britain/how-radar-works"],"langley":["Naval History and Heritage Command — histoire de l’USS Langley","https://www.history.navy.mil/browse-by-topic/ships/aircraft-carriers/uss-langley.html"],"cdg":["Marine nationale — admission au service actif du Charles de Gaulle","https://www.defense.gouv.fr/marine/actualites/25-ans-service-particulierement-actifs-porte-avions-charles-gaulle"],"bug":["National Museum of the US Air Force — le Kettering Bug","https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198095/kettering-aerial-torpedo-bug/lang/kettering-aerial-torpedo-bug/"],"predator":["National Museum of the US Air Force — histoire du Predator","https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196333/general-atomics-aeronautical-systems-rq-1-predator/"],"reaper":["US Air Force — fiche du MQ-9 Reaper","https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104470/mq9-reaper/mq-9-reaper/"],"founding":["OTAN — le traité fondateur de 1949","https://nato.int/fr/about-us/organization/founding-treaty"],"csdp":["Conseil de l’UE — histoire et missions de la PSDC","https://www.consilium.europa.eu/fr/policies/csdp-missions-operations/"],"suez":["Autorité du canal de Suez — histoire du canal","https://www.suezcanal.gov.eg/English/About/SuezCanal/Pages/CanalHistory.aspx"],"panama":["Autorité du canal de Panama — ouverture en 1914 et repères historiques","https://pancanal.com/historia-en-imagenes-canal-de-panama/"],"nautilus":["Naval History and Heritage Command — Nautilus, service et premiers essais","https://www.history.navy.mil/research/histories/ship-histories/danfs/n/nautilus-ssn-571-iv.html"],"redoutable":["Marine nationale / Cols bleus — première patrouille du Redoutable","https://www.colsbleus.defense.gouv.fr/fr/au-coeur-de-la-dissuasion-oceanique-500e-patrouille-dun-snle"],"suffren":["Naval Group — livraison du Suffren en 2020","https://www.naval-group.com/en/actualites/naval-group-delivers-suffren-french-defence-procurement-agency-dga"],"inf":["OTAN — traité INF, définitions et chronologie","https://www.nato.int/en/what-we-do/wider-activities/nato-and-the-inf-treaty"],"scalp":["Assemblée nationale — coopération franco-britannique et emploi de Storm Shadow","https://www.assemblee-nationale.fr/dyn/opendata/RINFANR5L15B1493.html"],"dassault":["Dassault Aviation — chronologie des avions du constructeur","https://timeline.dassault-aviation.com/en/"],"rafale":["Dassault Aviation — missions et entrée en service du Rafale","https://www.dassault-aviation.com/en/defense/rafale/"],"daring":["Royal Navy — carrière du HMS Daring","https://www.royalnavy.mod.uk/organisation/units-and-squadrons/destroyers/hms-daring"],"fremm":["Sénat — réception puis service actif de l’Aquitaine","https://www.senat.fr/rap/a17-110-8/a17-110-8_mono.html"],"pip":["Ministère britannique de la Défense — fiabilisation de la propulsion Type 45","https://www.gov.uk/government/news/multi-million-pound-contract-to-enhance-royal-navy-type-45-fleet-resilience"]},additions={"char-blinde-infanterie":{"history":{"title":"Du franchissement des tranchées au combat en réseau","paragraphs":[{"text":"L’histoire du char commence dans les conditions très particulières de la Première Guerre mondiale. Le 15 septembre 1916, les Britanniques engagent leurs Mark I à Flers-Courcelette, pendant la bataille de la Somme. L’objectif est de franchir des obstacles et d’appuyer la progression de l’infanterie. Les pannes et les difficultés du terrain réduisent fortement le nombre de véhicules effectivement engagés. L’apparition d’une machine nouvelle ne produit donc pas, à elle seule, une transformation immédiate du champ de bataille.","refs":["tanks"]},{"text":"La distinction entre char et véhicule d’infanterie aide ensuite à suivre des programmes beaucoup plus récents. En France, le VBCI passe des études et des prototypes à une première livraison aux forces en juillet 2008. Il répond à un besoin de transport protégé et d’accompagnement des soldats. Le Leclerc XLR suit un autre chemin : il rénove un char déjà existant. Le premier prototype rénové est remis à la DGA en décembre 2022. Construire une nouvelle famille et moderniser une flotte en service relèvent de calendriers industriels différents.","refs":["vbci","xlr"]}]},"deepen":{"title":"Ce que révèle l’organisation d’un véhicule","text":"La place des hommes donne un fil conducteur à cette histoire. Un char organise son volume autour de l’équipage et du système d’arme ; un VCI doit aussi accueillir un groupe de soldats. La protection, l’espace intérieur et la mission ne se lisent donc pas indépendamment. Un véhicule plus lourd n’est pas automatiquement un remplaçant pour un autre : il peut résoudre un problème différent. Pour suivre une rénovation, demande ensuite ce qui est conservé et ce qui change. Des radios, des moyens d’observation ou des protections peuvent évoluer alors que le nom et une grande partie de la silhouette demeurent. C’est pourquoi le standard XLR et le Leclerc des premières séries gardent des fiches distinctes.","existing":[1,2]},"timeline":[["1916","Premiers chars au combat","Les Mark I britanniques sont engagés à Flers-Courcelette.","tanks"],["Juillet 2008","Première livraison de VBCI aux forces","La livraison succède aux études et aux prototypes.","vbci"],["Décembre 2022","Prototype Leclerc XLR","Le premier prototype rénové est remis à la DGA.","xlr"]]},"radar-sonar":{"history":{"title":"Des expériences physiques aux réseaux de surveillance","paragraphs":[{"text":"La détection à distance ne naît pas avec les écrans modernes. Pendant la Première Guerre mondiale, les recherches sur l’acoustique sous-marine prennent de l’importance. Le CNRS rappelle les travaux de Paul Langevin et des essais menés au large de Toulon en 1917. L’enjeu consiste à exploiter les propriétés des ondes pour obtenir une information là où l’œil ne suffit plus. Cette histoire scientifique rappelle que les capteurs militaires s’appuient aussi sur des recherches de laboratoire, des instruments et des essais répétés.","refs":["sonar"]},{"text":"Dans les années 1930, la détection radio des avions progresse à son tour. L’expérience de Daventry, en février 1935, démontre la possibilité d’observer le signal réfléchi par un appareil. Pendant la bataille d’Angleterre, en 1940, le radar prend place dans une organisation plus large de transmission des renseignements et de contrôle de la chasse. Le RAF Museum insiste sur cet ensemble : obtenir un écho et organiser une réponse collective sont deux problèmes différents. L’histoire ne se résume donc pas à l’invention d’une antenne.","refs":["radar","dowding"]}]},"deepen":{"title":"Pourquoi le capteur ne raconte pas toute la situation","text":"Les exemples du radar et du sonar montrent la différence entre mesure et interprétation. Une observation a un contexte : le milieu, le moment, le type de capteur et les informations déjà disponibles. En réunissant plusieurs observations, les opérateurs construisent progressivement une représentation de la situation. Cela explique pourquoi un article sérieux distingue « détecté », « suivi » et « identifié ». Ces mots ne garantissent pas le même niveau de connaissance. Dans les fiches de navires, le nom d’un sonar ou d’un radar décrit un équipement ; il ne suffit pas à reconstituer toutes les performances du bâtiment. Le schéma de ce dossier aide à comprendre la physique générale, sans simuler une détection réelle.","existing":[0,1]},"timeline":[["1917","Essais d’acoustique sous-marine","Les travaux de Langevin font l’objet d’essais au large de Toulon.","sonar"],["Février 1935","Expérience de Daventry","Un avion est observé par réflexion d’un signal radio.","radar"],["1940","Le radar dans un réseau","La surveillance s’intègre au contrôle de la chasse britannique.","dowding"]]},"porte-avions-groupe-aeronaval":{"history":{"title":"Une aviation navale construite par l’expérience","paragraphs":[{"text":"Les porte-avions ne sont pas apparus d’un seul coup sous leur forme actuelle. L’USS Langley, remis en service en mars 1922 après la conversion d’un charbonnier, devient le premier porte-avions de l’US Navy. Il sert largement à l’expérimentation. Décollages, appontages et circulation des appareils sur le pont permettent d’apprendre comment faire fonctionner l’aviation à bord d’un navire. Le bâtiment d’essai joue ainsi un rôle dans la préparation des générations suivantes, même s’il ne possède pas leurs caractéristiques.","refs":["langley"]},{"text":"Cette évolution se poursuit dans des programmes nationaux différents. Le Charles de Gaulle est admis au service actif le 18 mai 2001, après une longue phase de construction et d’essais. Sa carrière comprend ensuite des déploiements et des périodes d’entretien et de modernisation. L’histoire d’un porte-avions associe donc celle du navire, celle des aéronefs et celle des marins qui le font fonctionner. Une mise à l’eau, une admission au service actif et une première opération ne sont pas trois formulations du même événement.","refs":["cdg"]}]},"deepen":{"title":"La disponibilité compte autant que la présence sur une carte","text":"Un porte-avions à quai peut être en entretien, à l’entraînement ou dans une autre phase de son cycle de vie. Une photographie isolée ne permet pas de conclure à sa disponibilité opérationnelle. À l’inverse, un déploiement ne raconte pas tout le travail de préparation réalisé auparavant. Pour comprendre la durée d’une carrière, regarde les périodes de remise à niveau, les changements d’équipements et les aéronefs utilisés au fil du temps. Le groupe aéronaval ajoute une autre échelle : les moyens d’escorte et de soutien doivent pouvoir accompagner l’activité aérienne. Le nombre d’avions embarqués constitue ainsi un repère parmi d’autres, lié à une mission et à une date.","existing":[0,1]},"timeline":[["20 mars 1922","L’USS Langley entre en service","Le premier porte-avions américain est issu d’une conversion.","langley"],["Octobre 1922","Des essais embarqués structurants","Décollage et appontage font partie des expériences conduites sur le Langley.","langley"],["18 mai 2001","Service actif du Charles de Gaulle","L’admission marque une étape différente de la construction et des essais.","cdg"]]},"familles-drones":{"history":{"title":"Une histoire plus ancienne que les petits quadricoptères","paragraphs":[{"text":"Les projets d’aéronefs sans pilote embarqué remontent bien avant les usages actuels. En 1917, Charles Kettering conçoit aux États-Unis un appareil surnommé Bug. Le musée de l’US Air Force le présente comme un projet expérimental de torpille aérienne qui ne connaît pas le combat. Il ne faut pas lui attribuer les capteurs, les liaisons ou la conduite d’un drone contemporain : ce jalon illustre une recherche ancienne, pas une équivalence technique avec les systèmes récents.","refs":["bug"]},{"text":"Un autre chapitre s’ouvre avec les systèmes télépilotés de surveillance. Le Predator effectue son premier vol en juillet 1994 ; le programme associe l’aéronef et une organisation d’exploitation au sol. Le MQ-9 Reaper, plus grand et conçu pour d’autres capacités, atteint sa capacité opérationnelle initiale dans l’US Air Force en octobre 2007. Ces dates aident à distinguer un premier vol, une production et une capacité déclarée opérationnelle. Elles ne désignent pas le moment où tous les appareils de la famille auraient atteint le même équipement.","refs":["predator","reaper"]}]},"deepen":{"title":"L’endurance est une durée, pas une carte de couverture","text":"Rester en l’air longtemps, transmettre une image et transporter un capteur sont des capacités différentes. Les fiches techniques décrivent des conditions et des configurations ; elles ne permettent pas de tracer automatiquement une zone surveillée en permanence. Il faut aussi distinguer la plateforme de la mission préparée autour d’elle : des opérateurs, des liaisons et le traitement des informations participent au système. L’histoire des drones est donc celle d’une transformation des appareils et de leur exploitation. Pour lire une annonce industrielle, demande ce qui a réellement été démontré : un vol, un équipement intégré ou une capacité déjà utilisée par une unité. Le vocabulaire commercial ne remplace pas cette chronologie.","existing":[0,1]},"timeline":[["1917","Le projet Kettering Bug","Un appareil expérimental sans pilote embarqué, jamais employé au combat.","bug"],["Juillet 1994","Premier vol du Predator","Une étape de développement, distincte de la production ultérieure.","predator"],["Octobre 2007","Capacité initiale du MQ-9","L’US Air Force situe ici sa capacité opérationnelle initiale.","reaper"]]},"otan-union-europeenne":{"history":{"title":"Deux histoires institutionnelles qui se croisent","paragraphs":[{"text":"L’OTAN est créée dans le contexte de l’après-Seconde Guerre mondiale. Le 4 avril 1949, douze pays signent à Washington le traité de l’Atlantique Nord. La construction d’une alliance durable associe un engagement politique, des consultations et une organisation de défense. Cette origine aide à comprendre pourquoi la relation entre l’Europe et l’Amérique du Nord demeure au cœur de son identité. Les institutions et les décisions se développent ensuite au fil de l’histoire de l’Alliance.","refs":["founding"]},{"text":"La politique européenne de sécurité et de défense suit une autre trajectoire. L’Union européenne lance ses premières missions et opérations en 2003. Le cadre appelé PSDC succède à la PESD avec le traité de Lisbonne, en 2009. Ces jalons montrent qu’une organisation peut développer des moyens d’action sans devenir identique à une alliance existante. Aujourd’hui, les coopérations entre l’UE et l’OTAN s’ajoutent à cette histoire : elles ne suppriment pas l’autonomie de décision et les responsabilités propres à chacune.","refs":["csdp"]}]},"deepen":{"title":"Les mots d’un communiqué indiquent le cadre de l’action","text":"Une consultation politique, une mission de conseil et un déploiement de forces ne décrivent pas la même décision. Quand tu lis une actualité, repère l’institution qui parle, le mandat annoncé et les pays participants. Une déclaration commune peut exprimer un objectif ; elle ne prouve pas, à elle seule, qu’une capacité a déjà été déployée. De même, une action menée par plusieurs membres de l’OTAN n’est pas automatiquement une opération de l’Alliance. Lire ces distinctions permet de suivre les débats sans réduire la politique de défense à une liste de matériels. Les textes fondateurs et les pages institutionnelles servent ici à établir les rôles ; les actualités décrivent ensuite leurs évolutions datées.","existing":[0,2,3]},"timeline":[["4 avril 1949","Signature du traité de Washington","Douze pays créent l’Alliance atlantique.","founding"],["2003","Premières missions et opérations de l’UE","Le Conseil situe en 2003 le début de ces déploiements.","csdp"],["2009","De la PESD à la PSDC","Le traité de Lisbonne marque l’évolution du cadre européen.","csdp"]]},"detroits-routes-maritimes":{"history":{"title":"Des infrastructures qui ont transformé les distances","paragraphs":[{"text":"Les routes maritimes ne sont pas seulement imposées par la géographie naturelle. Le canal de Suez est inauguré en 1869, après une longue histoire de projets et de travaux. Il crée une liaison aménagée entre la Méditerranée et la mer Rouge. Cet événement change la manière de relier l’Europe et l’Asie par mer. Il ne supprime pourtant ni les contraintes de navigation, ni les questions de souveraineté et de gestion propres à cette infrastructure.","refs":["suez"]},{"text":"Le canal de Panama est officiellement ouvert le 15 août 1914 avec le passage de l’Ancón. Il offre une liaison à travers l’isthme entre Atlantique et Pacifique. Son histoire comprend aussi l’évolution de sa gestion : les traités Torrijos-Carter de 1977 préparent le transfert à l’administration panaméenne en 1999. Ces repères montrent que l’importance d’un passage dépend autant des infrastructures et des décisions politiques que de sa position sur une carte. La carte du dossier localise les passages ; elle ne représente pas leur situation actuelle.","refs":["panama"]}]},"deepen":{"title":"Du point sur la carte à la chaîne d’approvisionnement","text":"Une marchandise n’effectue pas seulement un trajet entre deux ports. Son parcours associe des horaires, des navires, des capacités portuaires et des destinations successives. Quand une route est perturbée, un détour peut modifier cet ensemble sans interrompre tout le commerce. C’est pourquoi les conséquences varient selon les cargaisons et les liaisons. Pour comprendre un article, suis la chaîne de raisonnement : quel passage est concerné, quels navires changent de trajet, puis quelle mesure décrit l’effet observé ? Un exemple de retard ou un prix relevé à une date ne suffisent pas à décrire tous les échanges. Les sources datées et les unités utilisées sont indispensables pour relier la géographie à l’économie.","existing":[0,1]},"timeline":[["1869","Inauguration du canal de Suez","Une liaison aménagée entre Méditerranée et mer Rouge.","suez"],["15 août 1914","Ouverture du canal de Panama","L’Ancón réalise le passage officiel d’inauguration.","panama"],["1977–1999","Une gestion qui change","Les traités de 1977 préparent le transfert du canal à Panama en 1999.","panama"]]},"sna-snle":{"history":{"title":"La propulsion nucléaire ouvre deux trajectoires","paragraphs":[{"text":"La propulsion nucléaire constitue un changement majeur dans l’histoire des sous-marins. L’USS Nautilus entre en service le 30 septembre 1954, puis prend la mer sous propulsion nucléaire en janvier 1955. Ces deux étapes ne doivent pas être confondues : la date d’entrée en service précède la première navigation de cette nature. L’histoire du Nautilus rappelle ainsi qu’un bâtiment peut traverser plusieurs phases de construction, d’essais et de qualification avant d’accomplir l’activité qui le rend célèbre.","refs":["nautilus"]},{"text":"En France, la première patrouille de dissuasion du Redoutable commence le 28 janvier 1972. Le SNLE s’inscrit dans une organisation conçue pour maintenir une capacité de dissuasion en mer. Les sous-marins d’attaque poursuivent parallèlement leurs propres missions et leurs propres renouvellements. La livraison du Suffren en 2020 représente une étape de ce second parcours. Un jalon industriel concernant un SNA et une patrouille de SNLE ne racontent donc ni la même fonction ni la même phase du cycle de vie.","refs":["redoutable","suffren"]}]},"deepen":{"title":"Pourquoi la mission compte davantage que le sigle seul","text":"Les mots décrivent ici deux niveaux. La propulsion indique la source d’énergie qui permet au bâtiment de fonctionner ; la catégorie précise une famille de missions. Pour comprendre une classe, il faut donc réunir ces niveaux plutôt que déduire son armement de sa propulsion. La carrière d’un sous-marin dépend aussi des équipages, de l’entretien et des adaptations réalisées pendant son service. Des dimensions publiques ne permettent pas de classer la discrétion ou l’efficacité de bâtiments différents. Dans l’atlas, lis le récit pour suivre le programme, puis la fiche technique pour retrouver les caractéristiques de la variante retenue. Les dates de livraison et d’admission au service actif gardent chacune leur sens.","existing":[0,1,3]},"timeline":[["30 septembre 1954","Service du Nautilus","Le premier sous-marin à propulsion nucléaire entre en service.","nautilus"],["28 janvier 1972","Première patrouille du Redoutable","Un jalon de la dissuasion océanique française.","redoutable"],["2020","Livraison du Suffren","Une étape industrielle dans le renouvellement des SNA français.","suffren"]]},"missile-balistique-croisiere":{"history":{"title":"Des familles techniques aussi présentes dans la diplomatie","paragraphs":[{"text":"La distinction entre missiles balistiques et de croisière ne relève pas seulement du vocabulaire des constructeurs. Le traité INF, signé par les États-Unis et l’Union soviétique le 8 décembre 1987, utilise ces catégories pour encadrer certains missiles à lancement terrestre. Son entrée en vigueur, le 1er juin 1988, constitue une autre date. Le texte a un périmètre précis : ses définitions ne doivent pas être transformées en règle universelle décrivant toute arme, toute portée et tout mode de lancement.","refs":["inf"]},{"text":"Les programmes illustrent d’autres échelles d’histoire. Storm Shadow, appelé SCALP dans sa version française, est un système de croisière issu d’une coopération franco-britannique. Son premier emploi britannique est documenté pendant l’opération Telic en Irak, en 2003. Le parcours d’une famille de missiles comprend ainsi des décisions politiques, des contrats, des essais, des intégrations sur un porteur et des emplois en service. Le nom d’une famille ne suffit pas à dater toutes ces étapes ni à attribuer les mêmes caractéristiques à chaque version.","refs":["scalp"]}]},"deepen":{"title":"Portée, vitesse et charge : trois questions différentes","text":"La portée décrit une distance associée à des conditions et à une configuration. La vitesse décrit un mouvement, susceptible de varier au cours du vol. La charge correspond à ce que transporte le système. Ces notions peuvent apparaître dans le même article sans être interchangeables. Ainsi, un adjectif de vitesse ne permet pas de déduire une charge, et une portée annoncée ne donne pas à elle seule la durée d’un vol. Pour comparer deux fiches, commence par la variante et la source, puis regarde ce que chaque chiffre mesure réellement. Le dossier présente une classification générale ; les récits de l’atlas apportent les parcours industriels et historiques propres aux systèmes.","existing":[0,1,2]},"timeline":[["8 décembre 1987","Signature du traité INF","Un accord américano-soviétique au périmètre défini.","inf"],["1er juin 1988","Entrée en vigueur du traité","La mise en application se distingue de la signature.","inf"],["2003","Premier emploi britannique de Storm Shadow","L’emploi pendant Telic est documenté par un rapport parlementaire.","scalp"]]},"reconnaitre-rafale-mirage-2000":{"history":{"title":"Deux générations, deux démarches de conception","paragraphs":[{"text":"Le Mirage 2000 apparaît dans la chronologie de Dassault avec un premier vol en 1978. Le Rafale A, démonstrateur technologique, vole en 1986. Ces dates ne correspondent pas à l’arrivée immédiate de toutes les versions en unité. Un démonstrateur permet de préparer et d’évaluer des choix techniques ; la définition d’un appareil de série et ses qualifications suivent leur propre calendrier. Lire une histoire d’avion demande donc de repérer ce qui vole exactement à chaque étape.","refs":["dassault"]},{"text":"Le Rafale entre ensuite dans les forces françaises selon des étapes distinctes pour la Marine et l’armée de l’Air ; Dassault situe notamment son entrée en service dans cette dernière en 2006. La famille répond à plusieurs missions et évolue par standards. De son côté, le Mirage 2000 comprend plusieurs versions de défense aérienne ou d’attaque, monoplaces et biplaces. Une photo peut permettre d’identifier une famille sans établir à elle seule son équipement exact ou son standard. L’identification visuelle et l’histoire du programme se complètent.","refs":["rafale"],"existing":[1]}]},"deepen":{"title":"Observer une silhouette avant de lire les détails","text":"Procède par indices indépendants. Cherche les plans canards, puis observe les sorties de moteur si l’angle les rend visibles. Vérifie ensuite le nez, la verrière et la configuration générale avec une photographie de référence légendée. Un indice absent de l’image peut être masqué par la perspective ; ce n’est pas une preuve qu’il n’existe pas sur l’avion. Les réservoirs et les équipements extérieurs peuvent aussi modifier l’impression générale. Une fois la famille reconnue, la fiche historique aide à comprendre pourquoi plusieurs versions portent des noms proches. Le quiz photo sert à exercer l’observation ; les sources permettent de confirmer le modèle représenté.","existing":[0,1]},"timeline":[["1978","Premier vol du Mirage 2000","Le début des essais en vol précède les étapes de service.","dassault"],["1986","Vol du démonstrateur Rafale A","Un démonstrateur technologique, distinct des avions de série.","dassault"],["2006","Rafale dans l’armée de l’Air","Un jalon de service indiqué par Dassault Aviation.","rafale"]]},"fregate-destroyer-corvette":{"history":{"title":"Des programmes qui se spécialisent et se transforment","paragraphs":[{"text":"L’histoire récente des bâtiments d’escorte montre pourquoi les appellations ne suffisent pas à comparer leurs capacités. Le HMS Daring est lancé en février 2006, au début du parcours de la classe Type 45 britannique. L’Aquitaine française est réceptionnée en novembre 2012, puis admise au service actif en décembre 2015. La réception du bâtiment et sa qualification pour le service sont deux étapes différentes. Deux marines peuvent aussi employer des catégories distinctes pour organiser des missions de protection qui se recouvrent en partie.","refs":["daring","fremm"]},{"text":"L’évolution ne s’arrête pas à la livraison. En 2018, le Royaume-Uni contractualise un projet de fiabilisation de la production électrique des Type 45. Ce type de transformation appartient pleinement à l’histoire d’une classe, même si le nom du bâtiment et sa silhouette changent peu. Une carrière navale se lit donc dans les missions, les équipements, les essais et les périodes de modernisation. La spécialisation initiale d’un bâtiment n’empêche pas son adaptation, mais chaque évolution doit être documentée pour la classe et le navire concernés.","refs":["pip"]}]},"deepen":{"title":"Comparer un rôle, une classe et une date","text":"Une frégate peut combiner plusieurs fonctions tout en mettant l’accent sur une spécialité. Un destroyer conçu pour la défense aérienne et une corvette polyvalente ne se résument pas à deux tailles de coque. Pour comprendre leur place dans une force, cherche les missions décrites par leur marine, les capteurs et les systèmes effectivement cités. L’année de la source compte : un même bâtiment peut recevoir des modifications pendant sa carrière. Les informations sur un navire ne s’étendent pas automatiquement à toutes les unités qui lui ressemblent. Dans l’atlas, les récits suivent ces parcours ; le comparateur conserve les caractéristiques publiques de la variante retenue.","existing":[0,1,2]},"timeline":[["Février 2006","Lancement du HMS Daring","Un jalon industriel de la tête de série Type 45.","daring"],["2012–2015","De la réception au service de l’Aquitaine","La réception précède l’admission au service actif.","fremm"],["2018","Projet de fiabilisation Type 45","Une transformation de la production électrique est contractualisée.","pip"]]}};
   for(const g of C.guides){const a=additions[g.slug];if(!a)continue;const source=key=>{const [label,url]=R[key];let i=g.sources.findIndex(s=>s.url===url);if(i<0){i=g.sources.length;g.sources.push({label,url});}return i;};g.history={title:a.history.title,paragraphs:a.history.paragraphs.map(p=>({text:p.text,sources:[...(p.refs||[]).map(source),...(p.existing||[])]}))};g.sections.push({title:a.deepen.title,text:a.deepen.text,sources:a.deepen.existing});g.milestones=a.timeline.map(([date,title,text,key])=>({date,title,text,source:source(key)}));g.checkedAt="2026-10-14";}
 })();
+
+/* Quatre nouveaux dossiers documentés — 21 octobre 2026. */
+(() => {
+  window.RADAR_DISCOVERY_CONTENT.guides.unshift(...[
+  {
+    "slug": "defense-antiaerienne",
+    "title": "Comment fonctionne la défense antiaérienne ?",
+    "theme": "PROTÉGER LE CIEL",
+    "categories": [
+      "air",
+      "terre",
+      "technologies"
+    ],
+    "level": "Découverte",
+    "fresh": true,
+    "checkedAt": "2026-10-21",
+    "engins": [
+      108,
+      148
+    ],
+    "visual": "",
+    "description": "Du radar à l’interception : comprendre pourquoi la protection du ciel repose sur des moyens complémentaires et une organisation commune.",
+    "takeaway": "Un radar repère, un commandement construit la situation, puis des moyens adaptés peuvent intervenir. Un lanceur isolé ne résume pas cette organisation.",
+    "sources": [
+      {
+        "label": "OTAN — politique de défense aérienne et antimissile intégrée, 2025",
+        "url": "https://nato.int/en/about-us/official-texts-and-resources/official-texts/2025/02/13/nato-integrated-air-and-missile-defence-policy"
+      },
+      {
+        "label": "RAF Museum — le radar et le système de contrôle britannique",
+        "url": "https://www.rafmuseum.org.uk/research/online-exhibitions/history-of-the-battle-of-britain/how-radar-works/"
+      },
+      {
+        "label": "Royal Air Force — la bataille d’Angleterre et le système Dowding",
+        "url": "https://www.raf.mod.uk/what-we-do/our-history/anniversaries/battle-of-britain/"
+      },
+      {
+        "label": "OTAN — histoire et organisation de la défense antimissile balistique",
+        "url": "https://www.nato.int/cps/uk/natohq/topics_49635.htm?selectedLocale=en"
+      },
+      {
+        "label": "OTAN — les missions de surveillance et de contrôle des AWACS",
+        "url": "https://www.nato.int/en/what-we-do/deterrence-and-defence/awacs-natos-eyes-in-the-sky"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Une organisation avant d’être une arme",
+        "text": "La défense antiaérienne rassemble des capteurs, des communications, des centres de commandement et des moyens d’intervention. Sa mission concerne des menaces différentes : avions, drones ou missiles ne présentent pas les mêmes caractéristiques. L’approche intégrée décrite par l’OTAN cherche à faire travailler ensemble les moyens disponibles. Le mot « système » désigne donc aussi leurs relations. Pour lire une annonce de livraison, il faut regarder si elle concerne un radar, un lanceur, des missiles ou une capacité comprenant plusieurs de ces éléments.",
+        "sources": [
+          0
+        ]
+      },
+      {
+        "title": "Détecter ne suffit pas à comprendre",
+        "text": "Un radar reçoit des échos et permet de recueillir des indications sur des objets. Ces informations doivent être interprétées et rapprochées d’autres observations. Pendant la bataille d’Angleterre, les stations britanniques transmettaient leurs comptes rendus à une organisation chargée de les rassembler et de diriger la réponse. La valeur du radar venait aussi de cette circulation de l’information. Aujourd’hui encore, observer un contact et comprendre la situation aérienne restent deux étapes différentes : une détection seule ne résume ni l’identité d’un appareil ni une décision d’intervention.",
+        "sources": [
+          1,
+          2
+        ]
+      },
+      {
+        "title": "Des moyens qui se complètent",
+        "text": "La politique de défense intégrée associe la surveillance, le commandement et des moyens défensifs complémentaires. La protection ne se réduit donc pas à une unique portée maximale inscrite sur une fiche. Les équipements répondent à des besoins différents et leur coopération compte. Il faut également distinguer défense antiaérienne et défense contre les missiles balistiques : ces domaines sont liés dans une architecture générale, mais les systèmes et les missions ne sont pas tous interchangeables. Une annonce sur une capacité ne prouve pas qu’elle couvre toutes les catégories de menace.",
+        "sources": [
+          0,
+          3
+        ]
+      },
+      {
+        "title": "Le rôle d’un avion de surveillance",
+        "text": "Les AWACS montrent que la surveillance ne vient pas seulement du sol. Leur radar et leurs communications servent à suivre des contacts, transmettre une situation et soutenir la coordination de forces aériennes. Le disque visible sur un E-3 ne raconte donc qu’une partie de son rôle : des opérateurs et des liaisons font aussi partie de la capacité. Dans une actualité, « déployer un avion de surveillance » et « livrer un missile intercepteur » décrivent deux contributions différentes. Les associer aide à comprendre le fonctionnement d’ensemble sans confondre les équipements.",
+        "sources": [
+          4
+        ]
+      }
+    ],
+    "history": {
+      "title": "Du système Dowding à la défense intégrée",
+      "paragraphs": [
+        {
+          "text": "En 1940, la défense britannique repose sur un ensemble reliant stations radar, observations, centres de filtrage et commandement des chasseurs. Le système associé à Hugh Dowding permet de transformer des signalements dispersés en une situation exploitable. Le radar joue un rôle majeur, mais il n’agit pas seul. Cette histoire rappelle qu’une innovation prend son sens dans les transmissions, l’organisation et les personnes qui l’emploient. Elle explique aussi pourquoi une photographie d’antenne ne suffit pas à raconter une défense aérienne.",
+          "sources": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "La défense contre les missiles balistiques ajoute ensuite une autre dimension à cette histoire. En 2010, les Alliés décident d’étendre la capacité de défense antimissile de l’OTAN à la protection de leurs populations et territoires européens. Une capacité opérationnelle initiale est déclarée en 2016. Ces jalons désignent des étapes politiques et opérationnelles distinctes. La politique intégrée publiée en 2025 replace les différentes contributions dans une approche commune : la modernisation concerne autant leur connexion et leur résilience que l’arrivée d’un matériel nouveau.",
+          "sources": [
+            3,
+            0
+          ]
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "date": "1940",
+        "title": "Le système Dowding",
+        "text": "Les observations et les radars alimentent une organisation de contrôle de la défense britannique.",
+        "source": 2
+      },
+      {
+        "date": "2010",
+        "title": "Une décision de l’Alliance",
+        "text": "L’OTAN décide d’étendre sa capacité de défense contre les missiles balistiques.",
+        "source": 3
+      },
+      {
+        "date": "2016",
+        "title": "Capacité initiale déclarée",
+        "text": "Une étape opérationnelle de la défense antimissile de l’OTAN, distincte de la décision de 2010.",
+        "source": 3
+      }
+    ],
+    "diagram": [
+      [
+        "Observer",
+        "Recueillir et rapprocher les informations."
+      ],
+      [
+        "Comprendre",
+        "Construire une situation et coordonner les moyens."
+      ],
+      [
+        "Protéger",
+        "Employer des capacités adaptées à la mission."
+      ]
+    ],
+    "quiz": [
+      {
+        "question": "Un radar représente-t-il à lui seul toute une défense antiaérienne ?",
+        "choices": [
+          "Oui, s’il est récent",
+          "Non, il appartient à un ensemble",
+          "Uniquement en mer"
+        ],
+        "answer": 1,
+        "explanation": "Le radar contribue à la détection ; le commandement, les communications et les moyens d’intervention complètent l’organisation."
+      },
+      {
+        "question": "Quel rôle appartient notamment à un AWACS ?",
+        "choices": [
+          "Transporter des chars",
+          "Fabriquer des missiles",
+          "Surveiller et contribuer au contrôle aérien"
+        ],
+        "answer": 2,
+        "explanation": "Un AWACS recueille et transmet une situation aérienne et participe à la coordination des forces."
+      },
+      {
+        "question": "Que faut-il vérifier lorsqu’un article annonce une nouvelle batterie ?",
+        "choices": [
+          "Les éléments effectivement livrés",
+          "Seulement sa couleur",
+          "Le nom du camion uniquement"
+        ],
+        "answer": 0,
+        "explanation": "Une annonce peut concerner des lanceurs, des radars, des munitions ou un ensemble : il faut lire son périmètre."
+      }
+    ],
+    "photo": {
+      "src": "assets/histoire/photos/108-1.webp",
+      "alt": "Photographie de Gepard",
+      "caption": "Un Gepard 1A2, un exemple de défense antiaérienne par canons.",
+      "author": "Hans-Hermann Bühling",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gepard_1a2_overview.jpg",
+      "width": 960,
+      "height": 640
+    }
+  },
+  {
+    "slug": "artillerie-canons-roquettes",
+    "title": "Canons et lance-roquettes : comprendre l’artillerie",
+    "theme": "LES APPUIS TERRESTRES",
+    "categories": [
+      "terre",
+      "technologies"
+    ],
+    "level": "Découverte",
+    "fresh": true,
+    "checkedAt": "2026-10-21",
+    "engins": [
+      48,
+      50
+    ],
+    "visual": "",
+    "description": "CAESAR, HIMARS, M270 : distinguer le véhicule, le système d’arme et ses munitions pour mieux lire leurs histoires et les annonces de livraison.",
+    "takeaway": "Un canon et un lance-roquettes appartiennent à l’artillerie, mais leurs munitions et leur architecture diffèrent. Le lanceur ne dit pas tout de ce qu’il peut employer.",
+    "sources": [
+      {
+        "label": "DGA — le CAESAR dans les régiments depuis 2008",
+        "url": "https://www.defense.gouv.fr/dga/actualites/nouveaux-blindes-canons-jean-castex-florence-parly-usine-fabrication-dequipements"
+      },
+      {
+        "label": "Armée de Terre — livraisons de nouveaux CAESAR en 2023",
+        "url": "https://www.defense.gouv.fr/terre/actualites/livraison-nouveaux-canons-caesar-larmee-terre"
+      },
+      {
+        "label": "Lockheed Martin — première unité équipée du HIMARS, juin 2005",
+        "url": "https://investors.lockheedmartin.com/news-releases/news-release-details/army-battalion-becomes-first-unit-equipped-lockheed-martins/"
+      },
+      {
+        "label": "British Army — M270 et munitions GMLRS",
+        "url": "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/guided-multiple-launch-rocket-system-gmlrs/"
+      },
+      {
+        "label": "Terre information magazine — la fabrication du CAESAR",
+        "url": "https://www.terremag.defense.gouv.fr/enquetes/zoom-sur/le-caesar-en-plein-boum"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Commencer par identifier ce qui est décrit",
+        "text": "Le mot artillerie recouvre plusieurs matériels. Le CAESAR est un système de canon installé sur camion ; le HIMARS est un lance-roquettes mobile sur roues. Un M270 emploie pour sa part un véhicule chenillé. Ces silhouettes donnent un premier indice, mais ne constituent pas un classement universel par puissance. Dans une fiche, distingue le porteur qui se déplace, l’ensemble qui assure la mission et la munition consommée. C’est la combinaison de ces éléments, dans une configuration donnée, que décrit une capacité documentée.",
+        "sources": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "title": "Le CAESAR : un canon et une chaîne industrielle",
+        "text": "Sur le CAESAR, le tube constitue un élément essentiel du système d’arme. Sa fabrication réclame des opérations industrielles précises, des assemblages et des contrôles : un canon ne se résume pas au camion qui le porte. Le reportage de Terre information magazine permet de suivre cette dimension souvent absente des photos de terrain. Un article annonçant une augmentation de production parle donc aussi d’usines, de composants et de savoir-faire. Le calendrier industriel explique une partie du délai séparant la commande, les essais et la remise aux unités.",
+        "sources": [
+          4
+        ]
+      },
+      {
+        "title": "Lanceur et munition : deux noms à ne pas confondre",
+        "text": "La British Army décrit le M270B1 comme un lanceur blindé chenillé qui emploie notamment la munition guidée M31 GMLRS. Le nom du véhicule et celui de la munition ne désignent donc pas le même objet. Une modernisation peut modifier les équipements du lanceur ou intégrer de nouvelles munitions, selon le programme concerné. Pour comparer deux annonces, demande toujours quelle version et quelle munition sont citées. Une distance annoncée pour une munition ne devient pas automatiquement la caractéristique de toutes celles que la famille pourrait utiliser.",
+        "sources": [
+          3
+        ]
+      },
+      {
+        "title": "Commande, livraison et service : trois moments",
+        "text": "Une commande lance un engagement industriel ; une livraison remet du matériel au client ; l’intégration dans les forces suit ses propres étapes. L’armée de Terre indique ainsi des livraisons de nouveaux CAESAR à partir de la fin novembre 2023, avec des tirs de validation à la DGA. Le constructeur du HIMARS situe en juin 2005 la première unité équipée et certifiée. Ces précisions donnent du sens aux dates. Elles évitent de présenter une annonce de contrat comme si toutes les unités possédaient déjà le matériel et ses équipages formés.",
+        "sources": [
+          1,
+          2
+        ]
+      }
+    ],
+    "history": {
+      "title": "Deux parcours de l’artillerie mobile contemporaine",
+      "paragraphs": [
+        {
+          "text": "Le 16 juin 2005, une cérémonie à Fort Bragg marque l’équipement de la première unité certifiée sur HIMARS, le 3e bataillon du 27e régiment d’artillerie américain. Lockheed Martin présente alors une solution mobile sur roues, conçue pour offrir une autre architecture de transport que les lanceurs chenillés. Ce jalon raconte un passage du programme à une unité utilisatrice. Il ne signifie pas que toutes les versions de munitions apparues ensuite existaient déjà à cette date : l’histoire du lanceur et celle de ses équipements continuent séparément.",
+          "sources": [
+            2
+          ]
+        },
+        {
+          "text": "En France, le CAESAR équipe les régiments depuis 2008, selon la DGA. Sa carrière associe emploi par les forces, exportations et production industrielle. Les livraisons signalées en 2023 répondent notamment au renouvellement de matériels cédés à l’Ukraine. Cette succession d’étapes rappelle qu’une famille peut continuer à être produite longtemps après son arrivée en service. Pour suivre son évolution, il faut donc relier les décisions, les fabrications et les livraisons, tout en conservant la distinction entre les exemplaires et les versions.",
+          "sources": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "date": "Juin 2005",
+        "title": "Une première unité sur HIMARS",
+        "text": "Le constructeur documente l’équipement et la certification du 3-27 Field Artillery.",
+        "source": 2
+      },
+      {
+        "date": "2008",
+        "title": "Le CAESAR en régiment",
+        "text": "La DGA situe à cette année son arrivée dans les régiments français.",
+        "source": 0
+      },
+      {
+        "date": "Novembre 2023",
+        "title": "De nouvelles livraisons françaises",
+        "text": "L’armée de Terre annonce des livraisons de CAESAR après validation.",
+        "source": 1
+      }
+    ],
+    "diagram": [
+      [
+        "Porteur",
+        "Le camion ou le véhicule chenillé."
+      ],
+      [
+        "Système",
+        "Les équipements réunis pour la mission."
+      ],
+      [
+        "Munition",
+        "Un élément à identifier avec sa variante."
+      ]
+    ],
+    "quiz": [
+      {
+        "question": "HIMARS et CAESAR désignent-ils deux canons identiques ?",
+        "choices": [
+          "Oui, avec deux marques",
+          "Non, leurs architectures d’armement diffèrent",
+          "Oui, seules les roues changent"
+        ],
+        "answer": 1,
+        "explanation": "Le CAESAR est un système de canon sur camion ; le HIMARS appartient à la famille des lance-roquettes."
+      },
+      {
+        "question": "Dans la description britannique, M31 GMLRS désigne…",
+        "choices": [
+          "Une munition guidée",
+          "Un camion de ravitaillement",
+          "Un équipage"
+        ],
+        "answer": 0,
+        "explanation": "La munition M31 GMLRS est distincte du véhicule lanceur M270B1 décrit par la British Army."
+      },
+      {
+        "question": "La date d’une commande prouve-t-elle une livraison immédiate ?",
+        "choices": [
+          "Toujours",
+          "Seulement pour les exportations",
+          "Non, les étapes sont distinctes"
+        ],
+        "answer": 2,
+        "explanation": "Les commandes, la fabrication, les validations et la livraison constituent des étapes différentes du parcours industriel."
+      }
+    ],
+    "photo": {
+      "src": "assets/histoire/photos/048-1.webp",
+      "alt": "Photographie de CAESAR",
+      "caption": "Une équipe d’artilleurs et son CAESAR pendant un exercice à Bagram, en 2009.",
+      "author": "SGT Teddy Wade, USA",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Live_fire_exercise_of_CAESAR_at_Bagram_2009-08-14_1.JPG",
+      "width": 960,
+      "height": 640
+    }
+  },
+  {
+    "slug": "logistique-militaire",
+    "title": "La logistique : ce qui permet à une force de durer",
+    "theme": "DERRIÈRE LES OPÉRATIONS",
+    "categories": [
+      "air",
+      "terre",
+      "mer"
+    ],
+    "level": "Découverte",
+    "fresh": true,
+    "checkedAt": "2026-10-21",
+    "engins": [
+      116,
+      58
+    ],
+    "visual": "",
+    "description": "Transporter, ravitailler, entretenir : découvrir le rôle des soutiens, du pont aérien de Berlin aux avions de transport contemporains.",
+    "takeaway": "Déplacer des engins n’est qu’un début. Une force a aussi besoin de ravitaillement, de maintenance, de personnel et d’une organisation capable de durer.",
+    "sources": [
+      {
+        "label": "OTAN — le rôle de la logistique",
+        "url": "https://nato.int/en/what-we-do/deterrence-and-defence/natos-role-in-logistics"
+      },
+      {
+        "label": "OTAN — le transport aérien stratégique et la mise en commun des moyens",
+        "url": "https://nato.int/en/what-we-do/deterrence-and-defence/strategic-airlift"
+      },
+      {
+        "label": "Archives de l’OTAN — le blocus et le pont aérien de Berlin",
+        "url": "https://www.nato.int/cps/en/natohq/declassified_136188.htm"
+      },
+      {
+        "label": "Archives de l’OTAN — le pont aérien commence le 26 juin 1948",
+        "url": "https://www.nato.int/cps/en/natohq/declassified_156163.htm"
+      },
+      {
+        "label": "Airbus — rapport annuel 2013, première livraison de l’A400M",
+        "url": "https://www.airbus.com/sites/g/files/jlcbta136/files/2021-07/airbus-group-annual-review-2013.pdf"
+      },
+      {
+        "label": "Airbus — première livraison d’A400M à l’Espagne, 2016",
+        "url": "https://www.airbus.com/en/newsroom/press-releases/2016-11-airbus-defence-and-space-delivers-first-a400m-to-spain"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Le soutien fait partie de la capacité",
+        "text": "La logistique réunit les activités qui rendent possibles le déplacement et le soutien des forces. L’OTAN y inclut notamment l’approvisionnement, le transport, la maintenance et différents services. Il ne suffit donc pas de compter les véhicules présents : il faut aussi pouvoir les alimenter, les réparer et soutenir les personnes qui les emploient. Cette perspective change la lecture d’une actualité. L’ouverture d’un atelier ou la constitution d’un stock peuvent compter dans la durée, même si ces événements donnent des images moins spectaculaires qu’un nouvel avion.",
+        "sources": [
+          0
+        ]
+      },
+      {
+        "title": "Transporter une fois, soutenir dans la durée",
+        "text": "Un acheminement initial et un soutien continu répondent à des problèmes différents. Le premier déplace des personnes et des équipements ; le second entretient un flux de fournitures et de services. L’organisation doit relier les besoins, les moyens de transport et la capacité à recevoir ce qui arrive. Elle mobilise aussi des acteurs civils et des partenaires industriels. Ce travail de coordination explique pourquoi le volume de matériel annoncé ne décrit pas, à lui seul, la capacité d’une force à poursuivre une mission pendant une longue période.",
+        "sources": [
+          0
+        ]
+      },
+      {
+        "title": "Pourquoi mettre des avions en commun ?",
+        "text": "Les avions de transport stratégique représentent des investissements importants. L’OTAN décrit plusieurs mécanismes permettant à des pays de partager des ressources ou d’obtenir un accès organisé à des capacités aériennes. Le dispositif SAC utilise ainsi des C-17 dans une coopération multinationale ; SALIS repose sur un accès contractuel à du transport lourd. Posséder un avion national et disposer d’heures de transport dans un dispositif commun sont deux solutions différentes. Toutes deux peuvent contribuer à déplacer du matériel, à évacuer des patients ou à acheminer une aide humanitaire.",
+        "sources": [
+          1
+        ]
+      },
+      {
+        "title": "Un avion de transport n’a pas une mission unique",
+        "text": "L’A400M illustre la place des avions de transport dans les forces contemporaines. Sa première livraison à la France intervient en 2013 ; l’Espagne reçoit son premier exemplaire en 2016. Le programme associe le transport de personnes et de chargements à d’autres fonctions selon la configuration, les équipements et les qualifications disponibles. Une photo ne permet pas de déduire toutes ces possibilités. Pour comprendre une livraison, il faut aussi regarder ce que l’utilisateur réceptionne effectivement et à quelle étape de sa montée en capacité il se trouve.",
+        "sources": [
+          4,
+          5
+        ]
+      }
+    ],
+    "history": {
+      "title": "Berlin : un pont aérien pour soutenir une ville",
+      "paragraphs": [
+        {
+          "text": "Le blocus soviétique de Berlin commence le 24 juin 1948. Deux jours plus tard, le pont aérien débute : les puissances occidentales organisent l’approvisionnement par avion de leurs secteurs de la ville. Cet épisode montre une fonction du transport militaire qui dépasse le déplacement de troupes. L’enjeu consiste à faire parvenir des fournitures à une population, avec une organisation répétée dans le temps. Le transport prend ici une dimension politique autant que matérielle, dans les débuts de la guerre froide.",
+          "sources": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Le blocus est levé le 12 mai 1949, mais le pont aérien se poursuit jusqu’au 30 septembre. La fin d’une restriction et l’arrêt d’un dispositif de soutien ne coïncident donc pas nécessairement. Cet exemple aide à comprendre pourquoi une opération logistique possède son propre calendrier. Plusieurs décennies plus tard, les programmes de transport et les accords de coopération répondent toujours à une question de disponibilité : comment disposer des moyens nécessaires au bon moment, puis assurer leur soutien ? Les appareils évoluent, mais l’organisation reste une part essentielle du sujet.",
+          "sources": [
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "date": "26 juin 1948",
+        "title": "Début du pont aérien de Berlin",
+        "text": "Des avions commencent à approvisionner les secteurs occidentaux de la ville.",
+        "source": 3
+      },
+      {
+        "date": "12 mai 1949",
+        "title": "Levée du blocus",
+        "text": "Le soutien aérien se poursuit encore plusieurs mois après cette date.",
+        "source": 2
+      },
+      {
+        "date": "1er août 2013",
+        "title": "Première livraison de l’A400M",
+        "text": "Airbus remet le premier appareil à la France.",
+        "source": 4
+      }
+    ],
+    "diagram": [
+      [
+        "Acheminer",
+        "Déplacer les personnes et les équipements."
+      ],
+      [
+        "Soutenir",
+        "Assurer les fournitures et les services."
+      ],
+      [
+        "Entretenir",
+        "Maintenir la disponibilité dans la durée."
+      ]
+    ],
+    "quiz": [
+      {
+        "question": "La logistique se limite-t-elle au transport ?",
+        "choices": [
+          "Oui",
+          "Non, elle inclut notamment l’approvisionnement et la maintenance",
+          "Seulement pour les avions"
+        ],
+        "answer": 1,
+        "explanation": "Le transport constitue une partie d’un soutien plus large, qui comprend les fournitures, l’entretien et les services."
+      },
+      {
+        "question": "Le blocus de Berlin et le pont aérien prennent-ils fin le même jour ?",
+        "choices": [
+          "Non",
+          "Oui",
+          "Le pont aérien s’arrête avant le blocus"
+        ],
+        "answer": 0,
+        "explanation": "Le blocus est levé en mai 1949 ; le pont aérien se poursuit jusqu’à la fin septembre."
+      },
+      {
+        "question": "Pourquoi des pays partagent-ils des moyens de transport aérien ?",
+        "choices": [
+          "Pour supprimer tous les besoins de maintenance",
+          "Parce que tous les avions sont identiques",
+          "Pour accéder ensemble à une capacité coûteuse"
+        ],
+        "answer": 2,
+        "explanation": "La coopération permet de mettre en commun des ressources et de disposer de capacités difficiles à financer individuellement."
+      }
+    ],
+    "photo": {
+      "src": "assets/histoire/photos/116-1.webp",
+      "alt": "Photographie de A400M Atlas",
+      "caption": "Un A400M allemand lors du Royal International Air Tattoo 2025.",
+      "author": "Julian Herzog",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Luftwaffe_Airbus_A400M_54-21_Royal_International_Air_Tattoo_2025_01.jpg",
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "slug": "renseignement-aerien-isr",
+    "title": "Du capteur au renseignement : comprendre l’ISR",
+    "theme": "VOIR ET COMPRENDRE",
+    "categories": [
+      "air",
+      "technologies"
+    ],
+    "level": "Découverte",
+    "fresh": true,
+    "checkedAt": "2026-10-21",
+    "engins": [
+      140,
+      155
+    ],
+    "visual": "",
+    "description": "Une photo, un signal ou une piste radar ne racontent pas tout. Comprendre les missions de surveillance, de reconnaissance et le travail d’analyse.",
+    "takeaway": "Les capteurs recueillent des informations. Le renseignement suppose ensuite de les analyser, de les replacer dans leur contexte et de les communiquer aux personnes concernées.",
+    "sources": [
+      {
+        "label": "OTAN — renseignement, surveillance et reconnaissance interarmées",
+        "url": "https://nato.int/en/what-we-do/deterrence-and-defence/joint-intelligence-surveillance-and-reconnaissance"
+      },
+      {
+        "label": "US Air Force — histoire et missions du U-2",
+        "url": "https://www.af.mil/News/Article-Display/Article/104560/u-2stu-2s/"
+      },
+      {
+        "label": "US Air Force — missions et histoire de l’E-3 Sentry",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104504/e-3-sentry-awacs/e-3-sentry-awacs/"
+      },
+      {
+        "label": "OTAN — les AWACS dans le dispositif de surveillance et de contrôle",
+        "url": "https://www.nato.int/en/what-we-do/deterrence-and-defence/awacs-natos-eyes-in-the-sky"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Trois mots pour des fonctions liées",
+        "text": "ISR réunit les mots anglais intelligence, surveillance et reconnaissance. Dans la présentation de l’OTAN, la surveillance correspond à une observation suivie, tandis que la reconnaissance vise à répondre à un besoin plus précis. Le renseignement résulte d’un travail d’analyse qui rapproche les informations disponibles. Ces fonctions se complètent, mais ne sont pas synonymes. Une image reçue constitue une information ; comprendre ce qu’elle montre, son contexte et ce qu’elle ne permet pas de conclure relève d’une démarche supplémentaire.",
+        "sources": [
+          0
+        ]
+      },
+      {
+        "title": "Le U-2 : plusieurs façons de recueillir",
+        "text": "L’US Air Force décrit le U-2 comme une plateforme de reconnaissance capable d’emporter des capteurs d’imagerie et de recueil de signaux. La collecte ne se limite donc pas à une photographie prise depuis un avion. Les équipements varient selon la mission et les configurations. La fiche insiste aussi sur l’exploitation des données et leur transmission vers des structures au sol. Le pilote, l’appareil et ses capteurs ne forment ainsi qu’une partie d’un ensemble comprenant des communications, des spécialistes et des utilisateurs de l’information.",
+        "sources": [
+          1
+        ]
+      },
+      {
+        "title": "L’E-3 ne remplit pas exactement le même rôle",
+        "text": "L’E-3 Sentry est associé à la surveillance aérienne, au commandement et au contrôle. Son radar produit une situation qui peut être communiquée à d’autres acteurs. Le grand disque au-dessus du fuselage aide à reconnaître la famille, mais ne suffit pas à expliquer son emploi. L’appareil accueille aussi des opérateurs qui travaillent sur les informations recueillies. Comparer un E-3 et un U-2 revient donc à comparer des missions et des équipements distincts, plutôt qu’à chercher lequel serait simplement le « meilleur avion espion ».",
+        "sources": [
+          2
+        ]
+      },
+      {
+        "title": "Partager ne signifie pas seulement envoyer un fichier",
+        "text": "Le dispositif JISR de l’OTAN cherche à relier les collecteurs, les analystes et les décideurs. Cela demande des procédures, des outils compatibles et des personnes formées. Les informations doivent aussi circuler selon des règles de sécurité et de partage. Les AWACS illustrent une partie de ce fonctionnement : ils peuvent transmettre une situation à des utilisateurs au sol, en mer ou dans les airs. Pour lire une actualité, demande donc quel acteur recueille, quel autre exploite et quelle fonction assure la communication, au lieu de tout attribuer au seul capteur.",
+        "sources": [
+          0,
+          3
+        ]
+      }
+    ],
+    "history": {
+      "title": "Des avions spécialisés à la coopération des informations",
+      "paragraphs": [
+        {
+          "text": "Le premier U-2A vole en août 1955, dans le contexte de la guerre froide. Son histoire s’étend ensuite sur plusieurs générations d’équipements. La fiche de l’US Air Force décrit un appareil dont la mission de reconnaissance combine des possibilités d’imagerie et d’autres capteurs. Ce parcours rappelle qu’une silhouette ancienne peut accueillir des systèmes renouvelés. La date du premier vol ne suffit donc pas à dater tous les moyens présents sur un exemplaire plus récent, ni à décrire ce que chaque mission recueille.",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "text": "Le premier E-3 de l’US Air Force est livré en mars 1977. Il incarne un autre usage des avions spécialisés : établir une situation aérienne et contribuer au contrôle des opérations. L’OTAN emploie également des AWACS dans une organisation multinationale. La coopération dépasse ensuite une seule famille d’avions : en février 2016, l’Alliance déclare une capacité opérationnelle initiale pour son dispositif JISR. Cette étape concerne une manière d’exploiter ensemble des informations provenant de plusieurs moyens. Elle ne correspond pas au premier vol d’un nouvel appareil.",
+          "sources": [
+            2,
+            3,
+            0
+          ]
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "date": "Août 1955",
+        "title": "Premier vol du U-2A",
+        "text": "Un jalon de la reconnaissance aérienne pendant la guerre froide.",
+        "source": 1
+      },
+      {
+        "date": "Mars 1977",
+        "title": "Premier E-3 livré à l’US Air Force",
+        "text": "Un avion spécialisé dans la surveillance et le contrôle aérien.",
+        "source": 2
+      },
+      {
+        "date": "Février 2016",
+        "title": "Capacité JISR initiale de l’OTAN",
+        "text": "Un jalon de coopération entre collecte, analyse et diffusion.",
+        "source": 0
+      }
+    ],
+    "diagram": [
+      [
+        "Recueillir",
+        "Des observations issues de différents capteurs."
+      ],
+      [
+        "Analyser",
+        "Croiser les informations et expliciter les limites."
+      ],
+      [
+        "Diffuser",
+        "Transmettre une compréhension utile et contextualisée."
+      ]
+    ],
+    "quiz": [
+      {
+        "question": "Une photographie constitue-t-elle automatiquement un renseignement complet ?",
+        "choices": [
+          "Non, elle demande une analyse et un contexte",
+          "Oui, si elle est nette",
+          "Oui, si elle vient d’un avion"
+        ],
+        "answer": 0,
+        "explanation": "Une image apporte une information ; l’interprétation et le rapprochement avec d’autres éléments sont des étapes supplémentaires."
+      },
+      {
+        "question": "Quel appareil est notamment associé au contrôle de la situation aérienne ?",
+        "choices": [
+          "Le CAESAR",
+          "L’E-3 Sentry",
+          "Le Leclerc"
+        ],
+        "answer": 1,
+        "explanation": "L’E-3 combine la surveillance aérienne, les communications et des fonctions de commandement et de contrôle."
+      },
+      {
+        "question": "La capacité JISR déclarée en 2016 correspond-elle au premier vol d’un avion ?",
+        "choices": [
+          "Oui, celui du U-2",
+          "Oui, celui de l’E-3",
+          "Non, c’est une étape de coopération des moyens"
+        ],
+        "answer": 2,
+        "explanation": "Le jalon JISR concerne la collecte, l’exploitation et le partage d’informations, et non la naissance d’un seul appareil."
+      }
+    ],
+    "photo": {
+      "src": "assets/jeu/ajouts/serie-7/140.webp",
+      "alt": "Un E-3 Sentry de l’US Air Force en vol au-dessus d’un paysage désertique.",
+      "caption": "Un E-3 Sentry de l’US Air Force en mission.",
+      "author": "Senior Airman Roslyn Ward",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "source": "https://commons.wikimedia.org/wiki/File:E-3%20Sentry%20Airborne%20Warning%20and%20Control%20System%20(AWACS)%20conducts%20a%20mission.jpg",
+      "width": 960,
+      "height": 619
+    }
+  }
+]);
+})();
