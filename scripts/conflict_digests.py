@@ -25,6 +25,8 @@ PATTERNS = {
     'moyen-orient-conflits': r'\b(?:iran\w*|israel\w*|palestin\w*|gaza|liban\w*|leban\w*|yemen\w*|houth\w*|hezbollah|hamas|ormuz|hormuz)\b|\bbab[ -]+el[ -]+mandeb\b',
 }
 CONTEXT = r'\b(?:guerre|conflit\w*|militair\w*|arme\w*|diplomati\w*|sanction\w*|securite|defense|cessez.le.feu|paix|pourparler\w*|civil\w*|humanitair\w*|aide|faim|deplace\w*|dissuasion|attaque\w*|frappe\w*|tension\w*|front\w*|ravitail\w*|approvisionn\w*|souverain\w*|beijing|pekin)\b'
+MAX_SUMMARY_WORDS = 90
+MAX_SUMMARY_SENTENCES = 3
 
 
 class PlainText(HTMLParser):
@@ -41,7 +43,8 @@ class PlainText(HTMLParser):
 
 
 def clean(value):
-    parser = PlainText(); parser.feed(html.unescape(value or '').replace('\\"','"'))
+    value = re.sub(r"\\+(?=[\"'])", '', html.unescape(value or ''))
+    parser = PlainText(); parser.feed(value)
     return ' '.join(''.join(parser.parts).split())
 
 
@@ -56,24 +59,37 @@ def timestamp(value):
     return result
 
 
+def complete_sentences(summary):
+    """Recognise terminal punctuation without splitting French titles/initials."""
+    protected = re.sub(r'\b(?:M|Mme|Mmes|MM|Dr|Pr|St)\.', lambda m: m.group().replace('.', '\u2024'), summary)
+    protected = re.sub(r'\b[A-ZÀ-Ý]\.(?=\s+[A-ZÀ-Ý])', lambda m: m.group().replace('.', '\u2024'), protected)
+    return [m.group().strip().replace('\u2024', '.') for m in
+            re.finditer(r'.+?[.!?]+["»”\u2019)\]]*(?=\s|$)', protected)]
+
+
+def usable_summary(value):
+    return (isinstance(value, str) and 12 <= len(value.split()) <= MAX_SUMMARY_WORDS
+            and not re.search(r'…|\.{3}', value)
+            and bool(re.search(r'[.!?]["»”\u2019)\]]*$', value)))
+
+
 def excerpt(summary):
-    """Prefer a complete lead sentence; keep at most 25 source words per article."""
+    """Keep up to three whole sentences; never cut a sentence or add ellipses."""
     summary = clean(summary)
-    if len(summary.split()) < 12 or summary.rstrip().endswith(('…', '...')):
-        return None
-    first = re.split(r'(?<=[.!?])\s+(?=[A-ZÀ-Ý«])', summary)[0]
-    words = first.split()
-    if len(words) <= 25:
-        return first, False
-    words = words[:25]
-    # Do not leave a dangling conjunction/preposition immediately before the ellipsis.
-    while words and folded(words[-1].strip(',;:')) in {'de','du','des','la','le','les','un','une','a','au','aux','en','et','ou','pour','par','avec','que','qui','ce','cette','son','sa','ses','avoir'}:
-        words.pop()
-    prefix = ' '.join(words).rstrip(',;:')
+    sentences = complete_sentences(summary)
+    selected = []
+    for sentence in sentences:
+        if re.search(r'…|\.{3}', sentence): break
+        if re.match(r'^Les (?:précisions|explications|images) ', sentence) and re.search(r'(?:France\s*24|RFI)\.$', sentence): break
+        if len((' '.join(selected + [sentence])).split()) > MAX_SUMMARY_WORDS: break
+        selected.append(sentence)
+        if len(selected) == MAX_SUMMARY_SENTENCES: break
+    text = ' '.join(selected)
+    if not usable_summary(text): return None
+    # A qualification outside the retained text could change its meaning.
     reservations = r'\b(?:selon|d.apres|aurait\w*|pourrait\w*|serait\w*|revendiqu\w*|accus\w*|non confirm\w*|probabl\w*|presum\w*)\b'
-    if any(match.end() > len(folded(prefix)) for match in re.finditer(reservations, folded(first))):
-        return None  # Never detach a statement from a reservation at the end.
-    return prefix + '…', True
+    if any(m.end() > len(folded(text)) for m in re.finditer(reservations, folded(summary))): return None
+    return text, False
 
 
 def safe_url(value, source):
@@ -139,10 +155,12 @@ def compose(previous, results, now, verify):
                             'status':'unchanged' if same else 'updated',
                             'paragraphs':paragraphs, 'sources':statuses}
         else:
+            retained = [p for p in old.get('paragraphs', [])
+                        if not p.get('truncated') and usable_summary(p.get('text'))]
             output[slug] = {'method':'publisher-excerpts', 'checkedAt':stamp,
-                            'updatedAt':old.get('updatedAt'),
-                            'status':'retained' if old.get('paragraphs') else 'empty',
-                            'paragraphs':old.get('paragraphs', []), 'sources':statuses}
+                            'updatedAt':(old.get('updatedAt') if retained == old.get('paragraphs', []) else stamp) if retained else None,
+                            'status':'retained' if retained else 'empty',
+                            'paragraphs':retained, 'sources':statuses}
     return output
 
 

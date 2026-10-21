@@ -12,7 +12,7 @@ const fs = require('node:fs'), path = require('node:path'), assert = require('no
       if (r.status !== 0) throw Error((r.stdout || '') + (r.stderr || '') + (r.error?.message || ''));
     }
     if(unavailable) continue;
-    console.log('OK : 16 scénarios de collecte et de rédaction sans IA (résumés, réserves, dates, doublons, pannes et conservation).');
+    console.log('OK : 18 scénarios de collecte et de rédaction sans IA (phrases complètes, réserves, dates, doublons, pannes et conservation).');
     tested = true; break;
   }
   assert.ok(tested, 'Python 3.9+ requis');
@@ -23,7 +23,7 @@ const fs = require('node:fs'), path = require('node:path'), assert = require('no
     assert.ok(html.includes('HEURE DE PARIS') && html.includes(data.checkedAt));
     for (const i of data.topics[slug].items) assert.ok(html.includes(i.url.replaceAll('&','&amp;')));
     const prose = conflictDigestHTML(data,slug);
-    assert.ok(prose.includes('id="situation-recente"') && prose.includes('résumés publiés par les sources'));
+    assert.ok(prose.includes('id="situation-recente"') && prose.includes('Résumés des sources'));
     assert.equal((prose.match(/class="learning-digest-paragraph"/g)||[]).length,data.topics[slug].digest.paragraphs.length);
     for(const p of data.topics[slug].digest.paragraphs) assert.ok(prose.includes(p.text.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))));
   }
@@ -34,6 +34,9 @@ const fs = require('node:fs'), path = require('node:path'), assert = require('no
   fixture.topics[slug].items[0].url = 'javascript:alert(1)';
   assert.throws(() => validateConflictUpdates(fixture));
   fixture.topics[slug].items = [];
+  const invalidSummary=structuredClone(data);
+  invalidSummary.topics[slug].digest.paragraphs[0].text='Une phrase incomplète au sujet des événements récents dans le pays et de leurs conséquences…';
+  assert.throws(()=>validateConflictUpdates(invalidSummary));
   fixture.topics[slug].digest.status = 'retained';
   assert.ok(conflictDigestHTML(fixture,slug).includes('dernier texte sourcé est conservé'));
   if(fixture.topics[slug].digest.paragraphs[0]) {

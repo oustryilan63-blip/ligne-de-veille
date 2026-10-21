@@ -22,16 +22,29 @@ class DigestTests(unittest.TestCase):
         self.assertIn('aurait',parsed[0]['text'])
 
     def test_clean_and_limit_without_translation(self):
-        text,truncated = excerpt('<p>Selon les autorités, '+'un événement militaire rapporté en Ukraine '*12+'</p>')
-        self.assertLessEqual(len(text.split()),25); self.assertTrue(truncated)
-        self.assertTrue(text.endswith('…')); self.assertIn('Selon les autorités',text)
+        summary = 'Selon les autorités, plusieurs infrastructures civiles ukrainiennes auraient été touchées au cours de la nuit. Les services de secours poursuivent leurs interventions dans les quartiers concernés et vérifient les informations disponibles. Aucun bilan définitif ne peut encore être établi à ce stade.'
+        text,truncated = excerpt('<p>'+summary+'</p>')
+        self.assertEqual(text,summary); self.assertFalse(truncated)
+        self.assertGreater(len(text.split()),25); self.assertLessEqual(len(text.split()),90)
+        self.assertNotIn('…',text); self.assertIn('Selon les autorités',text)
         self.assertEqual(clean('<p>Un texte.</p><p>Une suite.</p><script>secret</script>'),'Un texte. Une suite.')
+        self.assertEqual(clean('Une visite de '+chr(92)*3+'"solidarité'+chr(92)*3+'".'),'Une visite de "solidarité".')
         self.assertIsNone(excerpt('Un résumé très court.'))
         self.assertIsNone(excerpt('Un résumé incomplet contient quelques mots mais ne livre pas vraiment toute la phrase…'))
 
-    def test_trailing_reservation_cannot_be_cut_away(self):
+    def test_trailing_reservation_is_preserved_in_full_sentence(self):
         summary='Plusieurs infrastructures militaires situées dans les différentes régions du pays ont été endommagées lors de la nouvelle attaque menée pendant la nuit de lundi à mardi, selon des informations non confirmées.'
-        self.assertIsNone(excerpt(summary))
+        self.assertEqual(excerpt(summary),(summary,False))
+
+    def test_complete_sentences_and_publisher_cut_tail(self):
+        complete='M. Dupont a indiqué que près de 3,8 millions de personnes avaient regagné leur logement en Ukraine.'
+        self.assertEqual(excerpt(complete+' Une partie du résumé transmis par le flux est coupée…'),(complete,False))
+        self.assertEqual(excerpt(complete+' Les explications de Paul Dupont, correspondant à France 24.'),(complete,False))
+        self.assertIsNone(excerpt('Un long résumé sans aucune ponctuation terminale qui ne permet pas de savoir si la phrase fournie est complète'))
+        self.assertIsNone(excerpt('En Ukraine, '+'des infrastructures civiles importantes '*30+'.'))
+        first='Les représentants ukrainiens et leurs partenaires discutent des conditions de sécurité et des perspectives de paix.'
+        too_long='Les discussions portent sur '+'la protection des infrastructures civiles '*20+'.'
+        self.assertEqual(excerpt(first+' '+too_long),(first,False))
 
     def test_wrong_topic_and_nonsecurity_story_rejected(self):
         self.assertEqual(parse_feed(item('Taïwan cuisine','Les visiteurs découvrent les traditions culinaires locales dans un nouveau restaurant ouvert au centre de la ville.'),SOURCE,NOW),[])
@@ -61,6 +74,12 @@ class DigestTests(unittest.TestCase):
         self.assertEqual(failed[UK]['paragraphs'],first[UK]['paragraphs'])
         self.assertFalse(failed[UK]['sources'][0]['ok'])
         self.assertNotEqual(failed[UK]['checkedAt'],first[UK]['checkedAt'])
+
+    def test_failure_cannot_restore_old_truncated_summary(self):
+        previous={UK:{'digest':{'updatedAt':NOW.isoformat(),'paragraphs':[
+            {'text':'Un ancien extrait qui se termine au milieu de la phrase avec une coupure…','truncated':True}]}}}
+        failed=compose(previous,[(SOURCE,[],'timeout')],NOW,lambda url:False)
+        self.assertEqual(failed[UK]['status'],'empty');self.assertEqual(failed[UK]['paragraphs'],[])
 
     def test_unchanged_and_corrected_summary(self):
         parsed=parse_feed(item('Ukraine : diplomatie','Les représentants ukrainiens et leurs partenaires discutent des conditions de sécurité et des perspectives de paix.'),SOURCE,NOW)

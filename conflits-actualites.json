@@ -55,17 +55,25 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-21T17:58:10.428541+00:00",
-        "updatedAt": "2026-10-21T17:58:10.428541+00:00",
+        "checkedAt": "2026-10-21T18:06:45.422222+00:00",
+        "updatedAt": "2026-10-21T18:06:45.422222+00:00",
         "status": "updated",
         "paragraphs": [
           {
             "title": "Rencontre Witkoff - Poutine : envoi de la première cargaison de diesel russe vers les États-Unis",
-            "text": "Le président russe et l'émissaire de Donald Trump, Steve Witkoff, ont débuté mercredi 21 octobre à Saint-Pétersbourg des pourparlers sur un règlement du conflit…",
-            "truncated": true,
+            "text": "Le président russe et l'émissaire de Donald Trump, Steve Witkoff, ont débuté mercredi 21 octobre à Saint-Pétersbourg des pourparlers sur un règlement du conflit en Ukraine. En marge de la rencontre, Moscou a fait état de la libération d'un citoyen américain condamné pour mercenariat ainsi que de l'expédition prochaine d'un premier navire de diesel russe à destination des États-Unis.",
+            "truncated": false,
             "source": "France 24",
             "url": "https://www.france24.com/fr/vid%C3%A9o/20261021-rencontre-witkoff-poutine-envoi-de-la-premi%C3%A8re-cargaison-de-diesel-russe-vers-les-%C3%A9tats-unis",
             "publishedAt": "2026-10-21T13:41:52+00:00"
+          },
+          {
+            "title": "Ukraine : à l’approche de l’hiver, des millions de déplacés risquent de devoir fuir à nouveau",
+            "text": "Après avoir fui les combats, près de 3,8 millions d’Ukrainiens ont regagné leur domicile depuis le début de l’invasion russe. Mais les logements endommagés, les attaques contre les infrastructures énergétiques et le coût du chauffage menacent de provoquer une nouvelle vague de déplacements, alerte l’ONU.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/10/1159677",
+            "publishedAt": "2026-10-16T12:00:00+00:00"
           }
         ],
         "sources": [
@@ -102,21 +110,21 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-21T17:58:10.428541+00:00",
-        "updatedAt": "2026-10-21T17:38:30.764645+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-10-21T18:06:45.422222+00:00",
+        "updatedAt": "2026-10-21T18:06:45.422222+00:00",
+        "status": "updated",
         "paragraphs": [
           {
             "title": "La Chine sanctionne des ministres latino-américains pour avoir maintenu des relations diplomatiques avec Taïwan",
-            "text": "La Chine a annoncé, lundi 12 octobre, des sanctions contre un ministre du Paraguay et un autre du Belize pour avoir soutenu le maintien…",
-            "truncated": true,
+            "text": "La Chine a annoncé, lundi 12 octobre, des sanctions contre un ministre du Paraguay et un autre du Belize pour avoir soutenu le maintien de relations diplomatiques avec Taïwan. Un « avertissement », selon Pékin, envers quiconque agirait de même. Une manière de rappeler aux derniers alliés de l’île – que la Chine considère comme l'une de ses provinces – que leur soutien a un prix.",
+            "truncated": false,
             "source": "RFI",
             "url": "https://www.rfi.fr/fr/asie-pacifique/20261012-la-chine-sanctionne-des-ministres-latino-am%C3%A9ricains-pour-avoir-maintenu-des-relations-diplomatiques-avec-ta%C3%AFwan",
             "publishedAt": "2026-10-12T12:43:21+00:00"
           },
           {
             "title": "Taïwan: la fête nationale ravive la guerre mémorielle avec la Chine",
-            "text": "Taïwan célèbre samedi 10 octobre sa fête nationale, celle de la République de Chine.",
+            "text": "Taïwan célèbre samedi 10 octobre sa fête nationale, celle de la République de Chine. Une célébration vivement critiquée chaque année par Pékin, pour qui seule la République populaire de Chine existe.",
             "truncated": false,
             "source": "RFI",
             "url": "https://www.rfi.fr/fr/asie-pacifique/20261009-ta%C3%AFwan-la-f%C3%AAte-nationale-ravive-la-guerre-m%C3%A9morielle-avec-la-chine",
@@ -173,25 +181,33 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-21T17:58:10.428541+00:00",
-        "updatedAt": "2026-10-21T17:58:10.428541+00:00",
+        "checkedAt": "2026-10-21T18:06:45.422222+00:00",
+        "updatedAt": "2026-10-21T18:06:45.422222+00:00",
         "status": "updated",
         "paragraphs": [
           {
             "title": "Arabie saoudite : Emmanuel Macron à Riyad dans la dernière étape de sa tournée dans le Golfe",
-            "text": "Le président français Emmanuel Macron s'est rendu à Riyad dans le cadre d'une visite de \"solidarité\", la première d'un dirigeant occidental en Arabie saoudite depuis…",
-            "truncated": true,
+            "text": "Le président français Emmanuel Macron s'est rendu à Riyad dans le cadre d'une visite de \"solidarité\", la première d'un dirigeant occidental en Arabie saoudite depuis que les Houthis du Yémen soutenus par l'Iran ont intensifié leurs attaques début octobre. La visite s'inscrit dans le cadre d'une tournée dans les pays du Golfe visant à garantir l'approvisionnement en pétrole et en gaz.",
+            "truncated": false,
             "source": "France 24",
             "url": "https://www.france24.com/fr/moyen-orient/20261021-arabie-saoudite-emmanuel-macron-dans-derni%C3%A8re-%C3%A9tape-tourn%C3%A9e-golfe",
             "publishedAt": "2026-10-21T16:16:07+00:00"
           },
           {
             "title": "Un an après le cessez-le-feu, Gaza cherche encore ses morts sous les gravats",
-            "text": "Un an après le cessez-le-feu entre l’armée israélienne et le Hamas, les efforts pour extraire les dépouilles ensevelies sous les décombres se poursuivent dans…",
-            "truncated": true,
+            "text": "Un an après le cessez-le-feu entre l’armée israélienne et le Hamas, les efforts pour extraire les dépouilles ensevelies sous les décombres se poursuivent dans la bande de Gaza. Environ 1 000 corps auraient été récupérés jusqu'ici, mais la tâche reste immense : selon la défense civile, entre 8 000 et 10 000 autres seraient encore enfouis sous les gravats, dont 3 000 dans la zone contrôlée par l’armée israélienne.",
+            "truncated": false,
             "source": "France 24",
             "url": "https://www.france24.com/fr/%C3%A9missions/les-observateurs/20261021-cessez-feu-gaza-corps-decombres-morts-gravats",
             "publishedAt": "2026-10-21T15:32:49+00:00"
+          },
+          {
+            "title": "Yémen : Taëz encerclée, l’ONU craint une catastrophe humanitaire",
+            "text": "L’encerclement de Taëz par les rebelles houthis entrave l’acheminement de l’aide et aggrave une crise déjà marquée par la faim, les pénuries d’eau et la progression du choléra. Le Haut-Commissaire des Nations Unies aux droits de l’homme, Volker Türk, a appelé mardi à rouvrir immédiatement les voies d’approvisionnement et à protéger les civils.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/10/1159691",
+            "publishedAt": "2026-10-20T12:00:00+00:00"
           }
         ],
         "sources": [
