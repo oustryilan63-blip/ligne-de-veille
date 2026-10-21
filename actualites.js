@@ -4,6 +4,237 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-10-21",
+      "publishedAt": "2026-10-21T16:06:59+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "International experts convene in London to tackle evolving chemical weapons threats",
+      "url": "https://www.gov.uk/government/news/international-experts-convene-in-london-to-tackle-evolving-chemical-weapons-threats",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "International experts gathered in London for the 28th Chemical Weapons Demilitarisation Conference, bringing together policy, scientific and technical expertise to…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-21T16:19:36.298347+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/international-experts-convene-in-london-to-tackle-evolving-chemical-weapons-threats",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/international-experts-convene-in-london-to-tackle-evolving-chemical-weapons-threats",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T15:28:18+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Nuclear collaboration completes its mission",
+      "url": "https://www.gov.uk/government/news/nuclear-collaboration-completes-its-mission",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Cross-industry programme set up to safeguard skills has concluded its work",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-21T16:19:36.298347+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6ad786ef6bae3f806ae89e92/s300_ARC_closure_pic.jpg",
+        "kind": "article",
+        "alt": "The UK ARC Programme team",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/nuclear-collaboration-completes-its-mission",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/nuclear-collaboration-completes-its-mission",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-21"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T15:15:29+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La France et les Émirats arabes unis ont signé un accord intergouvernemental sur le développement du Rafale F5",
+      "url": "https://www.opex360.com/2026/10/21/la-france-et-les-emirats-arabes-unis-ont-signe-un-accord-intergouvernemental-sur-le-developpement-du-rafale-f5/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Industrie",
+        "Moyen-Orient",
+        "accord",
+        "aviation de chasse",
+        "Dassault Aviation",
+        "EDGE",
+        "Emirats arabes unis",
+        "Qatar",
+        "Rafale",
+        "Rafale F5"
+      ],
+      "sourceExcerpt": {
+        "text": "Ayant commandé quatre-vingts Rafale F4 en décembre 2021, les Émirats arabes unis furent sollicités par la France pour participer financièrement…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-21T16:19:36.298347+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/rafale-20221016.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La France et les Émirats arabes unis ont signé un accord intergouvernemental sur le développement du Rafale F5 ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/21/la-france-et-les-emirats-arabes-unis-ont-signe-un-accord-intergouvernemental-sur-le-developpement-du-rafale-f5/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/21/la-france-et-les-emirats-arabes-unis-ont-signe-un-accord-intergouvernemental-sur-le-developpement-du-rafale-f5/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-21",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/rafale-20221016.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T13:16:05+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La Russie vante un char capable de contourner l’ennemi sans se faire voir, les photos vérifiées en recensent 1 311 détruits ou capturés",
+      "url": "https://www.forum-militaire.fr/la-russie-vante-un-char-capable-de-contourner-lennemi-sans-se-faire-voir-les-photos-verifiees-en-recensent-1-311-detruits-ou-captures/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "char"
+      ],
+      "sourceExcerpt": {
+        "text": "Quatre surnoms flatteurs dans un communiqué, dont celui d’assassin capable de contourner l’ennemi sans se faire repérer. En face, un…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T10:26:43+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Des drones non autorisés ont été détectés «aux abords et au-dessus» de sites militaires de la région de Toulon",
+      "url": "https://www.opex360.com/2026/10/21/des-drones-non-autorises-ont-ete-detectes-aux-abords-et-au-dessus-de-sites-militaires-de-la-region-de-toulon/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "base navale",
+        "CECMED",
+        "drone",
+        "exercice",
+        "Hyères",
+        "Marine Nationale",
+        "survol",
+        "Toulon",
+        "Typhon"
+      ],
+      "sourceExcerpt": {
+        "text": "Fin 2025, il fut rapporté que des drones inconnus avaient survolé plusieurs sites militaires sensibles au Danemark, en Belgique, aux…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-21T16:19:36.298347+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/base-toulon-20261021.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Des drones non autorisés ont été détectés «aux abords et au-dessus» de sites militaires de la région de Toulon ».",
+        "credit": "Jesfr — Travail personnel, CC BY-SA 3.0",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/21/des-drones-non-autorises-ont-ete-detectes-aux-abords-et-au-dessus-de-sites-militaires-de-la-region-de-toulon/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/21/des-drones-non-autorises-ont-ete-detectes-aux-abords-et-au-dessus-de-sites-militaires-de-la-region-de-toulon/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-21",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/base-toulon-20261021.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T08:34:29+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La robotisation de l’armée de Terre française prend des formes inattendues comme avec ce démonstrateur REFURBOT monté sur un vieux châssis…",
+      "url": "https://www.forum-militaire.fr/le-groupe-franco-allemand-knds-a-presente-sept-innovations-centrees-sur-la-robotisation-du-combat-debarque-du-micro-robot-dobservation-au-char-teleopere/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de terre",
+        "Blindé",
+        "drone",
+        "France"
+      ],
+      "sourceExcerpt": {
+        "text": "Lors des Journées nationales de l’infanterie organisées à Draguignan les 14 et 15 octobre 2026, le groupe franco-allemand KNDS a…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T08:29:38+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "En RDC, la guerre contre le M23 profite aux milices",
+      "url": "https://www.revueconflits.com/en-rdc-la-guerre-contre-le-m23-profite-aux-milices/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Abonné",
+        "Congo",
+        "Reportage",
+        "Rwanda"
+      ],
+      "imageCheckedAt": "2026-10-21T16:19:36.298347+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/03/Carte-Congo.png",
+        "kind": "article",
+        "alt": "En RDC, la guerre contre le M23 profite aux milices",
+        "credit": "Congo (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/en-rdc-la-guerre-contre-le-m23-profite-aux-milices/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/en-rdc-la-guerre-contre-le-m23-profite-aux-milices/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-21",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/03/Carte-Congo.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-21",
       "publishedAt": "2026-10-21T03:00:04+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -6762,7 +6993,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-10-20T16:20:40.336005+00:00"
     }
   ],
-  "checkedAt": "2026-10-21T06:17:19.991090+00:00",
+  "checkedAt": "2026-10-21T16:19:32.380382+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -6781,7 +7012,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 6,
         "error": null
       },
       {
@@ -6822,14 +7053,14 @@ window.LDV_NEWS = {
       },
       {
         "source": "Naval News",
-        "ok": true,
-        "recentItems": 10,
-        "error": null
+        "ok": false,
+        "recentItems": 0,
+        "error": "HTTP Error 503: Service Temporarily Unavailable"
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 8,
+        "recentItems": 6,
         "error": null
       },
       {
@@ -6839,8 +7070,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 8,
-    "articleImages": 176,
+    "newItems": 7,
+    "articleImages": 181,
     "duplicateHeadlinesSkipped": 0
   }
 };
