@@ -4,6 +4,52 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-10-21",
+      "publishedAt": "2026-10-21T17:03:49+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Direction générale de l’armement a commandé quatre systèmes de défense aérienne SAMP/T NG supplémentaires",
+      "url": "https://www.opex360.com/2026/10/21/la-direction-generale-de-larmement-a-commande-quatre-systemes-de-defense-aerienne-samp-t-ng-supplementaires/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Défense antimissile",
+        "Forces aériennes",
+        "Industrie",
+        "aAE",
+        "armée de l'Air & de l'Espace",
+        "commande",
+        "défense aérienne",
+        "Direction générale de l'armement",
+        "Eurosam",
+        "MBDA",
+        "SAMP/T NG",
+        "Thales"
+      ],
+      "sourceExcerpt": {
+        "text": "Initialement, la Loi de programmation militaire [LPM] 2024-30 prévoyait de doter l’armée de l’Air & de l’Espace [AAE] de huit…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-21T17:20:29.682825+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/sampt-ng-20251216.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Direction générale de l’armement a commandé quatre systèmes de défense aérienne SAMP/T NG supplémentaires ».",
+        "credit": "ASTER 30 B1NT / DGA",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/21/la-direction-generale-de-larmement-a-commande-quatre-systemes-de-defense-aerienne-samp-t-ng-supplementaires/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/21/la-direction-generale-de-larmement-a-commande-quatre-systemes-de-defense-aerienne-samp-t-ng-supplementaires/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-21",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/sampt-ng-20251216.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-21",
       "publishedAt": "2026-10-21T16:06:59+00:00",
       "source": "Ministère britannique de la Défense",
       "sourceType": "Source officielle",
@@ -104,6 +150,83 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-21",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/rafale-20221016.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T14:17:06+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "EDGE Leads Integration of Sovereign Autonomous Systems in UAE Navy Demonstration with Allied Forces",
+      "url": "https://www.navalnews.com/naval-news/2026/10/edge-leads-integration-of-sovereign-autonomous-systems-in-uae-navy-demonstration-with-allied-forces/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "170 M-DETECTOR",
+        "Autonomous",
+        "Edge Group",
+        "INSPECTOR 125"
+      ],
+      "sourceExcerpt": {
+        "text": "EDGE has led the integration of sovereign autonomous systems for a UAE Navy demonstration of national and allied unmanned maritime…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-21T17:20:29.682825+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Press-Release-EDGE-Leads-Integration-of-Sovereign-Autonomous-Systems-in-UAE-Navy-Demonstration-with-Allied-Forces-768x432.jpg",
+        "kind": "article",
+        "alt": "EDGE Leads Integration of Sovereign Autonomous Systems in UAE Navy Demonstration with Allied Forces",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/edge-leads-integration-of-sovereign-autonomous-systems-in-uae-navy-demonstration-with-allied-forces/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/edge-leads-integration-of-sovereign-autonomous-systems-in-uae-navy-demonstration-with-allied-forces/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-21",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Press-Release-EDGE-Leads-Integration-of-Sovereign-Autonomous-Systems-in-UAE-Navy-Demonstration-with-Allied-Forces.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T13:32:56+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Leading Navy Selects Exail Navigation Systems for USV Fleet",
+      "url": "https://www.navalnews.com/naval-news/2026/10/leading-navy-selects-exail-navigation-systems-for-usv-fleet/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Exail",
+        "navigation system",
+        "USV"
+      ],
+      "sourceExcerpt": {
+        "text": "Exail secures a major contract to equip a leading navy's fleet of uncrewed surface vessels (USVs) with its resilient Marins…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-21T17:20:29.682825+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Marins-Series-%C2%A9Exail_1-768x512.jpg",
+        "kind": "article",
+        "alt": "Marins Series INS by Exail",
+        "credit": "Exail",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/leading-navy-selects-exail-navigation-systems-for-usv-fleet/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/leading-navy-selects-exail-navigation-systems-for-usv-fleet/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-21",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Marins-Series-%C2%A9Exail_1.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -230,6 +353,48 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-21",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/03/Carte-Congo.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T07:20:04+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Un Mirage 2000D RMV s’est écrasé près de Nancy [MàJ-1]",
+      "url": "https://www.opex360.com/2026/10/21/un-mirage-2000d-rmv-sest-ecrase-pres-de-nancy/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "aAE",
+        "accident",
+        "armée de l'Air & de l'Espace",
+        "BA 133",
+        "EC 2/3 Champagne",
+        "Mirage 2000D",
+        "Nancy"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 20 octobre, vers 22h40, de retour de mission, un Mirage 2000D RMV de l’Escadron de chasse 2/3 Champagne a…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-21T17:20:29.682825+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/2000d-20200207.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Un Mirage 2000D RMV s’est écrasé près de Nancy [MàJ-1] ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/21/un-mirage-2000d-rmv-sest-ecrase-pres-de-nancy/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/21/un-mirage-2000d-rmv-sest-ecrase-pres-de-nancy/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-21",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/2000d-20200207.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -3452,6 +3617,29 @@ window.LDV_NEWS = {
     },
     {
       "date": "2026-10-15",
+      "publishedAt": "2026-10-15T12:58:15+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Une grue non homologuée a empêché l’armée allemande de tirer un seul missile de son nouveau bouclier antiaérien pendant un an et demi",
+      "url": "https://www.forum-militaire.fr/une-grue-non-homologuee-a-empeche-larmee-allemande-de-tirer-un-seul-missile-de-son-nouveau-bouclier-antiaerien-pendant-un-an-et-demi/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "missile"
+      ],
+      "sourceExcerpt": {
+        "text": "Ce système de défense aérienne allemand protège les villes ukrainiennes depuis 2022 et a été vendu à une dizaine de…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-15",
       "publishedAt": "2026-10-15T10:51:13+00:00",
       "source": "Zone Militaire — Opex360",
       "sourceType": "Presse spécialisée",
@@ -3595,6 +3783,30 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-15",
         "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/10/XxjpbeE000034_20260507_PEPFN0A001-scaled.jpg",
         "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T06:04:36+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "L’Indonésie a trouvé son nouveau fournisseur d’avions de combat et il n’est ni américain, ni russe, ni français mais turc",
+      "url": "https://www.forum-militaire.fr/jakarta-a-trouve-son-nouveau-fournisseur-davions-de-combat-et-il-nest-ni-americain-ni-russe-ni-francais/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "Industrie",
+        "avion",
+        "contrat"
+      ],
+      "sourceExcerpt": {
+        "text": "L’Indonésie aligne dix milliards de dollars pour 48 chasseurs furtifs KAAN et jusqu’à 60 drones de combat Kızılelma. Avec 17…",
+        "kind": "feed-excerpt"
       }
     },
     {
@@ -6776,7 +6988,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-20T16:20:40.336005+00:00"
+      "imageCheckedAt": "2026-10-21T17:20:29.682825+00:00"
     },
     {
       "date": "2026-10-07",
@@ -6990,10 +7202,10 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-20T16:20:40.336005+00:00"
+      "imageCheckedAt": "2026-10-21T17:20:29.682825+00:00"
     }
   ],
-  "checkedAt": "2026-10-21T16:19:32.380382+00:00",
+  "checkedAt": "2026-10-21T17:20:22.905271+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -7053,14 +7265,14 @@ window.LDV_NEWS = {
       },
       {
         "source": "Naval News",
-        "ok": false,
-        "recentItems": 0,
-        "error": "HTTP Error 503: Service Temporarily Unavailable"
+        "ok": true,
+        "recentItems": 10,
+        "error": null
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -7070,8 +7282,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 7,
-    "articleImages": 181,
+    "newItems": 6,
+    "articleImages": 185,
     "duplicateHeadlinesSkipped": 0
   }
 };
