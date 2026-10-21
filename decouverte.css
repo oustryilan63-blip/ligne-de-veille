@@ -38,3 +38,181 @@
   .editorial-card{padding:22px}.editorial-card h3{font-size:24px}.reading-path{padding:20px}.reading-path li{grid-template-columns:28px minmax(0,1fr);gap:12px}.reading-step-number{width:28px;height:28px;line-height:28px}.reading-path li a{font-size:17px}.reading-path-controls{align-items:flex-start;flex-direction:column}.editorial-map figcaption{padding:12px;font-size:11px}.editorial-history-entry>a{display:block;margin-right:0}
   .variant-table{table-layout:auto}.variant-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.variant-table,.variant-table tbody,.variant-table tr,.variant-table th,.variant-table td{display:block;width:100%}.variant-table th:first-child{width:100%}.variant-table tbody th{background:#e4ebdc;padding:14px 16px}.variant-table td{border:0;padding:12px 16px}.variant-table td+td{border-left:0;border-top:1px solid #dbe1d4}.variant-table td::before{content:attr(data-version);display:block;font-weight:700;color:#263b31;margin-bottom:5px}.variant-table caption{display:block;width:100%}
 }
+
+/* Comprendre : des entrées éditoriales, puis un dossier confortable à lire. */
+.discovery-main{padding-top:34px;padding-bottom:64px}
+.discovery-main .learning-jump{padding:10px;gap:8px;background:#fafcf5;border:1px solid #d1dcc7;border-radius:11px;margin-bottom:30px;box-shadow:0 4px 16px #21382506}
+.discovery-main .learning-jump a{padding:12px 16px;border:0;border-radius:7px;color:#3b5536;font-size:13px;line-height:1.6;min-height:44px}
+.discovery-main .learning-jump a:hover{background:#e7efdc;color:#28452e}
+.discovery-main .editorial-hub{margin:34px 0 42px;padding-top:28px;border-color:#cdd9c2}
+.discovery-main .editorial-hub h2,.discovery-main #dossiers>h2,.discovery-main #comparaisons>h2{font:600 clamp(29px,3.3vw,42px)/1.18 var(--serif);letter-spacing:-.02em;color:#2b4331;max-width:850px;margin:16px 0 20px}
+.discovery-main .editorial-hub>p,.discovery-main #dossiers>p,.discovery-main #comparaisons>p{font-size:15px;line-height:1.85;color:#53694b;max-width:83ch}
+.discovery-main #par-ou-commencer{position:relative;margin-top:0;padding:30px 34px;border:1px solid #c5d3b9;border-left:4px solid #b8815b;border-radius:12px;background:#e9f0df;box-shadow:0 6px 20px #243b2606}
+.discovery-main #par-ou-commencer .eyebrow{color:#865338;line-height:1.8}
+.discovery-main #par-ou-commencer .button{margin-top:10px;min-height:48px}
+.discovery-main .editorial-grid{gap:24px;align-items:stretch}
+.discovery-main .editorial-card{display:flex;flex-direction:column;padding:28px 30px;border-radius:12px;border:1px solid #d0dcc4;border-top:3px solid #b47c56;background:#fffef8;box-shadow:0 7px 22px #20372408}
+.discovery-main .editorial-card h3{font:600 29px/1.2 var(--serif);letter-spacing:-.015em;margin:18px 0}
+.discovery-main .editorial-card p{font-size:15px;line-height:1.85;color:#52694a;margin:0 0 22px}
+.discovery-main .editorial-card>a{margin-top:auto;padding:15px 0 0;border-top:1px solid #e1e8d8;font-size:14px;line-height:1.7;color:#815036}
+.discovery-main .editorial-card .discovery-kicker{font:500 10px/1.8 var(--mono);color:#855237;letter-spacing:.03em}
+.discovery-main .learning-filters{padding:24px;border:1px solid #c5d5b8;border-radius:11px;background:#eaf1df;margin:26px 0}
+.discovery-main .learning-filter-label{font-size:14px;margin-bottom:15px;color:#344f34}
+.discovery-main .learning-filter-buttons{gap:10px}
+.discovery-main .learning-filter-buttons button{min-height:44px;padding:11px 18px;border-radius:7px;border-color:#b9ccaa;background:#fcfdf6;font-size:13px;line-height:1.6}
+.discovery-main .learning-filter-buttons button[aria-pressed=true]{background:#2d4734;color:#fffdf1;border-color:#2d4734;box-shadow:0 2px 6px #223b2810}
+.discovery-main .learning-filters p{font:500 11px/1.8 var(--mono);color:#536b49;margin-top:17px}
+.discovery-main .discovery-grid{gap:26px;margin-top:28px}
+.discovery-main .discovery-card{display:flex;flex-direction:column;border:1px solid #d0dcc4;border-radius:13px;background:#fffef8;box-shadow:0 7px 24px #21382508;transition:border-color .15s,box-shadow .15s}
+.discovery-main .discovery-card:hover{border-color:#97ae85;box-shadow:0 10px 25px #21382510}
+.discovery-main .discovery-card>a{display:flex;flex-direction:column;flex:1;min-width:0}
+.discovery-main .discovery-card img{display:block;height:225px;flex:none;background:#e5ecdb}
+.discovery-main .learning-card-art{height:225px;flex:none;background:#e9f0df;border-bottom:1px solid #dce5d2}
+.discovery-main .discovery-card-copy{display:flex;flex-direction:column;flex:1;padding:25px 28px 20px}
+.discovery-main .discovery-card h3{font:600 clamp(26px,2.6vw,32px)/1.2 var(--serif);letter-spacing:-.015em;margin:15px 0 17px}
+.discovery-main .discovery-card p{font-size:15px;line-height:1.85;color:#52694b;margin:0 0 24px}
+.discovery-main .discovery-kicker{font:500 10px/1.9 var(--mono);letter-spacing:.025em;color:#885438}
+.discovery-main .learning-new{width:fit-content;border-radius:4px;padding:4px 8px;background:#eee2cf;color:#795033;font-size:10px;line-height:1.7;margin-top:12px}
+.discovery-main .discovery-card-copy>strong{margin-top:auto;padding-top:16px;border-top:1px solid #e0e7d6;color:#7e5037;font-size:13px;line-height:1.8}
+.discovery-main .discovery-credit{padding:0 28px 20px;font-size:10px;line-height:1.8;color:#65775b;overflow-wrap:anywhere}
+.discovery-main .discovery-credit a{text-decoration:underline;text-underline-offset:3px}
+.discovery-main .learning-glossary{padding:30px 32px;border-radius:12px;background:#eaf0e1;border:1px solid #c7d7ba;margin:44px 0}
+.discovery-main .learning-glossary h2{font:600 clamp(29px,3.1vw,40px)/1.2 var(--serif);margin:14px 0 20px;color:#2c4530}
+.discovery-main .learning-glossary>p{font-size:15px;line-height:1.85;color:#53694b}
+.discovery-main .learning-glossary input{border-radius:7px;min-height:48px;background:#fffef8;border-color:#baccaa;padding:13px 16px}
+.discovery-main .learning-glossary-grid{gap:14px;margin-top:24px}
+.discovery-main .learning-glossary details{border-radius:8px;border-color:#c6d5b9;background:#fffef8;padding:0 20px}
+.discovery-main .learning-glossary summary{min-height:52px;padding:18px 0;color:#324e33;font-size:15px;line-height:1.6}
+.discovery-main .learning-glossary details p{font-size:15px;line-height:1.85;color:#4a6242}
+.discovery-main .discovery-presets a{border-radius:7px;min-height:44px;padding:13px 16px;background:#fffef8;border-color:#c9d6bf;font-size:14px;line-height:1.7}
+
+/* Les dix dossiers et les récits historiques partagent le même papier de lecture. */
+body:has(.discovery-article) .discovery-hero{padding:38px 0}
+body:has(.discovery-article) .discovery-hero h1{font-size:clamp(38px,4.7vw,64px);line-height:1.1;max-width:1060px;margin:20px 0}
+body:has(.discovery-article) .discovery-hero p{font-size:15px;line-height:1.85;max-width:85ch}
+.discovery-main .learning-meta{display:block;width:fit-content;padding:9px 14px;margin:18px 0 26px;background:#e8efde;border:1px solid #d0ddc2;border-radius:6px;font:500 11px/1.8 var(--mono);color:#526a47}
+.discovery-main>.discovery-split{grid-template-columns:minmax(0,1fr) 270px;gap:28px;align-items:start}
+.discovery-main>.discovery-split.learning-full{grid-template-columns:minmax(0,1fr)}
+.discovery-main .discovery-article{min-width:0;padding:34px 38px 38px;border:1px solid #d1dcc7;border-top:4px solid #b9825c;border-radius:12px;background:#fffef9;box-shadow:0 9px 30px #21382508;color:#344e38}
+.discovery-main .learning-full .discovery-article{max-width:900px}
+.discovery-main .editorial-longread{max-width:900px}
+.discovery-main .discovery-article h2{font:600 clamp(27px,2.8vw,36px)/1.22 var(--serif);letter-spacing:-.015em;color:#2c4631;margin:30px 0 20px}
+.discovery-main .discovery-article h3{line-height:1.45;color:#344e38}
+.discovery-main .discovery-article p{font-size:17px;line-height:1.95;max-width:76ch;color:#3e5540;margin-bottom:24px;text-wrap:pretty;overflow-wrap:break-word}
+.discovery-main .discovery-article section{margin-bottom:36px}
+.discovery-main .discovery-article section[id]{scroll-margin-top:28px}
+.discovery-main .discovery-takeaway{padding:23px 25px;margin:0 0 28px;background:#eaf2df;border:1px solid #c9dab8;border-left:4px solid #ad7953;border-radius:8px;color:#344e35;font-size:17px;line-height:1.85}
+.discovery-main .discovery-takeaway>strong{display:inline-block;font:500 10px/1.8 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:#865438;margin-bottom:10px}
+.discovery-main .learning-toc{padding:23px 25px;margin:0 0 30px;border:1px solid #cbd8bf;border-radius:10px;background:#f0f5e8;line-height:1.85;color:#3c5537}
+.discovery-main .learning-toc>strong{font:600 24px/1.3 var(--serif);color:#2f4932}
+.discovery-main .learning-toc ol{padding-left:23px;margin:16px 0}
+.discovery-main .learning-toc li{padding:4px 0 4px 5px;line-height:1.7}
+.discovery-main .learning-toc li::marker{color:#9b6a49;font:500 11px var(--mono)}
+.discovery-main .learning-toc a{font-size:14px;line-height:1.85;text-decoration:underline;text-decoration-color:#a7b89a;text-underline-offset:4px}
+.discovery-main .learning-toc a:hover{color:#865438;text-decoration-color:currentColor}
+.discovery-main .learning-figure{border-radius:10px;border-color:#c8d7ba;background:#f1f5e9;margin:0 0 32px}
+.discovery-main .learning-figure figcaption{padding:13px 18px;background:#edf2e5;border-color:#d3dfc7;font-size:11px;line-height:1.8;color:#536c49}
+.discovery-main .discovery-refs{gap:8px 16px;padding:0 0 12px;margin-top:-8px;line-height:1.8}
+.discovery-main .discovery-refs a{font-size:11px;line-height:1.8;color:#7e543c;text-underline-offset:4px;overflow-wrap:anywhere}
+.discovery-main .discovery-split>aside{min-width:0}
+.discovery-main .discovery-photo{border:1px solid #cedbc3;border-radius:10px;background:#f8faf2;overflow:hidden;margin:0 0 22px;box-shadow:0 5px 18px #21382506}
+.discovery-main .discovery-photo-label{padding:14px 17px;font:600 21px/1.3 var(--serif);color:#314c33}
+.discovery-main .discovery-photo img{display:block;width:100%;height:auto;max-height:290px;object-fit:contain;background:#e7eedd}
+.discovery-main .discovery-photo figcaption{padding:13px 16px;font-size:10px;line-height:1.85;color:#607452;overflow-wrap:anywhere}
+.discovery-main .discovery-photo figcaption a{text-decoration:underline;text-underline-offset:3px}
+.discovery-main .editorial-photo-note{font-size:12px;line-height:1.85;color:#5c7250}
+.discovery-main .learning-history{padding-top:30px;border-top:2px solid #c7d5bc}
+.discovery-main .learning-timeline{margin-top:24px}
+.discovery-main .learning-timeline li{grid-template-columns:110px minmax(0,1fr);gap:22px;padding:23px 0;border-color:#d5dfcc}
+.discovery-main .learning-timeline-date{color:#8c583b;font:600 13px/1.8 var(--mono)}
+.discovery-main .learning-timeline h4{font-size:18px;line-height:1.6;margin-bottom:10px}
+.discovery-main .discovery-article .learning-timeline p{font-size:15px;line-height:1.9;margin-bottom:12px}
+.discovery-main .discovery-diagram{padding:22px 24px;border-radius:10px;border-color:#cbd8bf;background:#f0f5e8;margin:30px 0}
+.discovery-main .discovery-diagram>div{padding:17px 0;line-height:1.85;gap:20px;border-color:#d2dec6}
+.discovery-main .discovery-diagram small{font-size:11px;line-height:1.8}
+.discovery-main .discovery-article .learning-quiz{padding:26px;border:1px solid #c8d8b9;border-top:3px solid #829c6a;border-radius:11px;background:#edf4e3;margin:36px 0}
+.discovery-main .learning-quiz h2{margin-top:12px}
+.discovery-main .learning-quiz fieldset{padding:20px 0;border-color:#c7d7b8}
+.discovery-main .learning-quiz legend{font-size:16px;line-height:1.8}
+.discovery-main .learning-quiz label{padding:14px 16px;border-radius:8px;border-color:#c9d9bb;background:#fffef8;font-size:14px;line-height:1.8;gap:13px}
+.discovery-main .learning-quiz label:has(input:checked){background:#dfebd2;border-color:#809c66}
+.discovery-main .learning-quiz input{accent-color:#3c5b36}
+.discovery-main .discovery-article .learning-quiz-feedback{border-radius:6px;font-size:14px;line-height:1.85;padding:16px}
+.discovery-main .learning-quiz-actions{gap:14px;margin-top:18px}
+.discovery-main .learning-quiz-actions .button{min-height:48px;padding:13px 18px;line-height:1.6}
+.discovery-main .discovery-article .discovery-sources{padding:25px 26px;border:1px solid #d1dcc8;border-radius:10px;background:#f1f5ea;margin-top:36px}
+.discovery-main .discovery-sources h2{margin:0 0 20px}
+.discovery-main .discovery-article .discovery-sources p{font-size:13px;line-height:1.85}
+.discovery-main .discovery-sources ol{padding-left:21px;margin-bottom:0}
+.discovery-main .discovery-sources li{padding:8px 0;font-size:13px;line-height:1.9;color:#765039;border-bottom:1px solid #dce5d2}
+.discovery-main .discovery-sources li:last-child{border-bottom:0}
+.discovery-main .discovery-sources a{text-underline-offset:4px}
+.discovery-main .learning-further{padding-top:28px;margin-top:34px;border-color:#d1dcc8}
+.discovery-main .learning-further a{display:block;padding:13px 16px;margin-top:10px;border:1px solid #d1ddc5;border-radius:7px;background:#f5f8ee;font-size:14px;line-height:1.8;color:#3a5636}
+.discovery-main .discovery-related a{border-radius:7px;background:#f4f8ec;padding:12px 16px;font-size:13px;line-height:1.7}
+.discovery-main .editorial-map{border-radius:10px;border-color:#c4d2b7;overflow:hidden}
+.discovery-main .editorial-map figcaption{padding:16px;font-size:11px;line-height:1.85;background:#edf3e4;color:#536b49}
+.discovery-main .variant-table-wrap{border-radius:10px;border-color:#c7d5bb;margin-top:28px}
+.discovery-main .variant-table th,.discovery-main .variant-table td{line-height:1.85;padding:18px 16px;border-color:#d1ddc5}
+.discovery-main .variant-table thead{background:#2d4734;color:#fffdf2}
+.discovery-main .variant-table caption{padding:16px 18px;line-height:1.85;background:#edf3e4}
+.discovery-main .reading-path{background:#fffef9;border:1px solid #d1dcc8;border-top:4px solid #b47b56;border-radius:12px;padding:32px 38px;box-shadow:0 8px 24px #21382508}
+.discovery-main .reading-path li{padding:24px 0;gap:20px;border-color:#d3dec8}
+.discovery-main .reading-path li a{font-size:19px;line-height:1.6}
+.discovery-main .reading-path li p{font-size:15px;line-height:1.9}
+.discovery-main .reading-step-number{background:#314d37;color:#fffdf2}
+.discovery-main .reading-path-controls button{border-radius:7px;padding:12px 16px;line-height:1.7}
+
+@media(max-width:1000px){
+ .discovery-main>.discovery-split{grid-template-columns:minmax(0,1fr) 240px;gap:22px}
+ .discovery-main>.discovery-split.learning-full{grid-template-columns:1fr}
+ .discovery-main .discovery-article{padding:30px}
+}
+@media(max-width:800px){
+ .discovery-main>.discovery-split{grid-template-columns:1fr}
+ .discovery-main .discovery-split>aside{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+ .discovery-main .discovery-split>aside:has(.editorial-photo-note){display:block}
+ .discovery-main .discovery-article{padding:30px 28px}
+ .discovery-main .discovery-grid{gap:20px}
+ .discovery-main .discovery-card img,.discovery-main .learning-card-art{height:190px}
+ .discovery-main .discovery-card-copy{padding:23px}
+ .discovery-main .discovery-credit{padding:0 23px 20px}
+ .discovery-main .learning-timeline li{grid-template-columns:1fr;gap:9px}
+}
+@media(max-width:600px){
+ .discovery-main{padding-top:25px;padding-bottom:44px}
+ body:has(.discovery-article) .discovery-hero{padding:30px 0}
+ body:has(.discovery-article) .discovery-hero h1{font-size:clamp(34px,8vw,45px);line-height:1.13}
+ body:has(.discovery-article) .discovery-hero p{font-size:14px;line-height:1.85}
+ .discovery-main .learning-jump{gap:5px;padding:7px;margin-bottom:24px}
+ .discovery-main .learning-jump a{padding:10px 12px;font-size:12px;line-height:1.6}
+ .discovery-main #par-ou-commencer{padding:25px 23px}
+ .discovery-main .editorial-card{padding:24px}
+ .discovery-main .editorial-card h3{font-size:27px}
+ .discovery-main .learning-filters{padding:21px}
+ .discovery-main .learning-filter-buttons{gap:8px}
+ .discovery-main .learning-filter-buttons button{padding:10px 14px;font-size:12px}
+ .discovery-main .discovery-card h3{font-size:28px}
+ .discovery-main .discovery-card-copy{padding:24px 23px 20px}
+ .discovery-main .discovery-card img,.discovery-main .learning-card-art{height:210px}
+ .discovery-main .learning-glossary{padding:24px 21px}
+ .discovery-main .learning-glossary details{padding:0 17px}
+ .discovery-main .discovery-article{padding:27px 21px 30px;border-radius:10px}
+ .discovery-main .discovery-article p{font-size:16px;line-height:1.9;margin-bottom:24px}
+ .discovery-main .discovery-article h2{font-size:29px;line-height:1.25}
+ .discovery-main .discovery-takeaway{padding:20px;font-size:16px;line-height:1.85}
+ .discovery-main .learning-toc{padding:22px 19px}
+ .discovery-main .learning-toc a{font-size:13px;line-height:1.9}
+ .discovery-main .discovery-split>aside{grid-template-columns:1fr}
+ .discovery-main .discovery-photo{max-width:500px;width:100%;margin-inline:auto}
+ .discovery-main .discovery-diagram{padding:21px}
+ .discovery-main .discovery-diagram>div{grid-template-columns:1fr;gap:8px}
+ .discovery-main .discovery-article .learning-quiz{padding:23px 18px}
+ .discovery-main .learning-quiz label{padding:13px;font-size:14px}
+ .discovery-main .discovery-article .discovery-sources{padding:23px 20px}
+ .discovery-main .reading-path{padding:25px 22px}
+ .discovery-main .reading-path li{grid-template-columns:28px minmax(0,1fr);gap:14px}
+ .discovery-main .reading-path li a{font-size:18px}
+}
+.discovery-main .discovery-card[hidden],.discovery-main .learning-filters[hidden],.discovery-main .learning-quiz-form[hidden],.discovery-main .learning-quiz-feedback[hidden],.discovery-main .learning-glossary details[hidden]{display:none}
+@media(prefers-reduced-motion:reduce){.discovery-main .discovery-card{transition:none}}
