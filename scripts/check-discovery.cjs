@@ -20,7 +20,7 @@ assert.equal(N.context({title:'Rafale F4 : une livraison'}).url,'variantes-rafal
 assert.equal(N.context({title:'Nouveaux drones de transport'}).url,'comprendre-familles-drones.html');
 assert.equal(N.context({title:'Un sommet diplomatique sans thème documenté'}),null);
 assert.equal(N.context({title:'Le transport commercial',publisherCategories:['Détroit d’Ormuz']}).url,'comprendre-detroits-routes-maritimes.html');
-assert.equal(C.guides.length,10);assert.equal(new Set(C.guides.map(g=>g.slug)).size,10);
+assert.equal(C.guides.length,14);assert.equal(new Set(C.guides.map(g=>g.slug)).size,C.guides.length);
 for(const g of C.guides){
  assert.ok(g.sources.length>=2);assert.ok(g.sections.every(s=>s.sources.length&&s.sources.every(i=>g.sources[i])));assert.ok(g.engins.every(i=>E[i]));
  assert.ok(g.categories.length&&g.categories.every(tag=>C.categories.some(([id])=>tag===id)));
@@ -33,7 +33,7 @@ for(const g of C.guides){
 for(const e of E)for(const link of D.guideLinks(e))assert.ok(['variantes-rafale.html','variantes-leopard-2.html'].includes(link.url)||C.guides.some(g=>'comprendre-'+g.slug+'.html'===link.url),'Dossier associé absent : '+e.name);
 assert.equal(C.glossary.length,12);for(const [term,definition,slug] of C.glossary){assert.ok(term&&definition);assert.ok(C.guides.some(g=>g.slug===slug));}
 for(const p of C.comparisons){assert.notEqual(p.a,p.b);assert.equal(E[p.a].category,E[p.b].category);assert.ok(T[p.a].variant&&T[p.b].variant);assert.ok(p.sources.length>=2)}
-const output=path.join(root,'_site-decouverte');
+const output=path.resolve(process.env.RADAR_DISCOVERY_TEST_OUTPUT||path.join(root,'_site-decouverte'));
 if(fs.existsSync(path.join(output,'sitemap.xml'))){
  const index=JSON.parse(fs.readFileSync(path.join(output,'recherche-index.json'),'utf8'));
  for(const file of ['comprendre.html','comprendre-sna-snle.html','recherche.html']){
@@ -42,7 +42,7 @@ if(fs.existsSync(path.join(output,'sitemap.xml'))){
  }
  assert.equal(index.items.filter(i=>i.type==='engin').length,E.length);assert.equal(index.items.filter(i=>i.type==='dossier').length,C.guides.length+5);assert.equal(index.items.filter(i=>i.type==='jeu').length,8);
  const hub=fs.readFileSync(path.join(output,'comprendre.html'),'utf8');assert.ok(hub.includes('id="learning-filters"'));assert.ok(hub.includes('id="glossaire"'));assert.equal((hub.match(/data-guide-categories=/g)||[]).length,C.guides.length);assert.equal((hub.match(/data-glossary-term=/g)||[]).length,12);
- for(const g of C.guides){const html=fs.readFileSync(path.join(output,'comprendre-'+g.slug+'.html'),'utf8');assert.ok(html.includes('aria-label="Sommaire du dossier"'));assert.equal((html.match(/<fieldset data-answer=/g)||[]).length,3);assert.ok(html.includes('Références consultées le 14 octobre 2026'));assert.ok(html.includes('id="contexte-historique"'));assert.ok(html.includes('class="learning-timeline"'));assert.ok(!html.includes('undefined'));if(g.visual)assert.ok(html.includes('class="learning-svg"'));}
+ for(const g of C.guides){const html=fs.readFileSync(path.join(output,'comprendre-'+g.slug+'.html'),'utf8');assert.ok(html.includes('aria-label="Sommaire du dossier"'));assert.equal((html.match(/<fieldset data-answer=/g)||[]).length,3);assert.ok(html.includes('Références consultées le '+new Intl.DateTimeFormat('fr-FR',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date((g.checkedAt||C.checkedAt)+'T12:00:00Z'))));assert.ok(html.includes('id="contexte-historique"'));assert.ok(html.includes('class="learning-timeline"'));assert.ok(!html.includes('undefined'));if(g.visual)assert.ok(html.includes('class="learning-svg"'));}
  for(const [i,e]of E.entries()){
   const html=fs.readFileSync(path.join(output,D.profileURL(e)),'utf8');
   assert.ok(html.includes('data-engine-index="'+i+'"'));assert.ok(html.includes('Repères en bref'));assert.ok(html.includes('class="history-story-copy"'));assert.ok(!html.includes('class="history-story-chapter"'));assert.ok(html.includes('class="history-story-sources"'));assert.ok(html.includes('<h1 class="history-name">'));
@@ -53,7 +53,7 @@ if(fs.existsSync(path.join(output,'sitemap.xml'))){
  for(const p of C.comparisons){const html=fs.readFileSync(path.join(output,'comparatif-'+p.slug+'.html'),'utf8');assert.ok(html.includes('data-compare-a="'+p.a+'"'));assert.ok(html.includes(T[p.a].variant));assert.ok(html.includes(T[p.b].variant));}
  const sitemap=fs.readFileSync(path.join(output,'sitemap.xml'),'utf8');assert.ok(sitemap.includes('fiche-rafale.html'));assert.ok(sitemap.includes('comprendre-sna-snle.html'));assert.ok(!sitemap.includes('recherche.html'));
 }
-console.log(E.length+' adresses et encadrés, index multi-rubriques, recherche accentuée et vide, 10 dossiers sourcés, 30 questions, 12 définitions, 3 comparaisons et régression Hercules : OK.');
+console.log(E.length+' adresses et encadrés, index multi-rubriques, recherche accentuée et vide, '+C.guides.length+' dossiers sourcés, '+C.guides.reduce((sum,g)=>sum+g.quiz.length,0)+' questions, 12 définitions, 3 comparaisons et régression Hercules : OK.');
 if(fs.existsSync(path.join(output,'recherche.html')))(async()=>{
  const {createDOM}=require('./feature-test-dom.cjs');
  const document=createDOM(fs.readFileSync(path.join(output,'recherche.html'),'utf8'));
@@ -81,7 +81,7 @@ if(fs.existsSync(path.join(output,'recherche.html')))(async()=>{
  const quizFields=questions.map(q=>{const f=make('fieldset',form,{'data-answer':String(q.answer)});q.choices.forEach((_,i)=>{const input=make('input',f);input.value=String(i);input.checked=false});make('p',f,{class:'learning-quiz-feedback','data-correct':q.choices[q.answer],'data-explanation':q.explanation});return f;});
  const score=make('p',form,{class:'learning-quiz-score'});vm.runInNewContext(read('discovery-tools.js'),{window:{},document:learn,Intl});
  await themeButtons.find(b=>b.dataset.guideFilter==='geopolitique').click();assert.equal(cards.filter(c=>!c.hidden).length,2);assert.match(filterStatus.textContent,/2 dossiers/);
- await themeButtons.find(b=>b.dataset.guideFilter==='all').click();assert.equal(cards.filter(c=>!c.hidden).length,10);
+ await themeButtons.find(b=>b.dataset.guideFilter==='all').click();assert.equal(cards.filter(c=>!c.hidden).length,C.guides.length);
  field.value='DETROIT';await field.fire('input');assert.equal(terms.filter(t=>!t.hidden).length,1);field.value='<script>';await field.fire('input');assert.equal(terms.filter(t=>!t.hidden).length,0);assert.match(count.textContent,/Aucun/);field.value='';await field.fire('input');assert.equal(terms.filter(t=>!t.hidden).length,12);
  await form.fire('submit');assert.match(score.textContent,/Choisis une réponse/);
  quizFields.forEach((f,i)=>f.querySelectorAll('input').forEach(input=>input.checked=Number(input.value)===questions[i].answer));await form.fire('submit');assert.match(score.textContent,/3 \/ 3/);assert.ok(quizFields.every(f=>!f.querySelector('.learning-quiz-feedback').hidden));
