@@ -1,0 +1,6 @@
+[
+  {"id":"onu-fr","name":"ONU Info","url":"https://news.un.org/feed/subscribe/fr/news/all/rss.xml","domains":["news.un.org"],"topics":["ukraine-guerre-enjeux","moyen-orient-conflits"]},
+  {"id":"france24-asie","name":"France 24","url":"https://www.france24.com/fr/asie-pacifique/rss","domains":["france24.com"],"topics":["ukraine-guerre-enjeux","taiwan-detroit-tensions"]},
+  {"id":"france24-moyen-orient","name":"France 24","url":"https://www.france24.com/fr/moyen-orient/rss","domains":["france24.com"],"topics":["moyen-orient-conflits"]},
+  {"id":"rfi-taiwan","name":"RFI","url":"https://www.rfi.fr/fr/tag/ta%C3%AFwan/rss","domains":["rfi.fr"],"topics":["taiwan-detroit-tensions"]}
+]

@@ -1,6 +1,6 @@
-"""Refresh dossier reading lists from the already verified news collection.
+"""Refresh reading lists and attributed recent-event paragraphs in three dossiers.
 
-No extra requests, generated claims, article bodies or credentials. The historical
+No generated claims, article bodies or credentials. The historical
 explanations keep their editorial verification date. An invalid/stale collection
 raises before the atomic write, leaving the last published version intact.
 """
@@ -11,6 +11,7 @@ from pathlib import Path
 import re
 import unicodedata
 import urllib.parse
+from conflict_digests import collect_digests
 
 ROOT = Path(__file__).resolve().parent.parent
 TOPICS = {
@@ -99,6 +100,11 @@ def main():
     result = refresh(json.loads(args.news.read_text(encoding='utf-8')),
                      json.loads((ROOT / 'scripts/news-sources.json').read_text(encoding='utf-8')),
                      previous, dt.datetime.now(dt.timezone.utc))
+    digests = collect_digests(previous.get('topics', {}), dt.datetime.now(dt.timezone.utc))
+    for slug, digest in digests.items():
+        result['topics'][slug]['digest'] = digest
+        if digest['status'] in ('empty', 'retained'):
+            print('::warning::Résumé conservé ou indisponible : ' + slug)
     temporary = args.output.with_suffix('.json.tmp')
     temporary.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     temporary.replace(args.output)
