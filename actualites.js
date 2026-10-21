@@ -1,7 +1,242 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T03:00:04+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "L’Asie du Sud-Est face à Pékin en mer de Chine",
+      "url": "https://www.revueconflits.com/lasie-du-sud-est-face-a-pekin-en-mer-de-chine/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie",
+        "Asie de l'Est",
+        "Asie du Sud",
+        "Cartes",
+        "Entretien",
+        "Abonné",
+        "Mer de Chine"
+      ],
+      "imageCheckedAt": "2026-10-21T06:17:25.825928+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2020/06/chine-indopacifique-mer-de-chine-empire.jpg",
+        "kind": "article",
+        "alt": "L’Asie du Sud-Est face à Pékin en mer de Chine",
+        "credit": "La mer de Chine : théâtre de l'hégémonisme chinois. (C) Wu Dengfeng/AP/SIPA (AP21929978_000002).",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/lasie-du-sud-est-face-a-pekin-en-mer-de-chine/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/lasie-du-sud-est-face-a-pekin-en-mer-de-chine/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-21",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2020/06/chine-indopacifique-mer-de-chine-empire.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T02:30:20+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Venezuela : le grand retour des compagnies pétrolières",
+      "url": "https://www.revueconflits.com/venezuela-le-grand-retour-des-compagnies-petrolieres-2/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique latine",
+        "Abonné",
+        "Energie",
+        "Venezuela"
+      ],
+      "imageCheckedAt": "2026-10-21T06:17:25.825928+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_sipahub60105710_000021-scaled.jpg",
+        "kind": "article",
+        "alt": "Venezuela : le grand retour des compagnies pétrolières",
+        "credit": "Donald Trump rencontre les dirigeants des Majors à Washington le 9 janvier 2026 après la capture de Maduro. Credit: Bonnie Cash / Pool via CNP - 567969068 - //Bonnie Cash - Pool via CNP/DPA/SIPA/2601100355",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/venezuela-le-grand-retour-des-compagnies-petrolieres-2/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/venezuela-le-grand-retour-des-compagnies-petrolieres-2/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-21",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_sipahub60105710_000021-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T21:04:06+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "STM Holds Keel Laying Ceremony for Portugal’s Second Logistics Support Ship",
+      "url": "https://www.navalnews.com/naval-news/2026/10/stm-holds-keel-laying-ceremony-for-portugals-second-logistics-support-ship/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Logistic Support Ship",
+        "Portuguese Navy",
+        "STM"
+      ],
+      "sourceExcerpt": {
+        "text": "On October 20, 2026, Türkiye’s STM announced the keel-laying ceremony for the second logistics support ship for the Portuguese Navy…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-21T06:17:25.825928+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Admiral-Kadir-Yildiz-Commander-of-the-Turkish-Fleet-Admiral-Nobre-de-Sousa-Chief-of-the-Portuguese-Navy-and-STM-General-Manager-Ozgur-Guleryuz-1-768x512.jpg",
+        "kind": "article",
+        "alt": "STM Holds Keel Laying Ceremony for Portugal’s Second Logistics Support Ship",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/stm-holds-keel-laying-ceremony-for-portugals-second-logistics-support-ship/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/stm-holds-keel-laying-ceremony-for-portugals-second-logistics-support-ship/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-21",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Admiral-Kadir-Yildiz-Commander-of-the-Turkish-Fleet-Admiral-Nobre-de-Sousa-Chief-of-the-Portuguese-Navy-and-STM-General-Manager-Ozgur-Guleryuz-1-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T18:40:15+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "HAVELSAN Demonstrates Coordinated Unmanned Air and Maritime Operations",
+      "url": "https://www.navalnews.com/naval-news/2026/10/havelsan-demonstrates-coordinated-unmanned-air-and-maritime-operations/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Havelsan",
+        "UAV",
+        "USV"
+      ],
+      "sourceExcerpt": {
+        "text": "HAVELSAN has demonstrated its ability to integrate unmanned air and maritime platforms for coordinated missions. HAVELSAN press release The demonstration…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-21T06:17:25.825928+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/havelsan-1024x617.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « HAVELSAN Demonstrates Coordinated Unmanned Air and Maritime Operations ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/havelsan-demonstrates-coordinated-unmanned-air-and-maritime-operations/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/havelsan-demonstrates-coordinated-unmanned-air-and-maritime-operations/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-21",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/havelsan-1024x617.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T17:42:53+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’évaluation de l’Engin [téléopéré] de bréchage mécanique de zone destiné à l’armée de Terre est en bonne voie",
+      "url": "https://www.opex360.com/2026/10/20/levaluation-de-lengin-teleopere-de-brechage-mecanique-de-zone-destine-a-larmee-de-terre-est-en-bonne-voie/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "armée de terre",
+        "déminagne",
+        "Engin de Bréchage Mécanique de zone",
+        "évaluation technico-opérationnelle",
+        "EVTO",
+        "Génie",
+        "Section technique de l'armée de Terre",
+        "STAT"
+      ],
+      "sourceExcerpt": {
+        "text": "Avant la trêve estivale, la Section technique de l’armée de Terre [STAT] fit savoir que son groupement mobilité et agencement…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-21T06:17:25.825928+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/ebmz-20261020.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’évaluation de l’Engin [téléopéré] de bréchage mécanique de zone destiné à l’armée de Terre est en bonne voie ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/20/levaluation-de-lengin-teleopere-de-brechage-mecanique-de-zone-destine-a-larmee-de-terre-est-en-bonne-voie/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/20/levaluation-de-lengin-teleopere-de-brechage-mecanique-de-zone-destine-a-larmee-de-terre-est-en-bonne-voie/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-21",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/ebmz-20261020.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T16:51:18+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le drone sous-marin australien Ghost Shark sera doté de munitions rôdeuses Altius 600 et de mines navales",
+      "url": "https://www.opex360.com/2026/10/20/le-drone-sous-marin-australien-ghost-shark-sera-dote-de-munitions-rodeuses-altus-600-et-de-mines-navales/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie-Pacifique",
+        "Forces navales",
+        "Technologie",
+        "Altius 600",
+        "Anduril",
+        "AUKUS",
+        "Australie",
+        "drone sous-marin",
+        "Ghost Shark",
+        "Royal Australian Navy",
+        "sous marin"
+      ],
+      "sourceExcerpt": {
+        "text": "Même si elle a obtenu la garantie qu’elle recevra trois sous-marins nucléaire d’attaque [SNA] de type Virginia prélevés dans la…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-21T06:17:25.825928+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/ghost-shark-20261020.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le drone sous-marin australien Ghost Shark sera doté de munitions rôdeuses Altius 600 et de mines navales ».",
+        "credit": "POIS Daniel Goodman – Ministère australien de la Défense",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/20/le-drone-sous-marin-australien-ghost-shark-sera-dote-de-munitions-rodeuses-altus-600-et-de-mines-navales/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/20/le-drone-sous-marin-australien-ghost-shark-sera-dote-de-munitions-rodeuses-altus-600-et-de-mines-navales/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-21",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/ghost-shark-20261020.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-20",
       "publishedAt": "2026-10-20T16:13:41+00:00",
@@ -2232,6 +2467,30 @@ window.LDV_NEWS = {
     },
     {
       "date": "2026-10-16",
+      "publishedAt": "2026-10-16T13:08:29+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La France augmente son nombre de têtes nucléaires et refuse désormais de dire combien, huit pays européens s’en rapprochent quand même",
+      "url": "https://www.forum-militaire.fr/la-france-augmente-son-nombre-de-tetes-nucleaires-et-refuse-desormais-de-dire-combien-huit-pays-europeens-sen-rapprochent-quand-meme/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de l'air",
+        "France",
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "La Haye assure depuis des décennies la mission nucléaire de l’Alliance avec des armes américaines. Elle vient d’ouvrir en parallèle…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-16",
       "publishedAt": "2026-10-16T12:47:41+00:00",
       "source": "Ministère britannique de la Défense",
       "sourceType": "Source officielle",
@@ -2343,6 +2602,29 @@ window.LDV_NEWS = {
         "checkedAt": "2026-10-16",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/1792079145508.jpeg",
         "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T08:55:36+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "41 ans que la France n’aura pas connu une telle situation mais en 2038 la Marine nationale pourrait opérer deux porte-avions et cette…",
+      "url": "https://www.forum-militaire.fr/la-marine-nationale-pourrait-disposer-de-deux-porte-avions-a-partir-de-2038/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Marines militaires",
+        "France",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Le chef d’état-major de la Marine, auditionné le 14 octobre 2026 par la commission défense de l’Assemblée nationale, a annoncé…",
+        "kind": "feed-excerpt"
       }
     },
     {
@@ -6480,7 +6762,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-10-20T16:20:40.336005+00:00"
     }
   ],
-  "checkedAt": "2026-10-20T16:20:34.778532+00:00",
+  "checkedAt": "2026-10-21T06:17:19.991090+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -6540,25 +6822,25 @@ window.LDV_NEWS = {
       },
       {
         "source": "Naval News",
-        "ok": false,
-        "recentItems": 0,
-        "error": "HTTP Error 503: Service Temporarily Unavailable"
+        "ok": true,
+        "recentItems": 10,
+        "error": null
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 7,
+        "recentItems": 8,
         "error": null
       },
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 2,
         "error": null
       }
     ],
-    "newItems": 10,
-    "articleImages": 170,
+    "newItems": 8,
+    "articleImages": 176,
     "duplicateHeadlinesSkipped": 0
   }
 };
