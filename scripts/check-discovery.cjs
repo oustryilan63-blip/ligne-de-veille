@@ -20,7 +20,7 @@ assert.equal(N.context({title:'Rafale F4 : une livraison'}).url,'variantes-rafal
 assert.equal(N.context({title:'Nouveaux drones de transport'}).url,'comprendre-familles-drones.html');
 assert.equal(N.context({title:'Un sommet diplomatique sans thème documenté'}),null);
 assert.equal(N.context({title:'Le transport commercial',publisherCategories:['Détroit d’Ormuz']}).url,'comprendre-detroits-routes-maritimes.html');
-assert.equal(C.guides.length,14);assert.equal(new Set(C.guides.map(g=>g.slug)).size,C.guides.length);
+assert.equal(C.guides.length,18);assert.equal(new Set(C.guides.map(g=>g.slug)).size,C.guides.length);
 for(const g of C.guides){
  assert.ok(g.sources.length>=2);assert.ok(g.sections.every(s=>s.sources.length&&s.sources.every(i=>g.sources[i])));assert.ok(g.engins.every(i=>E[i]));
  assert.ok(g.categories.length&&g.categories.every(tag=>C.categories.some(([id])=>tag===id)));
@@ -80,7 +80,7 @@ if(fs.existsSync(path.join(output,'recherche.html')))(async()=>{
  const form=make('form',learn.body,{class:'learning-quiz-form'}),questions=C.guides.find(g=>g.fresh).quiz;
  const quizFields=questions.map(q=>{const f=make('fieldset',form,{'data-answer':String(q.answer)});q.choices.forEach((_,i)=>{const input=make('input',f);input.value=String(i);input.checked=false});make('p',f,{class:'learning-quiz-feedback','data-correct':q.choices[q.answer],'data-explanation':q.explanation});return f;});
  const score=make('p',form,{class:'learning-quiz-score'});vm.runInNewContext(read('discovery-tools.js'),{window:{},document:learn,Intl});
- await themeButtons.find(b=>b.dataset.guideFilter==='geopolitique').click();assert.equal(cards.filter(c=>!c.hidden).length,2);assert.match(filterStatus.textContent,/2 dossiers/);
+ await themeButtons.find(b=>b.dataset.guideFilter==='geopolitique').click();const geopolitiqueCount=C.guides.filter(g=>g.categories.includes('geopolitique')).length;assert.equal(cards.filter(c=>!c.hidden).length,geopolitiqueCount);assert.ok(filterStatus.textContent.includes(geopolitiqueCount+' dossiers'));
  await themeButtons.find(b=>b.dataset.guideFilter==='all').click();assert.equal(cards.filter(c=>!c.hidden).length,C.guides.length);
  field.value='DETROIT';await field.fire('input');assert.equal(terms.filter(t=>!t.hidden).length,1);field.value='<script>';await field.fire('input');assert.equal(terms.filter(t=>!t.hidden).length,0);assert.match(count.textContent,/Aucun/);field.value='';await field.fire('input');assert.equal(terms.filter(t=>!t.hidden).length,12);
  await form.fire('submit');assert.match(score.textContent,/Choisis une réponse/);
