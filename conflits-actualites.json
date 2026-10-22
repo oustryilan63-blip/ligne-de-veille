@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-21T17:58:07.656296+00:00",
+  "checkedAt": "2026-10-22T06:18:42.180678+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,11 +10,9 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 10,
+    "ok": 11,
     "total": 11,
-    "unavailable": [
-      "Naval News"
-    ]
+    "unavailable": []
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -55,8 +53,8 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-21T18:06:45.422222+00:00",
-        "updatedAt": "2026-10-21T18:06:45.422222+00:00",
+        "checkedAt": "2026-10-22T06:18:46.930785+00:00",
+        "updatedAt": "2026-10-22T06:18:46.930785+00:00",
         "status": "updated",
         "paragraphs": [
           {
@@ -66,14 +64,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/vid%C3%A9o/20261021-rencontre-witkoff-poutine-envoi-de-la-premi%C3%A8re-cargaison-de-diesel-russe-vers-les-%C3%A9tats-unis",
             "publishedAt": "2026-10-21T13:41:52+00:00"
-          },
-          {
-            "title": "Ukraine : à l’approche de l’hiver, des millions de déplacés risquent de devoir fuir à nouveau",
-            "text": "Après avoir fui les combats, près de 3,8 millions d’Ukrainiens ont regagné leur domicile depuis le début de l’invasion russe. Mais les logements endommagés, les attaques contre les infrastructures énergétiques et le coût du chauffage menacent de provoquer une nouvelle vague de déplacements, alerte l’ONU.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/10/1159677",
-            "publishedAt": "2026-10-16T12:00:00+00:00"
           }
         ],
         "sources": [
@@ -110,9 +100,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-21T18:06:45.422222+00:00",
+        "checkedAt": "2026-10-22T06:18:46.930785+00:00",
         "updatedAt": "2026-10-21T18:06:45.422222+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "La Chine sanctionne des ministres latino-américains pour avoir maintenu des relations diplomatiques avec Taïwan",
@@ -181,10 +171,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-21T18:06:45.422222+00:00",
-        "updatedAt": "2026-10-21T18:06:45.422222+00:00",
+        "checkedAt": "2026-10-22T06:18:46.930785+00:00",
+        "updatedAt": "2026-10-22T06:18:46.930785+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Ben Gvir déporte un Gazaoui vers un Paris dévasté ... et généré par IA",
+            "text": "Itamar Ben Gvir, ministre israélien de la Sécurité nationale, a partagé sur X une vidéo générée par IA où il prend les traits d'un génie, accédant au \"voeu\" d'un Gazaoui en le déportant par magie vers un Paris en ruines après les manifestations du 17 octobre. Une provocation qui a déclenché une joute en ligne avec le Quai d'Orsay, et qui illustre l'omniprésence de l'IA dans la campagne électorale israélienne à l'aube du scrutin du 27 octobre.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20261021-ben-gvir-d%C3%A9porte-un-gazaoui-vers-un-paris-d%C3%A9vast%C3%A9-et-g%C3%A9n%C3%A9r%C3%A9-par-ia",
+            "publishedAt": "2026-10-21T21:19:00+00:00"
+          },
           {
             "title": "Arabie saoudite : Emmanuel Macron à Riyad dans la dernière étape de sa tournée dans le Golfe",
             "text": "Le président français Emmanuel Macron s'est rendu à Riyad dans le cadre d'une visite de \"solidarité\", la première d'un dirigeant occidental en Arabie saoudite depuis que les Houthis du Yémen soutenus par l'Iran ont intensifié leurs attaques début octobre. La visite s'inscrit dans le cadre d'une tournée dans les pays du Golfe visant à garantir l'approvisionnement en pétrole et en gaz.",
@@ -192,22 +190,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/moyen-orient/20261021-arabie-saoudite-emmanuel-macron-dans-derni%C3%A8re-%C3%A9tape-tourn%C3%A9e-golfe",
             "publishedAt": "2026-10-21T16:16:07+00:00"
-          },
-          {
-            "title": "Un an après le cessez-le-feu, Gaza cherche encore ses morts sous les gravats",
-            "text": "Un an après le cessez-le-feu entre l’armée israélienne et le Hamas, les efforts pour extraire les dépouilles ensevelies sous les décombres se poursuivent dans la bande de Gaza. Environ 1 000 corps auraient été récupérés jusqu'ici, mais la tâche reste immense : selon la défense civile, entre 8 000 et 10 000 autres seraient encore enfouis sous les gravats, dont 3 000 dans la zone contrôlée par l’armée israélienne.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/%C3%A9missions/les-observateurs/20261021-cessez-feu-gaza-corps-decombres-morts-gravats",
-            "publishedAt": "2026-10-21T15:32:49+00:00"
-          },
-          {
-            "title": "Yémen : Taëz encerclée, l’ONU craint une catastrophe humanitaire",
-            "text": "L’encerclement de Taëz par les rebelles houthis entrave l’acheminement de l’aide et aggrave une crise déjà marquée par la faim, les pénuries d’eau et la progression du choléra. Le Haut-Commissaire des Nations Unies aux droits de l’homme, Volker Türk, a appelé mardi à rouvrir immédiatement les voies d’approvisionnement et à protéger les civils.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/10/1159691",
-            "publishedAt": "2026-10-20T12:00:00+00:00"
           }
         ],
         "sources": [

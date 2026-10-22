@@ -1,7 +1,151 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-22",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T03:00:22+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Vikings : mythes et réalités. Entretien avec Lucie Malbos",
+      "url": "https://www.revueconflits.com/les-vikings-entretien-avec-lucie-malbos/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Histoire",
+        "Livres",
+        "Revue Conflits",
+        "Abonné",
+        "Livre"
+      ],
+      "imageCheckedAt": "2026-10-22T06:18:45.674193+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/Design-sans-titre.jpg",
+        "kind": "article",
+        "alt": "Vikings : mythes et réalités. Entretien avec Lucie Malbos",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/les-vikings-entretien-avec-lucie-malbos/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/les-vikings-entretien-avec-lucie-malbos/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-22",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/Design-sans-titre.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T02:21:53+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Bénin : la coopération comme boussole diplomatique",
+      "url": "https://www.revueconflits.com/benin-la-cooperation-comme-boussole-diplomatique/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Bénin"
+      ],
+      "imageCheckedAt": "2026-10-22T06:18:45.674193+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/06/SIPA_sipahub60157418_000004-scaled.jpg",
+        "kind": "article",
+        "alt": "Bénin : la coopération comme boussole diplomatique",
+        "credit": "May 24, 2026, Cotonou, Cotonou, Benin: ROMUALD WADAGNI, president of Benin during (Credit Image: © Leopold Soglo/ZUMA Press Wire)/20260524_zsp_s385_014/ZEUS/2605270215",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/benin-la-cooperation-comme-boussole-diplomatique/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/benin-la-cooperation-comme-boussole-diplomatique/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-22",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/06/SIPA_sipahub60157418_000004-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T20:50:30+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "OCIUS’ New Bluebottle Hybrid USV Demonstrates Capability at Maritime Big Play Pacific",
+      "url": "https://www.navalnews.com/naval-news/2026/10/ocius-new-bluebottle-hybrid-usv-demonstrates-capability-at-maritime-big-play-pacific/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Bluebottle",
+        "Ocius",
+        "USV"
+      ],
+      "sourceExcerpt": {
+        "text": "Two diesel-hybrid variants of Ocius’ renewably powered Bluebottle Uncrewed Surface Vessel (USV), ‘Bluebottle Hybrid’, are participating in the US Navy-led…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-22T06:18:45.674193+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Ocius-Bluebottle-Hybrid-BUTCH-2-768x512.jpg",
+        "kind": "article",
+        "alt": "OCIUS' New Bluebottle Hybrid USV Demonstrates Capability at Maritime Big Play Pacific",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/ocius-new-bluebottle-hybrid-usv-demonstrates-capability-at-maritime-big-play-pacific/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/ocius-new-bluebottle-hybrid-usv-demonstrates-capability-at-maritime-big-play-pacific/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-22",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Ocius-Bluebottle-Hybrid-BUTCH-2-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T19:18:34+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "LE VBCI POURRAIT RETROUVER LE CHEMIN DE DOHA !",
+      "url": "https://blablachars.blogspot.com/2026/10/le-vbci-pourrait-retrouver-le-chemin-de.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "1030",
+        "John Cockerill Defense",
+        "KNDS",
+        "Qatar",
+        "VBCI"
+      ],
+      "sourceExcerpt": {
+        "text": "Pratiquement un an jour pour jour, après l' annonc e de l'échec du VBCI (Véhicule Blindé de Combat d'Infanterie) au…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-22T06:18:45.674193+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZAQsctiUOPnslbMuvOy9KpEntZ-b5ZBs_64a8k0Djo_vhm-_eFlk0UkUaGgzbhUwq6Y3AhTJEChpvpAniVEJ4lI1JnnR3fjkVPF1vNwW03e4xLjZAco4q6-OG8RwgnVHOWZuZaIw8_rKnNWvyw4PyAMz8cx_phoDI6R8ACs077mgZUumvEMkJ-bCxzyM/w1200-h630-p-k-no-nu/1030.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « LE VBCI POURRAIT RETROUVER LE CHEMIN DE DOHA ! ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/le-vbci-pourrait-retrouver-le-chemin-de.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/le-vbci-pourrait-retrouver-le-chemin-de.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-22",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZAQsctiUOPnslbMuvOy9KpEntZ-b5ZBs_64a8k0Djo_vhm-_eFlk0UkUaGgzbhUwq6Y3AhTJEChpvpAniVEJ4lI1JnnR3fjkVPF1vNwW03e4xLjZAco4q6-OG8RwgnVHOWZuZaIw8_rKnNWvyw4PyAMz8cx_phoDI6R8ACs077mgZUumvEMkJ-bCxzyM/w1200-h630-p-k-no-nu/1030.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-21",
       "publishedAt": "2026-10-21T17:03:49+00:00",
@@ -251,6 +395,44 @@ window.LDV_NEWS = {
       "sourceExcerpt": {
         "text": "Quatre surnoms flatteurs dans un communiqué, dont celui d’assassin capable de contourner l’ennemi sans se faire repérer. En face, un…",
         "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T11:50:01+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "ST Engineering Lays Keel for Kuwait’s Third Al Dorra-Class Vessel",
+      "url": "https://www.navalnews.com/naval-news/2026/10/st-engineering-lays-keel-for-kuwaits-third-al-dorra-class-vessel/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Al Dorra class",
+        "Kuwait",
+        "ST Engineering"
+      ],
+      "sourceExcerpt": {
+        "text": "ST Engineering laid the keel for the third Al Dorra-class vessel and cut steel for the fourth and fifth vessels…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-22T06:18:45.674193+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/STENG-Al-Dorra-1024x536.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « ST Engineering Lays Keel for Kuwait’s Third Al Dorra-Class Vessel ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/st-engineering-lays-keel-for-kuwaits-third-al-dorra-class-vessel/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/st-engineering-lays-keel-for-kuwaits-third-al-dorra-class-vessel/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-22",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/STENG-Al-Dorra-1024x536.png",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -7205,7 +7387,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-10-21T17:20:29.682825+00:00"
     }
   ],
-  "checkedAt": "2026-10-21T17:58:07.656296+00:00",
+  "checkedAt": "2026-10-22T06:18:42.180678+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -7242,7 +7424,7 @@ window.LDV_NEWS = {
       {
         "source": "Forum Militaire",
         "ok": true,
-        "recentItems": 14,
+        "recentItems": 13,
         "error": null
       },
       {
@@ -7254,7 +7436,7 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -7265,9 +7447,9 @@ window.LDV_NEWS = {
       },
       {
         "source": "Naval News",
-        "ok": false,
-        "recentItems": 0,
-        "error": "HTTP Error 503: Service Temporarily Unavailable"
+        "ok": true,
+        "recentItems": 10,
+        "error": null
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
@@ -7278,12 +7460,12 @@ window.LDV_NEWS = {
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 2,
+        "recentItems": 1,
         "error": null
       }
     ],
-    "newItems": 0,
-    "articleImages": 185,
+    "newItems": 5,
+    "articleImages": 190,
     "duplicateHeadlinesSkipped": 0
   }
 };
