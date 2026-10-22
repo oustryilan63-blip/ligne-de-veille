@@ -1042,7 +1042,7 @@ window.RADAR_DISCOVERY_CONTENT={
     "sources": [
       {
         "label": "OTAN — politique et forces de dissuasion nucléaire, mise à jour en septembre 2026",
-        "url": "https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-nuclear-deterrence-policy-and-forces."
+        "url": "https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-nuclear-deterrence-policy-and-forces"
       },
       {
         "label": "Élysée — discours sur la dissuasion à l’Île Longue, 2 mars 2026",
@@ -2168,4 +2168,797 @@ window.RADAR_DISCOVERY_CONTENT={
     }
   }
 ]);
+})();
+
+/* Approfondissements des dossiers : contexte historique et explications, références consultées le 22 octobre 2026. */
+(() => {
+  const C=window.RADAR_DISCOVERY_CONTENT;
+  const additions=[
+  {
+    "slug": "onu-maintien-paix",
+    "sources": [
+      {
+        "label": "Charte des Nations unies — article 41, mesures sans emploi de la force",
+        "url": "https://legal.un.org/repertory/art41.shtml"
+      },
+      {
+        "label": "Charte des Nations unies — article 10, recommandations de l’Assemblée générale",
+        "url": "https://legal.un.org/repertory/art10.shtml"
+      },
+      {
+        "label": "Charte des Nations unies — article 25, décisions du Conseil de sécurité",
+        "url": "https://legal.un.org/repertory/art25.shtml"
+      },
+      {
+        "label": "ONU en Namibie — rôle de l’ONU dans l’indépendance",
+        "url": "https://namibia.un.org/en/175155-uns-role-namibian-independence"
+      },
+      {
+        "label": "Défense nationale du Canada — mandat et composantes de l’UNTAG",
+        "url": "https://www.canada.ca/en/department-national-defence/services/military-history/history-heritage/past-operations/africa/matador.html"
+      }
+    ],
+    "sections": [
+      {
+        "title": "L’ONU peut agir sans envoyer de soldats",
+        "text": "Une crise ne conduit pas nécessairement à la création d’une force. L’article 41 de la Charte permet au Conseil de sécurité de décider de mesures qui n’impliquent pas l’emploi de la force armée, notamment des restrictions économiques ou la rupture de relations diplomatiques. Leur logique consiste à peser sur les décisions d’un acteur par d’autres moyens que le combat. Ces mesures demandent ensuite une application par les États concernés : une résolution n’est pas un dispositif qui fonctionnerait tout seul. Il faut donc distinguer le vote d’une sanction, son entrée en application et ses effets. Cette diversité d’instruments explique pourquoi l’action des Nations unies ne se mesure pas seulement au nombre de Casques bleus déployés dans un pays.",
+        "urls": [
+          "https://legal.un.org/repertory/art41.shtml"
+        ]
+      },
+      {
+        "title": "À quoi sert l’Assemblée générale lorsqu’un désaccord persiste ?",
+        "text": "L’Assemblée générale offre un autre espace de discussion. Selon l’article 10 de la Charte, elle peut débattre des questions relevant de l’Organisation et adresser des recommandations, sous réserve des règles prévues par la Charte. Une recommandation exprime une position collective et peut contribuer à la pression diplomatique ; elle ne doit pas être confondue avec une décision du Conseil de sécurité que les membres sont tenus d’accepter et d’appliquer conformément à l’article 25. Les deux organes remplissent donc des fonctions différentes. Un désaccord au Conseil ne signifie pas que les États cessent de discuter. Il peut déplacer une partie du débat vers d’autres enceintes, sans effacer les différences de compétence entre elles.",
+        "urls": [
+          "https://legal.un.org/repertory/art10.shtml",
+          "https://legal.un.org/repertory/art25.shtml"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "La transition de la Namibie vers l’indépendance donne un exemple concret d’élargissement des missions. En 1989, le Groupe d’assistance des Nations unies pour la période de transition, l’UNTAG, accompagne un processus comprenant des élections supervisées par l’ONU, le retour de réfugiés et des mesures concernant les forces présentes. Il associe des fonctions civiles, policières et militaires. Les élections de novembre 1989 précèdent l’indépendance du pays, proclamée le 21 mars 1990. Le résultat ne tient donc pas à la seule présence de soldats entre deux lignes : il suppose une organisation politique et administrative. Cet épisode aide à comprendre comment une opération peut soutenir une transition, dans des circonstances déterminées, sans constituer un modèle automatiquement reproductible dans toutes les crises.",
+        "urls": [
+          "https://namibia.un.org/en/175155-uns-role-namibian-independence",
+          "https://www.canada.ca/en/department-national-defence/services/military-history/history-heritage/past-operations/africa/matador.html"
+        ]
+      }
+    ],
+    "historyPosition": 2
+  },
+  {
+    "slug": "dissuasion-nucleaire",
+    "sources": [
+      {
+        "label": "OTAN — rôle politique déclaré des capacités et de la détermination nucléaires",
+        "url": "https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-nuclear-deterrence-policy-and-forces"
+      },
+      {
+        "label": "AIEA — explication du système de garanties",
+        "url": "https://www.iaea.org/topics/safeguards-explained"
+      },
+      {
+        "label": "Archives nationales américaines — traité d’interdiction partielle des essais de 1963",
+        "url": "https://www.archives.gov/milestone-documents/test-ban-treaty"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Pourquoi la crédibilité compte-t-elle autant que les matériels ?",
+        "text": "Une menace destinée à empêcher une agression doit être prise au sérieux par celui auquel elle s’adresse. Dans sa présentation officielle, l’OTAN associe ainsi les capacités à la détermination politique et explique vouloir rendre le coût d’une agression inacceptable. Il s’agit de la logique déclarée de l’Alliance, pas d’une preuve que chaque adversaire interprétera toujours ses intentions de la même façon. La crédibilité dépend donc aussi de la perception des engagements et de leur cohérence. Deux inventaires de matériels ne décrivent pas à eux seuls cette relation politique. Ce raisonnement explique la place des déclarations publiques, des consultations entre alliés et des débats sur les garanties de sécurité dans les actualités consacrées au nucléaire.",
+        "urls": [
+          "https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-nuclear-deterrence-policy-and-forces"
+        ]
+      },
+      {
+        "title": "À quoi servent les garanties de l’AIEA ?",
+        "text": "La diplomatie nucléaire comprend aussi un travail de vérification. Les garanties de l’Agence internationale de l’énergie atomique, l’AIEA, sont des mesures techniques appliquées aux installations et aux matières nucléaires dans le cadre d’accords conclus avec les États. Elles visent à vérifier les engagements pris, notamment l’absence de détournement des usages pacifiques concernés. L’Agence recueille des informations, examine leur cohérence avec les déclarations, réalise des activités de vérification et en tire des conclusions. Une déclaration politique et une conclusion de vérification ne sont donc pas de même nature. Ce mécanisme permet de comprendre pourquoi les informations sur un programme civil, un accord de garanties et une accusation de prolifération doivent être examinées avec leurs objets précis.",
+        "urls": [
+          "https://www.iaea.org/topics/safeguards-explained"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "L’année 1963 marque une autre étape de la maîtrise des armements. Les États-Unis, l’Union soviétique et le Royaume-Uni signent le 5 août un traité interdisant les explosions nucléaires dans l’atmosphère, dans l’espace et sous l’eau ; il entre en vigueur le 10 octobre. Les préoccupations relatives aux retombées radioactives contribuent au contexte de cette négociation. Le traité n’interdit cependant pas tous les essais souterrains : il s’agit d’une interdiction partielle, avec un champ défini. Cet exemple montre qu’une limitation négociée peut réduire certains risques sans supprimer les arsenaux ni tous les différends. Il permet aussi de distinguer trois démarches historiques : limiter les essais, empêcher la prolifération et négocier le désarmement.",
+        "urls": [
+          "https://www.archives.gov/milestone-documents/test-ban-treaty"
+        ]
+      }
+    ],
+    "historyPosition": 1
+  },
+  {
+    "slug": "espaces-maritimes-zee",
+    "sources": [
+      {
+        "label": "Shom et Secrétariat général de la mer — différence entre ZEE et extension du plateau continental",
+        "url": "https://www.shom.fr/sites/default/files/2020-06/20200611_EXTRAPLAC-CP_La-R%C3%A9union-SPA.pdf"
+      },
+      {
+        "label": "FAO — Code de conduite pour une pêche responsable, principes et gestion",
+        "url": "https://www.fao.org/4/v9878e/v9878e00.htm"
+      },
+      {
+        "label": "Bureau des affaires juridiques de l’ONU — conférence sur le droit de la mer de 1958",
+        "url": "https://legal.un.org/diplconf_records/1958_los/"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Le fond de la mer et l’eau au-dessus ne relèvent pas toujours du même régime",
+        "text": "Le plateau continental désigne ici un espace de droits sur le sol et le sous-sol marins. Dans certaines conditions, un État côtier peut établir les limites de ce plateau au-delà de deux cents milles marins. Cela n’agrandit pas sa ZEE de la même manière et ne transforme pas les eaux situées au-dessus en mer territoriale. Le Shom souligne cette distinction dans la présentation du programme français EXTRAPLAC. Elle est essentielle lorsqu’une actualité annonce une « extension du domaine sous-marin » : le sujet porte sur des droits concernant les fonds, avec des critères et des procédures. Une surface supplémentaire de fonds marins ne signifie donc ni propriété de tout l’océan au-dessus, ni ouverture immédiate d’une exploitation industrielle.",
+        "urls": [
+          "https://www.shom.fr/sites/default/files/2020-06/20200611_EXTRAPLAC-CP_La-R%C3%A9union-SPA.pdf"
+        ]
+      },
+      {
+        "title": "Les ressources vivantes demandent aussi une gestion dans la durée",
+        "text": "La question des droits de pêche ne se résume pas à savoir quel pavillon peut entrer dans une zone. Elle concerne aussi la conservation des populations de poissons et l’avenir des communautés qui en vivent. Le Code de conduite de la FAO pour une pêche responsable recommande des décisions fondées sur les connaissances scientifiques, la prévention de la surpêche et la prise en compte des écosystèmes. Il constitue un cadre de recommandations, à distinguer des obligations conventionnelles. Cette approche explique le rôle des données sur les captures, des règles d’accès et des mesures de gestion. Une frontière maritime organise des compétences ; elle ne suffit pas, à elle seule, à garantir la préservation des ressources.",
+        "urls": [
+          "https://www.fao.org/4/v9878e/v9878e00.htm"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "Le cadre de 1982 n’apparaît pas sans travaux antérieurs. En 1958, une première conférence des Nations unies réunit les États à Genève et aboutit à quatre conventions distinctes : mer territoriale et zone contiguë, haute mer, pêche et conservation des ressources biologiques, plateau continental. Cette répartition montre que les usages de la mer posaient déjà plusieurs problèmes différents. Les négociations combinaient des dimensions juridiques, techniques, biologiques, économiques et politiques. Une deuxième conférence se tient en 1960, avant le cycle commencé en 1973. Cette progression explique l’ambition du texte de Montego Bay : rapprocher dans un ensemble plus large des régimes et des intérêts que les premiers accords avaient traités séparément.",
+        "urls": [
+          "https://legal.un.org/diplconf_records/1958_los/"
+        ]
+      }
+    ],
+    "historyPosition": 0
+  },
+  {
+    "slug": "arctique-enjeux",
+    "sources": [
+      {
+        "label": "NASA Earth Observatory — banquise, albédo et climat",
+        "url": "https://science.nasa.gov/earth/earth-observatory/sea-ice/"
+      },
+      {
+        "label": "Commission américaine de recherche arctique — pergélisol et infrastructures, rapport de 2003",
+        "url": "https://www.arctic.gov/uploads/assets/permafrost.pdf"
+      },
+      {
+        "label": "Conseil de l’Arctique — stratégie environnementale de 1991 et naissance des groupes de travail",
+        "url": "https://arctic-council.org/about/history/"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Pourquoi la disparition de la banquise amplifie-t-elle le réchauffement ?",
+        "text": "La banquise est de l’eau de mer gelée, à distinguer des glaciers formés sur les terres. Sa surface claire réfléchit une partie importante de la lumière solaire. Quand elle recule, l’eau plus sombre absorbe davantage d’énergie ; ce réchauffement peut à son tour favoriser la fonte. La NASA décrit cette boucle comme une rétroaction liée à l’albédo, c’est-à-dire au pouvoir réfléchissant d’une surface. L’enjeu dépasse donc l’apparition éventuelle d’un passage pour les navires. Il concerne le fonctionnement du climat et les milieux de vie. La fonte d’une glace déjà flottante ne se confond pas non plus avec l’arrivée dans l’océan d’eau provenant des glaces terrestres : les conséquences sur le niveau marin sont différentes.",
+        "urls": [
+          "https://science.nasa.gov/earth/earth-observatory/sea-ice/"
+        ]
+      },
+      {
+        "title": "Le sol gelé compte autant que les routes maritimes",
+        "text": "À terre, le pergélisol est un sol durablement gelé. Son réchauffement et son dégel peuvent déstabiliser les terrains qui portent des routes, des bâtiments, des canalisations ou des pistes d’aviation. Un rapport de la Commission américaine de recherche arctique étudie ces liens entre climat, sols et infrastructures. Cela donne une autre lecture des projets d’aménagement : une nouvelle liaison maritime n’a d’intérêt pratique que si les installations à terre restent utilisables. Les communautés doivent aussi maintenir des services et des déplacements dans un milieu changeant. Le changement climatique peut ainsi créer certaines possibilités d’accès tout en fragilisant les équipements nécessaires pour en bénéficier. Il ne produit pas une amélioration uniforme des conditions de vie ou de transport.",
+        "urls": [
+          "https://www.arctic.gov/uploads/assets/permafrost.pdf"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "La coopération environnementale de 1991 constitue un jalon avant la création du Conseil de l’Arctique. La stratégie de protection de l’environnement arctique, l’AEPS, rapproche les huit États autour d’un engagement politique non contraignant. Elle ouvre un cadre pour la surveillance des pollutions, la conservation de la biodiversité et la prévention des urgences. Des organisations autochtones y participent comme observatrices. Le Conseil de l’Arctique présente cette démarche comme un fondement direct de sa création en 1996. Cette histoire montre comment un besoin de connaissances partagées peut soutenir la coopération : les polluants, les écosystèmes et certains risques ne s’arrêtent pas aux frontières. Elle explique également la place durable des groupes scientifiques dans le fonctionnement du forum.",
+        "urls": [
+          "https://arctic-council.org/about/history/"
+        ]
+      }
+    ],
+    "historyPosition": 0
+  },
+  {
+    "slug": "otan-union-europeenne",
+    "sources": [
+      {
+        "label": "OTAN — consultations entre alliés et article 4",
+        "url": "https://www.nato.int/en/what-we-do/introduction-to-nato/the-consultation-process-and-article-4"
+      },
+      {
+        "label": "OTAN — fonctionnement par consensus",
+        "url": "https://www.nato.int/en/what-we-do/introduction-to-nato/consensus-decision-making-at-nato"
+      },
+      {
+        "label": "Conseil de l’UE — missions et opérations civiles et militaires",
+        "url": "https://www.consilium.europa.eu/fr/policies/csdp-missions-operations/"
+      },
+      {
+        "label": "OTAN — histoire des arrangements Berlin Plus et des premières opérations",
+        "url": "https://www.nato.int/en/what-we-do/partnerships-and-cooperation/relations-with-the-european-union"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Consulter les alliés n’est pas encore décider d’une opération",
+        "text": "L’article 4 du traité de l’Atlantique Nord permet à un membre de demander des consultations lorsqu’il estime sa sécurité, son indépendance politique ou son intégrité territoriale menacées. Il met donc une préoccupation à l’ordre du jour commun ; il ne définit pas une réponse militaire automatique. Ces échanges s’inscrivent dans un fonctionnement par consensus : à l’OTAN, une décision commune résulte d’un accord entre les membres plutôt que d’un vote majoritaire. Cela explique la place des discussions diplomatiques avant certaines annonces. Un allié peut demander une consultation, présenter ses informations et chercher un soutien sans que tous les gouvernements aient déjà arrêté la même mesure. Le cadre institutionnel donne ainsi une signification précise au mot « réunion d’urgence ».",
+        "urls": [
+          "https://www.nato.int/en/what-we-do/introduction-to-nato/the-consultation-process-and-article-4",
+          "https://www.nato.int/en/what-we-do/introduction-to-nato/consensus-decision-making-at-nato"
+        ]
+      },
+      {
+        "title": "Une mission civile peut agir sur les causes de l’insécurité",
+        "text": "La sécurité ne dépend pas uniquement de la présence d’unités de combat. La PSDC de l’Union européenne comprend des missions civiles qui peuvent conseiller et accompagner des institutions de police, de justice ou de gestion des frontières. Leur objectif est notamment de renforcer des capacités locales, selon le mandat et les conditions du pays concerné. Une opération militaire et une mission de conseil ne mobilisent donc ni les mêmes personnels ni les mêmes moyens. Elles peuvent répondre à des besoins complémentaires : sécuriser un environnement n’organise pas automatiquement le fonctionnement d’une justice ou d’une administration. Cette dimension explique pourquoi les annonces de défense européenne parlent aussi d’experts, de formation et d’institutions, même lorsqu’aucune nouvelle unité de combat n’est déployée.",
+        "urls": [
+          "https://www.consilium.europa.eu/fr/policies/csdp-missions-operations/"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "Les arrangements « Berlin Plus », convenus en mars 2003, donnent un exemple concret de coopération sans fusion. Ils permettent à des opérations militaires dirigées par l’Union européenne d’utiliser certaines capacités et certains moyens collectifs de l’OTAN, notamment pour la planification et le commandement. L’opération Concordia, lancée en mars 2003 dans le pays aujourd’hui nommé Macédoine du Nord, constitue la première application de ce cadre. L’opération Althea en Bosnie-Herzégovine suit en décembre 2004. Cette histoire aide à comprendre qu’une opération peut avoir une direction européenne tout en bénéficiant de moyens alliés. L’identité de l’organisation qui décide, les capacités mises à disposition et les pays qui contribuent doivent donc être distingués pour décrire correctement le dispositif.",
+        "urls": [
+          "https://www.nato.int/en/what-we-do/partnerships-and-cooperation/relations-with-the-european-union"
+        ]
+      }
+    ],
+    "historyPosition": 2
+  },
+  {
+    "slug": "detroits-routes-maritimes",
+    "sources": [
+      {
+        "label": "Autorité du canal de Panama — fonctionnement des écluses historiques",
+        "url": "https://pancanal.com/en/design-of-the-locks/"
+      },
+      {
+        "label": "EIA — passages énergétiques mondiaux et routes de substitution",
+        "url": "https://www.eia.gov/international/content/analysis/special_topics/World_Oil_Transit_Chokepoints/"
+      },
+      {
+        "label": "Défense nationale du Canada — crise de Suez de 1956 et première Force d’urgence de l’ONU",
+        "url": "https://www.canada.ca/en/department-national-defence/services/military-history/history-heritage/past-operations/middle-east/united-nations-emergency-force-i.html"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Pourquoi Panama dépend-il aussi de l’eau douce ?",
+        "text": "Le canal de Panama ne se contente pas de relier deux mers par une tranchée au niveau de l’océan. Les navires empruntent des écluses qui les font monter vers un niveau supérieur puis redescendre. Dans les écluses historiques décrites par l’Autorité du canal, l’eau entre et sort par gravité, grâce à un réseau de conduits et de vannes. Ce fonctionnement rend les ressources en eau importantes pour l’activité du canal. La capacité de passage dépend donc aussi d’une infrastructure et de sa gestion, pas uniquement de la largeur visible sur une carte. Cet exemple permet de comprendre pourquoi des contraintes environnementales peuvent perturber un raccourci maritime, même sans conflit armé et sans fermeture politique du passage.",
+        "urls": [
+          "https://pancanal.com/en/design-of-the-locks/"
+        ]
+      },
+      {
+        "title": "Tous les passages n’offrent pas les mêmes possibilités de remplacement",
+        "text": "L’importance d’un point de passage dépend aussi des itinéraires disponibles autour de lui. L’Energy Information Administration américaine étudie les détroits et les canaux empruntés par les cargaisons d’énergie en distinguant leurs routes de substitution. Un détour maritime peut être possible sans être court ni adapté à tous les voyages. Des oléoducs peuvent offrir une autre voie à une partie des flux pétroliers, mais ils ne remplacent pas un trajet pour n’importe quelle marchandise. On ne peut donc pas déduire d’une carte qu’un passage serait facilement contournable pour tout le commerce. La nature de la cargaison, les destinations et les infrastructures alternatives expliquent pourquoi deux perturbations géographiques peuvent produire des effets économiques très différents.",
+        "urls": [
+          "https://www.eia.gov/international/content/analysis/special_topics/World_Oil_Transit_Chokepoints/"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "La crise de Suez de 1956 montre que la gestion d’un canal peut devenir une question de souveraineté internationale. Le 26 juillet, l’Égypte nationalise la compagnie du canal. La crise qui suit conduit à l’intervention d’Israël, de la France et du Royaume-Uni, puis à des pressions diplomatiques et à la création de la première Force d’urgence des Nations unies. Le récit du ministère canadien de la Défense relie cette séquence à la naissance d’une nouvelle forme de maintien de la paix. L’épisode rappelle qu’un canal est à la fois un ouvrage, une source de revenus et un enjeu politique. Réduire son histoire à la longueur du raccourci ferait disparaître cette dimension essentielle.",
+        "urls": [
+          "https://www.canada.ca/en/department-national-defence/services/military-history/history-heritage/past-operations/middle-east/united-nations-emergency-force-i.html"
+        ]
+      }
+    ],
+    "historyPosition": 1
+  },
+  {
+    "slug": "defense-antiaerienne",
+    "sources": [
+      {
+        "label": "OTAN — la police du ciel et l’assistance aux appareils civils",
+        "url": "https://www.nato.int/cps/en/natohq/topics_132685.htm?selectedLocale=us"
+      },
+      {
+        "label": "OTAN — évolution de la défense aérienne intégrée depuis 1961",
+        "url": "https://www.nato.int/en/what-we-do/deterrence-and-defence/nato-integrated-air-and-missile-defence"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Protéger le ciel ne signifie pas toujours combattre",
+        "text": "La police du ciel est aussi une mission permanente en temps de paix. Elle peut concerner un appareil civil qui a perdu le contact radio avec le contrôle aérien, et pas seulement un avion militaire considéré comme menaçant. L’OTAN décrit cette assistance parmi les fonctions de son dispositif. Cette réalité explique pourquoi le mot « interception » ne signifie pas automatiquement qu’un tir a eu lieu : des chasseurs peuvent aller identifier un appareil et contribuer à rétablir une situation sûre. La défense aérienne se trouve ainsi à la rencontre de la souveraineté, de la sécurité des vols et de la défense militaire. Les mêmes familles d’avions peuvent participer à ces missions, mais l’objet de leur intervention et le contexte politique changent.",
+        "urls": [
+          "https://www.nato.int/cps/en/natohq/topics_132685.htm?selectedLocale=us"
+        ]
+      },
+      {
+        "title": "La protection concerne aussi ce qui se passe après une attaque",
+        "text": "Dans sa politique de 2025, l’OTAN distingue les mesures actives, destinées à contrer une menace, et les mesures passives, qui cherchent à réduire les vulnérabilités et les conséquences d’une attaque. La notion de résilience désigne ici la capacité de continuer à fonctionner malgré des perturbations. Elle concerne les infrastructures, les communications et l’organisation autant que les armes d’interception. Un équipement très performant ne suffit donc pas si l’ensemble qui l’entoure cesse de fonctionner. Cette approche donne une place aux solutions de secours, à la protection des installations et à la continuité des services. Elle permet de comprendre pourquoi les programmes de défense financent aussi des réseaux et des infrastructures qui apparaissent rarement sur les photographies de matériels.",
+        "urls": [
+          "https://nato.int/en/about-us/official-texts-and-resources/official-texts/2025/02/13/nato-integrated-air-and-missile-defence-policy"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "Pendant la guerre froide, la défense du ciel devient aussi une affaire de coopération entre pays alliés. L’OTAN situe en 1961 la mise en œuvre de son système intégré de défense aérienne, le NATINADS. Son principe est de réunir des contributions nationales dans une organisation commune de commandement et de contrôle. L’Alliance décrit alors un dispositif principalement tourné vers la menace des avions soviétiques. L’élargissement ultérieur à des menaces plus variées fait évoluer cette architecture et son appellation. Cette histoire relie le réseau britannique de 1940 aux dispositifs multinationaux contemporains : l’échelle géographique et les équipements changent, tandis que demeure le besoin de rendre compatibles les observations, les décisions et les contributions de plusieurs forces aériennes.",
+        "urls": [
+          "https://www.nato.int/en/what-we-do/deterrence-and-defence/nato-integrated-air-and-missile-defence"
+        ]
+      }
+    ],
+    "historyPosition": 1
+  },
+  {
+    "slug": "artillerie-canons-roquettes",
+    "sources": [
+      {
+        "label": "Historic England — les usines de munitions de la Première Guerre mondiale",
+        "url": "https://historicengland.org.uk/research/current/discover-and-understand/military/first-world-war-home-front/land/munitions-factories/"
+      },
+      {
+        "label": "Musée de l’Armée — le canon de 75 mm modèle 1897",
+        "url": "https://www.musee-armee.fr/collections/tresors-du-musee/canon-de-campagne-de-75-mm-modele-1897.html"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Les munitions relient le front à l’économie",
+        "text": "L’histoire de l’artillerie est aussi celle des ouvriers, des matières premières et des usines. Historic England rappelle qu’au début de la Première Guerre mondiale, l’industrie britannique était organisée pour une armée relativement réduite, la marine et les exportations. La guerre de tranchées exige rapidement beaucoup plus de pièces, d’obus et d’explosifs. Les établissements doivent être agrandis ou créés, tandis que plusieurs étapes de fabrication et de transport se succèdent. Cette transformation explique pourquoi une armée peut manquer de munitions sans manquer immédiatement de canons. Elle donne aussi un sens concret au mot « mobilisation industrielle » : produire davantage suppose des bâtiments, des machines, une main-d’œuvre et une organisation, et pas seulement une décision budgétaire ou une nouvelle commande.",
+        "urls": [
+          "https://historicengland.org.uk/research/current/discover-and-understand/military/first-world-war-home-front/land/munitions-factories/"
+        ]
+      },
+      {
+        "title": "L’automatisation ne fait pas disparaître les équipages",
+        "text": "La description du M270 publiée par la British Army montre un système réunissant un véhicule, un calculateur et un équipage. La présence de fonctions automatisées ne signifie donc pas que l’engin agit seul. Les personnes, les équipements électroniques et les éléments mécaniques restent complémentaires. Cette distinction est utile pour comprendre les rénovations : renouveler des calculateurs ou adapter des interfaces peut modifier une capacité sans transformer radicalement sa silhouette extérieure. Le programme britannique présente d’ailleurs la modernisation du lanceur et l’évolution des munitions comme des éléments associés. Un véhicule aperçu sur une photo ne donne ainsi pas toute l’histoire du système. Derrière son apparence, il existe des versions, des qualifications et un travail humain que le seul mot « automatisé » ne résume pas.",
+        "urls": [
+          "https://www.army.mod.uk/learn-and-explore/equipment/artillery-and-air-defence/guided-multiple-launch-rocket-system-gmlrs/"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "Bien avant les camions CAESAR, le canon français de 75 mm modèle 1897 illustre le rôle d’une innovation mécanique dans l’histoire de l’artillerie. Le musée de l’Armée souligne l’importance de son dispositif de compensation du recul : une partie du mouvement est absorbée et le tube revient à sa position initiale. Cette évolution facilite la répétition du tir, sans se réduire à une augmentation du diamètre du canon. Le musée rappelle également que les qualités d’un matériel dépendent du contexte : très efficace dans la guerre de mouvement, le « 75 » répond moins bien aux exigences de la guerre de tranchées. Ce parcours montre pourquoi une réussite technique ne constitue pas une supériorité universelle et permanente dans tous les conflits.",
+        "urls": [
+          "https://www.musee-armee.fr/collections/tresors-du-musee/canon-de-campagne-de-75-mm-modele-1897.html"
+        ]
+      }
+    ],
+    "historyPosition": 0
+  },
+  {
+    "slug": "logistique-militaire",
+    "sources": [
+      {
+        "label": "HCR — le pont aérien de secours vers le Pakistan, 3 novembre 2005",
+        "url": "https://www.unhcr.org/node/7242"
+      },
+      {
+        "label": "Defence Equipment & Support — soutien du Débarquement et ports Mulberry",
+        "url": "https://des.mod.uk/arming-the-allies-and-fuelling-the-front-the-ministry-of-supply-and-d-day/"
+      }
+    ],
+    "sections": [
+      {
+        "title": "L’eau, les repas et l’hygiène font aussi partie du soutien",
+        "text": "Le carburant et les pièces détachées ne couvrent qu’une partie des besoins. Dans sa présentation de la logistique, l’OTAN inclut aussi les repas, l’eau, l’hébergement, les installations sanitaires et la gestion des déchets. Ces services concernent directement la santé et la vie quotidienne des personnes. Ils réclament du personnel, des équipements et des infrastructures, même lorsqu’aucun matériel de combat supplémentaire n’est annoncé. Cette dimension explique pourquoi le soutien reste nécessaire pendant les périodes d’attente ou de repos. Une force continue à consommer des ressources lorsqu’elle ne se déplace pas. Regarder la logistique à travers les besoins humains permet donc de comprendre la durée d’un engagement, plutôt que de l’imaginer comme une simple succession de mouvements de véhicules.",
+        "urls": [
+          "https://nato.int/en/what-we-do/deterrence-and-defence/natos-role-in-logistics"
+        ]
+      },
+      {
+        "title": "Les mêmes savoir-faire peuvent servir les secours",
+        "text": "Après le séisme d’octobre 2005 au Pakistan, le Haut-Commissariat des Nations unies pour les réfugiés et l’OTAN organisent un pont aérien pour acheminer des abris et d’autres secours. Dans son communiqué du 3 novembre, le HCR insiste sur l’urgence d’apporter notamment des tentes, des couvertures et des réchauds avant l’hiver. L’exemple montre que le transport militaire peut compléter l’action d’organisations humanitaires, sans que leurs rôles deviennent identiques. Les fournitures doivent être réunies, acheminées puis distribuées aux personnes concernées. Ce passage entre plusieurs acteurs donne une image concrète de la coordination logistique. Disposer d’un avion ne résout pas à lui seul toutes les difficultés : il faut également organiser ce qui précède son vol et ce qui suit son arrivée.",
+        "urls": [
+          "https://www.unhcr.org/node/7242"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "Le débarquement de Normandie, en 1944, met déjà en évidence la différence entre arriver sur un rivage et soutenir une force dans la durée. Le service britannique Defence Equipment & Support rappelle la conception des ports artificiels Mulberry : leurs éléments sont construits, transportés à travers la Manche puis assemblés au large des plages. Ils répondent au besoin de débarquer des fournitures sans attendre la remise en service de grands ports. Ce chantier fait intervenir des administrations, des ingénieurs, des usines et des moyens de transport. Il élargit ainsi l’image habituelle du Débarquement : les navires et les soldats visibles sur les photographies dépendent aussi d’infrastructures préparées en amont. Le soutien forme une continuité entre l’économie et les opérations.",
+        "urls": [
+          "https://des.mod.uk/arming-the-allies-and-fuelling-the-front-the-ministry-of-supply-and-d-day/"
+        ]
+      }
+    ],
+    "historyPosition": 0
+  },
+  {
+    "slug": "renseignement-aerien-isr",
+    "sources": [
+      {
+        "label": "Agence spatiale européenne — Sentinel-1 et l’imagerie radar",
+        "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1"
+      },
+      {
+        "label": "RAF Museum — histoire de la reconnaissance photographique pendant la Première Guerre mondiale",
+        "url": "https://www.rafmuseum.org.uk/documents/podcasts/transcripts/ww1_photo_recon.pdf"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Pourquoi une image radar ne ressemble-t-elle pas à une photo ?",
+        "text": "Le mot « image » recouvre plusieurs façons d’observer. La mission civile Sentinel-1 de l’Agence spatiale européenne utilise un radar : elle ne photographie pas simplement la lumière visible comme un appareil ordinaire. L’ESA explique que ce capteur fournit des observations de jour comme de nuit et par temps couvert. Cet exemple permet de comprendre l’intérêt de moyens complémentaires, sans attribuer les caractéristiques de ce satellite à tous les équipements militaires. Une image radar demande aussi une lecture adaptée à ce qu’elle mesure ; elle ne constitue pas une photographie en couleurs dont on aurait seulement changé l’apparence. La nature du capteur compte donc autant que la netteté apparente pour comprendre le document présenté et les limites de son interprétation.",
+        "urls": [
+          "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1"
+        ]
+      },
+      {
+        "title": "Pourquoi l’entraînement des analystes compte-t-il autant ?",
+        "text": "Des capteurs supplémentaires produisent davantage d’informations, mais ces informations ne deviennent utiles que si des personnes savent les exploiter et les partager. L’OTAN présente la formation, les procédures communes et les réseaux comme trois piliers de son dispositif JISR. Ses exercices réunissent des moyens aériens, terrestres, maritimes et spatiaux pour travailler sur l’ensemble du parcours des données. Le besoin n’est donc pas seulement informatique : il concerne aussi les connaissances et la compréhension commune entre organisations. Cette dimension explique pourquoi une nouvelle capacité peut demander du temps après la réception de ses équipements. Former des spécialistes, apprendre à travailler ensemble et entretenir ces savoir-faire sont des activités moins visibles qu’un appareil neuf, mais elles participent pleinement à la qualité du renseignement.",
+        "urls": [
+          "https://nato.int/en/what-we-do/deterrence-and-defence/joint-intelligence-surveillance-and-reconnaissance"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "La reconnaissance aérienne se développe dès la Première Guerre mondiale, longtemps avant le U-2. Le RAF Museum retrace les premières missions britanniques, puis l’évolution de la photographie embarquée. Au début, les observateurs doivent noter ce qu’ils voient et transmettre leurs comptes rendus ; la qualité des appareils photo, les vibrations et les communications posent leurs propres difficultés. La photographie offre ensuite la possibilité de conserver un document que d’autres personnes peuvent étudier après le vol. Ce changement donne une place croissante au travail effectué au sol. Il éclaire une continuité avec l’ISR contemporain : faire voler un capteur, recueillir une observation et produire une interprétation correspondent à des tâches liées, mais distinctes. Les techniques évoluent, tandis que cette chaîne de travail demeure.",
+        "urls": [
+          "https://www.rafmuseum.org.uk/documents/podcasts/transcripts/ww1_photo_recon.pdf"
+        ]
+      }
+    ],
+    "historyPosition": 0
+  },
+  {
+    "slug": "char-blinde-infanterie",
+    "sources": [
+      {
+        "label": "Armée de Terre — architecture et protections du VBCI",
+        "url": "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-combat-dinfanterie/vbci-vehicule-blinde"
+      },
+      {
+        "label": "The Tank Museum — l’architecture du Renault FT et le prototype de 1917",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/renault-ft-17/?tpage=1"
+      }
+    ],
+    "sections": [
+      {
+        "title": "La protection ne se limite pas à l’épaisseur du blindage",
+        "text": "La fiche du VBCI publiée par l’armée de Terre mentionne plusieurs protections : une structure blindée, des plaques complémentaires, des moyens contre l’incendie et des équipements liés aux risques nucléaires, biologiques et chimiques. Ces éléments répondent à des dangers différents. Un extincteur ne remplit pas la fonction d’une plaque de blindage, mais tous deux contribuent à préserver les personnes à bord. Cette diversité explique pourquoi la protection d’un véhicule ne se résume pas à un seul chiffre d’épaisseur ou à son poids. Elle comprend aussi des dispositifs intérieurs que la photographie extérieure ne montre pas. Pour comprendre l’évolution des blindés, il faut donc regarder l’ensemble de la conception, et pas seulement la taille de la tourelle ou l’apparence de la caisse.",
+        "urls": [
+          "https://www.defense.gouv.fr/terre/nos-materiels/nos-equipements-terre/vehicules-larmee-terre/vehicules-combat-dinfanterie/vbci-vehicule-blinde"
+        ]
+      },
+      {
+        "title": "Le nombre de chars ne dit pas combien sont disponibles",
+        "text": "Un véhicule possède une vie d’atelier autant qu’une vie en unité. Le communiqué de la DGA sur la rénovation du Leclerc rappelle que l’industriel participe aussi au maintien en condition opérationnelle des parcs d’entraînement. Ce soutien inclut des responsabilités sur les approvisionnements, les stocks et l’entretien. Le nombre d’exemplaires possédés ne suffit donc pas à décrire ceux qui sont effectivement prêts à remplir leur mission à un moment donné. Certains suivent des travaux ou attendent une intervention, pendant que d’autres servent à former les équipages. Cette distinction donne du sens aux annonces concernant les contrats de soutien. Remettre durablement un matériel en état et acheter un exemplaire supplémentaire répondent à des besoins différents, qui appartiennent tous deux à la vie d’une flotte.",
+        "urls": [
+          "https://www.defense.gouv.fr/dga/actualites/dga-notifie-commande-cinquante-chars-leclerc-renoves"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "Le Renault FT marque une autre étape de la Première Guerre mondiale. Le Tank Museum décrit un engin plus petit que les premiers grands chars britanniques et français, avec une tourelle entièrement orientable, le pilote à l’avant et le moteur à l’arrière. L’un des prototypes conservés par le musée date de 1917. Cette répartition des principaux volumes annonce une organisation devenue familière sur de nombreux chars ultérieurs. Elle montre que l’histoire du blindé ne se réduit pas à ajouter du poids ou un canon plus gros : l’aménagement de la machine peut aussi changer profondément. Le FT répond à une recherche de format et de production différente de celle des premiers chars lourds. Plusieurs solutions ont ainsi coexisté dès les débuts de cette famille de véhicules.",
+        "urls": [
+          "https://tankmuseum.org/tank-nuts/tank-collection/renault-ft-17/?tpage=1"
+        ]
+      }
+    ],
+    "historyPosition": 1
+  },
+  {
+    "slug": "radar-sonar",
+    "sources": [
+      {
+        "label": "NOAA Office of Coast Survey — histoire des sondages et âge des cartes marines",
+        "url": "https://nauticalcharts.noaa.gov/updates/what-does-the-age-of-the-survey-mean-for-nautical-charts/"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Un écran radar est une représentation de mesures",
+        "text": "Les couleurs d’une carte radar ne sont pas celles d’une photographie du ciel. Le National Weather Service explique que ses radars météorologiques mesurent notamment la force des échos renvoyés par les précipitations et leur position. Le résultat est ensuite présenté sous une forme lisible pour l’utilisateur. Cette distinction entre phénomène physique, mesure et affichage est utile bien au-delà de la météo. Un écran peut représenter une grandeur calculée plutôt que l’apparence visible d’un objet. Il faut donc connaître la légende pour comprendre ce qu’une couleur ou un symbole signifie. Cet exemple civil permet de saisir le principe sans supposer que tous les radars effectuent les mêmes traitements, montrent les mêmes informations ou possèdent les mêmes performances techniques.",
+        "urls": [
+          "https://www.weather.gov/bmx/radar_aboutnwsradar_howdoesitwork"
+        ]
+      },
+      {
+        "title": "Le sonar sert aussi à comprendre les fonds marins",
+        "text": "Les applications civiles du sonar aident à comprendre ce que l’instrument peut mesurer. La NOAA l’emploie pour préparer des cartes marines, rechercher des dangers pour la navigation et étudier des épaves ou le relief sous-marin. L’eau constitue un milieu où le son se propage plus loin que la lumière et les ondes radar, ce qui explique l’intérêt de l’acoustique. Il ne s’agit donc pas simplement de remplacer une caméra par un autre appareil produisant la même image. Les mesures sonores servent à construire une représentation du milieu, selon le matériel et l’objectif du relevé. Distinguer cette cartographie d’une écoute passive aide à comprendre pourquoi le même mot « sonar » peut désigner des instruments et des travaux très différents.",
+        "urls": [
+          "https://oceanservice.noaa.gov/facts/sonar.html"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "L’histoire de l’acoustique sous-marine comprend aussi la mesure des profondeurs. Le service américain Coast and Geodetic Survey, prédécesseur d’une partie de la NOAA, adopte le sondage acoustique en 1923 sur le navire Guide. Cette technique permet de multiplier les mesures par rapport aux anciens sondages utilisant une ligne lestée. Elle conserve cependant des limites : un sondeur à faisceau unique mesure essentiellement sous le navire, et laisse des intervalles entre les passages. Les générations suivantes d’instruments améliorent la couverture des relevés. Cet exemple montre comment une carte marine se construit à partir d’une histoire de mesures et de techniques. Un fond représenté sur une carte n’a pas nécessairement été observé partout au même moment, avec la même précision ni avec le même équipement.",
+        "urls": [
+          "https://nauticalcharts.noaa.gov/updates/what-does-the-age-of-the-survey-mean-for-nautical-charts/"
+        ]
+      }
+    ],
+    "historyPosition": 1
+  },
+  {
+    "slug": "porte-avions-groupe-aeronaval",
+    "sources": [
+      {
+        "label": "Royal Navy — pont d’envol et aéronefs de la classe Queen Elizabeth",
+        "url": "https://www.royalnavy.mod.uk/equipment/ships/queen-elizabeth-class"
+      },
+      {
+        "label": "Marine nationale — missions du porte-avions",
+        "url": "https://www.defense.gouv.fr/marine/forces-surface/porte-avions"
+      },
+      {
+        "label": "US Navy — fonctions de guet et de commandement de l’E-2 Hawkeye",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2382134/e-2-hawkeye-airborne-command-and-control-aircraft/"
+      },
+      {
+        "label": "Naval History and Heritage Command — l’aviation navale de 1950 à 1953",
+        "url": "https://www.history.navy.mil/browse-by-topic/communities/naval-aviation/1950-1953.html"
+      },
+      {
+        "label": "US Navy / GPO — Evolution of Aircraft Carriers",
+        "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D221-PURL-gpo67727/pdf/GOVPUB-D221-PURL-gpo67727.pdf"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Pourquoi tous les ponts d’envol ne se ressemblent-ils pas ?",
+        "text": "Le navire et les avions embarqués sont conçus pour fonctionner ensemble. Les Queen Elizabeth britanniques utilisent un tremplin, appelé ski-jump, pour le départ de leurs F-35B. Un porte-avions à catapultes appartient à une autre configuration : le moyen de lancement, la récupération des appareils et les adaptations de l’avion doivent être compatibles. Ces choix expliquent pourquoi on ne peut pas déplacer librement n’importe quel avion de combat d’une base terrestre vers un bâtiment. Le pont est aussi un espace partagé entre les appareils prêts à partir, ceux qui reviennent et ceux qui sont déplacés vers le hangar. La silhouette du navire traduit donc une organisation de l’aviation, bien davantage qu’une simple différence de dimensions.",
+        "urls": [
+          "https://www.royalnavy.mod.uk/equipment/ships/queen-elizabeth-class",
+          "https://www.defense.gouv.fr/marine/forces-surface/porte-avions"
+        ]
+      },
+      {
+        "title": "Pourquoi embarquer aussi des avions qui ne sont pas des chasseurs ?",
+        "text": "Une activité aérienne collective demande de connaître la situation et de faire circuler les informations. L’E-2 Hawkeye illustre cette fonction : son grand disque radar est associé à des équipements de surveillance, d’identification et de communications. L’US Navy le décrit comme un avion de guet aérien et de commandement embarqué. Son équipage contribue à construire une image de la situation et à coordonner les autres moyens ; il ne remplit donc pas le même rôle qu’un chasseur. Cette complémentarité explique qu’un groupe aérien ne se juge pas seulement au nombre d’avions de combat. Des appareils spécialisés peuvent avoir une place essentielle dans le fonctionnement de l’ensemble, même lorsqu’ils paraissent moins spectaculaires sur une photographie du pont.",
+        "urls": [
+          "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2382134/e-2-hawkeye-airborne-command-and-control-aircraft/"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "Dans les années 1950, l’arrivée d’avions à réaction plus exigeants transforme de nouveau les porte-avions. Les programmes américains de modernisation introduisent notamment les catapultes à vapeur et les ponts obliques, dans le prolongement d’innovations britanniques. La partie du pont destinée à l’appontage n’est plus simplement alignée avec l’axe du bâtiment : cette réorganisation contribue à améliorer la sécurité et la gestion de l’activité aérienne. L’histoire du porte-avions montre ainsi un dialogue constant entre les progrès de l’avion et ceux du navire. Une coque peut rester en service tout en recevant des transformations profondes. Ces évolutions aident à comprendre les formes des porte-avions contemporains et la différence entre un bâtiment d’origine et sa configuration après modernisation.",
+        "urls": [
+          "https://www.history.navy.mil/browse-by-topic/communities/naval-aviation/1950-1953.html",
+          "https://www.govinfo.gov/content/pkg/GOVPUB-D221-PURL-gpo67727/pdf/GOVPUB-D221-PURL-gpo67727.pdf"
+        ]
+      }
+    ],
+    "historyPosition": 1
+  },
+  {
+    "slug": "familles-drones",
+    "sources": [
+      {
+        "label": "US Air Force — capteurs et équipage à distance du MQ-9",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104470/mq9-reaper/mq-9-reaper/"
+      },
+      {
+        "label": "NOAA / AOML — les instruments d’observation des ouragans",
+        "url": "https://www.aoml.noaa.gov/observational-instruments/"
+      },
+      {
+        "label": "Imperial War Museums — notice des essais du Queen Bee, septembre 1935",
+        "url": "https://film.iwmcollections.org.uk/record/20201"
+      },
+      {
+        "label": "de Havilland Aircraft Museum — le Queen Bee dans les collections",
+        "url": "https://www.dehavillandmuseum.co.uk/aircraft/pre-world-war-2-aircraft/"
+      }
+    ],
+    "sections": [
+      {
+        "title": "La charge utile change ce que l’appareil peut observer",
+        "text": "Le capteur embarqué ne constitue pas un détail ajouté à une cellule. Sur le MQ-9, l’US Air Force décrit un ensemble associant notamment des caméras de jour et des capteurs infrarouges, exploités par un opérateur spécialisé aux côtés du pilote à distance. Ces instruments produisent des informations différentes : une image visible et une image infrarouge ne représentent pas exactement la même chose. L’équipage doit donc comprendre ce qui est mesuré et dans quelles conditions. La présence d’une caméra ne donne pas automatiquement une interprétation fiable de toute scène. Cet exemple explique pourquoi deux appareils de la même famille peuvent être présentés différemment selon leurs équipements et pourquoi le travail humain reste central après la réception des images.",
+        "urls": [
+          "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104470/mq9-reaper/mq-9-reaper/"
+        ]
+      },
+      {
+        "title": "Observer un ouragan : un autre exemple pour comprendre le drone",
+        "text": "Les usages scientifiques rendent plus claire la différence entre la plateforme et sa mission. La NOAA emploie des aéronefs sans équipage pour recueillir des mesures dans les cyclones, notamment près de la zone où l’océan et l’atmosphère échangent chaleur et humidité. Les instruments enregistrent le vent, la température, la pression et l’humidité afin d’alimenter la recherche et les prévisions. Le résultat attendu est ici une série de données, pas nécessairement une vidéo. Cet exemple rappelle qu’un drone peut emporter des instruments très variés et travailler avec d’autres moyens, comme des avions habités ou des véhicules de surface. Le mot désigne une façon d’organiser l’appareil et sa conduite ; la finalité dépend des capteurs et des utilisateurs.",
+        "urls": [
+          "https://www.aoml.noaa.gov/observational-instruments/"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "Entre les expériences de la Première Guerre mondiale et les grands drones de surveillance, les aéronefs cibles forment un chapitre souvent oublié. Le Queen Bee britannique sert à l’entraînement au tir : l’objectif est de faire évoluer un appareil radiocommandé sans exposer un pilote à bord. Les archives de l’Imperial War Museums conservent une notice de film consacrée à ses essais à Watchet en septembre 1935 ; le musée de Havilland présente également un exemplaire de cette famille. L’histoire du drone ne suit donc pas une seule progression allant du petit appareil au grand appareil armé. Elle rassemble plusieurs besoins, dont l’expérimentation et l’entraînement, qui ont contribué à développer la commande à distance bien avant la diffusion des caméras et des liaisons numériques actuelles.",
+        "urls": [
+          "https://film.iwmcollections.org.uk/record/20201",
+          "https://www.dehavillandmuseum.co.uk/aircraft/pre-world-war-2-aircraft/"
+        ]
+      }
+    ],
+    "historyPosition": 1
+  },
+  {
+    "slug": "sna-snle",
+    "sources": [
+      {
+        "label": "US Navy / NAVSUP — présentation pédagogique de la propulsion nucléaire navale",
+        "url": "https://www.navsup.navy.mil/Viper-Home/NNPO/"
+      },
+      {
+        "label": "Marine nationale — missions et cycles des équipages de SNLE",
+        "url": "https://www.defense.gouv.fr/marine/marins/marins-nucleaires-lanceurs-dengins-snle"
+      },
+      {
+        "label": "Naval History and Heritage Command — histoire de l’USS George Washington",
+        "url": "https://www.history.navy.mil/content/history/nhhc/browse-by-topic/ships/submarines/george-washington-ssbn-598.html"
+      },
+      {
+        "label": "Naval History and Heritage Command — essais de juillet et patrouille de novembre 1960",
+        "url": "https://www.history.navy.mil/today-in-history/july-20.html"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Ce que la propulsion nucléaire change pour la vie sous l’eau",
+        "text": "Le changement majeur concerne la production d’énergie pendant la plongée. Dans la présentation pédagogique de l’US Navy, le réacteur fournit de la chaleur, ensuite transformée en énergie mécanique et en électricité ; cette production n’a pas besoin de l’air extérieur nécessaire à un moteur à combustion. Associée aux systèmes de renouvellement de l’atmosphère et de production d’eau, elle permet de longues périodes sous l’eau. Cela ne signifie pas que le bâtiment puisse vivre sans limites : les vivres, l’état des équipements et les besoins de l’équipage restent déterminants. L’intérêt de cette propulsion s’explique donc par l’endurance de l’ensemble du navire, et non par une absence de soutien. Cette énergie peut servir des missions différentes, comme le montrent le SNA et le SNLE.",
+        "urls": [
+          "https://www.navsup.navy.mil/Viper-Home/NNPO/"
+        ]
+      },
+      {
+        "title": "Pourquoi faut-il aussi regarder l’organisation des équipages ?",
+        "text": "Un sous-marin n’est disponible que si des marins formés peuvent l’armer et si les entretiens nécessaires sont réalisés. Pour les SNLE français, la Marine nationale décrit une organisation à deux équipages, identifiés par les couleurs bleu et rouge. Leur alternance associe entraînement, entretien, patrouille et permissions. Le temps du navire et celui des personnes ne sont donc pas exactement le même : pendant qu’un équipage prépare une prochaine activité, l’autre peut se trouver dans une autre phase de son cycle. Cette organisation éclaire la notion de permanence, souvent évoquée dans les articles sur la dissuasion. Elle repose sur une succession de tâches à terre et en mer, et pas seulement sur la présence d’un bâtiment dans un inventaire.",
+        "urls": [
+          "https://www.defense.gouv.fr/marine/marins/marins-nucleaires-lanceurs-dengins-snle"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "Aux États-Unis, l’USS George Washington marque une étape entre les premiers sous-marins nucléaires et la permanence de la dissuasion en mer. Entré en service en décembre 1959, il réalise en juillet 1960 des essais de lancement de Polaris en plongée, puis commence une première patrouille de dissuasion la même année. Le bâtiment associe ainsi une propulsion permettant de durer sous l’eau et une mission stratégique particulière. Son histoire montre également l’importance de l’organisation humaine : deux équipages se relaient dès les premières patrouilles. Le développement d’un SNLE ne se réduit donc pas à ajouter une arme à un sous-marin existant. Il faut aussi constituer une flotte, former les marins, préparer le soutien et inscrire les activités dans une politique de dissuasion.",
+        "urls": [
+          "https://www.history.navy.mil/content/history/nhhc/browse-by-topic/ships/submarines/george-washington-ssbn-598.html",
+          "https://www.history.navy.mil/today-in-history/july-20.html"
+        ]
+      }
+    ],
+    "historyPosition": 1
+  },
+  {
+    "slug": "missile-balistique-croisiere",
+    "sources": [
+      {
+        "label": "MBDA — Storm Shadow / SCALP, système aéroporté",
+        "url": "https://www.mbda-systems.com/products/deep-strike/storm-shadow-scalp"
+      },
+      {
+        "label": "MBDA — filiation du MdCN et plateformes navales",
+        "url": "https://www.mbda-systems.com/products/deep-strike/ncmlcm-mk2"
+      },
+      {
+        "label": "OTAN — périmètre et fin du traité INF",
+        "url": "https://www.nato.int/en/what-we-do/wider-activities/nato-and-the-inf-treaty"
+      },
+      {
+        "label": "RAF Museum — le V1 dans les collections historiques",
+        "url": "https://www.rafmuseum.org.uk/research/collections/fiesler-fi103-v1/"
+      },
+      {
+        "label": "National Museum of the US Air Force — histoire du V2 et conséquences humaines",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/v-2-with-meillerwagen/"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Le porteur fait partie de l’histoire du système",
+        "text": "L’expression « missile de croisière » ne dit pas d’où l’arme est lancée. Storm Shadow / SCALP est présenté par MBDA comme un système aéroporté ; le Missile de croisière naval, ou MdCN, équipe des plateformes navales de surface et sous-marines. Ce sont des programmes distincts, même lorsqu’ils s’appuient sur des compétences industrielles apparentées. Le nom du porteur apporte donc une information utile pour comprendre un contrat ou un essai. Il faut concevoir et qualifier l’ensemble formé par le missile et la plateforme : une famille ne devient pas automatiquement compatible avec tous les avions et tous les navires. Les annonces d’intégration concernent précisément cette relation entre équipements, en plus du développement de l’arme elle-même et de son soutien.",
+        "urls": [
+          "https://www.mbda-systems.com/products/deep-strike/storm-shadow-scalp",
+          "https://www.mbda-systems.com/products/deep-strike/ncmlcm-mk2"
+        ]
+      },
+      {
+        "title": "Pourquoi ces catégories apparaissent-elles dans les traités ?",
+        "text": "Un accord de maîtrise des armements doit définir ce qu’il couvre pour permettre sa mise en œuvre et sa vérification. Le traité INF portait sur des missiles balistiques et de croisière à lancement terrestre, dans une catégorie de portées déterminée, sans se limiter aux seuls modèles portant une charge nucléaire. L’origine du lancement était donc aussi importante que le mode de vol. Cette précision explique pourquoi une information concernant un missile naval ou aéroporté ne relevait pas automatiquement du même texte. La présentation de l’OTAN indique aussi la fin du traité en août 2019. On peut étudier ses définitions pour comprendre une période historique sans le présenter comme un accord encore applicable aujourd’hui ni l’étendre à tous les systèmes contemporains.",
+        "urls": [
+          "https://www.nato.int/en/what-we-do/wider-activities/nato-and-the-inf-treaty"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "La Seconde Guerre mondiale offre deux exemples anciens de chemins techniques différents. Le V1 allemand est une bombe volante à ailes, présentée par le RAF Museum comme un précurseur du missile de croisière. Le V2, étudié par le musée de l’US Air Force, est une fusée dont le vol se poursuit sur une trajectoire balistique après la phase propulsée. Employés contre des villes en 1944 et 1945, ces engins ont causé d’importantes souffrances civiles. Ils ne possédaient pas les capacités des systèmes actuels et leur histoire comprend aussi le recours nazi au travail forcé. Ces exemples permettent de comprendre l’ancienneté des deux familles sans transformer leur évolution en simple récit de progrès technique ni oublier les conséquences humaines de leur emploi.",
+        "urls": [
+          "https://www.rafmuseum.org.uk/research/collections/fiesler-fi103-v1/",
+          "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196226/v-2-with-meillerwagen/"
+        ]
+      }
+    ],
+    "historyPosition": 0
+  },
+  {
+    "slug": "reconnaitre-rafale-mirage-2000",
+    "sources": [
+      {
+        "label": "Dassault Aviation — versions B, C et M du Rafale",
+        "url": "https://www.dassault-aviation.com/fr/defense/rafale/concevoir-et-optimiser/"
+      },
+      {
+        "label": "Safran — différences entre les trains des Rafale Air et Marine",
+        "url": "https://www.safran-group.com/products-services/dassault-aviations-rafale-nose-and-main-landing-gears"
+      },
+      {
+        "label": "Dassault Aviation — du Mystère-Delta au Mirage III dans les années 1950",
+        "url": "https://timeline.dassault-aviation.com/fr/les-annees-magiques/"
+      }
+    ],
+    "sections": [
+      {
+        "title": "B, C et M : pourquoi plusieurs Rafale se ressemblent-ils ?",
+        "text": "Les lettres identifient des versions d’une même famille. Dassault distingue le Rafale C monoplace et le Rafale B biplace pour les opérations depuis une base terrestre, puis le Rafale M monoplace pour le porte-avions. Les trois partagent une architecture et un système d’armes communs, avec des adaptations liées à leur emploi. Deux places ne signifient donc pas automatiquement un appareil limité à l’école, et une seule place ne permet pas d’identifier une version navale. Ces variantes expliquent aussi pourquoi un détail de verrière peut changer entre deux photos de Rafale. L’identification devient plus intéressante lorsqu’on relie ce détail à la place de l’équipage et au milieu d’utilisation, plutôt que de mémoriser seulement une liste de lettres.",
+        "urls": [
+          "https://www.dassault-aviation.com/fr/defense/rafale/concevoir-et-optimiser/"
+        ]
+      },
+      {
+        "title": "Ce que le train d’atterrissage raconte du Rafale Marine",
+        "text": "Un appontage sur un navire impose des contraintes particulières à la structure de l’avion. Safran, qui produit les trains du Rafale, décrit pour la version Marine une structure renforcée, une barre de catapultage intégrée au train avant et des traitements adaptés à la corrosion en milieu marin. Ces différences sont moins visibles qu’une aile ou un moteur, mais elles expliquent pourquoi la navalisation ne se résume pas à changer la peinture. Sur une photo suffisamment nette au sol, le train peut donc apporter un indice complémentaire. Il faut cependant conserver une vue d’ensemble : certains détails restent cachés selon l’angle, et le fait de reconnaître une version ne renseigne pas automatiquement sur son standard électronique ou sa configuration de mission.",
+        "urls": [
+          "https://www.safran-group.com/products-services/dassault-aviations-rafale-nose-and-main-landing-gears"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "La parenté visuelle entre avions français s’inscrit dans une histoire plus longue que le Mirage 2000. Dans les années 1950, Dassault expérimente déjà l’aile delta avec le Mystère-Delta, puis développe le Mirage III, dont le premier prototype vole le 17 novembre 1956. Le constructeur conserve ensuite cette forme générale dans plusieurs programmes, tout en faisant évoluer la motorisation, les commandes de vol et les équipements. Une aile triangulaire peut donc indiquer une tradition de conception sans identifier un appareil précis. Le Mirage 2000 et le Rafale ne sont pas deux variantes du Mirage III : ils appartiennent à des programmes et à des générations différentes. Cette continuité des formes explique les ressemblances, tandis que l’histoire des programmes permet de comprendre les ruptures.",
+        "urls": [
+          "https://timeline.dassault-aviation.com/fr/les-annees-magiques/"
+        ]
+      }
+    ],
+    "historyPosition": 0
+  },
+  {
+    "slug": "fregate-destroyer-corvette",
+    "sources": [
+      {
+        "label": "Saab — matériaux, conception et signatures de la classe Visby",
+        "url": "https://www.saab.com/products/visby-class-corvette"
+      },
+      {
+        "label": "Royal Navy — missions et plateformes du Merlin Mk2",
+        "url": "https://www.royalnavy.mod.uk/equipment/aircraft/merlin"
+      },
+      {
+        "label": "Marine royale canadienne — histoire de la corvette Trentonian",
+        "url": "https://www.canada.ca/en/navy/services/history/ships-histories/trentonian.html"
+      }
+    ],
+    "sections": [
+      {
+        "title": "La forme de la coque répond aussi à des choix de conception",
+        "text": "La silhouette d’un navire résulte d’un ensemble de compromis, pas seulement d’une volonté de paraître moderne. La Visby constitue un exemple parlant : Saab décrit une coque et des superstructures en composite de fibres de carbone, ainsi qu’une conception visant à réduire plusieurs signatures, notamment radar, acoustique et magnétique. Le constructeur relie ces choix à la masse et à l’emploi du bâtiment. Ils expliquent en partie les surfaces peu chargées et les formes inhabituelles visibles sur les photographies. Il faut attribuer ces caractéristiques au programme concerné et distinguer la description technique des affirmations commerciales de supériorité. Une corvette d’une autre classe peut utiliser d’autres matériaux et répondre à d’autres besoins, même si elle porte la même appellation générale.",
+        "urls": [
+          "https://www.saab.com/products/visby-class-corvette"
+        ]
+      },
+      {
+        "title": "Pourquoi regarder aussi l’hélicoptère embarqué ?",
+        "text": "Un bâtiment peut servir de base à un aéronef dont les missions complètent celles de ses propres équipements. La Royal Navy présente le Merlin Mk2 comme un hélicoptère principalement destiné à la lutte sous-marine, mais également capable de participer au sauvetage, aux transferts de matériel et à la patrouille maritime. Il a notamment été embarqué sur des frégates de la classe Duke et des destroyers de la classe Daring. Le pont et le hangar font ainsi partie des éléments qui expliquent le rôle d’un navire. La présence d’un hélicoptère ne suffit cependant pas à connaître ses capteurs ou son activité du jour. Il faut identifier la version et ses équipements, car une même famille d’aéronefs peut remplir plusieurs fonctions très différentes.",
+        "urls": [
+          "https://www.royalnavy.mod.uk/equipment/aircraft/merlin"
+        ]
+      }
+    ],
+    "history": [
+      {
+        "text": "Bien avant les frégates et corvettes contemporaines, l’escorte des navires marchands occupe déjà une place essentielle pendant la Seconde Guerre mondiale. La Marine royale canadienne retrace par exemple la carrière du Trentonian, une corvette de la classe Flower entrée en service en décembre 1943. Le bâtiment assure ensuite des escortes liées au débarquement de Normandie puis accompagne des convois dans la Manche, avant d’être coulé en février 1945. Ce parcours rappelle la finalité humaine et économique de l’escorte : protéger des déplacements et des approvisionnements. Il montre aussi pourquoi les catégories ont une histoire. Une corvette Flower et une Visby actuelle partagent un nom de catégorie, mais appartiennent à des contextes industriels, à des générations techniques et à des organisations navales très différents.",
+        "urls": [
+          "https://www.canada.ca/en/navy/services/history/ships-histories/trentonian.html"
+        ]
+      }
+    ],
+    "historyPosition": 0
+  }
+];
+  for(const a of additions){
+    const g=C.guides.find(g=>g.slug===a.slug);
+    if(!g)throw new Error('Dossier de contexte absent : '+a.slug);
+    for(const s of a.sources)if(!g.sources.some(old=>old.url===s.url))g.sources.push(s);
+    const resolve=p=>({...(p.title?{title:p.title}:{}),text:p.text,sources:p.urls.map(url=>{
+      const i=g.sources.findIndex(s=>s.url===url);
+      if(i<0)throw new Error('Source de contexte absente : '+url);
+      return i;
+    })});
+    g.sections.push(...a.sections.map(resolve));
+    g.history.paragraphs.splice(a.historyPosition,0,...a.history.map(resolve));
+    g.checkedAt='2026-10-22';
+  }
 })();
