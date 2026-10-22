@@ -4,6 +4,319 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-10-22",
+      "publishedAt": "2026-10-22T15:35:47+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Un rapport s’inquiète des déficits capacitaires de la Royal Navy pour pour contrer les sous-marins russes dans le Grand Nord",
+      "url": "https://www.opex360.com/2026/10/22/un-rapport-sinquiete-des-deficits-capacitaires-de-la-royal-navy-pour-pour-contrer-les-sous-marins-russes-dans-le-grand-nord/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces navales",
+        "Astute",
+        "Atlantique Nord",
+        "destroyer",
+        "frégate",
+        "Grand Nord",
+        "lutte anti-sous-marine",
+        "Royal Navy",
+        "Royaume-Uni",
+        "Russie",
+        "SNA"
+      ],
+      "sourceExcerpt": {
+        "text": "Au début des années 1980, soit à une époque où rien ne laissait présager la chute du Mur de Berlin…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-22T16:20:43.392393+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/type23-20161122.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Un rapport s’inquiète des déficits capacitaires de la Royal Navy pour pour contrer les sous-marins russes dans le Grand Nord ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/22/un-rapport-sinquiete-des-deficits-capacitaires-de-la-royal-navy-pour-pour-contrer-les-sous-marins-russes-dans-le-grand-nord/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/22/un-rapport-sinquiete-des-deficits-capacitaires-de-la-royal-navy-pour-pour-contrer-les-sous-marins-russes-dans-le-grand-nord/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-22",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/type23-20161122.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T15:18:56+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Coup de pouce parlementaire pour la robotique terrestre",
+      "url": "https://forcesoperations.com/coup-de-pouce-parlementaire-pour-la-robotique-terrestre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "DROIDE",
+        "KNDS",
+        "Pendragon",
+        "robot",
+        "robot de combat"
+      ],
+      "sourceExcerpt": {
+        "text": "Quelques amendements au projet de loi de finances pour 2027 ont reçu hier le feu vert des députés de la…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-22T16:20:43.392393+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/10/Coup-de-pouce-parlementaire-pour-la-robotique-terrestre_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Coup de pouce parlementaire pour la robotique terrestre ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/coup-de-pouce-parlementaire-pour-la-robotique-terrestre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/coup-de-pouce-parlementaire-pour-la-robotique-terrestre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-22",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/Coup-de-pouce-parlementaire-pour-la-robotique-terrestre_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T14:41:09+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "« Avant, c’était le paradis » : en Martinique, l’enfer des sargasses",
+      "url": "https://www.revueconflits.com/avant-cetait-le-paradis-en-martinique-lenfer-des-sargasses/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Géopolitique de la France",
+        "Chemins de France",
+        "France"
+      ],
+      "imageCheckedAt": "2026-10-22T16:20:43.392393+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/Sargasses_au_large_de_Tintamare-_RNN_de_Saint_Martin.jpg",
+        "kind": "article",
+        "alt": "« Avant, c’était le paradis » : en Martinique, l’enfer des sargasses",
+        "credit": "Sargasses au large de l'île Tintamare, dans la réserve naturelle nationale de Saint-Martin. Photo Michel Vely",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/avant-cetait-le-paradis-en-martinique-lenfer-des-sargasses/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/avant-cetait-le-paradis-en-martinique-lenfer-des-sargasses/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-22",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/Sargasses_au_large_de_Tintamare-_RNN_de_Saint_Martin.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T13:51:41+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Euronaval 2026: Global Naval Shipbuilding Surges 50%",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/euronaval-2026-global-naval-shipbuilding-surges-50/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "EURONAVAL 2026"
+      ],
+      "sourceExcerpt": {
+        "text": "The Euronaval 2026 report reveals a 50% surge in global naval shipbuilding, with China now vastly outproducing the US. The…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-22T16:20:43.392393+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Euronaval-2026-thegem-blog-default-768x354.png",
+        "kind": "article",
+        "alt": "Euronaval 2026",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/euronaval-2026-global-naval-shipbuilding-surges-50/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/euronaval-2026-global-naval-shipbuilding-surges-50/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-22",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Euronaval-2026-thegem-blog-default.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T13:20:58+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Le premier de ces boucliers antimissiles est allé à l’Italie, la France vient d’en commander quatre de plus et avance ses livraisons",
+      "url": "https://www.forum-militaire.fr/le-premier-de-ces-boucliers-antimissiles-est-alle-a-litalie-la-france-vient-den-commander-quatre-de-plus-et-avance-ses-livraisons/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "contrat",
+        "France"
+      ],
+      "sourceExcerpt": {
+        "text": "Paris porte sa commande à douze systèmes de défense aérienne longue portée. Le chiffre était déjà annoncé depuis deux ans.…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T13:20:51+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Elbit Systems Expands Underwater and Maritime Autonomy Capabilities with Acquisition of ISE",
+      "url": "https://www.navalnews.com/naval-news/2026/10/elbit-systems-expands-underwater-and-maritime-autonomy-capabilities-with-acquisition-of-ise/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "AUV",
+        "Elbit Systems",
+        "underwater surveillance"
+      ],
+      "sourceExcerpt": {
+        "text": "Elbit Systems Ltd. has completed the acquisition of International Submarine Engineering Ltd. (ISE), a Canada-based company specializing in advanced autonomous…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-22T16:20:43.392393+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/GeospectrumSubTrail-Sept23.26-65-Large-768x512.webp",
+        "kind": "article",
+        "alt": "Elbit Systems Expands Underwater and Maritime Autonomy Capabilities with Acquisition of ISE",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/elbit-systems-expands-underwater-and-maritime-autonomy-capabilities-with-acquisition-of-ise/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/elbit-systems-expands-underwater-and-maritime-autonomy-capabilities-with-acquisition-of-ise/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-22",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/GeospectrumSubTrail-Sept23.26-65-Large.webp",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T12:00:00+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "British jobs boost as tank barrel production returns to the UK for first time in 20 years",
+      "url": "https://www.gov.uk/government/news/british-jobs-boost-as-tank-barrel-production-returns-to-the-uk-for-first-time-in-20-years",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Rheinmetall UK's Telford gun hall begins production, creating 100 skilled jobs and returning large-calibre weapon manufacturing to UK soil for…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-22T16:20:43.392393+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6ada368fb62d80a107bc5c0b/s300_DDC-OFFICIAL-20261022-295221.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/british-jobs-boost-as-tank-barrel-production-returns-to-the-uk-for-first-time-in-20-years",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/british-jobs-boost-as-tank-barrel-production-returns-to-the-uk-for-first-time-in-20-years",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-22"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T11:01:16+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Direction générale de l’armement évalue le drone sous-marin transocéanique Oryx O-16 d’Exail",
+      "url": "https://www.opex360.com/2026/10/22/la-direction-generale-de-larmement-evalue-le-drone-sous-marin-transoceanique-oryx-o-16-dexail/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Technologie",
+        "DGA",
+        "Direction générale de l'armement",
+        "drone naval",
+        "Exail",
+        "exppérimentation",
+        "Marine Nationale",
+        "Oryx O16",
+        "PEM Drones navals"
+      ],
+      "sourceExcerpt": {
+        "text": "«Droniser partout où c’est possible et maintenir ‘habité’ ce qui est nécessaire». Tel est l’ambition de la Marine nationale, comme…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-22T16:20:43.392393+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/o16-20261022.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Direction générale de l’armement évalue le drone sous-marin transocéanique Oryx O-16 d’Exail ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/22/la-direction-generale-de-larmement-evalue-le-drone-sous-marin-transoceanique-oryx-o-16-dexail/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/22/la-direction-generale-de-larmement-evalue-le-drone-sous-marin-transoceanique-oryx-o-16-dexail/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-22",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/o16-20261022.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T08:10:15+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "« L’hélicoptère du futur » européen commence à prendre forme autour du programme ENGRT piloté par Airbus et Leonardo",
+      "url": "https://www.forum-militaire.fr/lhelicoptere-du-futur-europeen-commence-a-prendre-forme-autour-du-programme-engrt-pilote-par-airbus-et-leonardo/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "avion"
+      ],
+      "sourceExcerpt": {
+        "text": "Airbus Helicopters a publié le 19 octobre 2026 un point d’étape sur ENGRT, l’European Next Generation Rotorcraft, le futur hélicoptère…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-22",
       "publishedAt": "2026-10-22T03:00:22+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -7387,7 +7700,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-10-21T17:20:29.682825+00:00"
     }
   ],
-  "checkedAt": "2026-10-22T06:18:42.180678+00:00",
+  "checkedAt": "2026-10-22T16:20:37.821852+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -7406,7 +7719,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -7424,7 +7737,7 @@ window.LDV_NEWS = {
       {
         "source": "Forum Militaire",
         "ok": true,
-        "recentItems": 13,
+        "recentItems": 14,
         "error": null
       },
       {
@@ -7442,7 +7755,7 @@ window.LDV_NEWS = {
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -7454,7 +7767,7 @@ window.LDV_NEWS = {
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 6,
         "error": null
       },
       {
@@ -7464,8 +7777,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 5,
-    "articleImages": 190,
+    "newItems": 9,
+    "articleImages": 197,
     "duplicateHeadlinesSkipped": 0
   }
 };

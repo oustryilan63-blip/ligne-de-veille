@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-22T06:18:42.180678+00:00",
+  "checkedAt": "2026-10-22T16:20:37.821852+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -53,9 +53,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-22T06:18:46.930785+00:00",
+        "checkedAt": "2026-10-22T16:20:46.025647+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Rencontre Witkoff - Poutine : envoi de la première cargaison de diesel russe vers les États-Unis",
@@ -100,7 +100,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-22T06:18:46.930785+00:00",
+        "checkedAt": "2026-10-22T16:20:46.025647+00:00",
         "updatedAt": "2026-10-21T18:06:45.422222+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -171,10 +171,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-22T06:18:46.930785+00:00",
-        "updatedAt": "2026-10-22T06:18:46.930785+00:00",
+        "checkedAt": "2026-10-22T16:20:46.025647+00:00",
+        "updatedAt": "2026-10-22T16:20:46.025647+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Les États-Unis et Israël prévoient de nouvelles frappes contre l’Iran après les élections",
+            "text": "Les États-Unis et Israël préparent une nouvelle phase de combats visant l'Iran, a indiqué mercredi le New York Times. Le quotidien américain rapporte que ces frappes seraient prévues après les élections américaines de mi-mandat. Des experts doutent du succès d'une telle opération.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261022-%C3%A9tats-unis-isra%C3%ABl-pr%C3%A9voient-nouvelles-frappes-contre-iran-apr%C3%A8s-%C3%A9lections",
+            "publishedAt": "2026-10-22T15:21:29+00:00"
+          },
           {
             "title": "Ben Gvir déporte un Gazaoui vers un Paris dévasté ... et généré par IA",
             "text": "Itamar Ben Gvir, ministre israélien de la Sécurité nationale, a partagé sur X une vidéo générée par IA où il prend les traits d'un génie, accédant au \"voeu\" d'un Gazaoui en le déportant par magie vers un Paris en ruines après les manifestations du 17 octobre. Une provocation qui a déclenché une joute en ligne avec le Quai d'Orsay, et qui illustre l'omniprésence de l'IA dans la campagne électorale israélienne à l'aube du scrutin du 27 octobre.",
@@ -182,14 +190,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20261021-ben-gvir-d%C3%A9porte-un-gazaoui-vers-un-paris-d%C3%A9vast%C3%A9-et-g%C3%A9n%C3%A9r%C3%A9-par-ia",
             "publishedAt": "2026-10-21T21:19:00+00:00"
-          },
-          {
-            "title": "Arabie saoudite : Emmanuel Macron à Riyad dans la dernière étape de sa tournée dans le Golfe",
-            "text": "Le président français Emmanuel Macron s'est rendu à Riyad dans le cadre d'une visite de \"solidarité\", la première d'un dirigeant occidental en Arabie saoudite depuis que les Houthis du Yémen soutenus par l'Iran ont intensifié leurs attaques début octobre. La visite s'inscrit dans le cadre d'une tournée dans les pays du Golfe visant à garantir l'approvisionnement en pétrole et en gaz.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261021-arabie-saoudite-emmanuel-macron-dans-derni%C3%A8re-%C3%A9tape-tourn%C3%A9e-golfe",
-            "publishedAt": "2026-10-21T16:16:07+00:00"
           }
         ],
         "sources": [
