@@ -1,7 +1,263 @@
 {
-  "updatedAt": "2026-10-22",
+  "updatedAt": "2026-10-23",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T04:00:42+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Intelligence démographique et dynamique sécuritaire au Sahel",
+      "url": "https://www.revueconflits.com/intelligence-demographique-et-dynamique-securitaire-au-sahel/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Conflits armés",
+        "Livres",
+        "Abonné",
+        "Djihadisme",
+        "Livre",
+        "Sahel"
+      ],
+      "imageCheckedAt": "2026-10-23T06:18:16.635846+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/09/SIPA_01057163_000007-scaled.jpg",
+        "kind": "article",
+        "alt": "Intelligence démographique et dynamique sécuritaire au Sahel",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/intelligence-demographique-et-dynamique-securitaire-au-sahel/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/intelligence-demographique-et-dynamique-securitaire-au-sahel/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-23",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/09/SIPA_01057163_000007-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T03:36:41+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Les sociétés militaires privées en Amérique latine : de la fin de la guerre froide à Vectus Global",
+      "url": "https://www.revueconflits.com/les-societes-militaires-privees-en-amerique-latine-de-la-fin-de-la-guerre-froide-a-vectus-global/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Revue Conflits",
+        "Bolivie"
+      ],
+      "imageCheckedAt": "2026-10-23T06:18:16.635846+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_ap23052980_000003-scaled.jpg",
+        "kind": "article",
+        "alt": "Les sociétés militaires privées en Amérique latine : de la fin de la guerre froide à Vectus Global",
+        "credit": "Un soldat traverse un péage le long de l'autoroute panaméricaine endommagée par une explosion que l'armée a imputée à des groupes dissidents des FARC à Santander de Quilichao, en Colombie, le samedi 8 août 2026. (AP Photo/Santiago…",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/les-societes-militaires-privees-en-amerique-latine-de-la-fin-de-la-guerre-froide-a-vectus-global/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/les-societes-militaires-privees-en-amerique-latine-de-la-fin-de-la-guerre-froide-a-vectus-global/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-23",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_ap23052980_000003-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T03:00:47+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Livres – 23 octobres",
+      "url": "https://www.revueconflits.com/livres-23-octobres/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Livres",
+        "Abonné",
+        "Livre"
+      ],
+      "imageCheckedAt": "2026-10-23T06:18:16.635846+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/51e-Ct44M0L-207x300.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Livres – 23 octobres ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/livres-23-octobres/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/livres-23-octobres/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-23",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/51e-Ct44M0L-207x300.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T21:30:00+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Military planes and helicopters to fight wildfires from the sky",
+      "url": "https://www.gov.uk/government/news/military-planes-and-helicopters-to-fight-wildfires-from-the-sky",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Military planes and helicopters will take to the skies to fight wildfires for the first time, as we prepare for…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-23T06:18:16.635846+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6ada3af2d798ae11e9bc5bf3/s300_Untitled-design-15.png",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/military-planes-and-helicopters-to-fight-wildfires-from-the-sky",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/military-planes-and-helicopters-to-fight-wildfires-from-the-sky",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T19:16:41+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Pentagon Launches 120-Day “Sprint” to Field Counter-UAS Armed USVs",
+      "url": "https://www.navalnews.com/naval-news/2026/10/pentagon-diu-sprint-counter-uas-armed-usvs/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "C-UAS",
+        "US Navy",
+        "USV"
+      ],
+      "sourceExcerpt": {
+        "text": "The Pentagon and DIU launched a 120-day sprint to acquire and field new counter-UAS armed USVs to defend surface fleets…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-23T06:18:16.635846+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/09/Saildrone-Surveyor-USV-Fires-Lockheed-Martin-JAGM-during-RIMPAC-768x432.jpg",
+        "kind": "article",
+        "alt": "Saildrone Surveyor USV Fires Lockheed Martin JAGM during RIMPAC",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/pentagon-diu-sprint-counter-uas-armed-usvs/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/pentagon-diu-sprint-counter-uas-armed-usvs/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-23",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/09/Saildrone-Surveyor-USV-Fires-Lockheed-Martin-JAGM-during-RIMPAC.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T17:48:57+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le ministère des Armées annonce la mort en service aérien commandé du lieutenant-colonel Sarkissian et du lieutenant Klysz",
+      "url": "https://www.opex360.com/2026/10/22/le-ministere-des-armees-annonce-la-mort-en-service-aerien-commande-du-lieutenant-colonel-sarkissian-et-du-lieutenant-klysz/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Non classé",
+        "3e Escadre",
+        "aAE",
+        "accident",
+        "armée de l'Air & de l'Espace",
+        "lieutenant Quentin Klysz",
+        "lieutenant-colonel Antranig Sarkissian",
+        "Mirage 2000D",
+        "Nancy-Ochey"
+      ],
+      "sourceExcerpt": {
+        "text": "Ce jour, le parquet de Metz a confirmé la mort du pilote et du navigateur officier systèmes d’armes [NOSA] qui…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-23T06:18:16.635846+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/m2000d-20261022.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le ministère des Armées annonce la mort en service aérien commandé du lieutenant-colonel Sarkissian et du lieutenant Klysz ».",
+        "credit": "Le lieutenant-colonel Antranig Sarkissian [à gauche] et le lieutenant Quentin Klysz – armée de l’Air & de l’Espace",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/22/le-ministere-des-armees-annonce-la-mort-en-service-aerien-commande-du-lieutenant-colonel-sarkissian-et-du-lieutenant-klysz/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/22/le-ministere-des-armees-annonce-la-mort-en-service-aerien-commande-du-lieutenant-colonel-sarkissian-et-du-lieutenant-klysz/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-23",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/m2000d-20261022.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T17:12:27+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le Japon signale une forte hausse de l’activité aérienne des forces chinoises et russes près de son territoire",
+      "url": "https://www.opex360.com/2026/10/22/le-japon-signale-une-forte-hausse-de-lactivite-aerienne-des-forces-chinoises-et-russes-pres-de-son-territoire/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie-Pacifique",
+        "Forces aériennes",
+        "Alpha Scramble",
+        "Chine",
+        "force aérienne d'autodéfense japonaise",
+        "Indopacifique",
+        "japon",
+        "JASDF",
+        "Russie"
+      ],
+      "sourceExcerpt": {
+        "text": "Au cours de l’exercice fiscal 2024-25, les forces aériennes d’autodéfense japonaises [JASDF] ont fait décoller des avions de combat à…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-23T06:18:16.635846+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/japon-20261022.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le Japon signale une forte hausse de l’activité aérienne des forces chinoises et russes près de son territoire ».",
+        "credit": "Ministère japonais de la Défense",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/22/le-japon-signale-une-forte-hausse-de-lactivite-aerienne-des-forces-chinoises-et-russes-pres-de-son-territoire/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/22/le-japon-signale-une-forte-hausse-de-lactivite-aerienne-des-forces-chinoises-et-russes-pres-de-son-territoire/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-23",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/japon-20261022.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-22",
       "publishedAt": "2026-10-22T15:35:47+00:00",
@@ -290,6 +546,44 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-22",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/o16-20261022.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T08:25:21+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "MSI Defense Integrates LIONFISH 20 Weapon Systems on Ex-USCG Cutters for Hellenic Navy",
+      "url": "https://www.navalnews.com/naval-news/2026/10/msi-defense-lionfish-20-hellenic-navy/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Hellenic Navy",
+        "Island-class",
+        "Lionfish"
+      ],
+      "sourceExcerpt": {
+        "text": "Under a recent FMS program, MSI Defense successfully integrated a 20mm LIONFISH weapon systems onto ex-USCG cutters bound for the…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-23T06:18:16.635846+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Lionfish-20-Island-class-Hellenic-Navy-1-768x576.jpg",
+        "kind": "article",
+        "alt": "Lionfish 20 Island-class Hellenic Navy",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/msi-defense-lionfish-20-hellenic-navy/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/msi-defense-lionfish-20-hellenic-navy/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-23",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Lionfish-20-Island-class-Hellenic-Navy-1.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -7483,7 +7777,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-21T17:20:29.682825+00:00"
+      "imageCheckedAt": "2026-10-23T06:18:16.635846+00:00"
     },
     {
       "date": "2026-10-07",
@@ -7697,10 +7991,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-21T17:20:29.682825+00:00"
+      "imageCheckedAt": "2026-10-23T06:18:16.635846+00:00"
     }
   ],
-  "checkedAt": "2026-10-22T16:20:37.821852+00:00",
+  "checkedAt": "2026-10-23T06:18:11.862903+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -7719,7 +8013,7 @@
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -7755,7 +8049,7 @@
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -7777,8 +8071,8 @@
         "error": null
       }
     ],
-    "newItems": 9,
-    "articleImages": 197,
+    "newItems": 8,
+    "articleImages": 205,
     "duplicateHeadlinesSkipped": 0
   }
 }

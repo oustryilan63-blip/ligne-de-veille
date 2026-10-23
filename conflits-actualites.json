@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-22T16:20:37.821852+00:00",
+  "checkedAt": "2026-10-23T06:18:11.862903+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -16,7 +16,7 @@
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-10-21T16:19:32.380382+00:00",
+      "changedAt": "2026-10-23T06:18:11.862903+00:00",
       "items": [
         {
           "title": "L’armée ukrainienne revendique la première évacuation d’un soldat blessé par un drone aérien",
@@ -41,19 +41,11 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-10-17T13:23:08+00:00",
           "language": "fr"
-        },
-        {
-          "title": "New Kyiv Business Centre opens in Ukraine",
-          "url": "https://www.gov.uk/government/news/new-kyiv-business-centre-opens-in-ukraine",
-          "source": "Ministère britannique de la Défense",
-          "sourceType": "Source officielle",
-          "publishedAt": "2026-10-08T18:09:00+00:00",
-          "language": "en"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-22T16:20:46.025647+00:00",
+        "checkedAt": "2026-10-23T06:18:19.265671+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -100,7 +92,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-22T16:20:46.025647+00:00",
+        "checkedAt": "2026-10-23T06:18:19.265671+00:00",
         "updatedAt": "2026-10-21T18:06:45.422222+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -171,9 +163,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-22T16:20:46.025647+00:00",
+        "checkedAt": "2026-10-23T06:18:19.265671+00:00",
         "updatedAt": "2026-10-22T16:20:46.025647+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Les États-Unis et Israël prévoient de nouvelles frappes contre l’Iran après les élections",
