@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-23T06:18:11.862903+00:00",
+  "checkedAt": "2026-10-23T16:22:50.325546+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -45,7 +45,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-23T06:18:19.265671+00:00",
+        "checkedAt": "2026-10-23T16:22:58.214942+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -92,9 +92,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-23T06:18:19.265671+00:00",
-        "updatedAt": "2026-10-21T18:06:45.422222+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-10-23T16:22:58.214942+00:00",
+        "updatedAt": "2026-10-23T16:22:58.214942+00:00",
+        "status": "updated",
         "paragraphs": [
           {
             "title": "La Chine sanctionne des ministres latino-américains pour avoir maintenu des relations diplomatiques avec Taïwan",
@@ -103,14 +103,6 @@
             "source": "RFI",
             "url": "https://www.rfi.fr/fr/asie-pacifique/20261012-la-chine-sanctionne-des-ministres-latino-am%C3%A9ricains-pour-avoir-maintenu-des-relations-diplomatiques-avec-ta%C3%AFwan",
             "publishedAt": "2026-10-12T12:43:21+00:00"
-          },
-          {
-            "title": "Taïwan: la fête nationale ravive la guerre mémorielle avec la Chine",
-            "text": "Taïwan célèbre samedi 10 octobre sa fête nationale, celle de la République de Chine. Une célébration vivement critiquée chaque année par Pékin, pour qui seule la République populaire de Chine existe.",
-            "truncated": false,
-            "source": "RFI",
-            "url": "https://www.rfi.fr/fr/asie-pacifique/20261009-ta%C3%AFwan-la-f%C3%AAte-nationale-ravive-la-guerre-m%C3%A9morielle-avec-la-chine",
-            "publishedAt": "2026-10-09T08:45:00+00:00"
           }
         ],
         "sources": [
@@ -163,25 +155,25 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-23T06:18:19.265671+00:00",
-        "updatedAt": "2026-10-22T16:20:46.025647+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-10-23T16:22:58.214942+00:00",
+        "updatedAt": "2026-10-23T16:22:58.214942+00:00",
+        "status": "updated",
         "paragraphs": [
           {
-            "title": "Les États-Unis et Israël prévoient de nouvelles frappes contre l’Iran après les élections",
-            "text": "Les États-Unis et Israël préparent une nouvelle phase de combats visant l'Iran, a indiqué mercredi le New York Times. Le quotidien américain rapporte que ces frappes seraient prévues après les élections américaines de mi-mandat. Des experts doutent du succès d'une telle opération.",
+            "title": "Élections en Israël : \"J’ai tué beaucoup de terroristes, mais ça ne m’a pas fait me sentir mieux\"",
+            "text": "Après trois ans de guerre, le nombre de soldats israéliens atteints de troubles de stress post-traumatique explose. Débordés, les psychologues et psychiatres s’inquiètent pour la santé mentale du pays. Reportage avec les gueules cassées des guerres d’Israël.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261022-%C3%A9tats-unis-isra%C3%ABl-pr%C3%A9voient-nouvelles-frappes-contre-iran-apr%C3%A8s-%C3%A9lections",
-            "publishedAt": "2026-10-22T15:21:29+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261023-elections-en-israel-j-ai-tue-beaucoup-de-terroristes-mais-%C3%A7a-ne-m-a-pas-fait-me-sentir-mieux",
+            "publishedAt": "2026-10-23T13:47:37+00:00"
           },
           {
-            "title": "Ben Gvir déporte un Gazaoui vers un Paris dévasté ... et généré par IA",
-            "text": "Itamar Ben Gvir, ministre israélien de la Sécurité nationale, a partagé sur X une vidéo générée par IA où il prend les traits d'un génie, accédant au \"voeu\" d'un Gazaoui en le déportant par magie vers un Paris en ruines après les manifestations du 17 octobre. Une provocation qui a déclenché une joute en ligne avec le Quai d'Orsay, et qui illustre l'omniprésence de l'IA dans la campagne électorale israélienne à l'aube du scrutin du 27 octobre.",
+            "title": "Netanyahu annonce une opération d'ampleur en Cisjordanie occupée après une attaque meurtrière",
+            "text": "Le Premier ministre israélien Benjamin Netanyahu a annoncé vendredi que l'armée israélienne allait lancer une opération de grande envergure, incluant des déplacements d'habitants palestiniens, en réponse à une attaque qui a tué deux soldats israéliens à Hébron, dans le sud de la Cisjordanie occupée. Les deux assaillants ont été abattus.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20261021-ben-gvir-d%C3%A9porte-un-gazaoui-vers-un-paris-d%C3%A9vast%C3%A9-et-g%C3%A9n%C3%A9r%C3%A9-par-ia",
-            "publishedAt": "2026-10-21T21:19:00+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261023-netanyahu-ordonne-de-pr%C3%A9parer-le-bouclage-total-de-la-cisjordanie-occup%C3%A9e-apr%C3%A8s-une-attaque",
+            "publishedAt": "2026-10-23T08:54:31+00:00"
           }
         ],
         "sources": [

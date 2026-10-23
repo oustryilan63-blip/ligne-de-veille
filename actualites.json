@@ -4,6 +4,323 @@
   "items": [
     {
       "date": "2026-10-23",
+      "publishedAt": "2026-10-23T15:42:34+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le Danemark commande des missiles sol-sol à longue portée Anthem auprès de l’américain Covenant Industries",
+      "url": "https://www.opex360.com/2026/10/23/le-danemark-commande-des-missiles-sol-sol-a-longue-portee-anthem-aupres-de-lamericain-covenant-industries/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Armement",
+        "Europe",
+        "Otan",
+        "Anthem",
+        "Covenant Industries",
+        "DALO",
+        "Danemark",
+        "Dissuasion",
+        "JSM",
+        "Kongsberg",
+        "longue portée",
+        "Russie"
+      ],
+      "sourceExcerpt": {
+        "text": "En septembre 2025, le Danemark fit part de sa volonté de se doter d’armes à longue portée afin d’assurer une…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-23T16:22:56.280186+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/anthem-20260809.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le Danemark commande des missiles sol-sol à longue portée Anthem auprès de l’américain Covenant Industries ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/23/le-danemark-commande-des-missiles-sol-sol-a-longue-portee-anthem-aupres-de-lamericain-covenant-industries/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/23/le-danemark-commande-des-missiles-sol-sol-a-longue-portee-anthem-aupres-de-lamericain-covenant-industries/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-23",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/anthem-20260809.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T14:16:26+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Chine : le moment saint Augustin",
+      "url": "https://www.revueconflits.com/chine-le-moment-saint-augustin/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie",
+        "Abonné",
+        "Chine",
+        "géoéconomie"
+      ],
+      "imageCheckedAt": "2026-10-23T16:22:56.280186+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2025/10/SIPA_ap22981018_000020-scaled.jpg",
+        "kind": "article",
+        "alt": "Chine : le moment saint Augustin",
+        "credit": "(Rao Aimin/Xinhua via AP)/XIN801/25247354560715/NO SALES, PHOTO RELEASED BY XINHUA NEWS AGENCY/2509041158",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/chine-le-moment-saint-augustin/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/chine-le-moment-saint-augustin/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-23",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2025/10/SIPA_ap22981018_000020-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T13:30:50+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Chief of Defence hosts tenth Dragon Group meeting in London",
+      "url": "https://www.gov.uk/government/news/chief-of-defence-hosts-tenth-dragon-group-meeting-in-london",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "The Chief of Defence Staff, Air Chief Marshal Sir Richard Knighton, hosted the tenth Dragon Group meeting this week at…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-23T16:22:56.280186+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6adb5fb82263175ac2aca394/s300_DDC-20261023-298-962.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/chief-of-defence-hosts-tenth-dragon-group-meeting-in-london",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/chief-of-defence-hosts-tenth-dragon-group-meeting-in-london",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-23"
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T13:29:33+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Kongsberg demonstrates containerised ‘NSM in a box’",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/kongsberg-demonstrates-containerised-nsm-in-a-box/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "Kongsberg",
+        "Mission Modules",
+        "NSM"
+      ],
+      "sourceExcerpt": {
+        "text": "Kongsberg has successfully demonstrated a containerised Naval Strike Missile (NSM) transportation and launch system... The post Kongsberg demonstrates containerised ‘NSM…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-23T16:22:56.280186+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/NSM-in-a-box-container-768x351.jpg",
+        "kind": "article",
+        "alt": "NSM in a box container",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/kongsberg-demonstrates-containerised-nsm-in-a-box/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/kongsberg-demonstrates-containerised-nsm-in-a-box/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-23",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/NSM-in-a-box-container.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T13:04:21+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La France possède déjà un missile qui change de cible en vol, mais aucun fantassin français ne le tirera depuis un buggy",
+      "url": "https://www.forum-militaire.fr/la-france-possede-deja-un-missile-qui-change-de-cible-en-vol-mais-aucun-fantassin-francais-ne-le-tirera-depuis-un-buggy/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "missile"
+      ],
+      "sourceExcerpt": {
+        "text": "Des fantassins américains viennent de tirer dix-sept missiles de précision depuis un véhicule léger dérivé d’un pick-up du commerce. L’équivalent…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T12:50:13+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Les forces aériennes françaises et britanniques ont simulé une frappe nucléaire lors de l’exercice inédit «Rummy»",
+      "url": "https://www.opex360.com/2026/10/23/les-forces-aeriennes-francaises-et-britanniques-ont-simule-une-frappe-nucleaire-lors-de-lexercice-inedit-rummy/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Dissuasion",
+        "Forces aériennes",
+        "armée de l'Air & de l'Espace",
+        "FAS",
+        "Forces aériennes stratégiques",
+        "France",
+        "frappe nucléaire",
+        "Northwood",
+        "RAF",
+        "Rafale",
+        "Royal Air Force",
+        "Royaume-Uni"
+      ],
+      "sourceExcerpt": {
+        "text": "Quatre fois par an, l’armée de l’Air & de l’Espace [AAE] organise un exercice Poker, lequel consiste à simuler un…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-23T16:22:56.280186+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/rafalefas-20261023.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Les forces aériennes françaises et britanniques ont simulé une frappe nucléaire lors de l’exercice inédit «Rummy» ».",
+        "credit": "© Emmanuel TSENG-KING/armée de l’Air et de l’Espace",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/23/les-forces-aeriennes-francaises-et-britanniques-ont-simule-une-frappe-nucleaire-lors-de-lexercice-inedit-rummy/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/23/les-forces-aeriennes-francaises-et-britanniques-ont-simule-une-frappe-nucleaire-lors-de-lexercice-inedit-rummy/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-23",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/rafalefas-20261023.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T11:49:00+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Commanding the Depths: HAVELSAN’s Technological Approach to Underwater Operations",
+      "url": "https://www.navalnews.com/naval-news/2026/10/from-data-to-decisions-how-havelsan-transforms-underwater-command-and-control/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Havelsan",
+        "MILDEN",
+        "underwater surveillance"
+      ],
+      "sourceExcerpt": {
+        "text": "Technological advancements do not alter the fundamental principle underlying the command and control philosophy: “The ability to make the right…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-23T16:22:56.280186+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Gorsel-768x502.jpg",
+        "kind": "article",
+        "alt": "From Data to Decisions: How HAVELSAN Transforms Underwater Command and Control",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/from-data-to-decisions-how-havelsan-transforms-underwater-command-and-control/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/from-data-to-decisions-how-havelsan-transforms-underwater-command-and-control/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-23",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Gorsel.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T10:06:26+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Des jumelles Safran dans les mains des observateurs avancés suédois",
+      "url": "https://forcesoperations.com/des-jumelles-safran-dans-les-mains-des-observateurs-avances-suedois/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "observateur avancé",
+        "Safran",
+        "Suède"
+      ],
+      "sourceExcerpt": {
+        "text": "Un an. C'est le délai qu'il aura fallu à Safran Electronics & Defense pour produire et livrer une nouvelle capacité…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-23T16:22:56.280186+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/10/Des-jumelles-Safran-dans-les-mains-des-observateurs-avances-suedois_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Des jumelles Safran dans les mains des observateurs avancés suédois ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/des-jumelles-safran-dans-les-mains-des-observateurs-avances-suedois/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/des-jumelles-safran-dans-les-mains-des-observateurs-avances-suedois/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-23",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/Des-jumelles-Safran-dans-les-mains-des-observateurs-avances-suedois_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T07:46:59+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Cinq ans après la vente record de Rafale, la France passe une nouvelle étape dans son rapprochement avec les Émirats arabes unis : la DGA…",
+      "url": "https://www.forum-militaire.fr/cinq-ans-apres-la-vente-record-de-rafale-la-france-passe-une-nouvelle-etape-dans-son-rapprochement-avec-les-emirats-arabes-unis-la-dga-signe-avec-edge/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Industrie",
+        "contrat",
+        "France",
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "En octobre 2026, un cadre de partenariat stratégique défense a été signé entre Paris et Abu Dhabi : la coopération…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-23",
       "publishedAt": "2026-10-23T04:00:42+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -84,7 +401,6 @@
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
       "publisherCategories": [
         "Livres",
-        "Abonné",
         "Livre"
       ],
       "imageCheckedAt": "2026-10-23T06:18:16.635846+00:00",
@@ -101,6 +417,40 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-23",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/51e-Ct44M0L-207x300.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T01:52:17+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Le Vatican insolite. Caroline Pigozzi",
+      "url": "https://www.revueconflits.com/podcast-le-vatican-insolite-caroline-pigozzi/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Podcasts",
+        "Podcasts Philosophie & Littérature",
+        "Catholicisme",
+        "Christianisme"
+      ],
+      "imageCheckedAt": "2026-10-23T16:22:56.280186+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2025/08/31-SIPA_01211855_000063-scaled.jpg",
+        "kind": "article",
+        "alt": "Podcast – Le Vatican insolite. Caroline Pigozzi",
+        "credit": "US Cardinal Robert Francis Prevost was elected pope with the name Pope Leo XIV. Vatican City, May 8, 2025 Pictured: the first speech from the Loggia of Blessings of Pope Leo XIV-/ ipa-agency.net -…",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-le-vatican-insolite-caroline-pigozzi/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-le-vatican-insolite-caroline-pigozzi/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-23",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2025/08/31-SIPA_01211855_000063-scaled.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -7994,7 +8344,7 @@
       "imageCheckedAt": "2026-10-23T06:18:16.635846+00:00"
     }
   ],
-  "checkedAt": "2026-10-23T06:18:11.862903+00:00",
+  "checkedAt": "2026-10-23T16:22:50.325546+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -8043,13 +8393,13 @@
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 3,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -8071,8 +8421,8 @@
         "error": null
       }
     ],
-    "newItems": 8,
-    "articleImages": 205,
+    "newItems": 10,
+    "articleImages": 213,
     "duplicateHeadlinesSkipped": 0
   }
 }
