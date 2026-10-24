@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-24T06:13:45.714049+00:00",
+  "checkedAt": "2026-10-24T16:12:15.462514+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -45,7 +45,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-24T06:13:54.112401+00:00",
+        "checkedAt": "2026-10-24T16:12:23.207341+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -92,7 +92,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-24T06:13:54.112401+00:00",
+        "checkedAt": "2026-10-24T16:12:23.207341+00:00",
         "updatedAt": "2026-10-23T16:22:58.214942+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -118,8 +118,16 @@
       }
     },
     "moyen-orient-conflits": {
-      "changedAt": "2026-10-21T16:19:32.380382+00:00",
+      "changedAt": "2026-10-24T16:12:15.462514+00:00",
       "items": [
+        {
+          "title": "Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel",
+          "url": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
+          "source": "Naval News",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-10-24T07:42:50+00:00",
+          "language": "en"
+        },
         {
           "title": "L’avenir du régime iranien : entretien avec Clément Therme",
           "url": "https://www.revueconflits.com/lavenir-du-regime-iranien-entretien-avec-clement-therme/",
@@ -143,22 +151,22 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-10-14T16:50:56+00:00",
           "language": "fr"
-        },
-        {
-          "title": "Yémen : un clivage nord-sud à l’épreuve de la guerre",
-          "url": "https://www.areion24.news/2026/10/14/yemen-un-clivage-nord-sud-a-lepreuve-de-la-guerre/",
-          "source": "Areion — Géopolitique",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-10-14T05:30:23+00:00",
-          "language": "fr"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-24T06:13:54.112401+00:00",
-        "updatedAt": "2026-10-24T06:13:54.112401+00:00",
+        "checkedAt": "2026-10-24T16:12:23.207341+00:00",
+        "updatedAt": "2026-10-24T16:12:23.207341+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Cisjordanie occupée : des Palestiniens déplacés par l'armée israélienne à Hébron après une attaque",
+            "text": "À quelques jours d'élections législatives s'annonçant serrées en Israël, Benjamin Netanyahu a ordonné une opération militaire majeure en Cisjordanie. Entre 150 et 250 familles ont été chassées de leurs maisons, dans la nuit de vendredi à samedi, à Hébron, plus grande ville du territoire palestinien occupé depuis 1967.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261024-cisjordanie-occup%C3%A9e-l-arm%C3%A9e-isra%C3%A9lienne-d%C3%A9place-des-palestiniens-%C3%A0-h%C3%A9bron-apr%C3%A8s-une-attaque",
+            "publishedAt": "2026-10-24T13:01:02+00:00"
+          },
           {
             "title": "Les États-Unis pourraient frapper l'Iran dès ce week-end, avance un diplomate américain",
             "text": "L'émissaire américain Tom Barrack a déclaré vendredi lors d'un entretien que les États-Unis pourraient frapper l'Iran dès ce week-end. Des propos qui interviennent après de nombreuses menaces en ce sens de Washington et d'Israël ces derniers jours.",
@@ -166,14 +174,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/moyen-orient/20261023-les-%C3%A9tats-unis-pourraient-frapper-l-iran-d%C3%A8s-ce-week-end-avance-un-diplomate-am%C3%A9ricain",
             "publishedAt": "2026-10-23T20:42:44+00:00"
-          },
-          {
-            "title": "Élections en Israël : \"J’ai tué beaucoup de terroristes, mais ça ne m’a pas fait me sentir mieux\"",
-            "text": "Après trois ans de guerre, le nombre de soldats israéliens atteints de troubles de stress post-traumatique explose. Débordés, les psychologues et psychiatres s’inquiètent pour la santé mentale du pays. Reportage avec les gueules cassées des guerres d’Israël.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261023-elections-en-israel-j-ai-tue-beaucoup-de-terroristes-mais-%C3%A7a-ne-m-a-pas-fait-me-sentir-mieux",
-            "publishedAt": "2026-10-23T13:47:37+00:00"
           }
         ],
         "sources": [

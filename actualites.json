@@ -4,6 +4,252 @@
   "items": [
     {
       "date": "2026-10-24",
+      "publishedAt": "2026-10-24T14:53:39+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Lutte antidrone : Un système d’arme laser a été testé à bord du porte-avions Charles de Gaulle",
+      "url": "https://www.opex360.com/2026/10/24/lutte-antidrone-un-systeme-darme-laser-a-ete-teste-a-bord-du-porte-avions-charles-de-gaulle/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "CEAM",
+        "Charles de Gaulle",
+        "HELMA-P",
+        "laser",
+        "lutte antidrone",
+        "Marine Nationale",
+        "porte-avions"
+      ],
+      "sourceExcerpt": {
+        "text": "En juin 2023, la Marine nationale fit savoir que la frégate de défense aérienne [FDA] «Forbin» avait testé, avec succès,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-24T16:12:19.521083+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/helmap-20201109.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Lutte antidrone : Un système d’arme laser a été testé à bord du porte-avions Charles de Gaulle ».",
+        "credit": "Système HELMA-P – Archive",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/24/lutte-antidrone-un-systeme-darme-laser-a-ete-teste-a-bord-du-porte-avions-charles-de-gaulle/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/24/lutte-antidrone-un-systeme-darme-laser-a-ete-teste-a-bord-du-porte-avions-charles-de-gaulle/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-24",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/helmap-20201109.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24T12:57:38+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Les États-Unis ont lancé leur réponse à ce missile chinois en 2017, neuf ans plus tard il n’est toujours pas en service",
+      "url": "https://www.forum-militaire.fr/les-etats-unis-ont-lance-leur-reponse-a-ce-missile-chinois-en-2017-neuf-ans-plus-tard-il-nest-toujours-pas-en-service/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de l'air",
+        "avion"
+      ],
+      "sourceExcerpt": {
+        "text": "Une passionnée d’aviation a saisi au-dessus du désert californien une configuration inédite. Derrière cette image se joue la réponse américaine…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24T11:59:17+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "First U.S. Navy Destroyer Enters Phase Two of DDG MOD 2.0 Modernization",
+      "url": "https://www.navalnews.com/naval-news/2026/10/first-u-s-navy-destroyer-enters-phase-two-of-ddg-mod-2-0-modernization/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "DDG mod 2",
+        "SPY-6",
+        "US Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "USS Pinckney becomes the first U.S. Navy destroyer to enter Phase Two of the DDG MOD 2.0 program, adding advanced…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-24T16:12:19.521083+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/9859735-768x512.jpg",
+        "kind": "article",
+        "alt": "Arleigh Burke-class guided-missile destroyer USS Pinckney (DDG 91) returns to its homeport of Naval Base San Diego, Aug. 9, 2026. (U.S. Navy / Airman Apprentice Ethan Oase)",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/first-u-s-navy-destroyer-enters-phase-two-of-ddg-mod-2-0-modernization/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/first-u-s-navy-destroyer-enters-phase-two-of-ddg-mod-2-0-modernization/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-24",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/9859735-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24T10:18:11+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le ministère allemand de la Défense plaide en faveur d’une coopération avec la Suède pour développer un nouvel avion de combat",
+      "url": "https://www.opex360.com/2026/10/24/le-ministere-allemand-de-la-defense-plaide-en-faveur-dune-cooperation-avec-la-suede-pour-developper-un-nouvel-avion-de-combat/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces aériennes",
+        "Industrie",
+        "ACF",
+        "Airbus",
+        "Allemagne",
+        "avion de combat de 6e génération",
+        "coopération",
+        "Espagne",
+        "GCAP",
+        "industrie",
+        "NGF"
+      ],
+      "sourceExcerpt": {
+        "text": "En juin, l’industrie aérospatiale allemande a fini par obtenir ce qu’elle voulait : la fin de la coopération avec Dassault…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-24T16:12:19.521083+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/saab-20251021.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le ministère allemand de la Défense plaide en faveur d’une coopération avec la Suède pour développer un nouvel avion de combat ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/24/le-ministere-allemand-de-la-defense-plaide-en-faveur-dune-cooperation-avec-la-suede-pour-developper-un-nouvel-avion-de-combat/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/24/le-ministere-allemand-de-la-defense-plaide-en-faveur-dune-cooperation-avec-la-suede-pour-developper-un-nouvel-avion-de-combat/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-24",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/saab-20251021.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24T09:36:41+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Une rallonge de systèmes SAMP/T NG enfin actée par la France",
+      "url": "https://forcesoperations.com/une-rallonge-de-systemes-samp-t-ng-enfin-actee-par-la-france/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "Eurosam",
+        "SAMP/T NG"
+      ],
+      "sourceExcerpt": {
+        "text": "Le dossier était sur la table depuis un moment. La Direction générale de l'armement (DGA) a enfin commandé quatre sections…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-24T16:12:19.521083+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/10/Une-rallonge-de-systemes-SAMPT-NG-enfin-actee-par-la-France_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Une rallonge de systèmes SAMP/T NG enfin actée par la France ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/une-rallonge-de-systemes-samp-t-ng-enfin-actee-par-la-france/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/une-rallonge-de-systemes-samp-t-ng-enfin-actee-par-la-france/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-24",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/Une-rallonge-de-systemes-SAMPT-NG-enfin-actee-par-la-France_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24T08:18:57+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Avec 636 208 tonnes contre 270 509 l’an passé : la Chine prend les États-Unis de vitesse dans la construction navale militaire",
+      "url": "https://www.forum-militaire.fr/avec-636-208-tonnes-contre-270-509-lan-passe-la-chine-prend-les-etats-unis-de-vitesse-dans-la-construction-navale-militaire/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Marines militaires",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "L’écart entre les deux marines se referme de plus de 100 000 tonnes tous les vingt-quatre mois. L’US Navy conserve…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24T07:42:50+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel",
+      "url": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Hellenic Navy",
+        "Israeli Navy",
+        "Spike"
+      ],
+      "sourceExcerpt": {
+        "text": "Greece and Israel test new SPIKE NLOS and ER2 missile systems and sink a decommissioned frigate during joint Hellenic Navy…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-24T16:12:19.521083+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Mk-V-firing-SPIKE-ER-768x432.jpg",
+        "kind": "article",
+        "alt": "Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-24",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Mk-V-firing-SPIKE-ER-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-24",
       "publishedAt": "2026-10-24T03:00:54+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -2800,7 +3046,7 @@
         "avion"
       ],
       "sourceExcerpt": {
-        "text": "Le constructeur affirme avoir modernisé 80 % des équipements de son bombardier stratégique. Mais le récit qu’il livre du chantier…",
+        "text": "Le constructeur affirme avoir modernisé 80 % des équipements de son bombardier stratégique Tupolev Tu-160. Mais le récit qu’il livre…",
         "kind": "feed-excerpt"
       }
     },
@@ -8448,7 +8694,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-23T06:18:16.635846+00:00"
+      "imageCheckedAt": "2026-10-24T16:12:19.521083+00:00"
     },
     {
       "date": "2026-10-07",
@@ -8662,10 +8908,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-23T06:18:16.635846+00:00"
+      "imageCheckedAt": "2026-10-24T16:12:19.521083+00:00"
     }
   ],
-  "checkedAt": "2026-10-24T06:13:45.714049+00:00",
+  "checkedAt": "2026-10-24T16:12:15.462514+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -8720,7 +8966,7 @@
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 6,
         "error": null
       },
       {
@@ -8742,8 +8988,8 @@
         "error": null
       }
     ],
-    "newItems": 10,
-    "articleImages": 221,
+    "newItems": 7,
+    "articleImages": 226,
     "duplicateHeadlinesSkipped": 0
   }
 }
