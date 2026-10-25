@@ -1,7 +1,109 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-10-25",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25T03:00:39+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Rassvet : la réponse russe à Starlink",
+      "url": "https://www.revueconflits.com/rassvet-la-reponse-russe-a-starlink/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Économie, énergies et entreprises",
+        "Espace",
+        "Abonné",
+        "Économie",
+        "Russie"
+      ],
+      "imageCheckedAt": "2026-10-25T07:26:22.886636+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_sipausa30572649_000003-scaled.jpg",
+        "kind": "article",
+        "alt": "Rassvet : la réponse russe à Starlink",
+        "credit": "Lancement du dernier Soyouz 2.1b A Soyuz-2.1b au cosmodrome de Plesetsk. (C) Ministère russe de la Défense/TASS/Sipa USA/73322590/YD/2609181007",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/rassvet-la-reponse-russe-a-starlink/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/rassvet-la-reponse-russe-a-starlink/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-25",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_sipausa30572649_000003-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25T03:00:33+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Sanction contre la Banque Misr",
+      "url": "https://www.revueconflits.com/la-sanction-contre-la-banque-misr-ou-les-limites-de-la-strategie-dequilibre-de-la-diplomatie-egyptienne/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Moyen-Orient",
+        "Abonné",
+        "Égypte"
+      ],
+      "imageCheckedAt": "2026-10-25T07:26:22.886636+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_ap23057900_000005.jpg",
+        "kind": "article",
+        "alt": "Sanction contre la Banque Misr",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/la-sanction-contre-la-banque-misr-ou-les-limites-de-la-strategie-dequilibre-de-la-diplomatie-egyptienne/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/la-sanction-contre-la-banque-misr-ou-les-limites-de-la-strategie-dequilibre-de-la-diplomatie-egyptienne/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-25",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_ap23057900_000005.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25T03:00:25+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Narcotrafic : pourquoi les réseaux résistent-ils aux offensives des États ?",
+      "url": "https://www.revueconflits.com/narcotrafic-pourquoi-les-reseaux-resistent-ils-aux-offensives-des-etats/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Criminalité et terrorisme",
+        "Abonné",
+        "Criminalité",
+        "Trafic de drogue"
+      ],
+      "imageCheckedAt": "2026-10-25T07:26:22.886636+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2020/03/mexique-colombie-trafic-de-drogue-abonne.jpg",
+        "kind": "article",
+        "alt": "Narcotrafic : pourquoi les réseaux résistent-ils aux offensives des États ?",
+        "credit": "Arrestation d'El Chapo le 8 janvier 2016. (C) EFE/SIPA (00737060_000003).",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/narcotrafic-pourquoi-les-reseaux-resistent-ils-aux-offensives-des-etats/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/narcotrafic-pourquoi-les-reseaux-resistent-ils-aux-offensives-des-etats/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-25",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2020/03/mexique-colombie-trafic-de-drogue-abonne.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-24",
       "publishedAt": "2026-10-24T14:53:39+00:00",
@@ -185,6 +287,48 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-24",
         "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/Une-rallonge-de-systemes-SAMPT-NG-enfin-actee-par-la-France_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24T09:22:27+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le futur missile balistique terrestre devrait finalement être mis en œuvre par l’armée de Terre",
+      "url": "https://www.opex360.com/2026/10/24/le-futur-missile-balistique-terrestre-devrait-finalement-etre-mis-en-oeuvre-par-larmee-de-terre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "ArianeGroup",
+        "armée de terre",
+        "artillerie",
+        "Dissuasion",
+        "général de Montgros",
+        "MBT",
+        "missile balistique terrestre"
+      ],
+      "sourceExcerpt": {
+        "text": "La Loi de programmation militaire [LPM] 2024-30 actualisée a confirmé le lancement, dès 2026, d’études pour le développement de capacités…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-25T07:26:22.886636+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/bstrike-20261024.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le futur missile balistique terrestre devrait finalement être mis en œuvre par l’armée de Terre ».",
+        "credit": "ArianeGroup",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/24/le-futur-missile-balistique-terrestre-devrait-finalement-etre-mis-en-oeuvre-par-larmee-de-terre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/24/le-futur-missile-balistique-terrestre-devrait-finalement-etre-mis-en-oeuvre-par-larmee-de-terre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-25",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/bstrike-20261024.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -967,7 +1111,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-24T06:13:51.628571+00:00"
+      "imageCheckedAt": "2026-10-25T07:26:22.886636+00:00"
     },
     {
       "date": "2026-10-22",
@@ -1591,7 +1735,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-24T06:13:51.628571+00:00"
+      "imageCheckedAt": "2026-10-25T07:26:22.886636+00:00"
     },
     {
       "date": "2026-10-21",
@@ -8911,7 +9055,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-10-24T16:12:19.521083+00:00"
     }
   ],
-  "checkedAt": "2026-10-24T16:12:15.462514+00:00",
+  "checkedAt": "2026-10-25T07:26:17.337362+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -8948,7 +9092,7 @@ window.LDV_NEWS = {
       {
         "source": "Forum Militaire",
         "ok": true,
-        "recentItems": 14,
+        "recentItems": 13,
         "error": null
       },
       {
@@ -8988,8 +9132,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 7,
-    "articleImages": 226,
+    "newItems": 4,
+    "articleImages": 230,
     "duplicateHeadlinesSkipped": 0
   }
 };
