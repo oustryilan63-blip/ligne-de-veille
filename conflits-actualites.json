@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-25T07:26:17.337362+00:00",
+  "checkedAt": "2026-10-25T17:13:38.294982+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -45,7 +45,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-25T07:26:26.293548+00:00",
+        "checkedAt": "2026-10-25T17:13:43.883924+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -92,10 +92,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-25T07:26:26.293548+00:00",
-        "updatedAt": "2026-10-23T16:22:58.214942+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-10-25T17:13:43.883924+00:00",
+        "updatedAt": "2026-10-25T17:13:43.883924+00:00",
+        "status": "updated",
         "paragraphs": [
+          {
+            "title": "Défense: l'armement et le désarmement en Turquie, Taïwan et Afrique du Sud",
+            "text": "Comme chaque année, les Nations Unies célèbrent la semaine du désarmement, un évènement pour encourager la désescalade militaire. Dans le monde entier, la tendance inverse s'impose actuellement, la plupart des États renforçant leur défense, comme à Taïwan et en Afrique du Sud.",
+            "truncated": false,
+            "source": "RFI",
+            "url": "https://www.rfi.fr/fr/podcasts/tour-du-monde-des-correspondants/20261025-d%C3%A9fense-l-armement-et-le-d%C3%A9sarmement-en-turquie-ta%C3%AFwan-et-afrique-du-sud",
+            "publishedAt": "2026-10-25T10:53:26+00:00"
+          },
           {
             "title": "La Chine sanctionne des ministres latino-américains pour avoir maintenu des relations diplomatiques avec Taïwan",
             "text": "La Chine a annoncé, lundi 12 octobre, des sanctions contre un ministre du Paraguay et un autre du Belize pour avoir soutenu le maintien de relations diplomatiques avec Taïwan. Un « avertissement », selon Pékin, envers quiconque agirait de même. Une manière de rappeler aux derniers alliés de l’île – que la Chine considère comme l'une de ses provinces – que leur soutien a un prix.",
@@ -155,25 +163,25 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-25T07:26:26.293548+00:00",
-        "updatedAt": "2026-10-25T07:26:26.293548+00:00",
+        "checkedAt": "2026-10-25T17:13:43.883924+00:00",
+        "updatedAt": "2026-10-25T17:13:43.883924+00:00",
         "status": "updated",
         "paragraphs": [
           {
-            "title": "Yémen : les Houthis revendiquent des attaques en Arabie saoudite et à Aden",
-            "text": "Les ⁠combattants houthis ont ​affirmé avoir lancé samedi des ​attaques contre des installations pétrolières et des aéroports saoudiens. La ‌coalition dirigée par l'Arabie ⁠saoudite, qui combat le groupe ‌yéménite allié de l'Iran, a dit ⁠avoir intercepté des missiles.",
+            "title": "Israël bouclera la Cisjordanie occupée et fermera tous les points de passage lors des législatives",
+            "text": "L'armée israélienne a annoncé un bouclage de la Cisjordanie occupée mardi, jour des élections législatives en Israël. Cette mesure intervient alors que l'État hébreu mène une vaste opération dans ce territoire palestinien occupé et que 2 000 habitants d'Hébron ont été chassés de leurs foyers.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261024-cisjordanie-l-arm%C3%A9e-isra%C3%A9lienne-d%C3%A9place-des-palestiniens-%C3%A0-h%C3%A9bron-apr%C3%A8s-une-attaque-meurtri%C3%A8re",
-            "publishedAt": "2026-10-24T18:17:32+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261025-israel-bouclage-cisjordanie-occupee-fermeture-points-de-passage-elections-legislatives-netanyahu-hebron-palestiniens",
+            "publishedAt": "2026-10-25T07:27:28+00:00"
           },
           {
-            "title": "Cisjordanie occupée : 2 000 Palestiniens déplacés par l'armée israélienne à Hébron après une attaque",
-            "text": "À quelques jours d'élections législatives s'annonçant serrées en Israël, Benjamin Netanyahu a ordonné une opération militaire majeure en Cisjordanie. Environ 2 000 personnes ont été chassées de leurs maisons, dans la nuit de vendredi à samedi, à Hébron, plus grande ville du territoire palestinien occupé depuis 1967.",
+            "title": "À Tel-Aviv, des milliers de personnes manifestent contre Netanyahu à l'approche des élections",
+            "text": "À trois jours d'élections législatives qui s'annoncent serrées, des milliers de personnes ont manifesté à Tel-Aviv, samedi, contre le gouvernement du Premier ministre israélien, Benjamin Netanyahu, pour réclamer une commission d'enquête sur les failles sécuritaires ayant permis l'attaque du 7-Octobre.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261024-cisjordanie-occup%C3%A9e-l-arm%C3%A9e-isra%C3%A9lienne-d%C3%A9place-des-palestiniens-%C3%A0-h%C3%A9bron-apr%C3%A8s-une-attaque",
-            "publishedAt": "2026-10-24T13:01:02+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261024-des-milliers-de-personnes-contre-netanyahu-%C3%A0-tel-aviv-avant-les-%C3%A9lections",
+            "publishedAt": "2026-10-24T19:42:11+00:00"
           }
         ],
         "sources": [

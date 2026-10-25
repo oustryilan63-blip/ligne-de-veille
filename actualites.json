@@ -4,6 +4,255 @@
   "items": [
     {
       "date": "2026-10-25",
+      "publishedAt": "2026-10-25T14:14:02+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "UNE BARRE SYMBOLIQUE",
+      "url": "https://blablachars.blogspot.com/2026/10/une-barre-symbolique.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "10 millions",
+        "Blablachars"
+      ],
+      "sourceExcerpt": {
+        "text": "Quelques mois avant son septième anniversaire, le blog complètement blindé est heureux et fier de partager avec les blindonautes une…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-25T17:13:41.854841+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhE193x8j5hCoOIlPmMm3ZY3p9O0AVx0n50jQNdm3zof26gNyI2H195ciS4L4b4-jTOxBTFlP0rax7VCSHRhew4kSW1qguPWhAHNEZ4sHsnnWiF3B0fOKdc1uSt4b5waVy0nryp6cq1yuC7c4e4MMJsFuKON4OLJYiJ7tnOUP88ktL4MEgTCwsoEwc2i1c/w1200-h630-p-k-no-nu/Dix%20millions.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « UNE BARRE SYMBOLIQUE ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/une-barre-symbolique.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/une-barre-symbolique.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-25",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhE193x8j5hCoOIlPmMm3ZY3p9O0AVx0n50jQNdm3zof26gNyI2H195ciS4L4b4-jTOxBTFlP0rax7VCSHRhew4kSW1qguPWhAHNEZ4sHsnnWiF3B0fOKdc1uSt4b5waVy0nryp6cq1yuC7c4e4MMJsFuKON4OLJYiJ7tnOUP88ktL4MEgTCwsoEwc2i1c/w1200-h630-p-k-no-nu/Dix%20millions.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25T14:08:38+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Le Royaume-Uni renonce au canon de ses chars après des décennies, parce que plus personne ne fabrique en volume les obus qu’il tire",
+      "url": "https://www.forum-militaire.fr/le-royaume-uni-renonce-au-canon-de-ses-chars-apres-des-decennies-parce-que-plus-personne-ne-fabrique-en-volume-les-obus-quil-tire/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "char"
+      ],
+      "sourceExcerpt": {
+        "text": "Sept prototypes du futur char britannique roulent déjà, un huitième sort d’assemblage. Mais la vraie rupture n’est ni le blindage…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25T11:58:08+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le standard 2 du futur avion de renseignement électronique Falcon ARCHANGE est déjà en cours de développement",
+      "url": "https://www.opex360.com/2026/10/25/le-standard-2-du-futur-avion-de-renseignement-electronique-falcon-archange-est-deja-en-cours-de-developpement/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Guerre électronique",
+        "1/54 Dunkerque",
+        "aAE",
+        "ARCHANGE",
+        "armée de l'Air & de l'Espace",
+        "Dassault Aviation",
+        "Falcon ARCHANGE",
+        "guerre électronique",
+        "ROEM",
+        "standard 2",
+        "Thales"
+      ],
+      "sourceExcerpt": {
+        "text": "Pour compenser le retrait prématuré de deux avions de renseignement électronique Transall C-160G «Gabriel» et maintenir les compétences de l’Escadron…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-25T17:13:41.854841+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/archange-20261025.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le standard 2 du futur avion de renseignement électronique Falcon ARCHANGE est déjà en cours de développement ».",
+        "credit": "Décollage de l’Archange lors de son départ d’Évreux – armée de l’Air & de l’Espace",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/25/le-standard-2-du-futur-avion-de-renseignement-electronique-falcon-archange-est-deja-en-cours-de-developpement/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/25/le-standard-2-du-futur-avion-de-renseignement-electronique-falcon-archange-est-deja-en-cours-de-developpement/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-25",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/archange-20261025.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25T11:04:32+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’armée de Terre pourrait créer au moins dix régiments ou bataillons supplémentaires après 2030",
+      "url": "https://www.opex360.com/2026/10/25/larmee-de-terre-pourrait-creer-au-moins-dix-regiments-ou-bataillons-supplementaires-apres-2030/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "armée de terre",
+        "CEMAT",
+        "coalition",
+        "Corps d'armée",
+        "division",
+        "éléments organiques",
+        "format",
+        "général de Montgros",
+        "livre blanc",
+        "logistique",
+        "LPM"
+      ],
+      "sourceExcerpt": {
+        "text": "L’ambition de l’armée de Terre est de disposer d’un corps d’armée pleinement opérationnel d’ici 2030 et donc d’être en mesure…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-25T17:13:41.854841+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/lru-20221122.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’armée de Terre pourrait créer au moins dix régiments ou bataillons supplémentaires après 2030 ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/25/larmee-de-terre-pourrait-creer-au-moins-dix-regiments-ou-bataillons-supplementaires-apres-2030/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/25/larmee-de-terre-pourrait-creer-au-moins-dix-regiments-ou-bataillons-supplementaires-apres-2030/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-25",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/lru-20221122.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25T09:28:34+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Coast Guard Icebreakers and the Finland Model: A Blueprint for the U.S. Navy?",
+      "url": "https://www.navalnews.com/features/2026/10/coast-guard-icebreakers-finland-model/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Features",
+        "Finland",
+        "Icebreaker",
+        "Shipbuilding"
+      ],
+      "sourceExcerpt": {
+        "text": "Naval News visits Helsinki Shipyard to examine how the \"Finland model\" is driving icebreaker production, and questions if this strategy…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-25T17:13:41.854841+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Polar_Max_Rendering_-_Image_credit_Davie_Shipbuilding-768x530.jpg",
+        "kind": "article",
+        "alt": "Coast Guard Icebreakers and the Finland Model",
+        "credit": "Davie Shipyard)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/features/2026/10/coast-guard-icebreakers-finland-model/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/features/2026/10/coast-guard-icebreakers-finland-model/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-25",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Polar_Max_Rendering_-_Image_credit_Davie_Shipbuilding-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25T08:44:32+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La France défie une chasse gardée américaine vieille de 30 ans avec son dôme de défense aérienne SkyDefender qui va s’étendre jusqu’à la mer",
+      "url": "https://www.forum-militaire.fr/la-france-defie-une-chasse-gardee-americaine-vieille-de-30-ans-son-dome-de-defense-aerienne-skydefender-va-setendre-jusqua-la-mer/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Marines militaires",
+        "France",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Thales a présenté le concept qui changera toute la défense aérienne navale Avec son hashtag #IAMD (Integrated Air and Missile…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "publishedAt": "2026-10-25T07:31:25+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "SH Defence strengthens cooperation with Naval Group",
+      "url": "https://www.navalnews.com/naval-news/2026/10/sh-defence-strengthens-cooperation-with-naval-group/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Naval Group",
+        "SH Defence"
+      ],
+      "sourceExcerpt": {
+        "text": "SH Defence, a part of SH Group, has signed a Memorandum of Understanding with Naval Group, strengthening the cooperation between…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-25T17:13:41.854841+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/SH-Defence-strengthens-cooperation-with-Naval-Group-768x512.jpg",
+        "kind": "article",
+        "alt": "SH Defence strengthens cooperation with Naval Group",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/sh-defence-strengthens-cooperation-with-naval-group/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/sh-defence-strengthens-cooperation-with-naval-group/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-25",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/SH-Defence-strengthens-cooperation-with-Naval-Group.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-25",
       "publishedAt": "2026-10-25T03:00:39+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -8838,7 +9087,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-24T16:12:19.521083+00:00"
+      "imageCheckedAt": "2026-10-25T17:13:41.854841+00:00"
     },
     {
       "date": "2026-10-07",
@@ -9052,10 +9301,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-24T16:12:19.521083+00:00"
+      "imageCheckedAt": "2026-10-25T17:13:41.854841+00:00"
     }
   ],
-  "checkedAt": "2026-10-25T07:26:17.337362+00:00",
+  "checkedAt": "2026-10-25T17:13:38.294982+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -9092,7 +9341,7 @@
       {
         "source": "Forum Militaire",
         "ok": true,
-        "recentItems": 13,
+        "recentItems": 14,
         "error": null
       },
       {
@@ -9104,13 +9353,13 @@
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 2,
+        "recentItems": 3,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -9132,8 +9381,8 @@
         "error": null
       }
     ],
-    "newItems": 4,
-    "articleImages": 230,
+    "newItems": 7,
+    "articleImages": 235,
     "duplicateHeadlinesSkipped": 0
   }
 }
