@@ -21,7 +21,6 @@ let attemptsLeft = 5;
 let resolved = false;
 let tried = new Set();
 let deck = [];
-let selectedMode = 'quick';
 let selectedCategory = 'all';
 let quizSettings;
 const maxAttempts=()=>quizSettings?.config.level==='expert'?3:5;
@@ -176,7 +175,7 @@ function shuffled(items) {
 
 function startGame() {
   const pool = quizSettings.pool(QUESTIONS,selectedCategory);
-  deck = shuffled(pool).slice(0, selectedMode === 'quick' ? 5 : pool.length);
+  deck = quizSettings.take(shuffled(pool));
   round = 0;
   found = 0;
   points = 0;
@@ -325,15 +324,6 @@ function buildMap() {
 
 if (Array.isArray(mapData) && mapData.length) {
   buildMap();
-  for (const button of document.querySelectorAll('[data-mode]')) {
-    button.addEventListener('click', () => {
-      selectedMode = button.dataset.mode;
-      for (const option of document.querySelectorAll('[data-mode]')) {
-        option.setAttribute('aria-pressed', String(option === button));
-      }
-      startGame();
-    });
-  }
   for (const button of document.querySelectorAll('[data-category]')) {
     button.addEventListener('click', () => {
       selectedCategory = button.dataset.category;

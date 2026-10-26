@@ -38,7 +38,7 @@
       box.replaceChildren(status,link);
       for(const end of document.querySelectorAll('#game-end, #recognition-end, #arcade-end, #radar-end, #qg-end')){
         let action=end.querySelector('.progress-finish');if(!action){action=el('p','progress-finish');end.append(action)}
-        const reviewLink=el('a','progress-link',n?`Réviser mes erreurs (${n}) →`:'Voir mes scores et mes badges →');reviewLink.href=link.href;action.replaceChildren(reviewLink);
+        const reviewLink=el('a','progress-link',n?`Réviser mes erreurs (${n}) →`:'Voir mes scores →');reviewLink.href=link.href;action.replaceChildren(reviewLink);
       }
     });
     const host=document.getElementById('progression');if(!host)return;
@@ -53,12 +53,10 @@
     }
     const gameCount=Object.keys(games).length;
     const summary=el('div','progress-summary');for(const [n,label] of [[s.played,'parties terminées'],[s.explored+'/'+gameCount,'jeux explorés'],[data.missed.length,'questions à réviser']]){const box=el('div');box.append(el('strong','',String(n)),el('span','',label));summary.append(box)}host.append(summary);
-    const badges=el('ul','progress-badges');let earned=0;
-    for(const [title,desc,won] of [['Premiers pas','Terminer une partie',s.played>0],['Explorateur',`Terminer une partie dans chacun des ${gameCount} jeux`,s.explored===gameCount],['Sans faute','Atteindre le score maximal dans une partie',s.perfect],['Curieux','Trouver 25 bonnes réponses',data.correct>=25],['Persévérant','Corriger 5 erreurs en révision',data.reviewed>=5]]){if(won)earned++;const li=el('li',won?'earned':'');li.append(el('strong','',(won?'✓ ':'○ ')+title),el('span','',desc));badges.append(li)}const achievements=el('details','progress-achievements');achievements.append(el('summary','','Mes badges · '+earned+' / 5 obtenus'),badges);host.append(achievements);
     const records=el('div','progress-records');
     for(const [id,[name,url]] of Object.entries(games)){const r=data.games[id];if(!r?.played)continue;const card=el('article');card.append(el('h3','',name),el('strong','',r?.best?`${r.best.score}/${r.best.max} · ${r.best.percent} %`:'Score indisponible'),el('p','',r?.best?`${r.played} partie${r.played>1?'s':''} · ${r.best.mode}`:'Ce résultat ne contient pas de score exploitable.'));const a=el('a','','Rejouer →');a.href=url;card.append(a);records.append(card)}if(records.children.length)host.append(records,el('p','progress-note','Les records utilisent le pourcentage de points obtenus. Le mode est précisé ; les parties de révision ne modifient pas les records.'));
     const actions=el('div','progress-actions'),link=el('a','button button-dark','Choisir mon prochain jeu ↑');link.href='#select-title';actions.append(link);
-    const reset=el('details','progress-reset'),summaryReset=el('summary','','Effacer ma progression');reset.append(summaryReset,el('p','','Cela efface les scores, badges et erreurs de ce navigateur. La réponse au défi du jour est conservée.'));const b=el('button','button button-light','Confirmer la remise à zéro');b.type='button';b.addEventListener('click',()=>{data=blank();save();document.getElementById('progression')?.scrollIntoView({block:'start'})});reset.append(b);settings.append(reset);host.append(actions);
+    const reset=el('details','progress-reset'),summaryReset=el('summary','','Effacer ma progression');reset.append(summaryReset,el('p','','Cela efface les scores et erreurs de ce navigateur. La réponse au défi du jour est conservée.'));const b=el('button','button button-light','Confirmer la remise à zéro');b.type='button';b.addEventListener('click',()=>{data=blank();save();document.getElementById('progression')?.scrollIntoView({block:'start'})});reset.append(b);settings.append(reset);host.append(actions);
   }
   function mount(game){const host=document.querySelector('[data-progress-strip="'+game+'"]');if(host)render();}
   window.LDV_PROGRESS={answer,complete,review,mount,render,missed:game=>copy(data.missed.filter(x=>!game||x.game===game)),snapshot:()=>copy(data),games};

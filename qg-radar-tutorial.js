@@ -39,9 +39,10 @@
   canvas.setAttribute('aria-label',E.units.find(u=>u.id===step.art)?.name||E.buildings.find(b=>b.id===step.art)?.name||'Base Radar');
  }
  if(window.QG_ART.onReady)window.QG_ART.onReady(paintArt);else window.QG_ART.ready?.then(paintArt);
- function open(){opener=document.activeElement;index=0;tried=new Set();dialog.showModal();render();}
+ function open(){opener=document.activeElement;const help=opener?.closest?.('.qg-aid');if(help){opener=help.querySelector('summary');help.open=false;}index=0;tried=new Set();dialog.showModal();render();}
  $('qg-tutorial-open').addEventListener('click',open);$('qg-tutorial-close').addEventListener('click',close);
  dialog.addEventListener('cancel',()=>{seen();});
+ dialog.addEventListener('close',()=>opener?.focus());
  $('qg-tutorial-try').addEventListener('click',()=>{tried.add(index);render();$('qg-tutorial-next').focus();});
  $('qg-tutorial-back').addEventListener('click',()=>{if(index>0){index--;render();}});
  $('qg-tutorial-next').addEventListener('click',()=>{if(steps[index].action&&!tried.has(index))return;if(index===steps.length-1)close();else{index++;render();}});

@@ -1,7 +1,7 @@
 const scrollBehavior=()=>typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth';
 const ENGINES = window.LDV_ENGINS;
 const el = id => document.getElementById(id);
-const state = { answerMode: 'choices', roundMode: 'quick', category: 'all', deck: [], index: 0, found: 0, points: 0, attemptsLeft: 1, hintUsed: false, resolved: false };
+const state = { answerMode: 'choices', category: 'all', deck: [], index: 0, found: 0, points: 0, attemptsLeft: 1, hintUsed: false, resolved: false };
 let quizSettings;
 const maxAttempts=()=>state.answerMode==='choices'?1:quizSettings?.config.level==='beginner'?4:quizSettings?.config.level==='expert'?1:3;
 
@@ -183,7 +183,7 @@ function startGame() {
   const choicesPossible=pool.length>=4&&pool.every(e=>window.RADAR_CATALOGUE.options(e,pool,quizSettings.config.level,shuffled).length===4);
   if(!choicesPossible&&state.answerMode==='choices')state.answerMode='text';
   document.querySelectorAll('[data-answer-mode]').forEach(b=>{b.disabled=b.dataset.answerMode==='choices'&&!choicesPossible;b.setAttribute('aria-pressed',String(b.dataset.answerMode===state.answerMode))});
-  state.deck = state.roundMode === 'quick' ? pool.slice(0, 5) : pool;
+  state.deck = quizSettings.take(pool);
   state.index = 0;
   state.found = 0;
   state.points = 0;
@@ -207,7 +207,7 @@ function finishGame() {
   el('recognition-end').scrollIntoView({ behavior:scrollBehavior(), block: 'center' });
 }
 
-for (const [selector, key] of [['[data-answer-mode]', 'answerMode'], ['[data-round-mode]', 'roundMode'], ['[data-category]', 'category']]) {
+for (const [selector, key] of [['[data-answer-mode]', 'answerMode'], ['[data-category]', 'category']]) {
   document.querySelectorAll(selector).forEach(button => button.addEventListener('click', () => {
     const value = button.dataset[key];
     if (state[key] === value) return;
@@ -241,7 +241,5 @@ el('recognition-next').addEventListener('click', () => {
 el('recognition-restart').addEventListener('click', () => {startGame();if(state.deck.length)el('recognition-card').scrollIntoView({behavior:scrollBehavior(),block:'start'});});
 
 quizSettings=window.RADAR_QUIZ.mount(el('quiz-settings'),startGame);
-if(new URLSearchParams(location.search).get('collection')==='1')state.roundMode='full';
 if(new URLSearchParams(location.search).get('reponse')==='text')state.answerMode='text';
-document.querySelectorAll('[data-round-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.roundMode===state.roundMode)));
 startGame();

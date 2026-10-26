@@ -144,9 +144,9 @@
       text('zoom-level', `CADRAGE ${stage + 1} / ${scales.length} · ${5 - stage} POINTS POSSIBLES`);
       $('zoom-reveal').disabled = stage === scales.length - 1;
     });
-    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) { window.LDV_PROGRESS?.complete('zoom',score,25,zoomSettings.label()+' · 5 photos'); finish(`${score} point${score > 1 ? 's' : ''} sur 25. Les bons réflexes d’observation font la différence.`); } else round(); });
+    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) { window.LDV_PROGRESS?.complete('zoom',score,deck.length*5,zoomSettings.label()+' · '+deck.length+' photos'); finish(`${score} point${score > 1 ? 's' : ''} sur ${deck.length*5}. Les bons réflexes d’observation font la différence.`); } else round(); });
     $('arcade-restart').addEventListener('click', start);
-    function start() { scales=zoomSettings.config.level==='beginner'?[2.4,1.9,1.5,1.2,1]:zoomSettings.config.level==='expert'?[4.8,3.8,2.8,1.9,1]:[3.6,2.8,2.1,1.5,1];deck = shuffle(zoomSettings.pool(catalog)).slice(0, 5); index = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); }
+    function start() { scales=zoomSettings.config.level==='beginner'?[2.4,1.9,1.5,1.2,1]:zoomSettings.config.level==='expert'?[4.8,3.8,2.8,1.9,1]:[3.6,2.8,2.1,1.5,1];deck = zoomSettings.take(shuffle(zoomSettings.pool(catalog))); index = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); }
     zoomSettings=window.RADAR_QUIZ.mount($('quiz-settings'),start,{collectionAllowed:false});
     start();
   }
@@ -249,9 +249,9 @@
       const ref = catalog.find(item => item.name === fact.ref);
       result(ok, fact.answer ? 'C’est vrai.' : 'C’est faux.', fact.reason, ref, index + 1 === deck.length ? 'Voir mon score →' : 'Affirmation suivante →');
     });
-    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) { window.LDV_PROGRESS?.complete('vrai-faux',score,deck.length,factSettings.label()+' · 10 affirmations'); finish(`${score} bonne${score > 1 ? 's' : ''} réponse${score > 1 ? 's' : ''} sur ${deck.length}. Chaque correction renvoie à une source.`); } else round(); });
+    $('arcade-next').addEventListener('click', () => { if (!resolved) return; resolved = false; if (++index === deck.length) { window.LDV_PROGRESS?.complete('vrai-faux',score,deck.length,factSettings.label()+' · '+deck.length+' affirmations'); finish(`${score} bonne${score > 1 ? 's' : ''} réponse${score > 1 ? 's' : ''} sur ${deck.length}. Chaque correction renvoie à une source.`); } else round(); });
     $('arcade-restart').addEventListener('click', start);
-    function start() { deck = shuffle(window.RADAR_CATALOGUE.levelPool(window.LDV_FACTS,factSettings.config.level)).slice(0, 10); index = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); }
+    function start() { deck = factSettings.take(shuffle(window.RADAR_CATALOGUE.levelPool(window.LDV_FACTS,factSettings.config.level))); index = 0; score = 0; show('arcade-end', false); show('arcade-play', true); round(); }
     factSettings=window.RADAR_QUIZ.mount($('quiz-settings'),start,{collectionAllowed:false});start();
   }
 

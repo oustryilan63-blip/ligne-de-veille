@@ -33,7 +33,6 @@
       selectionSummary();
       const matching=indexed.filter(r=>/^https:\/\//.test(r.item.url)&&(!sourceSelect.value||r.item.source===sourceSelect.value)&&(!themeSelect.value||r.themes.includes(themeSelect.value))&&query.every(word=>r.text.includes(word)));
       const rows=photosOnly.checked?matching.filter(r=>r.image):matching;
-      document.getElementById('news-photo-count').textContent=matching.filter(r=>r.image).length+' / '+matching.length+' articles avec une photo d’origine';
       const items=rows.map(r=>r.item);current=items;archiveDirty=true;
       grid.replaceChildren();
       for(const button of quickThemes)button.setAttribute('aria-pressed',String(button.dataset.newsTheme===themeSelect.value));
