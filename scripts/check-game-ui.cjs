@@ -2,17 +2,11 @@ const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),asse
 const {createDOM}=require('./feature-test-dom.cjs'),root=path.resolve(__dirname,'..'),read=f=>fs.readFileSync(path.join(root,f),'utf8');
 const doc=createDOM(''),events={};doc.addEventListener=(type,fn)=>(events[type]||=[]).push(fn);
 const make=(tag,id)=>{const n=doc.createElement(tag);if(id)n.id=id;doc.body.append(n);return n;};
-const filters=make('div','games-filters'),count=make('p','games-count');
-const groups=['decouverte','decouverte','decouverte','histoire','histoire','quotidien','strategie','strategie'];
-const cards=groups.map(group=>{const n=make('a');n.dataset.gameFamily=group;return n;});
-for(const group of ['all','decouverte','histoire','strategie','quotidien']){const b=doc.createElement('button');b.dataset.gamesFilter=group;filters.append(b);}
 const choices=make('div','recognition-choices');let answered=0;
 for(let i=0;i<4;i++){const button=doc.createElement('button');button.addEventListener('click',()=>answered=i+1);choices.append(button);}
 const input=make('input'),modal=make('dialog'),next=make('button','recognition-next'),prompt=make('h2','recognition-prompt');
 const frames=[],context={document:doc,requestAnimationFrame:fn=>frames.push(fn)};vm.runInNewContext(read('assets/game-ui.js'),context);
 const key=(value,target=doc.body,extra={})=>events.keydown.forEach(fn=>fn({key:value,target,preventDefault(){},...extra}));
-filters.fire('click',{target:filters.children[1]});assert.equal(cards.filter(n=>!n.hidden).length,3);assert.equal(count.textContent,'3 jeux affichés sur 8');
-filters.fire('click',{target:filters.children[3]});assert.equal(cards.filter(n=>!n.hidden).length,2);filters.fire('click',{target:filters.children[0]});assert.ok(cards.every(n=>!n.hidden));
 key('3');assert.equal(answered,3);answered=0;key('2',input);key('2',doc.body,{repeat:true});key('2',doc.body,{ctrlKey:true});assert.equal(answered,0);
 choices.hidden=true;key('1');assert.equal(answered,0);choices.hidden=false;choices.children[0].disabled=true;key('1');assert.equal(answered,0);
 modal.open=true;key('4');assert.equal(answered,0);modal.open=false;key('4');assert.equal(answered,4);
@@ -26,7 +20,7 @@ for(let i=0;i<121;i++){const pending=callbacks;callbacks=[];pending.forEach(fn=>
 const rs=read('alerte-radar.js'),rBlock=rs.slice(rs.indexOf('function tick(now)'),rs.indexOf('function startWave(index)'));callbacks=[];draws=0;
 const radar={E:{tick(s,delta){s.elapsed+=delta}},contacts(){},records(){},state:{phase:'active',last:1000,elapsed:0,lastPaint:0},hud:()=>draws++,position(){},duration:()=>30000,endWave(){throw Error('Manche terminée trop tôt')},requestAnimationFrame:fn=>{callbacks.push(fn);return callbacks.length}};vm.createContext(radar);vm.runInContext(rBlock,radar);vm.runInContext('tick(1000)',radar);
 for(let i=1;i<=120;i++){const pending=callbacks;callbacks=[];pending.forEach(fn=>fn(1000+i*1000/120));}assert.ok(draws>=25&&draws<=35,'Radar : rafraîchissement borné');assert.ok(Math.abs(radar.state.elapsed-1000)<1,'Radar : durée réelle conservée');
-console.log('Jeux : filtres 8/3/2, raccourcis clavier sans saisie ni double réponse, focus suivant, 8 menus cohérents, cadence graphique bornée et durées conservées : OK.');
+console.log('Jeux : raccourcis clavier sans saisie ni double réponse, focus suivant, 8 menus cohérents, cadence graphique bornée et durées conservées : OK.');
 
 for(const file of ['assets/game-ui.js','jeux.js','devine-engin.js','arcade.js']){const source=read(file),helper=source.match(/const scrollBehavior=([^;]+);/)[0];for(const reduced of [true,false]){const c={matchMedia:()=>({matches:reduced})};vm.createContext(c);vm.runInContext(helper+'result=scrollBehavior()',c);assert.equal(c.result,reduced?'auto':'smooth',file);}}
 
@@ -38,13 +32,13 @@ function progressScene(saved){
  vm.runInNewContext(read('progression.js'),context);return {document,host,store,api:context.window.LDV_PROGRESS};
 }
 (async()=>{
- const fresh=progressScene();assert.ok(fresh.host.querySelector('.progress-empty'));assert.equal(fresh.host.querySelectorAll('.progress-records').length,0);assert.equal(fresh.host.querySelectorAll('.progress-summary').length,0);assert.equal(fresh.host.querySelector('a').href,'#select-title');assert.equal(fresh.store.has('ldv-progression-v1'),false,'Consultation seule : aucune écriture');
+ const fresh=progressScene();assert.ok(fresh.host.querySelector('.progress-empty'));assert.equal(fresh.host.querySelectorAll('.progress-records').length,0);assert.equal(fresh.host.querySelectorAll('.progress-summary').length,0);assert.equal(fresh.host.querySelector('a').href,'revision.html');assert.equal(fresh.host.querySelector('.progress-tools').children.length,2);assert.ok(fresh.host.querySelector('.progress-settings').querySelector('a').href==='sauvegarde.html');assert.ok(!fresh.host.querySelector('.progress-settings').open);assert.equal(fresh.store.has('ldv-progression-v1'),false,'Consultation seule : aucune écriture');
  fresh.api.answer('recognition','Rafale',false,'Rafale');assert.equal(fresh.host.querySelectorAll('.progress-records').length,0,'Une réponse isolée ne crée pas un faux record');fresh.api.complete('recognition',4,5,'Facile');
  assert.equal(fresh.host.querySelectorAll('.progress-empty').length,0);assert.equal(fresh.host.querySelector('.progress-records').children.length,1);assert.ok(fresh.host.querySelector('.progress-records').textContent.includes('4/5'));assert.ok(!fresh.host.querySelector('.progress-achievements').open);assert.equal(fresh.api.missed().length,1);
  const snapshot=JSON.stringify(fresh.api.snapshot()),restored=progressScene(snapshot);assert.equal(JSON.stringify(restored.api.snapshot()),snapshot);assert.equal(restored.host.querySelector('.progress-records').children.length,1);assert.equal(restored.store.get('foreign'),'preserved');
  restored.api.complete('pays',5,5,'Normal');assert.equal(restored.host.querySelector('.progress-records').children.length,2);assert.equal(restored.api.snapshot().games.recognition.best.score,4);
  await restored.host.querySelector('.progress-reset').querySelector('button').click();assert.equal(restored.api.snapshot().missed.length,0);assert.ok(restored.host.querySelector('.progress-empty'));assert.equal(restored.store.get('foreign'),'preserved');
- const hub=read('tous-les-jeux.html');assert.equal((hub.match(/class="game-tile"/g)||[]).length,8);assert.equal((hub.match(/href="devine-engin.html\?niveau=beginner"/g)||[]).length,1);assert.ok(hub.includes('sauvegarde.html'));console.log('Carnet : accueil utile sans faux records, scores réels, badges dépliables, restauration inchangée et remise à zéro limitée : OK.');
+ const hub=read('tous-les-jeux.html');assert.equal((hub.match(/class="game-tile"/g)||[]).length,8);assert.equal((hub.match(/href="devine-engin.html\?niveau=beginner"/g)||[]).length,1);assert.ok(!hub.includes('id="games-filters"'));assert.ok(!hub.includes('class="games-personal"'));assert.ok(hub.indexOf('href="devine-engin.html"')<hub.indexOf('data-game-family="decouverte"'));assert.match(hub,/<details class="games-extra">/);console.log('Carnet : accueil utile sans faux records, scores réels, badges dépliables, restauration inchangée et remise à zéro limitée : OK.');
 })().catch(e=>{console.error(e);process.exitCode=1});
 
 // Le nouvel habillage est limité aux huit pages de jeu.

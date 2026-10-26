@@ -108,7 +108,7 @@ export function buildDiscovery(root,output){
     html=html.replace(/decouverte\.css\?v=\d+/g,'decouverte.css?v=13');
     if(file==='histoire.html')html=html.replace('<section class="learning-catalog-guide wrap">','<section class="editorial-history-entry wrap"><h2>Les engins dans leur époque</h2><p>Deux récits de campagne pour relier matériels, décisions et conséquences humaines.</p><a href="histoire-malouines-1982.html">Les Malouines, 1982 →</a><a href="histoire-golfe-1991.html">La guerre du Golfe, 1990–1991 →</a></section><section class="learning-catalog-guide wrap">');
     if(file==='index.html'&&!html.includes('class="discovery-home wrap"'))html=html.replace('<!-- home-discovery -->',homeBlock);
-    for(const asset of ['assets/game-ui.css','qg-radar.css','qg-radar-tutorial.js','qg-radar-art.js','qg-radar-planning.js','qg-radar.js','histoire-bootstrap.js','map-data.js'])html=html.replace(new RegExp(asset.replaceAll('.','[.]')+'(?:[?]v=[0-9]+)?','g'),asset+(asset.startsWith('qg-radar')?'?v=2026102603':'?v=2026102602'));
+    for(const asset of ['assets/game-ui.css','qg-radar.css','qg-radar-tutorial.js','qg-radar-art.js','qg-radar-planning.js','qg-radar.js','histoire-bootstrap.js','map-data.js'])html=html.replace(new RegExp(asset.replaceAll('.','[.]')+'(?:[?]v=[0-9]+)?','g'),asset+(asset.startsWith('qg-radar')?'?v=2026102701':asset==='assets/game-ui.css'?'?v=2026102701':'?v=2026102602'));
     // Cette présentation est réservée aux rubriques hors atlas et hors QG.
     const visualPage=['index.html','comprendre.html','tous-les-jeux.html','jeux.html','devine-engin.html','zoom-mystere.html','chrono-defense.html','vrai-ou-faux.html','defi-du-jour.html','alerte-radar.html','revision.html','recherche.html','parcours.html','sauvegarde.html','a-propos.html','conditions.html','confidentialite.html','mentions-legales.html','histoire-malouines-1982.html','histoire-golfe-1991.html'].includes(file)||file.startsWith('comprendre-');
     if(visualPage&&!html.includes('href="assets/radar-visual.css')){
@@ -120,6 +120,9 @@ export function buildDiscovery(root,output){
     if(playPage&&!html.includes('href="assets/play-visual.css')){
       html=html.replace(/<body([^>]*)>/,(_,attrs)=>'<body'+attrs.replace(/class="([^"]*)"/,(_,classes)=>'class="'+classes+' radar-play"')+'>');
       html=html.replace('</head>','<link rel="stylesheet" href="assets/play-visual.css?v=2026102601"></head>');
+    }
+    if(playPage||['tous-les-jeux.html','revision.html','sauvegarde.html'].includes(file)){
+      for(const [asset,version]of [['assets/game-ui.js',2],['quiz-settings.js',3],['progression.js',4]])html=html.replace(new RegExp(asset.replaceAll('.','[.]')+'(?:[?]v=[0-9]+)?','g'),()=>asset+'?v='+version);
     }
     const title=text(html.match(/<title>([\s\S]*?)<\/title>/)?.[1]),desc=html.match(/<meta name="description" content="([^"]*)"/)?.[1]||'Radar : défense, sécurité et géopolitique.';
     const engine=E.find(e=>D.profileURL(e)===file),guide=C.guides.find(g=>'comprendre-'+g.slug+'.html'===file),preset=C.comparisons.find(p=>'comparatif-'+p.slug+'.html'===file);

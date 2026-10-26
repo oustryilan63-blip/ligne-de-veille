@@ -4,17 +4,6 @@
 
   const all = selector => [...document.querySelectorAll(selector)];
   const visible = node => {for (let n=node;n;n=n.parentElement) if(n.hidden) return false; return true;};
-  const filters = document.getElementById('games-filters');
-  if(filters){
-    const cards=all('[data-game-family]'),buttons=all('[data-games-filter]'),count=document.getElementById('games-count');
-    filters.addEventListener('click',event=>{
-      const button=event.target.closest('button[data-games-filter]');if(!button)return;
-      const selected=button.dataset.gamesFilter;
-      buttons.forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
-      cards.forEach(card=>{card.hidden=selected!=='all'&&card.dataset.gameFamily!==selected;});
-      count.textContent=cards.filter(card=>!card.hidden).length+' jeux affichés sur '+cards.length;
-    });
-  }
   const menus=all('.play-menu');
   document.addEventListener('click',event=>{menus.forEach(menu=>{if(menu.open&&!menu.contains(event.target))menu.open=false;});});
   document.addEventListener('keydown',event=>{
