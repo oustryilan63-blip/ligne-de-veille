@@ -15,7 +15,7 @@
   function create(item) {
     const model = models[item.name];
     if (!model) return null;
-    const section = make('section', 'history-3d');
+    const section = make('details', 'history-3d history-extra');section.append(make('summary','','Explorer cet engin en 3D'));
     section.id = 'vue-3d'; section.setAttribute('aria-labelledby', 'history-3d-title');
     const header = make('div', 'history-3d-head');
     const heading = make('div');
@@ -69,7 +69,7 @@
       stage.replaceChildren(viewer); help.hidden = false;
       toggle.textContent = 'Fermer la vue 3D'; toggle.setAttribute('aria-expanded', 'true');
     }
-    function open(){if(frame)return;const privacy=window.RADAR_PRIVACY;if(!privacy){status.textContent='Les préférences de confidentialité sont indisponibles. Tu peux consulter les photos.';return;}privacy.request(loadViewer);}
+    function open(){section.open=true;if(frame)return;const privacy=window.RADAR_PRIVACY;if(!privacy){status.textContent='Les préférences de confidentialité sont indisponibles. Tu peux consulter les photos.';return;}privacy.request(loadViewer);}
     toggle.addEventListener('click', () => {
       if (!frame) { open(); return; }
       frame.remove(); frame = null; stage.replaceChildren(poster);

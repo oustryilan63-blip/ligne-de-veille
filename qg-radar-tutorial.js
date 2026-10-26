@@ -44,6 +44,5 @@
  $('qg-tutorial-try').addEventListener('click',()=>{tried.add(index);render();$('qg-tutorial-next').focus();});
  $('qg-tutorial-back').addEventListener('click',()=>{if(index>0){index--;render();}});
  $('qg-tutorial-next').addEventListener('click',()=>{if(steps[index].action&&!tried.has(index))return;if(index===steps.length-1)close();else{index++;render();}});
- let show=true;try{show=localStorage.getItem(KEY)!=='1';}catch{}
- if(show)open();
+ // Le tutoriel reste disponible sur demande, sans interrompre la campagne.
 })();

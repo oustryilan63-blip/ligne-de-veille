@@ -416,3 +416,17 @@ body .photo-lightbox button{border-radius:6px}
  body .search-result h2{font-size:24px}
  body .trust-content{padding:25px 21px}
 }
+
+/* Les compléments des fiches s’ouvrent au choix du lecteur. */
+.history-profile .history-extra{margin:18px 0;border:1px solid #c6d3bd;border-radius:10px;background:#f7f9f1;scroll-margin-top:100px}
+.history-profile .history-extra>summary{cursor:pointer;min-height:54px;padding:18px 22px;color:#2f4936;font:600 18px/1.5 var(--serif)}
+.history-profile .history-extra>summary:focus-visible{outline:3px solid #a85f43;outline-offset:4px}
+.history-profile .history-extra[open]>summary{border-bottom:1px solid #c6d3bd}
+.history-profile .history-extra>.history-detail-section,.history-profile .history-extra>.history-silhouette,.history-profile .history-extra>.history-3d,.history-profile .history-extra>section{margin:0;padding:24px;border:0;background:transparent;box-shadow:none}
+@media(max-width:600px){.history-profile .history-extra>summary{padding:14px 16px;font-size:17px}.history-profile .history-extra>section{padding:18px 14px}}
+
+.history-profile details.history-extra{padding:0 22px 22px}
+.history-profile details.history-extra:not([open]){padding-bottom:0}
+.history-profile details.history-extra>summary{margin-inline:-22px}
+.history-profile details.history-extra>summary+*{margin-top:20px}
+@media(max-width:600px){.history-profile details.history-extra{padding:0 14px 18px}.history-profile details.history-extra>summary{margin-inline:-14px}}

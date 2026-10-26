@@ -278,3 +278,54 @@
 .games-reading p{max-width:76ch;font-size:15px;line-height:1.8;color:#53674f;margin:0 0 16px}
 @media(max-width:760px){.games-hub-page .games-personal{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:380px){.games-hub-page .games-personal{grid-template-columns:1fr}}
+
+/* Une entrée courte, puis la partie ; les explications restent dans les règles. */
+.play-instructions{font-size:13px;line-height:1.75;margin:8px 8px 14px;color:#405a47}
+.play-page .game-intro h1{margin-block:8px 14px}
+.play-page .game-intro-foot{padding-top:9px}
+.play-page main>.wrap:has(>.progress-strip){margin-top:10px;margin-bottom:20px}
+@media(max-width:760px){
+ .play-page .game-intro .wrap,.play-page[data-game=qg] .game-intro .wrap{padding-top:16px;padding-bottom:14px}
+ .play-page .game-intro h1,.play-page[data-game=qg] .game-intro h1{font-size:clamp(27px,7.4vw,38px);line-height:1.15;margin:0}
+ .play-page .game-intro .eyebrow,.play-page .game-intro-foot{display:none}
+ .play-page .playbar{flex-direction:row;align-items:center;gap:8px;padding-block:10px}
+ .play-page .playbar>a{min-height:44px;font-size:11px;white-space:nowrap}
+ .play-page .playbar-tools{width:auto;gap:6px}
+ .play-page .play-menu>summary{padding:10px;font-size:11px;gap:7px;min-height:44px}
+ .play-page .play-menu{flex:none}
+ .play-page .game-shell,.play-page .qg-shell,.play-page .radar-shell{padding-top:14px}
+ .play-page .play-config{margin-bottom:12px}
+ .play-page .play-config>summary{padding:10px 14px;min-height:44px;font-size:13px}
+ .play-page .game-status{margin-bottom:12px}
+ .play-page .game-status>span{padding:9px 8px;font-size:10px}
+ .play-page .recognition-photo,.play-page .challenge-photo,.play-page .arcade-figure{height:210px;min-height:0}
+ .play-page .recognition-copy,.play-page .challenge-copy,.play-page .arcade-copy{padding:18px}
+ .play-page .recognition-copy h2,.play-page .challenge-copy h2,.play-page .arcade-copy h2{font-size:27px;margin-block:8px}
+ .play-page .recognition-copy .recognition-answering{margin-top:12px}
+ .play-page .recognition-choices button,.play-page .arcade-choice{min-height:50px;padding:12px}
+ .play-page .vf-stage,.play-page .vf-stage .arcade-copy{min-height:140px}
+ .games-hub-page .game-intro{padding-top:22px}
+ .games-hub-page .game-intro h1{font-size:38px;margin:10px 0}
+ .games-hub-page .game-intro p{margin-bottom:16px}
+ .games-hub-page .game-intro-foot{padding-block:12px}
+ .games-hub-page .games-hub{padding-top:22px}
+}
+@media(min-width:481px) and (max-width:760px){.play-page .recognition-choices{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.play-page .qg-shell .qg-hud{grid-template-columns:repeat(3,minmax(0,1fr))}
+
+@media(max-width:760px){
+ .play-page .recognition-copy{display:flex;flex-direction:column}
+ .play-page .recognition-copy .recognition-answering{order:1}
+ .play-page .recognition-copy .game-feedback{order:2}
+ .play-page .recognition-photo{height:190px}
+}
+@media(min-width:360px) and (max-width:760px){.play-page .recognition-choices{grid-template-columns:repeat(2,minmax(0,1fr))}.play-page .recognition-choices button{font-size:13px}}
+
+.play-menu:not([open])>.play-menu-panel{display:none}
+@media(max-width:760px){
+ .play-page .play-menu{position:static}
+ .play-page .play-menu-panel{min-width:0;width:min(350px,calc(100vw - 36px))}
+ .play-page .playbar-tools .play-menu:first-child .play-menu-panel,.play-page .playbar-tools .play-menu:last-child .play-menu-panel{left:auto;right:0}
+}
+@media(max-width:359px){.play-page .playbar{flex-wrap:wrap}.play-page .playbar-tools{flex:1 1 200px}.play-page .play-menu{flex:1}.play-page .play-menu>summary{justify-content:space-between}}

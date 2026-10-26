@@ -258,3 +258,19 @@ body:has(.discovery-article) .discovery-hero p{font-size:15px;line-height:1.85;m
 .discovery-main .learning-live-fold>summary{cursor:pointer;line-height:1.7;font-weight:650}
 .discovery-main .learning-live-fold .learning-live{border:0;margin:18px 0 0;padding:10px 0}
 @media(max-width:600px){.discovery-main .learning-digest .learning-digest-paragraph{font-size:16px}.discovery-main .learning-live-fold{padding:15px 16px}}
+
+/* Les thèmes et les dossiers arrivent avant les lectures complémentaires. */
+.discovery-main #dossiers{scroll-margin-top:24px}
+.discovery-main .learning-jump{margin-bottom:22px}
+.discovery-main #dossiers>.learning-filters{margin-block:18px 24px}
+.discovery-home .learning-home-lead{max-width:65ch}
+@media(max-width:600px){.discovery-main .learning-jump{gap:4px 14px}.discovery-main .learning-jump a{font-size:12px}.discovery-main #dossiers>.learning-filters{padding:16px}.discovery-main .learning-filter-buttons{gap:6px}.discovery-main .learning-filter-buttons button{padding:9px 12px;font-size:12px}}
+
+.learning-hub-page .discovery-hero{padding-block:30px}
+.learning-hub-page .discovery-hero h1{font-size:clamp(34px,5vw,52px);margin-block:10px 14px}
+.learning-hub-page .discovery-hero p{font-size:15px;line-height:1.7;margin-bottom:0}
+.learning-hub-page .discovery-main{padding-top:24px}
+.learning-hub-page .learning-jump{padding:12px 16px;gap:0 18px}
+.learning-hub-page #dossiers>h2{font-size:30px;margin:0 0 12px}
+.learning-hub-page #dossiers>p{font-size:14px;line-height:1.7}
+@media(max-width:600px){.learning-hub-page .discovery-hero{padding-block:22px}.learning-hub-page .discovery-hero p{font-size:14px}.learning-hub-page .learning-jump a{font-size:11px;min-height:38px}.learning-hub-page #dossiers>h2{font-size:26px}}

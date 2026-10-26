@@ -73,7 +73,7 @@
   for(const select of [countrySelect,typeSelect,sortSelect])select.addEventListener('change',renderCatalogue);
   document.getElementById('history-reset')?.addEventListener('click',()=>{search.value=countrySelect.value=typeSelect.value='';sortSelect.value='catalogue';selected='Tous';filters.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.textContent==='Tous')));renderCatalogue()});
   window.addEventListener('radar-collection-change',()=>{if(!detail.hidden)return;const active=document.activeElement?.dataset?.favourite;renderCatalogue();if(active){const target=[...grid.querySelectorAll('[data-favourite]')].find(b=>b.dataset.favourite===active);if(target)target.focus();else document.getElementById('collection-title')?.focus();}});
-  function section(title, desc){const s=el('section','history-detail-section');s.append(el('h2','',title));if(desc)s.append(el('p','',desc));return s}
+  function section(title, desc, folded=false){const s=el(folded?'details':'section','history-detail-section'+(folded?' history-extra':''));s.append(el(folded?'summary':'h2','',title));if(desc)s.append(el('p','',desc));return s}
   function technicalCard(index){
     const data=technical[index];
     const wrap=el('div','history-tech');
@@ -143,7 +143,7 @@
         ]}
     };
     const data=drawings[item.name];if(!data)return null;
-    const wrap=section('Lire sa silhouette','Choisis un numéro sur le dessin ou le nom d’un élément pour comprendre son rôle.');wrap.id='silhouette';wrap.classList.add('history-silhouette');
+    const wrap=section('Lire sa silhouette','Choisis un numéro sur le dessin ou le nom d’un élément pour comprendre son rôle.',true);wrap.id='silhouette';wrap.classList.add('history-silhouette');
     const layout=el('div','silhouette-layout'),figure=el('figure','silhouette-figure'),viewport=el('div','silhouette-viewport'),board=el('div','silhouette-board');board.id='silhouette-board';if(item.name==='Leclerc')board.classList.add('silhouette-leclerc');viewport.tabIndex=0;viewport.setAttribute('role','region');viewport.setAttribute('aria-label','Dessin de '+item.name);
     const svgNode=(tag,attrs={})=>{const node=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const [key,value] of Object.entries(attrs))node.setAttribute(key,value);return node;};
     const svg=svgNode('svg',{viewBox:'0 0 800 440',role:'img','aria-label':'Illustration pédagogique : '+item.name+'. '+data.view});
@@ -269,13 +269,13 @@
       }
       timeline.append(list);detail.append(timeline);
     }
-    const photoSection=section('La galerie photo','Parcours les vues de l’engin et agrandis une photo pour observer ses détails.');photoSection.id='photos';photoSection.classList.add('history-photos');
+    const photoSection=section('La galerie photo','Parcours les vues de l’engin et agrandis une photo pour observer ses détails.',true);photoSection.id='photos';photoSection.classList.add('history-photos');
     const gallery=window.RADAR_PHOTOS.create(item);gallery.querySelector('img').loading='lazy';photoSection.append(gallery);detail.append(photoSection);
     if(modelView)detail.append(modelView.section);
     const origin=item.code,origins=item.originCodes||[origin],former=fact.former||[];
     const current=fact.originOnly?[]:[...new Set([...(fact.documentedOperatorsOnly||former.includes(origin)?[]:[origin]),...(fact.current||[])])];
     const currentLabel=fact.operatorSnapshot?'Utilisateur attesté dans les sources':'Utilisateur actuel documenté';
-    const mapSection=section('Où a-t-il été utilisé ?',"La carte situe le pays de conception et les pays utilisateurs documentés. Elle ne montre pas les pays ayant seulement passé commande ni les lieux de déploiement temporaire.");
+    const mapSection=section('Où a-t-il été utilisé ?',"La carte situe le pays de conception et les pays utilisateurs documentés. Elle ne montre pas les pays ayant seulement passé commande ni les lieux de déploiement temporaire.",true);
     mapSection.id='utilisateurs';
     const mapWrap=el('div','history-map-wrap');const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','-60 -25 1320 550');svg.setAttribute('role','img');svg.setAttribute('aria-label','Carte des pays associés à '+item.name);svg.classList.add('history-map');
     const mapTitle=document.createElementNS('http://www.w3.org/2000/svg','title');mapTitle.textContent='Carte des pays associés à '+item.name;svg.append(mapTitle);
@@ -316,11 +316,15 @@
     const sources=el('section','history-detail-section history-sources');sources.id='sources';sources.append(el('h2','','Sources de la fiche'));const list=el('ul');
     const refs=[['Présentation et histoire du programme',item.source],['Pays utilisateurs',fact.operatorSource],['Anciens utilisateurs',fact.formerSource],['Production et livraisons',production?.source],['Inventaire daté',inventory?.source],['Engins détruits',figuresFor.losses?.source],['Cibles détruites',figuresFor.targets?.source],...(fact.storySources||[]).map(ref=>[ref.label,ref.url]),...(fact.extraSources||[]).map(url=>['Autre source',url])];const seen=new Set();refs.forEach(([title,url])=>{if(url&&!seen.has(url)){seen.add(url);const li=el('li');li.append(link(title+' ↗',url));list.append(li)}});sources.append(list,el('p','',(fact.storyCheckedAt?'Récit et frise revus le '+fact.storyCheckedAt+'. Autres repères : dernière vérification indiquée le '+(fact.checkedAt||'10 octobre 2026'):'Sources consultées le '+(fact.checkedAt||'10 octobre 2026'))+'. La carte présente les pays documentés dans ces sources, sans prétendre couvrir chaque transfert ou retrait. Les bilans de pertes sont des minimums documentés ou des estimations datées, précisés dans chaque carte.'));detail.append(sources);
     const next=el('nav','history-next');next.setAttribute('aria-label','Parcourir les fiches');const prev=el('a','','← '+engins[(index+engins.length-1)%engins.length].name);prev.href=window.RADAR_DISCOVERY?.profileURL(engins[(index+engins.length-1)%engins.length])||'histoire.html?engin='+(index+engins.length-1)%engins.length;const after=el('a','',engins[(index+1)%engins.length].name+' →');after.href=window.RADAR_DISCOVERY?.profileURL(engins[(index+1)%engins.length])||'histoire.html?engin='+(index+1)%engins.length;next.append(prev,after);detail.append(next);
-    for(const [label,id] of [['Histoire','recit'],...(silhouette?[['Silhouette','silhouette']]:[]),...(events.length?[['Chronologie','chronologie']]:[]),['Technique','technique'],['Photos','photos'],...(modelView?[['3D','vue-3d']]:[]),['Carte','utilisateurs'],['Chiffres','chiffres'],['Sources','sources']]){
+    for(const [label,id] of [['Histoire','recit'],['Technique','technique'],...(events.length?[['Chronologie','chronologie']]:[]),...(silhouette?[['Silhouette','silhouette']]:[]),['Photos','photos'],...(modelView?[['3D','vue-3d']]:[]),['Carte','utilisateurs'],['Chiffres','chiffres'],['Sources','sources']]){
       const a=el('a','',label);a.href='#'+id;a.dataset.section=id;
-      a.addEventListener('click',()=>{markSection(id);if(id==='technique'){const button=document.getElementById('tech-toggle-'+index);if(button.getAttribute('aria-expanded')==='false')button.click();}});
+      a.addEventListener('click',()=>{revealTarget(id);markSection(id);if(id==='technique'){const button=document.getElementById('tech-toggle-'+index);if(button.getAttribute('aria-expanded')==='false')button.click();}});
       jump.append(a);
     }
+    function revealTarget(id){const target=document.getElementById(id);for(let parent=target;parent&&parent!==detail;parent=parent.parentElement){if(parent.tagName==='DETAILS')parent.open=true;}}
+    detail.addEventListener('click',event=>{const anchor=event.target.closest('a[href^="#"]');if(anchor)revealTarget(anchor.getAttribute('href').slice(1));});
+    function revealHash(){try{revealTarget(decodeURIComponent(location.hash.slice(1)));}catch{}}
+    window.addEventListener('hashchange',revealHash);revealHash();
     const sectionLinks=[...jump.querySelectorAll('a')];let currentSection='';
     function markSection(id){
       if(id===currentSection)return;currentSection=id;
