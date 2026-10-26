@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
+import {createHash} from 'node:crypto';
 import {buildEditorial} from './build-editorial.mjs';
 import {validateConflictUpdates,conflictUpdateHTML,conflictDigestHTML} from './build-conflicts.mjs';
 import {learningVisual,learningFigure,learningQuiz,glossaryHTML,readingMinutes,learningHistory} from './build-learning.mjs';
@@ -8,7 +9,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const text=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
 export function buildDiscovery(root,output){
   const ctx={window:{},Intl};
-  for(const name of ['engins-data.js','histoire-data.js','histoire-technique.js','histoire-catalog-data.js','discovery-tools.js','decouverte-data.js','map-data.js'])vm.runInNewContext(fs.readFileSync(path.join(root,name),'utf8'),ctx,{filename:name});
+  for(const name of ['engins-data.js','histoire-data.js','histoire-technique.js','histoire-chiffres.js','histoire-frises.js','histoire-photos-data.js','histoire-3d-data.js','histoire-catalog-data.js','discovery-tools.js','decouverte-data.js','map-data.js'])vm.runInNewContext(fs.readFileSync(path.join(root,name),'utf8'),ctx,{filename:name});
   const {LDV_ENGINS:E,LDV_HISTOIRE:H,LDV_TECHNIQUE:T,RADAR_DISCOVERY:D,RADAR_DISCOVERY_CONTENT:C}=ctx.window;
   const checkedDate=new Intl.DateTimeFormat('fr-FR',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(C.checkedAt+'T12:00:00Z'));
   const base=new URL(process.env.RADAR_SITE_URL||'https://oustryilan63-blip.github.io/ligne-de-veille/');
@@ -31,11 +32,16 @@ export function buildDiscovery(root,output){
   const hero=(kicker,title,description)=>'<section class="discovery-hero"><div class="wrap"><span class="eyebrow">'+esc(kicker)+'</span><h1>'+esc(title)+'</h1><p>'+esc(description)+'</p></div></section>';
   function essentialHTML(i){return '<details class="discovery-essential history-summary-fold" id="essentiel"><summary>Repères en bref</summary><div class="discovery-answers">'+D.essentials(E[i],H[i],T[i]).map(q=>'<div class="discovery-answer"><h3>'+esc(q.question)+'</h3><p>'+esc(q.answer)+'</p>'+(q.source?'<a href="'+esc(q.source)+'" target="_blank" rel="noopener noreferrer">Consulter la source ↗</a>':'')+'</div>').join('')+'</div></details>'}
   const filenames=new Set();
+  const profileDirectory=path.join(output,'profile-data');fs.mkdirSync(profileDirectory,{recursive:true});
   for(const [i,e] of E.entries()){
     const file=D.profileURL(e);if(filenames.has(file))throw Error('Adresse de fiche en double : '+file);filenames.add(file);
+    const profileGlobals={};
+    for(const [name,key] of [['LDV_HISTOIRE',i],['LDV_TECHNIQUE',i],['LDV_CHIFFRES',i],['LDV_TIMELINES',i],['RADAR_HISTORY_PHOTOS',e.name],['RADAR_3D_MODELS',e.name]]){const original=ctx.window[name]||{},selected=Array.isArray(original)?[]:{};if(original[key]!==undefined)selected[key]=original[key];profileGlobals[name]=selected;}
+    const profileScript=Object.entries(profileGlobals).map(([name,data])=>'window.'+name+'='+JSON.stringify(data)+';').join('');
+    const profileFile='profile-data/'+i+'-'+createHash('sha256').update(profileScript).digest('hex').slice(0,12)+'.js';fs.writeFileSync(path.join(output,profileFile),profileScript);
     const fact=H[i]||{},tech=T[i]||{},p=imageFor(e);
     let html=fs.readFileSync(path.join(output,'histoire.html'),'utf8');
-    html=html.replace('<body>','<body class="history-profile" data-engine-index="'+i+'">').replace('<div id="history-catalogue">','<div id="history-catalogue" hidden>');
+    html=html.replace('<body>','<body class="history-profile" data-engine-index="'+i+'" data-profile-data="'+profileFile+'">').replace('<div id="history-catalogue">','<div id="history-catalogue" hidden>');
     const chapters=fact.storySections?.length?fact.storySections:[{title:'Son histoire',text:fact.story||e.explanation,sources:[e.source]}];
     const storyURLs=[...new Set(chapters.flatMap(ch=>ch.sources||[]))];
     const storyText=fact.story||e.explanation;
@@ -48,11 +54,12 @@ export function buildDiscovery(root,output){
     html=html.replace(/<title>[\s\S]*?<\/title>/,'<title>'+esc(e.name)+' : histoire et fiche technique | Radar</title>').replace(/<meta name="description"[^>]*>/,'<meta name="description" content="'+esc(D.description(e))+'">');
     fs.writeFileSync(path.join(output,file),html);
   }
-  const guidePhoto=p=>p?'<figure class="learning-figure learning-photo"><img src="'+esc(p.src)+'" alt="'+esc(p.alt)+'" width="'+p.width+'" height="'+p.height+'" loading="lazy" decoding="async"><figcaption><span class="learning-photo-caption">'+esc(p.caption)+'</span>'+credit(p)+'</figcaption></figure>':'';
+  const photoAttrs=(p,card=false)=>{const match=/^assets\/comprendre\/([a-z0-9-]+)\.jpg$/.exec(p.src||'');if(!match)return 'src="'+esc(p.src)+'"';const full='assets/comprendre/'+match[1]+'.webp',small='assets/comprendre/'+match[1]+'-800.webp';for(const file of [full,small])if(!fs.existsSync(path.join(root,file)))throw Error('Photo optimisée absente : '+file);return 'src="'+full+'" srcset="'+small+' 800w, '+full+' 1280w" sizes="'+(card?'(max-width:600px) calc(100vw - 36px), (max-width:900px) calc((100vw - 80px) / 2), calc((100vw - 120px) / 3)':'(max-width:900px) calc(100vw - 36px), 825px')+'"';};
+  const guidePhoto=p=>p?'<figure class="learning-figure learning-photo"><img '+photoAttrs(p)+' alt="'+esc(p.alt)+'" width="'+p.width+'" height="'+p.height+'" loading="lazy" decoding="async"><figcaption><span class="learning-photo-caption">'+esc(p.caption)+'</span>'+credit(p)+'</figcaption></figure>':'';
   const editorial=buildEditorial({output,shell,hero,figure,photoFigure:guidePhoto,photoCredit:credit,E,D,map:ctx.window.LDV_MAP,guides:C.guides});
   function guideCard(g){
     const p=g.photo||(g.engins.length?imageFor(E[g.engins[0]]):null);
-    const cover=p?'<img src="'+esc(p.src)+'" alt="'+esc(p.alt)+'" width="680" height="420" loading="lazy" decoding="async">':g.visual?'<div class="learning-card-art">'+learningVisual(g.visual,ctx.window.LDV_MAP)+'</div>':'';
+    const cover=p?'<img '+photoAttrs(p,true)+' alt="'+esc(p.alt)+'" width="680" height="420" loading="lazy" decoding="async">':g.visual?'<div class="learning-card-art">'+learningVisual(g.visual,ctx.window.LDV_MAP)+'</div>':'';
     const imageCredit=p?credit(p):g.visual?'Schéma original Radar'+(g.visual==='chokepoints'?' · fond Natural Earth, domaine public':''):'';
     return '<article class="discovery-card" data-guide-categories="'+g.categories.join(' ')+'"><a href="comprendre-'+g.slug+'.html">'+cover+'<div class="discovery-card-copy"><span class="discovery-kicker">'+esc(g.theme)+' · '+readingMinutes(g)+' min · '+esc(g.level)+'</span>'+'<h3>'+esc(g.title)+'</h3><p>'+esc(g.description)+'</p><strong>Comprendre →</strong></div></a>'+(imageCredit?'<div class="discovery-credit">'+imageCredit+'</div>':'')+'</article>';
   }
@@ -101,7 +108,7 @@ export function buildDiscovery(root,output){
     html=html.replace(/decouverte\.css\?v=\d+/g,'decouverte.css?v=13');
     if(file==='histoire.html')html=html.replace('<section class="learning-catalog-guide wrap">','<section class="editorial-history-entry wrap"><h2>Les engins dans leur époque</h2><p>Deux récits de campagne pour relier matériels, décisions et conséquences humaines.</p><a href="histoire-malouines-1982.html">Les Malouines, 1982 →</a><a href="histoire-golfe-1991.html">La guerre du Golfe, 1990–1991 →</a></section><section class="learning-catalog-guide wrap">');
     if(file==='index.html'&&!html.includes('class="discovery-home wrap"'))html=html.replace('<!-- home-discovery -->',homeBlock);
-    for(const asset of ['assets/game-ui.css','qg-radar.css','qg-radar-tutorial.js','histoire-bootstrap.js'])html=html.replace(new RegExp(asset.replaceAll('.','[.]')+'(?:[?]v=[0-9]+)?','g'),asset+'?v=20261026');
+    for(const asset of ['assets/game-ui.css','qg-radar.css','qg-radar-tutorial.js','histoire-bootstrap.js','map-data.js'])html=html.replace(new RegExp(asset.replaceAll('.','[.]')+'(?:[?]v=[0-9]+)?','g'),asset+'?v=2026102602');
     const title=text(html.match(/<title>([\s\S]*?)<\/title>/)?.[1]),desc=html.match(/<meta name="description" content="([^"]*)"/)?.[1]||'Radar : défense, sécurité et géopolitique.';
     const engine=E.find(e=>D.profileURL(e)===file),guide=C.guides.find(g=>'comprendre-'+g.slug+'.html'===file),preset=C.comparisons.find(p=>'comparatif-'+p.slug+'.html'===file);
     const image=engine?imageFor(engine).src:guide?.photo?.src?guide.photo.src:guide?.engins.length?imageFor(E[guide.engins[0]]).src:preset?imageFor(E[preset.a]).src:'assets/radar-partage.png';

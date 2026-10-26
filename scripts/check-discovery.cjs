@@ -1,6 +1,6 @@
 const fs=require('fs'),path=require('path'),vm=require('vm'),assert=require('assert/strict');
 const root=path.resolve(__dirname,'..'),read=f=>fs.readFileSync(path.join(root,f),'utf8'),c={window:{},Intl};
-for(const f of ['engins-data.js','histoire-data.js','histoire-technique.js','discovery-tools.js','catalogue-tools.js','news-tools.js','decouverte-data.js'])vm.runInNewContext(read(f),c,{filename:f});
+for(const f of ['engins-data.js','histoire-data.js','histoire-technique.js','histoire-chiffres.js','histoire-frises.js','histoire-photos-data.js','histoire-3d-data.js','discovery-tools.js','catalogue-tools.js','news-tools.js','decouverte-data.js'])vm.runInNewContext(read(f),c,{filename:f});
 const {LDV_ENGINS:E,LDV_HISTOIRE:H,LDV_TECHNIQUE:T,RADAR_DISCOVERY:D,RADAR_DISCOVERY_CONTENT:C,RADAR_NEWS_TOOLS:N}=c.window;
 assert.equal(new Set(E.map(D.profileURL)).size,E.length);
 for(const [i,item]of E.entries()){
@@ -45,6 +45,8 @@ if(fs.existsSync(path.join(output,'sitemap.xml'))){
  for(const g of C.guides){const html=fs.readFileSync(path.join(output,'comprendre-'+g.slug+'.html'),'utf8');assert.ok(html.includes('aria-label="Sommaire du dossier"'));assert.equal((html.match(/<fieldset data-answer=/g)||[]).length,3);assert.ok(html.includes('Références consultées le '+new Intl.DateTimeFormat('fr-FR',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date((g.checkedAt||C.checkedAt)+'T12:00:00Z'))));assert.ok(html.includes('id="contexte-historique"'));assert.ok(html.includes('class="learning-timeline"'));assert.ok(!html.includes('undefined'));if(g.visual)assert.ok(html.includes('class="learning-svg"'));}
  for(const [i,e]of E.entries()){
   const html=fs.readFileSync(path.join(output,D.profileURL(e)),'utf8');
+  const bundleFile=html.match(/data-profile-data="([^"]+)"/)?.[1];assert.ok(bundleFile,'Données dédiées absentes : '+e.name);assert.ok(bundleFile.startsWith('profile-data/'+i+'-'));const profileContext={window:{}};vm.runInNewContext(fs.readFileSync(path.join(output,bundleFile),'utf8'),profileContext);assert.equal(Object.keys(profileContext.window).length,6);
+  for(const [name,key]of [['LDV_HISTOIRE',i],['LDV_TECHNIQUE',i],['LDV_CHIFFRES',i],['LDV_TIMELINES',i],['RADAR_HISTORY_PHOTOS',e.name],['RADAR_3D_MODELS',e.name]]){assert.equal(JSON.stringify(profileContext.window[name][key]),JSON.stringify(c.window[name]?.[key]),e.name+' '+name);assert.ok(Object.values(profileContext.window[name]).filter(value=>value!==null).length<=1,'Autres engins inclus dans '+bundleFile);}
   assert.ok(html.includes('data-engine-index="'+i+'"'));assert.ok(html.includes('Repères en bref'));assert.ok(html.includes('class="history-story-copy"'));assert.ok(!html.includes('class="history-story-chapter"'));assert.ok(html.includes('class="history-story-sources"'));assert.ok(html.includes('<h1 class="history-name">'));
   assert.ok(html.includes('rel="canonical"'));assert.ok(html.includes('property="og:image"'));assert.ok(html.includes('name="twitter:card"'));
   assert.ok(html.includes('href="recherche.html"'));assert.ok(html.includes('href="comprendre.html"'));
