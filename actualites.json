@@ -4,6 +4,308 @@
   "items": [
     {
       "date": "2026-10-26",
+      "publishedAt": "2026-10-26T17:16:33+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "SE Aviation a terminé une campagne d’essais en vol de son drone DRIADE OPV, menée discrètement avec la DGA",
+      "url": "https://www.opex360.com/2026/10/26/se-aviation-a-termine-une-campagne-dessais-en-vol-de-son-drone-driade-opv-menee-discretement-avec-la-dga/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "DGA",
+        "Industrie",
+        "DGA EV",
+        "Direction générale de l'armement",
+        "DRIADE",
+        "DRIADE OPV",
+        "drone",
+        "drone MALE",
+        "Essais en vol",
+        "SE Aviation"
+      ],
+      "sourceExcerpt": {
+        "text": "En juin 2025, lors du salon de l’aéronautique et de l’espace du Bourget, la Direction générale de l’armement [DGA] attribua…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-26T17:28:07.094506+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/driade-20261026.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « SE Aviation a terminé une campagne d’essais en vol de son drone DRIADE OPV, menée discrètement avec la DGA ».",
+        "credit": "SE Aviation",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/26/se-aviation-a-termine-une-campagne-dessais-en-vol-de-son-drone-driade-opv-menee-discretement-avec-la-dga/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/26/se-aviation-a-termine-une-campagne-dessais-en-vol-de-son-drone-driade-opv-menee-discretement-avec-la-dga/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-26",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/driade-20261026.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T16:56:46+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Israel to Supply Cyprus with an Offshore Patrol Vessel Equipped with Advanced Naval Systems",
+      "url": "https://www.navalnews.com/naval-news/2026/10/israel-to-supply-cyprus-with-an-offshore-patrol-vessel-equipped-with-advanced-naval-systems/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Cyprus Navy",
+        "Israel",
+        "OPV"
+      ],
+      "sourceExcerpt": {
+        "text": "On October 26, 2026, the Israeli Ministry of Defense (IMOD) and the Ministry of Defence of the Republic of Cyprus…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-26T17:28:07.094506+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/PHOTO-2026-10-26-13-48-191-768x512.jpg",
+        "kind": "article",
+        "alt": "Israel to Supply Cyprus with an Offshore Patrol Vessel Equipped with Advanced Naval Systems",
+        "credit": "Cyprus MoD)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/israel-to-supply-cyprus-with-an-offshore-patrol-vessel-equipped-with-advanced-naval-systems/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/israel-to-supply-cyprus-with-an-offshore-patrol-vessel-equipped-with-advanced-naval-systems/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-26",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/PHOTO-2026-10-26-13-48-191.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T15:55:03+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Une unité de l’armée algérienne va s’installer dans l’ancienne base française de Madama, au Niger",
+      "url": "https://www.opex360.com/2026/10/26/une-unite-de-larmee-algerienne-va-sinstaller-dans-lancienne-base-francaise-de-madama-au-niger/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Forces terrestres",
+        "accord de défense",
+        "algérie",
+        "ANP",
+        "Armée nationale populaire",
+        "Madama",
+        "Niger",
+        "Sahel"
+      ],
+      "sourceExcerpt": {
+        "text": "Solidaire du Mali et du Burkina Faso dans la Confédération des États du Sahel, le Niger s’était fâché avec l’Algérie…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-26T17:28:07.094506+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/madama-20180227.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Une unité de l’armée algérienne va s’installer dans l’ancienne base française de Madama, au Niger ».",
+        "credit": "BOA de Madama",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/26/une-unite-de-larmee-algerienne-va-sinstaller-dans-lancienne-base-francaise-de-madama-au-niger/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/26/une-unite-de-larmee-algerienne-va-sinstaller-dans-lancienne-base-francaise-de-madama-au-niger/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-26",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/madama-20180227.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T14:32:44+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La Pologne a reçu plus de 200 chars coréens dont une trentaine déjà en réparation et le ministère ne confirme ni ne dément",
+      "url": "https://www.forum-militaire.fr/la-pologne-a-recu-plus-de-200-chars-coreens-dont-une-trentaine-deja-en-reparation-et-le-ministere-ne-confirme-ni-ne-dement/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "char"
+      ],
+      "sourceExcerpt": {
+        "text": "Un media polonais avance le chiffre d’une trentaine d’exemplaires immobilisés, la plupart dans la même garnison. Le ministère de la…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T12:47:52+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "U.S. Navy to Build Hypersonic Weapon Facility at NWS Yorktown for Zumwalt and Virginia Classes",
+      "url": "https://www.navalnews.com/naval-news/2026/10/us-navy-hypersonic-facility-nws-yorktown/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Conventional Prompt Strike",
+        "Hypersonics",
+        "US Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "New NAVFAC documents reveal U.S. Navy plans for a hypersonic missile storage facility at NWS Yorktown to support CPS-equipped Zumwalt…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-26T17:28:07.094506+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/featured_DDG_1000_Zumwalt_Undocking_drydock_ab1bab83ca-768x432.jpg",
+        "kind": "article",
+        "alt": "U.S. Navy to Build Hypersonic Weapon Facility at NWS Yorktown for Zumwalt and Virginia Classes",
+        "credit": "USS Zumwalt (DDG-1000) exits dry dock during ongoing efforts to convert her to carry Conventional Prompt Strike Missiles. She will be the first vessel to carry CPS missiles in U.S. Navy service. HII Image.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/us-navy-hypersonic-facility-nws-yorktown/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/us-navy-hypersonic-facility-nws-yorktown/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-26",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/featured_DDG_1000_Zumwalt_Undocking_drydock_ab1bab83ca-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T10:39:37+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Le F-35 n’est-il qu’une « poudre de perlimpinpin » ? 25 ans de chiffres permettent de relativiser la performance du joyau technologique…",
+      "url": "https://www.forum-militaire.fr/le-f-35-nest-il-quune-poudre-de-perlimpinpin-25-ans-de-chiffres-permettent-de-relativiser-la-performance-du-joyau-technologique-americain/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "Industrie",
+        "avion"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 26 octobre 2001, Lockheed Martin remportait le programme Joint Strike Fighter avec la promesse de livrer plus de 3…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T09:46:28+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Middlesex Regiment soldier laid to rest on the Somme",
+      "url": "https://www.gov.uk/government/news/middlesex-regiment-soldier-laid-to-rest-on-the-somme",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Private (Pte) Percy Tolliday, from Camberwell, London, buried on the Somme alongside two unknown soldiers. Identification was made through DNA…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-26T17:28:07.094506+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6adf19512263175ac2aca407/s300_Photo_2_-_The_Rev_Fiona_Beale_CF_conducts_the_burial_service.jpg",
+        "kind": "article",
+        "alt": "The Reverend Fiona Beale CF conducts the service (Crown Copyright)",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/middlesex-regiment-soldier-laid-to-rest-on-the-somme",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/middlesex-regiment-soldier-laid-to-rest-on-the-somme",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T09:46:14+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Bedfordshire soldiers laid to rest on the Western Front",
+      "url": "https://www.gov.uk/government/news/bedfordshire-soldiers-laid-to-rest-on-the-western-front",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Private (Pte) George McIntosh, from Ilford, Essex, buried in France on 20 October 2026 alongside an unknown soldier. Identification was…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-26T17:28:07.094506+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6adf17a89223b6191dab33ac/s300_Photo_3_-_The_Rev_Fiona_Beale_CF_conducts_the_burial_service..jpg",
+        "kind": "article",
+        "alt": "The Reverend Fiona Beale CF conducts the service (Crown Copyright)",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/bedfordshire-soldiers-laid-to-rest-on-the-western-front",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/bedfordshire-soldiers-laid-to-rest-on-the-western-front",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T08:01:40+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Brésil : un président sous tutelle",
+      "url": "https://www.revueconflits.com/bresil-un-president-sous-tutelle/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique latine",
+        "Abonné",
+        "Brésil"
+      ],
+      "imageCheckedAt": "2026-10-26T17:28:07.094506+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2023/03/SIPA_sipausa30343309_000005-scaled.jpg",
+        "kind": "article",
+        "alt": "Brésil : un président sous tutelle",
+        "credit": "Discours du Président Lula. Ce jeudi 16 février 2023 à Brasilia, Brésil. Ton Molina/Fotoarena/Sipa USA)/44523398/Ton Molina/2302191711",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/bresil-un-president-sous-tutelle/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/bresil-un-president-sous-tutelle/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-26",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2023/03/SIPA_sipausa30343309_000005-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-26",
       "publishedAt": "2026-10-26T07:32:59+00:00",
       "source": "Areion — Géopolitique",
       "sourceType": "Presse spécialisée",
@@ -143,6 +445,37 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-26",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/Vignettes-videos-96.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-25T23:19:48+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Les Bourses mondiales évoluent prudemment en vue d’une semaine chargée",
+      "url": "https://www.revueconflits.com/les-bourses-mondiales-evoluent-prudemment-en-vue-dune-semaine-charg/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Économie, énergies et entreprises"
+      ],
+      "imageCheckedAt": "2026-10-26T17:28:07.094506+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/Vignettes-videos-98.png",
+        "kind": "article",
+        "alt": "Les Bourses mondiales évoluent prudemment en vue d’une semaine chargée",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/les-bourses-mondiales-evoluent-prudemment-en-vue-dune-semaine-charg/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/les-bourses-mondiales-evoluent-prudemment-en-vue-dune-semaine-charg/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-26",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/Vignettes-videos-98.png",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -9379,7 +9712,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-25T17:13:41.854841+00:00"
+      "imageCheckedAt": "2026-10-26T17:28:07.094506+00:00"
     },
     {
       "date": "2026-10-07",
@@ -9593,10 +9926,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-25T17:13:41.854841+00:00"
+      "imageCheckedAt": "2026-10-26T17:28:07.094506+00:00"
     }
   ],
-  "checkedAt": "2026-10-26T07:38:52.072415+00:00",
+  "checkedAt": "2026-10-26T17:27:40.264478+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -9608,9 +9941,9 @@
     "sources": [
       {
         "source": "Sénat — Défense",
-        "ok": true,
-        "recentItems": 2,
-        "error": null
+        "ok": false,
+        "recentItems": 0,
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
       },
       {
         "source": "Ministère britannique de la Défense",
@@ -9651,7 +9984,7 @@
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -9663,7 +9996,7 @@
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -9673,8 +10006,8 @@
         "error": null
       }
     ],
-    "newItems": 8,
-    "articleImages": 243,
+    "newItems": 10,
+    "articleImages": 251,
     "duplicateHeadlinesSkipped": 0
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-26T07:38:52.072415+00:00",
+  "checkedAt": "2026-10-26T17:27:40.264478+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,9 +10,11 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 11,
+    "ok": 10,
     "total": 11,
-    "unavailable": []
+    "unavailable": [
+      "Sénat — Défense"
+    ]
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -45,7 +47,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-26T07:39:02.790882+00:00",
+        "checkedAt": "2026-10-26T17:28:33.220304+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -92,9 +94,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-26T07:39:02.790882+00:00",
-        "updatedAt": "2026-10-25T17:13:43.883924+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-10-26T17:28:33.220304+00:00",
+        "updatedAt": "2026-10-26T17:28:33.220304+00:00",
+        "status": "updated",
         "paragraphs": [
           {
             "title": "Défense: l'armement et le désarmement en Turquie, Taïwan et Afrique du Sud",
@@ -103,14 +105,6 @@
             "source": "RFI",
             "url": "https://www.rfi.fr/fr/podcasts/tour-du-monde-des-correspondants/20261025-d%C3%A9fense-l-armement-et-le-d%C3%A9sarmement-en-turquie-ta%C3%AFwan-et-afrique-du-sud",
             "publishedAt": "2026-10-25T10:53:26+00:00"
-          },
-          {
-            "title": "La Chine sanctionne des ministres latino-américains pour avoir maintenu des relations diplomatiques avec Taïwan",
-            "text": "La Chine a annoncé, lundi 12 octobre, des sanctions contre un ministre du Paraguay et un autre du Belize pour avoir soutenu le maintien de relations diplomatiques avec Taïwan. Un « avertissement », selon Pékin, envers quiconque agirait de même. Une manière de rappeler aux derniers alliés de l’île – que la Chine considère comme l'une de ses provinces – que leur soutien a un prix.",
-            "truncated": false,
-            "source": "RFI",
-            "url": "https://www.rfi.fr/fr/asie-pacifique/20261012-la-chine-sanctionne-des-ministres-latino-am%C3%A9ricains-pour-avoir-maintenu-des-relations-diplomatiques-avec-ta%C3%AFwan",
-            "publishedAt": "2026-10-12T12:43:21+00:00"
           }
         ],
         "sources": [
@@ -126,8 +120,16 @@
       }
     },
     "moyen-orient-conflits": {
-      "changedAt": "2026-10-24T16:12:15.462514+00:00",
+      "changedAt": "2026-10-26T17:27:40.264478+00:00",
       "items": [
+        {
+          "title": "Israel to Supply Cyprus with an Offshore Patrol Vessel Equipped with Advanced Naval Systems",
+          "url": "https://www.navalnews.com/naval-news/2026/10/israel-to-supply-cyprus-with-an-offshore-patrol-vessel-equipped-with-advanced-naval-systems/",
+          "source": "Naval News",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-10-26T16:56:46+00:00",
+          "language": "en"
+        },
         {
           "title": "Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel",
           "url": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-conducts-inaugural-spike-missile-firings-during-joint-drills-with-israel/",
@@ -151,37 +153,29 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-10-16T02:34:56+00:00",
           "language": "fr"
-        },
-        {
-          "title": "Israël confirme la commande de douze hélicoptères d’attaque AH-64E Apache/Guardian auprès de Boeing",
-          "url": "https://www.opex360.com/2026/10/14/israel-confirme-la-commande-de-douze-helicopteres-dattaque-ah-64e-apache-guardian-aupres-de-boeing/",
-          "source": "Zone Militaire — Opex360",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-10-14T16:50:56+00:00",
-          "language": "fr"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-26T07:39:02.790882+00:00",
-        "updatedAt": "2026-10-25T17:13:43.883924+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-10-26T17:28:33.220304+00:00",
+        "updatedAt": "2026-10-26T17:28:33.220304+00:00",
+        "status": "updated",
         "paragraphs": [
           {
-            "title": "Israël bouclera la Cisjordanie occupée et fermera tous les points de passage lors des législatives",
-            "text": "L'armée israélienne a annoncé un bouclage de la Cisjordanie occupée mardi, jour des élections législatives en Israël. Cette mesure intervient alors que l'État hébreu mène une vaste opération dans ce territoire palestinien occupé et que 2 000 habitants d'Hébron ont été chassés de leurs foyers.",
+            "title": "Élections en Israël : un scrutin en forme de référendum, pour ou contre Netanyahu ?",
+            "text": "Le Premier ministre israélien Benjamin Netanyahu est à la tête de son pays, quasiment sans interruption, depuis près de 17 ans. Parviendra-t-il à se maintenir au pouvoir à l'issue des élections législatives de mardi ? Son dernier mandat a plus que jamais divisé la société israélienne et restera marqué par les attaques du 7-Octobre, sa gestion des conflits à Gaza, en Iran et au Liban, ainsi que par sa réforme judiciaire controversée.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261025-israel-bouclage-cisjordanie-occupee-fermeture-points-de-passage-elections-legislatives-netanyahu-hebron-palestiniens",
-            "publishedAt": "2026-10-25T07:27:28+00:00"
+            "url": "https://www.france24.com/fr/%C3%A9missions/focus/20261026-%C3%A9lections-en-isra%C3%ABl-un-scrutin-en-forme-de-r%C3%A9f%C3%A9rendum-pour-ou-contre-netanyahu",
+            "publishedAt": "2026-10-26T11:55:14+00:00"
           },
           {
-            "title": "À Tel-Aviv, des milliers de personnes manifestent contre Netanyahu à l'approche des élections",
-            "text": "À trois jours d'élections législatives qui s'annoncent serrées, des milliers de personnes ont manifesté à Tel-Aviv, samedi, contre le gouvernement du Premier ministre israélien, Benjamin Netanyahu, pour réclamer une commission d'enquête sur les failles sécuritaires ayant permis l'attaque du 7-Octobre.",
+            "title": "Législatives en Israël : face à Netanyahu, Eisenkot prône l'unité",
+            "text": "À la veille des législatives israéliennes, Gadi Eisenkot a promis dimanche de réconcilier un pays profondément divisé, tandis que son rival, le Premier ministre Benjamin Netanyahu, redoublait d'attaques contre l'opposition et recevait à nouveau le soutien de Donald Trump.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261024-des-milliers-de-personnes-contre-netanyahu-%C3%A0-tel-aviv-avant-les-%C3%A9lections",
-            "publishedAt": "2026-10-24T19:42:11+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261026-l%C3%A9gislatives-en-isra%C3%ABl-face-%C3%A0-netanyahu-eisenkot-pr%C3%B4ne-l-unit%C3%A9",
+            "publishedAt": "2026-10-26T09:17:01+00:00"
           }
         ],
         "sources": [
