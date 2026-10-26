@@ -49,3 +49,5 @@ if(fs.existsSync(path.join(built,'qg-radar.html'))){
 }
 
 const qgHelp=read('qg-radar.html');assert.equal((qgHelp.match(/<summary>Aide<\/summary>/g)||[]).length,1);assert.ok(!qgHelp.includes('class="qg-guide"'));assert.ok(!qgHelp.includes('<summary>Règles rapides</summary>'));assert.equal((qgHelp.match(/id="qg-tutorial-open"/g)||[]).length,1);assert.ok(!read('index.html').includes('news-photo-count'));assert.ok(!read('news-view.js').includes('news-photo-count'));
+
+const homeMethod=read('index.html'),aboutMethod=read('a-propos.html'),qgSummary=read('qg-radar.html');assert.equal((homeMethod.match(/id="methode"/g)||[]).length,1);assert.ok(homeMethod.includes('href="a-propos.html#methode"'));assert.ok(!homeMethod.includes('Radar : le site et sa méthode'));assert.ok(aboutMethod.includes('sans relecture')||aboutMethod.includes('ne correspond pas à une relecture humaine'));assert.ok(aboutMethod.includes('Un repère pour comprendre'));assert.ok(!qgSummary.includes('data-qg-brief'));assert.equal((qgSummary.match(/<summary>Bilan de la semaine<\/summary>/g)||[]).length,1);assert.ok(qgSummary.indexOf('id="qg-week-brief"')<qgSummary.indexOf('class="qg-scene-frame"'));

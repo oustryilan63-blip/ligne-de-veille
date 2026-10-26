@@ -17,10 +17,10 @@ c.window.RADAR_NEWS_VIEW.mount(c.window.LDV_NEWS,{dateLabel:d=>d,monthFormatter:
 async function test(){
  const grid=document.getElementById('news-grid'),archive=document.getElementById('archive-list'),details=document.getElementById('archive-details'),filter=document.getElementById('news-photos-only');
  assert.equal(grid.children.length,4);assert.equal(archive.children.length,0);
- const geo=document.getElementById('news-geopolitics'),all=document.getElementById('news-all-themes'),theme=document.getElementById('news-theme-filter');
- await geo.click();assert.equal(theme.value,'Géopolitique');assert.equal(geo.getAttribute('aria-pressed'),'true');assert.ok(grid.children.length>0);
+ const theme=document.getElementById('news-theme-filter');assert.equal(document.getElementById('news-geopolitics'),null);assert.equal(document.getElementById('news-all-themes'),null);assert.ok(theme.children.some(o=>o.value==='Cyber et espace'));assert.ok(theme.children.some(o=>o.value==='Autres'));
+ theme.value='Géopolitique';await theme.fire('change');assert.ok(grid.children.length>0);assert.equal(document.getElementById('news-filters-state').textContent,'Source et photo');
  for(const entry of grid.children)assert.equal(entry.querySelector('.news-theme-tag').textContent,'Géopolitique');
- await all.click();assert.equal(theme.value,'');assert.equal(grid.children.length,4);
+ for(const name of tools.themeNames){theme.value=name;await theme.fire('change');const matching=items.filter(i=>tools.themes(i).includes(name));assert.equal(grid.children.length,Math.min(12,matching.length));}theme.value='';await theme.fire('change');assert.equal(grid.children.length,4);
  for(const entry of grid.children)if(!entry.querySelector('img'))assert.ok(entry.querySelector('.news-card').classList.contains('news-card-text-only'));
  filter.checked=true;await filter.fire('change');assert.equal(grid.children.length,Math.min(12,photos.length));
  for(const entry of grid.children){const image=entry.querySelector('img');assert.ok(image);assert.equal(image.width,300);assert.equal(image.height,190);assert.equal(image.loading,'lazy');assert.equal(image.decoding,'async');assert.equal(entry.querySelector('.news-image-label').textContent,'Image de l’article');assert.ok(entry.querySelector('.news-image-credit'))}

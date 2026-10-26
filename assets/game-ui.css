@@ -388,3 +388,12 @@
 .play-page .quiz-level select{width:100%;min-width:0;max-width:100%;margin:0}
 .play-page .quiz-level #quiz-length{min-width:0}
 .play-page .quiz-level>p{flex-basis:100%}
+
+/* Un seul bilan : le brief précède la carte dans l'ordre de lecture. */
+.radar-play[data-game=qg] .qg-situation .qg-command{grid-column:2;grid-row:1}
+.radar-play[data-game=qg] .qg-situation .qg-scene-frame{grid-column:1;grid-row:1}
+@media(max-width:1000px){
+ .radar-play[data-game=qg] .qg-situation .qg-layout{display:grid;grid-template-columns:minmax(0,1fr)}
+ .radar-play[data-game=qg] .qg-situation .qg-command{grid-column:1;grid-row:1;min-width:0}
+ .radar-play[data-game=qg] .qg-situation .qg-scene-frame{grid-column:1;grid-row:2;min-width:0}
+}
