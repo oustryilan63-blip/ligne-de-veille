@@ -115,6 +115,12 @@ export function buildDiscovery(root,output){
       html=html.replace(/<body([^>]*)>/,(_,attrs)=>'<body'+(/class="/.test(attrs)?attrs.replace(/class="([^"]*)"/,(_,classes)=>'class="'+classes+' radar-visual"'):attrs+' class="radar-visual"')+'>');
       html=html.replace('</head>','<link rel="stylesheet" href="assets/radar-visual.css?v=2026102601"></head>');
     }
+    // Habillage des huit jeux uniquement ; aucune feuille partagée avec l'atlas.
+    const playPage=['jeux.html','devine-engin.html','zoom-mystere.html','chrono-defense.html','vrai-ou-faux.html','defi-du-jour.html','alerte-radar.html','qg-radar.html'].includes(file);
+    if(playPage&&!html.includes('href="assets/play-visual.css')){
+      html=html.replace(/<body([^>]*)>/,(_,attrs)=>'<body'+attrs.replace(/class="([^"]*)"/,(_,classes)=>'class="'+classes+' radar-play"')+'>');
+      html=html.replace('</head>','<link rel="stylesheet" href="assets/play-visual.css?v=2026102601"></head>');
+    }
     const title=text(html.match(/<title>([\s\S]*?)<\/title>/)?.[1]),desc=html.match(/<meta name="description" content="([^"]*)"/)?.[1]||'Radar : défense, sécurité et géopolitique.';
     const engine=E.find(e=>D.profileURL(e)===file),guide=C.guides.find(g=>'comprendre-'+g.slug+'.html'===file),preset=C.comparisons.find(p=>'comparatif-'+p.slug+'.html'===file);
     const image=engine?imageFor(engine).src:guide?.photo?.src?guide.photo.src:guide?.engins.length?imageFor(E[guide.engins[0]]).src:preset?imageFor(E[preset.a]).src:'assets/radar-partage.png';

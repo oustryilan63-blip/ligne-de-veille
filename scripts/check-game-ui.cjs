@@ -46,3 +46,10 @@ function progressScene(saved){
  await restored.host.querySelector('.progress-reset').querySelector('button').click();assert.equal(restored.api.snapshot().missed.length,0);assert.ok(restored.host.querySelector('.progress-empty'));assert.equal(restored.store.get('foreign'),'preserved');
  const hub=read('tous-les-jeux.html');assert.equal((hub.match(/class="game-tile"/g)||[]).length,8);assert.equal((hub.match(/href="devine-engin.html\?niveau=beginner"/g)||[]).length,1);assert.ok(hub.includes('sauvegarde.html'));console.log('Carnet : accueil utile sans faux records, scores réels, badges dépliables, restauration inchangée et remise à zéro limitée : OK.');
 })().catch(e=>{console.error(e);process.exitCode=1});
+
+// Le nouvel habillage est limité aux huit pages de jeu.
+const built=path.resolve(process.env.RADAR_DISCOVERY_TEST_OUTPUT||path.join(root,'_site-decouverte'));
+if(fs.existsSync(path.join(built,'qg-radar.html'))){
+ for(const page of pages){const html=fs.readFileSync(path.join(built,page),'utf8');assert.match(html,/<body[^>]*class="[^"]*\bradar-play\b/);assert.equal((html.match(/href="assets\/play-visual\.css\?v=2026102601"/g)||[]).length,1);}
+ for(const page of fs.readdirSync(built).filter(f=>f.endsWith('.html')&&!pages.includes(f))){assert.ok(!fs.readFileSync(path.join(built,page),'utf8').includes('play-visual.css'),'Habillage de jeu hors périmètre : '+page);}
+}
