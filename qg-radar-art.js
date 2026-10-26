@@ -1,23 +1,27 @@
 /* Illustrations Radar et animations décoratives, indépendantes des règles. */
 window.QG_ART=(()=>{
- const illustrations={};
- const ready=Promise.all(Object.entries({...window.QG_SPRITES,...(window.QG_TERRAIN?{terrain:window.QG_TERRAIN}:{})}).map(([id,src])=>new Promise(resolve=>{
-  if(typeof window.Image!=='function'){resolve();return;}
-  const image=new window.Image();
-  image.onload=()=>{if(image.naturalWidth&&image.naturalHeight)illustrations[id]=image;resolve();};
-  image.onerror=()=>resolve();image.src=src;
- })));
+ const illustrations={},sources={...window.QG_SPRITES,...(window.QG_TERRAIN?{terrain:window.QG_TERRAIN}:{})},requests=new Map(),listeners=new Set();
+ const ready=Promise.resolve();let repaintQueued=false;
+ function notify(){if(repaintQueued)return;repaintQueued=true;const paint=()=>{repaintQueued=false;for(const fn of listeners)fn();};if(typeof window.requestAnimationFrame==='function')window.requestAnimationFrame(paint);else Promise.resolve().then(paint);}
+ function imageFor(id){
+  if(illustrations[id])return illustrations[id];
+  if(!sources[id]||requests.has(id)||typeof window.Image!=='function')return null;
+  const image=new window.Image();requests.set(id,image);image.decoding='async';
+  image.onload=()=>{if(image.naturalWidth&&image.naturalHeight){illustrations[id]=image;notify();}};
+  image.onerror=()=>{};image.src=sources[id];return null;
+ }
+ function onReady(fn){listeners.add(fn);return ()=>listeners.delete(fn);}
  const colors={grass:'#88947a',edge:'#596d61',road:'#777c74',ink:'#243b41',light:'#e1dfc6',roof:'#b9bbaa',sea:'#284c59',foam:'#537b80',orange:'#cc7049'};
  const positions=window.QG_LAYOUT.buildings;
  function poly(c,points,color){c.fillStyle=color;c.beginPath();points.forEach(([x,y],i)=>i?c.lineTo(x,y):c.moveTo(x,y));c.closePath();c.fill();}
  function rect(c,x,y,w,h,color){c.fillStyle=color;c.fillRect(Math.round(x),Math.round(y),w,h);}
  function decoration(c,id,x,y,maxW,maxH){
-  const image=illustrations[id];if(!image)return false;
+  const image=imageFor(id);if(!image)return false;
   const factor=Math.min(maxW/image.naturalWidth,maxH/image.naturalHeight),w=image.naturalWidth*factor,h=image.naturalHeight*factor;
   c.save();c.imageSmoothingEnabled=true;c.imageSmoothingQuality='high';c.drawImage(image,x-w/2,y-h,w,h);c.restore();return true;
  }
- function sprite(c,id,x,y,scale=1){if(window.QG_SUPPORT_ART?.sprite(c,id,x,y,scale))return;if(!illustrations[id]&&['griffon','nh90','a400m'].includes(id))return sprite(c,{griffon:'caesar',nh90:'caracal',a400m:'rafale'}[id],x,y,scale);c.save();c.translate(Math.round(x),Math.round(y));c.scale(scale,scale);
-  const image=illustrations[id];
+ function sprite(c,id,x,y,scale=1){if(window.QG_SUPPORT_ART?.sprite(c,id,x,y,scale))return;const loaded=imageFor(id);if(!loaded&&['griffon','nh90','a400m'].includes(id))return sprite(c,{griffon:'caesar',nh90:'caracal',a400m:'rafale'}[id],x,y,scale);c.save();c.translate(Math.round(x),Math.round(y));c.scale(scale,scale);
+  const image=loaded;
   if(image){
    const factor=Math.min(105/image.naturalWidth,68/image.naturalHeight),w=image.naturalWidth*factor,h=image.naturalHeight*factor;
    c.imageSmoothingEnabled=true;c.imageSmoothingQuality='high';
@@ -101,7 +105,7 @@ window.QG_ART=(()=>{
  }
  function building(c,id,x,y,level,t=0,scale=1,preview=false){
   c.save();c.translate(Math.round(x),Math.round(y));c.scale(scale,scale);
-  const image=illustrations[id+'-'+level];
+  const image=imageFor(id+'-'+level);
   if(image){
    const orientation=window.QG_LAYOUT.alignment?.[id]||{shear:0,vertical:1};
    const factor=Math.min((preview?160:110)/image.naturalWidth,(preview?112:100)/(image.naturalHeight*orientation.vertical+image.naturalWidth*Math.abs(orientation.shear))),w=image.naturalWidth*factor,h=image.naturalHeight*factor;
@@ -186,7 +190,7 @@ window.QG_ART=(()=>{
  function scene(c,state,time=0,activities=[]){
   c.clearRect(0,0,720,440);rect(c,0,0,720,440,colors.sea);
   const project=(x,y)=>[350+(x-y)*26,74+(x+y)*14];
-  if(illustrations.terrain){c.save();c.imageSmoothingEnabled=true;c.imageSmoothingQuality="high";c.drawImage(illustrations.terrain,0,0,720,440);c.restore();}
+  const terrain=imageFor('terrain');if(terrain){c.save();c.imageSmoothingEnabled=true;c.imageSmoothingQuality="high";c.drawImage(terrain,0,0,720,440);c.restore();}
   else {
   for(let y=18;y<440;y+=21)for(let x=(y%3)*29;x<720;x+=77)rect(c,x+Math.round(Math.sin(time/2200+y)*3),y,20,1,colors.foam);
 
@@ -200,9 +204,9 @@ window.QG_ART=(()=>{
   for(const [id,p] of Object.entries(positions)){const [x,y]=project(...p);objects.push({depth:y+12,draw(){building(c,id,x,y,state.buildings[id],time);if(state.integrity?.[id]<100){poly(c,[[x+18,y-9],[x+24,y+2],[x+12,y+2]],'#ba795a');rect(c,x+17,y-5,2,4,'#efe1b9');rect(c,x+17,y,2,1,'#efe1b9');}}});}
   for(const [id,[x,y,scale]] of Object.entries(locations)){if(!state.units[id]||state.units[id].owned===false)continue;const active=activities.find(a=>a.id===id),a=active?pose(id,active.progress,active.kind):null;const deployed=state.content?.operation&&[state.content.operation.unit,state.content.operation.support].includes(id);if(deployed&&!active)continue;objects.push({depth:a&&a.lift>10?1000:y+(a?.y||0),draw(){if(active){activity(c,id,active.progress,active.kind,false,time);return;}sprite(c,id,x,y+(['fremm','suffren'].includes(id)?Math.sin(time/1600)*2:0),scale);}});}
   objects.sort((a,b)=>a.depth-b.depth).forEach(o=>o.draw());
-  if(illustrations.terrain){for(let i=0;i<5;i++){const x=530+i*32,y=396+Math.sin(time/1700+i)*2;poly(c,[[x,y],[x+15,y-1],[x+20,y],[x+4,y+1]],'#577e86');}}
+  if(terrain){for(let i=0;i<5;i++){const x=530+i*32,y=396+Math.sin(time/1700+i)*2;poly(c,[[x,y],[x+15,y-1],[x+20,y],[x+4,y+1]],'#577e86');}}
   // A small support vehicle travels along the central road.
   const phase=(time/1400)%16,progress=1.9+(phase<8?phase:16-phase),[vx,vy]=project(6,progress);if(!decoration(c,'support',vx,vy+3,27,22)){rect(c,vx-6,vy-7,12,7,'#e0c891');rect(c,vx-5,vy-6,4,3,'#496975');rect(c,vx-6,vy,3,3,'#203d41');rect(c,vx+3,vy,3,3,'#203d41');}
  }
- return {sprite,building,scene,ready,pose,activity};
+ return {sprite,building,scene,ready,onReady,pose,activity};
 })();

@@ -10,7 +10,7 @@ const suites = {
   histoire: ['check-histoire-loading.cjs', 'check-histoire-photos.cjs', 'check-histoire-3d.cjs'],
   actualites: ['check-news-images.cjs', 'check-news-validation.mjs', 'check-news-process.cjs'],
   conflits: ['check-conflicts.cjs'],
-  qg: ['check-qg-game.cjs', 'check-qg-management.cjs', 'check-qg-combat.cjs', 'check-qg-development.cjs', 'check-qg-theater.cjs', 'check-qg-operations.cjs'],
+  qg: ['check-qg-art.cjs', 'check-qg-game.cjs', 'check-qg-management.cjs', 'check-qg-combat.cjs', 'check-qg-development.cjs', 'check-qg-theater.cjs', 'check-qg-operations.cjs'],
   radar: ['check-radar-game.cjs', 'check-radar-geography.mjs'],
   publication: ['check-static-optimization.cjs', 'check-confiance.cjs'],
 };

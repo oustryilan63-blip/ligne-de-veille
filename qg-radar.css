@@ -94,3 +94,9 @@ body[data-game="qg"] .game-intro p{margin-bottom:18px;max-width:76ch}
 .qg-secondary-hud strong{font-size:19px;color:#2e4836}
 .qg-base-details .qg-supply-rail,.qg-base-details .qg-defense-bar{margin:0 18px 18px}
 @media(max-width:760px){.qg-shell .qg-tutorial-invite{gap:12px;padding:12px 14px}.qg-shell .qg-tutorial-invite strong{font-size:17px}.qg-shell .qg-tutorial-invite p{font-size:12px}.qg-shell .qg-tutorial-invite .button{padding:10px 12px;min-height:44px;font-size:12px}.qg-shell .qg-hud>div{padding:12px 9px}.qg-shell .qg-hud strong{font-size:22px}.qg-secondary-hud{flex-wrap:wrap;gap:14px}.qg-base-details .qg-supply-rail,.qg-base-details .qg-defense-bar{margin-inline:12px}}
+
+/* La prochaine décision est visible avant la carte. */
+.qg-shell>.qg-planning{margin:14px 0}
+.qg-shell>.qg-planning .qg-priority{border-left:3px solid #a86a46}
+.qg-shell>.qg-planning .qg-priority h3{font-size:22px}
+@media(max-width:600px){.qg-shell>.qg-planning .qg-priority{padding:16px}.qg-shell>.qg-planning .qg-priority h3{font-size:21px}}

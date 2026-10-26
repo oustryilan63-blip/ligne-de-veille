@@ -31,13 +31,14 @@
   $('qg-tutorial-title').focus();dialog.scrollTop=0;
  }
  function paintArt(){
+  if(!dialog.open)return;
   const step=steps[index],s=(tried.has(index)?after[index]?.state:null)||before[index];
   const canvas=$('qg-tutorial-art'),c=canvas.getContext('2d');c.clearRect(0,0,320,160);c.imageSmoothingEnabled=false;
   if(E.buildings.some(b=>b.id===step.art))window.QG_ART.building(c,step.art,160,116,s.buildings[step.art],0,1.2,true);
   else window.QG_ART.sprite(c,step.art,160,100,1.65);
   canvas.setAttribute('aria-label',E.units.find(u=>u.id===step.art)?.name||E.buildings.find(b=>b.id===step.art)?.name||'Base Radar');
  }
- window.QG_ART.ready?.then(paintArt);
+ if(window.QG_ART.onReady)window.QG_ART.onReady(paintArt);else window.QG_ART.ready?.then(paintArt);
  function open(){opener=document.activeElement;index=0;tried=new Set();dialog.showModal();render();}
  $('qg-tutorial-open').addEventListener('click',open);$('qg-tutorial-close').addEventListener('click',close);
  dialog.addEventListener('cancel',()=>{seen();});
