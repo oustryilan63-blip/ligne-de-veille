@@ -125,3 +125,10 @@ for(const query of ['Namibie','Mulberry','Queen Bee','Berlin Plus','pergélisol'
 if(fs.existsSync(path.join(output,'404.html'))){const html=fs.readFileSync(path.join(output,'404.html'),'utf8');assert.match(html,/noindex,follow/);assert.match(html,/On a perdu le signal/);for(const [,url]of html.matchAll(/(?:href|src)="([^"#]+)"/g))assert.ok(/^https:\/\//.test(url),'404 : ressource relative '+url);assert.ok(!fs.readFileSync(path.join(output,'sitemap.xml'),'utf8').includes('/404.html'));}
 
 if(fs.existsSync(path.join(output,'comprendre.html')))for(const guide of C.guides){const html=fs.readFileSync(path.join(output,'comprendre-'+guide.slug+'.html'),'utf8');assert.ok(html.includes('<details class="learning-toc"><summary>Sommaire du dossier</summary>'));assert.ok(!html.includes('class="discovery-diagram"'));for(let n=0;n<guide.sections.length;n++)assert.ok(html.includes('id="repere-'+(n+1)+'"'),'Le texte reste présent : '+guide.slug);assert.ok(html.includes('id="contexte-historique"'));assert.ok(html.includes('id="quiz-title"'));}
+
+// La nouvelle présentation ne doit jamais entrer dans l'atlas, ses fiches ou le QG.
+if(fs.existsSync(path.join(output,'comprendre.html'))){
+ const styled=['index.html','comprendre.html','tous-les-jeux.html','recherche.html',...C.guides.map(g=>'comprendre-'+g.slug+'.html')];
+ for(const file of styled){const html=fs.readFileSync(path.join(output,file),'utf8');assert.match(html,/<body[^>]*class="[^"]*\bradar-visual\b/);assert.match(html,/href="assets\/radar-visual\.css\?v=2026102601"/);}
+ for(const file of fs.readdirSync(output).filter(f=>/^(fiche-|comparatif-|variantes-)/.test(f)||['histoire.html','collection.html','comparateur.html','qg-radar.html'].includes(f))){const html=fs.readFileSync(path.join(output,file),'utf8');assert.ok(!html.includes('radar-visual'),'Style hors périmètre : '+file);}
+}
