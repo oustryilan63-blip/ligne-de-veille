@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-25T17:13:38.294982+00:00",
+  "checkedAt": "2026-10-26T07:38:52.072415+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -45,7 +45,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-25T17:13:43.883924+00:00",
+        "checkedAt": "2026-10-26T07:39:02.790882+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -92,9 +92,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-25T17:13:43.883924+00:00",
+        "checkedAt": "2026-10-26T07:39:02.790882+00:00",
         "updatedAt": "2026-10-25T17:13:43.883924+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Défense: l'armement et le désarmement en Turquie, Taïwan et Afrique du Sud",
@@ -163,9 +163,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-25T17:13:43.883924+00:00",
+        "checkedAt": "2026-10-26T07:39:02.790882+00:00",
         "updatedAt": "2026-10-25T17:13:43.883924+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Israël bouclera la Cisjordanie occupée et fermera tous les points de passage lors des législatives",
