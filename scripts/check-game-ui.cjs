@@ -29,3 +29,20 @@ for(let i=1;i<=120;i++){const pending=callbacks;callbacks=[];pending.forEach(fn=
 console.log('Jeux : filtres 8/3/2, raccourcis clavier sans saisie ni double réponse, focus suivant, 8 menus cohérents, cadence graphique bornée et durées conservées : OK.');
 
 for(const file of ['assets/game-ui.js','jeux.js','devine-engin.js','arcade.js']){const source=read(file),helper=source.match(/const scrollBehavior=([^;]+);/)[0];for(const reduced of [true,false]){const c={matchMedia:()=>({matches:reduced})};vm.createContext(c);vm.runInContext(helper+'result=scrollBehavior()',c);assert.equal(c.result,reduced?'auto':'smooth',file);}}
+
+// The dashboard offers a useful first action, then shows only actual records.
+function progressScene(saved){
+ const document=createDOM(''),host=document.createElement('section');host.id='progression';document.body.append(host);
+ const store=new Map([['foreign','preserved']]);if(saved)store.set('ldv-progression-v1',saved);
+ const context={document,window:{addEventListener(){}},localStorage:{getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v)},location:{reload(){}}};
+ vm.runInNewContext(read('progression.js'),context);return {document,host,store,api:context.window.LDV_PROGRESS};
+}
+(async()=>{
+ const fresh=progressScene();assert.ok(fresh.host.querySelector('.progress-empty'));assert.equal(fresh.host.querySelectorAll('.progress-records').length,0);assert.equal(fresh.host.querySelectorAll('.progress-summary').length,0);assert.equal(fresh.host.querySelector('a').href,'#select-title');assert.equal(fresh.store.has('ldv-progression-v1'),false,'Consultation seule : aucune écriture');
+ fresh.api.answer('recognition','Rafale',false,'Rafale');assert.equal(fresh.host.querySelectorAll('.progress-records').length,0,'Une réponse isolée ne crée pas un faux record');fresh.api.complete('recognition',4,5,'Facile');
+ assert.equal(fresh.host.querySelectorAll('.progress-empty').length,0);assert.equal(fresh.host.querySelector('.progress-records').children.length,1);assert.ok(fresh.host.querySelector('.progress-records').textContent.includes('4/5'));assert.ok(!fresh.host.querySelector('.progress-achievements').open);assert.equal(fresh.api.missed().length,1);
+ const snapshot=JSON.stringify(fresh.api.snapshot()),restored=progressScene(snapshot);assert.equal(JSON.stringify(restored.api.snapshot()),snapshot);assert.equal(restored.host.querySelector('.progress-records').children.length,1);assert.equal(restored.store.get('foreign'),'preserved');
+ restored.api.complete('pays',5,5,'Normal');assert.equal(restored.host.querySelector('.progress-records').children.length,2);assert.equal(restored.api.snapshot().games.recognition.best.score,4);
+ await restored.host.querySelector('.progress-reset').querySelector('button').click();assert.equal(restored.api.snapshot().missed.length,0);assert.ok(restored.host.querySelector('.progress-empty'));assert.equal(restored.store.get('foreign'),'preserved');
+ const hub=read('tous-les-jeux.html');assert.equal((hub.match(/class="game-tile"/g)||[]).length,8);assert.equal((hub.match(/href="devine-engin.html\?niveau=beginner"/g)||[]).length,1);assert.ok(hub.includes('sauvegarde.html'));console.log('Carnet : accueil utile sans faux records, scores réels, badges dépliables, restauration inchangée et remise à zéro limitée : OK.');
+})().catch(e=>{console.error(e);process.exitCode=1});
