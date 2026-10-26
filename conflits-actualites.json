@@ -16,7 +16,7 @@
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-10-23T06:18:11.862903+00:00",
+      "changedAt": "2026-10-26T07:38:52.072415+00:00",
       "items": [
         {
           "title": "L’armée ukrainienne revendique la première évacuation d’un soldat blessé par un drone aérien",
@@ -27,19 +27,19 @@
           "language": "fr"
         },
         {
-          "title": "How much has France given to Ukraine?",
-          "url": "https://www.revueconflits.com/how-much-has-france-given-to-ukraine/",
-          "source": "Revue Conflits",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-10-17T15:56:49+00:00",
-          "language": "fr"
-        },
-        {
           "title": "Combien la France a-t-elle donné à l’Ukraine ?",
           "url": "https://www.revueconflits.com/combien-la-france-a-t-elle-donne-a-lukraine/",
           "source": "Revue Conflits",
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-10-17T13:23:08+00:00",
+          "language": "fr"
+        },
+        {
+          "title": "L’échec du cessez-le-feu pétrolier en Ukraine",
+          "url": "https://www.revueconflits.com/lechec-du-cessez-le-feu-petrolier-en-ukraine/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-10-17T05:00:02+00:00",
           "language": "fr"
         }
       ],

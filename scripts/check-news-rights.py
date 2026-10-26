@@ -48,3 +48,8 @@ assert find_article_image(allowed,no_main,news.clean,news.clip) is None,'Pas de 
 unknown={'url':'https://unknown.example/article','title':'Source non configurée'}
 assert find_article_image(unknown,permitted_request,news.clean,news.clip) is None
 print('Licences individuelles, autorisations confirmées, crédits conservés, logos et images secondaires exclus : OK')
+
+long_credit=('Une légende descriptive fournie par l’éditeur avec des précisions sur la photographie. '*4)+'AP Photo / Auteur Complet'
+long_body=f'<meta property="og:image" content="{main}"><figure><img src="{main}"><figcaption>Photo : {long_credit}</figcaption></figure>'
+def long_request(url,**kw):return b'\xff\xd8\xfftest' if url==main else long_body.encode()
+assert find_article_image(allowed,long_request,news.clean,news.clip)['credit']==long_credit,'Le crédit complet ne doit jamais être coupé'

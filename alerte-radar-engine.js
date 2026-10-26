@@ -16,7 +16,7 @@
  }
  const tracks=s=>s.waves[s.wave].tracks;
  const visible=(s,t)=>s.elapsed>=t.spawn;
- function resolve(s,t,ok,damage=false){if(t.resolved)return;t.resolved=true;s.score+=ok?10:0;if(damage)s.integrity=Math.max(0,s.integrity-1);s.records.push({key:s.wave+'-'+t.id,kind:t.kind,friend:t.friend,ok,label:t.name});}
+ function resolve(s,t,ok,damage=false){if(t.resolved)return;t.resolved=true;s.score+=ok?10:0;if(damage)s.integrity=Math.max(0,s.integrity-1);s.records.push({key:s.wave+'-'+t.id,reviewKey:t.kind+'-'+(t.friend?'friend':'hostile')+'-'+t.name,kind:t.kind,friend:t.friend,ok,label:t.name});}
  function check(s){if(s.integrity<=0||tracks(s).every(t=>t.resolved)||s.elapsed>=s.waves[s.wave].duration){for(const t of tracks(s))if(!t.resolved)resolve(s,t,t.friend&&t.stage===2&&!t.escortNeeded,!t.friend);s.phase='between';}}
  function start(s){s.phase='active';s.elapsed=0;s.ready={air:0,missile:0,naval:0};}
  function inspect(s,id){const t=tracks(s).find(t=>t.id===id);if(s.phase!=='active'||!t||t.resolved||!visible(s,t))return 'Cette piste n’est pas disponible.';t.stage=Math.max(t.stage,s.boost?2:1);return t.stage===2?t.name+' · '+(t.friend?'amie':'hostile')+'.':t.clue+' Confirme son identité.';}

@@ -5,7 +5,8 @@ const wpAsset=raw=>{const u=new URL(raw);u.search='';u.hash='';u.pathname=u.path
 export function validateImage(item){
   const image=item.image;if(!image)return;
   if(image.kind!=='article'||image.sourceUrl!==item.url)throw new Error('La photo doit appartenir à la publication');
-  for(const k of ['alt','credit','license'])if(typeof image[k]!=='string'||!image[k].trim()||image[k].length>240)throw new Error('Métadonnées de photo invalides');
+  for(const k of ['alt','credit','license'])if(typeof image[k]!=='string'||!image[k].trim()||image[k].length>(k==='credit'?4000:240))throw new Error('Métadonnées de photo invalides');
+  if(image.caption!==undefined&&(typeof image.caption!=='string'||image.caption.length>4000))throw new Error('Légende de photo invalide');
   const provider=image.provider||'gov-uk',article=new URL(item.url);
   if(provider==='publisher-permission'){
     const grant=policy.publisherPermission;

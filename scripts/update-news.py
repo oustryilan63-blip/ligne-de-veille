@@ -94,6 +94,14 @@ def source_excerpt(entry):
     if len(words) > 20: excerpt += '…'
     return {'text': excerpt, 'kind': 'feed-excerpt'}
 
+def article_language(entry, categories, source):
+    for category, language in source.get('languageCategories', {}).items():
+        if headline_key(category) in {headline_key(c) for c in categories}: return language
+    raw = entry.get('{http://www.w3.org/XML/1998/namespace}lang') or child_text(entry, ('language',))
+    language = re.split(r'[-_]', raw.lower())[0] if raw else ''
+    return language if language in ('fr', 'en') else source['language']
+
+
 def parse_feed(data, source, now):
     if b'<!DOCTYPE' in data.upper() or b'<!ENTITY' in data.upper(): raise ValueError('XML avec déclaration externe refusé')
     tree = ET.fromstring(data)
@@ -117,7 +125,7 @@ def parse_feed(data, source, now):
         try: url = canonical(raw_url, source)
         except ValueError: continue
         if source.get('pathPrefix') and not urllib.parse.urlsplit(url).path.startswith(source['pathPrefix']): continue
-        item = {'date':published.astimezone(PARIS).date().isoformat(),'publishedAt':published.isoformat(),'source':source['name'],'sourceType':source['type'],'title':title,'url':url,'language':source['language'],'autoCollected':True,'summary':'Publication repérée dans le flux de '+source['name']+'. Consultez le site d’origine pour lire le contenu complet.','why':'Document original accessible chez son éditeur ; titre et date transmis par son flux.'}
+        item = {'date':published.astimezone(PARIS).date().isoformat(),'publishedAt':published.isoformat(),'source':source['name'],'sourceType':source['type'],'title':title,'url':url,'language':article_language(entry,categories,source),'autoCollected':True,'summary':'Publication repérée dans le flux de '+source['name']+'. Consultez le site d’origine pour lire le contenu complet.','why':'Document original accessible chez son éditeur ; titre et date transmis par son flux.'}
         if categories: item['publisherCategories'] = categories[:12]
         if source.get('topics'): item['themes'] = source['topics']
         excerpt = source_excerpt(entry) if 'conflits' not in source['name'].casefold() else None
@@ -175,7 +183,7 @@ def main():
             if saved and saved.get('autoCollected') and item.get('sourceExcerpt'):
                 saved['sourceExcerpt'] = item['sourceExcerpt']
             if saved and saved.get('autoCollected'):
-                for field in ('themes', 'publisherCategories'):
+                for field in ('themes', 'publisherCategories', 'language'):
                     if item.get(field): saved[field] = item[field]
         # Keep sources balanced and omit identical headlines from the recent week.
         selected,duplicates=fresh_candidates(items,urls,headlines,min(5,max(1,int(source.get('maxItems',2)))))

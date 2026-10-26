@@ -14,6 +14,7 @@ import urllib.parse
 from conflict_digests import collect_digests
 
 ROOT = Path(__file__).resolve().parent.parent
+TRANSLATIONS = json.loads(Path(__file__).with_name('news-translations.json').read_text(encoding='utf-8'))
 TOPICS = {
     'ukraine-guerre-enjeux': r'\bukrain\w*\b',
     'taiwan-detroit-tensions': r'\b(?:taiwan\w*|pratas|kinmen|pescadores)\b',
@@ -69,7 +70,12 @@ def refresh(news, sources, previous, now):
     topics = {}
     for slug, pattern in TOPICS.items():
         items, seen, counts = [], set(), {}
-        for item in candidates:
+        eligible = [i for i in candidates if re.search(pattern, folded(i['title']))]
+        urls = {i['url'] for i in eligible}
+        alternates = {m['url'] for group in TRANSLATIONS if group['preferredUrl'] in urls
+                      for m in group['members'] if m['url'] != group['preferredUrl']}
+        for item in eligible:
+            if item['url'] in alternates: continue
             title_key = re.sub(r'\W+', '', folded(item['title']))
             if not re.search(pattern, folded(item['title'])) or item['url'] in seen or title_key in seen:
                 continue

@@ -3,12 +3,12 @@
  'use strict';
  const KEY='radar-external-consent-v1',LIFE=180*24*60*60*1000;
  const gameKeys=new Set(['ldv-progression-v1','radar-collection-v1','radar-qg-campaign-v1','radar-qg-training-content-v1','radar-qg-tutorial-seen-v1']);
- let memory=null,dialog=null,pending=null,opener=null;
+ let memory=null,storageFailed=false,dialog=null,pending=null,opener=null;
  const make=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n};
- function record(){let raw=memory;try{const saved=localStorage.getItem(KEY);if(saved)raw=JSON.parse(saved);}catch{}return raw&&raw.version===1&&['accepted','refused'].includes(raw.choice)&&Number.isFinite(raw.expiresAt)&&raw.expiresAt>Date.now()?raw:null;}
+ function record(){let raw=memory;if(!raw)try{const saved=localStorage.getItem(KEY);if(saved)raw=JSON.parse(saved);}catch{}return raw&&raw.version===1&&['accepted','refused'].includes(raw.choice)&&Number.isFinite(raw.expiresAt)&&raw.expiresAt>Date.now()?raw:null;}
  const choice=()=>record()?.choice||null;
- function update(){const status=document.getElementById('privacy-choice-state');if(status)status.textContent=choice()==='accepted'?'Lecteurs Sketchfab autorisés sur ce navigateur.':choice()==='refused'?'Lecteurs Sketchfab refusés sur ce navigateur.':'Aucun choix enregistré pour les lecteurs Sketchfab.';}
- function set(value){if(!['accepted','refused'].includes(value))throw Error('Préférence inconnue.');memory={version:1,choice:value,createdAt:Date.now(),expiresAt:Date.now()+LIFE};let saved=true;try{localStorage.setItem(KEY,JSON.stringify(memory));}catch{saved=false;}update();window.dispatchEvent(new CustomEvent('radar-privacy-change'));return saved;}
+ function update(){const status=document.getElementById('privacy-choice-state');if(status)status.textContent=choice()==='accepted'?'Lecteurs Sketchfab autorisés sur ce navigateur.':choice()==='refused'?'Lecteurs Sketchfab refusés sur ce navigateur.':'Aucun choix enregistré pour les lecteurs Sketchfab.';if(status&&storageFailed)status.textContent+=' Ce choix s’applique à cette page, mais le navigateur n’a pas pu le mémoriser.';}
+ function set(value){if(!['accepted','refused'].includes(value))throw Error('Préférence inconnue.');memory={version:1,choice:value,createdAt:Date.now(),expiresAt:Date.now()+LIFE};let saved=true;try{localStorage.setItem(KEY,JSON.stringify(memory));}catch{saved=false;}storageFailed=!saved;update();let notice=document.getElementById('privacy-storage-state');if(!saved&&!notice){notice=make('p','wrap trust-small');notice.id='privacy-storage-state';notice.setAttribute('role','status');document.body.append(notice);}if(notice)notice.textContent=saved?'':'Votre choix Sketchfab est appliqué à cette page. Le navigateur n’a pas pu le mémoriser pour la prochaine visite.';window.dispatchEvent(new CustomEvent('radar-privacy-change'));return saved;}
  function link(text,href){const a=make('a','',text);a.href=href;a.target='_blank';a.rel='noopener noreferrer';return a;}
  function close(){pending=null;dialog.close();opener?.focus();}
  function modal(){if(dialog)return;dialog=make('dialog','privacy-dialog');dialog.id='privacy-dialog';dialog.setAttribute('aria-labelledby','privacy-dialog-title');const title=make('h2','','Ouvrir le lecteur Sketchfab ?');title.id='privacy-dialog-title';
@@ -24,7 +24,7 @@
  function ownKey(key){return gameKeys.has(key)||/^ldv-defi-\d{4}-\d{2}-\d{2}$/.test(key)||key===KEY;}
  function erase(storage=localStorage){const keys=[];for(let i=0;i<storage.length;i++){const key=storage.key(i);if(ownKey(key))keys.push(key)}let failed=0;for(const key of keys)try{storage.removeItem(key)}catch{failed++;}memory=null;try{sessionStorage.removeItem('radar-import-done')}catch{}update();window.dispatchEvent(new CustomEvent('radar-privacy-change'));return {removed:keys.length-failed,failed};}
  window.RADAR_PRIVACY=Object.freeze({choice,request,set,erase,ownKey});
- window.addEventListener('storage',e=>{if(e.key===KEY){memory=null;update();window.dispatchEvent(new CustomEvent('radar-privacy-change'));}});
+ window.addEventListener('storage',e=>{if(e.key===KEY&&!storageFailed){memory=null;update();window.dispatchEvent(new CustomEvent('radar-privacy-change'));}});
  document.getElementById('privacy-allow')?.addEventListener('click',()=>request(update));
  document.getElementById('privacy-refuse')?.addEventListener('click',()=>set('refused'));
  const deletion=document.getElementById('privacy-delete-dialog'),status=document.getElementById('privacy-delete-status');

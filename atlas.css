@@ -1,9 +1,9 @@
 /* Direction graphique « Atlas stratégique » : chargée après les styles du site. */
-@font-face{font-family:'IBM Plex Sans';src:url('assets/fonts/atlas/plex-sans-regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
-@font-face{font-family:'IBM Plex Sans';src:url('assets/fonts/atlas/plex-sans-semibold.ttf') format('truetype');font-style:normal;font-weight:600;font-display:swap}
-@font-face{font-family:'IBM Plex Sans Condensed';src:url('assets/fonts/atlas/plex-condensed-semibold.ttf') format('truetype');font-style:normal;font-weight:600;font-display:swap}
-@font-face{font-family:'IBM Plex Sans Condensed';src:url('assets/fonts/atlas/plex-condensed-bold.ttf') format('truetype');font-style:normal;font-weight:700;font-display:swap}
-@font-face{font-family:'IBM Plex Mono';src:url('assets/fonts/atlas/plex-mono-medium.ttf') format('truetype');font-style:normal;font-weight:500;font-display:swap}
+@font-face{font-family:'IBM Plex Sans';src:url('assets/fonts/atlas/plex-sans-regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'IBM Plex Sans';src:url('assets/fonts/atlas/plex-sans-semibold.woff2') format('woff2');font-style:normal;font-weight:600;font-display:swap}
+@font-face{font-family:'IBM Plex Sans Condensed';src:url('assets/fonts/atlas/plex-condensed-semibold.woff2') format('woff2');font-style:normal;font-weight:600;font-display:swap}
+@font-face{font-family:'IBM Plex Sans Condensed';src:url('assets/fonts/atlas/plex-condensed-bold.woff2') format('woff2');font-style:normal;font-weight:700;font-display:swap}
+@font-face{font-family:'IBM Plex Mono';src:url('assets/fonts/atlas/plex-mono-medium.woff2') format('woff2');font-style:normal;font-weight:500;font-display:swap}
 
 :root{--ink:#172126;--ink2:#263438;--muted:#5d6968;--paper:#eeefe9;--white:#fbfcf7;--line:#c8cec6;--accent:#bd5538;--dark:#142025;--serif:'IBM Plex Sans Condensed',Impact,sans-serif;--sans:'IBM Plex Sans',Arial,sans-serif;--mono:'IBM Plex Mono',Consolas,monospace}
 html{scroll-behavior:smooth}

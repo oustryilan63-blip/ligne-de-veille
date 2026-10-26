@@ -51,8 +51,9 @@
         if(visual){
           const media=make('span','news-media'),img=make('img','news-thumb'),badge=make('span','news-image-label','Image de l’article');
           img.alt=visual.alt;img.width=300;img.height=190;img.loading='lazy';img.decoding='async';img.referrerPolicy='no-referrer';img.src=visual.src;media.append(img,badge);card.append(media);
-          const credit=make('div','news-image-credit'),sourceLink=make('a','',visual.credit);sourceLink.href=visual.rightsUrl||visual.sourceUrl;sourceLink.target='_blank';sourceLink.rel='noopener noreferrer';credit.append(sourceLink);
+          const credit=make('div','news-image-credit'),sourceLink=make('a','',visual.credit.length>180?'Source de la photographie':visual.credit);sourceLink.href=visual.rightsUrl||visual.sourceUrl;sourceLink.target='_blank';sourceLink.rel='noopener noreferrer';credit.append(sourceLink);
           if(visual.licenseUrl){const licenseLink=make('a','',visual.license);licenseLink.href=visual.licenseUrl;licenseLink.target='_blank';licenseLink.rel='noopener noreferrer';credit.append(document.createTextNode(' · '),licenseLink)}
+          if(visual.caption||visual.credit.length>180){const details=make('details','news-credit-details'),summary=make('summary','','Crédit et légende de l’éditeur');details.append(summary,make('p','',visual.caption||visual.credit));credit.append(details);}
           img.addEventListener('error',()=>{media.remove();credit.remove();card.classList.add('news-card-text-only')},{once:true});card.append(main,arrow);entry.append(card,credit);
         }else{card.classList.add('news-card-text-only');card.append(main,arrow);entry.append(card)}
         if(matches.length){const links=make('div','news-related');links.setAttribute('aria-label','À explorer dans l’atlas');links.append(make('span','','Dans l’atlas :'));for(const {e,i}of matches){const a=make('a','',e.name+' →');a.href='histoire.html?engin='+i;links.append(a)}entry.append(links)}

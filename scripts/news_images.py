@@ -147,7 +147,7 @@ def individual_image(item,request,clean,clip):
             credit=obj.get('creditText') or (owner.get('name') if isinstance(owner,dict) else owner)
             if not license_url or not isinstance(credit,str) or not credit.strip():continue
             credit=clean(credit)
-            if len(credit)>240 or any(s in credit.casefold() for s in ('getty','reuters','shutterstock','adobe stock','sipa')):continue
+            if len(credit)>4000 or any(s in credit.casefold() for s in ('getty','reuters','shutterstock','adobe stock','sipa')):continue
             if not jpeg_checked(lead,request):continue
             label='CC0' if '/zero/' in license_url else 'Domaine public' if '/mark/' in license_url else 'Creative Commons'
             return record(item,lead,clip(clean(obj.get('caption') or article.metas.get('og:image:alt')),240),credit,label,license_url,'individual-cc',item['url'],'image-specific-license')
@@ -226,7 +226,7 @@ def publisher_permission_image(item,request,clean,clip):
         parent=image_node.parent
         for _ in range(4):
             if not parent:break
-            captions=[n.text() for n in nodes(parent) if n.tag=='figcaption' and len(n.text())<=500]
+            captions=[n.text() for n in nodes(parent) if n.tag=='figcaption' and len(n.text())<=4000]
             for caption in captions:
                 found=re.search(r'(?:©|(?:[Pp]hoto(?:graph)?|[Ii]mage|[Pp]icture|[Cc]redit)\s*(?:by|credit|:))\s*([^\[\n]+)',caption)
                 if not found:found=re.search(r'([^.!?]+?)\s+photograph\.?$',caption,re.I)
@@ -236,7 +236,7 @@ def publisher_permission_image(item,request,clean,clip):
     if not credit:
         for n in nodes(article.root):
             text=n.text()
-            if n.tag not in ('p','figcaption','small','span','em') or len(text)>300:continue
+            if n.tag not in ('p','figcaption','small','span','em') or len(text)>4000:continue
             found=re.match(r'^(?:Photo(?:graphie)?s?|Cr[ée]dits?)\s*(?::|©)\s*(.+)',text,re.I)
             if found and found[1].strip():credit=clean(found[1]);break
     if not credit:
@@ -244,9 +244,9 @@ def publisher_permission_image(item,request,clean,clip):
             for obj in json_objects(value):
                 if obj.get('@type')!='ImageObject' or absolute_image(obj.get('contentUrl') or obj.get('url'),item['url'])!=primary:continue
                 owner=obj.get('creator') or obj.get('copyrightHolder')
-                candidate=obj.get('creditText') or (owner.get('name') if isinstance(owner,dict) else owner)
+                candidate=obj.get('creditText') or (owner.get('name') if isinstance(owner,dict) else owner) or obj.get('caption')
                 if isinstance(candidate,str):credit=clean(candidate);break
-    credit=clip(credit or 'Crédit non indiqué par l’éditeur',240)
+    credit=credit or 'Crédit non indiqué par l’éditeur'
     alt=clean(image_node.attrs.get('alt') or image_node.attrs.get('title')) if image_node else ''
     image=record(item,src,clip(alt or 'Image principale de l’article « '+item['title']+' ».',240),credit,permission['license'],permission['licenseUrl'],'publisher-permission',item['url'],'user-confirmed-publisher-permission')
     image['assetUrl']=primary;image['permissionConfirmedAt']=permission['confirmedAt']

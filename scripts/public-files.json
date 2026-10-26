@@ -97,7 +97,13 @@
     "assets/radar/france.svg",
     "assets/histoire/photos/082-2.webp",
     "assets/histoire/photos/093-1.webp",
-    "assets/actualites/"
+    "assets/actualites/",
+    "assets/jeu/ajouts/serie-5/df41.png",
+    "assets/fonts/atlas/plex-condensed-bold.ttf",
+    "assets/fonts/atlas/plex-condensed-semibold.ttf",
+    "assets/fonts/atlas/plex-mono-medium.ttf",
+    "assets/fonts/atlas/plex-sans-regular.ttf",
+    "assets/fonts/atlas/plex-sans-semibold.ttf"
   ],
   "excludedExtensions": [
     ".md"

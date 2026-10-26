@@ -1,3 +1,4 @@
+const scrollBehavior=()=>typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth';
 const QUESTIONS = window.LDV_ENGINS;
 const mapData = window.LDV_MAP;
 const svg = document.querySelector('#world-map');
@@ -137,7 +138,7 @@ function finishRound(won) {
   document.querySelector('#next-question').firstChild.textContent = round === deck.length - 1 ? 'Voir mon résultat ' : 'Question suivante ';
   answerPanel.classList.toggle('missed', !won);
   answerPanel.hidden = false;
-  answerPanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  answerPanel.scrollIntoView({ behavior:scrollBehavior(), block: 'nearest' });
 }
 
 function guess(code) {
@@ -374,7 +375,7 @@ if (Array.isArray(mapData) && mapData.length) {
     round += 1;
     if (round < deck.length) {
       startRound();
-      challenge.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      challenge.scrollIntoView({ behavior:scrollBehavior(), block: 'start' });
     } else {
       challenge.hidden = true;
       mapPanel.hidden = true;
@@ -383,12 +384,12 @@ if (Array.isArray(mapData) && mapData.length) {
       document.querySelector('#final-score').textContent = `Tu as trouvé ${found} engin${found > 1 ? 's' : ''} sur ${deck.length} et obtenu ${points} point${points > 1 ? 's' : ''}. Meilleure série : ${bestStreak}. Indices utilisés : ${hintsUsed}.`;
       window.LDV_PROGRESS?.complete('pays',points,deck.length*maxAttempts(),quizSettings.label()+' · '+deck.length+' questions · '+(quizSettings.config.scope==='collection'?'Ma collection':selectedCategory));
       gameEnd.hidden = false;
-      gameEnd.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      gameEnd.scrollIntoView({ behavior:scrollBehavior(), block: 'center' });
     }
   });
   document.querySelector('#play-again').addEventListener('click', () => {
     startGame();
-    challenge.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    challenge.scrollIntoView({ behavior:scrollBehavior(), block: 'start' });
   });
 } else {
   setFeedback('La carte est indisponible. Recharge la page pour commencer.', 'error');

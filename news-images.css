@@ -95,3 +95,5 @@
  .news-section #news-grid.is-compact .news-entry .news-main strong{font-size:20px;line-height:1.32}
  .news-empty{padding:28px 18px}
 }
+
+.news-credit-details{display:block;flex-basis:100%;max-width:75ch;margin-top:.4rem}.news-credit-details summary{cursor:pointer;text-decoration:underline;text-underline-offset:.2em}.news-credit-details p{margin:.5rem 0;overflow-wrap:anywhere;line-height:1.5}

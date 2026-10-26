@@ -1,4 +1,6 @@
 (() => {
+  const scrollBehavior=()=>typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth';
+
   const game = document.body.dataset.game;
   if (!game) return;
   const $ = id => document.getElementById(id);
@@ -66,7 +68,7 @@
     }
     text('arcade-next', nextLabel);
     panel.hidden = false;
-    panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    panel.scrollIntoView({ behavior:scrollBehavior(), block: 'nearest' });
   }
   function choiceButtons(names, onChoose) {
     const box = $('arcade-choices');
@@ -105,7 +107,7 @@
     show('arcade-play', false); show('arcade-result', false); show('arcade-end', true);
     text('arcade-end-copy', message);
     show('arcade-restart', replay);
-    $('arcade-end').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    $('arcade-end').scrollIntoView({ behavior:scrollBehavior(), block: 'center' });
   }
 
   if (game === 'zoom') {

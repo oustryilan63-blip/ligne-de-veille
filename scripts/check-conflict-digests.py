@@ -99,5 +99,16 @@ class DigestTests(unittest.TestCase):
         result=compose({},[(SOURCE,parsed,None)],NOW,lambda url:True)
         self.assertEqual(len(result[UK]['paragraphs']),2)
 
+    def test_retained_summaries_expire_after_fourteen_days(self):
+        parsed=parse_feed(item('Ukraine : diplomatie','Les représentants ukrainiens et leurs partenaires discutent des conditions de sécurité et des perspectives de paix.'),SOURCE,NOW)
+        first=compose({},[(SOURCE,parsed,None)],NOW,lambda url:True)
+        previous={slug:{'digest':digest} for slug,digest in first.items()}
+        published=dt.datetime.fromisoformat(parsed[0]['publishedAt'])
+        boundary=compose(previous,[(SOURCE,[],'timeout')],published+dt.timedelta(days=14),lambda url:False)
+        self.assertEqual(boundary[UK]['status'],'retained')
+        expired=compose(previous,[(SOURCE,[],'timeout')],published+dt.timedelta(days=14,seconds=1),lambda url:False)
+        self.assertEqual(expired[UK]['status'],'empty');self.assertEqual(expired[UK]['paragraphs'],[])
+        self.assertIsNone(expired[UK]['updatedAt'])
+
 
 if __name__=='__main__':unittest.main()

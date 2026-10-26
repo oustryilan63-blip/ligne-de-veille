@@ -34,6 +34,7 @@ const fs = require('node:fs'), path = require('node:path'), assert = require('no
   fixture.topics[slug].items[0].url = 'javascript:alert(1)';
   assert.throws(() => validateConflictUpdates(fixture));
   fixture.topics[slug].items = [];
+  const outdated=structuredClone(data);outdated.topics[slug].digest.paragraphs[0].publishedAt=new Date(Date.parse(data.checkedAt)-14*86400000-1).toISOString();assert.throws(()=>validateConflictUpdates(outdated));
   const invalidSummary=structuredClone(data);
   invalidSummary.topics[slug].digest.paragraphs[0].text='Une phrase incomplète au sujet des événements récents dans le pays et de leurs conséquences…';
   assert.throws(()=>validateConflictUpdates(invalidSummary));

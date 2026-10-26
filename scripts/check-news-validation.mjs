@@ -19,3 +19,5 @@ if(authorized){
   bad=structuredClone(authorized);bad.image.permissionConfirmedAt='';assert.throws(()=>validateImage(bad));
 }
 console.log('Schéma des photos et permissions : vrais fichiers acceptés, substitution et droits inventés rejetés.');
+
+if(authorized){const long=structuredClone(authorized);long.image.credit='Légende '.repeat(40)+'Nom complet du photographe';long.image.caption=long.image.credit;validateImage(long);long.image.credit='x'.repeat(4001);assert.throws(()=>validateImage(long));}

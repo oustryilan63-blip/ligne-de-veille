@@ -39,6 +39,18 @@ class FakeResponse:
 
 
 class NewsProcessTests(unittest.TestCase):
+
+    def test_item_language_beats_feed_default(self):
+        import xml.etree.ElementTree as ET
+        spec=importlib.util.spec_from_file_location('language_test',Path(__file__).with_name('update-news.py'))
+        news=importlib.util.module_from_spec(spec);spec.loader.exec_module(news)
+        source={'language':'fr','languageCategories':{'Conflits in English':'en'}}
+        self.assertEqual(news.article_language(ET.fromstring('<item/>'),['Conflits in English'],source),'en')
+        self.assertEqual(news.article_language(ET.fromstring('<item xml:lang="en-GB"/>'),[],source),'en')
+        self.assertEqual(news.article_language(ET.fromstring('<item><language>en-US</language></item>'),[],source),'en')
+        self.assertEqual(news.article_language(ET.fromstring('<item/>'),[],source),'fr')
+
+
     def test_unverified_new_links_keep_articles_and_allow_dossiers(self):
         spec = importlib.util.spec_from_file_location('news_update_regression', Path(__file__).with_name('update-news.py'))
         news = importlib.util.module_from_spec(spec); spec.loader.exec_module(news)

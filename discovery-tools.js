@@ -20,6 +20,7 @@
       main?{question:'Quel repère technique retenir ?',answer:main.label+' : '+main.value+'.'+(main.note?' '+main.note:''),source:main.source}:{question:'Où vérifier les caractéristiques ?',answer:'Consulte la fiche technique et les sources : seules les valeurs documentées y sont retenues.',source:item.source}
     ];
   }
+  const guideKeywords=g=>[g.theme,...g.categories,g.history?.title||'',...(g.milestones||[]).map(m=>m.date+' '+m.title),...g.sections.map(s=>s.title+' '+s.text),...(g.history?.paragraphs||[]).map(p=>p.text||'')].join(' ').slice(0,24000);
   function rank(items,query,type='all'){
     const terms=fold(query).trim().split(/\s+/).filter(Boolean);
     return items.filter(i=>type==='all'||i.type===type).map((item,index)=>{
@@ -49,7 +50,7 @@
     if(name==='leopard 2')links.push({url:'variantes-leopard-2.html',title:'Leopard 2 A4, A6 et A7V : comparer les évolutions'});
     return links;
   }
-  window.RADAR_DISCOVERY=Object.freeze({fold,slug,profileURL,description,essentials,rank,guideLinks});
+  window.RADAR_DISCOVERY=Object.freeze({fold,slug,profileURL,description,essentials,rank,guideLinks,guideKeywords});
   if(typeof document==='undefined')return;
   // Complète les menus existants sans ajouter un second mécanisme d'ouverture.
   const menuButton=document.querySelector('.menu-toggle'),mainNav=document.getElementById('main-nav');

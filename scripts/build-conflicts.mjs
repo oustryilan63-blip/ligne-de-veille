@@ -29,7 +29,8 @@ export function validateConflictUpdates(data) {
     for (const paragraph of digest.paragraphs) {
       const url = new URL(paragraph.url);
       if (url.protocol !== 'https:' || url.username || url.password || !validDate(paragraph.publishedAt) ||
-          Date.parse(paragraph.publishedAt) > Date.parse(digest.checkedAt) + 300000 ||
+          Date.parse(paragraph.publishedAt) > Date.parse(data.checkedAt) + 300000 ||
+          Date.parse(paragraph.publishedAt) < Date.parse(data.checkedAt) - data.windowDays * 86400000 ||
           !paragraph.source || !paragraph.title || typeof paragraph.text !== 'string' ||
           paragraph.text.trim().split(/\s+/).length > 90 || paragraph.text.trim().split(/\s+/).length < 12 ||
           paragraph.truncated === true || /…|\.{3}/.test(paragraph.text) || !/[.!?]["»”’)\]]*$/.test(paragraph.text.trim())) throw Error('Résumé incomplet ou non sourcé : ' + slug);

@@ -131,13 +131,18 @@ def parse_feed(data, source, now):
     return result
 
 
+def recent(value, now):
+    try: return now - dt.timedelta(days=14) <= timestamp(value) <= now + dt.timedelta(minutes=5)
+    except (ValueError, TypeError, AttributeError, OverflowError): return False
+
+
 def compose(previous, results, now, verify):
     """Keep the last good text on a failed/empty collection, with its real date."""
     stamp = now.isoformat(); output = {}; verified = {}
     for slug in PATTERNS:
         relevant = [(source, items, error) for source, items, error in results if slug in source['topics']]
         statuses = [{'source': s['name'], 'ok': not error} for s, _, error in relevant]
-        candidates = sorted([i for _, items, _ in relevant for i in items if slug in i['topics']], key=lambda i: timestamp(i['publishedAt']), reverse=True)
+        candidates = sorted([i for _, items, _ in relevant for i in items if slug in i['topics'] and recent(i.get('publishedAt'), now)], key=lambda i: timestamp(i['publishedAt']), reverse=True)
         paragraphs = []; urls = set(); titles = set(); per_publisher = {}
         for item in candidates:
             key = re.sub(r'\W+', '', folded(item['title']))
@@ -156,7 +161,7 @@ def compose(previous, results, now, verify):
                             'paragraphs':paragraphs, 'sources':statuses}
         else:
             retained = [p for p in old.get('paragraphs', [])
-                        if not p.get('truncated') and usable_summary(p.get('text'))]
+                        if not p.get('truncated') and usable_summary(p.get('text')) and recent(p.get('publishedAt'), now)]
             output[slug] = {'method':'publisher-excerpts', 'checkedAt':stamp,
                             'updatedAt':(old.get('updatedAt') if retained == old.get('paragraphs', []) else stamp) if retained else None,
                             'status':'retained' if retained else 'empty',

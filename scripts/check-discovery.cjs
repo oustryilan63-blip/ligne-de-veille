@@ -116,3 +116,8 @@ if(fs.existsSync(path.join(output,'recherche.html')))(async()=>{
  await reset.click();assert.ok(steps.every(step=>!step.checked));assert.match(status.textContent,/0 \/ 4/);
  console.log('Nouveaux dossiers et sources, variantes, liens des parcours, repères d’actualité ciblés et progression sans stockage : OK.');
 })().catch(e=>{console.error(e);process.exitCode=1});
+
+const guideIndex=C.guides.map(g=>({type:'dossier',title:g.title,description:g.description,keywords:D.guideKeywords(g)}));
+for(const query of ['Namibie','Mulberry','Queen Bee','Berlin Plus','pergélisol'])assert.ok(D.rank(guideIndex,query,'dossier').length,'Contexte introuvable : '+query);
+
+if(fs.existsSync(path.join(output,'404.html'))){const html=fs.readFileSync(path.join(output,'404.html'),'utf8');assert.match(html,/noindex,follow/);assert.match(html,/On a perdu le signal/);for(const [,url]of html.matchAll(/(?:href|src)="([^"#]+)"/g))assert.ok(/^https:\/\//.test(url),'404 : ressource relative '+url);assert.ok(!fs.readFileSync(path.join(output,'sitemap.xml'),'utf8').includes('/404.html'));}

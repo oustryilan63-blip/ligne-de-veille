@@ -831,7 +831,7 @@ window.RADAR_CATALOG_PHOTOS = {
   "Churchill": {
     "src": "assets/jeu/ajouts/serie-9/176-1.webp",
     "file": "Churchill III tanks of 'Kingforce', 1st Armoured Division, in the Western Desert, 5 November 1942. E18991.jpg",
-    "author": "Fox (Sgt), No 1 Army Film &amp; Photographic Unit",
+    "author": "Fox (Sgt), No 1 Army Film & Photographic Unit",
     "license": "Public domain",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
     "source": "https://commons.wikimedia.org/wiki/File:Churchill_III_tanks_of_%27Kingforce%27,_1st_Armoured_Division,_in_the_Western_Desert,_5_November_1942._E18991.jpg",

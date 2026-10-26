@@ -76,6 +76,19 @@ class ConflictTests(unittest.TestCase):
         self.assertEqual(result['coverage'], {'ok':2, 'total':3, 'unavailable':['Autre']})
         self.assertEqual(result['topics']['taiwan-detroit-tensions']['items'], [])
 
+    def test_verified_translation_prefers_french_without_merging_other_angles(self):
+        self.sources[1]['domains']=['press.example','revueconflits.com']
+        group=updater.TRANSLATIONS[0]
+        english=next(m['url'] for m in group['members'] if m['language']=='en')
+        self.add('How much has France given to Ukraine?',url=english,age=1)
+        self.news['items'][-1]['language']='en'
+        self.add('Combien la France a-t-elle donné à l’Ukraine ?',url=group['preferredUrl'],age=2)
+        self.add('Ukraine : un autre éclairage',url='https://press.example/other',age=1.5)
+        items=self.result()['topics']['ukraine-guerre-enjeux']['items']
+        self.assertEqual({i['url'] for i in items},{group['preferredUrl'],'https://press.example/other'})
+        self.news['items']=[i for i in self.news['items'] if i['url']!=group['preferredUrl']]
+        self.assertIn(english,{i['url'] for i in self.result()['topics']['ukraine-guerre-enjeux']['items']})
+
     def test_cli_failure_preserves_last_good_file(self):
         temporary_root = ROOT / 'test-results'
         temporary_root.mkdir(exist_ok=True)

@@ -1709,7 +1709,7 @@ window.LDV_ENGINS = [
     ],
     "explanation": "Le Dongfeng-41 est un programme chinois. Seize véhicules de cette famille ont été présentés lors du défilé du 1er octobre 2019 à Pékin ; ce nombre de parade n’est pas un total produit.",
     "source": "https://eng.mod.gov.cn/xb/News_213114/TopStories/4851953.html",
-    "photo": "ajouts/serie-5/df41.png",
+    "photo": "ajouts/serie-5/df41.webp",
     "photoFile": "120秒看大阅兵震撼瞬间！1.png",
     "photoAuthor": "中国新闻社",
     "photoLicense": "CC BY 4.0",

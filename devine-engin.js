@@ -1,3 +1,4 @@
+const scrollBehavior=()=>typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth';
 const ENGINES = window.LDV_ENGINS;
 const el = id => document.getElementById(id);
 const state = { answerMode: 'choices', roundMode: 'quick', category: 'all', deck: [], index: 0, found: 0, points: 0, attemptsLeft: 1, hintUsed: false, resolved: false };
@@ -130,7 +131,7 @@ function showAnswer(correct, chosenButton) {
   el('recognition-next').firstChild.textContent = state.index + 1 === state.deck.length ? 'Voir mon score ' : 'Question suivante ';
   panel.hidden = false;
   setCredit(item);
-  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  panel.scrollIntoView({ behavior:scrollBehavior(), block: 'nearest' });
 }
 
 function submitAnswer(value, chosenButton = null) {
@@ -203,7 +204,7 @@ function finishGame() {
   el('recognition-answer').hidden = true;
   el('recognition-end').hidden = false;
   el('recognition-final-score').textContent = `${state.found} engin${state.found > 1 ? 's' : ''} reconnu${state.found > 1 ? 's' : ''} sur ${state.deck.length} · ${state.points} point${state.points > 1 ? 's' : ''} sur ${state.deck.length * 2}.`;
-  el('recognition-end').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  el('recognition-end').scrollIntoView({ behavior:scrollBehavior(), block: 'center' });
 }
 
 for (const [selector, key] of [['[data-answer-mode]', 'answerMode'], ['[data-round-mode]', 'roundMode'], ['[data-category]', 'category']]) {
@@ -235,9 +236,9 @@ el('recognition-hint-button').addEventListener('click', () => {
 el('recognition-next').addEventListener('click', () => {
   if (!state.resolved) return; state.resolved = false;
   if (state.index + 1 === state.deck.length) finishGame();
-  else { state.index++; renderRound(); el('recognition-card').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  else { state.index++; renderRound(); el('recognition-card').scrollIntoView({ behavior:scrollBehavior(), block: 'start' }); }
 });
-el('recognition-restart').addEventListener('click', () => {startGame();if(state.deck.length)el('recognition-card').scrollIntoView({behavior:'smooth',block:'start'});});
+el('recognition-restart').addEventListener('click', () => {startGame();if(state.deck.length)el('recognition-card').scrollIntoView({behavior:scrollBehavior(),block:'start'});});
 
 quizSettings=window.RADAR_QUIZ.mount(el('quiz-settings'),startGame);
 if(new URLSearchParams(location.search).get('collection')==='1')state.roundMode='full';

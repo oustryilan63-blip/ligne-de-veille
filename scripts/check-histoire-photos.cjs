@@ -18,7 +18,7 @@ for(const item of items){
  const records=api.photos(item);total+=records.length;multi+=Number(records.length>1);newPhotos+=(data[item.name]||[]).length;
  assert.ok(records.length>0,item.name);assert.ok(records.every(p=>p.real!==false));
  assert.equal(new Set(records.map(p=>p.src)).size,records.length);
- for(const p of records){assert.ok(fs.existsSync(path.join(root,p.src)),p.src);assert.ok(p.author&&p.license&&p.source,item.name+' : crédits manquants');assert.ok(!p.src.includes('sketchfab'));}
+ for(const p of records){assert.ok(!/mw-parser-output|<style|font-family:|&amp;/i.test(p.author),item.name+' : nom d’auteur parasité');assert.ok(fs.existsSync(path.join(root,p.src)),p.src);assert.ok(p.author&&p.license&&p.source,item.name+' : crédits manquants');assert.ok(!p.src.includes('sketchfab'));}
  const gallery=api.create(item),all=flatten(gallery),img=all.find(n=>n.tag==='img'),buttons=all.filter(n=>n.tag==='button'),counter=all.find(n=>n.attrs['aria-live']==='polite'),controls=all.find(n=>n.className==='history-gallery-controls');
  assert.equal(img.src,records[0].src);assert.equal(counter.textContent,'1 / '+records.length);
  assert.equal(buttons[0].disabled,records.length===1);assert.equal(buttons[1].disabled,records.length===1);

@@ -1561,7 +1561,7 @@ window.LDV_NEWS = {
         "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_ap23052980_000003-scaled.jpg",
         "kind": "article",
         "alt": "Les sociétés militaires privées en Amérique latine : de la fin de la guerre froide à Vectus Global",
-        "credit": "Un soldat traverse un péage le long de l'autoroute panaméricaine endommagée par une explosion que l'armée a imputée à des groupes dissidents des FARC à Santander de Quilichao, en Colombie, le samedi 8 août 2026. (AP Photo/Santiago…",
+        "credit": "AP Photo / Santiago Saldarriaga",
         "license": "Republication autorisée",
         "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
         "sourceUrl": "https://www.revueconflits.com/les-societes-militaires-privees-en-amerique-latine-de-la-fin-de-la-guerre-froide-a-vectus-global/",
@@ -1570,7 +1570,8 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-23",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_ap23052980_000003-scaled.jpg",
-        "permissionConfirmedAt": "2026-10-11"
+        "permissionConfirmedAt": "2026-10-11",
+        "caption": "Un soldat traverse un péage le long de l'autoroute panaméricaine endommagée par une explosion que l'armée a imputée à des groupes dissidents des FARC à Santander de Quilichao, en Colombie, le samedi 8 août 2026. (AP Photo/Santiago Saldarriaga)/XRM833/26220661110765//2608082024"
       }
     },
     {
@@ -1627,7 +1628,7 @@ window.LDV_NEWS = {
         "src": "https://www.revueconflits.com/wp-content/uploads/2025/08/31-SIPA_01211855_000063-scaled.jpg",
         "kind": "article",
         "alt": "Podcast – Le Vatican insolite. Caroline Pigozzi",
-        "credit": "US Cardinal Robert Francis Prevost was elected pope with the name Pope Leo XIV. Vatican City, May 8, 2025 Pictured: the first speech from the Loggia of Blessings of Pope Leo XIV-/ ipa-agency.net -…",
+        "credit": "IPA / SIPA",
         "license": "Republication autorisée",
         "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
         "sourceUrl": "https://www.revueconflits.com/podcast-le-vatican-insolite-caroline-pigozzi/",
@@ -1636,7 +1637,8 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-23",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2025/08/31-SIPA_01211855_000063-scaled.jpg",
-        "permissionConfirmedAt": "2026-10-11"
+        "permissionConfirmedAt": "2026-10-11",
+        "caption": "US Cardinal Robert Francis Prevost was elected pope with the name Pope Leo XIV. Vatican City, May 8, 2025 Pictured: the first speech from the Loggia of Blessings of Pope Leo XIV-/ ipa-agency.net - //IPAPRESSITALY_IPA_Agency_IPA57452058/Credit:/IPA/SIPA/2505091723"
       }
     },
     {
@@ -4425,7 +4427,7 @@ window.LDV_NEWS = {
       "sourceType": "Presse spécialisée",
       "title": "The Spanish Crown holds the line: Ceuta and Melilla put to the test by the crisis",
       "url": "https://www.revueconflits.com/the-spanish-crown-holds-the-line-ceuta-and-melilla-put-to-the-test-by-the-crisis/",
-      "language": "fr",
+      "language": "en",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
@@ -4457,7 +4459,7 @@ window.LDV_NEWS = {
       "sourceType": "Presse spécialisée",
       "title": "« An atlas is a manifesto »",
       "url": "https://www.revueconflits.com/an-atlas-is-a-manifesto/",
-      "language": "fr",
+      "language": "en",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
@@ -4489,7 +4491,7 @@ window.LDV_NEWS = {
       "sourceType": "Presse spécialisée",
       "title": "The Middle Corridor: representations, limits and geopolitical prospects",
       "url": "https://www.revueconflits.com/the-middle-corridor-representations-limits-and-geopolitical-prospects/",
-      "language": "fr",
+      "language": "en",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
@@ -4521,7 +4523,7 @@ window.LDV_NEWS = {
       "sourceType": "Presse spécialisée",
       "title": "How much has France given to Ukraine?",
       "url": "https://www.revueconflits.com/how-much-has-france-given-to-ukraine/",
-      "language": "fr",
+      "language": "en",
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",

@@ -1,5 +1,7 @@
 (() => {
   'use strict';
+  const scrollBehavior=()=>typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth';
+
   const all = selector => [...document.querySelectorAll(selector)];
   const visible = node => {for (let n=node;n;n=n.parentElement) if(n.hidden) return false; return true;};
   const filters = document.getElementById('games-filters');
@@ -29,7 +31,7 @@
     document.getElementById(id)?.addEventListener('click',()=>{
       requestAnimationFrame(()=>{
         const prompt=document.getElementById('recognition-prompt')||document.getElementById('arcade-question')||document.getElementById('item-name');
-        if(prompt&&visible(prompt)){prompt.tabIndex=-1;prompt.focus({preventScroll:true});if(id==='arcade-restart')prompt.closest('.arcade-board')?.scrollIntoView({behavior:'smooth',block:'start'});}
+        if(prompt&&visible(prompt)){prompt.tabIndex=-1;prompt.focus({preventScroll:true});if(id==='arcade-restart')prompt.closest('.arcade-board')?.scrollIntoView({behavior:scrollBehavior(),block:'start'});}
       });
     });
   }
