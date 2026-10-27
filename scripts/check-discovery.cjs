@@ -47,9 +47,10 @@ if(fs.existsSync(path.join(output,'sitemap.xml'))){
   const html=fs.readFileSync(path.join(output,D.profileURL(e)),'utf8');
   const bundleFile=html.match(/data-profile-data="([^"]+)"/)?.[1];assert.ok(bundleFile,'Données dédiées absentes : '+e.name);assert.ok(bundleFile.startsWith('profile-data/'+i+'-'));const profileContext={window:{}};vm.runInNewContext(fs.readFileSync(path.join(output,bundleFile),'utf8'),profileContext);assert.equal(Object.keys(profileContext.window).length,6);
   for(const [name,key]of [['LDV_HISTOIRE',i],['LDV_TECHNIQUE',i],['LDV_CHIFFRES',i],['LDV_TIMELINES',i],['RADAR_HISTORY_PHOTOS',e.name],['RADAR_3D_MODELS',e.name]]){assert.equal(JSON.stringify(profileContext.window[name][key]),JSON.stringify(c.window[name]?.[key]),e.name+' '+name);assert.ok(Object.values(profileContext.window[name]).filter(value=>value!==null).length<=1,'Autres engins inclus dans '+bundleFile);}
-  assert.ok(html.includes('data-engine-index="'+i+'"'));assert.ok(html.includes('Repères en bref'));assert.ok(html.includes('class="history-story-copy"'));assert.ok(!html.includes('class="history-story-chapter"'));assert.ok(html.includes('class="history-story-sources"'));assert.ok(html.includes('<h1 class="history-name">'));
+  assert.ok(html.includes('data-engine-index="'+i+'"'));assert.ok(html.includes('class="history-story-copy"'));assert.ok(!html.includes('class="history-story-chapter"'));assert.ok(html.includes('class="history-story-sources"'));assert.ok(html.includes('<h1 class="history-name">'));
   assert.ok(html.includes('rel="canonical"'));assert.ok(html.includes('property="og:image"'));assert.ok(html.includes('name="twitter:card"'));
   assert.ok(html.includes('href="recherche.html"'));assert.ok(html.includes('href="comprendre.html"'));
+  assert.ok(html.includes('class="atlas-summary-facts"'));assert.ok(html.includes('id="essentiel"'));assert.ok(!html.includes('Repères en bref'));
   assert.ok(html.includes('class="learning-profile-reading"'));assert.ok(H[i].storyExpansion,'Récit non approfondi : '+e.name);
  }
  for(const p of C.comparisons){const html=fs.readFileSync(path.join(output,'comparatif-'+p.slug+'.html'),'utf8');assert.ok(html.includes('data-compare-a="'+p.a+'"'));assert.ok(html.includes(T[p.a].variant));assert.ok(html.includes(T[p.b].variant));}
@@ -136,5 +137,5 @@ if(fs.existsSync(path.join(output,'comprendre.html'))){
 // L'habillage de l'atlas reste limité au catalogue et aux fiches.
 if(fs.existsSync(path.join(output,'histoire.html'))){
  const atlasPages=new Set(['histoire.html',...E.map(e=>D.profileURL(e))]);
- for(const file of fs.readdirSync(output).filter(f=>f.endsWith('.html'))){const html=fs.readFileSync(path.join(output,file),'utf8');if(atlasPages.has(file)){assert.match(html,/<body[^>]*class="[^"]*\bradar-atlas\b/);assert.match(html,/href="assets\/atlas-ui\.css\?v=2026102701"/);}else assert.ok(!html.includes('assets/atlas-ui.css'),'Style atlas hors périmètre : '+file);}
+ for(const file of fs.readdirSync(output).filter(f=>f.endsWith('.html'))){const html=fs.readFileSync(path.join(output,file),'utf8');if(atlasPages.has(file)){assert.match(html,/<body[^>]*class="[^"]*\bradar-atlas\b/);assert.match(html,/href="assets\/atlas-ui\.css\?v=2026102702"/);}else assert.ok(!html.includes('assets/atlas-ui.css'),'Style atlas hors périmètre : '+file);}
 }

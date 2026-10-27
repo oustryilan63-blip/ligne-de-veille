@@ -34,6 +34,22 @@
   };
   let selected = 'Tous',visibleLimit=24;
   const more=document.getElementById('history-more'),clearSearch=document.getElementById('history-clear'),paginated=!!more&&!collectionOnly;
+  // L'adresse conserve la sélection, sans dépendre du stockage du navigateur.
+  function readAtlasState(raw){
+    const p=new URLSearchParams(raw||''),shown=Number(p.get('affiches')),marker=Number(p.get('repere'));
+    return {query:(p.get('q')||'').slice(0,1000),category:categories.includes(p.get('categorie'))?p.get('categorie'):'Tous',country:originCodes.includes(p.get('pays'))?p.get('pays'):'',type:Object.hasOwn(tools.types,p.get('type'))?p.get('type'):'',sort:['alpha','recent'].includes(p.get('tri'))?p.get('tri'):'catalogue',limit:Number.isInteger(shown)&&shown>=24?Math.min(engins.length,Math.ceil(shown/24)*24):24,marker:p.has('repere')&&Number.isInteger(marker)&&marker>=0&&marker<engins.length?marker:null};
+  }
+  function atlasParams(state,marker=state.marker){
+    const p=new URLSearchParams();
+    for(const [key,value]of [['q',state.query],['categorie',state.category==='Tous'?'':state.category],['pays',state.country],['type',state.type],['tri',state.sort==='catalogue'?'':state.sort],['affiches',state.limit>24?state.limit:''],['repere',marker===null?'':marker]])if(value!=='')p.set(key,String(value));
+    return p.toString();
+  }
+  const catalogueState=()=>({query:search.value.trim(),category:selected,country:countrySelect.value,type:typeSelect.value,sort:sortSelect.value,limit:visibleLimit,marker:null});
+  const atlasURL=(state,marker=state.marker)=>'histoire.html'+(atlasParams(state,marker)?'?'+atlasParams(state,marker):'')+(marker===null?'':'#atlas-engine-'+marker);
+  function rememberCatalogue(state,marker=null){
+    if(collectionOnly||typeof history==='undefined')return;
+    try{history.replaceState(history.state,'',atlasURL(state,marker));}catch{}
+  }
   const latest=engins.map(e=>e.addedAt||'').sort().at(-1);
   const latestBatch=Math.max(0,...engins.map(e=>e.addedBatch||0));
   const originCodes=[...new Set(engins.flatMap(e=>e.originCodes||[e.code]))].sort((a,b)=>tools.countryName(a).localeCompare(tools.countryName(b),'fr'));
@@ -51,6 +67,11 @@
     visible.forEach(({item,i})=>{
       const a=el('a','history-card');if(item.category==='missiles')a.classList.add('history-card-missile');a.href=window.RADAR_DISCOVERY?.profileURL(item)||'histoire.html?engin='+i;a.setAttribute('aria-label','Lire la fiche : '+item.name);
       if(collectionOnly)a.href+=(a.href.includes('?')?'&':'?')+'retour=collection';
+      if(paginated){
+        const state=catalogueState();a.id='atlas-engine-'+i;
+        a.href+=(a.href.includes('?')?'&':'?')+'atlas='+encodeURIComponent(atlasParams(state,i));
+        a.addEventListener('click',()=>rememberCatalogue(state,i));
+      }
       a.append(photo(item));const body=el('div','history-card-copy');body.append(el('span','history-card-kicker',item.kind));
       const row=el('div','history-card-title');row.append(el('strong','',item.name),el('span','','↗'));body.append(row,el('span','history-card-country',item.country));if(window.RADAR_3D?.has(item))body.append(el('span','history-3d-badge','Vue 3D disponible'));if(paginated)body.append(el('span','history-card-read','Lire la fiche →'));a.append(body);const shell=el('article','history-card-shell');shell.append(a,collection.button(item));grid.append(shell);
     });
@@ -74,6 +95,7 @@
     const total=collection.names().length;
     document.querySelectorAll('[data-collection-count]').forEach(n=>n.textContent=String(total));
     const notice=document.getElementById('collection-state');if(notice)notice.textContent=collection.persistent()?'Collection conservée dans ce navigateur, sans compte.':'Le stockage est indisponible : cette collection reste disponible seulement sur cette page.';
+    if(paginated)rememberCatalogue(catalogueState());
     const quiz=document.getElementById('collection-quiz-link');if(quiz){quiz.href='devine-engin.html?collection=1'+(total<4?'&reponse=text':'');quiz.textContent=total<4?'Quiz en réponse libre →':'Quiz sur ma collection →';quiz.hidden=total===0;}
   }
   search.addEventListener('input',renderCatalogue);
@@ -214,7 +236,7 @@
     const item=engins[index],fact=facts[index]||{},figuresFor=figures[index]||{};
     catalogue.hidden=true;detail.hidden=false;detail.replaceChildren();document.body.classList.add('history-profile');document.title=item.name+' | Histoire | Radar';
     const fromCollection=params.get('retour')==='collection';
-    const back=el('a','history-back',fromCollection?'← Revenir à ma collection':'← Retour à l’atlas');back.href=fromCollection?'collection.html':'histoire.html';detail.append(back);
+    const back=el('a','history-back',fromCollection?'← Revenir à ma collection':'← Retour à l’atlas');back.href=fromCollection?'collection.html':atlasURL(readAtlasState(params.get('atlas')));detail.append(back);
     const heading=el('header','atlas-profile-heading');heading.append(el('span','history-kicker',item.kind+' · '+item.country),el('h1','history-name',item.name));detail.append(heading);
     const jump=el('nav','profile-jump');jump.setAttribute('aria-label','Dans cette fiche');detail.append(jump);
     const head=el('div','history-detail-head');const media=el('div',item.category==='missiles'?'history-missile-media':'');
@@ -222,8 +244,16 @@
     cover.href='#photos';cover.setAttribute('aria-label','Voir la galerie photo de '+item.name);coverImage.src=coverRecord.src;coverImage.alt=coverRecord.alt||item.name;coverImage.decoding='async';coverImage.loading='eager';cover.append(coverImage);
     const photoShortcut=el('a','history-photo-shortcut','Voir les '+photoRecords.length+' photo'+(photoRecords.length>1?'s':'')+' ↓');photoShortcut.href='#photos';
     media.append(cover,window.RADAR_PHOTOS.creditFor(coverRecord),photoShortcut);
-    const copy=el('div','history-summary');copy.append(el('span','atlas-summary-label','L’essentiel'));
+    const copy=el('div','history-summary');copy.id='essentiel';copy.append(el('span','atlas-summary-label','L’essentiel'));
     copy.append(el('p','history-introduction',item.explanation));
+    if(window.RADAR_DISCOVERY){
+      const keyFacts=el('dl','atlas-summary-facts');
+      for(const [position,q]of window.RADAR_DISCOVERY.essentials(item,fact,technical[index]).slice(2).entries()){
+        const row=el('div'),answer=el('dd','',q.answer);row.append(el('dt','',position?'Repère technique':'Version décrite'));
+        if(q.source)answer.append(link('Source ↗',q.source));row.append(answer);keyFacts.append(row);
+      }
+      copy.append(keyFacts);
+    }
     const actions=el('div','history-profile-actions');actions.setAttribute('role','group');actions.setAttribute('aria-label','Actions sur cet engin');actions.append(collection.button(item,true));
     const compare=el('a','compare-link','Comparer cet engin →');compare.href='comparateur.html?a='+index;actions.append(compare);copy.append(actions);
     copy.append(technicalCard(index));
@@ -246,20 +276,14 @@
       const list=el('ol');for(const url of storyURLs){const li=el('li'),label=fact.storySources?.find(source=>source.url===url)?.label||'Document de référence';li.append(link(label+' ↗',url));list.append(li)}refs.append(list);story.append(refs);
     }
     head.append(media,copy);detail.append(head);
-    let essential;
     if(window.RADAR_DISCOVERY){
-      essential=el('details','discovery-essential history-summary-fold');essential.id='essentiel';essential.append(el('summary','','Repères en bref'));
-      const answers=el('div','discovery-answers');
-      for(const q of window.RADAR_DISCOVERY.essentials(item,fact,technical[index])){const box=el('div','discovery-answer');box.append(el('h3','',q.question),el('p','',q.answer));if(q.source)box.append(link('Consulter la source ↗',q.source));answers.append(box)}
-      essential.append(answers);
       const description=window.RADAR_DISCOVERY.description(item),url=window.RADAR_DISCOVERY.profileURL(item);
       for(const selector of ['meta[name="description"]','meta[property="og:description"]','meta[name="twitter:description"]']){const node=document.querySelector(selector);if(node)node.setAttribute('content',description)}
       const canonical=document.querySelector('link[rel="canonical"]');if(canonical&&location.href){canonical.href=new URL(url,location.href).href;const node=document.querySelector('meta[property="og:url"]');if(node)node.setAttribute('content',canonical.href)}
       for(const selector of ['meta[property="og:title"]','meta[name="twitter:title"]']){const node=document.querySelector(selector);if(node)node.setAttribute('content',item.name+' | Histoire | Radar')}
     }
-    if(essential)detail.append(essential);
     detail.append(story);
-    const silhouette=silhouetteCard(item);if(silhouette)detail.append(silhouette);
+    const silhouette=silhouetteCard(item);
     if(window.RADAR_DISCOVERY?.guideLinks){
       const reading=el('nav','learning-profile-reading');reading.setAttribute('aria-label','Comprendre le contexte de cet engin');
       reading.append(el('h2','','Pour comprendre son contexte'),el('p','','Le récit suit cet engin. Les dossiers expliquent les familles, les missions et les notions qui l’entourent.'));
@@ -280,8 +304,14 @@
       timeline.append(list);detail.append(timeline);
     }
     const photoSection=section('La galerie photo','Parcours les vues de l’engin et agrandis une photo pour observer ses détails.',true);photoSection.id='photos';photoSection.classList.add('history-photos');
-    const gallery=window.RADAR_PHOTOS.create(item);gallery.querySelector('img').loading='lazy';photoSection.append(gallery);detail.append(photoSection);
-    if(modelView)detail.append(modelView.section);
+    const gallery=window.RADAR_PHOTOS.create(item);gallery.querySelector('img').loading='lazy';photoSection.append(gallery);
+    const views=el('section','atlas-media');views.id='voir-engin';views.setAttribute('aria-labelledby','atlas-media-title');
+    const mediaTitle=el('h2','','Voir l’engin');mediaTitle.id='atlas-media-title';views.append(mediaTitle);
+    const choices=el('nav','atlas-media-choices');choices.setAttribute('aria-label','Choisir une vue de l’engin');
+    for(const [label,id]of [['Photos','photos'],...(modelView?[['3D','vue-3d']]:[]),...(silhouette?[['Silhouette','silhouette']]:[])]){
+      const choice=el('a','',label);choice.href='#'+id;if(id==='vue-3d')choice.addEventListener('click',()=>modelView.open());choices.append(choice);
+    }
+    views.append(choices,photoSection);if(modelView)views.append(modelView.section);if(silhouette)views.append(silhouette);detail.append(views);
     const origin=item.code,origins=item.originCodes||[origin],former=fact.former||[];
     const current=fact.originOnly?[]:[...new Set([...(fact.documentedOperatorsOnly||former.includes(origin)?[]:[origin]),...(fact.current||[])])];
     const currentLabel=fact.operatorSnapshot?'Utilisateur attesté dans les sources':'Utilisateur actuel documenté';
@@ -314,7 +344,17 @@
       figuresFor.targets?[figuresFor.targets.label||'Cibles détruites attribuées',figuresFor.targets.value,figuresFor.targets.note,figuresFor.targets.source]:['Pays sur la carte',fact.originOnly?'Non recensés':String(userCount),"Pays utilisateurs documentés dans notre sélection ; ce n'est pas un total mondial.",null]
     ];
     if(production&&inventory)data.push([inventory.label,inventory.value,inventory.note,inventory.source]);
-    data.forEach(([label,value,note,source])=>{const box=el('div','history-stat');box.append(el('span','',label),el('strong','',value),el('small','',note));if(source)box.append(link('Source ↗',source));statGrid.append(box)});stats.append(statGrid);detail.append(stats);
+    const missing=el('ul','atlas-figures-missing');
+    for(const [label,value,note,source]of data){
+      const unavailable=/inconnu|indisponible|non (?:document|recens|connu)|(?:aucun|pas de) (?:bilan|chiffre|total)/i.test(value);
+      const box=el(unavailable?'li':'div',unavailable?'':'history-stat');
+      if(unavailable){box.append(el('strong','',label+' : '+value+'. '),el('span','',note));missing.append(box);}
+      else{box.append(el('span','',label),el('strong','',value),el('small','',note));statGrid.append(box);}
+      if(source)box.append(link('Source ↗',source));
+    }
+    if(statGrid.children.length)stats.append(statGrid);
+    if(missing.children.length){const notice=el('div','atlas-figures-note');notice.append(el('p','','Données non établies dans les sources retenues. Une absence de bilan ne signifie pas zéro.'),missing);stats.append(notice);}
+    detail.append(stats);
     if(figuresFor.combatRecords?.length){
       const records=section('Faits documentés',"Des événements précis pour comprendre les résultats attribués à ce missile. Ces exemples ne constituent pas un bilan mondial ; dommages, naufrages et opérations hors combat sont distingués.");
       records.classList.add('history-records');
@@ -330,8 +370,8 @@
     }
     const sources=el('section','history-detail-section history-sources');sources.id='sources';sources.append(el('h2','','Sources de la fiche'));const list=el('ul');
     const refs=[['Présentation et histoire du programme',item.source],['Pays utilisateurs',fact.operatorSource],['Anciens utilisateurs',fact.formerSource],['Production et livraisons',production?.source],['Inventaire daté',inventory?.source],['Engins détruits',figuresFor.losses?.source],['Cibles détruites',figuresFor.targets?.source],...(fact.storySources||[]).map(ref=>[ref.label,ref.url]),...(fact.extraSources||[]).map(url=>['Autre source',url])];const seen=new Set();refs.forEach(([title,url])=>{if(url&&!seen.has(url)){seen.add(url);const li=el('li');li.append(link(title+' ↗',url));list.append(li)}});sources.append(list,el('p','',(fact.storyCheckedAt?'Récit et frise revus le '+fact.storyCheckedAt+'. Autres repères : dernière vérification indiquée le '+(fact.checkedAt||'10 octobre 2026'):'Sources consultées le '+(fact.checkedAt||'10 octobre 2026'))+'. La carte présente les pays documentés dans ces sources, sans prétendre couvrir chaque transfert ou retrait. Les bilans de pertes sont des minimums documentés ou des estimations datées, précisés dans chaque carte.'));detail.append(sources);
-    const next=el('nav','history-next');next.setAttribute('aria-label','Parcourir les fiches');const prev=el('a','','← '+engins[(index+engins.length-1)%engins.length].name);prev.href=window.RADAR_DISCOVERY?.profileURL(engins[(index+engins.length-1)%engins.length])||'histoire.html?engin='+(index+engins.length-1)%engins.length;const after=el('a','',engins[(index+1)%engins.length].name+' →');after.href=window.RADAR_DISCOVERY?.profileURL(engins[(index+1)%engins.length])||'histoire.html?engin='+(index+1)%engins.length;next.append(prev,after);detail.append(next);
-    for(const [label,id] of [['Histoire','recit'],['Technique','technique'],...(events.length?[['Chronologie','chronologie']]:[]),...(silhouette?[['Silhouette','silhouette']]:[]),['Photos','photos'],...(modelView?[['3D','vue-3d']]:[]),['Carte','utilisateurs'],['Chiffres','chiffres'],['Sources','sources']]){
+    const next=el('nav','history-next');next.setAttribute('aria-label','Parcourir les fiches');const prev=el('a','','← '+engins[(index+engins.length-1)%engins.length].name);prev.href=window.RADAR_DISCOVERY?.profileURL(engins[(index+engins.length-1)%engins.length])||'histoire.html?engin='+(index+engins.length-1)%engins.length;const after=el('a','',engins[(index+1)%engins.length].name+' →');after.href=window.RADAR_DISCOVERY?.profileURL(engins[(index+1)%engins.length])||'histoire.html?engin='+(index+1)%engins.length;if(params.has('atlas'))for(const a of [prev,after])a.href+=(a.href.includes('?')?'&':'?')+'atlas='+encodeURIComponent(atlasParams(readAtlasState(params.get('atlas'))));next.append(prev,after);detail.append(next);
+    for(const [label,id] of [['Histoire','recit'],['Technique','technique'],...(events.length?[['Chronologie','chronologie']]:[]),['Voir l’engin','voir-engin'],['Carte','utilisateurs'],['Chiffres','chiffres'],['Sources','sources']]){
       const a=el('a','',label);a.href='#'+id;a.dataset.section=id;
       a.addEventListener('click',()=>{revealTarget(id);markSection(id);if(id==='technique'){const button=document.getElementById('tech-toggle-'+index);if(button.getAttribute('aria-expanded')==='false')button.click();}});
       jump.append(a);
@@ -342,10 +382,11 @@
     window.addEventListener('hashchange',revealHash);revealHash();
     const sectionLinks=[...jump.querySelectorAll('a')];let currentSection='';
     function markSection(id){
+      if(['photos','vue-3d','silhouette'].includes(id))id='voir-engin';
       if(id===currentSection)return;currentSection=id;
       for(const a of sectionLinks){if(a.dataset.section===id){a.setAttribute('aria-current','location');if(typeof jump.scrollTo==='function')jump.scrollTo({left:Math.max(0,a.offsetLeft-16),behavior:'auto'});}else a.removeAttribute('aria-current');}
     }
-    markSection(sectionLinks.some(a=>a.href.endsWith(location.hash))&&location.hash?location.hash.slice(1):'recit');
+    markSection(location.hash?location.hash.slice(1):'recit');
     if(typeof window.requestAnimationFrame==='function'){
       const targets=sectionLinks.map(a=>({id:a.dataset.section,node:document.getElementById(a.dataset.section)})).filter(s=>s.node);let queued=false;
       const schedule=()=>{if(queued)return;queued=true;window.requestAnimationFrame(()=>{queued=false;const line=jump.getBoundingClientRect().bottom+48;let nearest=null;for(const s of targets){const bounds=s.node.getBoundingClientRect();if(bounds.height>0&&bounds.top<=line&&(!nearest||bounds.top>nearest.top))nearest={id:s.id,top:bounds.top};}markSection(nearest?.id||'recit');});};
@@ -353,7 +394,16 @@
     }
   }
   const params=new URLSearchParams(location.search);const raw=params.get('engin')??document.body.dataset?.engineIndex,index=Number(raw);
-  if(raw!==null&&raw!==undefined&&Number.isInteger(index)&&index>=0&&index<engins.length)renderDetail(index);else renderCatalogue();
+  if(raw!==null&&raw!==undefined&&Number.isInteger(index)&&index>=0&&index<engins.length)renderDetail(index);
+  else{
+    const state=paginated?readAtlasState(location.search):null;
+    if(state){search.value=state.query;selected=state.category;countrySelect.value=state.country;typeSelect.value=state.type;sortSelect.value=state.sort;visibleLimit=state.limit;filters.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.textContent===selected)));}
+    renderCatalogue(true);
+    if(state?.marker!==null&&state?.marker!==undefined){
+      rememberCatalogue(catalogueState(),state.marker);
+      const target=document.getElementById('atlas-engine-'+state.marker);target?.focus({preventScroll:true});target?.scrollIntoView?.({block:'center'});
+    }
+  }
   const menu=document.querySelector('.menu-toggle'),nav=document.getElementById('main-nav');
   menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Fermer le menu':'Ouvrir le menu')});
   nav.addEventListener('click',event=>{if(event.target.closest('a')){nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}});
