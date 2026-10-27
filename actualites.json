@@ -4,6 +4,343 @@
   "items": [
     {
       "date": "2026-10-27",
+      "publishedAt": "2026-10-27T15:51:23+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Hanwha Defense USA to Acquire Hanwha Philly Shipyard",
+      "url": "https://www.navalnews.com/naval-news/2026/10/hanwha-defense-usa-to-acquire-hanwha-philly-shipyard/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Hanwha"
+      ],
+      "sourceExcerpt": {
+        "text": "Hanwha Defense USA (HDUSA) announced it is acquiring a controlling stake in Hanwha Philly Shipyard, bringing the shipyard under HDUSA’s…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/1755826398094-768x480.webp",
+        "kind": "article",
+        "alt": "Hanwha Defense USA to Acquire Hanwha Philly Shipyard",
+        "credit": "Hanwha Philly Shipyard (Hanwha picture)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/hanwha-defense-usa-to-acquire-hanwha-philly-shipyard/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/hanwha-defense-usa-to-acquire-hanwha-philly-shipyard/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-27",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/1755826398094.webp",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T15:49:00+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "UK sets pace on new undersea sensors to detect threats, as AUKUS partners test advanced kit in San Diego",
+      "url": "https://www.gov.uk/government/news/uk-sets-pace-on-new-undersea-sensors-to-detect-threats-as-aukus-partners-test-advanced-kit-in-san-diego",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "The UK will lead development of three advanced undersea sensor payloads for uncrewed vehicles under AUKUS, following a week of…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6ae0c6717b7111c482d80a70/s300_DSC09846.jpeg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/uk-sets-pace-on-new-undersea-sensors-to-detect-threats-as-aukus-partners-test-advanced-kit-in-san-diego",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/uk-sets-pace-on-new-undersea-sensors-to-detect-threats-as-aukus-partners-test-advanced-kit-in-san-diego",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-27"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T15:37:58+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le coût d’un second porte-avions de nouvelle génération pourrait être inférieur de 30 % à celui du «France Libre»",
+      "url": "https://www.opex360.com/2026/10/27/le-cout-dun-second-porte-avions-de-nouvelle-generation-pourrait-etre-inferieur-de-30-a-celui-du-france-libre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Aéronavale",
+        "Charles de Gaulle",
+        "France Libre",
+        "Marine Nationale",
+        "permanence d'alerte",
+        "porte-avions"
+      ],
+      "sourceExcerpt": {
+        "text": "Depuis le retrait du Foch et du Clemenceau [sans parler de celui de l’Arromanches, utilisé pour l’instruction des pilotes jusqu’aux…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/pang-20221106.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le coût d’un second porte-avions de nouvelle génération pourrait être inférieur de 30 % à celui du «France Libre» ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/27/le-cout-dun-second-porte-avions-de-nouvelle-generation-pourrait-etre-inferieur-de-30-a-celui-du-france-libre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/27/le-cout-dun-second-porte-avions-de-nouvelle-generation-pourrait-etre-inferieur-de-30-a-celui-du-france-libre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-27",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/pang-20221106.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T14:22:15+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Houthi Ballistic Missile Intercepted Near Belgian Minehunter in Bab el-Mandeb",
+      "url": "https://www.navalnews.com/naval-news/2026/10/houthi-ballistic-missile-intercepted-near-belgian-minehunter-in-bab-el-mandeb/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "FREMM",
+        "Houthis",
+        "Minehunter",
+        "Tripartite-class"
+      ],
+      "sourceExcerpt": {
+        "text": "A French Navy warship reportedly intercepted a ballistic missile launched in the vicinity of the Belgian minehunter BNS Primula while…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/DLObxy7XcAY6k3Y-768x512.jpeg",
+        "kind": "article",
+        "alt": "Houthi Ballistic Missile Intercepted Near Belgian Minehunter in Bab el-Mandeb",
+        "credit": "BNS Primula (Belgian Navy picture)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/houthi-ballistic-missile-intercepted-near-belgian-minehunter-in-bab-el-mandeb/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/houthi-ballistic-missile-intercepted-near-belgian-minehunter-in-bab-el-mandeb/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-27",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/DLObxy7XcAY6k3Y.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T14:15:57+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Le Japon profite d’un exercice avec la France pour faire étalage de sa nouvelle force de frappe à distance et ainsi envoyer un message…",
+      "url": "https://www.forum-militaire.fr/le-japon-profite-dun-exercice-avec-la-france-pour-faire-etalage-de-sa-nouvelle-force-de-frappe-a-distance-et-ainsi-envoyer-un-message-clair-en-direction-de-la-chine/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armes / chasse",
+        "missile"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 26 octobre 2026, la Force terrestre d’autodéfense japonaise a déployé pour la première fois en manœuvres son nouveau missile…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T14:00:46+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Dette publique – C’est Robin des Bois qu’on assassine !, de Jean-Marc Daniel",
+      "url": "https://www.revueconflits.com/dette-publique-cest-robin-des-bois-quon-assassine-de-jean-marc-daniel/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Économie, énergies et entreprises",
+        "Livres",
+        "Revue Conflits",
+        "Abonné",
+        "Économie",
+        "Livre"
+      ],
+      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/ibrahim-boran-kkACMU0GYko-unsplash-scaled.jpg",
+        "kind": "article",
+        "alt": "Dette publique – C’est Robin des Bois qu’on assassine !, de Jean-Marc Daniel",
+        "credit": "(C) Unsplash.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/dette-publique-cest-robin-des-bois-quon-assassine-de-jean-marc-daniel/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/dette-publique-cest-robin-des-bois-quon-assassine-de-jean-marc-daniel/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-27",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/ibrahim-boran-kkACMU0GYko-unsplash-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T11:54:24+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’armée allemande va se procurer le missile-drone ukrainien à très longue portée BARS",
+      "url": "https://www.opex360.com/2026/10/27/larmee-allemande-va-se-procurer-le-missile-drone-ukrainien-a-tres-longue-portee-bars/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces terrestres",
+        "armée allemande",
+        "BARS",
+        "Bundeswehr",
+        "drone-missile",
+        "feux dans la profondeur",
+        "Heer",
+        "Ukraine"
+      ],
+      "sourceExcerpt": {
+        "text": "Pour se doter d’une dissuasion conventionnelle crédible, l’Allemagne entend, entre autres, renforcer ses capacités de frappe dans la grande –…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/bars-20261027.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’armée allemande va se procurer le missile-drone ukrainien à très longue portée BARS ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/27/larmee-allemande-va-se-procurer-le-missile-drone-ukrainien-a-tres-longue-portee-bars/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/27/larmee-allemande-va-se-procurer-le-missile-drone-ukrainien-a-tres-longue-portee-bars/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-27",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/bars-20261027.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T10:59:30+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "UK and Poland strengthen defences on Europe's Eastern flank",
+      "url": "https://www.gov.uk/government/news/uk-and-poland-strengthen-defences-on-europes-eastern-flank--2",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Britain will be more secure as a result of a new defence agreement with Poland designed to deter Russian threats.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6ae0812116428df5376061be/s300_SofS_Visit_to_Poland_2_Gov.uk.jpg",
+        "kind": "article",
+        "alt": "The Secretary of State for Defence Wes Streeting made an official visit to Poland where he met the Polish Defence Minister.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/uk-and-poland-strengthen-defences-on-europes-eastern-flank--2",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/uk-and-poland-strengthen-defences-on-europes-eastern-flank--2",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-27"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T08:22:05+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Le Venezuela veut revenir dans le jeu mondial",
+      "url": "https://www.revueconflits.com/le-venezuela-veut-revenir-dans-le-jeu-mondial/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique",
+        "Amérique latine",
+        "Économie, énergies et entreprises",
+        "Abonné",
+        "Entretien",
+        "Venezuela"
+      ],
+      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/05/AFP__20260504__A9QE2WH__v1__PNGRetina__LitigeFrontalierEntreLeGuyanaEtLeVenezuela.png",
+        "kind": "article",
+        "alt": "Le Venezuela veut revenir dans le jeu mondial",
+        "credit": "Guyana (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/le-venezuela-veut-revenir-dans-le-jeu-mondial/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/le-venezuela-veut-revenir-dans-le-jeu-mondial/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-27",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/05/AFP__20260504__A9QE2WH__v1__PNGRetina__LitigeFrontalierEntreLeGuyanaEtLeVenezuela.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T07:48:53+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Pendant que la France avance seule, le Royaume-Uni, l’Italie et le Japon progressent sur leur avion de combat de 6e génération avec le…",
+      "url": "https://www.forum-militaire.fr/pendant-que-la-france-avance-seule-le-royaume-uni-litalie-et-le-japon-progressent-sur-leur-avion-de-combat-de-6e-generation-avec-le-premier-site-a-turin/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "Industrie",
+        "avion",
+        "high-tech"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 9 octobre 2026 à Turin, Edgewing a ouvert le premier site global d’ingénierie du programme GCAP, le chasseur de…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-27",
       "publishedAt": "2026-10-27T02:10:09+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -2212,7 +2549,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-26T07:38:59.244214+00:00"
+      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00"
     },
     {
       "date": "2026-10-23",
@@ -2849,7 +3186,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-26T07:38:59.244214+00:00"
+      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00"
     },
     {
       "date": "2026-10-21",
@@ -9952,7 +10289,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-26T17:28:07.094506+00:00"
+      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00"
     },
     {
       "date": "2026-10-07",
@@ -10166,10 +10503,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-26T17:28:07.094506+00:00"
+      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00"
     }
   ],
-  "checkedAt": "2026-10-27T07:34:24.562107+00:00",
+  "checkedAt": "2026-10-27T17:34:44.741875+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -10188,7 +10525,7 @@
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 7,
         "error": null
       },
       {
@@ -10224,7 +10561,7 @@
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 3,
         "error": null
       },
       {
@@ -10236,7 +10573,7 @@
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 6,
         "error": null
       },
       {
@@ -10246,8 +10583,8 @@
         "error": null
       }
     ],
-    "newItems": 7,
-    "articleImages": 257,
+    "newItems": 10,
+    "articleImages": 265,
     "duplicateHeadlinesSkipped": 0
   }
 }
