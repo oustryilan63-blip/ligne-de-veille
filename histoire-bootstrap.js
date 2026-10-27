@@ -18,7 +18,7 @@
     status.hidden=false;status.textContent=isProfile?'Chargement de la fiche…':'Chargement du catalogue…';
     if(isProfile){document.body.classList.add('history-profile');document.getElementById('history-catalogue').hidden=true;await Promise.all(profileDependencies.map(load));await Promise.all(['histoire-photos.js?v=4','histoire-3d.js?v=5'].map(load));}
     else {await load('histoire-catalog-data.js?v=6');window.RADAR_3D={has:item=>window.RADAR_CATALOG_3D.includes(item.name)};}
-    await load('histoire.js?v=43');status.hidden=true;
+    await load('histoire.js?v=44');status.hidden=true;
     if(location.hash){let id=location.hash.slice(1);try{id=decodeURIComponent(id)}catch{}const anchor=document.getElementById(id);if(anchor)anchor.scrollIntoView({block:'start'});}
   }
   start().catch(()=>{status.textContent='Le chargement a échoué. ';const retry=document.createElement('button');retry.type='button';retry.textContent='Réessayer';retry.addEventListener('click',()=>location.reload());status.append(retry);});

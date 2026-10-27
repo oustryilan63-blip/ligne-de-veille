@@ -132,3 +132,9 @@ if(fs.existsSync(path.join(output,'comprendre.html'))){
  for(const file of styled){const html=fs.readFileSync(path.join(output,file),'utf8');assert.match(html,/<body[^>]*class="[^"]*\bradar-visual\b/);assert.ok(html.includes('href="assets/radar-visual.css?v='+(file==='index.html'?'2026102703':'2026102601')+'"'));}
  for(const file of fs.readdirSync(output).filter(f=>/^(fiche-|comparatif-|variantes-)/.test(f)||['histoire.html','collection.html','comparateur.html','qg-radar.html'].includes(f))){const html=fs.readFileSync(path.join(output,file),'utf8');assert.ok(!html.includes('radar-visual'),'Style hors périmètre : '+file);}
 }
+
+// L'habillage de l'atlas reste limité au catalogue et aux fiches.
+if(fs.existsSync(path.join(output,'histoire.html'))){
+ const atlasPages=new Set(['histoire.html',...E.map(e=>D.profileURL(e))]);
+ for(const file of fs.readdirSync(output).filter(f=>f.endsWith('.html'))){const html=fs.readFileSync(path.join(output,file),'utf8');if(atlasPages.has(file)){assert.match(html,/<body[^>]*class="[^"]*\bradar-atlas\b/);assert.match(html,/href="assets\/atlas-ui\.css\?v=2026102701"/);}else assert.ok(!html.includes('assets/atlas-ui.css'),'Style atlas hors périmètre : '+file);}
+}

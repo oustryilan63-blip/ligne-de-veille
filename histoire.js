@@ -22,7 +22,7 @@
   const el = (tag, cls, value) => {const n=document.createElement(tag);if(cls)n.className=cls;if(value!==undefined)n.textContent=value;return n};
   const link = (label, href) => {const a=el('a','',label);a.href=href;a.target='_blank';a.rel='noopener noreferrer';return a};
   const photo = item => {const img=el('img');const real=item.mediaLabel==='Illustration'?(window.RADAR_CATALOG_PHOTOS?.[item.name]||window.RADAR_PHOTOS?.photos(item).find(p=>p.real!==false)):null;img.src=real?.src||'assets/jeu/'+item.photo;img.alt=real?.alt||item.alt||item.name;img.loading='lazy';img.decoding='async';return img};
-  const categories = ['Tous','Ajouts récents','Vues 3D','Chars et blindés','Avions','Drones et hélicoptères','Navires et sous-marins','Artillerie','Missiles'];
+  const categories = ['Tous','Chars et blindés','Avions','Drones et hélicoptères','Navires et sous-marins','Artillerie','Missiles','Ajouts récents','Vues 3D'];
   const group = item => {
     if (item.category === 'missiles') return 'Missiles';
     if (item.category === 'mer') return 'Navires et sous-marins';
@@ -32,26 +32,31 @@
     if (/SOUS-MARIN|PORTE-AVIONS|DESTROYER|FRÉGATE|CORVETTE/.test(item.kind)) return 'Navires et sous-marins';
     return 'Avions';
   };
-  let selected = 'Tous';
+  let selected = 'Tous',visibleLimit=24;
+  const more=document.getElementById('history-more'),clearSearch=document.getElementById('history-clear'),paginated=!!more&&!collectionOnly;
   const latest=engins.map(e=>e.addedAt||'').sort().at(-1);
   const latestBatch=Math.max(0,...engins.map(e=>e.addedBatch||0));
   const originCodes=[...new Set(engins.flatMap(e=>e.originCodes||[e.code]))].sort((a,b)=>tools.countryName(a).localeCompare(tools.countryName(b),'fr'));
   for(const code of originCodes){const option=el('option','',tools.countryName(code));option.value=code;countrySelect.append(option)}
   for(const [key,label] of Object.entries(tools.types).filter(([key])=>engins.some(e=>tools.type(e)===key))){const option=el('option','',label);option.value=key;typeSelect.append(option)}
   categories.forEach(c => {const b=el('button','',c);b.type='button';b.setAttribute('aria-pressed',String(c===selected));b.addEventListener('click',()=>{selected=c;filters.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));renderCatalogue()});filters.append(b)});
-  function renderCatalogue(){
+  function renderCatalogue(keepPage=false){
+    if(keepPage!==true)visibleLimit=24;
     const query=search.value.trim();
     const found=engins.map((item,i)=>({item,i})).filter(({item})=>(!collectionOnly||collection.has(item.name))&&(selected==='Tous'||(selected==='Ajouts récents'?(latestBatch?item.addedBatch===latestBatch:item.addedAt&&item.addedAt===latest):selected==='Vues 3D'?window.RADAR_3D?.has(item):group(item)===selected))&&(!countrySelect.value||(item.originCodes||[item.code]).includes(countrySelect.value))&&(!typeSelect.value||tools.type(item)===typeSelect.value)&&tools.matches(item,query));
     if(sortSelect.value==='alpha')found.sort((a,b)=>a.item.name.localeCompare(b.item.name,'fr',{numeric:true}));
     if(sortSelect.value==='recent')found.sort((a,b)=>(b.item.addedAt||'').localeCompare(a.item.addedAt||'')||b.i-a.i);
     grid.replaceChildren();
-    found.forEach(({item,i})=>{
+    const visible=paginated?found.slice(0,visibleLimit):found;
+    visible.forEach(({item,i})=>{
       const a=el('a','history-card');if(item.category==='missiles')a.classList.add('history-card-missile');a.href=window.RADAR_DISCOVERY?.profileURL(item)||'histoire.html?engin='+i;a.setAttribute('aria-label','Lire la fiche : '+item.name);
       if(collectionOnly)a.href+=(a.href.includes('?')?'&':'?')+'retour=collection';
       a.append(photo(item));const body=el('div','history-card-copy');body.append(el('span','history-card-kicker',item.kind));
-      const row=el('div','history-card-title');row.append(el('strong','',item.name),el('span','','↗'));body.append(row,el('span','history-card-country',item.country));if(window.RADAR_3D?.has(item))body.append(el('span','history-3d-badge','Vue 3D disponible'));a.append(body);const shell=el('article','history-card-shell');shell.append(a,collection.button(item));grid.append(shell);
+      const row=el('div','history-card-title');row.append(el('strong','',item.name),el('span','','↗'));body.append(row,el('span','history-card-country',item.country));if(window.RADAR_3D?.has(item))body.append(el('span','history-3d-badge','Vue 3D disponible'));if(paginated)body.append(el('span','history-card-read','Lire la fiche →'));a.append(body);const shell=el('article','history-card-shell');shell.append(a,collection.button(item));grid.append(shell);
     });
-    count.textContent=found.length+' / '+engins.length+' ENGINS';empty.hidden=found.length>0;
+    count.textContent=found.length+' fiche'+(found.length>1?'s':'')+(visible.length<found.length?' · '+visible.length+' affichées':'');empty.hidden=found.length>0;
+    if(more){more.hidden=visible.length>=found.length;more.textContent='Afficher '+Math.min(24,found.length-visible.length)+' fiches de plus · '+visible.length+' / '+found.length;}
+    if(clearSearch)clearSearch.hidden=!query;
     const criteria=[];
     if(query)criteria.push('Recherche : « '+query+' »');
     if(countrySelect.value)criteria.push(tools.countryName(countrySelect.value));
@@ -60,7 +65,9 @@
     if(sortSelect.value==='alpha')criteria.push('Tri : A à Z');
     if(sortSelect.value==='recent')criteria.push('Tri : derniers ajouts');
     const foldState=document.getElementById('history-fold-state'),activeSummary=document.getElementById('history-filter-summary');
-    if(foldState)foldState.textContent=criteria.length?criteria.length+' critère'+(criteria.length>1?'s':'')+' actif'+(criteria.length>1?'s':''):'Aucun filtre actif';
+    const advanced=Number(Boolean(countrySelect.value))+Number(Boolean(typeSelect.value))+Number(sortSelect.value!=='catalogue');
+    if(foldState)foldState.textContent=advanced?advanced+' filtre'+(advanced>1?'s':'')+' avancé'+(advanced>1?'s':''):'Tous pays · tous types';
+    const reset=document.getElementById('history-reset');if(reset)reset.hidden=criteria.length===0;
     if(activeSummary){activeSummary.textContent=criteria.join(' · ');activeSummary.hidden=criteria.length===0;}
     if(collectionOnly&&collection.names().length===0)empty.textContent='Ta collection est vide. Dans Histoire, utilise les étoiles pour choisir tes premiers engins.';
     else empty.textContent='Aucun engin ne correspond à cette recherche.';
@@ -70,9 +77,11 @@
     const quiz=document.getElementById('collection-quiz-link');if(quiz){quiz.href='devine-engin.html?collection=1'+(total<4?'&reponse=text':'');quiz.textContent=total<4?'Quiz en réponse libre →':'Quiz sur ma collection →';quiz.hidden=total===0;}
   }
   search.addEventListener('input',renderCatalogue);
+  clearSearch?.addEventListener('click',()=>{search.value='';renderCatalogue();search.focus();});
+  more?.addEventListener('click',()=>{const first=visibleLimit;visibleLimit+=24;renderCatalogue(true);const target=grid.children[first]?.querySelector('a');target?.focus({preventScroll:true});target?.scrollIntoView?.({block:'nearest'});});
   for(const select of [countrySelect,typeSelect,sortSelect])select.addEventListener('change',renderCatalogue);
   document.getElementById('history-reset')?.addEventListener('click',()=>{search.value=countrySelect.value=typeSelect.value='';sortSelect.value='catalogue';selected='Tous';filters.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.textContent==='Tous')));renderCatalogue()});
-  window.addEventListener('radar-collection-change',()=>{if(!detail.hidden)return;const active=document.activeElement?.dataset?.favourite;renderCatalogue();if(active){const target=[...grid.querySelectorAll('[data-favourite]')].find(b=>b.dataset.favourite===active);if(target)target.focus();else document.getElementById('collection-title')?.focus();}});
+  window.addEventListener('radar-collection-change',()=>{if(!detail.hidden)return;const active=document.activeElement?.dataset?.favourite;renderCatalogue(true);if(active){const target=[...grid.querySelectorAll('[data-favourite]')].find(b=>b.dataset.favourite===active);if(target)target.focus();else document.getElementById('collection-title')?.focus();}});
   function section(title, desc, folded=false){const s=el(folded?'details':'section','history-detail-section'+(folded?' history-extra':''));s.append(el(folded?'summary':'h2','',title));if(desc)s.append(el('p','',desc));return s}
   function technicalCard(index){
     const data=technical[index];
@@ -205,14 +214,15 @@
     const item=engins[index],fact=facts[index]||{},figuresFor=figures[index]||{};
     catalogue.hidden=true;detail.hidden=false;detail.replaceChildren();document.body.classList.add('history-profile');document.title=item.name+' | Histoire | Radar';
     const fromCollection=params.get('retour')==='collection';
-    const back=el('a','history-back',fromCollection?'← Revenir à ma collection':'← Revenir aux '+engins.length+' engins');back.href=fromCollection?'collection.html':'histoire.html';detail.append(back);
+    const back=el('a','history-back',fromCollection?'← Revenir à ma collection':'← Retour à l’atlas');back.href=fromCollection?'collection.html':'histoire.html';detail.append(back);
+    const heading=el('header','atlas-profile-heading');heading.append(el('span','history-kicker',item.kind+' · '+item.country),el('h1','history-name',item.name));detail.append(heading);
     const jump=el('nav','profile-jump');jump.setAttribute('aria-label','Dans cette fiche');detail.append(jump);
     const head=el('div','history-detail-head');const media=el('div',item.category==='missiles'?'history-missile-media':'');
     const photoRecords=window.RADAR_PHOTOS.photos(item),coverRecord=photoRecords[0],cover=el('a','history-cover'),coverImage=el('img');
     cover.href='#photos';cover.setAttribute('aria-label','Voir la galerie photo de '+item.name);coverImage.src=coverRecord.src;coverImage.alt=coverRecord.alt||item.name;coverImage.decoding='async';coverImage.loading='eager';cover.append(coverImage);
     const photoShortcut=el('a','history-photo-shortcut','Voir les '+photoRecords.length+' photo'+(photoRecords.length>1?'s':'')+' ↓');photoShortcut.href='#photos';
     media.append(cover,window.RADAR_PHOTOS.creditFor(coverRecord),photoShortcut);
-    const copy=el('div','history-summary');copy.append(el('span','history-kicker',item.kind+' · '+item.country),el('h1','history-name',item.name));
+    const copy=el('div','history-summary');copy.append(el('span','atlas-summary-label','L’essentiel'));
     copy.append(el('p','history-introduction',item.explanation));
     const actions=el('div','history-profile-actions');actions.setAttribute('role','group');actions.setAttribute('aria-label','Actions sur cet engin');actions.append(collection.button(item,true));
     const compare=el('a','compare-link','Comparer cet engin →');compare.href='comparateur.html?a='+index;actions.append(compare);copy.append(actions);
