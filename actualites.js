@@ -1,7 +1,188 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-10-27",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T02:10:09+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Dans le Maine, les relations avec le Canada malmenées par la guerre commerciale de Trump",
+      "url": "https://www.revueconflits.com/dans-le-maine-les-relations-avec-le-canada-malmenees-par-la-guerre-commerciale-de-trump/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique",
+        "Amérique du Nord",
+        "Abonné",
+        "États-Unis",
+        "Reportage"
+      ],
+      "imageCheckedAt": "2026-10-27T07:34:34.434826+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2025/04/SIPA_sipausa30476622_000011-1.jpg",
+        "kind": "article",
+        "alt": "Dans le Maine, les relations avec le Canada malmenées par la guerre commerciale de Trump",
+        "credit": "President Donald Trump displays a chart with reciprocal tariffs during a 'Liberation Day' event in the Rose Garden at the White House on April 2, 2025 in Washington, D.C. Today?s tariffs are just the most recent moves that President Trump has taken in this new trade war since returning to the White House less that three months ago. (Photo by Samuel Corum/Sipa USA)/60532918//2504022250",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/dans-le-maine-les-relations-avec-le-canada-malmenees-par-la-guerre-commerciale-de-trump/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/dans-le-maine-les-relations-avec-le-canada-malmenees-par-la-guerre-commerciale-de-trump/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-27",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2025/04/SIPA_sipausa30476622_000011-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T22:11:06+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "AUKUS: USS Colorado Announced as First Submarine for SRF – West",
+      "url": "https://www.navalnews.com/naval-news/2026/10/aukus-uss-colorado-announced-as-first-submarine-for-srf-west/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "AUKUS",
+        "Australian Navy",
+        "SSN"
+      ],
+      "sourceExcerpt": {
+        "text": "U.S. Secretary of War Pete Hegseth, Australian Deputy Prime Minister and Minister for Defence Richard Marles, and UK Secretary of…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-27T07:34:34.434826+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/1793049993133-768x512.jpeg",
+        "kind": "article",
+        "alt": "AUKUS: USS Colorado Announced as First Submarine for SRF – West",
+        "credit": "US Navy. Virginia-class fast-attack submarine USS Colorado (SSN 788) maneuvers as it arrives at Joint Base Pearl Harbor-Hickam, Hawaii. Colorado commissioned in 2018, and is the fourth warship named after the Centennial State. Colorado is the fifth redesigned Block III Virginia-class submarine.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/aukus-uss-colorado-announced-as-first-submarine-for-srf-west/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/aukus-uss-colorado-announced-as-first-submarine-for-srf-west/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-27",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/1793049993133.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T20:50:59+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Op-Ed: The US Navy CAN Fix the Fleet with Distributed Manufacturing",
+      "url": "https://www.navalnews.com/naval-news/2026/10/op-ed-us-navy-distributed-manufacturing/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Fairbank Morse Defense",
+        "Shipbuilding",
+        "US Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "The U.S. Navy can solve its shipbuilding crisis by embracing distributed manufacturing and modular design, argues Fairbanks Morse Defense CEO…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-27T07:34:34.434826+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/FMD_Poland_DMCoE_Aug2026-768x576.jpeg",
+        "kind": "article",
+        "alt": "The US Navy CAN Fix the Fleet with Distributed Manufacturing",
+        "credit": "FMD)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/op-ed-us-navy-distributed-manufacturing/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/op-ed-us-navy-distributed-manufacturing/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-27",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/FMD_Poland_DMCoE_Aug2026-scaled.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T18:20:30+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’entreprise américaine Warhound veut élever des chiens militaires génétiquement modifiés",
+      "url": "https://www.opex360.com/2026/10/26/lentreprise-americaine-warhound-veut-elever-des-chiens-militaires-genetiquement-modifies/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Technologie",
+        "Anduril",
+        "chien militaire",
+        "Colossal",
+        "dressage",
+        "élevage",
+        "Etats-Unis",
+        "génétique",
+        "Warhound"
+      ],
+      "sourceExcerpt": {
+        "text": "Que ce soit pour la protection de sites sensibles, la recherche d’explosifs ou bien encore la neutralisation d’individus hostiles, les…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-27T07:34:34.434826+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/caps-20191207.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’entreprise américaine Warhound veut élever des chiens militaires génétiquement modifiés ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/26/lentreprise-americaine-warhound-veut-elever-des-chiens-militaires-genetiquement-modifies/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/26/lentreprise-americaine-warhound-veut-elever-des-chiens-militaires-genetiquement-modifies/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-27",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/caps-20191207.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T17:44:22+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "E5 Defence Ministers' Statement: 26 October 2026",
+      "url": "https://www.gov.uk/government/news/e5-defence-ministers-statement-26-october-2026",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-10-27T07:34:34.434826+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/e5-defence-ministers-statement-26-october-2026",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/e5-defence-ministers-statement-26-october-2026",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-27"
+      }
+    },
     {
       "date": "2026-10-26",
       "publishedAt": "2026-10-26T17:16:33+00:00",
@@ -185,6 +366,52 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-26",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/featured_DDG_1000_Zumwalt_Undocking_drydock_ab1bab83ca-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T11:34:57+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Spécialiste de l’IA militaire, Helsing AI dévoile un nouveau système de défense aérienne pour contrer les attaques saturantes",
+      "url": "https://www.opex360.com/2026/10/26/specialiste-de-lia-militaire-helsing-ai-devoile-un-nouveau-systeme-de-defense-aerienne-pour-contrer-les-attaques-saturantes/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Défense antimissile",
+        "Industrie",
+        "AD-1 Inferno",
+        "AD-2 Ambush",
+        "Altra",
+        "attaque saturante",
+        "Contra",
+        "défense aérienne",
+        "drone",
+        "Helsing AI",
+        "intelligence artificielle",
+        "missile"
+      ],
+      "sourceExcerpt": {
+        "text": "Lors d’une récente audition à l’Assemblée nationale, le chef d’état-major de l’armée de l’Air & de l’Espace [CEMAAE], le général…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-27T07:34:34.434826+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/contra-helsing-20261026.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Spécialiste de l’IA militaire, Helsing AI dévoile un nouveau système de défense aérienne pour contrer les attaques saturantes ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/26/specialiste-de-lia-militaire-helsing-ai-devoile-un-nouveau-systeme-de-defense-aerienne-pour-contrer-les-attaques-saturantes/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/26/specialiste-de-lia-militaire-helsing-ai-devoile-un-nouveau-systeme-de-defense-aerienne-pour-contrer-les-attaques-saturantes/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-27",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/contra-helsing-20261026.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -1986,6 +2213,19 @@ window.LDV_NEWS = {
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
       "imageCheckedAt": "2026-10-26T07:38:59.244214+00:00"
+    },
+    {
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-22T22:00:00+00:00",
+      "source": "Sénat — Défense",
+      "sourceType": "Source officielle",
+      "title": "Armes et munitions produites par les industries européennes de la défense - Résolution n° 17",
+      "url": "https://www.senat.fr/leg/tas26-017.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-10-27T07:34:34.434826+00:00"
     },
     {
       "date": "2026-10-22",
@@ -9929,7 +10169,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-10-26T17:28:07.094506+00:00"
     }
   ],
-  "checkedAt": "2026-10-26T17:27:40.264478+00:00",
+  "checkedAt": "2026-10-27T07:34:24.562107+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -9941,9 +10181,9 @@ window.LDV_NEWS = {
     "sources": [
       {
         "source": "Sénat — Défense",
-        "ok": false,
-        "recentItems": 0,
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
+        "ok": true,
+        "recentItems": 2,
+        "error": null
       },
       {
         "source": "Ministère britannique de la Défense",
@@ -9978,7 +10218,7 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 2,
         "error": null
       },
       {
@@ -10006,8 +10246,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 10,
-    "articleImages": 251,
+    "newItems": 7,
+    "articleImages": 257,
     "duplicateHeadlinesSkipped": 0
   }
 };

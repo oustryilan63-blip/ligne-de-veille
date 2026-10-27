@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-26T17:27:40.264478+00:00",
+  "checkedAt": "2026-10-27T07:34:24.562107+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,11 +10,9 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 10,
+    "ok": 11,
     "total": 11,
-    "unavailable": [
-      "Sénat — Défense"
-    ]
+    "unavailable": []
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -47,7 +45,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-26T17:28:33.220304+00:00",
+        "checkedAt": "2026-10-27T07:34:36.061783+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -63,7 +61,7 @@
         "sources": [
           {
             "source": "ONU Info",
-            "ok": true
+            "ok": false
           },
           {
             "source": "France 24",
@@ -94,9 +92,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-26T17:28:33.220304+00:00",
+        "checkedAt": "2026-10-27T07:34:36.061783+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Défense: l'armement et le désarmement en Turquie, Taïwan et Afrique du Sud",
@@ -157,31 +155,31 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-26T17:28:33.220304+00:00",
-        "updatedAt": "2026-10-26T17:28:33.220304+00:00",
+        "checkedAt": "2026-10-27T07:34:36.061783+00:00",
+        "updatedAt": "2026-10-27T07:34:36.061783+00:00",
         "status": "updated",
         "paragraphs": [
           {
-            "title": "Élections en Israël : un scrutin en forme de référendum, pour ou contre Netanyahu ?",
-            "text": "Le Premier ministre israélien Benjamin Netanyahu est à la tête de son pays, quasiment sans interruption, depuis près de 17 ans. Parviendra-t-il à se maintenir au pouvoir à l'issue des élections législatives de mardi ? Son dernier mandat a plus que jamais divisé la société israélienne et restera marqué par les attaques du 7-Octobre, sa gestion des conflits à Gaza, en Iran et au Liban, ainsi que par sa réforme judiciaire controversée.",
+            "title": "Législatives en Israël : ouverture des bureaux de vote, un scrutin serré en perspective",
+            "text": "Les Israéliens ont commencé à voter mardi pour les premières élections législatives depuis l'attaque du 7-Octobre. Ce scrutin prend des allures de référendum pour le Premier ministre Benjamin Netanyahu.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/%C3%A9missions/focus/20261026-%C3%A9lections-en-isra%C3%ABl-un-scrutin-en-forme-de-r%C3%A9f%C3%A9rendum-pour-ou-contre-netanyahu",
-            "publishedAt": "2026-10-26T11:55:14+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261027-l%C3%A9gislatives-en-isra%C3%ABl-ouverture-des-bureaux-de-vote-un-scrutin-serr%C3%A9-en-perspective",
+            "publishedAt": "2026-10-27T05:57:55+00:00"
           },
           {
-            "title": "Législatives en Israël : face à Netanyahu, Eisenkot prône l'unité",
-            "text": "À la veille des législatives israéliennes, Gadi Eisenkot a promis dimanche de réconcilier un pays profondément divisé, tandis que son rival, le Premier ministre Benjamin Netanyahu, redoublait d'attaques contre l'opposition et recevait à nouveau le soutien de Donald Trump.",
+            "title": "Législatives en Israël : comment se joue la bataille pour gouverner",
+            "text": "Les Israéliennes et Israéliens voteront le 27 octobre à l'occasion des premières élections législatives organisées depuis les attaques du 7-Octobre.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261026-l%C3%A9gislatives-en-isra%C3%ABl-face-%C3%A0-netanyahu-eisenkot-pr%C3%B4ne-l-unit%C3%A9",
-            "publishedAt": "2026-10-26T09:17:01+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261027-l%C3%A9gislatives-isra%C3%ABl-comment-se-joue-bataille-pour-gouverner",
+            "publishedAt": "2026-10-27T03:26:24+00:00"
           }
         ],
         "sources": [
           {
             "source": "ONU Info",
-            "ok": true
+            "ok": false
           },
           {
             "source": "France 24",
