@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-27T17:34:44.741875+00:00",
+  "checkedAt": "2026-10-28T07:43:22.889519+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -53,7 +53,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-27T17:34:51.713688+00:00",
+        "checkedAt": "2026-10-28T07:43:28.917384+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -100,7 +100,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-27T17:34:51.713688+00:00",
+        "checkedAt": "2026-10-28T07:43:28.917384+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -126,8 +126,16 @@
       }
     },
     "moyen-orient-conflits": {
-      "changedAt": "2026-10-27T17:34:44.741875+00:00",
+      "changedAt": "2026-10-28T07:43:22.889519+00:00",
       "items": [
+        {
+          "title": "Élections en Israël : pas de majorité en vue, les partis arabes sont en force",
+          "url": "https://www.revueconflits.com/elections-en-israel-pas-de-majorite-en-vue-les-partis-arabes-sont-en-force/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-10-27T21:15:58+00:00",
+          "language": "fr"
+        },
         {
           "title": "Houthi Ballistic Missile Intercepted Near Belgian Minehunter in Bab el-Mandeb",
           "url": "https://www.navalnews.com/naval-news/2026/10/houthi-ballistic-missile-intercepted-near-belgian-minehunter-in-bab-el-mandeb/",
@@ -151,22 +159,22 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-10-18T03:00:37+00:00",
           "language": "fr"
-        },
-        {
-          "title": "Podcast – La culture du combat en Israël. Gil Mihaely",
-          "url": "https://www.revueconflits.com/podcast-la-culture-du-combat-en-israel-gil-mihaely/",
-          "source": "Revue Conflits",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-10-16T02:34:56+00:00",
-          "language": "fr"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-27T17:34:51.713688+00:00",
-        "updatedAt": "2026-10-27T17:34:51.713688+00:00",
+        "checkedAt": "2026-10-28T07:43:28.917384+00:00",
+        "updatedAt": "2026-10-28T07:43:28.917384+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Élections en Israël : Gadi Eisenkot peut-il battre Benjamin Netanyahu ?",
+            "text": "Quelque sept millions d'Israéliens ont été appelés aux urnes pour les élections législatives – les premières depuis les attaques du Hamas le 7 octobre 2023. Ce mardi est férié dans le pays. Les deux blocs, celui du Premier ministre israélien Benjamin Netanyahu, et celui de l'opposition emmené par l'ancien chef d'état-major Gadi Eisenkot, sont au coude-à-coude dans les sondages.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261027-%C3%A9lections-en-isra%C3%ABl-eisenkot-peut-il-battre-netanyahu",
+            "publishedAt": "2026-10-27T19:42:18+00:00"
+          },
           {
             "title": "Netanyahu joue sa survie politique lors des élections législatives",
             "text": "​Les électeurs israéliens décideront mardi du sort du Premier ministre Benjamin Netanyahu lors ​d'élections législatives à l'occasion desquelles ils examineront son bilan depuis l'attaque meurtrière du Hamas du 7 octobre 2023.",
@@ -174,14 +182,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/vid%C3%A9o/20261027-netanyahu-joue-sa-survie-politique-lors-des-%C3%A9lections-l%C3%A9gislatives",
             "publishedAt": "2026-10-27T12:26:51+00:00"
-          },
-          {
-            "title": "Législatives en Israël : ouverture des bureaux de vote, un scrutin serré en perspective",
-            "text": "Les Israéliens ont commencé à voter mardi pour les premières élections législatives depuis l'attaque du 7-Octobre. Ce scrutin prend des allures de référendum pour le Premier ministre Benjamin Netanyahu.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261027-l%C3%A9gislatives-en-isra%C3%ABl-ouverture-des-bureaux-de-vote-un-scrutin-serr%C3%A9-en-perspective",
-            "publishedAt": "2026-10-27T05:57:55+00:00"
           }
         ],
         "sources": [

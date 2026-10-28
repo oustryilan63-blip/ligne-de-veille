@@ -1,7 +1,311 @@
 {
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-28",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T06:52:00+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "French Parliamentary Report Urges Construction of a Second Aircraft Carrier by 2029",
+      "url": "https://www.navalnews.com/naval-news/2026/10/french-parliamentary-report-urges-construction-of-a-second-aircraft-carrier-by-2029/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Aircraft Carrier",
+        "France Libre",
+        "French Navy",
+        "PANG"
+      ],
+      "sourceExcerpt": {
+        "text": "A French parliamentary report urges ordering a second next-generation aircraft carrier by 2029 to ensure a permanent Carrier Strike Group…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-28T07:43:26.837486+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/03/France-Libre-aircraft-carrier-PANG-2-768x768.jpg",
+        "kind": "article",
+        "alt": "France Libre aircraft carrier PANG",
+        "credit": "MO Portes-Avions / Naval Group image.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/french-parliamentary-report-urges-construction-of-a-second-aircraft-carrier-by-2029/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/french-parliamentary-report-urges-construction-of-a-second-aircraft-carrier-by-2029/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-28",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/03/France-Libre-aircraft-carrier-PANG-2.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T02:08:35+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Reportage au domaine Saparale",
+      "url": "https://www.revueconflits.com/podcast-reportage-au-domaine-saparale/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Podcasts",
+        "Podcasts France",
+        "Podcasts Géopolitique & Entreprises",
+        "Chemins de France"
+      ],
+      "imageCheckedAt": "2026-10-28T07:43:26.837486+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/Photo-miniature-Domaine-Saparale.png",
+        "kind": "article",
+        "alt": "Podcast – Reportage au domaine Saparale",
+        "credit": "Domaine Saparale (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-reportage-au-domaine-saparale/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-reportage-au-domaine-saparale/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-28",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/Photo-miniature-Domaine-Saparale.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T21:15:58+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Élections en Israël : pas de majorité en vue, les partis arabes sont en force",
+      "url": "https://www.revueconflits.com/elections-en-israel-pas-de-majorite-en-vue-les-partis-arabes-sont-en-force/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Moyen-Orient",
+        "Israël"
+      ],
+      "imageCheckedAt": "2026-10-28T07:43:26.837486+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_ap23069996_000069-1-scaled.jpg",
+        "kind": "article",
+        "alt": "Élections en Israël : pas de majorité en vue, les partis arabes sont en force",
+        "credit": "AP Photo/Oded Balilty",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/elections-en-israel-pas-de-majorite-en-vue-les-partis-arabes-sont-en-force/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/elections-en-israel-pas-de-majorite-en-vue-les-partis-arabes-sont-en-force/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-28",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_ap23069996_000069-1-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T19:31:32+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "2027, nouvelle année de rattrapage pour le génie",
+      "url": "https://forcesoperations.com/2027-nouvelle-annee-de-rattrapage-pour-le-genie/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "Belgique",
+        "EGC",
+        "génie",
+        "OCCAR",
+        "PLF 2027"
+      ],
+      "sourceExcerpt": {
+        "text": "L'arme du génie ne sera pas oubliée en 2027. Derrière la réorganisation et le renforcement des régiments, les sapeurs peuvent…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-28T07:43:26.837486+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/10/2027-nouvelle-annee-de-rattrapage-pour-le-genie_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « 2027, nouvelle année de rattrapage pour le génie ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/2027-nouvelle-annee-de-rattrapage-pour-le-genie/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/2027-nouvelle-annee-de-rattrapage-pour-le-genie/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-28",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/2027-nouvelle-annee-de-rattrapage-pour-le-genie_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T18:52:08+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le drone de combat qui accompagnera le Rafale F5 ne sera peut-être pas de conception française",
+      "url": "https://www.opex360.com/2026/10/27/le-drone-de-combat-qui-accompagnera-le-rafale-f5-ne-sera-peut-etre-pas-de-conception-francaise/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Industrie",
+        "aAE",
+        "aviation de combat",
+        "Catherine Vautrin",
+        "CCA",
+        "Dassault Aviation",
+        "Neuron",
+        "Rafale F5",
+        "UCAV"
+      ],
+      "sourceExcerpt": {
+        "text": "En octobre 2024, conformément à la Loi de programmation militaire [LPM] 2024-30, le ministère des Armées annonça le développement d’un…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-28T07:43:26.837486+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/rafale-neuron-20241008.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le drone de combat qui accompagnera le Rafale F5 ne sera peut-être pas de conception française ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/27/le-drone-de-combat-qui-accompagnera-le-rafale-f5-ne-sera-peut-etre-pas-de-conception-francaise/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/27/le-drone-de-combat-qui-accompagnera-le-rafale-f5-ne-sera-peut-etre-pas-de-conception-francaise/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-28",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/rafale-neuron-20241008.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T18:45:30+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Signal du déclassement économique de la France",
+      "url": "https://www.revueconflits.com/signal-du-declassement-economique-de-la-france/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Géopolitique de la France",
+        "Abonné",
+        "France",
+        "géoéconomie"
+      ],
+      "imageCheckedAt": "2026-10-28T07:43:26.837486+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/11/SIPA_01178400_000011-1.jpg",
+        "kind": "article",
+        "alt": "Signal du déclassement économique de la France",
+        "credit": "Le Premier ministre Michel Barnier a prononce, le mercredi 2 octobre 2024, sa DPG au Senat, a Paris. //SIPA/2410021553",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/signal-du-declassement-economique-de-la-france/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/signal-du-declassement-economique-de-la-france/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-28",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/11/SIPA_01178400_000011-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T18:26:23+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Navantia Launches Second F110 Frigate ‘Roger de Lauria’ Four Months Ahead of Schedule",
+      "url": "https://www.navalnews.com/naval-news/2026/10/navantia-launches-second-f110-frigate-roger-de-lauria-four-months-ahead-of-schedule/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "F110",
+        "Navantia",
+        "Spanish Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "Navantia has successfully launched the second F110-class frigate, Roger de Lauria (F112), for the Spanish Navy four months ahead of…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-28T07:43:26.837486+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/F112-Launch-Navantia-1-768x579.jpg",
+        "kind": "article",
+        "alt": "F110 frigate Roger de Lauria F112",
+        "credit": "Roger de Lauria (F112), the second F110 frigate for the Spanish Navy was built at the Navantia Ferrol shipyard.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/navantia-launches-second-f110-frigate-roger-de-lauria-four-months-ahead-of-schedule/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/navantia-launches-second-f110-frigate-roger-de-lauria-four-months-ahead-of-schedule/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-28",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/F112-Launch-Navantia-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T17:41:44+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Après avoir envisagé son abandon, l’US Air Force lance finalement la production de l’arme hypersonique AGM-183A",
+      "url": "https://www.opex360.com/2026/10/27/apres-avoir-envisage-son-abandon-lus-air-force-lance-finalement-la-production-de-larme-hypersonique-agm-183a/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amériques",
+        "Forces aériennes",
+        "AGM-183A",
+        "arme hypersonique",
+        "ARRW",
+        "Etats-Unis",
+        "Lockheed Martin",
+        "production",
+        "US Air Force"
+      ],
+      "sourceExcerpt": {
+        "text": "En 2023, après une campagne d’essais en demi-teinte car comptant autant d’échecs que de succès, l’US Air Force fut à…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-28T07:43:26.837486+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/agm183a-20220517-2.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Après avoir envisagé son abandon, l’US Air Force lance finalement la production de l’arme hypersonique AGM-183A ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/27/apres-avoir-envisage-son-abandon-lus-air-force-lance-finalement-la-production-de-larme-hypersonique-agm-183a/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/27/apres-avoir-envisage-son-abandon-lus-air-force-lance-finalement-la-production-de-larme-hypersonique-agm-183a/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-28",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/agm183a-20220517-2.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-27",
       "publishedAt": "2026-10-27T15:51:23+00:00",
@@ -2562,7 +2866,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-27T07:34:34.434826+00:00"
+      "imageCheckedAt": "2026-10-28T07:43:26.837486+00:00"
     },
     {
       "date": "2026-10-22",
@@ -10506,7 +10810,7 @@
       "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00"
     }
   ],
-  "checkedAt": "2026-10-27T17:34:44.741875+00:00",
+  "checkedAt": "2026-10-28T07:43:22.889519+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -10561,7 +10865,7 @@
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -10583,8 +10887,8 @@
         "error": null
       }
     ],
-    "newItems": 10,
-    "articleImages": 265,
+    "newItems": 8,
+    "articleImages": 273,
     "duplicateHeadlinesSkipped": 0
   }
 }
