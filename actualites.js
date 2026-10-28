@@ -4,6 +4,308 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-10-28",
+      "publishedAt": "2026-10-28T16:05:35+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Surprise en Suisse : le choix d’un second système de défense aérienne se fera entre le SAMP/T NG et le Barak MX israélien",
+      "url": "https://www.opex360.com/2026/10/28/surprise-en-suisse-le-choix-dun-second-systeme-de-defense-aerienne-se-fera-entre-le-samp-t-ng-et-le-barak-mx-israelien/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Défense antimissile",
+        "Europe",
+        "Industrie",
+        "Armasuisse",
+        "Barak MX",
+        "défense aérienne",
+        "Eurosam",
+        "Israel Aerospace Industries",
+        "Patriot",
+        "SAMP/T NG",
+        "Suisse"
+      ],
+      "sourceExcerpt": {
+        "text": "Après l’affaire des F-35A, les retards ainsi que les surcoûts des systèmes de défense aérienne Patriot ou encore les problèmes…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-28T17:31:57.165278+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/mamba-20250912.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Surprise en Suisse : le choix d’un second système de défense aérienne se fera entre le SAMP/T NG et le Barak MX israélien ».",
+        "credit": "SAMP/T – EMA",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/28/surprise-en-suisse-le-choix-dun-second-systeme-de-defense-aerienne-se-fera-entre-le-samp-t-ng-et-le-barak-mx-israelien/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/28/surprise-en-suisse-le-choix-dun-second-systeme-de-defense-aerienne-se-fera-entre-le-samp-t-ng-et-le-barak-mx-israelien/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-28",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/mamba-20250912.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T14:59:41+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "« Malaise dans la génération Z », de Pierre Valentin",
+      "url": "https://www.revueconflits.com/malaise-dans-la-generation-z-de-pierre-valentin/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Livres",
+        "Livre"
+      ],
+      "imageCheckedAt": "2026-10-28T17:31:57.165278+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/09/Livres.jpg",
+        "kind": "article",
+        "alt": "« Malaise dans la génération Z », de Pierre Valentin",
+        "credit": "(c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/malaise-dans-la-generation-z-de-pierre-valentin/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/malaise-dans-la-generation-z-de-pierre-valentin/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-28",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/09/Livres.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T14:34:53+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "MOD appoints its first Director General Innovation",
+      "url": "https://www.gov.uk/government/news/mod-appoints-its-first-director-general-innovation",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "The UK’s commitment to be a leader in innovative defence technologies will be strengthened as Anthony Reeves takes up DG…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-28T17:31:57.165278+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6ae207c87fe45a08a4036eb6/s300_Tony_Reeves.png",
+        "kind": "article",
+        "alt": "Anthony Reeves, the MOD's new DG Innovation",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/mod-appoints-its-first-director-general-innovation",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/mod-appoints-its-first-director-general-innovation",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-28"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T14:12:49+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "How we protected the UK and space in September 2026",
+      "url": "https://www.gov.uk/government/news/how-we-protected-the-uk-and-space-in-september-2026",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "This report was issued in October 2026 and covers the time period 1 September 2026 to 30 September 2026 inclusive.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-28T17:31:57.165278+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6ae1e25a088f42d99bbe77f7/s300_NSpOC_GDS_Image_White_Large.png",
+        "kind": "article",
+        "alt": "The National Space Operations Centre is led by the UK Space Agency and UK Space Command in partnership with the Met Office.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/how-we-protected-the-uk-and-space-in-september-2026",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/how-we-protected-the-uk-and-space-in-september-2026",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-28"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T14:00:35+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Garibaldi ou la force du destin",
+      "url": "https://www.revueconflits.com/garibaldi-ou-la-force-du-destin/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Europe occidentale",
+        "Histoire",
+        "Abonné",
+        "Italie"
+      ],
+      "imageCheckedAt": "2026-10-28T17:31:57.165278+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2023/07/23-Italie-Unite%CC%81_page-0001.jpg",
+        "kind": "article",
+        "alt": "Garibaldi ou la force du destin",
+        "credit": "L'unité italienne. (C) Conflits.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/garibaldi-ou-la-force-du-destin/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/garibaldi-ou-la-force-du-destin/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-28",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2023/07/23-Italie-Unite%CC%81_page-0001.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T13:45:49+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La France va encore une fois affronter l’Allemagne dans une course au leadership dans l’armement avec le futur intercepteur anti-missiles…",
+      "url": "https://www.forum-militaire.fr/la-france-va-encore-une-fois-affronter-lallemagne-dans-une-course-au-leadership-dans-larmement-avec-le-futur-intercepteur-anti-missiles-hypersoniques-de-leurope/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armes / chasse",
+        "contrat",
+        "France",
+        "missile"
+      ],
+      "sourceExcerpt": {
+        "text": "L’Europe vient de boucler la première étape de son programme HYDEF, l’intercepteur anti-missiles hypersoniques qu’elle développe depuis 2021 et dans…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T11:47:50+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Les capacités de la force aérienne polonaise sont affectées par une pénurie de pilotes",
+      "url": "https://www.opex360.com/2026/10/28/les-capacites-de-la-force-aerienne-polonaise-sont-affectees-par-une-penurie-de-pilotes/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces aériennes",
+        "aviation de combat",
+        "cohérence",
+        "F-16",
+        "F-35",
+        "force aérienne polonaise",
+        "formation",
+        "pénurie",
+        "Pologne"
+      ],
+      "sourceExcerpt": {
+        "text": "On peut regretter le fait que la Loi de programmation militaire [LPM] 2024-30 actualisée ait mis l’accent sur la cohérence…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-28T17:31:57.165278+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/f16-pologne-20250814.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Les capacités de la force aérienne polonaise sont affectées par une pénurie de pilotes ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/28/les-capacites-de-la-force-aerienne-polonaise-sont-affectees-par-une-penurie-de-pilotes/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/28/les-capacites-de-la-force-aerienne-polonaise-sont-affectees-par-une-penurie-de-pilotes/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-28",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/f16-pologne-20250814.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T10:52:30+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "MODERNISATION SUD AMERICAINE",
+      "url": "https://blablachars.blogspot.com/2026/10/modernisation-sud-americaine.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Aselsan",
+        "Chili",
+        "Leopard 2A4",
+        "Turquie"
+      ],
+      "sourceExcerpt": {
+        "text": "L'armée chilienne a effectué ces derniers jours les premiers tirs d'un Leopard 2A4 modernisé par la firme turque Aselsan. Pour…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-28T17:31:57.165278+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPqjiRBBBQhMC5tSHxqMSuNIgHymM3kpLPxI4Qdus3NxPqCh1N27wgsKnIUvmHg4VwfuKsYr_AOlRDxlGYK1JHiB2mzkp1AhVGAsVj5X-jBB3FtvEI7lOonTt21H_gP-44qfgwd_S2k5tp46meHCCtiFRN9KBdrVe2eGNX97BHNuLmZfHSxI9qfZ7HFKc/w1200-h630-p-k-no-nu/ATS-65%20Chili%202.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « MODERNISATION SUD AMERICAINE ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/modernisation-sud-americaine.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/modernisation-sud-americaine.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-28",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPqjiRBBBQhMC5tSHxqMSuNIgHymM3kpLPxI4Qdus3NxPqCh1N27wgsKnIUvmHg4VwfuKsYr_AOlRDxlGYK1JHiB2mzkp1AhVGAsVj5X-jBB3FtvEI7lOonTt21H_gP-44qfgwd_S2k5tp46meHCCtiFRN9KBdrVe2eGNX97BHNuLmZfHSxI9qfZ7HFKc/w1200-h630-p-k-no-nu/ATS-65%20Chili%202.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T08:49:12+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Annuler le contrat des Rafale achetés à la France coûterait très cher à la Serbie qui y perdrait bien plus que de l’argent : sa…",
+      "url": "https://www.forum-militaire.fr/annuler-le-contrat-des-rafale-achetes-a-la-france-couterait-tres-cher-a-la-serbie-qui-y-perdrait-bien-plus-que-de-largent-sa-credibilite-internationale/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "avion",
+        "contrat",
+        "France"
+      ],
+      "sourceExcerpt": {
+        "text": "Peut-on vraiment annuler, aujourd’hui, un contrat de vente d’armement d’une valeur de plusieurs milliards d’euros, une fois qu’il a été…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-28",
       "publishedAt": "2026-10-28T06:52:00+00:00",
       "source": "Naval News",
       "sourceType": "Presse spécialisée",
@@ -641,6 +943,37 @@ window.LDV_NEWS = {
       "sourceExcerpt": {
         "text": "Le 9 octobre 2026 à Turin, Edgewing a ouvert le premier site global d’ingénierie du programme GCAP, le chasseur de…",
         "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T07:12:36+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Charles Michel, un colonel qui tient la plume",
+      "url": "https://www.revueconflits.com/charles-michel-un-colonel-qui-tient-la-plume/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Livres"
+      ],
+      "imageCheckedAt": "2026-10-28T17:31:57.165278+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/07/SIPA_01077148_000083-scaled.jpg",
+        "kind": "article",
+        "alt": "Charles Michel, un colonel qui tient la plume",
+        "credit": "Démonstrations de l’Armée de Terre, forces d’élite françaises, dans le cadre de mises en situations réelles à l’Eurosatory. (C) Sipa",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/charles-michel-un-colonel-qui-tient-la-plume/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/charles-michel-un-colonel-qui-tient-la-plume/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-28",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/07/SIPA_01077148_000083-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -10810,7 +11143,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00"
     }
   ],
-  "checkedAt": "2026-10-28T07:43:22.889519+00:00",
+  "checkedAt": "2026-10-28T17:31:52.188623+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -10829,7 +11162,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 7,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -10859,7 +11192,7 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 2,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -10870,14 +11203,14 @@ window.LDV_NEWS = {
       },
       {
         "source": "Naval News",
-        "ok": true,
-        "recentItems": 10,
-        "error": null
+        "ok": false,
+        "recentItems": 0,
+        "error": "HTTP Error 503: Service Temporarily Unavailable"
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -10887,8 +11220,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 8,
-    "articleImages": 273,
+    "newItems": 10,
+    "articleImages": 281,
     "duplicateHeadlinesSkipped": 0
   }
 };
