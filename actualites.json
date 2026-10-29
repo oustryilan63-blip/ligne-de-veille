@@ -1,7 +1,164 @@
 {
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-10-29",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-29",
+      "publishedAt": "2026-10-29T07:20:48+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Safran en embuscade sur la radio du combattant débarqué",
+      "url": "https://forcesoperations.com/safran-en-embuscade-sur-la-radio-du-combattant-debarque/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "Bittiu",
+        "Bittium",
+        "communication",
+        "Safran"
+      ],
+      "sourceExcerpt": {
+        "text": "Safran garde un pied dans les communications tactiques. Peu prolixe sur un domaine souvent associé à Thales ou Airbus, le…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/10/Safran-en-embuscade-sur-la-radio-du-combattant-debarque_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Safran en embuscade sur la radio du combattant débarqué ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/safran-en-embuscade-sur-la-radio-du-combattant-debarque/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/safran-en-embuscade-sur-la-radio-du-combattant-debarque/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-29",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/Safran-en-embuscade-sur-la-radio-du-combattant-debarque_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "publishedAt": "2026-10-29T02:52:15+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "IA : l’Europe régule, l’Amérique innove, la Chine contrôle ? Une formule trompeuse",
+      "url": "https://www.revueconflits.com/ia-leurope-regule-lamerique-innove-la-chine-controle-une-formule-trompeuse/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie"
+      ],
+      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/cash-macanaya-X9Cemmq4YjM-unsplash-e1793227895818.jpg",
+        "kind": "article",
+        "alt": "IA : l’Europe régule, l’Amérique innove, la Chine contrôle ? Une formule trompeuse",
+        "credit": "Cash Macanaya",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/ia-leurope-regule-lamerique-innove-la-chine-controle-une-formule-trompeuse/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/ia-leurope-regule-lamerique-innove-la-chine-controle-une-formule-trompeuse/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-29",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/cash-macanaya-X9Cemmq4YjM-unsplash-e1793227895818.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T18:30:10+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Selon un rapport, la flotte de véhicules légers de la Gendarmerie risque de «se heurter à un mur d’obsolescence» en 2028",
+      "url": "https://www.opex360.com/2026/10/28/selon-un-rapport-la-flotte-de-vehicules-legers-de-la-gendarmerie-risque-de-se-heurter-a-un-mur-dobsolescence-en-2028/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Gendarmerie",
+        "budget",
+        "équipement",
+        "Gendarmerie nationale",
+        "parc auto",
+        "PLF 2027",
+        "rapport",
+        "véhicules légers"
+      ],
+      "sourceExcerpt": {
+        "text": "Si le projet de loi de finances pour 2027 [PLF 27] est adopté, la Gendarmerie nationale pourra passer une commande…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/gendarmerie-20170919.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Selon un rapport, la flotte de véhicules légers de la Gendarmerie risque de «se heurter à un mur d’obsolescence» en 2028 ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/28/selon-un-rapport-la-flotte-de-vehicules-legers-de-la-gendarmerie-risque-de-se-heurter-a-un-mur-dobsolescence-en-2028/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/28/selon-un-rapport-la-flotte-de-vehicules-legers-de-la-gendarmerie-risque-de-se-heurter-a-un-mur-dobsolescence-en-2028/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-29",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/gendarmerie-20170919.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T17:37:24+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Berlin fait un pas de plus vers le programme d’avion de combat mené par Londres, Rome et Tokyo",
+      "url": "https://www.opex360.com/2026/10/28/berlin-fait-un-pas-de-plus-vers-le-programme-davion-de-combat-mene-par-londres-rome-et-tokyo/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Industrie",
+        "Allemagne",
+        "aviation de combat",
+        "Friedrich Merz",
+        "GCAP",
+        "industrie",
+        "Italie",
+        "japon",
+        "Royaume-Uni",
+        "SCAF"
+      ],
+      "sourceExcerpt": {
+        "text": "Comme l’a encore rappelé Catherine Vautrin, la ministre des Armées, lors d’une audition au Sénat, le 27 octobre, le projet…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/gcap-20260704.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Berlin fait un pas de plus vers le programme d’avion de combat mené par Londres, Rome et Tokyo ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/28/berlin-fait-un-pas-de-plus-vers-le-programme-davion-de-combat-mene-par-londres-rome-et-tokyo/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/28/berlin-fait-un-pas-de-plus-vers-le-programme-davion-de-combat-mene-par-londres-rome-et-tokyo/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-29",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/gcap-20260704.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-28",
       "publishedAt": "2026-10-28T16:05:35+00:00",
@@ -244,6 +401,45 @@
     },
     {
       "date": "2026-10-28",
+      "publishedAt": "2026-10-28T11:16:34+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "UN TOURELLEAU KONGSBERG POUR LES K2 POLONAIS",
+      "url": "https://blablachars.blogspot.com/2026/10/un-tourelleau-kongsberg-pour-les-k2.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Corée du Sud",
+        "Hyundai Rotem",
+        "Kongsberg",
+        "Pologne",
+        "RWS"
+      ],
+      "sourceExcerpt": {
+        "text": "Les difficultés de maintenance rencontrées par plusieurs chars K2 en service dans l'armée polonaise n'empêchent pas celle-ci de poursuivre leur…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTt8yL1mM6Aw6s9SHg1j6tGgCBkTzEst3pUN57SaaSFndcPrYwwYZIJHQ5hCNG8Spj1Ag8pyNzAnzbXXbMUwDitgcX2t51E4GZq54hs6cN-7v-r92VmYVMlpS4RPe558JvCKqybRsbUlRK2FSugkV6kyeJcEKavmkGFg1a9xnSEht5XSgOddnEMvkBFV4/w1200-h630-p-k-no-nu/K2%202.JPG",
+        "kind": "article",
+        "alt": "Image principale de l’article « UN TOURELLEAU KONGSBERG POUR LES K2 POLONAIS ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/un-tourelleau-kongsberg-pour-les-k2.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/un-tourelleau-kongsberg-pour-les-k2.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-29",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTt8yL1mM6Aw6s9SHg1j6tGgCBkTzEst3pUN57SaaSFndcPrYwwYZIJHQ5hCNG8Spj1Ag8pyNzAnzbXXbMUwDitgcX2t51E4GZq54hs6cN-7v-r92VmYVMlpS4RPe558JvCKqybRsbUlRK2FSugkV6kyeJcEKavmkGFg1a9xnSEht5XSgOddnEMvkBFV4/w1200-h630-p-k-no-nu/K2%202.JPG",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-28",
       "publishedAt": "2026-10-28T10:52:30+00:00",
       "source": "Blablachars",
       "sourceType": "Presse spécialisée",
@@ -277,6 +473,43 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-28",
         "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPqjiRBBBQhMC5tSHxqMSuNIgHymM3kpLPxI4Qdus3NxPqCh1N27wgsKnIUvmHg4VwfuKsYr_AOlRDxlGYK1JHiB2mzkp1AhVGAsVj5X-jBB3FtvEI7lOonTt21H_gP-44qfgwd_S2k5tp46meHCCtiFRN9KBdrVe2eGNX97BHNuLmZfHSxI9qfZ7HFKc/w1200-h630-p-k-no-nu/ATS-65%20Chili%202.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T09:29:00+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "China’s New Trimaran Submarine: 16 Missiles And An Unconventional Design",
+      "url": "https://www.navalnews.com/naval-news/2026/10/chinas-new-trimaran-submarine-16-missiles-and-an-unconventional-design/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "China",
+        "Submarine"
+      ],
+      "sourceExcerpt": {
+        "text": "China is building more submarines, of more classes, than any other country. It has several brand-new ambitious design readying for…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/China-Submersible-Trimaran-Warship-UUV-768x426.jpg",
+        "kind": "article",
+        "alt": "Chinese unmanned USV submersible arsenal ship",
+        "credit": "Click to Enlarge., A unique trimaran vessel undergoing trials in China can be thought of as a modern interpretation of Cold War cruise missile submariners, designed to pop-up and launch a volley of powerful missiles from unexpected vectors.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/chinas-new-trimaran-submarine-16-missiles-and-an-unconventional-design/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/chinas-new-trimaran-submarine-16-missiles-and-an-unconventional-design/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-29",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/China-Submersible-Trimaran-Warship-UUV.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -605,6 +838,43 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-28",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/agm183a-20220517-2.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T17:41:05+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Lockheed Martin Showcases 1000 km PrSM Inc 4 Prototype",
+      "url": "https://www.navalnews.com/naval-news/2026/10/lockheed-martin-showcases-1000-km-prsm-inc-4-prototype/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Lockheed Martin",
+        "PRSM"
+      ],
+      "sourceExcerpt": {
+        "text": "Lockheed Martin’s Precision Strike Missile (PrSM) Increment 4 prototype will use ramjet technology and an advanced sensor suite to strike…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/PrSM-Inc-4-Image-Resize-1.jpg.pc-adaptive.full_.medium-768x495.jpg",
+        "kind": "article",
+        "alt": "Lockheed Martin Showcases 1000 km PrSM Inc 4 Prototype",
+        "credit": "Lockheed Martin's Precision Strike Missile (PrSM) Increment 4 prototype. Lockheed Martin photo.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/lockheed-martin-showcases-1000-km-prsm-inc-4-prototype/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/lockheed-martin-showcases-1000-km-prsm-inc-4-prototype/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-29",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/PrSM-Inc-4-Image-Resize-1.jpg.pc-adaptive.full_.medium.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -3186,7 +3456,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00"
+      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00"
     },
     {
       "date": "2026-10-23",
@@ -3199,7 +3469,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-28T07:43:26.837486+00:00"
+      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00"
     },
     {
       "date": "2026-10-22",
@@ -3823,7 +4093,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00"
+      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00"
     },
     {
       "date": "2026-10-21",
@@ -10926,7 +11196,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00"
+      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00"
     },
     {
       "date": "2026-10-07",
@@ -11140,10 +11410,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-27T17:34:48.393570+00:00"
+      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00"
     }
   ],
-  "checkedAt": "2026-10-28T17:31:52.188623+00:00",
+  "checkedAt": "2026-10-29T07:46:20.826131+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -11156,7 +11426,7 @@
       {
         "source": "Sénat — Défense",
         "ok": true,
-        "recentItems": 2,
+        "recentItems": 1,
         "error": null
       },
       {
@@ -11192,20 +11462,20 @@
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
         "source": "Naval News",
-        "ok": false,
-        "recentItems": 0,
-        "error": "HTTP Error 503: Service Temporarily Unavailable"
+        "ok": true,
+        "recentItems": 10,
+        "error": null
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
@@ -11220,8 +11490,8 @@
         "error": null
       }
     ],
-    "newItems": 10,
-    "articleImages": 281,
+    "newItems": 7,
+    "articleImages": 288,
     "duplicateHeadlinesSkipped": 0
   }
 }

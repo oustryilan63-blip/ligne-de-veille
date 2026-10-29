@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-28T17:31:52.188623+00:00",
+  "checkedAt": "2026-10-29T07:46:20.826131+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,11 +10,9 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 10,
+    "ok": 11,
     "total": 11,
-    "unavailable": [
-      "Naval News"
-    ]
+    "unavailable": []
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -55,7 +53,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-28T17:31:59.207719+00:00",
+        "checkedAt": "2026-10-29T07:46:30.219491+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -71,7 +69,7 @@
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",
@@ -102,7 +100,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-28T17:31:59.207719+00:00",
+        "checkedAt": "2026-10-29T07:46:30.219491+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -165,10 +163,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-28T17:31:59.207719+00:00",
-        "updatedAt": "2026-10-28T17:31:59.207719+00:00",
+        "checkedAt": "2026-10-29T07:46:30.219491+00:00",
+        "updatedAt": "2026-10-29T07:46:30.219491+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Élections en Israël : pas de majorité en vue",
+            "text": "On revient sur les résultats des élections législatives en Israël. Des élections très importantes, car ce sont les premières depuis les attaques du Hamas, le 7 octobre. Ce soir, aucun des deux blocs n’obtient la majorité : ni celui de Benyamin Netanyahou, ni celui de Gadi Eisenkot.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261028-%C3%A9lections-en-isra%C3%ABl-pas-de-majorit%C3%A9-en-vue",
+            "publishedAt": "2026-10-28T21:40:38+00:00"
+          },
           {
             "title": "Élections en Israël : le Liban dans l'espoir d'un nouveau gouvernement prêt à négocier la paix",
             "text": "Les élections législatives israéliennes sont scrutées du Liban notamment, pour qui l'avenir dépend du nouveau gouvernement. Les résultats définitifs de l'élection sont attendus d'ici au 30 octobre et seront officiellement annoncés le 4 novembre. Il s'agissait des premières élections organisées depuis l'attaque du 7-Octobre, conduisant l'État hébreu à déclencher des guerres qualifiées de \"crime contre l'humanité\" par l'ONU.",
@@ -176,20 +182,12 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/vid%C3%A9o/20261028-%C3%A9lections-en-isra%C3%ABl-le-liban-dans-l-espoir-d-un-nouveau-gouvernement-pr%C3%AAt-%C3%A0-n%C3%A9gocier",
             "publishedAt": "2026-10-28T15:56:13+00:00"
-          },
-          {
-            "title": "Yémen : plus de dix morts dans des frappes saoudiennes, les Houthis ciblent l'aéroport d'Aden",
-            "text": "Au moins 14 personnes ont été tuées au Yémen mercredi dans des frappe imputées à l'Arabie saoudite. En réponse, l'aéroport de la ville yéménite d'Aden, où siège le gouvernement soutenu par l'Arabie saoudite, a de nouveau été visé par un missile tiré par les Houthis pro-iraniens.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261028-y%C3%A9men-plus-de-dix-morts-dans-des-frappes-saoudiennes-les-houthis-ciblent-l-a%C3%A9roport-d-aden",
-            "publishedAt": "2026-10-28T15:24:41+00:00"
           }
         ],
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",
