@@ -4,6 +4,282 @@
   "items": [
     {
       "date": "2026-10-29",
+      "publishedAt": "2026-10-29T17:16:12+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le canadien Bombardier s’entend avec BAE Systems en vue d’établir une coopération sur l’aviation de combat du futur",
+      "url": "https://www.opex360.com/2026/10/29/le-canadien-bombardier-sentend-avec-bae-systems-en-vue-detablir-une-cooperation-sur-laviation-de-combat-du-futur/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Industrie",
+        "Airbus",
+        "Allemagne",
+        "BAE Systems",
+        "bombardier",
+        "canada",
+        "GCAP",
+        "Global Combat Air Programme",
+        "observateur"
+      ],
+      "sourceExcerpt": {
+        "text": "Selon le Financial Times, faute d’avoir pu s’entendre avec l’espagnol Indra, Airbus s’apprête à avoir une discussion avec le britannique…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-29T17:33:50.052506+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/gcap-20241214.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le canadien Bombardier s’entend avec BAE Systems en vue d’établir une coopération sur l’aviation de combat du futur ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/29/le-canadien-bombardier-sentend-avec-bae-systems-en-vue-detablir-une-cooperation-sur-laviation-de-combat-du-futur/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/29/le-canadien-bombardier-sentend-avec-bae-systems-en-vue-detablir-une-cooperation-sur-laviation-de-combat-du-futur/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-29",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/gcap-20241214.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "publishedAt": "2026-10-29T16:00:44+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "La route de l’ambre, de la Baltique à la Méditerranée",
+      "url": "https://www.revueconflits.com/la-route-de-lambre-de-la-baltique-a-la-mediterranee/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Histoire",
+        "Abonné"
+      ],
+      "imageCheckedAt": "2026-10-29T17:33:50.052506+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/08/routes_banniere_16x9.png",
+        "kind": "article",
+        "alt": "La route de l’ambre, de la Baltique à la Méditerranée",
+        "credit": "Routes géopolitiques (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/la-route-de-lambre-de-la-baltique-a-la-mediterranee/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/la-route-de-lambre-de-la-baltique-a-la-mediterranee/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-29",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/08/routes_banniere_16x9.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "publishedAt": "2026-10-29T15:53:06+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le coût des futurs avions de patrouille maritime de la Marine nationale a déjà augmenté de 65 %",
+      "url": "https://www.opex360.com/2026/10/29/le-cout-des-futurs-avions-de-patrouille-maritime-de-la-marine-nationale-a-deja-augmente-de-65/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Industrie",
+        "A321XLR",
+        "Airbus",
+        "Atlantique 2",
+        "coût",
+        "DGA",
+        "Direction générale de l'armement",
+        "Marine Nationale",
+        "PATMAR"
+      ],
+      "sourceExcerpt": {
+        "text": "Véritable «couteau suisse» de l’Aéronautique navale, l’avion de patrouille maritime [PATMAR] Atlantique 2 est devenu encore plus performant depuis qu’il…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-29T17:33:50.052506+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/a321mpa-20250204.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le coût des futurs avions de patrouille maritime de la Marine nationale a déjà augmenté de 65 % ».",
+        "credit": "Airbus Defence & Space",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/29/le-cout-des-futurs-avions-de-patrouille-maritime-de-la-marine-nationale-a-deja-augmente-de-65/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/29/le-cout-des-futurs-avions-de-patrouille-maritime-de-la-marine-nationale-a-deja-augmente-de-65/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-29",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/a321mpa-20250204.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "publishedAt": "2026-10-29T14:05:09+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "L’Allemagne démonte point par point la vision d’une Europe de la défense portée par le couple franco-allemand avec encore un abandon sur…",
+      "url": "https://www.forum-militaire.fr/lallemagne-demonte-point-par-point-la-vision-dune-europe-de-la-defense-portee-par-le-couple-franco-allemand-avec-encore-un-abandon-sur-le-programme-mgcs/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de terre",
+        "Industrie",
+        "char"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 8 octobre 2026 devant l’Assemblée nationale, le chef d’état-major des armées françaises a confirmé publiquement ce que Paris refusait…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "publishedAt": "2026-10-29T10:18:00+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "La colère, moteur géopolitique global",
+      "url": "https://www.areion24.news/2026/10/29/la-colere-moteur-geopolitique-global/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Les Grands Dossiers de Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Les développements géopolitiques spectaculaires de l’année 2026, au Moyen-Orient comme ailleurs, sont venus confirmer la centralité des émotions dans les…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-29T17:33:50.052506+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/10/shutterstock_2456429247-scaled.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La colère, moteur géopolitique global ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/10/29/la-colere-moteur-geopolitique-global/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/10/29/la-colere-moteur-geopolitique-global/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-29",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/10/shutterstock_2456429247-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "publishedAt": "2026-10-29T09:56:34+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "L’Arabie saoudite en 2030 : un pays sans pétrole ?",
+      "url": "https://www.areion24.news/2026/10/29/larabie-saoudite-en-2030-un-pays-sans-petrole/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Carto"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Le prince héritier d’Arabie saoudite, Mohamed ben Salman, dirigeant de facto de la première économie du monde arabe, veut libéraliser…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-29T17:33:50.052506+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/10/0503_MO_ArabieSaoudite_Ressource_Diplomatie_2024_V3-scaled.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’Arabie saoudite en 2030 : un pays sans pétrole ? ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/10/29/larabie-saoudite-en-2030-un-pays-sans-petrole/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/10/29/larabie-saoudite-en-2030-un-pays-sans-petrole/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-29",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/10/0503_MO_ArabieSaoudite_Ressource_Diplomatie_2024_V3-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "publishedAt": "2026-10-29T08:59:49+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Narendra Modi : ses vêtements sont une carte de l’Inde",
+      "url": "https://www.revueconflits.com/narendra-modi-ses-vetements-sont-une-carte-de-linde/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Art et Géopolitique",
+        "Culture",
+        "Inde"
+      ],
+      "imageCheckedAt": "2026-10-29T17:33:50.052506+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_shutterstock41334779_000051-scaled-1-1.jpg",
+        "kind": "article",
+        "alt": "Narendra Modi : ses vêtements sont une carte de l’Inde",
+        "credit": "Le président indien Modi célèbre la victoire de son parti aux élections de l'Assemblée législative du Bihar.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/narendra-modi-ses-vetements-sont-une-carte-de-linde/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/narendra-modi-ses-vetements-sont-une-carte-de-linde/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-29",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_shutterstock41334779_000051-scaled-1-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "publishedAt": "2026-10-29T08:55:23+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La Suisse reconnaît officiellement s’être fait « avoir » par les États-Unis sur le contrat des F-35 et ne pourra acquérir que 30 avions au…",
+      "url": "https://www.forum-militaire.fr/la-suisse-la-officiellement-reconnu-son-achat-de-f-35a-a-ete-mal-mene/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "Industrie",
+        "avion",
+        "contrat"
+      ],
+      "sourceExcerpt": {
+        "text": "Avec 394 millions de francs suisses (environ 414 millions d’euros) de crédit supplémentaire voté par le Parlement, Berne pourra sans…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-29",
       "publishedAt": "2026-10-29T07:20:48+00:00",
       "source": "Forces Operations Blog",
       "sourceType": "Presse spécialisée",
@@ -473,6 +749,48 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-28",
         "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPqjiRBBBQhMC5tSHxqMSuNIgHymM3kpLPxI4Qdus3NxPqCh1N27wgsKnIUvmHg4VwfuKsYr_AOlRDxlGYK1JHiB2mzkp1AhVGAsVj5X-jBB3FtvEI7lOonTt21H_gP-44qfgwd_S2k5tp46meHCCtiFRN9KBdrVe2eGNX97BHNuLmZfHSxI9qfZ7HFKc/w1200-h630-p-k-no-nu/ATS-65%20Chili%202.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T09:43:59+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "DU COTE DE PRAGUE",
+      "url": "https://blablachars.blogspot.com/2026/10/du-cote-de-prague.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "CV 90",
+        "Excalibur",
+        "Future Forces Forum",
+        "Leopard",
+        "République Tchèque",
+        "Tatra",
+        "UGV",
+        "VOP CZ"
+      ],
+      "sourceExcerpt": {
+        "text": "Un blindonaute présent au Le Future Forces Defense Forum qui s'est déroulé du 21 au 23 octobre au PVA EXPO…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-29T17:33:50.052506+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOyUVV1hnzTXWXdTpw5LDUqprJRICS-3Sd38W2IoR79EbBNpiGVKX8dcsvatPROqzzI78RYi3L1xjcwWTRx0ISa5G_U86M_ATSOr-UlQk_4eYt-a8XoVdDispZkDUpOBZrD5hIlh536Scm4_YIXut7QA40Dgr560opP3IppEoIQsxGztjwT9_4EaNQ-rI/w1200-h630-p-k-no-nu/Future%20Forces%20Prague.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « DU COTE DE PRAGUE ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/du-cote-de-prague.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/du-cote-de-prague.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-29",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOyUVV1hnzTXWXdTpw5LDUqprJRICS-3Sd38W2IoR79EbBNpiGVKX8dcsvatPROqzzI78RYi3L1xjcwWTRx0ISa5G_U86M_ATSOr-UlQk_4eYt-a8XoVdDispZkDUpOBZrD5hIlh536Scm4_YIXut7QA40Dgr560opP3IppEoIQsxGztjwT9_4EaNQ-rI/w1200-h630-p-k-no-nu/Future%20Forces%20Prague.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -11413,7 +11731,7 @@
       "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00"
     }
   ],
-  "checkedAt": "2026-10-29T07:46:20.826131+00:00",
+  "checkedAt": "2026-10-29T17:33:44.745476+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -11432,7 +11750,7 @@
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 2,
         "error": null
       },
       {
@@ -11468,14 +11786,14 @@
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
         "source": "Naval News",
-        "ok": true,
-        "recentItems": 10,
-        "error": null
+        "ok": false,
+        "recentItems": 0,
+        "error": "HTTP Error 503: Service Temporarily Unavailable"
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
@@ -11486,12 +11804,12 @@
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 5,
         "error": null
       }
     ],
-    "newItems": 7,
-    "articleImages": 288,
+    "newItems": 9,
+    "articleImages": 295,
     "duplicateHeadlinesSkipped": 0
   }
 }
