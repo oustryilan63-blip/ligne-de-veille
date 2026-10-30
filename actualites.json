@@ -4,6 +4,310 @@
   "items": [
     {
       "date": "2026-10-30",
+      "publishedAt": "2026-10-30T17:10:10+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Gendarmerie nationale devra encore patienter pour renouveler ses FAMAS, qui ne seront plus opérationnels en 2030",
+      "url": "https://www.opex360.com/2026/10/30/la-gendarmerie-nationale-devra-encore-patienter-pour-renouveler-ses-famas-qui-ne-seront-plus-operationnels-en-2030/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Gendarmerie",
+        "Défense opérationnelle du territoire",
+        "DOT",
+        "équipements militaires",
+        "Famas",
+        "fusil d'assaut",
+        "Gendarmerie nationale",
+        "ministère de l'Intérieur"
+      ],
+      "sourceExcerpt": {
+        "text": "Entre l’appel d’offres émis par la Direction générale de l’armement [DGA] pour acquérir 101 000 nouveaux fusils d’assaut afin de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/famas-20170206.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Gendarmerie nationale devra encore patienter pour renouveler ses FAMAS, qui ne seront plus opérationnels en 2030 ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/30/la-gendarmerie-nationale-devra-encore-patienter-pour-renouveler-ses-famas-qui-ne-seront-plus-operationnels-en-2030/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/30/la-gendarmerie-nationale-devra-encore-patienter-pour-renouveler-ses-famas-qui-ne-seront-plus-operationnels-en-2030/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-30",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/famas-20170206.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T15:24:14+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Un hélicoptère italien de transport CH-47 Chinook s’est écrasé en Bosnie-Herzégovine",
+      "url": "https://www.opex360.com/2026/10/30/un-helicoptere-italien-de-transport-ch-47-chinook-sest-ecrase-en-bosnie-herzegovine/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces terrestres",
+        "Opérations",
+        "accident",
+        "Althea",
+        "armée italienne",
+        "Bosnie-Herzégovine",
+        "CH-47",
+        "Chinook",
+        "Eufor",
+        "Italie"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 29 octobre, en fin d’après-midi, un hélicoptère italien de transport lourd s’est écrasé dans la région de Brčko, située…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/chinook-italie-20261030.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Un hélicoptère italien de transport CH-47 Chinook s’est écrasé en Bosnie-Herzégovine ».",
+        "credit": "CH-47C italien – Di Aldo Bidini – , GFDL 1.2",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/30/un-helicoptere-italien-de-transport-ch-47-chinook-sest-ecrase-en-bosnie-herzegovine/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/30/un-helicoptere-italien-de-transport-ch-47-chinook-sest-ecrase-en-bosnie-herzegovine/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-30",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/chinook-italie-20261030.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T14:43:01+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Les Pays-Bas remplacent dix engins de 62 tonnes achetés 75 millions d’euros, interdits de rouler un an après leur entrée en service",
+      "url": "https://www.forum-militaire.fr/les-pays-bas-remplacent-dix-engins-de-62-tonnes-achetes-75-millions-deuros-interdits-de-rouler-un-an-apres-leur-entree-en-service/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "Blindé"
+      ],
+      "sourceExcerpt": {
+        "text": "La Haye annonce au Parlement qu’elle renonce à son véhicule de percement du génie. Le ministère invoque un blindage insuffisant…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T14:16:41+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Hanwha Philly Shipyard Selected to Build US Navy Medium Landing Ship (LSM)",
+      "url": "https://www.navalnews.com/naval-news/2026/10/hanwha-philly-shipyard-selected-to-build-us-navy-medium-landing-ship-lsm/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Hanwha",
+        "LSM",
+        "US Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "TOTE Services has selected Hanwha Defense USA to build the U.S. Navy's first Medium Landing Ship (LSM) at Hanwha Philly…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/02/US-Navy-LSM-2-768x329.jpg",
+        "kind": "article",
+        "alt": "US Navy LSM",
+        "credit": "Damen image.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/hanwha-philly-shipyard-selected-to-build-us-navy-medium-landing-ship-lsm/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/hanwha-philly-shipyard-selected-to-build-us-navy-medium-landing-ship-lsm/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-30",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/02/US-Navy-LSM-2.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T14:00:04+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Jordanie : stupeur et tristesse dans un village après l’attaque contre une église",
+      "url": "https://www.revueconflits.com/jordanie-stupeur-et-tristesse-dans-un-village-apres-lattaque-contre-une-eglise/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Moyen-Orient",
+        "Abonné",
+        "Jordanie",
+        "Reportage"
+      ],
+      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/03/Jesus_baptism_site_-_River_Jordan_015.jpg",
+        "kind": "article",
+        "alt": "Jordanie : stupeur et tristesse dans un village après l’attaque contre une église",
+        "credit": "Nouvelle église grecque orthodoxe Jean le Baptiste. © Wikipédia",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/jordanie-stupeur-et-tristesse-dans-un-village-apres-lattaque-contre-une-eglise/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/jordanie-stupeur-et-tristesse-dans-un-village-apres-lattaque-contre-une-eglise/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-30",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/03/Jesus_baptism_site_-_River_Jordan_015.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T13:53:45+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "KONGSBERG secures US government contract for underwater capabilities",
+      "url": "https://www.navalnews.com/naval-news/2026/10/kongsberg-secures-us-government-contract-for-underwater-capabilities/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "AUV",
+        "HUGIN",
+        "Kongsberg",
+        "UUV"
+      ],
+      "sourceExcerpt": {
+        "text": "Kongsberg Gruppen ASA has been awarded a major contract modification by the Department of War Innovation Unit (DIU) for autonomous…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00"
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T10:49:35+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "UK and Ukrainian industry unite to accelerate drone innovation",
+      "url": "https://www.gov.uk/government/news/uk-and-ukrainian-industry-unite-to-accelerate-drone-innovation",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "UK and Ukrainian defence companies have come together at Larkhill Garrison on Salisbury Plain to showcase the latest innovations in…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6ae47094b87d58a0053ad992/s300_NAD_271026_-202.jpg",
+        "kind": "article",
+        "alt": "Ukrainian Drone",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/uk-and-ukrainian-industry-unite-to-accelerate-drone-innovation",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/uk-and-ukrainian-industry-unite-to-accelerate-drone-innovation",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-30"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T10:47:57+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Le Royaume-Uni suit enfin l’exemple de la France 60 ans après : les 340 milliards d’euros investis dans l’armement d’ici 2030 devront…",
+      "url": "https://www.forum-militaire.fr/le-royaume-uni-suit-enfin-lexemple-de-la-france-60-ans-apres-les-340-milliards-deuros-investis-dans-larmement-dici-2030-devront-profiter-a-son-economie/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Industrie",
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Les deux annonces, deux faces d’une même stratégie industrielle pour le Royaume-Uni. Le 29 octobre, le ministère de la Défense…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T10:25:35+00:00",
+      "source": "OpexNews",
+      "sourceType": "Presse spécialisée",
+      "title": "Se préparer à la guerre dans l’espace, de Washington à Berlin",
+      "url": "https://opexnews.fr/guerre-espace-spatial-washington-berlin/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de OpexNews. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Focus",
+        "Allemagne",
+        "Burevestnik",
+        "Chine",
+        "Commandement de l'Espace",
+        "Defense Intelligence Agency",
+        "Epic Fury",
+        "guerre spatiale",
+        "ICEYE",
+        "Iran",
+        "IRIS²",
+        "Kari Bingen"
+      ],
+      "sourceExcerpt": {
+        "text": "Durant de longues années, les autorités américaines s’étaient imposé un silence prudent sur la militarisation de l’espace. Redoutant d’exacerber une…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00",
+      "image": {
+        "src": "https://opexnews.fr/wp-content/uploads/2026/10/guerre-spatiale-us-space-force-operations-scaled.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Se préparer à la guerre dans l’espace, de Washington à Berlin ».",
+        "credit": "USSPACECOM",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://opexnews.fr/guerre-espace-spatial-washington-berlin/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://opexnews.fr/guerre-espace-spatial-washington-berlin/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-30",
+        "assetUrl": "https://opexnews.fr/wp-content/uploads/2026/10/guerre-spatiale-us-space-force-operations-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
       "publishedAt": "2026-10-30T03:10:51+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -130,6 +434,37 @@
         "rightsUrl": "https://www.gov.uk/government/news/defence-contracts-to-prioritise-british-jobs-and-skills",
         "evidence": "official-editorial-lead",
         "checkedAt": "2026-10-30"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "publishedAt": "2026-10-29T18:47:31+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Quizz – 29 octobre",
+      "url": "https://www.revueconflits.com/quizz-29-octobre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Revue Conflits"
+      ],
+      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/08/ChatGPT-Image-27-aout-2026-17_03_39.png",
+        "kind": "article",
+        "alt": "Quizz – 29 octobre",
+        "credit": "Quizz (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/quizz-29-octobre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/quizz-29-octobre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-30",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/08/ChatGPT-Image-27-aout-2026-17_03_39.png",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -3993,7 +4328,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00"
+      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00"
     },
     {
       "date": "2026-10-23",
@@ -4006,7 +4341,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00"
+      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00"
     },
     {
       "date": "2026-10-22",
@@ -4630,7 +4965,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00"
+      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00"
     },
     {
       "date": "2026-10-21",
@@ -11733,7 +12068,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00"
+      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00"
     },
     {
       "date": "2026-10-07",
@@ -11947,10 +12282,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00"
+      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00"
     }
   ],
-  "checkedAt": "2026-10-30T07:44:51.717436+00:00",
+  "checkedAt": "2026-10-30T17:28:23.421858+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -11962,14 +12297,14 @@
     "sources": [
       {
         "source": "Sénat — Défense",
-        "ok": true,
+        "ok": false,
         "recentItems": 0,
-        "error": null
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
       },
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 2,
         "error": null
       },
       {
@@ -11981,7 +12316,7 @@
       {
         "source": "OpexNews",
         "ok": true,
-        "recentItems": 0,
+        "recentItems": 1,
         "error": null
       },
       {
@@ -12005,19 +12340,19 @@
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 3,
         "error": null
       },
       {
         "source": "Naval News",
-        "ok": false,
-        "recentItems": 0,
-        "error": "HTTP Error 503: Service Temporarily Unavailable"
+        "ok": true,
+        "recentItems": 10,
+        "error": null
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 7,
+        "recentItems": 10,
         "error": null
       },
       {
@@ -12027,8 +12362,8 @@
         "error": null
       }
     ],
-    "newItems": 6,
-    "articleImages": 301,
+    "newItems": 10,
+    "articleImages": 308,
     "duplicateHeadlinesSkipped": 0
   }
 }

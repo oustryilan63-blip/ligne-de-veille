@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-30T07:44:51.717436+00:00",
+  "checkedAt": "2026-10-30T17:28:23.421858+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -13,13 +13,21 @@
     "ok": 10,
     "total": 11,
     "unavailable": [
-      "Naval News"
+      "Sénat — Défense"
     ]
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-10-27T17:34:44.741875+00:00",
+      "changedAt": "2026-10-30T17:28:23.421858+00:00",
       "items": [
+        {
+          "title": "UK and Ukrainian industry unite to accelerate drone innovation",
+          "url": "https://www.gov.uk/government/news/uk-and-ukrainian-industry-unite-to-accelerate-drone-innovation",
+          "source": "Ministère britannique de la Défense",
+          "sourceType": "Source officielle",
+          "publishedAt": "2026-10-30T10:49:35+00:00",
+          "language": "en"
+        },
         {
           "title": "L’armée allemande va se procurer le missile-drone ukrainien à très longue portée BARS",
           "url": "https://www.opex360.com/2026/10/27/larmee-allemande-va-se-procurer-le-missile-drone-ukrainien-a-tres-longue-portee-bars/",
@@ -43,21 +51,13 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-10-17T13:23:08+00:00",
           "language": "fr"
-        },
-        {
-          "title": "L’échec du cessez-le-feu pétrolier en Ukraine",
-          "url": "https://www.revueconflits.com/lechec-du-cessez-le-feu-petrolier-en-ukraine/",
-          "source": "Revue Conflits",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-10-17T05:00:02+00:00",
-          "language": "fr"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-30T07:44:58.993523+00:00",
+        "checkedAt": "2026-10-30T17:30:08.013250+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
-        "status": "unchanged",
+        "status": "retained",
         "paragraphs": [
           {
             "title": "Rencontre Witkoff - Poutine : envoi de la première cargaison de diesel russe vers les États-Unis",
@@ -71,11 +71,11 @@
         "sources": [
           {
             "source": "ONU Info",
-            "ok": true
+            "ok": false
           },
           {
             "source": "France 24",
-            "ok": true
+            "ok": false
           }
         ]
       }
@@ -94,7 +94,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-30T07:44:58.993523+00:00",
+        "checkedAt": "2026-10-30T17:30:08.013250+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -110,7 +110,7 @@
         "sources": [
           {
             "source": "France 24",
-            "ok": true
+            "ok": false
           },
           {
             "source": "RFI",
@@ -157,9 +157,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-30T07:44:58.993523+00:00",
+        "checkedAt": "2026-10-30T17:30:08.013250+00:00",
         "updatedAt": "2026-10-29T17:33:52.488976+00:00",
-        "status": "unchanged",
+        "status": "retained",
         "paragraphs": [
           {
             "title": "Israël : un ministre d'extrême droite appelle à l'arrestation des chefs des partis arabes",
@@ -181,11 +181,11 @@
         "sources": [
           {
             "source": "ONU Info",
-            "ok": true
+            "ok": false
           },
           {
             "source": "France 24",
-            "ok": true
+            "ok": false
           }
         ]
       }
