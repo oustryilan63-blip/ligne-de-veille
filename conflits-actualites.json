@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-29T17:33:44.745476+00:00",
+  "checkedAt": "2026-10-30T07:44:51.717436+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -55,7 +55,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-29T17:33:52.488976+00:00",
+        "checkedAt": "2026-10-30T07:44:58.993523+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -81,7 +81,7 @@
       }
     },
     "taiwan-detroit-tensions": {
-      "changedAt": "2026-10-21T16:19:32.380382+00:00",
+      "changedAt": "2026-10-30T07:44:51.717436+00:00",
       "items": [
         {
           "title": "Taiwan Coast Guard to Acquire MARTAC Devil Ray T24 USVs",
@@ -90,19 +90,11 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-10-19T08:04:45+00:00",
           "language": "en"
-        },
-        {
-          "title": "AV and Thunder Tiger Sign MOU to Explore Uncrewed Systems Integration and Co-Production in Taiwan",
-          "url": "https://www.navalnews.com/naval-news/2026/10/av-and-thunder-tiger-sign-mou-to-explore-uncrewed-systems-integration-and-co-production-in-taiwan/",
-          "source": "Naval News",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-10-15T20:11:58+00:00",
-          "language": "en"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-29T17:33:52.488976+00:00",
+        "checkedAt": "2026-10-30T07:44:58.993523+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -165,9 +157,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-29T17:33:52.488976+00:00",
+        "checkedAt": "2026-10-30T07:44:58.993523+00:00",
         "updatedAt": "2026-10-29T17:33:52.488976+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Israël : un ministre d'extrême droite appelle à l'arrestation des chefs des partis arabes",

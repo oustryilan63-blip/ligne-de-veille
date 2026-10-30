@@ -1,7 +1,182 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-10-30",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T03:10:51+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "À Tirana, entre cigales et mortiers, la vie au rythme de la contestation",
+      "url": "https://www.revueconflits.com/a-tirana-entre-cigales-et-mortiers-la-vie-au-rythme-de-la-contestation/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Abonné",
+        "Albanie",
+        "Reportage"
+      ],
+      "imageCheckedAt": "2026-10-30T07:44:56.738085+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2023/04/albanian-2798884_1920.jpg",
+        "kind": "article",
+        "alt": "À Tirana, entre cigales et mortiers, la vie au rythme de la contestation",
+        "credit": "Drapeau de l'Albanie. Pixabay",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/a-tirana-entre-cigales-et-mortiers-la-vie-au-rythme-de-la-contestation/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/a-tirana-entre-cigales-et-mortiers-la-vie-au-rythme-de-la-contestation/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-30",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2023/04/albanian-2798884_1920.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T03:00:33+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Livres – 30 octobre",
+      "url": "https://www.revueconflits.com/livres-30-octobre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Livres",
+        "Abonné",
+        "Livre"
+      ],
+      "imageCheckedAt": "2026-10-30T07:44:56.738085+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/10/Livres-1.jpg",
+        "kind": "article",
+        "alt": "Livres – 30 octobre",
+        "credit": "(c) Pixabay",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/livres-30-octobre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/livres-30-octobre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-30",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/10/Livres-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T02:31:54+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Une histoire des tsars de Russie. Anna Moretti",
+      "url": "https://www.revueconflits.com/podcast-une-histoire-des-tsars-de-russie-anna-moretti/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Podcasts",
+        "Podcasts Russie & Europe de l'Est",
+        "Russie"
+      ],
+      "imageCheckedAt": "2026-10-30T07:44:56.738085+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/11/30-Russie-Empire-175x125_page-0001.jpg",
+        "kind": "article",
+        "alt": "Podcast – Une histoire des tsars de Russie. Anna Moretti",
+        "credit": "(c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-une-histoire-des-tsars-de-russie-anna-moretti/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-une-histoire-des-tsars-de-russie-anna-moretti/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-30",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/11/30-Russie-Empire-175x125_page-0001.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T00:01:00+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Defence contracts to prioritise British jobs and skills",
+      "url": "https://www.gov.uk/government/news/defence-contracts-to-prioritise-british-jobs-and-skills",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Overseas firms winning UK defence contracts to be required to invest benefits back into the UK under new Offsets policy.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-30T07:44:56.738085+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/defence-contracts-to-prioritise-british-jobs-and-skills",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/defence-contracts-to-prioritise-british-jobs-and-skills",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-10-30"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "publishedAt": "2026-10-29T18:23:24+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Avec le robot sous-marin ROV-Deap Sea, la Marine nationale pourra intervenir à 6 000 mètres de profondeur",
+      "url": "https://www.opex360.com/2026/10/29/avec-le-robot-sous-marin-rov-deap-sea-la-marine-nationale-pourra-intervenir-a-6-000-metres-de-profondeur/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "DGA TN",
+        "Direction générale de l'armement",
+        "essais",
+        "fonds marins",
+        "LD Travocean",
+        "maîtrise des fonds marins",
+        "Marine Nationale",
+        "qualification",
+        "robot",
+        "ROV"
+      ],
+      "sourceExcerpt": {
+        "text": "Alors qu’elle était à la pointe de l’exploration des fonds marins après la Seconde Guerre Mondiale, la Marine nationale perdit…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-30T07:44:56.738085+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/rov-d-20261029.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Avec le robot sous-marin ROV-Deap Sea, la Marine nationale pourra intervenir à 6 000 mètres de profondeur ».",
+        "credit": "Direction générale de l’armement",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/29/avec-le-robot-sous-marin-rov-deap-sea-la-marine-nationale-pourra-intervenir-a-6-000-metres-de-profondeur/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/29/avec-le-robot-sous-marin-rov-deap-sea-la-marine-nationale-pourra-intervenir-a-6-000-metres-de-profondeur/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-30",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/rov-d-20261029.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-29",
       "publishedAt": "2026-10-29T17:16:12+00:00",
@@ -143,6 +318,50 @@ window.LDV_NEWS = {
       "sourceExcerpt": {
         "text": "Le 8 octobre 2026 devant l’Assemblée nationale, le chef d’état-major des armées françaises a confirmé publiquement ce que Paris refusait…",
         "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "publishedAt": "2026-10-29T11:59:33+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Russie a livré douze premiers avions de combat Su-35E à l’Éthiopie",
+      "url": "https://www.opex360.com/2026/10/29/la-russie-a-livre-douze-premiers-avions-de-combat-su-35e-a-lethiopie/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Forces aériennes",
+        "Industrie",
+        "Ethiopie",
+        "Flanker",
+        "force aérienne éthiopienne",
+        "guerre du Tigré",
+        "Russie",
+        "Su-35E",
+        "UAC"
+      ],
+      "sourceExcerpt": {
+        "text": "En mars 2019, lors d’une visite officielle à Addis-Abeba – la première d’un président français depuis celle effectuée par Georges…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-30T07:44:56.738085+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/su-35-20261029.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Russie a livré douze premiers avions de combat Su-35E à l’Éthiopie ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/29/la-russie-a-livre-douze-premiers-avions-de-combat-su-35e-a-lethiopie/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/29/la-russie-a-livre-douze-premiers-avions-de-combat-su-35e-a-lethiopie/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-30",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/su-35-20261029.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -11731,7 +11950,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-10-29T07:46:25.093959+00:00"
     }
   ],
-  "checkedAt": "2026-10-29T17:33:44.745476+00:00",
+  "checkedAt": "2026-10-30T07:44:51.717436+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -11744,13 +11963,13 @@ window.LDV_NEWS = {
       {
         "source": "Sénat — Défense",
         "ok": true,
-        "recentItems": 1,
+        "recentItems": 0,
         "error": null
       },
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 2,
+        "recentItems": 3,
         "error": null
       },
       {
@@ -11798,7 +12017,7 @@ window.LDV_NEWS = {
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 7,
         "error": null
       },
       {
@@ -11808,8 +12027,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 9,
-    "articleImages": 295,
+    "newItems": 6,
+    "articleImages": 301,
     "duplicateHeadlinesSkipped": 0
   }
 };
