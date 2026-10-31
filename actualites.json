@@ -1,7 +1,235 @@
 {
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-10-31",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-10-31",
+      "publishedAt": "2026-10-31T03:25:11+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Élections brésiliennes : six cartes pour comprendre une virada inattendue",
+      "url": "https://www.revueconflits.com/elections-bresiliennes-six-cartes-pour-comprendre-une-virada-inattendue/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique",
+        "Amérique latine",
+        "Abonné",
+        "Brésil"
+      ],
+      "imageCheckedAt": "2026-10-31T07:39:49.398388+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/Vignettes-videos-2026-10-30T175330.013.png",
+        "kind": "article",
+        "alt": "Élections brésiliennes : six cartes pour comprendre une virada inattendue",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/elections-bresiliennes-six-cartes-pour-comprendre-une-virada-inattendue/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/elections-bresiliennes-six-cartes-pour-comprendre-une-virada-inattendue/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-31",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/Vignettes-videos-2026-10-30T175330.013.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "publishedAt": "2026-10-31T03:00:23+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "L’armée française de 1890 à 1914, un frémissement proto-opératif ?",
+      "url": "https://www.revueconflits.com/larmee-francaise-de-1890-a-1914-un-fremissement-proto-operatif/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Histoire",
+        "Revue Conflits",
+        "France"
+      ],
+      "imageCheckedAt": "2026-10-31T07:39:49.398388+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/General_gouraud_french_army_world_war_i_machinegun_marne_1918-scaled.jpeg",
+        "kind": "article",
+        "alt": "L’armée française de 1890 à 1914, un frémissement proto-opératif ?",
+        "credit": "Troupes françaises sous le commandement du général Gouraud parmi les ruines d'une église près de la Marne, repoussant les Allemands durant la contre-offensive française. Document de 1918. (C) Wikipédia.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/larmee-francaise-de-1890-a-1914-un-fremissement-proto-operatif/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/larmee-francaise-de-1890-a-1914-un-fremissement-proto-operatif/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-31",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/General_gouraud_french_army_world_war_i_machinegun_marne_1918-scaled.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T18:59:58+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "TRIDENT, un pied dans la contre-batterie de demain",
+      "url": "https://forcesoperations.com/trident-un-pied-dans-la-contre-batterie-de-demain/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "artillerie",
+        "contre-batterie",
+        "Europe",
+        "PESCO",
+        "Thales"
+      ],
+      "sourceExcerpt": {
+        "text": "De semaine en semaine, la dernière cohorte de projets de R&D soutenus par le Fonds européen de la Défense (FEDef)…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-31T07:39:49.398388+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/10/TRIDENT-un-pied-dans-la-contre-batterie-de-demain_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « TRIDENT, un pied dans la contre-batterie de demain ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/trident-un-pied-dans-la-contre-batterie-de-demain/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/trident-un-pied-dans-la-contre-batterie-de-demain/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-31",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/TRIDENT-un-pied-dans-la-contre-batterie-de-demain_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T18:19:11+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le français Asman Technology s’apprête à faire voler le DSLR MK1, un drone MALE dédié à la guerre électronique",
+      "url": "https://www.opex360.com/2026/10/30/le-francais-asman-technology-sapprete-a-faire-voler-le-dslr-mk1-un-drone-male-dedie-a-la-guerre-electronique/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "DGA",
+        "Guerre électronique",
+        "Industrie",
+        "ASMAN Technology",
+        "drone",
+        "drone MALE",
+        "DSLR",
+        "guerre électronique",
+        "ISR",
+        "Sentinelle"
+      ],
+      "sourceExcerpt": {
+        "text": "Il y a quinze ans, faute de disposer d’une solution nationale ou européenne, le remplacement des drones MALE [Moyenne Altitude…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-31T07:39:49.398388+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/dslr-20261030.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le français Asman Technology s’apprête à faire voler le DSLR MK1, un drone MALE dédié à la guerre électronique ».",
+        "credit": "Capture d’écran",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/30/le-francais-asman-technology-sapprete-a-faire-voler-le-dslr-mk1-un-drone-male-dedie-a-la-guerre-electronique/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/30/le-francais-asman-technology-sapprete-a-faire-voler-le-dslr-mk1-un-drone-male-dedie-a-la-guerre-electronique/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-31",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/dslr-20261030.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T17:40:39+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "DES K9 SUPPLEMENTAIRES POUR L'ARMEE INDIENNE",
+      "url": "https://blablachars.blogspot.com/2026/10/des-k9-supplementaires-pour-larmee.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "acquisitions",
+        "Inde",
+        "K9",
+        "LAD",
+        "VSHORAD"
+      ],
+      "sourceExcerpt": {
+        "text": "Le Conseil des Acquisitions de Défense a approuvé un plan d'acquisition pour les forces armées indiennes, d'une valeur globale de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-31T07:39:49.398388+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqVE6inGWbwPloTLW8uhtHJ66dJUpyosuQoq74R2xEKk-dprUbg8N3XI7X3oRCe0C7lnjbZPWz9uVBi22yOLdJqquUcG8YAV9Zl13S5cl9JXmp-0wpFp4p8RueE35x1KIzpy476H6sdhiSm_NYAip9ly0E0tfv_dM6DCmiZJo3AS_toYtngCATJF4D0rI/w1200-h630-p-k-no-nu/K9%20Vajra.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « DES K9 SUPPLEMENTAIRES POUR L'ARMEE INDIENNE ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/10/des-k9-supplementaires-pour-larmee.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/10/des-k9-supplementaires-pour-larmee.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-31",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqVE6inGWbwPloTLW8uhtHJ66dJUpyosuQoq74R2xEKk-dprUbg8N3XI7X3oRCe0C7lnjbZPWz9uVBi22yOLdJqquUcG8YAV9Zl13S5cl9JXmp-0wpFp4p8RueE35x1KIzpy476H6sdhiSm_NYAip9ly0E0tfv_dM6DCmiZJo3AS_toYtngCATJF4D0rI/w1200-h630-p-k-no-nu/K9%20Vajra.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T17:40:22+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Hellenic Navy Receives Its Second FDI Frigate Built by Naval Group",
+      "url": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-receives-its-second-fdi-frigate-built-by-naval-group/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "FDI HN",
+        "Hellenic Navy",
+        "Naval Group"
+      ],
+      "sourceExcerpt": {
+        "text": "The Hellenic Navy has received the second of four Defense and Intervention Frigates (FDI HN) built by Naval Group. The…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-31T07:39:49.398388+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Hellenic-Navy-Nearchos-FDI-Frigate-768x432.jpg",
+        "kind": "article",
+        "alt": "Hellenic Navy Nearchos FDI Frigate",
+        "credit": "The Hellenic Navy has received its second of four Defense and Intervention Frigates (FDI HN), HS Nearchos (F602), the first delivered in the Standard 2 configuration, seen here during sea trials. Screenshot from Naval Group video.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-receives-its-second-fdi-frigate-built-by-naval-group/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-receives-its-second-fdi-frigate-built-by-naval-group/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-31",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Hellenic-Navy-Nearchos-FDI-Frigate.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-30",
       "publishedAt": "2026-10-30T17:10:10+00:00",
@@ -210,6 +438,50 @@
     },
     {
       "date": "2026-10-30",
+      "publishedAt": "2026-10-30T11:39:35+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le ministère des Armées a de nouveau retenu Piriou pour livrer des remorqueurs RP30 NG à la Marine nationale",
+      "url": "https://www.opex360.com/2026/10/30/le-ministere-des-armees-a-de-nouveau-retenu-piriou-pour-livrer-des-remorqueurs-rp30-ng-a-la-marine-nationale/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "construction navale",
+        "DGA",
+        "Marine Nationale",
+        "Piriou",
+        "remorqueur",
+        "RP30",
+        "RP30NG",
+        "RPC30",
+        "servitude"
+      ],
+      "sourceExcerpt": {
+        "text": "Ce n’est certes pas le programme le plus emblématique du ministère des Armées… mais, sans lui, il serait impossible à…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-31T07:39:49.398388+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/rp30-20261030.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le ministère des Armées a de nouveau retenu Piriou pour livrer des remorqueurs RP30 NG à la Marine nationale ».",
+        "credit": "Piriou",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/30/le-ministere-des-armees-a-de-nouveau-retenu-piriou-pour-livrer-des-remorqueurs-rp30-ng-a-la-marine-nationale/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/30/le-ministere-des-armees-a-de-nouveau-retenu-piriou-pour-livrer-des-remorqueurs-rp30-ng-a-la-marine-nationale/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-31",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/rp30-20261030.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
       "publishedAt": "2026-10-30T10:49:35+00:00",
       "source": "Ministère britannique de la Défense",
       "sourceType": "Source officielle",
@@ -303,6 +575,46 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-30",
         "assetUrl": "https://opexnews.fr/wp-content/uploads/2026/10/guerre-spatiale-us-space-force-operations-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T09:33:04+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Four Decades of Naval Expertise, A New Global Chapter for Hanwha Ocean",
+      "url": "https://www.navalnews.com/features/2026/10/four-decades-of-naval-expertise-a-new-global-chapter-for-hanwha-ocean/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Features",
+        "Hanwha Ocean",
+        "KDDX",
+        "KSS-III",
+        "ROK Navy",
+        "South Korea"
+      ],
+      "sourceExcerpt": {
+        "text": "Around the world, governments are reassessing fleet requirements against a more uncertain security environment. At the same time, the pressures…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-10-31T07:39:49.398388+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/Hanwha-Ocean-1024x555.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Four Decades of Naval Expertise, A New Global Chapter for Hanwha Ocean ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/features/2026/10/four-decades-of-naval-expertise-a-new-global-chapter-for-hanwha-ocean/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/features/2026/10/four-decades-of-naval-expertise-a-new-global-chapter-for-hanwha-ocean/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-10-31",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Hanwha-Ocean-1024x555.png",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -12285,7 +12597,7 @@
       "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00"
     }
   ],
-  "checkedAt": "2026-10-30T17:28:23.421858+00:00",
+  "checkedAt": "2026-10-31T07:39:44.314826+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -12297,9 +12609,9 @@
     "sources": [
       {
         "source": "Sénat — Défense",
-        "ok": false,
+        "ok": true,
         "recentItems": 0,
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
+        "error": null
       },
       {
         "source": "Ministère britannique de la Défense",
@@ -12334,13 +12646,13 @@
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -12362,8 +12674,8 @@
         "error": null
       }
     ],
-    "newItems": 10,
-    "articleImages": 308,
+    "newItems": 8,
+    "articleImages": 316,
     "duplicateHeadlinesSkipped": 0
   }
 }

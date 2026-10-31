@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-30T17:28:23.421858+00:00",
+  "checkedAt": "2026-10-31T07:39:44.314826+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,11 +10,9 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 10,
+    "ok": 11,
     "total": 11,
-    "unavailable": [
-      "Sénat — Défense"
-    ]
+    "unavailable": []
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -55,9 +53,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-30T17:30:08.013250+00:00",
+        "checkedAt": "2026-10-31T07:39:51.751858+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
-        "status": "retained",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Rencontre Witkoff - Poutine : envoi de la première cargaison de diesel russe vers les États-Unis",
@@ -71,11 +69,11 @@
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",
-            "ok": false
+            "ok": true
           }
         ]
       }
@@ -94,7 +92,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-30T17:30:08.013250+00:00",
+        "checkedAt": "2026-10-31T07:39:51.751858+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -110,7 +108,7 @@
         "sources": [
           {
             "source": "France 24",
-            "ok": false
+            "ok": true
           },
           {
             "source": "RFI",
@@ -157,10 +155,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-30T17:30:08.013250+00:00",
-        "updatedAt": "2026-10-29T17:33:52.488976+00:00",
-        "status": "retained",
+        "checkedAt": "2026-10-31T07:39:51.751858+00:00",
+        "updatedAt": "2026-10-31T07:39:51.751858+00:00",
+        "status": "updated",
         "paragraphs": [
+          {
+            "title": "“Netanyahu n’a pas gagné, il a perdu, et de loin”, dit l’ex-Premier ministre israélien Ehud Barak",
+            "text": "Dans un entretien à France 24, l’ancien Premier ministre israélien Eoud Barak estime que Benjamin Netanyahu “n’a pas gagné” les élections mais qu’il “a perdu, et de loin”. Pour lui, son rival Gadi Eisenkot devrait s’allier aux partis arabes. Il laisse entendre que les accusations de financement qatari d’un parti arabe visent à détourner l’attention du Qatargate, et juge Netanyahu prêt à frapper l’Iran pour rester au pouvoir.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/%C3%A9missions/en-t%C3%AAte-%C3%A0-t%C3%AAte/20261030-netanyahu-n-a-pas-gagn%C3%A9-il-a-perdu-et-de-loin-dit-l-ex-premier-ministre-isra%C3%A9lien-ehud-barak",
+            "publishedAt": "2026-10-30T17:03:35+00:00"
+          },
           {
             "title": "Israël : un ministre d'extrême droite appelle à l'arrestation des chefs des partis arabes",
             "text": "Le ministre israélien de la Sécurité nationale Itamar Ben Gvir, figure de l'extrême droite, a appelé jeudi 29 octobre sur X à arrêter les chefs des partis arabes, visés par des accusations de soutien étranger après leur score historique aux législatives. Ansour Abbas, chef de la Liste arabe unie, a rejeté ses accusations formulées par le camp de Benjamin Netanyahu.",
@@ -168,24 +174,16 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/vid%C3%A9o/20261029-isra%C3%ABl-un-ministre-d-extr%C3%AAme-droite-appelle-%C3%A0-l-arrestation-des-chefs-des-partis-arabes",
             "publishedAt": "2026-10-29T14:25:17+00:00"
-          },
-          {
-            "title": "Législatives en Israël : vers une coallition des partis arabes et de l'opposition ?",
-            "text": "L'un des principaux opposants arabes israéliens a déclaré mercredi 28 octobre être prêt à soutenir un gouvernement d'opposition pour évincer le Premier ministre sortant Benjamin Netanyahu, mais sans y participer. Youssef Jabareen, dirigeant de la Liste unifiée (extrême gauche et nationalistes), cite en raison notamment la guerre à Gaza et la situation en Cisjordanie occupée, où la colonisation explose et les violences des colons sont quasi quotidiennes.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261029-l%C3%A9gislatives-en-isra%C3%ABl-vers-une-coallition-des-partis-arabes-et-de-l-opposition",
-            "publishedAt": "2026-10-29T11:49:52+00:00"
           }
         ],
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",
-            "ok": false
+            "ok": true
           }
         ]
       }
