@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-31T07:39:44.314826+00:00",
+  "checkedAt": "2026-10-31T17:18:09.871438+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -16,7 +16,7 @@
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-10-30T17:28:23.421858+00:00",
+      "changedAt": "2026-10-31T17:18:09.871438+00:00",
       "items": [
         {
           "title": "UK and Ukrainian industry unite to accelerate drone innovation",
@@ -41,19 +41,11 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-10-20T11:12:06+00:00",
           "language": "fr"
-        },
-        {
-          "title": "Combien la France a-t-elle donné à l’Ukraine ?",
-          "url": "https://www.revueconflits.com/combien-la-france-a-t-elle-donne-a-lukraine/",
-          "source": "Revue Conflits",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-10-17T13:23:08+00:00",
-          "language": "fr"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-31T07:39:51.751858+00:00",
+        "checkedAt": "2026-10-31T17:18:14.416876+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -92,7 +84,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-31T07:39:51.751858+00:00",
+        "checkedAt": "2026-10-31T17:18:14.416876+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -155,9 +147,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-10-31T07:39:51.751858+00:00",
+        "checkedAt": "2026-10-31T17:18:14.416876+00:00",
         "updatedAt": "2026-10-31T07:39:51.751858+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "“Netanyahu n’a pas gagné, il a perdu, et de loin”, dit l’ex-Premier ministre israélien Ehud Barak",
