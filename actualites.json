@@ -1,7 +1,75 @@
 {
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-01",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-01",
+      "publishedAt": "2026-11-01T03:00:24+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "De Quincy à Yanbu : la France, assureur du Golfe en fin de mandat",
+      "url": "https://www.revueconflits.com/de-quincy-a-yanbu-la-france-assureur-du-golfe-en-fin-de-mandat/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Géopolitique de la France",
+        "Moyen-Orient",
+        "Abonné",
+        "France"
+      ],
+      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_01309311_000005.jpg",
+        "kind": "article",
+        "alt": "De Quincy à Yanbu : la France, assureur du Golfe en fin de mandat",
+        "credit": "Le prince héritier saoudien Mohammed ben Salmane et le président français Emmanuel Macron se sont entretenus officiellement à Riyad, en Arabie saoudite, le 21 octobre 2026, afin de faire le point sur les relations stratégiques de longue date entre les deux pays et d'examiner les moyens de renforcer la coopération bilatérale dans divers secteurs. Les deux dirigeants ont également échangé leurs points de vue sur l'actualité régionale et internationale et discuté de la coordination des efforts conjoints pour soutenir la sécurité et la stabilité internationales. Photo : Saudi Press Agency apaimages//…",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/de-quincy-a-yanbu-la-france-assureur-du-golfe-en-fin-de-mandat/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/de-quincy-a-yanbu-la-france-assureur-du-golfe-en-fin-de-mandat/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-01",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_01309311_000005.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "publishedAt": "2026-10-31T17:52:49+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Brésil : pourquoi Lula a gagné",
+      "url": "https://www.revueconflits.com/podcast-bresil-pourquoi-lula-a-gagne/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Podcasts",
+        "Podcasts Amériques",
+        "Brésil",
+        "Reportage"
+      ],
+      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_ap23069716_000030-scaled.jpg",
+        "kind": "article",
+        "alt": "Podcast – Brésil : pourquoi Lula a gagné",
+        "credit": "AP Photo/Andre Penner",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-bresil-pourquoi-lula-a-gagne/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-bresil-pourquoi-lula-a-gagne/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-01",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_ap23069716_000030-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-10-31",
       "publishedAt": "2026-10-31T15:31:57+00:00",
@@ -189,6 +257,52 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-31",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/latouche-treville-20261031.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "publishedAt": "2026-10-31T10:22:10+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le Rafale M réussit ses premiers essais à bord du porte-avions indien INS Vikrant",
+      "url": "https://www.opex360.com/2026/10/31/le-rafale-m-reussit-ses-premiers-essais-a-bord-du-porte-avions-indien-ins-vikrant/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie-Pacifique",
+        "Forces navales",
+        "Dassault Aviation",
+        "essais",
+        "Inde",
+        "Indian Navy",
+        "Indopacifique",
+        "INS Vikrant",
+        "porte-avions",
+        "Rafale M",
+        "Rafale Marine",
+        "STOBAR"
+      ],
+      "sourceExcerpt": {
+        "text": "En avril 1993, près de deux ans et demi après son vol inaugural, le Rafale Marine M01, avec le pilote…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/rafale-m-inde-20261031.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le Rafale M réussit ses premiers essais à bord du porte-avions indien INS Vikrant ».",
+        "credit": "Indian Navy",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/10/31/le-rafale-m-reussit-ses-premiers-essais-a-bord-du-porte-avions-indien-ins-vikrant/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/10/31/le-rafale-m-reussit-ses-premiers-essais-a-bord-du-porte-avions-indien-ins-vikrant/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-01",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/rafale-m-inde-20261031.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -761,7 +875,22 @@
         "text": "Kongsberg Gruppen ASA has been awarded a major contract modification by the Department of War Innovation Unit (DIU) for autonomous…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00"
+      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/hugin-endurance-deep-ocean-v1-4k-768x432.webp",
+        "kind": "article",
+        "alt": "Image principale de l’article « KONGSBERG secures US government contract for underwater capabilities ».",
+        "credit": "HUGIN Endurance UUV (Kongsberg picture)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/kongsberg-secures-us-government-contract-for-underwater-capabilities/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/kongsberg-secures-us-government-contract-for-underwater-capabilities/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-01",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/hugin-endurance-deep-ocean-v1-4k.webp",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-10-30",
@@ -942,6 +1071,83 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-10-31",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/Hanwha-Ocean-1024x555.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T08:58:28+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "China Expands Construction Of Type 071 Amphibious Warfare Ships To Guangzhou",
+      "url": "https://www.navalnews.com/naval-news/2026/10/china-expands-construction-of-type-071-amphibious-warfare-ships-to-guangzhou/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Amphibious Warfare",
+        "Chinese Navy",
+        "PLAN",
+        "Type 071"
+      ],
+      "sourceExcerpt": {
+        "text": "New satellite imagery shows two new Type 071 amphibious warfare ships for the Chinese Navy under construction at a shipyard…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/51886961190_a23bdc713f_k-768x432.jpg",
+        "kind": "article",
+        "alt": "China Expands Construction Of Type 071 Amphibious Warfare Ships To Guangzhou",
+        "credit": "File image of Type 071 LPD 987 Wuzhi Shan on relief mission to Tonga, and satellite image of construction site at COMEC Longxue. Images via Sinodefenceforum and Landsat Viewer.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/china-expands-construction-of-type-071-amphibious-warfare-ships-to-guangzhou/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/china-expands-construction-of-type-071-amphibious-warfare-ships-to-guangzhou/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-01",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/51886961190_a23bdc713f_k.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "publishedAt": "2026-10-30T08:31:42+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "€1.786 Billion for the EPC Programme: Now Spain Must Explain Which Corvettes the Armada Will Get",
+      "url": "https://www.navalnews.com/naval-news/2026/10/e1-786-billion-for-the-epc-programme-now-spain-must-explain-which-corvettes-the-armada-will-get/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "European Patrol Corvette",
+        "Navantia",
+        "Spanish Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "The Spanish government approved the pre-financing for Spain’s participation in the European Patrol Corvette programme to develop and build six…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/epc-1-768x513.jpeg",
+        "kind": "article",
+        "alt": "€1.786 Billion for the EPC Programme: Now Spain Must Explain Which Corvettes the Armada Will Get",
+        "credit": "Illustration of the European Patrol Corvette",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/10/e1-786-billion-for-the-epc-programme-now-spain-must-explain-which-corvettes-the-armada-will-get/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/10/e1-786-billion-for-the-epc-programme-now-spain-must-explain-which-corvettes-the-armada-will-get/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-01",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/epc-1.jpeg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -4967,7 +5173,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00"
+      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00"
     },
     {
       "date": "2026-10-23",
@@ -4980,7 +5186,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00"
+      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00"
     },
     {
       "date": "2026-10-22",
@@ -5604,7 +5810,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00"
+      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00"
     },
     {
       "date": "2026-10-21",
@@ -12707,7 +12913,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00"
+      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00"
     },
     {
       "date": "2026-10-07",
@@ -12921,10 +13127,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-10-30T17:28:51.154157+00:00"
+      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00"
     }
   ],
-  "checkedAt": "2026-10-31T17:18:09.871438+00:00",
+  "checkedAt": "2026-11-01T07:42:52.691372+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -13001,8 +13207,8 @@
         "error": null
       }
     ],
-    "newItems": 9,
-    "articleImages": 323,
+    "newItems": 5,
+    "articleImages": 329,
     "duplicateHeadlinesSkipped": 0
   }
 }
