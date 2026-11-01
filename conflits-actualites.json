@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-01T07:42:52.691372+00:00",
+  "checkedAt": "2026-11-01T17:18:47.704220+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -45,7 +45,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-01T07:43:00.309368+00:00",
+        "checkedAt": "2026-11-01T17:18:53.636432+00:00",
         "updatedAt": "2026-10-22T06:18:46.930785+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -61,7 +61,7 @@
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",
@@ -84,7 +84,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-01T07:43:00.309368+00:00",
+        "checkedAt": "2026-11-01T17:18:53.636432+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -147,9 +147,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-01T07:43:00.309368+00:00",
+        "checkedAt": "2026-11-01T17:18:53.636432+00:00",
         "updatedAt": "2026-11-01T07:43:00.309368+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Face aux spéculations de nouvelles frappes sur l'Iran, Mojtaba Khamenei menace de riposter",
@@ -171,7 +171,7 @@
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",

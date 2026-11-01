@@ -4,6 +4,292 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-11-01",
+      "publishedAt": "2026-11-01T15:54:21+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "LES PAYS BAS ACCELERENT SUR LES BLINDES.",
+      "url": "https://blablachars.blogspot.com/2026/11/les-pays-bas-accelerent-sur-les-blindes.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "ACSV G5",
+        "blindés",
+        "CV90",
+        "Kodiak",
+        "Leguan",
+        "Pays-Bas",
+        "Wisent 2"
+      ],
+      "sourceExcerpt": {
+        "text": "Le secrétaire d’État à la Défense néerlandais, Derk Boswiik a communiqué au Parlement les projets d'acquisition destinés à accroître les…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-01T17:18:52.082479+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJV4qZba6_IyfOjFxX0AeLpfFEnhhXVOcuDJABO3vNMMdT5Z0yEylE5gG2IiBTb3a4Xzxxvlt7PSHzyxjbNvj8NoWradMaCW3pWjRwDYWLaUaaRweXOslc9XpVvZvlcrBRduCasUa_8V8EJ0xdCH5ZiH61Q8DWDrRVdnbzuFNiXkUxStLMk9LCY4464W8/w1200-h630-p-k-no-nu/CV9035NL_MLU_01.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « LES PAYS BAS ACCELERENT SUR LES BLINDES. ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/11/les-pays-bas-accelerent-sur-les-blindes.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/11/les-pays-bas-accelerent-sur-les-blindes.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-01",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJV4qZba6_IyfOjFxX0AeLpfFEnhhXVOcuDJABO3vNMMdT5Z0yEylE5gG2IiBTb3a4Xzxxvlt7PSHzyxjbNvj8NoWradMaCW3pWjRwDYWLaUaaRweXOslc9XpVvZvlcrBRduCasUa_8V8EJ0xdCH5ZiH61Q8DWDrRVdnbzuFNiXkUxStLMk9LCY4464W8/w1200-h630-p-k-no-nu/CV9035NL_MLU_01.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "publishedAt": "2026-11-01T13:11:27+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Sarawat and Tuwaiq Strategic Projects Strengthen Royal Saudi Naval Forces, Localize Maritime Defense",
+      "url": "https://www.navalnews.com/naval-news/2026/11/sarawat-and-tuwaiq-strategic-projects-strengthen-royal-saudi-naval-forces-localize-maritime-defense/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Avante 2200",
+        "MMSC",
+        "Royal Saudi Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "The Saudi Ministry of Defense is accelerating the development of a modern naval force equipped with advanced combat systems, high…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-01T17:18:52.082479+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/01/DIMDEX-2026-Saudi-corvette-768x579.jpg",
+        "kind": "article",
+        "alt": "Al Jubail class corvette",
+        "credit": "One of the new Al Jubail class corvettes of the Royal Saudi Navy. Based on the Avante 2200 by Navantia, 5 corvettes of this class have been delivered. KSA placed a follow on order for 3 more.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/sarawat-and-tuwaiq-strategic-projects-strengthen-royal-saudi-naval-forces-localize-maritime-defense/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/sarawat-and-tuwaiq-strategic-projects-strengthen-royal-saudi-naval-forces-localize-maritime-defense/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-01",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/01/DIMDEX-2026-Saudi-corvette.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "publishedAt": "2026-11-01T13:01:45+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "L’Allemagne et les Pays-Bas commandent 69 véhicules d’infanterie de plus, après un premier contrat qui revenait à 21 millions d’euros…",
+      "url": "https://www.forum-militaire.fr/lallemagne-et-les-pays-bas-commandent-69-vehicules-dinfanterie-de-plus-apres-un-premier-contrat-qui-revenait-a-21-millions-deuros-lexemplaire/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "Blindé",
+        "contrat"
+      ],
+      "sourceExcerpt": {
+        "text": "Berlin et La Haye portent leur commande à 291 exemplaires d’un blindé à roues armé de la tourelle d’un engin…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "publishedAt": "2026-11-01T13:00:38+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "L’algorithme et l’étincelle : comment une application chinoise transforme une colère en incendie",
+      "url": "https://www.revueconflits.com/lalgorithme-et-letincelle-comment-une-application-chinoise-transforme-une-colere-en-incendie/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Géopolitique de la France",
+        "Revue Conflits",
+        "Abonné",
+        "France"
+      ],
+      "imageCheckedAt": "2026-11-01T17:18:52.082479+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/pierre-louis-mieze-ZH0NFsmUres-unsplash-scaled.jpg",
+        "kind": "article",
+        "alt": "L’algorithme et l’étincelle : comment une application chinoise transforme une colère en incendie",
+        "credit": "(C) Unsplash.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/lalgorithme-et-letincelle-comment-une-application-chinoise-transforme-une-colere-en-incendie/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/lalgorithme-et-letincelle-comment-une-application-chinoise-transforme-une-colere-en-incendie/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-01",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/pierre-louis-mieze-ZH0NFsmUres-unsplash-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "publishedAt": "2026-11-01T12:17:52+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Direction générale de l’armement lance un appel d’offres pour industrialiser son drone naval kamikaze «SMOKERS»",
+      "url": "https://www.opex360.com/2026/11/01/la-direction-generale-de-larmement-lance-un-appel-doffres-pour-industrialiser-son-drone-naval-kamikaze-smokers/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "DGA",
+        "Forces navales",
+        "CERDAN",
+        "Direction générale de l'armement",
+        "drone de surface",
+        "industrialisation",
+        "Marine Nationale",
+        "MNTO",
+        "munition navale téléopérée",
+        "SMOKERS"
+      ],
+      "sourceExcerpt": {
+        "text": "En avril 2025, la Marine nationale lança sa première munition navale téléopérée [ou drone naval «kamikaze»] contre la coque renforcée…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-01T17:18:52.082479+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/smokers-20261101.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Direction générale de l’armement lance un appel d’offres pour industrialiser son drone naval kamikaze «SMOKERS» ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/01/la-direction-generale-de-larmement-lance-un-appel-doffres-pour-industrialiser-son-drone-naval-kamikaze-smokers/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/01/la-direction-generale-de-larmement-lance-un-appel-doffres-pour-industrialiser-son-drone-naval-kamikaze-smokers/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-01",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/smokers-20261101.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "publishedAt": "2026-11-01T12:14:40+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Un document confirme l’intérêt de la force aérienne italienne pour l’avion de transport A400M «Atlas» d’Airbus",
+      "url": "https://www.opex360.com/2026/11/01/un-document-confirme-linteret-de-la-force-aerienne-italienne-pour-lavion-de-transport-a400m-atlas-dairbus/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces aériennes",
+        "A400M",
+        "Aeronautica Militare",
+        "Airbus",
+        "avion de transport",
+        "C-130J",
+        "Italie",
+        "Royal Air Force",
+        "Royaumee-Uni"
+      ],
+      "sourceExcerpt": {
+        "text": "Ces derniers mois, le constructeur aéronautique brésilien Embraer a remporté plusieurs marchés en Europe avec son avion de transport militaire…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-01T17:18:52.082479+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/a400m-raf-20230707.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Un document confirme l’intérêt de la force aérienne italienne pour l’avion de transport A400M «Atlas» d’Airbus ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/01/un-document-confirme-linteret-de-la-force-aerienne-italienne-pour-lavion-de-transport-a400m-atlas-dairbus/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/01/un-document-confirme-linteret-de-la-force-aerienne-italienne-pour-lavion-de-transport-a400m-atlas-dairbus/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-01",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/a400m-raf-20230707.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "publishedAt": "2026-11-01T09:56:00+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Même les États-Unis sont admiratifs de la cadence de production de Naval Group qui vient de livrer la deuxième FDI grecque seulement 10…",
+      "url": "https://www.forum-militaire.fr/meme-les-etats-unis-sont-admiratifs-de-la-cadence-de-livraison-de-naval-group-qui-vient-de-livrer-la-deuxieme-fdi-grecque-seulement-10-mois-apres-la-premiere/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Industrie",
+        "Marines militaires",
+        "France",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Naval Group vient de livrer sa deuxième frégate FDI à la marine hellénique le 30 octobre à Lorient, à un…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "publishedAt": "2026-11-01T08:05:55+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Russian Navy Cancels Modernization of Kirov-Class Battlecruiser Pyotr Velikiy",
+      "url": "https://www.navalnews.com/naval-news/2026/11/pyotr-velikiy-modernization-canceled/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Kirov-class",
+        "Russian Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "The Russian Navy has canceled modernization plans for the Kirov-class battlecruiser Pyotr Velikiy. Read how budget constraints are reshaping Russia's…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-01T17:18:52.082479+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/1389539-768x489.jpg",
+        "kind": "article",
+        "alt": "Russian Navy Cancels Modernization of Kirov-Class Battlecruiser Pyotr Velikiy",
+        "credit": "Kirov-Class Battlecruiser RFS Pyotr Velikiy (Peter the Great) pictured above. TASS Russian state media photo via Lev Fedoseev.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/pyotr-velikiy-modernization-canceled/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/pyotr-velikiy-modernization-canceled/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-01",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/1389539.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-01",
       "publishedAt": "2026-11-01T03:00:24+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -13130,7 +13416,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00"
     }
   ],
-  "checkedAt": "2026-11-01T07:42:52.691372+00:00",
+  "checkedAt": "2026-11-01T17:18:47.704220+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -13207,8 +13493,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 5,
-    "articleImages": 329,
+    "newItems": 8,
+    "articleImages": 335,
     "duplicateHeadlinesSkipped": 0
   }
 };
