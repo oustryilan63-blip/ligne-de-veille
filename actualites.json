@@ -1,7 +1,102 @@
 {
-  "updatedAt": "2026-11-01",
+  "updatedAt": "2026-11-02",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T08:08:51+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La France finit sa démonstration de force aérienne autour du monde en beauté avec une étape chez une vieille amie dans le cadre de Pégase…",
+      "url": "https://www.forum-militaire.fr/la-france-finit-sa-demonstration-de-force-aerienne-autour-du-monde-en-beaute-avec-une-etape-chez-une-vieille-amie-dans-le-cadre-de-pegase-26-legypte/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "avion",
+        "exercice",
+        "France"
+      ],
+      "sourceExcerpt": {
+        "text": "La mission Pégase 26 vient de boucler sa dernière grande étape en Égypte avec l’exercice bilatéral AMUN 26 du 7…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T07:54:26+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Rafale M Conducts Maiden Trials onboard Indian Aircraft Carrier INS Vikrant",
+      "url": "https://www.navalnews.com/naval-news/2026/11/rafale-m-conducts-maiden-trials-onboard-indian-aircraft-carrier-ins-vikrant/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Indian Navy",
+        "INS Vikrant",
+        "Rafale M"
+      ],
+      "sourceExcerpt": {
+        "text": "The maiden landing of the French Rafale M fighter on INS Vikrant occurred on October 29, 2026. The landing was…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Rafale-M-Trials-Vikrant-768x511.jpg",
+        "kind": "article",
+        "alt": "Rafale M Conducts Maiden Trials onboard Indian Aircraft Carrier INS Vikrant",
+        "credit": "Rafale M during trials onboard INS Vikrant. Indian Navy photo.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/rafale-m-conducts-maiden-trials-onboard-indian-aircraft-carrier-ins-vikrant/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/rafale-m-conducts-maiden-trials-onboard-indian-aircraft-carrier-ins-vikrant/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-02",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Rafale-M-Trials-Vikrant-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T03:00:35+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "La « génération du cri », comment les Houthis façonnent une jeunesse combattante",
+      "url": "https://www.revueconflits.com/la-generation-du-cri-comment-les-houthis-faconnent-une-jeunesse-combattante/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Moyen-Orient",
+        "Abonné",
+        "Yémen"
+      ],
+      "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2023/05/SIPA_ap22780421_000009-scaled.jpg",
+        "kind": "article",
+        "alt": "La « génération du cri », comment les Houthis façonnent une jeunesse combattante",
+        "credit": "Des prisonniers houthis se réjouissent à leur arrivée à l'aéroport de Sanaa, vendredi 14 avril 2023. Hani Mohammed/AP/SIPA",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/la-generation-du-cri-comment-les-houthis-faconnent-une-jeunesse-combattante/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/la-generation-du-cri-comment-les-houthis-faconnent-une-jeunesse-combattante/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-02",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2023/05/SIPA_ap22780421_000009-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-01",
       "publishedAt": "2026-11-01T15:54:21+00:00",
@@ -5459,7 +5554,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00"
+      "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00"
     },
     {
       "date": "2026-10-23",
@@ -5472,7 +5567,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00"
+      "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00"
     },
     {
       "date": "2026-10-22",
@@ -6096,7 +6191,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00"
+      "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00"
     },
     {
       "date": "2026-10-21",
@@ -13199,7 +13294,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00"
+      "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00"
     },
     {
       "date": "2026-10-07",
@@ -13413,10 +13508,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-01T07:42:56.003385+00:00"
+      "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00"
     }
   ],
-  "checkedAt": "2026-11-01T17:18:47.704220+00:00",
+  "checkedAt": "2026-11-02T08:11:18.542145+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -13453,7 +13548,7 @@
       {
         "source": "Forum Militaire",
         "ok": true,
-        "recentItems": 14,
+        "recentItems": 15,
         "error": null
       },
       {
@@ -13482,19 +13577,19 @@
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
-        "ok": true,
-        "recentItems": 10,
-        "error": null
+        "ok": false,
+        "recentItems": 0,
+        "error": "The read operation timed out"
       },
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 2,
         "error": null
       }
     ],
-    "newItems": 8,
-    "articleImages": 335,
+    "newItems": 3,
+    "articleImages": 337,
     "duplicateHeadlinesSkipped": 0
   }
 }

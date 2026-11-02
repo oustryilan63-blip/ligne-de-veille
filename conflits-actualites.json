@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-01T17:18:47.704220+00:00",
+  "checkedAt": "2026-11-02T08:11:18.542145+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,9 +10,11 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 11,
+    "ok": 10,
     "total": 11,
-    "unavailable": []
+    "unavailable": [
+      "Conseil de l’UE — Relations internationales"
+    ]
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -45,10 +47,26 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-01T17:18:53.636432+00:00",
-        "updatedAt": "2026-10-22T06:18:46.930785+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-11-02T08:11:52.308539+00:00",
+        "updatedAt": "2026-11-02T08:11:52.308539+00:00",
+        "status": "updated",
         "paragraphs": [
+          {
+            "title": "Ukraine, Syrie, Liban, Afghanistan : le HCR mobilisé face à l'urgence hivernale",
+            "text": "Le Haut-Commissariat des Nations Unies pour les réfugiés (HCR) a lancé vendredi un appel aux dons pour venir en aide à 9 millions de personnes en Ukraine, en Syrie, au Liban et en Afghanistan, confrontées aux rigueurs de l’hiver. L’agence espère recueillir au moins 50 millions de dollars pour financer ses opérations hivernales, soit 3 millions de plus que l’année dernière.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/10/1159755",
+            "publishedAt": "2026-10-30T12:00:00+00:00"
+          },
+          {
+            "title": "Ukraine : quand prendre le train devient un risque mortel",
+            "text": "Au moins 13 personnes ont été tuées et 10 autres blessées jeudi dans une attaque russe par drone contre la gare principale de Dnipro, dans le centre-est de l’Ukraine. Le Secrétaire général de l'ONU et le coordinateur humanitaire des Nations Unies dans le pays ont condamné cette frappe, qui a frappé des civils alors qu’ils s’apprêtaient à voyager ou à retrouver leurs proches.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/10/1159749",
+            "publishedAt": "2026-10-29T12:00:00+00:00"
+          },
           {
             "title": "Rencontre Witkoff - Poutine : envoi de la première cargaison de diesel russe vers les États-Unis",
             "text": "Le président russe et l'émissaire de Donald Trump, Steve Witkoff, ont débuté mercredi 21 octobre à Saint-Pétersbourg des pourparlers sur un règlement du conflit en Ukraine. En marge de la rencontre, Moscou a fait état de la libération d'un citoyen américain condamné pour mercenariat ainsi que de l'expédition prochaine d'un premier navire de diesel russe à destination des États-Unis.",
@@ -71,20 +89,11 @@
       }
     },
     "taiwan-detroit-tensions": {
-      "changedAt": "2026-10-30T07:44:51.717436+00:00",
-      "items": [
-        {
-          "title": "Taiwan Coast Guard to Acquire MARTAC Devil Ray T24 USVs",
-          "url": "https://www.navalnews.com/naval-news/2026/10/taiwan-coast-guard-to-acquire-martac-devil-ray-t24-usvs/",
-          "source": "Naval News",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-10-19T08:04:45+00:00",
-          "language": "en"
-        }
-      ],
+      "changedAt": "2026-11-02T08:11:18.542145+00:00",
+      "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-01T17:18:53.636432+00:00",
+        "checkedAt": "2026-11-02T08:11:52.308539+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -110,8 +119,16 @@
       }
     },
     "moyen-orient-conflits": {
-      "changedAt": "2026-10-28T17:31:52.188623+00:00",
+      "changedAt": "2026-11-02T08:11:18.542145+00:00",
       "items": [
+        {
+          "title": "La « génération du cri », comment les Houthis façonnent une jeunesse combattante",
+          "url": "https://www.revueconflits.com/la-generation-du-cri-comment-les-houthis-faconnent-une-jeunesse-combattante/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-02T03:00:35+00:00",
+          "language": "fr"
+        },
         {
           "title": "Surprise en Suisse : le choix d’un second système de défense aérienne se fera entre le SAMP/T NG et le Barak MX israélien",
           "url": "https://www.opex360.com/2026/10/28/surprise-en-suisse-le-choix-dun-second-systeme-de-defense-aerienne-se-fera-entre-le-samp-t-ng-et-le-barak-mx-israelien/",
@@ -135,22 +152,22 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-10-27T14:22:15+00:00",
           "language": "en"
-        },
-        {
-          "title": "Israel to Supply Cyprus with an Offshore Patrol Vessel Equipped with Advanced Naval Systems",
-          "url": "https://www.navalnews.com/naval-news/2026/10/israel-to-supply-cyprus-with-an-offshore-patrol-vessel-equipped-with-advanced-naval-systems/",
-          "source": "Naval News",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-10-26T16:56:46+00:00",
-          "language": "en"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-01T17:18:53.636432+00:00",
-        "updatedAt": "2026-11-01T07:43:00.309368+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-11-02T08:11:52.308539+00:00",
+        "updatedAt": "2026-11-02T08:11:52.308539+00:00",
+        "status": "updated",
         "paragraphs": [
+          {
+            "title": "Jean-Pierre Filiu : \"Gaza est un laboratoire pour l'ensemble du système international\"",
+            "text": "Un an après la proclamation d'un cessez-le-feu dans la bande de Gaza, l'enclave est toujours largement occupée par l'armée israélienne, les bombardements quotidiens et meurtriers, et les conditions de vie extrêmes. C'est dans ce contexte de tragédie continue au Proche-Orient que se sont tenues les premières élections législatives en Israël depuis le 7 octobre 2023. L'historien Jean Pierre Filiu, auteur de \"L' Étrange aveuglement\" (éditions les Arènes), était l'invité d'Au Cœur de l'Info.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/%C3%A9missions/au-c%C5%93ur-de-l-info-l-invit%C3%A9/20261101-jean-pierre-filiu-gaza-est-un-laboratoire-pour-l-ensemble-du-syst%C3%A8me-international",
+            "publishedAt": "2026-11-01T21:04:00+00:00"
+          },
           {
             "title": "Face aux spéculations de nouvelles frappes sur l'Iran, Mojtaba Khamenei menace de riposter",
             "text": "Le guide suprême iranien, Mojtaba Khamenei, a menacé samedi \"d'une riposte immédiate, puissante et sans limite géographique\" si les spéculations autour d'une reprise de la guerre par les États-Unis et Israël voyaient le jour.",
@@ -160,12 +177,12 @@
             "publishedAt": "2026-10-31T17:47:09+00:00"
           },
           {
-            "title": "“Netanyahu n’a pas gagné, il a perdu, et de loin”, dit l’ex-Premier ministre israélien Ehud Barak",
-            "text": "Dans un entretien à France 24, l’ancien Premier ministre israélien Eoud Barak estime que Benjamin Netanyahu “n’a pas gagné” les élections mais qu’il “a perdu, et de loin”. Pour lui, son rival Gadi Eisenkot devrait s’allier aux partis arabes. Il laisse entendre que les accusations de financement qatari d’un parti arabe visent à détourner l’attention du Qatargate, et juge Netanyahu prêt à frapper l’Iran pour rester au pouvoir.",
+            "title": "Ukraine, Syrie, Liban, Afghanistan : le HCR mobilisé face à l'urgence hivernale",
+            "text": "Le Haut-Commissariat des Nations Unies pour les réfugiés (HCR) a lancé vendredi un appel aux dons pour venir en aide à 9 millions de personnes en Ukraine, en Syrie, au Liban et en Afghanistan, confrontées aux rigueurs de l’hiver. L’agence espère recueillir au moins 50 millions de dollars pour financer ses opérations hivernales, soit 3 millions de plus que l’année dernière.",
             "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/%C3%A9missions/en-t%C3%AAte-%C3%A0-t%C3%AAte/20261030-netanyahu-n-a-pas-gagn%C3%A9-il-a-perdu-et-de-loin-dit-l-ex-premier-ministre-isra%C3%A9lien-ehud-barak",
-            "publishedAt": "2026-10-30T17:03:35+00:00"
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/10/1159755",
+            "publishedAt": "2026-10-30T12:00:00+00:00"
           }
         ],
         "sources": [
