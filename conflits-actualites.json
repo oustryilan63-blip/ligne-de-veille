@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-02T08:11:18.542145+00:00",
+  "checkedAt": "2026-11-02T17:42:37.592398+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,11 +10,9 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 10,
+    "ok": 11,
     "total": 11,
-    "unavailable": [
-      "Conseil de l’UE — Relations internationales"
-    ]
+    "unavailable": []
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -47,9 +45,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-02T08:11:52.308539+00:00",
+        "checkedAt": "2026-11-02T17:42:45.421436+00:00",
         "updatedAt": "2026-11-02T08:11:52.308539+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Ukraine, Syrie, Liban, Afghanistan : le HCR mobilisé face à l'urgence hivernale",
@@ -93,7 +91,7 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-02T08:11:52.308539+00:00",
+        "checkedAt": "2026-11-02T17:42:45.421436+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -119,14 +117,22 @@
       }
     },
     "moyen-orient-conflits": {
-      "changedAt": "2026-11-02T08:11:18.542145+00:00",
+      "changedAt": "2026-11-02T17:42:37.592398+00:00",
       "items": [
         {
-          "title": "La « génération du cri », comment les Houthis façonnent une jeunesse combattante",
-          "url": "https://www.revueconflits.com/la-generation-du-cri-comment-les-houthis-faconnent-une-jeunesse-combattante/",
+          "title": "« The game remains manageable, but let us stay cautious. » Israel and Turkey eye each other warily",
+          "url": "https://www.revueconflits.com/the-game-remains-manageable-but-let-us-stay-cautious-israel-and-turkey-eye-each-other-warily/",
           "source": "Revue Conflits",
           "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-11-02T03:00:35+00:00",
+          "publishedAt": "2026-11-02T15:05:11+00:00",
+          "language": "en"
+        },
+        {
+          "title": "« Le jeu reste gérable, mais restons prudents ». Israël et la Turquie se regardent en chiens de faïence",
+          "url": "https://www.revueconflits.com/le-jeu-reste-gerable-mais-restons-prudents-israel-et-la-turquie-se-regardent-en-chiens-de-faience/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-02T13:00:36+00:00",
           "language": "fr"
         },
         {
@@ -135,14 +141,6 @@
           "source": "Zone Militaire — Opex360",
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-10-28T16:05:35+00:00",
-          "language": "fr"
-        },
-        {
-          "title": "Élections en Israël : pas de majorité en vue, les partis arabes sont en force",
-          "url": "https://www.revueconflits.com/elections-en-israel-pas-de-majorite-en-vue-les-partis-arabes-sont-en-force/",
-          "source": "Revue Conflits",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-10-27T21:15:58+00:00",
           "language": "fr"
         },
         {
@@ -156,25 +154,25 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-02T08:11:52.308539+00:00",
-        "updatedAt": "2026-11-02T08:11:52.308539+00:00",
+        "checkedAt": "2026-11-02T17:42:45.421436+00:00",
+        "updatedAt": "2026-11-02T17:42:45.421436+00:00",
         "status": "updated",
         "paragraphs": [
           {
-            "title": "Jean-Pierre Filiu : \"Gaza est un laboratoire pour l'ensemble du système international\"",
-            "text": "Un an après la proclamation d'un cessez-le-feu dans la bande de Gaza, l'enclave est toujours largement occupée par l'armée israélienne, les bombardements quotidiens et meurtriers, et les conditions de vie extrêmes. C'est dans ce contexte de tragédie continue au Proche-Orient que se sont tenues les premières élections législatives en Israël depuis le 7 octobre 2023. L'historien Jean Pierre Filiu, auteur de \"L' Étrange aveuglement\" (éditions les Arènes), était l'invité d'Au Cœur de l'Info.",
+            "title": "Pour Israël, 170 journalistes tués à Gaza étaient des \"terroristes\" : enquête sur un bilan contesté",
+            "text": "Israël a déclaré le 1er octobre que 170 journalistes palestiniens tués à Gaza étaient en réalité des \"terroristes\" du Hamas et d’autres groupes armés à Gaza. Mais selon notre analyse, ce bilan diffère des décomptes des principales organisations de défense des journalistes. Ces organisations dénoncent également des accusations insuffisamment fondées par l'armée israélienne.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/%C3%A9missions/au-c%C5%93ur-de-l-info-l-invit%C3%A9/20261101-jean-pierre-filiu-gaza-est-un-laboratoire-pour-l-ensemble-du-syst%C3%A8me-international",
-            "publishedAt": "2026-11-01T21:04:00+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261102-pour-isra%C3%ABl-170-journalistes-tu%C3%A9s-%C3%A0-gaza-%C3%A9taient-des-terroristes-enqu%C3%AAte-sur-un-bilan-contest%C3%A9",
+            "publishedAt": "2026-11-02T16:06:47+00:00"
           },
           {
-            "title": "Face aux spéculations de nouvelles frappes sur l'Iran, Mojtaba Khamenei menace de riposter",
-            "text": "Le guide suprême iranien, Mojtaba Khamenei, a menacé samedi \"d'une riposte immédiate, puissante et sans limite géographique\" si les spéculations autour d'une reprise de la guerre par les États-Unis et Israël voyaient le jour.",
+            "title": "L'Iran parle \"d'intenses\" échanges avec Washington pour éviter de nouvelles hostilités",
+            "text": "Téhéran a déclaré lundi que des consultations \"intenses\" étaient en cours avec Washington pour éviter une reprise des affrontements. Cette intensification des efforts diplomatiques intervient à la veille des élections américaines de mi-mandat, où le mécontentement lié à la guerre pèse sur le président américain Donald Trump.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261031-iran-%C3%A9tats-unis-isra%C3%ABl-guere-face-aux-sp%C3%A9culations-de-nouvelles-frappes-mojtaba-khamenei-menace-d-une-riposte-imm%C3%A9diate",
-            "publishedAt": "2026-10-31T17:47:09+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261102-l-iran-parle-d-intenses-%C3%A9changes-avec-washington-pour-%C3%A9viter-de-nouvelles-hostilit%C3%A9s",
+            "publishedAt": "2026-11-02T12:01:58+00:00"
           },
           {
             "title": "Ukraine, Syrie, Liban, Afghanistan : le HCR mobilisé face à l'urgence hivernale",

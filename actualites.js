@@ -4,6 +4,357 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-11-02",
+      "publishedAt": "2026-11-02T17:03:02+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Une filiale du groupe français Thales va livrer des modules de lutte contre les mines à la marine américaine",
+      "url": "https://www.opex360.com/2026/11/02/une-filiale-du-groupe-francais-thales-va-livrer-des-modules-de-lutte-contre-les-mines-a-la-marine-americaine/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Industrie",
+        "AAC",
+        "guerre des mines",
+        "module de lutte contre les mines",
+        "RMH",
+        "sonar",
+        "Thales",
+        "US Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "Avec ses sonars [CAPTAS, SAMDIS, etc.], ses bouées acoustiques, ses solutions dronisées et ses systèmes de mission dopés à l’intelligence…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-02T17:42:43.002926+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/sonar-thales-20261102.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Une filiale du groupe français Thales va livrer des modules de lutte contre les mines à la marine américaine ».",
+        "credit": "Thales",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/02/une-filiale-du-groupe-francais-thales-va-livrer-des-modules-de-lutte-contre-les-mines-a-la-marine-americaine/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/02/une-filiale-du-groupe-francais-thales-va-livrer-des-modules-de-lutte-contre-les-mines-a-la-marine-americaine/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-02",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/sonar-thales-20261102.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T15:35:47+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Les forces aériennes américaines et canadiennes se préparent à défendre les îles Aléoutiennes lors d’un exercice inédit",
+      "url": "https://www.opex360.com/2026/11/02/les-forces-aeriennes-americaines-et-canadiennes-se-preparent-a-defendre-les-iles-aleoutiennes-lors-dun-exercice-inedit/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amériques",
+        "Forces aériennes",
+        "Alaska",
+        "canada",
+        "Commandement de la défense aérospatiale de l'Amérique du Nord",
+        "Eareckson",
+        "Etats-Unis",
+        "F-16",
+        "îles Aléoutiennes",
+        "NORAD",
+        "Shemya"
+      ],
+      "sourceExcerpt": {
+        "text": "Situées entre le Kamtchatka [Russie] et l’Alaska, les îles Aléoutiennes, dont la plupart appartiennent aux États-Unis, sont stratégiques dans la…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-02T17:42:43.002926+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/norad-aloutiennes-20261102.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Les forces aériennes américaines et canadiennes se préparent à défendre les îles Aléoutiennes lors d’un exercice inédit ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/02/les-forces-aeriennes-americaines-et-canadiennes-se-preparent-a-defendre-les-iles-aleoutiennes-lors-dun-exercice-inedit/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/02/les-forces-aeriennes-americaines-et-canadiennes-se-preparent-a-defendre-les-iles-aleoutiennes-lors-dun-exercice-inedit/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-02",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/norad-aloutiennes-20261102.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T15:08:12+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Narendra Modi: a wardrobe that maps India",
+      "url": "https://www.revueconflits.com/narendra-modi-a-wardrobe-that-maps-india/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Conflits in English",
+        "Abonné"
+      ],
+      "imageCheckedAt": "2026-11-02T17:42:43.002926+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_01254560_000018-scaled.jpg",
+        "kind": "article",
+        "alt": "Narendra Modi: a wardrobe that maps India",
+        "credit": "Bilateral meeting in Mumbai, on February 17, 2026. Â' Stephane Lemouton/SIPA//LEMOUTONSTEPHANE_260217C018/Credit:Stephane Lemouton/SIPA/2602171348",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/narendra-modi-a-wardrobe-that-maps-india/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/narendra-modi-a-wardrobe-that-maps-india/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-02",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/SIPA_01254560_000018-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T15:05:11+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "« The game remains manageable, but let us stay cautious. » Israel and Turkey eye each other warily",
+      "url": "https://www.revueconflits.com/the-game-remains-manageable-but-let-us-stay-cautious-israel-and-turkey-eye-each-other-warily/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Conflits in English",
+        "Abonné"
+      ],
+      "imageCheckedAt": "2026-11-02T17:42:43.002926+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/05/Turquie.jpg",
+        "kind": "article",
+        "alt": "« The game remains manageable, but let us stay cautious. » Israel and Turkey eye each other warily",
+        "credit": "Turquie (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/the-game-remains-manageable-but-let-us-stay-cautious-israel-and-turkey-eye-each-other-warily/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/the-game-remains-manageable-but-let-us-stay-cautious-israel-and-turkey-eye-each-other-warily/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-02",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/05/Turquie.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T14:20:25+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La France teste ces vedettes suédoises devant sa base de sous-marins nucléaires, et la nouvelle version peut recevoir des missiles qui…",
+      "url": "https://www.forum-militaire.fr/la-france-teste-ces-vedettes-suedoises-devant-sa-base-de-sous-marins-nucleaires-et-la-nouvelle-version-peut-recevoir-des-missiles-qui-frappent-a-100-km/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Marines militaires",
+        "France",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Trois de ces embarcations patrouillent dans les eaux françaises depuis l’été 2025, et le prêt arrive à son terme au…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T13:00:36+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "« Le jeu reste gérable, mais restons prudents ». Israël et la Turquie se regardent en chiens de faïence",
+      "url": "https://www.revueconflits.com/le-jeu-reste-gerable-mais-restons-prudents-israel-et-la-turquie-se-regardent-en-chiens-de-faience/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Entretien",
+        "Moyen-Orient",
+        "Abonné",
+        "Israël",
+        "Turquie"
+      ],
+      "imageCheckedAt": "2026-11-02T17:42:43.002926+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/syrie-al-charaa_web.png",
+        "kind": "article",
+        "alt": "« Le jeu reste gérable, mais restons prudents ». Israël et la Turquie se regardent en chiens de faïence",
+        "credit": "La Syrie réunifiée par Ahmad al-Charaa. (C) Fabrice Balanche.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/le-jeu-reste-gerable-mais-restons-prudents-israel-et-la-turquie-se-regardent-en-chiens-de-faience/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/le-jeu-reste-gerable-mais-restons-prudents-israel-et-la-turquie-se-regardent-en-chiens-de-faience/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-02",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/syrie-al-charaa_web.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T12:30:22+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Naval Group Unveils Seaquest M MUSV as French Navy Weighs Armed Surface Drones",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-seaquest-m-musv/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "MUSV",
+        "Naval Group",
+        "Seaquest"
+      ],
+      "sourceExcerpt": {
+        "text": "Naval Group unveiled the design of its new 37-meter Seaquest M Medium Unmanned Surface Vessel (MUSV), an autonomous platform featuring…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-02T17:42:43.002926+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Seaquest-S-MUSV-Naval-Group-768x450.jpg",
+        "kind": "article",
+        "alt": "Seaquest-S MUSV Naval Group",
+        "credit": "Seaquest-S MUSV design by Naval Group",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-seaquest-m-musv/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-seaquest-m-musv/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-02",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Seaquest-S-MUSV-Naval-Group.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T11:46:16+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "New Belfast fabrication hall to support shipbuilding for decades",
+      "url": "https://www.gov.uk/government/news/new-belfast-fabrication-hall-to-support-shipbuilding-for-decades",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "New Belfast shipbuilding hall crowns year of record-breaking defence investment in Northern Ireland industry, supporting 900 jobs and apprenticeships in…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-02T17:42:43.002926+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/new-belfast-fabrication-hall-to-support-shipbuilding-for-decades",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/new-belfast-fabrication-hall-to-support-shipbuilding-for-decades",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-02"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T10:25:35+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Un accord-cadre et de la visibilité pour le VL MICA de MBDA",
+      "url": "https://forcesoperations.com/un-accord-cadre-et-de-la-visibilite-pour-le-vl-mica-de-mbda/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités"
+      ],
+      "sourceExcerpt": {
+        "text": "Le système de défense sol-air VL MICA a désormais son accord-cadre. Valorisé à plusieurs milliards d’euros, ce dernier devient le…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-02T17:42:43.002926+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/11/Un-accord-cadre-et-de-la-visibilite-pour-le-VL-MICA-de-MBDA_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Un accord-cadre et de la visibilité pour le VL MICA de MBDA ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/un-accord-cadre-et-de-la-visibilite-pour-le-vl-mica-de-mbda/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/un-accord-cadre-et-de-la-visibilite-pour-le-vl-mica-de-mbda/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-02",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/11/Un-accord-cadre-et-de-la-visibilite-pour-le-VL-MICA-de-MBDA_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T08:57:08+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Saab unveils optionally crewed CB90 CX ahead of Euronaval 2026",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-unveils-optionally-crewed-cb90-cx-ahead-of-euronaval-2026/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "CB90",
+        "Saab"
+      ],
+      "sourceExcerpt": {
+        "text": "The new variant, known as CB90 Capability X (CB90 CX), will initially be offered in three configurations: ISR), anti-ship warfare,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-02T17:42:43.002926+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/CB90-CX-ISR-768x432.jpg",
+        "kind": "article",
+        "alt": "CB90 CX ISR",
+        "credit": "The CB90 CX variant is larger and comes in intelligence, surveillance and reconnaissance, anti-ship and short-range air defence configurations, with Sweden as launch customer. Saab image.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-unveils-optionally-crewed-cb90-cx-ahead-of-euronaval-2026/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-unveils-optionally-crewed-cb90-cx-ahead-of-euronaval-2026/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-02",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/CB90-CX-ISR.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-02",
       "publishedAt": "2026-11-02T08:08:51+00:00",
       "source": "Forum Militaire",
       "sourceType": "Presse spécialisée",
@@ -77,7 +428,6 @@ window.LDV_NEWS = {
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
       "publisherCategories": [
         "Moyen-Orient",
-        "Abonné",
         "Yémen"
       ],
       "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00",
@@ -13511,7 +13861,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00"
     }
   ],
-  "checkedAt": "2026-11-02T08:11:18.542145+00:00",
+  "checkedAt": "2026-11-02T17:42:37.592398+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -13530,7 +13880,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 2,
+        "recentItems": 3,
         "error": null
       },
       {
@@ -13548,7 +13898,7 @@ window.LDV_NEWS = {
       {
         "source": "Forum Militaire",
         "ok": true,
-        "recentItems": 15,
+        "recentItems": 14,
         "error": null
       },
       {
@@ -13566,7 +13916,7 @@ window.LDV_NEWS = {
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -13577,9 +13927,9 @@ window.LDV_NEWS = {
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
-        "ok": false,
-        "recentItems": 0,
-        "error": "The read operation timed out"
+        "ok": true,
+        "recentItems": 9,
+        "error": null
       },
       {
         "source": "Areion — Géopolitique",
@@ -13588,8 +13938,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 3,
-    "articleImages": 337,
+    "newItems": 10,
+    "articleImages": 346,
     "duplicateHeadlinesSkipped": 0
   }
 };
