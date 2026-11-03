@@ -4,6 +4,225 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-11-03",
+      "publishedAt": "2026-11-03T17:04:45+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Destinée à la Marine nationale, la version VTOL du drone Aliaca a été qualifiée par la Direction générale de l’armement",
+      "url": "https://www.opex360.com/2026/11/03/destinee-a-la-marine-nationale-la-version-vtol-du-drone-aliaca-a-ete-qualifiee-par-la-direction-generale-de-larmement/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Airbus Helicopters",
+        "Aliaca",
+        "Aliaca VTOL",
+        "BSAM",
+        "BSAOM",
+        "DGA",
+        "drone",
+        "drone aérien",
+        "Marine Nationale",
+        "SMDM"
+      ],
+      "sourceExcerpt": {
+        "text": "Commandé à vingt-six exemplaires [onze en 2021 et quinze en 2024] auprès de Survey Copter, filiale d’Airbus Helicopters, afin d’équiper…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/aliaca-vtol-20261103.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Destinée à la Marine nationale, la version VTOL du drone Aliaca a été qualifiée par la Direction générale de l’armement ».",
+        "credit": "Airbus Helicopters",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/03/destinee-a-la-marine-nationale-la-version-vtol-du-drone-aliaca-a-ete-qualifiee-par-la-direction-generale-de-larmement/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/03/destinee-a-la-marine-nationale-la-version-vtol-du-drone-aliaca-a-ete-qualifiee-par-la-direction-generale-de-larmement/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-03",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/aliaca-vtol-20261103.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T15:40:29+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Des avions A-4 Skyhawk seront mis en œuvre pour assurer la préparation opérationnelle des pilotes militaires français",
+      "url": "https://www.opex360.com/2026/11/03/des-avions-a4-skyhawk-preparation-operationnelle-des-pilotes-militaires-francais/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "A-4 Skyhawk",
+        "aAE",
+        "armée de l'Air & de l'Espace",
+        "Babcock France",
+        "entraînement",
+        "marché",
+        "Red Air",
+        "SDTS",
+        "Top ACES"
+      ],
+      "sourceExcerpt": {
+        "text": "Lors d’une audition au Sénat, en novembre 2022, le général Stéphane Mille, alors chef d’état-major de l’armée de l’Air &…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/a4-topaces-20261103.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Des avions A-4 Skyhawk seront mis en œuvre pour assurer la préparation opérationnelle des pilotes militaires français ».",
+        "credit": "A-4 Skyhawk – Top Aces",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/03/des-avions-a4-skyhawk-preparation-operationnelle-des-pilotes-militaires-francais/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/03/des-avions-a4-skyhawk-preparation-operationnelle-des-pilotes-militaires-francais/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-03",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/a4-topaces-20261103.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T14:56:18+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "HII and Thales Demonstrate Expeditionary PathMaster’s Ability to Deliver an End-to-End Autonomous MCM",
+      "url": "https://www.navalnews.com/naval-news/2026/11/hii-and-thales-successfully-demonstrate-expeditionary-pathmasters-ability-to-deliver-an-end-to-end-autonomous-mine-countermeasure-mission/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "HII",
+        "REMUS",
+        "Thales"
+      ],
+      "sourceExcerpt": {
+        "text": "HII, America’s largest military shipbuilder and the global leader in autonomous seapower, and Thales, a global leader in advanced technologies,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/HII_Thales_Primary_bb6581e0ba-768x512.webp",
+        "kind": "article",
+        "alt": "HII and Thales Successfully Demonstrate Expeditionary PathMaster's Ability to Deliver an End-to-End Autonomous Mine Countermeasure Mission",
+        "credit": "REMUS 620 (HII picture)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/hii-and-thales-successfully-demonstrate-expeditionary-pathmasters-ability-to-deliver-an-end-to-end-autonomous-mine-countermeasure-mission/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/hii-and-thales-successfully-demonstrate-expeditionary-pathmasters-ability-to-deliver-an-end-to-end-autonomous-mine-countermeasure-mission/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-03",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/HII_Thales_Primary_bb6581e0ba.webp",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T14:16:30+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La Russie a passé 27 ans à réparer un croiseur nucléaire, et pendant ce temps son navire amiral est devenu irréparable",
+      "url": "https://www.forum-militaire.fr/la-russie-a-passe-27-ans-a-reparer-un-croiseur-nucleaire-et-pendant-ce-temps-son-navire-amiral-est-devenu-irreparable/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Marines militaires",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Le plus puissant bâtiment de surface de la marine russe vient d’être jugé trop usé pour être remis en état,…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T13:44:24+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Türkiye’s MKE Debuts PIRANA Armed USV Variant with Drone Payload",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/turkiyes-mke-debuts-pirana-armed-usv-variant-with-drone-payload/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026"
+      ],
+      "sourceExcerpt": {
+        "text": "MKE’s latest PIRANA unmanned surface vessel variant is designed to enable enhanced control of kamikaze drone swarms and deliver strikes…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Pirana-KUSV-with-drone-1-ink-768x506.jpeg",
+        "kind": "article",
+        "alt": "Türkiye's MKE Debuts PİRANA Armed USV Variant with Drone Payload",
+        "credit": "Pirana KUSV with Drone Payload on MKE booth at Euronaval 2026",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/turkiyes-mke-debuts-pirana-armed-usv-variant-with-drone-payload/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/turkiyes-mke-debuts-pirana-armed-usv-variant-with-drone-payload/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-03",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Pirana-KUSV-with-drone-1-ink-scaled.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T12:07:06+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Reportage – Transit aux Émirats",
+      "url": "https://www.revueconflits.com/reportage-transit-a-abu-dhabi/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie",
+        "Abonné",
+        "Émirats arabes unis",
+        "Reportage"
+      ],
+      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/milind-shah-ptCrM6fq3EI-unsplash-scaled-e1793714152299.jpg",
+        "kind": "article",
+        "alt": "Reportage – Transit aux Émirats",
+        "credit": "Milind Shah",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/reportage-transit-a-abu-dhabi/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/reportage-transit-a-abu-dhabi/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-03",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/milind-shah-ptCrM6fq3EI-unsplash-scaled-e1793714152299.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-03",
       "publishedAt": "2026-11-03T07:19:49+00:00",
       "source": "Forum Militaire",
       "sourceType": "Presse spécialisée",
@@ -6255,7 +6474,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00"
+      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00"
     },
     {
       "date": "2026-10-23",
@@ -6268,7 +6487,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00"
+      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00"
     },
     {
       "date": "2026-10-22",
@@ -6892,7 +7111,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00"
+      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00"
     },
     {
       "date": "2026-10-21",
@@ -13995,7 +14214,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00"
+      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00"
     },
     {
       "date": "2026-10-07",
@@ -14209,10 +14428,10 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00"
+      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00"
     }
   ],
-  "checkedAt": "2026-11-03T07:57:07.142635+00:00",
+  "checkedAt": "2026-11-03T17:37:36.345548+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -14231,7 +14450,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 3,
         "error": null
       },
       {
@@ -14279,7 +14498,7 @@ window.LDV_NEWS = {
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 9,
+        "recentItems": 16,
         "error": null
       },
       {
@@ -14289,8 +14508,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 10,
-    "articleImages": 355,
+    "newItems": 6,
+    "articleImages": 360,
     "duplicateHeadlinesSkipped": 0
   }
 };
