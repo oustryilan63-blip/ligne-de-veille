@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-02T17:42:37.592398+00:00",
+  "checkedAt": "2026-11-03T07:57:07.142635+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -16,8 +16,16 @@
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-10-31T17:18:09.871438+00:00",
+      "changedAt": "2026-11-03T07:57:07.142635+00:00",
       "items": [
+        {
+          "title": "UK to lead multinational military training exercise to prepare for peace in Ukraine",
+          "url": "https://www.gov.uk/government/news/uk-to-lead-multinational-military-training-exercise-to-prepare-for-peace-in-ukraine--2",
+          "source": "Ministère britannique de la Défense",
+          "sourceType": "Source officielle",
+          "publishedAt": "2026-11-03T00:01:03+00:00",
+          "language": "en"
+        },
         {
           "title": "UK and Ukrainian industry unite to accelerate drone innovation",
           "url": "https://www.gov.uk/government/news/uk-and-ukrainian-industry-unite-to-accelerate-drone-innovation",
@@ -45,10 +53,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-02T17:42:45.421436+00:00",
-        "updatedAt": "2026-11-02T08:11:52.308539+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-11-03T07:57:12.969479+00:00",
+        "updatedAt": "2026-11-03T07:57:12.969479+00:00",
+        "status": "updated",
         "paragraphs": [
+          {
+            "title": "Ukraine : une trêve négociée par Melania Trump permet l’évacuation de centaines de civils",
+            "text": "Un cessez-le-feu local négocié avec l’aide de la première dame américaine a permis l’évacuation de nombreux civils d’une ville ukrainienne occupée par la Russie durant le weekend. Mais alors que l’ONU vient en aide aux rescapés, les attaques contre les infrastructures énergétiques font planer la menace de nouvelles coupures de chauffage et d’électricité sur des millions d’Ukrainiens à l’approche de l’hiver.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159768",
+            "publishedAt": "2026-11-02T12:00:00+00:00"
+          },
           {
             "title": "Ukraine, Syrie, Liban, Afghanistan : le HCR mobilisé face à l'urgence hivernale",
             "text": "Le Haut-Commissariat des Nations Unies pour les réfugiés (HCR) a lancé vendredi un appel aux dons pour venir en aide à 9 millions de personnes en Ukraine, en Syrie, au Liban et en Afghanistan, confrontées aux rigueurs de l’hiver. L’agence espère recueillir au moins 50 millions de dollars pour financer ses opérations hivernales, soit 3 millions de plus que l’année dernière.",
@@ -56,14 +72,6 @@
             "source": "ONU Info",
             "url": "https://news.un.org/feed/view/fr/story/2026/10/1159755",
             "publishedAt": "2026-10-30T12:00:00+00:00"
-          },
-          {
-            "title": "Ukraine : quand prendre le train devient un risque mortel",
-            "text": "Au moins 13 personnes ont été tuées et 10 autres blessées jeudi dans une attaque russe par drone contre la gare principale de Dnipro, dans le centre-est de l’Ukraine. Le Secrétaire général de l'ONU et le coordinateur humanitaire des Nations Unies dans le pays ont condamné cette frappe, qui a frappé des civils alors qu’ils s’apprêtaient à voyager ou à retrouver leurs proches.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/10/1159749",
-            "publishedAt": "2026-10-29T12:00:00+00:00"
           },
           {
             "title": "Rencontre Witkoff - Poutine : envoi de la première cargaison de diesel russe vers les États-Unis",
@@ -91,7 +99,7 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-02T17:42:45.421436+00:00",
+        "checkedAt": "2026-11-03T07:57:12.969479+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -154,10 +162,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-02T17:42:45.421436+00:00",
-        "updatedAt": "2026-11-02T17:42:45.421436+00:00",
+        "checkedAt": "2026-11-03T07:57:12.969479+00:00",
+        "updatedAt": "2026-11-03T07:57:12.969479+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Donald Trump change de ton et assure qu'un accord avec l'Iran \"pourrait arriver\"",
+            "text": "Après avoir affirmé être prêt à donner un \"coup de massue\" à l'Iran, Donald Trump, a changé de ton lundi, assurant qu'un accord avec Téhéran \"pourrait arriver\". Selon des informations du Wall Street Journal, les États-Unis ont frappé l'île iranienne de Qeshm, dans le détroit d'Ormuz, dans le cadre d'une série de frappes limitées tenues secrètes.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261102-moyen-orient-donald-trump-accord-avec-l-iran-pourrait-arriver-detroit-d-ormuz-petrole",
+            "publishedAt": "2026-11-02T22:56:40+00:00"
+          },
           {
             "title": "Pour Israël, 170 journalistes tués à Gaza étaient des \"terroristes\" : enquête sur un bilan contesté",
             "text": "Israël a déclaré le 1er octobre que 170 journalistes palestiniens tués à Gaza étaient en réalité des \"terroristes\" du Hamas et d’autres groupes armés à Gaza. Mais selon notre analyse, ce bilan diffère des décomptes des principales organisations de défense des journalistes. Ces organisations dénoncent également des accusations insuffisamment fondées par l'armée israélienne.",
@@ -167,20 +183,12 @@
             "publishedAt": "2026-11-02T16:06:47+00:00"
           },
           {
-            "title": "L'Iran parle \"d'intenses\" échanges avec Washington pour éviter de nouvelles hostilités",
-            "text": "Téhéran a déclaré lundi que des consultations \"intenses\" étaient en cours avec Washington pour éviter une reprise des affrontements. Cette intensification des efforts diplomatiques intervient à la veille des élections américaines de mi-mandat, où le mécontentement lié à la guerre pèse sur le président américain Donald Trump.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261102-l-iran-parle-d-intenses-%C3%A9changes-avec-washington-pour-%C3%A9viter-de-nouvelles-hostilit%C3%A9s",
-            "publishedAt": "2026-11-02T12:01:58+00:00"
-          },
-          {
-            "title": "Ukraine, Syrie, Liban, Afghanistan : le HCR mobilisé face à l'urgence hivernale",
-            "text": "Le Haut-Commissariat des Nations Unies pour les réfugiés (HCR) a lancé vendredi un appel aux dons pour venir en aide à 9 millions de personnes en Ukraine, en Syrie, au Liban et en Afghanistan, confrontées aux rigueurs de l’hiver. L’agence espère recueillir au moins 50 millions de dollars pour financer ses opérations hivernales, soit 3 millions de plus que l’année dernière.",
+            "title": "Yémen : plus de 300 000 nouveaux déplacés et la troisième ville du pays coupée du monde",
+            "text": "Plus de 300 000 personnes ont fui les combats dans l’ouest du Yémen, presque toutes au cours des deux derniers mois, selon l’Organisation internationale pour les migrations (OIM). Dans la ville de Taëz, désormais coupée de tout approvisionnement, les prix s’envolent, les hôpitaux menacent de fermer et le choléra progresse.",
             "truncated": false,
             "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/10/1159755",
-            "publishedAt": "2026-10-30T12:00:00+00:00"
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159771",
+            "publishedAt": "2026-11-02T12:00:00+00:00"
           }
         ],
         "sources": [

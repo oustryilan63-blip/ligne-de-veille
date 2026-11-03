@@ -1,7 +1,316 @@
 {
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-03",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T07:19:49+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Le plus grand salon du monde dédié à la défense navale est en France et il ouvre ses portes ce 3 novembre à 705 exposants et 105…",
+      "url": "https://www.forum-militaire.fr/le-plus-grand-salon-du-monde-dedie-a-la-defense-navale-est-en-france-et-il-ouvre-ses-portes-ce-3-novembre-a-705-exposants-et-105-delegations-officielles-euronaval-2026/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Marines militaires",
+        "France",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Le mondial de la défense navale se tient dans un contexte stratégique inédit depuis la fin de la guerre froide,…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T06:30:00+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Leonardo’s AWHero and Proteus rotorcraft show strong focus on RUAS and Autonomy capabilities for naval applications",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/leonardos-awhero-and-proteus-rotorcraft-show-strong-focus-on-ruas-and-autonomy-capabilities-for-naval-applications/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "Leonardo",
+        "Proteus",
+        "UAS"
+      ],
+      "sourceExcerpt": {
+        "text": "Leonardo’s focus on uncrewed and autonomous systems is increasingly covering a range of air and surface solutions, and rotorcraft make…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-03T07:57:11.235773+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/328A7086-768x512.jpg",
+        "kind": "article",
+        "alt": "Leonardo’s AWHero and Proteus rotorcraft show strong focus on RUAS and Autonomy capabilities for naval applications",
+        "credit": "Leonardo)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/leonardos-awhero-and-proteus-rotorcraft-show-strong-focus-on-ruas-and-autonomy-capabilities-for-naval-applications/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/leonardos-awhero-and-proteus-rotorcraft-show-strong-focus-on-ruas-and-autonomy-capabilities-for-naval-applications/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-03",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/328A7086-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T05:28:00+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Indian Navy Places Orders for Eight Next Generation Corvettes",
+      "url": "https://www.navalnews.com/naval-news/2026/11/indian-navy-places-orders-for-eight-next-generation-corvettes/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Goa Shipyard",
+        "GRSE",
+        "Indian Navy",
+        "NASM-MR",
+        "Next Generation Destroyer",
+        "NGC"
+      ],
+      "sourceExcerpt": {
+        "text": "On November 2, 2026, India’s Ministry of Defence signed contracts worth ₹53,866.5 crore ($5.7 billion) with Garden Reach Shipbuilders &…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-03T07:57:11.235773+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/NGC-CONTRACT-768x608.jpg",
+        "kind": "article",
+        "alt": "Indian Navy Places Orders for Eight Next Generation Corvettes",
+        "credit": "Contract signing ceremony of Project-28A. Indian MoD photo.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/indian-navy-places-orders-for-eight-next-generation-corvettes/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/indian-navy-places-orders-for-eight-next-generation-corvettes/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-03",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/NGC-CONTRACT.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T03:00:43+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "La fin du « privilège exorbitant » de l’Amérique",
+      "url": "https://www.revueconflits.com/la-fin-du-privilege-exorbitant-de-lamerique/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique",
+        "Amérique du Nord",
+        "Économie, énergies et entreprises",
+        "Abonné",
+        "États-Unis"
+      ],
+      "imageCheckedAt": "2026-11-03T07:57:11.235773+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/Vignettes-videos-2026-10-31T142755.962-1.png",
+        "kind": "article",
+        "alt": "La fin du « privilège exorbitant » de l’Amérique",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/la-fin-du-privilege-exorbitant-de-lamerique/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/la-fin-du-privilege-exorbitant-de-lamerique/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-03",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/Vignettes-videos-2026-10-31T142755.962-1.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T02:15:23+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Venezuela : les sanctions à l’épreuve de la crypto",
+      "url": "https://www.revueconflits.com/venezuela-les-sanctions-a-lepreuve-de-la-crypto/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique latine",
+        "Économie, énergies et entreprises",
+        "Économie",
+        "Venezuela"
+      ],
+      "imageCheckedAt": "2026-11-03T07:57:11.235773+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/01/andres-silva-BcDO3m3oJI-unsplash-scaled-e1767761980605.jpg",
+        "kind": "article",
+        "alt": "Venezuela : les sanctions à l’épreuve de la crypto",
+        "credit": "Venezuela. (C) Unsplash",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/venezuela-les-sanctions-a-lepreuve-de-la-crypto/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/venezuela-les-sanctions-a-lepreuve-de-la-crypto/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-03",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/01/andres-silva-BcDO3m3oJI-unsplash-scaled-e1767761980605.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T02:13:22+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Géopolitique de la France",
+      "url": "https://www.revueconflits.com/podcast-geopolitique-de-la-france/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Podcasts",
+        "Podcasts France"
+      ],
+      "imageCheckedAt": "2026-11-03T07:57:11.235773+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/france.jpg",
+        "kind": "article",
+        "alt": "Podcast – Géopolitique de la France",
+        "credit": "(c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-geopolitique-de-la-france/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-geopolitique-de-la-france/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-03",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/france.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T00:01:03+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "UK to lead multinational military training exercise to prepare for peace in Ukraine",
+      "url": "https://www.gov.uk/government/news/uk-to-lead-multinational-military-training-exercise-to-prepare-for-peace-in-ukraine--2",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Hundreds of British troops, RAF jets and forces from 11 nations will rehearse how to secure lasting peace in Ukraine…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-03T07:57:11.235773+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6ae8e9f9f4a6b3f59cf375cd/s300_20250202-GBR-S-UK_Troops__and_vehicles_arrive.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/uk-to-lead-multinational-military-training-exercise-to-prepare-for-peace-in-ukraine--2",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/uk-to-lead-multinational-military-training-exercise-to-prepare-for-peace-in-ukraine--2",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-03"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T19:50:01+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "UK Germany Defence Ministerial Council Joint Statement",
+      "url": "https://www.gov.uk/government/news/uk-germany-defence-ministerial-council-joint-statement--2",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "A joint statement by the UK's Defence Secretary Wes Streeting MP and Germany's Defence Minister Boris Pistorius MdB.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-03T07:57:11.235773+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/uk-germany-defence-ministerial-council-joint-statement--2",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/uk-germany-defence-ministerial-council-joint-statement--2",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-03"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T18:32:01+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Saab étend les capacités de sa vedette rapide de combat CB90 à la lutte antinavire et à la défense aérienne",
+      "url": "https://www.opex360.com/2026/11/02/saab-etend-les-capacites-de-sa-vedette-rapide-de-combat-cb90-a-la-lutte-antinavire-et-a-la-defense-aerienne/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Industrie",
+        "CB90",
+        "CB90 CX",
+        "défense aérienne",
+        "drone",
+        "drone de surface",
+        "ISR",
+        "lutte antinavire",
+        "SAAB",
+        "SHORAD",
+        "vedette rapide"
+      ],
+      "sourceExcerpt": {
+        "text": "Initialement, la vedette CB90, proposée par le groupe suédois Saab, a été conçue pour transporter rapidement un demi-peloton d’infanterie de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-03T07:57:11.235773+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/cb90-20261102.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Saab étend les capacités de sa vedette rapide de combat CB90 à la lutte antinavire et à la défense aérienne ».",
+        "credit": "Saab",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/02/saab-etend-les-capacites-de-sa-vedette-rapide-de-combat-cb90-a-la-lutte-antinavire-et-a-la-defense-aerienne/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/02/saab-etend-les-capacites-de-sa-vedette-rapide-de-combat-cb90-a-la-lutte-antinavire-et-a-la-defense-aerienne/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-03",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/cb90-20261102.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-02",
       "publishedAt": "2026-11-02T17:03:02+00:00",
@@ -279,6 +588,48 @@
         "rightsUrl": "https://www.gov.uk/government/news/new-belfast-fabrication-hall-to-support-shipbuilding-for-decades",
         "evidence": "official-editorial-lead",
         "checkedAt": "2026-11-02"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T11:33:22+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "DGA Essais en vol a reçu un Rafale F4.1 « ABE » pour préparer le standard F5",
+      "url": "https://www.opex360.com/2026/11/02/dga-essais-en-vol-a-recu-son-premier-rafale-f4-1-pour-preparer-le-standard-f5/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "DGA",
+        "DGA EV",
+        "Direction générale de l'armement",
+        "Essais en vol",
+        "Rafale",
+        "Rafale ABE",
+        "Rafale avion banc d'essais",
+        "Rafale F5"
+      ],
+      "sourceExcerpt": {
+        "text": "Pour développer et évaluer les capteurs, les logiciels et autres systèmes électroniques embarqués à bord du Rafale, le centre d’essais…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-03T07:57:11.235773+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/rafale-dga-ev-20261102.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « DGA Essais en vol a reçu un Rafale F4.1 « ABE » pour préparer le standard F5 ».",
+        "credit": "Direction générale de l’armement",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/02/dga-essais-en-vol-a-recu-son-premier-rafale-f4-1-pour-preparer-le-standard-f5/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/02/dga-essais-en-vol-a-recu-son-premier-rafale-f4-1-pour-preparer-le-standard-f5/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-03",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/rafale-dga-ev-20261102.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -13861,7 +14212,7 @@
       "imageCheckedAt": "2026-11-02T08:11:46.400037+00:00"
     }
   ],
-  "checkedAt": "2026-11-02T17:42:37.592398+00:00",
+  "checkedAt": "2026-11-03T07:57:07.142635+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -13880,7 +14231,7 @@
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -13939,7 +14290,7 @@
       }
     ],
     "newItems": 10,
-    "articleImages": 346,
+    "articleImages": 355,
     "duplicateHeadlinesSkipped": 0
   }
 }
