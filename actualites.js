@@ -1,7 +1,164 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-04",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T06:55:01+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Euronaval 2026: French Navy Underpins Enduring Missions with New Capabilities to Counter Emerging Threats",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-french-navy-underpins-enduring-missions-with-new-capabilities-to-counter-emerging-threats/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "EURONAVAL 2026",
+        "FDI",
+        "French Navy",
+        "SNLE3G"
+      ],
+      "sourceExcerpt": {
+        "text": "The French Navy is continuing to reinforce its core operational concepts and capabilities as it responds to continuing evolutions in…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-04T08:03:46.145083+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-16.46.18-768x576.jpeg",
+        "kind": "article",
+        "alt": "Euronaval 2026: French Navy Underpins Enduring Missions with New Capabilities to Counter Emerging Threats",
+        "credit": "Lee Willet)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-french-navy-underpins-enduring-missions-with-new-capabilities-to-counter-emerging-threats/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-french-navy-underpins-enduring-missions-with-new-capabilities-to-counter-emerging-threats/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-16.46.18.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T03:00:47+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Giorgia Meloni à l’horizon 2027 : peut-elle encore gagner ?",
+      "url": "https://www.revueconflits.com/giorgia-meloni-a-lhorizon-2027-peut-elle-encore-gagner/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Europe occidentale",
+        "Abonné",
+        "Élections",
+        "Italie",
+        "Union européenne"
+      ],
+      "imageCheckedAt": "2026-11-04T08:03:46.145083+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_01311014_000031-scaled.jpg",
+        "kind": "article",
+        "alt": "Giorgia Meloni à l’horizon 2027 : peut-elle encore gagner ?",
+        "credit": "Rome, Italie. 28 octobre 2026. Giorgia Meloni assiste à la conférence marquant le 80e anniversaire de Confartigianato Imprese à l'Auditorium Conciliazione de Rome. (C) ipa-agency.net / IPAPRESSITALY IPA90274997. Crédit : Marco Iacobucci IPA/SIPA 2610281215",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/giorgia-meloni-a-lhorizon-2027-peut-elle-encore-gagner/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/giorgia-meloni-a-lhorizon-2027-peut-elle-encore-gagner/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_01311014_000031-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T21:39:19+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "South Korea Launches Second KSS-III Batch-II Submarine, ROKS Seo Hui",
+      "url": "https://www.navalnews.com/naval-news/2026/11/south-korea-launches-second-kss-iii-batch-ii-submarine-roks-seo-hui/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Hanwha Ocean",
+        "KSS-III",
+        "ROK Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "The Republic of Korea Navy held a launching ceremony for Seo Hui, the second Jang Bogo(KSS)-III Batch-II submarine, at Hanwha…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-04T08:03:46.145083+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/ROKS-Seo-Hui-Launch-Ceremony-768x362.jpeg",
+        "kind": "article",
+        "alt": "South Korea Launches Second KSS-III Batch-II Submarine, ROKS Seo Hui",
+        "credit": "ROKS Seo Hui (KSS-III Batch-II) next to 1800-ton class KSS-II submarine (ROK Navy Photo)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/south-korea-launches-second-kss-iii-batch-ii-submarine-roks-seo-hui/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/south-korea-launches-second-kss-iii-batch-ii-submarine-roks-seo-hui/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/ROKS-Seo-Hui-Launch-Ceremony.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T18:22:17+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Naval Group dévoile le concept d’un navire de 8 000 tonnes, doté de plus de 100 missiles et d’un canon électromagnétique",
+      "url": "https://www.opex360.com/2026/11/03/naval-group-devoile-le-concept-dun-navire-de-8-000-tonnes-dote-de-plus-de-100-missiles-et-dun-canon-electromagnetique/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Industrie",
+        "combat naval",
+        "concept ship",
+        "destroyer",
+        "Euronaval",
+        "Marine Nationale",
+        "Naval Group",
+        "prospective",
+        "SCX-26"
+      ],
+      "sourceExcerpt": {
+        "text": "L’an passé, alors que la future Loi de programmation militaire [LPM] devrait porter la dotation de la Marine nationale à…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-04T08:03:46.145083+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/SCX-26-20261103.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Naval Group dévoile le concept d’un navire de 8 000 tonnes, doté de plus de 100 missiles et d’un canon électromagnétique ».",
+        "credit": "Naval Group",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/03/naval-group-devoile-le-concept-dun-navire-de-8-000-tonnes-dote-de-plus-de-100-missiles-et-dun-canon-electromagnetique/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/03/naval-group-devoile-le-concept-dun-navire-de-8-000-tonnes-dote-de-plus-de-100-missiles-et-dun-canon-electromagnetique/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/SCX-26-20261103.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-03",
       "publishedAt": "2026-11-03T17:04:45+00:00",
@@ -218,6 +375,50 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-03",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/milind-shah-ptCrM6fq3EI-unsplash-scaled-e1793714152299.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "publishedAt": "2026-11-03T11:50:35+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Spécialiste de l’armement terrestre, KNDS s’associe à SeaOwl pour développer un drone de combat naval",
+      "url": "https://www.opex360.com/2026/11/03/specialiste-de-larmement-terrestre-knds-sassocie-a-seaowl-pour-developper-un-drone-de-combat-naval/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Industrie",
+        "drone de surface",
+        "Euronaval",
+        "KNDS",
+        "KNDS France",
+        "Marine Nationale",
+        "MNTO",
+        "SeaOwl",
+        "TRACUS Combat"
+      ],
+      "sourceExcerpt": {
+        "text": "Dans un fascicule publié par le ministère des Armées à l’occasion de l’édition 2026 du salon Euronaval, le chef d’état-major…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-04T08:03:46.145083+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/tracus-combat-usv-20261103.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Spécialiste de l’armement terrestre, KNDS s’associe à SeaOwl pour développer un drone de combat naval ».",
+        "credit": "KNDS France",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/03/specialiste-de-larmement-terrestre-knds-sassocie-a-seaowl-pour-developper-un-drone-de-combat-naval/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/03/specialiste-de-larmement-terrestre-knds-sassocie-a-seaowl-pour-developper-un-drone-de-combat-naval/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/tracus-combat-usv-20261103.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -982,6 +1183,44 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-02",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Rafale-M-Trials-Vikrant-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "publishedAt": "2026-11-02T06:19:33+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Ports et corridors d’Afrique de l’Est : recomposition géoéconomique et rivalités de puissance dans l’océan Indien",
+      "url": "https://www.areion24.news/2026/11/02/ports-et-corridors-dafrique-de-lest-recomposition-geoeconomique-et-rivalites-de-puissance-dans-locean-indien/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "L’Afrique de l’Est apparait aujourd’hui comme l’un des espaces les plus stratégiques de la mondialisation contemporaine. Le sommet Africa Forward,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-04T08:03:46.145083+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/11/19720052574_0b3571b11c_o.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Ports et corridors d’Afrique de l’Est : recomposition géoéconomique et rivalités de puissance dans l’océan Indien ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/11/02/ports-et-corridors-dafrique-de-lest-recomposition-geoeconomique-et-rivalites-de-puissance-dans-locean-indien/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/11/02/ports-et-corridors-dafrique-de-lest-recomposition-geoeconomique-et-rivalites-de-puissance-dans-locean-indien/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/19720052574_0b3571b11c_o.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -14431,7 +14670,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00"
     }
   ],
-  "checkedAt": "2026-11-03T17:37:36.345548+00:00",
+  "checkedAt": "2026-11-04T08:03:41.773113+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -14486,7 +14725,7 @@ window.LDV_NEWS = {
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -14504,12 +14743,12 @@ window.LDV_NEWS = {
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 2,
+        "recentItems": 3,
         "error": null
       }
     ],
     "newItems": 6,
-    "articleImages": 360,
+    "articleImages": 366,
     "duplicateHeadlinesSkipped": 0
   }
 };
