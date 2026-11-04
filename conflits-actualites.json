@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-04T08:03:41.773113+00:00",
+  "checkedAt": "2026-11-04T17:38:47.366839+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -45,10 +45,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-04T08:03:47.822006+00:00",
-        "updatedAt": "2026-11-03T17:37:49.307555+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-11-04T17:38:57.003618+00:00",
+        "updatedAt": "2026-11-04T17:38:57.003618+00:00",
+        "status": "updated",
         "paragraphs": [
+          {
+            "title": "Ukraine : deux jours d’école sur trois perturbés par les alertes aériennes",
+            "text": "Depuis le début de l’invasion russe de grande ampleur en février 2022, près de 2 000 attaques ont visé le secteur de l’éducation en Ukraine, dont environ 270 en 2026, selon l’UNICEF. Depuis la rentrée scolaire, les alertes aériennes affectent près de deux jours d’école sur trois, d’après les données arrêtées au 20 octobre.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159775",
+            "publishedAt": "2026-11-03T12:00:00+00:00"
+          },
           {
             "title": "Ukraine : une trêve négociée par Melania Trump permet l’évacuation de centaines de civils",
             "text": "Un cessez-le-feu local négocié avec l’aide de la première dame américaine a permis l’évacuation de nombreux civils d’une ville ukrainienne occupée par la Russie durant le weekend. Mais alors que l’ONU vient en aide aux rescapés, les attaques contre les infrastructures énergétiques font planer la menace de nouvelles coupures de chauffage et d’électricité sur des millions d’Ukrainiens à l’approche de l’hiver.",
@@ -56,14 +64,6 @@
             "source": "ONU Info",
             "url": "https://news.un.org/feed/view/fr/story/2026/11/1159768",
             "publishedAt": "2026-11-02T12:00:00+00:00"
-          },
-          {
-            "title": "Ukraine, Syrie, Liban, Afghanistan : le HCR mobilisé face à l'urgence hivernale",
-            "text": "Le Haut-Commissariat des Nations Unies pour les réfugiés (HCR) a lancé vendredi un appel aux dons pour venir en aide à 9 millions de personnes en Ukraine, en Syrie, au Liban et en Afghanistan, confrontées aux rigueurs de l’hiver. L’agence espère recueillir au moins 50 millions de dollars pour financer ses opérations hivernales, soit 3 millions de plus que l’année dernière.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/10/1159755",
-            "publishedAt": "2026-10-30T12:00:00+00:00"
           }
         ],
         "sources": [
@@ -73,7 +73,7 @@
           },
           {
             "source": "France 24",
-            "ok": false
+            "ok": true
           }
         ]
       }
@@ -83,7 +83,7 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-04T08:03:47.822006+00:00",
+        "checkedAt": "2026-11-04T17:38:57.003618+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -99,7 +99,7 @@
         "sources": [
           {
             "source": "France 24",
-            "ok": false
+            "ok": true
           },
           {
             "source": "RFI",
@@ -146,10 +146,26 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-04T08:03:47.822006+00:00",
-        "updatedAt": "2026-11-04T08:03:47.822006+00:00",
+        "checkedAt": "2026-11-04T17:38:57.003618+00:00",
+        "updatedAt": "2026-11-04T17:38:57.003618+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Midterms : le jour du vote, Trump met fin à l'aide sécuritaire en Israël",
+            "text": "Donald Trump a annoncé mardi 3 novembre, contre toute attente, mettre fin à une aide annuelle de 3,8 milliards de dollars à Israël, le jour des élections de mi-mandat aux États-Unis, où la question du soutien à Israël fait débat. Gadi Eisenkot a estimé le même jour que cette annonce du président américain montrait qu'il fallait que Benjamin Netanyahu \"s'en aille\". Les précisions de Stéphan Amar, correspondant France 24 à Jérusalem.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-le-jour-du-vote-trump-met-fin-%C3%A0-l-aide-s%C3%A9curitaire-en-isra%C3%ABl",
+            "publishedAt": "2026-11-04T10:05:41+00:00"
+          },
+          {
+            "title": "L'Iran annonce la destruction de quatre pétroliers qui tentaient de franchir le détroit d'Ormuz",
+            "text": "Les Gardiens de la révolution ont annoncé, mercredi, que quatre navires pétroliers avaient percuté des mines en tentant de franchir le détroit d'Ormuz. Ces destructions font suite à des frappes américaines qui avaient ciblé l'île iranienne de Qeshm, située dans le passage maritime.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261104-quatre-p%C3%A9troliers-tentant-franchir-d%C3%A9troit-ormuz-d%C3%A9truits",
+            "publishedAt": "2026-11-04T09:03:11+00:00"
+          },
           {
             "title": "Yémen : à Taëz, les combats coupent les femmes des soins et des services de protection",
             "text": "À Taëz, au Yémen, l’intensification des combats entre les rebelles houthis et les forces progouvernementales et la fermeture des routes paralysent les approvisionnements et privent des centaines de milliers de personnes de soins essentiels. Les femmes et les filles sont particulièrement vulnérables : les services de santé maternelle et de protection s’effondrent.",
@@ -157,14 +173,6 @@
             "source": "ONU Info",
             "url": "https://news.un.org/feed/view/fr/story/2026/11/1159773",
             "publishedAt": "2026-11-03T12:00:00+00:00"
-          },
-          {
-            "title": "Yémen : plus de 300 000 nouveaux déplacés et la troisième ville du pays coupée du monde",
-            "text": "Plus de 300 000 personnes ont fui les combats dans l’ouest du Yémen, presque toutes au cours des deux derniers mois, selon l’Organisation internationale pour les migrations (OIM). Dans la ville de Taëz, désormais coupée de tout approvisionnement, les prix s’envolent, les hôpitaux menacent de fermer et le choléra progresse.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159771",
-            "publishedAt": "2026-11-02T12:00:00+00:00"
           }
         ],
         "sources": [
@@ -174,7 +182,7 @@
           },
           {
             "source": "France 24",
-            "ok": false
+            "ok": true
           }
         ]
       }

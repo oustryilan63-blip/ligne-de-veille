@@ -4,6 +4,383 @@
   "items": [
     {
       "date": "2026-11-04",
+      "publishedAt": "2026-11-04T17:24:49+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "JD Vance : « Pourquoi nous avons perdu »",
+      "url": "https://www.revueconflits.com/jd-vance-pourquoi-nous-avons-perdu/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique",
+        "Amérique du Nord",
+        "Abonné",
+        "États-Unis"
+      ],
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/12/Donald-Trump-et-JD-Vance.png",
+        "kind": "article",
+        "alt": "JD Vance : « Pourquoi nous avons perdu »",
+        "credit": "Donald Trump et JD Vance le mercredi 6 novembre 2024, en Floride. (Photo AP/Evan Vucci)/FLEV431/24311280723208//241106085",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/jd-vance-pourquoi-nous-avons-perdu/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/jd-vance-pourquoi-nous-avons-perdu/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/12/Donald-Trump-et-JD-Vance.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T15:58:05+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Babcock launches transformative digital platform to connect shipbuilding, fleet operations and support",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-launches-transformative-digital-platform-to-connect-shipbuilding-fleet-operations-and-support/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "Babcock",
+        "EURONAVAL 2026",
+        "Hybrid Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "Babcock International Group has launched Pelorus, a transformative digital platform designed to connect the build, operation and support of maritime…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/pelorus-ink.jpeg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Babcock launches transformative digital platform to connect shipbuilding, fleet operations and support ».",
+        "credit": "Babcock showcased Pelorus solution at Euronaval 2026",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-launches-transformative-digital-platform-to-connect-shipbuilding-fleet-operations-and-support/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-launches-transformative-digital-platform-to-connect-shipbuilding-fleet-operations-and-support/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/pelorus-ink.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T15:24:49+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "EDGE Europe and Novamarine to Explore Joint Development of USVs",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/edge-europe-and-novamarine-to-explore-joint-development-of-usvs/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "ADSB",
+        "Edge Group",
+        "EURONAVAL 2026",
+        "USV"
+      ],
+      "sourceExcerpt": {
+        "text": "On November 2, 2026, EDGE Europe announced the signing of an MoU with Novamarine on joint development of unmanned surface…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/edge-europe-novamarine-768x578.jpeg",
+        "kind": "article",
+        "alt": "EDGE Europe and Novamarine to Explore Joint Development of USVs",
+        "credit": "USVs showcased at Novamarine booth at Euronaval 2026",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/edge-europe-and-novamarine-to-explore-joint-development-of-usvs/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/edge-europe-and-novamarine-to-explore-joint-development-of-usvs/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/edge-europe-novamarine.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T15:19:16+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Renault et John Cockerill dévoilent le drone terrestre polyvalent «Forefront Concept»",
+      "url": "https://www.opex360.com/2026/11/04/renault-et-john-cockerill-devoilent-le-drone-terrestre-polyvalent-forefront-concept/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "Industrie",
+        "armée de terre",
+        "drone terrestre",
+        "industrie",
+        "John Cockerill",
+        "PENDRAGON",
+        "Renault",
+        "robotique terrestre"
+      ],
+      "sourceExcerpt": {
+        "text": "D’abord hésitant, pour ne pas froisser une partie des syndicats, le groupe Renault s’investit de plus en plus dans le…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/forefront-concept-20261103.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Renault et John Cockerill dévoilent le drone terrestre polyvalent «Forefront Concept» ».",
+        "credit": "John Cockerill & Renault Group",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/04/renault-et-john-cockerill-devoilent-le-drone-terrestre-polyvalent-forefront-concept/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/04/renault-et-john-cockerill-devoilent-le-drone-terrestre-polyvalent-forefront-concept/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/forefront-concept-20261103.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T14:11:37+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Victoire en vue dans les munitions téléopérées de moyenne portée",
+      "url": "https://forcesoperations.com/victoire-en-vue-dans-les-munitions-teleoperees-de-moyenne-portee/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "artillerie",
+        "munition téléopérée",
+        "Safran",
+        "Warbler"
+      ],
+      "sourceExcerpt": {
+        "text": "Après THUNDART, Safran aurait à nouveau fait mouche les armées françaises en matière d'appui-feu. Le groupe français l'emporte cette fois…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/11/Warbler_Euronaval_2026-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Victoire en vue dans les munitions téléopérées de moyenne portée ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/victoire-en-vue-dans-les-munitions-teleoperees-de-moyenne-portee/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/victoire-en-vue-dans-les-munitions-teleoperees-de-moyenne-portee/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/11/Warbler_Euronaval_2026-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T14:07:37+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Les artilleurs américains réapprennent en Allemagne à tirer puis disparaître, ce que le canon français savait faire il y a vingt ans",
+      "url": "https://www.forum-militaire.fr/les-artilleurs-americains-reapprennent-en-allemagne-a-tirer-puis-disparaitre-ce-que-le-canon-francais-savait-faire-il-y-a-vingt-ans/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "Blindé"
+      ],
+      "sourceExcerpt": {
+        "text": "Une batterie américaine s’entraîne en Bavière à sortir de sa cachette, tirer, et repartir avant la riposte, avec un engin…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T11:27:00+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Dr Ewan Kirk appointed MOD’s Director Innovation",
+      "url": "https://www.gov.uk/government/news/dr-ewan-kirk-appointed-mods-director-innovation",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Technology entrepreneur joins National Armaments Director Group, bringing more than 30 years of experience across science, finance and industry.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6aeb1010f5e5450408b3ef84/s300_Dr_Ewan_Kirk_headshot.PNG",
+        "kind": "article",
+        "alt": "Dr Ewan Kirk, the new Director Innovation in NAD Group",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/dr-ewan-kirk-appointed-mods-director-innovation",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/dr-ewan-kirk-appointed-mods-director-innovation",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-04"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T10:56:05+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Direction générale de l’armement a effectué un second tir de la fusée-sonde SyLEx avec succès",
+      "url": "https://www.opex360.com/2026/11/04/la-direction-generale-de-larmement-a-effectue-un-second-tir-de-la-fusee-sonde-sylex-avec-succes/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "DGA",
+        "Technologie",
+        "Biscarrosse",
+        "Direction générale de l'armement",
+        "Dissuasion",
+        "essai",
+        "fusée sonde",
+        "M51.4",
+        "ministère des Armées",
+        "SyLEx",
+        "V-MAX"
+      ],
+      "sourceExcerpt": {
+        "text": "Pour réaliser le premier essai du planeur hypersonique V-MAX [pour Véhicule Manœuvrant Expérimental] depuis son centre de Biscarrosse, en juin…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/sylex-20261104.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Direction générale de l’armement a effectué un second tir de la fusée-sonde SyLEx avec succès ».",
+        "credit": "Direction générale de l’armement – Essais de missiles",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/04/la-direction-generale-de-larmement-a-effectue-un-second-tir-de-la-fusee-sonde-sylex-avec-succes/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/04/la-direction-generale-de-larmement-a-effectue-un-second-tir-de-la-fusee-sonde-sylex-avec-succes/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/sylex-20261104.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T10:28:28+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La France dévoile un concept de destroyer porte-drones de 170 mètres et 8 000 tonnes pensé pour le combat de haute intensité : le SCX 265",
+      "url": "https://www.forum-militaire.fr/le-scx-26-un-concept-de-destroyer-lourd-porte-drones-de-170-metres-et-10-000-tonnes-pense-pour-le-combat-de-haute-intensite-des-annees-2040/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Marines militaires",
+        "France",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Naval Group a dévoilé le 3 novembre 2026, au premier jour d’Euronaval, le SCX-26, un concept de destroyer porte-drones. Le…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T10:12:55+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Joint Statement by the UK and Netherlands Defence Ministers",
+      "url": "https://www.gov.uk/government/news/joint-statement-by-the-uk-and-netherlands-defence-ministers",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "A joint statement by the Secretary of State for Defence of the United Kingdom, The Rt Hon Wes Streeting MP,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/joint-statement-by-the-uk-and-netherlands-defence-ministers",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/joint-statement-by-the-uk-and-netherlands-defence-ministers",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-04"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T08:28:00+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Dans une usine centenaire anglaise, Safran prépare l’aile de l’avion de demain",
+      "url": "https://www.revueconflits.com/dans-une-usine-centenaire-anglaise-safran-prepare-laile-de-lavion-de-demain/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Économie, énergies et entreprises",
+        "Abonné",
+        "Industrie"
+      ],
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2023/12/daniel-eledut-Ypg01IW0TRg-unsplash-scaled.jpg",
+        "kind": "article",
+        "alt": "Dans une usine centenaire anglaise, Safran prépare l’aile de l’avion de demain",
+        "credit": "Airbus A 380 (c) Unsplash",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/dans-une-usine-centenaire-anglaise-safran-prepare-laile-de-lavion-de-demain/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/dans-une-usine-centenaire-anglaise-safran-prepare-laile-de-lavion-de-demain/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2023/12/daniel-eledut-Ypg01IW0TRg-unsplash-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-04",
       "publishedAt": "2026-11-04T06:55:01+00:00",
       "source": "Naval News",
       "sourceType": "Presse spécialisée",
@@ -38,6 +415,82 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-04",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-16.46.18.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T06:47:48+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "« Le business de la mort » : les recrues africaines en Russie",
+      "url": "https://www.areion24.news/2026/11/04/le-business-de-la-mort-les-recrues-africaines-en-russie/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Les Grands Dossiers de Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Selon vos enquêtes, le Kremlin a déployé une campagne de recrutement structurée dans le Sud global, avec un accent particulier…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/11/41BF-84E4-EF-0.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « « Le business de la mort » : les recrues africaines en Russie ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/11/04/le-business-de-la-mort-les-recrues-africaines-en-russie/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/11/04/le-business-de-la-mort-les-recrues-africaines-en-russie/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/41BF-84E4-EF-0.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T06:02:48+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Les usages de l’eau d’irrigation dans le Sahara algérien : entre gestion ancestrale et moderne",
+      "url": "https://www.areion24.news/2026/11/04/les-usages-de-leau-dirrigation-dans-le-sahara-algerien-entre-gestion-ancestrale-et-moderne/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Moyen-Orient"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "La gestion de la ressource hydrique est au cœur des pratiques agricoles et de l’aménagement de l’espace. Cela est davantage…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/11/shutterstock_9595204.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Les usages de l’eau d’irrigation dans le Sahara algérien : entre gestion ancestrale et moderne ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/11/04/les-usages-de-leau-dirrigation-dans-le-sahara-algerien-entre-gestion-ancestrale-et-moderne/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/11/04/les-usages-de-leau-dirrigation-dans-le-sahara-algerien-entre-gestion-ancestrale-et-moderne/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-04",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/shutterstock_9595204.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -6713,7 +7166,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00"
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00"
     },
     {
       "date": "2026-10-23",
@@ -6726,7 +7179,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00"
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00"
     },
     {
       "date": "2026-10-22",
@@ -7350,7 +7803,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00"
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00"
     },
     {
       "date": "2026-10-21",
@@ -14453,7 +14906,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00"
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00"
     },
     {
       "date": "2026-10-07",
@@ -14667,10 +15120,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-03T17:37:43.232134+00:00"
+      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00"
     }
   ],
-  "checkedAt": "2026-11-04T08:03:41.773113+00:00",
+  "checkedAt": "2026-11-04T17:38:47.366839+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -14689,7 +15142,7 @@
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -14719,13 +15172,13 @@
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 7,
+        "recentItems": 5,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -14737,18 +15190,18 @@
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 16,
+        "recentItems": 14,
         "error": null
       },
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 5,
         "error": null
       }
     ],
-    "newItems": 6,
-    "articleImages": 366,
+    "newItems": 13,
+    "articleImages": 377,
     "duplicateHeadlinesSkipped": 0
   }
 }
