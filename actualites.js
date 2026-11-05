@@ -1,7 +1,232 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-05T02:27:15+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Élections sous haute tension dans les campagnes d’Afrique du Sud",
+      "url": "https://www.revueconflits.com/elections-sous-haute-tension-dans-les-campagnes-dafrique-du-sud/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Afrique du Sud"
+      ],
+      "imageCheckedAt": "2026-11-05T08:04:37.605614+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/01/SIPA_ap22877708_000016-scaled.jpg",
+        "kind": "article",
+        "alt": "Élections sous haute tension dans les campagnes d’Afrique du Sud",
+        "credit": "Julius Malema, chef du parti Economic Freedom Fighters (EFF), lors d'un dernier rassemblement électoral à Polokwane, en Afrique du Sud, le samedi 25 mai 2024. Les Sud-Africains voteront aux élections générales de 2024 le 29 mai. (AP Photo/Themba Hadebe) © SIPA",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/elections-sous-haute-tension-dans-les-campagnes-dafrique-du-sud/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/elections-sous-haute-tension-dans-les-campagnes-dafrique-du-sud/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-05",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/01/SIPA_ap22877708_000016-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-05T00:01:02+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Veteran support centre network to more than double across the UK",
+      "url": "https://www.gov.uk/government/news/veteran-support-centre-network-to-more-than-double-across-the-uk",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "An estimated one million veterans and their families in the UK will benefit from easier access to local, thanks to…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-05T08:04:37.605614+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/veteran-support-centre-network-to-more-than-double-across-the-uk",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/veteran-support-centre-network-to-more-than-double-across-the-uk",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-05"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T21:41:25+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Euronaval 2026: BAE Systems Sea Tridon Gun Offers Containerised C-UAS Capability for Navies",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-bae-systems-sea-tridon-gun-offers-containerised-c-uas-capability-for-navies/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "BAE Systems",
+        "CUAS",
+        "EURONAVAL 2026",
+        "Sea Tridon"
+      ],
+      "sourceExcerpt": {
+        "text": "BAE Systems has launched a new family of naval guns, which provide capability to conduct counter-uncrewed aerial system (c-UAS) self-defence…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-05T08:04:37.605614+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/vlcsnap-2026-11-04-21h52m52s530.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Euronaval 2026: BAE Systems Sea Tridon Gun Offers Containerised C-UAS Capability for Navies ».",
+        "credit": "Euronaval 2026: BAE Systems Sea Tridon Gun Offers Containerised C-UAS Capability for Navies",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-bae-systems-sea-tridon-gun-offers-containerised-c-uas-capability-for-navies/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-bae-systems-sea-tridon-gun-offers-containerised-c-uas-capability-for-navies/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-05",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/vlcsnap-2026-11-04-21h52m52s530.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T21:39:47+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Babcock assembles industry-leading ecosystem to deliver the Hybrid Navy of the future",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-assembles-industry-leading-ecosystem-to-deliver-the-hybrid-navy-of-the-future/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "Babcock",
+        "Hybrid Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "Babcock International Group (Babcock), the defence company, has announced that seven leading technology and defence partners have joined its ARMOR…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-05T08:04:37.605614+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/ARMORForce-768x432.jpg",
+        "kind": "article",
+        "alt": "ARMORForce",
+        "credit": "Illustration of ARMOR force (Babcock image)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-assembles-industry-leading-ecosystem-to-deliver-the-hybrid-navy-of-the-future/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-assembles-industry-leading-ecosystem-to-deliver-the-hybrid-navy-of-the-future/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-05",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/ARMORForce-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T18:41:43+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le ministère des Armées lance la réalisation d’un démonstrateur du drone sous-marin de combat UCUV",
+      "url": "https://www.opex360.com/2026/11/04/le-ministere-des-armees-lance-la-realisation-dun-demonstrateur-du-drone-sous-marin-de-combat-ucuv/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Technologie",
+        "AID",
+        "combat naval",
+        "démonstrateur",
+        "DGA",
+        "drone sous-marin",
+        "Marine Nationale",
+        "Naval Group",
+        "UCUV"
+      ],
+      "sourceExcerpt": {
+        "text": "Le projet de doter la Marine nationale d’une drone sous-marin armé est déjà assez ancien puisqu’il figurait dans le document…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-05T08:04:37.605614+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/ucuv-20261104.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le ministère des Armées lance la réalisation d’un démonstrateur du drone sous-marin de combat UCUV ».",
+        "credit": "Naval Group",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/04/le-ministere-des-armees-lance-la-realisation-dun-demonstrateur-du-drone-sous-marin-de-combat-ucuv/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/04/le-ministere-des-armees-lance-la-realisation-dun-demonstrateur-du-drone-sous-marin-de-combat-ucuv/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-05",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/ucuv-20261104.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T17:58:47+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Safran va fournir les turboréacteurs du drone de combat supersonique canadien Falcon",
+      "url": "https://www.opex360.com/2026/11/04/safran-va-fournir-les-turboreacteurs-du-drone-de-combat-supersonique-canadien-falcon/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Industrie",
+        "CCA",
+        "drone",
+        "Falcon",
+        "safran",
+        "supersonique",
+        "turboréacteur",
+        "UVAD Technologies"
+      ],
+      "sourceExcerpt": {
+        "text": "Créée dans les années 2000 et spécialisée dans le développement d’applications civiles avant de s’orienter vers le marché de la…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-05T08:04:37.605614+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/falcon-allemagne-20250722.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Safran va fournir les turboréacteurs du drone de combat supersonique canadien Falcon ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/04/safran-va-fournir-les-turboreacteurs-du-drone-de-combat-supersonique-canadien-falcon/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/04/safran-va-fournir-les-turboreacteurs-du-drone-de-combat-supersonique-canadien-falcon/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-05",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/falcon-allemagne-20250722.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-04",
       "publishedAt": "2026-11-04T17:24:49+00:00",
@@ -216,6 +441,48 @@ window.LDV_NEWS = {
       "sourceExcerpt": {
         "text": "Une batterie américaine s’entraîne en Bavière à sortir de sa cachette, tirer, et repartir avant la riposte, avec un engin…",
         "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T12:34:14+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "L'INFANTERIE SINGAPOURIENNE SE REORGANISE",
+      "url": "https://blablachars.blogspot.com/2026/11/linfanterie-singapourienne-se-reorganise.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Australie",
+        "Drones",
+        "Infanterie",
+        "Rhino",
+        "Réorganisation",
+        "Sigma 155",
+        "Singapour",
+        "Terrex"
+      ],
+      "sourceExcerpt": {
+        "text": "L'armée singapourienne a entrepris de réorganiser sa composante infanterie et plus particulièrement ses bataillons pour se doter de nouvelles structures…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-05T08:04:37.605614+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPX0UjJtAQ7itvu32AbuLZsaKaGzfjYbA-H5JwQxkJo4-RJvgKOH4G98Y0bqPM72P4VVkIHCU64UqJqJvzErH5mfur68rwkMOro77Lw_d2SE4RTrXFB2ptjhtiKW8j8T22HLh4LNZR8QTTdGW5r1Rkpq2tTi9AjF83bXgBJ-dByE8rhyphenhyphen2_T4MWhBRgWO0/w1200-h630-p-k-no-nu/Infanterie%20Singapour.jpeg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L'INFANTERIE SINGAPOURIENNE SE REORGANISE ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/11/linfanterie-singapourienne-se-reorganise.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/11/linfanterie-singapourienne-se-reorganise.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-05",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPX0UjJtAQ7itvu32AbuLZsaKaGzfjYbA-H5JwQxkJo4-RJvgKOH4G98Y0bqPM72P4VVkIHCU64UqJqJvzErH5mfur68rwkMOro77Lw_d2SE4RTrXFB2ptjhtiKW8j8T22HLh4LNZR8QTTdGW5r1Rkpq2tTi9AjF83bXgBJ-dByE8rhyphenhyphen2_T4MWhBRgWO0/w1200-h630-p-k-no-nu/Infanterie%20Singapour.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -15123,7 +15390,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00"
     }
   ],
-  "checkedAt": "2026-11-04T17:38:47.366839+00:00",
+  "checkedAt": "2026-11-05T08:04:33.382148+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -15142,7 +15409,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -15178,7 +15445,7 @@ window.LDV_NEWS = {
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -15200,8 +15467,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 13,
-    "articleImages": 377,
+    "newItems": 7,
+    "articleImages": 384,
     "duplicateHeadlinesSkipped": 0
   }
 };

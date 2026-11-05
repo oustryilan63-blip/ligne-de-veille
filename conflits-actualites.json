@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-04T17:38:47.366839+00:00",
+  "checkedAt": "2026-11-05T08:04:33.382148+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -45,9 +45,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-04T17:38:57.003618+00:00",
+        "checkedAt": "2026-11-05T08:04:39.259541+00:00",
         "updatedAt": "2026-11-04T17:38:57.003618+00:00",
-        "status": "updated",
+        "status": "retained",
         "paragraphs": [
           {
             "title": "Ukraine : deux jours d’école sur trois perturbés par les alertes aériennes",
@@ -69,7 +69,7 @@
         "sources": [
           {
             "source": "ONU Info",
-            "ok": true
+            "ok": false
           },
           {
             "source": "France 24",
@@ -83,7 +83,7 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-04T17:38:57.003618+00:00",
+        "checkedAt": "2026-11-05T08:04:39.259541+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -146,10 +146,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-04T17:38:57.003618+00:00",
-        "updatedAt": "2026-11-04T17:38:57.003618+00:00",
+        "checkedAt": "2026-11-05T08:04:39.259541+00:00",
+        "updatedAt": "2026-11-05T08:04:39.259541+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "La Corée du Sud va déployer sa marine près du détroit d'Ormuz pour en garantir la circulation",
+            "text": "Séoul va élargir la zone d'opérations de l'unité antipiraterie Cheonghae de sa marine et déployer un destroyer, un avion de patrouille maritime et une équipe de déminage près du détroit d'Ormuz, a annoncé le ministère sud-coréen de la Défense jeudi. Cette mobilisation intervient dans le cadre d'une mission contribuant à garantir la circulation dans cette voie maritime.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261105-coree-sud-va-deployer-marine-d%C3%A9troit-ormuz-pour-garantir-circulation-iran-moyen-orient-cheonghae-antipiraterie-deminage-defense-commerce",
+            "publishedAt": "2026-11-05T03:03:30+00:00"
+          },
           {
             "title": "Midterms : le jour du vote, Trump met fin à l'aide sécuritaire en Israël",
             "text": "Donald Trump a annoncé mardi 3 novembre, contre toute attente, mettre fin à une aide annuelle de 3,8 milliards de dollars à Israël, le jour des élections de mi-mandat aux États-Unis, où la question du soutien à Israël fait débat. Gadi Eisenkot a estimé le même jour que cette annonce du président américain montrait qu'il fallait que Benjamin Netanyahu \"s'en aille\". Les précisions de Stéphan Amar, correspondant France 24 à Jérusalem.",
@@ -157,28 +165,12 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-le-jour-du-vote-trump-met-fin-%C3%A0-l-aide-s%C3%A9curitaire-en-isra%C3%ABl",
             "publishedAt": "2026-11-04T10:05:41+00:00"
-          },
-          {
-            "title": "L'Iran annonce la destruction de quatre pétroliers qui tentaient de franchir le détroit d'Ormuz",
-            "text": "Les Gardiens de la révolution ont annoncé, mercredi, que quatre navires pétroliers avaient percuté des mines en tentant de franchir le détroit d'Ormuz. Ces destructions font suite à des frappes américaines qui avaient ciblé l'île iranienne de Qeshm, située dans le passage maritime.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261104-quatre-p%C3%A9troliers-tentant-franchir-d%C3%A9troit-ormuz-d%C3%A9truits",
-            "publishedAt": "2026-11-04T09:03:11+00:00"
-          },
-          {
-            "title": "Yémen : à Taëz, les combats coupent les femmes des soins et des services de protection",
-            "text": "À Taëz, au Yémen, l’intensification des combats entre les rebelles houthis et les forces progouvernementales et la fermeture des routes paralysent les approvisionnements et privent des centaines de milliers de personnes de soins essentiels. Les femmes et les filles sont particulièrement vulnérables : les services de santé maternelle et de protection s’effondrent.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159773",
-            "publishedAt": "2026-11-03T12:00:00+00:00"
           }
         ],
         "sources": [
           {
             "source": "ONU Info",
-            "ok": true
+            "ok": false
           },
           {
             "source": "France 24",
