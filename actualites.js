@@ -4,6 +4,333 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-11-05",
+      "publishedAt": "2026-11-05T17:35:08+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La DGA notifie à Naval Group et à MBDA un contrat pour doubler la puissance de feu des frégates de défense et d’intervention",
+      "url": "https://www.opex360.com/2026/11/05/la-dga-notifie-a-naval-group-et-a-mbda-un-contrat-pour-doubler-la-puissance-de-feu-des-fregates-de-defense-et-dintervention/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Aster",
+        "défense aérienne",
+        "DGA",
+        "FDI",
+        "Frégate de défense et d'intervention",
+        "Industrie",
+        "létalité",
+        "Marine Nationale",
+        "MBDA",
+        "Naval Group"
+      ],
+      "sourceExcerpt": {
+        "text": "«Le cordonnier est le plus mal chaussé», dit un dicton. Et cela s’est vérifié avec les Frégates de défense et…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/fdi-20260402.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La DGA notifie à Naval Group et à MBDA un contrat pour doubler la puissance de feu des frégates de défense et d’intervention ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/05/la-dga-notifie-a-naval-group-et-a-mbda-un-contrat-pour-doubler-la-puissance-de-feu-des-fregates-de-defense-et-dintervention/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/05/la-dga-notifie-a-naval-group-et-a-mbda-un-contrat-pour-doubler-la-puissance-de-feu-des-fregates-de-defense-et-dintervention/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-05",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/fdi-20260402.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-05T15:49:45+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "RTsys Group Strengthens Its Presence in Canada with the Sale of Several SEMA Training Targets",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/rtsys-group-strengthens-its-presence-in-canada-with-the-sale-of-several-sema-training-targets/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "EURONAVAL 2026",
+        "RTSYS",
+        "SEMA"
+      ],
+      "sourceExcerpt": {
+        "text": "At Euronaval 2026, the Morbihan-based RTsys Group announced the sale of several SEMA training targets to two Canadian defense agencies:…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/rtsys-sema-euronaval-2026-ink-768x493.jpeg",
+        "kind": "article",
+        "alt": "RTsys Group Strengthens Its Presence in Canada with the Sale of Several SEMA Training Targets",
+        "credit": "SEMA recoverable acoustic target at RTSys booth at Euronaval 2026",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/rtsys-group-strengthens-its-presence-in-canada-with-the-sale-of-several-sema-training-targets/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/rtsys-group-strengthens-its-presence-in-canada-with-the-sale-of-several-sema-training-targets/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-05",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/rtsys-sema-euronaval-2026-ink.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-05T15:39:04+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le ministère des Armées va notifier un accord-cadre à MBDA pour acquérir davantage de missiles mer-mer Exocet",
+      "url": "https://www.opex360.com/2026/11/05/le-ministere-des-armees-va-notifier-un-accord-cadre-a-mbda-pour-acquerir-davantage-de-missiles-mer-mer-exocet/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "accord-cadre",
+        "antinavire",
+        "antisurface",
+        "DGA",
+        "exocet",
+        "LPM 2024-30",
+        "Marine Nationale",
+        "MBDA",
+        "MM40 B3C"
+      ],
+      "sourceExcerpt": {
+        "text": "La Loi de programmation militaire [LPM] 2019-25 avait prévu de doter la Marine nationale de 55 exemplaires de la dernière…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/exocet-20230928-1.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le ministère des Armées va notifier un accord-cadre à MBDA pour acquérir davantage de missiles mer-mer Exocet ».",
+        "credit": "Tir d’un MM40 B3C Exocet par la FREMM DA Alsace – Marine nationale",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/05/le-ministere-des-armees-va-notifier-un-accord-cadre-a-mbda-pour-acquerir-davantage-de-missiles-mer-mer-exocet/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/05/le-ministere-des-armees-va-notifier-un-accord-cadre-a-mbda-pour-acquerir-davantage-de-missiles-mer-mer-exocet/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-05",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/exocet-20230928-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-05T14:51:46+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Submarine ‘Isaac Peral’ sinks the old patrol vessel ‘Infanta Elena’ during the live-fire exercise SINKEX-26",
+      "url": "https://www.navalnews.com/naval-news/2026/11/submarine-isaac-peral-sinks-the-old-patrol-vessel-infanta-elena-during-the-live-fire-exercise-sinkex-26/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "AIP",
+        "Isaac Peral",
+        "S-80",
+        "SINKEX",
+        "Spanish Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "The Spanish Navy has successfully completed the SINKEX 26 naval exercise in waters of the Atlantic Ocean —a periodic training…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/spanish-sinkex-768x498.jpg",
+        "kind": "article",
+        "alt": "Submarine ‘Isaac Peral’ sinks the old patrol vessel ‘Infanta Elena’ during the live-fire exercise SINKEX-26",
+        "credit": "Spanish Navy)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/submarine-isaac-peral-sinks-the-old-patrol-vessel-infanta-elena-during-the-live-fire-exercise-sinkex-26/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/submarine-isaac-peral-sinks-the-old-patrol-vessel-infanta-elena-during-the-live-fire-exercise-sinkex-26/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-05",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/spanish-sinkex.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-05T14:03:43+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Ce drone de combat sera suspendu à une grue avant son premier vol, comme un avion de 1954 qu’un seul pilote au monde a su poser",
+      "url": "https://www.forum-militaire.fr/ce-drone-de-combat-sera-suspendu-a-une-grue-avant-son-premier-vol-comme-un-avion-de-1954-quun-seul-pilote-au-monde-a-su-poser/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de l'air",
+        "drone"
+      ],
+      "sourceExcerpt": {
+        "text": "Le premier exemplaire grandeur réelle vient de sortir d’atelier au Texas, et ses concepteurs ne le laisseront pas voler seul…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-05T13:36:37+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "« Moi aussi j’ai pris une balle » : en Guadeloupe, la violence s’enracine autour de Pointe-à-Pitre",
+      "url": "https://www.revueconflits.com/moi-aussi-jai-pris-une-balle-en-guadeloupe-la-violence-senracine-autour-de-pointe-a-pitre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Géopolitique de la France",
+        "Abonné",
+        "Outre-mer",
+        "Reportage"
+      ],
+      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/Guadeloupe.png",
+        "kind": "article",
+        "alt": "« Moi aussi j’ai pris une balle » : en Guadeloupe, la violence s’enracine autour de Pointe-à-Pitre",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/moi-aussi-jai-pris-une-balle-en-guadeloupe-la-violence-senracine-autour-de-pointe-a-pitre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/moi-aussi-jai-pris-une-balle-en-guadeloupe-la-violence-senracine-autour-de-pointe-a-pitre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-05",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/Guadeloupe.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-05T11:58:00+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "LE BERSEK, LE FUTUR DE L'INFANTERIE UKRAINIENNE ?",
+      "url": "https://blablachars.blogspot.com/2026/11/le-bersek-le-futur-de-linfanterie.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Bersek",
+        "Infanterie",
+        "Projet",
+        "T-84 Oplot",
+        "Ukraine",
+        "VCI"
+      ],
+      "sourceExcerpt": {
+        "text": "Annoncé hier par le site Defense Blog , le projet ukrainien de VCI (Véhicule de Combat d'Infanterie) lourd ne manque…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh31Db5rLqhWmciR_pBeWeJPww0WPZ-XaamUAs4bdgjkA2lONdxi8PHhfMn8luSEx1N6M4zQlZ6te8RNSL22TAwUuROur6LYGhFlPHdE8INUh6yEq-DfoZ1JPjhXQZ39DGJhFuBV7BJU4pTpSjO2-NhA-s3jYS8NVoQHXAWpm9o4ceiO0xbZyHM2hW_gwU/w1200-h630-p-k-no-nu/Bersek%20IFV.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « LE BERSEK, LE FUTUR DE L'INFANTERIE UKRAINIENNE ? ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/11/le-bersek-le-futur-de-linfanterie.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/11/le-bersek-le-futur-de-linfanterie.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-05",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh31Db5rLqhWmciR_pBeWeJPww0WPZ-XaamUAs4bdgjkA2lONdxi8PHhfMn8luSEx1N6M4zQlZ6te8RNSL22TAwUuROur6LYGhFlPHdE8INUh6yEq-DfoZ1JPjhXQZ39DGJhFuBV7BJU4pTpSjO2-NhA-s3jYS8NVoQHXAWpm9o4ceiO0xbZyHM2hW_gwU/w1200-h630-p-k-no-nu/Bersek%20IFV.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-05T10:01:31+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "VICTOIRE DECALEE POUR LE GENERAL ARMIN(IUS)",
+      "url": "https://blablachars.blogspot.com/2026/11/victoire-decalee-pour-le-general.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Arminius",
+        "Boxer",
+        "Bundeswehr",
+        "Décalage",
+        "KNDS Deutschland",
+        "RHeinMetall"
+      ],
+      "sourceExcerpt": {
+        "text": "Contrairement à ce que Blablachars écrivait en août dernier, Armin Papperger devra probablement attendre février 2027 pour célébrer la première…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXT6PKy2PiXDzJzO1gK_r7B7p42WVCGxaVxrXW4oou8bPBbBVRf-iDkHtKvrfO3jFw04r4DW5338kr6RiR2yI-pQmB0_JB3OK914CTmTJJIC3igDHKLoc2j9-Bnj88Lw945h1mmFxuqtz7mwV5fERDGjjj60G0kDahCi3A57yLFlvX-DMKQHryD2TTMYg/w1200-h630-p-k-no-nu/Chacal%20Tir.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « VICTOIRE DECALEE POUR LE GENERAL ARMIN(IUS) ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/11/victoire-decalee-pour-le-general.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/11/victoire-decalee-pour-le-general.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-05",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXT6PKy2PiXDzJzO1gK_r7B7p42WVCGxaVxrXW4oou8bPBbBVRf-iDkHtKvrfO3jFw04r4DW5338kr6RiR2yI-pQmB0_JB3OK914CTmTJJIC3igDHKLoc2j9-Bnj88Lw945h1mmFxuqtz7mwV5fERDGjjj60G0kDahCi3A57yLFlvX-DMKQHryD2TTMYg/w1200-h630-p-k-no-nu/Chacal%20Tir.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-05T08:17:54+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Le français Safran s’ouvre les portes de plusieurs marines de guerre grâce à un accord signé avec le fabricant de tourelles britannique…",
+      "url": "https://www.forum-militaire.fr/le-francais-safran-souvre-les-portes-de-plusieurs-marines-de-guerre-grace-a-un-accord-anti-drones-signe-avec-le-fabricant-de-tourelles-britannique-msi-defence-systems/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Marines militaires",
+        "contrat",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Safran se place sur le marché en plein boom de « l’anti-drone » européen. Safran Electronics & Defense a signé…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-05",
       "publishedAt": "2026-11-05T02:27:15+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -46,7 +373,7 @@ window.LDV_NEWS = {
       "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
       "sourceExcerpt": {
-        "text": "An estimated one million veterans and their families in the UK will benefit from easier access to local, thanks to…",
+        "text": "An estimated one million veterans and their families in the UK will benefit from easier access to local support, thanks…",
         "kind": "feed-excerpt"
       },
       "imageCheckedAt": "2026-11-05T08:04:37.605614+00:00",
@@ -164,7 +491,7 @@ window.LDV_NEWS = {
         "UCUV"
       ],
       "sourceExcerpt": {
-        "text": "Le projet de doter la Marine nationale d’une drone sous-marin armé est déjà assez ancien puisqu’il figurait dans le document…",
+        "text": "Le projet de doter la Marine nationale d’un drone sous-marin armé est déjà assez ancien puisqu’il figurait dans le document…",
         "kind": "feed-excerpt"
       },
       "imageCheckedAt": "2026-11-05T08:04:37.605614+00:00",
@@ -7433,7 +7760,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00"
+      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00"
     },
     {
       "date": "2026-10-23",
@@ -7446,7 +7773,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00"
+      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00"
     },
     {
       "date": "2026-10-22",
@@ -8070,7 +8397,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00"
+      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00"
     },
     {
       "date": "2026-10-21",
@@ -15173,7 +15500,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00"
+      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00"
     },
     {
       "date": "2026-10-07",
@@ -15387,10 +15714,10 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-04T17:38:51.893864+00:00"
+      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00"
     }
   ],
-  "checkedAt": "2026-11-05T08:04:33.382148+00:00",
+  "checkedAt": "2026-11-05T17:44:56.632946+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -15409,7 +15736,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -15439,7 +15766,7 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 7,
         "error": null
       },
       {
@@ -15463,12 +15790,12 @@ window.LDV_NEWS = {
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 3,
         "error": null
       }
     ],
-    "newItems": 7,
-    "articleImages": 384,
+    "newItems": 9,
+    "articleImages": 391,
     "duplicateHeadlinesSkipped": 0
   }
 };

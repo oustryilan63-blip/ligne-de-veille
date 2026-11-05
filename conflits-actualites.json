@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-05T08:04:33.382148+00:00",
+  "checkedAt": "2026-11-05T17:44:56.632946+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -16,8 +16,16 @@
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-11-03T17:37:36.345548+00:00",
+      "changedAt": "2026-11-05T17:44:56.632946+00:00",
       "items": [
+        {
+          "title": "LE BERSEK, LE FUTUR DE L'INFANTERIE UKRAINIENNE ?",
+          "url": "https://blablachars.blogspot.com/2026/11/le-bersek-le-futur-de-linfanterie.html",
+          "source": "Blablachars",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-05T11:58:00+00:00",
+          "language": "fr"
+        },
         {
           "title": "UK to lead multinational military training exercise to prepare for peace in Ukraine",
           "url": "https://www.gov.uk/government/news/uk-to-lead-multinational-military-training-exercise-to-prepare-for-peace-in-ukraine--2",
@@ -45,10 +53,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-05T08:04:39.259541+00:00",
-        "updatedAt": "2026-11-04T17:38:57.003618+00:00",
-        "status": "retained",
+        "checkedAt": "2026-11-05T17:45:19.454836+00:00",
+        "updatedAt": "2026-11-05T17:45:19.454836+00:00",
+        "status": "updated",
         "paragraphs": [
+          {
+            "title": "Dans les zones de conflit, les attaques contre les réseaux d’eau ont triplé en quatre ans",
+            "text": "De Gaza à l’Ukraine, en passant par le Soudan et le Burkina Faso, les systèmes d’approvisionnement en eau sont de plus en plus touchées par les conflits armés. Selon un rapport de l’UNICEF, le nombre d’attaques signalées contre ces infrastructures a triplé entre 2021 et 2025, avec des conséquences particulièrement graves pour les enfants, exposés aux maladies, à la malnutrition et aux violences.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159791",
+            "publishedAt": "2026-11-05T12:00:00+00:00"
+          },
           {
             "title": "Ukraine : deux jours d’école sur trois perturbés par les alertes aériennes",
             "text": "Depuis le début de l’invasion russe de grande ampleur en février 2022, près de 2 000 attaques ont visé le secteur de l’éducation en Ukraine, dont environ 270 en 2026, selon l’UNICEF. Depuis la rentrée scolaire, les alertes aériennes affectent près de deux jours d’école sur trois, d’après les données arrêtées au 20 octobre.",
@@ -56,20 +72,12 @@
             "source": "ONU Info",
             "url": "https://news.un.org/feed/view/fr/story/2026/11/1159775",
             "publishedAt": "2026-11-03T12:00:00+00:00"
-          },
-          {
-            "title": "Ukraine : une trêve négociée par Melania Trump permet l’évacuation de centaines de civils",
-            "text": "Un cessez-le-feu local négocié avec l’aide de la première dame américaine a permis l’évacuation de nombreux civils d’une ville ukrainienne occupée par la Russie durant le weekend. Mais alors que l’ONU vient en aide aux rescapés, les attaques contre les infrastructures énergétiques font planer la menace de nouvelles coupures de chauffage et d’électricité sur des millions d’Ukrainiens à l’approche de l’hiver.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159768",
-            "publishedAt": "2026-11-02T12:00:00+00:00"
           }
         ],
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",
@@ -83,7 +91,7 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-05T08:04:39.259541+00:00",
+        "checkedAt": "2026-11-05T17:45:19.454836+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -146,10 +154,26 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-05T08:04:39.259541+00:00",
-        "updatedAt": "2026-11-05T08:04:39.259541+00:00",
+        "checkedAt": "2026-11-05T17:45:19.454836+00:00",
+        "updatedAt": "2026-11-05T17:45:19.454836+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Les images de destruction à Gaza remplacées sur Apple Plans ? Retour sur une confusion",
+            "text": "Depuis début novembre, le service de cartographie d'Apple, Apple Plans, est accusé d'avoir remplacé ses images satellite de Gaza par des images d'avant la guerre. En réalité, il ne les a simplement pas mises à jour depuis le début du conflit.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261105-images-de-destruction-gaza-remplac%C3%A9es-sur-apple-plans-retour-sur-une-confusion",
+            "publishedAt": "2026-11-05T13:57:04+00:00"
+          },
+          {
+            "title": "Dans les zones de conflit, les attaques contre les réseaux d’eau ont triplé en quatre ans",
+            "text": "De Gaza à l’Ukraine, en passant par le Soudan et le Burkina Faso, les systèmes d’approvisionnement en eau sont de plus en plus touchées par les conflits armés. Selon un rapport de l’UNICEF, le nombre d’attaques signalées contre ces infrastructures a triplé entre 2021 et 2025, avec des conséquences particulièrement graves pour les enfants, exposés aux maladies, à la malnutrition et aux violences.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159791",
+            "publishedAt": "2026-11-05T12:00:00+00:00"
+          },
           {
             "title": "La Corée du Sud va déployer sa marine près du détroit d'Ormuz pour en garantir la circulation",
             "text": "Séoul va élargir la zone d'opérations de l'unité antipiraterie Cheonghae de sa marine et déployer un destroyer, un avion de patrouille maritime et une équipe de déminage près du détroit d'Ormuz, a annoncé le ministère sud-coréen de la Défense jeudi. Cette mobilisation intervient dans le cadre d'une mission contribuant à garantir la circulation dans cette voie maritime.",
@@ -157,20 +181,12 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/moyen-orient/20261105-coree-sud-va-deployer-marine-d%C3%A9troit-ormuz-pour-garantir-circulation-iran-moyen-orient-cheonghae-antipiraterie-deminage-defense-commerce",
             "publishedAt": "2026-11-05T03:03:30+00:00"
-          },
-          {
-            "title": "Midterms : le jour du vote, Trump met fin à l'aide sécuritaire en Israël",
-            "text": "Donald Trump a annoncé mardi 3 novembre, contre toute attente, mettre fin à une aide annuelle de 3,8 milliards de dollars à Israël, le jour des élections de mi-mandat aux États-Unis, où la question du soutien à Israël fait débat. Gadi Eisenkot a estimé le même jour que cette annonce du président américain montrait qu'il fallait que Benjamin Netanyahu \"s'en aille\". Les précisions de Stéphan Amar, correspondant France 24 à Jérusalem.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-le-jour-du-vote-trump-met-fin-%C3%A0-l-aide-s%C3%A9curitaire-en-isra%C3%ABl",
-            "publishedAt": "2026-11-04T10:05:41+00:00"
           }
         ],
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",
