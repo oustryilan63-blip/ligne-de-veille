@@ -4,6 +4,365 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-11-06",
+      "publishedAt": "2026-11-06T16:37:43+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Strike drones launched from British aircraft carrier for the first time",
+      "url": "https://www.navalnews.com/naval-news/2026/11/strike-drones-launched-from-british-aircraft-carrier-for-the-first-time/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Aircraft Carrier",
+        "HMS Queen Elizabeth",
+        "Royal Navy",
+        "UAV"
+      ],
+      "sourceExcerpt": {
+        "text": "The Royal Navy has successfully launched strike drones from an aircraft carrier for the first time, in a major step…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-06T17:35:59.083468+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/The-Tekever-AR5-drone-prepares-to-touch-down-on-HMS-Queen-Elizabeths-deck-768x512.webp",
+        "kind": "article",
+        "alt": "Image principale de l’article « Strike drones launched from British aircraft carrier for the first time ».",
+        "credit": "The Tekever AR5 drone prepares to touch down on HMS Queen Elizabeths deck (royal Navy picture)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/strike-drones-launched-from-british-aircraft-carrier-for-the-first-time/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/strike-drones-launched-from-british-aircraft-carrier-for-the-first-time/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/The-Tekever-AR5-drone-prepares-to-touch-down-on-HMS-Queen-Elizabeths-deck.webp",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T15:19:50+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Marine nationale : Le ministère des Armées va commander un nouveau standard du missile de croisière naval à MBDA",
+      "url": "https://www.opex360.com/2026/11/06/marine-nationale-le-ministere-des-armees-va-commander-un-nouveau-standard-du-missile-de-croisiere-naval-a-mbda/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Armement",
+        "Forces navales",
+        "DGA",
+        "Euronaval",
+        "FREMM",
+        "LPM 2024-30",
+        "Marine Nationale",
+        "MBDA",
+        "MdCN",
+        "MdCN Mk2",
+        "Missile de croisière naval",
+        "SNA"
+      ],
+      "sourceExcerpt": {
+        "text": "Quand le contrat de développement et de production fut notifié à MBDA par la Direction générale de l’armement [DGA], le…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-06T17:35:59.083468+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/mdcn-20261106.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Marine nationale : Le ministère des Armées va commander un nouveau standard du missile de croisière naval à MBDA ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/06/marine-nationale-le-ministere-des-armees-va-commander-un-nouveau-standard-du-missile-de-croisiere-naval-a-mbda/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/06/marine-nationale-le-ministere-des-armees-va-commander-un-nouveau-standard-du-missile-de-croisiere-naval-a-mbda/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/mdcn-20261106.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T13:50:34+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "KONGSBERG expands Aegir SSA sonar family alongside virtual operator for maritime security and navigation",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/kongsberg-expands-aegir-ssa-sonar-family-alongside-virtual-operator-for-maritime-security-and-navigation/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "AEGIR",
+        "EURONAVAL 2026",
+        "Kongsberg",
+        "underwater surveillance"
+      ],
+      "sourceExcerpt": {
+        "text": "With the launch of Aegir17 and Aegir57N, KONGSBERG is now taking orders for all three models in its Aegir SSA…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-06T17:35:59.083468+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/kongsberg-aegir-768x432.jpg",
+        "kind": "article",
+        "alt": "KONGSBERG expands Aegir SSA sonar family alongside virtual operator for maritime security and navigation",
+        "credit": "KONGSBERG has launched two new sonars within its Aegir SSA (Subsea Situational Awareness) family for maritime security, navigation and critical infrastructure protection (Kongsberg picture)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/kongsberg-expands-aegir-ssa-sonar-family-alongside-virtual-operator-for-maritime-security-and-navigation/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/kongsberg-expands-aegir-ssa-sonar-family-alongside-virtual-operator-for-maritime-security-and-navigation/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/kongsberg-aegir-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T12:47:56+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Ce « drone-parapluie » américain veut proposer une véritable solution au problème de camouflage persistant contre les drones",
+      "url": "https://www.forum-militaire.fr/ce-drone-parapluie-americain-veut-proposer-une-veritable-solution-au-probleme-de-camouflage-persistant-contre-les-drones/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armes / chasse",
+        "drone",
+        "high-tech"
+      ],
+      "sourceExcerpt": {
+        "text": "Vigil Autonomy, basée à Austin au Texas, propose un système de camouflage autonome baptisé Air Cover, pensé pour une guerre…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T12:03:41+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "UN 8x8 QUI EVOLUE",
+      "url": "https://blablachars.blogspot.com/2026/11/un-8x8-qui-evolue.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Elbit Systems",
+        "Evolution",
+        "Iron Fist",
+        "Iron Vision VCI 8x8",
+        "Pandur 8x8 EVO",
+        "Tatra Defense Vehicles",
+        "VBCI",
+        "VBCI RCT 40"
+      ],
+      "sourceExcerpt": {
+        "text": "On l'avait découvert à l'occasion de l'édition 2025 du Salon IDET, le Pandur 8x8 EVO se dévoile dans un teasing…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-06T17:35:59.083468+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4cDtfWIu41aQ7aSsdmI1SJMMMRzBes4nPel50LGwW5jOy9xF-NhtNxjfCY8XL22z_wiHqbes1rAg_OTQxk_84B-3q4X8T4sknIEl9YDQKkfN_dbMfmgRubRgnqt3dUlpT3qbnZWRmvY8QvREKj3C6esxhAuhgXPhfOLEMNWW5I49lFWWavzXbbK-UbWA/w1200-h630-p-k-no-nu/Pandur%208x8%20EVO.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « UN 8x8 QUI EVOLUE ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/11/un-8x8-qui-evolue.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/11/un-8x8-qui-evolue.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4cDtfWIu41aQ7aSsdmI1SJMMMRzBes4nPel50LGwW5jOy9xF-NhtNxjfCY8XL22z_wiHqbes1rAg_OTQxk_84B-3q4X8T4sknIEl9YDQKkfN_dbMfmgRubRgnqt3dUlpT3qbnZWRmvY8QvREKj3C6esxhAuhgXPhfOLEMNWW5I49lFWWavzXbbK-UbWA/w1200-h630-p-k-no-nu/Pandur%208x8%20EVO.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T11:38:27+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Armement terrestre : La nationalisation totale du groupe franco-allemand KNDS se précise",
+      "url": "https://www.opex360.com/2026/11/06/armement-terrestre-la-nationalisation-totale-du-groupe-franco-allemand-knds-se-precise/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Industrie",
+        "Allemagne",
+        "armement terrestre",
+        "Bode-Wegmann",
+        "France",
+        "industrie",
+        "IPO",
+        "KNDS",
+        "nationalisation",
+        "Wegmann & Co"
+      ],
+      "sourceExcerpt": {
+        "text": "Spécialiste franco-allemand de l’armement terrestre, KNDS est un groupe public et privé dans la mesure où, actuellement, il appartient, à…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-06T17:35:59.083468+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/capint-knds-20260615.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Armement terrestre : La nationalisation totale du groupe franco-allemand KNDS se précise ».",
+        "credit": "KNDS France",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/06/armement-terrestre-la-nationalisation-totale-du-groupe-franco-allemand-knds-se-precise/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/06/armement-terrestre-la-nationalisation-totale-du-groupe-franco-allemand-knds-se-precise/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/capint-knds-20260615.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T11:19:08+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "« Le foil fait gagner un état de mer au drone ». Entretien avec Richard Forest, président de SEAir",
+      "url": "https://www.revueconflits.com/le-foil-fait-gagner-un-etat-de-mer-au-drone-entretien-avec-richard-forest-president-de-seair/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Économie, énergies et entreprises",
+        "Drones"
+      ],
+      "imageCheckedAt": "2026-11-06T17:35:59.083468+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/Vignettes-videos-2026-11-06T121111.951.png",
+        "kind": "article",
+        "alt": "« Le foil fait gagner un état de mer au drone ». Entretien avec Richard Forest, président de SEAir",
+        "credit": "SEAir",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/le-foil-fait-gagner-un-etat-de-mer-au-drone-entretien-avec-richard-forest-president-de-seair/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/le-foil-fait-gagner-un-etat-de-mer-au-drone-entretien-avec-richard-forest-president-de-seair/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/Vignettes-videos-2026-11-06T121111.951.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T10:55:28+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Le VBAE à l’heure des choix",
+      "url": "https://forcesoperations.com/le-vbae-a-lheure-des-choix/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "Belgique",
+        "France",
+        "OCCAR",
+        "VBAE"
+      ],
+      "sourceExcerpt": {
+        "text": "Tic tac… L'heure tourne et le véhicule blindé d'aide à l'engagement (VBAE) n'a toujours pas passé la seconde. Si le…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-06T17:35:59.083468+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/06/Eurosatory-2026-le-VBAE-entre-refonte-du-besoin-et-espoir-dune-decision-politique_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le VBAE à l’heure des choix ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/le-vbae-a-lheure-des-choix/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/le-vbae-a-lheure-des-choix/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/06/Eurosatory-2026-le-VBAE-entre-refonte-du-besoin-et-espoir-dune-decision-politique_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T09:57:45+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Livres – 6 novembre",
+      "url": "https://www.revueconflits.com/livres-6-novembre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Livres",
+        "Livre"
+      ],
+      "imageCheckedAt": "2026-11-06T17:35:59.083468+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/10/conflits-lecteur-scaled-e1737970920644.jpg",
+        "kind": "article",
+        "alt": "Livres – 6 novembre",
+        "credit": "Livre (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/livres-6-novembre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/livres-6-novembre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/10/conflits-lecteur-scaled-e1737970920644.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T08:45:04+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Ce que vous voyez n’est pas un porte-avions mais un navire de 40 000 tonnes d’une nouvelle catégorie chinoise « hybride » : le Sichuan",
+      "url": "https://www.forum-militaire.fr/ce-que-vous-voyez-nest-pas-un-porte-avions-mais-un-navire-de-40-000-tonnes-dune-nouvelle-categorie-chinoise-hybride-le-sichuan/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Marines militaires",
+        "drone",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Le porte-drones s’impose comme nouveau format de projection navale. L’analyse publiée le 3 novembre 2026 par l’Institute for the Study…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-06",
       "publishedAt": "2026-11-06T03:44:06+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -201,7 +560,7 @@ window.LDV_NEWS = {
         "DGA",
         "FDI",
         "Frégate de défense et d'intervention",
-        "Industrie",
+        "industrie",
         "létalité",
         "Marine Nationale",
         "MBDA",
@@ -15981,7 +16340,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00"
     }
   ],
-  "checkedAt": "2026-11-06T07:59:47.518573+00:00",
+  "checkedAt": "2026-11-06T17:35:53.647669+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -16000,7 +16359,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 2,
         "error": null
       },
       {
@@ -16012,7 +16371,7 @@ window.LDV_NEWS = {
       {
         "source": "OpexNews",
         "ok": true,
-        "recentItems": 1,
+        "recentItems": 0,
         "error": null
       },
       {
@@ -16030,13 +16389,13 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 7,
+        "recentItems": 8,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -16048,7 +16407,7 @@ window.LDV_NEWS = {
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 14,
+        "recentItems": 11,
         "error": null
       },
       {
@@ -16058,8 +16417,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 7,
-    "articleImages": 398,
+    "newItems": 10,
+    "articleImages": 406,
     "duplicateHeadlinesSkipped": 0
   }
 };

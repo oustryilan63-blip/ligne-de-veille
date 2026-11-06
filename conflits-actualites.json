@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-06T07:59:47.518573+00:00",
+  "checkedAt": "2026-11-06T17:35:53.647669+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -53,9 +53,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-06T07:59:54.394603+00:00",
+        "checkedAt": "2026-11-06T17:36:01.285229+00:00",
         "updatedAt": "2026-11-05T17:45:19.454836+00:00",
-        "status": "unchanged",
+        "status": "retained",
         "paragraphs": [
           {
             "title": "Dans les zones de conflit, les attaques contre les réseaux d’eau ont triplé en quatre ans",
@@ -77,7 +77,7 @@
         "sources": [
           {
             "source": "ONU Info",
-            "ok": true
+            "ok": false
           },
           {
             "source": "France 24",
@@ -91,7 +91,7 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-06T07:59:54.394603+00:00",
+        "checkedAt": "2026-11-06T17:36:01.285229+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -154,9 +154,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-06T07:59:54.394603+00:00",
-        "updatedAt": "2026-11-05T17:45:19.454836+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-11-06T17:36:01.285229+00:00",
+        "updatedAt": "2026-11-06T17:36:01.285229+00:00",
+        "status": "updated",
         "paragraphs": [
           {
             "title": "Les images de destruction à Gaza remplacées sur Apple Plans ? Retour sur une confusion",
@@ -165,14 +165,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/moyen-orient/20261105-images-de-destruction-gaza-remplac%C3%A9es-sur-apple-plans-retour-sur-une-confusion",
             "publishedAt": "2026-11-05T13:57:04+00:00"
-          },
-          {
-            "title": "Dans les zones de conflit, les attaques contre les réseaux d’eau ont triplé en quatre ans",
-            "text": "De Gaza à l’Ukraine, en passant par le Soudan et le Burkina Faso, les systèmes d’approvisionnement en eau sont de plus en plus touchées par les conflits armés. Selon un rapport de l’UNICEF, le nombre d’attaques signalées contre ces infrastructures a triplé entre 2021 et 2025, avec des conséquences particulièrement graves pour les enfants, exposés aux maladies, à la malnutrition et aux violences.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159791",
-            "publishedAt": "2026-11-05T12:00:00+00:00"
           },
           {
             "title": "La Corée du Sud va déployer sa marine près du détroit d'Ormuz pour en garantir la circulation",
@@ -186,7 +178,7 @@
         "sources": [
           {
             "source": "ONU Info",
-            "ok": true
+            "ok": false
           },
           {
             "source": "France 24",
