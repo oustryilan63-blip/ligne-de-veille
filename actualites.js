@@ -1,7 +1,188 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-05",
+  "updatedAt": "2026-11-06",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T03:44:06+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Nouvelle-Calédonie : un « territoire à décoloniser » de l’ONU ?",
+      "url": "https://www.revueconflits.com/nouvelle-caledonie-un-territoire-a-decoloniser-de-lonu/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Les chroniques calédoniennes d'Éric Descheemaeker",
+        "Abonné",
+        "Nouvelle-Calédonie",
+        "Outre-mer"
+      ],
+      "imageCheckedAt": "2026-11-06T07:59:52.323841+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/Vignettes-videos-2026-11-05T174504.948.png",
+        "kind": "article",
+        "alt": "Nouvelle-Calédonie : un « territoire à décoloniser » de l’ONU ?",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/nouvelle-caledonie-un-territoire-a-decoloniser-de-lonu/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/nouvelle-caledonie-un-territoire-a-decoloniser-de-lonu/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/Vignettes-videos-2026-11-05T174504.948.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T02:25:22+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Pourquoi le RPPRAC bloque-t-il les centres commerciaux de Martinique ?",
+      "url": "https://www.revueconflits.com/pourquoi-le-rpprac-bloque-t-il-les-centres-commerciaux-de-martinique/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Géopolitique de la France",
+        "Outre-mer"
+      ],
+      "imageCheckedAt": "2026-11-06T07:59:52.323841+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/Martinique.jpg",
+        "kind": "article",
+        "alt": "Pourquoi le RPPRAC bloque-t-il les centres commerciaux de Martinique ?",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/pourquoi-le-rpprac-bloque-t-il-les-centres-commerciaux-de-martinique/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/pourquoi-le-rpprac-bloque-t-il-les-centres-commerciaux-de-martinique/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/Martinique.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T02:13:17+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Technoland : comment l’IA change la géopolitique",
+      "url": "https://www.revueconflits.com/podcast-technoland-comment-lia-change-la-geopolitique/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Économie, énergies et entreprises",
+        "Technologie"
+      ],
+      "imageCheckedAt": "2026-11-06T07:59:52.323841+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/cash-macanaya-X9Cemmq4YjM-unsplash-e1793227895818.jpg",
+        "kind": "article",
+        "alt": "Podcast – Technoland : comment l’IA change la géopolitique",
+        "credit": "Cash Macanaya",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-technoland-comment-lia-change-la-geopolitique/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-technoland-comment-lia-change-la-geopolitique/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/cash-macanaya-X9Cemmq4YjM-unsplash-e1793227895818.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-05T22:20:21+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Naval Group Unveils a Larger, More Powerful FDI Frigate",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-unveils-a-larger-more-powerful-fdi-frigate/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "FDI",
+        "Naval Group"
+      ],
+      "sourceExcerpt": {
+        "text": "During Euronaval 2026, Naval Group presented its FDI frigate family, which now includes a new, larger and more powerful variant…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-06T07:59:52.323841+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Stretched-FDI-Frigate-768x407.jpg",
+        "kind": "article",
+        "alt": "Naval Group Unveils a Larger, More Powerful FDI Frigate",
+        "credit": "Stretched FDI frigate with powerful combat capabilities presented by Naval Group during Euronaval 2026. Video screenshot.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-unveils-a-larger-more-powerful-fdi-frigate/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-unveils-a-larger-more-powerful-fdi-frigate/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Stretched-FDI-Frigate.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-05T18:42:08+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La France va-t-elle finalement maintenir sa participation au projet de corvette européenne ?",
+      "url": "https://www.opex360.com/2026/11/05/la-france-va-t-elle-finalement-maintenir-sa-participation-au-projet-de-corvette-europeenne/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Industrie",
+        "corvette européenne",
+        "EPC",
+        "Fincantieri",
+        "frégate de surveillance",
+        "industrie",
+        "Marine Nationale",
+        "MMPC",
+        "Nanvatia",
+        "Naval Group",
+        "Occar"
+      ],
+      "sourceExcerpt": {
+        "text": "La France va-t-elle finalement maintenir sa participation au projet de corvette européenne [EPC, encore appelé Multi Modular Patrol Corvette –…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-06T07:59:52.323841+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/epc-20231026.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La France va-t-elle finalement maintenir sa participation au projet de corvette européenne ? ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/05/la-france-va-t-elle-finalement-maintenir-sa-participation-au-projet-de-corvette-europeenne/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/05/la-france-va-t-elle-finalement-maintenir-sa-participation-au-projet-de-corvette-europeenne/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/epc-20231026.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-05",
       "publishedAt": "2026-11-05T17:35:08+00:00",
@@ -171,6 +352,44 @@ window.LDV_NEWS = {
     },
     {
       "date": "2026-11-05",
+      "publishedAt": "2026-11-05T14:13:24+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "MBDA and TERMA join forces to develop innovative, flexible air and surface defence solutions against a wide spectrum of threats",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/mbda-and-terma-join-forces-to-develop-innovative-flexible-air-and-surface-defence-solutions-against-a-wide-spectrum-of-threats/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "EURONAVAL 2026",
+        "MBDA",
+        "Terma"
+      ],
+      "sourceExcerpt": {
+        "text": "MBDA and TERMA, building on their longstanding partnership and in the framework of the cooperation agreement signed during Eurosatory last…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-06T07:59:52.323841+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/SPIMM-768x578.jpeg",
+        "kind": "article",
+        "alt": "MBDA and TERMA join forces to develop innovative, flexible air and surface defence solutions against a wide spectrum of threats",
+        "credit": "Self Protection Integrated Mistral 3 Module (SPIMM) model at Euronaval 2026",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/mbda-and-terma-join-forces-to-develop-innovative-flexible-air-and-surface-defence-solutions-against-a-wide-spectrum-of-threats/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/mbda-and-terma-join-forces-to-develop-innovative-flexible-air-and-surface-defence-solutions-against-a-wide-spectrum-of-threats/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/SPIMM.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-05",
       "publishedAt": "2026-11-05T14:03:43+00:00",
       "source": "Forum Militaire",
       "sourceType": "Presse spécialisée",
@@ -263,6 +482,51 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-05",
         "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh31Db5rLqhWmciR_pBeWeJPww0WPZ-XaamUAs4bdgjkA2lONdxi8PHhfMn8luSEx1N6M4zQlZ6te8RNSL22TAwUuROur6LYGhFlPHdE8INUh6yEq-DfoZ1JPjhXQZ39DGJhFuBV7BJU4pTpSjO2-NhA-s3jYS8NVoQHXAWpm9o4ceiO0xbZyHM2hW_gwU/w1200-h630-p-k-no-nu/Bersek%20IFV.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "publishedAt": "2026-11-05T11:44:49+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le ministère des Armées loue deux navires civils pour doter la Marine nationale d’une capacité hauturière de guerre des mines",
+      "url": "https://www.opex360.com/2026/11/05/le-ministere-des-armees-loue-deux-navires-civils-pour-doter-la-marine-nationale-dune-capacite-hauturiere-de-guerre-des-mines/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Abeilles International",
+        "BGDM",
+        "Chantiers de l'Atlantique",
+        "DGA",
+        "guerre des mines",
+        "location",
+        "Marine Nationale",
+        "navire",
+        "Protée",
+        "SLAM-F"
+      ],
+      "sourceExcerpt": {
+        "text": "En 2016, la Belgique et les Pays-Bas notifièrent à un groupement formé par Naval Group et ECA Robotics [devenu Exail]…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-06T07:59:52.323841+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/protee-20261105.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le ministère des Armées loue deux navires civils pour doter la Marine nationale d’une capacité hauturière de guerre des mines ».",
+        "credit": "Ministère des Armées",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/05/le-ministere-des-armees-loue-deux-navires-civils-pour-doter-la-marine-nationale-dune-capacite-hauturiere-de-guerre-des-mines/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/05/le-ministere-des-armees-loue-deux-navires-civils-pour-doter-la-marine-nationale-dune-capacite-hauturiere-de-guerre-des-mines/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-06",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/protee-20261105.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -15717,7 +15981,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00"
     }
   ],
-  "checkedAt": "2026-11-05T17:44:56.632946+00:00",
+  "checkedAt": "2026-11-06T07:59:47.518573+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -15794,8 +16058,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 9,
-    "articleImages": 391,
+    "newItems": 7,
+    "articleImages": 398,
     "duplicateHeadlinesSkipped": 0
   }
 };

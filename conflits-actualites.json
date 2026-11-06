@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-05T17:44:56.632946+00:00",
+  "checkedAt": "2026-11-06T07:59:47.518573+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -53,9 +53,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-05T17:45:19.454836+00:00",
+        "checkedAt": "2026-11-06T07:59:54.394603+00:00",
         "updatedAt": "2026-11-05T17:45:19.454836+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Dans les zones de conflit, les attaques contre les réseaux d’eau ont triplé en quatre ans",
@@ -91,7 +91,7 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-05T17:45:19.454836+00:00",
+        "checkedAt": "2026-11-06T07:59:54.394603+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -154,9 +154,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-05T17:45:19.454836+00:00",
+        "checkedAt": "2026-11-06T07:59:54.394603+00:00",
         "updatedAt": "2026-11-05T17:45:19.454836+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Les images de destruction à Gaza remplacées sur Apple Plans ? Retour sur une confusion",
