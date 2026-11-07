@@ -1,7 +1,264 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-06",
+  "updatedAt": "2026-11-07",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T03:12:05+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Chine : Xi Jinping a soldé les purges. Sièges vacants au Comité central du Parti",
+      "url": "https://www.revueconflits.com/chine-xi-jinping-a-solde-les-purges-sieges-vacants-au-comite-central-du-parti/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie de l'Est",
+        "Abonné",
+        "Chine"
+      ],
+      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap23070531_000009-e1793899854522.jpg",
+        "kind": "article",
+        "alt": "Chine : Xi Jinping a soldé les purges. Sièges vacants au Comité central du Parti",
+        "credit": "Li Xiang/Xinhua via AP",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/chine-xi-jinping-a-solde-les-purges-sieges-vacants-au-comite-central-du-parti/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/chine-xi-jinping-a-solde-les-purges-sieges-vacants-au-comite-central-du-parti/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-07",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap23070531_000009-e1793899854522.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T03:00:19+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Quand le Sud corrige la carte du monde : la résolution « Correct the map »",
+      "url": "https://www.revueconflits.com/quand-le-sud-corrige-la-carte-du-monde-la-resolution-correct-the-map-entre-science-geopolitique-et-relativisation-cartographique/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Cartes",
+        "Histoire",
+        "Abonné"
+      ],
+      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/Equal-Earth-Map-0-FR-1-scaled.jpg",
+        "kind": "article",
+        "alt": "Quand le Sud corrige la carte du monde : la résolution « Correct the map »",
+        "credit": "Carte avec projection Equal Earth. (C) Initiative Correct the map/AfricaNoFilter/SpeakUpAfrica",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/quand-le-sud-corrige-la-carte-du-monde-la-resolution-correct-the-map-entre-science-geopolitique-et-relativisation-cartographique/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/quand-le-sud-corrige-la-carte-du-monde-la-resolution-correct-the-map-entre-science-geopolitique-et-relativisation-cartographique/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-07",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/Equal-Earth-Map-0-FR-1-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T00:01:00+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Digital Veteran Card passes 23,000 downloads as veterans encouraged to discover its benefits",
+      "url": "https://www.gov.uk/government/news/digital-veteran-card-passes-23000-downloads-as-veterans-encouraged-to-discover-its-benefits",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "More than 23,000 digital Veteran Cards have been downloaded since launch in October 2025, helping veterans access discounts and prove…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6aed96a27114b585be74359b/s300_DVC-GovUK.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/digital-veteran-card-passes-23000-downloads-as-veterans-encouraged-to-discover-its-benefits",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/digital-veteran-card-passes-23000-downloads-as-veterans-encouraged-to-discover-its-benefits",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-07"
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T00:01:00+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "UK military satellite Titania launches into orbit following £3bn space investment into defence of space",
+      "url": "https://www.gov.uk/government/news/uk-military-satellite-titania-launches-into-orbit-following-3bn-space-investment-into-defence-of-space",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "UK launches Titania into orbit, giving the Armed Forces improved observation from space, along with new trial network of ground…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6aede9eb50eee557ac63ac1b/s300_Image_from_BAE_Systems__artist_s_impression_of_Titania_in_space.png",
+        "kind": "article",
+        "alt": "Image from BAE systems, artist's impression of Titania in space",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/uk-military-satellite-titania-launches-into-orbit-following-3bn-space-investment-into-defence-of-space",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/uk-military-satellite-titania-launches-into-orbit-following-3bn-space-investment-into-defence-of-space",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-07"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T18:32:50+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La France, Chypre et la Suède ont signé un accord-cadre pour l’acquisition conjointe de missiles antichars Akeron MP",
+      "url": "https://www.opex360.com/2026/11/06/la-france-chypre-et-la-suede-ont-signe-un-accord-cadre-pour-lacquisition-conjointe-de-missiles-antichars-akeron-mp/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "achat conjoint",
+        "Akeron MP",
+        "Chypre",
+        "DGA",
+        "forces terrestres",
+        "France",
+        "missile antichar",
+        "MMP",
+        "SAFE",
+        "Suède"
+      ],
+      "sourceExcerpt": {
+        "text": "En juillet 2021, la Direction générale de l’armement [DGA] et l’Administration suédoise du matériel de défense [Försvarets materielverk, FMV] établirent…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/mmp-froid-20190321.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La France, Chypre et la Suède ont signé un accord-cadre pour l’acquisition conjointe de missiles antichars Akeron MP ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/06/la-france-chypre-et-la-suede-ont-signe-un-accord-cadre-pour-lacquisition-conjointe-de-missiles-antichars-akeron-mp/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/06/la-france-chypre-et-la-suede-ont-signe-un-accord-cadre-pour-lacquisition-conjointe-de-missiles-antichars-akeron-mp/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-07",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/mmp-froid-20190321.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T18:02:14+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Saab receives order to equip Sweden’s new frigates",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-receives-order-to-equip-swedens-new-frigates/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "EURONAVAL 2026",
+        "FDI",
+        "Naval Group",
+        "Saab",
+        "Swedish Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "On November 6, 2026, Saab announced that it had signed a contract with Naval Group to equip the FDI frigates…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/02/Naval-Group-FDI-Sweden-768x573.jpg",
+        "kind": "article",
+        "alt": "Swedish FDI",
+        "credit": "FDI in a Royal Swedish Navy configuration as seen on a poster displayed by Naval Group during Navy Tech 2026.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-receives-order-to-equip-swedens-new-frigates/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-receives-order-to-equip-swedens-new-frigates/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-07",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/02/Naval-Group-FDI-Sweden.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T17:52:24+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Les hélicoptères H145M allemands dédiés à la lutte antichar ne pourront pas être opérationnels dans les délais prévus",
+      "url": "https://www.opex360.com/2026/11/06/les-helicopteres-h145m-allemands-dedies-a-la-lutte-antichar-ne-pourront-pas-etre-operationnels-dans-les-delais-prevus/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces terrestres",
+        "Industrie",
+        "antichar",
+        "Bundeswehr",
+        "Cour des comptes",
+        "EC6665 Tigre",
+        "H145M",
+        "hélicoptère de combat",
+        "missile",
+        "Spike"
+      ],
+      "sourceExcerpt": {
+        "text": "En 2023, le ministère allemand de la Défense fit savoir qu’il allait retirer progressivement du service les 51 hélicoptères de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/h145m-bundewehr-20231214.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Les hélicoptères H145M allemands dédiés à la lutte antichar ne pourront pas être opérationnels dans les délais prévus ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/06/les-helicopteres-h145m-allemands-dedies-a-la-lutte-antichar-ne-pourront-pas-etre-operationnels-dans-les-delais-prevus/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/06/les-helicopteres-h145m-allemands-dedies-a-la-lutte-antichar-ne-pourront-pas-etre-operationnels-dans-les-delais-prevus/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-07",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/h145m-bundewehr-20231214.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-06",
       "publishedAt": "2026-11-06T16:37:43+00:00",
@@ -123,6 +380,45 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-06",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/kongsberg-aegir-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T13:27:28+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Babcock and Everllence sign MOU to power the next generation of Arrowhead Frigates",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-and-everllence-sign-mou-to-power-the-next-generation-of-arrowhead-frigates/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "Arrowhead 140",
+        "Babcock",
+        "EURONAVAL 2026",
+        "Everllence"
+      ],
+      "sourceExcerpt": {
+        "text": "Babcock has signed a Memorandum of Understanding (MoU) with Everllence, a leading Danish provider of propulsion, decarbonisation and efficiency solutions…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Paris-Euronaval-Babcock-Everllence-Signing2-768x512.jpg",
+        "kind": "article",
+        "alt": "Babcock and Everllence sign MOU to power the next generation of Arrowhead Frigates",
+        "credit": "Babcock picture from the signing ceremony at Euronaval 2026",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-and-everllence-sign-mou-to-power-the-next-generation-of-arrowhead-frigates/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/babcock-and-everllence-sign-mou-to-power-the-next-generation-of-arrowhead-frigates/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-07",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Paris-Euronaval-Babcock-Everllence-Signing2.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -8383,7 +8679,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00"
+      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00"
     },
     {
       "date": "2026-10-23",
@@ -8396,7 +8692,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00"
+      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00"
     },
     {
       "date": "2026-10-22",
@@ -9020,7 +9316,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00"
+      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00"
     },
     {
       "date": "2026-10-21",
@@ -16123,7 +16419,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00"
+      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00"
     },
     {
       "date": "2026-10-07",
@@ -16337,10 +16633,10 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-05T17:45:13.236302+00:00"
+      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00"
     }
   ],
-  "checkedAt": "2026-11-06T17:35:53.647669+00:00",
+  "checkedAt": "2026-11-07T07:44:48.245625+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -16359,7 +16655,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 2,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -16389,13 +16685,13 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 8,
+        "recentItems": 7,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -16417,8 +16713,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 10,
-    "articleImages": 406,
+    "newItems": 8,
+    "articleImages": 414,
     "duplicateHeadlinesSkipped": 0
   }
 };

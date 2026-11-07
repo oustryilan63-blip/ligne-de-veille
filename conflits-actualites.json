@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-06T17:35:53.647669+00:00",
+  "checkedAt": "2026-11-07T07:44:48.245625+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -53,13 +53,13 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-06T17:36:01.285229+00:00",
-        "updatedAt": "2026-11-05T17:45:19.454836+00:00",
-        "status": "retained",
+        "checkedAt": "2026-11-07T07:44:58.731145+00:00",
+        "updatedAt": "2026-11-07T07:44:58.731145+00:00",
+        "status": "updated",
         "paragraphs": [
           {
             "title": "Dans les zones de conflit, les attaques contre les réseaux d’eau ont triplé en quatre ans",
-            "text": "De Gaza à l’Ukraine, en passant par le Soudan et le Burkina Faso, les systèmes d’approvisionnement en eau sont de plus en plus touchées par les conflits armés. Selon un rapport de l’UNICEF, le nombre d’attaques signalées contre ces infrastructures a triplé entre 2021 et 2025, avec des conséquences particulièrement graves pour les enfants, exposés aux maladies, à la malnutrition et aux violences.",
+            "text": "De Gaza à l’Ukraine, en passant par le Soudan et le Burkina Faso, les systèmes d’approvisionnement en eau sont de plus en plus touchés par les conflits armés. Selon un rapport de l’UNICEF, le nombre d’attaques signalées contre ces infrastructures a triplé entre 2021 et 2025, avec des conséquences particulièrement graves pour les enfants, exposés aux maladies, à la malnutrition et aux violences.",
             "truncated": false,
             "source": "ONU Info",
             "url": "https://news.un.org/feed/view/fr/story/2026/11/1159791",
@@ -77,7 +77,7 @@
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",
@@ -91,7 +91,7 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-06T17:36:01.285229+00:00",
+        "checkedAt": "2026-11-07T07:44:58.731145+00:00",
         "updatedAt": "2026-10-26T17:28:33.220304+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -154,8 +154,8 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-06T17:36:01.285229+00:00",
-        "updatedAt": "2026-11-06T17:36:01.285229+00:00",
+        "checkedAt": "2026-11-07T07:44:58.731145+00:00",
+        "updatedAt": "2026-11-07T07:44:58.731145+00:00",
         "status": "updated",
         "paragraphs": [
           {
@@ -167,18 +167,26 @@
             "publishedAt": "2026-11-05T13:57:04+00:00"
           },
           {
-            "title": "La Corée du Sud va déployer sa marine près du détroit d'Ormuz pour en garantir la circulation",
-            "text": "Séoul va élargir la zone d'opérations de l'unité antipiraterie Cheonghae de sa marine et déployer un destroyer, un avion de patrouille maritime et une équipe de déminage près du détroit d'Ormuz, a annoncé le ministère sud-coréen de la Défense jeudi. Cette mobilisation intervient dans le cadre d'une mission contribuant à garantir la circulation dans cette voie maritime.",
+            "title": "Yémen : la mort d’un nouvel employé de l’ONU aux mains des houthistes ravive les inquiétudes",
+            "text": "La mort récente en détention de Mohammad el Shami, deuxième employé des Nations Unies à décéder aux mains des rebelles houthistes au Yémen, suscite de graves inquiétudes sur le sort des autres personnels retenus prisonniers. Jeudi, l’ONU a réclamé une enquête indépendante et dénoncé le manque d’informations sur leur état de santé, alors que les combats continuent de déplacer des centaines de milliers de civils.",
             "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261105-coree-sud-va-deployer-marine-d%C3%A9troit-ormuz-pour-garantir-circulation-iran-moyen-orient-cheonghae-antipiraterie-deminage-defense-commerce",
-            "publishedAt": "2026-11-05T03:03:30+00:00"
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159797",
+            "publishedAt": "2026-11-05T12:00:00+00:00"
+          },
+          {
+            "title": "Dans les zones de conflit, les attaques contre les réseaux d’eau ont triplé en quatre ans",
+            "text": "De Gaza à l’Ukraine, en passant par le Soudan et le Burkina Faso, les systèmes d’approvisionnement en eau sont de plus en plus touchés par les conflits armés. Selon un rapport de l’UNICEF, le nombre d’attaques signalées contre ces infrastructures a triplé entre 2021 et 2025, avec des conséquences particulièrement graves pour les enfants, exposés aux maladies, à la malnutrition et aux violences.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159791",
+            "publishedAt": "2026-11-05T12:00:00+00:00"
           }
         ],
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",
