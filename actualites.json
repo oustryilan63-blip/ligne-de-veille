@@ -4,6 +4,253 @@
   "items": [
     {
       "date": "2026-11-07",
+      "publishedAt": "2026-11-07T15:32:12+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Euronaval 2026: France Orders 32-Cell Aster Missile Upgrade for FDI Frigates",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/france-orders-32-aster-missiles-upgrade-fdi-frigates/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "Aster",
+        "FDI",
+        "French Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "France officially ordered a 32-cell VLS upgrade for the French Navy's FDI frigates at Euronaval 2026, doubling their Aster missile…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-07T17:22:47.834198+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/France-Orders-32-Cell-Aster-Missile-Upgrade-for-FDI-Frigates-768x432.jpg",
+        "kind": "article",
+        "alt": "France Orders 32-Cell Aster Missile Upgrade for FDI Frigates",
+        "credit": "Artist's impression of an FDI frigate launching an Aster surface-to-air missile. Note the 32-cell configuration. Naval Group image.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/france-orders-32-aster-missiles-upgrade-fdi-frigates/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/france-orders-32-aster-missiles-upgrade-fdi-frigates/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-07",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/France-Orders-32-Cell-Aster-Missile-Upgrade-for-FDI-Frigates.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T15:11:58+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le ministère des Armées accélère la mise au point d’un canon électromagnétique pour la Marine avec le projet SPALE",
+      "url": "https://www.opex360.com/2026/11/07/le-ministere-des-armees-accelere-la-mise-au-point-dun-canon-electromagnetique-pour-la-marine-avec-le-projet-spale/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Technologie",
+        "AID",
+        "canon élecromagnétique",
+        "DGA",
+        "frégate",
+        "Hemeria",
+        "ISL",
+        "Marine Nationale",
+        "SPALE"
+      ],
+      "sourceExcerpt": {
+        "text": "En mars, il a été rapporté que l’US Navy avait discrètement relancé le développement d’un canon électromagnétique [ou «railgun»], qu’elle…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-07T17:22:47.834198+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/railgun-20261107.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le ministère des Armées accélère la mise au point d’un canon électromagnétique pour la Marine avec le projet SPALE ».",
+        "credit": "AID",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/07/le-ministere-des-armees-accelere-la-mise-au-point-dun-canon-electromagnetique-pour-la-marine-avec-le-projet-spale/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/07/le-ministere-des-armees-accelere-la-mise-au-point-dun-canon-electromagnetique-pour-la-marine-avec-le-projet-spale/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-07",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/railgun-20261107.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T14:16:21+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La Russie dépensait des missiles hors de prix contre des drones à moins de 70 000 euros, elle vient de monter un canon sur un camion",
+      "url": "https://www.forum-militaire.fr/la-russie-depensait-des-missiles-hors-de-prix-contre-des-drones-a-moins-de-70-000-euros-elle-vient-de-monter-un-canon-sur-un-camion/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de l'air",
+        "drone"
+      ],
+      "sourceExcerpt": {
+        "text": "Le conglomérat d’armement russe présente une version mobile de sa tourelle antidrone, jusqu’ici réservée à la protection de sites fixes,…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T12:31:05+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le chasseur-bombardier F-35B a largué un missile air-air [inerte] METEOR pour la première fois",
+      "url": "https://www.opex360.com/2026/11/07/le-chasseur-bombardier-f-35b-a-largue-un-missile-air-air-inerte-meteor-pour-la-premiere-fois/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Industrie",
+        "F-35B",
+        "intégration",
+        "JPO F-35",
+        "Lockheed Martn",
+        "MBDA",
+        "Meteor",
+        "missile",
+        "RAF",
+        "Royaume-Uni",
+        "soute"
+      ],
+      "sourceExcerpt": {
+        "text": "Pour le moment, la Royal Air Force et la Fleet Air Arm ne peuvent pas exploiter pleinement les capacités de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-07T17:22:47.834198+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/f35b-meteor-20261107.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le chasseur-bombardier F-35B a largué un missile air-air [inerte] METEOR pour la première fois ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/07/le-chasseur-bombardier-f-35b-a-largue-un-missile-air-air-inerte-meteor-pour-la-premiere-fois/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/07/le-chasseur-bombardier-f-35b-a-largue-un-missile-air-air-inerte-meteor-pour-la-premiere-fois/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-07",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/f35b-meteor-20261107.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T11:08:36+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Contrat record pour les équipes belges de Thales",
+      "url": "https://forcesoperations.com/contrat-record-pour-les-equipes-belges-de-thales/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "hélicoptère de combat",
+        "Inde",
+        "roquette",
+        "Thales Belgium"
+      ],
+      "sourceExcerpt": {
+        "text": "Thales Belgium livrera plusieurs centaines de paniers de roquettes supplémentaires à l'Inde, une commande au volume record pour une filiale…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-07T17:22:47.834198+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/11/Contrat-record-pour-les-equipes-belges-de-Thales_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Contrat record pour les équipes belges de Thales ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/contrat-record-pour-les-equipes-belges-de-thales/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/contrat-record-pour-les-equipes-belges-de-thales/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-07",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/11/Contrat-record-pour-les-equipes-belges-de-Thales_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T08:49:51+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La France est au centre de toutes les attentions du Brésil, plus précisément Cherbourg pour son futur sous-marin nucléaire d’attaque :…",
+      "url": "https://www.forum-militaire.fr/le-bresil-regarde-avec-beaucoup-dattention-ce-qui-se-passe-a-cherbourg-sur-son-futur-sous-marin-nucleaire-dattaque-lalvaro-alberto/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Industrie",
+        "Marines militaires",
+        "contrat",
+        "France",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "La France est l’un des deux seuls pays au monde (avec le Royaume-Uni via AUKUS) à transférer aujourd’hui son savoir-faire…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T06:17:03+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Le crédit de trop : Ueno Bank fait tomber la vitrine économique paraguayenne",
+      "url": "https://www.revueconflits.com/le-credit-de-trop-ueno-bank-fait-tomber-la-vitrine-economique-paraguayenne/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique latine",
+        "Abonné"
+      ],
+      "imageCheckedAt": "2026-11-07T17:22:47.834198+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2023/03/Screenshot-2023-03-15-at-17.52.00.png",
+        "kind": "article",
+        "alt": "Le crédit de trop : Ueno Bank fait tomber la vitrine économique paraguayenne",
+        "credit": "Drapeau du Paraguay",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/le-credit-de-trop-ueno-bank-fait-tomber-la-vitrine-economique-paraguayenne/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/le-credit-de-trop-ueno-bank-fait-tomber-la-vitrine-economique-paraguayenne/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-07",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2023/03/Screenshot-2023-03-15-at-17.52.00.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-07",
       "publishedAt": "2026-11-07T03:12:05+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -599,6 +846,44 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-06",
         "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/06/Eurosatory-2026-le-VBAE-entre-refonte-du-besoin-et-espoir-dune-decision-politique_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T10:00:06+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-unveils-new-multi-mission-modular-vessel-at-euronaval-2026/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "EURONAVAL 2026",
+        "Fincantieri",
+        "MMMV"
+      ],
+      "sourceExcerpt": {
+        "text": "On November 5, 2026, Italian shipbuilder Fincantieri unveiled the Multi-Mission Modular Vessel, claiming a new generation of adaptable and modular…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-07T17:22:47.834198+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/MMMV-768x576.jpeg",
+        "kind": "article",
+        "alt": "Fincantieri unveils new Multi-Mission Modular Vessel at Euronaval 2026",
+        "credit": "Fincantieri's demonstration of Multi-Mission Modular Vessel at Euronaval 2026",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-unveils-new-multi-mission-modular-vessel-at-euronaval-2026/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-unveils-new-multi-mission-modular-vessel-at-euronaval-2026/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-07",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/MMMV.jpeg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -16636,7 +16921,7 @@
       "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00"
     }
   ],
-  "checkedAt": "2026-11-07T07:44:48.245625+00:00",
+  "checkedAt": "2026-11-07T17:22:42.112594+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -16685,7 +16970,7 @@
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 7,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -16714,7 +16999,7 @@
       }
     ],
     "newItems": 8,
-    "articleImages": 414,
+    "articleImages": 420,
     "duplicateHeadlinesSkipped": 0
   }
 }
