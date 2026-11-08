@@ -1,7 +1,41 @@
 {
-  "updatedAt": "2026-11-07",
+  "updatedAt": "2026-11-08",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-08",
+      "publishedAt": "2026-11-08T03:21:54+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Le Brésil a conquis le soja",
+      "url": "https://www.revueconflits.com/le-bresil-a-conquis-le-soja/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique latine",
+        "Abonné",
+        "Agriculture",
+        "Brésil"
+      ],
+      "imageCheckedAt": "2026-11-08T07:46:19.312436+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/final.png",
+        "kind": "article",
+        "alt": "Le Brésil a conquis le soja",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/le-bresil-a-conquis-le-soja/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/le-bresil-a-conquis-le-soja/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-08",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/final.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-07",
       "publishedAt": "2026-11-07T15:32:12+00:00",
@@ -189,6 +223,52 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-07",
         "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/11/Contrat-record-pour-les-equipes-belges-de-Thales_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "publishedAt": "2026-11-07T11:02:23+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "À son tour, Sierra Nevada renonce à l’appel d’offres de l’US Navy pour remplacer l’avion d’entraînement T45C Goshawk",
+      "url": "https://www.opex360.com/2026/11/07/a-son-tour-sierra-nevada-renonce-a-lappel-doffres-de-lus-navy-pour-remplacer-lavion-dentrainement-t45c-goshawk/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amériques",
+        "Forces navales",
+        "aéronautique navale",
+        "Aéronavale",
+        "formation",
+        "Freedom Trainer",
+        "M346N",
+        "Marine Nationale",
+        "pilotes",
+        "Sierra Nevada Corp",
+        "T-445C Goshawk",
+        "Textron"
+      ],
+      "sourceExcerpt": {
+        "text": "Les récents débats sur le porte-avions de nouvelle génération [PANG] «France Libre» ont surtout porté sur le risque de dépendance…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-08T07:46:19.312436+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/freedom-trainer-20250822.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « À son tour, Sierra Nevada renonce à l’appel d’offres de l’US Navy pour remplacer l’avion d’entraînement T45C Goshawk ».",
+        "credit": "Sierra Nevada Corp",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/07/a-son-tour-sierra-nevada-renonce-a-lappel-doffres-de-lus-navy-pour-remplacer-lavion-dentrainement-t45c-goshawk/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/07/a-son-tour-sierra-nevada-renonce-a-lappel-doffres-de-lus-navy-pour-remplacer-lavion-dentrainement-t45c-goshawk/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-08",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/freedom-trainer-20250822.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -916,6 +996,44 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-06",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/10/conflits-lecteur-scaled-e1737970920644.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T09:18:28+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-and-j-a-solutions-sign-loi-to-advance-modularity-for-next-generation-naval-vessels/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "EURONAVAL 2026",
+        "Fincantieri",
+        "JA Solutions"
+      ],
+      "sourceExcerpt": {
+        "text": "Fincantieri and J.A. Solutions have signed a Letter of Intent (LoI) aimed at developing a strategic industrial collaboration in the…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-08T07:46:19.312436+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-19.46.05-768x576.jpeg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Fincantieri and J.A. Solutions Sign LoI to Advance Modularity for Next-Generation Naval Vessels ».",
+        "credit": "JA Solutions)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-and-j-a-solutions-sign-loi-to-advance-modularity-for-next-generation-naval-vessels/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/fincantieri-and-j-a-solutions-sign-loi-to-advance-modularity-for-next-generation-naval-vessels/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-08",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-19.46.05.jpeg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -8964,7 +9082,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00"
+      "imageCheckedAt": "2026-11-08T07:46:19.312436+00:00"
     },
     {
       "date": "2026-10-23",
@@ -8977,7 +9095,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00"
+      "imageCheckedAt": "2026-11-08T07:46:19.312436+00:00"
     },
     {
       "date": "2026-10-22",
@@ -9601,7 +9719,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00"
+      "imageCheckedAt": "2026-11-08T07:46:19.312436+00:00"
     },
     {
       "date": "2026-10-21",
@@ -16704,7 +16822,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00"
+      "imageCheckedAt": "2026-11-08T07:46:19.312436+00:00"
     },
     {
       "date": "2026-10-07",
@@ -16918,10 +17036,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-07T07:44:53.505339+00:00"
+      "imageCheckedAt": "2026-11-08T07:46:19.312436+00:00"
     }
   ],
-  "checkedAt": "2026-11-07T17:22:42.112594+00:00",
+  "checkedAt": "2026-11-08T07:46:14.831477+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -16998,8 +17116,8 @@
         "error": null
       }
     ],
-    "newItems": 8,
-    "articleImages": 420,
+    "newItems": 3,
+    "articleImages": 423,
     "duplicateHeadlinesSkipped": 0
   }
 }
