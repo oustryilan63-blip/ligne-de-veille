@@ -4,6 +4,213 @@
   "items": [
     {
       "date": "2026-11-08",
+      "publishedAt": "2026-11-08T14:24:22+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La France a lancé l’étude de ce missile nucléaire en 2014, il entrera en service vers 2035, et personne n’a jamais confirmé sa vitesse",
+      "url": "https://www.forum-militaire.fr/la-france-a-lance-letude-de-ce-missile-nucleaire-en-2014-il-entrera-en-service-vers-2035-et-personne-na-jamais-confirme-sa-vitesse/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de l'air",
+        "avion",
+        "France"
+      ],
+      "sourceExcerpt": {
+        "text": "Le futur missile de la composante aéroportée française volera au-delà de Mach 5 en manœuvrant, mais l’État n’en a publié…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "publishedAt": "2026-11-08T13:01:57+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Construire la paix, le rêve fou du Sahel",
+      "url": "https://www.revueconflits.com/construire-la-paix-le-reve-fou-du-sahel/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Afrique de l'Ouest",
+        "Abonné",
+        "Maroc",
+        "Sahel"
+      ],
+      "imageCheckedAt": "2026-11-08T17:22:00.004859+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/Sahel-conflits.png",
+        "kind": "article",
+        "alt": "Construire la paix, le rêve fou du Sahel",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/construire-la-paix-le-reve-fou-du-sahel/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/construire-la-paix-le-reve-fou-du-sahel/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-08",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/Sahel-conflits.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "publishedAt": "2026-11-08T12:13:27+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le porte-avions britannique HMS Queen Elizabeth a lancé ses premiers drones d’attaque",
+      "url": "https://www.opex360.com/2026/11/08/le-porte-avions-britannique-hms-queen-elizabeth-a-lance-ses-premiers-drones-dattaque/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces navales",
+        "drone",
+        "drone d'attaque",
+        "HMS Queen Elizabeth",
+        "Nyan",
+        "porte-avions",
+        "Royal Navy",
+        "Royaume-Uni",
+        "Tekever AR5",
+        "Vantage"
+      ],
+      "sourceExcerpt": {
+        "text": "Lors du salon de l’armement DSEI 25, le chef d’état-major de la Royal Navy, le général Gwyn Jenkins, avait fixé…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-08T17:22:00.004859+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/nyan-20261108.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le porte-avions britannique HMS Queen Elizabeth a lancé ses premiers drones d’attaque ».",
+        "credit": "Royal Navy",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/08/le-porte-avions-britannique-hms-queen-elizabeth-a-lance-ses-premiers-drones-dattaque/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/08/le-porte-avions-britannique-hms-queen-elizabeth-a-lance-ses-premiers-drones-dattaque/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-08",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/nyan-20261108.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "publishedAt": "2026-11-08T11:10:01+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "ArianeGroup suggère d’armer la Frégate de défense et d’intervention avec des missiles balistiques antinavires",
+      "url": "https://www.opex360.com/2026/11/08/arianegroup-suggere-darmer-la-fregate-de-defense-et-dintervention-avec-des-missiles-balistiques-antinavires/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Armement",
+        "Forces navales",
+        "ArianeGroup",
+        "B-Strike 1000",
+        "Euronaval",
+        "FDI",
+        "Frégate de défense et d'intervention",
+        "Marine Nationale",
+        "missile balistique antinavire"
+      ],
+      "sourceExcerpt": {
+        "text": "En 2018, alors chef d’état-major de la Marine nationale [CEMM], l’amiral Christophe Prazuck avait relativisé la menace du missile balistique…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-08T17:22:00.004859+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/bstrike-fdi-20261108.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « ArianeGroup suggère d’armer la Frégate de défense et d’intervention avec des missiles balistiques antinavires ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/08/arianegroup-suggere-darmer-la-fregate-de-defense-et-dintervention-avec-des-missiles-balistiques-antinavires/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/08/arianegroup-suggere-darmer-la-fregate-de-defense-et-dintervention-avec-des-missiles-balistiques-antinavires/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-08",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/bstrike-fdi-20261108.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "publishedAt": "2026-11-08T09:38:42+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Naval Group to Build UCUV Underwater Combat Drone Demonstrator for French Navy",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-to-build-ucuv-underwater-combat-drone-demonstrator-for-french-navy/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "Naval Group",
+        "UCUV",
+        "XLUUV"
+      ],
+      "sourceExcerpt": {
+        "text": "Naval Group will build an operational Unmanned Combat Underwater Vehicle (UCUV) demonstrator for the French Navy, with sea trials scheduled…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-08T17:22:00.004859+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/seagent-ink-768x494.jpeg",
+        "kind": "article",
+        "alt": "Naval Group to Build UCUV Underwater Combat Drone Demonstrator for French Navy",
+        "credit": "SEAGENT XL scale model at Euronaval 2026",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-to-build-ucuv-underwater-combat-drone-demonstrator-for-french-navy/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-to-build-ucuv-underwater-combat-drone-demonstrator-for-french-navy/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-08",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/seagent-ink-scaled.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "publishedAt": "2026-11-08T08:56:11+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La Chine n’a jamais eu à le combattre mais l’URSS avait préparé un concept étonnant de « train-char » en cas de guerre avec le BTL-1",
+      "url": "https://www.forum-militaire.fr/un-train-blinde-svoietique-pour-contrer-la-chine/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Armes / chasse",
+        "Blindé",
+        "Histoire"
+      ],
+      "sourceExcerpt": {
+        "text": "Un char qui descend d’un wagon de marchandises pour attaquer, puis y remonte pour disparaître dans la steppe sibérienne. Non,…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-08",
       "publishedAt": "2026-11-08T03:21:54+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -17039,7 +17246,7 @@
       "imageCheckedAt": "2026-11-08T07:46:19.312436+00:00"
     }
   ],
-  "checkedAt": "2026-11-08T07:46:14.831477+00:00",
+  "checkedAt": "2026-11-08T17:21:56.494020+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -17088,7 +17295,7 @@
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -17116,8 +17323,8 @@
         "error": null
       }
     ],
-    "newItems": 3,
-    "articleImages": 423,
+    "newItems": 6,
+    "articleImages": 427,
     "duplicateHeadlinesSkipped": 0
   }
 }
