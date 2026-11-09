@@ -1,7 +1,41 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-08",
+  "updatedAt": "2026-11-09",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-09T02:20:58+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Le vote latino aux États-Unis : un courant alternatif",
+      "url": "https://www.revueconflits.com/le-vote-latino-aux-etats-unis-un-courant-alternatif/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique",
+        "Amérique du Nord",
+        "Abonné",
+        "États-Unis"
+      ],
+      "imageCheckedAt": "2026-11-09T08:09:29.926708+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/09/P20260103MR-0582_President_Donald_Trump_and_Secretary_of_State_Marco_Rubio_monitor_U.S._military_operations_in_Venezuela.jpg",
+        "kind": "article",
+        "alt": "Le vote latino aux États-Unis : un courant alternatif",
+        "credit": "Donald Trump pendant l'opération Absolute Resolve le 3 janvier 2027 ayant conduit à l'arrestation de Maduro. (C) The White House",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/le-vote-latino-aux-etats-unis-un-courant-alternatif/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/le-vote-latino-aux-etats-unis-un-courant-alternatif/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-09",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/09/P20260103MR-0582_President_Donald_Trump_and_Secretary_of_State_Marco_Rubio_monitor_U.S._military_operations_in_Venezuela.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-08",
       "publishedAt": "2026-11-08T14:24:22+00:00",
@@ -9289,7 +9323,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-08T07:46:19.312436+00:00"
+      "imageCheckedAt": "2026-11-09T08:09:29.926708+00:00"
     },
     {
       "date": "2026-10-23",
@@ -9302,7 +9336,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-08T07:46:19.312436+00:00"
+      "imageCheckedAt": "2026-11-09T08:09:29.926708+00:00"
     },
     {
       "date": "2026-10-22",
@@ -9926,7 +9960,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-08T07:46:19.312436+00:00"
+      "imageCheckedAt": "2026-11-09T08:09:29.926708+00:00"
     },
     {
       "date": "2026-10-21",
@@ -17029,7 +17063,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-08T07:46:19.312436+00:00"
+      "imageCheckedAt": "2026-11-09T08:09:29.926708+00:00"
     },
     {
       "date": "2026-10-07",
@@ -17243,10 +17277,10 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-08T07:46:19.312436+00:00"
+      "imageCheckedAt": "2026-11-09T08:09:29.926708+00:00"
     }
   ],
-  "checkedAt": "2026-11-08T17:21:56.494020+00:00",
+  "checkedAt": "2026-11-09T08:09:26.579485+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -17283,7 +17317,7 @@ window.LDV_NEWS = {
       {
         "source": "Forum Militaire",
         "ok": true,
-        "recentItems": 14,
+        "recentItems": 13,
         "error": null
       },
       {
@@ -17319,12 +17353,12 @@ window.LDV_NEWS = {
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 2,
         "error": null
       }
     ],
-    "newItems": 6,
-    "articleImages": 427,
+    "newItems": 1,
+    "articleImages": 428,
     "duplicateHeadlinesSkipped": 0
   }
 };
