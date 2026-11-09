@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-09T08:09:26.579485+00:00",
+  "checkedAt": "2026-11-09T17:44:57.519475+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -53,10 +53,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-09T08:09:34.681457+00:00",
-        "updatedAt": "2026-11-07T07:44:58.731145+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-11-09T17:45:43.078026+00:00",
+        "updatedAt": "2026-11-09T17:45:43.078026+00:00",
+        "status": "updated",
         "paragraphs": [
+          {
+            "title": "EN DIRECT | Réunion du Conseil de sécurité sur la guerre en Ukraine",
+            "text": "À la demande de l’Ukraine, qui dénonce les attaques russes du 29 octobre contre les villes de Dnipro, Tchernihiv et Krementchouk, dans lesquelles 19 personnes auraient trouvé la morts, le Conseil de sécurité se réunit lundi matin pour faire le point sur la situation. Suivez les temps forts en direct grâce à la Section de la couverture des réunions des Nations Unies.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159806",
+            "publishedAt": "2026-11-09T12:00:00+00:00"
+          },
           {
             "title": "Dans les zones de conflit, les attaques contre les réseaux d’eau ont triplé en quatre ans",
             "text": "De Gaza à l’Ukraine, en passant par le Soudan et le Burkina Faso, les systèmes d’approvisionnement en eau sont de plus en plus touchés par les conflits armés. Selon un rapport de l’UNICEF, le nombre d’attaques signalées contre ces infrastructures a triplé entre 2021 et 2025, avec des conséquences particulièrement graves pour les enfants, exposés aux maladies, à la malnutrition et aux violences.",
@@ -64,14 +72,6 @@
             "source": "ONU Info",
             "url": "https://news.un.org/feed/view/fr/story/2026/11/1159791",
             "publishedAt": "2026-11-05T12:00:00+00:00"
-          },
-          {
-            "title": "Ukraine : deux jours d’école sur trois perturbés par les alertes aériennes",
-            "text": "Depuis le début de l’invasion russe de grande ampleur en février 2022, près de 2 000 attaques ont visé le secteur de l’éducation en Ukraine, dont environ 270 en 2026, selon l’UNICEF. Depuis la rentrée scolaire, les alertes aériennes affectent près de deux jours d’école sur trois, d’après les données arrêtées au 20 octobre.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159775",
-            "publishedAt": "2026-11-03T12:00:00+00:00"
           }
         ],
         "sources": [
@@ -91,7 +91,7 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-09T08:09:34.681457+00:00",
+        "checkedAt": "2026-11-09T17:45:43.078026+00:00",
         "updatedAt": null,
         "status": "empty",
         "paragraphs": [],
@@ -145,10 +145,26 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-09T08:09:34.681457+00:00",
-        "updatedAt": "2026-11-09T08:09:34.681457+00:00",
+        "checkedAt": "2026-11-09T17:45:43.078026+00:00",
+        "updatedAt": "2026-11-09T17:45:43.078026+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Gaza : de fortes pluies font quatre morts dans un camp de déplacés palestiniens",
+            "text": "Des pluies torrentielles dans ​la bande de Gaza ont provoqué l'effondrement d'un talus de sable et de pierres sur des tentes de Palestiniens déplacés, tuant une femme et ​trois enfants. Près de 70 000 tentes de camps où vivent des déplacés ont été inondées.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/vid%C3%A9o/20261109-gaza-de-fortes-pluies-font-quatre-morts-dans-un-camp-de-d%C3%A9plac%C3%A9s-palestiniens",
+            "publishedAt": "2026-11-09T17:23:27+00:00"
+          },
+          {
+            "title": "Gaza : les camps inondés, tandis que le matériel de secours s'entasse aux portes de l'enclave",
+            "text": "Les fortes intempéries du week-end ont touché des dizaines de milliers de familles et désorganisé les secours à Gaza. Alors que les stocks humanitaires sont presque épuisés dans l’enclave palestinienne, l’ONU dénonce les restrictions israéliennes et le manque de financements qui entravent l’acheminement de matériel.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159805",
+            "publishedAt": "2026-11-09T12:00:00+00:00"
+          },
           {
             "title": "Yémen : première livraison d'aide médicale du CICR dans la ville de Taëz",
             "text": "Dr Pierre Catoire, médecin urgentiste vice-président de l'ONG Mehad, est notre invité.",
@@ -156,22 +172,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/vid%C3%A9o/20261108-y%C3%A9men-premi%C3%A8re-livraison-d-aide-m%C3%A9dicale-du-cicr-dans-la-ville-de-ta%C3%ABz",
             "publishedAt": "2026-11-08T13:39:15+00:00"
-          },
-          {
-            "title": "Frappes intenses entre les Houthis et l'Arabie saoudite : Sanaa et RIyad touchés",
-            "text": "Les Houthis du Yémen ont annoncé samedi la mort de 27 personnes dans des frappes saoudiennes sur la région de Sanaa, contrôlée par le mouvement pro-iranien, en conflit contre le gouvernement yéménite et l'Arabie saoudite qui l'appuie.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261108-frappes-intenses-entre-les-houthis-et-l-arabie-saoudite-sanaa-et-riyad-touch%C3%A9s",
-            "publishedAt": "2026-11-08T10:49:24+00:00"
-          },
-          {
-            "title": "Yémen : la mort d’un nouvel employé de l’ONU aux mains des houthistes ravive les inquiétudes",
-            "text": "La mort récente en détention de Mohammad el Shami, deuxième employé des Nations Unies à décéder aux mains des rebelles houthistes au Yémen, suscite de graves inquiétudes sur le sort des autres personnels retenus prisonniers. Jeudi, l’ONU a réclamé une enquête indépendante et dénoncé le manque d’informations sur leur état de santé, alors que les combats continuent de déplacer des centaines de milliers de civils.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159797",
-            "publishedAt": "2026-11-05T12:00:00+00:00"
           }
         ],
         "sources": [

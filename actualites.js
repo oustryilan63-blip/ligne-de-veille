@@ -4,6 +4,395 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-11-09",
+      "publishedAt": "2026-11-09T17:35:00+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le ministère des Armées lance la réalisation de deux satellites d’observation IRIS pour 1,5 milliard d’euros",
+      "url": "https://www.opex360.com/2026/11/09/le-ministere-des-armees-lance-la-realisation-de-deux-satellites-dobservation-iris-pour-15-milliard-deuros/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "DGA",
+        "Espace",
+        "Renseignement",
+        "Airbus Defence & Space",
+        "Composante Spatiale Optique",
+        "IRIS",
+        "LPM 2024-30",
+        "satellite",
+        "Thales Alenia Space"
+      ],
+      "sourceExcerpt": {
+        "text": "Lors de l’examen du projet d’actualisation de la Loi de programmation militaire [LPM] 2024-30, en mai dernier, le chef d’état-major…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-09T17:45:21.984159+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/iris-20261109.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le ministère des Armées lance la réalisation de deux satellites d’observation IRIS pour 1,5 milliard d’euros ».",
+        "credit": "DGA",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/09/le-ministere-des-armees-lance-la-realisation-de-deux-satellites-dobservation-iris-pour-15-milliard-deuros/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/09/le-ministere-des-armees-lance-la-realisation-de-deux-satellites-dobservation-iris-pour-15-milliard-deuros/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-09",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/iris-20261109.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-09T16:12:32+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "General Atomics Ranger UUV to Support Large Payloads, UAVs",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/general-atomics-ranger-uuv-to-support-large-payloads-uavs/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "General Atomics",
+        "Ranger",
+        "UUV"
+      ],
+      "sourceExcerpt": {
+        "text": "At Euronaval 2026, General Atomics revealed its Ranger and GA-Ray long-range UUVs, built for multi-year missions and launching sub-drones and…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-09T17:45:21.984159+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/uuv-callouts-1920x598-1-768x239.jpg",
+        "kind": "article",
+        "alt": "General Atomics Ranger UUV to Support Large Payloads, UAVs",
+        "credit": "Ranger Unmanned Underwater Vehicle. General Atomics graphic",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/general-atomics-ranger-uuv-to-support-large-payloads-uavs/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/general-atomics-ranger-uuv-to-support-large-payloads-uavs/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-09",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/uuv-callouts-1920x598-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-09T16:01:56+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "92 ans au compteur et toujours des idées : l’armée de l’Air a misé cette année sur ce stand géant lors de la Paris Games Week pour attirer…",
+      "url": "https://www.forum-militaire.fr/larmee-de-lair-etait-present-avec-un-stand-colossal-a-la-paris-games-week-pour-promouvoir-ses-4-000-postes-a-pourvoir/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "Orientation métier",
+        "avion",
+        "France",
+        "recrutement"
+      ],
+      "sourceExcerpt": {
+        "text": "À la Paris Games Week 2026, du 22 au 25 octobre, l’armée de l’Air et de l’Espace a installé un…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-09T15:50:44+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le Portugal envisage d’accueillir une école allemande de pilotage dédiée au chasseur-bombardier F-35",
+      "url": "https://www.opex360.com/2026/11/09/le-portugal-envisage-daccueillir-une-ecole-allemande-de-pilotage-dediee-au-chasseur-bombardier-f-35/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces aériennes",
+        "Allemagne",
+        "Boris Pistorius",
+        "école",
+        "F-35A",
+        "Força Aerea Portuguesa",
+        "formation",
+        "Nuno Melo",
+        "pilotage",
+        "Portugal",
+        "Tancos"
+      ],
+      "sourceExcerpt": {
+        "text": "Pour le moment, la force aérienne portugaise [FAP – Força Aérea Portuguesa] attend l’adoption d’une nouvelle loi de programmation militaire…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-09T17:45:21.984159+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/f35-allemagne-20260910.jpeg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le Portugal envisage d’accueillir une école allemande de pilotage dédiée au chasseur-bombardier F-35 ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/09/le-portugal-envisage-daccueillir-une-ecole-allemande-de-pilotage-dediee-au-chasseur-bombardier-f-35/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/09/le-portugal-envisage-daccueillir-une-ecole-allemande-de-pilotage-dediee-au-chasseur-bombardier-f-35/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-09",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/f35-allemagne-20260910.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-09T15:02:41+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "MBDA on contract to study Aster 30 missile integration in MK 41 VLS",
+      "url": "https://www.navalnews.com/naval-news/2026/11/mbda-on-contract-to-study-aster-30-missile-integration-in-mk-41-vls/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Aster 30",
+        "MBDA",
+        "MK 41",
+        "VLS"
+      ],
+      "sourceExcerpt": {
+        "text": "MBDA has received a UK MoD contract to examine the viability of integrating the Aster 30 surface-to-air missile with the…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-09T17:45:21.984159+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/MBDA-Aster-CAMM-Stratus-Mk41-IndoPac25-768x579.jpg",
+        "kind": "article",
+        "alt": "MBDA Aster CAMM Stratus Mk41 IndoPac25",
+        "credit": "Scale model showing Aster, CAMM and Stratus missiles integrated with MK 41 launcher at Indo Pacific 2025 in Australia.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/mbda-on-contract-to-study-aster-30-missile-integration-in-mk-41-vls/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/mbda-on-contract-to-study-aster-30-missile-integration-in-mk-41-vls/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-09",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/MBDA-Aster-CAMM-Stratus-Mk41-IndoPac25.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-09T14:33:13+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Koalijca 26.2 : premier test grandeur nature pour la Coalition des volontaires",
+      "url": "https://forcesoperations.com/koalijca-26-2-premier-test-grandeur-nature-pour-la-coalition-des-volontaires/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "Coalition des volontaires",
+        "Koalicja 26.2",
+        "Ukraine"
+      ],
+      "sourceExcerpt": {
+        "text": "C'est l'heure de vérité pour une dizaine de pays de la Coalition des volontaires. L'exercice Koalicja 26.2 démarre aujourd’hui, un…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-09T17:45:21.984159+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/11/Koalijca-26.2-premier-test-grandeur-nature-pour-la-Coalition-des-volontaires_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Koalijca 26.2 : premier test grandeur nature pour la Coalition des volontaires ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/koalijca-26-2-premier-test-grandeur-nature-pour-la-coalition-des-volontaires/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/koalijca-26-2-premier-test-grandeur-nature-pour-la-coalition-des-volontaires/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-09",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/11/Koalijca-26.2-premier-test-grandeur-nature-pour-la-Coalition-des-volontaires_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-09T13:31:48+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La Suède paie plus de 4 milliards d’euros pour des frégates françaises, puis les arme d’un missile suédois qui porte plus loin que le…",
+      "url": "https://www.forum-militaire.fr/la-suede-paie-plus-de-quatre-milliards-deuros-pour-des-fregates-francaises-puis-les-arme-dun-missile-suedois-qui-porte-plus-loin-que-le-francais/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Marines militaires",
+        "France",
+        "marine",
+        "missile"
+      ],
+      "sourceExcerpt": {
+        "text": "Stockholm a signé fin août l’achat de quatre frégates FDI construites par Naval Group, puis a confié le 6 novembre…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-09T12:14:16+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Biodiversité : au Gabon, des botanistes en quête de nouvelles espèces",
+      "url": "https://www.revueconflits.com/biodiversite-au-gabon-des-botanistes-en-quete-de-nouvelles-especes/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Afrique de l'Ouest",
+        "Abonné",
+        "Gabon",
+        "Reportage"
+      ],
+      "imageCheckedAt": "2026-11-09T17:45:21.984159+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/john-wiesenfeld-Ug6z9PCwr58-unsplash-scaled.jpg",
+        "kind": "article",
+        "alt": "Biodiversité : au Gabon, des botanistes en quête de nouvelles espèces",
+        "credit": "Orchidées (c) Unsplash",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/biodiversite-au-gabon-des-botanistes-en-quete-de-nouvelles-especes/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/biodiversite-au-gabon-des-botanistes-en-quete-de-nouvelles-especes/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-09",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/john-wiesenfeld-Ug6z9PCwr58-unsplash-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-09T12:12:19+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Moctar Ould Djay, l’homme des chiffres devenu homme d’État",
+      "url": "https://www.revueconflits.com/moctar-ould-djay-lhomme-des-chiffres-devenu-homme-detat/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Revue Conflits",
+        "Mauritanie"
+      ],
+      "imageCheckedAt": "2026-11-09T17:45:21.984159+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/visuel-premier-ministre-mauritanie-scaled.png",
+        "kind": "article",
+        "alt": "Moctar Ould Djay, l’homme des chiffres devenu homme d’État",
+        "credit": "Moctar Ould Djay",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/moctar-ould-djay-lhomme-des-chiffres-devenu-homme-detat/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/moctar-ould-djay-lhomme-des-chiffres-devenu-homme-detat/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-09",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/visuel-premier-ministre-mauritanie-scaled.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-09T10:00:00+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Lt Gen Phil Prosser joins as CDLS",
+      "url": "https://www.gov.uk/government/news/lt-gen-phil-prosser-joins-as-chief-of-defence-logistics-support",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Lieutenant General Phil Prosser CBE will lead Support operations for the Armed Forces.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-09T17:45:21.984159+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6ae32e47a5c2f99e3a7b82eb/s300_GOV.UK_news_story_-_960x640.jpg",
+        "kind": "article",
+        "alt": "Lieutenant General Phil Prosser",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/lt-gen-phil-prosser-joins-as-chief-of-defence-logistics-support",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/lt-gen-phil-prosser-joins-as-chief-of-defence-logistics-support",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-09T06:36:15+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Arctique : les reflets de Trump dans la glace",
+      "url": "https://www.areion24.news/2026/11/09/arctique-les-reflets-de-trump-dans-la-glace/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Croire que Donald Trump pourrait définitivement abandonner la partie au Groenland relève davantage de l’autosuggestion que de la certitude. Le…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-09T17:45:21.984159+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/11/G_XtajfWAAAxd3W.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Arctique : les reflets de Trump dans la glace ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/11/09/arctique-les-reflets-de-trump-dans-la-glace/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/11/09/arctique-les-reflets-de-trump-dans-la-glace/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-09",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/G_XtajfWAAAxd3W.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-09",
       "publishedAt": "2026-11-09T02:20:58+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -17280,7 +17669,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-09T08:09:29.926708+00:00"
     }
   ],
-  "checkedAt": "2026-11-09T08:09:26.579485+00:00",
+  "checkedAt": "2026-11-09T17:44:57.519475+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -17317,7 +17706,7 @@ window.LDV_NEWS = {
       {
         "source": "Forum Militaire",
         "ok": true,
-        "recentItems": 13,
+        "recentItems": 15,
         "error": null
       },
       {
@@ -17347,18 +17736,18 @@ window.LDV_NEWS = {
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 11,
+        "recentItems": 9,
         "error": null
       },
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 2,
+        "recentItems": 3,
         "error": null
       }
     ],
-    "newItems": 1,
-    "articleImages": 428,
+    "newItems": 11,
+    "articleImages": 437,
     "duplicateHeadlinesSkipped": 0
   }
 };
