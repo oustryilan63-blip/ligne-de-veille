@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-09T17:44:57.519475+00:00",
+  "checkedAt": "2026-11-10T15:16:50.692544+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -16,7 +16,7 @@
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-11-05T17:44:56.632946+00:00",
+      "changedAt": "2026-11-10T15:16:50.692544+00:00",
       "items": [
         {
           "title": "LE BERSEK, LE FUTUR DE L'INFANTERIE UKRAINIENNE ?",
@@ -41,25 +41,17 @@
           "sourceType": "Source officielle",
           "publishedAt": "2026-10-30T10:49:35+00:00",
           "language": "en"
-        },
-        {
-          "title": "L’armée allemande va se procurer le missile-drone ukrainien à très longue portée BARS",
-          "url": "https://www.opex360.com/2026/10/27/larmee-allemande-va-se-procurer-le-missile-drone-ukrainien-a-tres-longue-portee-bars/",
-          "source": "Zone Militaire — Opex360",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-10-27T11:54:24+00:00",
-          "language": "fr"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-09T17:45:43.078026+00:00",
-        "updatedAt": "2026-11-09T17:45:43.078026+00:00",
+        "checkedAt": "2026-11-10T15:17:01.765765+00:00",
+        "updatedAt": "2026-11-10T15:17:01.765765+00:00",
         "status": "updated",
         "paragraphs": [
           {
-            "title": "EN DIRECT | Réunion du Conseil de sécurité sur la guerre en Ukraine",
-            "text": "À la demande de l’Ukraine, qui dénonce les attaques russes du 29 octobre contre les villes de Dnipro, Tchernihiv et Krementchouk, dans lesquelles 19 personnes auraient trouvé la morts, le Conseil de sécurité se réunit lundi matin pour faire le point sur la situation. Suivez les temps forts en direct grâce à la Section de la couverture des réunions des Nations Unies.",
+            "title": "Ukraine : à l’approche de l’hiver, l’ONU alerte sur l’escalade des frappes russes",
+            "text": "Les bombardements russes contre les villes et les infrastructures énergétiques ukrainiennes s’intensifient, faisant craindre une nouvelle crise humanitaire à l’approche de l’hiver. Lundi, deux responsables onusiens ont dénoncé une multiplication des victimes civiles et averti que les secours ne pourraient compenser indéfiniment la destruction des réseaux électriques.",
             "truncated": false,
             "source": "ONU Info",
             "url": "https://news.un.org/feed/view/fr/story/2026/11/1159806",
@@ -81,7 +73,7 @@
           },
           {
             "source": "France 24",
-            "ok": true
+            "ok": false
           }
         ]
       }
@@ -91,14 +83,14 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-09T17:45:43.078026+00:00",
+        "checkedAt": "2026-11-10T15:17:01.765765+00:00",
         "updatedAt": null,
         "status": "empty",
         "paragraphs": [],
         "sources": [
           {
             "source": "France 24",
-            "ok": true
+            "ok": false
           },
           {
             "source": "RFI",
@@ -108,7 +100,7 @@
       }
     },
     "moyen-orient-conflits": {
-      "changedAt": "2026-11-02T17:42:37.592398+00:00",
+      "changedAt": "2026-11-10T15:16:50.692544+00:00",
       "items": [
         {
           "title": "« The game remains manageable, but let us stay cautious. » Israel and Turkey eye each other warily",
@@ -133,22 +125,22 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-10-28T16:05:35+00:00",
           "language": "fr"
-        },
-        {
-          "title": "Houthi Ballistic Missile Intercepted Near Belgian Minehunter in Bab el-Mandeb",
-          "url": "https://www.navalnews.com/naval-news/2026/10/houthi-ballistic-missile-intercepted-near-belgian-minehunter-in-bab-el-mandeb/",
-          "source": "Naval News",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-10-27T14:22:15+00:00",
-          "language": "en"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-09T17:45:43.078026+00:00",
-        "updatedAt": "2026-11-09T17:45:43.078026+00:00",
+        "checkedAt": "2026-11-10T15:17:01.765765+00:00",
+        "updatedAt": "2026-11-10T15:17:01.765765+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Sommet du G7 : l'émir du Qatar présent pour évoquer la guerre en iran",
+            "text": "Le ⁠Premier ministre ​du Qatar devait rencontrer mardi 10 novembre à Paris les ​ministres des Affaires étrangères de quatre puissances européennes et de l'Arabie saoudite. Des rencontres en marge de la réunion ​des ‌chefs de la diplomatie ⁠du G7 et au lendemain des discussions de ​Mohammed ben Abdoulrahman al Thani avec le ‌président américain Donald Trump sur la guerre en ⁠Iran.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/vid%C3%A9o/20261110-sommet-du-g7-l-%C3%A9mir-du-qatar-pr%C3%A9sent-pour-%C3%A9voquer-la-guerre-en-iran",
+            "publishedAt": "2026-11-10T12:11:47+00:00"
+          },
           {
             "title": "Gaza : de fortes pluies font quatre morts dans un camp de déplacés palestiniens",
             "text": "Des pluies torrentielles dans ​la bande de Gaza ont provoqué l'effondrement d'un talus de sable et de pierres sur des tentes de Palestiniens déplacés, tuant une femme et ​trois enfants. Près de 70 000 tentes de camps où vivent des déplacés ont été inondées.",
@@ -158,20 +150,12 @@
             "publishedAt": "2026-11-09T17:23:27+00:00"
           },
           {
-            "title": "Gaza : les camps inondés, tandis que le matériel de secours s'entasse aux portes de l'enclave",
-            "text": "Les fortes intempéries du week-end ont touché des dizaines de milliers de familles et désorganisé les secours à Gaza. Alors que les stocks humanitaires sont presque épuisés dans l’enclave palestinienne, l’ONU dénonce les restrictions israéliennes et le manque de financements qui entravent l’acheminement de matériel.",
+            "title": "Yémen : près d’un million d’enfants visés par une campagne de vaccination contre la rougeole",
+            "text": "Dans un pays ravagé par plus d’une décennie de guerre, l’Organisation mondiale de la santé et ses partenaires lancent une vaste campagne de vaccination contre la rougeole et la rubéole. Près d’un million d’enfants doivent être immunisés dans le sud du Yémen, où les déplacements de population et les difficultés d’accès aux soins en raison de la reprise des combats compliquent la lutte contre des maladies pourtant évitables.",
             "truncated": false,
             "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159805",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159808",
             "publishedAt": "2026-11-09T12:00:00+00:00"
-          },
-          {
-            "title": "Yémen : première livraison d'aide médicale du CICR dans la ville de Taëz",
-            "text": "Dr Pierre Catoire, médecin urgentiste vice-président de l'ONG Mehad, est notre invité.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261108-y%C3%A9men-premi%C3%A8re-livraison-d-aide-m%C3%A9dicale-du-cicr-dans-la-ville-de-ta%C3%ABz",
-            "publishedAt": "2026-11-08T13:39:15+00:00"
           }
         ],
         "sources": [

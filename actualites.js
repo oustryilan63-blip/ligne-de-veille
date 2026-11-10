@@ -1,7 +1,351 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T15:10:31+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "BAE Systems accelerates delivery of advanced LRASM missile sensors",
+      "url": "https://www.navalnews.com/naval-news/2026/11/bae-systems-accelerates-delivery-of-advanced-lrasm-missile-sensors/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "BAE Systems",
+        "LRASM"
+      ],
+      "sourceExcerpt": {
+        "text": "BAE Systems accelerates the delivery of advanced RF sensors for the Long-Range Anti-Ship Missile (LRASM) to Lockheed Martin to meet…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/26-B81-01_LRASM-F15EX-768x432.webp",
+        "kind": "article",
+        "alt": "BAE Systems accelerates delivery of advanced LRASM missile sensors",
+        "credit": "Artist impression: F-15EX launching a LRASM. BAE System image.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/bae-systems-accelerates-delivery-of-advanced-lrasm-missile-sensors/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/bae-systems-accelerates-delivery-of-advanced-lrasm-missile-sensors/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-10",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/26-B81-01_LRASM-F15EX.webp",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T15:07:32+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Marseille et Le Havre : des ports déclassés",
+      "url": "https://www.revueconflits.com/marseille-et-le-havre-des-ports-declasses/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Économie, énergies et entreprises",
+        "Europe",
+        "Abonné",
+        "France",
+        "géoéconomie"
+      ],
+      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2023/04/venti-views-1cqIcrWFQBI-unsplash-scaled.jpg",
+        "kind": "article",
+        "alt": "Marseille et Le Havre : des ports déclassés",
+        "credit": "Porte-conteneurs en mer. Unslpash",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/marseille-et-le-havre-des-ports-declasses/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/marseille-et-le-havre-des-ports-declasses/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-10",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2023/04/venti-views-1cqIcrWFQBI-unsplash-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T14:12:35+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Ce missile de croisière n’est plus produit en France depuis dix ans, et sa version à plus de 1 000 km arrive en 2030",
+      "url": "https://www.forum-militaire.fr/ce-missile-de-croisiere-nest-plus-produit-en-france-depuis-dix-ans-et-sa-version-a-plus-de-1-000-km-arrive-en-2030/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Armées",
+        "Marines militaires",
+        "France",
+        "marine",
+        "missile"
+      ],
+      "sourceExcerpt": {
+        "text": "La DGA a annoncé le 6 novembre la commande prochaine du MdCN Mk2, un missile de croisière naval dont la…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T14:02:21+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "UK Launches £90M ‘Atlantic Net’ Project to Protect Undersea Cables and Hunt Submarines",
+      "url": "https://www.navalnews.com/naval-news/2026/11/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Atlantic Net",
+        "Royal Navy",
+        "USV"
+      ],
+      "sourceExcerpt": {
+        "text": "The UK will be more secure from Russian undersea threats in the North Atlantic following a new £90 million investment…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Armada86061000x5632x-768x433.webp",
+        "kind": "article",
+        "alt": "UK Launches £90M ‘Atlantic Net’ Project to Protect Undersea Cables and Hunt Submarines",
+        "credit": "Armada USV (Royal Navy picture)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-10",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Armada86061000x5632x.webp",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T11:45:27+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Thales confirme l’acquisition de radars GM200 MM/C par la Belgique",
+      "url": "https://www.opex360.com/2026/11/10/thales-confirme-lacquisition-de-radars-gm200-mm-c-par-la-belgique/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Défense antimissile",
+        "Europe",
+        "Forces aériennes",
+        "51e Escadrille",
+        "Belgique",
+        "Blue Dome",
+        "défense aérienne",
+        "GM200 MM/C",
+        "radars",
+        "surveillance aérienne",
+        "Thales"
+      ],
+      "sourceExcerpt": {
+        "text": "Privée de capacités terrestres de défense aérienne depuis trente-sept ans alors qu’elle abrite plusieurs organisations internationales et que ses infrastructures…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/gm200mmc-20240415.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Thales confirme l’acquisition de radars GM200 MM/C par la Belgique ».",
+        "credit": "Thales",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/10/thales-confirme-lacquisition-de-radars-gm200-mm-c-par-la-belgique/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/10/thales-confirme-lacquisition-de-radars-gm200-mm-c-par-la-belgique/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-10",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/gm200mmc-20240415.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T11:20:28+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "£90 million investment for new drones and sensors to protect undersea cables and hunt Russian submarines",
+      "url": "https://www.gov.uk/government/news/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "The UK will be more secure from Russian undersea threats in the North Atlantic following a new £90 million investment…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-10"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T10:30:52+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Le F-35 américain est un capharnaüm logistique qui a déjà coûté 72 millions d’euros en pièces perdues depuis 2018 et ce n’est sans doute…",
+      "url": "https://www.forum-militaire.fr/le-f-35-americain-est-un-capharnaum-logistique-qui-a-deja-coute-72-millions-deuros-en-pieces-perdues-depuis-2018-et-ce-nest-sans-doute-que-le-haut-de-liceberg/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "Industrie",
+        "avion"
+      ],
+      "sourceExcerpt": {
+        "text": "Un capharnaüm logistique qui aurait coûté 72 millions d’euros aux contribuables américains depuis 2018. Un nouveau rapport du Government Accountability…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T08:00:09+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Le nouveau prestige des marchés couverts espagnols, entre étals et étaux",
+      "url": "https://www.revueconflits.com/le-nouveau-prestige-des-marches-couverts-espagnols-entre-etals-et-etaux/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Économie, énergies et entreprises",
+        "Europe",
+        "Europe occidentale",
+        "Abonné",
+        "Écologie",
+        "Espagne"
+      ],
+      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/alessandro-santoro-xdtkKG6YrSA-unsplash-scaled.jpg",
+        "kind": "article",
+        "alt": "Le nouveau prestige des marchés couverts espagnols, entre étals et étaux",
+        "credit": "Marché à Soller, en Espagne. (C) Unsplash.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/le-nouveau-prestige-des-marches-couverts-espagnols-entre-etals-et-etaux/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/le-nouveau-prestige-des-marches-couverts-espagnols-entre-etals-et-etaux/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-10",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/alessandro-santoro-xdtkKG6YrSA-unsplash-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T02:14:55+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Carpates : le trou noir de l’Europe",
+      "url": "https://www.revueconflits.com/podcast-carpates-le-trou-noir-de-leurope/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Podcasts",
+        "Podcasts Europe",
+        "Hongrie",
+        "Ukraine"
+      ],
+      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2022/10/06-Carte-Carpates-115x65_page-0001.jpg",
+        "kind": "article",
+        "alt": "Podcast – Carpates : le trou noir de l’Europe",
+        "credit": "Carpates. (C) Conflits.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-carpates-le-trou-noir-de-leurope/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-carpates-le-trou-noir-de-leurope/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-10",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2022/10/06-Carte-Carpates-115x65_page-0001.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-09T18:41:41+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Royal Navy se dote de sa première flottille entièrement dronisée",
+      "url": "https://www.opex360.com/2026/11/09/la-royal-navy-se-dote-de-sa-premiere-flottille-entierement-dronisee/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces navales",
+        "1st Autonomous Squadron",
+        "dronisation",
+        "flotte hybride",
+        "Flottille",
+        "Royal Navy",
+        "Royaume-Uni"
+      ],
+      "sourceExcerpt": {
+        "text": "Après les premiers lancements de drones d’attaque Nyan depuis le porte-avions HMS Queen Elizabeth dans le cadre du projet «Vantage»,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/usv-royal-navy-20261109.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Royal Navy se dote de sa première flottille entièrement dronisée ».",
+        "credit": "Royal Navy",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/09/la-royal-navy-se-dote-de-sa-premiere-flottille-entierement-dronisee/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/09/la-royal-navy-se-dote-de-sa-premiere-flottille-entierement-dronisee/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-10",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/usv-royal-navy-20261109.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-09",
       "publishedAt": "2026-11-09T17:35:00+00:00",
@@ -9712,7 +10056,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-09T08:09:29.926708+00:00"
+      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00"
     },
     {
       "date": "2026-10-23",
@@ -9725,7 +10069,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-09T08:09:29.926708+00:00"
+      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00"
     },
     {
       "date": "2026-10-22",
@@ -10349,7 +10693,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-09T08:09:29.926708+00:00"
+      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00"
     },
     {
       "date": "2026-10-21",
@@ -17452,7 +17796,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-09T08:09:29.926708+00:00"
+      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00"
     },
     {
       "date": "2026-10-07",
@@ -17666,10 +18010,10 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-09T08:09:29.926708+00:00"
+      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00"
     }
   ],
-  "checkedAt": "2026-11-09T17:44:57.519475+00:00",
+  "checkedAt": "2026-11-10T15:16:50.692544+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -17736,7 +18080,7 @@ window.LDV_NEWS = {
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 9,
+        "recentItems": 11,
         "error": null
       },
       {
@@ -17746,8 +18090,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 11,
-    "articleImages": 437,
-    "duplicateHeadlinesSkipped": 0
+    "newItems": 10,
+    "articleImages": 445,
+    "duplicateHeadlinesSkipped": 2
   }
 };
