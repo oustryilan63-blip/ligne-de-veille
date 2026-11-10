@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-10T15:16:50.692544+00:00",
+  "checkedAt": "2026-11-10T21:59:48.227710+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -45,35 +45,27 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-10T15:17:01.765765+00:00",
-        "updatedAt": "2026-11-10T15:17:01.765765+00:00",
+        "checkedAt": "2026-11-10T21:59:53.893126+00:00",
+        "updatedAt": "2026-11-10T21:59:53.893126+00:00",
         "status": "updated",
         "paragraphs": [
           {
-            "title": "Ukraine : à l’approche de l’hiver, l’ONU alerte sur l’escalade des frappes russes",
-            "text": "Les bombardements russes contre les villes et les infrastructures énergétiques ukrainiennes s’intensifient, faisant craindre une nouvelle crise humanitaire à l’approche de l’hiver. Lundi, deux responsables onusiens ont dénoncé une multiplication des victimes civiles et averti que les secours ne pourraient compenser indéfiniment la destruction des réseaux électriques.",
+            "title": "Les ministres du G7 réunis à Paris : l'Iran et l'Ukraine au cœur des débats",
+            "text": "Le chef de la diplomatie française, Jean-Noël Barrot, s'est entretenu mardi 10 novembre à Paris avec son homologue ukrainien, Andrii Sybiha, en marge de ⁠la réunion des ministres des Affaires étrangères du G7. Réunion au cours de laquelle la guerre en Ukraine et celle en Iran seront les sujets principaux entre les différents ministres.",
             "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159806",
-            "publishedAt": "2026-11-09T12:00:00+00:00"
-          },
-          {
-            "title": "Dans les zones de conflit, les attaques contre les réseaux d’eau ont triplé en quatre ans",
-            "text": "De Gaza à l’Ukraine, en passant par le Soudan et le Burkina Faso, les systèmes d’approvisionnement en eau sont de plus en plus touchés par les conflits armés. Selon un rapport de l’UNICEF, le nombre d’attaques signalées contre ces infrastructures a triplé entre 2021 et 2025, avec des conséquences particulièrement graves pour les enfants, exposés aux maladies, à la malnutrition et aux violences.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159791",
-            "publishedAt": "2026-11-05T12:00:00+00:00"
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/vid%C3%A9o/20261110-les-ministres-du-g7-r%C3%A9unis-%C3%A0-paris-l-iran-et-l-ukraine-au-c%C5%93ur-des-d%C3%A9bats",
+            "publishedAt": "2026-11-10T13:39:42+00:00"
           }
         ],
         "sources": [
           {
             "source": "ONU Info",
-            "ok": true
+            "ok": false
           },
           {
             "source": "France 24",
-            "ok": false
+            "ok": true
           }
         ]
       }
@@ -83,14 +75,23 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-10T15:17:01.765765+00:00",
-        "updatedAt": null,
-        "status": "empty",
-        "paragraphs": [],
+        "checkedAt": "2026-11-10T21:59:53.893126+00:00",
+        "updatedAt": "2026-11-10T21:59:53.893126+00:00",
+        "status": "updated",
+        "paragraphs": [
+          {
+            "title": "Ce que l’on sait sur les exercices de l’armée chinoise autour de Taïwan",
+            "text": "Depuis le début du mois de novembre, la Chine mène des exercices militaires majeurs autour de Taïwan. Mais contrairement à ce que laissent entendre des internautes, les forces armées chinoises n’ont pas instauré un blocus de l’île - elles se livrent seulement à une simulation d’encerclement.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/asie-pacifique/20261110-ce-que-l-on-sait-sur-les-exercices-de-l-arm%C3%A9e-chinoise-autour-de-ta%C3%AFwan",
+            "publishedAt": "2026-11-10T14:02:50+00:00"
+          }
+        ],
         "sources": [
           {
             "source": "France 24",
-            "ok": false
+            "ok": true
           },
           {
             "source": "RFI",
@@ -129,39 +130,31 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-10T15:17:01.765765+00:00",
-        "updatedAt": "2026-11-10T15:17:01.765765+00:00",
+        "checkedAt": "2026-11-10T21:59:53.893126+00:00",
+        "updatedAt": "2026-11-10T21:59:53.893126+00:00",
         "status": "updated",
         "paragraphs": [
           {
-            "title": "Sommet du G7 : l'émir du Qatar présent pour évoquer la guerre en iran",
-            "text": "Le ⁠Premier ministre ​du Qatar devait rencontrer mardi 10 novembre à Paris les ​ministres des Affaires étrangères de quatre puissances européennes et de l'Arabie saoudite. Des rencontres en marge de la réunion ​des ‌chefs de la diplomatie ⁠du G7 et au lendemain des discussions de ​Mohammed ben Abdoulrahman al Thani avec le ‌président américain Donald Trump sur la guerre en ⁠Iran.",
+            "title": "Israël : Netanyahu et son camp ciblent les partis arabes lors de l'inauguration du Parlement",
+            "text": "Le nouveau ⁠Parlement israélien a prêté ​serment mardi en l'absence de gouvernement, dont la composition reste incertaine, après des élections législatives sans majorité parlementaire. Le Premier ministre israélien sortant Benjamin Netanyahu et un de ses alliés ont multiplié les attaques mardi contre les partis arabes, lors de l'investiture. Retrouvez le fil du live sur notre page.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261110-sommet-du-g7-l-%C3%A9mir-du-qatar-pr%C3%A9sent-pour-%C3%A9voquer-la-guerre-en-iran",
-            "publishedAt": "2026-11-10T12:11:47+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261110-en-direct-le-pr%C3%A9sident-isra%C3%A9lien-annonce-officiellement-l-investiture-du-nouveau-parlement",
+            "publishedAt": "2026-11-10T14:29:01+00:00"
           },
           {
-            "title": "Gaza : de fortes pluies font quatre morts dans un camp de déplacés palestiniens",
-            "text": "Des pluies torrentielles dans ​la bande de Gaza ont provoqué l'effondrement d'un talus de sable et de pierres sur des tentes de Palestiniens déplacés, tuant une femme et ​trois enfants. Près de 70 000 tentes de camps où vivent des déplacés ont été inondées.",
+            "title": "Israël : ambiance électrique au nouveau Parlement, Gadi Eisenkot charge Benjamin Netanyahu",
+            "text": "À l'ouverture d'une première session particulièrement tendue du nouveau Parlement israélien, le parti de Gadi Eisenkot, chargé de former le prochain gouvernement israélien, a déposé mardi un projet de loi pour créer une commission d'enquête sur les défaillances sécuritaires ayant permis l'attaque du Hamas du 7 octobre 2023.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261109-gaza-de-fortes-pluies-font-quatre-morts-dans-un-camp-de-d%C3%A9plac%C3%A9s-palestiniens",
-            "publishedAt": "2026-11-09T17:23:27+00:00"
-          },
-          {
-            "title": "Yémen : près d’un million d’enfants visés par une campagne de vaccination contre la rougeole",
-            "text": "Dans un pays ravagé par plus d’une décennie de guerre, l’Organisation mondiale de la santé et ses partenaires lancent une vaste campagne de vaccination contre la rougeole et la rubéole. Près d’un million d’enfants doivent être immunisés dans le sud du Yémen, où les déplacements de population et les difficultés d’accès aux soins en raison de la reprise des combats compliquent la lutte contre des maladies pourtant évitables.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159808",
-            "publishedAt": "2026-11-09T12:00:00+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261110-isra%C3%ABl-ambiance-%C3%A9lectrique-au-nouveau-parlement-gadi-eisenkot-charge-benjamin-netanyahu",
+            "publishedAt": "2026-11-10T13:34:03+00:00"
           }
         ],
         "sources": [
           {
             "source": "ONU Info",
-            "ok": true
+            "ok": false
           },
           {
             "source": "France 24",

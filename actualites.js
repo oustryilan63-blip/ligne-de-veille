@@ -4,6 +4,204 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-11-10",
+      "publishedAt": "2026-11-10T18:33:39+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Naval Group a notifié un contrat de 180 millions d’euros à Saab pour équiper les futures frégates suédoises",
+      "url": "https://www.opex360.com/2026/11/10/naval-group-a-notifie-un-contrat-de-180-millions-deuros-a-saab-pour-equiper-les-futures-fregates-suedoises/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces navales",
+        "Industrie",
+        "construction",
+        "contrat",
+        "frégate",
+        "Frégate de défense et d'intervention",
+        "HMS Luleå",
+        "marine suédoise",
+        "Naval Group",
+        "SAAB",
+        "Suède"
+      ],
+      "sourceExcerpt": {
+        "text": "En août 2025, la Norvège fit connaître son intention de se procurer au moins cinq frégates de Type 26 [ou…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-10T21:59:52.416890+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/fdi-suede-20260901.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Naval Group a notifié un contrat de 180 millions d’euros à Saab pour équiper les futures frégates suédoises ».",
+        "credit": "Naval Group",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/10/naval-group-a-notifie-un-contrat-de-180-millions-deuros-a-saab-pour-equiper-les-futures-fregates-suedoises/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/10/naval-group-a-notifie-un-contrat-de-180-millions-deuros-a-saab-pour-equiper-les-futures-fregates-suedoises/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-10",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/fdi-suede-20260901.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T18:32:08+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "New Royal Navy-Led Northern Navies Initiative",
+      "url": "https://www.gov.uk/government/news/new-royal-navy-led-northern-navies-initiative",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Joint Expeditionary Force Navies deepen maritime integration with new Royal Navy-Led Northern Navies Initiative.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-10T21:59:52.416890+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/new-royal-navy-led-northern-navies-initiative",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/new-royal-navy-led-northern-navies-initiative",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-10"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T17:52:08+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le norvégien Kongsberg Maritime développe un drone naval de lutte anti-sous-marine à partir d’un chalutier",
+      "url": "https://www.opex360.com/2026/11/10/le-norvegien-kongsberg-maritime-developpe-un-drone-naval-de-lutte-anti-sous-marine-a-partir-dun-chalutier/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces navales",
+        "chalutier",
+        "drone de surface",
+        "flotte hybride",
+        "Kongsberg Maritime",
+        "lutte anti-sous-marine",
+        "Royal Navy",
+        "Thales"
+      ],
+      "sourceExcerpt": {
+        "text": "Dans un entretien accordé à Marine & Océans, le 9 novembre, le chef d’état-major de la Marine nationale [CEMM], l’amiral…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-10T21:59:52.416890+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/arctic-hunter-20261110.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le norvégien Kongsberg Maritime développe un drone naval de lutte anti-sous-marine à partir d’un chalutier ».",
+        "credit": "Kongsberg Maritime",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/10/le-norvegien-kongsberg-maritime-developpe-un-drone-naval-de-lutte-anti-sous-marine-a-partir-dun-chalutier/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/10/le-norvegien-kongsberg-maritime-developpe-un-drone-naval-de-lutte-anti-sous-marine-a-partir-dun-chalutier/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-10",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/arctic-hunter-20261110.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T17:17:25+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Blue Dome : la Belgique met un terme à trois décennies sans défense sol-air",
+      "url": "https://forcesoperations.com/blue-dome-la-belgique-met-un-terme-a-trois-decennies-sans-defense-sol-air/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "Belgique",
+        "défense sol-air",
+        "NASAMS",
+        "Rheinmetall",
+        "SBAMD"
+      ],
+      "sourceExcerpt": {
+        "text": "Pas à pas, la Défense belge renoue avec une défense sol-air digne de ce nom. Après une première vague d’acquisitions,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-10T21:59:52.416890+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/11/Blue-Dome-la-Belgique-tourne-le-dos-a-trois-decennies-sans-bouclier-anti-aerien_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Blue Dome : la Belgique met un terme à trois décennies sans défense sol-air ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/blue-dome-la-belgique-met-un-terme-a-trois-decennies-sans-defense-sol-air/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/blue-dome-la-belgique-met-un-terme-a-trois-decennies-sans-defense-sol-air/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-10",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/11/Blue-Dome-la-Belgique-tourne-le-dos-a-trois-decennies-sans-bouclier-anti-aerien_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T15:32:29+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Thales and Kongsberg Team Up to Offer ASW Capability for UK Type 92 USV Requirement",
+      "url": "https://www.navalnews.com/naval-news/2026/11/thales-kongsberg-uk-type-92-usv-asw/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Atlantic Bastion",
+        "Kongsberg",
+        "Royal Navy",
+        "Thales"
+      ],
+      "sourceExcerpt": {
+        "text": "Thales and Kongsberg have announced the signing of a memorandum of understanding (MoU) to develop anti-submarine warfare (ASW) sensing capability…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-10T21:59:52.416890+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Thales-and-Kongsberg-Team-Up-to-Offer-ASW-Capability-for-UK-Type-92-USV-Requirement-768x432.jpg",
+        "kind": "article",
+        "alt": "Thales and Kongsberg Team Up to Offer ASW Capability for UK Type 92 USV Requirement",
+        "credit": "An artist’s rendering of Kongsberg Maritime’s Arctic Hunter USV working with crewed surface ships. The USV is designed to provide robust capability and rapid build. Kongsberg Maritime image.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/thales-kongsberg-uk-type-92-usv-asw/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/thales-kongsberg-uk-type-92-usv-asw/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-10",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Thales-and-Kongsberg-Team-Up-to-Offer-ASW-Capability-for-UK-Type-92-USV-Requirement.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-10",
       "publishedAt": "2026-11-10T15:10:31+00:00",
       "source": "Naval News",
       "sourceType": "Presse spécialisée",
@@ -133,6 +331,44 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-10",
         "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Armada86061000x5632x.webp",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T13:46:51+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "ST Engineering’s AUTONOMAST Secures DNV Approval in Principle",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/st-engineerings-autonomast-secures-dnv-approval-in-principle/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "Autonomast",
+        "ST Engineering",
+        "Unmanned Vehicles"
+      ],
+      "sourceExcerpt": {
+        "text": "ST Engineering has announced that its AUTONOMAST vessel autonomy kit has received Approval in Principle (AiP) from DNV under its…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-10T21:59:52.416890+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/1793804282325-768x401.jpeg",
+        "kind": "article",
+        "alt": "ST Engineering’s AUTONOMAST Secures DNV Approval in Principle",
+        "credit": "ST Engineering picture",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/st-engineerings-autonomast-secures-dnv-approval-in-principle/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/st-engineerings-autonomast-secures-dnv-approval-in-principle/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-10",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/1793804282325.jpeg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -301,6 +537,38 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-10",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2022/10/06-Carte-Carpates-115x65_page-0001.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T02:00:44+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Livres – 10 novembre",
+      "url": "https://www.revueconflits.com/livres-du-10-novembre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Livres",
+        "Livre"
+      ],
+      "imageCheckedAt": "2026-11-10T21:59:52.416890+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/10/conflits-lecteur-scaled-e1737970920644.jpg",
+        "kind": "article",
+        "alt": "Livres – 10 novembre",
+        "credit": "Livre (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/livres-du-10-novembre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/livres-du-10-novembre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-10",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/10/conflits-lecteur-scaled-e1737970920644.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -695,6 +963,29 @@ window.LDV_NEWS = {
         "rightsUrl": "https://www.gov.uk/government/news/lt-gen-phil-prosser-joins-as-chief-of-defence-logistics-support",
         "evidence": "official-editorial-lead",
         "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "publishedAt": "2026-11-09T09:02:20+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Avec SyLEx, la France retrouve une capacité qu’elle avait perdue depuis 38 ans ainsi que son rang parmi les 8 nations au monde détentrices…",
+      "url": "https://www.forum-militaire.fr/deuxieme-tir-reussi-en-un-an-pour-sylex-la-fusee-sonde-francaise/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armes / chasse",
+        "France",
+        "missile"
+      ],
+      "sourceExcerpt": {
+        "text": "Dans la nuit du 3 au 4 novembre 2026, la DGA (Direction générale de l’armement) a procédé depuis Biscarrosse à…",
+        "kind": "feed-excerpt"
       }
     },
     {
@@ -18013,7 +18304,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00"
     }
   ],
-  "checkedAt": "2026-11-10T15:16:50.692544+00:00",
+  "checkedAt": "2026-11-10T21:59:48.227710+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -18032,7 +18323,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -18068,7 +18359,7 @@ window.LDV_NEWS = {
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -18090,8 +18381,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 10,
-    "articleImages": 445,
+    "newItems": 8,
+    "articleImages": 452,
     "duplicateHeadlinesSkipped": 2
   }
 };
