@@ -1,7 +1,316 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-11",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T14:42:53+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Après Thales, l’allemand Helsing défie l’américain Palantir avec son logiciel de commandement et de contrôle Clarity",
+      "url": "https://www.opex360.com/2026/11/11/apres-thales-lallemand-helsing-defie-lamericain-palantir-avec-son-logiciel-de-commandement-et-de-controle-clarity/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Otan",
+        "Technologie",
+        "Arcadia",
+        "Clarity",
+        "Commandement et Contrôle",
+        "Helsing",
+        "HexaForce",
+        "IA",
+        "intelligence artificielle",
+        "Maven Otan",
+        "MSS Nato",
+        "Palantir"
+      ],
+      "sourceExcerpt": {
+        "text": "Actuellement, faute d’alternative européenne, l’Otan s’approprie le logiciel de commandement et de contrôle [C2] dopé à l’intelligence artificielle MSS NATO…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-11T14:46:42.154722+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/clarity-20261111.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Après Thales, l’allemand Helsing défie l’américain Palantir avec son logiciel de commandement et de contrôle Clarity ».",
+        "credit": "Helsing",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/11/apres-thales-lallemand-helsing-defie-lamericain-palantir-avec-son-logiciel-de-commandement-et-de-controle-clarity/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/11/apres-thales-lallemand-helsing-defie-lamericain-palantir-avec-son-logiciel-de-commandement-et-de-controle-clarity/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-11",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/clarity-20261111.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T14:19:40+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Ce char français de 1917 roulait à 7 km/h avec deux hommes à bord, et sa disposition est encore celle des chars d’aujourd’hui",
+      "url": "https://www.forum-militaire.fr/ce-char-francais-de-1917-roulait-a-7-km-h-avec-deux-hommes-a-bord-et-sa-disposition-est-encore-celle-des-chars-daujourdhui/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "char",
+        "France",
+        "Histoire"
+      ],
+      "sourceExcerpt": {
+        "text": "Le Renault FT a fixé en 1917 une architecture que le Leopard 2A6, le Leclerc et l’Abrams reprennent encore :…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T12:11:31+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Un rapport parlementaire remet en cause le choix d’un châssis allemand pour le successeur du char Leclerc",
+      "url": "https://www.opex360.com/2026/11/11/un-rapport-parlementaire-remet-en-cause-le-choix-dun-chassis-allemand-pour-le-successeur-du-char-leclerc/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "Industrie",
+        "Allemagne",
+        "armée de terre",
+        "Capacité Intermédiaire",
+        "CAPINT",
+        "char",
+        "char Leclerc",
+        "châssis",
+        "KNDS",
+        "Leclerc",
+        "Leopard 2"
+      ],
+      "sourceExcerpt": {
+        "text": "Si le projet franco-allemand de Système principal de combat terrestre [MGCS] s’est embourbé et a donc pris du retard, c’est…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-11T14:46:42.154722+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/capint-knds-20260615.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Un rapport parlementaire remet en cause le choix d’un châssis allemand pour le successeur du char Leclerc ».",
+        "credit": "CAPINT / KNDS",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/11/un-rapport-parlementaire-remet-en-cause-le-choix-dun-chassis-allemand-pour-le-successeur-du-char-leclerc/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/11/un-rapport-parlementaire-remet-en-cause-le-choix-dun-chassis-allemand-pour-le-successeur-du-char-leclerc/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-11",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/capint-knds-20260615.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T11:46:27+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Les Juifs du Moyen-Orient, une réalité oubliée et menacée",
+      "url": "https://www.areion24.news/2026/11/11/les-juifs-du-moyen-orient-une-realite-oubliee-et-menacee-2/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Carto"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Résiduelle sur le plan démographique, la présence juive au Moyen-Orient n’en demeure pas moins d’une haute importance symbolique. C’est dans…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-11T14:46:42.154722+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/11/0306_MO_Reliegion_Juifs.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Les Juifs du Moyen-Orient, une réalité oubliée et menacée ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/11/11/les-juifs-du-moyen-orient-une-realite-oubliee-et-menacee-2/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/11/11/les-juifs-du-moyen-orient-une-realite-oubliee-et-menacee-2/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-11",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/0306_MO_Reliegion_Juifs.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T08:58:31+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "MOD showcases UK industry at EuroNaval exhibition",
+      "url": "https://www.gov.uk/government/news/mod-showcases-uk-industry-at-euronaval-exhibition",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "The Ministry of Defence hosted eight innovative maritime defence enterprises in Paris, promoting UK solutions to pan-European maritime defence challenges.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-11T14:46:42.154722+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/mod-showcases-uk-industry-at-euronaval-exhibition",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/mod-showcases-uk-industry-at-euronaval-exhibition",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-11"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T08:42:35+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Dans le domaine du drone naval, le Royaume-Uni est nettement en avance sur la France avec le premier escadron autonome « permanent » de…",
+      "url": "https://www.forum-militaire.fr/le-royaume-uni-prend-la-france-de-vitesse-pour-devenir-la-premiere-force-navale-au-monde-a-operer-un-escadron-autonome/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Marines militaires",
+        "drone",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "La Royal Navy a officiellement commissionné le 5 novembre 2026 à Portsmouth son 1st Autonomous Squadron, première unité permanente dédiée…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T06:00:38+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Retrouver le sens des victoires françaises",
+      "url": "https://www.revueconflits.com/camerone-dien-bien-phu-malmaison-peguy-premiere-guerre-mondiale-armee-francaise/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Conflits armés",
+        "Géopolitique de la France",
+        "Armée française",
+        "Charles de Gaulle",
+        "Première Guerre mondiale"
+      ],
+      "imageCheckedAt": "2026-11-11T14:46:42.154722+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2019/11/Bataille_de_Verdun_1916.jpg",
+        "kind": "article",
+        "alt": "Retrouver le sens des victoires françaises",
+        "credit": "Soldats français à l'assaut sortent de leur tranchée pendant la bataille de Verdun, 1916.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/camerone-dien-bien-phu-malmaison-peguy-premiere-guerre-mondiale-armee-francaise/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/camerone-dien-bien-phu-malmaison-peguy-premiere-guerre-mondiale-armee-francaise/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-11",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2019/11/Bataille_de_Verdun_1916.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T03:38:01+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Après les midterms, deux ans de foire d’empoigne à Washington",
+      "url": "https://www.revueconflits.com/apres-les-midterms-deux-ans-de-foire-dempoigne-a-washington-2/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique du Nord",
+        "États-Unis"
+      ],
+      "imageCheckedAt": "2026-11-11T14:46:42.154722+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/54577590316_1019481367_k.jpg",
+        "kind": "article",
+        "alt": "Après les midterms, deux ans de foire d’empoigne à Washington",
+        "credit": "White House",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/apres-les-midterms-deux-ans-de-foire-dempoigne-a-washington-2/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/apres-les-midterms-deux-ans-de-foire-dempoigne-a-washington-2/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-11",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/54577590316_1019481367_k.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T03:00:16+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Quel bilan pour la COP17 à Erevan ?",
+      "url": "https://www.revueconflits.com/quel-bilan-pour-la-cop17-a-erevan/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie centrale",
+        "Abonné",
+        "Arménie",
+        "Écologie"
+      ],
+      "imageCheckedAt": "2026-11-11T14:46:42.154722+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap23067485_000006-scaled-e1794330138762.jpg",
+        "kind": "article",
+        "alt": "Quel bilan pour la COP17 à Erevan ?",
+        "credit": "(C) Vahram Baghdasaryan / Photolure via AP - XAZ120 / 26288629146715 // 2610151931",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/quel-bilan-pour-la-cop17-a-erevan/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/quel-bilan-pour-la-cop17-a-erevan/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-11",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap23067485_000006-scaled-e1794330138762.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-10",
       "publishedAt": "2026-11-10T18:33:39+00:00",
@@ -18304,7 +18613,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00"
     }
   ],
-  "checkedAt": "2026-11-10T21:59:48.227710+00:00",
+  "checkedAt": "2026-11-11T14:46:37.153160+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -18323,7 +18632,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 2,
         "error": null
       },
       {
@@ -18353,36 +18662,36 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 3,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
         "source": "Naval News",
-        "ok": true,
-        "recentItems": 10,
-        "error": null
+        "ok": false,
+        "recentItems": 0,
+        "error": "HTTP Error 503: Service Temporarily Unavailable"
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 11,
+        "recentItems": 12,
         "error": null
       },
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 2,
         "error": null
       }
     ],
-    "newItems": 8,
-    "articleImages": 452,
+    "newItems": 9,
+    "articleImages": 459,
     "duplicateHeadlinesSkipped": 2
   }
 };
