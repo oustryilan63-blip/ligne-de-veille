@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-11T14:46:37.153160+00:00",
+  "checkedAt": "2026-11-11T23:09:34.208225+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,11 +10,9 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 10,
+    "ok": 11,
     "total": 11,
-    "unavailable": [
-      "Naval News"
-    ]
+    "unavailable": []
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -47,7 +45,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-11T14:46:44.368140+00:00",
+        "checkedAt": "2026-11-11T23:09:45.061377+00:00",
         "updatedAt": "2026-11-10T21:59:53.893126+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -77,7 +75,7 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-11T14:46:44.368140+00:00",
+        "checkedAt": "2026-11-11T23:09:45.061377+00:00",
         "updatedAt": "2026-11-10T21:59:53.893126+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -103,7 +101,7 @@
       }
     },
     "moyen-orient-conflits": {
-      "changedAt": "2026-11-10T15:16:50.692544+00:00",
+      "changedAt": "2026-11-11T23:09:34.208225+00:00",
       "items": [
         {
           "title": "« The game remains manageable, but let us stay cautious. » Israel and Turkey eye each other warily",
@@ -120,21 +118,13 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-11-02T13:00:36+00:00",
           "language": "fr"
-        },
-        {
-          "title": "Surprise en Suisse : le choix d’un second système de défense aérienne se fera entre le SAMP/T NG et le Barak MX israélien",
-          "url": "https://www.opex360.com/2026/10/28/surprise-en-suisse-le-choix-dun-second-systeme-de-defense-aerienne-se-fera-entre-le-samp-t-ng-et-le-barak-mx-israelien/",
-          "source": "Zone Militaire — Opex360",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-10-28T16:05:35+00:00",
-          "language": "fr"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-11T14:46:44.368140+00:00",
+        "checkedAt": "2026-11-11T23:09:45.061377+00:00",
         "updatedAt": "2026-11-11T14:46:44.368140+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Inondations à Gaza : comment de fausses vidéos ont été instrumentalisées",

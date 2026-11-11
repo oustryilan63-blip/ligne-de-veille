@@ -1,7 +1,45 @@
 {
-  "updatedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T20:41:44+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Philippine Marines Receives MARTAC T38 USV via U.S. Aid",
+      "url": "https://www.navalnews.com/naval-news/2026/11/philippine-marines-receives-martac-t38-usv-via-u-s-aid/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Martac",
+        "Philippine Marine Corps",
+        "USV"
+      ],
+      "sourceExcerpt": {
+        "text": "The Philippine Marine Corps now operates MARTAC T38 Devil Ray USVs in Washington's latest effort to bolster Manila's sea drone…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/HWVaF2ZbIAAT4xP-768x605.jpeg",
+        "kind": "article",
+        "alt": "Philippine Marines Receives MARTAC T38 USV via U.S. Aid",
+        "credit": "U.S. Ambassador to the Philippines Lee Lipton and Acting Commandant of the Philippine Marine Corps during the MARTAC T-38 Devil Ray USV system transfer. U.S. Embassy in the Philippines photo",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/philippine-marines-receives-martac-t38-usv-via-u-s-aid/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/philippine-marines-receives-martac-t38-usv-via-u-s-aid/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-11",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/HWVaF2ZbIAAT4xP.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-11",
       "publishedAt": "2026-11-11T14:42:53+00:00",
@@ -154,6 +192,88 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-11",
         "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/0306_MO_Reliegion_Juifs.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T11:43:16+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "MQ-9B Fills Critical Gaps for Europe’s Militaries in Trying Times",
+      "url": "https://www.navalnews.com/naval-news/2026/11/mq-9b-fills-critical-gaps-for-europes-militaries-in-trying-times/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "General Atomics",
+        "MQ-9B"
+      ],
+      "sourceExcerpt": {
+        "text": "European nations face growing security challenges across the Arctic, the Baltic, NATO’s eastern flank, and the Mediterranean. In this environment,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/10/1869-MQ-9B-Transatlantic-Flight.noprops-768x512.jpg",
+        "kind": "article",
+        "alt": "MQ-9B Fills Critical Gaps for Europe’s Militaries in Trying Times",
+        "credit": "MQ-9B Fills Critical Gaps for Europe’s Militaries in Trying Times",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/mq-9b-fills-critical-gaps-for-europes-militaries-in-trying-times/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/mq-9b-fills-critical-gaps-for-europes-militaries-in-trying-times/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-11",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/10/1869-MQ-9B-Transatlantic-Flight.noprops.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T11:19:03+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’acteur Jean Gabin va donner son nom à la flottille de réserve de la Force maritime des fusiliers marins et commandos",
+      "url": "https://www.opex360.com/2026/11/11/lacteur-jean-gabin-va-donner-son-nom-a-la-flottille-de-reserve-de-la-force-maritime-des-fusiliers-marins-et-commandos/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Forces spéciales",
+        "Flottille de réserve maritime",
+        "FNFL",
+        "Force maritime des fusiliers marins et commandos",
+        "Forces navales françaises libres",
+        "FORFUSCO",
+        "Fusiliers Marins",
+        "Jean Gabin",
+        "Jean Moncorgé",
+        "Lorient"
+      ],
+      "sourceExcerpt": {
+        "text": "Cavalier indiscipliné dans les Gaietés de l’escadron [1932], inoubliable lieutenant aviateur Maréchal, au côté du non moins inoubliable capitaine de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/gabin-20151004.jpeg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’acteur Jean Gabin va donner son nom à la flottille de réserve de la Force maritime des fusiliers marins et commandos ».",
+        "credit": "Marine nationale",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/11/lacteur-jean-gabin-va-donner-son-nom-a-la-flottille-de-reserve-de-la-force-maritime-des-fusiliers-marins-et-commandos/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/11/lacteur-jean-gabin-va-donner-son-nom-a-la-flottille-de-reserve-de-la-force-maritime-des-fusiliers-marins-et-commandos/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-11",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/gabin-20151004.jpeg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -467,6 +587,50 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-10",
         "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/11/Blue-Dome-la-Belgique-tourne-le-dos-a-trois-decennies-sans-bouclier-anti-aerien_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T16:00:59+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Plus de 17 000 pièces détachées de F-35, d’une valeur totale de 1,3 milliard de dollars, manquent à l’appel",
+      "url": "https://www.opex360.com/2026/11/10/plus-de-17-000-pieces-detachees-de-f-35-dune-valeur-totale-de-13-milliard-de-dollars-manquent-a-lappel/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "F-35",
+        "GAO",
+        "inventaire",
+        "JPO F-35",
+        "Lockheed Martin",
+        "logistique",
+        "Pentagone",
+        "pièces détachées",
+        "suivi"
+      ],
+      "sourceExcerpt": {
+        "text": "Cet été, parce qu’un employé du prestataire logistique UPS a ignoré [ou manqué] un courriel adressé par la société de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/mco-f35-20240225.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Plus de 17 000 pièces détachées de F-35, d’une valeur totale de 1,3 milliard de dollars, manquent à l’appel ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/10/plus-de-17-000-pieces-detachees-de-f-35-dune-valeur-totale-de-13-milliard-de-dollars-manquent-a-lappel/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/10/plus-de-17-000-pieces-detachees-de-f-35-dune-valeur-totale-de-13-milliard-de-dollars-manquent-a-lappel/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-11",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/mco-f35-20240225.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -10656,7 +10820,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00"
+      "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00"
     },
     {
       "date": "2026-10-23",
@@ -10669,7 +10833,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00"
+      "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00"
     },
     {
       "date": "2026-10-22",
@@ -11293,7 +11457,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00"
+      "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00"
     },
     {
       "date": "2026-10-21",
@@ -18396,7 +18560,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00"
+      "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00"
     },
     {
       "date": "2026-10-07",
@@ -18610,10 +18774,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-10T15:16:55.710400+00:00"
+      "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00"
     }
   ],
-  "checkedAt": "2026-11-11T14:46:37.153160+00:00",
+  "checkedAt": "2026-11-11T23:09:34.208225+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -18673,14 +18837,14 @@
       },
       {
         "source": "Naval News",
-        "ok": false,
-        "recentItems": 0,
-        "error": "HTTP Error 503: Service Temporarily Unavailable"
+        "ok": true,
+        "recentItems": 10,
+        "error": null
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 12,
+        "recentItems": 11,
         "error": null
       },
       {
@@ -18690,8 +18854,8 @@
         "error": null
       }
     ],
-    "newItems": 9,
-    "articleImages": 459,
+    "newItems": 4,
+    "articleImages": 463,
     "duplicateHeadlinesSkipped": 2
   }
 }
