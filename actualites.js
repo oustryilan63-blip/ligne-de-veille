@@ -4,6 +4,167 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-11-12",
+      "publishedAt": "2026-11-12T19:43:34+00:00",
+      "source": "OpexNews",
+      "sourceType": "Presse spécialisée",
+      "title": "Du fil de l’épée au fil du réseau : commander dans l’armée connectée",
+      "url": "https://opexnews.fr/commandement-c2-connecte-armee-francaise/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de OpexNews. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Focus",
+        "ARCADIA",
+        "Artemis.IA",
+        "Berthier",
+        "big data",
+        "C2",
+        "C4ISR",
+        "Centeris C2",
+        "ChapsVision",
+        "Comand AI",
+        "commandement",
+        "cybersécurité"
+      ],
+      "sourceExcerpt": {
+        "text": "Croire qu’on est en possession d’un moyen d’éviter les périls et les surprises des circonstances et de les dominer, c’est…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-12T22:28:53.975744+00:00",
+      "image": {
+        "src": "https://opexnews.fr/wp-content/uploads/2026/11/edcm-armee-operations-photo-aae.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Du fil de l’épée au fil du réseau : commander dans l’armée connectée ».",
+        "credit": "Armée de l’Air et de l’Espace",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://opexnews.fr/commandement-c2-connecte-armee-francaise/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://opexnews.fr/commandement-c2-connecte-armee-francaise/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-12",
+        "assetUrl": "https://opexnews.fr/wp-content/uploads/2026/11/edcm-armee-operations-photo-aae.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-12T18:47:40+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Marine nationale va créer huit escouades de réserve côtières de plus en 2027",
+      "url": "https://www.opex360.com/2026/11/12/la-marine-nationale-va-creer-huit-escouades-de-reserve-cotieres-de-plus-en-2027/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Réserves",
+        "approches mairitimes",
+        "défense",
+        "escouade de réserve côtière",
+        "flottille de réserve côtière",
+        "Marine Nationale",
+        "réservistes"
+      ],
+      "sourceExcerpt": {
+        "text": "On en compte actuellement dix-neuf… Et elles seront bientôt vingt-sept. En effet, ce 12 novembre, le ministère des Armées a…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-12T22:28:53.975744+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/escouade-20240802.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Marine nationale va créer huit escouades de réserve côtières de plus en 2027 ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/12/la-marine-nationale-va-creer-huit-escouades-de-reserve-cotieres-de-plus-en-2027/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/12/la-marine-nationale-va-creer-huit-escouades-de-reserve-cotieres-de-plus-en-2027/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-12",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/escouade-20240802.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-12T18:08:06+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Royal Navy va tester le drone de combat YFQ-84A Talon Blue de Northrop Grumman depuis l’un ses porte-avions",
+      "url": "https://www.opex360.com/2026/11/12/la-royal-navy-va-tester-le-drone-de-combat-yfq-84a-talon-blue-de-northrop-grumman-depuis-lun-ses-porte-avions/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces navales",
+        "CCA",
+        "drone de combat collaboratif",
+        "Northrop Grumman",
+        "Royal Navy",
+        "Royaume-Uni",
+        "Talon Blue",
+        "Vanquiish"
+      ],
+      "sourceExcerpt": {
+        "text": "En 2021, dans le cadre de son plan «Future Maritime Force», la Royal Navy avait dévoilé le projet «Vixen», son…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-12T22:28:53.975744+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/talon-blue-20261112.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Royal Navy va tester le drone de combat YFQ-84A Talon Blue de Northrop Grumman depuis l’un ses porte-avions ».",
+        "credit": "Northrop Grumman",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/12/la-royal-navy-va-tester-le-drone-de-combat-yfq-84a-talon-blue-de-northrop-grumman-depuis-lun-ses-porte-avions/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/12/la-royal-navy-va-tester-le-drone-de-combat-yfq-84a-talon-blue-de-northrop-grumman-depuis-lun-ses-porte-avions/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-12",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/talon-blue-20261112.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-12T17:07:37+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Ukraine’s drone pioneers bring battle-tested tech and high-skilled jobs to Britain",
+      "url": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "High-skilled jobs are coming to Britain as Ukrainian drone pioneers UFORCE expand their UK operations, bringing battle-tested technology developed on…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-12T22:28:53.975744+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6af5ee29ccb3ea58ac87424e/s300_DDC-20261112-3202647.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-12"
+      }
+    },
+    {
+      "date": "2026-11-12",
       "publishedAt": "2026-11-12T15:00:03+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -19178,7 +19339,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00"
     }
   ],
-  "checkedAt": "2026-11-12T15:38:31.194735+00:00",
+  "checkedAt": "2026-11-12T22:28:49.683588+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -19197,7 +19358,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 2,
+        "recentItems": 3,
         "error": null
       },
       {
@@ -19209,7 +19370,7 @@ window.LDV_NEWS = {
       {
         "source": "OpexNews",
         "ok": true,
-        "recentItems": 0,
+        "recentItems": 1,
         "error": null
       },
       {
@@ -19238,14 +19399,14 @@ window.LDV_NEWS = {
       },
       {
         "source": "Naval News",
-        "ok": true,
-        "recentItems": 10,
-        "error": null
+        "ok": false,
+        "recentItems": 0,
+        "error": "HTTP Error 503: Service Temporarily Unavailable"
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 11,
+        "recentItems": 12,
         "error": null
       },
       {
@@ -19255,8 +19416,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 12,
-    "articleImages": 473,
+    "newItems": 4,
+    "articleImages": 477,
     "duplicateHeadlinesSkipped": 0
   }
 };

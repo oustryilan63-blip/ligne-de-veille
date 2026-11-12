@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-12T15:38:31.194735+00:00",
+  "checkedAt": "2026-11-12T22:28:49.683588+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,14 +10,24 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 11,
+    "ok": 10,
     "total": 11,
-    "unavailable": []
+    "unavailable": [
+      "Naval News"
+    ]
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-11-10T15:16:50.692544+00:00",
+      "changedAt": "2026-11-12T22:28:49.683588+00:00",
       "items": [
+        {
+          "title": "Ukraine’s drone pioneers bring battle-tested tech and high-skilled jobs to Britain",
+          "url": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
+          "source": "Ministère britannique de la Défense",
+          "sourceType": "Source officielle",
+          "publishedAt": "2026-11-12T17:07:37+00:00",
+          "language": "en"
+        },
         {
           "title": "LE BERSEK, LE FUTUR DE L'INFANTERIE UKRAINIENNE ?",
           "url": "https://blablachars.blogspot.com/2026/11/le-bersek-le-futur-de-linfanterie.html",
@@ -33,21 +43,13 @@
           "sourceType": "Source officielle",
           "publishedAt": "2026-11-03T00:01:03+00:00",
           "language": "en"
-        },
-        {
-          "title": "UK and Ukrainian industry unite to accelerate drone innovation",
-          "url": "https://www.gov.uk/government/news/uk-and-ukrainian-industry-unite-to-accelerate-drone-innovation",
-          "source": "Ministère britannique de la Défense",
-          "sourceType": "Source officielle",
-          "publishedAt": "2026-10-30T10:49:35+00:00",
-          "language": "en"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-12T15:38:37.099713+00:00",
-        "updatedAt": "2026-11-10T21:59:53.893126+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-11-12T22:28:55.393153+00:00",
+        "updatedAt": "2026-11-12T22:28:55.393153+00:00",
+        "status": "updated",
         "paragraphs": [
           {
             "title": "Les ministres du G7 réunis à Paris : l'Iran et l'Ukraine au cœur des débats",
@@ -56,12 +58,20 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/vid%C3%A9o/20261110-les-ministres-du-g7-r%C3%A9unis-%C3%A0-paris-l-iran-et-l-ukraine-au-c%C5%93ur-des-d%C3%A9bats",
             "publishedAt": "2026-11-10T13:39:42+00:00"
+          },
+          {
+            "title": "Ukraine : à l’approche de l’hiver, l’ONU alerte sur l’escalade des frappes russes",
+            "text": "Les bombardements russes contre les villes et les infrastructures énergétiques ukrainiennes s’intensifient, faisant craindre une nouvelle crise humanitaire à l’approche de l’hiver. Lundi, deux responsables onusiens ont dénoncé une multiplication des victimes civiles et averti que les secours ne pourraient compenser indéfiniment la destruction des réseaux électriques.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159806",
+            "publishedAt": "2026-11-09T12:00:00+00:00"
           }
         ],
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",
@@ -75,7 +85,7 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-12T15:38:37.099713+00:00",
+        "checkedAt": "2026-11-12T22:28:55.393153+00:00",
         "updatedAt": "2026-11-10T21:59:53.893126+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -122,10 +132,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-12T15:38:37.099713+00:00",
-        "updatedAt": "2026-11-12T15:38:37.099713+00:00",
+        "checkedAt": "2026-11-12T22:28:55.393153+00:00",
+        "updatedAt": "2026-11-12T22:28:55.393153+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Ces images relayées par Israël prouvent-elles vraiment que la nourriture est abondante à Gaza ?",
+            "text": "Début novembre, les autorités israéliennes ont diffusé plusieurs vidéos censées montrer que de la nourriture est présente en grandes quantités dans la bande de Gaza. Mais selon les ONG, ces images sont loin d’être représentatives de la réalité, même si la situation s’est améliorée depuis le cessez-le-feu du 10 octobre 2025.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261112-ces-images-relay%C3%A9es-par-isra%C3%ABl-prouvent-elles-vraiment-que-la-nourriture-est-abondante-%C3%A0-gaza",
+            "publishedAt": "2026-11-12T16:42:29+00:00"
+          },
           {
             "title": "Cisjordanie : des camps de déplacés inondés, l'aide humanitaire insuffisante",
             "text": "À Gaza, alors que les frappes et les tirs israéliens restent encore fréquents, des intempéries puissantes viennent aggravées la situations des déplacés palestiniens. Les pluies diluviennes qui sévissent depuis samedi 7 novembre dans les territoires palestiniens sont un véritable fléau pour la population, déjà épuisée par la guerre.",
@@ -135,18 +153,18 @@
             "publishedAt": "2026-11-12T15:08:13+00:00"
           },
           {
-            "title": "Nouveau gouvernement en Israël : quel avenir pour Benjamin Netanyahu ?",
-            "text": "Gadi Eisenkot, chargé de former le prochain gouvernement en Israël, a appelé mercredi 11 novembre le Premier ministre sortant Benjamin Netanyahu à \"faire preuve de responsabilité\" sur les décisions sécuritaires, faisant allusion à une éventuelle attaque israélienne contre l'Iran.",
+            "title": "Gaza : l’ONU dénonce des blocages meurtriers face aux intempéries",
+            "text": "Alors que des pluies torrentielles ont inondé des milliers d’abris de fortune dans la bande de Gaza, le chef des opérations humanitaires de l’ONU accuse les autorités israéliennes et leurs partenaires internationaux de retarder l’acheminement de matériel indispensable à l’approche de l’hiver. Il dénonce des souffrances « prévisibles et évitables ».",
             "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261112-nouveau-gouvernement-en-isra%C3%ABl-quel-avenir-pour-benjamin-netanyahu",
-            "publishedAt": "2026-11-12T10:29:45+00:00"
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159830",
+            "publishedAt": "2026-11-12T12:00:00+00:00"
           }
         ],
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",
