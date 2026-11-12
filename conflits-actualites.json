@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-11T23:09:34.208225+00:00",
+  "checkedAt": "2026-11-12T15:38:31.194735+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -45,7 +45,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-11T23:09:45.061377+00:00",
+        "checkedAt": "2026-11-12T15:38:37.099713+00:00",
         "updatedAt": "2026-11-10T21:59:53.893126+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -75,7 +75,7 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-11T23:09:45.061377+00:00",
+        "checkedAt": "2026-11-12T15:38:37.099713+00:00",
         "updatedAt": "2026-11-10T21:59:53.893126+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -101,8 +101,16 @@
       }
     },
     "moyen-orient-conflits": {
-      "changedAt": "2026-11-11T23:09:34.208225+00:00",
+      "changedAt": "2026-11-12T15:38:31.194735+00:00",
       "items": [
+        {
+          "title": "Atlantique : la route de l’après-Ormuz sera-t-elle sûre ?",
+          "url": "https://www.revueconflits.com/atlantique-la-route-de-lapres-ormuz-sera-t-elle-sure/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-12T02:18:16+00:00",
+          "language": "fr"
+        },
         {
           "title": "« The game remains manageable, but let us stay cautious. » Israel and Turkey eye each other warily",
           "url": "https://www.revueconflits.com/the-game-remains-manageable-but-let-us-stay-cautious-israel-and-turkey-eye-each-other-warily/",
@@ -110,37 +118,29 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-11-02T15:05:11+00:00",
           "language": "en"
-        },
-        {
-          "title": "« Le jeu reste gérable, mais restons prudents ». Israël et la Turquie se regardent en chiens de faïence",
-          "url": "https://www.revueconflits.com/le-jeu-reste-gerable-mais-restons-prudents-israel-et-la-turquie-se-regardent-en-chiens-de-faience/",
-          "source": "Revue Conflits",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-11-02T13:00:36+00:00",
-          "language": "fr"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-11T23:09:45.061377+00:00",
-        "updatedAt": "2026-11-11T14:46:44.368140+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-11-12T15:38:37.099713+00:00",
+        "updatedAt": "2026-11-12T15:38:37.099713+00:00",
+        "status": "updated",
         "paragraphs": [
           {
-            "title": "Inondations à Gaza : comment de fausses vidéos ont été instrumentalisées",
-            "text": "Le week-end dernier, des pluies diluviennes ont inondé la bande de Gaza. De quoi priver d'abris des dizaines de milliers de déplacés. Et comme souvent dans ce type de situations, des contenus inauthentiques sont venus polluer le flot d'images véridiques, jusqu'à être utilisés pour décrédibiliser les inondations et remettre en cause leur existence.",
+            "title": "Cisjordanie : des camps de déplacés inondés, l'aide humanitaire insuffisante",
+            "text": "À Gaza, alors que les frappes et les tirs israéliens restent encore fréquents, des intempéries puissantes viennent aggravées la situations des déplacés palestiniens. Les pluies diluviennes qui sévissent depuis samedi 7 novembre dans les territoires palestiniens sont un véritable fléau pour la population, déjà épuisée par la guerre.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20261111-inondations-%C3%A0-gaza-comment-de-fausses-vid%C3%A9os-ont-%C3%A9t%C3%A9-instrumentalis%C3%A9es",
-            "publishedAt": "2026-11-11T08:52:40+00:00"
+            "url": "https://www.france24.com/fr/vid%C3%A9o/20261112-cisjordanie-des-camps-de-d%C3%A9plac%C3%A9s-inond%C3%A9s-l-aide-humanitaire-insuffisante",
+            "publishedAt": "2026-11-12T15:08:13+00:00"
           },
           {
-            "title": "Guerre en Iran : le président Trump vante \"un élan positif\"",
-            "text": "L'Iran campe mardi 10 novembre sur sa ligne en affirmant qu'il \"est temps de se soumettre aux conditions\" iraniennes, au lendemain de déclarations de Donald Trump saluant \"un élan positif\" dans les négociations pour mettre fin à plus de huit mois de guerre. Au commencement de cette guerre, lancée le 28 février via une attaque israélo-américaine sur Téhéran, les objectifs avancés par Donald Trump variaient de la fin du programme nucléaire au changement de gouvernement en Iran.",
+            "title": "Nouveau gouvernement en Israël : quel avenir pour Benjamin Netanyahu ?",
+            "text": "Gadi Eisenkot, chargé de former le prochain gouvernement en Israël, a appelé mercredi 11 novembre le Premier ministre sortant Benjamin Netanyahu à \"faire preuve de responsabilité\" sur les décisions sécuritaires, faisant allusion à une éventuelle attaque israélienne contre l'Iran.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261110-guerre-en-iran-le-pr%C3%A9sident-trump-vante-un-%C3%A9lan-positif",
-            "publishedAt": "2026-11-10T16:38:26+00:00"
+            "url": "https://www.france24.com/fr/vid%C3%A9o/20261112-nouveau-gouvernement-en-isra%C3%ABl-quel-avenir-pour-benjamin-netanyahu",
+            "publishedAt": "2026-11-12T10:29:45+00:00"
           }
         ],
         "sources": [
