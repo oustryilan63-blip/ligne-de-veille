@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-13T14:57:20.266769+00:00",
+  "checkedAt": "2026-11-13T22:16:28.865404+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -53,18 +53,10 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-13T14:57:30.818897+00:00",
-        "updatedAt": "2026-11-12T22:28:55.393153+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-11-13T22:16:36.762445+00:00",
+        "updatedAt": "2026-11-13T22:16:36.762445+00:00",
+        "status": "updated",
         "paragraphs": [
-          {
-            "title": "Les ministres du G7 réunis à Paris : l'Iran et l'Ukraine au cœur des débats",
-            "text": "Le chef de la diplomatie française, Jean-Noël Barrot, s'est entretenu mardi 10 novembre à Paris avec son homologue ukrainien, Andrii Sybiha, en marge de ⁠la réunion des ministres des Affaires étrangères du G7. Réunion au cours de laquelle la guerre en Ukraine et celle en Iran seront les sujets principaux entre les différents ministres.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261110-les-ministres-du-g7-r%C3%A9unis-%C3%A0-paris-l-iran-et-l-ukraine-au-c%C5%93ur-des-d%C3%A9bats",
-            "publishedAt": "2026-11-10T13:39:42+00:00"
-          },
           {
             "title": "Ukraine : à l’approche de l’hiver, l’ONU alerte sur l’escalade des frappes russes",
             "text": "Les bombardements russes contre les villes et les infrastructures énergétiques ukrainiennes s’intensifient, faisant craindre une nouvelle crise humanitaire à l’approche de l’hiver. Lundi, deux responsables onusiens ont dénoncé une multiplication des victimes civiles et averti que les secours ne pourraient compenser indéfiniment la destruction des réseaux électriques.",
@@ -81,19 +73,28 @@
           },
           {
             "source": "France 24",
-            "ok": true
+            "ok": false
           }
         ]
       }
     },
     "taiwan-detroit-tensions": {
-      "changedAt": "2026-11-02T08:11:18.542145+00:00",
-      "items": [],
+      "changedAt": "2026-11-13T22:16:28.865404+00:00",
+      "items": [
+        {
+          "title": "Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
+          "url": "https://www.navalnews.com/naval-news/2026/11/naval-unmanned-systems-showcased-at-taiwans-marine-tech-show/",
+          "source": "Naval News",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-13T06:29:00+00:00",
+          "language": "en"
+        }
+      ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-13T14:57:30.818897+00:00",
+        "checkedAt": "2026-11-13T22:16:36.762445+00:00",
         "updatedAt": "2026-11-10T21:59:53.893126+00:00",
-        "status": "unchanged",
+        "status": "retained",
         "paragraphs": [
           {
             "title": "Ce que l’on sait sur les exercices de l’armée chinoise autour de Taïwan",
@@ -107,7 +108,7 @@
         "sources": [
           {
             "source": "France 24",
-            "ok": true
+            "ok": false
           },
           {
             "source": "RFI",
@@ -138,25 +139,17 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-13T14:57:30.818897+00:00",
-        "updatedAt": "2026-11-12T22:28:55.393153+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-11-13T22:16:36.762445+00:00",
+        "updatedAt": "2026-11-13T22:16:36.762445+00:00",
+        "status": "updated",
         "paragraphs": [
           {
-            "title": "Ces images relayées par Israël prouvent-elles vraiment que la nourriture est abondante à Gaza ?",
-            "text": "Début novembre, les autorités israéliennes ont diffusé plusieurs vidéos censées montrer que de la nourriture est présente en grandes quantités dans la bande de Gaza. Mais selon les ONG, ces images sont loin d’être représentatives de la réalité, même si la situation s’est améliorée depuis le cessez-le-feu du 10 octobre 2025.",
+            "title": "Yémen : la crise des déplacés s’aggrave, l'aide humanitaire entravée",
+            "text": "Plus de 340 000 personnes ont été contraintes de fuir leur foyer au Yémen, sur fond de violences persistantes et d’insécurité croissante. Alors que les besoins humanitaires s’aggravent, les restrictions imposées sur des axes de transport essentiels compliquent l’acheminement de l’aide, alerte vendredi l’Organisation internationale pour les migrations (OIM).",
             "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261112-ces-images-relay%C3%A9es-par-isra%C3%ABl-prouvent-elles-vraiment-que-la-nourriture-est-abondante-%C3%A0-gaza",
-            "publishedAt": "2026-11-12T16:42:29+00:00"
-          },
-          {
-            "title": "Cisjordanie : des camps de déplacés inondés, l'aide humanitaire insuffisante",
-            "text": "À Gaza, alors que les frappes et les tirs israéliens restent encore fréquents, des intempéries puissantes viennent aggravées la situations des déplacés palestiniens. Les pluies diluviennes qui sévissent depuis samedi 7 novembre dans les territoires palestiniens sont un véritable fléau pour la population, déjà épuisée par la guerre.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261112-cisjordanie-des-camps-de-d%C3%A9plac%C3%A9s-inond%C3%A9s-l-aide-humanitaire-insuffisante",
-            "publishedAt": "2026-11-12T15:08:13+00:00"
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159839",
+            "publishedAt": "2026-11-13T12:00:00+00:00"
           },
           {
             "title": "Gaza : l’ONU dénonce des blocages meurtriers face aux intempéries",
@@ -174,7 +167,7 @@
           },
           {
             "source": "France 24",
-            "ok": true
+            "ok": false
           }
         ]
       }

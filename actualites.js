@@ -4,6 +4,122 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-11-13",
+      "publishedAt": "2026-11-13T18:32:11+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Des drones Vector de l’armée allemande ont brièvement été cloués au sol par une attaque informatique",
+      "url": "https://www.opex360.com/2026/11/13/des-drones-vector-de-larmee-allemande-ont-brievement-ete-cloues-au-sol-par-une-attaque-informatique/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Cyberguerre",
+        "Europe",
+        "Forces terrestres",
+        "attaque informatique",
+        "Bundeswehr",
+        "cyberattaque",
+        "drone",
+        "Quantum Systems",
+        "VECTOR"
+      ],
+      "sourceExcerpt": {
+        "text": "Selon le Financial Times, fin octobre, l’armée allemande a été contrainte de clouer au sol ses mini-drones de reconnaissance tactique…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-13T22:16:34.145718+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/vector-20261113.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Des drones Vector de l’armée allemande ont brièvement été cloués au sol par une attaque informatique ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/13/des-drones-vector-de-larmee-allemande-ont-brievement-ete-cloues-au-sol-par-une-attaque-informatique/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/13/des-drones-vector-de-larmee-allemande-ont-brievement-ete-cloues-au-sol-par-une-attaque-informatique/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-13",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/vector-20261113.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T17:24:45+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La France va commander 20 vedettes rapides CB90 auprès de la Suède",
+      "url": "https://www.opex360.com/2026/11/13/la-france-va-commander-20-vedettes-rapides-cb90-aupres-de-la-suede/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "CB90",
+        "commande",
+        "FORFUSCO",
+        "Marine Nationale",
+        "SAAB",
+        "Suède",
+        "vedette rapide",
+        "VFM"
+      ],
+      "sourceExcerpt": {
+        "text": "En 2025, la Marine nationale se fit prêter trois vedettes rapides CB90 [pour Combat Boat 90] par les forces suédoises…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-13T22:16:34.145718+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/cb90-20261113.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La France va commander 20 vedettes rapides CB90 auprès de la Suède ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/13/la-france-va-commander-20-vedettes-rapides-cb90-aupres-de-la-suede/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/13/la-france-va-commander-20-vedettes-rapides-cb90-aupres-de-la-suede/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-13",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/cb90-20261113.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T16:20:59+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Atlantic Future Forum 2026 Co-Hosts Statement",
+      "url": "https://www.gov.uk/government/news/atlantic-future-forum-2026-co-hosts-statement",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Statement from the co-hosts of Atlantic Future Forum 2026.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-13T22:16:34.145718+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/atlantic-future-forum-2026-co-hosts-statement",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/atlantic-future-forum-2026-co-hosts-statement",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-13"
+      }
+    },
+    {
+      "date": "2026-11-13",
       "publishedAt": "2026-11-13T14:01:36+00:00",
       "source": "Forum Militaire",
       "sourceType": "Presse spécialisée",
@@ -246,6 +362,108 @@ window.LDV_NEWS = {
     },
     {
       "date": "2026-11-13",
+      "publishedAt": "2026-11-13T08:52:38+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "ONU : Lana Nusseibeh, l’outsider venue d’Abou Dhabi",
+      "url": "https://www.revueconflits.com/onu-lana-nusseibeh-loutsider-venue-dabou-dhabi/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Moyen-Orient"
+      ],
+      "imageCheckedAt": "2026-11-13T22:16:34.145718+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2019/10/conseil-de-securite-onu-guerre-paix-justice-jurisprudence-nuremberg.jpg",
+        "kind": "article",
+        "alt": "ONU : Lana Nusseibeh, l’outsider venue d’Abou Dhabi",
+        "credit": "Siège de l'Organisation des Nations Unies à Vienne. (©) Pixabay",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/onu-lana-nusseibeh-loutsider-venue-dabou-dhabi/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/onu-lana-nusseibeh-loutsider-venue-dabou-dhabi/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-13",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2019/10/conseil-de-securite-onu-guerre-paix-justice-jurisprudence-nuremberg.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T08:45:16+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Saab’s New Sea Giraffe AMB D Radar Boosts Detection Range by 50%",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-sea-giraffe-amb-d-radar/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "Saab",
+        "Sea Giraffe radar"
+      ],
+      "sourceExcerpt": {
+        "text": "Saab has reinvigorated its Sea Giraffe Agile Multi Beam (AMB) G-band radar line with the launch of the fourth-generation Sea…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-13T22:16:34.145718+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Sea-Giraffe-AMB-D-radar-Saab-768x412.jpg",
+        "kind": "article",
+        "alt": "Sea Giraffe AMB D radar Saab",
+        "credit": "Sea Giraffe AMB D radar. Saab image.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-sea-giraffe-amb-d-radar/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-sea-giraffe-amb-d-radar/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-13",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Sea-Giraffe-AMB-D-radar-Saab.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T08:30:55+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Dopage : l’Afrique du Sud de moins en moins contrôlée",
+      "url": "https://www.revueconflits.com/dopage-lafrique-du-sud-de-moins-en-moins-controlee/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Abonné",
+        "Afrique du Sud",
+        "Criminalité"
+      ],
+      "imageCheckedAt": "2026-11-13T22:16:34.145718+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2023/10/SIPA_shutterstock41111996_000118-scaled.jpg",
+        "kind": "article",
+        "alt": "Dopage : l’Afrique du Sud de moins en moins contrôlée",
+        "credit": "Mandatory Credit: Photo by MICAH CROOK/PPAUK/Shutterstock (14170296eh) 2023/shutterstock_editorial_NewZvSouthAf_14170296eh//2310290321",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/dopage-lafrique-du-sud-de-moins-en-moins-controlee/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/dopage-lafrique-du-sud-de-moins-en-moins-controlee/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-13",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2023/10/SIPA_shutterstock41111996_000118-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-13",
       "publishedAt": "2026-11-13T07:19:17+00:00",
       "source": "Forum Militaire",
       "sourceType": "Presse spécialisée",
@@ -264,6 +482,75 @@ window.LDV_NEWS = {
       "sourceExcerpt": {
         "text": "Le fusil à pompe devient-il une arme stratégique en 2026 ? L’italien Dualee a dévoilé le 12 novembre avoir démontré…",
         "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T06:29:00+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
+      "url": "https://www.navalnews.com/naval-news/2026/11/naval-unmanned-systems-showcased-at-taiwans-marine-tech-show/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Taiwan",
+        "USV"
+      ],
+      "sourceExcerpt": {
+        "text": "The Taiwan Marine Tech & Unmanned Robotics Expo (MATURE Taiwan), held from November 3 to 5, 2026, in Tainan, southern…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-13T22:16:34.145718+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/taiwan-mature-exposition-768x480.jpeg",
+        "kind": "article",
+        "alt": "Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
+        "credit": "Taiwan's vice president and officials, industry personnel, show organizer, posing beside a STR8 GHOSTWAVE USV",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/naval-unmanned-systems-showcased-at-taiwans-marine-tech-show/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/naval-unmanned-systems-showcased-at-taiwans-marine-tech-show/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-13",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/taiwan-mature-exposition.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T02:57:35+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Livres – 13 novembre",
+      "url": "https://www.revueconflits.com/livres-13-novembre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Livres",
+        "Livre"
+      ],
+      "imageCheckedAt": "2026-11-13T22:16:34.145718+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/10/Livres-1.jpg",
+        "kind": "article",
+        "alt": "Livres – 13 novembre",
+        "credit": "(C) Pixabay.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/livres-13-novembre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/livres-13-novembre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-13",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/10/Livres-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -19646,7 +19933,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00"
     }
   ],
-  "checkedAt": "2026-11-13T14:57:20.266769+00:00",
+  "checkedAt": "2026-11-13T22:16:28.865404+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -19665,7 +19952,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -19723,8 +20010,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 9,
-    "articleImages": 484,
+    "newItems": 8,
+    "articleImages": 492,
     "duplicateHeadlinesSkipped": 0
   }
 };
