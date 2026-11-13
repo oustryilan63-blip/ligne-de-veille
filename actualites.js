@@ -1,7 +1,271 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-13",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T14:01:36+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Ces blindés coréens vont garder les 65 kilomètres qui relient les pays baltes à l’Alliance, un passage que ne traverse aucune route",
+      "url": "https://www.forum-militaire.fr/ces-blindes-coreens-vont-garder-les-65-kilometres-qui-relient-les-pays-baltes-a-lalliance-un-passage-que-ne-traverse-aucune-route/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "char",
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "L’agence polonaise de l’armement a annoncé le 9 novembre le débarquement de plusieurs dizaines de chars K2 et d’obusiers K9…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T13:12:27+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Quels sont les Russes qui meurent en Ukraine ?",
+      "url": "https://www.revueconflits.com/quels-sont-les-russes-qui-meurent-en-ukraine/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Guerre en Ukraine",
+        "Abonné",
+        "Démographie",
+        "Russie"
+      ],
+      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/Russie-demographie.jpg",
+        "kind": "article",
+        "alt": "Quels sont les Russes qui meurent en Ukraine ?",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/quels-sont-les-russes-qui-meurent-en-ukraine/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/quels-sont-les-russes-qui-meurent-en-ukraine/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-13",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/Russie-demographie.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T12:59:29+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "SUBPAC Commander Warns of Rapid Expansion in Chinese and Russian Submarine Fleets",
+      "url": "https://www.navalnews.com/naval-news/2026/11/subpac-commander-warns-of-rapid-expansion-in-chinese-and-russian-submarine-fleets/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Pacific Fleet",
+        "PLAN",
+        "Russian Navy",
+        "Submarine"
+      ],
+      "sourceExcerpt": {
+        "text": "U.S. Pacific Fleet (SUBPAC) Commander Rear Adm. Chris Cavanaugh outlines the rapid expansion and growing undersea threats of the PLAN…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/IMG_18831-768x427.jpg",
+        "kind": "article",
+        "alt": "SUBPAC Commander Warns of Rapid Expansion in Chinese and Russian Submarine Fleets",
+        "credit": "A slide from RADM Chris Cavanaugh's presentation outlining key threats faced by the U.S. Navy's undersea force at the Naval Submarine League's Annual Symposium and Industry Update. Note that the official slide misidentifies a Chinese Type 093A (Shang II) SSN as a 093B (Shang III) SSGN. Naval News Image.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/subpac-commander-warns-of-rapid-expansion-in-chinese-and-russian-submarine-fleets/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/subpac-commander-warns-of-rapid-expansion-in-chinese-and-russian-submarine-fleets/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-13",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/IMG_18831-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T12:48:45+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "UN: Lana Nusseibeh, the outsider from Abu Dhabi",
+      "url": "https://www.revueconflits.com/un-lana-nusseibeh-the-outsider-from-abu-dhabi/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Conflits in English"
+      ],
+      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2019/10/conseil-de-securite-onu-guerre-paix-justice-jurisprudence-nuremberg.jpg",
+        "kind": "article",
+        "alt": "UN: Lana Nusseibeh, the outsider from Abu Dhabi",
+        "credit": "Siège de l'Organisation des Nations Unies à Vienne. (©) Pixabay",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/un-lana-nusseibeh-the-outsider-from-abu-dhabi/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/un-lana-nusseibeh-the-outsider-from-abu-dhabi/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-13",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2019/10/conseil-de-securite-onu-guerre-paix-justice-jurisprudence-nuremberg.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T12:15:15+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Israël et l’Ukraine, un rapprochement dans l’air ?",
+      "url": "https://www.revueconflits.com/israel-et-lukraine-un-rapprochement-dans-lair/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Armes et armement",
+        "Guerre en Ukraine",
+        "Abonné"
+      ],
+      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/Vignettes-videos-2026-11-13T131734.204.png",
+        "kind": "article",
+        "alt": "Israël et l’Ukraine, un rapprochement dans l’air ?",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/israel-et-lukraine-un-rapprochement-dans-lair/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/israel-et-lukraine-un-rapprochement-dans-lair/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-13",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/Vignettes-videos-2026-11-13T131734.204.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T11:54:01+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’Espagne débloque 3 milliards d’euros pour acquérir des missiles de croisière JSM-SL et moderniser ses sous-marins S80",
+      "url": "https://www.opex360.com/2026/11/13/lespagne-debloque-3-milliards-deuros-pour-acquerir-des-missiles-de-croisiere-jsm-sl-et-moderniser-ses-sous-marins-s80/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces navales",
+        "Armada Española",
+        "Espagne",
+        "Isaac Peral",
+        "JSM-SL",
+        "missile de croisière",
+        "modernisation",
+        "Navantia",
+        "S80"
+      ],
+      "sourceExcerpt": {
+        "text": "Si les choses s’étaient passées comme prévu, la marine espagnole [Armada española] aurait dû recevoir quatre nouveaux sous-marins de type…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/s80-20170404.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’Espagne débloque 3 milliards d’euros pour acquérir des missiles de croisière JSM-SL et moderniser ses sous-marins S80 ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/13/lespagne-debloque-3-milliards-deuros-pour-acquerir-des-missiles-de-croisiere-jsm-sl-et-moderniser-ses-sous-marins-s80/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/13/lespagne-debloque-3-milliards-deuros-pour-acquerir-des-missiles-de-croisiere-jsm-sl-et-moderniser-ses-sous-marins-s80/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-13",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/s80-20170404.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T09:25:44+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Beyond the Hype: French Navy Chief Advocates for a ‘Reasoned’ Hybrid Fleet",
+      "url": "https://www.navalnews.com/interviews/2026/11/french-navy-chief-reasoned-hybrid-fleet/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Interviews",
+        "French Navy",
+        "Hybrid Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "At Euronaval 2026, French Navy Chief Admiral Christophe Cluzel outlined France's \"reasoned\" hybrid fleet doctrine, pairing heavy capital ships with…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/French-Navy-Chief-Advocates-for-a-Reasoned-Hybrid-Fleet-768x432.jpg",
+        "kind": "article",
+        "alt": "French Navy Chief Advocates for a 'Reasoned' Hybrid Fleet",
+        "credit": "Admiral Christophe Cluzel, Chief of Staff of the French Navy",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/interviews/2026/11/french-navy-chief-reasoned-hybrid-fleet/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/interviews/2026/11/french-navy-chief-reasoned-hybrid-fleet/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-13",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/French-Navy-Chief-Advocates-for-a-Reasoned-Hybrid-Fleet.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T07:19:17+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Les Italiens veulent ressusciter cette arme d’un autre âge dans une tourelle high-tech anti-drones à bas coût : la LIVET M4",
+      "url": "https://www.forum-militaire.fr/les-italiens-veulent-utiliser-une-tourelle-armee-de-huit-fusils-a-pompe-comme-arme-anti-drones-a-bas-cout-la-livet-m4/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armes / chasse",
+        "drone"
+      ],
+      "sourceExcerpt": {
+        "text": "Le fusil à pompe devient-il une arme stratégique en 2026 ? L’italien Dualee a dévoilé le 12 novembre avoir démontré…",
+        "kind": "feed-excerpt"
+      }
+    },
     {
       "date": "2026-11-12",
       "publishedAt": "2026-11-12T19:43:34+00:00",
@@ -129,6 +393,49 @@ window.LDV_NEWS = {
         "rightsUrl": "https://www.opex360.com/2026/11/12/la-royal-navy-va-tester-le-drone-de-combat-yfq-84a-talon-blue-de-northrop-grumman-depuis-lun-ses-porte-avions/",
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-12",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/talon-blue-20261112.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-12T18:08:06+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Royal Navy va tester le drone de combat YFQ-48A Talon Blue de Northrop Grumman depuis l’un ses porte-avions",
+      "url": "https://www.opex360.com/2026/11/12/la-royal-navy-va-tester-le-drone-de-combat-yfq-48a-talon-blue-de-northrop-grumman-depuis-lun-ses-porte-avions/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces navales",
+        "CCA",
+        "drone de combat collaboratif",
+        "Northrop Grumman",
+        "Royal Navy",
+        "Royaume-Uni",
+        "Talon Blue",
+        "Vanquiish"
+      ],
+      "sourceExcerpt": {
+        "text": "En 2021, dans le cadre de son plan «Future Maritime Force», la Royal Navy avait dévoilé le projet «Vixen», son…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/talon-blue-20261112.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Royal Navy va tester le drone de combat YFQ-48A Talon Blue de Northrop Grumman depuis l’un ses porte-avions ».",
+        "credit": "Northrop Grumman",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/12/la-royal-navy-va-tester-le-drone-de-combat-yfq-48a-talon-blue-de-northrop-grumman-depuis-lun-ses-porte-avions/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/12/la-royal-navy-va-tester-le-drone-de-combat-yfq-48a-talon-blue-de-northrop-grumman-depuis-lun-ses-porte-avions/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-13",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/talon-blue-20261112.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
@@ -11382,7 +11689,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00"
+      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00"
     },
     {
       "date": "2026-10-23",
@@ -11395,7 +11702,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00"
+      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00"
     },
     {
       "date": "2026-10-22",
@@ -12019,7 +12326,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00"
+      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00"
     },
     {
       "date": "2026-10-21",
@@ -19122,7 +19429,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00"
+      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00"
     },
     {
       "date": "2026-10-07",
@@ -19336,10 +19643,10 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-11T23:09:38.415556+00:00"
+      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00"
     }
   ],
-  "checkedAt": "2026-11-12T22:28:49.683588+00:00",
+  "checkedAt": "2026-11-13T14:57:20.266769+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -19388,25 +19695,25 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 1,
+        "recentItems": 0,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
         "source": "Naval News",
-        "ok": false,
-        "recentItems": 0,
-        "error": "HTTP Error 503: Service Temporarily Unavailable"
+        "ok": true,
+        "recentItems": 10,
+        "error": null
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 12,
+        "recentItems": 11,
         "error": null
       },
       {
@@ -19416,8 +19723,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 4,
-    "articleImages": 477,
+    "newItems": 9,
+    "articleImages": 484,
     "duplicateHeadlinesSkipped": 0
   }
 };

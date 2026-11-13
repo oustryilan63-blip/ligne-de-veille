@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-12T22:28:49.683588+00:00",
+  "checkedAt": "2026-11-13T14:57:20.266769+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,16 +10,30 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 10,
+    "ok": 11,
     "total": 11,
-    "unavailable": [
-      "Naval News"
-    ]
+    "unavailable": []
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-11-12T22:28:49.683588+00:00",
+      "changedAt": "2026-11-13T14:57:20.266769+00:00",
       "items": [
+        {
+          "title": "Quels sont les Russes qui meurent en Ukraine ?",
+          "url": "https://www.revueconflits.com/quels-sont-les-russes-qui-meurent-en-ukraine/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-13T13:12:27+00:00",
+          "language": "fr"
+        },
+        {
+          "title": "Israël et l’Ukraine, un rapprochement dans l’air ?",
+          "url": "https://www.revueconflits.com/israel-et-lukraine-un-rapprochement-dans-lair/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-13T12:15:15+00:00",
+          "language": "fr"
+        },
         {
           "title": "Ukraine’s drone pioneers bring battle-tested tech and high-skilled jobs to Britain",
           "url": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
@@ -35,21 +49,13 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-11-05T11:58:00+00:00",
           "language": "fr"
-        },
-        {
-          "title": "UK to lead multinational military training exercise to prepare for peace in Ukraine",
-          "url": "https://www.gov.uk/government/news/uk-to-lead-multinational-military-training-exercise-to-prepare-for-peace-in-ukraine--2",
-          "source": "Ministère britannique de la Défense",
-          "sourceType": "Source officielle",
-          "publishedAt": "2026-11-03T00:01:03+00:00",
-          "language": "en"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-12T22:28:55.393153+00:00",
+        "checkedAt": "2026-11-13T14:57:30.818897+00:00",
         "updatedAt": "2026-11-12T22:28:55.393153+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Les ministres du G7 réunis à Paris : l'Iran et l'Ukraine au cœur des débats",
@@ -85,7 +91,7 @@
       "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-12T22:28:55.393153+00:00",
+        "checkedAt": "2026-11-13T14:57:30.818897+00:00",
         "updatedAt": "2026-11-10T21:59:53.893126+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -111,8 +117,16 @@
       }
     },
     "moyen-orient-conflits": {
-      "changedAt": "2026-11-12T15:38:31.194735+00:00",
+      "changedAt": "2026-11-13T14:57:20.266769+00:00",
       "items": [
+        {
+          "title": "Israël et l’Ukraine, un rapprochement dans l’air ?",
+          "url": "https://www.revueconflits.com/israel-et-lukraine-un-rapprochement-dans-lair/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-13T12:15:15+00:00",
+          "language": "fr"
+        },
         {
           "title": "Atlantique : la route de l’après-Ormuz sera-t-elle sûre ?",
           "url": "https://www.revueconflits.com/atlantique-la-route-de-lapres-ormuz-sera-t-elle-sure/",
@@ -120,21 +134,13 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-11-12T02:18:16+00:00",
           "language": "fr"
-        },
-        {
-          "title": "« The game remains manageable, but let us stay cautious. » Israel and Turkey eye each other warily",
-          "url": "https://www.revueconflits.com/the-game-remains-manageable-but-let-us-stay-cautious-israel-and-turkey-eye-each-other-warily/",
-          "source": "Revue Conflits",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-11-02T15:05:11+00:00",
-          "language": "en"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-12T22:28:55.393153+00:00",
+        "checkedAt": "2026-11-13T14:57:30.818897+00:00",
         "updatedAt": "2026-11-12T22:28:55.393153+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Ces images relayées par Israël prouvent-elles vraiment que la nourriture est abondante à Gaza ?",
