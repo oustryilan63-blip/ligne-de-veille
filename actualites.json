@@ -4,6 +4,155 @@
   "items": [
     {
       "date": "2026-11-14",
+      "publishedAt": "2026-11-14T16:39:23+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Lead Columbia-class SSBN Claws Back from Delay Risk",
+      "url": "https://www.navalnews.com/naval-news/2026/11/uss-district-of-columbia-ssbn-826-back-on-track-for-2028-delivery/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Columbia-class",
+        "SSBN",
+        "US Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "The U.S. Navy's lead Columbia-class SSBN, USS District of Columbia (SSBN-826), is back on track for 2028 delivery after work…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Columbia-class-SSBN-scale-model-SAS-768x576.jpg",
+        "kind": "article",
+        "alt": "Columbia-class SSBN scale model SAS",
+        "credit": "A scale model of the U.S. Navy’s Columbia-class nuclear ballistic missile submarine (SSBN) on display at Sea Air Space, highlighting its X-shaped stern planes and shrouded pump-jet propulsor. (Naval News file photo)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/uss-district-of-columbia-ssbn-826-back-on-track-for-2028-delivery/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/uss-district-of-columbia-ssbn-826-back-on-track-for-2028-delivery/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-14",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Columbia-class-SSBN-scale-model-SAS.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-14T15:37:52+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Forces spéciales : Le 1er Régiment de Parachutistes d’Infanterie de Marine change d’appellation",
+      "url": "https://www.opex360.com/2026/11/14/forces-speciales-le-1er-regiment-de-parachutistes-dinfanterie-de-marine-change-dappellation/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces spéciales",
+        "Forces terrestres",
+        "1er RPIMa",
+        "1er RPIMa SAS",
+        "armée de terre",
+        "COS",
+        "SAS",
+        "Services aériens spéciaux",
+        "Special Air Service"
+      ],
+      "sourceExcerpt": {
+        "text": "Au cours de son histoire et au gré de ses affiliations, le 1er Régiment de Parachutistes d’Infanterie de Marine [1er…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/polaris-cos-20190713.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Forces spéciales : Le 1er Régiment de Parachutistes d’Infanterie de Marine change d’appellation ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/14/forces-speciales-le-1er-regiment-de-parachutistes-dinfanterie-de-marine-change-dappellation/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/14/forces-speciales-le-1er-regiment-de-parachutistes-dinfanterie-de-marine-change-dappellation/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-14",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/polaris-cos-20190713.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-14T14:33:24+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Pour la première fois, des pilotes français de Rafale ont utilisé le viseur de casque Scorpion en opération extérieure",
+      "url": "https://www.opex360.com/2026/11/14/pour-la-premiere-fois-des-pilotes-de-rafale-francais-ont-utilise-le-viseur-de-casques-scorpion-en-operation-exterieure/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "aAE",
+        "armée de l'Air & de l'Espace",
+        "Chammal",
+        "Rafale",
+        "Rafale F4",
+        "Scorpion",
+        "Thales",
+        "viseur de casque"
+      ],
+      "sourceExcerpt": {
+        "text": "Dans les années 2000, il était question d’équiper les pilotes français de Rafale avec le viseur de casque «Gerfaut», développé…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/scorpion-20261114.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Pour la première fois, des pilotes français de Rafale ont utilisé le viseur de casque Scorpion en opération extérieure ».",
+        "credit": "État-major des armées",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/14/pour-la-premiere-fois-des-pilotes-de-rafale-francais-ont-utilise-le-viseur-de-casques-scorpion-en-operation-exterieure/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/14/pour-la-premiere-fois-des-pilotes-de-rafale-francais-ont-utilise-le-viseur-de-casques-scorpion-en-operation-exterieure/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-14",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/scorpion-20261114.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-14T13:56:11+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La France commande 12 vedettes à un chantier français, en reçoit deux, et c’est la Suède qui propose de fournir les vingt suivantes",
+      "url": "https://www.forum-militaire.fr/la-france-commande-12-vedettes-a-un-chantier-francais-en-recoit-deux-et-cest-la-suede-qui-propose-de-fournir-les-vingt-suivantes/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Marines militaires",
+        "contrat",
+        "France",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Stockholm a demandé le 12 novembre à son parlement l’autorisation de vendre vingt vedettes de combat CB90 à la France,…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-14",
       "publishedAt": "2026-11-14T11:55:54+00:00",
       "source": "Zone Militaire — Opex360",
       "sourceType": "Presse spécialisée",
@@ -1041,6 +1190,43 @@
         "rightsUrl": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
         "evidence": "official-editorial-lead",
         "checkedAt": "2026-11-12"
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-12T15:41:39+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "U.S. Navy Expands Tomahawk Warhead Production Capacity at China Lake",
+      "url": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-expands-tomahawk-warhead-production-capacity-at-china-lake/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Tomahawk",
+        "US Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "A newly inaugurated 300-gallon energetics mixer at China Lake is slated to reach production rate by June 2027, establishing an…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2023/01/Tomahawk-SNA-2023-768x432.jpg",
+        "kind": "article",
+        "alt": "Tomahawk SNA 2023",
+        "credit": "Tomahawk SNA 2023",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-expands-tomahawk-warhead-production-capacity-at-china-lake/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-expands-tomahawk-warhead-production-capacity-at-china-lake/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-14",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2023/01/Tomahawk-SNA-2023.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -12262,7 +12448,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00"
+      "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00"
     },
     {
       "date": "2026-10-23",
@@ -12275,7 +12461,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00"
+      "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00"
     },
     {
       "date": "2026-10-22",
@@ -12899,7 +13085,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00"
+      "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00"
     },
     {
       "date": "2026-10-21",
@@ -20002,7 +20188,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00"
+      "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00"
     },
     {
       "date": "2026-10-07",
@@ -20216,10 +20402,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00"
+      "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00"
     }
   ],
-  "checkedAt": "2026-11-14T13:49:49.073328+00:00",
+  "checkedAt": "2026-11-14T20:59:30.119243+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -20296,8 +20482,8 @@
         "error": null
       }
     ],
-    "newItems": 8,
-    "articleImages": 499,
+    "newItems": 5,
+    "articleImages": 503,
     "duplicateHeadlinesSkipped": 0
   }
 }

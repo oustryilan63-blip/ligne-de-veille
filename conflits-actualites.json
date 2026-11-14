@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-14T13:49:49.073328+00:00",
+  "checkedAt": "2026-11-14T20:59:30.119243+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -53,9 +53,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-14T13:49:55.389559+00:00",
+        "checkedAt": "2026-11-14T20:59:38.659934+00:00",
         "updatedAt": "2026-11-14T13:49:55.389559+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Les ministres du G7 réunis à Paris : l'Iran et l'Ukraine au cœur des débats",
@@ -100,7 +100,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-14T13:49:55.389559+00:00",
+        "checkedAt": "2026-11-14T20:59:38.659934+00:00",
         "updatedAt": "2026-11-10T21:59:53.893126+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -147,9 +147,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-14T13:49:55.389559+00:00",
+        "checkedAt": "2026-11-14T20:59:38.659934+00:00",
         "updatedAt": "2026-11-14T13:49:55.389559+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Un radar américain détruit par l'Iran ? Cette image modifiée par IA montre une destruction ancienne",
