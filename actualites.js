@@ -1,7 +1,181 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-14T11:55:54+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Baltique : Visée par des drones ukrainiens, la corvette russe Naro-Fominsk aurait subi d’importants dégâts",
+      "url": "https://www.opex360.com/2026/11/14/baltique-visee-par-des-drones-ukrainiens-la-corvette-russe-naro-forminsk-aurait-subi-dimportants-degats/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces navales",
+        "Baltique",
+        "corvette",
+        "frappe",
+        "golfe de Finlalnde",
+        "guerre en Ukraine",
+        "marine russe",
+        "Naro-Fominsk",
+        "Oust-Louga"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 12 novembre, sans donner davantage de précisions, l’état-major finlandais a dit avoir détecté, la veille, une «frappe» contre un…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-14T13:49:53.643996+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/bouian-20261114.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Baltique : Visée par des drones ukrainiens, la corvette russe Naro-Fominsk aurait subi d’importants dégâts ».",
+        "credit": "Corvette de type Bouïan-M",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/14/baltique-visee-par-des-drones-ukrainiens-la-corvette-russe-naro-forminsk-aurait-subi-dimportants-degats/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/14/baltique-visee-par-des-drones-ukrainiens-la-corvette-russe-naro-forminsk-aurait-subi-dimportants-degats/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-14",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/bouian-20261114.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-14T10:08:50+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Trahir la France pour les États-Unis a un prix et l’Australie commence à le comprendre au point d’envisager un retour à la classe Suffren…",
+      "url": "https://www.forum-militaire.fr/trahir-la-france-pour-les-etats-unis-a-un-prix-et-laustralie-commence-a-le-comprendre-a-ses-depends-au-point-denvisager-un-retour-a-la-classe-suffren-pour-ses-sous-marins/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Industrie",
+        "Marines militaires",
+        "contrat",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Douze sous-marins nucléaires d’attaque de la classe Suffren pour 180 milliards de dollars australiens, contre huit AUKUS pour 268 milliards.…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-14T09:04:04+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Jensen Huang : le milliardaire au blouson de cuir",
+      "url": "https://www.revueconflits.com/jensen-huang-le-milliardaire-au-blouson-de-cuir/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Art et Géopolitique",
+        "Abonné",
+        "Culture"
+      ],
+      "imageCheckedAt": "2026-11-14T13:49:53.643996+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_sipahub60233400_000003-scaled-e1794607427677.jpg",
+        "kind": "article",
+        "alt": "Jensen Huang : le milliardaire au blouson de cuir",
+        "credit": "21 October 2026, Berlin: Jensen Huang, 2026. Photo: Soeren Stache/dpa - urn:newsml:dpa.com:20090101:261021-99-16781 - Soeren Stache/DPA/SIPA/2610211140",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/jensen-huang-le-milliardaire-au-blouson-de-cuir/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/jensen-huang-le-milliardaire-au-blouson-de-cuir/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-14",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_sipahub60233400_000003-scaled-e1794607427677.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-14T08:57:28+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Naval Group Unveils SCX 26 ‘Hybrid Fleet’ Drone Mothership Concept",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-presents-scx-26-combatant-as-naval-drone-hub/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "Hybrid Navy",
+        "Mothership",
+        "Naval Group",
+        "SCX 26"
+      ],
+      "sourceExcerpt": {
+        "text": "French shipbuilder Naval Group unveiled a new conceptual surface warship design at Euronaval 2026 dubbed “SCX 26.” Naval News provides…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-14T13:49:53.643996+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/DSC05461_WM-768x512.jpg",
+        "kind": "article",
+        "alt": "Naval Group Unveils SCX 26 ‘Hybrid Fleet’ Drone Mothership Concept",
+        "credit": "Model of the Naval Group SCX 26 future surface combatant at Euronaval 2026.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-presents-scx-26-combatant-as-naval-drone-hub/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-group-presents-scx-26-combatant-as-naval-drone-hub/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-14",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/DSC05461_WM.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "publishedAt": "2026-11-14T02:50:37+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Bukele, nouveau gendarme de Haïti",
+      "url": "https://www.revueconflits.com/bukele-nouveau-gendarme-de-haiti/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique",
+        "Abonné",
+        "Caraïbes",
+        "Haïti"
+      ],
+      "imageCheckedAt": "2026-11-14T13:49:53.643996+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap23074106_000004-scaled.jpg",
+        "kind": "article",
+        "alt": "Bukele, nouveau gendarme de Haïti",
+        "credit": "Soldiers from El Salvador patrol the area of ??Sylvio Cator National Stadium in downtown in Port-au-Prince, Haiti, Thursday, Nov. 12, 2026. (AP Photo/Patrice Noel)/XRE105/26316828446039//2611130018",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/bukele-nouveau-gendarme-de-haiti/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/bukele-nouveau-gendarme-de-haiti/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-14",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap23074106_000004-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-13",
       "publishedAt": "2026-11-13T18:32:11+00:00",
@@ -116,6 +290,48 @@ window.LDV_NEWS = {
         "rightsUrl": "https://www.gov.uk/government/news/atlantic-future-forum-2026-co-hosts-statement",
         "evidence": "official-editorial-lead",
         "checkedAt": "2026-11-13"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T15:36:46+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La France officialise la création d’un centre international dédié à l’intelligence artificielle militaire à Rennes",
+      "url": "https://www.opex360.com/2026/11/13/la-france-officialise-la-creation-dun-centre-international-dedie-a-lintelligence-artificielle-militaire-a-rennes/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Technologie",
+        "AMIAD",
+        "centre d'excellence",
+        "ICAID",
+        "intelligence artificielle",
+        "ministrère des Armées",
+        "Otan",
+        "Rennes"
+      ],
+      "sourceExcerpt": {
+        "text": "Après ceux dédiés à la préparation aux opérations aériennes [CASPOA, à Lyon] et à l’espace [NATO Space COE, à Toulouse],…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-14T13:49:53.643996+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/ia-militaire-20261113.jpeg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La France officialise la création d’un centre international dédié à l’intelligence artificielle militaire à Rennes ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/13/la-france-officialise-la-creation-dun-centre-international-dedie-a-lintelligence-artificielle-militaire-a-rennes/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/13/la-france-officialise-la-creation-dun-centre-international-dedie-a-lintelligence-artificielle-militaire-a-rennes/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-14",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/ia-militaire-20261113.jpeg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -554,6 +770,39 @@ window.LDV_NEWS = {
       }
     },
     {
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T02:47:51+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Électricité : la France dans le noir. Hervé Machenaud",
+      "url": "https://www.revueconflits.com/podcast-electricite-la-france-dans-le-noir-herve-machenaud/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Podcasts",
+        "Podcasts France",
+        "Podcasts Géopolitique & Entreprises"
+      ],
+      "imageCheckedAt": "2026-11-14T13:49:53.643996+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2025/01/nuclear-power-plant-4535760_1280-1.jpg",
+        "kind": "article",
+        "alt": "Podcast – Électricité : la France dans le noir. Hervé Machenaud",
+        "credit": "centrale nucléaire (c) Unsplash",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-electricite-la-france-dans-le-noir-herve-machenaud/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-electricite-la-france-dans-le-noir-herve-machenaud/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-14",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2025/01/nuclear-power-plant-4535760_1280-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
       "date": "2026-11-12",
       "publishedAt": "2026-11-12T19:43:34+00:00",
       "source": "OpexNews",
@@ -724,6 +973,43 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-13",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/talon-blue-20261112.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "publishedAt": "2026-11-12T17:18:57+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "UK Selects Norwegian P1118 Design for New Mine-Hunting Motherships",
+      "url": "https://www.navalnews.com/naval-news/2026/11/uk-royal-navy-mine-hunting-motherships-norway/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Mine Warfare",
+        "Royal Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "The UK will acquire three new Royal Navy mine-hunting motherships under Norway’s P1118 programme, with the first Offshore Support Vessel…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-14T13:49:53.643996+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Royal-Navy-Mine-Hunter-Norway-upscaled-2x-768x489.jpg",
+        "kind": "article",
+        "alt": "UK Selects Norwegian P1118 Design for New Mine-Hunting Motherships",
+        "credit": "An illustrative concept rendering of an Offshore Support Vessel (OSV) designed to operate uncrewed mine-hunting systems. The final design for the UK’s three motherships will be determined by the winner of the Royal Norwegian Navy’s P1118 Standardised Vessel Programme competition. Royal Navy image.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/uk-royal-navy-mine-hunting-motherships-norway/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/uk-royal-navy-mine-hunting-motherships-norway/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-14",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Royal-Navy-Mine-Hunter-Norway-upscaled-2x.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -19933,7 +20219,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-13T14:57:25.842528+00:00"
     }
   ],
-  "checkedAt": "2026-11-13T22:16:28.865404+00:00",
+  "checkedAt": "2026-11-14T13:49:49.073328+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -19988,7 +20274,7 @@ window.LDV_NEWS = {
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 3,
         "error": null
       },
       {
@@ -20000,7 +20286,7 @@ window.LDV_NEWS = {
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 11,
+        "recentItems": 12,
         "error": null
       },
       {
@@ -20011,7 +20297,7 @@ window.LDV_NEWS = {
       }
     ],
     "newItems": 8,
-    "articleImages": 492,
+    "articleImages": 499,
     "duplicateHeadlinesSkipped": 0
   }
 };

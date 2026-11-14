@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-13T22:16:28.865404+00:00",
+  "checkedAt": "2026-11-14T13:49:49.073328+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -16,8 +16,16 @@
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-11-13T14:57:20.266769+00:00",
+      "changedAt": "2026-11-14T13:49:49.073328+00:00",
       "items": [
+        {
+          "title": "Baltique : Visée par des drones ukrainiens, la corvette russe Naro-Fominsk aurait subi d’importants dégâts",
+          "url": "https://www.opex360.com/2026/11/14/baltique-visee-par-des-drones-ukrainiens-la-corvette-russe-naro-forminsk-aurait-subi-dimportants-degats/",
+          "source": "Zone Militaire — Opex360",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-14T11:55:54+00:00",
+          "language": "fr"
+        },
         {
           "title": "Quels sont les Russes qui meurent en Ukraine ?",
           "url": "https://www.revueconflits.com/quels-sont-les-russes-qui-meurent-en-ukraine/",
@@ -41,22 +49,22 @@
           "sourceType": "Source officielle",
           "publishedAt": "2026-11-12T17:07:37+00:00",
           "language": "en"
-        },
-        {
-          "title": "LE BERSEK, LE FUTUR DE L'INFANTERIE UKRAINIENNE ?",
-          "url": "https://blablachars.blogspot.com/2026/11/le-bersek-le-futur-de-linfanterie.html",
-          "source": "Blablachars",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-11-05T11:58:00+00:00",
-          "language": "fr"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-13T22:16:36.762445+00:00",
-        "updatedAt": "2026-11-13T22:16:36.762445+00:00",
+        "checkedAt": "2026-11-14T13:49:55.389559+00:00",
+        "updatedAt": "2026-11-14T13:49:55.389559+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Les ministres du G7 réunis à Paris : l'Iran et l'Ukraine au cœur des débats",
+            "text": "Le chef de la diplomatie française, Jean-Noël Barrot, s'est entretenu mardi 10 novembre à Paris avec son homologue ukrainien, Andrii Sybiha, en marge de ⁠la réunion des ministres des Affaires étrangères du G7. Réunion au cours de laquelle la guerre en Ukraine et celle en Iran seront les sujets principaux entre les différents ministres.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/vid%C3%A9o/20261110-les-ministres-du-g7-r%C3%A9unis-%C3%A0-paris-l-iran-et-l-ukraine-au-c%C5%93ur-des-d%C3%A9bats",
+            "publishedAt": "2026-11-10T13:39:42+00:00"
+          },
           {
             "title": "Ukraine : à l’approche de l’hiver, l’ONU alerte sur l’escalade des frappes russes",
             "text": "Les bombardements russes contre les villes et les infrastructures énergétiques ukrainiennes s’intensifient, faisant craindre une nouvelle crise humanitaire à l’approche de l’hiver. Lundi, deux responsables onusiens ont dénoncé une multiplication des victimes civiles et averti que les secours ne pourraient compenser indéfiniment la destruction des réseaux électriques.",
@@ -73,7 +81,7 @@
           },
           {
             "source": "France 24",
-            "ok": false
+            "ok": true
           }
         ]
       }
@@ -92,9 +100,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-13T22:16:36.762445+00:00",
+        "checkedAt": "2026-11-14T13:49:55.389559+00:00",
         "updatedAt": "2026-11-10T21:59:53.893126+00:00",
-        "status": "retained",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Ce que l’on sait sur les exercices de l’armée chinoise autour de Taïwan",
@@ -108,7 +116,7 @@
         "sources": [
           {
             "source": "France 24",
-            "ok": false
+            "ok": true
           },
           {
             "source": "RFI",
@@ -139,10 +147,26 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-13T22:16:36.762445+00:00",
-        "updatedAt": "2026-11-13T22:16:36.762445+00:00",
+        "checkedAt": "2026-11-14T13:49:55.389559+00:00",
+        "updatedAt": "2026-11-14T13:49:55.389559+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Un radar américain détruit par l'Iran ? Cette image modifiée par IA montre une destruction ancienne",
+            "text": "Le 13 novembre, l'Iran a affirmé avoir détruit un radar américain à Bahreïn, ce que les États-Unis démentent. Une image satellite modifiée par IA, censée prouver l'attaque iranienne, a ensuite circulé en ligne. Elle avait été publiée dès juin, après de précédentes attaques iraniennes qui avaient bien endommagé un site américain.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261113-un-radar-am%C3%A9ricain-d%C3%A9truit-par-l-iran-cette-image-modifi%C3%A9e-par-ia-montre-une-destruction-ancienne",
+            "publishedAt": "2026-11-13T17:53:20+00:00"
+          },
+          {
+            "title": "D’Ormuz à Bab Al-Mandab, la guerre au Moyen-Orient prend le commerce mondial en otage",
+            "text": "Neuf mois après le début de la guerre avec l’Iran, les attaques contre les navires marchands continuent de perturber deux des principales voies maritimes de la planète. Devant le Conseil de sécurité, vendredi, l’ONU a alerté sur les conséquences économiques et alimentaires de cette crise, tandis que les monarchies du Golfe ont réclamé des mesures contre Téhéran et les houthistes.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159841",
+            "publishedAt": "2026-11-13T12:00:00+00:00"
+          },
           {
             "title": "Yémen : la crise des déplacés s’aggrave, l'aide humanitaire entravée",
             "text": "Plus de 340 000 personnes ont été contraintes de fuir leur foyer au Yémen, sur fond de violences persistantes et d’insécurité croissante. Alors que les besoins humanitaires s’aggravent, les restrictions imposées sur des axes de transport essentiels compliquent l’acheminement de l’aide, alerte vendredi l’Organisation internationale pour les migrations (OIM).",
@@ -150,14 +174,6 @@
             "source": "ONU Info",
             "url": "https://news.un.org/feed/view/fr/story/2026/11/1159839",
             "publishedAt": "2026-11-13T12:00:00+00:00"
-          },
-          {
-            "title": "Gaza : l’ONU dénonce des blocages meurtriers face aux intempéries",
-            "text": "Alors que des pluies torrentielles ont inondé des milliers d’abris de fortune dans la bande de Gaza, le chef des opérations humanitaires de l’ONU accuse les autorités israéliennes et leurs partenaires internationaux de retarder l’acheminement de matériel indispensable à l’approche de l’hiver. Il dénonce des souffrances « prévisibles et évitables ».",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159830",
-            "publishedAt": "2026-11-12T12:00:00+00:00"
           }
         ],
         "sources": [
@@ -167,7 +183,7 @@
           },
           {
             "source": "France 24",
-            "ok": false
+            "ok": true
           }
         ]
       }
