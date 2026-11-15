@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-15T14:23:13.253407+00:00",
+  "checkedAt": "2026-11-15T21:23:00.659895+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -53,7 +53,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-15T14:23:19.834758+00:00",
+        "checkedAt": "2026-11-15T21:23:08.427178+00:00",
         "updatedAt": "2026-11-14T13:49:55.389559+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -100,7 +100,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-15T14:23:19.834758+00:00",
+        "checkedAt": "2026-11-15T21:23:08.427178+00:00",
         "updatedAt": "2026-11-10T21:59:53.893126+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -147,25 +147,25 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-15T14:23:19.834758+00:00",
-        "updatedAt": "2026-11-15T14:23:19.834758+00:00",
+        "checkedAt": "2026-11-15T21:23:08.427178+00:00",
+        "updatedAt": "2026-11-15T21:23:08.427178+00:00",
         "status": "updated",
         "paragraphs": [
           {
-            "title": "L'Iran revendique des frappes de drones contre une base américaine au Bahreïn",
-            "text": "Les Gardiens de la Révolution ont revendiqué des frappes de drones dimanche matin sur une base militaire américaine située au Bahreïn. Il s'agit de la deuxième attaque iranienne en trois jours contre ce petit État insulaire du Golfe, ce qui confirme une reprise des tensions dans la région après une période d'accalmie.",
+            "title": "Yémen : les Houthis à 60 km d'Aden, le gouvernement place des renforts autour de la ville",
+            "text": "Après une avancée dans le gouvernorat de Lahj dans le sud du Yémen, les Houthis ne se trouvent plus qu'à 60 km environ d'Aden, siège du gouvernement. De son côté, l'armée yéménite a annoncé déployer des combattants supplémentaires autour de la capitale provisoire.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261115-iran-revendique-frappes-drones-contre-base-am%C3%A9ricaine-au-bahre%C3%AFn",
-            "publishedAt": "2026-11-15T10:21:15+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261115-y%C3%A9men-les-houthis-%C3%A0-60-km-d-aden-le-gouvernement-place-des-renforts-autour-de-la-ville",
+            "publishedAt": "2026-11-15T19:35:25+00:00"
           },
           {
-            "title": "Un radar américain détruit par l'Iran ? Cette image modifiée par IA montre une destruction ancienne",
-            "text": "Le 13 novembre, l'Iran a affirmé avoir détruit un radar américain à Bahreïn, ce que les États-Unis démentent. Une image satellite modifiée par IA, censée prouver l'attaque iranienne, a ensuite circulé en ligne. Elle avait été publiée dès juin, après de précédentes attaques iraniennes qui avaient bien endommagé un site américain.",
+            "title": "Un commandant du Hamas tué par un drone israélien dans le sud de Gaza",
+            "text": "Un commandant de la branche militaire du mouvement islamiste palestinien Hamas a été tué par Israël dans le sud de la bande de Gaza, a fait savoir l'armée israélienne dimanche. Les bombardements se sont intensifiés ces derniers jours dans le sud du territoire palestinien.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261113-un-radar-am%C3%A9ricain-d%C3%A9truit-par-l-iran-cette-image-modifi%C3%A9e-par-ia-montre-une-destruction-ancienne",
-            "publishedAt": "2026-11-13T17:53:20+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261115-commandant-hamas-tu%C3%A9-par-drone-israel-dans-sud-de-gaza",
+            "publishedAt": "2026-11-15T16:53:10+00:00"
           },
           {
             "title": "D’Ormuz à Bab Al-Mandab, la guerre au Moyen-Orient prend le commerce mondial en otage",

@@ -4,6 +4,75 @@
   "items": [
     {
       "date": "2026-11-15",
+      "publishedAt": "2026-11-15T18:13:34+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Char intermédiaire : des idées mais pas de temps ni d’argent à gaspiller",
+      "url": "https://forcesoperations.com/char-intermediaire-des-idees-mais-pas-de-temps-ni-dargent-a-gaspiller/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "armée de terre",
+        "Capacité de char intermédiaire",
+        "CAPINT",
+        "Leclerc XLR"
+      ],
+      "sourceExcerpt": {
+        "text": "Une première enveloppe viendra alimenter en 2027 les travaux portant sur le successeur du char Leclerc, cette capacité intermédiaire pour…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-15T21:23:05.000634+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/11/Char-intermediaire-des-idees-mais-pas-de-temps-ni-dargent-a-gaspiller_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Char intermédiaire : des idées mais pas de temps ni d’argent à gaspiller ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/char-intermediaire-des-idees-mais-pas-de-temps-ni-dargent-a-gaspiller/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/char-intermediaire-des-idees-mais-pas-de-temps-ni-dargent-a-gaspiller/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-15",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/11/Char-intermediaire-des-idees-mais-pas-de-temps-ni-dargent-a-gaspiller_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-15T18:07:28+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Royal Navy submariners welcomed home after deterrent patrol keeping UK safe",
+      "url": "https://www.gov.uk/government/news/royal-navy-submariners-welcomed-home-after-deterrent-patrol-keeping-uk-safe",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Royal Navy submariners have returned home to their families following another successful patrol protecting the UK and our allies through…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-15T21:23:05.000634+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6af9f4b89be17c68c69ca850/s300_Image_1.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/royal-navy-submariners-welcomed-home-after-deterrent-patrol-keeping-uk-safe",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/royal-navy-submariners-welcomed-home-after-deterrent-patrol-keeping-uk-safe",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-15"
+      }
+    },
+    {
+      "date": "2026-11-15",
       "publishedAt": "2026-11-15T14:19:14+00:00",
       "source": "Forum Militaire",
       "sourceType": "Presse spécialisée",
@@ -12690,7 +12759,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00"
+      "imageCheckedAt": "2026-11-15T21:23:05.000634+00:00"
     },
     {
       "date": "2026-10-23",
@@ -12703,7 +12772,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00"
+      "imageCheckedAt": "2026-11-15T21:23:05.000634+00:00"
     },
     {
       "date": "2026-10-22",
@@ -13327,7 +13396,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00"
+      "imageCheckedAt": "2026-11-15T21:23:05.000634+00:00"
     },
     {
       "date": "2026-10-21",
@@ -20430,7 +20499,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00"
+      "imageCheckedAt": "2026-11-15T21:23:05.000634+00:00"
     },
     {
       "date": "2026-10-07",
@@ -20644,10 +20713,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00"
+      "imageCheckedAt": "2026-11-15T21:23:05.000634+00:00"
     }
   ],
-  "checkedAt": "2026-11-15T14:23:13.253407+00:00",
+  "checkedAt": "2026-11-15T21:23:00.659895+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -20666,7 +20735,7 @@
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -20684,7 +20753,7 @@
       {
         "source": "Forum Militaire",
         "ok": true,
-        "recentItems": 16,
+        "recentItems": 15,
         "error": null
       },
       {
@@ -20702,7 +20771,7 @@
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -20724,8 +20793,8 @@
         "error": null
       }
     ],
-    "newItems": 7,
-    "articleImages": 508,
+    "newItems": 2,
+    "articleImages": 510,
     "duplicateHeadlinesSkipped": 0
   }
 }
