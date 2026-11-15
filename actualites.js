@@ -1,7 +1,249 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-15",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-15T14:19:14+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Ce bombardier furtif vient de larguer sa première bombe, et le précédent du même constructeur avait mis quatorze ans à devenir pleinement…",
+      "url": "https://www.forum-militaire.fr/ce-bombardier-furtif-vient-de-larguer-sa-premiere-bombe-et-le-precedent-du-meme-constructeur-avait-mis-quatorze-ans-a-devenir-pleinement-operationnel/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de l'air",
+        "avion"
+      ],
+      "sourceExcerpt": {
+        "text": "L’armée de l’air américaine a annoncé le 13 novembre 2026 que le B-21 Raider avait largué une arme pour la…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-15T13:40:29+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "L’anxiété stratégique de la Chine : le paradoxe d’une superpuissance en perpétuelle quête de sécurité",
+      "url": "https://www.revueconflits.com/lanxiete-strategique-de-la-chine-le-paradoxe-dune-superpuissance-en-perpetuelle-quete-de-securite/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie",
+        "Abonné",
+        "Chine"
+      ],
+      "imageCheckedAt": "2026-11-15T14:23:18.226924+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/Ambitions-navales-de-la-Chine-Singapour.png",
+        "kind": "article",
+        "alt": "L’anxiété stratégique de la Chine : le paradoxe d’une superpuissance en perpétuelle quête de sécurité",
+        "credit": "Singapour, passage stratégique pour l'accès à la mer de Chine méridionale. (C) Conflits.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/lanxiete-strategique-de-la-chine-le-paradoxe-dune-superpuissance-en-perpetuelle-quete-de-securite/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/lanxiete-strategique-de-la-chine-le-paradoxe-dune-superpuissance-en-perpetuelle-quete-de-securite/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-15",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/Ambitions-navales-de-la-Chine-Singapour.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-15T12:39:42+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le sous-marin nucléaire d’attaque américain USS South Dakota aurait failli s’échouer",
+      "url": "https://www.opex360.com/2026/11/15/le-sous-marin-nucleaire-dattaque-americain-uss-south-dakota-aurait-failli-sechouer/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amériques",
+        "Forces navales",
+        "commandant",
+        "échouement",
+        "incident",
+        "pacha",
+        "sous-marin nucléaire d'attaque",
+        "SUBRON 4",
+        "US Navy",
+        "USS South Dakota"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 30 juin dernier, le capitaine de frégate Dan Goodwin a officiellement pris le commandement de l’USS South Dakota, un…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-15T14:23:18.226924+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/uss-southdakota-20261115.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le sous-marin nucléaire d’attaque américain USS South Dakota aurait failli s’échouer ».",
+        "credit": "US Navy",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/15/le-sous-marin-nucleaire-dattaque-americain-uss-south-dakota-aurait-failli-sechouer/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/15/le-sous-marin-nucleaire-dattaque-americain-uss-south-dakota-aurait-failli-sechouer/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-15",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/uss-southdakota-20261115.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-15T11:25:23+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le ministère des Armées est «mobilisé» sur les menaces liées à la présence de voitures chinoises dans les enceintes militaires",
+      "url": "https://www.opex360.com/2026/11/15/le-ministere-des-armees-est-mobilise-sur-les-menaces-liees-a-la-presence-de-voitures-chinoises-dans-les-enceintes-militaires/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Renseignement",
+        "Sécurité",
+        "Catherine Vautrin",
+        "contre-espionnage",
+        "Direction du renseignement et de la sécurité de la défense",
+        "DPID",
+        "DRSD",
+        "ministère des Armées",
+        "rensiegnement",
+        "SECOPS",
+        "sécurié",
+        "voitures chinoises"
+      ],
+      "sourceExcerpt": {
+        "text": "Fixé par la Commission européenne dans le cadre du «pacte vert», l’objectif de mettre un terme à la commercialisation de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-15T14:23:18.226924+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/caserne-20190221.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le ministère des Armées est «mobilisé» sur les menaces liées à la présence de voitures chinoises dans les enceintes militaires ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/15/le-ministere-des-armees-est-mobilise-sur-les-menaces-liees-a-la-presence-de-voitures-chinoises-dans-les-enceintes-militaires/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/15/le-ministere-des-armees-est-mobilise-sur-les-menaces-liees-a-la-presence-de-voitures-chinoises-dans-les-enceintes-militaires/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-15",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/caserne-20190221.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-15T11:17:58+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Cette fois-ci la France ne pourra pas en vouloir à la Pologne d’acheter américain vu qu’il n’existe pas d’option européenne pour des…",
+      "url": "https://www.forum-militaire.fr/cette-fois-ci-la-france-ne-pourra-pas-en-vouloir-a-la-pologne-dacheter-americain-vu-quil-nexiste-pas-doption-europeenne-pour-des-missiles-longue-portee/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armes / chasse",
+        "Industrie",
+        "contrat",
+        "missile"
+      ],
+      "sourceExcerpt": {
+        "text": "Le Pentagone a donné un avis favorable à la demande polonaise d’acheter des missiles de croisière Tomahawk et les lanceurs…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-15T08:27:22+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Malaysia Selects Roketsan’s ATMACA to Replace NSM on Littoral Combat Ships",
+      "url": "https://www.navalnews.com/naval-news/2026/11/malaysia-selects-roketsans-atmaca-to-replace-nsm-on-littoral-combat-ships/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Atmaca",
+        "Combat Management System",
+        "Royal Malaysian Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "Malaysia picks Roketsan’s ATMACA anti-ship missile to replace Kongsberg’s NSM on its LCS vessels, with French SETIS CMS integration still…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-15T14:23:18.226924+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2021/02/Turkeys-New-ATMACA-Missile-Aces-Latest-Tests-Achieves-IOC-768x432.jpg",
+        "kind": "article",
+        "alt": "Malaysia taps Roketsan for Atmaca anti-ship missiles",
+        "credit": "Atmaca missile firing from Turkish Navy's ADA-class corvette TCG KINALIADA (used for illustration, Roketsan image)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/malaysia-selects-roketsans-atmaca-to-replace-nsm-on-littoral-combat-ships/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/malaysia-selects-roketsans-atmaca-to-replace-nsm-on-littoral-combat-ships/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-15",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2021/02/Turkeys-New-ATMACA-Missile-Aces-Latest-Tests-Achieves-IOC.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-15T03:00:10+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Starlink, coeur de la défense ukrainienne",
+      "url": "https://www.revueconflits.com/starlink-coeur-de-la-defense-ukrainienne/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Armes et armement",
+        "Guerre en Ukraine",
+        "Abonné",
+        "États-Unis"
+      ],
+      "imageCheckedAt": "2026-11-15T14:23:18.226924+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/Conflits_Zelensky_Musk.png",
+        "kind": "article",
+        "alt": "Starlink, coeur de la défense ukrainienne",
+        "credit": "Photomontagne Conflits. (C) Photographies SIPA : SIPA60014692 - 000001 - ZEUS - 2505202326 & PAPU618 - 24279762355173 - 2410052315",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/starlink-coeur-de-la-defense-ukrainienne/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/starlink-coeur-de-la-defense-ukrainienne/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-15",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/Conflits_Zelensky_Musk.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-14",
       "publishedAt": "2026-11-14T16:39:23+00:00",
@@ -20405,7 +20647,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-14T20:59:33.988508+00:00"
     }
   ],
-  "checkedAt": "2026-11-14T20:59:30.119243+00:00",
+  "checkedAt": "2026-11-15T14:23:13.253407+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -20442,7 +20684,7 @@ window.LDV_NEWS = {
       {
         "source": "Forum Militaire",
         "ok": true,
-        "recentItems": 15,
+        "recentItems": 16,
         "error": null
       },
       {
@@ -20482,8 +20724,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 5,
-    "articleImages": 503,
+    "newItems": 7,
+    "articleImages": 508,
     "duplicateHeadlinesSkipped": 0
   }
 };

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-14T20:59:30.119243+00:00",
+  "checkedAt": "2026-11-15T14:23:13.253407+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -16,8 +16,16 @@
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-11-14T13:49:49.073328+00:00",
+      "changedAt": "2026-11-15T14:23:13.253407+00:00",
       "items": [
+        {
+          "title": "Starlink, coeur de la défense ukrainienne",
+          "url": "https://www.revueconflits.com/starlink-coeur-de-la-defense-ukrainienne/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-15T03:00:10+00:00",
+          "language": "fr"
+        },
         {
           "title": "Baltique : Visée par des drones ukrainiens, la corvette russe Naro-Fominsk aurait subi d’importants dégâts",
           "url": "https://www.opex360.com/2026/11/14/baltique-visee-par-des-drones-ukrainiens-la-corvette-russe-naro-forminsk-aurait-subi-dimportants-degats/",
@@ -35,14 +43,6 @@
           "language": "fr"
         },
         {
-          "title": "Israël et l’Ukraine, un rapprochement dans l’air ?",
-          "url": "https://www.revueconflits.com/israel-et-lukraine-un-rapprochement-dans-lair/",
-          "source": "Revue Conflits",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-11-13T12:15:15+00:00",
-          "language": "fr"
-        },
-        {
           "title": "Ukraine’s drone pioneers bring battle-tested tech and high-skilled jobs to Britain",
           "url": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
           "source": "Ministère britannique de la Défense",
@@ -53,7 +53,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-14T20:59:38.659934+00:00",
+        "checkedAt": "2026-11-15T14:23:19.834758+00:00",
         "updatedAt": "2026-11-14T13:49:55.389559+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -100,7 +100,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-14T20:59:38.659934+00:00",
+        "checkedAt": "2026-11-15T14:23:19.834758+00:00",
         "updatedAt": "2026-11-10T21:59:53.893126+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -147,10 +147,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-14T20:59:38.659934+00:00",
-        "updatedAt": "2026-11-14T13:49:55.389559+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-11-15T14:23:19.834758+00:00",
+        "updatedAt": "2026-11-15T14:23:19.834758+00:00",
+        "status": "updated",
         "paragraphs": [
+          {
+            "title": "L'Iran revendique des frappes de drones contre une base américaine au Bahreïn",
+            "text": "Les Gardiens de la Révolution ont revendiqué des frappes de drones dimanche matin sur une base militaire américaine située au Bahreïn. Il s'agit de la deuxième attaque iranienne en trois jours contre ce petit État insulaire du Golfe, ce qui confirme une reprise des tensions dans la région après une période d'accalmie.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261115-iran-revendique-frappes-drones-contre-base-am%C3%A9ricaine-au-bahre%C3%AFn",
+            "publishedAt": "2026-11-15T10:21:15+00:00"
+          },
           {
             "title": "Un radar américain détruit par l'Iran ? Cette image modifiée par IA montre une destruction ancienne",
             "text": "Le 13 novembre, l'Iran a affirmé avoir détruit un radar américain à Bahreïn, ce que les États-Unis démentent. Une image satellite modifiée par IA, censée prouver l'attaque iranienne, a ensuite circulé en ligne. Elle avait été publiée dès juin, après de précédentes attaques iraniennes qui avaient bien endommagé un site américain.",
@@ -165,14 +173,6 @@
             "truncated": false,
             "source": "ONU Info",
             "url": "https://news.un.org/feed/view/fr/story/2026/11/1159841",
-            "publishedAt": "2026-11-13T12:00:00+00:00"
-          },
-          {
-            "title": "Yémen : la crise des déplacés s’aggrave, l'aide humanitaire entravée",
-            "text": "Plus de 340 000 personnes ont été contraintes de fuir leur foyer au Yémen, sur fond de violences persistantes et d’insécurité croissante. Alors que les besoins humanitaires s’aggravent, les restrictions imposées sur des axes de transport essentiels compliquent l’acheminement de l’aide, alerte vendredi l’Organisation internationale pour les migrations (OIM).",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159839",
             "publishedAt": "2026-11-13T12:00:00+00:00"
           }
         ],
