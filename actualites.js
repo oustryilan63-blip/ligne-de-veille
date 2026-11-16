@@ -1,7 +1,310 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-16",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T15:33:56+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "King opens new National Cyber Force HQ boosting North West growth",
+      "url": "https://www.gov.uk/government/news/king-opens-new-national-cyber-force-hq-boosting-north-west-growth",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "His Majesty King Charles III has officially opened Ribble House, the National Cyber Force’s (NCF) new headquarters in Samlesbury, Lancashire.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-16T16:31:25.164001+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6afb1f5c947e76cbe4c5c115/s300_DSC00718.jpg",
+        "kind": "article",
+        "alt": "Crown copyright",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/king-opens-new-national-cyber-force-hq-boosting-north-west-growth",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/king-opens-new-national-cyber-force-hq-boosting-north-west-growth",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T15:06:28+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Marine nationale retire ses six avions Falcon 10 MER après plus de cinquante ans de service",
+      "url": "https://www.opex360.com/2026/11/16/la-marine-nationale-retire-ses-six-avions-falcon-10-mer-apres-plus-de-cinquante-ans-de-service/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "aéronautique navale",
+        "Falcon 10 MER",
+        "Landivisiau",
+        "Marine Nationale",
+        "PC-24n Balbuzard",
+        "retrait"
+      ],
+      "sourceExcerpt": {
+        "text": "En 1975, Dassault Aviation livra six avions de soutien maritime Falcon 10 MER [numéros de série 32, 39, 101, 129,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-16T16:31:25.164001+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/falcon10m-20261116.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Marine nationale retire ses six avions Falcon 10 MER après plus de cinquante ans de service ».",
+        "credit": "Anthony Pecchi / Marine nationale",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/16/la-marine-nationale-retire-ses-six-avions-falcon-10-mer-apres-plus-de-cinquante-ans-de-service/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/16/la-marine-nationale-retire-ses-six-avions-falcon-10-mer-apres-plus-de-cinquante-ans-de-service/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-16",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/falcon10m-20261116.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T14:24:46+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Première flotte mondiale de ce transporteur, l’Allemagne en commande seize de plus parce que dix-huit des siens ne peuvent pas voler en…",
+      "url": "https://www.forum-militaire.fr/premiere-flotte-mondiale-de-ce-transporteur-lallemagne-en-commande-seize-de-plus-parce-que-dix-huit-des-siens-ne-peuvent-pas-voler-en-zone-menacee/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de l'air",
+        "avion"
+      ],
+      "sourceExcerpt": {
+        "text": "La commission du budget du Bundestag a validé dans la nuit de jeudi à vendredi l’achat de seize A400M supplémentaires…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T13:03:16+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Porto Alegre, la ville du Brésil qui regarde vers le sud",
+      "url": "https://www.revueconflits.com/porto-alegre-la-ville-du-bresil-qui-regarde-vers-le-sud/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique",
+        "Amérique latine",
+        "Abonné",
+        "Brésil",
+        "Reportage"
+      ],
+      "imageCheckedAt": "2026-11-16T16:31:25.164001+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/IMG_6278-scaled.jpg",
+        "kind": "article",
+        "alt": "Porto Alegre, la ville du Brésil qui regarde vers le sud",
+        "credit": "Place de la mairie (c) JBN",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/porto-alegre-la-ville-du-bresil-qui-regarde-vers-le-sud/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/porto-alegre-la-ville-du-bresil-qui-regarde-vers-le-sud/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-16",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/IMG_6278-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T12:43:44+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "U.S. Navy Cuts Submarine Maintenance Delays by 40% as Output Surges",
+      "url": "https://www.navalnews.com/naval-news/2026/11/us-submarine-industrial-base-cuts-maintenance-delays/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Shipbuilding",
+        "Submarine",
+        "US Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "U.S. submarine industrial base reforms helped the U.S. Navy cut maintenance delays by 40% and return or deliver 10 submarines…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-16T16:31:25.164001+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/featured_DCS_25_129_56_cdc84c9843-768x432.jpg",
+        "kind": "article",
+        "alt": "U.S. Navy Cuts Submarine Maintenance Delays by 40% as Output Surges",
+        "credit": "The Virginia-class submarine USS Arkansas (SSN-800) is launched for the first time. HII Newport News Image.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/us-submarine-industrial-base-cuts-maintenance-delays/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/us-submarine-industrial-base-cuts-maintenance-delays/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-16",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/featured_DCS_25_129_56_cdc84c9843-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T11:35:06+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Pour la première fois, la Marine nationale a intercepté un semi-submersible utilisé pour le trafic de drogue",
+      "url": "https://www.opex360.com/2026/11/16/pour-la-premiere-fois-la-marine-nationale-a-intercepte-un-semi-submersible-utilise-pour-le-trafic-de-drogue/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Antilles",
+        "drogue",
+        "frégate",
+        "Marine Nationale",
+        "narcotrafic",
+        "semi-submersible",
+        "trafic"
+      ],
+      "sourceExcerpt": {
+        "text": "Vers la fin des années 1980, face à l’intensification des contrôles visant les vedettes rapides qu’ils utilisaient jusqu’alors pour acheminer…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-16T16:31:25.164001+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/semi-submersible-20261116.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Pour la première fois, la Marine nationale a intercepté un semi-submersible utilisé pour le trafic de drogue ».",
+        "credit": "Ministère des Armées",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/16/pour-la-premiere-fois-la-marine-nationale-a-intercepte-un-semi-submersible-utilise-pour-le-trafic-de-drogue/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/16/pour-la-premiere-fois-la-marine-nationale-a-intercepte-un-semi-submersible-utilise-pour-le-trafic-de-drogue/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-16",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/semi-submersible-20261116.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T10:48:40+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Safran Unveils NGDS HK Rocket Launcher and PASEO Master D at Euronaval 2026",
+      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/safran-ngds-hk-rocket-launcher-euronaval-2026/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "Counter Drone",
+        "NGDS",
+        "Safran Electronics & Defense"
+      ],
+      "sourceExcerpt": {
+        "text": "Unveiled at Euronaval 2026, the Safran NGDS HK launcher carries up to 88 guided or unguided rockets paired with the…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-16T16:31:25.164001+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Safran-NGDS-HK-Rockets-768x579.jpg",
+        "kind": "article",
+        "alt": "Safran NGDS HK Rockets",
+        "credit": "Scale model of a Safran NGDS HK fitted with four rocket pods.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/safran-ngds-hk-rocket-launcher-euronaval-2026/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/safran-ngds-hk-rocket-launcher-euronaval-2026/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-16",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Safran-NGDS-HK-Rockets.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T10:12:50+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La « meilleure » ennemie de la flotte française vient de battre un record dont elle se serait bien passée : la Royal Navy effectue la plus…",
+      "url": "https://www.forum-militaire.fr/la-meilleure-ennemie-de-la-flotte-francaise-vient-de-battre-un-record-dont-elle-se-serait-bien-passee-la-royal-navy-effectue-la-plus-longue-patrouille-pour-un-snle/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Marines militaires",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Un sous-marin nucléaire lanceur d’engins britannique de la classe Vanguard est rentré ce matin à sa base de Faslane, en…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T03:00:01+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Éditorial – Le poison de la nostalgie",
+      "url": "https://www.revueconflits.com/editorial-le-poison-de-la-nostalgie/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Géopolitique de la France",
+        "Revue Conflits",
+        "Abonné",
+        "France"
+      ],
+      "imageCheckedAt": "2026-11-16T16:31:25.164001+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/10/france.jpg",
+        "kind": "article",
+        "alt": "Éditorial – Le poison de la nostalgie",
+        "credit": "(C) Conflits.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/editorial-le-poison-de-la-nostalgie/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/editorial-le-poison-de-la-nostalgie/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-16",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/10/france.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-15",
       "publishedAt": "2026-11-15T18:13:34+00:00",
@@ -20716,7 +21019,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-15T21:23:05.000634+00:00"
     }
   ],
-  "checkedAt": "2026-11-15T21:23:00.659895+00:00",
+  "checkedAt": "2026-11-16T16:31:19.760701+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -20735,7 +21038,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 6,
         "error": null
       },
       {
@@ -20753,7 +21056,7 @@ window.LDV_NEWS = {
       {
         "source": "Forum Militaire",
         "ok": true,
-        "recentItems": 15,
+        "recentItems": 14,
         "error": null
       },
       {
@@ -20771,7 +21074,7 @@ window.LDV_NEWS = {
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 3,
         "error": null
       },
       {
@@ -20789,12 +21092,12 @@ window.LDV_NEWS = {
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 2,
         "error": null
       }
     ],
-    "newItems": 2,
-    "articleImages": 510,
+    "newItems": 9,
+    "articleImages": 517,
     "duplicateHeadlinesSkipped": 0
   }
 };
