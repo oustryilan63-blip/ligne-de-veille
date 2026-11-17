@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-16T16:31:19.760701+00:00",
+  "checkedAt": "2026-11-17T00:32:00.391033+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,9 +10,11 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 11,
+    "ok": 10,
     "total": 11,
-    "unavailable": []
+    "unavailable": [
+      "Naval News"
+    ]
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -53,9 +55,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-16T16:31:27.212162+00:00",
+        "checkedAt": "2026-11-17T00:32:08.404100+00:00",
         "updatedAt": "2026-11-16T16:31:27.212162+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Les ministres du G7 réunis à Paris : l'Iran et l'Ukraine au cœur des débats",
@@ -92,7 +94,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-16T16:31:27.212162+00:00",
+        "checkedAt": "2026-11-17T00:32:08.404100+00:00",
         "updatedAt": "2026-11-10T21:59:53.893126+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -139,9 +141,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-16T16:31:27.212162+00:00",
+        "checkedAt": "2026-11-17T00:32:08.404100+00:00",
         "updatedAt": "2026-11-16T16:31:27.212162+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "L'Arabie saoudite remplace le commandant de la coalition militaire au Yémen",

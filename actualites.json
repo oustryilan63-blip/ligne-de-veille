@@ -1,7 +1,96 @@
 {
-  "updatedAt": "2026-11-16",
+  "updatedAt": "2026-11-17",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T18:14:49+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’armée de Terre va recevoir au moins cinq systèmes de drones tactiques Tekever AR5",
+      "url": "https://www.opex360.com/2026/11/16/larmee-de-terre-va-recevoir-au-moins-cinq-systemes-de-drones-tactiques-tekever-ar5/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "61e RA",
+        "ADAPT",
+        "AR5",
+        "armée de terre",
+        "artillerie",
+        "DGA",
+        "MAME",
+        "ministère des Armées",
+        "Tekever"
+      ],
+      "sourceExcerpt": {
+        "text": "Le mois dernier, lors de sa première audition à l’Assemblée nationale en tant que chef d’état-major de l’armée de Terre…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-17T00:32:04.624366+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/ar5-20260726.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’armée de Terre va recevoir au moins cinq systèmes de drones tactiques Tekever AR5 ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/16/larmee-de-terre-va-recevoir-au-moins-cinq-systemes-de-drones-tactiques-tekever-ar5/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/16/larmee-de-terre-va-recevoir-au-moins-cinq-systemes-de-drones-tactiques-tekever-ar5/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/ar5-20260726.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "publishedAt": "2026-11-16T17:05:48+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Un sous-marin nucléaire lanceur d’engins britannique établit un nouveau record de jours passés en mer",
+      "url": "https://www.opex360.com/2026/11/16/un-sous-marin-nucleaire-lanceur-dengins-britannique-etablit-un-nouveau-record-de-jours-passes-en-mer/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces navales",
+        "CASD",
+        "classe Vanguard",
+        "disponibilité",
+        "Dissuasion",
+        "patrouille",
+        "Royal Navy",
+        "Royaume-Uni",
+        "snle",
+        "sous-marins"
+      ],
+      "sourceExcerpt": {
+        "text": "Cela faisait assez longtemps que ce n’était plus arrivé : fin octobre, trois sous-marins nucléaires lanceurs d’engins [SNLE] de la…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-17T00:32:04.624366+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/snle-rn-20261116.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Un sous-marin nucléaire lanceur d’engins britannique établit un nouveau record de jours passés en mer ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/16/un-sous-marin-nucleaire-lanceur-dengins-britannique-etablit-un-nouveau-record-de-jours-passes-en-mer/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/16/un-sous-marin-nucleaire-lanceur-dengins-britannique-etablit-un-nouveau-record-de-jours-passes-en-mer/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/snle-rn-20261116.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-16",
       "publishedAt": "2026-11-16T15:33:56+00:00",
@@ -13062,7 +13151,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-15T21:23:05.000634+00:00"
+      "imageCheckedAt": "2026-11-17T00:32:04.624366+00:00"
     },
     {
       "date": "2026-10-23",
@@ -13075,7 +13164,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-15T21:23:05.000634+00:00"
+      "imageCheckedAt": "2026-11-17T00:32:04.624366+00:00"
     },
     {
       "date": "2026-10-22",
@@ -13699,7 +13788,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-15T21:23:05.000634+00:00"
+      "imageCheckedAt": "2026-11-17T00:32:04.624366+00:00"
     },
     {
       "date": "2026-10-21",
@@ -20802,7 +20891,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-15T21:23:05.000634+00:00"
+      "imageCheckedAt": "2026-11-17T00:32:04.624366+00:00"
     },
     {
       "date": "2026-10-07",
@@ -21016,10 +21105,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-15T21:23:05.000634+00:00"
+      "imageCheckedAt": "2026-11-17T00:32:04.624366+00:00"
     }
   ],
-  "checkedAt": "2026-11-16T16:31:19.760701+00:00",
+  "checkedAt": "2026-11-17T00:32:00.391033+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -21079,14 +21168,14 @@
       },
       {
         "source": "Naval News",
-        "ok": true,
-        "recentItems": 10,
-        "error": null
+        "ok": false,
+        "recentItems": 0,
+        "error": "HTTP Error 503: Service Temporarily Unavailable"
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 12,
+        "recentItems": 13,
         "error": null
       },
       {
@@ -21096,8 +21185,8 @@
         "error": null
       }
     ],
-    "newItems": 9,
-    "articleImages": 517,
+    "newItems": 2,
+    "articleImages": 519,
     "duplicateHeadlinesSkipped": 0
   }
 }
