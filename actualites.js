@@ -1,7 +1,210 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T18:27:48+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La France réaffirme son soutien au projet européen HYDIS², dédié à la défense contre les missiles hypersoniques",
+      "url": "https://www.opex360.com/2026/11/17/la-france-reaffirme-son-soutien-au-projet-europeen-hydis%c2%b2-dedie-a-la-defense-contre-les-missiles-hypersoniques/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Défense antimissile",
+        "armes hypersoniques",
+        "Commission européenne",
+        "défense aérienne",
+        "HYDEF",
+        "HYDIS",
+        "MBDA",
+        "Occar",
+        "UE"
+      ],
+      "sourceExcerpt": {
+        "text": "En 2022, la Commission européenne fit un choix qui en surprit plus d’un en confiant à l’espagnol SENER Aeroespacial la…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-17T23:41:03.130230+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/aquila-hydis-20230621.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La France réaffirme son soutien au projet européen HYDIS², dédié à la défense contre les missiles hypersoniques ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/17/la-france-reaffirme-son-soutien-au-projet-europeen-hydis%c2%b2-dedie-a-la-defense-contre-les-missiles-hypersoniques/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/17/la-france-reaffirme-son-soutien-au-projet-europeen-hydis%c2%b2-dedie-a-la-defense-contre-les-missiles-hypersoniques/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/aquila-hydis-20230621.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T17:37:30+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Un char Leopard 2 ukrainien a « survécu » à 45 impacts de drones FPV",
+      "url": "https://www.opex360.com/2026/11/17/un-char-leopard-2-ukrainien-a-survecu-a-45-impacts-de-drones-fpv/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces terrestres",
+        "armée ukrainienne",
+        "char",
+        "drone FPV",
+        "guerre en Ukraine",
+        "Leopard 1A5",
+        "Leopard 2",
+        "opération Vivaldi",
+        "T-62"
+      ],
+      "sourceExcerpt": {
+        "text": "L’idée selon laquelle il ne suffirait que d’un seul drone FPV [First Person View, c’est-à-dire à pilotage immersif] pour détruire…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-17T23:41:03.130230+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/ukraine-leopard2-20261117.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Un char Leopard 2 ukrainien a « survécu » à 45 impacts de drones FPV ».",
+        "credit": "Leopard 2 de la 155e Brigade mécanisée ukrainienne",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/17/un-char-leopard-2-ukrainien-a-survecu-a-45-impacts-de-drones-fpv/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/17/un-char-leopard-2-ukrainien-a-survecu-a-45-impacts-de-drones-fpv/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/ukraine-leopard2-20261117.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T17:25:28+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "CONFIRMATION ET COOPERATION ENTRE BERLIN ET LISBONNE",
+      "url": "https://blablachars.blogspot.com/2026/11/confirmation-et-cooperation-entre.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Boxer",
+        "Portugal",
+        "RHeinMetall"
+      ],
+      "sourceExcerpt": {
+        "text": "La semaine dernière à Berlin, l'Allemagne et le Portugal ont signé une Déclaration conjointe d’intentions pour le renforcement de la…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-17T23:41:03.130230+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUVUqz3NtDpEUxC55RNI2umknEW7OFITNFw-zZmQbHgp1WevJc5dhCBDxCPip_R4kiwEj2Bel3YArp4_p17vq-rQYKxjOmjyd6d3xqOsIwS-cyzGKZ1FOieKEfv-TEDKolyb3xc0fQhFlfnfs_KP6MoqUVKmb8eo_Hl2aU3mFzLV5ACpt5R8-pTvdoFao/w1200-h630-p-k-no-nu/Boxer%20Portugal.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « CONFIRMATION ET COOPERATION ENTRE BERLIN ET LISBONNE ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/11/confirmation-et-cooperation-entre.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/11/confirmation-et-cooperation-entre.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUVUqz3NtDpEUxC55RNI2umknEW7OFITNFw-zZmQbHgp1WevJc5dhCBDxCPip_R4kiwEj2Bel3YArp4_p17vq-rQYKxjOmjyd6d3xqOsIwS-cyzGKZ1FOieKEfv-TEDKolyb3xc0fQhFlfnfs_KP6MoqUVKmb8eo_Hl2aU3mFzLV5ACpt5R8-pTvdoFao/w1200-h630-p-k-no-nu/Boxer%20Portugal.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T17:06:08+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Maurice : puissance montante de l’océan Indien occidental ?",
+      "url": "https://www.areion24.news/2026/11/17/maurice-puissance-montante-de-locean-indien-occidental/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "En tant que petite nation insulaire de l’océan Indien, Maurice mène une politique de non-alignement. Comment définiriez-vous la politique étrangère…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-17T23:41:03.130230+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/11/shutterstock_2485334475-scaled.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Maurice : puissance montante de l’océan Indien occidental ? ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/11/17/maurice-puissance-montante-de-locean-indien-occidental/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/11/17/maurice-puissance-montante-de-locean-indien-occidental/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/shutterstock_2485334475-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T17:06:00+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "DES PETITS ET DES GRANDS GESTES DE SOUTIEN",
+      "url": "https://blablachars.blogspot.com/2026/11/des-petits-et-des-grands-gestes-de.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "AFRICOM",
+        "ANL",
+        "Calidus",
+        "Etats-Unis",
+        "Libye",
+        "Maréchal Haftar",
+        "Émirats Arabes Unis"
+      ],
+      "sourceExcerpt": {
+        "text": "Le Maréchal Khalifa Haftar, commandant en chef de l'Armée Nationale Libyenne (AN L ) a reçu ces derniers jours plusieurs…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-17T23:41:03.130230+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicvgMz2EVb_TxXg4hTVBZnYeu9eLwRKFSW2Tw4cMH4BNHSQ9LYL6A79ASzS5fT_GEMJyW6wo0yxswcFrWOcQREv3LYu553_qcqhaFmF5t26ivNcJYScF-reWpbRfS38eIspUhUfhAdtk-O_MuO5cT7yFzIyC1HohDPFzyLTp8h5QvLsheoLNVEgZYZCcs/w1200-h630-p-k-no-nu/Calidus%20Libye.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « DES PETITS ET DES GRANDS GESTES DE SOUTIEN ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/11/des-petits-et-des-grands-gestes-de.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/11/des-petits-et-des-grands-gestes-de.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicvgMz2EVb_TxXg4hTVBZnYeu9eLwRKFSW2Tw4cMH4BNHSQ9LYL6A79ASzS5fT_GEMJyW6wo0yxswcFrWOcQREv3LYu553_qcqhaFmF5t26ivNcJYScF-reWpbRfS38eIspUhUfhAdtk-O_MuO5cT7yFzIyC1HohDPFzyLTp8h5QvLsheoLNVEgZYZCcs/w1200-h630-p-k-no-nu/Calidus%20Libye.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-17",
       "publishedAt": "2026-11-17T16:02:25+00:00",
@@ -277,6 +480,36 @@ window.LDV_NEWS = {
     },
     {
       "date": "2026-11-17",
+      "publishedAt": "2026-11-17T10:36:35+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "UK and Japan strengthen defence ties with major exercise",
+      "url": "https://www.gov.uk/government/news/uk-and-japan-strengthen-defence-ties-with-major-exercise--2",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "British and Japanese troops are training side-by-side in Hokkaido this month, strengthening their ability to operate together as the UK…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-17T23:41:03.130230+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6afc27e647f792f4fbe08883/s300_Excercise_Vigilant_Isles.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/uk-and-japan-strengthen-defence-ties-with-major-exercise--2",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/uk-and-japan-strengthen-defence-ties-with-major-exercise--2",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-17"
+      }
+    },
+    {
+      "date": "2026-11-17",
       "publishedAt": "2026-11-17T09:05:08+00:00",
       "source": "Forces Operations Blog",
       "sourceType": "Presse spécialisée",
@@ -316,6 +549,39 @@ window.LDV_NEWS = {
     },
     {
       "date": "2026-11-17",
+      "publishedAt": "2026-11-17T08:44:44+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "La « paix mondiale » au menu des discussions entre Xi, Trump et Poutine jeudi",
+      "url": "https://www.revueconflits.com/la-paix-mondiale-au-menu-des-discussions-entre-xi-trump-et-poutine-jeudi/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique",
+        "Abonné",
+        "Guerre en Ukraine"
+      ],
+      "imageCheckedAt": "2026-11-17T23:41:03.130230+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2025/10/SIPA_ap22993525_000001-scaled-e1761817926668.jpg",
+        "kind": "article",
+        "alt": "La « paix mondiale » au menu des discussions entre Xi, Trump et Poutine jeudi",
+        "credit": "(AP Photo/Mark Schiefelbein)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/la-paix-mondiale-au-menu-des-discussions-entre-xi-trump-et-poutine-jeudi/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/la-paix-mondiale-au-menu-des-discussions-entre-xi-trump-et-poutine-jeudi/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2025/10/SIPA_ap22993525_000001-scaled-e1761817926668.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-17",
       "publishedAt": "2026-11-17T08:25:56+00:00",
       "source": "Forum Militaire",
       "sourceType": "Presse spécialisée",
@@ -336,6 +602,73 @@ window.LDV_NEWS = {
       "sourceExcerpt": {
         "text": "Rift a annoncé le déploiement de son infrastructure de drones autonomes sur le littoral français pour des essais en mer,…",
         "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T02:38:18+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Après une série de revers, Riyad démet le commandant de la coalition anti-Houthis",
+      "url": "https://www.revueconflits.com/apres-une-serie-de-revers-riyad-demet-le-commandant-de-la-coalition-anti-houthis/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Moyen-Orient",
+        "Abonné",
+        "Arabie saoudite",
+        "Yémen"
+      ],
+      "imageCheckedAt": "2026-11-17T23:41:03.130230+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap21715508_000012-scaled-e1793611643462.jpg",
+        "kind": "article",
+        "alt": "Après une série de revers, Riyad démet le commandant de la coalition anti-Houthis",
+        "credit": "AP Photo/Hani Mohammed",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/apres-une-serie-de-revers-riyad-demet-le-commandant-de-la-coalition-anti-houthis/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/apres-une-serie-de-revers-riyad-demet-le-commandant-de-la-coalition-anti-houthis/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap21715508_000012-scaled-e1793611643462.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T02:23:24+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Les Balkans : la poudrière des peuples",
+      "url": "https://www.revueconflits.com/podcast-les-balkans-la-poudriere-des-peuples/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Podcasts",
+        "Podcasts Europe",
+        "Balkans"
+      ],
+      "imageCheckedAt": "2026-11-17T23:41:03.130230+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2020/06/alexis-troude-balkans-yougoslavie-islamisme.jpg",
+        "kind": "article",
+        "alt": "Podcast – Les Balkans : la poudrière des peuples",
+        "credit": "Kotor au Montenegro (c) Pixabay",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-les-balkans-la-poudriere-des-peuples/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-les-balkans-la-poudriere-des-peuples/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2020/06/alexis-troude-balkans-yougoslavie-islamisme.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -21444,7 +21777,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-17T00:32:04.624366+00:00"
     }
   ],
-  "checkedAt": "2026-11-17T16:31:51.010763+00:00",
+  "checkedAt": "2026-11-17T23:40:57.521685+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -21493,13 +21826,13 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 2,
+        "recentItems": 4,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 3,
         "error": null
       },
       {
@@ -21511,18 +21844,18 @@ window.LDV_NEWS = {
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 13,
+        "recentItems": 12,
         "error": null
       },
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 2,
+        "recentItems": 3,
         "error": null
       }
     ],
-    "newItems": 10,
-    "articleImages": 527,
+    "newItems": 9,
+    "articleImages": 536,
     "duplicateHeadlinesSkipped": 0
   }
 };

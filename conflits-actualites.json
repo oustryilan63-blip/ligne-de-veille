@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-17T16:31:51.010763+00:00",
+  "checkedAt": "2026-11-17T23:40:57.521685+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -18,8 +18,16 @@
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-11-17T16:31:51.010763+00:00",
+      "changedAt": "2026-11-17T23:40:57.521685+00:00",
       "items": [
+        {
+          "title": "Un char Leopard 2 ukrainien a « survécu » à 45 impacts de drones FPV",
+          "url": "https://www.opex360.com/2026/11/17/un-char-leopard-2-ukrainien-a-survecu-a-45-impacts-de-drones-fpv/",
+          "source": "Zone Militaire — Opex360",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-17T17:37:30+00:00",
+          "language": "fr"
+        },
         {
           "title": "More than 1,000 air defence missiles for Ukraine as UK delivers £240 million in winter support",
           "url": "https://www.gov.uk/government/news/more-than-1000-air-defence-missiles-for-ukraine-as-uk-delivers-240-million-in-winter-support",
@@ -43,19 +51,11 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-11-14T11:55:54+00:00",
           "language": "fr"
-        },
-        {
-          "title": "Quels sont les Russes qui meurent en Ukraine ?",
-          "url": "https://www.revueconflits.com/quels-sont-les-russes-qui-meurent-en-ukraine/",
-          "source": "Revue Conflits",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-11-13T13:12:27+00:00",
-          "language": "fr"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-17T16:31:59.879367+00:00",
+        "checkedAt": "2026-11-17T23:41:06.573272+00:00",
         "updatedAt": "2026-11-16T16:31:27.212162+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -94,7 +94,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-17T16:31:59.879367+00:00",
+        "checkedAt": "2026-11-17T23:41:06.573272+00:00",
         "updatedAt": "2026-11-10T21:59:53.893126+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -120,8 +120,16 @@
       }
     },
     "moyen-orient-conflits": {
-      "changedAt": "2026-11-13T14:57:20.266769+00:00",
+      "changedAt": "2026-11-17T23:40:57.521685+00:00",
       "items": [
+        {
+          "title": "Après une série de revers, Riyad démet le commandant de la coalition anti-Houthis",
+          "url": "https://www.revueconflits.com/apres-une-serie-de-revers-riyad-demet-le-commandant-de-la-coalition-anti-houthis/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-17T02:38:18+00:00",
+          "language": "fr"
+        },
         {
           "title": "Israël et l’Ukraine, un rapprochement dans l’air ?",
           "url": "https://www.revueconflits.com/israel-et-lukraine-un-rapprochement-dans-lair/",
@@ -129,22 +137,30 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-11-13T12:15:15+00:00",
           "language": "fr"
-        },
-        {
-          "title": "Atlantique : la route de l’après-Ormuz sera-t-elle sûre ?",
-          "url": "https://www.revueconflits.com/atlantique-la-route-de-lapres-ormuz-sera-t-elle-sure/",
-          "source": "Revue Conflits",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-11-12T02:18:16+00:00",
-          "language": "fr"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-17T16:31:59.879367+00:00",
-        "updatedAt": "2026-11-17T16:31:59.879367+00:00",
+        "checkedAt": "2026-11-17T23:41:06.573272+00:00",
+        "updatedAt": "2026-11-17T23:41:06.573272+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Israël : Matan Kahana, un fidèle d'Eisenkot, élu président du Parlement",
+            "text": "Matan Kahana, ancien militaire proche du centriste Gadi Eisenkot, a été élu mardi à la tête du parlement israélien. Un revers pour le camp de Benjamin Netanyahu, dont l'opposition entend rapidement détricoter l'héritage législatif.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261117-isra%C3%ABl-matan-kahana-un-fid%C3%A8le-d-eisenkot-%C3%A9lu-pr%C3%A9sident-du-parlement",
+            "publishedAt": "2026-11-17T21:23:18+00:00"
+          },
+          {
+            "title": "À Gaza, l’hiver emporte les abris et aggrave la faim, alors que l’aide s’amenuise",
+            "text": "Les pluies détruisent les tentes et les réserves de nourriture d’une population privée de revenus. Alors que l’aide alimentaire diminue faute de financements à Gaza, trois agences de l’ONU ont alerté mardi sur les conséquences des restrictions imposées par Israël à l’entrée de matériaux indispensables pour affronter l’hiver dans l’enclave palestinienne.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159860",
+            "publishedAt": "2026-11-17T12:00:00+00:00"
+          },
           {
             "title": "L'Arabie saoudite remplace le commandant de la coalition militaire au Yémen",
             "text": "L'Arabie saoudite a démis de ses fonctions, lundi, le commandant de la coalition militaire contre les Houthis, au Yémen, remplacé par le chef d'état-major des forces armées saoudiennes, alors que le mouvement pro-iranien progresse ces derniers jours dans le sud du pays.",
@@ -152,22 +168,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/moyen-orient/20261116-l-arabie-saoudite-remplace-le-commandant-de-la-coalition-militaire-au-y%C3%A9men",
             "publishedAt": "2026-11-16T14:45:13+00:00"
-          },
-          {
-            "title": "Liban : l’ONU veut placer la santé mentale au cœur de la réponse humanitaire",
-            "text": "La santé mentale ne doit plus être considérée comme un volet secondaire de l’aide humanitaire, mais comme une composante essentielle du relèvement des populations touchées par les conflits. C’est le message porté par la Vice-Secrétaire générale de l’ONU, Amina J. Mohammed, à l’issue d’une visite de plusieurs jours au Liban, où les besoins psychosociaux restent considérables après des années de crises et d’instabilité.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159852",
-            "publishedAt": "2026-11-16T12:00:00+00:00"
-          },
-          {
-            "title": "Yémen : les rebelles Houthis aux portes d'Aden, capitale provisoire du pays",
-            "text": "Les Houthis pro-iraniens du Yémen se trouvaient à 60 km de la ville d'Aden dimanche 15 novembre, siège du gouvernement, vers laquelle ils avancent dans le sud du pays. Quatre sources militaires au sein des forces gouvernementales et deux sources gouvernementales ont fait état de la prise de contrôle par les Houthis des districts d'al-Maqatirah et d'al-Madharibah et de leur progression depuis trois jours vers Aden.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261116-y%C3%A9men-les-rebelles-houthis-aux-portes-d-aden-capitale-provisoire-du-pays",
-            "publishedAt": "2026-11-16T11:26:54+00:00"
           }
         ],
         "sources": [
