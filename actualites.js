@@ -3,6 +3,342 @@ window.LDV_NEWS = {
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
     {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T16:02:25+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Deux bombardiers stratégiques russes Tu-95 sont arrivés au Vietnam… après avoir violé l’espace aérien japonais",
+      "url": "https://www.opex360.com/2026/11/17/deux-bombardiers-strategiques-russes-tu-95-sont-arrives-au-vietnam-apres-avoir-viole-lespace-aerien-japonais/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie-Pacifique",
+        "Europe",
+        "Forces aériennes",
+        "Bear",
+        "bombardier",
+        "Da Nang",
+        "Indopacifique",
+        "japon",
+        "Russie",
+        "TU-95",
+        "Vietnam",
+        "violation"
+      ],
+      "sourceExcerpt": {
+        "text": "Le mois dernier, le Japon a indiqué que l’activité des forces aériennes chinoises et russes dans sa zone d’identification de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-17T16:31:57.124888+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/tu95-20221201.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Deux bombardiers stratégiques russes Tu-95 sont arrivés au Vietnam… après avoir violé l’espace aérien japonais ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/17/deux-bombardiers-strategiques-russes-tu-95-sont-arrives-au-vietnam-apres-avoir-viole-lespace-aerien-japonais/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/17/deux-bombardiers-strategiques-russes-tu-95-sont-arrives-au-vietnam-apres-avoir-viole-lespace-aerien-japonais/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/tu95-20221201.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T15:42:35+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Le chef suprême des talibans afghans effectue une rare visite à Kaboul",
+      "url": "https://www.revueconflits.com/le-chef-supreme-des-talibans-afghans-effectue-une-rare-visite-a-kaboul/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie",
+        "Abonné",
+        "Afghanistan"
+      ],
+      "imageCheckedAt": "2026-11-17T16:31:57.124888+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2021/11/Sans-titre2.jpg",
+        "kind": "article",
+        "alt": "Le chef suprême des talibans afghans effectue une rare visite à Kaboul",
+        "credit": "L'espace temps du terrorisme et de l'insurrection victorieuse en Afghanistan",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/le-chef-supreme-des-talibans-afghans-effectue-une-rare-visite-a-kaboul/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/le-chef-supreme-des-talibans-afghans-effectue-une-rare-visite-a-kaboul/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2021/11/Sans-titre2.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T15:00:00+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "More than 1,000 air defence missiles for Ukraine as UK delivers £240 million in winter support",
+      "url": "https://www.gov.uk/government/news/more-than-1000-air-defence-missiles-for-ukraine-as-uk-delivers-240-million-in-winter-support",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "More than 1,000 new air defence systems proven against Russia’s jet-powered drones will be supplied by the UK to strengthen…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-17T16:31:57.124888+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/more-than-1000-air-defence-missiles-for-ukraine-as-uk-delivers-240-million-in-winter-support",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/more-than-1000-air-defence-missiles-for-ukraine-as-uk-delivers-240-million-in-winter-support",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-17"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T14:09:23+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Les canons bulgares hérités du Pacte de Varsovie ne dépassent pas 22 kilomètres, ceux que Sofia veut acheter à la France montent à…",
+      "url": "https://www.forum-militaire.fr/les-canons-bulgares-herites-du-pacte-de-varsovie-ne-depassent-pas-vingt-deux-kilometres-ceux-que-sofia-veut-acheter-a-la-france-montent-a-cinquante-cinq/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "Blindé",
+        "contrat",
+        "France"
+      ],
+      "sourceExcerpt": {
+        "text": "Le gouvernement bulgare a demandé lundi à son parlement d’approuver l’achat de 57 canons CAESAR, dont la portée dépasse du…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T11:53:20+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Artillerie : La Bulgarie confirme son intention d’acquérir 57 CAESAr auprès de la France",
+      "url": "https://www.opex360.com/2026/11/17/artillerie-la-bulgarie-confirme-son-intention-dacquerir-57-caesar-aupres-de-la-france/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces terrestres",
+        "artillerie",
+        "Bulgarie",
+        "Caesar",
+        "commande",
+        "KNDS France",
+        "Otan"
+      ],
+      "sourceExcerpt": {
+        "text": "En mars 2025, répondant à une question posée par un parlementaire, Atanas Zapryanov, alors ministre bulgare de la Défense, avait…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-17T16:31:57.124888+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/caesar8x8-20191028.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Artillerie : La Bulgarie confirme son intention d’acquérir 57 CAESAr auprès de la France ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/17/artillerie-la-bulgarie-confirme-son-intention-dacquerir-57-caesar-aupres-de-la-france/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/17/artillerie-la-bulgarie-confirme-son-intention-dacquerir-57-caesar-aupres-de-la-france/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/caesar8x8-20191028.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T11:17:43+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Puces : ce que le scandale Nvidia va changer",
+      "url": "https://www.revueconflits.com/puces-ce-que-le-scandale-nvidia-va-changer/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Économie, énergies et entreprises",
+        "Abonné",
+        "géoéconomie"
+      ],
+      "imageCheckedAt": "2026-11-17T16:31:57.124888+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_sipahub60233400_000003-scaled-e1794607427677.jpg",
+        "kind": "article",
+        "alt": "Puces : ce que le scandale Nvidia va changer",
+        "credit": "21 October 2026, Berlin: Jensen Huang, 2026. Photo: Soeren Stache/dpa - urn:newsml:dpa.com:20090101:261021-99-16781 - Soeren Stache/DPA/SIPA/2610211140",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/puces-ce-que-le-scandale-nvidia-va-changer/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/puces-ce-que-le-scandale-nvidia-va-changer/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_sipahub60233400_000003-scaled-e1794607427677.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T11:05:22+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Army buys hundreds more drones and electronic warfare kit in £25 million boost to strengthen Britain’s defences on NATO’s eastern flank",
+      "url": "https://www.gov.uk/government/news/army-buys-hundreds-more-drones-and-electronic-warfare-kit-in-25-million-boost-to-strengthen-britains-defences-on-natos-eastern-flank",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Britain’s Armed Forces will be better equipped to counter the rapidly changing threats facing the UK and its allies, following…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-17T16:31:57.124888+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/army-buys-hundreds-more-drones-and-electronic-warfare-kit-in-25-million-boost-to-strengthen-britains-defences-on-natos-eastern-flank",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/army-buys-hundreds-more-drones-and-electronic-warfare-kit-in-25-million-boost-to-strengthen-britains-defences-on-natos-eastern-flank",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-17"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T10:43:52+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Midterms : analyse de la stratège démocrate Celinda Lake",
+      "url": "https://www.revueconflits.com/midterms-analyse-de-la-stratege-democrate-celinda-lake/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique",
+        "Amérique du Nord",
+        "Abonné",
+        "États-Unis"
+      ],
+      "imageCheckedAt": "2026-11-17T16:31:57.124888+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/Vignettes-videos-2026-11-17T113506.861.png",
+        "kind": "article",
+        "alt": "Midterms : analyse de la stratège démocrate Celinda Lake",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/midterms-analyse-de-la-stratege-democrate-celinda-lake/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/midterms-analyse-de-la-stratege-democrate-celinda-lake/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/Vignettes-videos-2026-11-17T113506.861.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T09:05:08+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Feu vert bulgare pour une commande de CAESAR",
+      "url": "https://forcesoperations.com/feu-vert-bulgare-pour-une-commande-de-caesar/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "artillerie",
+        "Bulgarie",
+        "Caesar",
+        "KNDS"
+      ],
+      "sourceExcerpt": {
+        "text": "Le gouvernement bulgare a donné hier son feu vert pour entamer les négociations en vue de l'acquisition d'une capacité centrée…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-17T16:31:57.124888+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2025/10/En-Croatie-un-pas-de-plus-vers-lachat-de-CAESAR-Mk-2--394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Feu vert bulgare pour une commande de CAESAR ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/feu-vert-bulgare-pour-une-commande-de-caesar/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/feu-vert-bulgare-pour-une-commande-de-caesar/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-17",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2025/10/En-Croatie-un-pas-de-plus-vers-lachat-de-CAESAR-Mk-2--394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T08:25:56+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La France croit dans ce nouveau concept proposé par l’entreprise Rift : une surveillance 24h/24 via un système de drones qui se relaient…",
+      "url": "https://www.forum-militaire.fr/la-france-croit-dans-ce-nouveau-concept-propose-par-lentreprise-rift-une-surveillance-24h-24-via-un-systeme-de-drones-qui-se-relaient/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "Industrie",
+        "drone",
+        "France"
+      ],
+      "sourceExcerpt": {
+        "text": "Rift a annoncé le déploiement de son infrastructure de drones autonomes sur le littoral français pour des essais en mer,…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
       "date": "2026-11-16",
       "publishedAt": "2026-11-16T18:14:49+00:00",
       "source": "Zone Militaire — Opex360",
@@ -629,7 +965,7 @@ window.LDV_NEWS = {
         "missile"
       ],
       "sourceExcerpt": {
-        "text": "Le Pentagone a donné un avis favorable à la demande polonaise d’acheter des missiles de croisière Tomahawk et les lanceurs…",
+        "text": "Depuis le 10 novembre 2026, le Pentagone a donné un avis favorable à la demande polonaise d’acheter des missiles de…",
         "kind": "feed-excerpt"
       }
     },
@@ -21108,7 +21444,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-17T00:32:04.624366+00:00"
     }
   ],
-  "checkedAt": "2026-11-17T00:32:00.391033+00:00",
+  "checkedAt": "2026-11-17T16:31:51.010763+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -21127,7 +21463,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 8,
         "error": null
       },
       {
@@ -21157,13 +21493,13 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 0,
+        "recentItems": 2,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -21185,8 +21521,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 2,
-    "articleImages": 519,
+    "newItems": 10,
+    "articleImages": 527,
     "duplicateHeadlinesSkipped": 0
   }
 };

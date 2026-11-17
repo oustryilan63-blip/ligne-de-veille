@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-17T00:32:00.391033+00:00",
+  "checkedAt": "2026-11-17T16:31:51.010763+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -18,8 +18,16 @@
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-11-15T14:23:13.253407+00:00",
+      "changedAt": "2026-11-17T16:31:51.010763+00:00",
       "items": [
+        {
+          "title": "More than 1,000 air defence missiles for Ukraine as UK delivers £240 million in winter support",
+          "url": "https://www.gov.uk/government/news/more-than-1000-air-defence-missiles-for-ukraine-as-uk-delivers-240-million-in-winter-support",
+          "source": "Ministère britannique de la Défense",
+          "sourceType": "Source officielle",
+          "publishedAt": "2026-11-17T15:00:00+00:00",
+          "language": "en"
+        },
         {
           "title": "Starlink, coeur de la défense ukrainienne",
           "url": "https://www.revueconflits.com/starlink-coeur-de-la-defense-ukrainienne/",
@@ -43,19 +51,11 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-11-13T13:12:27+00:00",
           "language": "fr"
-        },
-        {
-          "title": "Ukraine’s drone pioneers bring battle-tested tech and high-skilled jobs to Britain",
-          "url": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
-          "source": "Ministère britannique de la Défense",
-          "sourceType": "Source officielle",
-          "publishedAt": "2026-11-12T17:07:37+00:00",
-          "language": "en"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-17T00:32:08.404100+00:00",
+        "checkedAt": "2026-11-17T16:31:59.879367+00:00",
         "updatedAt": "2026-11-16T16:31:27.212162+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -94,7 +94,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-17T00:32:08.404100+00:00",
+        "checkedAt": "2026-11-17T16:31:59.879367+00:00",
         "updatedAt": "2026-11-10T21:59:53.893126+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -141,9 +141,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-17T00:32:08.404100+00:00",
-        "updatedAt": "2026-11-16T16:31:27.212162+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-11-17T16:31:59.879367+00:00",
+        "updatedAt": "2026-11-17T16:31:59.879367+00:00",
+        "status": "updated",
         "paragraphs": [
           {
             "title": "L'Arabie saoudite remplace le commandant de la coalition militaire au Yémen",
@@ -154,20 +154,20 @@
             "publishedAt": "2026-11-16T14:45:13+00:00"
           },
           {
+            "title": "Liban : l’ONU veut placer la santé mentale au cœur de la réponse humanitaire",
+            "text": "La santé mentale ne doit plus être considérée comme un volet secondaire de l’aide humanitaire, mais comme une composante essentielle du relèvement des populations touchées par les conflits. C’est le message porté par la Vice-Secrétaire générale de l’ONU, Amina J. Mohammed, à l’issue d’une visite de plusieurs jours au Liban, où les besoins psychosociaux restent considérables après des années de crises et d’instabilité.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159852",
+            "publishedAt": "2026-11-16T12:00:00+00:00"
+          },
+          {
             "title": "Yémen : les rebelles Houthis aux portes d'Aden, capitale provisoire du pays",
             "text": "Les Houthis pro-iraniens du Yémen se trouvaient à 60 km de la ville d'Aden dimanche 15 novembre, siège du gouvernement, vers laquelle ils avancent dans le sud du pays. Quatre sources militaires au sein des forces gouvernementales et deux sources gouvernementales ont fait état de la prise de contrôle par les Houthis des districts d'al-Maqatirah et d'al-Madharibah et de leur progression depuis trois jours vers Aden.",
             "truncated": false,
             "source": "France 24",
             "url": "https://www.france24.com/fr/vid%C3%A9o/20261116-y%C3%A9men-les-rebelles-houthis-aux-portes-d-aden-capitale-provisoire-du-pays",
             "publishedAt": "2026-11-16T11:26:54+00:00"
-          },
-          {
-            "title": "D’Ormuz à Bab Al-Mandab, la guerre au Moyen-Orient prend le commerce mondial en otage",
-            "text": "Neuf mois après le début de la guerre avec l’Iran, les attaques contre les navires marchands continuent de perturber deux des principales voies maritimes de la planète. Devant le Conseil de sécurité, vendredi, l’ONU a alerté sur les conséquences économiques et alimentaires de cette crise, tandis que les monarchies du Golfe ont réclamé des mesures contre Téhéran et les houthistes.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159841",
-            "publishedAt": "2026-11-13T12:00:00+00:00"
           }
         ],
         "sources": [
