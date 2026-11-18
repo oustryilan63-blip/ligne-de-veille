@@ -1,7 +1,175 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-19",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-18T19:33:12+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "QUEL HIVER POUR KNDS ?",
+      "url": "https://blablachars.blogspot.com/2026/11/quel-hiver-pour-knds.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Allemagne",
+        "Assemblée Nationale",
+        "Corée du Sud",
+        "DGA",
+        "France",
+        "Hyundai Rotem",
+        "K2",
+        "KNDS",
+        "Leclerc",
+        "Émirats Arabes Unis"
+      ],
+      "sourceExcerpt": {
+        "text": "L' été de KNDS (KMW Nexter Defense Systems) s'annonçait plutôt frais avec le report de l'IPO ( Initial Public Offering…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-18T23:11:52.934532+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQLM-Dl0Cxi1c_-fjvMGcJVFi7kjY__Z4PVQA-5AXxtLcB6g5je-h8AB9MnCV-ZnVa3_MtgOmq2G5wrop5ePYBtt0rFfb5OXTWeAUnJsbz8adenBUk092g-zf6cR9hXvn3y-BndFUedtr57n3nTk9HgaLJQVIbmsPcp3t1zQtD7r4iv4Ucy4L_NdkAedg/w1200-h630-p-k-no-nu/IMG_0513.JPG",
+        "kind": "article",
+        "alt": "Image principale de l’article « QUEL HIVER POUR KNDS ? ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/11/quel-hiver-pour-knds.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/11/quel-hiver-pour-knds.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-18",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQLM-Dl0Cxi1c_-fjvMGcJVFi7kjY__Z4PVQA-5AXxtLcB6g5je-h8AB9MnCV-ZnVa3_MtgOmq2G5wrop5ePYBtt0rFfb5OXTWeAUnJsbz8adenBUk092g-zf6cR9hXvn3y-BndFUedtr57n3nTk9HgaLJQVIbmsPcp3t1zQtD7r4iv4Ucy4L_NdkAedg/w1200-h630-p-k-no-nu/IMG_0513.JPG",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-18T18:47:25+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Grâce au BIC, l’armée de Terre entraîne ses artilleurs sans tirer un seul obus",
+      "url": "https://www.opex360.com/2026/11/18/grace-au-bic-larmee-de-terre-entraine-ses-artilleurs-sans-tirer-un-seul-obus/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "armée de terre",
+        "artillerie",
+        "Banc d’Instruction au Chargement",
+        "Caesar",
+        "École d'artillerie",
+        "entraînement",
+        "KNDS France",
+        "préparation opérationnelle",
+        "simulateur"
+      ],
+      "sourceExcerpt": {
+        "text": "Former et entraîner les servants d’un CAESAr [Camion équipé d’un système d’artillerie] sans tirer d’obus et à moindre coût :…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-18T23:11:52.934532+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/bic-20261118.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Grâce au BIC, l’armée de Terre entraîne ses artilleurs sans tirer un seul obus ».",
+        "credit": "Un équipage complet s’entraine sur le banc d’instruction de chargement Caesar à l’école d’artillerie – © Pauline KOLASINSK / armée de Terre / Défense",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/18/grace-au-bic-larmee-de-terre-entraine-ses-artilleurs-sans-tirer-un-seul-obus/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/18/grace-au-bic-larmee-de-terre-entraine-ses-artilleurs-sans-tirer-un-seul-obus/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-18",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/bic-20261118.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-18T17:37:47+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le coût des douze futurs avions PATMAR de la Marine nationale serait aussi élevé que celui du porte-avions France Libre",
+      "url": "https://www.opex360.com/2026/11/18/le-cout-des-douze-futurs-avions-patmar-de-la-marine-nationale-serait-aussi-eleve-que-celui-du-porte-avions-france-libre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "A321",
+        "A321XLR",
+        "Airbus",
+        "Direction gérérale de l'armement",
+        "Falcon 10X",
+        "Marine natonale",
+        "PATMAR futur"
+      ],
+      "sourceExcerpt": {
+        "text": "Selon un rapport récemment publié par la commission des Finances de l’Assemblée nationale, la Marine nationale anticipe une possible rupture…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-18T23:11:52.934532+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/a321mpa-20250204.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le coût des douze futurs avions PATMAR de la Marine nationale serait aussi élevé que celui du porte-avions France Libre ».",
+        "credit": "Airbus",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/18/le-cout-des-douze-futurs-avions-patmar-de-la-marine-nationale-serait-aussi-eleve-que-celui-du-porte-avions-france-libre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/18/le-cout-des-douze-futurs-avions-patmar-de-la-marine-nationale-serait-aussi-eleve-que-celui-du-porte-avions-france-libre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-18",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/a321mpa-20250204.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-18T16:40:13+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Le détroit de Bab el-Mandeb et la mer Rouge : des espaces stratégiques et conflictuels",
+      "url": "https://www.areion24.news/2026/11/18/le-detroit-de-bab-el-mandeb-et-la-mer-rouge-des-espaces-strategiques-et-conflictuels/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Les Grands Dossiers de Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "La mer Rouge, qui relie la Méditerranée par le canal de Suez à l’océan Indien, via le détroit de Bab…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-18T23:11:52.934532+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/11/Capture-decran-2026-11-18-a-17.30.49.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le détroit de Bab el-Mandeb et la mer Rouge : des espaces stratégiques et conflictuels ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/11/18/le-detroit-de-bab-el-mandeb-et-la-mer-rouge-des-espaces-strategiques-et-conflictuels/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/11/18/le-detroit-de-bab-el-mandeb-et-la-mer-rouge-des-espaces-strategiques-et-conflictuels/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-18",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/Capture-decran-2026-11-18-a-17.30.49.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-18",
       "publishedAt": "2026-11-18T15:28:14+00:00",
@@ -43,6 +211,40 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-18",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/atmos-mbda-20261118.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-18T14:30:44+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "« La menace nord-coréenne n’a jamais cessé de croître »",
+      "url": "https://www.revueconflits.com/la-menace-nord-coreenne-na-jamais-cesse-de-croitre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie",
+        "Asie de l'Est",
+        "Abonné",
+        "Corée du Nord"
+      ],
+      "imageCheckedAt": "2026-11-18T23:11:52.934532+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/04/56-SIPA_ap23011381_000003.jpg",
+        "kind": "article",
+        "alt": "« La menace nord-coréenne n’a jamais cessé de croître »",
+        "credit": "This photo provided by the North Korean government shows ballistic missiles test-fired from an undisclosed location in North Korea, Tuesday, Jan. 27, 2026. Independent journalists were not given access to cover the event depicted in this image distributed by the North Korean government. The content of this image is as provided and cannot be independently verified. Korean language watermark on image as provided by source reads: \"KCNA\" which is the abbreviation for Korean Central News Agency. (Korean Central News Agency/Korea News Service via AP)/TKHK303/26027821695792/PHOTO RELEASED BY NORTH KOREAN GOVERNMENT VIA KCNA/KNS. JAPAN OUT UNTIL 14 DAYS AFTER THE DAY OF TRANSMISSION. AP PROVIDES ACCESS TO THIS HANDOUT PHOTO TO BE USED SOLELY TO ILLUSTRATE NEWS REPORTING OR COMMENTARY ON THE EVENTS DEPICTED IN THIS IMAGE./2601280228",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/la-menace-nord-coreenne-na-jamais-cesse-de-croitre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/la-menace-nord-coreenne-na-jamais-cesse-de-croitre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-18",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/04/56-SIPA_ap23011381_000003.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -22081,7 +22283,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-18T16:00:19.567447+00:00"
     }
   ],
-  "checkedAt": "2026-11-18T16:00:14.871583+00:00",
+  "checkedAt": "2026-11-18T23:11:25.878250+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -22093,9 +22295,9 @@ window.LDV_NEWS = {
     "sources": [
       {
         "source": "Sénat — Défense",
-        "ok": true,
+        "ok": false,
         "recentItems": 0,
-        "error": null
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
       },
       {
         "source": "Ministère britannique de la Défense",
@@ -22130,7 +22332,7 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 6,
         "error": null
       },
       {
@@ -22141,25 +22343,25 @@ window.LDV_NEWS = {
       },
       {
         "source": "Naval News",
-        "ok": false,
-        "recentItems": 0,
-        "error": "HTTP Error 503: Service Temporarily Unavailable"
+        "ok": true,
+        "recentItems": 10,
+        "error": null
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 11,
+        "recentItems": 12,
         "error": null
       },
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 4,
         "error": null
       }
     ],
-    "newItems": 9,
-    "articleImages": 543,
+    "newItems": 5,
+    "articleImages": 548,
     "duplicateHeadlinesSkipped": 0
   }
 };

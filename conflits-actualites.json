@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-18T16:00:14.871583+00:00",
+  "checkedAt": "2026-11-18T23:11:25.878250+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -13,7 +13,7 @@
     "ok": 10,
     "total": 11,
     "unavailable": [
-      "Naval News"
+      "Sénat — Défense"
     ]
   },
   "topics": {
@@ -55,10 +55,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-18T16:00:25.754066+00:00",
-        "updatedAt": "2026-11-16T16:31:27.212162+00:00",
-        "status": "retained",
+        "checkedAt": "2026-11-18T23:11:54.068082+00:00",
+        "updatedAt": "2026-11-18T23:11:54.068082+00:00",
+        "status": "updated",
         "paragraphs": [
+          {
+            "title": "APEC : vers une nouvelle escalade de violences entre l'Iran et les États-Unis ?",
+            "text": "Lors du sommet de l'APEC, Donald Trump a indiqué qu'il entendait parler de dénucléarisation et de la guerre en Iran, avant de déclarer lundi que l'Ukraine serait abordée. À côté de ça, l'Iran se dit prêt à riposter de manière \"plus dévastatrice\" si les États-Unis et leurs alliés mènent une nouvelle attaque, a averti mercredi 18 novembre le chef de l'armée iranienne. Les explication d'Adel Bakawan, directeur de l'Institut européen d'études sur le Moyen-Orient et l'Afrique du Nord.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/vid%C3%A9o/20261118-apec-vers-une-nouvelle-escalade-de-violences-entre-l-iran-et-les-%C3%A9tats-unis",
+            "publishedAt": "2026-11-18T14:25:40+00:00"
+          },
           {
             "title": "Les ministres du G7 réunis à Paris : l'Iran et l'Ukraine au cœur des débats",
             "text": "Le chef de la diplomatie française, Jean-Noël Barrot, s'est entretenu mardi 10 novembre à Paris avec son homologue ukrainien, Andrii Sybiha, en marge de ⁠la réunion des ministres des Affaires étrangères du G7. Réunion au cours de laquelle la guerre en Ukraine et celle en Iran seront les sujets principaux entre les différents ministres.",
@@ -94,8 +102,8 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-18T16:00:25.754066+00:00",
-        "updatedAt": "2026-11-18T16:00:25.754066+00:00",
+        "checkedAt": "2026-11-18T23:11:54.068082+00:00",
+        "updatedAt": "2026-11-18T23:11:54.068082+00:00",
         "status": "updated",
         "paragraphs": [
           {
@@ -105,6 +113,14 @@
             "source": "RFI",
             "url": "https://www.rfi.fr/fr/asie-pacifique/20261118-ta%C3%AFwan-d%C3%A9nonce-une-multiplication-des-incursions-navales-chinoises",
             "publishedAt": "2026-11-18T09:12:59+00:00"
+          },
+          {
+            "title": "Ce que l’on sait sur les exercices de l’armée chinoise autour de Taïwan",
+            "text": "Depuis le début du mois de novembre, la Chine mène des exercices militaires majeurs autour de Taïwan. Mais contrairement à ce que laissent entendre des internautes, les forces armées chinoises n’ont pas instauré un blocus de l’île - elles se livrent seulement à une simulation d’encerclement.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/asie-pacifique/20261110-ce-que-l-on-sait-sur-les-exercices-de-l-arm%C3%A9e-chinoise-autour-de-ta%C3%AFwan",
+            "publishedAt": "2026-11-10T14:02:50+00:00"
           }
         ],
         "sources": [
@@ -120,8 +136,16 @@
       }
     },
     "moyen-orient-conflits": {
-      "changedAt": "2026-11-18T16:00:14.871583+00:00",
+      "changedAt": "2026-11-18T23:11:25.878250+00:00",
       "items": [
+        {
+          "title": "Le détroit de Bab el-Mandeb et la mer Rouge : des espaces stratégiques et conflictuels",
+          "url": "https://www.areion24.news/2026/11/18/le-detroit-de-bab-el-mandeb-et-la-mer-rouge-des-espaces-strategiques-et-conflictuels/",
+          "source": "Areion — Géopolitique",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-18T16:40:13+00:00",
+          "language": "fr"
+        },
         {
           "title": "L’Irak ordonne à l’armée d’entrer dans le bastion d’une faction pro-Iran",
           "url": "https://www.revueconflits.com/lirak-ordonne-a-larmee-dentrer-dans-le-bastion-dune-faction-pro-iran/",
@@ -141,25 +165,33 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-18T16:00:25.754066+00:00",
-        "updatedAt": "2026-11-18T16:00:25.754066+00:00",
+        "checkedAt": "2026-11-18T23:11:54.068082+00:00",
+        "updatedAt": "2026-11-18T23:11:54.068082+00:00",
         "status": "updated",
         "paragraphs": [
           {
-            "title": "À Gaza, l’hiver emporte les abris et aggrave la faim, alors que l’aide s’amenuise",
-            "text": "Les pluies détruisent les tentes et les réserves de nourriture d’une population privée de revenus. Alors que l’aide alimentaire diminue faute de financements à Gaza, trois agences de l’ONU ont alerté mardi sur les conséquences des restrictions imposées par Israël à l’entrée de matériaux indispensables pour affronter l’hiver dans l’enclave palestinienne.",
+            "title": "L'armée israélienne lance une incursion terrestre dans la bande de Gaza",
+            "text": "L'armée israélienne a indiqué, mercredi, avoir lancé une opération militaire au sol dans le centre de la bande de Gaza, à l'ouest de la \"ligne jaune\", dans une zone contrôlée par le Hamas. Alors qu'un cessez-le-feu est en cours, des Palestiniens ont été appelés à quitter la zone.",
             "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159860",
-            "publishedAt": "2026-11-17T12:00:00+00:00"
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261118-isra%C3%ABl-lance-une-nouvelle-op%C3%A9ration-militaire-dans-la-bande-de-gaza",
+            "publishedAt": "2026-11-18T16:13:34+00:00"
           },
           {
-            "title": "Liban : l’ONU veut placer la santé mentale au cœur de la réponse humanitaire",
-            "text": "La santé mentale ne doit plus être considérée comme un volet secondaire de l’aide humanitaire, mais comme une composante essentielle du relèvement des populations touchées par les conflits. C’est le message porté par la Vice-Secrétaire générale de l’ONU, Amina J. Mohammed, à l’issue d’une visite de plusieurs jours au Liban, où les besoins psychosociaux restent considérables après des années de crises et d’instabilité.",
+            "title": "États-Unis - Iran : attaque contre un navire dans le Détroit d'Ormuz",
+            "text": "Le géant pétrolier émirati Adnoc a annoncé mercredi 18 novembre qu'un de ses bateaux avait été attaqué la veille dans le stratégique détroit d'Ormuz, au cœur du conflit entre les États-Unis et l'Iran. L'agence de sécurité maritime britannique a aussi rapporté qu'un tanker avait été frappé mardi 17 novembre \"par un projectile d'origine inconnu\" et qu'un marin était porté disparu. Les précisions de Léa Delfolie, correspondante France 24 à Dubaï.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/vid%C3%A9o/20261118-%C3%A9tats-unis-iran-attaque-contre-un-navire-dans-le-d%C3%A9troit-d-ormuz",
+            "publishedAt": "2026-11-18T15:22:32+00:00"
+          },
+          {
+            "title": "Yémen : Taëz s’enfonce dans l’isolement, les risques d’épidémie s’aggravent",
+            "text": "Encerclée, la ville yéménite de Taëz fait face à une dégradation alarmante de la situation humanitaire. La fermeture de ses principaux axes d’approvisionnement entrave l’acheminement de l’aide, tandis que le manque d’eau potable, les difficultés d’accès aux soins et la poursuite des combats entre les rebelles houthistes et les forces gouvernementales font craindre une aggravation de la crise sanitaire.",
             "truncated": false,
             "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159852",
-            "publishedAt": "2026-11-16T12:00:00+00:00"
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159866",
+            "publishedAt": "2026-11-18T12:00:00+00:00"
           }
         ],
         "sources": [
@@ -169,7 +201,7 @@
           },
           {
             "source": "France 24",
-            "ok": false
+            "ok": true
           }
         ]
       }
