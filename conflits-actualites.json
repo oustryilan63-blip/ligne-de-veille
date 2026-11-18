@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-17T23:40:57.521685+00:00",
+  "checkedAt": "2026-11-18T16:00:14.871583+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -55,9 +55,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-17T23:41:06.573272+00:00",
+        "checkedAt": "2026-11-18T16:00:25.754066+00:00",
         "updatedAt": "2026-11-16T16:31:27.212162+00:00",
-        "status": "unchanged",
+        "status": "retained",
         "paragraphs": [
           {
             "title": "Les ministres du G7 réunis à Paris : l'Iran et l'Ukraine au cœur des débats",
@@ -94,17 +94,17 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-17T23:41:06.573272+00:00",
-        "updatedAt": "2026-11-10T21:59:53.893126+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-11-18T16:00:25.754066+00:00",
+        "updatedAt": "2026-11-18T16:00:25.754066+00:00",
+        "status": "updated",
         "paragraphs": [
           {
-            "title": "Ce que l’on sait sur les exercices de l’armée chinoise autour de Taïwan",
-            "text": "Depuis le début du mois de novembre, la Chine mène des exercices militaires majeurs autour de Taïwan. Mais contrairement à ce que laissent entendre des internautes, les forces armées chinoises n’ont pas instauré un blocus de l’île - elles se livrent seulement à une simulation d’encerclement.",
+            "title": "Taïwan face à une multiplication des incursions navales chinoises",
+            "text": "Taïwan tente de tirer la sonnette d'alarme après la multiplication, ces derniers mois, d'opérations militaires maritimes dans le Pacifique.",
             "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/asie-pacifique/20261110-ce-que-l-on-sait-sur-les-exercices-de-l-arm%C3%A9e-chinoise-autour-de-ta%C3%AFwan",
-            "publishedAt": "2026-11-10T14:02:50+00:00"
+            "source": "RFI",
+            "url": "https://www.rfi.fr/fr/asie-pacifique/20261118-ta%C3%AFwan-d%C3%A9nonce-une-multiplication-des-incursions-navales-chinoises",
+            "publishedAt": "2026-11-18T09:12:59+00:00"
           }
         ],
         "sources": [
@@ -120,8 +120,16 @@
       }
     },
     "moyen-orient-conflits": {
-      "changedAt": "2026-11-17T23:40:57.521685+00:00",
+      "changedAt": "2026-11-18T16:00:14.871583+00:00",
       "items": [
+        {
+          "title": "L’Irak ordonne à l’armée d’entrer dans le bastion d’une faction pro-Iran",
+          "url": "https://www.revueconflits.com/lirak-ordonne-a-larmee-dentrer-dans-le-bastion-dune-faction-pro-iran/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-18T02:41:20+00:00",
+          "language": "fr"
+        },
         {
           "title": "Après une série de revers, Riyad démet le commandant de la coalition anti-Houthis",
           "url": "https://www.revueconflits.com/apres-une-serie-de-revers-riyad-demet-le-commandant-de-la-coalition-anti-houthis/",
@@ -129,30 +137,14 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-11-17T02:38:18+00:00",
           "language": "fr"
-        },
-        {
-          "title": "Israël et l’Ukraine, un rapprochement dans l’air ?",
-          "url": "https://www.revueconflits.com/israel-et-lukraine-un-rapprochement-dans-lair/",
-          "source": "Revue Conflits",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-11-13T12:15:15+00:00",
-          "language": "fr"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-17T23:41:06.573272+00:00",
-        "updatedAt": "2026-11-17T23:41:06.573272+00:00",
+        "checkedAt": "2026-11-18T16:00:25.754066+00:00",
+        "updatedAt": "2026-11-18T16:00:25.754066+00:00",
         "status": "updated",
         "paragraphs": [
-          {
-            "title": "Israël : Matan Kahana, un fidèle d'Eisenkot, élu président du Parlement",
-            "text": "Matan Kahana, ancien militaire proche du centriste Gadi Eisenkot, a été élu mardi à la tête du parlement israélien. Un revers pour le camp de Benjamin Netanyahu, dont l'opposition entend rapidement détricoter l'héritage législatif.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261117-isra%C3%ABl-matan-kahana-un-fid%C3%A8le-d-eisenkot-%C3%A9lu-pr%C3%A9sident-du-parlement",
-            "publishedAt": "2026-11-17T21:23:18+00:00"
-          },
           {
             "title": "À Gaza, l’hiver emporte les abris et aggrave la faim, alors que l’aide s’amenuise",
             "text": "Les pluies détruisent les tentes et les réserves de nourriture d’une population privée de revenus. Alors que l’aide alimentaire diminue faute de financements à Gaza, trois agences de l’ONU ont alerté mardi sur les conséquences des restrictions imposées par Israël à l’entrée de matériaux indispensables pour affronter l’hiver dans l’enclave palestinienne.",
@@ -162,12 +154,12 @@
             "publishedAt": "2026-11-17T12:00:00+00:00"
           },
           {
-            "title": "L'Arabie saoudite remplace le commandant de la coalition militaire au Yémen",
-            "text": "L'Arabie saoudite a démis de ses fonctions, lundi, le commandant de la coalition militaire contre les Houthis, au Yémen, remplacé par le chef d'état-major des forces armées saoudiennes, alors que le mouvement pro-iranien progresse ces derniers jours dans le sud du pays.",
+            "title": "Liban : l’ONU veut placer la santé mentale au cœur de la réponse humanitaire",
+            "text": "La santé mentale ne doit plus être considérée comme un volet secondaire de l’aide humanitaire, mais comme une composante essentielle du relèvement des populations touchées par les conflits. C’est le message porté par la Vice-Secrétaire générale de l’ONU, Amina J. Mohammed, à l’issue d’une visite de plusieurs jours au Liban, où les besoins psychosociaux restent considérables après des années de crises et d’instabilité.",
             "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261116-l-arabie-saoudite-remplace-le-commandant-de-la-coalition-militaire-au-y%C3%A9men",
-            "publishedAt": "2026-11-16T14:45:13+00:00"
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159852",
+            "publishedAt": "2026-11-16T12:00:00+00:00"
           }
         ],
         "sources": [
@@ -177,7 +169,7 @@
           },
           {
             "source": "France 24",
-            "ok": true
+            "ok": false
           }
         ]
       }
