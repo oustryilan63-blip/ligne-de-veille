@@ -3,6 +3,327 @@ window.LDV_NEWS = {
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
     {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T14:23:27+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Plus de 170 000 fusils allemands pour l’infanterie française, et la raison officielle de l’abandon de l’arme nationale tient en un mot :…",
+      "url": "https://www.forum-militaire.fr/plus-de-170-000-fusils-allemands-pour-linfanterie-francaise-et-la-raison-officielle-de-labandon-de-larme-nationale-tient-en-un-mot-le-cout/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "contrat",
+        "France"
+      ],
+      "sourceExcerpt": {
+        "text": "La Direction générale de l’armement a notifié le 2 novembre une commande de 72 000 fusils d’assaut HK416F, à livrer…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T14:22:54+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "L’Europe valide le rapprochement entre Thales et Kongsberg",
+      "url": "https://forcesoperations.com/leurope-valide-le-rapprochement-entre-thales-et-kongsberg/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "Kongbserg",
+        "Norvège",
+        "Thales"
+      ],
+      "sourceExcerpt": {
+        "text": "L'Europe a tranché, la voie est libre pour la future co-entreprise créée en Norvège par Thales et le groupe local…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/11/LEurope-valide-le-rapprochement-entre-Thales-et-Kongsberg_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’Europe valide le rapprochement entre Thales et Kongsberg ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/leurope-valide-le-rapprochement-entre-thales-et-kongsberg/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/leurope-valide-le-rapprochement-entre-thales-et-kongsberg/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-19",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/11/LEurope-valide-le-rapprochement-entre-Thales-et-Kongsberg_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T13:59:33+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "L’Iran et la stratégie de l’anaconda",
+      "url": "https://www.revueconflits.com/liran-et-la-strategie-de-lanaconda/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Conflits armés",
+        "Moyen-Orient",
+        "Abonné",
+        "États-Unis",
+        "Iran"
+      ],
+      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/Vignettes-videos-2026-11-18T145928.365.png",
+        "kind": "article",
+        "alt": "L’Iran et la stratégie de l’anaconda",
+        "credit": "L’Iran et la stratégie de l’anaconda",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/liran-et-la-strategie-de-lanaconda/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/liran-et-la-strategie-de-lanaconda/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-19",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/Vignettes-videos-2026-11-18T145928.365.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T12:04:20+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le ministère des Armées a commandé 72 000 fusils d’assaut HK416F supplémentaires auprès d’Heckler & Koch",
+      "url": "https://www.opex360.com/2026/11/19/le-ministere-des-armees-a-commande-72-000-fusils-dassaut-hk416f-supplementaires-aupres-dheckler-koch/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Armement",
+        "DGA",
+        "AIF",
+        "commande",
+        "Direction générale de l'armement",
+        "Famas",
+        "fusil d'assaut",
+        "Heckler & Koch",
+        "HK416F",
+        "ministère des Armées"
+      ],
+      "sourceExcerpt": {
+        "text": "U En septembre 2016, après des polémiques sur les modalités de l’appel d’offres d’une valeur estimée à 350 millions d’euros…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/hk146-20200708.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le ministère des Armées a commandé 72 000 fusils d’assaut HK416F supplémentaires auprès d’Heckler & Koch ».",
+        "credit": "Section technique de l’armée de Terre",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/19/le-ministere-des-armees-a-commande-72-000-fusils-dassaut-hk416f-supplementaires-aupres-dheckler-koch/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/19/le-ministere-des-armees-a-commande-72-000-fusils-dassaut-hk416f-supplementaires-aupres-dheckler-koch/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-19",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/hk146-20200708.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T08:45:15+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Deux bonnes nouvelles pour les réservistes de l’armée de Terre alors que la France ambitionne de presque doubler les 47 600 réservistes de…",
+      "url": "https://www.forum-militaire.fr/deux-bonnes-nouvelles-pour-les-41-000-reservistes-de-larmee-de-terre-qui-vont-profiter-de-sa-nouvelle-ambition-de-doubler-ses-effectifs-en-4-ans/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Orientation métier",
+        "France",
+        "recrutement"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 16 novembre 2026, la Direction des Ressources Humaines de l’Armée de Terre (DRHAT) a annoncé deux évolutions concrètes de…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T08:30:12+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Graves of missing Lancashire soldiers identified in France and Belgium",
+      "url": "https://www.gov.uk/government/news/graves-of-missing-lancashire-soldiers-identified-in-france-and-belgium",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "The graves of two lost soldiers of World War 1, from Aspull and Eccles, have finally been identified in Belgium…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6afdc705df17de35d3a44f09/s300_Photo_2_-_The_bugler_sounds_Last_Post_at_the_service_for_CSM_Bannister.jpg",
+        "kind": "article",
+        "alt": "The service for CSM Bannister (Crown Copyright)",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/graves-of-missing-lancashire-soldiers-identified-in-france-and-belgium",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/graves-of-missing-lancashire-soldiers-identified-in-france-and-belgium",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-19"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T08:29:57+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Grave of missing Pembrokeshire soldier identified in Belgium",
+      "url": "https://www.gov.uk/government/news/grave-of-missing-pembrokeshire-soldier-identified-in-belgium",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Major Francis George Wynne of the Loyal North Lancashire Regiment (attd Wiltshire Regiment), now has a named resting places in…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6afdc0c6df17de35d3a44ef2/s300_Photo_3_-_Major_Wynne_s_new_headstone.jpg",
+        "kind": "article",
+        "alt": "The new headstone marking Major Wynne's grave (Crown Copyright)",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/grave-of-missing-pembrokeshire-soldier-identified-in-belgium",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/grave-of-missing-pembrokeshire-soldier-identified-in-belgium",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-19"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T06:51:54+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "France – Asie du Nord-Est : le pari des puissances moyennes",
+      "url": "https://www.areion24.news/2026/11/19/france-asie-du-nord-est-le-pari-des-puissances-moyennes/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Les Grands Dossiers de Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "La visite d’État d’Emmanuel Macron à Tokyo puis à Séoul au printemps 2026, ainsi que son déplacement en Mongolie dès…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00"
+    },
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T06:14:51+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Les États baltes face à la Russie : le risque n’est pas l’invasion, mais le test",
+      "url": "https://www.areion24.news/2026/11/19/les-etats-baltes-face-a-la-russie-le-risque-nest-pas-linvasion-mais-le-test/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Les Grands Dossiers de Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "À court terme, une attaque contre l’un des trois ou les trois États baltes reste peu probable tant que la…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/11/shutterstock_2133722757.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Les États baltes face à la Russie : le risque n’est pas l’invasion, mais le test ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/11/19/les-etats-baltes-face-a-la-russie-le-risque-nest-pas-linvasion-mais-le-test/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/11/19/les-etats-baltes-face-a-la-russie-le-risque-nest-pas-linvasion-mais-le-test/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-19",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/shutterstock_2133722757.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T03:00:33+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Le gazoduc Nigéria-Maroc, une artère au service de trois ambitions",
+      "url": "https://www.revueconflits.com/le-gazoduc-nigeria-maroc-une-artere-au-service-de-trois-ambitions/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique de l'Ouest",
+        "Cartes",
+        "Économie, énergies et entreprises",
+        "Revue Conflits",
+        "Abonné",
+        "Afrique",
+        "Energie"
+      ],
+      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/onaopemipo-oladipupo-n-1Ntlxmy5k-unsplash-scaled.jpg",
+        "kind": "article",
+        "alt": "Le gazoduc Nigéria-Maroc, une artère au service de trois ambitions",
+        "credit": "Le port de Lagos, au Nigéria. (C) Conflits.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/le-gazoduc-nigeria-maroc-une-artere-au-service-de-trois-ambitions/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/le-gazoduc-nigeria-maroc-une-artere-au-service-de-trois-ambitions/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-19",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/onaopemipo-oladipupo-n-1Ntlxmy5k-unsplash-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
       "date": "2026-11-18",
       "publishedAt": "2026-11-18T19:33:12+00:00",
       "source": "Blablachars",
@@ -268,7 +589,7 @@ window.LDV_NEWS = {
         "France"
       ],
       "sourceExcerpt": {
-        "text": "La Direction générale de l’armement a retenu le Tekever AR5 pour cinq systèmes de drones de renseignement, après l’abandon du…",
+        "text": "La Direction générale de l’armement (DGA) a sélectionné le drone Tekever AR5 dans le cadre du programme ADAPT, destiné à…",
         "kind": "feed-excerpt"
       }
     },
@@ -14326,7 +14647,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-18T16:00:19.567447+00:00"
+      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00"
     },
     {
       "date": "2026-10-23",
@@ -14339,7 +14660,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-18T16:00:19.567447+00:00"
+      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00"
     },
     {
       "date": "2026-10-22",
@@ -14963,7 +15284,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-18T16:00:19.567447+00:00"
+      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00"
     },
     {
       "date": "2026-10-21",
@@ -22066,7 +22387,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-18T16:00:19.567447+00:00"
+      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00"
     },
     {
       "date": "2026-10-07",
@@ -22280,10 +22601,10 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-18T16:00:19.567447+00:00"
+      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00"
     }
   ],
-  "checkedAt": "2026-11-18T23:11:25.878250+00:00",
+  "checkedAt": "2026-11-19T16:07:02.331827+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -22295,14 +22616,14 @@ window.LDV_NEWS = {
     "sources": [
       {
         "source": "Sénat — Défense",
-        "ok": false,
+        "ok": true,
         "recentItems": 0,
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
+        "error": null
       },
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -22343,25 +22664,25 @@ window.LDV_NEWS = {
       },
       {
         "source": "Naval News",
-        "ok": true,
-        "recentItems": 10,
-        "error": null
+        "ok": false,
+        "recentItems": 0,
+        "error": "HTTP Error 503: Service Temporarily Unavailable"
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 12,
+        "recentItems": 7,
         "error": null
       },
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       }
     ],
-    "newItems": 5,
-    "articleImages": 548,
+    "newItems": 10,
+    "articleImages": 555,
     "duplicateHeadlinesSkipped": 0
   }
 };

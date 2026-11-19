@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-18T23:11:25.878250+00:00",
+  "checkedAt": "2026-11-19T16:07:02.331827+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -13,7 +13,7 @@
     "ok": 10,
     "total": 11,
     "unavailable": [
-      "Sénat — Défense"
+      "Naval News"
     ]
   },
   "topics": {
@@ -55,25 +55,33 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-18T23:11:54.068082+00:00",
-        "updatedAt": "2026-11-18T23:11:54.068082+00:00",
+        "checkedAt": "2026-11-19T16:07:12.007914+00:00",
+        "updatedAt": "2026-11-19T16:07:12.007914+00:00",
         "status": "updated",
         "paragraphs": [
           {
-            "title": "APEC : vers une nouvelle escalade de violences entre l'Iran et les États-Unis ?",
-            "text": "Lors du sommet de l'APEC, Donald Trump a indiqué qu'il entendait parler de dénucléarisation et de la guerre en Iran, avant de déclarer lundi que l'Ukraine serait abordée. À côté de ça, l'Iran se dit prêt à riposter de manière \"plus dévastatrice\" si les États-Unis et leurs alliés mènent une nouvelle attaque, a averti mercredi 18 novembre le chef de l'armée iranienne. Les explication d'Adel Bakawan, directeur de l'Institut européen d'études sur le Moyen-Orient et l'Afrique du Nord.",
+            "title": "Ce qu'il faut retenir du sommet inédit entre Donald Trump, Xi Jinping et Vladimir Poutine",
+            "text": "Le président américain Donald Trump et ses ⁠homologues chinois et russe ​Xi Jinping et Vladimir Poutine se sont retrouvés jeudi en marge d'un sommet de l'Asie-Pacifique (Apec) pour une réunion trilatérale inédite au menu de laquelle figurait la guerre en Ukraine et le contrôle des armements nucléaires. Ils se sont entendus sur un texte diffusé par le Kremlin et les médias d'État chinois.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261118-apec-vers-une-nouvelle-escalade-de-violences-entre-l-iran-et-les-%C3%A9tats-unis",
-            "publishedAt": "2026-11-18T14:25:40+00:00"
+            "url": "https://www.france24.com/fr/asie-pacifique/20261119-ce-qu-il-faut-retenir-du-sommet-in%C3%A9dit-entre-donald-trump-xi-jinping-et-vladimir-poutine",
+            "publishedAt": "2026-11-19T13:05:26+00:00"
           },
           {
-            "title": "Les ministres du G7 réunis à Paris : l'Iran et l'Ukraine au cœur des débats",
-            "text": "Le chef de la diplomatie française, Jean-Noël Barrot, s'est entretenu mardi 10 novembre à Paris avec son homologue ukrainien, Andrii Sybiha, en marge de ⁠la réunion des ministres des Affaires étrangères du G7. Réunion au cours de laquelle la guerre en Ukraine et celle en Iran seront les sujets principaux entre les différents ministres.",
+            "title": "Rencontre trilatérale à Shenzhen : les intérêts de Xi, Trump et Poutine",
+            "text": "Les thèmes de discussions de la rencontre trilatérale à Shenzhen, historique, restent très flous. Donald Trump a annoncé qu'il voulait aborder la dénucléarisation (le traité New Start a expiré), quand la Chine a évoqué des discussions sur \"la paix dans le monde\". Il sera aussi question de l'Iran, soutenu par Pékin et Moscou, mais aussi de la guerre en Ukraine, deux sujets voulus par le président américain, renseigne Baptiste Fallevoz, le correspondant de France 24.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261110-les-ministres-du-g7-r%C3%A9unis-%C3%A0-paris-l-iran-et-l-ukraine-au-c%C5%93ur-des-d%C3%A9bats",
-            "publishedAt": "2026-11-10T13:39:42+00:00"
+            "url": "https://www.france24.com/fr/vid%C3%A9o/20261119-rencontre-trilat%C3%A9rale-%C3%A0-shenzhen-les-int%C3%A9r%C3%AAts-de-xi-trump-et-poutine",
+            "publishedAt": "2026-11-19T03:50:38+00:00"
+          },
+          {
+            "title": "De l’Iran à l’Ukraine, l’AIEA alerte sur une sécurité nucléaire de plus en plus fragile",
+            "text": "Privée d’accès aux installations nucléaires iraniennes, confrontée à la fragilité croissante des centrales ukrainiennes et à l’expansion du programme nord-coréen, l’Agence internationale de l’énergie atomique (AIEA) multiplie les mises en garde. Mercredi, son directeur général, Rafael Grossi, a dressé à Vienne le tableau d’une sécurité nucléaire internationale soumise à des tensions grandissantes.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159871",
+            "publishedAt": "2026-11-18T12:00:00+00:00"
           }
         ],
         "sources": [
@@ -102,8 +110,8 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-18T23:11:54.068082+00:00",
-        "updatedAt": "2026-11-18T23:11:54.068082+00:00",
+        "checkedAt": "2026-11-19T16:07:12.007914+00:00",
+        "updatedAt": "2026-11-19T16:07:12.007914+00:00",
         "status": "updated",
         "paragraphs": [
           {
@@ -113,14 +121,6 @@
             "source": "RFI",
             "url": "https://www.rfi.fr/fr/asie-pacifique/20261118-ta%C3%AFwan-d%C3%A9nonce-une-multiplication-des-incursions-navales-chinoises",
             "publishedAt": "2026-11-18T09:12:59+00:00"
-          },
-          {
-            "title": "Ce que l’on sait sur les exercices de l’armée chinoise autour de Taïwan",
-            "text": "Depuis le début du mois de novembre, la Chine mène des exercices militaires majeurs autour de Taïwan. Mais contrairement à ce que laissent entendre des internautes, les forces armées chinoises n’ont pas instauré un blocus de l’île - elles se livrent seulement à une simulation d’encerclement.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/asie-pacifique/20261110-ce-que-l-on-sait-sur-les-exercices-de-l-arm%C3%A9e-chinoise-autour-de-ta%C3%AFwan",
-            "publishedAt": "2026-11-10T14:02:50+00:00"
           }
         ],
         "sources": [
@@ -136,8 +136,16 @@
       }
     },
     "moyen-orient-conflits": {
-      "changedAt": "2026-11-18T23:11:25.878250+00:00",
+      "changedAt": "2026-11-19T16:07:02.331827+00:00",
       "items": [
+        {
+          "title": "L’Iran et la stratégie de l’anaconda",
+          "url": "https://www.revueconflits.com/liran-et-la-strategie-de-lanaconda/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-19T13:59:33+00:00",
+          "language": "fr"
+        },
         {
           "title": "Le détroit de Bab el-Mandeb et la mer Rouge : des espaces stratégiques et conflictuels",
           "url": "https://www.areion24.news/2026/11/18/le-detroit-de-bab-el-mandeb-et-la-mer-rouge-des-espaces-strategiques-et-conflictuels/",
@@ -153,22 +161,22 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-11-18T02:41:20+00:00",
           "language": "fr"
-        },
-        {
-          "title": "Après une série de revers, Riyad démet le commandant de la coalition anti-Houthis",
-          "url": "https://www.revueconflits.com/apres-une-serie-de-revers-riyad-demet-le-commandant-de-la-coalition-anti-houthis/",
-          "source": "Revue Conflits",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-11-17T02:38:18+00:00",
-          "language": "fr"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-18T23:11:54.068082+00:00",
-        "updatedAt": "2026-11-18T23:11:54.068082+00:00",
+        "checkedAt": "2026-11-19T16:07:12.007914+00:00",
+        "updatedAt": "2026-11-19T16:07:12.007914+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Un gratte-ciel de Riyad endommagé après de nouvelles attaques menées par les Houthis",
+            "text": "Un gratte-ciel de la capitale d'Arabie saoudite, abritant le siège du fonds souverain saoudien, a été endommagé jeudi, a déclaré à l'AFP une source ayant souhaité garder l'anonymat. Les dégâts matériels sont en cours d'évaluation. La coalition dirigée l'Arabie saoudite a annoncé avoir intercepté un missile tiré par les Houthis du Yémen.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261119-un-gratte-ciel-de-riyad-endommag%C3%A9-apr%C3%A8s-de-nouvelles-attaques-men%C3%A9es-par-les-houthis",
+            "publishedAt": "2026-11-19T08:52:48+00:00"
+          },
           {
             "title": "L'armée israélienne lance une incursion terrestre dans la bande de Gaza",
             "text": "L'armée israélienne a indiqué, mercredi, avoir lancé une opération militaire au sol dans le centre de la bande de Gaza, à l'ouest de la \"ligne jaune\", dans une zone contrôlée par le Hamas. Alors qu'un cessez-le-feu est en cours, des Palestiniens ont été appelés à quitter la zone.",
@@ -178,19 +186,11 @@
             "publishedAt": "2026-11-18T16:13:34+00:00"
           },
           {
-            "title": "États-Unis - Iran : attaque contre un navire dans le Détroit d'Ormuz",
-            "text": "Le géant pétrolier émirati Adnoc a annoncé mercredi 18 novembre qu'un de ses bateaux avait été attaqué la veille dans le stratégique détroit d'Ormuz, au cœur du conflit entre les États-Unis et l'Iran. L'agence de sécurité maritime britannique a aussi rapporté qu'un tanker avait été frappé mardi 17 novembre \"par un projectile d'origine inconnu\" et qu'un marin était porté disparu. Les précisions de Léa Delfolie, correspondante France 24 à Dubaï.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261118-%C3%A9tats-unis-iran-attaque-contre-un-navire-dans-le-d%C3%A9troit-d-ormuz",
-            "publishedAt": "2026-11-18T15:22:32+00:00"
-          },
-          {
-            "title": "Yémen : Taëz s’enfonce dans l’isolement, les risques d’épidémie s’aggravent",
-            "text": "Encerclée, la ville yéménite de Taëz fait face à une dégradation alarmante de la situation humanitaire. La fermeture de ses principaux axes d’approvisionnement entrave l’acheminement de l’aide, tandis que le manque d’eau potable, les difficultés d’accès aux soins et la poursuite des combats entre les rebelles houthistes et les forces gouvernementales font craindre une aggravation de la crise sanitaire.",
+            "title": "De l’Iran à l’Ukraine, l’AIEA alerte sur une sécurité nucléaire de plus en plus fragile",
+            "text": "Privée d’accès aux installations nucléaires iraniennes, confrontée à la fragilité croissante des centrales ukrainiennes et à l’expansion du programme nord-coréen, l’Agence internationale de l’énergie atomique (AIEA) multiplie les mises en garde. Mercredi, son directeur général, Rafael Grossi, a dressé à Vienne le tableau d’une sécurité nucléaire internationale soumise à des tensions grandissantes.",
             "truncated": false,
             "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159866",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159871",
             "publishedAt": "2026-11-18T12:00:00+00:00"
           }
         ],
