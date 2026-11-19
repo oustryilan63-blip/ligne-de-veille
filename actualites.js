@@ -1,7 +1,205 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-19",
+  "updatedAt": "2026-11-20",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T20:35:59+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Argentine Navy interested in acquiring up to three FCX20 corvettes",
+      "url": "https://www.navalnews.com/naval-news/2026/11/argentine-navy-interested-in-acquiring-up-to-three-fcx20-corvettes/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Argentine Navy",
+        "FCX20",
+        "Fincantieri"
+      ],
+      "sourceExcerpt": {
+        "text": "The Argentine Navy has expressed its interest in acquiring up to three FCX20 corvettes developed by Fincantieri, in full configuration…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-19T23:18:17.662186+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/FCX20_2-768x432.jpg",
+        "kind": "article",
+        "alt": "Argentine Navy interested in acquiring up to three FCX20 corvettes",
+        "credit": "FCX20 corvette drawing (Fincantieri picture)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/argentine-navy-interested-in-acquiring-up-to-three-fcx20-corvettes/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/argentine-navy-interested-in-acquiring-up-to-three-fcx20-corvettes/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-19",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/FCX20_2.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T20:32:03+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "La Déclaration de paix de Shenzhen – Traduction",
+      "url": "https://www.revueconflits.com/la-declaration-de-paix-de-shenzhen-traduction/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie",
+        "Abonné",
+        "Chine",
+        "États-Unis",
+        "Russie"
+      ],
+      "imageCheckedAt": "2026-11-19T23:18:17.662186+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_sipausa30587658_000004-scaled.jpg",
+        "kind": "article",
+        "alt": "La Déclaration de paix de Shenzhen – Traduction",
+        "credit": "CHINA, SHENZHEN - NOVEMBER 19, 2026: Presidents Vladimir Putin of Russia, Xi Jinping of China, and Donald Trump Office/TASS/Sipa USA/75194516/BF/2611191054",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/la-declaration-de-paix-de-shenzhen-traduction/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/la-declaration-de-paix-de-shenzhen-traduction/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-19",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_sipausa30587658_000004-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T19:05:27+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "U.S. Senate Seeks to Exchange Shipbuilding Funds for More Munitions",
+      "url": "https://www.navalnews.com/naval-news/2026/11/u-s-senate-seeks-to-exchange-shipbuilding-funds-for-more-munitions/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Shipbuilding",
+        "US Navy"
+      ],
+      "sourceExcerpt": {
+        "text": "The U.S. Senate’s Armed Services Committee released it’s proposal of the National Defense Appropriation Act (NDAA) for Fiscal year 2027,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-19T23:18:17.662186+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/9579229-768x512.jpg",
+        "kind": "article",
+        "alt": "U.S. Senate Seeks to Exchange Shipbuilding Funds for More Munitions",
+        "credit": "Arleigh Burke-class guided-missile destroyer USS Thomas Hudner (DDG 116) fires a Tomahawk land attack missile during Operation Epic Fury, Mar. 21, 2026. Tomahawks are amongst the critical munitions that the Senate seeks to prioritize in new funding. (U.S. Navy Photo)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/u-s-senate-seeks-to-exchange-shipbuilding-funds-for-more-munitions/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/u-s-senate-seeks-to-exchange-shipbuilding-funds-for-more-munitions/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-19",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/9579229-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T18:40:57+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Utilisé par la Marine nationale, le Camcopter S100 peut aussi être configuré en «porte-drones»",
+      "url": "https://www.opex360.com/2026/11/19/utilise-par-la-marine-nationale-le-camcopter-s100-peut-aussi-etre-configure-en-porte-drones/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "Technologie",
+        "Camcopter",
+        "drone",
+        "expérimentation",
+        "Marine Nationale",
+        "porte-drones",
+        "S-100",
+        "Schiebel"
+      ],
+      "sourceExcerpt": {
+        "text": "En janvier, la Direction générale de l’armement [DGA] fit savoir qu’elle avait notifié la commande cinq systèmes de drones à…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-19T23:18:17.662186+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/s100-20261119.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Utilisé par la Marine nationale, le Camcopter S100 peut aussi être configuré en «porte-drones» ».",
+        "credit": "Schiebel",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/19/utilise-par-la-marine-nationale-le-camcopter-s100-peut-aussi-etre-configure-en-porte-drones/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/19/utilise-par-la-marine-nationale-le-camcopter-s100-peut-aussi-etre-configure-en-porte-drones/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-19",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/s100-20261119.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T17:34:27+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Malaisie envisage de commander 36 canons LG1 de 105 mm supplémentaires à KNDS France",
+      "url": "https://www.opex360.com/2026/11/19/la-malaisie-envisage-de-commander-36-canons-lg1-de-105-mm-supplementaires-a-knds-france/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Asie-Pacifique",
+        "Forces terrestres",
+        "Industrie",
+        "105 LG1",
+        "artillerie",
+        "H225M; Caracal",
+        "Indopacifique",
+        "KNDS",
+        "KNDS France",
+        "LG1",
+        "Malaisie"
+      ],
+      "sourceExcerpt": {
+        "text": "À l’occasion d’une visite officielle du président Macron à Kuala Lumpur, le 17 novembre, la France et la Malaisie ont…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-19T23:18:17.662186+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/nexter-105lg1-20180419.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Malaisie envisage de commander 36 canons LG1 de 105 mm supplémentaires à KNDS France ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/19/la-malaisie-envisage-de-commander-36-canons-lg1-de-105-mm-supplementaires-a-knds-france/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/19/la-malaisie-envisage-de-commander-36-canons-lg1-de-105-mm-supplementaires-a-knds-france/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-19",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/nexter-105lg1-20180419.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-19",
       "publishedAt": "2026-11-19T14:23:27+00:00",
@@ -22604,7 +22802,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00"
     }
   ],
-  "checkedAt": "2026-11-19T16:07:02.331827+00:00",
+  "checkedAt": "2026-11-19T23:18:12.432893+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -22635,7 +22833,7 @@ window.LDV_NEWS = {
       {
         "source": "OpexNews",
         "ok": true,
-        "recentItems": 1,
+        "recentItems": 0,
         "error": null
       },
       {
@@ -22664,14 +22862,14 @@ window.LDV_NEWS = {
       },
       {
         "source": "Naval News",
-        "ok": false,
-        "recentItems": 0,
-        "error": "HTTP Error 503: Service Temporarily Unavailable"
+        "ok": true,
+        "recentItems": 10,
+        "error": null
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 7,
+        "recentItems": 6,
         "error": null
       },
       {
@@ -22681,8 +22879,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 10,
-    "articleImages": 555,
+    "newItems": 5,
+    "articleImages": 560,
     "duplicateHeadlinesSkipped": 0
   }
 };

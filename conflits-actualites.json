@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-19T16:07:02.331827+00:00",
+  "checkedAt": "2026-11-19T23:18:12.432893+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,11 +10,9 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 10,
+    "ok": 11,
     "total": 11,
-    "unavailable": [
-      "Naval News"
-    ]
+    "unavailable": []
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -55,10 +53,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-19T16:07:12.007914+00:00",
-        "updatedAt": "2026-11-19T16:07:12.007914+00:00",
+        "checkedAt": "2026-11-19T23:18:19.238998+00:00",
+        "updatedAt": "2026-11-19T23:18:19.238998+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Xi, Trump, Poutine : un Yalta 2.0 ?",
+            "text": "C’est peut-être l'image de l’année : Xi Jinping, Donald Trump et Vladimir Poutine réunis à Shenzhen en Chine. C’est la première fois que les présidents de ces trois puissances se rencontraient. Ils ont adopté une \"déclaration de paix\" et se sont engagés en faveur de la \"stabilité stratégique\".",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261119-xi-trump-poutine-un-yalta-2-0",
+            "publishedAt": "2026-11-19T21:00:32+00:00"
+          },
           {
             "title": "Ce qu'il faut retenir du sommet inédit entre Donald Trump, Xi Jinping et Vladimir Poutine",
             "text": "Le président américain Donald Trump et ses ⁠homologues chinois et russe ​Xi Jinping et Vladimir Poutine se sont retrouvés jeudi en marge d'un sommet de l'Asie-Pacifique (Apec) pour une réunion trilatérale inédite au menu de laquelle figurait la guerre en Ukraine et le contrôle des armements nucléaires. Ils se sont entendus sur un texte diffusé par le Kremlin et les médias d'État chinois.",
@@ -66,14 +72,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/asie-pacifique/20261119-ce-qu-il-faut-retenir-du-sommet-in%C3%A9dit-entre-donald-trump-xi-jinping-et-vladimir-poutine",
             "publishedAt": "2026-11-19T13:05:26+00:00"
-          },
-          {
-            "title": "Rencontre trilatérale à Shenzhen : les intérêts de Xi, Trump et Poutine",
-            "text": "Les thèmes de discussions de la rencontre trilatérale à Shenzhen, historique, restent très flous. Donald Trump a annoncé qu'il voulait aborder la dénucléarisation (le traité New Start a expiré), quand la Chine a évoqué des discussions sur \"la paix dans le monde\". Il sera aussi question de l'Iran, soutenu par Pékin et Moscou, mais aussi de la guerre en Ukraine, deux sujets voulus par le président américain, renseigne Baptiste Fallevoz, le correspondant de France 24.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261119-rencontre-trilat%C3%A9rale-%C3%A0-shenzhen-les-int%C3%A9r%C3%AAts-de-xi-trump-et-poutine",
-            "publishedAt": "2026-11-19T03:50:38+00:00"
           },
           {
             "title": "De l’Iran à l’Ukraine, l’AIEA alerte sur une sécurité nucléaire de plus en plus fragile",
@@ -110,9 +108,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-19T16:07:12.007914+00:00",
+        "checkedAt": "2026-11-19T23:18:19.238998+00:00",
         "updatedAt": "2026-11-19T16:07:12.007914+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Taïwan face à une multiplication des incursions navales chinoises",
@@ -165,10 +163,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-19T16:07:12.007914+00:00",
-        "updatedAt": "2026-11-19T16:07:12.007914+00:00",
+        "checkedAt": "2026-11-19T23:18:19.238998+00:00",
+        "updatedAt": "2026-11-19T23:18:19.238998+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Gaza : plus de 18.000 Palestiniens menacés de déplacement, l’ONU rappelle leur droit au retour",
+            "text": "Les dernières opérations militaires israéliennes dans le centre de la bande de Gaza pourraient provoquer le déplacement de plus de 18.000 Palestiniens et perturber des services humanitaires essentiels, a averti l'ONU, rappelant que les civils contraints de fuir doivent pouvoir regagner leur foyer dès que les circonstances le permettront.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159872",
+            "publishedAt": "2026-11-19T12:00:00+00:00"
+          },
           {
             "title": "Un gratte-ciel de Riyad endommagé après de nouvelles attaques menées par les Houthis",
             "text": "Un gratte-ciel de la capitale d'Arabie saoudite, abritant le siège du fonds souverain saoudien, a été endommagé jeudi, a déclaré à l'AFP une source ayant souhaité garder l'anonymat. Les dégâts matériels sont en cours d'évaluation. La coalition dirigée l'Arabie saoudite a annoncé avoir intercepté un missile tiré par les Houthis du Yémen.",
@@ -184,14 +190,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/moyen-orient/20261118-isra%C3%ABl-lance-une-nouvelle-op%C3%A9ration-militaire-dans-la-bande-de-gaza",
             "publishedAt": "2026-11-18T16:13:34+00:00"
-          },
-          {
-            "title": "De l’Iran à l’Ukraine, l’AIEA alerte sur une sécurité nucléaire de plus en plus fragile",
-            "text": "Privée d’accès aux installations nucléaires iraniennes, confrontée à la fragilité croissante des centrales ukrainiennes et à l’expansion du programme nord-coréen, l’Agence internationale de l’énergie atomique (AIEA) multiplie les mises en garde. Mercredi, son directeur général, Rafael Grossi, a dressé à Vienne le tableau d’une sécurité nucléaire internationale soumise à des tensions grandissantes.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159871",
-            "publishedAt": "2026-11-18T12:00:00+00:00"
           }
         ],
         "sources": [
