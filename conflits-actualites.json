@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-20T15:47:54.385545+00:00",
+  "checkedAt": "2026-11-20T22:50:56.939433+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -55,10 +55,26 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-20T15:48:00.389323+00:00",
-        "updatedAt": "2026-11-20T15:48:00.389323+00:00",
+        "checkedAt": "2026-11-20T22:51:08.054760+00:00",
+        "updatedAt": "2026-11-20T22:51:08.054760+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Valise nucléaire de Poutine : la mise en scène calculée du Kremlin",
+            "text": "Une vidéo largement relayée ces deux derniers jours montre l’aide de camp de Vladimir Poutine porter la valise nucléaire en marge de la rencontre trilatérale en Chine. Une séquence authentique mise en avant par la Russie pour menacer directement les alliés de l’Ukraine.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20261120-valise-nucl%C3%A9aire-de-poutine-la-mise-en-sc%C3%A8ne-calcul%C3%A9e-du-kremlin",
+            "publishedAt": "2026-11-20T21:31:51+00:00"
+          },
+          {
+            "title": "Sommet de Shenzhen, guerre en Ukraine, hostilités dans le Golfe",
+            "text": "Au sommaire de l'émission ce soir: la rencontre historique entre Xi Jinping, Vladimir Poutine et Donald Trump en marge du sommet de l'APEC; la guerre en Ukraine et les révélations de nos confrères de RFI sur la présence de soldats français sur le sol ukrainien, et le regain de tensions dans la guerre au Moyen-Orient, entre frappes iraniennes et offensive des Houthis au Yémen.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/%C3%A9missions/une-semaine-dans-le-monde/20261120-sommet-de-shenzhen-guerre-en-ukraine-hostilit%C3%A9s-dans-le-golfe",
+            "publishedAt": "2026-11-20T20:24:04+00:00"
+          },
           {
             "title": "Ukraine : les enfants paient un tribut sans précédent à la guerre",
             "text": "Au moins 1.144 enfants ont été tués ou blessés en Ukraine au cours des dix premiers mois de 2026, soit davantage que sur l’ensemble de chacune des trois dernières années, a alerté vendredi l’UNICEF. À l’approche de l’hiver, les attaques contre les infrastructures énergétiques atteignent également un niveau sans précédent depuis le début de l’invasion russe à grande échelle.",
@@ -66,22 +82,6 @@
             "source": "ONU Info",
             "url": "https://news.un.org/feed/view/fr/story/2026/11/1159881",
             "publishedAt": "2026-11-20T12:00:00+00:00"
-          },
-          {
-            "title": "Xi, Trump, Poutine : un Yalta 2.0 ?",
-            "text": "C’est peut-être l'image de l’année : Xi Jinping, Donald Trump et Vladimir Poutine réunis à Shenzhen, en Chine. C’est la première fois que les présidents de ces trois puissances se rencontraient. Ils ont adopté une \"déclaration de paix\" et se sont engagés en faveur de la \"stabilité stratégique\".",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261119-xi-trump-poutine-un-yalta-2-0",
-            "publishedAt": "2026-11-19T21:00:32+00:00"
-          },
-          {
-            "title": "Ce qu'il faut retenir du sommet inédit entre Donald Trump, Xi Jinping et Vladimir Poutine",
-            "text": "Le président américain Donald Trump et ses ⁠homologues chinois et russe ​Xi Jinping et Vladimir Poutine se sont retrouvés jeudi en marge d'un sommet de l'Asie-Pacifique (Apec) pour une réunion trilatérale inédite au menu de laquelle figurait la guerre en Ukraine et le contrôle des armements nucléaires. Ils se sont entendus sur un texte diffusé par le Kremlin et les médias d'État chinois.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/asie-pacifique/20261119-ce-qu-il-faut-retenir-du-sommet-in%C3%A9dit-entre-donald-trump-xi-jinping-et-vladimir-poutine",
-            "publishedAt": "2026-11-19T13:05:26+00:00"
           }
         ],
         "sources": [
@@ -110,7 +110,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-20T15:48:00.389323+00:00",
+        "checkedAt": "2026-11-20T22:51:08.054760+00:00",
         "updatedAt": "2026-11-19T16:07:12.007914+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -165,10 +165,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-20T15:48:00.389323+00:00",
-        "updatedAt": "2026-11-20T15:48:00.389323+00:00",
+        "checkedAt": "2026-11-20T22:51:08.054760+00:00",
+        "updatedAt": "2026-11-20T22:51:08.054760+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Les États-Unis ont-ils utilisé des bombes au graphite contre l'Iran ?",
+            "text": "Des photos publiées par des médias locaux iraniens laissent penser que les États-Unis ont pu utiliser des bombes au graphite contre des infrastructures en Iran ces derniers jours. Ces armes sont conçues pour perturber l'approvisionnement en électricité en provoquant des courts-circuits, plutôt qu'en détruisant physiquement les installations électriques.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261120-etats-unis-bombes-graphite-iran",
+            "publishedAt": "2026-11-20T16:40:02+00:00"
+          },
           {
             "title": "En Irak, l'armée entre dans un bastion du groupe pro-iranien Kataeb Hezbollah",
             "text": "Les forces armées irakiennes ont commencé vendredi à se déployer dans un bastion du groupe Kataeb Hezbollah, selon les médias d'État, alors que le Premier ministre Ali al-Zaïdi intensifie ses efforts pour maîtriser cette faction soutenue par l'Iran. Le Kataeb Hezbollah a adopté cette semaine un ton plus conciliant à l'égard du Premier ministre soutenu par les États-Unis, des sources irakiennes indiquant qu'un compromis avait été trouvé lors d'une visite du commandant iranien Esmaïl Qaani.",
@@ -184,14 +192,6 @@
             "source": "ONU Info",
             "url": "https://news.un.org/feed/view/fr/story/2026/11/1159872",
             "publishedAt": "2026-11-19T12:00:00+00:00"
-          },
-          {
-            "title": "Un gratte-ciel de Riyad endommagé après de nouvelles attaques menées par les Houthis",
-            "text": "Un gratte-ciel de la capitale d'Arabie saoudite, abritant le siège du fonds souverain saoudien, a été endommagé jeudi, a déclaré à l'AFP une source ayant souhaité garder l'anonymat. Les dégâts matériels sont en cours d'évaluation. La coalition dirigée l'Arabie saoudite a annoncé avoir intercepté un missile tiré par les Houthis du Yémen.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261119-un-gratte-ciel-de-riyad-endommag%C3%A9-apr%C3%A8s-de-nouvelles-attaques-men%C3%A9es-par-les-houthis",
-            "publishedAt": "2026-11-19T08:52:48+00:00"
           }
         ],
         "sources": [

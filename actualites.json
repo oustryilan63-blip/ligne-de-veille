@@ -4,6 +4,169 @@
   "items": [
     {
       "date": "2026-11-20",
+      "publishedAt": "2026-11-20T18:34:50+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Comme prévu, la Marine nationale a reçu son troisième avion de surveillance maritime «Albatros» en 2026",
+      "url": "https://www.opex360.com/2026/11/20/comme-prevu-la-marine-nationale-a-recu-son-troisieme-avion-de-surveillance-maritime-albatros-en-2026/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "aéronautique navale",
+        "Albatros",
+        "AVSIMAR",
+        "Dassault Aviation",
+        "DGA",
+        "Flottille 24F",
+        "Marine Nationale"
+      ],
+      "sourceExcerpt": {
+        "text": "Comme prévu au moment de la notification du programme AVSIMAR [Avion de Surveillance et d’Intervention MARitime] à Dassault Aviation par…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/albatros-20261120.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Comme prévu, la Marine nationale a reçu son troisième avion de surveillance maritime «Albatros» en 2026 ».",
+        "credit": "Direction générale de l’armement",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/20/comme-prevu-la-marine-nationale-a-recu-son-troisieme-avion-de-surveillance-maritime-albatros-en-2026/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/20/comme-prevu-la-marine-nationale-a-recu-son-troisieme-avion-de-surveillance-maritime-albatros-en-2026/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-20",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/albatros-20261120.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "publishedAt": "2026-11-20T17:44:10+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’Argentine envisage l’achat de trois corvettes FCX20 auprès de l’Italie",
+      "url": "https://www.opex360.com/2026/11/20/largentine-envisage-lachat-de-trois-corvettes-fcx20-aupres-de-litalie/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amériques",
+        "Forces navales",
+        "Armada Argentina",
+        "coopération",
+        "corvette",
+        "FCX20",
+        "Fincantieri",
+        "Italie",
+        "Marina Militare",
+        "patrouilleurs"
+      ],
+      "sourceExcerpt": {
+        "text": "Pourtant urgent, l’achat de trois nouveaux sous-marins pour la marine argentine [Armada Argentina] n’a toujours pas été finalisé par Buenos…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/fcx20-20261120.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’Argentine envisage l’achat de trois corvettes FCX20 auprès de l’Italie ».",
+        "credit": "Fincantieri",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/20/largentine-envisage-lachat-de-trois-corvettes-fcx20-aupres-de-litalie/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/20/largentine-envisage-lachat-de-trois-corvettes-fcx20-aupres-de-litalie/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-20",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/fcx20-20261120.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "publishedAt": "2026-11-20T16:24:24+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "L’engin du génie de combat validé à Bruxelles",
+      "url": "https://forcesoperations.com/lengin-du-genie-de-combat-valide-a-bruxelles/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "Belgique",
+        "EGC",
+        "France",
+        "Génie de combat"
+      ],
+      "sourceExcerpt": {
+        "text": "Comme pressenti, le gouvernement belge a donné ce vendredi son aval au projet de développement d'un engin du génie de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/11/AUROCH4_light-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’engin du génie de combat validé à Bruxelles ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/lengin-du-genie-de-combat-valide-a-bruxelles/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/lengin-du-genie-de-combat-valide-a-bruxelles/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-20",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/11/AUROCH4_light-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "publishedAt": "2026-11-20T16:03:23+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Les entreprises face à la fracturation du monde",
+      "url": "https://www.areion24.news/2026/11/20/les-entreprises-face-a-la-fracturation-du-monde/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Pendant trois décennies, la mondialisation a été pensée comme une optimisation permanente des couts et des flux. Cependant, aujourd’hui, nous…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/11/shutterstock_772498321.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Les entreprises face à la fracturation du monde ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/11/20/les-entreprises-face-a-la-fracturation-du-monde/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/11/20/les-entreprises-face-a-la-fracturation-du-monde/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-20",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/shutterstock_772498321.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-20",
       "publishedAt": "2026-11-20T15:44:08+00:00",
       "source": "Zone Militaire — Opex360",
       "sourceType": "Presse spécialisée",
@@ -732,7 +895,22 @@
         "text": "La visite d’État d’Emmanuel Macron à Tokyo puis à Séoul au printemps 2026, ainsi que son déplacement en Mongolie dès…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00"
+      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/11/France-Korea.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « France – Asie du Nord-Est : le pari des puissances moyennes ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/11/19/france-asie-du-nord-est-le-pari-des-puissances-moyennes/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/11/19/france-asie-du-nord-est-le-pari-des-puissances-moyennes/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-20",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/France-Korea.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
     },
     {
       "date": "2026-11-19",
@@ -1143,6 +1321,44 @@
       "sourceExcerpt": {
         "text": "Les forces américaines auraient consommé environ 1 700 missiles intercepteurs Patriot pendant le conflit avec l’Iran de l’été 2026. Le…",
         "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-18T09:47:50+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "LES CAVALIERS DE LA TERANGA",
+      "url": "https://blablachars.blogspot.com/2026/11/les-cavaliers-de-la-teranga.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Bataillon blindé",
+        "NORINCO",
+        "Sénégal",
+        "WMA 301"
+      ],
+      "sourceExcerpt": {
+        "text": "Au cours d'un récent déplacement dans la région, Blablachars a pu rencontrer le colonel SARR, directeur du centre de doctrine…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2rhofgn5AmaFaV-1lFGnzVtYchVTWRZ_sBr6YM4mp4FAJwPs0XOmC7nyHAUlS6xvhkP2zWZ3GkuaWLhYNcYiUpOyhX3ktrQ1O7E7ljWCOZEN5UK_b5IrFmCNvNrF6nkhIn2IiDgZGBRbxNmGc-cTxS-cQgjhdggjC907YFP0vTbylnYaKN7XQYb4CKyI/w1200-h630-p-k-no-nu/BAT%20BLIND%20SENEGAL.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « LES CAVALIERS DE LA TERANGA ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/11/les-cavaliers-de-la-teranga.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/11/les-cavaliers-de-la-teranga.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-20",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2rhofgn5AmaFaV-1lFGnzVtYchVTWRZ_sBr6YM4mp4FAJwPs0XOmC7nyHAUlS6xvhkP2zWZ3GkuaWLhYNcYiUpOyhX3ktrQ1O7E7ljWCOZEN5UK_b5IrFmCNvNrF6nkhIn2IiDgZGBRbxNmGc-cTxS-cQgjhdggjC907YFP0vTbylnYaKN7XQYb4CKyI/w1200-h630-p-k-no-nu/BAT%20BLIND%20SENEGAL.jpg",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -1691,6 +1907,46 @@
       "sourceExcerpt": {
         "text": "Le gouvernement bulgare a demandé lundi à son parlement d’approuver l’achat de 57 canons CAESAR, dont la portée dépasse du…",
         "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T14:03:17+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "DRAGON TRANSALPIN",
+      "url": "https://blablachars.blogspot.com/2026/11/dragon-transalpin.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "A2CS",
+        "Drago",
+        "Italie",
+        "Leonardo",
+        "NMBT",
+        "RHeinMetall"
+      ],
+      "sourceExcerpt": {
+        "text": "Au chapitre carnet mondain, Blablachars est heureux de vous annoncer le baptême du futur VCI ( Véhicule de Combat d'Infanterie)…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQcDS1-EM-bVnh2JSGlqxcrIw0xNR_Ue7cV5Fr5Noy4XZtuQpXprEE5yXayCmUj5qDver_4T0T-NFALSDJ4F-8rIWg0nE-UAF_netc7B2pNmC6fkKukmZF5yet1dP5PZKqKMK7hWY7FDlg6lhVoFpcVMFv1fgnhaCy6HI-AXmsU7vRMUG-7YH2Muye_TI/w1200-h630-p-k-no-nu/IMG_5277.JPG",
+        "kind": "article",
+        "alt": "Image principale de l’article « DRAGON TRANSALPIN ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/11/dragon-transalpin.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/11/dragon-transalpin.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-20",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQcDS1-EM-bVnh2JSGlqxcrIw0xNR_Ue7cV5Fr5Noy4XZtuQpXprEE5yXayCmUj5qDver_4T0T-NFALSDJ4F-8rIWg0nE-UAF_netc7B2pNmC6fkKukmZF5yet1dP5PZKqKMK7hWY7FDlg6lhVoFpcVMFv1fgnhaCy6HI-AXmsU7vRMUG-7YH2Muye_TI/w1200-h630-p-k-no-nu/IMG_5277.JPG",
+        "permissionConfirmedAt": "2026-10-11"
       }
     },
     {
@@ -15174,7 +15430,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00"
+      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00"
     },
     {
       "date": "2026-10-23",
@@ -15187,7 +15443,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00"
+      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00"
     },
     {
       "date": "2026-10-22",
@@ -15811,7 +16067,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00"
+      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00"
     },
     {
       "date": "2026-10-21",
@@ -22914,7 +23170,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00"
+      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00"
     },
     {
       "date": "2026-10-07",
@@ -23128,10 +23384,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00"
+      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00"
     }
   ],
-  "checkedAt": "2026-11-20T15:47:54.385545+00:00",
+  "checkedAt": "2026-11-20T22:50:56.939433+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -23186,7 +23442,7 @@
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -23204,12 +23460,12 @@
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 6,
         "error": null
       }
     ],
-    "newItems": 10,
-    "articleImages": 567,
+    "newItems": 6,
+    "articleImages": 574,
     "duplicateHeadlinesSkipped": 0
   }
 }
