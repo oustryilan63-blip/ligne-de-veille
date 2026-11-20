@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-19T23:18:12.432893+00:00",
+  "checkedAt": "2026-11-20T15:47:54.385545+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,9 +10,11 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 11,
+    "ok": 10,
     "total": 11,
-    "unavailable": []
+    "unavailable": [
+      "Naval News"
+    ]
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -53,13 +55,21 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-19T23:18:19.238998+00:00",
-        "updatedAt": "2026-11-19T23:18:19.238998+00:00",
+        "checkedAt": "2026-11-20T15:48:00.389323+00:00",
+        "updatedAt": "2026-11-20T15:48:00.389323+00:00",
         "status": "updated",
         "paragraphs": [
           {
+            "title": "Ukraine : les enfants paient un tribut sans précédent à la guerre",
+            "text": "Au moins 1.144 enfants ont été tués ou blessés en Ukraine au cours des dix premiers mois de 2026, soit davantage que sur l’ensemble de chacune des trois dernières années, a alerté vendredi l’UNICEF. À l’approche de l’hiver, les attaques contre les infrastructures énergétiques atteignent également un niveau sans précédent depuis le début de l’invasion russe à grande échelle.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159881",
+            "publishedAt": "2026-11-20T12:00:00+00:00"
+          },
+          {
             "title": "Xi, Trump, Poutine : un Yalta 2.0 ?",
-            "text": "C’est peut-être l'image de l’année : Xi Jinping, Donald Trump et Vladimir Poutine réunis à Shenzhen en Chine. C’est la première fois que les présidents de ces trois puissances se rencontraient. Ils ont adopté une \"déclaration de paix\" et se sont engagés en faveur de la \"stabilité stratégique\".",
+            "text": "C’est peut-être l'image de l’année : Xi Jinping, Donald Trump et Vladimir Poutine réunis à Shenzhen, en Chine. C’est la première fois que les présidents de ces trois puissances se rencontraient. Ils ont adopté une \"déclaration de paix\" et se sont engagés en faveur de la \"stabilité stratégique\".",
             "truncated": false,
             "source": "France 24",
             "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261119-xi-trump-poutine-un-yalta-2-0",
@@ -72,14 +82,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/asie-pacifique/20261119-ce-qu-il-faut-retenir-du-sommet-in%C3%A9dit-entre-donald-trump-xi-jinping-et-vladimir-poutine",
             "publishedAt": "2026-11-19T13:05:26+00:00"
-          },
-          {
-            "title": "De l’Iran à l’Ukraine, l’AIEA alerte sur une sécurité nucléaire de plus en plus fragile",
-            "text": "Privée d’accès aux installations nucléaires iraniennes, confrontée à la fragilité croissante des centrales ukrainiennes et à l’expansion du programme nord-coréen, l’Agence internationale de l’énergie atomique (AIEA) multiplie les mises en garde. Mercredi, son directeur général, Rafael Grossi, a dressé à Vienne le tableau d’une sécurité nucléaire internationale soumise à des tensions grandissantes.",
-            "truncated": false,
-            "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159871",
-            "publishedAt": "2026-11-18T12:00:00+00:00"
           }
         ],
         "sources": [
@@ -108,7 +110,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-19T23:18:19.238998+00:00",
+        "checkedAt": "2026-11-20T15:48:00.389323+00:00",
         "updatedAt": "2026-11-19T16:07:12.007914+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -163,10 +165,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-19T23:18:19.238998+00:00",
-        "updatedAt": "2026-11-19T23:18:19.238998+00:00",
+        "checkedAt": "2026-11-20T15:48:00.389323+00:00",
+        "updatedAt": "2026-11-20T15:48:00.389323+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "En Irak, l'armée entre dans un bastion du groupe pro-iranien Kataeb Hezbollah",
+            "text": "Les forces armées irakiennes ont commencé vendredi à se déployer dans un bastion du groupe Kataeb Hezbollah, selon les médias d'État, alors que le Premier ministre Ali al-Zaïdi intensifie ses efforts pour maîtriser cette faction soutenue par l'Iran. Le Kataeb Hezbollah a adopté cette semaine un ton plus conciliant à l'égard du Premier ministre soutenu par les États-Unis, des sources irakiennes indiquant qu'un compromis avait été trouvé lors d'une visite du commandant iranien Esmaïl Qaani.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261120-irak-arm%C3%A9e-s-appr%C3%AAte-%C3%A0-entrer-dans-bastion-groupe-pro-iranien-kataeb-hezbollah",
+            "publishedAt": "2026-11-20T08:39:59+00:00"
+          },
           {
             "title": "Gaza : plus de 18.000 Palestiniens menacés de déplacement, l’ONU rappelle leur droit au retour",
             "text": "Les dernières opérations militaires israéliennes dans le centre de la bande de Gaza pourraient provoquer le déplacement de plus de 18.000 Palestiniens et perturber des services humanitaires essentiels, a averti l'ONU, rappelant que les civils contraints de fuir doivent pouvoir regagner leur foyer dès que les circonstances le permettront.",
@@ -182,14 +192,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/moyen-orient/20261119-un-gratte-ciel-de-riyad-endommag%C3%A9-apr%C3%A8s-de-nouvelles-attaques-men%C3%A9es-par-les-houthis",
             "publishedAt": "2026-11-19T08:52:48+00:00"
-          },
-          {
-            "title": "L'armée israélienne lance une incursion terrestre dans la bande de Gaza",
-            "text": "L'armée israélienne a indiqué, mercredi, avoir lancé une opération militaire au sol dans le centre de la bande de Gaza, à l'ouest de la \"ligne jaune\", dans une zone contrôlée par le Hamas. Alors qu'un cessez-le-feu est en cours, des Palestiniens ont été appelés à quitter la zone.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261118-isra%C3%ABl-lance-une-nouvelle-op%C3%A9ration-militaire-dans-la-bande-de-gaza",
-            "publishedAt": "2026-11-18T16:13:34+00:00"
           }
         ],
         "sources": [

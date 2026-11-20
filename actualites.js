@@ -3,6 +3,294 @@ window.LDV_NEWS = {
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
     {
+      "date": "2026-11-20",
+      "publishedAt": "2026-11-20T15:44:08+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le ministère des Armées porter la production française d’obus de 155 mm à 150 000 unités par an d’ici 2029",
+      "url": "https://www.opex360.com/2026/11/20/le-ministere-des-armees-porter-la-production-dobus-de-155-mm-a-150-000-exemplaires-par-an-dici-2029/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "Industrie",
+        "armée de terre",
+        "artillerie",
+        "commande",
+        "Direction générale de l'armement",
+        "KNDS Ammo France",
+        "obus",
+        "production"
+      ],
+      "sourceExcerpt": {
+        "text": "Selon des chiffres du ministère des Armées, la production française d’obus d’artillerie de 155 mm s’élevait en moyenne à 500…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-20T15:47:58.725242+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/obus-knds-20250903.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le ministère des Armées porter la production française d’obus de 155 mm à 150 000 unités par an d’ici 2029 ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/20/le-ministere-des-armees-porter-la-production-dobus-de-155-mm-a-150-000-exemplaires-par-an-dici-2029/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/20/le-ministere-des-armees-porter-la-production-dobus-de-155-mm-a-150-000-exemplaires-par-an-dici-2029/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-20",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/obus-knds-20250903.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "publishedAt": "2026-11-20T14:16:19+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La caisse de ce char européen a été dessinée pour l’armée indonésienne et testée chez elle, avant de recevoir un canon italien de 120 mm",
+      "url": "https://www.forum-militaire.fr/la-caisse-de-ce-char-europeen-a-ete-dessinee-pour-larmee-indonesienne-et-testee-chez-elle-avant-de-recevoir-un-canon-italien-de-120-mm/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "char"
+      ],
+      "sourceExcerpt": {
+        "text": "Le CFL-120 Karpat a roulé et tiré pour la première fois devant des clients potentiels jeudi en Slovaquie, mais sa…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "publishedAt": "2026-11-20T12:04:17+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Deux missiles et un drone d’attaque russes sont tombés en Pologne, près de la zone où se déroule l’exercice KOALICJA",
+      "url": "https://www.opex360.com/2026/11/20/deux-missiles-et-un-drone-dattaque-russes-sont-tombes-en-pologne-pres-de-la-zone-ou-se-deroule-lexercice-koalicja/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Opérations",
+        "drone d'attaque",
+        "force militaire de la Coalition des volontaires",
+        "Kh-101",
+        "KOALICJA",
+        "missile",
+        "MNF-U",
+        "Pologne",
+        "Russie",
+        "Ukraine"
+      ],
+      "sourceExcerpt": {
+        "text": "Depuis le 9 novembre, la Pologne accueille l’exercice KOALICJA 26.2, organisé par la force militaire de la Coalition des volontaires…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-20T15:47:58.725242+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/kh101-20261120.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Deux missiles et un drone d’attaque russes sont tombés en Pologne, près de la zone où se déroule l’exercice KOALICJA ».",
+        "credit": "Missile Kh-101 – Vslv — CC0",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/20/deux-missiles-et-un-drone-dattaque-russes-sont-tombes-en-pologne-pres-de-la-zone-ou-se-deroule-lexercice-koalicja/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/20/deux-missiles-et-un-drone-dattaque-russes-sont-tombes-en-pologne-pres-de-la-zone-ou-se-deroule-lexercice-koalicja/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-20",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/kh101-20261120.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "publishedAt": "2026-11-20T09:00:00+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Grants up to £45 million boost UK growth as Ministry of Defence funds national munitions production",
+      "url": "https://www.gov.uk/government/news/grants-up-to-45-million-boost-uk-growth-as-ministry-of-defence-funds-national-munitions-production",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "UK-based companies can now apply for MoD grants of up to £45 million to build new munitions factories.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-20T15:47:58.725242+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/grants-up-to-45-million-boost-uk-growth-as-ministry-of-defence-funds-national-munitions-production",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/grants-up-to-45-million-boost-uk-growth-as-ministry-of-defence-funds-national-munitions-production",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-20"
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "publishedAt": "2026-11-20T08:43:46+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Le Royaume-Uni fait une proposition commerciale inattendue aux États-Unis : produire leur future frégate sur leur sol et lui donner le nom…",
+      "url": "https://www.forum-militaire.fr/le-royaume-uni-fait-une-proposition-commerciale-inattendue-aux-etats-unis-produire-leur-future-fregate-sur-leur-sol-et-lui-donner-le-nom-de-la-mere-de-trump/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Industrie",
+        "Marines militaires",
+        "contrat",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Le ministre britannique chargé de l’industrie de défense Luke Pollard (Minister of State for Defence Readiness and Industry pour être…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "publishedAt": "2026-11-20T07:51:02+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Des radars GM200 MM/A pour la Suisse",
+      "url": "https://forcesoperations.com/des-radars-gm200-mm-a-pour-la-suisse/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "GM200",
+        "radar",
+        "Suisse",
+        "Thales"
+      ],
+      "sourceExcerpt": {
+        "text": "Après la Belgique la semaine dernière et la Roumanie le mois dernier, au tour de la Suisse de se tourner…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-20T15:47:58.725242+00:00"
+    },
+    {
+      "date": "2026-11-20",
+      "publishedAt": "2026-11-20T03:00:07+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Chaosland ou Technoland : faites vos jeux",
+      "url": "https://www.revueconflits.com/chaosland-ou-technoland-faites-vos-jeux/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Géopolitique de la France",
+        "Revue Conflits",
+        "Abonné",
+        "France"
+      ],
+      "imageCheckedAt": "2026-11-20T15:47:58.725242+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/53_Occident_Conteste-175x120-1.jpg",
+        "kind": "article",
+        "alt": "Chaosland ou Technoland : faites vos jeux",
+        "credit": "(C) Conflits.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/chaosland-ou-technoland-faites-vos-jeux/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/chaosland-ou-technoland-faites-vos-jeux/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-20",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/53_Occident_Conteste-175x120-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "publishedAt": "2026-11-20T03:00:00+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Livres – 20 novembre",
+      "url": "https://www.revueconflits.com/livres-20-novembre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Livres",
+        "Livre"
+      ],
+      "imageCheckedAt": "2026-11-20T15:47:58.725242+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/10/conflits-lecteur-scaled-e1737970920644.jpg",
+        "kind": "article",
+        "alt": "Livres – 20 novembre",
+        "credit": "(C) Conflits.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/livres-20-novembre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/livres-20-novembre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-20",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/10/conflits-lecteur-scaled-e1737970920644.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "publishedAt": "2026-11-20T02:10:51+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Profession : mercenaire. Richard Rouget",
+      "url": "https://www.revueconflits.com/podcast-profession-mercenaire-richard-rouget/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Podcasts",
+        "Podcasts Afrique",
+        "Forces armées"
+      ],
+      "imageCheckedAt": "2026-11-20T15:47:58.725242+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2023/04/SIPA_ap22761408_000004-scaled.jpg",
+        "kind": "article",
+        "alt": "Podcast – Profession : mercenaire. Richard Rouget",
+        "credit": "Cette photographie non datée distribuée par l'armée française montre trois mercenaires russes Wagner, à droite, dans le nord du Mali. (Armée française via AP, File)/XPL904/23027572220478-0/AP PROVIDES ACCESS TO THIS PUBLICLY DISTRIBUTED HANDOUT PHOTO PROVIDED BY FRENCH MILITARY MANDATORY CREDIT. FILE PHOTO/2301271830",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-profession-mercenaire-richard-rouget/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-profession-mercenaire-richard-rouget/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-20",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2023/04/SIPA_ap22761408_000004-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
       "date": "2026-11-19",
       "publishedAt": "2026-11-19T20:35:59+00:00",
       "source": "Naval News",
@@ -135,7 +423,7 @@ window.LDV_NEWS = {
         "Schiebel"
       ],
       "sourceExcerpt": {
-        "text": "En janvier, la Direction générale de l’armement [DGA] fit savoir qu’elle avait notifié la commande cinq systèmes de drones à…",
+        "text": "En janvier, la Direction générale de l’armement [DGA] fit savoir qu’elle avait notifié la commande de cinq systèmes de drones…",
         "kind": "feed-excerpt"
       },
       "imageCheckedAt": "2026-11-19T23:18:17.662186+00:00",
@@ -321,7 +609,7 @@ window.LDV_NEWS = {
         "ministère des Armées"
       ],
       "sourceExcerpt": {
-        "text": "U En septembre 2016, après des polémiques sur les modalités de l’appel d’offres d’une valeur estimée à 350 millions d’euros…",
+        "text": "En septembre 2016, après des polémiques sur les modalités de l’appel d’offres d’une valeur estimée à 350 millions d’euros qu’elle…",
         "kind": "feed-excerpt"
       },
       "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00",
@@ -1227,6 +1515,47 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-17",
         "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicvgMz2EVb_TxXg4hTVBZnYeu9eLwRKFSW2Tw4cMH4BNHSQ9LYL6A79ASzS5fT_GEMJyW6wo0yxswcFrWOcQREv3LYu553_qcqhaFmF5t26ivNcJYScF-reWpbRfS38eIspUhUfhAdtk-O_MuO5cT7yFzIyC1HohDPFzyLTp8h5QvLsheoLNVEgZYZCcs/w1200-h630-p-k-no-nu/Calidus%20Libye.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T16:16:47+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "RIVALITE RUSSO TURQUE A BAMAKO",
+      "url": "https://blablachars.blogspot.com/2026/11/rivalite-russo-turque-bamako.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "BAMEX",
+        "Chine",
+        "Iran",
+        "Mali",
+        "RUSSIE",
+        "Turquie"
+      ],
+      "sourceExcerpt": {
+        "text": "Si certains salon d'armement font l'objet de l'attention des médias, d'autres plus modestes sont parfois moins visibles en dépit de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-20T15:47:58.725242+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWTN6jjEjnD5FNQ_62I4vsvb1DYBrqYpqRAqUnw3qY4c8FE2iXsLCzsFiOm8o423hJIUeY6BTwQUIsVGrd1fa_J7lEK5_6CckSDvBCrA6Q-wRoIQby9vPllx3hdFOntL18NjdzGj0aHd9iEkIg-kbOurqoVjqYcSLx8yZRicV200_H6t5qDjF9n5WB8CA/w1200-h630-p-k-no-nu/Bamex%202026.jpeg",
+        "kind": "article",
+        "alt": "Image principale de l’article « RIVALITE RUSSO TURQUE A BAMAKO ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/11/rivalite-russo-turque-bamako.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/11/rivalite-russo-turque-bamako.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-20",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWTN6jjEjnD5FNQ_62I4vsvb1DYBrqYpqRAqUnw3qY4c8FE2iXsLCzsFiOm8o423hJIUeY6BTwQUIsVGrd1fa_J7lEK5_6CckSDvBCrA6Q-wRoIQby9vPllx3hdFOntL18NjdzGj0aHd9iEkIg-kbOurqoVjqYcSLx8yZRicV200_H6t5qDjF9n5WB8CA/w1200-h630-p-k-no-nu/Bamex%202026.jpeg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -22802,7 +23131,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-19T16:07:07.216194+00:00"
     }
   ],
-  "checkedAt": "2026-11-19T23:18:12.432893+00:00",
+  "checkedAt": "2026-11-20T15:47:54.385545+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -22821,7 +23150,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 3,
         "error": null
       },
       {
@@ -22857,14 +23186,14 @@ window.LDV_NEWS = {
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 4,
         "error": null
       },
       {
         "source": "Naval News",
-        "ok": true,
-        "recentItems": 10,
-        "error": null
+        "ok": false,
+        "recentItems": 0,
+        "error": "HTTP Error 503: Service Temporarily Unavailable"
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
@@ -22879,8 +23208,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 5,
-    "articleImages": 560,
+    "newItems": 10,
+    "articleImages": 567,
     "duplicateHeadlinesSkipped": 0
   }
 };
