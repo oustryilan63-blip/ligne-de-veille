@@ -4,6 +4,119 @@ window.LDV_NEWS = {
   "items": [
     {
       "date": "2026-11-21",
+      "publishedAt": "2026-11-21T16:14:42+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "U.S. Navy Prepares for Third Zumwalt Hypersonic Upgrade",
+      "url": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-prepares-for-third-zumwalt-hypersonic-upgrade/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Conventional Prompt Strike",
+        "US Navy",
+        "Zumwalt-class"
+      ],
+      "sourceExcerpt": {
+        "text": "The U.S. Navy plans a 2028 overhaul to equip Zumwalt-class destroyer USS Michael Monsoor (DDG-1001) with Conventional Prompt Strike hypersonic…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-21T21:56:26.184280+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/05/Zumwalt-Class-Guided-Missile-Destroyer-USS-Michael-Monsoor-DDG-1001-768x410.jpg",
+        "kind": "article",
+        "alt": "Zumwalt Class Guided Missile Destroyer USS Michael Monsoor",
+        "credit": "Chief Mass Communication Specialist Mark D. Faram)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-prepares-for-third-zumwalt-hypersonic-upgrade/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-prepares-for-third-zumwalt-hypersonic-upgrade/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-21",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/05/Zumwalt-Class-Guided-Missile-Destroyer-USS-Michael-Monsoor-DDG-1001-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "publishedAt": "2026-11-21T15:50:54+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Defence Secretary meets President Zelensky and Minister Khmara in Kyiv as UK deepens industrial support for Ukraine",
+      "url": "https://www.gov.uk/government/news/defence-secretary-meets-president-zelensky-and-minister-khmara-in-kyiv-as-uk-deepens-industrial-support-for-ukraine",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Defence Secretary meets President Zelenskyy in Kyiv as new agreements strengthen UK industrial support for Ukraine and expand drone production",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-21T21:56:26.184280+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6b01bd5ba27065ce64b24640/s300_Defence_Secretary_and_President_Zelensky.jpg",
+        "kind": "article",
+        "alt": "Defence Secretary Wes Streeting and President Zelensky in Kyiv",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/defence-secretary-meets-president-zelensky-and-minister-khmara-in-kyiv-as-uk-deepens-industrial-support-for-ukraine",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/defence-secretary-meets-president-zelensky-and-minister-khmara-in-kyiv-as-uk-deepens-industrial-support-for-ukraine",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-21"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "publishedAt": "2026-11-21T15:27:51+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La France et le Royaume-Uni préparent une «feuille de route» pour développer le successeur du missile air-air METEOR",
+      "url": "https://www.opex360.com/2026/11/21/la-france-et-le-royaume-uni-preparent-une-feuille-de-route-pour-developper-le-successeur-du-missile-air-air-meteor/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Industrie",
+        "BVR",
+        "COMETE",
+        "étude",
+        "feuille de route",
+        "France",
+        "longue portée",
+        "Meteor",
+        "missile air-air",
+        "Royaume-Uni"
+      ],
+      "sourceExcerpt": {
+        "text": "Pour contrer les capacités d’interdiction et de déni d’accès [A2/AD] adverses, l’une des solutions consiste à frapper de loin afin…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-21T21:56:26.184280+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/11f-meteor-20250620.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La France et le Royaume-Uni préparent une «feuille de route» pour développer le successeur du missile air-air METEOR ».",
+        "credit": "Tir d’un METEOR par un Rafale Marine",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/21/la-france-et-le-royaume-uni-preparent-une-feuille-de-route-pour-developper-le-successeur-du-missile-air-air-meteor/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/21/la-france-et-le-royaume-uni-preparent-une-feuille-de-route-pour-developper-le-successeur-du-missile-air-air-meteor/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-21",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/11f-meteor-20250620.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-21",
       "publishedAt": "2026-11-21T14:32:40+00:00",
       "source": "Forum Militaire",
       "sourceType": "Presse spécialisée",
@@ -111,6 +224,44 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-21",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/degrasse-20261121.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "publishedAt": "2026-11-21T10:18:51+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "French Navy’s Fourth Suffren-class SSN ‘De Grasse’ Enters Active Service",
+      "url": "https://www.navalnews.com/naval-news/2026/11/french-navy-suffren-class-ssn-de-grasse-active-service/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "French Navy",
+        "Submarine",
+        "Suffren-class"
+      ],
+      "sourceExcerpt": {
+        "text": "France’s fourth Suffren-class SSN, De Grasse, has officially entered active service with the French Navy under the Barracuda submarine program.…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-21T21:56:26.184280+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/De-Grasse-SSN-Suffren-class-1024x682.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « French Navy’s Fourth Suffren-class SSN ‘De Grasse’ Enters Active Service ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/french-navy-suffren-class-ssn-de-grasse-active-service/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/french-navy-suffren-class-ssn-de-grasse-active-service/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-21",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/De-Grasse-SSN-Suffren-class-1024x682.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -557,7 +708,7 @@ window.LDV_NEWS = {
         "text": "Après la Belgique la semaine dernière et la Roumanie le mois dernier, au tour de la Suisse de se tourner…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-11-20T15:47:58.725242+00:00"
+      "imageCheckedAt": "2026-11-21T21:56:26.184280+00:00"
     },
     {
       "date": "2026-11-20",
@@ -748,7 +899,7 @@ window.LDV_NEWS = {
         "US Navy"
       ],
       "sourceExcerpt": {
-        "text": "The U.S. Senate’s Armed Services Committee released it’s proposal of the National Defense Appropriation Act (NDAA) for Fiscal year 2027,…",
+        "text": "The U.S. Senate’s Appropriations Committee for Defense released it’s proposal of the National Defense Appropriation Act (NDAA) for Fiscal year…",
         "kind": "feed-excerpt"
       },
       "imageCheckedAt": "2026-11-19T23:18:17.662186+00:00",
@@ -853,6 +1004,52 @@ window.LDV_NEWS = {
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-19",
         "assetUrl": "https://www.opex360.com/wp-content/uploads/nexter-105lg1-20180419.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T16:16:14+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La France et la Suède ont mené leur premier exercice aérien de dissuasion nucléaire avancée",
+      "url": "https://www.opex360.com/2026/11/19/la-france-et-la-suede-ont-mene-leur-premier-exercice-aerien-de-dissuasion-nucleaire-avancee/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Dissuasion",
+        "Europe",
+        "Forces aériennes",
+        "A330 MRTT",
+        "dissuasion avancée",
+        "Excalibur",
+        "exercice",
+        "Forces aériennes stratégique",
+        "France",
+        "Gripen",
+        "Rafale",
+        "Suède"
+      ],
+      "sourceExcerpt": {
+        "text": "Avec le Royaume-Uni, l’Allemagne, la Pologne, la Belgique, la Grèce, les Pays-Bas et le Danemark, la Suède a été l’un…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-21T21:56:26.184280+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/excalibur-20261119.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La France et la Suède ont mené leur premier exercice aérien de dissuasion nucléaire avancée ».",
+        "credit": "État–major des armées",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/19/la-france-et-la-suede-ont-mene-leur-premier-exercice-aerien-de-dissuasion-nucleaire-avancee/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/19/la-france-et-la-suede-ont-mene-leur-premier-exercice-aerien-de-dissuasion-nucleaire-avancee/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-21",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/excalibur-20261119.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -23592,7 +23789,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00"
     }
   ],
-  "checkedAt": "2026-11-21T14:58:07.673484+00:00",
+  "checkedAt": "2026-11-21T21:56:22.807051+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -23611,7 +23808,7 @@ window.LDV_NEWS = {
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -23652,9 +23849,9 @@ window.LDV_NEWS = {
       },
       {
         "source": "Naval News",
-        "ok": false,
-        "recentItems": 0,
-        "error": "HTTP Error 503: Service Temporarily Unavailable"
+        "ok": true,
+        "recentItems": 10,
+        "error": null
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
@@ -23669,8 +23866,8 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 6,
-    "articleImages": 578,
+    "newItems": 5,
+    "articleImages": 583,
     "duplicateHeadlinesSkipped": 0
   }
 };
