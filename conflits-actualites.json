@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-20T22:50:56.939433+00:00",
+  "checkedAt": "2026-11-21T14:58:07.673484+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -55,9 +55,9 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-20T22:51:08.054760+00:00",
+        "checkedAt": "2026-11-21T14:58:12.257672+00:00",
         "updatedAt": "2026-11-20T22:51:08.054760+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Valise nucléaire de Poutine : la mise en scène calculée du Kremlin",
@@ -110,7 +110,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-20T22:51:08.054760+00:00",
+        "checkedAt": "2026-11-21T14:58:12.257672+00:00",
         "updatedAt": "2026-11-19T16:07:12.007914+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -165,10 +165,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-20T22:51:08.054760+00:00",
-        "updatedAt": "2026-11-20T22:51:08.054760+00:00",
+        "checkedAt": "2026-11-21T14:58:12.257672+00:00",
+        "updatedAt": "2026-11-21T14:58:12.257672+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "L'Arabie saoudite dit avoir intercepté des missiles lancés par les Houthis vers Riyad",
+            "text": "Trois missiles balistiques tirés par les Houthis yéménites pro-iraniens en direction de Riyad ont été interceptés, samedi, par les forces saoudiennes, selon le porte-parole de la coalition militaire. Cette attaque intervient au lendemain de frappes menées par l'Arabie saoudite au Yémen contre un port stratégique de la mer Rouge.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/moyen-orient/20261121-l-arabie-saoudite-dit-avoir-intercept%C3%A9-des-missiles-lanc%C3%A9s-par-les-houthis-vers-riyad",
+            "publishedAt": "2026-11-21T06:52:00+00:00"
+          },
           {
             "title": "Les États-Unis ont-ils utilisé des bombes au graphite contre l'Iran ?",
             "text": "Des photos publiées par des médias locaux iraniens laissent penser que les États-Unis ont pu utiliser des bombes au graphite contre des infrastructures en Iran ces derniers jours. Ces armes sont conçues pour perturber l'approvisionnement en électricité en provoquant des courts-circuits, plutôt qu'en détruisant physiquement les installations électriques.",
@@ -178,20 +186,12 @@
             "publishedAt": "2026-11-20T16:40:02+00:00"
           },
           {
-            "title": "En Irak, l'armée entre dans un bastion du groupe pro-iranien Kataeb Hezbollah",
-            "text": "Les forces armées irakiennes ont commencé vendredi à se déployer dans un bastion du groupe Kataeb Hezbollah, selon les médias d'État, alors que le Premier ministre Ali al-Zaïdi intensifie ses efforts pour maîtriser cette faction soutenue par l'Iran. Le Kataeb Hezbollah a adopté cette semaine un ton plus conciliant à l'égard du Premier ministre soutenu par les États-Unis, des sources irakiennes indiquant qu'un compromis avait été trouvé lors d'une visite du commandant iranien Esmaïl Qaani.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261120-irak-arm%C3%A9e-s-appr%C3%AAte-%C3%A0-entrer-dans-bastion-groupe-pro-iranien-kataeb-hezbollah",
-            "publishedAt": "2026-11-20T08:39:59+00:00"
-          },
-          {
-            "title": "Gaza : plus de 18.000 Palestiniens menacés de déplacement, l’ONU rappelle leur droit au retour",
-            "text": "Les dernières opérations militaires israéliennes dans le centre de la bande de Gaza pourraient provoquer le déplacement de plus de 18.000 Palestiniens et perturber des services humanitaires essentiels, a averti l'ONU, rappelant que les civils contraints de fuir doivent pouvoir regagner leur foyer dès que les circonstances le permettront.",
+            "title": "Cisjordanie : les attaques de colons contre les récoltes d’olives atteignent un niveau record",
+            "text": "Plus de 400 attaques de colons israéliens ayant fait des victimes ou causé des dégâts matériels ont été recensées pendant la récolte des olives cette année en Cisjordanie occupée, un bilan sans précédent, ont alerté vendredi des agences de l’ONU et des organisations humanitaires. Elles dénoncent également les restrictions imposées par Israël, qui privent de nombreux agriculteurs palestiniens de l’accès à leurs terres et menacent leurs moyens de subsistance.",
             "truncated": false,
             "source": "ONU Info",
-            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159872",
-            "publishedAt": "2026-11-19T12:00:00+00:00"
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159885",
+            "publishedAt": "2026-11-20T12:00:00+00:00"
           }
         ],
         "sources": [

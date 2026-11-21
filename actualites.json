@@ -1,7 +1,212 @@
 {
-  "updatedAt": "2026-11-20",
+  "updatedAt": "2026-11-21",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-21",
+      "publishedAt": "2026-11-21T14:32:40+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La Belgique a acheté ses avions de combat aux Américains, mais vient de recevoir le premier des soixante blindés commandés à la France",
+      "url": "https://www.forum-militaire.fr/la-belgique-a-achete-ses-avions-de-combat-aux-americains-mais-vient-de-recevoir-le-premier-des-soixante-blindes-commandes-a-la-france/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "Blindé",
+        "contrat",
+        "France"
+      ],
+      "sourceExcerpt": {
+        "text": "Le premier Jaguar belge a été présenté le 18 novembre à Louvain, et ce n’est pas qu’un véhicule qui arrive…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "publishedAt": "2026-11-21T12:55:30+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Belgique valide sa participation au programme d’Engin du génie de combat, lancé par la France",
+      "url": "https://www.opex360.com/2026/11/21/la-belgique-valide-sa-participation-au-programme-dengin-du-genie-de-combat-lance-par-la-france/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "armée belge",
+        "armée de terre",
+        "Belgique",
+        "coopération",
+        "Engin du Génie de Combat",
+        "France",
+        "Génie",
+        "Occar",
+        "Scorpion"
+      ],
+      "sourceExcerpt": {
+        "text": "Le programme SCORPION [Synergie du Contact Renforcée par la polyvalence et l’infovalorisation] s’est jusqu’à présent concentré sur le remplacement des…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-21T14:58:11.208876+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/egc-20261121.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Belgique valide sa participation au programme d’Engin du génie de combat, lancé par la France ».",
+        "credit": "DGRM",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/21/la-belgique-valide-sa-participation-au-programme-dengin-du-genie-de-combat-lance-par-la-france/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/21/la-belgique-valide-sa-participation-au-programme-dengin-du-genie-de-combat-lance-par-la-france/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-21",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/egc-20261121.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "publishedAt": "2026-11-21T11:44:27+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le sous-marin nucléaire d’attaque De Grasse a été officiellement admis au service actif",
+      "url": "https://www.opex360.com/2026/11/21/le-sous-marin-nucleaire-dattaque-de-grasse-a-ete-officiellement-admis-au-service-actif/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces navales",
+        "amiral Cluzel",
+        "Barracuda",
+        "De Grasse",
+        "ESNA",
+        "Marine Nationale",
+        "SNA",
+        "sous-marin nucléaire d'attaque",
+        "Toulon"
+      ],
+      "sourceExcerpt": {
+        "text": "Les trois premiers sous-marins nucléaires d’attaque [SNA] de la classe Suffren [ou Barracuda] furent admis au service actif environ sept…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-21T14:58:11.208876+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/degrasse-20261121.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le sous-marin nucléaire d’attaque De Grasse a été officiellement admis au service actif ».",
+        "credit": "Marine nationale",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/21/le-sous-marin-nucleaire-dattaque-de-grasse-a-ete-officiellement-admis-au-service-actif/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/21/le-sous-marin-nucleaire-dattaque-de-grasse-a-ete-officiellement-admis-au-service-actif/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-21",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/degrasse-20261121.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "publishedAt": "2026-11-21T08:45:13+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Guerre au Soudan : des drones responsables de près de 75 % des décès de civils cette année (ONU)",
+      "url": "https://www.revueconflits.com/guerre-au-soudan-des-drones-responsables-de-pres-de-75-des-deces-de-civils-cette-annee-onu/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Abonné",
+        "Soudan"
+      ],
+      "imageCheckedAt": "2026-11-21T14:58:11.208876+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2023/05/SIPA_ap22787011_000003-scaled.jpg",
+        "kind": "article",
+        "alt": "Guerre au Soudan : des drones responsables de près de 75 % des décès de civils cette année (ONU)",
+        "credit": "Le général soudanais Abdel-Fattah Burhan, chef du conseil militaire.Hussein Malla/AP/SIPA",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/guerre-au-soudan-des-drones-responsables-de-pres-de-75-des-deces-de-civils-cette-annee-onu/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/guerre-au-soudan-des-drones-responsables-de-pres-de-75-des-deces-de-civils-cette-annee-onu/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-21",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2023/05/SIPA_ap22787011_000003-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "publishedAt": "2026-11-21T07:15:19+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Après le fiasco des frégates F126, l’Allemagne investit finalement 11,6 milliards d’euros dans un projet plus réaliste pour huit MEKO…",
+      "url": "https://www.forum-militaire.fr/apres-le-fiasco-des-fregates-f126-lallemagne-investit-finalement-116-milliards-deuros-dans-un-projet-plus-realiste-pour-huit-meko-a-200-deu/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Industrie",
+        "Marines militaires",
+        "contrat",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Avec la signature le 17 novembre 2026 du contrat de tranche 2 entre TKMS et le BAAINBw, l’Allemagne porte à…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "publishedAt": "2026-11-21T03:00:44+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Comment la France s’est désindustrialisée : l’histoire d’un cash-flow qui s’effondre",
+      "url": "https://www.revueconflits.com/comment-la-france-sest-desindustrialisee-lhistoire-dun-cash-flow-qui-seffondre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Économie, énergies et entreprises",
+        "Géopolitique de la France",
+        "Revue Conflits",
+        "Abonné",
+        "Économie",
+        "France"
+      ],
+      "imageCheckedAt": "2026-11-21T14:58:11.208876+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/02/SIPA_01249706_000016-scaled.jpg",
+        "kind": "article",
+        "alt": "Comment la France s’est désindustrialisée : l’histoire d’un cash-flow qui s’effondre",
+        "credit": "Photo illustration of the assembly plant of the Renault automobile factory in Douai//GREUEZFRANCOIS_0W1A2157/Credit:Francois Greuez/SIPA/2601211407",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/comment-la-france-sest-desindustrialisee-lhistoire-dun-cash-flow-qui-seffondre/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/comment-la-france-sest-desindustrialisee-lhistoire-dun-cash-flow-qui-seffondre/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-21",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/02/SIPA_01249706_000016-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-20",
       "publishedAt": "2026-11-20T18:34:50+00:00",
@@ -23387,7 +23592,7 @@
       "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00"
     }
   ],
-  "checkedAt": "2026-11-20T22:50:56.939433+00:00",
+  "checkedAt": "2026-11-21T14:58:07.673484+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -23454,7 +23659,7 @@
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -23465,7 +23670,7 @@
       }
     ],
     "newItems": 6,
-    "articleImages": 574,
+    "articleImages": 578,
     "duplicateHeadlinesSkipped": 0
   }
 }
