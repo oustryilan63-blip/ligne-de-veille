@@ -945,7 +945,7 @@ window.LDV_NEWS = {
         "text": "Après la Belgique la semaine dernière et la Roumanie le mois dernier, au tour de la Suisse de se tourner…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-11-21T21:56:26.184280+00:00"
+      "imageCheckedAt": "2026-11-22T22:11:20.628324+00:00"
     },
     {
       "date": "2026-11-20",
@@ -24026,7 +24026,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00"
     }
   ],
-  "checkedAt": "2026-11-22T14:56:30.990239+00:00",
+  "checkedAt": "2026-11-22T22:11:18.386670+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -24081,14 +24081,14 @@ window.LDV_NEWS = {
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
         "source": "Naval News",
         "ok": false,
         "recentItems": 0,
-        "error": "[Errno 104] Connection reset by peer"
+        "error": "HTTP Error 503: Service Temporarily Unavailable"
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
@@ -24103,7 +24103,7 @@ window.LDV_NEWS = {
         "error": null
       }
     ],
-    "newItems": 7,
+    "newItems": 0,
     "articleImages": 588,
     "duplicateHeadlinesSkipped": 0
   }
