@@ -1,7 +1,244 @@
 {
-  "updatedAt": "2026-11-21",
+  "updatedAt": "2026-11-22",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-22",
+      "publishedAt": "2026-11-22T14:28:58+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Ce char n’est pas fait pour l’armée chinoise mais pour ses clients étrangers, et sa nouvelle version troque la mitrailleuse contre un…",
+      "url": "https://www.forum-militaire.fr/ce-char-nest-pas-fait-pour-larmee-chinoise-mais-pour-ses-clients-etrangers-et-sa-nouvelle-version-troque-la-mitrailleuse-contre-un-canon-anti-drones/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "char"
+      ],
+      "sourceExcerpt": {
+        "text": "Le VT-4B doit apparaître début décembre au salon de Zhuhai avec, sur le toit, un canon de 30 millimètres à…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "publishedAt": "2026-11-22T12:32:10+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Pologne confirme son intérêt pour l’hélicoptère de transport lourd américain CH-47 Chinook",
+      "url": "https://www.opex360.com/2026/11/22/la-pologne-confirme-son-interet-pour-lhelicoptere-de-transport-lourd-americain-ch-47-chinook/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces terrestres",
+        "AH-64E Apache",
+        "Boeing",
+        "CH-47F",
+        "Chinook",
+        "hélicoptère de transport lourd",
+        "logistique",
+        "Pologne",
+        "soutien"
+      ],
+      "sourceExcerpt": {
+        "text": "Comme l’a récemment souligné une note du Commandement du combat futur de l’armée de Terre [CFAT], la vulnérabilité d’un hélicoptère…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/ch47f-b2-20250513.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Pologne confirme son intérêt pour l’hélicoptère de transport lourd américain CH-47 Chinook ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/22/la-pologne-confirme-son-interet-pour-lhelicoptere-de-transport-lourd-americain-ch-47-chinook/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/22/la-pologne-confirme-son-interet-pour-lhelicoptere-de-transport-lourd-americain-ch-47-chinook/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-22",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/ch47f-b2-20250513.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "publishedAt": "2026-11-22T11:43:57+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’armée de l’Air & de l’Espace teste la capacité du Rafale à être mis en œuvre depuis une autoroute",
+      "url": "https://www.opex360.com/2026/11/22/larmee-de-lair-de-lespace-teste-a-la-capacite-du-rafale-a-etre-mis-en-oeuvre-depuis-une-autoroute/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "1/30 Côte d'Argent",
+        "aAE",
+        "armée de l'Air & de l'Espace",
+        "autoroute",
+        "Finlande",
+        "FRA-ACE",
+        "MORANE",
+        "Protective Fence 26",
+        "Rafale",
+        "Rovaniemi"
+      ],
+      "sourceExcerpt": {
+        "text": "En 2023, alors à la tête du Commandement de la défense aérienne et des opérations aériennes [CDAOA] de l’armée de…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/rafale-autoroute-20261122.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’armée de l’Air & de l’Espace teste la capacité du Rafale à être mis en œuvre depuis une autoroute ».",
+        "credit": "Force aérienne finlandaise",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/22/larmee-de-lair-de-lespace-teste-a-la-capacite-du-rafale-a-etre-mis-en-oeuvre-depuis-une-autoroute/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/22/larmee-de-lair-de-lespace-teste-a-la-capacite-du-rafale-a-etre-mis-en-oeuvre-depuis-une-autoroute/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-22",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/rafale-autoroute-20261122.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "publishedAt": "2026-11-22T09:26:43+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La France prouve aux Pays-Bas qu’elle tient ses promesses industrielles : un contrat de Rotterdam place un équipementier néerlandais sur…",
+      "url": "https://www.forum-militaire.fr/la-france-prouve-aux-pays-bas-quelle-tient-ses-promesses-industrielles-un-contrat-de-rotterdam-place-un-equipementier-neerlandais-sur-un-scorpene-export/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Industrie",
+        "Marines militaires",
+        "contrat",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "Ce 19 novembre 2026, sur les quais de Rotterdam qui accueillaient la 37e édition du salon NEDS (Netherlands Defence and…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "publishedAt": "2026-11-22T08:48:37+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Ce que l’on sait du projet de centre au Rwanda pour migrants expulsés d’Europe",
+      "url": "https://www.revueconflits.com/ce-que-lon-sait-du-projet-de-centre-au-rwanda-pour-migrants-expulses-deurope/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Abonné",
+        "Immigration",
+        "Rwanda"
+      ],
+      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2020/04/kagam%C3%A9-g%C3%A9nocide-rwanda.jpg",
+        "kind": "article",
+        "alt": "Ce que l’on sait du projet de centre au Rwanda pour migrants expulsés d’Europe",
+        "credit": "Paul Kagamé : quel est son rôle dans le génocide ? (c) SipaAP22427604_000008",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/ce-que-lon-sait-du-projet-de-centre-au-rwanda-pour-migrants-expulses-deurope/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/ce-que-lon-sait-du-projet-de-centre-au-rwanda-pour-migrants-expulses-deurope/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-22",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2020/04/kagam%C3%A9-g%C3%A9nocide-rwanda.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "publishedAt": "2026-11-22T03:00:22+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "La France ne peut plus être partout. Pour une doctrine française de projection sélective",
+      "url": "https://www.revueconflits.com/la-france-ne-peut-plus-etre-partout-pour-une-doctrine-francaise-de-projection-selective/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Analyse et théorie",
+        "Cartes",
+        "Géopolitique de la France",
+        "Revue Conflits",
+        "Abonné",
+        "Armée française",
+        "France"
+      ],
+      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/01/SIPA_01245505_000009-scaled.jpg",
+        "kind": "article",
+        "alt": "La France ne peut plus être partout. Pour une doctrine française de projection sélective",
+        "credit": "Le chef d'état-major des armées françaises, Fabien Mandon, et le président français Emmanuel Macron lors d'un exercice aérien près de la base du 5e régiment de cuirassiers à Zayed Military City, le 22 décembre 2025. M. Macron était arrivé aux Émirats arabes unis le 21 décembre pour célébrer Noël avec les troupes françaises. © Jeanne Accorsini/SIPA",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/la-france-ne-peut-plus-etre-partout-pour-une-doctrine-francaise-de-projection-selective/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/la-france-ne-peut-plus-etre-partout-pour-une-doctrine-francaise-de-projection-selective/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-22",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/01/SIPA_01245505_000009-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "publishedAt": "2026-11-22T00:01:05+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "UK reaches for stars with NATO space launch plan",
+      "url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "UK joins 10 other nations in NATO STARLIFT initiative to create network of flexible satellite launch services.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6b0076e413d2d60fe05e3c41/s300_Rocket_on_stool.jpg",
+        "kind": "article",
+        "alt": "RFA ONE rocket on the launch stool at SaxaVord Spaceport with the integration hangar in the background. Credit: SaxaVord Spaceport.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-22"
+      }
+    },
     {
       "date": "2026-11-21",
       "publishedAt": "2026-11-21T16:14:42+00:00",
@@ -15832,7 +16069,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00"
+      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00"
     },
     {
       "date": "2026-10-23",
@@ -15845,7 +16082,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00"
+      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00"
     },
     {
       "date": "2026-10-22",
@@ -16469,7 +16706,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00"
+      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00"
     },
     {
       "date": "2026-10-21",
@@ -23572,7 +23809,7 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00"
+      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00"
     },
     {
       "date": "2026-10-07",
@@ -23786,10 +24023,10 @@
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-20T22:51:01.903568+00:00"
+      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00"
     }
   ],
-  "checkedAt": "2026-11-21T21:56:22.807051+00:00",
+  "checkedAt": "2026-11-22T14:56:30.990239+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -23849,9 +24086,9 @@
       },
       {
         "source": "Naval News",
-        "ok": true,
-        "recentItems": 10,
-        "error": null
+        "ok": false,
+        "recentItems": 0,
+        "error": "[Errno 104] Connection reset by peer"
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
@@ -23866,8 +24103,8 @@
         "error": null
       }
     ],
-    "newItems": 5,
-    "articleImages": 583,
+    "newItems": 7,
+    "articleImages": 588,
     "duplicateHeadlinesSkipped": 0
   }
 }

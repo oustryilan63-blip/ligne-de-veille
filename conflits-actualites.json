@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-21T21:56:22.807051+00:00",
+  "checkedAt": "2026-11-22T14:56:30.990239+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,9 +10,11 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 11,
+    "ok": 10,
     "total": 11,
-    "unavailable": []
+    "unavailable": [
+      "Naval News"
+    ]
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -53,8 +55,8 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-21T21:56:28.105451+00:00",
-        "updatedAt": "2026-11-21T21:56:28.105451+00:00",
+        "checkedAt": "2026-11-22T14:56:42.900155+00:00",
+        "updatedAt": "2026-11-22T14:56:42.900155+00:00",
         "status": "updated",
         "paragraphs": [
           {
@@ -72,12 +74,20 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/%C3%A9missions/une-semaine-dans-le-monde/20261120-sommet-de-shenzhen-guerre-en-ukraine-hostilit%C3%A9s-dans-le-golfe",
             "publishedAt": "2026-11-20T20:24:04+00:00"
+          },
+          {
+            "title": "Ukraine : les enfants paient un tribut sans précédent à la guerre",
+            "text": "Au moins 1.144 enfants ont été tués ou blessés en Ukraine au cours des dix premiers mois de 2026, soit davantage que sur l’ensemble de chacune des trois dernières années, a alerté vendredi l’UNICEF. À l’approche de l’hiver, les attaques contre les infrastructures énergétiques atteignent également un niveau sans précédent depuis le début de l’invasion russe à grande échelle.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159881",
+            "publishedAt": "2026-11-20T12:00:00+00:00"
           }
         ],
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",
@@ -100,7 +110,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-21T21:56:28.105451+00:00",
+        "checkedAt": "2026-11-22T14:56:42.900155+00:00",
         "updatedAt": "2026-11-19T16:07:12.007914+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -155,13 +165,13 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-21T21:56:28.105451+00:00",
-        "updatedAt": "2026-11-21T21:56:28.105451+00:00",
+        "checkedAt": "2026-11-22T14:56:42.900155+00:00",
+        "updatedAt": "2026-11-22T14:56:42.900155+00:00",
         "status": "updated",
         "paragraphs": [
           {
-            "title": "Israël : Gadi Eisenkot invite le parti de Benjamin Netanyahu à des négociations de coalition",
-            "text": "Le centriste Gadi Eisenkot, chargé de former le prochain gouvernement israélien, a invité le parti du premier ministre sortant, Benyamin Netanyahu à des pourparlers en vue d’une éventuelle coalition, a annoncé, samedi, son parti.",
+            "title": "En Israël, Gadi Eisenkot invite le parti de Benjamin Netanyahu à des négociations de coalition",
+            "text": "Le centriste Gadi Eisenkot, chargé de former le prochain gouvernement israélien, a invité le parti du premier ministre sortant Benyamin Netanyahu à des pourparlers en vue d’une éventuelle coalition, a annoncé, samedi, son parti.",
             "truncated": false,
             "source": "France 24",
             "url": "https://www.france24.com/fr/moyen-orient/20261121-isra%C3%ABl-gadi-eisenkot-invite-le-parti-de-benjamin-netanyahu-%C3%A0-des-n%C3%A9gociations-de-coalition",
@@ -174,12 +184,20 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/moyen-orient/20261121-l-arabie-saoudite-dit-avoir-intercept%C3%A9-des-missiles-lanc%C3%A9s-par-les-houthis-vers-riyad",
             "publishedAt": "2026-11-21T06:52:00+00:00"
+          },
+          {
+            "title": "Cisjordanie : les attaques de colons contre les récoltes d’olives atteignent un niveau record",
+            "text": "Plus de 400 attaques de colons israéliens ayant fait des victimes ou causé des dégâts matériels ont été recensées pendant la récolte des olives cette année en Cisjordanie occupée, un bilan sans précédent, ont alerté vendredi des agences de l’ONU et des organisations humanitaires. Elles dénoncent également les restrictions imposées par Israël, qui privent de nombreux agriculteurs palestiniens de l’accès à leurs terres et menacent leurs moyens de subsistance.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159885",
+            "publishedAt": "2026-11-20T12:00:00+00:00"
           }
         ],
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",
