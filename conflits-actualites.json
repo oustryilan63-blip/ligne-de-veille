@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-22T22:11:18.386670+00:00",
+  "checkedAt": "2026-11-23T18:48:34.554585+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -18,8 +18,32 @@
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-11-21T21:56:22.807051+00:00",
+      "changedAt": "2026-11-23T18:48:34.554585+00:00",
       "items": [
+        {
+          "title": "Photo report: Russia’s new Geran-5 strikes Lyubotyn railway station in Ukraine",
+          "url": "https://www.revueconflits.com/photo-report-russias-new-geran-5-strikes-lyubotyn-railway-station-in-ukraine/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-23T17:17:49+00:00",
+          "language": "en"
+        },
+        {
+          "title": "Photoreportage : Le nouveau Geran-5 russe frappe la gare de Lioubotyn en Ukraine",
+          "url": "https://www.revueconflits.com/photoreportage-le-nouveau-geran-5-russe-frappe-la-gare-de-lioubotyn-en-ukraine/",
+          "source": "Revue Conflits",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-23T17:08:37+00:00",
+          "language": "fr"
+        },
+        {
+          "title": "La France a donné à l’Ukraine le droit de fabriquer 3 de ses armes sur son sol, et l’avion de combat pourrait suivre",
+          "url": "https://www.forum-militaire.fr/la-france-a-donne-a-lukraine-le-droit-de-fabriquer-trois-de-ses-armes-sur-son-sol-et-lavion-de-combat-pourrait-suivre/",
+          "source": "Forum Militaire",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-23T14:24:43+00:00",
+          "language": "fr"
+        },
         {
           "title": "Defence Secretary meets President Zelensky and Minister Khmara in Kyiv as UK deepens industrial support for Ukraine",
           "url": "https://www.gov.uk/government/news/defence-secretary-meets-president-zelensky-and-minister-khmara-in-kyiv-as-uk-deepens-industrial-support-for-ukraine",
@@ -27,37 +51,13 @@
           "sourceType": "Source officielle",
           "publishedAt": "2026-11-21T15:50:54+00:00",
           "language": "en"
-        },
-        {
-          "title": "Un char Leopard 2 ukrainien a « survécu » à 45 impacts de drones FPV",
-          "url": "https://www.opex360.com/2026/11/17/un-char-leopard-2-ukrainien-a-survecu-a-45-impacts-de-drones-fpv/",
-          "source": "Zone Militaire — Opex360",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-11-17T17:37:30+00:00",
-          "language": "fr"
-        },
-        {
-          "title": "More than 1,000 air defence missiles for Ukraine as UK delivers £240 million in winter support",
-          "url": "https://www.gov.uk/government/news/more-than-1000-air-defence-missiles-for-ukraine-as-uk-delivers-240-million-in-winter-support",
-          "source": "Ministère britannique de la Défense",
-          "sourceType": "Source officielle",
-          "publishedAt": "2026-11-17T15:00:00+00:00",
-          "language": "en"
-        },
-        {
-          "title": "Starlink, coeur de la défense ukrainienne",
-          "url": "https://www.revueconflits.com/starlink-coeur-de-la-defense-ukrainienne/",
-          "source": "Revue Conflits",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-11-15T03:00:10+00:00",
-          "language": "fr"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-22T22:11:21.873175+00:00",
+        "checkedAt": "2026-11-23T18:48:43.035398+00:00",
         "updatedAt": "2026-11-22T22:11:21.873175+00:00",
-        "status": "updated",
+        "status": "unchanged",
         "paragraphs": [
           {
             "title": "Valise nucléaire de Poutine : la mise en scène calculée du Kremlin",
@@ -102,7 +102,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-22T22:11:21.873175+00:00",
+        "checkedAt": "2026-11-23T18:48:43.035398+00:00",
         "updatedAt": "2026-11-19T16:07:12.007914+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -157,25 +157,25 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-22T22:11:21.873175+00:00",
-        "updatedAt": "2026-11-22T22:11:21.873175+00:00",
+        "checkedAt": "2026-11-23T18:48:43.035398+00:00",
+        "updatedAt": "2026-11-23T18:48:43.035398+00:00",
         "status": "updated",
         "paragraphs": [
           {
-            "title": "Cisjordanie occupée : Eisenkot condamne des attaques de colons et dénonce un \"terrorisme juif\"",
-            "text": "Une enquête a été ouverte dimanche par les autorités israéliennes après des incendies de véhicules palestiniens et des graffitis sur les murs dans quatre villages de Cisjordanie occupée. Gadi Eisenkot, chargé de former le prochain gouvernement israélien, a dénoncé un \"terrorisme juif\".",
+            "title": "Guerre en Iran : Téhéran réclame 290 milliards de dollars de dédommagements à Washington",
+            "text": "Des tribunaux iraniens exigent que les États-Unis versent 290 milliards de dollars de dédommagements pour la guerre en Iran et leurs actions passées, a déclaré lundi un responsable judiciaire, citant également plusieurs actions en justice intentées contre les pays du Golfe pour leur soutien à Washington. De son côté, l'administration Trump a émis de nouvelles sanctions contre l'Iran, selon un communiqué publié lundi.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261122-cisjordanie-occup%C3%A9e-eisenkot-condamne-des-attaques-de-colons-et-d%C3%A9nonce-un-terrorisme-juif",
-            "publishedAt": "2026-11-22T15:42:24+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261123-t%C3%A9h%C3%A9ran-r%C3%A9clame-290-milliards-dollars-d%C3%A9dommagements-washington-guerre",
+            "publishedAt": "2026-11-23T15:53:42+00:00"
           },
           {
-            "title": "En Israël, Gadi Eisenkot invite le parti de Benjamin Netanyahu à des négociations de coalition",
-            "text": "Le centriste Gadi Eisenkot, chargé de former le prochain gouvernement israélien, a invité le parti du premier ministre sortant Benyamin Netanyahu à des pourparlers en vue d’une éventuelle coalition, a annoncé, samedi, son parti.",
+            "title": "Israël : Eisenkot et Netanyahu entament un nouveau cycle de négociations en vue d'une coalition",
+            "text": "Une semaine après une première rencontre, les partis de Benjamin Netanyahu (Likoud) et de Gadi Eisenkot (Yashar) ont conclu, dimanche, de nouveaux pourparlers en Israël. Ils ne sont pas parvenus à trouver un accord sur une éventuelle coalition. Les négociations doivent reprendre ce lundi.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261121-isra%C3%ABl-gadi-eisenkot-invite-le-parti-de-benjamin-netanyahu-%C3%A0-des-n%C3%A9gociations-de-coalition",
-            "publishedAt": "2026-11-21T20:29:02+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261123-israel-partis-gadi-eisenkot-benjamin-netanyahu-achevent-discussions-sans-parvenir-accord-likoud-coalition",
+            "publishedAt": "2026-11-23T05:19:28+00:00"
           }
         ],
         "sources": [

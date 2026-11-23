@@ -1,7 +1,352 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-22",
+  "updatedAt": "2026-11-23",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-23",
+      "publishedAt": "2026-11-23T18:09:12+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Thales va livrer des radars d’approche primaires et secondaires à la force aérienne néerlandaise",
+      "url": "https://www.opex360.com/2026/11/23/thales-va-livrer-des-radars-dapproche-primaires-et-secondaires-a-la-force-aerienne-neerlandaise/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces aériennes",
+        "Industrie",
+        "COMMIT",
+        "force aérienne néerlandaise",
+        "Otan",
+        "Pays-Bas",
+        "radar primaire",
+        "radar secondaire",
+        "RSM NG",
+        "STAR NG",
+        "Thales"
+      ],
+      "sourceExcerpt": {
+        "text": "En 2023, Thales avait été retenu par la Direction générale de l’armement [DGA] pour équiper les bases aériennes et aéronavales…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/thales-detection22-20230404.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Thales va livrer des radars d’approche primaires et secondaires à la force aérienne néerlandaise ».",
+        "credit": "Thales",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/23/thales-va-livrer-des-radars-dapproche-primaires-et-secondaires-a-la-force-aerienne-neerlandaise/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/23/thales-va-livrer-des-radars-dapproche-primaires-et-secondaires-a-la-force-aerienne-neerlandaise/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-23",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/thales-detection22-20230404.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "publishedAt": "2026-11-23T17:26:53+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le comité d’entreprise allemand d’Airbus exige le lancement immédiat d’un projet d’avion de combat de 6e génération",
+      "url": "https://www.opex360.com/2026/11/23/le-comite-dentreprise-allemand-dairbus-exige-le-lancement-immediat-dun-projet-davion-de-combat-de-6e-generation/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces aériennes",
+        "Industrie",
+        "Airbus Defence & Space GmbH",
+        "Allemagne",
+        "aviation de combat",
+        "coopération",
+        "GCAP",
+        "industrie",
+        "SCAF",
+        "Suède",
+        "Thomas Pretzl"
+      ],
+      "sourceExcerpt": {
+        "text": "Ces dernières années, le puissant comité d’entreprise d’Airbus Defence & Space GmbH a souvent critiqué, non sans véhémence, l’approche défendue…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/rc-scaf-20200811.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le comité d’entreprise allemand d’Airbus exige le lancement immédiat d’un projet d’avion de combat de 6e génération ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/23/le-comite-dentreprise-allemand-dairbus-exige-le-lancement-immediat-dun-projet-davion-de-combat-de-6e-generation/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/23/le-comite-dentreprise-allemand-dairbus-exige-le-lancement-immediat-dun-projet-davion-de-combat-de-6e-generation/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-23",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/rc-scaf-20200811.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "publishedAt": "2026-11-23T17:17:49+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Photo report: Russia’s new Geran-5 strikes Lyubotyn railway station in Ukraine",
+      "url": "https://www.revueconflits.com/photo-report-russias-new-geran-5-strikes-lyubotyn-railway-station-in-ukraine/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Conflits in English",
+        "Abonné"
+      ],
+      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/1165603-scaled.jpg",
+        "kind": "article",
+        "alt": "Photo report: Russia’s new Geran-5 strikes Lyubotyn railway station in Ukraine",
+        "credit": "Un élément de voilure du drone, en fibre de carbone, avec son servomoteur. Il porte le numéro 5713 et des inscriptions manuscrites en cyrillique. Photo : Murray Wegeler",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/photo-report-russias-new-geran-5-strikes-lyubotyn-railway-station-in-ukraine/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/photo-report-russias-new-geran-5-strikes-lyubotyn-railway-station-in-ukraine/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-23",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/1165603-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "publishedAt": "2026-11-23T17:13:09+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Robots, infanterie légère et changement de braquet pour la Force Terrestre belge",
+      "url": "https://forcesoperations.com/robots-infanterie-legere-et-changement-de-braquet-pour-la-force-terrestre-belge/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Focus",
+        "Belgique",
+        "Force Terrestre",
+        "robot"
+      ],
+      "sourceExcerpt": {
+        "text": "La Force Terrestre belge n'a plus le temps d'attendre. Plutôt que d'aborder le sujet après 2030, elle engagera dès l'an…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/11/Robots-infanterie-legere-et-changement-de-braquet-pour-la-Force-Terrestre-belge_002-1-394x218.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Robots, infanterie légère et changement de braquet pour la Force Terrestre belge ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/robots-infanterie-legere-et-changement-de-braquet-pour-la-force-terrestre-belge/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/robots-infanterie-legere-et-changement-de-braquet-pour-la-force-terrestre-belge/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-23",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/11/Robots-infanterie-legere-et-changement-de-braquet-pour-la-Force-Terrestre-belge_002-1-394x218.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "publishedAt": "2026-11-23T17:11:27+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "UK and Saudi Arabia deepen defence-industrial co-operation at Lancaster House",
+      "url": "https://www.gov.uk/government/news/uk-and-saudi-arabia-deepen-defence-industrial-co-operation-at-lancaster-house",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "UK and Saudi Arabia strengthen defence-industrial ties inLancaster House talks.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6b046d04da1531561296bcbc/s300_DDC-OFFICIAL-20261123-336-198.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/uk-and-saudi-arabia-deepen-defence-industrial-co-operation-at-lancaster-house",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/uk-and-saudi-arabia-deepen-defence-industrial-co-operation-at-lancaster-house",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-23"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "publishedAt": "2026-11-23T17:08:37+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Photoreportage : Le nouveau Geran-5 russe frappe la gare de Lioubotyn en Ukraine",
+      "url": "https://www.revueconflits.com/photoreportage-le-nouveau-geran-5-russe-frappe-la-gare-de-lioubotyn-en-ukraine/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Conflits armés",
+        "Guerre en Ukraine",
+        "Abonné"
+      ],
+      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/1165603-scaled.jpg",
+        "kind": "article",
+        "alt": "Photoreportage : Le nouveau Geran-5 russe frappe la gare de Lioubotyn en Ukraine",
+        "credit": "Un élément de voilure du drone, en fibre de carbone, avec son servomoteur. Il porte le numéro 5713 et des inscriptions manuscrites en cyrillique. Photo : Murray Wegeler",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/photoreportage-le-nouveau-geran-5-russe-frappe-la-gare-de-lioubotyn-en-ukraine/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/photoreportage-le-nouveau-geran-5-russe-frappe-la-gare-de-lioubotyn-en-ukraine/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-23",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/1165603-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "publishedAt": "2026-11-23T14:24:43+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La France a donné à l’Ukraine le droit de fabriquer 3 de ses armes sur son sol, et l’avion de combat pourrait suivre",
+      "url": "https://www.forum-militaire.fr/la-france-a-donne-a-lukraine-le-droit-de-fabriquer-trois-de-ses-armes-sur-son-sol-et-lavion-de-combat-pourrait-suivre/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "France",
+        "Géopolitique",
+        "missile"
+      ],
+      "sourceExcerpt": {
+        "text": "La ministre déléguée Alice Rufo a confirmé le 19 novembre que Paris travaille directement avec Kiev sur le SAMP/T NG,…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "publishedAt": "2026-11-23T10:11:13+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Haïti, premier test à l’étranger du modèle Bukele",
+      "url": "https://www.revueconflits.com/haiti-premier-test-a-letranger-du-modele-bukele/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amérique",
+        "Amérique latine",
+        "Criminalité et terrorisme",
+        "Haïti",
+        "Salvador"
+      ],
+      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap23074106_000010-scaled.jpg",
+        "kind": "article",
+        "alt": "Haïti, premier test à l’étranger du modèle Bukele",
+        "credit": "Un homme embrasse un drapeau du Salvador déployé sur un véhicule blindé qui patrouille dans une rue de Port-au-Prince, en Haïti, ce jeudi 12 novembre 2026. (AP Photo/Patrice Noel)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/haiti-premier-test-a-letranger-du-modele-bukele/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/haiti-premier-test-a-letranger-du-modele-bukele/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-23",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap23074106_000010-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "publishedAt": "2026-11-23T09:21:34+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "L’Inde est dans une situation critique pour son aviation militaire qui la force à accélérer sur son projet d’avion de 5e génération : l’AMCA",
+      "url": "https://www.forum-militaire.fr/la-seule-chose-dont-on-est-desormais-sur-pour-lavion-de-chasse-de-5e-generation-indien-amca-cest-quil-sera-exclusivement-construit-par-le-secteur-prive/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "Industrie",
+        "avion"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 30 octobre 2026, trois consortiums industriels indiens ont déposé leurs offres pour le contrat de prototype du chasseur de…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "publishedAt": "2026-11-23T06:45:49+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Le vide de légitimité : Trump, la Chine et la nouvelle lutte pour l’influence en matière de développement dans les pays du Sud",
+      "url": "https://www.areion24.news/2026/11/23/le-vide-de-legitimite-trump-la-chine-et-la-nouvelle-lutte-pour-linfluence-en-matiere-de-developpement-dans-les-pays-du-sud/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "La lutte entre Washington et Pékin autour du développement est entrée dans une phase plus rude et plus révélatrice. La…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/11/shutterstock_2581718837.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le vide de légitimité : Trump, la Chine et la nouvelle lutte pour l’influence en matière de développement dans les pays du Sud ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/11/23/le-vide-de-legitimite-trump-la-chine-et-la-nouvelle-lutte-pour-linfluence-en-matiere-de-developpement-dans-les-pays-du-sud/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/11/23/le-vide-de-legitimite-trump-la-chine-et-la-nouvelle-lutte-pour-linfluence-en-matiere-de-developpement-dans-les-pays-du-sud/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-23",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/shutterstock_2581718837.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-22",
       "publishedAt": "2026-11-22T14:28:58+00:00",
@@ -16069,7 +16414,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00"
+      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00"
     },
     {
       "date": "2026-10-23",
@@ -16082,7 +16427,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00"
+      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00"
     },
     {
       "date": "2026-10-22",
@@ -16706,7 +17051,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00"
+      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00"
     },
     {
       "date": "2026-10-21",
@@ -23809,7 +24154,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00"
+      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00"
     },
     {
       "date": "2026-10-07",
@@ -24023,10 +24368,10 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-22T14:56:36.659553+00:00"
+      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00"
     }
   ],
-  "checkedAt": "2026-11-22T22:11:18.386670+00:00",
+  "checkedAt": "2026-11-23T18:48:34.554585+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -24075,36 +24420,36 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 8,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
         "source": "Naval News",
         "ok": false,
         "recentItems": 0,
-        "error": "HTTP Error 503: Service Temporarily Unavailable"
+        "error": "[Errno 104] Connection reset by peer"
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 7,
         "error": null
       },
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 7,
         "error": null
       }
     ],
-    "newItems": 0,
-    "articleImages": 588,
+    "newItems": 10,
+    "articleImages": 596,
     "duplicateHeadlinesSkipped": 0
   }
 };
