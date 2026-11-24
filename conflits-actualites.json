@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-23T18:48:34.554585+00:00",
+  "checkedAt": "2026-11-24T18:25:14.685892+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -18,8 +18,24 @@
   },
   "topics": {
     "ukraine-guerre-enjeux": {
-      "changedAt": "2026-11-23T18:48:34.554585+00:00",
+      "changedAt": "2026-11-24T18:25:14.685892+00:00",
       "items": [
+        {
+          "title": "First UK Defence Secretary to visit Kharkiv as UK ramps up support for Ukraine",
+          "url": "https://www.gov.uk/government/news/first-uk-defence-secretary-to-visit-kharkiv-as-uk-ramps-up-support-for-ukraine",
+          "source": "Ministère britannique de la Défense",
+          "sourceType": "Source officielle",
+          "publishedAt": "2026-11-24T15:09:26+00:00",
+          "language": "en"
+        },
+        {
+          "title": "Le Mirage-2000 a une arme qui fait le bonheur des Ukrainiens au point que Zelensky en demande davantage en renfort : son canon DEFA 554",
+          "url": "https://www.forum-militaire.fr/le-mirage-2000-a-une-arme-qui-fait-le-bonheur-des-ukrainiens-au-point-que-zelensky-en-demande-davantage-en-renfort-son-canon-defa-554/",
+          "source": "Forum Militaire",
+          "sourceType": "Presse spécialisée",
+          "publishedAt": "2026-11-24T07:40:29+00:00",
+          "language": "fr"
+        },
         {
           "title": "Photo report: Russia’s new Geran-5 strikes Lyubotyn railway station in Ukraine",
           "url": "https://www.revueconflits.com/photo-report-russias-new-geran-5-strikes-lyubotyn-railway-station-in-ukraine/",
@@ -35,27 +51,11 @@
           "sourceType": "Presse spécialisée",
           "publishedAt": "2026-11-23T17:08:37+00:00",
           "language": "fr"
-        },
-        {
-          "title": "La France a donné à l’Ukraine le droit de fabriquer 3 de ses armes sur son sol, et l’avion de combat pourrait suivre",
-          "url": "https://www.forum-militaire.fr/la-france-a-donne-a-lukraine-le-droit-de-fabriquer-trois-de-ses-armes-sur-son-sol-et-lavion-de-combat-pourrait-suivre/",
-          "source": "Forum Militaire",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-11-23T14:24:43+00:00",
-          "language": "fr"
-        },
-        {
-          "title": "Defence Secretary meets President Zelensky and Minister Khmara in Kyiv as UK deepens industrial support for Ukraine",
-          "url": "https://www.gov.uk/government/news/defence-secretary-meets-president-zelensky-and-minister-khmara-in-kyiv-as-uk-deepens-industrial-support-for-ukraine",
-          "source": "Ministère britannique de la Défense",
-          "sourceType": "Source officielle",
-          "publishedAt": "2026-11-21T15:50:54+00:00",
-          "language": "en"
         }
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-23T18:48:43.035398+00:00",
+        "checkedAt": "2026-11-24T18:25:25.594073+00:00",
         "updatedAt": "2026-11-22T22:11:21.873175+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -102,7 +102,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-23T18:48:43.035398+00:00",
+        "checkedAt": "2026-11-24T18:25:25.594073+00:00",
         "updatedAt": "2026-11-19T16:07:12.007914+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -157,25 +157,25 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-23T18:48:43.035398+00:00",
-        "updatedAt": "2026-11-23T18:48:43.035398+00:00",
+        "checkedAt": "2026-11-24T18:25:25.594073+00:00",
+        "updatedAt": "2026-11-24T18:25:25.594073+00:00",
         "status": "updated",
         "paragraphs": [
           {
-            "title": "Guerre en Iran : Téhéran réclame 290 milliards de dollars de dédommagements à Washington",
-            "text": "Des tribunaux iraniens exigent que les États-Unis versent 290 milliards de dollars de dédommagements pour la guerre en Iran et leurs actions passées, a déclaré lundi un responsable judiciaire, citant également plusieurs actions en justice intentées contre les pays du Golfe pour leur soutien à Washington. De son côté, l'administration Trump a émis de nouvelles sanctions contre l'Iran, selon un communiqué publié lundi.",
+            "title": "Le chef de la sécurité intérieure du Hamas tué à Gaza dans une frappe israélienne",
+            "text": "Le responsable de la sécurité intérieure du Hamas dans la bande de Gaza a été tué mardi par une frappe israélienne, a annoncé le ministère de l'Intérieur du territoire, l'armée israélienne affirmant avoir \"frappé\" un haut responsable du mouvement islamiste palestinien.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261123-t%C3%A9h%C3%A9ran-r%C3%A9clame-290-milliards-dollars-d%C3%A9dommagements-washington-guerre",
-            "publishedAt": "2026-11-23T15:53:42+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261124-chef-s%C3%A9curit%C3%A9-int%C3%A9rieure-hamas-tu%C3%A9-gaza-frappe-israel-netanyahu",
+            "publishedAt": "2026-11-24T12:36:29+00:00"
           },
           {
-            "title": "Israël : Eisenkot et Netanyahu entament un nouveau cycle de négociations en vue d'une coalition",
-            "text": "Une semaine après une première rencontre, les partis de Benjamin Netanyahu (Likoud) et de Gadi Eisenkot (Yashar) ont conclu, dimanche, de nouveaux pourparlers en Israël. Ils ne sont pas parvenus à trouver un accord sur une éventuelle coalition. Les négociations doivent reprendre ce lundi.",
+            "title": "Yémen : les Houthis \"prêts à attaquer\" la ville d'Aden, selon l'armée",
+            "text": "Selon l'armée yéménite, les rebelles houthis seraient prêts à attaquer mardi la ville portuaire d'Aden, où le gouvernement reconnu par la communauté internationale siège depuis 2014. Plus tôt dans la journée, l'Arabie saoudite a frappé des autocars et des camions dans le sud du Yémen, faisant 25 morts ou disparus.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261123-israel-partis-gadi-eisenkot-benjamin-netanyahu-achevent-discussions-sans-parvenir-accord-likoud-coalition",
-            "publishedAt": "2026-11-23T05:19:28+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261124-yemen-houthis-deplorent-25-morts-disparus-frappes-saoudiennes",
+            "publishedAt": "2026-11-24T03:30:10+00:00"
           }
         ],
         "sources": [

@@ -1,7 +1,382 @@
 {
-  "updatedAt": "2026-11-23",
+  "updatedAt": "2026-11-24",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T17:11:36+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Les Pays-Bas commandent des missiles antiaériens portatifs Piorun auprès de la Pologne",
+      "url": "https://www.opex360.com/2026/11/24/les-pays-bas-commandent-des-missiles-antiaeriens-portatifs-piorun-aupres-de-la-pologne/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "Industrie",
+        "achat",
+        "EDIRPA",
+        "MANPADS",
+        "MESKO SA",
+        "Pays-Bas",
+        "PGZ",
+        "Piorun",
+        "Pologne",
+        "SAFE",
+        "UE"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 24 août, la Pologne, la Lituanie, la Lettonie et la Norvège ont signé un accord-cadre d’une valeur de plus…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-24T18:25:21.729395+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/piorun-20250513.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Les Pays-Bas commandent des missiles antiaériens portatifs Piorun auprès de la Pologne ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/24/les-pays-bas-commandent-des-missiles-antiaeriens-portatifs-piorun-aupres-de-la-pologne/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/24/les-pays-bas-commandent-des-missiles-antiaeriens-portatifs-piorun-aupres-de-la-pologne/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-24",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/piorun-20250513.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T16:55:16+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Derrière les commandes, le plan de KNDS pour muscler sa filiale munitionnaire française",
+      "url": "https://forcesoperations.com/derriere-les-commandes-le-plan-de-knds-pour-muscler-sa-filiale-munitionnaire-francaise/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "KNDS",
+        "KNDS Ammo France",
+        "KNDS Ammo Frane"
+      ],
+      "sourceExcerpt": {
+        "text": "Tranche après tranche, les armées françaises remettent à niveau leurs stocks d'obus de 155 mm pour mieux se préparer à…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-24T18:25:21.729395+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/11/Derriere-les-commandes-le-plan-de-KNDS-pour-muscler-sa-filiale-munitionnaire-francaise_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Derrière les commandes, le plan de KNDS pour muscler sa filiale munitionnaire française ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/derriere-les-commandes-le-plan-de-knds-pour-muscler-sa-filiale-munitionnaire-francaise/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/derriere-les-commandes-le-plan-de-knds-pour-muscler-sa-filiale-munitionnaire-francaise/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-24",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/11/Derriere-les-commandes-le-plan-de-KNDS-pour-muscler-sa-filiale-munitionnaire-francaise_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T15:56:46+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Section technique de l’armée de Terre évalue de nouveaux équipements de protection contre les menaces NRBC",
+      "url": "https://www.opex360.com/2026/11/24/la-section-technique-de-larmee-de-terre-evalue-de-nouveaux-equipements-de-protection-contre-les-menaces-nrbc/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Forces terrestres",
+        "NBC",
+        "armée de terre",
+        "biologique",
+        "chimique",
+        "DGA",
+        "EPIA",
+        "évalution",
+        "MOB AGESTER",
+        "NRBC",
+        "nucléaire",
+        "protection"
+      ],
+      "sourceExcerpt": {
+        "text": "Qu’elles émanent d’acteurs non étatiques, comme les groupes terroristes, ou d’État, y compris ceux ayant signé des traités visant à…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-24T18:25:21.729395+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/epia-nrbc-20261124.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Section technique de l’armée de Terre évalue de nouveaux équipements de protection contre les menaces NRBC ».",
+        "credit": "STAT / armée de Terre",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/24/la-section-technique-de-larmee-de-terre-evalue-de-nouveaux-equipements-de-protection-contre-les-menaces-nrbc/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/24/la-section-technique-de-larmee-de-terre-evalue-de-nouveaux-equipements-de-protection-contre-les-menaces-nrbc/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-24",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/epia-nrbc-20261124.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T15:09:26+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "First UK Defence Secretary to visit Kharkiv as UK ramps up support for Ukraine",
+      "url": "https://www.gov.uk/government/news/first-uk-defence-secretary-to-visit-kharkiv-as-uk-ramps-up-support-for-ukraine",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Wes Streeting has become the first UK Defence Secretary to visit Kharkiv – 20km from the frontline in Eastern Ukraine…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-24T18:25:21.729395+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6b0572266fe3360acdfa1acd/s300_Def_Sec_Ukraine_visit_11-26_1.jpg",
+        "kind": "article",
+        "alt": "The Secretary of State for Defence meets with Yevhenii Khmara, the Minister of Defence of Ukraine during a visit to Ukraine.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/first-uk-defence-secretary-to-visit-kharkiv-as-uk-ramps-up-support-for-ukraine",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/first-uk-defence-secretary-to-visit-kharkiv-as-uk-ramps-up-support-for-ukraine",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-24"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T14:32:13+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Les Rafale de cette base volent à cinquante mètres du sol pour percer les défenses, et les mêmes équipages emportent l’arme nucléaire",
+      "url": "https://www.forum-militaire.fr/les-rafale-de-cette-base-volent-a-cinquante-metres-du-sol-pour-percer-les-defenses-et-les-memes-equipages-emportent-larme-nucleaire/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de l'air",
+        "avion",
+        "exercice",
+        "France"
+      ],
+      "sourceExcerpt": {
+        "text": "Des Rafale emportant le missile de croisière SCALP ont répété des raids à très basse altitude depuis la base de…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T12:30:08+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "CEOs from sensitive sectors receive briefings on Russia threats",
+      "url": "https://www.gov.uk/government/news/ceos-from-sensitive-sectors-receive-briefings-on-russia-threats",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Closed-door security briefings by Ministers and UK Intelligence representatives given to critical national infrastructure (CNI) and defence sector CEOs",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-24T18:25:21.729395+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/5a37da9ded915d5a5f965f9c/s300_cabinet-office.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/ceos-from-sensitive-sectors-receive-briefings-on-russia-threats",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/ceos-from-sensitive-sectors-receive-briefings-on-russia-threats",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-24"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T08:35:30+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Pourquoi Madrid est à droite",
+      "url": "https://www.revueconflits.com/pourquoi-madrid-est-a-droite/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Abonné",
+        "Espagne"
+      ],
+      "imageCheckedAt": "2026-11-24T18:25:21.729395+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/conflits-carte_2026-11-11_madrid-vote-pp.jpg",
+        "kind": "article",
+        "alt": "Pourquoi Madrid est à droite",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/pourquoi-madrid-est-a-droite/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/pourquoi-madrid-est-a-droite/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-24",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/conflits-carte_2026-11-11_madrid-vote-pp.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T07:40:29+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Le Mirage-2000 a une arme qui fait le bonheur des Ukrainiens au point que Zelensky en demande davantage en renfort : son canon DEFA 554",
+      "url": "https://www.forum-militaire.fr/le-mirage-2000-a-une-arme-qui-fait-le-bonheur-des-ukrainiens-au-point-que-zelensky-en-demande-davantage-en-renfort-son-canon-defa-554/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "avion"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 22 novembre 2026, l’Armée de l’air ukrainienne a publié une vidéo d’un Mirage 2000-5F en train d’abattre un drone…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T06:28:55+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "La sureté et la sécurité : les deux autres piliers de la résilience et de la puissance économique",
+      "url": "https://www.areion24.news/2026/11/24/la-surete-et-la-securite-les-deux-autres-piliers-de-la-resilience-et-de-la-puissance-economique/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Pendant près de trente ans, les entreprises, notamment françaises, ont évolué dans un environnement international marqué par l’ouverture des marchés,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-24T18:25:21.729395+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/11/IMG-5057.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La sureté et la sécurité : les deux autres piliers de la résilience et de la puissance économique ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/11/24/la-surete-et-la-securite-les-deux-autres-piliers-de-la-resilience-et-de-la-puissance-economique/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/11/24/la-surete-et-la-securite-les-deux-autres-piliers-de-la-resilience-et-de-la-puissance-economique/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-24",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/IMG-5057.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T02:51:59+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Comment Rabat structure sa base industrielle et technologique de défense",
+      "url": "https://www.revueconflits.com/comment-rabat-structure-sa-base-industrielle-et-technologique-de-defense/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Maghreb",
+        "Maroc"
+      ],
+      "imageCheckedAt": "2026-11-24T18:25:21.729395+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2021/06/Tanger_Med_Port_-_D%C3%A9troit_de_Gibraltar_Maroc_Zone_Portuaire-2.jpg",
+        "kind": "article",
+        "alt": "Comment Rabat structure sa base industrielle et technologique de défense",
+        "credit": "Tanger Med Port - Détroit de Gibraltar Maroc Zone Portuaire (c) Wikipédia",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/comment-rabat-structure-sa-base-industrielle-et-technologique-de-defense/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/comment-rabat-structure-sa-base-industrielle-et-technologique-de-defense/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-24",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2021/06/Tanger_Med_Port_-_D%C3%A9troit_de_Gibraltar_Maroc_Zone_Portuaire-2.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T02:01:24+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Comment la Chine voit le monde",
+      "url": "https://www.revueconflits.com/podcast-comment-la-chine-voit-le-monde/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Podcasts",
+        "Podcasts Asie",
+        "Chine",
+        "Géographie"
+      ],
+      "imageCheckedAt": "2026-11-24T18:25:21.729395+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/08/2026-06-29-10.18.17.jpg",
+        "kind": "article",
+        "alt": "Podcast – Comment la Chine voit le monde",
+        "credit": "Chine (c) Conflits",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-comment-la-chine-voit-le-monde/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-comment-la-chine-voit-le-monde/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-24",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/08/2026-06-29-10.18.17.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-23",
       "publishedAt": "2026-11-23T18:09:12+00:00",
@@ -253,6 +628,44 @@
     },
     {
       "date": "2026-11-23",
+      "publishedAt": "2026-11-23T14:21:21+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "INTERROGATIONS BRITANNIQUES",
+      "url": "https://blablachars.blogspot.com/2026/11/interrogations-britanniques.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Challenger 2",
+        "Challenger 3",
+        "Royaume-Uni",
+        "Ukraine"
+      ],
+      "sourceExcerpt": {
+        "text": "Alors que la modernisation des 148 chars Challenger 2 au standard Challenger 3 se poursuit, plusieurs interrogations se font jour…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-24T18:25:21.729395+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpzUWx-xOAFsLzAwkGD8G9HsSt8s_fse0mtvCwKEMQ3rOCp01ge1EKGTYYTyLN5rJicTTwCtpa1e0sy9JrIHBlnGC7pjix3VUhwIGRvG8LqA8rbkea1EB5Y_LTyyeY9vnS6L-8ffGFxDhtW0qVuouSqnrJaOH5HKsbqHmPos0auchLNROUxB2P9ZPPzAM/w1200-h630-p-k-no-nu/CR%202%20Ukraine.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « INTERROGATIONS BRITANNIQUES ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/11/interrogations-britanniques.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/11/interrogations-britanniques.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-24",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpzUWx-xOAFsLzAwkGD8G9HsSt8s_fse0mtvCwKEMQ3rOCp01ge1EKGTYYTyLN5rJicTTwCtpa1e0sy9JrIHBlnGC7pjix3VUhwIGRvG8LqA8rbkea1EB5Y_LTyyeY9vnS6L-8ffGFxDhtW0qVuouSqnrJaOH5HKsbqHmPos0auchLNROUxB2P9ZPPzAM/w1200-h630-p-k-no-nu/CR%202%20Ukraine.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-23",
       "publishedAt": "2026-11-23T10:11:13+00:00",
       "source": "Revue Conflits",
       "sourceType": "Presse spécialisée",
@@ -283,6 +696,46 @@
         "evidence": "user-confirmed-publisher-permission",
         "checkedAt": "2026-11-23",
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap23074106_000010-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "publishedAt": "2026-11-23T09:53:37+00:00",
+      "source": "Blablachars",
+      "sourceType": "Presse spécialisée",
+      "title": "VERS UNE PROPOSITION SUD-COREENNE AU BRESIL ?",
+      "url": "https://blablachars.blogspot.com/2026/11/vers-une-proposition-sud-coreenne-au.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Blablachars. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Brésil",
+        "Char",
+        "Hyundai Rotem",
+        "K2",
+        "Pérou",
+        "VCI"
+      ],
+      "sourceExcerpt": {
+        "text": "Selon des sources non officielles brésiliennes, Hyundai Rotem intensifierait ses efforts en direction de Brasilia en faveur de son char…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-24T18:25:21.729395+00:00",
+      "image": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE62U_6LUXU90q-3SamVz7EOvbr2_mNNv7DovzarFYynvaJG_N3ldAmKz3PEuGPClt95BYAkLIaStCWac24qYqHhIC5GeKYmJrPBv0-FMIKYJKlHSQGb9i1moXtiI9jYY3TzOw9HDwJDWjQ2ra0C5aIql45oFiEI41D-O6Jg1aFfjbgngMbShWp3fD8jY/w1200-h630-p-k-no-nu/K2%203.JPG",
+        "kind": "article",
+        "alt": "Image principale de l’article « VERS UNE PROPOSITION SUD-COREENNE AU BRESIL ? ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://blablachars.blogspot.com/2026/11/vers-une-proposition-sud-coreenne-au.html",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://blablachars.blogspot.com/2026/11/vers-une-proposition-sud-coreenne-au.html",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-24",
+        "assetUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE62U_6LUXU90q-3SamVz7EOvbr2_mNNv7DovzarFYynvaJG_N3ldAmKz3PEuGPClt95BYAkLIaStCWac24qYqHhIC5GeKYmJrPBv0-FMIKYJKlHSQGb9i1moXtiI9jYY3TzOw9HDwJDWjQ2ra0C5aIql45oFiEI41D-O6Jg1aFfjbgngMbShWp3fD8jY/w1200-h630-p-k-no-nu/K2%203.JPG",
         "permissionConfirmedAt": "2026-10-11"
       }
     },
@@ -1290,7 +1743,7 @@
         "text": "Après la Belgique la semaine dernière et la Roumanie le mois dernier, au tour de la Suisse de se tourner…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-11-22T22:11:20.628324+00:00"
+      "imageCheckedAt": "2026-11-24T18:25:21.729395+00:00"
     },
     {
       "date": "2026-11-20",
@@ -24371,7 +24824,7 @@
       "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00"
     }
   ],
-  "checkedAt": "2026-11-23T18:48:34.554585+00:00",
+  "checkedAt": "2026-11-24T18:25:14.685892+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -24390,7 +24843,7 @@
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
@@ -24420,7 +24873,7 @@
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 8,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -24433,7 +24886,7 @@
         "source": "Naval News",
         "ok": false,
         "recentItems": 0,
-        "error": "[Errno 104] Connection reset by peer"
+        "error": "HTTP Error 503: Service Temporarily Unavailable"
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
@@ -24448,8 +24901,8 @@
         "error": null
       }
     ],
-    "newItems": 10,
-    "articleImages": 596,
+    "newItems": 13,
+    "articleImages": 607,
     "duplicateHeadlinesSkipped": 0
   }
 }
