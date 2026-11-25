@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-24T18:25:14.685892+00:00",
+  "checkedAt": "2026-11-25T17:39:54.135551+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,11 +10,9 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 10,
+    "ok": 11,
     "total": 11,
-    "unavailable": [
-      "Naval News"
-    ]
+    "unavailable": []
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -55,7 +53,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-24T18:25:25.594073+00:00",
+        "checkedAt": "2026-11-25T17:40:05.744814+00:00",
         "updatedAt": "2026-11-22T22:11:21.873175+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -102,7 +100,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-24T18:25:25.594073+00:00",
+        "checkedAt": "2026-11-25T17:40:05.744814+00:00",
         "updatedAt": "2026-11-19T16:07:12.007914+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -157,25 +155,25 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-24T18:25:25.594073+00:00",
-        "updatedAt": "2026-11-24T18:25:25.594073+00:00",
+        "checkedAt": "2026-11-25T17:40:05.744814+00:00",
+        "updatedAt": "2026-11-25T17:40:05.744814+00:00",
         "status": "updated",
         "paragraphs": [
           {
-            "title": "Le chef de la sécurité intérieure du Hamas tué à Gaza dans une frappe israélienne",
-            "text": "Le responsable de la sécurité intérieure du Hamas dans la bande de Gaza a été tué mardi par une frappe israélienne, a annoncé le ministère de l'Intérieur du territoire, l'armée israélienne affirmant avoir \"frappé\" un haut responsable du mouvement islamiste palestinien.",
+            "title": "législatives en Israël : les tractations pour un nouveau gouvernement se poursuivent",
+            "text": "Le Parlement israélien a adopté mercredi 25 novembre un projet de loi visant à créer une commission d'enquête sur les défaillances sécuritaires précédant l'attaque du Hamas le 7 octobre 2023. Ce vote intervient en pleine tractation pour former un gouvernement mené par M. Eisenkot, qui s'efforce, avant même d'y parvenir, de livrer une bataille législative contre M. Netanyahu et son héritage.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261124-chef-s%C3%A9curit%C3%A9-int%C3%A9rieure-hamas-tu%C3%A9-gaza-frappe-israel-netanyahu",
-            "publishedAt": "2026-11-24T12:36:29+00:00"
+            "url": "https://www.france24.com/fr/vid%C3%A9o/20261125-l%C3%A9gislatives-en-isra%C3%ABl-les-tractations-pour-un-nouveau-gouvernement-se-poursuivent",
+            "publishedAt": "2026-11-25T15:19:06+00:00"
           },
           {
-            "title": "Yémen : les Houthis \"prêts à attaquer\" la ville d'Aden, selon l'armée",
-            "text": "Selon l'armée yéménite, les rebelles houthis seraient prêts à attaquer mardi la ville portuaire d'Aden, où le gouvernement reconnu par la communauté internationale siège depuis 2014. Plus tôt dans la journée, l'Arabie saoudite a frappé des autocars et des camions dans le sud du Yémen, faisant 25 morts ou disparus.",
+            "title": "Un projet de loi visant à créer une commission d'enquête sur le 7-Octobre adopté à la Knesset",
+            "text": "Le Parlement israélien a adopté mercredi un projet de loi prévoyant la création d'une commission d'enquête sur les décisions prises pour la sécurité d'Israël lors des attaques du 7-Octobre 2023. Le texte a été adopté en première lecture par 65 voix contre 50, et doit maintenant faire l'objet de plusieurs débats.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261124-yemen-houthis-deplorent-25-morts-disparus-frappes-saoudiennes",
-            "publishedAt": "2026-11-24T03:30:10+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261125-isra%C3%ABl-projet-loi-visant-cr%C3%A9er-commission-enqu%C3%AAte-7-octobre-adopt%C3%A9-knesset",
+            "publishedAt": "2026-11-25T15:05:44+00:00"
           }
         ],
         "sources": [

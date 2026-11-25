@@ -1,7 +1,387 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-24",
+  "updatedAt": "2026-11-25",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-25T17:38:00+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "L’Aviation royale canadienne mise sur le F-35 associé à des drones… et non sur le Gripen E/F",
+      "url": "https://www.opex360.com/2026/11/25/laviation-royale-canadienne-mise-sur-le-f-35-associe-a-des-drones-et-non-sur-le-gripen-e-f/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Amériques",
+        "Forces aériennes",
+        "Aviation Royale Canadienne",
+        "drones de combat collaboratif",
+        "F-35A",
+        "GCAP",
+        "Gripen E/F",
+        "Lockheed Martin",
+        "projet Arrow",
+        "SAAB"
+      ],
+      "sourceExcerpt": {
+        "text": "En mars 2025, ses relations avec l’administration Trump étant glaciales, le gouvernement canadien fit savoir qu’il allait «reconsidérer» son plan…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/f35-canada-20250611.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « L’Aviation royale canadienne mise sur le F-35 associé à des drones… et non sur le Gripen E/F ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/25/laviation-royale-canadienne-mise-sur-le-f-35-associe-a-des-drones-et-non-sur-le-gripen-e-f/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/25/laviation-royale-canadienne-mise-sur-le-f-35-associe-a-des-drones-et-non-sur-le-gripen-e-f/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-25",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/f35-canada-20250611.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-25T16:55:31+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Italian Navy’s First ‘Full’ PPA Giovanni delle Bande Nere Demonstrates BMD Capabilities",
+      "url": "https://www.navalnews.com/naval-news/2026/11/italian-navy-bmd-ppa-bande-nere/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "BMD",
+        "Italian Navy",
+        "PPA"
+      ],
+      "sourceExcerpt": {
+        "text": "In a major Italian Navy BMD milestone, the first ‘Full’ MPCS/PPA Giovanni delle Bande Nere intercepted a high-speed ballistic missile…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Screenshot-2026-11-25-at-16.46.09-768x427.png",
+        "kind": "article",
+        "alt": "Italian Navy and Bande Nere first full combat MPCS/PPA demonstrate BMD capabilities",
+        "credit": ": Italian Navy)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/italian-navy-bmd-ppa-bande-nere/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/italian-navy-bmd-ppa-bande-nere/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-25",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Screenshot-2026-11-25-at-16.46.09-scaled.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-25T16:22:16+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La France et les États-Unis ont de nouveau mené une opération conjointe de signalement stratégique dans l’espace",
+      "url": "https://www.opex360.com/2026/11/25/la-france-et-les-etats-unis-ont-de-nouveau-mene-une-operation-conjointe-de-signalement-strategique-dans-lespace/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Espace",
+        "Forces aériennes",
+        "compétiteur",
+        "Etats-Unis",
+        "France",
+        "général Bellanger",
+        "Olympic Defender",
+        "Russie",
+        "signalement stratégique",
+        "Spoutnik-S"
+      ],
+      "sourceExcerpt": {
+        "text": "En 2024, des responsables américains affirmèrent que la Russie était en train de développer un système d’armes spatiales nucléaires susceptibles…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/syracuse-20151223.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La France et les États-Unis ont de nouveau mené une opération conjointe de signalement stratégique dans l’espace ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/25/la-france-et-les-etats-unis-ont-de-nouveau-mene-une-operation-conjointe-de-signalement-strategique-dans-lespace/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/25/la-france-et-les-etats-unis-ont-de-nouveau-mene-une-operation-conjointe-de-signalement-strategique-dans-lespace/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-25",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/syracuse-20151223.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-25T14:12:51+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "L’aviation canadienne imagine sa future flotte autour du F-35 et de drones fabriqués au pays, une vision qui fait craindre une dépendance…",
+      "url": "https://www.forum-militaire.fr/laviation-canadienne-imagine-sa-future-flotte-autour-du-f-35-et-de-drones-fabriques-au-pays-une-vision-qui-fait-craindre-une-dependance-durable-envers-les-etats-unis/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de l'air",
+        "avion"
+      ],
+      "sourceExcerpt": {
+        "text": "Un document de réflexion de l’Aviation royale canadienne, baptisé « Project Arrow », bâtit la future chasse du pays autour…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-25T13:52:18+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Podcast – Fonds Conflits pour le reportage",
+      "url": "https://www.revueconflits.com/podcast-fonds-conflits-pour-le-reportage/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Podcasts",
+        "Podcasts Géostratégie",
+        "Podcasts Philosophie & Littérature"
+      ],
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap23074106_000016-scaled.jpg",
+        "kind": "article",
+        "alt": "Podcast – Fonds Conflits pour le reportage",
+        "credit": "Des soldats salvadoriens à bord de véhicules blindés patrouillent dans les environs du stade Sylvio Cator, dans le centre-ville de Port-au-Prince, en Haïti, ce vendredi 13 novembre 2026. (Photo AP/Patrice Noel)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/podcast-fonds-conflits-pour-le-reportage/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/podcast-fonds-conflits-pour-le-reportage/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-25",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap23074106_000016-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-25T11:29:26+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Le Kurdistan d’Irak menacé de disparition",
+      "url": "https://www.revueconflits.com/le-kurdistan-dirak-menace-de-disparition/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Moyen-Orient",
+        "Irak"
+      ],
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/La-faillite-de-lIrak.jpg",
+        "kind": "article",
+        "alt": "Le Kurdistan d’Irak menacé de disparition",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/le-kurdistan-dirak-menace-de-disparition/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/le-kurdistan-dirak-menace-de-disparition/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-25",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/La-faillite-de-lIrak.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-25T09:49:54+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Un duel franco-allemand à plus de 5 milliards d’euros se profile sur le contrat des quatre sous-marins de la Grèce",
+      "url": "https://www.forum-militaire.fr/un-duel-franco-allemand-a-plus-de-5-milliards-deuros-se-profile-sur-le-contrat-des-quatre-sous-marins-de-la-grece/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Marines militaires",
+        "contrat",
+        "France",
+        "navire"
+      ],
+      "sourceExcerpt": {
+        "text": "À Euronaval 2026, Naval Group présentait son Blacksword Barracuda, un sous-marin d’attaque conventionnel déjà sélectionné par les Pays-Bas en mars…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-25T09:29:00+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Russia’s Grip On Crimea Much Weaker After Key Waterways Blocked",
+      "url": "https://www.navalnews.com/naval-news/2026/11/kerch-bridge-attack-sea-of-azov-crimea/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Black Sea",
+        "Crimea",
+        "Russia",
+        "Ukraine"
+      ],
+      "sourceExcerpt": {
+        "text": "Ukraine’s major attack on the Kerch Bridge, combined with a less-reported October strike on a bridge over the Don River,…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Crimea-Isolated-768x431.jpg",
+        "kind": "article",
+        "alt": "Crimea cut off by bridge attacks",
+        "credit": "Click to Enlarge. Systematic strikes on bridges over waterways have cut critical maritime routes, making it much harder for Russia to resupply forces in Crimea.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/kerch-bridge-attack-sea-of-azov-crimea/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/kerch-bridge-attack-sea-of-azov-crimea/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-25",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Crimea-Isolated.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-25T06:20:13+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Alaska : « eldorado » énergétique ?",
+      "url": "https://www.areion24.news/2026/11/25/alaska-eldorado-energetique/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Carto"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Depuis son retour à la Maison Blanche en janvier 2025, Donald Trump a engagé une offensive énergétique en Alaska, rompant…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/11/0401_USA_Alaska_Energie_2025_V3.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Alaska : « eldorado » énergétique ? ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/11/25/alaska-eldorado-energetique/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/11/25/alaska-eldorado-energetique/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-25",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/0401_USA_Alaska_Energie_2025_V3.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-25T05:00:33+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Le mythe de la route du Nord",
+      "url": "https://www.revueconflits.com/le-mythe-de-la-route-du-nord/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Mers et océans",
+        "Revue Conflits",
+        "Abonné",
+        "Arctique",
+        "mer"
+      ],
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/8-xtiandugard-husavik-3654390_1920.jpg",
+        "kind": "article",
+        "alt": "Le mythe de la route du Nord",
+        "credit": "L'Islande, l'un des axes de la route du Nord.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/le-mythe-de-la-route-du-nord/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/le-mythe-de-la-route-du-nord/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-25",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/8-xtiandugard-husavik-3654390_1920.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T22:30:03+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "£142 million Navy investment strengthens UK security and British jobs",
+      "url": "https://www.gov.uk/government/news/142-million-navy-investment-strengthens-uk-security-and-british-jobs",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "The UK’s ability to protect vital sea routes is set to be strengthened through a £142 million investment in unmanned…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/6b05b634c29db7468056bf60/s300_REMUS_620_02.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/142-million-navy-investment-strengthens-uk-security-and-british-jobs",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/142-million-navy-investment-strengthens-uk-security-and-british-jobs",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-25"
+      }
+    },
     {
       "date": "2026-11-24",
       "publishedAt": "2026-11-24T17:11:36+00:00",
@@ -112,7 +492,7 @@ window.LDV_NEWS = {
         "protection"
       ],
       "sourceExcerpt": {
-        "text": "Qu’elles émanent d’acteurs non étatiques, comme les groupes terroristes, ou d’État, y compris ceux ayant signé des traités visant à…",
+        "text": "Qu’elles émanent d’acteurs non étatiques, comme les groupes terroristes, ou d’États, y compris ceux ayant signé des traités visant à…",
         "kind": "feed-excerpt"
       },
       "imageCheckedAt": "2026-11-24T18:25:21.729395+00:00",
@@ -376,6 +756,19 @@ window.LDV_NEWS = {
         "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/08/2026-06-29-10.18.17.jpg",
         "permissionConfirmedAt": "2026-10-11"
       }
+    },
+    {
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-23T23:00:00+00:00",
+      "source": "Sénat — Défense",
+      "sourceType": "Source officielle",
+      "title": "Résilience des infrastructures critiques et renforcement de la cybersécurité - Texte n° 189",
+      "url": "https://www.senat.fr/leg/pjl26-189.html",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00"
     },
     {
       "date": "2026-11-23",
@@ -16867,7 +17260,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00"
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00"
     },
     {
       "date": "2026-10-23",
@@ -16880,7 +17273,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00"
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00"
     },
     {
       "date": "2026-10-22",
@@ -17504,7 +17897,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00"
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00"
     },
     {
       "date": "2026-10-21",
@@ -24607,7 +25000,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00"
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00"
     },
     {
       "date": "2026-10-07",
@@ -24821,10 +25214,10 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-23T18:48:38.623948+00:00"
+      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00"
     }
   ],
-  "checkedAt": "2026-11-24T18:25:14.685892+00:00",
+  "checkedAt": "2026-11-25T17:39:54.135551+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -24837,13 +25230,13 @@ window.LDV_NEWS = {
       {
         "source": "Sénat — Défense",
         "ok": true,
-        "recentItems": 0,
+        "recentItems": 1,
         "error": null
       },
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -24873,7 +25266,7 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 3,
         "error": null
       },
       {
@@ -24884,25 +25277,25 @@ window.LDV_NEWS = {
       },
       {
         "source": "Naval News",
-        "ok": false,
-        "recentItems": 0,
-        "error": "HTTP Error 503: Service Temporarily Unavailable"
+        "ok": true,
+        "recentItems": 10,
+        "error": null
       },
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 7,
+        "recentItems": 6,
         "error": null
       },
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 7,
+        "recentItems": 6,
         "error": null
       }
     ],
-    "newItems": 13,
-    "articleImages": 607,
+    "newItems": 12,
+    "articleImages": 616,
     "duplicateHeadlinesSkipped": 0
   }
 };
