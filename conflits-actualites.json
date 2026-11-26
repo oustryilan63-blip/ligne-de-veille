@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-25T17:39:54.135551+00:00",
+  "checkedAt": "2026-11-26T17:22:46.053728+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -53,10 +53,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-25T17:40:05.744814+00:00",
-        "updatedAt": "2026-11-22T22:11:21.873175+00:00",
-        "status": "unchanged",
+        "checkedAt": "2026-11-26T17:22:52.311979+00:00",
+        "updatedAt": "2026-11-26T17:22:52.311979+00:00",
+        "status": "updated",
         "paragraphs": [
+          {
+            "title": "Ukraine : l’ONU redoute un hiver glacial sous les frappes russes",
+            "text": "À l’approche de l’hiver, les attaques russes contre les infrastructures énergétiques ukrainiennes font craindre une nouvelle aggravation de la crise humanitaire. Devant le Conseil de sécurité, lundi, trois hauts responsables de l’ONU ont alerté sur les conséquences de cette escalade, qui prive des millions de personnes d’électricité, de chauffage et d’eau, tout en perturbant les exportations céréalières et en aggravant la faim bien au-delà des frontières ukrainiennes.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159891",
+            "publishedAt": "2026-11-23T12:00:00+00:00"
+          },
           {
             "title": "Valise nucléaire de Poutine : la mise en scène calculée du Kremlin",
             "text": "Une vidéo largement relayée ces deux derniers jours montre l’aide de camp de Vladimir Poutine porter la valise nucléaire en marge de la rencontre trilatérale en Chine. Une séquence authentique mise en avant par la Russie pour menacer directement les alliés de l’Ukraine.",
@@ -77,7 +85,7 @@
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",
@@ -100,7 +108,7 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-25T17:40:05.744814+00:00",
+        "checkedAt": "2026-11-26T17:22:52.311979+00:00",
         "updatedAt": "2026-11-19T16:07:12.007914+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -155,31 +163,39 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-25T17:40:05.744814+00:00",
-        "updatedAt": "2026-11-25T17:40:05.744814+00:00",
+        "checkedAt": "2026-11-26T17:22:52.311979+00:00",
+        "updatedAt": "2026-11-26T17:22:52.311979+00:00",
         "status": "updated",
         "paragraphs": [
           {
-            "title": "législatives en Israël : les tractations pour un nouveau gouvernement se poursuivent",
-            "text": "Le Parlement israélien a adopté mercredi 25 novembre un projet de loi visant à créer une commission d'enquête sur les défaillances sécuritaires précédant l'attaque du Hamas le 7 octobre 2023. Ce vote intervient en pleine tractation pour former un gouvernement mené par M. Eisenkot, qui s'efforce, avant même d'y parvenir, de livrer une bataille législative contre M. Netanyahu et son héritage.",
+            "title": "Gaza : Israël menace de déplacer un million de Palestiniens si le Hamas ne désarme pas",
+            "text": "Jeudi, le ministre israélien de la Défense, Israël Katz, a brandi la menace d'un nouveau déplacement massif de la population dans la bande de Gaza. Un million de Palestiniens pourraient être expulsés vers le sud du territoire si le Hamas ne dépose pas les armes, précise-t-il, conformément aux exigences du plan américain.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261125-l%C3%A9gislatives-en-isra%C3%ABl-les-tractations-pour-un-nouveau-gouvernement-se-poursuivent",
-            "publishedAt": "2026-11-25T15:19:06+00:00"
+            "url": "https://www.france24.com/fr/moyen-orient/20261126-gaza-isra%C3%ABl-menace-de-d%C3%A9placer-un-million-de-palestiniens-si-le-hamas-ne-d%C3%A9sarme-pas",
+            "publishedAt": "2026-11-26T12:39:19+00:00"
           },
           {
-            "title": "Un projet de loi visant à créer une commission d'enquête sur le 7-Octobre adopté à la Knesset",
-            "text": "Le Parlement israélien a adopté mercredi un projet de loi prévoyant la création d'une commission d'enquête sur les décisions prises pour la sécurité d'Israël lors des attaques du 7-Octobre 2023. Le texte a été adopté en première lecture par 65 voix contre 50, et doit maintenant faire l'objet de plusieurs débats.",
+            "title": "Israël : la Knesset adopte un projet de loi pour une comission d'enquête sur le 7 Octobre",
+            "text": "Le Parlement israélien a adopté mercredi 25 novembre en lecture préliminaire un projet de loi visant à créer une commission d'enquête sur les défaillances sécuritaires ayant précédé l'attaque du Hamas le 7 octobre 2023, à laquelle Benjamin Netanyahu s'est toujours opposé. Une annonce qui a été accueillie par les applaudissements de proches des victimes.",
             "truncated": false,
             "source": "France 24",
-            "url": "https://www.france24.com/fr/moyen-orient/20261125-isra%C3%ABl-projet-loi-visant-cr%C3%A9er-commission-enqu%C3%AAte-7-octobre-adopt%C3%A9-knesset",
-            "publishedAt": "2026-11-25T15:05:44+00:00"
+            "url": "https://www.france24.com/fr/vid%C3%A9o/20261126-isra%C3%ABl-la-knesset-adopte-un-projet-de-loi-pour-une-comission-d-enqu%C3%AAte-sur-le-7-octobre",
+            "publishedAt": "2026-11-26T10:27:07+00:00"
+          },
+          {
+            "title": "Yémen : à Taëz, la guerre bloque les vaccins et menace des centaines de milliers d’enfants",
+            "text": "En visite au Yémen, le chef de l'humanitaire de l’ONU, Tom Fletcher, a appelé à garantir un accès sûr et durable aux populations civiles, prises au piège de la reprise des combats et des déplacements forcés. Il a notamment tiré la sonnette d’alarme sur la situation à Taëz, où l’insécurité bloque l’acheminement des vaccins et expose des centaines de milliers d’enfants au risque d’épidémies.",
+            "truncated": false,
+            "source": "ONU Info",
+            "url": "https://news.un.org/feed/view/fr/story/2026/11/1159905",
+            "publishedAt": "2026-11-25T12:00:00+00:00"
           }
         ],
         "sources": [
           {
             "source": "ONU Info",
-            "ok": false
+            "ok": true
           },
           {
             "source": "France 24",

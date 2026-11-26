@@ -1,7 +1,425 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-25",
+  "updatedAt": "2026-11-26",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-26T17:18:13+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Londres investit environ 10 milliards d’euros pour améliorer la disponibilité de ses sous-marins nucléaires",
+      "url": "https://www.opex360.com/2026/11/26/londres-investit-10-milliards-deuros-pour-ameliorer-la-disponibilite-de-ses-sous-marins-nucleaires/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces navales",
+        "Astute",
+        "Babcock",
+        "disponibilité",
+        "Dissuasion",
+        "Gateway",
+        "MCO",
+        "Royal Navy",
+        "Royaume-Uni",
+        "SNA",
+        "snle"
+      ],
+      "sourceExcerpt": {
+        "text": "L’un des dossiers prioritaires du général Gwyn Jenkins, le chef d’état-major de la Royal Navy, concerne la disponibilité des six…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-26T17:22:50.320891+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/astute-20250127.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Londres investit environ 10 milliards d’euros pour améliorer la disponibilité de ses sous-marins nucléaires ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/26/londres-investit-10-milliards-deuros-pour-ameliorer-la-disponibilite-de-ses-sous-marins-nucleaires/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/26/londres-investit-10-milliards-deuros-pour-ameliorer-la-disponibilite-de-ses-sous-marins-nucleaires/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-26",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/astute-20250127.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-26T15:45:19+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "La Finlande commande 160 véhicules de combat d’infanterie CV90 MKIV Nordic Edition pour 2,8 milliards d’euros",
+      "url": "https://www.opex360.com/2026/11/26/la-finlande-commande-160-vehicules-de-combat-dinfanterie-cv90-mkiv-nordic-edition-pour-28-milliards-deuros/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Forces terrestres",
+        "Otan",
+        "achat conjoint",
+        "armée finlandaise",
+        "BAE Systems Hägglunds AB",
+        "CV90",
+        "Finlande",
+        "SAFE",
+        "véhicule de combat d'infanterie"
+      ],
+      "sourceExcerpt": {
+        "text": "Héritage de la politique de stricte neutralité entre les blocs de l’Ouest et de l’Est menée par Helsinki durant la…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-26T17:22:50.320891+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/cv90-20261126.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « La Finlande commande 160 véhicules de combat d’infanterie CV90 MKIV Nordic Edition pour 2,8 milliards d’euros ».",
+        "credit": "BAE Systems",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/26/la-finlande-commande-160-vehicules-de-combat-dinfanterie-cv90-mkiv-nordic-edition-pour-28-milliards-deuros/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/26/la-finlande-commande-160-vehicules-de-combat-dinfanterie-cv90-mkiv-nordic-edition-pour-28-milliards-deuros/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-26",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/cv90-20261126.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-26T15:40:15+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "French Startup Arsenals Unveils Modular AUV Designed for Rapid Production",
+      "url": "https://www.navalnews.com/naval-news/2026/11/euronaval-2026-french-startup-arsenals-unveils-modular-auv/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Euronaval 2026",
+        "News",
+        "Arsenals",
+        "AUV"
+      ],
+      "sourceExcerpt": {
+        "text": "At Euronaval 2026 in Paris, Naval News spoke with Bastien Allanot, CEO and Co-Founder of French defense startup Arsenals, about…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-26T17:22:50.320891+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Arsenals-Unveils-Modular-AUV-Designed-for-Rapid-Production.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « French Startup Arsenals Unveils Modular AUV Designed for Rapid Production ».",
+        "credit": "Arsenals Unveils Modular AUV Designed for Rapid Production",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/euronaval-2026-french-startup-arsenals-unveils-modular-auv/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/euronaval-2026-french-startup-arsenals-unveils-modular-auv/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-26",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Arsenals-Unveils-Modular-AUV-Designed-for-Rapid-Production.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-26T14:09:34+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "UK MOD Awards Babcock Record £8.7B ‘Gateway’ Submarine Support Deal",
+      "url": "https://www.navalnews.com/naval-news/2026/11/uk-mod-awards-babcock-record-8-7b-gateway-submarine-support-deal/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Babcock",
+        "Maintenance",
+        "Royal Navy",
+        "Submarine"
+      ],
+      "sourceExcerpt": {
+        "text": "Babcock has signed a record £8.7 billion Gateway Agreement with the UK Ministry of Defence to succeed the Future Maritime…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-26T17:22:50.320891+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/230025_05-1920x1040-1-768x416.jpg",
+        "kind": "article",
+        "alt": "UK MOD Awards Babcock Record £8.7B ‘Gateway’ Submarine Support Deal",
+        "credit": "Babcock image",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/uk-mod-awards-babcock-record-8-7b-gateway-submarine-support-deal/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/uk-mod-awards-babcock-record-8-7b-gateway-submarine-support-deal/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-26",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/230025_05-1920x1040-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-26T13:57:24+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "La Chine double la Russie en Afrique, et le symbole est cruel : son char à bas coût n’est autre qu’un vieux modèle soviétique refait",
+      "url": "https://www.forum-militaire.fr/la-chine-double-la-russie-en-afrique-et-le-symbole-est-cruel-son-char-a-bas-cout-nest-autre-quun-vieux-modele-sovietique-refait/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "char"
+      ],
+      "sourceExcerpt": {
+        "text": "Une photo non vérifiée, publiée sur Weibo, montre en livrée désert le T-72 profondément remanié par le groupe chinois Norinco,…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-26T13:52:42+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Livraison à domicile et cocaïne à foison, les tendances 2025 des usages de drogue en France",
+      "url": "https://www.revueconflits.com/livraison-a-domicile-et-cocaine-a-foison-les-tendances-2025-des-usages-de-drogue-en-france/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Criminalité et terrorisme",
+        "Géopolitique de la France",
+        "Abonné",
+        "Chemins de France",
+        "Drogue",
+        "Trafic de drogue"
+      ],
+      "imageCheckedAt": "2026-11-26T17:22:50.320891+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2025/07/Couverture-conflits-drogue-juillet-25-scaled.jpg",
+        "kind": "article",
+        "alt": "Livraison à domicile et cocaïne à foison, les tendances 2025 des usages de drogue en France",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/livraison-a-domicile-et-cocaine-a-foison-les-tendances-2025-des-usages-de-drogue-en-france/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/livraison-a-domicile-et-cocaine-a-foison-les-tendances-2025-des-usages-de-drogue-en-france/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-26",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2025/07/Couverture-conflits-drogue-juillet-25-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-26T10:51:29+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Un missile balistique « manoeuvrant » et « à coût raisonnable » dans le viseur de la DGA",
+      "url": "https://forcesoperations.com/un-missile-balistique-manoeuvrant-et-a-cout-raisonnable-dans-le-viseur-de-la-dga/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "ArianeGroup",
+        "armée de terre",
+        "Missile Balistique Terrestre"
+      ],
+      "sourceExcerpt": {
+        "text": "Une tête manoeuvrante, une ouverture aux partenariats et le tout à coût raisonnable. Quelques grandes lignes de force se font…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-26T17:22:50.320891+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/11/Un-missile-balistique-manoeuvrant-et-a-cout-raisonnable-dans-le-viseur-de-la-DGA_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Un missile balistique « manoeuvrant » et « à coût raisonnable » dans le viseur de la DGA ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/un-missile-balistique-manoeuvrant-et-a-cout-raisonnable-dans-le-viseur-de-la-dga/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/un-missile-balistique-manoeuvrant-et-a-cout-raisonnable-dans-le-viseur-de-la-dga/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-26",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/11/Un-missile-balistique-manoeuvrant-et-a-cout-raisonnable-dans-le-viseur-de-la-DGA_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-26T07:11:04+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "137 Rafale, 41 A400M et 15 Phénix : voilà à quoi ressemblera l’armée de l’Air française en 2030",
+      "url": "https://www.forum-militaire.fr/137-rafale-41-a400m-et-15-phenix-voila-a-quoi-ressemblera-larmee-de-lair-francaise-en-2030/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "avion"
+      ],
+      "sourceExcerpt": {
+        "text": "Le 18 novembre 2026, la base aérienne 123 d’Orléans-Bricy a réceptionné le 27e A400M Atlas de l’armée de l’Air et…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-26T07:01:00+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "Major £8 billion investment to upgrade UK nuclear submarine availability and warfighting readiness",
+      "url": "https://www.gov.uk/government/news/major-8-billion-investment-to-upgrade-uk-nuclear-submarine-availability-and-warfighting-readiness",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "Royal Navy submarines will get back to sea faster under a new multi-billion contract to improve their maintenance, strengthening the…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-26T17:22:50.320891+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/major-8-billion-investment-to-upgrade-uk-nuclear-submarine-availability-and-warfighting-readiness",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/major-8-billion-investment-to-upgrade-uk-nuclear-submarine-availability-and-warfighting-readiness",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-26"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-26T06:45:21+00:00",
+      "source": "Areion — Géopolitique",
+      "sourceType": "Presse spécialisée",
+      "title": "Les alliances de l’ombre de la Russie en Amérique latine",
+      "url": "https://www.areion24.news/2026/11/26/les-alliances-de-lombre-de-la-russie-en-amerique-latine/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Areion — Géopolitique. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Magazine Les Grands Dossiers de Diplomatie"
+      ],
+      "themes": [
+        "Géopolitique"
+      ],
+      "sourceExcerpt": {
+        "text": "Si l’Amérique latine est aujourd’hui devenue un terrain d’expérimentation privilégié pour la guerre hybride menée par Moscou, c’est en combinant…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-26T17:22:50.320891+00:00",
+      "image": {
+        "src": "https://www.areion24.news/wp-content/uploads/2026/11/shutterstock_2640924531.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Les alliances de l’ombre de la Russie en Amérique latine ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.areion24.news/2026/11/26/les-alliances-de-lombre-de-la-russie-en-amerique-latine/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.areion24.news/2026/11/26/les-alliances-de-lombre-de-la-russie-en-amerique-latine/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-26",
+        "assetUrl": "https://www.areion24.news/wp-content/uploads/2026/11/shutterstock_2640924531.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-26T05:37:10+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Conflits crée un Fonds pour le grand reportage",
+      "url": "https://www.revueconflits.com/conflits-cree-un-fonds-pour-le-grand-reportage/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Revue Conflits",
+        "Reportage"
+      ],
+      "imageCheckedAt": "2026-11-26T17:22:50.320891+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/1154100-scaled.jpg",
+        "kind": "article",
+        "alt": "Conflits crée un Fonds pour le grand reportage",
+        "credit": "Un soldat ukrainien à Sloviansk, novembre 2026. Photo : Murray Wegeler.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/conflits-cree-un-fonds-pour-le-grand-reportage/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/conflits-cree-un-fonds-pour-le-grand-reportage/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-26",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/1154100-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-26T03:27:30+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "La Côte d’Ivoire veut mobiliser sa diaspora pour le développement économique du pays",
+      "url": "https://www.revueconflits.com/la-cote-divoire-veut-mobiliser-sa-diaspora-pour-le-developpement-economique-du-pays/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Afrique",
+        "Côte d'Ivoire"
+      ],
+      "imageCheckedAt": "2026-11-26T17:22:50.320891+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2024/12/SIPA_01141923_000005-scaled.jpg",
+        "kind": "article",
+        "alt": "La Côte d’Ivoire veut mobiliser sa diaspora pour le développement économique du pays",
+        "credit": "Le port d'Abidjan. Credit:CHINE NOUVELLE/SIPA/2401150902",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/la-cote-divoire-veut-mobiliser-sa-diaspora-pour-le-developpement-economique-du-pays/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/la-cote-divoire-veut-mobiliser-sa-diaspora-pour-le-developpement-economique-du-pays/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-26",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2024/12/SIPA_01141923_000005-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-25",
       "publishedAt": "2026-11-25T17:38:00+00:00",
@@ -2136,7 +2554,7 @@ window.LDV_NEWS = {
         "text": "Après la Belgique la semaine dernière et la Roumanie le mois dernier, au tour de la Suisse de se tourner…",
         "kind": "feed-excerpt"
       },
-      "imageCheckedAt": "2026-11-24T18:25:21.729395+00:00"
+      "imageCheckedAt": "2026-11-26T17:22:50.320891+00:00"
     },
     {
       "date": "2026-11-20",
@@ -25217,7 +25635,7 @@ window.LDV_NEWS = {
       "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00"
     }
   ],
-  "checkedAt": "2026-11-25T17:39:54.135551+00:00",
+  "checkedAt": "2026-11-26T17:22:46.053728+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -25266,7 +25684,7 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 3,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -25284,18 +25702,18 @@ window.LDV_NEWS = {
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 7,
         "error": null
       },
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 6,
+        "recentItems": 5,
         "error": null
       }
     ],
     "newItems": 12,
-    "articleImages": 616,
+    "articleImages": 626,
     "duplicateHeadlinesSkipped": 0
   }
 };
