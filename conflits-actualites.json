@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-26T17:22:46.053728+00:00",
+  "checkedAt": "2026-11-27T17:01:36.981462+00:00",
   "windowDays": 14,
   "schedule": {
     "times": [
@@ -10,9 +10,11 @@
     "timezone": "Europe/Paris"
   },
   "coverage": {
-    "ok": 11,
+    "ok": 10,
     "total": 11,
-    "unavailable": []
+    "unavailable": [
+      "Sénat — Défense"
+    ]
   },
   "topics": {
     "ukraine-guerre-enjeux": {
@@ -53,10 +55,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-26T17:22:52.311979+00:00",
-        "updatedAt": "2026-11-26T17:22:52.311979+00:00",
+        "checkedAt": "2026-11-27T17:03:21.914001+00:00",
+        "updatedAt": "2026-11-27T17:03:21.914001+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "De l’Ukraine à la Corée au Nord : le camp Songdowon mêlé au scandale des enfants déportés",
+            "text": "La Corée du Nord a expulsé l’attaché diplomatique suisse à Pyongyang en réponse à la décision de Berne de sanctionner un camp pour enfants accusé d’aider la Russie dans son programme de déportation et de rééducation forcée d’enfants ukrainiens. L’UE et le Royaume-Uni ont également pris des sanctions contre ce centre géré par le régime nord-coréen, l'un des principaux alliés de la Russie dans sa guerre en Ukraine.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/asie-pacifique/20261126-de-l-ukraine-a-la-coree-au-nord-le-camp-songdowon-m%C3%AAl%C3%A9-au-scandale-des-enfants-deportes",
+            "publishedAt": "2026-11-26T17:38:11+00:00"
+          },
           {
             "title": "Ukraine : l’ONU redoute un hiver glacial sous les frappes russes",
             "text": "À l’approche de l’hiver, les attaques russes contre les infrastructures énergétiques ukrainiennes font craindre une nouvelle aggravation de la crise humanitaire. Devant le Conseil de sécurité, lundi, trois hauts responsables de l’ONU ont alerté sur les conséquences de cette escalade, qui prive des millions de personnes d’électricité, de chauffage et d’eau, tout en perturbant les exportations céréalières et en aggravant la faim bien au-delà des frontières ukrainiennes.",
@@ -64,14 +74,6 @@
             "source": "ONU Info",
             "url": "https://news.un.org/feed/view/fr/story/2026/11/1159891",
             "publishedAt": "2026-11-23T12:00:00+00:00"
-          },
-          {
-            "title": "Valise nucléaire de Poutine : la mise en scène calculée du Kremlin",
-            "text": "Une vidéo largement relayée ces deux derniers jours montre l’aide de camp de Vladimir Poutine porter la valise nucléaire en marge de la rencontre trilatérale en Chine. Une séquence authentique mise en avant par la Russie pour menacer directement les alliés de l’Ukraine.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20261120-valise-nucl%C3%A9aire-de-poutine-la-mise-en-sc%C3%A8ne-calcul%C3%A9e-du-kremlin",
-            "publishedAt": "2026-11-20T21:31:51+00:00"
           },
           {
             "title": "Sommet de Shenzhen, guerre en Ukraine, hostilités dans le Golfe",
@@ -95,20 +97,11 @@
       }
     },
     "taiwan-detroit-tensions": {
-      "changedAt": "2026-11-13T22:16:28.865404+00:00",
-      "items": [
-        {
-          "title": "Naval Unmanned Systems Showcased at Taiwan’s Marine Tech Show",
-          "url": "https://www.navalnews.com/naval-news/2026/11/naval-unmanned-systems-showcased-at-taiwans-marine-tech-show/",
-          "source": "Naval News",
-          "sourceType": "Presse spécialisée",
-          "publishedAt": "2026-11-13T06:29:00+00:00",
-          "language": "en"
-        }
-      ],
+      "changedAt": "2026-11-27T17:01:36.981462+00:00",
+      "items": [],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-26T17:22:52.311979+00:00",
+        "checkedAt": "2026-11-27T17:03:21.914001+00:00",
         "updatedAt": "2026-11-19T16:07:12.007914+00:00",
         "status": "unchanged",
         "paragraphs": [
@@ -163,10 +156,18 @@
       ],
       "digest": {
         "method": "publisher-excerpts",
-        "checkedAt": "2026-11-26T17:22:52.311979+00:00",
-        "updatedAt": "2026-11-26T17:22:52.311979+00:00",
+        "checkedAt": "2026-11-27T17:03:21.914001+00:00",
+        "updatedAt": "2026-11-27T17:03:21.914001+00:00",
         "status": "updated",
         "paragraphs": [
+          {
+            "title": "Ligue Europa : une banderole pro-palestinienne provoque des heurts et un incident diplomatique",
+            "text": "La Turquie a annoncé vendredi 27 novembre, avoir convoqué l'ambassadeur de Géorgie, au lendemain des incidents lors du match opposant le club d'Istanbul à l'Hapoel Beer-Sheva israélien. D'après des images diffusées pendant la rencontre, des supporters de Beşiktaş ont brandi une banderole en soutien à la Palestine et ont scandé des slogans anti-israéliens avant l'intervention de la police, provoquant l'hospitalisation d'au moins cinq supporters.",
+            "truncated": false,
+            "source": "France 24",
+            "url": "https://www.france24.com/fr/vid%C3%A9o/20261127-ligue-europa-une-banderole-pro-palestinienne-provoque-des-heurts-et-un-incident-diplomatique",
+            "publishedAt": "2026-11-27T15:41:10+00:00"
+          },
           {
             "title": "Gaza : Israël menace de déplacer un million de Palestiniens si le Hamas ne désarme pas",
             "text": "Jeudi, le ministre israélien de la Défense, Israël Katz, a brandi la menace d'un nouveau déplacement massif de la population dans la bande de Gaza. Un million de Palestiniens pourraient être expulsés vers le sud du territoire si le Hamas ne dépose pas les armes, précise-t-il, conformément aux exigences du plan américain.",
@@ -174,14 +175,6 @@
             "source": "France 24",
             "url": "https://www.france24.com/fr/moyen-orient/20261126-gaza-isra%C3%ABl-menace-de-d%C3%A9placer-un-million-de-palestiniens-si-le-hamas-ne-d%C3%A9sarme-pas",
             "publishedAt": "2026-11-26T12:39:19+00:00"
-          },
-          {
-            "title": "Israël : la Knesset adopte un projet de loi pour une comission d'enquête sur le 7 Octobre",
-            "text": "Le Parlement israélien a adopté mercredi 25 novembre en lecture préliminaire un projet de loi visant à créer une commission d'enquête sur les défaillances sécuritaires ayant précédé l'attaque du Hamas le 7 octobre 2023, à laquelle Benjamin Netanyahu s'est toujours opposé. Une annonce qui a été accueillie par les applaudissements de proches des victimes.",
-            "truncated": false,
-            "source": "France 24",
-            "url": "https://www.france24.com/fr/vid%C3%A9o/20261126-isra%C3%ABl-la-knesset-adopte-un-projet-de-loi-pour-une-comission-d-enqu%C3%AAte-sur-le-7-octobre",
-            "publishedAt": "2026-11-26T10:27:07+00:00"
           },
           {
             "title": "Yémen : à Taëz, la guerre bloque les vaccins et menace des centaines de milliers d’enfants",

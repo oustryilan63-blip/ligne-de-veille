@@ -1,7 +1,389 @@
 window.LDV_NEWS = {
-  "updatedAt": "2026-11-26",
+  "updatedAt": "2026-11-27",
   "correctionsEmail": "oustryilan64@gmail.com",
   "items": [
+    {
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T17:00:21+00:00",
+      "source": "Forces Operations Blog",
+      "sourceType": "Presse spécialisée",
+      "title": "Un contrat espéré en 2028 pour la défense sol-air luxembourgeoise",
+      "url": "https://forcesoperations.com/un-contrat-espere-en-2028-pour-la-defense-sol-air-luxembourgeoise/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forces Operations Blog. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualités",
+        "défense sol-air",
+        "Eurosam",
+        "Grand-Duché de Luxembourg",
+        "SAMP/T NG"
+      ],
+      "sourceExcerpt": {
+        "text": "C'est l'un des principaux objectifs capacitaires que s'est fixé le Grand-Duché de Luxembourg : l'acquisition d'une capacité de défense aérienne…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00",
+      "image": {
+        "src": "https://forcesoperations.com/wp-content/uploads/2026/10/Une-rallonge-de-systemes-SAMPT-NG-enfin-actee-par-la-France_001-394x218.png",
+        "kind": "article",
+        "alt": "Image principale de l’article « Un contrat espéré en 2028 pour la défense sol-air luxembourgeoise ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://forcesoperations.com/un-contrat-espere-en-2028-pour-la-defense-sol-air-luxembourgeoise/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://forcesoperations.com/un-contrat-espere-en-2028-pour-la-defense-sol-air-luxembourgeoise/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-27",
+        "assetUrl": "https://forcesoperations.com/wp-content/uploads/2026/10/Une-rallonge-de-systemes-SAMPT-NG-enfin-actee-par-la-France_001-394x218.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T15:43:36+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le Danemark retient le système de commandement et de contrôle SAMOC d’Airbus pour coordonner sa défense aérienne",
+      "url": "https://www.opex360.com/2026/11/27/le-danemark-retient-le-systeme-de-commandement-et-de-controle-samoc-dairbus-pour-coordonner-sa-defense-aerienne/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Défense antimissile",
+        "Europe",
+        "Industrie",
+        "Airbus Defence & Space",
+        "C2",
+        "Commandement et Contrôle",
+        "Danemark",
+        "défense aérienne",
+        "FMI",
+        "IRIS-T SLM",
+        "NASAMS",
+        "SAMOC"
+      ],
+      "sourceExcerpt": {
+        "text": "Ces derniers mois, grâce à une enveloppe de près de 7,8 milliards d’euros, le Danemark a entrepris de renouveler ses…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/samoc-20261127.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le Danemark retient le système de commandement et de contrôle SAMOC d’Airbus pour coordonner sa défense aérienne ».",
+        "credit": "Crédit non indiqué par l’éditeur",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/27/le-danemark-retient-le-systeme-de-commandement-et-de-controle-samoc-dairbus-pour-coordonner-sa-defense-aerienne/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/27/le-danemark-retient-le-systeme-de-commandement-et-de-controle-samoc-dairbus-pour-coordonner-sa-defense-aerienne/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-27",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/samoc-20261127.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T15:41:33+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "The seat is almost taken: Spain steps into the ECB game",
+      "url": "https://www.revueconflits.com/the-seat-is-almost-taken-spain-steps-into-the-ecb-game/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Conflits in English",
+        "Abonné",
+        "Espagne",
+        "Union européenne"
+      ],
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap22990855_000010-scaled.jpg",
+        "kind": "article",
+        "alt": "The seat is almost taken: Spain steps into the ECB game",
+        "credit": "Pablo Hernández de Cos, general manager (AP Photo/Jose Luis Magana)/DCJL111/25290616236227//2510171912",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/the-seat-is-almost-taken-spain-steps-into-the-ecb-game/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/the-seat-is-almost-taken-spain-steps-into-the-ecb-game/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-27",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap22990855_000010-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T14:47:28+00:00",
+      "source": "Ministère britannique de la Défense",
+      "sourceType": "Source officielle",
+      "title": "MoD launches new website to help small businesses access Defence & industry testing ranges for innovative new kit",
+      "url": "https://www.gov.uk/government/news/mod-launches-new-website-to-help-small-businesses-access-defence-industry-testing-ranges-for-innovative-new-kit",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Ministère britannique de la Défense. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "sourceExcerpt": {
+        "text": "MOD launches Test and Evaluation Marketplace, a single online portal to help businesses test their tech faster.",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00",
+      "image": {
+        "src": "https://assets.publishing.service.gov.uk/media/63495d468fa8f5346732690e/s300_ministry-of-defence-building.jpg",
+        "kind": "article",
+        "alt": "Image fournie avec cette publication par le ministère britannique de la Défense.",
+        "credit": "Ministry of Defence / Crown copyright",
+        "license": "OGL v3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "sourceUrl": "https://www.gov.uk/government/news/mod-launches-new-website-to-help-small-businesses-access-defence-industry-testing-ranges-for-innovative-new-kit",
+        "provider": "gov-uk",
+        "rightsUrl": "https://www.gov.uk/government/news/mod-launches-new-website-to-help-small-businesses-access-defence-industry-testing-ranges-for-innovative-new-kit",
+        "evidence": "official-editorial-lead",
+        "checkedAt": "2026-11-27"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T14:37:31+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "Les États-Unis ont enfin un missile hypersonique prêt au combat, mais ont renoncé à l’envoyer en Allemagne, et la France n’en est qu’aux…",
+      "url": "https://www.forum-militaire.fr/les-etats-unis-ont-enfin-un-missile-hypersonique-pret-au-combat-mais-ont-renonce-a-lenvoyer-en-allemagne-et-la-france-nen-est-quaux-essais-le-dark-eagle/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées",
+        "Armées de terre",
+        "missile"
+      ],
+      "sourceExcerpt": {
+        "text": "L’armée de Terre américaine déclare prête au combat sa première batterie de Dark Eagle, un missile hypersonique de 2 775…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T13:00:41+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Au coeur des services secrets : entretien avec Jean-Christophe Notin",
+      "url": "https://www.revueconflits.com/au-coeur-des-services-secrets-entretien-avec-jean-christophe-notin/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Entretien",
+        "Géopolitique de la France",
+        "Histoire",
+        "Abonné",
+        "France"
+      ],
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/Surveillance-rouge-sur-le-quai-de-metro.png",
+        "kind": "article",
+        "alt": "Au coeur des services secrets : entretien avec Jean-Christophe Notin",
+        "credit": "(C) Conflits.",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/au-coeur-des-services-secrets-entretien-avec-jean-christophe-notin/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/au-coeur-des-services-secrets-entretien-avec-jean-christophe-notin/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-27",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/Surveillance-rouge-sur-le-quai-de-metro.png",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T12:07:15+00:00",
+      "source": "Zone Militaire — Opex360",
+      "sourceType": "Presse spécialisée",
+      "title": "Le ministère des armées intègre un volet «lutte antidrone» au pacte «drones aériens de défense» de la DGA",
+      "url": "https://www.opex360.com/2026/11/27/le-ministere-des-armees-integre-un-volet-lutte-antidrone-au-pacte-drones-aeriens-de-defense-de-la-dga/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Zone Militaire — Opex360. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "DGA",
+        "Industrie",
+        "CeRLAD",
+        "Direction générale de l'armement",
+        "drones aériens de défense",
+        "industrie",
+        "lutte antidrone",
+        "pacte"
+      ],
+      "sourceExcerpt": {
+        "text": "Lors de l’édition 2024 du salon de l’armement aéroterrestre EuroSatory, le ministère des Armées avait lancé, à l’initiative de la…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00",
+      "image": {
+        "src": "https://www.opex360.com/wp-content/uploads/proteus-20250125.jpg",
+        "kind": "article",
+        "alt": "Image principale de l’article « Le ministère des armées intègre un volet «lutte antidrone» au pacte «drones aériens de défense» de la DGA ».",
+        "credit": "Système PROTEUS, développé par la Section technique de l’armée de Terre",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.opex360.com/2026/11/27/le-ministere-des-armees-integre-un-volet-lutte-antidrone-au-pacte-drones-aeriens-de-defense-de-la-dga/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.opex360.com/2026/11/27/le-ministere-des-armees-integre-un-volet-lutte-antidrone-au-pacte-drones-aeriens-de-defense-de-la-dga/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-27",
+        "assetUrl": "https://www.opex360.com/wp-content/uploads/proteus-20250125.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T09:29:05+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Photos Show Apparent Stern Block of Japan’s Second ASEV",
+      "url": "https://www.navalnews.com/naval-news/2026/11/photos-apparent-stern-block-japans-second-asev/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "ASEV",
+        "Japan Marine United",
+        "JMSDF"
+      ],
+      "sourceExcerpt": {
+        "text": "New photos from JMU’s Isogo shipyard in Yokohama show a large hull block believed to be the stern section of…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/Photo-1-1-768x432.jpg",
+        "kind": "article",
+        "alt": "Photos Show Apparent Stern Block of Japan’s Second ASEV",
+        "credit": "AGC Hatch)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/photos-apparent-stern-block-japans-second-asev/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/photos-apparent-stern-block-japans-second-asev/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-27",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/Photo-1-1.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T09:02:29+00:00",
+      "source": "Forum Militaire",
+      "sourceType": "Presse spécialisée",
+      "title": "« La doctrine Macron » dans la dissuasion nucléaire française commence à se confirmer avec encore un exercice mêlant Rafale français et…",
+      "url": "https://www.forum-militaire.fr/la-doctrine-macron-dans-la-dissuasion-nucleaire-francaise-commence-a-se-confirmer-avec-encore-un-exercice-melant-rafale-francais-et-gripen-suedois-excalibur/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Forum Militaire. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Actualité",
+        "Actualité internationale",
+        "Armées de l'air",
+        "avion",
+        "France"
+      ],
+      "sourceExcerpt": {
+        "text": "Du 16 au 18 novembre 2026, dans le ciel du nord de la Suède, les Rafale biplaces de la 4e…",
+        "kind": "feed-excerpt"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T07:39:18+00:00",
+      "source": "Revue Conflits",
+      "sourceType": "Presse spécialisée",
+      "title": "Pablo Hernandez de Cos nouveau directeur de la BCE",
+      "url": "https://www.revueconflits.com/pablo-hernandez-de-cos-nouveau-directeur-de-la-bce/",
+      "language": "fr",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Revue Conflits. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "Europe",
+        "Abonné",
+        "Espagne",
+        "Union européenne"
+      ],
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00",
+      "image": {
+        "src": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap22990855_000010-scaled.jpg",
+        "kind": "article",
+        "alt": "Pablo Hernandez de Cos nouveau directeur de la BCE",
+        "credit": "Pablo Hernández de Cos, general manager (AP Photo/Jose Luis Magana)/DCJL111/25290616236227//2510171912",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.revueconflits.com/pablo-hernandez-de-cos-nouveau-directeur-de-la-bce/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.revueconflits.com/pablo-hernandez-de-cos-nouveau-directeur-de-la-bce/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-27",
+        "assetUrl": "https://www.revueconflits.com/wp-content/uploads/2026/11/SIPA_ap22990855_000010-scaled.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T06:58:00+00:00",
+      "source": "Naval News",
+      "sourceType": "Presse spécialisée",
+      "title": "Fincantieri signs contract to construct the 3rd LSS for the Italian Navy",
+      "url": "https://www.navalnews.com/naval-news/2026/11/fincantieri-signs-contract-to-construct-the-3rd-lss-for-the-italian-navy/",
+      "language": "en",
+      "autoCollected": true,
+      "summary": "Publication repérée dans le flux de Naval News. Consultez le site d’origine pour lire le contenu complet.",
+      "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
+      "publisherCategories": [
+        "News",
+        "Fincantieri",
+        "Italian Navy",
+        "LSS"
+      ],
+      "sourceExcerpt": {
+        "text": "The Temporary Grouping of Companies (RTI), led by Fincantieri with the participation of Leonardo, has signed an amendment to the…",
+        "kind": "feed-excerpt"
+      },
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00",
+      "image": {
+        "src": "https://www.navalnews.com/wp-content/uploads/2026/11/LSS_1176x650-768x424.jpg",
+        "kind": "article",
+        "alt": "Fincantieri signs contract to construct the 3rd LSS for the Italian Navy",
+        "credit": "Fincantieri)",
+        "license": "Republication autorisée",
+        "licenseUrl": "https://github.com/oustryilan63-blip/ligne-de-veille/blob/main/README.md#autorisations-des-images-dactualit%C3%A9",
+        "sourceUrl": "https://www.navalnews.com/naval-news/2026/11/fincantieri-signs-contract-to-construct-the-3rd-lss-for-the-italian-navy/",
+        "provider": "publisher-permission",
+        "rightsUrl": "https://www.navalnews.com/naval-news/2026/11/fincantieri-signs-contract-to-construct-the-3rd-lss-for-the-italian-navy/",
+        "evidence": "user-confirmed-publisher-permission",
+        "checkedAt": "2026-11-27",
+        "assetUrl": "https://www.navalnews.com/wp-content/uploads/2026/11/LSS_1176x650.jpg",
+        "permissionConfirmedAt": "2026-10-11"
+      }
+    },
     {
       "date": "2026-11-26",
       "publishedAt": "2026-11-26T17:18:13+00:00",
@@ -1186,7 +1568,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00"
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00"
     },
     {
       "date": "2026-11-23",
@@ -17678,7 +18060,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00"
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00"
     },
     {
       "date": "2026-10-23",
@@ -17691,7 +18073,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00"
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00"
     },
     {
       "date": "2026-10-22",
@@ -18315,7 +18697,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00"
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00"
     },
     {
       "date": "2026-10-21",
@@ -25418,7 +25800,7 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00"
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00"
     },
     {
       "date": "2026-10-07",
@@ -25632,10 +26014,10 @@ window.LDV_NEWS = {
       "autoCollected": true,
       "summary": "Publication repérée dans le flux de Sénat — Défense. Consultez le site d’origine pour lire le contenu complet.",
       "why": "Document original accessible chez son éditeur ; titre et date transmis par son flux.",
-      "imageCheckedAt": "2026-11-25T17:39:59.968832+00:00"
+      "imageCheckedAt": "2026-11-27T17:02:05.166442+00:00"
     }
   ],
-  "checkedAt": "2026-11-26T17:22:46.053728+00:00",
+  "checkedAt": "2026-11-27T17:01:36.981462+00:00",
   "automation": {
     "schedule": "08:00 et 18:00",
     "schedules": [
@@ -25647,14 +26029,14 @@ window.LDV_NEWS = {
     "sources": [
       {
         "source": "Sénat — Défense",
-        "ok": true,
-        "recentItems": 1,
-        "error": null
+        "ok": false,
+        "recentItems": 0,
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
       },
       {
         "source": "Ministère britannique de la Défense",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 3,
         "error": null
       },
       {
@@ -25684,13 +26066,13 @@ window.LDV_NEWS = {
       {
         "source": "Blablachars",
         "ok": true,
-        "recentItems": 4,
+        "recentItems": 5,
         "error": null
       },
       {
         "source": "Forces Operations Blog",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       },
       {
@@ -25702,18 +26084,18 @@ window.LDV_NEWS = {
       {
         "source": "Conseil de l’UE — Relations internationales",
         "ok": true,
-        "recentItems": 7,
+        "recentItems": 9,
         "error": null
       },
       {
         "source": "Areion — Géopolitique",
         "ok": true,
-        "recentItems": 5,
+        "recentItems": 4,
         "error": null
       }
     ],
-    "newItems": 12,
-    "articleImages": 626,
+    "newItems": 11,
+    "articleImages": 635,
     "duplicateHeadlinesSkipped": 0
   }
 };
